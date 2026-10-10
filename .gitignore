@@ -1,0 +1,17 @@
+# Secrets
+.env
+.env.*
+
+# Private inputs (collection export, store sessions)
+data/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+
+# Editor / local Claude settings
+.vscode/
+.claude/settings.local.json

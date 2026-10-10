@@ -1,0 +1,4 @@
+# Initial dependencies; extend as the tooling research phase decides.
+requests
+pandas
+pytest

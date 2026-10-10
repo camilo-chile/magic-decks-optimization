@@ -1,0 +1,12 @@
+#!/bin/sh
+# Blocks commits unless the repo-local git identity is the personal one.
+# Enabled with: git config --local core.hooksPath .githooks
+
+EXPECTED_EMAIL="camiloy.94@gmail.com"
+email="$(git config user.email)"
+
+if [ "$email" != "$EXPECTED_EMAIL" ]; then
+  echo "Commit blocked: git user.email is '$email', expected '$EXPECTED_EMAIL'." >&2
+  echo "Set it for this repo only: git config --local user.email $EXPECTED_EMAIL" >&2
+  exit 1
+fi

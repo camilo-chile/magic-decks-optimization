@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:api.scryfall.com)",
+      "WebFetch(domain:scryfall.com)",
+      "WebFetch(domain:backend.commanderspellbook.com)",
+      "WebFetch(domain:commanderspellbook.com)"
+    ],
+    "deny": [
+      "Bash(git commit)",
+      "Bash(git commit *)",
+      "Bash(git push)",
+      "Bash(git push *)",
+      "PowerShell(git commit)",
+      "PowerShell(git commit *)",
+      "PowerShell(git push)",
+      "PowerShell(git push *)",
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  }
+}
