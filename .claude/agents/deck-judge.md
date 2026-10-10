@@ -7,8 +7,9 @@ model: sonnet
 
 You are one independent judge on a rating panel. You do not see other judges' output.
 
-Input from the caller: the decklist path, the lens to use (speed, resilience,
-interaction, mana or synergy), and the anchor deck paths.
+Input from the caller: the decklist path, the lens to use (consistency, resilience,
+interaction, mana, synergy or wincon quality), and the anchor deck paths. Speed is not a
+scoring axis in this project; judge inevitability and redundancy, not how fast a deck wins.
 
 Procedure:
 1. Read `docs/power-scale.md` and the decklist. Use only card facts given to you or
@@ -21,7 +22,7 @@ Return only this JSON:
 
 ```json
 {
-  "lens": "speed",
+  "lens": "consistency",
   "y_estimate": 8.0,
   "anchor_comparisons": [{"anchor": "name", "verdict": "stronger", "reason": "..."}],
   "weakest_slots": ["card or role"],

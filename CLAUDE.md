@@ -57,3 +57,6 @@ stock in Chilean stores. The project is also a vehicle for learning modern AI to
 - ManaBox deck links are JS-rendered and cannot be fetched; use a text export.
 - Static HTML or search snippets are not evidence of stock. See the `check-stock` skill.
 - Bracket rules change over time; always cite the date of the rules snapshot used.
+- Speed ("win by turn N") is not a goal or a gate in this project; only bracket rules and
+  budget bound a deck. Only Game Changers are an exact bracket count; the rest is intent.
+- Use the Scryfall and Commander Spellbook JSON APIs only; do not read their HTML pages.

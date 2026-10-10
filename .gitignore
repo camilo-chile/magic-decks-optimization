@@ -5,6 +5,9 @@
 # Private inputs (collection export, store sessions)
 data/raw/
 
+# Raw research notes (the distilled report lives in docs/research/)
+research_notes/
+
 # Python
 __pycache__/
 *.py[cod]
