@@ -21,8 +21,8 @@ The conda environment is created in conda's default location; only `requirements
 lives in the repo.
 
 ```
-conda create -n magic-decks-optimization python=3.12
-conda activate magic-decks-optimization
+conda create -n magic-decks python=3.12
+conda activate magic-decks
 pip install -r requirements.txt
 ```
 
