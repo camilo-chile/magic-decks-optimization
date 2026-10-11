@@ -23,18 +23,24 @@ separation; none may be frozen before that.
 | Absolute `y_estimate` per lens is not a reliability statistic | Six lenses measure six constructs; their spread is the deck's profile, not error |
 
 ## The panel
-8 judges, equal weight in the fit:
+10 judges (user decision, 2026-10-11), equal weight in the fit:
 
 | Judges | Model | Note |
 |---|---|---|
 | 3 | Opus 5.5 | |
 | 3 | Sonnet 5.5 | |
 | 1 | Haiku 5.5 | Most likely to be dropped by qualification |
-| 1 | Qwen3.8 27B, local | `qwen3.8:27b` in Ollama (Q4_K_M, about 17 GB, Apache 2.0; fits a 24 GB RTX 3090). A different family, so its errors correlate less with the rest. Called by the user-run runner through Ollama's local API |
+| 3 | Qwen3.8 27B, local | `qwen3.8:27b` in Ollama (Q4_K_M, about 17 GB, Apache 2.0; fits a 24 GB RTX 3090). A different family, so its errors correlate less with the Anthropic judges. Called by the user-run runner through Ollama's local API |
 
 Every judge must pass the qualification test (below); a judge that fails is dropped and
 logged. The local model is never used where it is not measured to help; it is not a builder
 or a stock verifier.
+
+Caveat: three judges of the same model are replicates (different paraphrases and fresh
+contexts), not three independent opinions. They reduce sampling noise, not shared bias, and
+the 10 judges carry roughly 2 to 3 independent votes (two families: Anthropic and Qwen).
+Phase 5 measures the effective number of judges and tests whether the local replicates
+add information over a single one; if they do not, they are cut to one.
 
 ## Proposed protocol
 1. **Frozen, hashed inputs.** Candidate list with names canonicalized to Scryfall oracle
@@ -87,7 +93,7 @@ or a stock verifier.
 | 0 | Every candidate | Layer A (deterministic code) and the speed-risk simulation | none |
 | 1 | Every budget point | Surrogate level `Y_hat` from the optimizer, computed from the ablation ranking (a script, not a model) | none |
 | 2 | 2-3 checkpoints of the curve, during iteration | Reduced panel: J = 4 (2 Opus, 2 Sonnet), A = 5, P = 6, R = 2 | (R+1) * J * (2A+P) = 192 |
-| 3 | The lists the user will actually consider | Full panel: J = 8, A = 7, P = 14, R = 4 | 1,120, of which 140 are local |
+| 3 | The lists the user will actually consider | Full panel: J = 10, A = 7, P = 14, R = 4 | 1,400, of which 420 are local |
 
 The runner writes each judgment to JSONL as it goes and resumes after an interruption, so a
 usage limit only pauses it. Anchor sets add `J * A * (A - 1)` calls once per model version.
@@ -193,8 +199,8 @@ a separate, frozen test panel; this reduces, but does not remove, shared misjudg
 | D8 | The user does not label decks; internet sources and ablations replace human labels |
 | D9 | Stock verifier on Haiku 5.5; if it does not give good results, move to Sonnet 5.5 (measured on about 20 cards of known state) |
 | D10 | Bracket-fit review by the panel only |
-| D14 | Any Anthropic model plus the local `qwen3.8:27b` as a judge, only if it passes qualification; Ollama, manual install |
-| D15 | Wait for the 2026-10-12 rules announcement before Phase 4 |
+| D14 | Any Anthropic model plus the local `qwen3.8:27b` as 3 judge slots, only if it passes qualification; Ollama, manual install |
+| D18 | Language is a per-deck setting with three values: Spanish only, English only, or both. It applies to every card of that deck, owned or bought (a Spanish-only deck cannot use an owned English copy). Cards with no Spanish printing are reported, not silently skipped || D15 | Wait for the 2026-10-12 rules announcement before Phase 4 |
 | D16 | Everything in CLP from the 7 Chilean specialist stores in `data/stores.md` (preference order given); no conversion. No fixed store cap: shipping is a fixed cost per store inside the optimizer, and fewer stores are preferred; the first 3 are the default |
 | D17 | Speed-risk bands: 0-10%, 10-20%, 20-30%, 30-40%, 40% or more (very low to very high); `high` or more fails the bracket-fit review |
 
@@ -210,3 +216,4 @@ a separate, frozen test panel; this reduces, but does not remove, shared misjudg
 |---|---|---|
 | O1 | Whether the stores expose a product JSON that a script can read, and each store's shipping rule and payment fees (read-only, from the stores' own pages; needs the owner's go-ahead) | Before Phase 7 |
 | O2 | Which cards of Toph and Azula are locked (a step after the first rating, Phase 6) | Phase 6 |
+| O3 | Are the cards of the owner's other decks (Modern, Legacy, the Commander precon) reserved, so the 3 project decks never use them? Recommended: yes | Before the full scan |
