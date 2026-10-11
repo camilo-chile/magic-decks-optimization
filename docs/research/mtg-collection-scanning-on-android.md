@@ -160,8 +160,12 @@ When the pilot is done, delete the Pilot binder and Test deck, freeing their con
 | Sleeves | Scanned sleeved: 1 card of 100 never recognized (Cycle of Renewal, TLA 170; added by hand); the basic Forest (TLA) was read as another card about 3 times and discarded. Meets the "at most 1 failure" go rule: scan decks sleeved. Basic lands are the weak spot and carry no budget value, so count them by hand |
 | CSV header (2026-10-11 export) | `Binder Name,Binder Type,Name,Set code,Set name,Collector number,Foil,Rarity,Quantity,ManaBox ID,Scryfall ID,Purchase price,Misprint,Altered,Signed,Condition,Language,Proxy,Purchase price currency,Added` |
 | CSV content for Toph | 86 rows, quantity 100, `Binder Type = deck`, `Binder Name = Toph`, every row `normal`, `near_mint`, `Proxy false`; `Added` identical on all rows (so it is not a scan time); `Purchase price` is ManaBox's own USD figure and is ignored |
-| **Language in the CSV** | **All 86 rows say `en` (100 copies English, 0 Spanish)**, while the owner recalls about 6 Spanish cards. Unresolved: either the scanner did not store Spanish for those cards or the export drops it. Check one known Spanish card inside the app |
-| Still unverified | Whether deck rows are separate copies from binder rows; Scryfall resolution of every printing; backup status; container limit |
+| **Language in the CSV** | **All 86 rows say `en` (100 copies English, 0 Spanish)**, while the owner recalls about 6 Spanish cards. Resolved the same day: a physical Spanish Vibrant Cityscape (SPM 188) also shows as English inside the app, so the export is faithful and **the scanner did not store Spanish**. Fix: edit the language of those cards in the app (pencil icon, or bulk edit) and re-export; for the full run, verify the language of the first cards of every pile before continuing |
+| Scanner language control | The language selector in the scanner (`en`) does **not** change what is saved: Spanish cards scanned with it set to Spanish were still stored as `en` (user-reported) |
+| Manual language edit | Works and survives the export: after editing one card, the CSV row says `es` and nothing else changes; its `Scryfall ID` is still the English record's (confirms the earlier finding on a real Spanish row) |
+| Online validation (2026-10-11) | All 86 printings resolve on Scryfall, names match their set and number, all Commander-legal, all inside the commander's color identity, no tokens or oversized cards; 1 Game Changer (Crop Rotation) |
+| Workflow consequence | Scan each language pile in its own session, then bulk-set the language of the whole pile before adding it to a deck or binder; check the language of the first cards of every pile in the CSV |
+| Still unverified | Whether deck rows are separate copies from binder rows; backup status; container limit |
 
 Check with `scripts/validate_deck_export.py` (run by the owner).
 
