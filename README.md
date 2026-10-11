@@ -1,7 +1,9 @@
 # magic-decks-optimization
 
-Build one new Commander deck and upgrade two existing ones to the top of Bracket 3 ("3.9"
-on a custom power scale), within a budget, using verified real stock in Chilean stores.
+Build one new Commander deck and upgrade two existing ones as high inside Bracket 3 as the
+budget allows ("3.9" is the top of a custom power scale), using verified real stock in
+Chilean stores. The result is a budget curve (100,000 to 300,000 CLP) and a dashboard; the
+decks are kept at parity (within 0.2 points) and the owner picks the budget.
 
 | Deck | Commander | Goal |
 |---|---|---|
@@ -18,18 +20,19 @@ on a custom power scale), within a budget, using verified real stock in Chilean 
 | 3 | Synergy research per commander (EDHREC, Scryfall, Commander Spellbook); can run in parallel with Phase 1 | Phase 0 | Pending |
 | 4 | Reference builds and anchor ladders per commander; the user signs off each reference | Phases 2 and 3, decisions D7, D10-D12, the rules re-check after 2026-10-12 | Pending |
 | 5 | Validate the rating method with evals and freeze the protocol | Phases 2 and 4, approved protocol | Pending |
-| 6 | Rate Toph and Azula on the scale | Phases 1, 2 and 5 | Pending |
-| 7 | Feasibility: price the reference lists minus owned cards (price model: cheapest legal EN/ES printing in USD, a dated exchange rate, a CLP store multiplier, a shipping model; decision D16) | Phases 1 and 4 | Pending |
-| 8 | Global allocation across the 3 decks; candidate and swap lists | Phases 6 and 7 | Pending |
+| 6 | Rate Toph and Azula on the scale; the owner then picks the cards of each deck to lock | Phases 1, 2 and 5 | Pending |
+| 7 | Feasibility: price the reference lists minus owned cards, in CLP, from the catalogs of the stores the owner names (price reading only; stock is verified later) | Phases 1 and 4, and the store list | Pending |
+| 8 | Global allocation across the 3 decks and the budget curve (100,000-300,000 CLP, steps of 50,000, parity within 0.2); candidate and swap lists; dashboard | Phases 6 and 7 | Pending |
 | 9 | Choose stores and collect offers with verified real stock for the Phase 8 shortlist | Phase 8 | Pending (late) |
-| 10 | Joint optimization (allocation plus purchase, at most 3 stores, shipping); backtrack when stock fails (at most 5 rounds, each re-rated with a reduced rule) | Phase 9 | Pending |
+| 10 | Joint optimization (allocation plus purchase, at most the stores the owner lists, shipping); backtrack when stock fails (at most 5 rounds, each re-rated with a reduced rule) | Phase 9 | Pending |
 | 11 | Rules freshness check, test-panel rating of the frozen lists, stock re-check of the chosen offers within 24 h, pull list (owned cards to take out per deck), purchase by the user, reconciliation (bought versus planned, collection updated). If the rating fails: back to Phase 8 once, then the D2 fallback | Phase 10 | Pending |
 
 Status as of 2026-10-10.
 
 ## Constraints
-- Budget: 200,000 CLP in total, only for cards and shipping (payment fees count if a store
-  charges them at checkout, decision D6 pending); max 3 stores; owned cards first.
+- Budget: chosen by the owner from the curve, between 100,000 and 300,000 CLP, only for
+  cards and shipping (payment fees count if a store charges them); owned cards are free.
+- Stores: Chilean specialist shops named by the owner; all prices in CLP, no conversion.
 - Free tools only: no paid apps or subscriptions (an exception needs the user's approval).
 - Cards to buy: English or Spanish printings only, the cheaper one preferred.
 - Collection: mixed Spanish and English cards; the 2 decks are sleeved; scanning is done

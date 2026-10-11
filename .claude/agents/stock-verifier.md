@@ -2,7 +2,7 @@
 name: stock-verifier
 description: Verifies real stock and price of specific cards on the allowlisted Chilean store websites using the real browser. Read-only. Use only from the check-stock skill.
 tools: mcp__claude-in-chrome__tabs_context_mcp, mcp__claude-in-chrome__tabs_create_mcp, mcp__claude-in-chrome__navigate, mcp__claude-in-chrome__get_page_text, mcp__claude-in-chrome__read_page, mcp__claude-in-chrome__find, mcp__claude-in-chrome__tabs_close_mcp
-model: sonnet
+model: haiku
 ---
 
 You verify stock for the cards and stores the caller gives you, using Claude in Chrome.

@@ -1,6 +1,6 @@
-# Power scale (v0.4)
+# Power scale (v0.5)
 
-Status: v0.4 draft. Rules snapshot: the Wizards update of 2026-02-09, verified on
+Status: v0.5 draft. Rules snapshot: the Wizards update of 2026-02-09, verified on
 2026-10-10 and again on 2026-10-11 by independent fact-checks; the Brackets system is
 still labelled "beta".
 Re-check after Wizards' announcement of 2026-10-12. Source report:
@@ -25,19 +25,23 @@ strong synergy and solid win conditions, without meeting any Bracket 4 condition
 - Not monotonic across brackets: X is a rules ceiling, not a win-rate ranking. A well-built
   `3.9` can beat a poorly built `4.1`. Comparing across a boundary would need simulated pods
   (optional future work).
-- Speed is not a target and not a gate (user decision, 2026-10-10). We do not aim at "win on
-  turn N". Wizards' benchmark (Bracket 3: at least 6 turns before a game ends) is recorded
-  as context only. An informational, non-gating flag "threatens lethal before its own turn
-  7" is proposed in the decisions file for the user to accept or reject.
+- Speed is not a target. We do not aim at "win on turn N". Wizards' benchmark (Bracket 3: at
+  least 6 turns before a game ends) is context. A qualitative **speed-risk flag** (user
+  decision, 2026-10-11) says how often the deck could threaten lethal before its own turn 7:
+  `very low`, `low`, `medium`, `high`, `very high`, from a Monte Carlo goldfish script
+  (order of magnitude, never an exact percentage). Proposed bands of the simulated
+  frequency: under 5%, 5-15%, 15-25%, 25-40%, 40% or more. `high` or `very high` (more than
+  1 game in 4) means the deck is probably playing above Bracket 3 by intent; it feeds the
+  bracket-fit review as a reason to fail and never changes Layer A's floor by itself.
 - Intent cannot be computed. A checker only produces a minimum bracket (floor) plus flags,
   never an exact bracket. Bracket 5 is only ever declared by the user.
-- Y is not yet defined relative to a commander. Whether `Y = 9` means "the no-budget best list
-  for this commander under Bracket 3 rules" is decision D1 in the proposals file. Game
-  Changer prices vary widely: of the 51 that fit at least one of our three color identities,
-  the cheapest printing costs under USD 40 for 29, USD 40-120 for 11 and over USD 120 for 11
-  (Scryfall `prices.usd`, 2026-10-10). The whole budget is about USD 204 (200,000 CLP at
-  981.61 CLP/USD, the dólar observado of 2026-10-09 per mindicador.cl), so a budget deck may
-  never reach an absolute 9. Chilean store prices in CLP decide the real cost.
+- Y is relative to each commander (user decision, 2026-10-11): `Y = 9` means "the no-budget
+  best list for this commander under Bracket 3 rules". Y values of different commanders are
+  comparable only through the global ablation constant (see the rating protocol).
+- Every price in this project is in CLP, taken from the Chilean stores the user names
+  (specialist shops such as Pay2Win and Magic4Ever; never marketplaces or private sellers).
+  There is no currency conversion anywhere. Card prices are not known until those stores'
+  catalogs are read, so a card's cost is `unknown` before that, never an estimate.
 
 ## Layer A: deterministic gate (floor and flags)
 Rules snapshot (as of 2026-02-09, beta):
@@ -93,24 +97,38 @@ is not approved yet. Constraints that hold regardless of the final method:
   anonymized deck IDs, with oracle text, type line, mana value and color identity for every
   card in both lists. Its file name carries only a comparison ID.
 - Bracket-fit review (proposed, decision D10): a written check that the list fits Bracket 3
-  intent beyond Layer A, drafted by Claude and signed off by the user. Inputs: Layer A
-  review flags, any stax or lock plan, the role of each Game Changer, and whether the deck
-  tends to end the game before its own turn 7. Output: pass or fail with reasons, saved in
-  the rating report.
+  intent beyond Layer A, decided by at least 3 isolated judges (no user step; the user does
+  not rate decks). Inputs: Layer A review flags, any stax or lock plan, the role of each
+  Game Changer, and the speed-risk flag. Output: pass or fail with reasons, saved in the
+  rating report.
 - Judges give a pairwise verdict against anchor decks, never an invented absolute number.
 - The panel mixes models, weighted toward the strongest, and the resolved model IDs are
   recorded in every report.
-- Averaging reduces variance, not shared bias. Anchors, human labels and Layer A correct it.
+- Averaging reduces variance, not shared bias. Anchors, human labels found on the internet
+  and Layer A correct it. The user does not rate decks. The only human signal available is
+  coarse: bracket labels that deck authors gave their own public lists (Bracket 3 versus 4),
+  and community averages per commander. There is no public ground truth for Y inside a
+  bracket, so every report states that Y is "consensus of the panel relative to the
+  anchors", not a verified truth.
 
-## Acceptance of 3.9
-Pending the decisions in the proposals file. The earlier draft (median of Y at least 8.5,
-interval half-width at most 0.5, retest within 0.5) was withdrawn: simulations showed it can
-accept a biased deck and reports intervals that are too narrow when judges are correlated.
-
-Whatever rule is chosen must at least require: Layer A floor of 3 or less with no flag that
-implies Bracket 4; the bracket-fit review; a frozen list before the confirmation run; and
-rounding defined as half up (`floor(y + 0.5)`) for display, using the continuous value for
-the decision.
+## Goal and acceptance (replaces "all 3 at 3.9 before buying anything")
+Nothing is bought until the user picks a budget from the **budget curve**.
+- For each budget point (100,000 to 300,000 CLP in steps of 50,000; the user's floor and
+  ceiling) the optimizer builds the 3 decks together so that they reach the highest level
+  they can **at parity**: the 3 decks within 0.2 points of each other, maximizing the lowest.
+- The curve plots budget against the level of each deck and their spread, with uncertainty
+  bands. Differences smaller than the measured run-to-run spread are shown as "not
+  distinguishable".
+- The user chooses the budget and the card list that suit them. 3.9 is the top of the scale
+  and is probably out of reach inside 300,000 CLP; the curve shows where it flattens.
+- A list is eligible at any point only with: Layer A floor of 3 or less with no flag that
+  implies Bracket 4; the bracket-fit review passed; a frozen list before the confirmation
+  run; verified stock; and rounding defined as half up (`floor(y + 0.5)`) for display, using
+  the continuous value for the decision.
+- The earlier acceptance draft (median of Y at least 8.5, interval half-width at most 0.5,
+  retest within 0.5) was withdrawn: it can accept a biased deck and its intervals are too
+  narrow when judges are correlated. The statistical rule per budget point is in the
+  rating protocol.
 
 ## Data sources
 | Need | Source |
@@ -128,6 +146,11 @@ text).
 - The planned tests are listed in `evals/README.md`.
 
 ## Changelog
+- v0.5 (2026-10-11): user decisions. Goal changed from "all 3 at 3.9" to a budget curve
+  (100,000-300,000 CLP, parity within 0.2); all prices in CLP from the user's named Chilean
+  stores, no currency conversion; speed-risk flag made qualitative (5 levels, Monte Carlo)
+  and used by the bracket-fit review; no human rating by the user; Y relative to each
+  commander.
 - v0.4 (2026-10-10): second audit. Commander-effects row rebuilt around Spellbook combos
   that contain the commander (Toph has one-card combos; Alexios's giveaway is not a flag);
   a multiplied extra-turn card counts as 2; Game Changer price claim replaced by measured

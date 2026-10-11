@@ -5,21 +5,11 @@
       "WebFetch(domain:api.scryfall.com)",
       "WebFetch(domain:backend.commanderspellbook.com)"
     ],
-    "ask": [
-      "Edit(./.githooks/**)",
-      "Edit(./.gitignore)",
-      "Edit(./.gitattributes)",
-      "Edit(./.claude/settings.json)",
-      "Edit(./.claude/settings.local.json)",
-      "Edit(./.claude/hooks/**)"
-    ],
     "deny": [
       "Bash(git commit *)",
       "Bash(git push *)",
       "PowerShell(git commit *)",
-      "PowerShell(git push *)",
-      "Read(**/.env)",
-      "Read(**/.env.*)"
+      "PowerShell(git push *)"
     ]
   },
   "hooks": {

@@ -1,8 +1,9 @@
 # magic-decks-optimization
 
-Build 1 new Commander deck and upgrade 2 existing ones, all to the top of Bracket 3
-("3.9" on our custom power scale), within a purchase budget, using verified real
-stock in Chilean stores. The project is also a vehicle for learning modern AI tooling.
+Build 1 new Commander deck and upgrade 2 existing ones as high inside Bracket 3 as the
+budget allows ("3.9" is the top of our custom power scale), using verified real stock in
+Chilean stores. The output is a budget curve; the user picks the budget. The project is also
+a vehicle for learning modern AI tooling.
 
 ## Decks
 | Role | Commander | Slug |
@@ -12,16 +13,25 @@ stock in Chilean stores. The project is also a vehicle for learning modern AI to
 | UPGRADE | Fire Lord Azula | `fire-lord-azula` |
 
 ## Hard constraints
-- Target: all 3 decks at 3.9 (spec: `docs/power-scale.md`). Never meet Bracket 4 conditions.
-  Decisions D1 and D2 in `docs/proposals/rating-protocol.md` may redefine Y and this goal.
-- Budget: 200,000 CLP in total for all purchases (cards and shipping; payment fees count
-  if a store charges them at checkout, decision D6 pending), max 3 Chilean stores, owned
-  cards first.
+- Goal (user decision, 2026-10-11): the 3 decks as strong as possible **at parity** (within
+  0.2 points) for each budget from 100,000 to 300,000 CLP in steps of 50,000. The output is
+  a budget curve and a dashboard; the user then picks the budget and the cards. 3.9 is the
+  top of the scale and probably not reachable inside 300,000 CLP. Spec:
+  `docs/power-scale.md`. Never meet Bracket 4 conditions.
+- Budget: the user's pick from that curve, never above 300,000 CLP; checkout totals for
+  cards and shipping (payment fees count if a store charges them), owned cards free.
+- Stores: Chilean specialist shops the user names (Pay2Win, Magic4Ever, perhaps 1 or 2 more
+  of the same kind), never marketplaces or private sellers; buy from at most the stores the
+  user lists. Every price is in CLP; there is no currency conversion anywhere.
 - Every card to buy must have verified stock > 0 at decision time. If stock fails, re-plan
   (backtrack). Never leave an unverified card in a final list.
-- Nothing is bought before the final lists pass the acceptance rule in
-  `docs/power-scale.md`. That rule is pending the decisions listed in
+- Nothing is bought before the chosen lists are eligible under `docs/power-scale.md`
+  (Layer A, bracket-fit review, frozen list, verified stock). The rating protocol is in
   `docs/proposals/rating-protocol.md`.
+- The user does not rate decks. Any human signal comes from the internet; Y is reported as
+  the panel's consensus relative to anchors, not as verified truth.
+- A local judge (`qwen3.8:27b` through Ollama) joins the panel only if it passes the
+  qualification test. The user installs Ollama and the model manually, following steps.
 - The user makes every purchase. Claude never adds to a cart, checks out, signs in,
   accepts terms or submits forms on a store.
 - Free tools only: no paid apps or subscriptions; an exception needs the user's explicit
@@ -85,12 +95,12 @@ stock in Chilean stores. The project is also a vehicle for learning modern AI to
 | `docs/proposals/` | Designs awaiting the user's decision |
 | `docs/research/` | Distilled research reports (dated) |
 | `decks/<commander-slug>.txt` | Decklist: `1 <English card name>` per line, the commander under `// Commander`; a ManaBox `(SET) 123` suffix is allowed |
-| `decks/<commander-slug>.locked.txt` | Cards the user will not change (per D5, pending) |
+| `decks/<commander-slug>.locked.txt` | Cards the user keeps no matter what, chosen in Phase 6 after rating the current decks |
 | `decks/<commander-slug>.layer_a.json`, `.cards.json` | Layer A output and card facts, written by a script the user runs |
 | `decks/reports/` | Rating reports |
 | `data/raw/` | Private inputs such as the collection export (git-ignored) |
 | `data/cache/` | Downloaded bulk data from Scryfall and Commander Spellbook (git-ignored) |
-| `data/stores.md` | Allowlist of stores with domain, shipping rule, payment fees and date checked (created in Phase 9) |
+| `data/stores.md` | Allowlist of stores with domain, shipping rule, payment fees and date checked (created when the user names the stores, before Phase 7) |
 | `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) |
 | `scripts/` | Python the user runs himself |
 | `tests/` | Offline tests and API fixtures (`pytest`) |
@@ -107,7 +117,8 @@ stock in Chilean stores. The project is also a vehicle for learning modern AI to
 - Static HTML, search snippets and WebFetch summaries are not evidence of stock or of card
   text. See the `check-stock` skill.
 - Bracket rules change over time; always cite the date of the rules snapshot used.
-- Speed ("win by turn N") is not a goal or a gate in this project; only bracket rules and
-  budget bound a deck. Only Game Changers are an exact bracket count; the rest is intent.
+- Speed ("win by turn N") is not a goal. It appears only as a qualitative 5-level risk flag
+  (`very low` to `very high`) from a Monte Carlo script, used by the bracket-fit review.
+  Only Game Changers are an exact bracket count; the rest is intent.
 - Use the Scryfall and Commander Spellbook JSON APIs, not their HTML pages. EDHREC's JSON
   endpoints are undocumented: whether to use them is decided in the synergy phase.
