@@ -2,11 +2,16 @@
 .env
 .env.*
 
-# Private inputs (collection export, store sessions)
+# Private inputs (raw collection exports)
 data/raw/
 
-# Raw research notes (the distilled report lives in docs/research/)
+# Downloaded bulk data (Scryfall, Commander Spellbook); large and re-downloadable
+data/cache/
+
+# Raw research notes (distilled reports live in docs/research/)
 research_notes/
+# Scratch output of research tooling (anchored so decks/reports/ stays versioned)
+/reports/
 
 # Python
 __pycache__/
@@ -15,6 +20,7 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 
-# Editor / local Claude settings
+# Editor and local Claude files
 .vscode/
+CLAUDE.local.md
 .claude/settings.local.json

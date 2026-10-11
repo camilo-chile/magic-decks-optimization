@@ -1,12 +1,22 @@
 #!/bin/sh
-# Blocks commits unless the repo-local git identity is the personal one.
-# Enabled with: git config --local core.hooksPath .githooks
+# Blocks commits unless both the author and the committer identity are the personal one.
+# Covers git config, GIT_AUTHOR_* variables and --author. Enable with:
+#   git config --local core.hooksPath .githooks
+
+# On Windows the PATH can list a WSL directory first whose binaries fail to run; put the
+# Git for Windows tools first.
+PATH="/usr/bin:/bin:$PATH"
+export PATH
 
 EXPECTED_EMAIL="camiloy.94@gmail.com"
-email="$(git config user.email)"
 
-if [ "$email" != "$EXPECTED_EMAIL" ]; then
-  echo "Commit blocked: git user.email is '$email', expected '$EXPECTED_EMAIL'." >&2
-  echo "Set it for this repo only: git config --local user.email $EXPECTED_EMAIL" >&2
-  exit 1
-fi
+author_email="$(git var GIT_AUTHOR_IDENT 2>/dev/null | sed -n 's/^.*<\(.*\)>.*$/\1/p')"
+committer_email="$(git var GIT_COMMITTER_IDENT 2>/dev/null | sed -n 's/^.*<\(.*\)>.*$/\1/p')"
+
+for email in "$author_email" "$committer_email"; do
+  if [ "$email" != "$EXPECTED_EMAIL" ]; then
+    echo "Commit blocked: identity email is '$email', expected '$EXPECTED_EMAIL'." >&2
+    echo "Set it for this repo only: git config --local user.email $EXPECTED_EMAIL" >&2
+    exit 1
+  fi
+done

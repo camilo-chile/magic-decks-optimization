@@ -1,0 +1,147 @@
+# ===== must ALLOW (0): read-only git and unrelated commands
+0	Bash	git status
+0	Bash	git status --short
+0	Bash	git
+0	Bash	git -C . status
+0	Bash	git -C C:/Users/Usuario/Documents/Projects/mazos_magic status
+0	PowerShell	git -C C:\Users\Usuario\Documents\Projects\mazos_magic log --oneline -5
+0	Bash	git --no-pager log --oneline -5
+0	Bash	git -P diff
+0	Bash	git -C . --no-pager diff --stat
+0	Bash	git diff HEAD --stat
+0	Bash	git diff --cached
+0	Bash	git diff HEAD~1 -- docs/power-scale.md
+0	Bash	git log --grep=commit --oneline
+0	Bash	git log -p -1 -- README.md
+0	Bash	git log --format="%h|%s" -5
+0	Bash	git log --format=%h,%s -5
+0	Bash	git show HEAD:CLAUDE.md
+0	Bash	git ls-files --others --exclude-standard
+0	Bash	git check-ignore -v decks/reports/x.md
+0	Bash	git check-attr -a .githooks/pre-commit
+0	Bash	git var GIT_AUTHOR_IDENT
+0	Bash	git rev-parse --show-toplevel
+0	Bash	git blame README.md
+0	Bash	git grep -n "Phase 9"
+0	Bash	git shortlog -sn
+0	Bash	git describe --tags --always
+0	Bash	git cat-file -p HEAD
+0	Bash	git ls-tree -r HEAD --name-only
+0	Bash	git help commit
+0	Bash	git --version
+0	Bash	git version
+0	Bash	git config --local --list
+0	Bash	git config --get core.hooksPath
+0	Bash	git config --show-origin --get user.email
+0	Bash	git config get user.email
+0	Bash	git config list --local
+0	Bash	git branch
+0	Bash	git branch -a
+0	Bash	git branch --show-current
+0	Bash	git remote -v
+0	Bash	git remote get-url origin
+0	Bash	git status && git log --oneline -3
+0	Bash	git status; echo done
+0	Bash	GIT_PAGER=cat git log -1
+0	PowerShell	& "C:\Program Files\Git\cmd\git.exe" status
+0	PowerShell	& "C:\Program Files\Git\cmd\git.exe" log -1 --oneline
+0	PowerShell	where.exe git
+0	PowerShell	Get-Command git
+0	PowerShell	Write-Output "use git status"
+0	Bash	echo hello
+0	PowerShell	Get-ChildItem -Force .git
+0	Bash	ls -la .githooks
+0	Bash	cat .gitignore
+0	PowerShell	Get-Content research_notes/git-ignored.md
+0	Bash	curl -s -o x.json "https://api.github.com/repos/camilo-chile/magic-decks-optimization"
+0	Bash	sh C:/Users/Usuario/AppData/Local/Temp/claude/x/run.sh
+0	Bash	git status	Avoid git commit and git push here
+# ===== must BLOCK (2): state-changing git in common spellings
+2	Bash	git commit -m x
+2	Bash	git push origin main
+2	Bash	git -C . push
+2	Bash	git -c push.default=current push
+2	Bash	git add .
+2	Bash	git --no-pager commit -m x
+2	Bash	git stash
+2	Bash	git stash list
+2	PowerShell	git.exe checkout main
+2	Bash	cd x && git reset --hard
+2	Bash	git -C C:/x commit -am y
+2	Bash	GIT_AUTHOR_NAME=a git commit -m z
+2	Bash	GIT_DIR=../other/.git git commit -m z
+2	Bash	git status; git commit -m x
+2	Bash	git status<NL>git commit -m x
+2	Bash	git log | xargs git commit
+2	Bash	git restore README.md
+2	Bash	git switch -c x
+2	Bash	git revert HEAD
+2	Bash	git cherry-pick abc
+2	Bash	git merge main
+2	Bash	git rebase main
+2	Bash	git tag v1
+2	Bash	git am p.patch
+# ===== must BLOCK (2): subcommands missing from the old blocklist
+2	Bash	git pull
+2	Bash	git fetch origin
+2	Bash	git clean -fdx
+2	Bash	git rm -r docs
+2	Bash	git mv a b
+2	Bash	git apply --index p.diff
+2	Bash	git worktree add ../x
+2	Bash	git update-index --assume-unchanged a
+2	Bash	git submodule update --init
+2	Bash	git notes add -m x
+2	Bash	git replace a b
+2	Bash	git init
+2	Bash	git gc --prune=now
+2	Bash	git hook run pre-commit
+# ===== must BLOCK (2): config, branch and remote writes
+2	Bash	git config --local core.hooksPath ""
+2	Bash	git config user.email someone@example.com
+2	Bash	git config core.hooksPath
+2	Bash	git config set user.email x
+2	Bash	git config --unset core.hooksPath
+2	Bash	git config --list --add x y
+2	Bash	git branch -D main
+2	Bash	git branch -f main HEAD~1
+2	Bash	git branch newfeature
+2	Bash	git branch -m old new
+2	Bash	git remote add origin https://example.com/x.git
+2	Bash	git remote set-url origin https://example.com/x.git
+2	Bash	git remote remove origin
+# ===== must BLOCK (2): options that run programs or write files
+2	Bash	git -c alias.x=commit x -m y
+2	Bash	git -c core.pager=less log
+2	Bash	git --git-dir=x status
+2	Bash	git diff --output=docs/x.md
+2	Bash	git log --output=x.txt
+2	Bash	git grep -Ovim foo
+2	Bash	git grep --open-files-in-pager=vim foo
+# ===== must BLOCK (2): quoted paths, variables, arrays, wrappers
+2	PowerShell	& "C:\Program Files\Git\cmd\git.exe" commit -m x
+2	PowerShell	"C:\Program Files\Git\cmd\git.exe" push
+2	PowerShell	$g = "C:\Program Files\Git\cmd\git.exe"; & $g commit -m x
+2	PowerShell	$g = "C:\Program Files\Git\cmd\git.exe"<NL>& $g commit
+2	PowerShell	$g = 'git'; & $g commit
+2	PowerShell	Start-Process git -ArgumentList 'commit','-m','x'
+2	PowerShell	git @('commit','-m','x')
+2	PowerShell	cmd /c "git commit -m x"
+2	Bash	bash -c 'git push'
+2	PowerShell	powershell -Command "git commit -m x"
+2	Bash	python -c "import subprocess; subprocess.run(['git','commit','-m','x'])"
+2	Bash	python -c "import subprocess; subprocess.run([\"git\", \"push\"])"
+2	PowerShell	& "C:\Program Files\Git\mingw64\libexec\git-core\git-commit.exe" -m x
+2	Bash	git-commit -m x
+2	PowerShell	GIT commit -m x
+2	PowerShell	Git.exe push
+2	Bash	g''it commit -m x
+2	Bash	git -C "x;y" commit
+2	Bash	git \<NL>commit -m x
+2	PowerShell	git `<NL>commit -m x
+2	Bash	bash -c "g\"\"it push"
+0	Bash	python -c "print(\"hello\")"
+0	PowerShell	Write-Output 'it''s fine'
+# ===== accepted false positives (2): blocked although harmless
+2	Bash	echo "git commit"
+2	Bash	git; ls
