@@ -29,17 +29,18 @@ strong synergy and solid win conditions, without meeting any Bracket 4 condition
   least 6 turns before a game ends) is context. A qualitative **speed-risk flag** (user
   decision, 2026-10-11) says how often the deck could threaten lethal before its own turn 7:
   `very low`, `low`, `medium`, `high`, `very high`, from a Monte Carlo goldfish script
-  (order of magnitude, never an exact percentage). Proposed bands of the simulated
-  frequency: under 5%, 5-15%, 15-25%, 25-40%, 40% or more. `high` or `very high` (more than
-  1 game in 4) means the deck is probably playing above Bracket 3 by intent; it feeds the
-  bracket-fit review as a reason to fail and never changes Layer A's floor by itself.
+  (order of magnitude, never an exact percentage). Bands of the simulated frequency (user
+  decision, 2026-10-11): 0-10%, 10-20%, 20-30%, 30-40%, 40% or more. `high` or `very high`
+  (30% or more of simulated games) means the deck is probably playing above Bracket 3 by
+  intent; it feeds the bracket-fit review as a reason to fail and never changes Layer A's
+  floor by itself.
 - Intent cannot be computed. A checker only produces a minimum bracket (floor) plus flags,
   never an exact bracket. Bracket 5 is only ever declared by the user.
 - Y is relative to each commander (user decision, 2026-10-11): `Y = 9` means "the no-budget
   best list for this commander under Bracket 3 rules". Y values of different commanders are
   comparable only through the global ablation constant (see the rating protocol).
 - Every price in this project is in CLP, taken from the Chilean stores the user names
-  (specialist shops such as Pay2Win and Magic4Ever; never marketplaces or private sellers).
+  (the 7 specialist shops in `data/stores.md`; never marketplaces or private sellers).
   There is no currency conversion anywhere. Card prices are not known until those stores'
   catalogs are read, so a card's cost is `unknown` before that, never an estimate.
 

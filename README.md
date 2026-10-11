@@ -14,6 +14,7 @@ decks are kept at parity (within 0.2 points) and the owner picks the budget.
 ## Pipeline
 | Phase | What happens | Depends on | Status |
 |---|---|---|---|
+| Base | Harness (CLAUDE.md, skills, agents, hooks, permissions), research reports, decisions, store list | none | Done (committed 2026-10-11) |
 | 0 | Rules snapshot and draft power scale | none | Done (re-check after the 2026-10-12 Wizards announcement) |
 | 1 | Digitize the 2 physical decks and the loose collection | Android phone and a free scanning app | In progress: tooling research done, 100-card pilot next |
 | 2 | Layer A code and golden tests (name resolution, gate, Spellbook) and the card-facts file generator | Phase 1 export format, Phase 0 | Pending |
@@ -32,7 +33,8 @@ Status as of 2026-10-10.
 ## Constraints
 - Budget: chosen by the owner from the curve, between 100,000 and 300,000 CLP, only for
   cards and shipping (payment fees count if a store charges them); owned cards are free.
-- Stores: Chilean specialist shops named by the owner; all prices in CLP, no conversion.
+- Stores: the 7 Chilean specialist shops in `data/stores.md`, the first 3 by default; fewer
+  stores are preferred because of shipping; all prices in CLP, no conversion.
 - Free tools only: no paid apps or subscriptions (an exception needs the user's approval).
 - Cards to buy: English or Spanish printings only, the cheaper one preferred.
 - Collection: mixed Spanish and English cards; the 2 decks are sleeved; scanning is done

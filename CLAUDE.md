@@ -20,9 +20,11 @@ a vehicle for learning modern AI tooling.
   `docs/power-scale.md`. Never meet Bracket 4 conditions.
 - Budget: the user's pick from that curve, never above 300,000 CLP; checkout totals for
   cards and shipping (payment fees count if a store charges them), owned cards free.
-- Stores: Chilean specialist shops the user names (Pay2Win, Magic4Ever, perhaps 1 or 2 more
-  of the same kind), never marketplaces or private sellers; buy from at most the stores the
-  user lists. Every price is in CLP; there is no currency conversion anywhere.
+- Stores: the 7 Chilean specialist shops in `data/stores.md` (in the user's order of
+  preference; the first 3 are the default), never marketplaces or private sellers. Fewer
+  stores are better because each adds shipping; the optimizer finds the best point between
+  stores, shipping and stock, with no fixed cap. Every price is in CLP; there is no currency
+  conversion anywhere.
 - Every card to buy must have verified stock > 0 at decision time. If stock fails, re-plan
   (backtrack). Never leave an unverified card in a final list.
 - Nothing is bought before the chosen lists are eligible under `docs/power-scale.md`
@@ -100,7 +102,7 @@ a vehicle for learning modern AI tooling.
 | `decks/reports/` | Rating reports |
 | `data/raw/` | Private inputs such as the collection export (git-ignored) |
 | `data/cache/` | Downloaded bulk data from Scryfall and Commander Spellbook (git-ignored) |
-| `data/stores.md` | Allowlist of stores with domain, shipping rule, payment fees and date checked (created when the user names the stores, before Phase 7) |
+| `data/stores.md` | Allowlist of stores with domain, shipping rule, payment fees and date checked (created 2026-10-11 with the 7 stores; shipping and fees filled in Phase 7) |
 | `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) |
 | `scripts/` | Python the user runs himself |
 | `tests/` | Offline tests and API fixtures (`pytest`) |

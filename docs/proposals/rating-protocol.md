@@ -104,10 +104,12 @@ Measure `s` in the evals before freezing any threshold.
 
 ## The budget curve
 1. Inputs per budget B: owned cards at cost 0, CLP catalog prices of the user's stores,
-   shipping per store, at most the number of stores the user lists (3, possibly 4).
+   shipping per store as a fixed cost, the 7 stores in `data/stores.md` with their
+   preference order as a tie-break.
 2. The optimizer is an integer program (a solver), not a language model. It maximizes the
    lowest surrogate `Y_hat` over the 3 decks, then the sum, then minimizes cost, subject to
-   the checkout total <= B, at most the allowed stores, verified stock, Layer A floor <= 3,
+   the checkout total <= B (shipping included, which penalizes extra stores), verified
+   stock, Layer A floor <= 3,
    each physical copy in one deck only, locked cards kept, and parity within 0.2.
 3. Tier 2 or 3 ratings validate selected points; the curve shows the surrogate with the
    panel results as marked points.
@@ -147,7 +149,7 @@ A Monte Carlo goldfish script (`scripts/speed_risk.py`, to be written, run by th
 shuffle the 100 cards, draw an opening hand with a fixed mulligan rule, play lands and mana
 rocks, and count how often a known win line (Spellbook combos for the deck, or enough
 commander damage or other burst the script models) is castable by turn 6. It reports a
-frequency used only to place the deck in one of 5 bands; it does not model opposing
+frequency used only to place the deck in one of 5 bands (0-10%, 10-20%, 20-30%, 30-40%, 40% or more); it does not model opposing
 interaction, so it is an upper-ish bound and an order of magnitude. Lines it cannot model
 are listed as "not simulated".
 
@@ -193,7 +195,8 @@ a separate, frozen test panel; this reduces, but does not remove, shared misjudg
 | D10 | Bracket-fit review by the panel only |
 | D14 | Any Anthropic model plus the local `qwen3.8:27b` as a judge, only if it passes qualification; Ollama, manual install |
 | D15 | Wait for the 2026-10-12 rules announcement before Phase 4 |
-| D16 | Everything in CLP from Chilean specialist stores the user names (Pay2Win, Magic4Ever, perhaps 1 or 2 more of the same kind); no conversion; at most as many stores as the user lists |
+| D16 | Everything in CLP from the 7 Chilean specialist stores in `data/stores.md` (preference order given); no conversion. No fixed store cap: shipping is a fixed cost per store inside the optimizer, and fewer stores are preferred; the first 3 are the default |
+| D17 | Speed-risk bands: 0-10%, 10-20%, 20-30%, 30-40%, 40% or more (very low to very high); `high` or more fails the bracket-fit review |
 
 ### Set by default (the user may override)
 | ID | Default |
@@ -205,6 +208,5 @@ a separate, frozen test panel; this reduces, but does not remove, shared misjudg
 ### Still open
 | ID | Question | When |
 |---|---|---|
-| O1 | The list of stores (3, perhaps 4) and whether Pay2Win and Magic4Ever expose a product JSON that a script can read | Before Phase 7 |
+| O1 | Whether the stores expose a product JSON that a script can read, and each store's shipping rule and payment fees (read-only, from the stores' own pages; needs the owner's go-ahead) | Before Phase 7 |
 | O2 | Which cards of Toph and Azula are locked (a step after the first rating, Phase 6) | Phase 6 |
-| O3 | Speed-risk bands (under 5%, 5-15%, 15-25%, 25-40%, 40% or more): adjust if they feel wrong | After the first simulation |
