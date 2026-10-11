@@ -1,16 +1,22 @@
-# Power scale (v0.2)
+# Power scale (v0.4)
 
-Status: v0.2. Rules snapshot is the Wizards update of 2026-02-09, verified on 2026-10-10.
-The Brackets system is still labelled "beta". Review after Wizards' announcement of
-2026-10-12. Source report: [commander-brackets-rules-snapshot](research/commander-brackets-rules-snapshot.md).
+Status: v0.4 draft. Rules snapshot: the Wizards update of 2026-02-09, verified on
+2026-10-10 and again on 2026-10-11 by independent fact-checks; the Brackets system is
+still labelled "beta".
+Re-check after Wizards' announcement of 2026-10-12. Source report:
+[commander-brackets-rules-snapshot](research/commander-brackets-rules-snapshot.md).
+
+The acceptance rule and the rating protocol are **not final**: they wait for the decisions
+in [proposals/rating-protocol.md](proposals/rating-protocol.md). Until then only Layer A
+results are usable and no rating is final.
 
 ## Notation `X.Y`
 | Part | Meaning | Decided by |
 |---|---|---|
-| X (1-5) | Official Commander Bracket: the rules ceiling the deck stays under | Layer A, deterministic |
+| X (1-5) | Official Commander Bracket: the rules ceiling the deck stays under | Layer A gives a floor and flags; intent is a review judgment |
 | Y (1-9) | Build quality inside that bracket. `X.1` = weakest, `X.9` = strongest possible without meeting Bracket X+1 conditions | Layer B, judge panel |
 
-Order: 1.1 < 1.2 < ... < 1.9 < 2.1 < ... < 5.9.
+Label order, not strength order: 1.1 < 1.2 < ... < 1.9 < 2.1 < ... < 5.9.
 
 `3.9` means: every slot is spent on the best cards allowed under Bracket 3 rules, with
 strong synergy and solid win conditions, without meeting any Bracket 4 condition.
@@ -19,13 +25,21 @@ strong synergy and solid win conditions, without meeting any Bracket 4 condition
 - Not monotonic across brackets: X is a rules ceiling, not a win-rate ranking. A well-built
   `3.9` can beat a poorly built `4.1`. Comparing across a boundary would need simulated pods
   (optional future work).
-- Speed is not a target and not a gate (user decision, 2026-10-10). We do not aim at
-  "win on turn N". Wizards' benchmark (Bracket 3: at least 6 turns before a game ends) is
-  recorded as context only. The practical limit is the budget.
+- Speed is not a target and not a gate (user decision, 2026-10-10). We do not aim at "win on
+  turn N". Wizards' benchmark (Bracket 3: at least 6 turns before a game ends) is recorded
+  as context only. An informational, non-gating flag "threatens lethal before its own turn
+  7" is proposed in the decisions file for the user to accept or reject.
 - Intent cannot be computed. A checker only produces a minimum bracket (floor) plus flags,
   never an exact bracket. Bracket 5 is only ever declared by the user.
+- Y is not yet defined relative to a commander. Whether `Y = 9` means "the no-budget best list
+  for this commander under Bracket 3 rules" is decision D1 in the proposals file. Game
+  Changer prices vary widely: of the 51 that fit at least one of our three color identities,
+  the cheapest printing costs under USD 40 for 29, USD 40-120 for 11 and over USD 120 for 11
+  (Scryfall `prices.usd`, 2026-10-10). The whole budget is about USD 204 (200,000 CLP at
+  981.61 CLP/USD, the dólar observado of 2026-10-09 per mindicador.cl), so a budget deck may
+  never reach an absolute 9. Chilean store prices in CLP decide the real cost.
 
-## Layer A: deterministic gate (decides X)
+## Layer A: deterministic gate (floor and flags)
 Rules snapshot (as of 2026-02-09, beta):
 
 | Bracket | Game Changers | Mass land denial | Extra turns | Two-card infinite combos | Tutors |
@@ -36,48 +50,67 @@ Rules snapshot (as of 2026-02-09, beta):
 | 4 Optimized | unlimited | allowed | allowed | allowed | no limit |
 | 5 cEDH | unlimited | allowed | allowed | allowed | no limit |
 
-Tutors lost their restriction on 2025-10-21; the efficient ones are Game Changers anyway.
+Tutors lost their restriction on 2025-10-21; Wizards relies on the Game Changers list to
+catch the most efficient ones, but not every efficient tutor is on it (Demonic Consultation
+is not).
 
-How each rule is checked, and how far it can be trusted:
+How each rule is checked. Provenance: **official** = Wizards defines it and it is
+enumerable; **curated** = needs a list or flag maintained by someone else; **heuristic** =
+a proxy; **policy** = a choice of this project, not a Wizards rule; **control** = an
+integrity check of the pipeline itself.
 
 | Rule | Method | Provenance | Floor / flag |
 |---|---|---|---|
-| Game Changers | Scryfall `is:gamechanger` / `game_changer` field (53 cards on 2026-10-10); commander counts | Official, exact | 0 -> floor 1; 1-3 -> floor 3; 4+ -> floor 4 |
-| Mass land denial | Commander Spellbook card flag plus Wizards' definition ("four or more lands") | Curated | any card -> floor 4 |
-| Extra turns | Spellbook card flag, Scryfall oracle text | Curated | 1 card -> floor 2; 2+ or any chain/infinite-turn combo -> floor 4 |
-| Two-card infinite combos | Spellbook `/find-my-combos` and `/estimate-bracket` (`definitelyTwoCard`, `speed`) | Heuristic | any combo with speed >= 3 -> floor 4; slower ones -> review flag |
-| Legality, 100 cards, color identity | Scryfall | Official | invalid -> reject |
+| Legality, 100 cards, singleton, color identity | Scryfall data | official | invalid -> reject |
+| Game Changers (the commander counts) | Scryfall `is:gamechanger` / `game_changer` | official | 0 -> no constraint; 1-3 -> floor 3; 4+ -> floor 4 |
+| Mass land denial | Spellbook card flag or combo flag `massLandDenial`, plus Wizards' definition (a looped Sundering Titan is not flagged as a card) | curated | any card or combo -> floor 4 |
+| Lock, skipped turns, control of opponents | Spellbook combo flags `lock`, `skipTurns`, `controlAllOpponents`, `controlSomeOpponents` | curated | `controlAllOpponents` -> floor 4; the other three -> review flag (Wizards: a deck that locks players out in a Stax style should bracket up) |
+| Extra turns, per card | Spellbook flag, Scryfall oracle text | curated | 1 card -> floor 2 |
+| Extra turns, count | count of flagged cards; a card multiplied by the commander (Azula copies a spell cast while she attacks) counts as 2 | policy | 2 or more -> policy reject (Wizards allows "low quantities"; Spellbook tags 2+ as Ruthless, so this is the safe side); any chain or infinite-turn combo -> floor 4 |
+| Two-card infinite combos | Spellbook `definitelyTwoCard` or `arguablyTwoCard` with `relevant` or `borderlineRelevant`; `speed`. The commander does not count toward the two cards (Spellbook convention; no Wizards statement recorded) | heuristic | any such combo -> floor 3 or higher (Brackets 1-2 forbid it); `speed >= 3` (about 6 mana or less, or up to 8 when Spellbook's accuracy flag is false) -> floor 4. Over-inclusive on purpose: Spellbook does not separate infinite from finite two-card wins, so a floor 4 here can be overruled in the bracket-fit review with a written reason |
+| Commander effects | (1) Spellbook combos that contain the commander (`find-my-combos` with the commander in `commanders`, `included` and `almostIncluded`); (2) commander text that multiplies a flagged card (copy effects, extra combats) | policy | any combo that uses the commander is reviewed as a floor 4 candidate (Spellbook does not count the commander toward the two-card limit, so commander + 1 card is a one-card combo); a multiplied extra-turn card counts as 2 (conservative: Azula copies only spells cast while she attacks); extra-combat cards are a review note, not a count (not a Wizards category); text that only gives the commander away (Alexios) or changes card types (Toph) is not a flag by itself. Toph has one-card combos with infinite turns, locks, control of an opponent's turns or a forced draw (Gonti's Aether Heart, Mindslaver, The Stasis Coffin, Caged Sun in Spellbook, 2026-10-10), so oracle text alone is not enough. Always send the commander in `commanders` for both `estimate-bracket` and `find-my-combos`: an empty list makes Spellbook count it as an ordinary card |
+| Name resolution | canonicalize every card to a Scryfall oracle ID before any API call | control | recognized cards must equal 100, or stop |
 
-Project parameters (our choices, tunable): the extra-turn limit of 1 card is the safe side
-of Spellbook's threshold (2 cards = its Ruthless tag); the combo speed cut-off treats
-anything cheaper than about 7 mana as early.
+Spellbook silently drops unknown names, so name resolution is a gate, not a convenience.
 
 Each report records: `as_of`, `beta: true`, the Scryfall bulk-data timestamp used for the
-Game Changers list, and Spellbook's tag as cross-check (`R` = 4, `S`/`P` = 3, `O`/`C` = 2,
-`E` = 1; Spellbook never emits 5 and its thresholds differ from Wizards' in places).
+Game Changers list, and Spellbook's tag as cross-check (`R` = 4 flag, `S` = 3 or 4 review,
+`P` = 3, `O` = 2 or 3, `C` = 2, `E` = 1, `B` = banned card, reject; Spellbook never emits 5
+and its thresholds differ from Wizards' in places; its maintainer calls Spicy and Oddball
+"corner case" buckets).
 
-## Layer B: judge panel (decides Y)
-- Judges are independent `deck-judge` agents. Each gets the decklist, this spec, the anchor
-  decks and one lens: consistency, resilience, interaction, mana, synergy, win-condition
-  quality (inevitability and redundancy, not speed).
-- The panel mixes models, weighted toward the strongest (many Opus 5.5 and Sonnet 5.5, few
-  of the others).
-- Judges compare the deck with anchor decks of known level ("stronger or weaker than this
-  one?") instead of inventing an absolute number.
-- Aggregate with the median and report the spread. Add judges in rounds until the 95%
-  interval is within the limit below. Debate only judges that disagree strongly, with
-  evidence, never to reach consensus for its own sake.
-- Judge weights come from agreement with the anchors (calibration), not uniform.
-- Shared model bias is real: averaging reduces variance, not bias. Anchors and Layer A are
-  what correct it.
+Descriptive, non-gating statistics (tutor count, fast mana, average mana value,
+interaction count) are reported separately and never decide X.
 
-## Acceptance of 3.9 (proposed defaults, tune with evals)
-| Condition | Value |
-|---|---|
-| Layer A floor | 3, with no flag that would imply 4 |
-| Panel median of Y | at least 8.5 |
-| 95% interval half-width | at most 0.5 |
-| Test-retest | two independent runs differ by at most 0.5 |
+## Layer B: judge panel (Y)
+The method is proposed in [proposals/rating-protocol.md](proposals/rating-protocol.md) and
+is not approved yet. Constraints that hold regardless of the final method:
+- Judges are independent `deck-judge` agents with CLAUDE.md omitted (`omitClaudeMd`) and
+  only the Read tool. They receive the card-facts file, the anonymized lists and
+  `evals/judge_rubric.md`, and nothing else: no targets, no thresholds, no file names that
+  reveal intent, no output of other judges. A judgment that read any other path is void.
+- Card-facts file: one JSON per comparison, written by the Layer A script, keyed by
+  anonymized deck IDs, with oracle text, type line, mana value and color identity for every
+  card in both lists. Its file name carries only a comparison ID.
+- Bracket-fit review (proposed, decision D10): a written check that the list fits Bracket 3
+  intent beyond Layer A, drafted by Claude and signed off by the user. Inputs: Layer A
+  review flags, any stax or lock plan, the role of each Game Changer, and whether the deck
+  tends to end the game before its own turn 7. Output: pass or fail with reasons, saved in
+  the rating report.
+- Judges give a pairwise verdict against anchor decks, never an invented absolute number.
+- The panel mixes models, weighted toward the strongest, and the resolved model IDs are
+  recorded in every report.
+- Averaging reduces variance, not shared bias. Anchors, human labels and Layer A correct it.
+
+## Acceptance of 3.9
+Pending the decisions in the proposals file. The earlier draft (median of Y at least 8.5,
+interval half-width at most 0.5, retest within 0.5) was withdrawn: simulations showed it can
+accept a biased deck and reports intervals that are too narrow when judges are correlated.
+
+Whatever rule is chosen must at least require: Layer A floor of 3 or less with no flag that
+implies Bracket 4; the bracket-fit review; a frozen list before the confirmation run; and
+rounding defined as half up (`floor(y + 0.5)`) for display, using the continuous value for
+the decision.
 
 ## Data sources
 | Need | Source |
@@ -86,15 +119,25 @@ Game Changers list, and Spellbook's tag as cross-check (`R` = 4, `S`/`P` = 3, `O
 | Combos, bracket tag | Commander Spellbook REST (`POST /estimate-bracket`, `POST /find-my-combos`), at most 80 requests/min, descriptive User-Agent |
 | MCP | None official; plain REST plus bulk data is the chosen path |
 
-Use the API JSON only; do not scrape site HTML pages (they can carry agent-targeted text).
+Use the API JSON only; do not read the sites' HTML pages (they can carry agent-targeted
+text).
 
 ## Anchors and evals
-- `evals/anchors/` holds reference decks with an agreed level. TODO: choose them during
-  the tooling research phase.
-- Test-retest: rate the same deck twice with fresh judges; the method is only trusted if
-  the results agree within tolerance.
+- `evals/anchors/` holds reference decks with a level that is not set by the panel itself.
+  The plan per commander is in the proposals file.
+- The planned tests are listed in `evals/README.md`.
 
 ## Changelog
-- v0.2 (2026-10-10): rules snapshot pinned; speed removed as lens and target; floors and
-  provenance defined; data sources listed.
+- v0.4 (2026-10-10): second audit. Commander-effects row rebuilt around Spellbook combos
+  that contain the commander (Toph has one-card combos; Alexios's giveaway is not a flag);
+  a multiplied extra-turn card counts as 2; Game Changer price claim replaced by measured
+  bands and the USD budget restated; judges isolated from CLAUDE.md; card-facts file and
+  bracket-fit review defined (D10 pending); provenance label "control" defined. After the
+  second rules fact-check (2026-10-11): combo-level mass land denial and a lock / skipped
+  turns / opponent-control row added to Layer A; Spellbook tag mapping made explicit; the
+  two-card predicate marked over-inclusive; The Stasis Coffin added to Toph's one-card combos.
+- v0.3 (2026-10-10): audit corrections. Acceptance withdrawn pending decisions; floors
+  restated with provenance; floor 3 no longer required (0 Game Changers is valid); combo
+  predicate made precise; commander effects and name resolution added; label order noted.
+- v0.2 (2026-10-10): rules snapshot pinned; speed removed as lens and target.
 - v0.1: initial draft.
