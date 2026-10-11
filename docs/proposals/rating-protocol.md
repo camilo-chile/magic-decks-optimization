@@ -128,7 +128,7 @@ Measure `s` in the evals before freezing any threshold.
 |---|---|---|
 | Y = 9 reference | A no-budget best Bracket 3 list drafted by Claude. Accepted by criteria, not by the user: passes Layer A and the bracket-fit review, and wins the panel comparison against the community's Bracket 3 average deck | Top of the scale |
 | Ablation ladder | The reference with its best k non-land slots replaced, nested, for k in {2, 4, 6, 10, 20} (add 30 if the current decks fall below). Labels `Y = 9 - k/4`; the constant is fixed for all commanders before Phase 5 and never changed after a candidate is seen | Known order without any LLM; k = 2 sits at 8.5 and k = 4 at 8.0 |
-| Community Bracket 3 average deck (EDHREC or similar) | Public data for the same commander (read through a cached script after reading the site's terms) | Unlabelled diagnostic |
+| Community Bracket 3 average deck | Public decks for the same commander from a source whose terms allow automated reading (EDHREC does not; see D7) | Unlabelled diagnostic |
 | Community Bracket 4 average deck | Same | Known-answer probe of the bracket-fit review (judges must call it Bracket 4); never in the Y fit |
 | Public decks with a bracket label by their authors | Moxfield, Archidekt and similar, where the author chose the bracket | Coarse human labels (Bracket 3 versus 4) for the probes; self-reported, so used for discrimination only, not for Y |
 
@@ -195,7 +195,7 @@ a separate, frozen test panel; this reduces, but does not remove, shared misjudg
 | D4 | Pairwise judgments, Bradley-Terry and several runs |
 | D5 | Owned cards cost 0; one physical copy goes to one deck only; a locked-cards file per deck, chosen in Phase 6 after the current decks are rated |
 | D6 | Any legal English or Spanish printing and finish, condition near mint to lightly played, no proxies, owned Spanish copies fine; budget counts checkout totals including shipping and any payment fees; sleeves and accessories outside the budget; no selling or trading |
-| D7 | EDHREC data through a small cached script, after reading its terms (no MCP: none official, community ones abandoned) |
+| D7 | EDHREC is **not** scripted. Its terms of service (effective 2024-08-06, read 2026-10-11) give a limited license for personal, noncommercial use and bar automated searches, requests or queries and copying its content (its robots.txt does not block commander pages, but the terms still apply). Commander-specific popularity and average decks come from another source whose terms allow it, or are left out. No MCP either: none official, community ones abandoned |
 | D8 | The user does not label decks; internet sources and ablations replace human labels |
 | D9 | Stock verifier on Haiku 5.5; if it does not give good results, move to Sonnet 5.5 (measured on about 20 cards of known state) |
 | D10 | Bracket-fit review by the panel only |

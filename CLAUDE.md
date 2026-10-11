@@ -127,5 +127,7 @@ a vehicle for learning modern AI tooling.
 - Speed ("win by turn N") is not a goal. It appears only as a qualitative 5-level risk flag
   (`very low` to `very high`) from a Monte Carlo script, used by the bracket-fit review.
   Only Game Changers are an exact bracket count; the rest is intent.
-- Use the Scryfall and Commander Spellbook JSON APIs, not their HTML pages. EDHREC's JSON
-  endpoints are undocumented: whether to use them is decided in the synergy phase.
+- Use the Scryfall and Commander Spellbook JSON APIs, not their HTML pages. EDHREC is not
+  used by scripts or agents: its terms of service (effective 2024-08-06, read 2026-10-11)
+  allow personal noncommercial use and bar automated searches, requests or queries and the
+  copying of its content.

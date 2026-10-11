@@ -195,9 +195,12 @@ def fetch_spellbook(requests, card_name):
             count = body.get("count", count)
             variants += body.get("results", [])
             page += 1
-            total_pages = -(-(count or 0) // 100)
-            log(f"  {card_name}: page {page}/{max(total_pages, 1)}, {len(variants)} variants  "
-                f"{eta_text(page, max(total_pages, 1), started)}")
+            if count:
+                total_pages = -(-count // 100)
+                log(f"  {card_name}: page {page}/{total_pages}, {len(variants)} variants  "
+                    f"{eta_text(page, total_pages, started)}")
+            else:  # the API only reports a count on request; progress has no total then
+                log(f"  {card_name}: page {page}, {len(variants)} variants")
             url, params = body.get("next"), None
             time.sleep(1.0)
             if page > 200:
