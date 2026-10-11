@@ -148,6 +148,23 @@ The pilot also settles the open questions that change the workflow:
 
 When the pilot is done, delete the Pilot binder and Test deck, freeing their container slots (whether deleting frees a slot is unverified). Then rescan those cards in the main run so the whole dataset comes from one consistent process.
 
+## Measured on the owner's phone (2026-10-11, user-reported plus file checks)
+| Item | Result |
+|---|---|
+| Deck scanned | Toph, 100 cards, mixed Spanish and English, scanned in the language of each card |
+| Time | About 15 minutes including corrections (about 9 s per card; the report's assumed rate was 300 cards per hour) |
+| Misreads | A few wrong captures caused by automatic mode (quick mode left on), discarded by hand; 1 card not recognized, added by hand |
+| Deck text export format | `// COMMANDER`, the commander line, a blank line, then `1 Name (SET) number`, 86 lines, quantity total 100, 20 basic lands, no duplicates outside basics |
+| Language in the text export | **Not present.** Language must come from the collection CSV (`Language` column) |
+| Foil, condition | Not present in the text export either |
+| Sleeves | Scanned sleeved: 1 card of 100 never recognized (Cycle of Renewal, TLA 170; added by hand); the basic Forest (TLA) was read as another card about 3 times and discarded. Meets the "at most 1 failure" go rule: scan decks sleeved. Basic lands are the weak spot and carry no budget value, so count them by hand |
+| CSV header (2026-10-11 export) | `Binder Name,Binder Type,Name,Set code,Set name,Collector number,Foil,Rarity,Quantity,ManaBox ID,Scryfall ID,Purchase price,Misprint,Altered,Signed,Condition,Language,Proxy,Purchase price currency,Added` |
+| CSV content for Toph | 86 rows, quantity 100, `Binder Type = deck`, `Binder Name = Toph`, every row `normal`, `near_mint`, `Proxy false`; `Added` identical on all rows (so it is not a scan time); `Purchase price` is ManaBox's own USD figure and is ignored |
+| **Language in the CSV** | **All 86 rows say `en` (100 copies English, 0 Spanish)**, while the owner recalls about 6 Spanish cards. Unresolved: either the scanner did not store Spanish for those cards or the export drops it. Check one known Spanish card inside the app |
+| Still unverified | Whether deck rows are separate copies from binder rows; Scryfall resolution of every printing; backup status; container limit |
+
+Check with `scripts/validate_deck_export.py` (run by the owner).
+
 ## The full run: sort by language, scan on white paper, export a CSV after every pile
 
 The workflow below combines ManaBox's official guidance with the process advice in the research. The step that matters most is sorting by language: without it, language correction is impossible to do at scale.

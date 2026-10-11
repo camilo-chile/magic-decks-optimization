@@ -62,6 +62,11 @@ a vehicle for learning modern AI tooling.
   for the user's output. Claude writes under `data/` or `decks/` only where a skill step
   says so (for example `decks/reports/`). The `WebFetch` rules for the Scryfall and
   Commander Spellbook domains are for spot checks, never evidence.
+- Scripts the user runs: runnable from the VS Code "Run Python File" button with no
+  arguments (defaults in the script), and they write their result to a file. Any script
+  estimated to run longer than 5 minutes must also show its progress with an ETA and keep a
+  separate progress log file next to the result file (rating panels, optimizers, store
+  readers, simulations).
 - The conda env lives in conda's default envs directory; the repo only holds
   `requirements.txt`. Never create a venv.
 - Git is read-only for Claude: status, diff, log, show, ls-files, check-ignore, var. Never

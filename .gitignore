@@ -8,6 +8,9 @@ data/raw/
 # Downloaded bulk data (Scryfall, Commander Spellbook); large and re-downloadable
 data/cache/
 
+# Validation reports written by scripts/validate_deck_export.py (regenerable)
+data/validation/
+
 # Raw research notes (distilled reports live in docs/research/)
 research_notes/
 # Scratch output of research tooling (anchored so decks/reports/ stays versioned)
