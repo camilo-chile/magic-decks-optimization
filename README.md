@@ -17,7 +17,7 @@ decks are kept at parity (within 0.2 points) and the owner picks the budget.
 | Base | Harness (CLAUDE.md, skills, agents, hooks, permissions), research reports, decisions, store list | none | Done (committed 2026-10-11) |
 | 0 | Rules snapshot and draft power scale | none | Done (re-check after the 2026-10-12 Wizards announcement) |
 | 1 | Digitize the 2 physical decks and the loose collection | Android phone and a free scanning app | In progress: Toph scanned on 2026-10-11 (100 cards, about 15 min); Azula, language check from the CSV and the loose cards pending |
-| 2 | Layer A code and golden tests (name resolution, gate, Spellbook) and the card-facts file generator | Phase 1 export format, Phase 0 | Pending |
+| 2 | Layer A code and golden tests (name resolution, gate, Spellbook) and the card-facts file generator | Phase 1 export format, Phase 0 | In progress: offline part done (`scripts/layer_a.py`, 13 tests in `tests/test_layer_a.py`); Spellbook, own combo detector and speed flag pending |
 | 3 | Synergy research per commander (Scryfall and Commander Spellbook data; EDHREC excluded by its terms); can run in parallel with Phase 1 | Phase 0 | Done on 2026-10-12: 3 reports researched, cross-verified and rules-checked against the official rulings (`docs/research/synergy-*`); the open readings were then closed with the Comprehensive Rules text of 2026-09-25 (`docs/research/comprehensive-rules-check-2026-10-12.md`, one reader, not cross-verified) |
 | 4 | Reference builds and anchor ladders per commander; the user signs off each reference | Phases 2 and 3, decisions D7, D10-D12, the rules re-check after 2026-10-12 | Pending |
 | 5 | Validate the rating method with evals and freeze the protocol | Phases 2 and 4, approved protocol | Pending |

@@ -1,0 +1,53 @@
+{
+  "slug": "toph-the-first-metalbender",
+  "rules_as_of": "2026-02-09",
+  "beta": true,
+  "commanders": [
+    "Toph, the First Metalbender"
+  ],
+  "total_cards": 100,
+  "recognized_cards": 100,
+  "unresolved": [],
+  "floor": 3,
+  "rejected": false,
+  "reasons": [],
+  "flags": [],
+  "review_notes": [],
+  "checks": {
+    "game_changers": {
+      "count": 1,
+      "cards": [
+        "Crop Rotation"
+      ],
+      "floor": 3,
+      "provenance": "official (Scryfall game_changer)"
+    },
+    "extra_turns": {
+      "count": 0,
+      "cards": [],
+      "floor": 1,
+      "provenance": "curated (oracle text); count policy v0.6"
+    },
+    "mass_land_denial": {
+      "cards": {},
+      "floor": 1,
+      "provenance": "heuristic, over-inclusive"
+    }
+  },
+  "descriptive": {
+    "tutors": [
+      "The Cave of Two Lovers"
+    ],
+    "land_cards": 36,
+    "average_mana_value_nonland": 3.38
+  },
+  "pending_checks": [
+    "Commander Spellbook estimate-bracket and find-my-combos (step 2.3)",
+    "own combo detector: full Spellbook bulk match and curated hazards (step 2.4)",
+    "speed-risk flag from the Monte Carlo script (step 2.6)"
+  ],
+  "complete": false,
+  "source": "data/raw/Toph.txt",
+  "bulk_file": "oracle-cards-20261011210156.jsonl.gz",
+  "run_at_utc": "2026-10-12T17:18:20Z"
+}
