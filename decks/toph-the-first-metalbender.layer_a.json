@@ -16,6 +16,11 @@
       "flag": "spellbook_combos",
       "count": 3,
       "provenance": "curated (Spellbook bulk file), predicates over-inclusive"
+    },
+    {
+      "flag": "curated_hazard",
+      "count": 2,
+      "provenance": "curated (data/hazards.json, from the Phase 3 reports)"
     }
   ],
   "review_notes": [],
@@ -56,8 +61,8 @@
     "variants_total": 114400,
     "included_total": 3,
     "included_by_tag": {
-      "S": 2,
-      "R": 1
+      "R": 1,
+      "S": 2
     },
     "included_flagged": [
       {
@@ -125,16 +130,6 @@
     "almost_included_total": 132,
     "almost_included_floor_4_features": [
       {
-        "variant": "4636-6871",
-        "missing": [
-          "Gonti's Aether Heart"
-        ],
-        "cards": [
-          "Toph, the First Metalbender",
-          "Gonti's Aether Heart"
-        ]
-      },
-      {
         "variant": "1167-5483",
         "missing": [
           "Esoteric Duplicator"
@@ -143,11 +138,37 @@
           "Esoteric Duplicator",
           "Mindslaver"
         ]
+      },
+      {
+        "variant": "4636-6871",
+        "missing": [
+          "Gonti's Aether Heart"
+        ],
+        "cards": [
+          "Toph, the First Metalbender",
+          "Gonti's Aether Heart"
+        ]
       }
     ]
   },
+  "curated_hazards": [
+    {
+      "hazard": "control-of-a-turn-names",
+      "floor": 3,
+      "reason": "Control of another player's turn (Spellbook feature 'You control one opponent...'): review flag under the lock / control row",
+      "source": "section 5 of the Alexios report; Toph rules check claim 44",
+      "review_only": true
+    },
+    {
+      "hazard": "toph-loop-hubs",
+      "floor": 3,
+      "reason": "Hubs of the 3-piece or template-based Toph loops (infinite mana, landfall, turns or locks) that the matcher can only flag as review because they need a template; check the final list by hand",
+      "source": "docs/research/synergy-toph-the-first-metalbender-2026-10-11.md section 6 (families with three or more pieces)",
+      "review_only": true
+    }
+  ],
   "unresolved_hazard_names": [],
   "source": "data/raw/Toph.txt",
   "bulk_file": "oracle-cards-20261011210156.jsonl.gz",
-  "run_at_utc": "2026-10-12T18:52:09Z"
+  "run_at_utc": "2026-10-12T19:05:56Z"
 }

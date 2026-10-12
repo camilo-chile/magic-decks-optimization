@@ -120,6 +120,12 @@ def card_facts(card):
         "type_line": card.get("type_line"),
         "oracle_text": card_text(card),
         "color_identity": card.get("color_identity") or [],
+        "power": card.get("power") if card.get("power") is not None
+        else (faces[0].get("power") if faces else None),
+        "toughness": card.get("toughness") if card.get("toughness") is not None
+        else (faces[0].get("toughness") if faces else None),
+        "produced_mana": card.get("produced_mana") or [],
+        "keywords": card.get("keywords") or [],
     }
 
 
@@ -466,7 +472,14 @@ def analyze(commander_entries, main_entries, index, slug=None, spellbook=None, h
         "complete": False,
     }
     report.update(extra_section)
-    facts = sorted((card_facts(by_id[k]) for k in counts), key=lambda f: f["name"])
+    commander_keys = {c.get("oracle_id") or c.get("name") for r, _, c in resolved if r == "commander"}
+    facts = []
+    for key in counts:
+        fact = card_facts(by_id[key])
+        fact["quantity"] = counts[key]
+        fact["role"] = "commander" if key in commander_keys else "main"
+        facts.append(fact)
+    facts.sort(key=lambda f: f["name"])
     return report, facts
 
 

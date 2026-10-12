@@ -103,7 +103,7 @@ a vehicle for learning modern AI tooling.
 | `docs/research/` | Distilled research reports (dated) |
 | `decks/<commander-slug>.txt` | Decklist: `1 <English card name>` per line, the commander under `// Commander`; a ManaBox `(SET) 123` suffix is allowed |
 | `decks/<commander-slug>.locked.txt` | Cards the user keeps no matter what, chosen in Phase 6 after rating the current decks |
-| `decks/<commander-slug>.layer_a.json`, `.cards.json` | Layer A output and card facts, written by a script the user runs |
+| `decks/<commander-slug>.layer_a.json`, `.cards.json`, `.speed_risk.json` | Layer A output, card facts and the speed-risk flag, written by scripts the user runs |
 | `decks/reports/` | Rating reports |
 | `data/raw/` | Private inputs such as the collection export (git-ignored) |
 | `data/cache/` | Downloaded bulk data from Scryfall and Commander Spellbook (git-ignored) |

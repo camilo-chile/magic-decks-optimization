@@ -172,7 +172,10 @@ def test_commander_omitted_is_caught():
 def test_card_facts_hide_prices_and_game_changer_flag():
     r, facts = mod.analyze(*deck()[1:], mod.build_index(deck()[0]))
     assert facts and all(set(f) == {"name", "oracle_id", "mana_cost", "mana_value", "type_line",
-                                    "oracle_text", "color_identity"} for f in facts)
+                                    "oracle_text", "color_identity", "power", "toughness",
+                                    "produced_mana", "keywords", "quantity", "role"} for f in facts)
+    assert sum(f["quantity"] for f in facts) == 100
+    assert [f["role"] for f in facts].count("commander") == 1
 
 
 def test_parse_decklist_handles_plain_manabox_and_commander_block():
