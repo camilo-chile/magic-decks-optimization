@@ -19,8 +19,9 @@ blockers), because the flag feeds a bracket gate: a fast estimate errs on the sa
     (win or lose-the-game, infinite damage, infinite turns) is a threat once all its pieces are
     in hand or in play and the mana covers the pieces still to cast and `manaValueNeeded`.
 Bands of the simulated frequency (power-scale, user decision 2026-10-11): 0-10% very low,
-10-20% low, 20-30% medium, 30-40% high, 40% or more very high. `high` or `very high` fails the
-bracket-fit review. The number is an order of magnitude, never an exact percentage.
+10-20% low, 20-30% medium, 30-40% high, 40% or more very high. The level is reported only (user
+decision 2026-10-12): the bracket-fit review reads it as context, it is never a pass or fail. The
+number is an order of magnitude, never an exact percentage.
 """
 import json
 import random
@@ -53,6 +54,14 @@ LAND_RAMP_RE = re.compile(
     r"search your library for (?:up to )?(a|an|one|two|three) [^.]*?land cards?[^.]*?onto the battlefield", re.I)
 TUTOR_RE = re.compile(r"search your library for (?:a|an|one|up to one) (?![^.]*\blands?\b)[^.]*\bcard", re.I)
 DECISIVE_RE = la.DECISIVE_RE
+# A commander that every player takes over at their own upkeep (Alexios, Deimos of Kosmos) attacks
+# on all four turns of a round, and may grow by a counter at each of those upkeeps.
+ROTATES_RE = re.compile(r"at the beginning of each player's upkeep, that player gains control of", re.I)
+GROWS_RE = re.compile(r"\+1/\+1 counter on it", re.I)
+# A 4-player pod: three opponent turns pass between two of our turns. On an opponent's turn the
+# active player picks one of the two players that are not the owner, so the victim (who sits second
+# in turn order) takes half of the attack on the first and third opponent turns and none on its own.
+VICTIM_HIT_BY = (0.5, 0.0, 0.5)
 
 
 def band(p):
@@ -80,7 +89,9 @@ def model_card(fact):
         "power": 0,
         "haste": bool(re.search(HASTE_LINE, low)) or "Haste" in (fact.get("keywords") or []),
         "mana": 0, "tapped": False, "gain": 0, "ramp": 0, "draw": 0, "tutor": False,
+        "rotates": bool(ROTATES_RE.search(text)),
     }
+    card["grows"] = card["rotates"] and bool(GROWS_RE.search(text))
     power = fact.get("power")
     if card["creature"] and isinstance(power, str) and power.isdigit():
         card["power"] = int(power)
@@ -188,7 +199,12 @@ def play_game(library_cards, commander, combos, rng):
                     return True
         return False
 
+    counters = 0  # +1/+1 counters on a commander that grows at every upkeep
+
     for turn in range(1, HORIZON + 1):
+        rotating = commander is not None and commander["rotates"]
+        if rotating and commander_on_field is not None and commander["grows"]:
+            counters += 1  # our own upkeep
         if library:
             hand.append(library.pop())
         land = next((c for c in hand if c["land"] and not c["tapped"]), None) or \
@@ -266,11 +282,25 @@ def play_game(library_cards, commander, combos, rng):
         for f in field:
             c = f["card"]
             if c["creature"] and c["power"] > 0 and (f["turn"] < turn or c["haste"]):
+                if rotating and c is commander:
+                    # It was handed to us at our upkeep and gained haste, so it attacks every turn.
+                    c = dict(c, power=c["power"] + counters)
                 damage += c["power"]
-                if commander is not None and c is commander:
+                if commander is not None and f["card"] is commander:
                     commander_damage += c["power"]
         if damage >= LIFE or commander_damage >= COMMANDER_LETHAL:
             return turn
+        if rotating and commander_on_field is not None:
+            # The three opponent turns before our next turn: the commander is taken over, grows, and
+            # attacks with haste each time. Only the share that lands on the victim counts.
+            for share in VICTIM_HIT_BY:
+                if commander["grows"]:
+                    counters += 1
+                hit = share * (commander["power"] + counters)
+                damage += hit
+                commander_damage += hit
+            if damage >= LIFE or commander_damage >= COMMANDER_LETHAL:
+                return turn  # it happened before our next turn, so before turn HORIZON + 1 at the latest
     return None
 
 
@@ -328,9 +358,9 @@ def main():
         result.update({
             "slug": slug,
             "run_at_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-            "fails_bracket_fit_review": result["level"] in ("high", "very high"),
-            "note": "Order of magnitude from a simplified goldfish (no colors, removal or blockers). "
-                    "It never changes Layer A's floor; it feeds the bracket-fit review.",
+            "gate_effect": "none: reported to the bracket-fit review as context (user decision 2026-10-12)",
+            "note": "Order of magnitude from a simplified goldfish (no colors, equipment, removal or "
+                    "blockers). It never changes Layer A's floor and is not a pass or fail by itself.",
         })
         out = DECKS / f"{slug}.speed_risk.json"
         out.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")

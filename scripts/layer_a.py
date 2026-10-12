@@ -36,6 +36,10 @@ FALLBACK_DECKS = {
     "toph-the-first-metalbender": ROOT / "data" / "raw" / "Toph.txt",
     "fire-lord-azula": ROOT / "data" / "raw" / "Azula.txt",
 }
+# The bracket each deck is built for (user decision, 2026-10-12): Toph keeps its Bracket 4 package
+# (Mindslaver, The Stasis Coffin, Bumi plus Ashaya); the other two stay inside Bracket 3.
+TARGET_BRACKET = {"toph-the-first-metalbender": 4}
+DEFAULT_TARGET = 3
 RULES_AS_OF = "2026-02-09"  # Wizards Brackets update the snapshot is pinned to (beta)
 
 LINE_RE = re.compile(
@@ -174,9 +178,14 @@ def is_extra_turn_card(card):
 
 SPELLBOOK_SLIM = CACHE / "spellbook_variants_slim.jsonl.gz"
 HAZARDS_PATH = ROOT / "data" / "hazards.json"
-# Power-scale two-card row: speed >= 3 is "about 6 mana or less, or up to 8 when Spellbook's
-# accuracy flag is false". The bulk file has no accuracy flag, so the looser 8 is used.
-TWO_CARD_FAST_MANA_VALUE = 8
+# Wizards' Bracket 3 text bans intentional early-game two-card infinite combos. "Early" is read as
+# Spellbook reads it: speed >= 3, which is a mana value needed of 6 or less. The bulk file has no
+# accuracy flag, so 7 and 8 (where an inaccurate estimate could still be early) are floor 3 plus a
+# review note, never a floor-4 trigger.
+TWO_CARD_EARLY_MANA_VALUE = 6
+TWO_CARD_BORDERLINE_MANA_VALUE = 8
+EXTRA_TURN_LOW_QUANTITY = 3  # "low quantities" (Wizards, Brackets 2-3), read as at most 3 cards
+INFINITE_RE = re.compile("infinite", re.I)  # also matches "Near-infinite"
 TAG_FLOOR = {"R": 4, "P": 3, "C": 2, "O": 2}  # Spellbook bracket tags used as a cross-check
 
 FEATURE_CONTROL_ALL = {
@@ -258,35 +267,42 @@ def match_spellbook(spellbook, deck_oids, commander_oids):
 
 
 def judge_variant(variant, commander_oids):
-    """Floor and kind for one included variant (power-scale Layer A rows)."""
+    """Floor and kind for one included variant (power-scale Layer A rows).
+
+    Only Wizards' own Bracket 3 conditions set a floor: mass land denial and chained or looped
+    extra turns (4), and intentional early two-card infinite combos (4; 3 when late). The
+    commander counts as one of the two cards. Everything else is a review note.
+    """
     cats = classify_features(variant["features"])
     decisive = any(DECISIVE_RE.search(f) for f in variant["features"])
+    infinite = decisive or "control_all_opponents" in cats or "infinite_turns" in cats or any(
+        INFINITE_RE.search(f) for f in variant["features"])
     oids = variant["_oids"]
     uses_commander = bool(oids & commander_oids)
-    n_other = len(oids - commander_oids)
+    n_total = len(oids - commander_oids) + (1 if uses_commander else 0)
     template = bool(variant["requires"])
-    hard = bool(cats & {"infinite_turns", "control_all_opponents", "mass_land_denial"})
-    soft = bool(cats & {"lock", "control_some_opponents", "skip_turns"})
+    hard = bool(cats & {"infinite_turns", "mass_land_denial"})
+    soft = bool(cats & {"lock", "control_some_opponents", "skip_turns", "control_all_opponents"})
     floor, kind = 1, None
     if template:
         # A template slot needs a card in the deck that fills it; unresolved, so review only.
         if hard or decisive or soft:
             kind = "review: template unresolved (" + ", ".join(variant["requires"]) + ")"
     else:
+        mana = variant.get("mana_value_needed") or 0
         if hard:
             floor, kind = 4, "feature floor 4"
-        if uses_commander:  # any combo that uses the commander is a floor-4 candidate
-            floor, kind = 4, "commander plus one card" if n_other == 1 else "commander combo"
-        elif n_other == 1:
-            floor, kind = 4, "one-card combo"
-        elif n_other == 2:
-            fast = (variant.get("mana_value_needed") or 0) <= TWO_CARD_FAST_MANA_VALUE
-            if fast:
-                floor, kind = 4, "two-card combo, mana value needed <= %d" % TWO_CARD_FAST_MANA_VALUE
-            elif floor < 3:
-                floor, kind = 3, "two-card combo"
+        elif n_total <= 2 and infinite:
+            who = "commander plus one card" if uses_commander and n_total == 2 else (
+                "one-card combo" if n_total == 1 else "two-card combo")
+            if mana <= TWO_CARD_EARLY_MANA_VALUE:
+                floor, kind = 4, "%s, early (mana value needed <= %d)" % (who, TWO_CARD_EARLY_MANA_VALUE)
+            elif mana <= TWO_CARD_BORDERLINE_MANA_VALUE:
+                floor, kind = 3, "%s, borderline early (mana value needed %d; check by hand)" % (who, mana)
+            else:
+                floor, kind = 3, "%s, late" % who
     if floor == 1 and kind is None and soft:
-        kind = "review: lock, skipped turns or control of some opponents"
+        kind = "review: lock, skipped turns or control of opponents"
     tag = variant.get("bracket_tag")
     tag_note = None
     if TAG_FLOOR.get(tag, 1) > floor:  # Spellbook's own estimator disagrees: cross-check
@@ -364,11 +380,13 @@ def spellbook_section(spellbook, hazards, commander_entries, resolved, slug, ind
     return section, floor, flags, notes
 
 
-def analyze(commander_entries, main_entries, index, slug=None, spellbook=None, hazards=None):
+def analyze(commander_entries, main_entries, index, slug=None, spellbook=None, hazards=None,
+            target=3):
     """Run the checks. Returns (report dict, list of card facts).
 
     `spellbook` is the result of load_spellbook() and `hazards` of load_hazards(); without them
-    the Spellbook and curated-hazard checks are listed under `pending_checks`.
+    the Spellbook and curated-hazard checks are listed under `pending_checks`. `target` is the
+    bracket the deck is built for: the floor must not exceed it (Bracket 4 has no card limits).
     """
     reasons, flags, notes = [], [], []
     entries = [("commander", e) for e in commander_entries] + [("main", e) for e in main_entries]
@@ -435,10 +453,10 @@ def analyze(commander_entries, main_entries, index, slug=None, spellbook=None, h
 
     # Extra turns.
     et_names = sorted({c["name"] for _, _, c in resolved if is_extra_turn_card(c)})
-    et_floor = 2 if et_names else 1
+    et_floor = 4 if len(et_names) > EXTRA_TURN_LOW_QUANTITY else 2 if et_names else 1
     if len(et_names) >= 2:
-        reasons.append(f"policy reject: {len(et_names)} extra-turn cards {et_names} "
-                       "(power-scale: 2 or more cards)")
+        notes.append(f"{len(et_names)} extra-turn cards {et_names}: Wizards allows low quantities, not "
+                     f"chained or looped (read here as at most {EXTRA_TURN_LOW_QUANTITY} cards)")
     mult = [COMMANDER_MULTIPLIERS[normalize(c["name"])] for c in commanders
             if normalize(c["name"]) in COMMANDER_MULTIPLIERS]
     if et_names and mult:
@@ -497,7 +515,7 @@ def analyze(commander_entries, main_entries, index, slug=None, spellbook=None, h
             "game_changers": {"count": len(gc_names), "cards": gc_names, "floor": gc_floor,
                               "provenance": "official (Scryfall game_changer)"},
             "extra_turns": {"count": len(et_names), "cards": et_names, "floor": et_floor,
-                            "provenance": "curated (oracle text); count policy v0.6"},
+                            "provenance": "curated (oracle text); \"low quantities\" read as at most 3 cards"},
             "mass_land_denial": {"cards": mld, "floor": mld_floor,
                                  "provenance": "heuristic, over-inclusive"},
         },
@@ -508,7 +526,8 @@ def analyze(commander_entries, main_entries, index, slug=None, spellbook=None, h
             if nonland else None,
         },
         "pending_checks": pending,
-        "floor_ok_so_far": not reasons and floor <= 3,
+        "target_bracket": target,
+        "floor_ok_so_far": not reasons and floor <= target,
         "review_items": review_items,
         "complete": False,
     }
@@ -568,7 +587,8 @@ def main():
     for slug, path in sources:
         text = path.read_text(encoding="utf-8-sig")
         commanders, main_cards, bad = parse_decklist(text)
-        report, facts = analyze(commanders, main_cards, index, slug, spellbook, hazards)
+        target = TARGET_BRACKET.get(slug, DEFAULT_TARGET)
+        report, facts = analyze(commanders, main_cards, index, slug, spellbook, hazards, target)
         if bad:
             report["reasons"].append(f"{len(bad)} unparsed lines: {bad[:3]}")
             report["rejected"] = True
@@ -596,7 +616,8 @@ def main():
             print(f"   HAZARD floor {row['floor']}: {row['hazard']}: {row['reason']}")
         if report.get("unresolved_hazard_names"):
             print(f"   warning: hazard names not found in the card index: {report['unresolved_hazard_names']}")
-        print(f"   floor <= 3 and no rejection so far: {report['floor_ok_so_far']} "
+        print(f"   floor <= target {report['target_bracket']} and no rejection so far: "
+              f"{report['floor_ok_so_far']} "
               f"(review items to read: {report['review_items']}; checks pending: "
               f"{len(report['pending_checks'])})")
         for reason in report["reasons"]:

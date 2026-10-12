@@ -1,6 +1,6 @@
-# Power scale (v0.7)
+# Power scale (v0.8)
 
-Status: v0.7 draft. Rules snapshot: the Wizards update of 2026-02-09, verified on
+Status: v0.8 draft. Rules snapshot: the Wizards update of 2026-02-09, verified on
 2026-10-10 and again on 2026-10-11 by independent fact-checks; the Brackets system is
 still labelled "beta".
 Checked against Wizards' announcement of 2026-10-12 (Competitive Brawl only; no Commander or
@@ -21,8 +21,17 @@ Label order, not strength order: 1.1 < 1.2 < ... < 1.9 < 2.1 < ... < 5.9.
 
 `3.9` means: every slot is spent on the best cards allowed under Bracket 3 rules, with
 strong synergy and solid win conditions, without meeting any Bracket 4 condition.
+`4.9` means the same under Bracket 4 rules (no card limits): the best list for the commander
+that is not a metagame-tuned cEDH list. That edge is judged by the panel, never computed, and
+Bracket 5 is only ever declared by the user.
 
 ## Decisions and limits
+- **Power first (user decision, 2026-10-12).** The decks are for casual games with friends and
+  the goal is the strongest, most consistent list the chosen budget buys. The only limits are
+  Wizards' official conditions of each deck's **target bracket** (Game Changers, mass land
+  denial, extra turns, early two-card infinite combos at Bracket 3; none at Bracket 4) and
+  Commander legality. A rule that is only this project's own, and that lowers power, is not
+  allowed. Targets: Toph 4, Alexios 3, Azula 3 (`TARGET_BRACKET` in `scripts/layer_a.py`).
 - Not monotonic across brackets: X is a rules ceiling, not a win-rate ranking. A well-built
   `3.9` can beat a poorly built `4.1`. Comparing across a boundary would need simulated pods
   (optional future work).
@@ -31,10 +40,13 @@ strong synergy and solid win conditions, without meeting any Bracket 4 condition
   decision, 2026-10-11) says how often the deck could threaten lethal before its own turn 7:
   `very low`, `low`, `medium`, `high`, `very high`, from a Monte Carlo goldfish script
   (order of magnitude, never an exact percentage). Bands of the simulated frequency (user
-  decision, 2026-10-11): 0-10%, 10-20%, 20-30%, 30-40%, 40% or more. `high` or `very high`
-  (30% or more of simulated games) means the deck is probably playing above Bracket 3 by
-  intent; it feeds the bracket-fit review as a reason to fail and never changes Layer A's
-  floor by itself.
+  decision, 2026-10-11): 0-10%, 10-20%, 20-30%, 30-40%, 40% or more. The level is
+  **reported only** (user decision, 2026-10-12): it is context for the bracket-fit review
+  judges, never a pass or fail by itself, and never changes Layer A's floor. Reason: a
+  commander can be a fast clock on its own (Alexios, Deimos of Kosmos is `very high` with 63
+  blank cards next to it), so an absolute threshold would fail the commander, not the deck.
+  The model grows and rotates such a commander at every upkeep but does not model equipment,
+  removal or blockers, so for a gear deck it is a floor of the real speed.
 - Intent cannot be computed. A checker only produces a minimum bracket (floor) plus flags,
   never an exact bracket. Bracket 5 is only ever declared by the user.
 - Y is relative to each commander (user decision, 2026-10-11): `Y = 9` means "the no-budget
@@ -91,9 +103,9 @@ integrity check of the pipeline itself.
 | Mass land denial | Spellbook card flag or combo flag `massLandDenial`, plus Wizards' definition (a looped Sundering Titan is not flagged as a card) | curated | any card or combo -> floor 4 |
 | Lock, skipped turns, control of opponents | Spellbook combo flags `lock`, `skipTurns`, `controlAllOpponents`, `controlSomeOpponents` | curated | `controlAllOpponents` -> floor 4; the other three -> review flag (Wizards: a deck that locks players out in a Stax style should bracket up) |
 | Extra turns, per card | Spellbook flag, Scryfall oracle text | curated | 1 card -> floor 2 |
-| Extra turns, count | count of flagged cards; a card multiplied by the commander (Azula copies a spell cast while she attacks) still counts as 1 card (user decision, 2026-10-12), but is a review note for the bracket-fit review because it gives two consecutive extra turns | policy | 2 or more cards -> policy reject (Wizards allows "low quantities"; Spellbook tags 2+ as Ruthless, so this is the safe side); any chain or infinite-turn combo -> floor 4 |
-| Two-card infinite combos | Spellbook `definitelyTwoCard` or `arguablyTwoCard` with `relevant` or `borderlineRelevant`; `speed`. The commander does not count toward the two cards (Spellbook convention; no Wizards statement recorded) | heuristic | any such combo -> floor 3 or higher (Brackets 1-2 forbid it); `speed >= 3` (about 6 mana or less, or up to 8 when Spellbook's accuracy flag is false) -> floor 4. Over-inclusive on purpose: Spellbook does not separate infinite from finite two-card wins, so a floor 4 here can be overruled in the bracket-fit review with a written reason |
-| Commander effects | (1) Spellbook combos that contain the commander (`find-my-combos` with the commander in `commanders`, `included` and `almostIncluded`); (2) commander text that multiplies a flagged card (copy effects, extra combats) | policy | any combo that uses the commander is reviewed as a floor 4 candidate (Spellbook does not count the commander toward the two-card limit, so commander + 1 card is a one-card combo); a multiplied extra-turn card counts as 1 card with a review note (user decision, 2026-10-12; before that it counted as 2; Azula copies only spells cast while she attacks, and the official rulings confirm one copied extra-turn spell gives two extra turns); extra-combat cards are a review note, not a count (not a Wizards category); text that only gives the commander away (Alexios) or changes card types (Toph) is not a flag by itself. Toph has one-card combos with infinite turns, locks, control of an opponent's turns or a forced draw (Gonti's Aether Heart, Mindslaver, The Stasis Coffin, Caged Sun in Spellbook, 2026-10-10), so oracle text alone is not enough. Always send the commander in `commanders` for both `estimate-bracket` and `find-my-combos`: an empty list makes Spellbook count it as an ordinary card |
+| Extra turns, count | count of flagged cards; a card multiplied by the commander (Azula copies a spell cast while she attacks) counts as 1 card, with a review note because it gives two consecutive extra turns (user decision, 2026-10-12) | curated | Wizards: "low quantities, not chained or looped". Read as at most 3 cards (the 4th sets floor 4; 2 and 3 are a review note, no rejection); any chain or infinite-turn combo -> floor 4 |
+| Two-card infinite combos | Spellbook bulk variants with 2 cards or fewer, the commander counted as a card, whose features are infinite or win the game; `manaValueNeeded` as the "early" test | heuristic | Wizards bans intentional **early-game** two-card infinite combos at Bracket 3. Early = mana value needed of 6 or less (Spellbook's speed >= 3) -> floor 4. 7 or 8 (the bulk file has no accuracy flag) -> floor 3 with a review note. 9 or more -> floor 3 (Brackets 1-2 forbid any). Finite two-card value combos and combos of 3 or more cards set no floor |
+| Commander effects | (1) Spellbook combos that contain the commander, counted as one of the cards; (2) commander text that multiplies a flagged card (copy effects, extra combats) | policy | a combo of the commander plus one card is a two-card combo and follows the row above; locks, skipped turns and control of an opponent's turns are review notes, not floors (Wizards' text names none of them); a multiplied extra-turn card counts as 1 card with a review note (user decision, 2026-10-12; Azula copies only spells cast while she attacks, and the official rulings confirm one copied extra-turn spell gives two extra turns); extra-combat cards are a review note, not a count (not a Wizards category); text that only gives the commander away (Alexios) or changes card types (Toph) is not a flag by itself. Always send the commander in `commanders` for any Spellbook estimator call: an empty list makes Spellbook count it as an ordinary card |
 | Name resolution | canonicalize every card to a Scryfall oracle ID before any API call | control | recognized cards must equal 100, or stop |
 
 Spellbook silently drops unknown names, so name resolution is a gate, not a convenience.
@@ -117,11 +129,10 @@ is not approved yet. Constraints that hold regardless of the final method:
 - Card-facts file: one JSON per comparison, written by the Layer A script, keyed by
   anonymized deck IDs, with oracle text, type line, mana value and color identity for every
   card in both lists. Its file name carries only a comparison ID.
-- Bracket-fit review (proposed, decision D10): a written check that the list fits Bracket 3
-  intent beyond Layer A, decided by at least 3 isolated judges (no user step; the user does
-  not rate decks). Inputs: Layer A review flags, any stax or lock plan, the role of each
-  Game Changer, and the speed-risk flag. Output: pass or fail with reasons, saved in the
-  rating report.
+- Bracket-fit review (decision D10, restated 2026-10-12): a written, report-only note from at
+  least 3 isolated judges on whether the list reads as its target bracket by Wizards' text. It
+  is context for the user and never a pass or fail: only Layer A's official conditions block a
+  list. Inputs: Layer A review flags, the role of each Game Changer and the speed-risk flag.
 - Judges give a pairwise verdict against anchor decks, never an invented absolute number.
 - The panel mixes models, weighted toward the strongest, and the resolved model IDs are
   recorded in every report.
@@ -142,10 +153,10 @@ Nothing is bought until the user picks a budget from the **budget curve**.
   distinguishable".
 - The user chooses the budget and the card list that suit them. 3.9 is the top of the scale
   and is probably out of reach inside 300,000 CLP; the curve shows where it flattens.
-- A list is eligible at any point only with: Layer A floor of 3 or less with no flag that
-  implies Bracket 4; the bracket-fit review passed; a frozen list before the confirmation
-  run; verified stock; and rounding defined as half up (`floor(y + 0.5)`) for display, using
-  the continuous value for the decision.
+- A list is eligible at any point only with: Layer A floor at or below the deck's target
+  bracket and no rejection; a frozen list before the confirmation run; verified stock; and
+  rounding defined as half up (`floor(y + 0.5)`) for display, using the continuous value for
+  the decision. The bracket-fit review and the speed flag are reported, not gates.
 - The earlier acceptance draft (median of Y at least 8.5, interval half-width at most 0.5,
   retest within 0.5) was withdrawn: it can accept a biased deck and its intervals are too
   narrow when judges are correlated. The statistical rule per budget point is in the
@@ -167,6 +178,12 @@ text).
 - The planned tests are listed in `evals/README.md`.
 
 ## Changelog
+- v0.8 (2026-10-12): user decision, power first. Only official conditions of the target
+  bracket limit a deck. Per-deck target bracket (Toph 4, Alexios 3, Azula 3); the extra-turn
+  rejection at 2 cards is gone (floor 4 from the 4th card); two-card combos count the
+  commander and need to be infinite and early (mana value needed 6 or less); control of a
+  turn and locks are review notes; the speed flag and the bracket-fit review are reported,
+  not gates. The Alexios reference must be rebuilt without the caps of its first draft.
 - v0.7 (2026-10-12): user decision: Spellbook combos are matched locally against its
   published bulk file instead of `find-my-combos`; two-card and speed predicates restated
   for the fields the bulk file has; a curated hazard list covers combos Spellbook lacks.

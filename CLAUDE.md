@@ -1,7 +1,7 @@
 # magic-decks-optimization
 
 Build 1 new Commander deck and upgrade 2 existing ones as high inside Bracket 3 as the
-budget allows ("3.9" is the top of our custom power scale), using verified real stock in
+budget allows ("3.9" is the top of our custom power scale for Bracket 3), using verified real stock in
 Chilean stores. The output is a budget curve; the user picks the budget. The project is also
 a vehicle for learning modern AI tooling.
 
@@ -17,7 +17,8 @@ a vehicle for learning modern AI tooling.
   0.2 points) for each budget from 100,000 to 300,000 CLP in steps of 50,000. The output is
   a budget curve and a dashboard; the user then picks the budget and the cards. 3.9 is the
   top of the scale and probably not reachable inside 300,000 CLP. Spec:
-  `docs/power-scale.md`. Never meet Bracket 4 conditions.
+  `docs/power-scale.md`. Each deck has a target bracket (Toph 4, Alexios 3, Azula 3, user decision
+  2026-10-12) and must not meet the conditions of the next one; Toph has no card limits.
 - Budget: the user's pick from that curve, never above 300,000 CLP; checkout totals for
   cards and shipping (payment fees count if a store charges them), owned cards free.
 - Stores: the 7 Chilean specialist shops in `data/stores.md` (in the user's order of
@@ -28,7 +29,7 @@ a vehicle for learning modern AI tooling.
 - Every card to buy must have verified stock > 0 at decision time. If stock fails, re-plan
   (backtrack). Never leave an unverified card in a final list.
 - Nothing is bought before the chosen lists are eligible under `docs/power-scale.md`
-  (Layer A, bracket-fit review, frozen list, verified stock). The rating protocol is in
+  (Layer A at its target bracket, frozen list, verified stock). The rating protocol is in
   `docs/proposals/rating-protocol.md`.
 - The user does not rate decks. Any human signal comes from the internet; Y is reported as
   the panel's consensus relative to anchors, not as verified truth.
@@ -126,9 +127,10 @@ a vehicle for learning modern AI tooling.
   text. See the `check-stock` skill.
 - Bracket rules change over time; always cite the date of the rules snapshot used.
 - Speed ("win by turn N") is not a goal. It appears only as a qualitative 5-level risk flag
-  (`very low` to `very high`) from a Monte Carlo script, used by the bracket-fit review.
+  (`very low` to `very high`) from a Monte Carlo script, reported only, never a gate.
   Only Game Changers are an exact bracket count; the rest is intent.
 - Use the Scryfall and Commander Spellbook JSON APIs, not their HTML pages. EDHREC is not
   used by scripts or agents: its terms of service (effective 2024-08-06, read 2026-10-11)
   allow personal noncommercial use and bar automated searches, requests or queries and the
-  copying of its content.
+  copying of its content. Archidekt's terms (read 2026-10-12) bar automated
+  queries as well, and Moxfield's could not be read, so neither is scripted.

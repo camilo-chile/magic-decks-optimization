@@ -24,7 +24,7 @@
       "count": 0,
       "cards": [],
       "floor": 1,
-      "provenance": "curated (oracle text); count policy v0.6"
+      "provenance": "curated (oracle text); \"low quantities\" read as at most 3 cards"
     },
     "mass_land_denial": {
       "cards": {},
@@ -40,6 +40,7 @@
   "pending_checks": [
     "speed-risk flag from the Monte Carlo script (step 2.6)"
   ],
+  "target_bracket": 3,
   "floor_ok_so_far": true,
   "review_items": 0,
   "complete": false,
@@ -65,5 +66,5 @@
   "unresolved_hazard_names": [],
   "source": "data/raw/Azula.txt",
   "bulk_file": "oracle-cards-20261011210156.jsonl.gz",
-  "run_at_utc": "2026-10-12T20:32:51Z"
+  "run_at_utc": "2026-10-12T22:26:13Z"
 }

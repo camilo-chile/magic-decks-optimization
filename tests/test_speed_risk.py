@@ -128,6 +128,30 @@ def test_enters_the_battlefield_ramp_on_a_creature_is_applied():
     assert ramped["frequency"] > plain["frequency"] + 0.02
 
 
+def test_a_commander_every_player_takes_over_and_grows_is_a_clock_by_itself():
+    text = ("Trample\nAlexios attacks each combat if able, can't be sacrificed, and can't attack its owner.\n"
+            "At the beginning of each player's upkeep, that player gains control of Alexios, untaps it, "
+            "and puts a +1/+1 counter on it. It gains haste until end of turn.")
+    rotating = fact("Rotator", cmc=4, power="4", text=text, role="commander")
+    plain = fact("Plain Four", cmc=4, power="4", text="Trample", role="commander")
+
+    def deck(commander):
+        facts = [fact("Mountain", "Basic Land - Mountain", "({T}: Add {R}.)", 0, None, 40, produced=["R"])]
+        facts += [fact(f"Blank {i}", "Artifact", "", 9, None) for i in range(59)]
+        facts.append(commander)
+        return facts
+
+    assert mod.model_card(rotating)["rotates"] and mod.model_card(rotating)["grows"]
+    assert not mod.model_card(plain)["rotates"]
+    clock = mod.simulate(deck(rotating), trials=3000, seed=11)
+    alone = mod.simulate(deck(plain), trials=3000, seed=11)
+    assert alone["frequency"] == 0.0  # 4 power, own turn only: 8 damage by turn 6
+    assert clock["frequency"] > 0.5 and clock["level"] == "very high"
+    # Cast on turn 4 it needs 21 by the opponent turns after turn 5 (the 4 attacks are worth
+    # 5/2 + 7/2 = 6 in round one and 8 + 9/2 + 11/2 = 16 in round two).
+    assert clock["cumulative_by_turn"]["4"] == 0.0
+
+
 def test_main_skips_a_stale_card_facts_file():
     import contextlib
     import io

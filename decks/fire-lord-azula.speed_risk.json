@@ -16,7 +16,7 @@
   "library_cards": 99,
   "commander": "Fire Lord Azula",
   "slug": "fire-lord-azula",
-  "run_at_utc": "2026-10-12T20:33:12Z",
-  "fails_bracket_fit_review": false,
-  "note": "Order of magnitude from a simplified goldfish (no colors, removal or blockers). It never changes Layer A's floor; it feeds the bracket-fit review."
+  "run_at_utc": "2026-10-12T22:12:30Z",
+  "gate_effect": "none: reported to the bracket-fit review as context (user decision 2026-10-12)",
+  "note": "Order of magnitude from a simplified goldfish (no colors, equipment, removal or blockers). It never changes Layer A's floor and is not a pass or fail by itself."
 }

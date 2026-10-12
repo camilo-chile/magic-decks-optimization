@@ -75,8 +75,8 @@ add information over a single one; if they do not, they are cut to one.
    (margin 0.82 s for R = 4, 0.50 s for R = 8).
 6. **Bracket-fit review** (see below) runs on every frozen candidate; it is a separate
    condition, not part of Y.
-7. **Eligibility at a budget point.** Layer A floor 3 or less with no flag implying 4, the
-   bracket-fit review passes, the list is frozen, and one fresh confirmation run gives a Y
+7. **Eligibility at a budget point.** Layer A floor at or below the deck's target bracket with no
+   rejection, the list is frozen, and one fresh confirmation run gives a Y
    within the band of the first batch. The test panel (held-out paraphrases and ablation
    variants, frozen in Phase 5) rates each final list at most twice, and every submission
    is logged, including failures; all iteration uses the dev panel. A re-roll after changing
@@ -115,7 +115,7 @@ Measure `s` in the evals before freezing any threshold.
 2. The optimizer is an integer program (a solver), not a language model. It maximizes the
    lowest surrogate `Y_hat` over the 3 decks, then the sum, then minimizes cost, subject to
    the checkout total <= B (shipping included, which penalizes extra stores), verified
-   stock, Layer A floor <= 3,
+   stock, Layer A floor <= each deck's target bracket,
    each physical copy in one deck only, locked cards kept, and parity within 0.2.
 3. Tier 2 or 3 ratings validate selected points; the curve shows the surrogate with the
    panel results as marked points.
@@ -126,7 +126,7 @@ Measure `s` in the evals before freezing any threshold.
 ## Anchors per commander
 | Anchor | How it is made | Role |
 |---|---|---|
-| Y = 9 reference | A no-budget best Bracket 3 list drafted by Claude. Accepted by criteria, not by the user: passes Layer A and the bracket-fit review, and wins the panel comparison against the community's Bracket 3 average deck | Top of the scale |
+| Y = 9 reference | A no-budget best list for the deck's target bracket, drafted by Claude. Accepted by criteria, not by the user: passes Layer A (official conditions only) and an independent card-by-card review. There is no community comparison (D7), so the check against the ablation ladder in Phase 5 replaces it | Top of the scale |
 | Ablation ladder | The reference with its best k non-land slots replaced, nested, for k in {2, 4, 6, 10, 20} (add 30 if the current decks fall below). Labels `Y = 9 - k/4`; the constant is fixed for all commanders before Phase 5 and never changed after a candidate is seen | Known order without any LLM; k = 2 sits at 8.5 and k = 4 at 8.0 |
 | Community Bracket 3 average deck | Public decks for the same commander from a source whose terms allow automated reading (EDHREC does not; see D7) | Unlabelled diagnostic |
 | Community Bracket 4 average deck | Same | Known-answer probe of the bracket-fit review (judges must call it Bracket 4); never in the Y fit |
@@ -147,8 +147,8 @@ At least 3 isolated judges (not the user) each answer for the candidate alone: "
 4 under Wizards' expectation text (snapshot 2026-02-09)?" with a checklist: (1) the role of
 each Game Changer (Bracket 3: value engine or game-ending spell; Bracket 4: fast mana,
 snowballing engine, free disruption, tutor); (2) the speed-risk flag; (3) stax, lock or
-"tricked-out" patterns. Pass = a Bracket 3 majority in every run and a speed-risk flag
-below `high`.
+"tricked-out" patterns. Pass = a Bracket 3 majority in every run. The speed-risk flag is
+context for the judges, not a threshold (user decision, 2026-10-12).
 
 ## Speed-risk simulation
 A Monte Carlo goldfish script (`scripts/speed_risk.py`, to be written, run by the user):
@@ -191,18 +191,20 @@ a separate, frozen test panel; this reduces, but does not remove, shared misjudg
 |---|---|
 | D1 | Y is relative to each commander |
 | D2 | Goal is the budget curve at parity within 0.2 points, 100,000 to 300,000 CLP in steps of 50,000; the user then chooses |
-| D3 | Speed is a qualitative 5-level risk flag from a Monte Carlo script (order of magnitude); `high` or more means probable Bracket 4 intent |
+| D3 | Speed is a qualitative 5-level risk flag from a Monte Carlo script (order of magnitude). Update 2026-10-12: reported only, never a pass or fail, because a commander can be a fast clock by itself (Alexios) |
 | D4 | Pairwise judgments, Bradley-Terry and several runs |
 | D5 | Owned cards cost 0; one physical copy goes to one deck only; a locked-cards file per deck, chosen in Phase 6 after the current decks are rated |
 | D6 | Any legal English or Spanish printing and finish, condition near mint to lightly played, no proxies, owned Spanish copies fine; budget counts checkout totals including shipping and any payment fees; sleeves and accessories outside the budget; no selling or trading |
-| D7 | EDHREC is **not** scripted. Its terms of service (effective 2024-08-06, read 2026-10-11) give a limited license for personal, noncommercial use and bar automated searches, requests or queries and copying its content (its robots.txt does not block commander pages, but the terms still apply). Commander-specific popularity and average decks come from another source whose terms allow it, or are left out. No MCP either: none official, community ones abandoned |
+| D7 | EDHREC is **not** scripted. Its terms of service (effective 2024-08-06, read 2026-10-11) give a limited license for personal, noncommercial use and bar automated searches, requests or queries and copying its content (its robots.txt does not block commander pages, but the terms still apply). Commander-specific popularity and average decks come from another source whose terms allow it, or are left out. Update 2026-10-12: Archidekt's terms (read that day) bar automated searches, requests or queries too, so it is not scripted; Moxfield's terms could not be read (HTTP 403 from the fetch tool), so it is not scripted either. Community decks enter only as lists the owner exports by hand for personal use, or not at all. No MCP either: none official, community ones abandoned |
 | D8 | The user does not label decks; internet sources and ablations replace human labels |
 | D9 | Stock verifier on Haiku 5.5; if it does not give good results, move to Sonnet 5.5 (measured on about 20 cards of known state) |
-| D10 | Bracket-fit review by the panel only |
+| D10 | Bracket-fit review by the panel only. Update 2026-10-12: report-only context, never a pass or fail (see D19) |
 | D14 | Any Anthropic model plus the local `qwen3.8:27b` as 3 judge slots, only if it passes qualification; Ollama, manual install |
 | D18 | Language is a per-deck setting with three values: Spanish only, English only, or both. It applies to every card of that deck, owned or bought (a Spanish-only deck cannot use an owned English copy). Cards with no Spanish printing are reported, not silently skipped || D15 | Wait for the 2026-10-12 rules announcement before Phase 4 |
 | D16 | Everything in CLP from the 7 Chilean specialist stores in `data/stores.md` (preference order given); no conversion. No fixed store cap: shipping is a fixed cost per store inside the optimizer, and fewer stores are preferred; the first 3 are the default |
-| D17 | Speed-risk bands: 0-10%, 10-20%, 20-30%, 30-40%, 40% or more (very low to very high); `high` or more fails the bracket-fit review |
+| D17 | Speed-risk bands: 0-10%, 10-20%, 20-30%, 30-40%, 40% or more (very low to very high); reported only since 2026-10-12 (it no longer fails the bracket-fit review) |
+| D19 | Power first (2026-10-12): the decks are for casual games with friends and the goal is the strongest, most consistent list the chosen budget buys. Only Wizards' official conditions of a deck's target bracket and Commander legality limit it; a project rule that only lowers power is removed. Builders get no caps of their own (multipliers, extra combats, speed, fast mana within the Game Changer count) |
+| D20 | Target bracket per deck (2026-10-12): Toph 4, Alexios 3, Azula 3. A deck is judged against its own target; Y stays relative to each commander's best list under that bracket |
 
 ### Set by default (the user may override)
 | ID | Default |

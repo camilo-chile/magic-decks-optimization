@@ -72,13 +72,15 @@ def test_game_changer_floors_0_3_4_and_commander_counts():
     assert r["checks"]["game_changers"]["count"] == 4 and r["floor"] == 4
 
 
-def test_extra_turn_cards_one_floor_2_two_rejected():
-    et = card("Time Warp", ["R"], "Sorcery", "Target player takes an extra turn after this one.")
-    et2 = card("Walk the Aeons", ["R"], "Sorcery", "Target player takes an extra turn after this one.")
-    r1 = run([et])
-    assert r1["floor"] == 2 and not r1["rejected"]
-    r2 = run([et, et2])
-    assert r2["rejected"] and any("extra-turn" in x for x in r2["reasons"])
+def test_extra_turn_cards_one_floor_2_up_to_three_allowed_four_is_floor_4():
+    def turn(i):
+        return card(f"Turn Spell {i}", ["R"], "Sorcery", "Target player takes an extra turn after this one.")
+    assert run([turn(1)])["floor"] == 2
+    r3 = run([turn(1), turn(2), turn(3)])
+    assert not r3["rejected"] and r3["floor"] == 2
+    assert any("low quantities" in n for n in r3["review_notes"])
+    r4 = run([turn(1), turn(2), turn(3), turn(4)])
+    assert not r4["rejected"] and r4["floor"] == 4 and not r4["floor_ok_so_far"]
 
 
 def test_cards_that_only_skip_or_forbid_extra_turns_are_not_counted():
@@ -224,17 +226,44 @@ def test_classify_features_maps_spellbook_names_to_categories():
     assert mod.classify_features(["Infinite creature ETB", "Skip your draw steps"]) == set()
 
 
-def test_commander_plus_one_card_combo_is_floor_4():
+def test_early_commander_plus_one_card_infinite_is_floor_4_and_late_is_3():
     a = card("Mindslaver", [], "Artifact")
-    r = run_sb([a], [variant("v1", [COMMANDER, a], ["Lock"], tag="R", commander_card=COMMANDER)])
+    early = variant("v1", [COMMANDER, a], ["Infinite mana"], tag="R", mana_value=5, commander_card=COMMANDER)
+    r = run_sb([a], [early])
     assert r["floor"] == 4 and not r["floor_ok_so_far"]
-    assert r["spellbook"]["included_flagged"][0]["kind"] == "commander plus one card"
+    assert r["spellbook"]["included_flagged"][0]["kind"].startswith("commander plus one card, early")
+    late = variant("v2", [COMMANDER, a], ["Infinite mana"], tag="E", mana_value=10, commander_card=COMMANDER)
+    assert run_sb([a], [late])["floor"] == 3
 
 
-def test_two_card_combo_floor_3_slow_and_4_fast():
+def test_a_lock_with_the_commander_is_a_review_note_not_a_floor():
+    a = card("Mindslaver", [], "Artifact")
+    r = run_sb([a], [variant("v1", [COMMANDER, a], ["Lock"], tag="E", mana_value=5, commander_card=COMMANDER)])
+    assert r["floor"] == 1 and r["spellbook"]["included_flagged"][0]["kind"].startswith("review")
+
+
+def test_target_bracket_four_accepts_a_floor_four_deck():
+    ruination = card("Ruination", ["R"], "Sorcery", "Destroy all nonbasic lands.")
+    cards, cmd, main = deck([ruination])
+    index = mod.build_index(cards)
+    assert not mod.analyze(cmd, main, index)[0]["floor_ok_so_far"]
+    r4 = mod.analyze(cmd, main, index, target=4)[0]
+    assert r4["floor"] == 4 and r4["floor_ok_so_far"] and r4["target_bracket"] == 4
+
+
+def test_two_card_combo_floor_3_slow_and_4_early():
     a, b = card("Piece A", ["R"]), card("Piece B", ["R"])
     assert run_sb([a, b], [variant("v1", [a, b], ["Infinite mana"], mana_value=9)])["floor"] == 3
     assert run_sb([a, b], [variant("v1", [a, b], ["Infinite mana"], mana_value=3)])["floor"] == 4
+    assert run_sb([a, b], [variant("v1", [a, b], ["Infinite mana"], mana_value=6)])["floor"] == 4
+    seven = run_sb([a, b], [variant("v1", [a, b], ["Infinite mana"], mana_value=7)])
+    assert seven["floor"] == 3 and "borderline" in seven["spellbook"]["included_flagged"][0]["kind"]
+
+
+def test_a_finite_two_card_combo_is_not_an_infinite_combo():
+    a, b = card("Value A", ["R"]), card("Value B", ["R"])
+    r = run_sb([a, b], [variant("v1", [a, b], ["Draw a card each turn"], mana_value=2)])
+    assert r["floor"] == 1
 
 
 def test_three_card_combos_only_matter_through_their_features():
@@ -310,10 +339,10 @@ def test_pending_checks_shrink_when_spellbook_and_hazards_are_loaded():
 
 
 def test_plural_extra_turn_counts_are_detected():
-    stretch = card("Time Stretch", ["U"], "Sorcery", "Target player takes two extra turns after this one.")
+    stretch = card("Time Stretch", ["R"], "Sorcery", "Target player takes two extra turns after this one.")
     warp = card("Time Warp", ["R"], "Sorcery", "Target player takes an extra turn after this one.")
     r = run([stretch, warp])
-    assert r["checks"]["extra_turns"]["count"] == 2 and r["rejected"]
+    assert r["checks"]["extra_turns"]["count"] == 2 and not r["rejected"]
 
 
 def test_extra_turn_card_that_returns_itself_gets_a_chain_note():
@@ -348,11 +377,12 @@ def test_template_variant_with_a_decisive_feature_is_review_not_dropped():
     assert r["review_items"] == 1
 
 
-def test_commander_plus_two_cards_is_a_floor_4_candidate_even_when_slow():
+def test_commander_plus_two_cards_is_a_three_card_combo_and_sets_no_floor():
     a, b = card("C2a", ["R"]), card("C2b", ["R"])
-    v = variant("v1", [COMMANDER, a, b], ["Infinite creature ETB"], mana_value=12, commander_card=COMMANDER)
-    r = run_sb([a, b], [v])
-    assert r["floor"] == 4 and r["spellbook"]["included_flagged"][0]["kind"] == "commander combo"
+    v = variant("v1", [COMMANDER, a, b], ["Infinite creature ETB"], mana_value=4, commander_card=COMMANDER)
+    assert run_sb([a, b], [v])["floor"] == 1
+    turns = variant("v2", [COMMANDER, a, b], ["Infinite turns"], mana_value=4, commander_card=COMMANDER)
+    assert run_sb([a, b], [turns])["floor"] == 4
 
 
 def test_spellbook_tag_disagreement_is_listed_for_review():

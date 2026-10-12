@@ -1,0 +1,473 @@
+{
+ "as_of": "2026-10-12",
+ "commander": "Alexios, Deimos of Kosmos",
+ "note": "Lands (25 Mountain and 11 nonbasic land cards, 2 of them modal DFC land cards) are the fixed mana base and are not ranked. fillers: per role, weakest first; all legal, not in the list, and checked against Layer A together with the list (0 Spellbook variants, 0 hazards).",
+ "ranking": [
+  {
+   "name": "The One Ring",
+   "role": "draw",
+   "importance_rank": 1
+  },
+  {
+   "name": "Jeska's Will",
+   "role": "ramp",
+   "importance_rank": 2
+  },
+  {
+   "name": "Sword of Fire and Ice",
+   "role": "equipment-engine",
+   "importance_rank": 3
+  },
+  {
+   "name": "Umezawa's Jitte",
+   "role": "equipment-engine",
+   "importance_rank": 4
+  },
+  {
+   "name": "Sol Ring",
+   "role": "ramp",
+   "importance_rank": 5
+  },
+  {
+   "name": "Mask of Memory",
+   "role": "equipment-engine",
+   "importance_rank": 6
+  },
+  {
+   "name": "Hammer of Nazahn",
+   "role": "protection",
+   "importance_rank": 7
+  },
+  {
+   "name": "Commander's Plate",
+   "role": "protection",
+   "importance_rank": 8
+  },
+  {
+   "name": "Sword of the Animist",
+   "role": "equipment-engine",
+   "importance_rank": 9
+  },
+  {
+   "name": "Sword of Feast and Famine",
+   "role": "equipment-engine",
+   "importance_rank": 10
+  },
+  {
+   "name": "Buster Sword",
+   "role": "equipment-engine",
+   "importance_rank": 11
+  },
+  {
+   "name": "Spectacular Showdown",
+   "role": "multiplier",
+   "importance_rank": 12
+  },
+  {
+   "name": "Swiftfoot Boots",
+   "role": "protection",
+   "importance_rank": 13
+  },
+  {
+   "name": "Arcane Signet",
+   "role": "ramp",
+   "importance_rank": 14
+  },
+  {
+   "name": "Ugin, the Ineffable",
+   "role": "other",
+   "importance_rank": 15
+  },
+  {
+   "name": "Chandra, Torch of Defiance",
+   "role": "draw",
+   "importance_rank": 16
+  },
+  {
+   "name": "Argentum Armor",
+   "role": "equipment-engine",
+   "importance_rank": 17
+  },
+  {
+   "name": "Blasphemous Act",
+   "role": "wipe",
+   "importance_rank": 18
+  },
+  {
+   "name": "Chaos Warp",
+   "role": "interaction",
+   "importance_rank": 19
+  },
+  {
+   "name": "Lightning Bolt",
+   "role": "interaction",
+   "importance_rank": 20
+  },
+  {
+   "name": "Fiery Confluence",
+   "role": "interaction",
+   "importance_rank": 21
+  },
+  {
+   "name": "Maximus, Knight Apparent",
+   "role": "tutor",
+   "importance_rank": 22
+  },
+  {
+   "name": "Reckless Handling",
+   "role": "tutor",
+   "importance_rank": 23
+  },
+  {
+   "name": "Court of Embereth",
+   "role": "draw",
+   "importance_rank": 24
+  },
+  {
+   "name": "Disrupt Decorum",
+   "role": "goad",
+   "importance_rank": 25
+  },
+  {
+   "name": "Mind Stone",
+   "role": "ramp",
+   "importance_rank": 26
+  },
+  {
+   "name": "Thought Vessel",
+   "role": "ramp",
+   "importance_rank": 27
+  },
+  {
+   "name": "Solemn Simulacrum",
+   "role": "ramp",
+   "importance_rank": 28
+  },
+  {
+   "name": "Goldspan Dragon",
+   "role": "finisher",
+   "importance_rank": 29
+  },
+  {
+   "name": "Glorybringer",
+   "role": "finisher",
+   "importance_rank": 30
+  },
+  {
+   "name": "Seasoned Pyromancer",
+   "role": "other",
+   "importance_rank": 31
+  },
+  {
+   "name": "Furious Rise",
+   "role": "draw",
+   "importance_rank": 32
+  },
+  {
+   "name": "Endless Atlas",
+   "role": "draw",
+   "importance_rank": 33
+  },
+  {
+   "name": "Tome of Legends",
+   "role": "draw",
+   "importance_rank": 34
+  },
+  {
+   "name": "Outpost Siege",
+   "role": "draw",
+   "importance_rank": 35
+  },
+  {
+   "name": "Vengeful Ancestor",
+   "role": "goad",
+   "importance_rank": 36
+  },
+  {
+   "name": "Deflecting Swat",
+   "role": "protection",
+   "importance_rank": 37
+  },
+  {
+   "name": "Abrade",
+   "role": "interaction",
+   "importance_rank": 38
+  },
+  {
+   "name": "Wild Magic Surge",
+   "role": "interaction",
+   "importance_rank": 39
+  },
+  {
+   "name": "Mizzium Mortars",
+   "role": "interaction",
+   "importance_rank": 40
+  },
+  {
+   "name": "Fury",
+   "role": "interaction",
+   "importance_rank": 41
+  },
+  {
+   "name": "Inferno Titan",
+   "role": "finisher",
+   "importance_rank": 42
+  },
+  {
+   "name": "Sceptre of Eternal Glory",
+   "role": "ramp",
+   "importance_rank": 43
+  },
+  {
+   "name": "Thran Dynamo",
+   "role": "ramp",
+   "importance_rank": 44
+  },
+  {
+   "name": "Fellwar Stone",
+   "role": "ramp",
+   "importance_rank": 45
+  },
+  {
+   "name": "Goblin Engineer",
+   "role": "tutor",
+   "importance_rank": 46
+  },
+  {
+   "name": "Glamdring",
+   "role": "equipment-engine",
+   "importance_rank": 47
+  },
+  {
+   "name": "Pip-Boy 3000",
+   "role": "equipment-engine",
+   "importance_rank": 48
+  },
+  {
+   "name": "Light Up the Stage",
+   "role": "draw",
+   "importance_rank": 49
+  },
+  {
+   "name": "Big Score",
+   "role": "draw",
+   "importance_rank": 50
+  },
+  {
+   "name": "Vandalblast",
+   "role": "interaction",
+   "importance_rank": 51
+  },
+  {
+   "name": "Anger of the Gods",
+   "role": "wipe",
+   "importance_rank": 52
+  },
+  {
+   "name": "Delayed Blast Fireball",
+   "role": "wipe",
+   "importance_rank": 53
+  },
+  {
+   "name": "Untimely Malfunction",
+   "role": "interaction",
+   "importance_rank": 54
+  },
+  {
+   "name": "Unexpected Windfall",
+   "role": "draw",
+   "importance_rank": 55
+  },
+  {
+   "name": "Comet Storm",
+   "role": "interaction",
+   "importance_rank": 56
+  },
+  {
+   "name": "Wurmcoil Engine",
+   "role": "finisher",
+   "importance_rank": 57
+  },
+  {
+   "name": "Trumpeting Carnosaur",
+   "role": "finisher",
+   "importance_rank": 58
+  },
+  {
+   "name": "Armory Automaton",
+   "role": "other",
+   "importance_rank": 59
+  },
+  {
+   "name": "Terror of the Peaks",
+   "role": "finisher",
+   "importance_rank": 60
+  },
+  {
+   "name": "Flame Slash",
+   "role": "interaction",
+   "importance_rank": 61
+  },
+  {
+   "name": "Dragon's Hoard",
+   "role": "ramp",
+   "importance_rank": 62
+  },
+  {
+   "name": "Commander's Sphere",
+   "role": "ramp",
+   "importance_rank": 63
+  }
+ ],
+ "fillers": {
+  "ramp": [
+   "Ruby Medallion",
+   "Wayfarer's Bauble",
+   "Star Compass",
+   "Darksteel Ingot",
+   "Coldsteel Heart",
+   "Fire Diamond",
+   "Prismatic Lens",
+   "Worn Powerstone",
+   "Burnished Hart",
+   "Everflowing Chalice",
+   "Chromatic Lantern",
+   "Skyclave Relic",
+   "Hedron Archive",
+   "Gilded Lotus"
+  ],
+  "draw": [
+   "Magmatic Insight",
+   "Faithless Looting",
+   "Thrill of Possibility",
+   "Seize the Spoils",
+   "Reckless Impulse",
+   "Wrenn's Resolve",
+   "Valakut Exploration",
+   "Professional Face-Breaker",
+   "Monastery Raid",
+   "Wheel of Fortune",
+   "Reforge the Soul",
+   "Magus of the Wheel",
+   "Mystic Forge",
+   "Mind's Eye"
+  ],
+  "interaction": [
+   "Shock",
+   "Arc Lightning",
+   "Burst Lightning",
+   "Shattering Spree",
+   "Smash to Smithereens",
+   "Lightning Strike",
+   "Searing Spear",
+   "Incinerate",
+   "Fiery Temper",
+   "Chandra's Outrage",
+   "Stoke the Flames",
+   "Meteor Golem",
+   "Flametongue Kavu"
+  ],
+  "wipe": [
+   "Pyroclasm",
+   "Fiery Cannonade",
+   "Kozilek's Return",
+   "Slagstorm",
+   "Sweltering Suns",
+   "Brotherhood's End",
+   "Chain Reaction",
+   "Storm's Wrath",
+   "Spiteful Banditry",
+   "Burn Down the House",
+   "Hour of Devastation"
+  ],
+  "protection": [
+   "Redirect Lightning",
+   "Bolt Bend",
+   "Leather Armor",
+   "Lavaspur Boots",
+   "Thran Power Suit",
+   "Darksteel Plate",
+   "Lightning Greaves",
+   "Champion's Helm",
+   "Whispersilk Cloak",
+   "Mithril Coat",
+   "Brotherhood Regalia",
+   "Not of This World"
+  ],
+  "equipment-engine": [
+   "Strength-Testing Hammer",
+   "Infiltration Lens",
+   "Paleontologist's Pick-Axe // Dinosaur Headdress",
+   "Rogue's Gloves",
+   "Zephyr Boots",
+   "Armory of Iroas",
+   "Bloodforged Battle-Axe",
+   "Dream-Thief's Bandana",
+   "Bitterthorn, Nissa's Animus",
+   "Sword of Body and Mind",
+   "Sword of Light and Shadow"
+  ],
+  "multiplier": [
+   "Trusty Machete",
+   "Hero's Blade",
+   "Bonesplitter",
+   "Grafted Wargear",
+   "Colossus Hammer",
+   "Lizard Blades",
+   "Fireshrieker",
+   "Two-Handed Axe // Sweeping Cleave",
+   "Leyline Axe"
+  ],
+  "goad": [
+   "Taunting Kobold",
+   "Insufferable Balladeer",
+   "Goblin Racketeer",
+   "Coronation of Chaos",
+   "Day of the Moon",
+   "Bothersome Quasit",
+   "Agitator Ant",
+   "Glóin, Dwarf Emissary",
+   "Fast Forward",
+   "Geode Rager",
+   "Sontaran General",
+   "Baeloth Barrityl, Entertainer",
+   "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+   "Rite of the Raging Storm"
+  ],
+  "finisher": [
+   "Torrent of Fire",
+   "Fireball",
+   "Banefire",
+   "Shivan Dragon",
+   "Verix Bladewing",
+   "Hoarding Dragon",
+   "Siege-Gang Commander",
+   "Thundermaw Hellkite",
+   "Balefire Dragon",
+   "Myr Battlesphere"
+  ],
+  "tutor": [
+   "Pyre of Heroes",
+   "Goblin Matron",
+   "Imperial Recruiter",
+   "Expedition Map",
+   "Moonsilver Key",
+   "Sarkhan's Triumph",
+   "Zirilan of the Claw",
+   "Tezzeret, Cruel Captain",
+   "Kuldotha Forgemaster",
+   "Cool but Rude",
+   "Urza's Saga"
+  ],
+  "other": [
+   "Dragon Fodder",
+   "Krenko's Command",
+   "Goblin Instigator",
+   "Mogg War Marshal",
+   "Young Pyromancer",
+   "Hordeling Outburst",
+   "Brass Squire",
+   "Goblin Chainwhirler"
+  ]
+ }
+}
