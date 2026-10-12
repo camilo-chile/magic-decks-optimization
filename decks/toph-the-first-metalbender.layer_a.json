@@ -8,10 +8,16 @@
   "total_cards": 100,
   "recognized_cards": 100,
   "unresolved": [],
-  "floor": 3,
+  "floor": 4,
   "rejected": false,
   "reasons": [],
-  "flags": [],
+  "flags": [
+    {
+      "flag": "spellbook_combos",
+      "count": 3,
+      "provenance": "curated (Spellbook bulk file), predicates over-inclusive"
+    }
+  ],
   "review_notes": [],
   "checks": {
     "game_changers": {
@@ -42,12 +48,106 @@
     "average_mana_value_nonland": 3.38
   },
   "pending_checks": [
-    "Commander Spellbook estimate-bracket and find-my-combos (step 2.3)",
-    "own combo detector: full Spellbook bulk match and curated hazards (step 2.4)",
     "speed-risk flag from the Monte Carlo script (step 2.6)"
   ],
+  "eligible_bracket_3": false,
   "complete": false,
+  "spellbook": {
+    "variants_total": 114400,
+    "included_total": 3,
+    "included_by_tag": {
+      "S": 2,
+      "R": 1
+    },
+    "included_flagged": [
+      {
+        "variant": "1167-6871",
+        "cards": [
+          "Toph, the First Metalbender",
+          "Mindslaver"
+        ],
+        "bracket_tag": "R",
+        "mana_value_needed": 4,
+        "requires": [],
+        "floor": 4,
+        "kind": "commander plus one card",
+        "categories": [
+          "control_some_opponents",
+          "lock"
+        ],
+        "features": [
+          "You control one opponent on each of their turns",
+          "Lock"
+        ]
+      },
+      {
+        "variant": "4155-6871",
+        "cards": [
+          "Toph, the First Metalbender",
+          "The Stasis Coffin"
+        ],
+        "bracket_tag": "S",
+        "mana_value_needed": 2,
+        "requires": [],
+        "floor": 4,
+        "kind": "commander plus one card",
+        "categories": [
+          "lock"
+        ],
+        "features": [
+          "Prevent all damage that would be dealt to you",
+          "You have protection from everything during your opponents' turns",
+          "Lock"
+        ]
+      },
+      {
+        "variant": "539-7033",
+        "cards": [
+          "Bumi, Unleashed",
+          "Ashaya, Soul of the Wild"
+        ],
+        "bracket_tag": "S",
+        "mana_value_needed": 0,
+        "requires": [],
+        "floor": 4,
+        "kind": "two-card combo, about 6 mana or less",
+        "categories": [],
+        "features": [
+          "Infinite combat phases",
+          "Infinite mana lands you control can produce",
+          "Infinite green mana",
+          "Infinite combat damage",
+          "Infinite untap of nontoken creatures you control",
+          "Infinite mana nontoken creatures you control can produce"
+        ]
+      }
+    ],
+    "almost_included_total": 132,
+    "almost_included_floor_4_features": [
+      {
+        "variant": "4636-6871",
+        "missing": [
+          "Gonti's Aether Heart"
+        ],
+        "cards": [
+          "Toph, the First Metalbender",
+          "Gonti's Aether Heart"
+        ]
+      },
+      {
+        "variant": "1167-5483",
+        "missing": [
+          "Esoteric Duplicator"
+        ],
+        "cards": [
+          "Esoteric Duplicator",
+          "Mindslaver"
+        ]
+      }
+    ]
+  },
+  "unresolved_hazard_names": [],
   "source": "data/raw/Toph.txt",
   "bulk_file": "oracle-cards-20261011210156.jsonl.gz",
-  "run_at_utc": "2026-10-12T17:18:20Z"
+  "run_at_utc": "2026-10-12T18:52:09Z"
 }

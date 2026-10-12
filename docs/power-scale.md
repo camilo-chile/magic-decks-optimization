@@ -1,6 +1,6 @@
-# Power scale (v0.6)
+# Power scale (v0.7)
 
-Status: v0.6 draft. Rules snapshot: the Wizards update of 2026-02-09, verified on
+Status: v0.7 draft. Rules snapshot: the Wizards update of 2026-02-09, verified on
 2026-10-10 and again on 2026-10-11 by independent fact-checks; the Brackets system is
 still labelled "beta".
 Re-check after Wizards' announcement of 2026-10-12. Source report:
@@ -58,6 +58,19 @@ Rules snapshot (as of 2026-02-09, beta):
 Tutors lost their restriction on 2025-10-21; Wizards relies on the Game Changers list to
 catch the most efficient ones, but not every efficient tutor is on it (Demonic Consultation
 is not).
+
+**Spellbook data source (v0.7, user decision 2026-10-12).** Wherever a row below says
+`find-my-combos`, `estimate-bracket` or a Spellbook flag, read it as matched **locally**
+against Commander Spellbook's published bulk file (`variants.json.gz`, fetched by
+`scripts/collect_spellbook_bulk.py`; its API documentation asks clients not to export the
+dataset through the API). `estimate-bracket` stays an optional cross-check. The bulk file
+has `bracketTag`, produced features ("Mass Land Denial", "Lock", "Infinite turns" and
+others), `manaNeeded` / `manaValueNeeded` and the card list, but not the API's `relevant`,
+`speed` or `definitelyTwoCard` fields, so: a two-card combo is a variant with exactly two
+cards and no template requirement; speed is judged from `manaValueNeeded` (the "about 6
+mana or less" test of the two-card row). Combos Spellbook does not list (the Toph
+Emeria Shepherd loop, the Azula self-copy loop) are covered by a curated hazard list
+built from the Phase 3 reports, not by Spellbook.
 
 How each rule is checked. Provenance: **official** = Wizards defines it and it is
 enumerable; **curated** = needs a list or flag maintained by someone else; **heuristic** =
@@ -147,6 +160,9 @@ text).
 - The planned tests are listed in `evals/README.md`.
 
 ## Changelog
+- v0.7 (2026-10-12): user decision: Spellbook combos are matched locally against its
+  published bulk file instead of `find-my-combos`; two-card and speed predicates restated
+  for the fields the bulk file has; a curated hazard list covers combos Spellbook lacks.
 - v0.6 (2026-10-12): user decision: the extra-turn count policy is relaxed. A card
   multiplied by the commander (Azula) counts as 1 card, not 2, so one extra-turn card is
   allowed in any deck; 2 or more cards, chains and infinite-turn combos keep their outcomes.

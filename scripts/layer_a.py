@@ -18,6 +18,7 @@ card text. Spellbook combos, the own combo detector and the speed-risk flag are 
 steps; the report lists them under `pending_checks`, so a result here is never a final
 eligibility answer.
 """
+import gzip
 import json
 import re
 import sys
@@ -151,8 +152,188 @@ def is_extra_turn_card(card):
     return bool(EXTRA_TURN_GRANT_RE.search(text))
 
 
-def analyze(commander_entries, main_entries, index, slug=None):
-    """Run the offline checks. Returns (report dict, list of card facts)."""
+SPELLBOOK_SLIM = CACHE / "spellbook_variants_slim.jsonl.gz"
+HAZARDS_PATH = ROOT / "data" / "hazards.json"
+TWO_CARD_FAST_MANA_VALUE = 6  # "about 6 mana or less" (power-scale two-card row, speed >= 3)
+
+FEATURE_CONTROL_ALL = {
+    "You control your opponents on each of their turns",
+    "You control up to three opponents on each of their turns",
+}
+FEATURE_INFINITE_TURNS = {
+    "Infinite turns", "Near-infinite turns", "Infinite turns for each opponent",
+    "Infinite turns after one turn cycle",
+}
+MLD_FEATURE_RE = re.compile(r"^(Destroy|Exile) all (nonbasic |nonartifact )?lands\b")
+SKIP_TURNS_RE = re.compile(r"\bskips? (all )?(their|your) (future |next )?(several )?turns?\b", re.I)
+
+
+def classify_features(features):
+    """Map Spellbook feature names to the Layer A categories of the power scale."""
+    cats = set()
+    for name in features:
+        if name == "Mass Land Denial" or MLD_FEATURE_RE.match(name):
+            cats.add("mass_land_denial")
+        if name in FEATURE_INFINITE_TURNS or name.startswith("On each of your turns, you take an extra turn"):
+            cats.add("infinite_turns")
+        if name in FEATURE_CONTROL_ALL:
+            cats.add("control_all_opponents")
+        elif name.startswith("You control one opponent") or name.startswith("Locks out all of your opponents"):
+            cats.add("control_some_opponents")
+        if name == "Lock":
+            cats.add("lock")
+        if SKIP_TURNS_RE.search(name):
+            cats.add("skip_turns")
+    return cats
+
+
+def index_variants(raw_variants):
+    """Add the oracle-ID set to each slim variant; return (variants, oracle ID -> positions)."""
+    variants, by_oracle = [], {}
+    for variant in raw_variants:
+        variant["_oids"] = frozenset(c["oracle_id"] for c in variant["cards"] if c.get("oracle_id"))
+        for oid in variant["_oids"]:
+            by_oracle.setdefault(oid, []).append(len(variants))
+        variants.append(variant)
+    return variants, by_oracle
+
+
+def load_spellbook(path=SPELLBOOK_SLIM):
+    """Load the slim Spellbook variants and an inverted index oracle ID -> variant positions."""
+    with gzip.open(path, "rt", encoding="utf-8") as fh:
+        return index_variants(json.loads(line) for line in fh)
+
+
+def load_hazards(path=HAZARDS_PATH):
+    """The curated hazard list (combos and packages Spellbook does not list), or None."""
+    if not path.exists():
+        return None
+    return json.loads(path.read_text(encoding="utf-8")).get("hazards", [])
+
+
+def match_spellbook(spellbook, deck_oids, commander_oids):
+    """Variants fully inside the deck (included) and missing exactly one card (almost)."""
+    variants, by_oracle = spellbook
+    hits = Counter()
+    for oid in deck_oids:
+        for pos in by_oracle.get(oid, ()):
+            hits[pos] += 1
+    included, almost = [], []
+    for pos, n in hits.items():
+        variant = variants[pos]
+        if variant.get("commander_legal") is False:
+            continue
+        commander_only = {c["oracle_id"] for c in variant["cards"] if c.get("must_be_commander")}
+        if commander_only and not commander_only <= commander_oids:
+            continue
+        size = len(variant["_oids"])
+        if n == size:
+            included.append(variant)
+        elif n == size - 1 and size >= 2:
+            almost.append(variant)
+    return included, almost
+
+
+def judge_variant(variant, commander_oids):
+    """Floor and kind for one included variant (power-scale Layer A rows)."""
+    cats = classify_features(variant["features"])
+    oids = variant["_oids"]
+    uses_commander = bool(oids & commander_oids)
+    n_other = len(oids - commander_oids)
+    template = bool(variant["requires"])
+    floor, kind = 1, None
+    if "infinite_turns" in cats or "control_all_opponents" in cats or "mass_land_denial" in cats:
+        floor, kind = (1, "review: template unresolved") if template else (4, "feature floor 4")
+    if not template:
+        if n_other == 1:
+            floor, kind = 4, "commander plus one card" if uses_commander else "one-card combo"
+        elif n_other == 2:
+            fast = (variant.get("mana_value_needed") or 0) <= TWO_CARD_FAST_MANA_VALUE
+            if fast and floor < 4:
+                floor, kind = 4, "two-card combo, about 6 mana or less"
+            elif floor < 3:
+                floor, kind = 3, "two-card combo"
+    if floor == 1 and cats & {"lock", "control_some_opponents", "skip_turns"}:
+        kind = "review: lock, skipped turns or control of some opponents"
+    return {"floor": floor, "kind": kind, "categories": sorted(cats)}
+
+
+def spellbook_section(spellbook, hazards, commander_entries, resolved, slug, index):
+    """Run the Spellbook matcher and the curated hazards. Returns (section, floor, flags, notes)."""
+    names_in_deck = set()
+    for _, _, card in resolved:
+        names_in_deck.add(normalize(card["name"]))
+        names_in_deck.update(normalize(f["name"]) for f in card.get("card_faces") or [] if f.get("name"))
+    deck_oids = {c.get("oracle_id") for _, _, c in resolved if c.get("oracle_id")}
+    commander_oids = {c.get("oracle_id") for r, _, c in resolved if r == "commander" and c.get("oracle_id")}
+    floor, flags, notes, section = 1, [], [], {}
+
+    if spellbook is not None:
+        included, almost = match_spellbook(spellbook, deck_oids, commander_oids)
+        rows, tags = [], Counter()
+        for variant in included:
+            verdict = judge_variant(variant, commander_oids)
+            tags[variant.get("bracket_tag")] += 1
+            if verdict["floor"] > 1 or verdict["kind"]:
+                rows.append({
+                    "variant": variant["id"],
+                    "cards": [c["name"] for c in variant["cards"]],
+                    "bracket_tag": variant.get("bracket_tag"),
+                    "mana_value_needed": variant.get("mana_value_needed"),
+                    "requires": variant["requires"],
+                    **verdict,
+                    "features": variant["features"][:6],
+                })
+        rows.sort(key=lambda r: (-r["floor"], r["variant"]))
+        floor = max([r["floor"] for r in rows] + [1])
+        if rows:
+            flags.append({"flag": "spellbook_combos", "count": len(rows),
+                          "provenance": "curated (Spellbook bulk file), predicates over-inclusive"})
+        almost_rows = []
+        for variant in almost:
+            if classify_features(variant["features"]) & {"mass_land_denial", "infinite_turns",
+                                                         "control_all_opponents"}:
+                missing = [c["name"] for c in variant["cards"] if c.get("oracle_id") not in deck_oids]
+                almost_rows.append({"variant": variant["id"], "missing": missing,
+                                    "cards": [c["name"] for c in variant["cards"]]})
+        section["spellbook"] = {
+            "variants_total": len(spellbook[0]),
+            "included_total": len(included),
+            "included_by_tag": dict(tags),
+            "included_flagged": rows[:200],
+            "almost_included_total": len(almost),
+            "almost_included_floor_4_features": almost_rows[:100],
+        }
+
+    unresolved_hazard_names = []
+    if hazards is not None:
+        hits = []
+        for hazard in hazards:
+            if hazard.get("commander") not in ("*", slug):
+                continue
+            groups = [[n] for n in hazard.get("all", [])] + [list(g) for g in hazard.get("any", [])]
+            unresolved_hazard_names += [n for g in groups for n in g if normalize(n) not in index]
+            if groups and all(any(normalize(n) in names_in_deck for n in g) for g in groups):
+                hits.append(hazard)
+        for hazard in hits:
+            row = {"hazard": hazard["id"], "floor": hazard.get("floor", 4), "reason": hazard.get("reason"),
+                   "source": hazard.get("source"), "review_only": bool(hazard.get("review_only"))}
+            section.setdefault("curated_hazards", []).append(row)
+            if not row["review_only"]:
+                floor = max(floor, row["floor"])
+        if hits:
+            flags.append({"flag": "curated_hazard", "count": len(hits),
+                          "provenance": "curated (data/hazards.json, from the Phase 3 reports)"})
+        section["unresolved_hazard_names"] = sorted(set(unresolved_hazard_names))
+    return section, floor, flags, notes
+
+
+def analyze(commander_entries, main_entries, index, slug=None, spellbook=None, hazards=None):
+    """Run the checks. Returns (report dict, list of card facts).
+
+    `spellbook` is the result of load_spellbook() and `hazards` of load_hazards(); without them
+    the Spellbook and curated-hazard checks are listed under `pending_checks`.
+    """
     reasons, flags, notes = [], [], []
     entries = [("commander", e) for e in commander_entries] + [("main", e) for e in main_entries]
 
@@ -238,7 +419,18 @@ def analyze(commander_entries, main_entries, index, slug=None):
         flags.append({"flag": "mass_land_denial", "cards": mld, "provenance": "heuristic, over-inclusive"})
 
     floor = max(gc_floor, et_floor, mld_floor)
-    nonland = [c for _, e, c in resolved if "Land" not in (c.get("type_line") or "")
+    extra_section, combo_floor, combo_flags, combo_notes = spellbook_section(
+        spellbook, hazards, commander_entries, resolved, slug, index)
+    floor = max(floor, combo_floor)
+    flags += combo_flags
+    notes += combo_notes
+    pending = []
+    if spellbook is None:
+        pending.append("Spellbook combo matching: slim bulk file not found (run collect_spellbook_bulk.py)")
+    if hazards is None:
+        pending.append("curated hazard list (data/hazards.json) not loaded")
+    pending.append("speed-risk flag from the Monte Carlo script (step 2.6)")
+    nonland =[c for _, e, c in resolved if "Land" not in (c.get("type_line") or "")
                for _ in range(e["qty"])]
     tutors = sorted({c["name"] for _, _, c in resolved if TUTOR_RE.search(card_text(c).lower())})
 
@@ -269,13 +461,11 @@ def analyze(commander_entries, main_entries, index, slug=None):
             "average_mana_value_nonland": round(sum(c.get("cmc") or 0 for c in nonland) / len(nonland), 2)
             if nonland else None,
         },
-        "pending_checks": [
-            "Commander Spellbook estimate-bracket and find-my-combos (step 2.3)",
-            "own combo detector: full Spellbook bulk match and curated hazards (step 2.4)",
-            "speed-risk flag from the Monte Carlo script (step 2.6)",
-        ],
+        "pending_checks": pending,
+        "eligible_bracket_3": not reasons and floor <= 3,
         "complete": False,
     }
+    report.update(extra_section)
     facts = sorted((card_facts(by_id[k]) for k in counts), key=lambda f: f["name"])
     return report, facts
 
@@ -309,17 +499,26 @@ def main():
         sys.exit(2)
     print(f"Reading {bulk.name} ...", flush=True)
     index = build_index(list(iter_cards(bulk)))
-    print(f"{len(index)} card and face names indexed.\n")
+    print(f"{len(index)} card and face names indexed.")
+    spellbook = None
+    if SPELLBOOK_SLIM.exists():
+        spellbook = load_spellbook()
+        print(f"{len(spellbook[0])} Spellbook variants loaded.")
+    else:
+        print("Spellbook slim file missing: run scripts/collect_spellbook_bulk.py (combos not checked).")
+    hazards = load_hazards()
+    print(f"{len(hazards) if hazards is not None else 0} curated hazards loaded.\n")
 
     DECKS.mkdir(exist_ok=True)
     failed = False
     for slug, path in sources:
         text = path.read_text(encoding="utf-8-sig")
         commanders, main_cards, bad = parse_decklist(text)
-        report, facts = analyze(commanders, main_cards, index, slug)
+        report, facts = analyze(commanders, main_cards, index, slug, spellbook, hazards)
         if bad:
             report["reasons"].append(f"{len(bad)} unparsed lines: {bad[:3]}")
             report["rejected"] = True
+            report["eligible_bracket_3"] = False
         report["source"] = str(path.relative_to(ROOT)).replace("\\", "/")
         report["bulk_file"] = bulk.name
         report["run_at_utc"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -332,6 +531,18 @@ def main():
               f"floor {report['floor']}, game changers {report['checks']['game_changers']['count']}, "
               f"extra-turn cards {report['checks']['extra_turns']['count']}, "
               f"mass land denial {len(report['checks']['mass_land_denial']['cards'])}")
+        sb = report.get("spellbook")
+        if sb:
+            print(f"   Spellbook: {sb['included_total']} variants inside the deck, "
+                  f"{len(sb['included_flagged'])} flagged, {sb['almost_included_total']} one card away")
+            for row in sb["included_flagged"][:12]:
+                print(f"     floor {row['floor']} [{row['kind']}] {row['cards']} "
+                      f"(tag {row['bracket_tag']}, {', '.join(row['features'][:3])})")
+        for row in report.get("curated_hazards", []):
+            print(f"   HAZARD floor {row['floor']}: {row['hazard']}: {row['reason']}")
+        if report.get("unresolved_hazard_names"):
+            print(f"   warning: hazard names not found in the card index: {report['unresolved_hazard_names']}")
+        print(f"   eligible for Bracket 3 so far: {report['eligible_bracket_3']}")
         for reason in report["reasons"]:
             print(f"   REJECT/STOP: {reason}")
         for note in report["review_notes"]:

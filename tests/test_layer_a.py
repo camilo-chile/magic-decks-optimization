@@ -185,6 +185,113 @@ def test_parse_decklist_handles_plain_manabox_and_commander_block():
     assert bad == ["not a card line"]
 
 
+def variant(vid, cards, features=(), tag="E", requires=(), mana_value=0, legal=True, commander_card=None):
+    """A slim Spellbook variant over the given card dicts."""
+    return {
+        "id": vid,
+        "bracket_tag": tag,
+        "identity": "R",
+        "cards": [{"oracle_id": c["oracle_id"], "name": c["name"], "quantity": 1,
+                   "must_be_commander": commander_card is not None and c is commander_card}
+                  for c in cards],
+        "requires": list(requires),
+        "features": list(features),
+        "mana_needed": "",
+        "mana_value_needed": mana_value,
+        "commander_legal": legal,
+        "status": "OK",
+        "spoiler": False,
+    }
+
+
+def run_sb(extra_cards, variants, commander=COMMANDER, hazards=None, slug=None):
+    cards, cmd, main = deck(extra_cards, commander)
+    sb = mod.index_variants(variants)
+    return mod.analyze(cmd, main, mod.build_index(cards), slug, sb, hazards)[0]
+
+
+def test_classify_features_maps_spellbook_names_to_categories():
+    cats = mod.classify_features(["Infinite turns", "Mass Land Denial", "Lock",
+                                  "You control your opponents on each of their turns",
+                                  "Target opponent skips all their future turns"])
+    assert cats == {"infinite_turns", "mass_land_denial", "lock", "control_all_opponents", "skip_turns"}
+    assert mod.classify_features(["You control one opponent on each of their turns"]) == {"control_some_opponents"}
+    assert mod.classify_features(["Infinite creature ETB", "Skip your draw steps"]) == set()
+
+
+def test_commander_plus_one_card_combo_is_floor_4():
+    a = card("Mindslaver", [], "Artifact")
+    r = run_sb([a], [variant("v1", [COMMANDER, a], ["Lock"], tag="R", commander_card=COMMANDER)])
+    assert r["floor"] == 4 and not r["eligible_bracket_3"]
+    assert r["spellbook"]["included_flagged"][0]["kind"] == "commander plus one card"
+
+
+def test_two_card_combo_floor_3_slow_and_4_fast():
+    a, b = card("Piece A", ["R"]), card("Piece B", ["R"])
+    assert run_sb([a, b], [variant("v1", [a, b], ["Infinite mana"], mana_value=9)])["floor"] == 3
+    assert run_sb([a, b], [variant("v1", [a, b], ["Infinite mana"], mana_value=3)])["floor"] == 4
+
+
+def test_three_card_combos_only_matter_through_their_features():
+    a, b, c = card("A3", ["R"]), card("B3", ["R"]), card("C3", ["R"])
+    plain = variant("v1", [a, b, c], ["Infinite creature ETB"], mana_value=4)
+    assert run_sb([a, b, c], [plain])["floor"] == 1
+    turns = variant("v2", [a, b, c], ["Infinite turns"], mana_value=4)
+    assert run_sb([a, b, c], [turns])["floor"] == 4
+    mld = variant("v3", [a, b, c], ["Mass Land Denial"], mana_value=4)
+    assert run_sb([a, b, c], [mld])["floor"] == 4
+    lock = variant("v4", [a, b, c], ["Lock"], mana_value=4)
+    r = run_sb([a, b, c], [lock])
+    assert r["floor"] == 1 and r["spellbook"]["included_flagged"][0]["kind"].startswith("review")
+
+
+def test_template_requirements_make_a_variant_review_only():
+    a, b = card("T1", ["R"]), card("T2", ["R"])
+    r = run_sb([a, b], [variant("v1", [a, b], ["Infinite turns"], requires=["Persist Creature"])])
+    assert r["floor"] == 1
+    assert r["spellbook"]["included_flagged"][0]["kind"].startswith("review: template")
+
+
+def test_must_be_commander_and_legality_are_enforced():
+    a = card("Mindslaver", [], "Artifact")
+    other = card("Other Commander", ["R"], "Legendary Creature - Human")
+    wrong = variant("v1", [other, a], ["Lock"], commander_card=other)
+    assert run_sb([a, other], [wrong])["floor"] == 1  # `other` is in the main deck, not the commander
+    banned = variant("v2", [COMMANDER, a], ["Lock"], legal=False, commander_card=COMMANDER)
+    assert run_sb([a], [banned])["floor"] == 1
+
+
+def test_almost_included_lists_floor_4_variants_one_card_away():
+    a, missing = card("Have It", ["R"]), card("Missing Piece", ["R"])
+    v = variant("v1", [a, missing, COMMANDER], ["Infinite turns"], commander_card=COMMANDER)
+    r = run_sb([a], [v])
+    assert r["spellbook"]["almost_included_total"] == 1
+    assert r["spellbook"]["almost_included_floor_4_features"][0]["missing"] == ["Missing Piece"]
+
+
+def test_curated_hazards_match_by_commander_and_groups():
+    emeria, omen = card("Emeria Shepherd", ["W"]), card("Prismatic Omen", ["G"])
+    hazards = [
+        {"id": "h1", "commander": "toph-the-first-metalbender", "all": ["Emeria Shepherd"],
+         "any": [["Prismatic Omen", "Dryad of the Ilysian Grove"]], "floor": 4, "reason": "loop"},
+        {"id": "h2", "commander": "*", "all": ["Emeria Shepherd"], "any": [], "floor": 3,
+         "review_only": True, "reason": "note"},
+    ]
+    r = run_sb([emeria, omen], [], hazards=hazards, slug="toph-the-first-metalbender")
+    assert r["floor"] == 4 and {h["hazard"] for h in r["curated_hazards"]} == {"h1", "h2"}
+    assert "Dryad of the Ilysian Grove" in r["unresolved_hazard_names"]
+    other = run_sb([emeria, omen], [], hazards=hazards, slug="fire-lord-azula")
+    assert other["floor"] == 1 and [h["hazard"] for h in other["curated_hazards"]] == ["h2"]
+    assert run_sb([emeria], [], hazards=hazards, slug="toph-the-first-metalbender")["floor"] == 1
+
+
+def test_pending_checks_shrink_when_spellbook_and_hazards_are_loaded():
+    assert len(run()["pending_checks"]) == 3
+    r = run_sb([], [], hazards=[])
+    assert r["pending_checks"] == ["speed-risk flag from the Monte Carlo script (step 2.6)"]
+
+
+
 if __name__ == "__main__":
     for name, fn in list(globals().items()):
         if name.startswith("test_") and callable(fn):

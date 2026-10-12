@@ -107,6 +107,7 @@ a vehicle for learning modern AI tooling.
 | `decks/reports/` | Rating reports |
 | `data/raw/` | Private inputs such as the collection export (git-ignored) |
 | `data/cache/` | Downloaded bulk data from Scryfall and Commander Spellbook (git-ignored) |
+| `data/hazards.json` | Curated combos and packages Spellbook does not list (per commander), read by Layer A; extended from the Phase 3 reports |
 | `data/stores.md` | Allowlist of stores with domain, shipping rule, payment fees and date checked (created 2026-10-11 with the 7 stores; shipping and fees filled in Phase 7) |
 | `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) |
 | `scripts/` | Python the user runs himself |

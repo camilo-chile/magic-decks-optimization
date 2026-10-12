@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "as_of": "2026-10-12",
+  "note": "Curated combos and packages that Commander Spellbook does not list, taken from the Phase 3 reports and their verifications. Matched by card name (front-face names allowed). 'all' = every name must be in the deck; each group in 'any' needs at least one name. A hazard applies to the commander slug in 'commander' ('*' = any). Seed list: extend it from the hazard sections of the three synergy reports.",
+  "hazards": [
+    {
+      "id": "toph-emeria-omen-loop",
+      "commander": "toph-the-first-metalbender",
+      "all": ["Emeria Shepherd"],
+      "any": [["Prismatic Omen", "Dryad of the Ilysian Grove"]],
+      "floor": 4,
+      "reason": "With Toph, self-sacrificing artifacts return as lands and loop Emeria Shepherd for unlimited mana, cards and landfall triggers (3-piece loop B1); not in Spellbook",
+      "source": "docs/research/synergy-toph-the-first-metalbender-2026-10-11.md section 5 (B1); rules check claims 42-43"
+    },
+    {
+      "id": "azula-self-copy-loop",
+      "commander": "fire-lord-azula",
+      "all": [],
+      "any": [
+        ["Expansion // Explosion", "Reiterate", "Return the Favor"],
+        ["Storm-Kiln Artist", "Archmage Emeritus", "Veyran, Voice of Duality", "Professor Onyx"]
+      ],
+      "floor": 4,
+      "reason": "With Azula attacking, a copy of Expansion, Reiterate or Return the Favor may target its own original, so each copy makes another copy; a magecraft payoff makes it unbounded. Derived from oracle text, not in Spellbook; Phase 2 combo detector must confirm",
+      "source": "docs/research/synergy-fire-lord-azula-2026-10-12-rules-check.md M1"
+    },
+    {
+      "id": "alexios-helm-hasty-copy-pieces",
+      "commander": "alexios-deimos-of-kosmos",
+      "all": ["Helm of the Host"],
+      "any": [["Bloodthirster", "Raphael, Tag Team Tough"]],
+      "floor": 4,
+      "reason": "A fresh hasty non-legendary token copy each combat retriggers the 'first time' and 'already attacked' clauses of these creatures: extra-combat loop from oracle text only, absent from Spellbook",
+      "source": "docs/research/synergy-alexios-deimos-of-kosmos-2026-10-11.md section 6 combo 1"
+    },
+    {
+      "id": "azula-chain-of-smog-magecraft",
+      "commander": "fire-lord-azula",
+      "all": ["Chain of Smog"],
+      "any": [["Storm-Kiln Artist", "Archmage Emeritus", "Veyran, Voice of Duality", "Professor Onyx"]],
+      "floor": 3,
+      "review_only": true,
+      "reason": "Chain of Smog copied any number of times with a magecraft payoff; needs an empty hand, so a review note rather than a floor",
+      "source": "docs/research/synergy-fire-lord-azula-2026-10-12-rules-check.md row 33"
+    }
+  ]
+}
