@@ -285,6 +285,18 @@ def test_curated_hazards_match_by_commander_and_groups():
     assert run_sb([emeria], [], hazards=hazards, slug="toph-the-first-metalbender")["floor"] == 1
 
 
+def test_hazards_file_is_well_formed():
+    hazards = mod.load_hazards()
+    assert hazards, "data/hazards.json is missing or empty"
+    ids = [h["id"] for h in hazards]
+    assert len(ids) == len(set(ids))
+    for h in hazards:
+        assert h["commander"] == "*" or h["commander"] in mod.COMMANDERS, h["id"]
+        assert h["floor"] in (3, 4) and h.get("reason") and h.get("source"), h["id"]
+        groups = [[n] for n in h["all"]] + h["any"]
+        assert groups and all(g and all(isinstance(n, str) and n for n in g) for g in groups), h["id"]
+
+
 def test_pending_checks_shrink_when_spellbook_and_hazards_are_loaded():
     assert len(run()["pending_checks"]) == 3
     r = run_sb([], [], hazards=[])

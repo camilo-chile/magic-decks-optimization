@@ -1,47 +1,472 @@
 {
-  "version": 1,
+  "version": 2,
   "as_of": "2026-10-12",
-  "note": "Curated combos and packages that Commander Spellbook does not list, taken from the Phase 3 reports and their verifications. Matched by card name (front-face names allowed). 'all' = every name must be in the deck; each group in 'any' needs at least one name. A hazard applies to the commander slug in 'commander' ('*' = any). Seed list: extend it from the hazard sections of the three synergy reports.",
+  "note": "Curated combos and packages that Commander Spellbook does not list, plus card-name lists the reports exclude (mass land denial, stax, control of a turn). Matched by card name (front-face names allowed). 'all' = every name must be in the deck; each group in 'any' needs at least one name. A hazard applies to the commander slug in 'commander' ('*' = any). review_only hazards never change the floor. Extend from the hazard sections of the synergy reports.",
   "hazards": [
+    {
+      "id": "mass-land-denial-names",
+      "commander": "*",
+      "all": [],
+      "any": [
+        [
+          "Blood Moon",
+          "Magus of the Moon",
+          "Ruination",
+          "Wildfire",
+          "Destructive Force",
+          "Jokulhaups",
+          "Obliterate",
+          "Decree of Annihilation",
+          "Impending Disaster",
+          "Boom // Bust",
+          "Keldon Firebombers",
+          "Tectonic Break",
+          "Thoughts of Ruin",
+          "Epicenter",
+          "Burning of Xinye",
+          "Planetary Annihilation",
+          "Apocalypse",
+          "Worldfire",
+          "Worldslayer",
+          "Bend or Break",
+          "Devastating Dreams",
+          "Tectonic Hellion",
+          "Winter Orb",
+          "Static Orb",
+          "Price of Glory",
+          "Zhao, the Moon Slayer",
+          "Myojin of Infinite Rage",
+          "Quicksilver Fountain",
+          "Winter Moon",
+          "Rumbling Crescendo",
+          "Wake of Destruction",
+          "Boil",
+          "Boiling Seas",
+          "Flashfires",
+          "Curse of Marit Lage",
+          "Raiding Party",
+          "Armageddon",
+          "Ravages of War",
+          "Catastrophe",
+          "Global Ruin",
+          "Cataclysm",
+          "Cleansing",
+          "Fall of the Thran",
+          "Natural Balance",
+          "Restore Balance",
+          "Balancing Act",
+          "Devastation",
+          "Bearer of the Heavens",
+          "Smokestack",
+          "Tectonic Instability",
+          "Hokori, Dust Drinker",
+          "Storm Cauldron",
+          "Mana Web",
+          "Hall of Gemstone",
+          "Sunder",
+          "Harbinger of the Seas",
+          "Back to Basics",
+          "Storage Matrix",
+          "Rising Waters",
+          "Stasis",
+          "Tangle Wire",
+          "Contamination",
+          "Infernal Darkness",
+          "Mana Vortex",
+          "Mana Breach",
+          "Overburden",
+          "Death Cloud",
+          "Pox"
+        ]
+      ],
+      "floor": 4,
+      "reason": "Cards the reports list as mass land denial (Wizards: four or more lands per player destroyed, exiled, bounced, kept tapped or changed in what they produce); union of the three reports' lists",
+      "source": "section 5 of the three synergy reports; Wizards' examples are Armageddon, Ruination, Sunder, Winter Orb, Blood Moon"
+    },
+    {
+      "id": "stax-and-lock-names",
+      "commander": "*",
+      "all": [],
+      "any": [
+        [
+          "Trinisphere",
+          "Sphere of Resistance",
+          "Thorn of Amethyst",
+          "War's Toll",
+          "Ensnaring Bridge",
+          "The Tabernacle at Pendrell Vale",
+          "Glacial Chasm",
+          "Stranglehold",
+          "Silent Arbiter",
+          "Damping Sphere",
+          "Defense Grid",
+          "Torpor Orb",
+          "Cursed Totem",
+          "Opposition",
+          "Arcane Laboratory",
+          "Chalice of the Void",
+          "Imi Statue",
+          "Lodestone Golem",
+          "God-Pharaoh's Statue",
+          "Null Rod",
+          "Damping Matrix",
+          "Mindlock Orb",
+          "Void Winnower",
+          "Tidal Barracuda",
+          "Conqueror's Flail",
+          "Teferi, Mage of Zhalfir"
+        ]
+      ],
+      "floor": 3,
+      "reason": "Taxes, tap-downs, attack locks and spell locks: Wizards says a Stax-style lock deck should bracket up; review note, not a floor",
+      "source": "section 5 of the Alexios, Toph and Azula reports",
+      "review_only": true
+    },
+    {
+      "id": "control-of-a-turn-names",
+      "commander": "*",
+      "all": [],
+      "any": [
+        [
+          "Mindslaver",
+          "The Dominion Bracelet",
+          "Emrakul, the Promised End"
+        ]
+      ],
+      "floor": 3,
+      "reason": "Control of another player's turn (Spellbook feature 'You control one opponent...'): review flag under the lock / control row",
+      "source": "section 5 of the Alexios report; Toph rules check claim 44",
+      "review_only": true
+    },
+    {
+      "id": "classic-two-card-infinites",
+      "commander": "*",
+      "all": [],
+      "any": [
+        [
+          "Kiki-Jiki, Mirror Breaker",
+          "Splinter Twin"
+        ],
+        [
+          "Pestermite",
+          "Deceiver Exarch",
+          "Zealous Conscripts"
+        ]
+      ],
+      "floor": 4,
+      "reason": "Classic two-card infinite (the copy untaps the copier). Background knowledge; also in Spellbook",
+      "source": "docs/research/synergy-fire-lord-azula-2026-10-11.md section 5 commander-free pairs; docs/research/synergy-alexios-deimos-of-kosmos-2026-10-11.md section 6 combo 5"
+    },
+    {
+      "id": "dualcaster-copy-pieces",
+      "commander": "*",
+      "all": [
+        "Dualcaster Mage"
+      ],
+      "any": [
+        [
+          "Twinflame",
+          "Heat Shimmer",
+          "Saw in Half"
+        ]
+      ],
+      "floor": 4,
+      "reason": "Dualcaster Mage copies the spell cast with it: infinite hasty copies. Background knowledge; also in Spellbook",
+      "source": "docs/research/synergy-fire-lord-azula-2026-10-11.md section 5 commander-free pairs"
+    },
+    {
+      "id": "isochron-reversal",
+      "commander": "*",
+      "all": [
+        "Isochron Scepter",
+        "Dramatic Reversal"
+      ],
+      "any": [],
+      "floor": 4,
+      "reason": "Isochron Scepter imprinting Dramatic Reversal: infinite mana with rocks. Background knowledge",
+      "source": "docs/research/synergy-fire-lord-azula-2026-10-11.md section 5 commander-free pairs"
+    },
+    {
+      "id": "thoracle-pairs",
+      "commander": "*",
+      "all": [],
+      "any": [
+        [
+          "Thassa's Oracle",
+          "Laboratory Maniac",
+          "Jace, Wielder of Mysteries"
+        ],
+        [
+          "Demonic Consultation",
+          "Tainted Pact"
+        ]
+      ],
+      "floor": 4,
+      "reason": "Empty the library and win. Background knowledge; also in Spellbook",
+      "source": "docs/research/synergy-fire-lord-azula-2026-10-11.md section 5 commander-free pairs"
+    },
+    {
+      "id": "niv-mizzet-curiosity",
+      "commander": "*",
+      "all": [
+        "Curiosity"
+      ],
+      "any": [
+        [
+          "Niv-Mizzet, Parun",
+          "Niv-Mizzet, the Firemind"
+        ]
+      ],
+      "floor": 4,
+      "reason": "Draw and ping loop. Background knowledge; also in Spellbook",
+      "source": "docs/research/synergy-fire-lord-azula-2026-10-11.md section 5 commander-free pairs"
+    },
+    {
+      "id": "worldgorger-loop",
+      "commander": "*",
+      "all": [
+        "Worldgorger Dragon"
+      ],
+      "any": [
+        [
+          "Animate Dead",
+          "Necromancy",
+          "Dance of the Dead"
+        ]
+      ],
+      "floor": 4,
+      "reason": "Infinite mana and ETB loop. Background knowledge; also in Spellbook",
+      "source": "docs/research/synergy-fire-lord-azula-2026-10-11.md section 5 commander-free pairs"
+    },
+    {
+      "id": "sanguine-bond-exquisite-blood",
+      "commander": "*",
+      "all": [
+        "Sanguine Bond",
+        "Exquisite Blood"
+      ],
+      "any": [],
+      "floor": 4,
+      "reason": "Infinite drain. Background knowledge; also in Spellbook",
+      "source": "docs/research/synergy-fire-lord-azula-2026-10-11.md section 5 commander-free pairs"
+    },
     {
       "id": "toph-emeria-omen-loop",
       "commander": "toph-the-first-metalbender",
-      "all": ["Emeria Shepherd"],
-      "any": [["Prismatic Omen", "Dryad of the Ilysian Grove"]],
+      "all": [
+        "Emeria Shepherd"
+      ],
+      "any": [
+        [
+          "Prismatic Omen",
+          "Dryad of the Ilysian Grove"
+        ]
+      ],
       "floor": 4,
-      "reason": "With Toph, self-sacrificing artifacts return as lands and loop Emeria Shepherd for unlimited mana, cards and landfall triggers (3-piece loop B1); not in Spellbook",
-      "source": "docs/research/synergy-toph-the-first-metalbender-2026-10-11.md section 5 (B1); rules check claims 42-43"
+      "reason": "With Toph, self-sacrificing artifacts return as lands and loop Emeria Shepherd for unlimited mana, cards and landfall triggers (3-piece loop B1); not in Spellbook. Rules check claims 42-43; CR 608.2h supports the 2-piece version",
+      "source": "docs/research/synergy-toph-the-first-metalbender-2026-10-11.md section 5 (B1)"
+    },
+    {
+      "id": "toph-land-creature-wipes",
+      "commander": "toph-the-first-metalbender",
+      "all": [],
+      "any": [
+        [
+          "Mycosynth Lattice",
+          "Nature's Revolt",
+          "Living Plane"
+        ]
+      ],
+      "floor": 4,
+      "reason": "Makes every permanent an artifact or every land a creature, so an artifact or creature wipe destroys the opponents' lands: mass land denial by combo",
+      "source": "docs/research/synergy-toph-the-first-metalbender-2026-10-11.md section 5 (MLD by combo)"
+    },
+    {
+      "id": "toph-loop-hubs",
+      "commander": "toph-the-first-metalbender",
+      "all": [],
+      "any": [
+        [
+          "Staff of Domination",
+          "Haru, Hidden Talent",
+          "Toph, Hardheaded Teacher",
+          "Maskwood Nexus",
+          "Meticulous Excavation",
+          "Aeon Engine",
+          "Magus of the Candelabra",
+          "Thousand-Year Elixir",
+          "Candelabra of Tawnos",
+          "Ugin's Nexus"
+        ]
+      ],
+      "floor": 3,
+      "reason": "Hubs of the 3-piece or template-based Toph loops (infinite mana, landfall, turns or locks) that the matcher can only flag as review because they need a template; check the final list by hand",
+      "source": "docs/research/synergy-toph-the-first-metalbender-2026-10-11.md section 6 (families with three or more pieces)",
+      "review_only": true
+    },
+    {
+      "id": "alexios-helm-hasty-copy-pieces",
+      "commander": "alexios-deimos-of-kosmos",
+      "all": [
+        "Helm of the Host"
+      ],
+      "any": [
+        [
+          "Bloodthirster",
+          "Raphael, Tag Team Tough"
+        ]
+      ],
+      "floor": 4,
+      "reason": "A fresh hasty non-legendary token copy each combat retriggers the 'first time' and 'already attacked' clauses of these creatures: extra-combat loop from oracle text only, absent from Spellbook",
+      "source": "docs/research/synergy-alexios-deimos-of-kosmos-2026-10-11.md section 6 combo 1"
+    },
+    {
+      "id": "alexios-three-swords-combats",
+      "commander": "alexios-deimos-of-kosmos",
+      "all": [
+        "Sword of Feast and Famine",
+        "Sword of Hearth and Home",
+        "Ardent Elementalist"
+      ],
+      "any": [
+        [
+          "Seize the Day",
+          "Relentless Assault"
+        ]
+      ],
+      "floor": 3,
+      "reason": "Four-card infinite combats (Spellbook tag E); for the bracket-fit review, not a two-card combo",
+      "source": "docs/research/synergy-alexios-deimos-of-kosmos-2026-10-11.md section 6",
+      "review_only": true
     },
     {
       "id": "azula-self-copy-loop",
       "commander": "fire-lord-azula",
       "all": [],
       "any": [
-        ["Expansion // Explosion", "Reiterate", "Return the Favor"],
-        ["Storm-Kiln Artist", "Archmage Emeritus", "Veyran, Voice of Duality", "Professor Onyx"]
+        [
+          "Expansion // Explosion",
+          "Reiterate",
+          "Return the Favor"
+        ],
+        [
+          "Storm-Kiln Artist",
+          "Archmage Emeritus",
+          "Veyran, Voice of Duality",
+          "Professor Onyx"
+        ]
       ],
       "floor": 4,
-      "reason": "With Azula attacking, a copy of Expansion, Reiterate or Return the Favor may target its own original, so each copy makes another copy; a magecraft payoff makes it unbounded. Derived from oracle text, not in Spellbook; Phase 2 combo detector must confirm",
+      "reason": "With Azula attacking, a copy of Expansion, Reiterate or Return the Favor may target its own original, so each copy makes another copy; a magecraft payoff makes it unbounded. Derived from oracle text, not in Spellbook",
       "source": "docs/research/synergy-fire-lord-azula-2026-10-12-rules-check.md M1"
-    },
-    {
-      "id": "alexios-helm-hasty-copy-pieces",
-      "commander": "alexios-deimos-of-kosmos",
-      "all": ["Helm of the Host"],
-      "any": [["Bloodthirster", "Raphael, Tag Team Tough"]],
-      "floor": 4,
-      "reason": "A fresh hasty non-legendary token copy each combat retriggers the 'first time' and 'already attacked' clauses of these creatures: extra-combat loop from oracle text only, absent from Spellbook",
-      "source": "docs/research/synergy-alexios-deimos-of-kosmos-2026-10-11.md section 6 combo 1"
     },
     {
       "id": "azula-chain-of-smog-magecraft",
       "commander": "fire-lord-azula",
-      "all": ["Chain of Smog"],
-      "any": [["Storm-Kiln Artist", "Archmage Emeritus", "Veyran, Voice of Duality", "Professor Onyx"]],
+      "all": [
+        "Chain of Smog"
+      ],
+      "any": [
+        [
+          "Storm-Kiln Artist",
+          "Archmage Emeritus",
+          "Veyran, Voice of Duality",
+          "Professor Onyx"
+        ]
+      ],
       "floor": 3,
-      "review_only": true,
       "reason": "Chain of Smog copied any number of times with a magecraft payoff; needs an empty hand, so a review note rather than a floor",
-      "source": "docs/research/synergy-fire-lord-azula-2026-10-12-rules-check.md row 33"
+      "source": "docs/research/synergy-fire-lord-azula-2026-10-12-rules-check.md row 33",
+      "review_only": true
+    },
+    {
+      "id": "azula-twinning-staff-reversal",
+      "commander": "fire-lord-azula",
+      "all": [
+        "Twinning Staff"
+      ],
+      "any": [
+        [
+          "Dramatic Reversal",
+          "Narset's Reversal"
+        ]
+      ],
+      "floor": 4,
+      "reason": "Staff's {7} copy of the Reversal becomes two copies: infinite mana once rocks make 4 or more",
+      "source": "docs/research/synergy-fire-lord-azula-2026-10-11.md section 5 pairs with candidates"
+    },
+    {
+      "id": "azula-birgi-ignus",
+      "commander": "fire-lord-azula",
+      "all": [
+        "Grinning Ignus",
+        "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      ],
+      "any": [],
+      "floor": 4,
+      "reason": "Ignus bounce and recast is mana-neutral with Birgi: unbounded casts and ETBs",
+      "source": "docs/research/synergy-fire-lord-azula-2026-10-11.md section 5 pairs with candidates"
+    },
+    {
+      "id": "azula-hullbreaker-rocks",
+      "commander": "fire-lord-azula",
+      "all": [
+        "Hullbreaker Horror"
+      ],
+      "any": [
+        [
+          "Sol Ring",
+          "Mox Amber"
+        ]
+      ],
+      "floor": 4,
+      "reason": "Two cheap rocks bounce each other with each cast; Sol Ring plus Mox Amber nets 2 mana per cycle",
+      "source": "docs/research/synergy-fire-lord-azula-2026-10-11.md section 5 pairs with candidates; Spellbook 513-3682 and 513-5034--46"
+    },
+    {
+      "id": "azula-storm-kiln-buyback",
+      "commander": "fire-lord-azula",
+      "all": [
+        "Storm-Kiln Artist"
+      ],
+      "any": [
+        [
+          "Haze of Rage"
+        ]
+      ],
+      "floor": 4,
+      "reason": "Buyback storm pays for itself with Treasures",
+      "source": "docs/research/synergy-fire-lord-azula-2026-10-11.md section 5 pairs with candidates"
+    },
+    {
+      "id": "azula-storm-kiln-reiterate-song",
+      "commander": "fire-lord-azula",
+      "all": [
+        "Storm-Kiln Artist",
+        "Reiterate",
+        "Seething Song"
+      ],
+      "any": [],
+      "floor": 4,
+      "reason": "Buyback copy pays for itself with Treasures",
+      "source": "docs/research/synergy-fire-lord-azula-2026-10-11.md section 5 pairs with candidates"
+    },
+    {
+      "id": "azula-storm-kiln-archaeomancer-epiphany",
+      "commander": "fire-lord-azula",
+      "all": [
+        "Storm-Kiln Artist",
+        "Sublime Epiphany"
+      ],
+      "any": [
+        [
+          "Archaeomancer",
+          "Mnemonic Wall"
+        ]
+      ],
+      "floor": 4,
+      "reason": "Candidate-only chain: Epiphany's token copy of the recursion creature returns Epiphany; Azula's copy adds a Storm-Kiln each loop; unbounded Treasures and magecraft. Verified by the rules check",
+      "source": "docs/research/synergy-fire-lord-azula-2026-10-12-rules-check.md row 38"
     }
   ]
 }
