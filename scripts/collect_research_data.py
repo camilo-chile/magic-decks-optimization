@@ -144,11 +144,11 @@ def sha256_of(path):
     return digest.hexdigest()
 
 
-def download_bulk(requests):
-    """Download the oracle_cards bulk file unless this exact version is already cached."""
+def download_bulk(requests, bulk_type="oracle_cards"):
+    """Download a Scryfall bulk file (default oracle_cards) unless this exact version is cached."""
     resp = requests.get(f"{SCRYFALL}/bulk-data", headers=HEADERS, timeout=30)
     resp.raise_for_status()
-    entry = next(e for e in resp.json()["data"] if e.get("type") == "oracle_cards")
+    entry = next(e for e in resp.json()["data"] if e.get("type") == bulk_type)
     uri = entry.get("jsonl_download_uri") or entry.get("download_uri")
     dest = CACHE / Path(urlparse(uri).path).name
     meta = {"updated_at": entry.get("updated_at"), "uri": uri, "file": dest.name}
