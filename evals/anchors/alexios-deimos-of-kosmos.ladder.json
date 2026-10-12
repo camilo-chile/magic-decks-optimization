@@ -1,0 +1,271 @@
+{
+  "slug": "alexios-deimos-of-kosmos",
+  "constant": 0.25,
+  "rungs": {
+    "2": {
+      "y_label": 8.5,
+      "pairs": [
+        {
+          "out": "The One Ring",
+          "in": "Demand Answers",
+          "role": "draw"
+        },
+        {
+          "out": "Jeska's Will",
+          "in": "Springleaf Drum",
+          "role": "ramp"
+        }
+      ],
+      "layer_a": {
+        "floor": 3,
+        "rejected": false,
+        "reasons": [],
+        "floor_ok_so_far": true
+      }
+    },
+    "4": {
+      "y_label": 8.0,
+      "pairs": [
+        {
+          "out": "The One Ring",
+          "in": "Demand Answers",
+          "role": "draw"
+        },
+        {
+          "out": "Jeska's Will",
+          "in": "Springleaf Drum",
+          "role": "ramp"
+        },
+        {
+          "out": "Sword of Fire and Ice",
+          "in": "Explorer's Scope",
+          "role": "equipment-engine"
+        },
+        {
+          "out": "Hammer of Nazahn",
+          "in": "Mirror Shield",
+          "role": "protection"
+        }
+      ],
+      "layer_a": {
+        "floor": 3,
+        "rejected": false,
+        "reasons": [],
+        "floor_ok_so_far": true
+      }
+    },
+    "6": {
+      "y_label": 7.5,
+      "pairs": [
+        {
+          "out": "The One Ring",
+          "in": "Demand Answers",
+          "role": "draw"
+        },
+        {
+          "out": "Jeska's Will",
+          "in": "Springleaf Drum",
+          "role": "ramp"
+        },
+        {
+          "out": "Sword of Fire and Ice",
+          "in": "Explorer's Scope",
+          "role": "equipment-engine"
+        },
+        {
+          "out": "Hammer of Nazahn",
+          "in": "Mirror Shield",
+          "role": "protection"
+        },
+        {
+          "out": "Sol Ring",
+          "in": "Simian Spirit Guide",
+          "role": "ramp"
+        },
+        {
+          "out": "Umezawa's Jitte",
+          "in": "Prying Blade",
+          "role": "equipment-engine"
+        }
+      ],
+      "layer_a": {
+        "floor": 3,
+        "rejected": false,
+        "reasons": [],
+        "floor_ok_so_far": true
+      }
+    },
+    "10": {
+      "y_label": 6.5,
+      "pairs": [
+        {
+          "out": "The One Ring",
+          "in": "Demand Answers",
+          "role": "draw"
+        },
+        {
+          "out": "Jeska's Will",
+          "in": "Springleaf Drum",
+          "role": "ramp"
+        },
+        {
+          "out": "Sword of Fire and Ice",
+          "in": "Explorer's Scope",
+          "role": "equipment-engine"
+        },
+        {
+          "out": "Hammer of Nazahn",
+          "in": "Mirror Shield",
+          "role": "protection"
+        },
+        {
+          "out": "Sol Ring",
+          "in": "Simian Spirit Guide",
+          "role": "ramp"
+        },
+        {
+          "out": "Umezawa's Jitte",
+          "in": "Prying Blade",
+          "role": "equipment-engine"
+        },
+        {
+          "out": "Genji Glove",
+          "in": "Fury of the Horde",
+          "role": "extra-combat"
+        },
+        {
+          "out": "Inquisitor's Flail",
+          "in": "Rover Blades",
+          "role": "multiplier"
+        },
+        {
+          "out": "Commander's Plate",
+          "in": "Mask of Avacyn",
+          "role": "protection"
+        },
+        {
+          "out": "Swiftfoot Boots",
+          "in": "Leather Armor",
+          "role": "protection"
+        }
+      ],
+      "layer_a": {
+        "floor": 3,
+        "rejected": false,
+        "reasons": [],
+        "floor_ok_so_far": true
+      }
+    },
+    "20": {
+      "y_label": 4.0,
+      "pairs": [
+        {
+          "out": "The One Ring",
+          "in": "Demand Answers",
+          "role": "draw"
+        },
+        {
+          "out": "Jeska's Will",
+          "in": "Springleaf Drum",
+          "role": "ramp"
+        },
+        {
+          "out": "Sword of Fire and Ice",
+          "in": "Explorer's Scope",
+          "role": "equipment-engine"
+        },
+        {
+          "out": "Hammer of Nazahn",
+          "in": "Mirror Shield",
+          "role": "protection"
+        },
+        {
+          "out": "Sol Ring",
+          "in": "Simian Spirit Guide",
+          "role": "ramp"
+        },
+        {
+          "out": "Umezawa's Jitte",
+          "in": "Prying Blade",
+          "role": "equipment-engine"
+        },
+        {
+          "out": "Genji Glove",
+          "in": "Fury of the Horde",
+          "role": "extra-combat"
+        },
+        {
+          "out": "Inquisitor's Flail",
+          "in": "Rover Blades",
+          "role": "multiplier"
+        },
+        {
+          "out": "Commander's Plate",
+          "in": "Mask of Avacyn",
+          "role": "protection"
+        },
+        {
+          "out": "Swiftfoot Boots",
+          "in": "Leather Armor",
+          "role": "protection"
+        },
+        {
+          "out": "Sword of the Animist",
+          "in": "Goldvein Pick",
+          "role": "equipment-engine"
+        },
+        {
+          "out": "Sword of Feast and Famine",
+          "in": "Rogue's Gloves",
+          "role": "equipment-engine"
+        },
+        {
+          "out": "Mask of Memory",
+          "in": "Zephyr Boots",
+          "role": "equipment-engine"
+        },
+        {
+          "out": "Kediss, Emberclaw Familiar",
+          "in": "Utvara Hellkite",
+          "role": "finisher"
+        },
+        {
+          "out": "Fireshrieker",
+          "in": "Grappling Hook",
+          "role": "multiplier"
+        },
+        {
+          "out": "Sword of Truth and Justice",
+          "in": "Dream-Thief's Bandana",
+          "role": "equipment-engine"
+        },
+        {
+          "out": "Buster Sword",
+          "in": "Armory of Iroas",
+          "role": "equipment-engine"
+        },
+        {
+          "out": "Arcane Signet",
+          "in": "Pyretic Ritual",
+          "role": "ramp"
+        },
+        {
+          "out": "Maximus, Knight Apparent",
+          "in": "Expedition Map",
+          "role": "tutor"
+        },
+        {
+          "out": "Reckless Handling",
+          "in": "Moonsilver Key",
+          "role": "tutor"
+        }
+      ],
+      "layer_a": {
+        "floor": 3,
+        "rejected": false,
+        "reasons": [],
+        "floor_ok_so_far": true
+      }
+    }
+  }
+}
