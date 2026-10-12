@@ -1,5 +1,27 @@
 Model ID: claude-opus-5-5
 
+> **Rules check of 2026-10-12: read this first.** The rules readings below were checked against
+> the official Wizards rulings in `synergy-alexios-deimos-of-kosmos-2026-10-12-rules-check.md`
+> (Sonnet 5.5): 52 claims, 40 confirmed, 2 contradicted, 7 partly, 3 not covered. R1-R6 and R8 are
+> CONFIRMED (the "unverified" labels and the HTTP 403 note below are superseded); R7 has no ruling.
+> Corrections that override the text below:
+> 1. **HIGH:** Sword of Fire and Ice (`core`) gives protection from red. Red Auras (Shiny Impetus,
+>    The Sound of Drums) fall off; red Equipment (Embercleave, Two-Handed Axe, Mjölnir, Komainu
+>    Battle Armor, Lizard Blades, The Spear of Leonidas) cannot attach; Spectacular Showdown cannot
+>    target Alexios afterwards. Archetype A must split into a pro-red branch and a branch without
+>    those cards. Other pro-red Swords: War and Peace, Forge and Frontier, Sinew and Steel.
+> 2. Bolt Bend is not hexproof gear (it never targets Alexios); remove it from the weakness list.
+> 3. Double strike fires every combat-damage trigger twice and Commander's Plate removes most chump
+>    blocks, so the speed table understates the engine; attack taxes are a brake the report omits.
+> 4. Tempestra: its sacrifice clause cannot remove a copy of Alexios (it cannot be sacrificed), so
+>    every activation leaves a permanent copy; treat it like Helm of the Host.
+> 5. Worldslayer destroys its carrier too; The Dominion Bracelet's granted ability belongs to the
+>    controller. Both are hard excludes.
+> 6. Mithril Coat's attach trigger works only on your turn; symmetric doublers also double
+>    opponents' attacks on you; the 110-damage figure is an upper bound with stated assumptions.
+>
+> Full list: section 2 of the rules-check file.
+
 # Synergy research: Alexios, Deimos of Kosmos (2026-10-11, revised 2026-10-12)
 
 Phase 3 (synergy research), NEW deck: the owner has only the commander card. Revised on 2026-10-12 after the independent verification `synergy-alexios-deimos-of-kosmos-2026-10-11-verification.md`. The response to each finding is the last section.

@@ -1,5 +1,32 @@
 Model ID: claude-opus-5-5
 
+> **Rules check of 2026-10-12: read this first.** The rules readings below were checked against
+> the official Wizards rulings in `synergy-fire-lord-azula-2026-10-12-rules-check.md` (Sonnet 5.5):
+> 50 claims, 35 confirmed, 1 contradicted, 12 partly, 2 not covered. The "every rules reading stays
+> unverified" note below is superseded except for the items the rules-check file lists as partly or
+> not covered. Corrections that override the text below:
+> 1. **HIGH, self-copy loop (derived, not in Spellbook):** with Azula attacking, a copy of
+>    Expansion // Explosion, Reiterate or Return the Favor may target its own original, so every
+>    copy makes another copy for free; any magecraft payoff (Storm-Kiln Artist, Archmage Emeritus)
+>    makes it unbounded. Exclude them while any magecraft payoff is in the list; Phase 2 must confirm.
+> 2. **HIGH, Harmonic Prodigy** does not double Azula's triggers (she is a Human Noble); it only
+>    doubles Shaman and other Wizard engines. This overrides section 8.2(c) and section 3.
+> 3. Extra turns: one extra-turn spell cast while Azula attacks gives two extra turns (the copy is
+>    mandatory), taken newest first; Stranglehold skips opponents' extra turns only; Return the
+>    Favor, Expansion, Reiterate, Twinning Staff and Dualcaster Mage duplicate extra-turn spells
+>    without Azula. Facts for the owner's decision: section 3 of the rules-check file.
+> 4. Copy multipliers stack additively per source and multiplicatively with Twinning Staff, so two
+>    or three of them are more than "double"; rituals only last within one step (only firebending
+>    mana persists, plus red with Electro or Ashling).
+> 5. Pact of Negation copied gives two triggers only if both copies resolve; Chain of Smog needs an
+>    empty hand; a copy keeps cost-based effects as if paid; a copied Delayed Blast Fireball
+>    probably deals 2, not 5; phasing out removes her from combat.
+> 6. Open items (a), (b), (d) of 8.2 are answered: Electro and Ashling keep firebending mana;
+>    Shaun's token has the copy trigger but no firebending; Helm of the Host's token gets both; a
+>    copy keeps X, modes and kicks and sees 0 mana spent.
+>
+> Full list: section 5 of the rules-check file.
+
 # Synergy research: Fire Lord Azula (Phase 3, 2026-10-11; revised 2026-10-12 after verification)
 
 Sources (local only, no network): `data/cache/pool_fire-lord-azula.jsonl` (18,563 cards, Scryfall

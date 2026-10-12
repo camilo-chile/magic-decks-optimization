@@ -5,7 +5,7 @@ Run it with the "Run Python File" button (no arguments), after collect_research_
 It needs internet and takes well under a minute. It writes only under data/cache/
 (git-ignored):
 
-  rulings-<timestamp>.json     raw Scryfall bulk file of all rulings (one object per ruling)
+  rulings-<timestamp>.jsonl.gz raw Scryfall bulk file of all rulings (one object per ruling)
   rulings_pool.jsonl           the rulings of every card in the three commander pools, each
                                line: name, oracle_id, source, published_at, comment
   collect_manifest.json        gets a "rulings" entry (file, date, counts, checksum)

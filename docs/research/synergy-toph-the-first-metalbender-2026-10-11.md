@@ -1,5 +1,33 @@
 Model ID: claude-opus-5-5
 
+> **Rules check of 2026-10-12: read this first.** The rules readings below were checked against
+> the official Wizards rulings in `synergy-toph-the-first-metalbender-2026-10-12-rules-check.md`
+> (Sonnet 5.5): 49 claims, 37 confirmed, 0 contradicted, 10 partly, 2 not covered. The B1 loop
+> (three pieces) holds at every step; the "unverified" labels and the HTTP 403 note below are
+> superseded except for the items the rules-check file lists as partly or not covered.
+> Corrections that override the text below:
+> 1. **Mindslaver:** one activation controls one chosen opponent's next turn, not "one opponent on
+>    each of their turns" (3 opponents: one turn per round). The loop works; the floor-4 call stays
+>    a policy call and Mindslaver stays excluded.
+> 2. **The Stasis Coffin:** "opponents cannot target or damage you" is too strong. Attacks,
+>    untargeted effects and unpreventable damage still work, and protection ends when your own turn
+>    begins. It is not a rules lock (the Spellbook "Lock" label overstates it); the loop itself works.
+> 3. **Blood Moon / Magus / Zhao:** artifact-lands become Mountains that still tap for {R} and lose
+>    their ETB and own abilities; basic lands are unaffected. Zhao's "nonbasic lands enter tapped"
+>    applies with no counter.
+> 4. **Earthbend:** an already animated land gets +2 counters, haste and base P/T 0/0 (can be a
+>    downgrade); it grants haste, so earthbended artifacts tap at once; a permanent sent to a zone
+>    other than graveyard or exile is not returned.
+> 5. **Landfall wording:** triggers happen when the artifact enters, not "on each cast"; artifacts
+>    already in play do not trigger when Toph arrives.
+> 6. **Greenwarden / Panharmonicon** double artifact-enters triggers and Gonti's Aether Heart energy
+>    (so its prerequisite shrinks); Mossborn Hydra is a speed driver; Hour of Revelation's discount
+>    counts nonland permanents only.
+> 7. Caged Sun loops only with a land that makes the chosen color; Urza's Saga fetches about once
+>    per two turns; Tireless Tracker makes a Clue per artifact entering (Clues are not lands).
+>
+> Full list: section 4 of the rules-check file.
+
 # Synergy research: Toph, the First Metalbender (2026-10-11)
 
 Phase 3 (synergy research), slug `toph-the-first-metalbender`. Independent of the owner's current list. Revised 2026-10-12 after an independent verification (`synergy-toph-the-first-metalbender-2026-10-11-verification.md`); changes are listed in the last section.
