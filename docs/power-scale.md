@@ -1,6 +1,6 @@
-# Power scale (v0.5)
+# Power scale (v0.6)
 
-Status: v0.5 draft. Rules snapshot: the Wizards update of 2026-02-09, verified on
+Status: v0.6 draft. Rules snapshot: the Wizards update of 2026-02-09, verified on
 2026-10-10 and again on 2026-10-11 by independent fact-checks; the Brackets system is
 still labelled "beta".
 Re-check after Wizards' announcement of 2026-10-12. Source report:
@@ -71,9 +71,9 @@ integrity check of the pipeline itself.
 | Mass land denial | Spellbook card flag or combo flag `massLandDenial`, plus Wizards' definition (a looped Sundering Titan is not flagged as a card) | curated | any card or combo -> floor 4 |
 | Lock, skipped turns, control of opponents | Spellbook combo flags `lock`, `skipTurns`, `controlAllOpponents`, `controlSomeOpponents` | curated | `controlAllOpponents` -> floor 4; the other three -> review flag (Wizards: a deck that locks players out in a Stax style should bracket up) |
 | Extra turns, per card | Spellbook flag, Scryfall oracle text | curated | 1 card -> floor 2 |
-| Extra turns, count | count of flagged cards; a card multiplied by the commander (Azula copies a spell cast while she attacks) counts as 2 | policy | 2 or more -> policy reject (Wizards allows "low quantities"; Spellbook tags 2+ as Ruthless, so this is the safe side); any chain or infinite-turn combo -> floor 4 |
+| Extra turns, count | count of flagged cards; a card multiplied by the commander (Azula copies a spell cast while she attacks) still counts as 1 card (user decision, 2026-10-12), but is a review note for the bracket-fit review because it gives two consecutive extra turns | policy | 2 or more cards -> policy reject (Wizards allows "low quantities"; Spellbook tags 2+ as Ruthless, so this is the safe side); any chain or infinite-turn combo -> floor 4 |
 | Two-card infinite combos | Spellbook `definitelyTwoCard` or `arguablyTwoCard` with `relevant` or `borderlineRelevant`; `speed`. The commander does not count toward the two cards (Spellbook convention; no Wizards statement recorded) | heuristic | any such combo -> floor 3 or higher (Brackets 1-2 forbid it); `speed >= 3` (about 6 mana or less, or up to 8 when Spellbook's accuracy flag is false) -> floor 4. Over-inclusive on purpose: Spellbook does not separate infinite from finite two-card wins, so a floor 4 here can be overruled in the bracket-fit review with a written reason |
-| Commander effects | (1) Spellbook combos that contain the commander (`find-my-combos` with the commander in `commanders`, `included` and `almostIncluded`); (2) commander text that multiplies a flagged card (copy effects, extra combats) | policy | any combo that uses the commander is reviewed as a floor 4 candidate (Spellbook does not count the commander toward the two-card limit, so commander + 1 card is a one-card combo); a multiplied extra-turn card counts as 2 (conservative: Azula copies only spells cast while she attacks); extra-combat cards are a review note, not a count (not a Wizards category); text that only gives the commander away (Alexios) or changes card types (Toph) is not a flag by itself. Toph has one-card combos with infinite turns, locks, control of an opponent's turns or a forced draw (Gonti's Aether Heart, Mindslaver, The Stasis Coffin, Caged Sun in Spellbook, 2026-10-10), so oracle text alone is not enough. Always send the commander in `commanders` for both `estimate-bracket` and `find-my-combos`: an empty list makes Spellbook count it as an ordinary card |
+| Commander effects | (1) Spellbook combos that contain the commander (`find-my-combos` with the commander in `commanders`, `included` and `almostIncluded`); (2) commander text that multiplies a flagged card (copy effects, extra combats) | policy | any combo that uses the commander is reviewed as a floor 4 candidate (Spellbook does not count the commander toward the two-card limit, so commander + 1 card is a one-card combo); a multiplied extra-turn card counts as 1 card with a review note (user decision, 2026-10-12; before that it counted as 2; Azula copies only spells cast while she attacks, and the official rulings confirm one copied extra-turn spell gives two extra turns); extra-combat cards are a review note, not a count (not a Wizards category); text that only gives the commander away (Alexios) or changes card types (Toph) is not a flag by itself. Toph has one-card combos with infinite turns, locks, control of an opponent's turns or a forced draw (Gonti's Aether Heart, Mindslaver, The Stasis Coffin, Caged Sun in Spellbook, 2026-10-10), so oracle text alone is not enough. Always send the commander in `commanders` for both `estimate-bracket` and `find-my-combos`: an empty list makes Spellbook count it as an ordinary card |
 | Name resolution | canonicalize every card to a Scryfall oracle ID before any API call | control | recognized cards must equal 100, or stop |
 
 Spellbook silently drops unknown names, so name resolution is a gate, not a convenience.
@@ -147,6 +147,11 @@ text).
 - The planned tests are listed in `evals/README.md`.
 
 ## Changelog
+- v0.6 (2026-10-12): user decision: the extra-turn count policy is relaxed. A card
+  multiplied by the commander (Azula) counts as 1 card, not 2, so one extra-turn card is
+  allowed in any deck; 2 or more cards, chains and infinite-turn combos keep their outcomes.
+  Reason given: the decks are for casual games and the goal is maximum power inside
+  Bracket 3; the bracket-fit review still sees the two consecutive turns as a review note.
 - v0.5 (2026-10-11): user decisions. Goal changed from "all 3 at 3.9" to a budget curve
   (100,000-300,000 CLP, parity within 0.2); all prices in CLP from the user's named Chilean
   stores, no currency conversion; speed-risk flag made qualitative (5 levels, Monte Carlo)
