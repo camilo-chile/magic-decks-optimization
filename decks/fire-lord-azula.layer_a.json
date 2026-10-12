@@ -1,0 +1,69 @@
+{
+  "slug": "fire-lord-azula",
+  "rules_as_of": "2026-02-09",
+  "beta": true,
+  "commanders": [
+    "Fire Lord Azula"
+  ],
+  "total_cards": 100,
+  "recognized_cards": 100,
+  "unresolved": [],
+  "floor": 1,
+  "rejected": false,
+  "reasons": [],
+  "flags": [],
+  "review_notes": [],
+  "checks": {
+    "game_changers": {
+      "count": 0,
+      "cards": [],
+      "floor": 1,
+      "provenance": "official (Scryfall game_changer)"
+    },
+    "extra_turns": {
+      "count": 0,
+      "cards": [],
+      "floor": 1,
+      "provenance": "curated (oracle text); count policy v0.6"
+    },
+    "mass_land_denial": {
+      "cards": {},
+      "floor": 1,
+      "provenance": "heuristic, over-inclusive"
+    }
+  },
+  "descriptive": {
+    "tutors": [],
+    "land_cards": 37,
+    "average_mana_value_nonland": 2.98
+  },
+  "pending_checks": [
+    "speed-risk flag from the Monte Carlo script (step 2.6)"
+  ],
+  "floor_ok_so_far": true,
+  "review_items": 0,
+  "complete": false,
+  "spellbook": {
+    "variants_total": 114400,
+    "included_total": 0,
+    "included_by_tag": {},
+    "included_flagged": [],
+    "almost_included_total": 13,
+    "almost_included_floor_4_features": [
+      {
+        "variant": "1267-7074",
+        "missing": [
+          "Medomai the Ageless"
+        ],
+        "cards": [
+          "Medomai the Ageless",
+          "Koh, the Face Stealer"
+        ]
+      }
+    ]
+  },
+  "unresolved_hazard_names": [],
+  "source": "data/raw/Azula.txt",
+  "bulk_file": "oracle-cards-20261011210156.jsonl.gz",
+  "run_at_utc": "2026-10-12T20:32:51Z"
+}

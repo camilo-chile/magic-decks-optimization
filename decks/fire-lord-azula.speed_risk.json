@@ -1,0 +1,22 @@
+{
+  "trials": 20000,
+  "seed": 20261012,
+  "horizon_turn": 6,
+  "frequency": 0.0106,
+  "level": "very low",
+  "cumulative_by_turn": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0001,
+    "6": 0.0106
+  },
+  "decisive_combos_in_deck": 0,
+  "library_cards": 99,
+  "commander": "Fire Lord Azula",
+  "slug": "fire-lord-azula",
+  "run_at_utc": "2026-10-12T20:33:12Z",
+  "fails_bracket_fit_review": false,
+  "note": "Order of magnitude from a simplified goldfish (no colors, removal or blockers). It never changes Layer A's floor; it feeds the bracket-fit review."
+}

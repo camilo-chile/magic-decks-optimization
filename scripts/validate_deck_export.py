@@ -22,12 +22,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_DECK = ROOT / "data" / "raw" / "Toph.txt"
-DEFAULT_CSV = ROOT / "data" / "raw" / "Toph_coleccion.csv"
-DEFAULT_DECK_NAME = "Toph"
+RAW = ROOT / "data" / "raw"
+DEFAULT_CSV = RAW / "ManaBox_Collection.csv"
+DEFAULT_RUNS = [(RAW / "Toph.txt", "Toph"), (RAW / "Azula.txt", "Azula")]
 OUT_DIR = ROOT / "data" / "validation"
 
-LINE_RE = re.compile(r"^(\d+)\s+(.+?)\s+\(([A-Za-z0-9]+)\)\s+(\S+)\s*$")
+LINE_RE = re.compile(r"^(\d+)\s+(.+?)\s+\(([A-Za-z0-9]+)\)\s+(\S+)(?:\s+\*[A-Za-z]\*)?\s*$")  # ManaBox marks foils with *F*
 BASICS = {"Plains", "Island", "Swamp", "Mountain", "Forest", "Wastes"}
 BAD_LAYOUTS = {"token", "double_faced_token", "emblem", "art_series"}
 API = "https://api.scryfall.com"
@@ -81,7 +81,7 @@ def read_csv(path, deck_name):
         btype = (r.get("binder type") or "").strip().lower()
         binders[(btype, bname)] += int(r.get("quantity") or 1)
         if deck_name is None or bname.lower() == deck_name.lower():
-            if btype == "deck" or deck_name is not None:
+            if btype == "deck":  # a binder with the same name must not merge into the deck
                 deck_rows.append(r)
     return deck_rows, binders
 
@@ -119,15 +119,8 @@ def front(name):
     return name.split(" // ")[0].strip().lower()
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("deck", nargs="?", default=str(DEFAULT_DECK))
-    ap.add_argument("--csv", default=str(DEFAULT_CSV))
-    ap.add_argument("--deck-name", default=DEFAULT_DECK_NAME)
-    ap.add_argument("--offline", action="store_true")
-    ap.add_argument("--out")
-    args = ap.parse_args()
-
+def validate(args):
+    """Validate one deck export: prints the report, writes it and returns the problem list."""
     report, problems = {}, []
     commanders, main_cards, bad = parse_deck(args.deck)
     entries = commanders + main_cards
@@ -247,7 +240,35 @@ def main():
         text + "\n\nRESULT: " + ("PROBLEMS FOUND" if problems else "OK") + "\n", encoding="utf-8"
     )
     print(f"Report written to {json_path} (and .txt)")
-    sys.exit(1 if problems else 0)
+    return problems
+
+
+def main():
+    """With no arguments, validate every deck in DEFAULT_RUNS against the shared collection CSV."""
+    ap = argparse.ArgumentParser()
+    ap.add_argument("deck", nargs="?")
+    ap.add_argument("--csv", default=str(DEFAULT_CSV))
+    ap.add_argument("--deck-name")
+    ap.add_argument("--offline", action="store_true")
+    ap.add_argument("--out")
+    args = ap.parse_args()
+
+    if args.deck:
+        runs = [(args.deck, args.deck_name or Path(args.deck).stem)]
+    else:
+        runs = [(str(path), name) for path, name in DEFAULT_RUNS if Path(path).exists()]
+    if not runs:
+        print("No deck files found; expected the defaults listed in DEFAULT_RUNS.")
+        sys.exit(2)
+    failed = []
+    for deck, name in runs:
+        print(f"\n===== {name}: {deck}")
+        run_args = argparse.Namespace(deck=deck, csv=args.csv, deck_name=name,
+                                      offline=args.offline, out=args.out if len(runs) == 1 else None)
+        if validate(run_args):
+            failed.append(name)
+    print("\nSUMMARY:", "problems in " + ", ".join(failed) if failed else "all decks OK")
+    sys.exit(1 if failed else 0)
 
 
 if __name__ == "__main__":

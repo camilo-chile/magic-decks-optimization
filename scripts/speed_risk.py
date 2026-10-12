@@ -40,6 +40,8 @@ HORIZON = 6           # turns the deck gets before its own turn 7
 LIFE = 40
 COMMANDER_LETHAL = 21
 BANDS = [(0.10, "very low"), (0.20, "low"), (0.30, "medium"), (0.40, "high")]
+HASTE_LINE = "(^|\n)haste\\b"  # the card's own keyword line, not "has haste" given to others
+REQUIRED_FACT_KEYS =("quantity", "role", "power", "keywords", "oracle_id", "mana_value")
 NUMBERS = {"a": 1, "an": 1, "one": 1, "two": 2, "three": 3, "four": 4, "five": 5}
 
 TAP_ADD_RE = re.compile(r"\{t\}[^.\n]*?:\s*add ((?:\{[^}]+\}\s*)+)", re.I)
@@ -50,7 +52,7 @@ ETB_DRAW_RE = re.compile(r"when [^.\n]*enters[^.\n]*, [^.\n]*\bdraw", re.I)
 LAND_RAMP_RE = re.compile(
     r"search your library for (?:up to )?(a|an|one|two|three) [^.]*?land cards?[^.]*?onto the battlefield", re.I)
 TUTOR_RE = re.compile(r"search your library for (?:a|an|one|up to one) (?![^.]*\blands?\b)[^.]*\bcard", re.I)
-DECISIVE_RE = re.compile(r"win the game|loses? the game|infinite (combat )?damage|infinite turns", re.I)
+DECISIVE_RE = la.DECISIVE_RE
 
 
 def band(p):
@@ -75,7 +77,8 @@ def model_card(fact):
         "name": fact["name"], "oid": fact.get("oracle_id"),
         "cmc": int(fact.get("mana_value") or 0),
         "land": "Land" in types, "creature": "Creature" in types, "spell": spell,
-        "power": 0, "haste": "haste" in low or "Haste" in (fact.get("keywords") or []),
+        "power": 0,
+        "haste": bool(re.search(HASTE_LINE, low)) or "Haste" in (fact.get("keywords") or []),
         "mana": 0, "tapped": False, "gain": 0, "ramp": 0, "draw": 0, "tutor": False,
     }
     power = fact.get("power")
@@ -240,26 +243,25 @@ def play_game(library_cards, commander, combos, rng):
             hand.remove(card)
             if card["spell"]:
                 mana += card["gain"]
-                for _ in range(card["ramp"]):
-                    found = next((c for c in library if c["land"]), None)
-                    if found is not None:
-                        library.remove(found)
-                        field.append({"card": dict(found, tapped=True), "turn": turn})
-                for _ in range(card["draw"]):
-                    if library:
-                        hand.append(library.pop())
-                if card["tutor"]:
-                    target = tutor_target()
-                    if target is not None:
-                        library.remove(target)
-                        hand.append(target)
             else:
                 field.append({"card": card, "turn": turn})
                 if card["mana"] and (card["haste"] or not card["creature"]):
                     mana += card["mana"]
-                for _ in range(card["draw"]):
-                    if library:
-                        hand.append(library.pop())
+            # Land ramp, draw and tutor work the same whether the card is a spell or a permanent
+            # with an enters-the-battlefield effect.
+            for _ in range(card["ramp"]):
+                found = next((c for c in library if c["land"]), None)
+                if found is not None:
+                    library.remove(found)
+                    field.append({"card": dict(found, tapped=True), "turn": turn})
+            for _ in range(card["draw"]):
+                if library:
+                    hand.append(library.pop())
+            if card["tutor"]:
+                target = tutor_target()
+                if target is not None:
+                    library.remove(target)
+                    hand.append(target)
 
         for f in field:
             c = f["card"]
@@ -312,6 +314,11 @@ def main():
     for path in paths:
         slug = path.name[: -len(".cards.json")]
         facts = json.loads(path.read_text(encoding="utf-8"))
+        missing = [k for k in REQUIRED_FACT_KEYS if not facts or any(k not in f for f in facts)]
+        if missing or not any(f.get("role") == "commander" for f in facts):
+            print(f"== {slug}: SKIPPED. {path.name} is out of date (missing {missing or ['a commander']}); "
+                  "run scripts/layer_a.py again to regenerate it.")
+            continue
         print(f"== {slug}: {TRIALS} games ...", flush=True)
 
         def progress(done, total, elapsed, eta):

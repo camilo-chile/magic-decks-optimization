@@ -1,0 +1,22 @@
+{
+  "trials": 20000,
+  "seed": 20261012,
+  "horizon_turn": 6,
+  "frequency": 0.0075,
+  "level": "very low",
+  "cumulative_by_turn": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0015,
+    "6": 0.0075
+  },
+  "decisive_combos_in_deck": 1,
+  "library_cards": 99,
+  "commander": "Toph, the First Metalbender",
+  "slug": "toph-the-first-metalbender",
+  "run_at_utc": "2026-10-12T20:33:13Z",
+  "fails_bracket_fit_review": false,
+  "note": "Order of magnitude from a simplified goldfish (no colors, removal or blockers). It never changes Layer A's floor; it feeds the bracket-fit review."
+}

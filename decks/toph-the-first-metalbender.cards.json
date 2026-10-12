@@ -8,7 +8,16 @@
   "oracle_text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nVigilance (Attacking doesn't cause this creature to tap.)\nOther creatures you control have vigilance.",
   "color_identity": [
    "W"
-  ]
+  ],
+  "power": "5",
+  "toughness": "4",
+  "produced_mana": [],
+  "keywords": [
+   "Flying",
+   "Vigilance"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Airbender's Reversal",
@@ -19,7 +28,15 @@
   "oracle_text": "Choose one —\n• Destroy target attacking creature.\n• Airbend target creature you control. (Exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.)",
   "color_identity": [
    "W"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [
+   "Airbend"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Annie Joins Up",
@@ -32,7 +49,13 @@
    "G",
    "R",
    "W"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Appa, Steadfast Guardian",
@@ -43,7 +66,17 @@
   "oracle_text": "Flash\nFlying\nWhen Appa enters, airbend any number of other target nonland permanents you control. (Exile them. While each one is exiled, its owner may cast it for {2} rather than its mana cost.)\nWhenever you cast a spell from exile, create a 1/1 white Ally creature token.",
   "color_identity": [
    "W"
-  ]
+  ],
+  "power": "3",
+  "toughness": "4",
+  "produced_mana": [],
+  "keywords": [
+   "Flying",
+   "Airbend",
+   "Flash"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Arbaaz Mir",
@@ -55,7 +88,13 @@
   "color_identity": [
    "R",
    "W"
-  ]
+  ],
+  "power": "2",
+  "toughness": "2",
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Ashaya, Soul of the Wild",
@@ -66,7 +105,13 @@
   "oracle_text": "Ashaya's power and toughness are each equal to the number of lands you control.\nNontoken creatures you control are Forest lands in addition to their other types. (They're still affected by summoning sickness.)",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": "*",
+  "toughness": "*",
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Avatar Destiny",
@@ -77,7 +122,16 @@
   "oracle_text": "Enchant creature you control\nEnchanted creature gets +1/+1 for each creature card in your graveyard and is an Avatar in addition to its other types.\nWhen enchanted creature dies, mill cards equal to its power. Return this card to its owner's hand and up to one creature card milled this way to the battlefield under your control.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [
+   "Enchant",
+   "Mill"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Awakening of Vitu-Ghazi",
@@ -88,7 +142,13 @@
   "oracle_text": "Put nine +1/+1 counters on target land you control. It becomes a legendary 0/0 Elemental creature with haste named Vitu-Ghazi. It's still a land.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Ba Sing Se",
@@ -99,7 +159,17 @@
   "oracle_text": "This land enters tapped unless you control a basic land.\n{T}: Add {G}.\n{2}{G}, {T}: Earthbend 2. Activate only as a sorcery. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "G"
+  ],
+  "keywords": [
+   "Earthbend"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Badgermole",
@@ -110,7 +180,15 @@
   "oracle_text": "When this creature enters, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)\nCreatures you control with +1/+1 counters on them have trample.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": "4",
+  "toughness": "4",
+  "produced_mana": [],
+  "keywords": [
+   "Earthbend"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Banefire",
@@ -121,7 +199,13 @@
   "oracle_text": "Banefire deals X damage to any target.\nIf X is 5 or more, this spell can't be countered and the damage can't be prevented.",
   "color_identity": [
    "R"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Barrels of Blasting Jelly",
@@ -130,7 +214,19 @@
   "mana_value": 1.0,
   "type_line": "Artifact",
   "oracle_text": "{1}: Add one mana of any color. Activate only once each turn.\n{5}, {T}, Sacrifice this artifact: It deals 5 damage to target creature.",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "B",
+   "G",
+   "R",
+   "U",
+   "W"
+  ],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Bitter Work",
@@ -142,7 +238,16 @@
   "color_identity": [
    "G",
    "R"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [
+   "Exhaust",
+   "Earthbend"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Blasphemous Act",
@@ -153,7 +258,13 @@
   "oracle_text": "This spell costs {1} less to cast for each creature on the battlefield.\nBlasphemous Act deals 13 damage to each creature.",
   "color_identity": [
    "R"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Blossoming Tortoise",
@@ -164,7 +275,15 @@
   "oracle_text": "Whenever this creature enters or attacks, mill three cards, then return a land card from your graveyard to the battlefield tapped.\nActivated abilities of lands you control cost {1} less to activate.\nLand creatures you control get +1/+1.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": "3",
+  "toughness": "3",
+  "produced_mana": [],
+  "keywords": [
+   "Mill"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Bumi, Eclectic Earthbender",
@@ -175,7 +294,15 @@
   "oracle_text": "When Bumi enters, earthbend 1. (Target land you control becomes a 0/0 creature with haste that's still a land. Put a +1/+1 counter on it. When it dies or is exiled, return it to the battlefield tapped.)\nWhenever Bumi attacks, put two +1/+1 counters on each land creature you control.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": "4",
+  "toughness": "4",
+  "produced_mana": [],
+  "keywords": [
+   "Earthbend"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Bumi, Unleashed",
@@ -187,7 +314,16 @@
   "color_identity": [
    "G",
    "R"
-  ]
+  ],
+  "power": "5",
+  "toughness": "4",
+  "produced_mana": [],
+  "keywords": [
+   "Trample",
+   "Earthbend"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Cabaretti Courtyard",
@@ -196,7 +332,13 @@
   "mana_value": 0.0,
   "type_line": "Land",
   "oracle_text": "When this land enters, sacrifice it. When you do, search your library for a basic Mountain, Forest, or Plains card, put it onto the battlefield tapped, then shuffle and you gain 1 life.",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Collective Resistance",
@@ -207,7 +349,15 @@
   "oracle_text": "Escalate {G} (Pay this cost for each mode chosen beyond the first.)\nChoose one or more —\n• Destroy target artifact.\n• Destroy target enchantment.\n• Target creature gains hexproof and indestructible until end of turn.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [
+   "Escalate"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Command Tower",
@@ -216,7 +366,19 @@
   "mana_value": 0.0,
   "type_line": "Land",
   "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "B",
+   "G",
+   "R",
+   "U",
+   "W"
+  ],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Crop Rotation",
@@ -227,7 +389,13 @@
   "oracle_text": "As an additional cost to cast this spell, sacrifice a land.\nSearch your library for a land card, put that card onto the battlefield, then shuffle.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Cycle of Renewal",
@@ -238,7 +406,13 @@
   "oracle_text": "Sacrifice a land. Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Darksteel Citadel",
@@ -247,7 +421,17 @@
   "mana_value": 0.0,
   "type_line": "Artifact Land",
   "oracle_text": "Indestructible\n{T}: Add {C}.",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "C"
+  ],
+  "keywords": [
+   "Indestructible"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Deflecting Swat",
@@ -258,7 +442,13 @@
   "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nYou may choose new targets for target spell or ability.",
   "color_identity": [
    "R"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Druid Class",
@@ -269,7 +459,15 @@
   "oracle_text": "(Gain the next level as a sorcery to add its ability.)\nLandfall — Whenever a land you control enters, you gain 1 life.\n{2}{G}: Level 2\nYou may play an additional land on each of your turns.\n{4}{G}: Level 3\nWhen this Class becomes level 3, target land you control becomes a creature with haste and \"This creature's power and toughness are each equal to the number of lands you control.\" It's still a land.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [
+   "Landfall"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Earthbender Ascension",
@@ -280,7 +478,16 @@
   "oracle_text": "When this enchantment enters, earthbend 2. Then search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\nLandfall — Whenever a land you control enters, put a quest counter on this enchantment. When you do, if it has four or more quest counters on it, put a +1/+1 counter on target creature you control. It gains trample until end of turn.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [
+   "Earthbend",
+   "Landfall"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Elemental Teachings",
@@ -291,7 +498,13 @@
   "oracle_text": "Search your library for up to four land cards with different names and reveal them. An opponent chooses two of those cards. Put the chosen cards into your graveyard and the rest onto the battlefield tapped, then shuffle.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Evolving Wilds",
@@ -300,7 +513,13 @@
   "mana_value": 0.0,
   "type_line": "Land",
   "oracle_text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Forest",
@@ -311,7 +530,15 @@
   "oracle_text": "({T}: Add {G}.)",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "G"
+  ],
+  "keywords": [],
+  "quantity": 8,
+  "role": "main"
  },
  {
   "name": "Hardened Scales",
@@ -322,7 +549,13 @@
   "oracle_text": "If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Harrow",
@@ -333,7 +566,13 @@
   "oracle_text": "As an additional cost to cast this spell, sacrifice a land.\nSearch your library for up to two basic land cards, put them onto the battlefield, then shuffle.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Haywire Mite",
@@ -344,7 +583,13 @@
   "oracle_text": "When this creature dies, you gain 2 life.\n{G}, Sacrifice this creature: Exile target noncreature artifact or noncreature enchantment.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": "1",
+  "toughness": "1",
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Heaped Harvest",
@@ -355,7 +600,13 @@
   "oracle_text": "When this artifact enters and when you sacrifice it, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\n{2}, {T}, Sacrifice this artifact: You gain 3 life.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Horrid Vigor",
@@ -366,7 +617,13 @@
   "oracle_text": "Target creature gains deathtouch and indestructible until end of turn.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Hour of Revelation",
@@ -377,7 +634,13 @@
   "oracle_text": "This spell costs {3} less to cast if there are ten or more nonland permanents on the battlefield.\nDestroy all nonland permanents.",
   "color_identity": [
    "W"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Ichor Wellspring",
@@ -386,7 +649,13 @@
   "mana_value": 2.0,
   "type_line": "Artifact",
   "oracle_text": "When this artifact enters or is put into a graveyard from the battlefield, draw a card.",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Inscription of Abundance",
@@ -397,7 +666,16 @@
   "oracle_text": "Kicker {2}{G}\nChoose one. If this spell was kicked, choose any number instead.\n• Put two +1/+1 counters on target creature.\n• Target player gains X life, where X is the greatest power among creatures they control.\n• Target creature you control fights target creature you don't control.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [
+   "Fight",
+   "Kicker"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Jungle Shrine",
@@ -410,7 +688,17 @@
    "G",
    "R",
    "W"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "G",
+   "R",
+   "W"
+  ],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Karn's Sylex",
@@ -419,7 +707,13 @@
   "mana_value": 3.0,
   "type_line": "Legendary Artifact",
   "oracle_text": "Karn's Sylex enters tapped.\nPlayers can't pay life to cast spells or to activate abilities that aren't mana abilities.\n{X}, {T}, Exile Karn's Sylex: Destroy each nonland permanent with mana value X or less. Activate only as a sorcery.",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Meteor Sword",
@@ -428,7 +722,15 @@
   "mana_value": 7.0,
   "type_line": "Artifact — Equipment",
   "oracle_text": "When this Equipment enters, destroy target permanent.\nEquipped creature gets +3/+3.\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [
+   "Equip"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Mindslaver",
@@ -437,7 +739,13 @@
   "mana_value": 6.0,
   "type_line": "Legendary Artifact",
   "oracle_text": "{4}, {T}, Sacrifice Mindslaver: You control target player during that player's next turn. (You see all cards that player could see and make all decisions for them.)",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Moraug, Fury of Akoum",
@@ -448,7 +756,15 @@
   "oracle_text": "Each creature you control gets +1/+0 for each time it has attacked this turn.\nLandfall — Whenever a land you control enters, if it's your main phase, there's an additional combat phase after this phase. At the beginning of that combat, untap all creatures you control.",
   "color_identity": [
    "R"
-  ]
+  ],
+  "power": "6",
+  "toughness": "6",
+  "produced_mana": [],
+  "keywords": [
+   "Landfall"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Mountain",
@@ -459,7 +775,15 @@
   "oracle_text": "({T}: Add {R}.)",
   "color_identity": [
    "R"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "R"
+  ],
+  "keywords": [],
+  "quantity": 6,
+  "role": "main"
  },
  {
   "name": "Mycosynth Wellspring",
@@ -468,7 +792,13 @@
   "mana_value": 2.0,
   "type_line": "Artifact",
   "oracle_text": "When this artifact enters or is put into a graveyard from the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Nutrient Block",
@@ -477,7 +807,15 @@
   "mana_value": 1.0,
   "type_line": "Artifact — Food",
   "oracle_text": "Indestructible (Effects that say \"destroy\" don't destroy this artifact.)\n{2}, {T}, Sacrifice this artifact: You gain 3 life.\nWhen this artifact is put into a graveyard from the battlefield, draw a card.",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [
+   "Indestructible"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Omnath, Locus of Rage",
@@ -489,7 +827,15 @@
   "color_identity": [
    "G",
    "R"
-  ]
+  ],
+  "power": "5",
+  "toughness": "5",
+  "produced_mana": [],
+  "keywords": [
+   "Landfall"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Origin of Metalbending",
@@ -500,7 +846,13 @@
   "oracle_text": "Choose one —\n• Destroy target artifact or enchantment.\n• Put a +1/+1 counter on target creature you control. It gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Path to Exile",
@@ -511,7 +863,13 @@
   "oracle_text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
   "color_identity": [
    "W"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Plains",
@@ -522,7 +880,15 @@
   "oracle_text": "({T}: Add {W}.)",
   "color_identity": [
    "W"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "W"
+  ],
+  "keywords": [],
+  "quantity": 6,
+  "role": "main"
  },
  {
   "name": "Planar Outburst",
@@ -533,7 +899,15 @@
   "oracle_text": "Destroy all nonland creatures.\nAwaken 4—{5}{W}{W}{W} (If you cast this spell for {5}{W}{W}{W}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
   "color_identity": [
    "W"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [
+   "Awaken"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Redirect Lightning",
@@ -544,7 +918,13 @@
   "oracle_text": "As an additional cost to cast this spell, pay 5 life or pay {2}.\nChange the target of target spell or ability with a single target.",
   "color_identity": [
    "R"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Rockalanche",
@@ -555,7 +935,16 @@
   "oracle_text": "Earthbend X, where X is the number of Forests you control. (Target land you control becomes a 0/0 creature with haste that's still a land. Put X +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)\nFlashback {5}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [
+   "Earthbend",
+   "Flashback"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Rogue's Passage",
@@ -564,7 +953,15 @@
   "mana_value": 0.0,
   "type_line": "Land",
   "oracle_text": "{T}: Add {C}.\n{4}, {T}: Target creature can't be blocked this turn.",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "C"
+  ],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Roiling Regrowth",
@@ -575,7 +972,13 @@
   "oracle_text": "Sacrifice a land. Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Rootbound Crag",
@@ -587,7 +990,16 @@
   "color_identity": [
    "G",
    "R"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "G",
+   "R"
+  ],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Rustvale Bridge",
@@ -599,7 +1011,18 @@
   "color_identity": [
    "R",
    "W"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "R",
+   "W"
+  ],
+  "keywords": [
+   "Indestructible"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Sandbenders' Storm",
@@ -610,7 +1033,15 @@
   "oracle_text": "Choose one —\n• Destroy target creature with power 4 or greater.\n• Earthbend 3. (Target land you control becomes a 0/0 creature with haste that's still a land. Put three +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",
   "color_identity": [
    "W"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [
+   "Earthbend"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Secret Tunnel",
@@ -619,7 +1050,15 @@
   "mana_value": 0.0,
   "type_line": "Land — Cave",
   "oracle_text": "This land can't be blocked.\n{T}: Add {C}.\n{4}, {T}: Two target creatures you control that share a creature type can't be blocked this turn.",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "C"
+  ],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Seismic Tutelage",
@@ -630,7 +1069,16 @@
   "oracle_text": "Enchant creature\nWhen this Aura enters, put a +1/+1 counter on enchanted creature.\nWhenever enchanted creature attacks, double the number of +1/+1 counters on it.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [
+   "Enchant",
+   "Double"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Slagwoods Bridge",
@@ -642,7 +1090,18 @@
   "color_identity": [
    "G",
    "R"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "G",
+   "R"
+  ],
+  "keywords": [
+   "Indestructible"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Solemn Simulacrum",
@@ -651,7 +1110,13 @@
   "mana_value": 4.0,
   "type_line": "Artifact Creature — Golem",
   "oracle_text": "When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nWhen this creature dies, you may draw a card.",
-  "color_identity": []
+  "color_identity": [],
+  "power": "2",
+  "toughness": "2",
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Stocking the Pantry",
@@ -662,7 +1127,13 @@
   "oracle_text": "Whenever you put one or more +1/+1 counters on a creature you control, put a supply counter on this enchantment.\n{2}, Remove a supply counter from this enchantment: Draw a card.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Sunpetal Grove",
@@ -674,7 +1145,16 @@
   "color_identity": [
    "G",
    "W"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "G",
+   "W"
+  ],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Swords to Plowshares",
@@ -685,7 +1165,13 @@
   "oracle_text": "Exile target creature. Its controller gains life equal to its power.",
   "color_identity": [
    "W"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Tannuk, Memorial Ensign",
@@ -697,7 +1183,15 @@
   "color_identity": [
    "G",
    "R"
-  ]
+  ],
+  "power": "2",
+  "toughness": "4",
+  "produced_mana": [],
+  "keywords": [
+   "Landfall"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Terramorphic Expanse",
@@ -706,7 +1200,13 @@
   "mana_value": 0.0,
   "type_line": "Land",
   "oracle_text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Terrasymbiosis",
@@ -717,7 +1217,13 @@
   "oracle_text": "Whenever you put one or more +1/+1 counters on a creature you control, you may draw that many cards. Do this only once each turn.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "The Boulder, Ready to Rumble",
@@ -728,7 +1234,15 @@
   "oracle_text": "Whenever The Boulder attacks, earthbend X, where X is the number of creatures you control with power 4 or greater. (Target land you control becomes a 0/0 creature with haste that's still a land. Put X +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": "4",
+  "toughness": "4",
+  "produced_mana": [],
+  "keywords": [
+   "Earthbend"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "The Cave of Two Lovers",
@@ -739,7 +1253,15 @@
   "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create two 1/1 white Ally creature tokens.\nII — Search your library for a Mountain or Cave card, reveal it, put it into your hand, then shuffle.\nIII — Earthbend 3. (Target land you control becomes a 0/0 creature with haste that's still a land. Put three +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",
   "color_identity": [
    "R"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [
+   "Earthbend"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "The Earth King",
@@ -750,7 +1272,13 @@
   "oracle_text": "When The Earth King enters, create a 4/4 green Bear creature token.\nWhenever one or more creatures you control with power 4 or greater attack, search your library for up to that many basic land cards, put them onto the battlefield tapped, then shuffle.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": "2",
+  "toughness": "2",
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "The Stasis Coffin",
@@ -759,7 +1287,13 @@
   "mana_value": 3.0,
   "type_line": "Legendary Artifact",
   "oracle_text": "{2}, {T}, Exile The Stasis Coffin: You gain protection from everything until your next turn.",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Thornglint Bridge",
@@ -771,7 +1305,18 @@
   "color_identity": [
    "G",
    "W"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "G",
+   "W"
+  ],
+  "keywords": [
+   "Indestructible"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Tireless Tracker",
@@ -782,7 +1327,16 @@
   "oracle_text": "Landfall — Whenever a land you control enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nWhenever you sacrifice a Clue, put a +1/+1 counter on this creature.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": "3",
+  "toughness": "2",
+  "produced_mana": [],
+  "keywords": [
+   "Investigate",
+   "Landfall"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Titania, Nature's Force",
@@ -793,7 +1347,15 @@
   "oracle_text": "You may play Forests from your graveyard.\nWhenever a Forest you control enters, create a 5/3 green Elemental creature token.\nWhenever an Elemental you control dies, you may mill three cards.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": "6",
+  "toughness": "6",
+  "produced_mana": [],
+  "keywords": [
+   "Mill"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Titania, Protector of Argoth",
@@ -804,7 +1366,13 @@
   "oracle_text": "When Titania enters, return target land card from your graveyard to the battlefield.\nWhenever a land you control is put into a graveyard from the battlefield, create a 5/3 green Elemental creature token.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": "5",
+  "toughness": "3",
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Toph, Hardheaded Teacher",
@@ -816,7 +1384,15 @@
   "color_identity": [
    "G",
    "R"
-  ]
+  ],
+  "power": "3",
+  "toughness": "4",
+  "produced_mana": [],
+  "keywords": [
+   "Earthbend"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Toph, the Blind Bandit",
@@ -827,7 +1403,15 @@
   "oracle_text": "When Toph enters, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)\nToph's power is equal to the number of +1/+1 counters on lands you control.",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": "*",
+  "toughness": "3",
+  "produced_mana": [],
+  "keywords": [
+   "Earthbend"
+  ],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Toph, the First Metalbender",
@@ -840,7 +1424,15 @@
    "G",
    "R",
    "W"
-  ]
+  ],
+  "power": "3",
+  "toughness": "3",
+  "produced_mana": [],
+  "keywords": [
+   "Earthbend"
+  ],
+  "quantity": 1,
+  "role": "commander"
  },
  {
   "name": "True Ancestry",
@@ -851,7 +1443,13 @@
   "oracle_text": "Return up to one target permanent card from your graveyard to your hand.\nCreate a Clue token. (It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Urza's Cave",
@@ -860,7 +1458,15 @@
   "mana_value": 0.0,
   "type_line": "Land — Urza's Cave",
   "oracle_text": "{T}: Add {C}.\n{3}, {T}, Sacrifice this land: Search your library for a land card, put it onto the battlefield tapped, then shuffle.",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "C"
+  ],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Vibrant Cityscape",
@@ -869,7 +1475,13 @@
   "mana_value": 0.0,
   "type_line": "Land",
   "oracle_text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Wayfarer's Bauble",
@@ -878,7 +1490,13 @@
   "mana_value": 1.0,
   "type_line": "Artifact",
   "oracle_text": "{2}, {T}, Sacrifice this artifact: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
-  "color_identity": []
+  "color_identity": [],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [],
+  "keywords": [],
+  "quantity": 1,
+  "role": "main"
  },
  {
   "name": "Wrenn and Realmbreaker",
@@ -889,6 +1507,20 @@
   "oracle_text": "Lands you control have \"{T}: Add one mana of any color.\"\n+1: Up to one target land you control becomes a 3/3 Elemental creature with vigilance, hexproof, and haste until your next turn. It's still a land.\n−2: Mill three cards. You may put a permanent card from among the milled cards into your hand.\n−7: You get an emblem with \"You may play lands and cast permanent spells from your graveyard.\"",
   "color_identity": [
    "G"
-  ]
+  ],
+  "power": null,
+  "toughness": null,
+  "produced_mana": [
+   "B",
+   "G",
+   "R",
+   "U",
+   "W"
+  ],
+  "keywords": [
+   "Mill"
+  ],
+  "quantity": 1,
+  "role": "main"
  }
 ]

@@ -55,14 +55,15 @@
   "pending_checks": [
     "speed-risk flag from the Monte Carlo script (step 2.6)"
   ],
-  "eligible_bracket_3": false,
+  "floor_ok_so_far": false,
+  "review_items": 2,
   "complete": false,
   "spellbook": {
     "variants_total": 114400,
     "included_total": 3,
     "included_by_tag": {
-      "R": 1,
-      "S": 2
+      "S": 2,
+      "R": 1
     },
     "included_flagged": [
       {
@@ -80,6 +81,7 @@
           "control_some_opponents",
           "lock"
         ],
+        "tag_note": null,
         "features": [
           "You control one opponent on each of their turns",
           "Lock"
@@ -99,6 +101,7 @@
         "categories": [
           "lock"
         ],
+        "tag_note": null,
         "features": [
           "Prevent all damage that would be dealt to you",
           "You have protection from everything during your opponents' turns",
@@ -115,8 +118,9 @@
         "mana_value_needed": 0,
         "requires": [],
         "floor": 4,
-        "kind": "two-card combo, about 6 mana or less",
+        "kind": "two-card combo, mana value needed <= 8",
         "categories": [],
+        "tag_note": null,
         "features": [
           "Infinite combat phases",
           "Infinite mana lands you control can produce",
@@ -130,16 +134,6 @@
     "almost_included_total": 132,
     "almost_included_floor_4_features": [
       {
-        "variant": "1167-5483",
-        "missing": [
-          "Esoteric Duplicator"
-        ],
-        "cards": [
-          "Esoteric Duplicator",
-          "Mindslaver"
-        ]
-      },
-      {
         "variant": "4636-6871",
         "missing": [
           "Gonti's Aether Heart"
@@ -147,6 +141,16 @@
         "cards": [
           "Toph, the First Metalbender",
           "Gonti's Aether Heart"
+        ]
+      },
+      {
+        "variant": "1167-5483",
+        "missing": [
+          "Esoteric Duplicator"
+        ],
+        "cards": [
+          "Esoteric Duplicator",
+          "Mindslaver"
         ]
       }
     ]
@@ -170,5 +174,5 @@
   "unresolved_hazard_names": [],
   "source": "data/raw/Toph.txt",
   "bulk_file": "oracle-cards-20261011210156.jsonl.gz",
-  "run_at_utc": "2026-10-12T19:05:56Z"
+  "run_at_utc": "2026-10-12T20:32:51Z"
 }

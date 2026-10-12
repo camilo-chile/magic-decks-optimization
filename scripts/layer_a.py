@@ -32,25 +32,37 @@ from collect_research_data import COMMANDERS, iter_cards  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / "data" / "cache"
 DECKS = ROOT / "decks"
-FALLBACK_DECKS = {"toph-the-first-metalbender": ROOT / "data" / "raw" / "Toph.txt"}
+FALLBACK_DECKS = {
+    "toph-the-first-metalbender": ROOT / "data" / "raw" / "Toph.txt",
+    "fire-lord-azula": ROOT / "data" / "raw" / "Azula.txt",
+}
 RULES_AS_OF = "2026-02-09"  # Wizards Brackets update the snapshot is pinned to (beta)
 
-LINE_RE = re.compile(r"^(\d+)\s+(.+?)(?:\s+\(([A-Za-z0-9]+)\)\s+(\S+))?\s*$")
-BASIC_TYPE = "Basic Land"
+LINE_RE = re.compile(
+    r"^(\d+)\s+(.+?)(?:\s+\(([A-Za-z0-9]+)\)\s+(\S+))?(?:\s+\*[A-Za-z]\*)?\s*$"
+)  # ManaBox marks foils with *F* (also on lines without a set)
 
 # Wizards' examples of mass land denial (Brackets announcement, 2025-02-11): "four or more
 # lands per player" destroyed, exiled, bounced, kept tapped or changed in what they produce.
 WIZARDS_MLD_EXAMPLES = {"armageddon", "ruination", "sunder", "winter orb", "blood moon"}
 MLD_PATTERNS = [
-    re.compile(r"destroy (all|each) (other )?(nonbasic |basic )?lands?"),
-    re.compile(r"exile (all|each) (other )?(nonbasic |basic )?lands?"),
-    re.compile(r"return (all|each) (other )?(nonbasic |basic )?lands?"),
-    re.compile(r"sacrifices? (all|each|x|four|five|six|seven) [^.\n]*lands"),
+    re.compile(r"destroy (all|each) [^.\n]*\blands?\b"),
+    re.compile(r"destroy (all|each) (plains|islands|swamps|mountains|forests)\b"),
+    re.compile(r"exile (all|each) (other )?(nonbasic |basic )?lands?\b(?! cards?)"),
+    re.compile(r"return (all|each) (other )?(nonbasic |basic )?lands?\b(?! cards?)"),
+    re.compile(r"sacrifices (all|each|x|two|three|four|five|six|seven|half)\b[^.\n]*\blands?\b"),
+    re.compile(r"\b(lands|plains|islands|swamps|mountains|forests)\b[^.\n]*(don't|do not) untap"),
     re.compile(r"nonbasic lands are mountains"),
 ]
 EXTRA_TURN_GRANT_RE = re.compile(
-    r"takes? (an |another )?(extra|additional) turns?|(extra|additional) turn after this one"
+    r"takes? (an |another |two |three |four |five |\d+ )?(extra|additional) turns?"
+    r"|(extra|additional) turn after this one"
 )
+EXTRA_TURN_SELF_RE = re.compile(
+    r"(put|shuffle)s? (it|this card|[^.\n]*? ) ?into (its owner's|your) library"
+    r"|return (it|this card) to (its owner's|your) hand"
+)
+DECISIVE_RE = re.compile(r"win the game|loses? the game|infinite (combat )?damage|infinite turns", re.I)
 EXTRA_TURN_FORBID_RE = re.compile(r"can't take (an )?(extra|additional) turns?")
 TUTOR_RE = re.compile(r"search your library for (?![^.\n]*\b(basic|land|lands)\b)")
 
@@ -132,10 +144,12 @@ def card_facts(card):
 def singleton_limit(card):
     """How many copies a deck may hold of this card (basic lands and 'any number' cards)."""
     text = card_text(card).lower()
-    if BASIC_TYPE in (card.get("type_line") or "") or "any number of cards named" in text:
+    type_line = card.get("type_line") or ""
+    if ("Basic" in type_line and "Land" in type_line) or "any number of cards named" in text:
         return None
     m = re.search(r"up to (\w+) cards named", text)
-    words = {"seven": 7, "nine": 9}
+    words = {"two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8,
+             "nine": 9, "ten": 10}
     if m:
         return words.get(m.group(1), int(m.group(1)) if m.group(1).isdigit() else 1)
     return 1
@@ -160,7 +174,10 @@ def is_extra_turn_card(card):
 
 SPELLBOOK_SLIM = CACHE / "spellbook_variants_slim.jsonl.gz"
 HAZARDS_PATH = ROOT / "data" / "hazards.json"
-TWO_CARD_FAST_MANA_VALUE = 6  # "about 6 mana or less" (power-scale two-card row, speed >= 3)
+# Power-scale two-card row: speed >= 3 is "about 6 mana or less, or up to 8 when Spellbook's
+# accuracy flag is false". The bulk file has no accuracy flag, so the looser 8 is used.
+TWO_CARD_FAST_MANA_VALUE = 8
+TAG_FLOOR = {"R": 4, "P": 3, "C": 2, "O": 2}  # Spellbook bracket tags used as a cross-check
 
 FEATURE_CONTROL_ALL = {
     "You control your opponents on each of their turns",
@@ -243,25 +260,38 @@ def match_spellbook(spellbook, deck_oids, commander_oids):
 def judge_variant(variant, commander_oids):
     """Floor and kind for one included variant (power-scale Layer A rows)."""
     cats = classify_features(variant["features"])
+    decisive = any(DECISIVE_RE.search(f) for f in variant["features"])
     oids = variant["_oids"]
     uses_commander = bool(oids & commander_oids)
     n_other = len(oids - commander_oids)
     template = bool(variant["requires"])
+    hard = bool(cats & {"infinite_turns", "control_all_opponents", "mass_land_denial"})
+    soft = bool(cats & {"lock", "control_some_opponents", "skip_turns"})
     floor, kind = 1, None
-    if "infinite_turns" in cats or "control_all_opponents" in cats or "mass_land_denial" in cats:
-        floor, kind = (1, "review: template unresolved") if template else (4, "feature floor 4")
-    if not template:
-        if n_other == 1:
-            floor, kind = 4, "commander plus one card" if uses_commander else "one-card combo"
+    if template:
+        # A template slot needs a card in the deck that fills it; unresolved, so review only.
+        if hard or decisive or soft:
+            kind = "review: template unresolved (" + ", ".join(variant["requires"]) + ")"
+    else:
+        if hard:
+            floor, kind = 4, "feature floor 4"
+        if uses_commander:  # any combo that uses the commander is a floor-4 candidate
+            floor, kind = 4, "commander plus one card" if n_other == 1 else "commander combo"
+        elif n_other == 1:
+            floor, kind = 4, "one-card combo"
         elif n_other == 2:
             fast = (variant.get("mana_value_needed") or 0) <= TWO_CARD_FAST_MANA_VALUE
-            if fast and floor < 4:
-                floor, kind = 4, "two-card combo, about 6 mana or less"
+            if fast:
+                floor, kind = 4, "two-card combo, mana value needed <= %d" % TWO_CARD_FAST_MANA_VALUE
             elif floor < 3:
                 floor, kind = 3, "two-card combo"
-    if floor == 1 and cats & {"lock", "control_some_opponents", "skip_turns"}:
+    if floor == 1 and kind is None and soft:
         kind = "review: lock, skipped turns or control of some opponents"
-    return {"floor": floor, "kind": kind, "categories": sorted(cats)}
+    tag = variant.get("bracket_tag")
+    tag_note = None
+    if TAG_FLOOR.get(tag, 1) > floor:  # Spellbook's own estimator disagrees: cross-check
+        tag_note = f"Spellbook tag {tag} implies floor {TAG_FLOOR[tag]}; this predicate gives {floor}"
+    return {"floor": floor, "kind": kind, "categories": sorted(cats), "tag_note": tag_note}
 
 
 def spellbook_section(spellbook, hazards, commander_entries, resolved, slug, index):
@@ -280,7 +310,7 @@ def spellbook_section(spellbook, hazards, commander_entries, resolved, slug, ind
         for variant in included:
             verdict = judge_variant(variant, commander_oids)
             tags[variant.get("bracket_tag")] += 1
-            if verdict["floor"] > 1 or verdict["kind"]:
+            if verdict["floor"] > 1 or verdict["kind"] or verdict["tag_note"]:
                 rows.append({
                     "variant": variant["id"],
                     "cards": [c["name"] for c in variant["cards"]],
@@ -368,7 +398,9 @@ def analyze(commander_entries, main_entries, index, slug=None, spellbook=None, h
     for c in commanders:
         identity |= set(c.get("color_identity") or [])
     if commanders and not any(
-        "Legendary" in (c.get("type_line") or "") or "can be your commander" in card_text(c).lower()
+        ("Legendary" in (c.get("type_line") or "")
+         and any(t in (c.get("type_line") or "") for t in ("Creature", "Vehicle", "Spacecraft")))
+        or "can be your commander" in card_text(c).lower()
         for c in commanders
     ):
         reasons.append("the commander is not a legendary creature nor 'can be your commander'")
@@ -413,6 +445,11 @@ def analyze(commander_entries, main_entries, index, slug=None, spellbook=None, h
         notes.append(f"extra-turn card(s) {et_names} with a commander that multiplies them: {mult[0]}")
     if et_names:
         flags.append({"flag": "extra_turn", "cards": et_names, "provenance": "curated (oracle text)"})
+    chain = sorted({c["name"] for _, _, c in resolved
+                    if is_extra_turn_card(c) and EXTRA_TURN_SELF_RE.search(card_text(c).lower())})
+    if chain:
+        notes.append(f"extra-turn card(s) that return themselves, a chain candidate to check "
+                     f"by hand (power-scale: any chain is floor 4): {chain}")
 
     # Mass land denial.
     mld = {}
@@ -436,8 +473,11 @@ def analyze(commander_entries, main_entries, index, slug=None, spellbook=None, h
     if hazards is None:
         pending.append("curated hazard list (data/hazards.json) not loaded")
     pending.append("speed-risk flag from the Monte Carlo script (step 2.6)")
-    nonland =[c for _, e, c in resolved if "Land" not in (c.get("type_line") or "")
+    nonland = [c for _, e, c in resolved if "Land" not in (c.get("type_line") or "")
                for _ in range(e["qty"])]
+    sb_rows = extra_section.get("spellbook", {}).get("included_flagged", [])
+    review_items = sum(1 for r in sb_rows if r["floor"] == 1 or r.get("tag_note")) + sum(
+        1 for h in extra_section.get("curated_hazards", []) if h["review_only"])
     tutors = sorted({c["name"] for _, _, c in resolved if TUTOR_RE.search(card_text(c).lower())})
 
     report = {
@@ -468,7 +508,8 @@ def analyze(commander_entries, main_entries, index, slug=None, spellbook=None, h
             if nonland else None,
         },
         "pending_checks": pending,
-        "eligible_bracket_3": not reasons and floor <= 3,
+        "floor_ok_so_far": not reasons and floor <= 3,
+        "review_items": review_items,
         "complete": False,
     }
     report.update(extra_section)
@@ -531,7 +572,7 @@ def main():
         if bad:
             report["reasons"].append(f"{len(bad)} unparsed lines: {bad[:3]}")
             report["rejected"] = True
-            report["eligible_bracket_3"] = False
+            report["floor_ok_so_far"] = False
         report["source"] = str(path.relative_to(ROOT)).replace("\\", "/")
         report["bulk_file"] = bulk.name
         report["run_at_utc"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -555,7 +596,9 @@ def main():
             print(f"   HAZARD floor {row['floor']}: {row['hazard']}: {row['reason']}")
         if report.get("unresolved_hazard_names"):
             print(f"   warning: hazard names not found in the card index: {report['unresolved_hazard_names']}")
-        print(f"   eligible for Bracket 3 so far: {report['eligible_bracket_3']}")
+        print(f"   floor <= 3 and no rejection so far: {report['floor_ok_so_far']} "
+              f"(review items to read: {report['review_items']}; checks pending: "
+              f"{len(report['pending_checks'])})")
         for reason in report["reasons"]:
             print(f"   REJECT/STOP: {reason}")
         for note in report["review_notes"]:

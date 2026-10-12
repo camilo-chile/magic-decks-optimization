@@ -3,7 +3,8 @@
 Status: v0.7 draft. Rules snapshot: the Wizards update of 2026-02-09, verified on
 2026-10-10 and again on 2026-10-11 by independent fact-checks; the Brackets system is
 still labelled "beta".
-Re-check after Wizards' announcement of 2026-10-12. Source report:
+Checked against Wizards' announcement of 2026-10-12 (Competitive Brawl only; no Commander or
+Brackets change); re-check after any separate Brackets update. Source report:
 [commander-brackets-rules-snapshot](research/commander-brackets-rules-snapshot.md).
 
 The acceptance rule and the rating protocol are **not final**: they wait for the decisions
@@ -67,8 +68,14 @@ dataset through the API). `estimate-bracket` stays an optional cross-check. The 
 has `bracketTag`, produced features ("Mass Land Denial", "Lock", "Infinite turns" and
 others), `manaNeeded` / `manaValueNeeded` and the card list, but not the API's `relevant`,
 `speed` or `definitelyTwoCard` fields, so: a two-card combo is a variant with exactly two
-cards and no template requirement; speed is judged from `manaValueNeeded` (the "about 6
-mana or less" test of the two-card row). Combos Spellbook does not list (the Toph
+cards (the commander not counted) and no template requirement; speed is judged from
+`manaValueNeeded`, using 8 or less (the looser end of the two-card row, because the
+accuracy flag is not in the file). A variant that uses the commander is a floor-4
+candidate whatever its size, as the commander-effects row says. A variant with template
+requirements ("any creature with persist") cannot be resolved offline and is listed for
+review when it has a winning, infinite, mass land denial, lock or control feature. Spellbook's
+own tag is a cross-check: a variant tagged R that the predicates leave under floor 4 is
+listed for review. Combos Spellbook does not list (the Toph
 Emeria Shepherd loop, the Azula self-copy loop) are covered by a curated hazard list
 built from the Phase 3 reports, not by Spellbook.
 

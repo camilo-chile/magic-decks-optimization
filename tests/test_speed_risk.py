@@ -111,6 +111,46 @@ def test_decisive_combos_use_features_templates_and_deck_membership():
     assert mod.decisive_combos(facts, None) == []
 
 
+def test_enters_the_battlefield_ramp_on_a_creature_is_applied():
+    ramp_text = ("When Ramp Bear enters the battlefield, search your library for a basic land card, "
+                 "put it onto the battlefield tapped, then shuffle.")
+    commander = fact("Big Hasty", cmc=5, power="21", text="Haste", role="commander")
+
+    def deck_with(text):
+        facts = [fact("Forest", "Basic Land - Forest", "({T}: Add {G}.)", 0, None, 40, produced=["G"])]
+        facts += [fact(f"Bear {i}", text=text, power="0" if not text else "1") for i in range(58)]
+        facts.append(commander)
+        return facts
+
+    plain = mod.simulate(deck_with(""), trials=3000, seed=3)
+    ramped = mod.simulate(deck_with(ramp_text), trials=3000, seed=3)
+    assert mod.model_card(fact("Ramp Bear", text=ramp_text, power="1"))["ramp"] == 1
+    assert ramped["frequency"] > plain["frequency"] + 0.02
+
+
+def test_main_skips_a_stale_card_facts_file():
+    import contextlib
+    import io
+    import json
+    import tempfile
+
+    with tempfile.TemporaryDirectory() as tmp:
+        folder = Path(tmp)
+        stale = [{"name": "Sol Ring", "oracle_id": "x", "mana_value": 1, "type_line": "Artifact",
+                  "oracle_text": "", "color_identity": []}]  # no quantity, role, power or keywords
+        (folder / "old-deck.cards.json").write_text(json.dumps(stale), encoding="utf-8")
+        old = mod.DECKS
+        mod.DECKS = folder
+        out = io.StringIO()
+        try:
+            with contextlib.redirect_stdout(out):
+                mod.main()
+        finally:
+            mod.DECKS = old
+        assert "SKIPPED" in out.getvalue()
+        assert not list(folder.glob("*.speed_risk.json"))
+
+
 if __name__ == "__main__":
     for name, fn in list(globals().items()):
         if name.startswith("test_") and callable(fn):
