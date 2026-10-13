@@ -20,8 +20,8 @@ decks are kept at parity (within 0.2 points) and the owner picks the budget.
 | 2 | Layer A code and golden tests (name resolution, gate, Spellbook) and the card-facts file generator | Phase 1 export format, Phase 0 | Done on 2026-10-12: gate, local Spellbook matcher, curated hazards (`scripts/layer_a.py`, `data/hazards.json`, 35 tests; 6 golden tests on the real decks, `tests/test_golden_decks.py`) and speed flag (`scripts/speed_risk.py`, 9 tests); the deck export validator has 7 tests; independent code review by Haiku 5.5 (26 findings, all 5 blocking fixed; `docs/research/code-review-phase2-*`) |
 | 3 | Synergy research per commander (Scryfall and Commander Spellbook data; EDHREC excluded by its terms); can run in parallel with Phase 1 | Phase 0 | Done on 2026-10-12: 3 reports researched, cross-verified and rules-checked against the official rulings (`docs/research/synergy-*`); the open readings were then closed with the Comprehensive Rules text of 2026-09-25 (`docs/research/comprehensive-rules-check-2026-10-12.md`, one reader, not cross-verified) |
 | 4 | Reference builds and anchor ladders per commander; accepted by the criteria of D12, not by the user | Phases 2 and 3, decisions D7, D10-D12, the rules re-check after 2026-10-12 | In progress (2026-10-12): pilot on Alexios done: reference built with no caps of its own (Sonnet 5.5 high), independently reviewed (Haiku 5.5 xhigh, PASS WITH FIXES, fixes applied; `docs/research/review-alexios-reference-2026-10-12.md`), anchors under `evals/anchors/`; the ablation ladder script `scripts/build_ablation_ladder.py` (5 tests) waits to be run; Toph and Azula follow |
-| 5 | Validate the rating method with evals and freeze the protocol | Phases 2 and 4, approved protocol | Pending |
-| 6 | Rate Toph and Azula on the scale; the owner then picks the cards of each deck to lock | Phases 1, 2 and 5 | Pending |
+| 5 | Calibrate on Commander Salt (replaces the judge-panel validation; no Ollama): score the reference and its ablation rungs, check the order and the stability | Phases 2 and 4 | Pending |
+| 6 | Score Toph and Azula on Commander Salt through their ManaBox links (pilot); the owner then picks the cards of each deck to lock | Phase 1 | Pending |
 | 7 | Feasibility: price the reference lists minus owned cards, in CLP, from the catalogs of the stores the owner names (price reading only; stock is verified later) | Phases 1 and 4, and the store list | Pending |
 | 8 | Global allocation across the 3 decks and the budget curve (100,000-300,000 CLP, steps of 50,000, parity within 0.2); candidate and swap lists; dashboard | Phases 6 and 7 | Pending |
 | 9 | Choose stores and collect offers with verified real stock for the Phase 8 shortlist | Phase 8 | Pending (late) |
@@ -43,12 +43,12 @@ Status as of 2026-10-12.
 - The user makes every purchase.
 
 ## Power scale
-`X.Y`: X is the official Commander Bracket (1-5), Y is build quality inside it (1-9).
-`3.9` is the strongest deck that still meets every Bracket 3 condition. Each deck has its own
-target bracket (all three are 3); only Wizards' official conditions limit a deck, never a
-rule of this project that only lowers power. Details and rating
-method: [docs/power-scale.md](docs/power-scale.md). Open design decisions:
-[docs/proposals/rating-protocol.md](docs/proposals/rating-protocol.md).
+Since 2026-10-13 the yardstick is Commander Salt's: **power 1-10** (casual below 5, upgraded casual
+5-6.49, mid 6.5-7.59, high 7.6-8.99, cEDH from 9) and its decimal bracket. The goal is the highest
+power the budget buys for each deck, at parity, every deck above the 6.1 of the owner's friend's
+deck. All three decks target Bracket 3; only Wizards' official conditions limit a deck (Layer A).
+See [docs/proposals/commandersalt-adoption.md](docs/proposals/commandersalt-adoption.md); the older
+scale is in [docs/power-scale.md](docs/power-scale.md) (superseded).
 
 ## Research
 | Report | Topic |

@@ -1,4 +1,10 @@
-# Power scale (v0.8.2)
+# Power scale (v0.9)
+
+> **Superseded on 2026-10-13 (owner decision).** The power yardstick is now Commander Salt's:
+> power 1-10 with its bands, and its decimal bracket (see `docs/proposals/commandersalt-adoption.md`).
+> The `X.Y` scale, the Layer B judge panel, the ablation-ladder labels and the local Ollama judge
+> described below are historical. Layer A (official conditions of the target bracket, offline)
+> stays as the pre-gate for the optimizer.
 
 Status: v0.8.2 draft. Rules snapshot: the Wizards update of 2026-02-09, verified on
 2026-10-10 and again on 2026-10-11 by independent fact-checks; the Brackets system is
@@ -182,6 +188,8 @@ text).
 - The planned tests are listed in `evals/README.md`.
 
 ## Changelog
+- v0.9 (2026-10-13): owner decision: Commander Salt's power and bracket replace this scale and
+  Layer B. Layer A stays. See the banner above.
 - v0.8.2 (2026-10-12): user decision: all three decks target Bracket 3 again. Toph's current
   list measures floor 3 with the official conditions, so it does not need Bracket 4.
 - v0.8.1 (2026-10-12): the "early" test counts the mana values of the two cards as well as

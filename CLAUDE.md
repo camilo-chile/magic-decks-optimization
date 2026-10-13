@@ -32,10 +32,9 @@ a vehicle for learning modern AI tooling.
 - Nothing is bought before the chosen lists are eligible under `docs/power-scale.md`
   (Layer A at its target bracket, frozen list, verified stock). The rating protocol is in
   `docs/proposals/rating-protocol.md`.
-- The user does not rate decks. Any human signal comes from the internet; Y is reported as
-  the panel's consensus relative to anchors, not as verified truth.
-- A local judge (`qwen3.8:27b` through Ollama) joins the panel only if it passes the
-  qualification test. The user installs Ollama and the model manually, following steps.
+- Power is measured with Commander Salt (power 1-10 and bracket; owner decision 2026-10-13,
+  replaces our own scale and judge panel). Stamp every score with its scoring version and date.
+  The user does not rate decks.
 - The user makes every purchase. Claude never adds to a cart, checks out, signs in,
   accepts terms or submits forms on a store.
 - Free tools only: no paid apps or subscriptions; an exception needs the user's explicit
@@ -86,6 +85,11 @@ a vehicle for learning modern AI tooling.
 - Teaching: the user leads an AI team and wants to learn new tools. When a Claude Code or AI
   feature fits the moment, suggest it proactively in one or two lines, with why it matters
   for his work.
+- Prior art first (user rule, 2026-10-13): before designing or building anything, search for
+  existing tools, sites and data that already do it, record the survey in `docs/research/`
+  and build only the gap. Never rebuild what exists (the project rebuilt power rating,
+  synergy and bracket checks that Commander Salt already provides; see
+  `docs/proposals/commandersalt-adoption.md`).
 - Never state that a read, extraction or verification is complete without a check
   (counts, a control phrase).
 
@@ -134,4 +138,6 @@ a vehicle for learning modern AI tooling.
   used by scripts or agents: its terms of service (effective 2024-08-06, read 2026-10-11)
   allow personal noncommercial use and bar automated searches, requests or queries and the
   copying of its content. Archidekt's terms (read 2026-10-12) bar automated
-  queries as well, and Moxfield's could not be read, so neither is scripted.
+  queries as well, and Moxfield's could not be read, so neither is scripted. Commander Salt has no
+  documented API or terms page; the owner authorized using it by hand in the browser, one deck at a
+  time (2026-10-13), no bulk or scripted requests.

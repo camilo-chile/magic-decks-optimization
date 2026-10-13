@@ -1,5 +1,11 @@
 # Rating protocol (v3, decisions recorded)
 
+> **Superseded on 2026-10-13 (owner decision).** The power yardstick is now Commander Salt's:
+> power 1-10 with its bands, and its decimal bracket (see `docs/proposals/commandersalt-adoption.md`).
+> The `X.Y` scale, the Layer B judge panel, the ablation-ladder labels and the local Ollama judge
+> described below are historical. Layer A (official conditions of the target bracket, offline)
+> stays as the pre-gate for the optimizer.
+
 Status: revised on 2026-10-11 after the user's answers to the second review. The goal and
 the main policies are now decided (table at the end). Numeric thresholds below are
 placeholders until Phase 5 measures the run-to-run spread, the censoring rate and the anchor
