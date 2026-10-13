@@ -31,7 +31,8 @@ Bracket 5 is only ever declared by the user.
   Wizards' official conditions of each deck's **target bracket** (Game Changers, mass land
   denial, extra turns, early two-card infinite combos at Bracket 3; none at Bracket 4) and
   Commander legality. A rule that is only this project's own, and that lowers power, is not
-  allowed. Targets: Toph 4, Alexios 3, Azula 3 (`TARGET_BRACKET` in `scripts/layer_a.py`).
+  allowed. All three decks target Bracket 3; a deck may be given another target in `TARGET_BRACKET`
+  (`scripts/layer_a.py`).
 - Not monotonic across brackets: X is a rules ceiling, not a win-rate ranking. A well-built
   `3.9` can beat a poorly built `4.1`. Comparing across a boundary would need simulated pods
   (optional future work).
@@ -104,7 +105,7 @@ integrity check of the pipeline itself.
 | Lock, skipped turns, control of opponents | Spellbook combo flags `lock`, `skipTurns`, `controlAllOpponents`, `controlSomeOpponents` | curated | `controlAllOpponents` -> floor 4; the other three -> review flag (Wizards: a deck that locks players out in a Stax style should bracket up) |
 | Extra turns, per card | Spellbook flag, Scryfall oracle text | curated | 1 card -> floor 2 |
 | Extra turns, count | count of flagged cards; a card multiplied by the commander (Azula copies a spell cast while she attacks) counts as 1 card, with a review note because it gives two consecutive extra turns (user decision, 2026-10-12) | curated | Wizards: "low quantities, not chained or looped". Read as at most 3 cards (the 4th sets floor 4; 2 and 3 are a review note, no rejection); any chain or infinite-turn combo -> floor 4 |
-| Two-card infinite combos | Spellbook bulk variants with 2 cards or fewer, the commander counted as a card, whose features are infinite or win the game; `manaValueNeeded` as the "early" test | heuristic | Wizards bans intentional **early-game** two-card infinite combos at Bracket 3. Early = mana value needed of 6 or less (Spellbook's speed >= 3) -> floor 4. 7 or 8 (the bulk file has no accuracy flag) -> floor 3 with a review note. 9 or more -> floor 3 (Brackets 1-2 forbid any). Finite two-card value combos and combos of 3 or more cards set no floor |
+| Two-card infinite combos | Spellbook bulk variants with 2 cards or fewer, the commander counted as a card, whose features are infinite or win the game; the "early" test uses the mana to assemble the combo: the larger of `manaValueNeeded` and the mana values of the cards (`manaValueNeeded` is the mana beyond the pieces and is 0 for most combos of permanents: median ratio 0.0 to the pieces' total over 108,039 variants, measured 2026-10-12) | heuristic | Wizards bans intentional **early-game** two-card infinite combos at Bracket 3. Early = mana to assemble of 6 or less (Spellbook's speed >= 3) -> floor 4. 7 or 8 (the bulk file has no accuracy flag) -> floor 3 with a review note. 9 or more -> floor 3 (Brackets 1-2 forbid any). Finite two-card value combos and combos of 3 or more cards set no floor |
 | Commander effects | (1) Spellbook combos that contain the commander, counted as one of the cards; (2) commander text that multiplies a flagged card (copy effects, extra combats) | policy | a combo of the commander plus one card is a two-card combo and follows the row above; locks, skipped turns and control of an opponent's turns are review notes, not floors (Wizards' text names none of them); a multiplied extra-turn card counts as 1 card with a review note (user decision, 2026-10-12; Azula copies only spells cast while she attacks, and the official rulings confirm one copied extra-turn spell gives two extra turns); extra-combat cards are a review note, not a count (not a Wizards category); text that only gives the commander away (Alexios) or changes card types (Toph) is not a flag by itself. Always send the commander in `commanders` for any Spellbook estimator call: an empty list makes Spellbook count it as an ordinary card |
 | Name resolution | canonicalize every card to a Scryfall oracle ID before any API call | control | recognized cards must equal 100, or stop |
 
@@ -178,6 +179,11 @@ text).
 - The planned tests are listed in `evals/README.md`.
 
 ## Changelog
+- v0.8.2 (2026-10-12): user decision: all three decks target Bracket 3 again. Toph's current
+  list measures floor 3 with the official conditions, so it does not need Bracket 4.
+- v0.8.1 (2026-10-12): the "early" test counts the mana values of the two cards as well as
+  Spellbook's `manaValueNeeded` (code review item F-13 closed with data). Toph's current list
+  drops from floor 4 to 3: Bumi + Ashaya cost 14 mana together.
 - v0.8 (2026-10-12): user decision, power first. Only official conditions of the target
   bracket limit a deck. Per-deck target bracket (Toph 4, Alexios 3, Azula 3); the extra-turn
   rejection at 2 cards is gone (floor 4 from the 4th card); two-card combos count the

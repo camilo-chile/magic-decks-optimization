@@ -204,7 +204,7 @@ a separate, frozen test panel; this reduces, but does not remove, shared misjudg
 | D16 | Everything in CLP from the 7 Chilean specialist stores in `data/stores.md` (preference order given); no conversion. No fixed store cap: shipping is a fixed cost per store inside the optimizer, and fewer stores are preferred; the first 3 are the default |
 | D17 | Speed-risk bands: 0-10%, 10-20%, 20-30%, 30-40%, 40% or more (very low to very high); reported only since 2026-10-12 (it no longer fails the bracket-fit review) |
 | D19 | Power first (2026-10-12): the decks are for casual games with friends and the goal is the strongest, most consistent list the chosen budget buys. Only Wizards' official conditions of a deck's target bracket and Commander legality limit it; a project rule that only lowers power is removed. Builders get no caps of their own (multipliers, extra combats, speed, fast mana within the Game Changer count) |
-| D20 | Target bracket per deck (2026-10-12): Toph 4, Alexios 3, Azula 3. A deck is judged against its own target; Y stays relative to each commander's best list under that bracket |
+| D20 | Target bracket per deck (2026-10-12): the gate supports one per deck; all three are Bracket 3 (Toph was briefly 4 until its current list measured floor 3 under Wizards' own conditions). A deck is judged against its own target; Y stays relative to each commander's best list under that bracket |
 
 ### Set by default (the user may override)
 | ID | Default |
@@ -218,4 +218,4 @@ a separate, frozen test panel; this reduces, but does not remove, shared misjudg
 |---|---|---|
 | O1 | Whether the stores expose a product JSON that a script can read, and each store's shipping rule and payment fees (read-only, from the stores' own pages; needs the owner's go-ahead) | Before Phase 7 |
 | O2 | Which cards of Toph and Azula are locked (a step after the first rating, Phase 6) | Phase 6 |
-| O3 | Are the cards of the owner's other decks (Modern, Legacy, the Commander precon) reserved, so the 3 project decks never use them? Recommended: yes | Before the full scan |
+| O3 | Closed 2026-10-12: the owner's other decks (Modern, Legacy, the Commander precon) are out of scope until this project ends; nothing is reserved and every owned card is available to the 3 project decks | Closed |

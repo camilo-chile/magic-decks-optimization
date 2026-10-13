@@ -8,7 +8,7 @@
   "total_cards": 100,
   "recognized_cards": 100,
   "unresolved": [],
-  "floor": 4,
+  "floor": 3,
   "rejected": false,
   "reasons": [],
   "flags": [
@@ -55,7 +55,7 @@
   "pending_checks": [
     "speed-risk flag from the Monte Carlo script (step 2.6)"
   ],
-  "target_bracket": 4,
+  "target_bracket": 3,
   "floor_ok_so_far": true,
   "review_items": 4,
   "complete": false,
@@ -76,8 +76,8 @@
         "bracket_tag": "S",
         "mana_value_needed": 0,
         "requires": [],
-        "floor": 4,
-        "kind": "two-card combo, early (mana value needed <= 6)",
+        "floor": 3,
+        "kind": "two-card combo, late",
         "categories": [],
         "tag_note": null,
         "features": [
@@ -175,5 +175,5 @@
   "unresolved_hazard_names": [],
   "source": "data/raw/Toph.txt",
   "bulk_file": "oracle-cards-20261011210156.jsonl.gz",
-  "run_at_utc": "2026-10-12T22:26:13Z"
+  "run_at_utc": "2026-10-13T00:15:47Z"
 }

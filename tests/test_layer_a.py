@@ -260,6 +260,18 @@ def test_two_card_combo_floor_3_slow_and_4_early():
     assert seven["floor"] == 3 and "borderline" in seven["spellbook"]["included_flagged"][0]["kind"]
 
 
+def test_early_counts_the_cost_of_the_cards_themselves():
+    big_a = card("Seven Drop A", ["R"], cmc=7)
+    big_b = card("Seven Drop B", ["R"], cmc=7)
+    # Spellbook's manaValueNeeded is 0 for permanents already in play, but 14 mana is not early.
+    r = run_sb([big_a, big_b], [variant("v1", [big_a, big_b], ["Infinite mana"], mana_value=0)])
+    assert r["floor"] == 3 and r["spellbook"]["included_flagged"][0]["kind"].endswith("late")
+    cheap_a = card("Two Drop A", ["R"], cmc=2)
+    cheap_b = card("Two Drop B", ["R"], cmc=2)
+    r = run_sb([cheap_a, cheap_b], [variant("v2", [cheap_a, cheap_b], ["Infinite mana"], mana_value=0)])
+    assert r["floor"] == 4
+
+
 def test_a_finite_two_card_combo_is_not_an_infinite_combo():
     a, b = card("Value A", ["R"]), card("Value B", ["R"])
     r = run_sb([a, b], [variant("v1", [a, b], ["Draw a card each turn"], mana_value=2)])

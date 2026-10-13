@@ -4,10 +4,10 @@ This file is the only guidance a deck judge receives besides the card facts and 
 decklists. It deliberately contains no target level, no thresholds and no project goals.
 
 ## Question
-Given two Commander decklists, which would win more often in a four-player pod of typical
-Bracket 3 decks (strong synergy and card quality, some disruption, up to three Game
-Changers, no mass land denial, no chained extra turns, no early two-card infinite
-combos)?
+Given two Commander decklists, which would win more often in a casual four-player pod of
+well-built, upgraded Commander decks (strong synergy and card quality, some disruption)?
+Judge strength and consistency only: a deck is not worse for being fast, powerful or having
+combos, and not better for being slow or gentle.
 
 ## What to consider
 Write a short note per lens, then one overall verdict.

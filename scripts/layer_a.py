@@ -36,9 +36,10 @@ FALLBACK_DECKS = {
     "toph-the-first-metalbender": ROOT / "data" / "raw" / "Toph.txt",
     "fire-lord-azula": ROOT / "data" / "raw" / "Azula.txt",
 }
-# The bracket each deck is built for (user decision, 2026-10-12): Toph keeps its Bracket 4 package
-# (Mindslaver, The Stasis Coffin, Bumi plus Ashaya); the other two stay inside Bracket 3.
-TARGET_BRACKET = {"toph-the-first-metalbender": 4}
+# The bracket each deck is built for. All three are Bracket 3 (user decision, 2026-10-12: Toph's
+# current list is floor 3 under Wizards' own conditions). Add a slug here to give one deck another
+# target, for example {"toph-the-first-metalbender": 4} lifts every card limit for it.
+TARGET_BRACKET = {}
 DEFAULT_TARGET = 3
 RULES_AS_OF = "2026-02-09"  # Wizards Brackets update the snapshot is pinned to (beta)
 
@@ -266,12 +267,17 @@ def match_spellbook(spellbook, deck_oids, commander_oids):
     return included, almost
 
 
-def judge_variant(variant, commander_oids):
+def judge_variant(variant, commander_oids, cmc_by_oid=None):
     """Floor and kind for one included variant (power-scale Layer A rows).
 
     Only Wizards' own Bracket 3 conditions set a floor: mass land denial and chained or looped
     extra turns (4), and intentional early two-card infinite combos (4; 3 when late). The
     commander counts as one of the two cards. Everything else is a review note.
+
+    "Early" is the mana needed to assemble the combo: the larger of Spellbook's
+    `manaValueNeeded` (which is the mana beyond the pieces, 0 for most combos whose pieces are
+    permanents: measured on 108,039 variants, median ratio to the pieces' total 0.0) and the
+    mana values of the cards themselves (`cmc_by_oid`).
     """
     cats = classify_features(variant["features"])
     decisive = any(DECISIVE_RE.search(f) for f in variant["features"])
@@ -289,16 +295,17 @@ def judge_variant(variant, commander_oids):
         if hard or decisive or soft:
             kind = "review: template unresolved (" + ", ".join(variant["requires"]) + ")"
     else:
-        mana = variant.get("mana_value_needed") or 0
+        mana = max(variant.get("mana_value_needed") or 0,
+                   sum((cmc_by_oid or {}).get(oid, 0) for oid in oids))
         if hard:
             floor, kind = 4, "feature floor 4"
         elif n_total <= 2 and infinite:
             who = "commander plus one card" if uses_commander and n_total == 2 else (
                 "one-card combo" if n_total == 1 else "two-card combo")
             if mana <= TWO_CARD_EARLY_MANA_VALUE:
-                floor, kind = 4, "%s, early (mana value needed <= %d)" % (who, TWO_CARD_EARLY_MANA_VALUE)
+                floor, kind = 4, "%s, early (mana to assemble %d <= %d)" % (who, mana, TWO_CARD_EARLY_MANA_VALUE)
             elif mana <= TWO_CARD_BORDERLINE_MANA_VALUE:
-                floor, kind = 3, "%s, borderline early (mana value needed %d; check by hand)" % (who, mana)
+                floor, kind = 3, "%s, borderline early (mana to assemble %d; check by hand)" % (who, mana)
             else:
                 floor, kind = 3, "%s, late" % who
     if floor == 1 and kind is None and soft:
@@ -318,13 +325,14 @@ def spellbook_section(spellbook, hazards, commander_entries, resolved, slug, ind
         names_in_deck.update(normalize(f["name"]) for f in card.get("card_faces") or [] if f.get("name"))
     deck_oids = {c.get("oracle_id") for _, _, c in resolved if c.get("oracle_id")}
     commander_oids = {c.get("oracle_id") for r, _, c in resolved if r == "commander" and c.get("oracle_id")}
+    cmc_by_oid = {c["oracle_id"]: c.get("cmc") or 0 for _, _, c in resolved if c.get("oracle_id")}
     floor, flags, notes, section = 1, [], [], {}
 
     if spellbook is not None:
         included, almost = match_spellbook(spellbook, deck_oids, commander_oids)
         rows, tags = [], Counter()
         for variant in included:
-            verdict = judge_variant(variant, commander_oids)
+            verdict = judge_variant(variant, commander_oids, cmc_by_oid)
             tags[variant.get("bracket_tag")] += 1
             if verdict["floor"] > 1 or verdict["kind"] or verdict["tag_note"]:
                 rows.append({

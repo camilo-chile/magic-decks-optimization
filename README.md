@@ -16,8 +16,8 @@ decks are kept at parity (within 0.2 points) and the owner picks the budget.
 |---|---|---|---|
 | Base | Harness (CLAUDE.md, skills, agents, hooks, permissions), research reports, decisions, store list | none | Done (committed 2026-10-11) |
 | 0 | Rules snapshot and draft power scale | none | Done. The 2026-10-12 Wizards announcement was checked: Competitive Brawl only, no change to the Commander banned list, Brackets or Game Changers; a Brackets update could still follow (re-check after the 2026-10-13 stream) |
-| 1 | Digitize the 2 physical decks and the loose collection | Android phone and a free scanning app | In progress: Toph (10 Spanish cards) and Azula (9 Spanish cards) scanned and exported on 2026-10-12; the loose collection is pending |
-| 2 | Layer A code and golden tests (name resolution, gate, Spellbook) and the card-facts file generator | Phase 1 export format, Phase 0 | Done on 2026-10-12: gate, local Spellbook matcher, curated hazards (`scripts/layer_a.py`, `data/hazards.json`, 34 tests) and speed flag (`scripts/speed_risk.py`, 9 tests); independent code review by Haiku 5.5 (26 findings, all 5 blocking fixed; `docs/research/code-review-phase2-*`) |
+| 1 | Digitize the 2 physical decks and the loose collection | Android phone and a free scanning app | In progress: Toph (10 Spanish cards) and Azula (9 Spanish cards) scanned, exported and validated on 2026-10-12; the inventory builder (`scripts/build_inventory.py`, 5 tests) is ready; the loose collection scan is pending (owner) |
+| 2 | Layer A code and golden tests (name resolution, gate, Spellbook) and the card-facts file generator | Phase 1 export format, Phase 0 | Done on 2026-10-12: gate, local Spellbook matcher, curated hazards (`scripts/layer_a.py`, `data/hazards.json`, 35 tests; 6 golden tests on the real decks, `tests/test_golden_decks.py`) and speed flag (`scripts/speed_risk.py`, 9 tests); the deck export validator has 7 tests; independent code review by Haiku 5.5 (26 findings, all 5 blocking fixed; `docs/research/code-review-phase2-*`) |
 | 3 | Synergy research per commander (Scryfall and Commander Spellbook data; EDHREC excluded by its terms); can run in parallel with Phase 1 | Phase 0 | Done on 2026-10-12: 3 reports researched, cross-verified and rules-checked against the official rulings (`docs/research/synergy-*`); the open readings were then closed with the Comprehensive Rules text of 2026-09-25 (`docs/research/comprehensive-rules-check-2026-10-12.md`, one reader, not cross-verified) |
 | 4 | Reference builds and anchor ladders per commander; accepted by the criteria of D12, not by the user | Phases 2 and 3, decisions D7, D10-D12, the rules re-check after 2026-10-12 | In progress (2026-10-12): pilot on Alexios done: reference built with no caps of its own (Sonnet 5.5 high), independently reviewed (Haiku 5.5 xhigh, PASS WITH FIXES, fixes applied; `docs/research/review-alexios-reference-2026-10-12.md`), anchors under `evals/anchors/`; the ablation ladder script `scripts/build_ablation_ladder.py` (5 tests) waits to be run; Toph and Azula follow |
 | 5 | Validate the rating method with evals and freeze the protocol | Phases 2 and 4, approved protocol | Pending |
@@ -45,7 +45,7 @@ Status as of 2026-10-12.
 ## Power scale
 `X.Y`: X is the official Commander Bracket (1-5), Y is build quality inside it (1-9).
 `3.9` is the strongest deck that still meets every Bracket 3 condition. Each deck has its own
-target bracket (Toph 4, Alexios 3, Azula 3); only Wizards' official conditions limit a deck, never a
+target bracket (all three are 3); only Wizards' official conditions limit a deck, never a
 rule of this project that only lowers power. Details and rating
 method: [docs/power-scale.md](docs/power-scale.md). Open design decisions:
 [docs/proposals/rating-protocol.md](docs/proposals/rating-protocol.md).

@@ -1,6 +1,6 @@
 ---
 name: deck-judge
-description: Independent judge that compares one Commander decklist with one anchor decklist and says which would win more often in a typical Bracket 3 pod. Use only inside the rate-deck panel.
+description: Independent judge that compares one Commander decklist with one anchor decklist and says which would win more often in a casual four-player pod of well-built decks. Use only inside the rate-deck panel.
 tools: Read
 model: sonnet
 omitClaudeMd: true

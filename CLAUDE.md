@@ -17,8 +17,9 @@ a vehicle for learning modern AI tooling.
   0.2 points) for each budget from 100,000 to 300,000 CLP in steps of 50,000. The output is
   a budget curve and a dashboard; the user then picks the budget and the cards. 3.9 is the
   top of the scale and probably not reachable inside 300,000 CLP. Spec:
-  `docs/power-scale.md`. Each deck has a target bracket (Toph 4, Alexios 3, Azula 3, user decision
-  2026-10-12) and must not meet the conditions of the next one; Toph has no card limits.
+  `docs/power-scale.md`. All 3 decks target Bracket 3 (user decision 2026-10-12, after Toph's current
+  list measured floor 3 under Wizards' own conditions) and must not meet Bracket 4 conditions;
+  the gate supports a different target per deck (`TARGET_BRACKET`).
 - Budget: the user's pick from that curve, never above 300,000 CLP; checkout totals for
   cards and shipping (payment fees count if a store charges them), owned cards free.
 - Stores: the 7 Chilean specialist shops in `data/stores.md` (in the user's order of
@@ -107,7 +108,7 @@ a vehicle for learning modern AI tooling.
 | `decks/<commander-slug>.layer_a.json`, `.cards.json`, `.speed_risk.json` | Layer A output, card facts and the speed-risk flag, written by scripts the user runs |
 | `decks/reports/` | Rating reports |
 | `data/raw/` | Private inputs such as the collection export (git-ignored) |
-| `data/cache/` | Downloaded bulk data from Scryfall and Commander Spellbook (git-ignored) |
+| `data/cache/` | Downloaded bulk data from Scryfall and Commander Spellbook, and `collection_inventory.json` from `scripts/build_inventory.py` (untracked) |
 | `data/hazards.json` | Curated combos and packages Spellbook does not list (per commander), read by Layer A; extended from the Phase 3 reports |
 | `data/stores.md` | Allowlist of stores with domain, shipping rule, payment fees and date checked (created 2026-10-11 with the 7 stores; shipping and fees filled in Phase 7) |
 | `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) |
