@@ -344,9 +344,9 @@ def test_hazards_file_is_well_formed():
 
 
 def test_pending_checks_shrink_when_spellbook_and_hazards_are_loaded():
-    assert len(run()["pending_checks"]) == 3
+    assert len(run()["pending_checks"]) == 2
     r = run_sb([], [], hazards=[])
-    assert r["pending_checks"] == ["speed-risk flag from the Monte Carlo script (step 2.6)"]
+    assert r["pending_checks"] == []
 
 
 

@@ -24,8 +24,9 @@ Plan the deck for $ARGUMENTS. Respect every hard constraint in `CLAUDE.md`. Plan
 5. Stock: ask the user to run `/check-stock` on the shortlist. When stock fails, re-plan
    with substitutes and recompute the totals. At most 5 substitution rounds, then stop and
    report what blocks the plan.
-6. Rating: write the frozen candidate to `decks/<commander-slug>.txt`, then ask the user
-   to run `/rate-deck decks/<commander-slug>.txt`; continue once the report exists.
+6. Scoring: write the frozen candidate to `decks/<commander-slug>.txt`, ask the user for a
+   ManaBox link of it, then run `/rate-deck <commander-slug>` (Commander Salt power and bracket)
+   and continue once the report exists.
 7. Deliver: the shopping list grouped by store, the total cost in CLP including shipping,
    and the evidence timestamps.
 

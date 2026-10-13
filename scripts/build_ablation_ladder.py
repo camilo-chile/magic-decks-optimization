@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Ablation ladder: the known-weaker anchors of one commander (rating protocol, "Anchors per
-commander", decisions D11 and D19).
+"""Ablation ladder: lists of one commander that are known to be weaker than its reference, to be
+scored on Commander Salt (power-scale v1.0, calibration in Phase 5).
 
 Run it with the "Run Python File" button (no arguments). No network. For every commander that has
 both files below it writes the nested ladder k = 2, 4, 6, 10, 20 into evals/anchors/:
@@ -12,8 +12,8 @@ both files below it writes the nested ladder k = 2, 4, 6, 10, 20 into evals/anch
 Output:
   evals/anchors/<slug>.ladder-k<NN>.txt   the reference with its k most important non-land cards
                                           replaced
-  evals/anchors/<slug>.ladder.json        labels (Y = 9 - k/4), the replaced pairs, and the Layer A
-                                          result of every rung
+  evals/anchors/<slug>.ladder.json        the replaced pairs and the Layer A result of every rung;
+                                          the power of each rung is read from Commander Salt
 
 Rule (fixed before any candidate is seen, no prices, no community data): walk the ranking from the
 most important card down; each card is replaced by the first unused filler of its own role
@@ -30,7 +30,6 @@ import layer_a as la  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 ANCHORS = ROOT / "evals" / "anchors"
 K_VALUES = (2, 4, 6, 10, 20)
-LABEL_CONSTANT = 0.25  # D11: Y = 9 - k / 4
 FALLBACK_ROLE = "other"
 
 
@@ -103,17 +102,17 @@ def main():
         data = json.loads(rank_path.read_text(encoding="utf-8"))
         commander_lines, main_entries = split_list(ref_path.read_text(encoding="utf-8-sig"))
         rungs = ladder(commander_lines, main_entries, data["ranking"], data["fillers"])
-        manifest = {"slug": slug, "constant": LABEL_CONSTANT, "rungs": {}}
+        manifest = {"slug": slug, "rungs": {}}
         print(f"== {slug}")
         for k, (text, pairs) in rungs.items():
             (ANCHORS / f"{slug}.ladder-k{k:02d}.txt").write_text(text, encoding="utf-8")
-            row = {"y_label": round(9 - k * LABEL_CONSTANT, 2),
+            row = {"k": k,
                    "pairs": [{"out": o, "in": i, "role": r} for o, i, r in pairs]}
             if index is not None:
                 row["layer_a"] = gate(text, slug, index, spellbook, hazards)
             manifest["rungs"][str(k)] = row
             flag = row.get("layer_a", {})
-            print(f"   k={k:2d}  Y={row['y_label']}  floor {flag.get('floor')}  "
+            print(f"   k={k:2d}  floor {flag.get('floor')}  "
                   f"rejected {flag.get('rejected')}")
         (ANCHORS / f"{slug}.ladder.json").write_text(
             json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")

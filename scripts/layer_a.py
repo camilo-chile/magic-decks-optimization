@@ -14,9 +14,9 @@ Decks read, in order (the first existing file per commander wins):
 
 What this part checks (docs/power-scale.md, Layer A): name resolution, 100 cards, singleton,
 Commander legality, color identity, Game Changers, extra-turn cards and mass land denial by
-card text. Spellbook combos, the own combo detector and the speed-risk flag are separate
-steps; the report lists them under `pending_checks`, so a result here is never a final
-eligibility answer.
+card text, then Spellbook combos matched locally and the curated hazard list. Power itself is
+not computed here: it is read from Commander Salt by hand (docs/power-scale.md). A result here
+is the floor and the flags, never a power rating.
 """
 import gzip
 import json
@@ -498,7 +498,6 @@ def analyze(commander_entries, main_entries, index, slug=None, spellbook=None, h
         pending.append("Spellbook combo matching: slim bulk file not found (run collect_spellbook_bulk.py)")
     if hazards is None:
         pending.append("curated hazard list (data/hazards.json) not loaded")
-    pending.append("speed-risk flag from the Monte Carlo script (step 2.6)")
     nonland = [c for _, e, c in resolved if "Land" not in (c.get("type_line") or "")
                for _ in range(e["qty"])]
     sb_rows = extra_section.get("spellbook", {}).get("included_flagged", [])
@@ -635,7 +634,7 @@ def main():
         failed = failed or report["rejected"]
         print(f"   wrote decks/{slug}.layer_a.json and decks/{slug}.cards.json\n")
     print("RESULT:", "PROBLEMS FOUND (see above)" if failed else "OK (offline checks only; "
-          "Spellbook, combo detector and speed flag are still pending)")
+          "power is read from Commander Salt by hand)")
     sys.exit(1 if failed else 0)
 
 

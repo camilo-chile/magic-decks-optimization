@@ -1,9 +1,9 @@
 # magic-decks-optimization
 
 Build one new Commander deck and upgrade two existing ones as high inside Bracket 3 as the
-budget allows ("3.9" is the top of a custom power scale), using verified real stock in
+budget allows (measured with Commander Salt's power 1-10), using verified real stock in
 Chilean stores. The result is a budget curve (100,000 to 300,000 CLP) and a dashboard; the
-decks are kept at parity (within 0.2 points) and the owner picks the budget.
+decks are kept at parity (within 0.2 power points) and the owner picks the budget.
 
 | Deck | Commander | Goal |
 |---|---|---|
@@ -15,9 +15,9 @@ decks are kept at parity (within 0.2 points) and the owner picks the budget.
 | Phase | What happens | Depends on | Status |
 |---|---|---|---|
 | Base | Harness (CLAUDE.md, skills, agents, hooks, permissions), research reports, decisions, store list | none | Done (committed 2026-10-11) |
-| 0 | Rules snapshot and draft power scale | none | Done (2026-10-13). Wizards' official pages were checked after the 2026-10-12 announcement and the 2026-10-13 stream: Competitive Brawl only, no change to the Commander banned list, Brackets or Game Changers; Wizards said a Commander announcement is likely before the end of 2026, so the rules are re-checked at the 2026-11-30 announcement and in the Phase 11 freshness check |
+| 0 | Rules snapshot (Wizards' official conditions) | none | Done (2026-10-13). Wizards' official pages were checked after the 2026-10-12 announcement and the 2026-10-13 stream: Competitive Brawl only, no change to the Commander banned list, Brackets or Game Changers; Wizards said a Commander announcement is likely before the end of 2026, so the rules are re-checked at the 2026-11-30 announcement and in the Phase 11 freshness check |
 | 1 | Digitize the 2 physical decks and the loose collection | Android phone and a free scanning app | In progress: Toph (10 Spanish cards) and Azula (9 Spanish cards) scanned, exported and validated on 2026-10-12; the inventory builder (`scripts/build_inventory.py`, 5 tests) is ready; the loose collection scan is pending (owner) |
-| 2 | Layer A code and golden tests (name resolution, gate, Spellbook) and the card-facts file generator | Phase 1 export format, Phase 0 | Done on 2026-10-12: gate, local Spellbook matcher, curated hazards (`scripts/layer_a.py`, `data/hazards.json`, 35 tests; 6 golden tests on the real decks, `tests/test_golden_decks.py`) and speed flag (`scripts/speed_risk.py`, 9 tests); the deck export validator has 7 tests; independent code review by Haiku 5.5 (26 findings, all 5 blocking fixed; `docs/research/code-review-phase2-*`) |
+| 2 | Layer A code and golden tests (name resolution, gate, Spellbook) and the card-facts file generator | Phase 1 export format, Phase 0 | Done on 2026-10-12: gate, local Spellbook matcher, curated hazards (`scripts/layer_a.py`, `data/hazards.json`, 35 tests; 6 golden tests on the real decks, `tests/test_golden_decks.py`); the speed-risk flag was built and retired on 2026-10-13 (Commander Salt replaces it); the deck export validator has 7 tests; independent code review by Haiku 5.5 (26 findings, all 5 blocking fixed; `docs/research/code-review-phase2-*`) |
 | 3 | Synergy research per commander (Scryfall and Commander Spellbook data; EDHREC excluded by its terms); can run in parallel with Phase 1 | Phase 0 | Done on 2026-10-12: 3 reports researched, cross-verified and rules-checked against the official rulings (`docs/research/synergy-*`); the open readings were then closed with the Comprehensive Rules text of 2026-09-25 (`docs/research/comprehensive-rules-check-2026-10-12.md`, one reader, not cross-verified) |
 | 4 | Reference builds and anchor ladders per commander; accepted by the criteria of D12, not by the user | Phases 2 and 3, decisions D7, D10-D12, the rules re-check after 2026-10-12 | In progress (2026-10-12): pilot on Alexios done: reference built with no caps of its own (Sonnet 5.5 high), independently reviewed (Haiku 5.5 xhigh, PASS WITH FIXES, fixes applied; `docs/research/review-alexios-reference-2026-10-12.md`), anchors under `evals/anchors/`; the ablation ladder script `scripts/build_ablation_ladder.py` (5 tests) waits to be run; Toph and Azula follow |
 | 5 | Calibrate on Commander Salt (replaces the judge-panel validation; no Ollama): score the reference and its ablation rungs, check the order and the stability | Phases 2 and 4 | Pending |
@@ -25,8 +25,8 @@ decks are kept at parity (within 0.2 points) and the owner picks the budget.
 | 7 | Feasibility: price the reference lists minus owned cards, in CLP, from the catalogs of the stores the owner names (price reading only; stock is verified later) | Phases 1 and 4, and the store list | Pending |
 | 8 | Global allocation across the 3 decks and the budget curve (100,000-300,000 CLP, steps of 50,000, parity within 0.2); candidate and swap lists; dashboard | Phases 6 and 7 | Pending |
 | 9 | Choose stores and collect offers with verified real stock for the Phase 8 shortlist | Phase 8 | Pending (late) |
-| 10 | Joint optimization (allocation plus purchase, at most the stores the owner lists, shipping); backtrack when stock fails (at most 5 rounds, each re-rated with a reduced rule) | Phase 9 | Pending |
-| 11 | Rules freshness check, test-panel rating of the frozen lists, stock re-check of the chosen offers within 24 h, pull list (owned cards to take out per deck), purchase by the user, reconciliation (bought versus planned, collection updated). If the rating fails: back to Phase 8 once, then the D2 fallback | Phase 10 | Pending |
+| 10 | Joint optimization (allocation plus purchase, at most the stores the owner lists, shipping); backtrack when stock fails (at most 5 rounds, each re-scored on Commander Salt) | Phase 9 | Pending |
+| 11 | Rules freshness check, Commander Salt score of the frozen lists, stock re-check of the chosen offers within 24 h, pull list (owned cards to take out per deck), purchase by the user, reconciliation (bought versus planned, collection updated). If the score fails: back to Phase 8 once, then the D2 fallback | Phase 10 | Pending |
 
 Status as of 2026-10-12.
 
@@ -74,7 +74,7 @@ pip install -r requirements.txt
 
 ## Working with Claude Code
 Project rules live in [CLAUDE.md](CLAUDE.md). Skills (user-invoked): `rate-deck`,
-`check-stock`, `build-deck`. Subagents: `deck-judge`, `stock-verifier`.
+`check-stock`, `build-deck`. Subagent: `stock-verifier`.
 
 ## Git hygiene
 Commits must use the personal identity. After cloning, enable the repo hook (it is

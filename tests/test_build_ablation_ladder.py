@@ -69,8 +69,8 @@ def test_running_out_of_fillers_is_an_error():
         raise AssertionError("expected ValueError")
 
 
-def test_labels_use_the_global_constant():
-    assert [9 - k * mod.LABEL_CONSTANT for k in mod.K_VALUES] == [8.5, 8.0, 7.5, 6.5, 4.0]
+def test_the_rungs_are_the_five_agreed_values_of_k():
+    assert mod.K_VALUES == (2, 4, 6, 10, 20)
 
 
 if __name__ == "__main__":

@@ -1,7 +1,7 @@
 # magic-decks-optimization
 
 Build 1 new Commander deck and upgrade 2 existing ones as high inside Bracket 3 as the
-budget allows ("3.9" is the top of our custom power scale for Bracket 3), using verified real stock in
+budget allows (measured with Commander Salt's power 1-10 and bracket), using verified real stock in
 Chilean stores. The output is a budget curve; the user picks the budget. The project is also
 a vehicle for learning modern AI tooling.
 
@@ -14,10 +14,10 @@ a vehicle for learning modern AI tooling.
 
 ## Hard constraints
 - Goal (user decision, 2026-10-11): the 3 decks as strong as possible **at parity** (within
-  0.2 points) for each budget from 100,000 to 300,000 CLP in steps of 50,000. The output is
-  a budget curve and a dashboard; the user then picks the budget and the cards. 3.9 is the
-  top of the scale and probably not reachable inside 300,000 CLP. Spec:
-  `docs/power-scale.md`. All 3 decks target Bracket 3 (user decision 2026-10-12, after Toph's current
+  0.2 Commander Salt power points) for each budget from 100,000 to 300,000 CLP in steps of
+  50,000, every deck above the friend's 6.1 whenever the budget allows. The output is a
+  budget curve and a dashboard; the user then picks the budget and the cards. Spec:
+  `docs/power-scale.md` (v1.0). All 3 decks target Bracket 3 (user decision 2026-10-12, after Toph's current
   list measured floor 3 under Wizards' own conditions) and must not meet Bracket 4 conditions;
   the gate supports a different target per deck (`TARGET_BRACKET`).
 - Budget: the user's pick from that curve, never above 300,000 CLP; checkout totals for
@@ -30,7 +30,8 @@ a vehicle for learning modern AI tooling.
 - Every card to buy must have verified stock > 0 at decision time. If stock fails, re-plan
   (backtrack). Never leave an unverified card in a final list.
 - Nothing is bought before the chosen lists are eligible under `docs/power-scale.md`
-  (Layer A at its target bracket, frozen list, verified stock). The rating protocol is in
+  (Layer A at its target bracket, a version-stamped Commander Salt score of the frozen list,
+  verified stock). The measurement protocol and decision log are in
   `docs/proposals/rating-protocol.md`.
 - Power is measured with Commander Salt (power 1-10 and bracket; owner decision 2026-10-13,
   replaces our own scale and judge panel). Stamp every score with its scoring version and date.
@@ -66,7 +67,7 @@ a vehicle for learning modern AI tooling.
 - Scripts the user runs: runnable from the VS Code "Run Python File" button with no
   arguments (defaults in the script), and they write their result to a file. Any script
   estimated to run longer than 5 minutes must also show its progress with an ETA and keep a
-  separate progress log file next to the result file (rating panels, optimizers, store
+  separate progress log file next to the result file (optimizers, store
   readers, simulations).
 - The conda env lives in conda's default envs directory; the repo only holds
   `requirements.txt`. Never create a venv.
@@ -104,13 +105,13 @@ a vehicle for learning modern AI tooling.
 ## Layout
 | Path | Purpose |
 |---|---|
-| `docs/power-scale.md` | Source of truth for the X.Y power scale |
+| `docs/power-scale.md` | Source of truth for how power is measured (Commander Salt) and for Layer A |
 | `docs/proposals/` | Designs awaiting the user's decision |
 | `docs/research/` | Distilled research reports (dated) |
 | `decks/<commander-slug>.txt` | Decklist: `1 <English card name>` per line, the commander under `// Commander`; a ManaBox `(SET) 123` suffix is allowed |
-| `decks/<commander-slug>.locked.txt` | Cards the user keeps no matter what, chosen in Phase 6 after rating the current decks |
-| `decks/<commander-slug>.layer_a.json`, `.cards.json`, `.speed_risk.json` | Layer A output, card facts and the speed-risk flag, written by scripts the user runs |
-| `decks/reports/` | Rating reports |
+| `decks/<commander-slug>.locked.txt` | Cards the user keeps no matter what, chosen in Phase 6 after scoring the current decks |
+| `decks/<commander-slug>.layer_a.json`, `.cards.json` | Layer A output and card facts, written by scripts the user runs |
+| `decks/reports/` | Commander Salt score reports, one per deck and date |
 | `data/raw/` | Private inputs such as the collection export (git-ignored) |
 | `data/cache/` | Downloaded bulk data from Scryfall and Commander Spellbook, and `collection_inventory.json` from `scripts/build_inventory.py` (untracked) |
 | `data/hazards.json` | Curated combos and packages Spellbook does not list (per commander), read by Layer A; extended from the Phase 3 reports |
@@ -118,11 +119,11 @@ a vehicle for learning modern AI tooling.
 | `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) |
 | `scripts/` | Python the user runs himself |
 | `tests/` | Offline tests and API fixtures (`pytest`) |
-| `evals/` | Judge rubric, anchor decks (`evals/anchors/`), hook test table and reliability tests of the rating method |
+| `evals/` | Reference lists and ablation rungs (`evals/anchors/`), the hook test table and the test plan |
 | `research_notes/` | Raw research notes (git-ignored) |
 | `reports/` | Scratch output of research tooling (git-ignored; may hold stale drafts) |
 | `.claude/skills/` | `rate-deck`, `check-stock`, `build-deck` (all user-invoked) |
-| `.claude/agents/` | `deck-judge`, `stock-verifier` |
+| `.claude/agents/` | `stock-verifier` |
 | `.claude/hooks/` | `block-git-writes.sh` |
 | `.githooks/pre-commit` | Blocks commits made with a non-personal git email |
 
