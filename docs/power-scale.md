@@ -1,10 +1,13 @@
-# Power scale (v0.8)
+# Power scale (v0.8.2)
 
-Status: v0.8 draft. Rules snapshot: the Wizards update of 2026-02-09, verified on
+Status: v0.8.2 draft. Rules snapshot: the Wizards update of 2026-02-09, verified on
 2026-10-10 and again on 2026-10-11 by independent fact-checks; the Brackets system is
 still labelled "beta".
-Checked against Wizards' announcement of 2026-10-12 (Competitive Brawl only; no Commander or
-Brackets change); re-check after any separate Brackets update. Source report:
+Checked on 2026-10-13 against Wizards' own pages: the 2026-10-12 Banned and Restricted
+announcement changes Competitive Brawl only (Commander: no changes; no Brackets or Game
+Changers item), and the Commander page still says Brackets are in beta with up to three Game
+Changers at Bracket 3. A Commander announcement is expected before the end of 2026; re-check
+at the 2026-11-30 Banned and Restricted announcement and in the Phase 11 freshness check. Source report:
 [commander-brackets-rules-snapshot](research/commander-brackets-rules-snapshot.md).
 
 The acceptance rule and the rating protocol are **not final**: they wait for the decisions

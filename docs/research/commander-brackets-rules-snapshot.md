@@ -121,3 +121,17 @@ Spellbook is valuable precisely where Wizards is silent, since it classifies ass
 ## Update 2026-10-12 (announcement check)
 
 The Wizards Banned and Restricted announcement of 2026-10-12 (magic.wizards.com, banned-and-restricted-october-12-2026) changes Competitive Brawl only (three commanders banned as commanders, several cards moved to banned-only-as-commander, one digital card rebalanced). It does not mention the Commander banned list, Commander Brackets or the Game Changers list, and gives the next Banned and Restricted announcement as 2026-11-30. The rules snapshot of 2026-02-09 therefore stands. A Brackets update could still be published separately (a WeeklyMTG stream on 2026-10-13 was mentioned by a search result, not read), so re-check after it.
+
+## Update 2026-10-13 (after the WeeklyMTG stream)
+
+Checked on Wizards' own pages on 2026-10-13, before any third-party summary was trusted:
+
+| Source | What it says |
+|---|---|
+| Banned and Restricted Announcement of 2026-10-12 (magic.wizards.com) | Only Competitive Brawl changed (three commanders banned as commanders, several cards moved to banned only as commander, one digital card rebalanced). Every other format, Commander included, is listed as "No changes". It does not mention Commander Brackets or Game Changers. The next Banned and Restricted announcement is 2026-11-30 |
+| Commander format page (magic.wizards.com/en/formats/commander) | "Commander Brackets are currently in beta"; "Bracket 3 allows for up to three Game Changers"; no dated announcement or banner |
+| Wizards announcements and news index | No October 2026 item about Commander, Brackets or Game Changers other than the Commander decklists of the set |
+| WeeklyMTG stream of 2026-10-13, 10 a.m. PT (second-hand: mtgrocks, published 2026-10-13; no official recap found) | The host said the Commander panel met recently and that some form of announcement is likely before the end of the calendar year; nothing is final, and it could cover the banned list, Game Changers or Brackets |
+
+Conclusion: the rules snapshot of 2026-02-09 (beta) is still the current one. A Commander announcement is expected before the end of 2026, so re-check at the 2026-11-30 announcement and in the Phase 11 freshness check. Note: an early search summary mislabelled the Brawl changes (Yuriko, Spider-Man 2099, Light-Paws, Oko, Nadu) as Commander bans; the official page lists them under Competitive Brawl.
+
