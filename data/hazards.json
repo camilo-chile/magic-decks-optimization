@@ -140,6 +140,7 @@
     },
     {
       "id": "classic-two-card-infinites",
+      "combo": true,
       "commander": "*",
       "all": [],
       "any": [
@@ -159,6 +160,7 @@
     },
     {
       "id": "dualcaster-copy-pieces",
+      "combo": true,
       "commander": "*",
       "all": [
         "Dualcaster Mage"
@@ -176,6 +178,7 @@
     },
     {
       "id": "isochron-reversal",
+      "combo": true,
       "commander": "*",
       "all": [
         "Isochron Scepter",
@@ -188,6 +191,7 @@
     },
     {
       "id": "thoracle-pairs",
+      "combo": true,
       "commander": "*",
       "all": [],
       "any": [
@@ -207,6 +211,7 @@
     },
     {
       "id": "niv-mizzet-curiosity",
+      "combo": true,
       "commander": "*",
       "all": [
         "Curiosity"
@@ -223,6 +228,7 @@
     },
     {
       "id": "worldgorger-loop",
+      "combo": true,
       "commander": "*",
       "all": [
         "Worldgorger Dragon"
@@ -240,6 +246,7 @@
     },
     {
       "id": "sanguine-bond-exquisite-blood",
+      "combo": true,
       "commander": "*",
       "all": [
         "Sanguine Bond",
@@ -252,6 +259,7 @@
     },
     {
       "id": "toph-emeria-omen-loop",
+      "combo": true,
       "commander": "toph-the-first-metalbender",
       "all": [
         "Emeria Shepherd"
@@ -306,6 +314,7 @@
     },
     {
       "id": "alexios-helm-hasty-copy-pieces",
+      "combo": true,
       "commander": "alexios-deimos-of-kosmos",
       "all": [
         "Helm of the Host"
@@ -341,6 +350,8 @@
     },
     {
       "id": "azula-self-copy-loop",
+      "combo": true,
+      "commander_is_piece": true,
       "commander": "fire-lord-azula",
       "all": [],
       "any": [
@@ -381,6 +392,8 @@
     },
     {
       "id": "azula-twinning-staff-reversal",
+      "combo": true,
+      "commander_is_piece": true,
       "commander": "fire-lord-azula",
       "all": [
         "Twinning Staff"
@@ -397,6 +410,7 @@
     },
     {
       "id": "azula-birgi-ignus",
+      "combo": true,
       "commander": "fire-lord-azula",
       "all": [
         "Grinning Ignus",
@@ -409,6 +423,7 @@
     },
     {
       "id": "azula-hullbreaker-rocks",
+      "combo": true,
       "commander": "fire-lord-azula",
       "all": [
         "Hullbreaker Horror"
@@ -425,6 +440,7 @@
     },
     {
       "id": "azula-storm-kiln-buyback",
+      "combo": true,
       "commander": "fire-lord-azula",
       "all": [
         "Storm-Kiln Artist"
@@ -440,6 +456,7 @@
     },
     {
       "id": "azula-storm-kiln-reiterate-song",
+      "combo": true,
       "commander": "fire-lord-azula",
       "all": [
         "Storm-Kiln Artist",
@@ -453,6 +470,8 @@
     },
     {
       "id": "azula-storm-kiln-archaeomancer-epiphany",
+      "combo": true,
+      "commander_is_piece": true,
       "commander": "fire-lord-azula",
       "all": [
         "Storm-Kiln Artist",

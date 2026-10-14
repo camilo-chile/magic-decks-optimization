@@ -25,7 +25,9 @@ against Wizards' own pages: no Commander, Brackets or Game Changers change; re-c
 | Fringe cEDH and cEDH | 9 and above |
 
 Reference deck to beat: the owner's friend's Krenko, Mob Boss deck, **power 6.1**, bracket 3*, salt
-78.3. Community averages (2026-10-13): Alexios 5.4 (1,553 decks), Toph 6.8 (4,001), Azula 7.8 (5,298).
+78.3. Community averages (as of 2026-10-13; the counts grow daily): Alexios 5.4 (1,553 decks), Toph 6.8
+(4,001), Azula 7.8 (5,298). Highest power seen on deck pages that pass Layer A at Bracket 3
+(2026-10-14): Alexios 7.5, Toph 7.4, Azula 7.4.
 
 ## Rules of use
 - Commander Salt has no documented API, MCP or terms page. It is used by hand in the browser, one
@@ -69,7 +71,11 @@ documentation asks clients not to export the dataset through the API). The bulk 
 `bracketTag`, produced features, `manaNeeded` / `manaValueNeeded` and the card list. Variants with
 template requirements ("any creature with persist") cannot be resolved offline and are listed for
 review. Spellbook's own tag is a cross-check. Combos Spellbook does not list are covered by the
-curated hazard list `data/hazards.json`, built from the Phase 3 reports.
+curated hazard list `data/hazards.json`, built from the Phase 3 reports. A hazard marked `combo`
+follows the same rule as a Spellbook combo: floor 4 only for two pieces (the commander counts when
+the hazard says so) assembled for 6 mana or less (sum of the pieces' mana values, cheapest member
+of each group); 7-8 is floor 3 with a note to check by hand; 9 or more, or three or more pieces,
+is floor 3.
 
 Provenance: **official** = Wizards defines it and it is enumerable; **curated** = needs a list
 maintained by someone else; **heuristic** = a proxy; **policy** = a choice of this project;
@@ -99,8 +105,10 @@ Nothing is bought until the user picks a budget from the **budget curve**.
 - A list is eligible only with: Layer A floor at or below its target bracket and no rejection; a
   Commander Salt score of the frozen list (version-stamped); verified stock; and the Phase 11
   freshness check of the rules.
-- Calibration (Phase 5): score the reference list and its 5 ablation rungs, check that power falls
-  as cards are replaced, and score the same list twice to see the site's repeatability.
+- Candidates (Phase 4): real public lists from the commander's Commander Salt page, each read on
+  its own deck page (never from a leaderboard row, which can be stale), gated by Layer A.
+- Repeatability (Phase 5): the same list scored again on a later day; done 2026-10-14 for Toph
+  (identical).
 
 ## Data sources
 | Need | Source |

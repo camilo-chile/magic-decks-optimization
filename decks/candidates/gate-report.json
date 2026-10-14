@@ -1,0 +1,568 @@
+{
+  "as_of_utc": "2026-10-14T03:26:28Z",
+  "bulk_file": "oracle-cards-20261011210156.jsonl.gz",
+  "rules_snapshot": "2026-02-09",
+  "target_bracket": 3,
+  "lists": [
+    {
+      "slug": "alexios-deimos-of-kosmos",
+      "file": "40b377d5.txt",
+      "total_cards": 100,
+      "floor": 4,
+      "rejected": false,
+      "floor_ok_so_far": false,
+      "reasons": [],
+      "game_changers": [
+        "Gamble"
+      ],
+      "extra_turn_cards": 0,
+      "mass_land_denial": [],
+      "flagged_combos": [
+        {
+          "floor": 4,
+          "kind": "two-card combo, early (mana to assemble 5 <= 6)",
+          "cards": [
+            "Magda, Brazen Outlaw",
+            "Aggravated Assault"
+          ]
+        },
+        {
+          "floor": 4,
+          "kind": "two-card combo, early (mana to assemble 6 <= 6)",
+          "cards": [
+            "The Reaver Cleaver",
+            "Aggravated Assault"
+          ]
+        },
+        {
+          "floor": 4,
+          "kind": "two-card combo, early (mana to assemble 6 <= 6)",
+          "cards": [
+            "Sword of Feast and Famine",
+            "Aggravated Assault"
+          ]
+        },
+        {
+          "floor": 3,
+          "kind": "two-card combo, borderline early (mana to assemble 7; check by hand)",
+          "cards": [
+            "Combat Celebrant",
+            "Helm of the Host"
+          ]
+        },
+        {
+          "floor": 3,
+          "kind": "two-card combo, late",
+          "cards": [
+            "Godo, Bandit Warlord",
+            "Helm of the Host"
+          ]
+        },
+        {
+          "floor": 3,
+          "kind": "two-card combo, late",
+          "cards": [
+            "Akki Battle Squad",
+            "Helm of the Host"
+          ]
+        },
+        {
+          "floor": 3,
+          "kind": "two-card combo, late",
+          "cards": [
+            "Kiki-Jiki, Mirror Breaker",
+            "Helm of the Host"
+          ]
+        },
+        {
+          "floor": 3,
+          "kind": "two-card combo, borderline early (mana to assemble 8; check by hand)",
+          "cards": [
+            "Combat Celebrant",
+            "Kiki-Jiki, Mirror Breaker"
+          ]
+        },
+        {
+          "floor": 3,
+          "kind": "two-card combo, late",
+          "cards": [
+            "Kiki-Jiki, Mirror Breaker",
+            "Akki Battle Squad"
+          ]
+        }
+      ],
+      "curated_hazards": [],
+      "review_notes": []
+    },
+    {
+      "slug": "alexios-deimos-of-kosmos",
+      "file": "91a1a44e.txt",
+      "total_cards": 100,
+      "floor": 3,
+      "rejected": false,
+      "floor_ok_so_far": true,
+      "reasons": [],
+      "game_changers": [
+        "Gamble",
+        "Jeska's Will"
+      ],
+      "extra_turn_cards": 0,
+      "mass_land_denial": [],
+      "flagged_combos": [],
+      "curated_hazards": [
+        {
+          "floor": 3,
+          "hazard": "stax-and-lock-names"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "slug": "alexios-deimos-of-kosmos",
+      "file": "ec03cc3a.txt",
+      "total_cards": 100,
+      "floor": 3,
+      "rejected": false,
+      "floor_ok_so_far": true,
+      "reasons": [],
+      "game_changers": [
+        "Gamble",
+        "Jeska's Will"
+      ],
+      "extra_turn_cards": 0,
+      "mass_land_denial": [],
+      "flagged_combos": [
+        {
+          "floor": 3,
+          "kind": "two-card combo, late",
+          "cards": [
+            "Godo, Bandit Warlord",
+            "Helm of the Host"
+          ]
+        }
+      ],
+      "curated_hazards": [
+        {
+          "floor": 3,
+          "hazard": "stax-and-lock-names"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "slug": "alexios-deimos-of-kosmos",
+      "file": "f4b8cc3a.txt",
+      "total_cards": 100,
+      "floor": 4,
+      "rejected": false,
+      "floor_ok_so_far": false,
+      "reasons": [],
+      "game_changers": [
+        "Ancient Tomb",
+        "Jeska's Will",
+        "The One Ring"
+      ],
+      "extra_turn_cards": 0,
+      "mass_land_denial": [],
+      "flagged_combos": [
+        {
+          "floor": 4,
+          "kind": "two-card combo, early (mana to assemble 6 <= 6)",
+          "cards": [
+            "Sword of Feast and Famine",
+            "Aggravated Assault"
+          ]
+        },
+        {
+          "floor": 3,
+          "kind": "two-card combo, late",
+          "cards": [
+            "Blasphemous Act",
+            "Repercussion"
+          ]
+        },
+        {
+          "floor": 3,
+          "kind": "two-card combo, borderline early (mana to assemble 8; check by hand)",
+          "cards": [
+            "Neheb, the Eternal",
+            "Aggravated Assault"
+          ]
+        }
+      ],
+      "curated_hazards": [
+        {
+          "floor": 3,
+          "hazard": "stax-and-lock-names"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "slug": "fire-lord-azula",
+      "file": "0653e6b7.txt",
+      "total_cards": 100,
+      "floor": 3,
+      "rejected": false,
+      "floor_ok_so_far": true,
+      "reasons": [],
+      "game_changers": [],
+      "extra_turn_cards": 0,
+      "mass_land_denial": [],
+      "flagged_combos": [
+        {
+          "floor": 1,
+          "kind": "review: template unresolved (Extra Turn Spell)",
+          "cards": [
+            "Narset's Reversal",
+            "Isochron Scepter"
+          ]
+        }
+      ],
+      "curated_hazards": [
+        {
+          "floor": 3,
+          "hazard": "azula-hullbreaker-rocks"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "slug": "fire-lord-azula",
+      "file": "291c57b5.txt",
+      "total_cards": 100,
+      "floor": 4,
+      "rejected": false,
+      "floor_ok_so_far": false,
+      "reasons": [],
+      "game_changers": [
+        "Ancient Tomb",
+        "Demonic Tutor",
+        "Fierce Guardianship"
+      ],
+      "extra_turn_cards": 0,
+      "mass_land_denial": [],
+      "flagged_combos": [
+        {
+          "floor": 4,
+          "kind": "two-card combo, early (mana to assemble 4 <= 6)",
+          "cards": [
+            "Narset's Reversal",
+            "Reverberate"
+          ]
+        },
+        {
+          "floor": 3,
+          "kind": "two-card combo, late",
+          "cards": [
+            "Twinning Staff",
+            "Narset's Reversal"
+          ]
+        }
+      ],
+      "curated_hazards": [
+        {
+          "floor": 3,
+          "hazard": "stax-and-lock-names"
+        },
+        {
+          "floor": 3,
+          "hazard": "azula-twinning-staff-reversal"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "slug": "fire-lord-azula",
+      "file": "886804b8.txt",
+      "total_cards": 100,
+      "floor": 4,
+      "rejected": false,
+      "floor_ok_so_far": false,
+      "reasons": [],
+      "game_changers": [],
+      "extra_turn_cards": 0,
+      "mass_land_denial": [],
+      "flagged_combos": [
+        {
+          "floor": 4,
+          "kind": "two-card combo, early (mana to assemble 6 <= 6)",
+          "cards": [
+            "Dramatic Reversal",
+            "Lithoform Engine"
+          ]
+        },
+        {
+          "floor": 4,
+          "kind": "two-card combo, early (mana to assemble 4 <= 6)",
+          "cards": [
+            "Dramatic Reversal",
+            "Isochron Scepter"
+          ]
+        },
+        {
+          "floor": 3,
+          "kind": "two-card combo, late",
+          "cards": [
+            "Twinning Staff",
+            "Narset's Reversal"
+          ]
+        },
+        {
+          "floor": 3,
+          "kind": "two-card combo, late",
+          "cards": [
+            "Twinning Staff",
+            "Dramatic Reversal"
+          ]
+        },
+        {
+          "floor": 1,
+          "kind": "review: template unresolved (Extra Turn Spell)",
+          "cards": [
+            "Narset's Reversal",
+            "Isochron Scepter"
+          ]
+        }
+      ],
+      "curated_hazards": [
+        {
+          "floor": 4,
+          "hazard": "isochron-reversal"
+        },
+        {
+          "floor": 3,
+          "hazard": "azula-twinning-staff-reversal"
+        },
+        {
+          "floor": 3,
+          "hazard": "azula-hullbreaker-rocks"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "slug": "fire-lord-azula",
+      "file": "963a6e62.txt",
+      "total_cards": 100,
+      "floor": 3,
+      "rejected": false,
+      "floor_ok_so_far": true,
+      "reasons": [],
+      "game_changers": [
+        "Cyclonic Rift",
+        "Orcish Bowmasters",
+        "Vampiric Tutor"
+      ],
+      "extra_turn_cards": 0,
+      "mass_land_denial": [],
+      "flagged_combos": [],
+      "curated_hazards": [
+        {
+          "floor": 3,
+          "hazard": "azula-self-copy-loop"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "slug": "fire-lord-azula",
+      "file": "c80d8207.txt",
+      "total_cards": 100,
+      "floor": 3,
+      "rejected": false,
+      "floor_ok_so_far": true,
+      "reasons": [],
+      "game_changers": [
+        "Jeska's Will",
+        "Orcish Bowmasters",
+        "The One Ring"
+      ],
+      "extra_turn_cards": 1,
+      "mass_land_denial": [],
+      "flagged_combos": [
+        {
+          "floor": 3,
+          "kind": "two-card combo, late",
+          "cards": [
+            "Twinning Staff",
+            "Narset's Reversal"
+          ]
+        }
+      ],
+      "curated_hazards": [
+        {
+          "floor": 3,
+          "hazard": "azula-twinning-staff-reversal"
+        },
+        {
+          "floor": 3,
+          "hazard": "azula-hullbreaker-rocks"
+        }
+      ],
+      "review_notes": [
+        "extra-turn card(s) ['Nexus of Fate'] with a commander that multiplies them: copies every spell cast while she attacks, so one extra-turn spell gives two extra turns; counted as 1 card with a review note (power-scale v0.6)",
+        "extra-turn card(s) that return themselves, a chain candidate to check by hand (power-scale: any chain is floor 4): ['Nexus of Fate']"
+      ]
+    },
+    {
+      "slug": "toph-the-first-metalbender",
+      "file": "0f65b61d.txt",
+      "total_cards": 100,
+      "floor": 3,
+      "rejected": false,
+      "floor_ok_so_far": true,
+      "reasons": [],
+      "game_changers": [
+        "Crop Rotation",
+        "Field of the Dead"
+      ],
+      "extra_turn_cards": 0,
+      "mass_land_denial": [],
+      "flagged_combos": [
+        {
+          "floor": 3,
+          "kind": "two-card combo, late",
+          "cards": [
+            "Bumi, Unleashed",
+            "Ashaya, Soul of the Wild"
+          ]
+        }
+      ],
+      "curated_hazards": [
+        {
+          "floor": 3,
+          "hazard": "toph-loop-hubs"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "slug": "toph-the-first-metalbender",
+      "file": "46892532.txt",
+      "total_cards": 100,
+      "floor": 3,
+      "rejected": false,
+      "floor_ok_so_far": true,
+      "reasons": [],
+      "game_changers": [],
+      "extra_turn_cards": 0,
+      "mass_land_denial": [],
+      "flagged_combos": [
+        {
+          "floor": 3,
+          "kind": "two-card combo, late",
+          "cards": [
+            "Bumi, Unleashed",
+            "Ashaya, Soul of the Wild"
+          ]
+        },
+        {
+          "floor": 1,
+          "kind": "review: lock, skipped turns or control of opponents",
+          "cards": [
+            "Toph, the First Metalbender",
+            "Mindslaver"
+          ]
+        },
+        {
+          "floor": 1,
+          "kind": "review: lock, skipped turns or control of opponents",
+          "cards": [
+            "Toph, the First Metalbender",
+            "The Stasis Coffin"
+          ]
+        }
+      ],
+      "curated_hazards": [
+        {
+          "floor": 3,
+          "hazard": "control-of-a-turn-names"
+        },
+        {
+          "floor": 3,
+          "hazard": "toph-loop-hubs"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "slug": "toph-the-first-metalbender",
+      "file": "9354c58f.txt",
+      "total_cards": 100,
+      "floor": 1,
+      "rejected": false,
+      "floor_ok_so_far": true,
+      "reasons": [],
+      "game_changers": [],
+      "extra_turn_cards": 0,
+      "mass_land_denial": [],
+      "flagged_combos": [
+        {
+          "floor": 1,
+          "kind": "review: lock, skipped turns or control of opponents",
+          "cards": [
+            "Toph, the First Metalbender",
+            "Mindslaver"
+          ]
+        },
+        {
+          "floor": 1,
+          "kind": "review: lock, skipped turns or control of opponents",
+          "cards": [
+            "Toph, the First Metalbender",
+            "The Stasis Coffin"
+          ]
+        }
+      ],
+      "curated_hazards": [
+        {
+          "floor": 3,
+          "hazard": "control-of-a-turn-names"
+        }
+      ],
+      "review_notes": []
+    },
+    {
+      "slug": "toph-the-first-metalbender",
+      "file": "dce02411.txt",
+      "total_cards": 100,
+      "floor": 3,
+      "rejected": true,
+      "floor_ok_so_far": false,
+      "reasons": [
+        "not Commander-legal (banned or not legal): ['Earth Rumble (not_legal)']"
+      ],
+      "game_changers": [
+        "Crop Rotation"
+      ],
+      "extra_turn_cards": 0,
+      "mass_land_denial": [],
+      "flagged_combos": [
+        {
+          "floor": 3,
+          "kind": "two-card combo, late",
+          "cards": [
+            "Bumi, Unleashed",
+            "Ashaya, Soul of the Wild"
+          ]
+        },
+        {
+          "floor": 1,
+          "kind": "review: lock, skipped turns or control of opponents",
+          "cards": [
+            "Toph, the First Metalbender",
+            "The Stasis Coffin"
+          ]
+        }
+      ],
+      "curated_hazards": [
+        {
+          "floor": 3,
+          "hazard": "toph-loop-hubs"
+        }
+      ],
+      "review_notes": []
+    }
+  ]
+}

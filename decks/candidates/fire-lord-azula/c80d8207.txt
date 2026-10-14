@@ -1,0 +1,93 @@
+// Commander
+1 Fire Lord Azula
+
+// Main
+1 Arcane Denial
+1 Arcane Heist
+1 Arcane Signet
+1 Archmage Emeritus
+1 Big Score
+1 Black Market Connections
+1 Blazemire Verge
+1 Bojuka Bog
+1 Borne Upon a Wind
+1 Brazen Borrower // Petty Theft
+1 Brotherhood Regalia
+1 Callidus Assassin
+1 Cascade Bluffs
+1 Chaos Warp
+1 Comet Storm
+1 Command Tower
+1 Deadly Rollick
+1 Delayed Blast Fireball
+1 Dig Through Time
+1 Dimir Signet
+1 Dualcaster Mage
+1 Electrodominance
+1 Emergence Zone
+1 Etali, Primal Storm
+1 Exotic Orchard
+1 Faerie Mastermind
+1 Fell the Profane // Fell Mire
+1 Fellwar Stone
+1 Fire Nation Palace
+1 Fists of Flame
+1 Frantic Search
+1 Frostcliff Siege
+1 Gloomlake Verge
+1 Graven Cairns
+1 High Fae Trickster
+1 Hullbreaker Horror
+1 Hydroelectric Specimen // Hydroelectric Laboratory
+1 Invoke Calamity
+5 Island
+1 Izzet Signet
+1 Jeska's Will
+1 Lightning Greaves
+1 Merfolk Trickster
+1 Mocking Doppelganger
+4 Mountain
+1 My Precious // Allure of Power
+1 Mystical Teachings
+1 Narset's Reversal
+1 Nexus of Fate
+1 Nightscape Familiar
+1 Orcish Bowmasters
+1 Oscorp Industries
+1 Phyrexian Arena
+1 Pinnacle Monk // Mystic Peak
+1 Prismari Command
+1 Rakdos Signet
+1 Redirect Lightning
+1 Resonating Lute
+1 Riverpyre Verge
+1 Shivan Reef
+1 Silver Shroud Costume
+1 Sink into Stupor // Soporific Springs
+1 Snap
+1 Sol Ring
+1 Steam Vents
+1 Storm-Kiln Artist
+1 Stunt Double
+1 Sulfurous Springs
+1 Sunken Ruins
+4 Swamp
+1 Swan Song
+1 Talisman of Creativity
+1 Talisman of Dominance
+1 Talisman of Indulgence
+1 Terminate
+1 The Key to the Vault
+1 The Last Agni Kai
+1 The One Ring
+1 Torrential Gearhulk
+1 Training Center
+1 Twinning Staff
+1 Underground River
+1 Unexpected Windfall
+1 Untimely Malfunction
+1 V.A.T.S.
+1 Valakut Awakening // Valakut Stoneforge
+1 Veyran, Voice of Duality
+1 Watery Grave
+1 Winged Boots

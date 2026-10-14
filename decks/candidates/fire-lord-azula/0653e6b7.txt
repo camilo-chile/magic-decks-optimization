@@ -1,0 +1,80 @@
+// Commander
+1 Fire Lord Azula
+
+// Main
+1 Aboleth Spawn
+1 Amphibian Downpour
+1 Arcane Signet
+1 Archmage Emeritus
+1 Ashling, Flame Dancer
+1 Bender's Waterskin
+1 Big Score
+1 Brainstorm
+1 Brotherhood Regalia
+1 Bulk Up
+1 Cabal Ritual
+1 Changing Loyalty
+1 Chromatic Lantern
+1 Command Tower
+1 Consider
+1 Counterspell
+1 Cunning Nightbonder
+1 Dark Ritual
+1 Demand Answers
+1 Desperate Ritual
+1 Dualcaster Mage
+1 Electrodominance
+1 Enduring Curiosity
+1 Fated Firepower
+1 Fellwar Stone
+1 Fire Nation Palace
+1 Firebending Student
+1 Frantic Search
+1 Hammer of Nazahn
+1 Haste Magic
+1 High Fae Trickster
+1 Hullbreaker Horror
+1 Hydroelectric Specimen // Hydroelectric Laboratory
+12 Island
+1 Isochron Scepter
+1 Leyline of Anticipation
+1 Magic Damper
+1 Malakir Rebirth // Malakir Mire
+1 Mocking Doppelganger
+8 Mountain
+1 Narset's Reversal
+1 Nightscape Familiar
+1 Observed Stasis
+1 Opt
+1 Path of Ancestry
+1 Reckless Ransacking
+1 Reliquary Tower
+1 Rogue's Passage
+1 Secret Tunnel
+1 Sedgemoor Witch
+1 Seething Song
+1 Shore Up
+1 Silver Shroud Costume
+1 Slip Out the Back
+1 Snap
+1 Snapcaster Mage
+1 Sol Ring
+1 Storm-Kiln Artist
+1 Stormcarved Coast
+6 Swamp
+1 Swiftfoot Boots
+1 Talisman of Creativity
+1 Talisman of Dominance
+1 Talisman of Indulgence
+1 The Last Agni Kai
+1 Thought Vessel
+1 Thrill of Possibility
+1 Unexpected Windfall
+1 Valley Floodcaller
+1 Vedalken Orrery
+1 Vendilion Clique
+1 Veyran, Voice of Duality
+1 Vivi's Persistence
+1 Wan Shi Tong, Librarian
+1 Winged Boots
+1 Xander's Lounge

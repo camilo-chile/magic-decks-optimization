@@ -14,9 +14,13 @@ Plan the deck for $ARGUMENTS. Respect every hard constraint in `CLAUDE.md`. Plan
    cards file `decks/<commander-slug>.locked.txt` (per D5, pending) and the Phase 8
    allocation (per-deck swap list and budget share). Never plan one deck against "the
    budget left"; that is greedy and order-dependent.
-2. Candidates by role (ramp, draw, interaction, win conditions, synergy engine). Treat
-   owned cards as cost 0, but allocate physical copies across the 3 decks globally: one copy
-   can sit in only one deck. Justify each purchase by the weakest slot it replaces.
+2. Candidates come from Commander Salt, not from Claude's judgment: the measured lists in
+   `decks/candidates/<slug>/` (real public lists with their site score) and, for an upgrade, the
+   Upgrades Meta picks (`meta-staples-bracket3.md`, or the Upgrades tab at the deck's bin).
+   Prefer a measured list that passes Layer A; take a pick only when it is not already in the
+   deck. Treat owned cards as cost 0, but allocate physical copies across the 3 decks globally:
+   one copy can sit in only one deck. Justify each purchase by the site's per-card contribution
+   or inclusion rate, and note when a swap makes the list "unmeasured" until it is scored.
 3. Gate: apply the Layer A checks from `docs/power-scale.md` through the user-run script
    outputs. Drop anything that implies a Bracket 4 condition.
 4. Present the plan (cards, roles, estimated cost, candidate stores) and ask "execute now?".

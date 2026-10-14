@@ -51,8 +51,8 @@ Consequences under the project's rules:
   creates an account and never submits anything without an explicit yes.
 - Numbers are stamped with the site's scoring version and the date; the site says scores can
   change with new releases.
-- The polite and safest step is to ask the site: questions@commandersalt.com (a draft is in
-  section 7). The owner sends it.
+- No email is sent (owner decision, 2026-10-13: use the site by any means, in the browser, by hand).
+  The draft in section 7 is kept only as a record.
 
 ## 4. Component by component: keep, replace, drop
 | Our component | What the site does | Decision proposed |
@@ -62,8 +62,8 @@ Consequences under the project's rules:
 | Speed-risk Monte Carlo | Speed, fast mana, tutor quality, "turns over fast", pillars | **Retire** from the pipeline; the site's speed and pillars replace it (the code stays, no more work) |
 | Phase 3 synergy research by agents | Synergy score, combos, role breakdown, upgrades, inclusion rates per commander | **Replace** for any future research. The three finished reports stay as inputs |
 | Community anchors dropped in D7 (EDHREC, Archidekt, Moxfield barred) | Leaderboard of real decks with measured power and card inclusion rates per commander | **Restore** as anchors, read by hand from the commander pages |
-| Ablation ladder (synthetic, labels `9 - k/4`) | none | **Keep, but measure it**: score each rung on the site, so the power-versus-k curve is real |
-| Claude-built reference decks | Real top decks of each commander at a chosen bracket | **Keep as candidates**, judged by the site's power; they must beat the friend's 6.1 |
+| Ablation ladder (synthetic, labels `9 - k/4`) | A dense measured spread of real lists per commander | **Dropped 2026-10-14** (prior-art audit): the ladder answers no decision; labels were already removed |
+| Claude-built reference decks | Real top decks of each commander at a chosen bracket | **Replaced 2026-10-14**: real lists from the commander page are the candidates (`decks/candidates/`); the agent-built Alexios reference is archived |
 | Combos (Spellbook bulk file, local) | Combo lines ranked by score | **Keep Spellbook** as the primary source; use the site as a cross-check |
 | Prices and stock in CLP from 7 Chilean stores | none | **Keep.** A search for a Chilean price comparator found none; a deeper prior-art search for stores is still pending |
 | Budget optimizer | Upgrades are not budget-aware | **Keep**, with its candidate pool fed by the site's upgrades and inclusion rates |
@@ -73,19 +73,15 @@ Consequences under the project's rules:
 |---|---|---|
 | 2 | Layer A, speed flag | Layer A stays; speed flag retired |
 | 3 | Agent synergy research | Done; future work reads the commander pages |
-| 4 | Reference and ablation ladder, accepted by criteria | Same, plus a site score for every list; compare with the commander's top public decks |
-| 5 | Validate the panel method, install Ollama, 40 known-answer items | **Calibrate on the site**: score the reference and the 5 rungs, check monotonic order and stability. Hours, not days; no Ollama |
+| 4 | Reference and ablation ladder, accepted by criteria | Candidate menu: real public lists from the commander page, each with its site score, gated by Layer A (done 2026-10-14) |
+| 5 | Validate the panel method, install Ollama, 40 known-answer items | **Repeatability only**: the same list scored on two days (done 2026-10-14). No ladder, no Ollama |
 | 6 | Panel rates Toph and Azula | Import the owner's two decks (ManaBox share links) and read their power |
-| 8 | Optimizer on a surrogate `Y_hat` from the ladder | Surrogate calibrated by the site scores; each budget point's final list is scored on the site (about 15 lists) |
+| 8 | Optimizer on a surrogate `Y_hat` from the ladder | No surrogate: choose among measured candidates and Meta-pick upgrades with PuLP; each budget point's final list is scored on the site (about 15 lists) |
 | Goal | Parity within 0.2 on `Y` | Parity within 0.2 power points, every deck above 6.1 (the friend's deck) and as high as the budget allows |
 
 ## 6. Decisions needed from the owner
-1. Adopt Commander Salt's power and bracket as the project's yardstick (replace Layer B and Phase 5)?
-2. Send the email in section 7 asking about use and an API? (He sends it; Claude does not.)
-3. Pilot: score the Alexios reference (and later the two current decks) by importing it through a
-   ManaBox or Scryfall deck link that he creates and Claude reads in the browser, with his explicit
-   go for each submitted deck. Public listing of the deck is possible and not confirmed.
-4. Target: every deck above 6.1; how much higher is decided when the curve exists.
+All answered on 2026-10-13: (1) adopted; (2) no email; (3) pilot with the owner's Toph and Azula
+ManaBox links, done; (4) every deck above 6.1, as high as the budget allows.
 
 ## 7. Draft email (English, from the owner)
 > Subject: Question about using Commander Salt for personal deck analysis

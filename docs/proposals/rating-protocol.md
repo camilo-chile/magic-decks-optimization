@@ -15,14 +15,17 @@ Status: v4, 2026-10-13. The judge-panel protocol (v3) is archived in
    synergy, mana base, role breakdown, upgrade suggestions, and the scoring version.
 4. **Record.** The numbers go to `decks/reports/<commander-slug>-<UTC date>.md`, stamped with the
    scoring version and the date. Scores from different versions are not compared.
-5. **Decide.** The optimizer uses Layer A and a local surrogate calibrated on the site's scores;
-   the lists of each budget point are scored on the site before the owner chooses.
+5. **Decide.** The optimizer chooses among measured candidate lists (real public lists scored by
+   the site, Phase 4) and the owner's decks upgraded with the site's Meta picks, gated by Layer A;
+   the final lists of each budget point are scored on the site before the owner chooses. No local
+   surrogate model (it would be our own power scale again).
 
 ## Calibration (Phase 5)
-- Score the reference list and its 5 ablation rungs (`scripts/build_ablation_ladder.py`): power
-  must fall as more of the best cards are replaced.
-- Score one list twice, on different days, to see the repeatability of the site.
-- Score the owner's two current decks and the friend's Krenko deck (6.1) as fixed points.
+- Dropped on 2026-10-14 (prior-art audit): the ablation ladder (the site already shows a dense
+  measured spread of real lists).
+- Done: the owner's Toph link scored twice on different days (2026-10-13 and 2026-10-14), identical
+  on every number.
+- Fixed points: the owner's two current decks (Toph 6.5, Azula 4.0) and the friend's Krenko (6.1).
 
 ## Decision log
 | ID | Decision | Status |

@@ -1,0 +1,93 @@
+// Commander
+1 Fire Lord Azula
+
+// Main
+1 Arcane Signet
+1 Ashling, Flame Dancer
+1 Azula, Cunning Usurper
+1 Big Score
+1 Bitter Triumph
+1 Blasphemous Act
+1 Blazing Firesinger // Seething Song
+1 Blightstep Pathway // Searstep Pathway
+1 Borne Upon a Wind
+1 Bulk Up
+1 Clearwater Pathway // Murkwater Pathway
+1 Command Tower
+1 Crackle with Power
+1 Crumbling Necropolis
+1 Culling the Weak
+1 Cyclonic Rift
+1 Dark Ritual
+1 Day of Black Sun
+1 Desperate Ritual
+1 Dimir Signet
+1 Dragonskull Summit
+1 Dualcaster Mage
+1 Electro, Assaulting Battery
+1 Electrodominance
+1 Emeritus of Woe // Demonic Tutor
+1 Enduring Curiosity
+1 Epic Downfall
+1 Fated Firepower
+1 Firebender Ascension
+1 Firebending Student
+1 Flashback
+1 Foreboding Ruins
+1 Glamdring, Foe-hammer // Gleam of Death
+1 Goblin Electromancer
+1 Guttersnipe
+1 Haunted Ridge
+1 Heartless Act
+1 High Fae Trickster
+5 Island
+1 Izzet Signet
+1 Leyline of Anticipation
+1 Lightning Bolt
+1 Lightning Greaves
+1 Lightning Strike
+1 Mai and Zuko
+1 Mana Sculpt
+4 Mountain
+1 My Precious // Allure of Power
+1 Nightscape Familiar
+1 Orcish Bowmasters
+1 Ozai, the Phoenix King
+1 Pyretic Ritual
+1 Rakdos Signet
+1 Redirect
+1 Redirect Lightning
+1 Reliquary Tower
+1 Resonating Lute
+1 Return the Favor
+1 Riverglide Pathway // Lavaglide Pathway
+1 Rogue's Passage
+1 Sedgemoor Witch
+1 Seething Landscape
+1 Seething Song
+1 Seize the Spoils
+1 Sheoldred's Edict
+1 Shipwreck Marsh
+1 Snap
+1 Snapcaster Mage
+1 Sol Ring
+1 Sozin's Comet
+1 Stock Up
+1 Storm-Kiln Artist
+1 Stormcarved Coast
+1 Sulfur Falls
+4 Swamp
+1 Tablet of Discovery
+1 Talisman of Creativity
+1 Talisman of Dominance
+1 Talisman of Indulgence
+1 Temple of Epiphany
+1 The Last Agni Kai
+1 Toxic Deluge
+1 Unexpected Windfall
+1 Valley Floodcaller
+1 Vampiric Tutor
+1 Waterlogged Teachings // Inundated Archive
+1 Withering Torment
+1 Wizard's Staff
+1 Xander's Lounge

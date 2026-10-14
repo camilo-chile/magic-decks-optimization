@@ -2,7 +2,8 @@
 
 Source: the owner, 2026-10-11. Chilean specialist shops only; all prices in CLP; never
 marketplaces or private sellers. `check-stock` and the stock verifier may visit only these
-domains, and only in Phases 9-11. The order is the owner's preference; the first three have
+domains. Price reading of the catalogs is allowed from Phase 7 (owner, 2026-10-14: read as much
+as needed); stock verification stays in Phases 9-11. The order is the owner's preference; the first three have
 given him good experiences and are the default choice.
 
 | Pref | Store | Domain | Entry URL given by the owner | Shipping rule | Payment fees | Checked |

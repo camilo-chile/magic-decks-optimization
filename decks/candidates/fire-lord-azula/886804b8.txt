@@ -1,0 +1,100 @@
+// Commander
+1 Fire Lord Azula
+
+// Main
+1 Anticipate
+1 Arcane Signet
+1 Archmage Emeritus
+1 Ashling, Flame Dancer
+1 Baxter Building
+1 Big Score
+1 Birgi, God of Storytelling // Harnfel, Horn of Bounty
+1 Black Market Connections
+1 Black Waltz No. 3
+1 Blasphemous Act
+1 Blood Crypt
+1 Bloodstained Mire
+1 Borne Upon a Wind
+1 Brainstorm
+1 Cavern of Souls
+1 Chaos Warp
+1 Choked Estuary
+1 Chromatic Lantern
+1 City of Brass
+1 Command Tower
+1 Cormela, Glamour Thief
+1 Cosmic Cube
+1 Crimson Wisps
+1 Dark Ritual
+1 Deadly Dispute
+1 Deflecting Swat
+1 Dimir Signet
+1 Dramatic Reversal
+1 Drowned Catacomb
+1 Electrolyze
+1 Emergence Zone
+1 Enduring Curiosity
+1 Etali, Primal Storm
+1 Exotic Orchard
+1 Experimental Augury
+1 Fateful Showdown
+1 Feed the Swarm
+1 Fellwar Stone
+1 Flooded Strand
+1 Foreboding Ruins
+1 Frantic Search
+1 Frostboil Snarl
+1 Gateway Plaza
+1 Guttersnipe
+1 Hullbreaker Horror
+1 Impulse
+1 Invoke Calamity
+2 Island
+1 Isochron Scepter
+1 Izzet Signet
+1 Kess, Dissident Mage
+1 Leadership Vacuum
+1 Lightning Bolt
+1 Lithoform Engine
+1 Luxury Suite
+1 Maestros Theater
+1 Marsh Flats
+1 Memory Deluge
+1 Might of the Meek
+2 Mountain
+1 Narset's Reversal
+1 Opt
+1 Ozai, the Phoenix King
+1 Path of Ancestry
+1 Peek
+1 Professor Onyx
+1 Rakdos Signet
+1 Reliquary Tower
+1 Rogue's Passage
+1 Rupture Spire
+1 Scalding Tarn
+1 Scavenger Grounds
+1 Snapcaster Mage
+1 Sol Ring
+1 Steam Vents
+1 Storm-Kiln Artist
+1 Sulfur Falls
+1 Sulfurous Springs
+1 Sunken Hollow
+2 Swamp
+1 Swiftfoot Boots
+1 Talisman of Creativity
+1 Talisman of Dominance
+1 Talisman of Indulgence
+1 Thrill of Possibility
+1 Toxic Deluge
+1 Training Center
+1 Twinning Staff
+1 Unexpected Windfall
+1 Urabrask // The Great Work
+1 Veyran, Voice of Duality
+1 Vivi Ornitier
+1 Wan Shi Tong, Librarian
+1 Watery Grave
+1 Withering Torment
+1 Zuko, Firebending Master

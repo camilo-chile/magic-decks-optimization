@@ -10,7 +10,9 @@ for every deck it finds,
 
 Decks read, in order (the first existing file per commander wins):
   decks/<slug>.txt            reference or final list, `1 Card Name` per line
-  data/raw/Toph.txt           the owner's current Toph deck (ManaBox export), Toph only
+  data/raw/Toph.txt, Azula.txt  the owner's current decks (ManaBox export)
+  decks/candidates/<slug>/*.txt candidate lists (copied from Commander Salt), checked by
+                              scripts/check_candidates.py with the same gate
 
 What this part checks (docs/power-scale.md, Layer A): name resolution, 100 cards, singleton,
 Commander legality, color identity, Game Changers, extra-turn cards and mass land denial by
@@ -42,6 +44,8 @@ FALLBACK_DECKS = {
 TARGET_BRACKET = {}
 DEFAULT_TARGET = 3
 RULES_AS_OF = "2026-02-09"  # Wizards Brackets update the snapshot is pinned to (beta)
+RULES_CHECKED_ON = "2026-10-13"  # last day Wizards' official pages were read (Phase 0)
+EXPECTED_GAME_CHANGERS = 53  # `game_changer` cards in the Scryfall bulk on that day
 
 LINE_RE = re.compile(
     r"^(\d+)\s+(.+?)(?:\s+\(([A-Za-z0-9]+)\)\s+(\S+))?(?:\s+\*[A-Za-z]\*)?\s*$"
@@ -317,6 +321,35 @@ def judge_variant(variant, commander_oids, cmc_by_oid=None):
     return {"floor": floor, "kind": kind, "categories": sorted(cats), "tag_note": tag_note}
 
 
+def hazard_assembly_floor(hazard, names_in_deck, cmc_by_name, commander_cmc):
+    """Floor of a curated combo hazard under the same early-and-two-card rule as Spellbook combos.
+
+    Wizards' Bracket 3 text bans early two-card infinite combos only. The pieces are the `all`
+    names plus the cheapest present name of each `any` group, plus the commander when the hazard
+    sets `commander_is_piece`. Three or more pieces: no floor above 3 (floor 3 keeps a review
+    note). Two pieces: mana to assemble (sum of mana values) up to 6 is early (floor 4), 7-8 is
+    floor 3 with a note to check by hand, 9 or more is floor 3.
+    Returns (floor, detail dict)."""
+    pieces = [normalize(n) for n in hazard.get("all", [])]
+    for group in hazard.get("any", []):
+        present = [normalize(n) for n in group if normalize(n) in names_in_deck]
+        if present:
+            pieces.append(min(present, key=lambda n: cmc_by_name.get(n, 0)))
+    mana = sum(cmc_by_name.get(n, 0) for n in pieces)
+    count = len(pieces)
+    if hazard.get("commander_is_piece"):
+        count += 1
+        mana += commander_cmc
+    mana = int(mana)
+    if count >= 3:
+        return 3, {"cards": count, "mana": mana, "verdict": "three or more pieces: no floor 4"}
+    if mana <= TWO_CARD_EARLY_MANA_VALUE:
+        return 4, {"cards": count, "mana": mana, "verdict": "two-card, early"}
+    if mana <= TWO_CARD_BORDERLINE_MANA_VALUE:
+        return 3, {"cards": count, "mana": mana, "verdict": "two-card, borderline early: check by hand"}
+    return 3, {"cards": count, "mana": mana, "verdict": "two-card, late"}
+
+
 def spellbook_section(spellbook, hazards, commander_entries, resolved, slug, index):
     """Run the Spellbook matcher and the curated hazards. Returns (section, floor, flags, notes)."""
     names_in_deck = set()
@@ -375,9 +408,19 @@ def spellbook_section(spellbook, hazards, commander_entries, resolved, slug, ind
             unresolved_hazard_names += [n for g in groups for n in g if normalize(n) not in index]
             if groups and all(any(normalize(n) in names_in_deck for n in g) for g in groups):
                 hits.append(hazard)
+        cmc_by_name = {}
+        for _, _, card in resolved:
+            cmc_by_name[normalize(card["name"])] = card.get("cmc") or 0
+            for face in card.get("card_faces") or []:
+                if face.get("name"):
+                    cmc_by_name[normalize(face["name"])] = card.get("cmc") or 0
+        commander_cmc = sum(cmc_by_oid.get(oid, 0) for oid in commander_oids)
         for hazard in hits:
             row = {"hazard": hazard["id"], "floor": hazard.get("floor", 4), "reason": hazard.get("reason"),
                    "source": hazard.get("source"), "review_only": bool(hazard.get("review_only"))}
+            if hazard.get("combo") and row["floor"] >= 4 and not row["review_only"]:
+                row["floor"], row["assembly"] = hazard_assembly_floor(
+                    hazard, names_in_deck, cmc_by_name, commander_cmc)
             section.setdefault("curated_hazards", []).append(row)
             if not row["review_only"]:
                 floor = max(floor, row["floor"])
@@ -556,6 +599,17 @@ def latest_bulk():
     return files[-1] if files else None
 
 
+def rules_freshness(cards, bulk):
+    """Bulk date and Game Changers count, to compare with the pinned snapshot on every run."""
+    names = sorted({c["name"] for c in cards if c.get("game_changer")})
+    match = re.search(r"(\d{8})", bulk.name)
+    date = match.group(1) if match else "unknown"
+    return {"bulk_date": f"{date[:4]}-{date[4:6]}-{date[6:]}" if match else date,
+            "game_changer_count": len(names), "game_changers": names,
+            "pinned_count": EXPECTED_GAME_CHANGERS, "pinned_on": RULES_CHECKED_ON,
+            "snapshot_as_of": RULES_AS_OF}
+
+
 def deck_sources():
     """(slug, path) of every deck found, in commander order."""
     found = []
@@ -575,11 +629,19 @@ def main():
         sys.exit(2)
     sources = deck_sources()
     if not sources:
-        print("No decks found (decks/<slug>.txt or data/raw/Toph.txt).")
+        print("No decks found (decks/<slug>.txt, data/raw/Toph.txt or data/raw/Azula.txt).")
         sys.exit(2)
     print(f"Reading {bulk.name} ...", flush=True)
-    index = build_index(list(iter_cards(bulk)))
+    cards = list(iter_cards(bulk))
+    index = build_index(cards)
     print(f"{len(index)} card and face names indexed.")
+    freshness = rules_freshness(cards, bulk)
+    print(f"Rules freshness: bulk dated {freshness['bulk_date']}, "
+          f"{freshness['game_changer_count']} Game Changers "
+          f"(pinned {EXPECTED_GAME_CHANGERS} on {RULES_CHECKED_ON}), snapshot {RULES_AS_OF}.")
+    if freshness["game_changer_count"] != EXPECTED_GAME_CHANGERS:
+        print("   STALE?: the Game Changers count differs from the pinned one. Re-read Wizards' "
+              "Brackets page before trusting any floor, then update EXPECTED_GAME_CHANGERS.")
     spellbook = None
     if SPELLBOOK_SLIM.exists():
         spellbook = load_spellbook()
@@ -602,6 +664,7 @@ def main():
             report["floor_ok_so_far"] = False
         report["source"] = str(path.relative_to(ROOT)).replace("\\", "/")
         report["bulk_file"] = bulk.name
+        report["rules_freshness"] = freshness
         report["run_at_utc"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         (DECKS / f"{slug}.layer_a.json").write_text(
             json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")

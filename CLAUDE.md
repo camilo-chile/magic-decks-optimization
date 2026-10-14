@@ -59,7 +59,7 @@ a vehicle for learning modern AI tooling.
   token savings. Multi-agent workflows are welcome; state the plan and ask before launching
   unless the user already said to proceed.
 - Execution boundary (proposed default, the user may change it): Claude may run read-only
-  commands and `pytest` on offline fixtures. Claude never runs scripts that call network
+  commands and the offline tests (`python tests/<file>.py`; pytest is not installed). Claude never runs scripts that call network
   APIs, write project data, or install packages. It hands over the exact command and waits
   for the user's output. Claude writes under `data/` or `decks/` only where a skill step
   says so (for example `decks/reports/`). The `WebFetch` rules for the Scryfall and
@@ -118,8 +118,9 @@ a vehicle for learning modern AI tooling.
 | `data/stores.md` | Allowlist of stores with domain, shipping rule, payment fees and date checked (created 2026-10-11 with the 7 stores; shipping and fees filled in Phase 7) |
 | `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) |
 | `scripts/` | Python the user runs himself |
-| `tests/` | Offline tests and API fixtures (`pytest`) |
-| `evals/` | Reference lists and ablation rungs (`evals/anchors/`), the hook test table and the test plan |
+| `tests/` | Offline tests and API fixtures (run with `python tests/<file>.py`) |
+| `evals/` | Archived agent-built Alexios reference (`evals/anchors/`, unused), the hook test table and the test plan |
+| `decks/candidates/<slug>/` | Real public lists copied from Commander Salt deck pages (candidate end states), `README.md` with their site scores and Layer A results, `meta-staples-bracket3.md` (Upgrades picks), `gate-report.json` from `scripts/check_candidates.py` |
 | `research_notes/` | Raw research notes (git-ignored) |
 | `reports/` | Scratch output of research tooling (git-ignored; may hold stale drafts) |
 | `.claude/skills/` | `rate-deck`, `check-stock`, `build-deck` (all user-invoked) |
@@ -132,8 +133,7 @@ a vehicle for learning modern AI tooling.
 - Static HTML, search snippets and WebFetch summaries are not evidence of stock or of card
   text. See the `check-stock` skill.
 - Bracket rules change over time; always cite the date of the rules snapshot used.
-- Speed ("win by turn N") is not a goal. It appears only as a qualitative 5-level risk flag
-  (`very low` to `very high`) from a Monte Carlo script, reported only, never a gate.
+- Speed ("win by turn N") is not a goal; Commander Salt reports curve and speed if wanted.
   Only Game Changers are an exact bracket count; the rest is intent.
 - Use the Scryfall and Commander Spellbook JSON APIs, not their HTML pages. EDHREC is not
   used by scripts or agents: its terms of service (effective 2024-08-06, read 2026-10-11)
@@ -141,4 +141,8 @@ a vehicle for learning modern AI tooling.
   copying of its content. Archidekt's terms (read 2026-10-12) bar automated
   queries as well, and Moxfield's could not be read, so neither is scripted. Commander Salt has no
   documented API or terms page; the owner authorized using it by hand in the browser, one deck at a
-  time (2026-10-13), no bulk or scripted requests.
+  time (2026-10-13), no bulk or scripted requests. Observed on the site (2026-10-14): leaderboard
+  rows are stale (read power from the deck page, never from the row); a deck page's "Export list"
+  gives the 100 cards; the Upgrades tab accepts `#upgrades?upgrades.bin=bracket_3&upgrades.mode=staples`.
+  marketplace.scry.cl is a marketplace with private sellers and lists only one of the 7 stores
+  (CardNexus, 0 stock): not a price source.

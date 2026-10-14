@@ -331,6 +331,37 @@ def test_curated_hazards_match_by_commander_and_groups():
     assert run_sb([emeria], [], hazards=hazards, slug="toph-the-first-metalbender")["floor"] == 1
 
 
+def test_combo_hazards_follow_the_early_two_card_rule():
+    a = card("Piece A", [], "Artifact", cmc=2)
+    b = card("Piece B", [], "Artifact", cmc=3)
+    c6 = card("Piece C", [], "Creature", cmc=6)
+    c7 = card("Piece D", [], "Creature", cmc=7)
+
+    def hazard(**kw):
+        base = {"id": "hc", "commander": "*", "combo": True, "all": ["Piece A"],
+                "any": [["Piece B", "Piece C", "Piece D"]], "floor": 4, "reason": "r", "source": "s"}
+        return [{**base, **kw}]
+
+    def floor_of(extra, hz):
+        r = run_sb(extra, [], hazards=hz)
+        return r["floor"], r["curated_hazards"][0].get("assembly", {})
+
+    # cheapest present piece of the group is used: 2 + 3 = 5, early, floor 4
+    assert floor_of([a, b, c7], hazard())[0] == 4
+    # 2 + 6 = 8: borderline, floor 3 with a note to check by hand
+    f, detail = floor_of([a, c6], hazard())
+    assert f == 3 and "borderline" in detail["verdict"] and detail["mana"] == 8
+    # 2 + 7 = 9: late, floor 3
+    f, detail = floor_of([a, c7], hazard())
+    assert f == 3 and detail["verdict"].endswith("late")
+    # three pieces (two `all` names and one group): no floor 4
+    assert floor_of([a, b, c6], hazard(**{"all": ["Piece A", "Piece B"], "any": [["Piece C"]]}))[0] == 3
+    # the commander counts as a piece when the hazard says so: 3 pieces, no floor 4
+    assert floor_of([a, b], hazard(commander_is_piece=True))[0] == 3
+    # a hazard that is not a combo keeps its floor whatever the mana
+    assert floor_of([a, c7], hazard(combo=False))[0] == 4
+
+
 def test_hazards_file_is_well_formed():
     hazards = mod.load_hazards()
     assert hazards, "data/hazards.json is missing or empty"
