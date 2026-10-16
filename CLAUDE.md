@@ -22,6 +22,11 @@ a vehicle for learning modern AI tooling.
   the gate supports a different target per deck (`TARGET_BRACKET`).
 - Budget: the user's pick from that curve, never above 300,000 CLP; checkout totals for
   cards and shipping (payment fees count if a store charges them), owned cards free.
+- Optional tokens (owner, 2026-10-16): once the final lists are frozen, list the tokens and emblems
+  the decks create (for example Wrenn's emblem and elemental tokens), ask the owner which he
+  already has, check stock for the missing ones only in stores already in the purchase plan (never
+  a new store, so no new shipping), and ask him before adding any. They are optional and outside
+  the budget. Survey existing token lists first (prior-art rule) and build only the gap.
 - Stores: the 7 Chilean specialist shops in `data/stores.md` (in the user's order of
   preference; the first 3 are the default), never marketplaces or private sellers. Fewer
   stores are better because each adds shipping; the optimizer finds the best point between
@@ -109,7 +114,7 @@ a vehicle for learning modern AI tooling.
 | `docs/proposals/` | Designs awaiting the user's decision |
 | `docs/research/` | Distilled research reports (dated) |
 | `decks/<commander-slug>.txt` | Decklist: `1 <English card name>` per line, the commander under `// Commander`; a ManaBox `(SET) 123` suffix is allowed |
-| `decks/<commander-slug>.locked.txt` | Cards the user keeps no matter what, chosen in Phase 6 after scoring the current decks |
+| `decks/locked.txt`, `decks/locked.md` | The 32 cards the user keeps: each must be in at least one of the project's Commander decks (any number of decks, however many the project has), not tied to its original deck (Phase 6, 2026-10-16); the rules and the color-identity table are in `locked.md` |
 | `decks/<commander-slug>.layer_a.json`, `.cards.json` | Layer A output and card facts, written by scripts the user runs |
 | `decks/reports/` | Commander Salt score reports, one per deck and date |
 | `data/raw/` | Private inputs such as the collection export (git-ignored) |

@@ -11,7 +11,7 @@ Plan the deck for $ARGUMENTS. Respect every hard constraint in `CLAUDE.md`. Plan
    Phase 8 and needs Phases 6 and 7 done. Step 5 belongs to Phases 9-10; steps 6 and 7 to
    Phase 11. If a needed phase is not done, say which and stop.
 1. Inputs: the current decklist (if any), the validated collection dataset, the locked
-   cards file `decks/<commander-slug>.locked.txt` (per D5, pending) and the Phase 8
+   cards file `decks/locked.txt` (each card in at least one of the project's decks, see `decks/locked.md`) and the Phase 8
    allocation (per-deck swap list and budget share). Never plan one deck against "the
    budget left"; that is greedy and order-dependent.
 2. Candidates come from Commander Salt, not from Claude's judgment: the measured lists in
@@ -32,7 +32,10 @@ Plan the deck for $ARGUMENTS. Respect every hard constraint in `CLAUDE.md`. Plan
    ManaBox link of it, then run `/rate-deck <commander-slug>` (Commander Salt power and bracket)
    and continue once the report exists.
 7. Deliver: the shopping list grouped by store, the total cost in CLP including shipping,
-   and the evidence timestamps.
+   and the evidence timestamps. Then the optional tokens: list the tokens and emblems the final
+   decks create, ask the owner which he already has, check stock for the missing ones only in
+   stores already in the plan, show them as a separate optional block outside the budget and
+   ask whether to add them.
 
 A `/goal` re-runs Claude after each turn and a small fast model judges the condition from
 the transcript only. There is no turn-limit option: put the bound in the condition (for
