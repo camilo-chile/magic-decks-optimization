@@ -50,6 +50,33 @@ def test_parse_psv_rebuilds_offers_and_keeps_pipes_in_the_suffix():
     assert got[0]["fetched_at"] == "2026-10-17T05:00:00Z"
 
 
+def test_merge_script_runs_keeps_each_stores_newest_good_reading():
+    import json
+    import tempfile
+
+    def offer(store, price):
+        return {"store": store, "card": "Sol Ring", "price_clp": price, "available": True}
+
+    old = {"store_stats": {"a": {"offers": 1}, "b": {"offers": 1}}, "offers": [offer("a", 100), offer("b", 200)]}
+    new = {"store_stats": {"b": {"error": "HTTP 429"}, "c": {"offers": 1}, "a": {"offers": 1}},
+           "offers": [offer("a", 90), offer("c", 300)]}
+    with tempfile.TemporaryDirectory() as tmp:
+        paths = []
+        for name, data in (("20261017T0100Z.json", old), ("20261018T0100Z.json", new)):
+            path = Path(tmp) / name
+            path.write_text(json.dumps(data), encoding="utf-8")
+            paths.append(path)
+        offers, stats = mod.merge_script_runs(paths)
+    assert sorted((o["store"], o["price_clp"]) for o in offers) == [("a", 90), ("b", 200), ("c", 300)]
+    assert stats["b"]["run"] == "20261017T0100Z.json" and "error" not in stats["b"]
+    assert stats["a"]["run"] == "20261018T0100Z.json"
+
+
+def test_script_reads_only_the_stores_not_yet_read():
+    enabled = sorted(s["id"] for s in mod.rsp.STORES if s["enabled"])
+    assert enabled == ["afkstore", "lacomarca", "piedrabruja"]
+
+
 if __name__ == "__main__":
     failed = 0
     for name, fn in list(globals().items()):

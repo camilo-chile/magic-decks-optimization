@@ -10,6 +10,9 @@
 //   PayToWin /collections/mtg-singles-instock, Game of Magic /collections/mtg-todas-las-singles,
 //   La Comarca /collections/magic-the-gathering-singles, Oasis /collections/mtg-singles-instock,
 //   Piedra Bruja /collections/single-mtg, AFK Store /collections/singles-mtg
+// Only for a collection under 25,000 products (Shopify answers HTTP 400 at page 101 and sorts the feed
+// price-descending, so a bigger collection hides its cheapest cards): see the handoff doc for the
+// per-color / HTML ascending procedure used for PayToWin and Oasis.
 // Poll with: JSON.stringify({s:c.state,p:c.page,seen:c.seen,cards:Object.keys(c.best).length}) on window.__cr
 // (a javascript_tool call times out after 45 s: sleep at most 40 s per call).
 //

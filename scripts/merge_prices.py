@@ -2,7 +2,8 @@
 """Phase 7: merge the price readings into one offers file for the optimizer. Offline, no network.
 
 Run it with the "Run Python File" button (no arguments). It reads, under data/prices/:
-  <stamp>.json                  the newest script run of scripts/read_store_prices.py (API stores)
+  <stamp>.json                  the script runs of scripts/read_store_prices.py (API stores; per store the
+                                newest run read without error wins)
   browser-<store>-<date>.psv    readings of Shopify stores taken by hand in the owner's browser
                                 (the Shopify stores answer HTTP 429 to scripts): per card the cheapest
                                 available variant for English, Spanish and, when neither exists, foil
@@ -74,28 +75,33 @@ def parse_psv(path, targets, store):
     return browser_offers(store, best, targets, fetched_at or "unknown"), products_seen
 
 
-def latest(pattern):
-    """The newest file under data/prices/ matching a glob pattern, or None."""
-    files = sorted(OUT_DIR.glob(pattern))
-    return files[-1] if files else None
+def merge_script_runs(run_paths):
+    """Offers and per-store stats from several script runs, oldest first: a later run replaces a store's
+    offers only when that store was read without error in it, so each store keeps its newest good reading."""
+    offers, stats = [], {}
+    for run in run_paths:
+        data = json.loads(run.read_text(encoding="utf-8"))
+        for sid, st in data.get("store_stats", {}).items():
+            if "error" in st:
+                stats.setdefault(sid, {"source": "script", "run": run.name, **st})
+                continue
+            offers = [o for o in offers if o["store"] != sid]
+            for offer in data["offers"]:
+                if offer["store"] == sid:
+                    offer.setdefault("source", "script")
+                    offers.append(offer)
+            stats[sid] = {"source": "script", "run": run.name, **st}
+        print(f"Script run {run.name}: {len(data['offers'])} offers")
+    return offers, stats
 
 
 def main():
     """Merge the newest script run with every browser reading and write the merged files."""
     targets = rsp.targets_from_repo()
     stores = {s["id"]: s for s in rsp.STORES}
-    run = latest("2*.json")
-    offers, stats = [], {}
-    if run is None:
+    offers, stats = merge_script_runs(sorted(OUT_DIR.glob("2*.json")))
+    if not offers:
         print("No script run found under data/prices/ (run scripts/read_store_prices.py first).")
-    else:
-        data = json.loads(run.read_text(encoding="utf-8"))
-        for offer in data["offers"]:
-            offer.setdefault("source", "script")
-            offers.append(offer)
-        for sid, st in data.get("store_stats", {}).items():
-            stats[sid] = {"source": "script", **st}
-        print(f"Script run {run.name}: {len(data['offers'])} offers")
     browser_files = {}
     for path in sorted(OUT_DIR.glob("browser-*.psv")):
         sid = path.name.split("-")[1]

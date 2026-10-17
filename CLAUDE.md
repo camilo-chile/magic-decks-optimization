@@ -154,3 +154,7 @@ a vehicle for learning modern AI tooling.
   gives the 100 cards; the Upgrades tab accepts `#upgrades?upgrades.bin=bracket_3&upgrades.mode=staples`.
   marketplace.scry.cl is a marketplace with private sellers and lists only one of the 7 stores
   (CardNexus, 0 stock): not a price source.
+- Shopify `products.json` lists at most 100 pages of 250 (page 101 answers HTTP 400), ignores `sort_by`, and
+  the stores sort price-descending: a store with more than 25,000 products hides its cheapest cards. Read
+  such stores through smaller collections or the HTML ascending sort, and report the coverage
+  (`docs/research/phase7-handoff-2026-10-17.md`).

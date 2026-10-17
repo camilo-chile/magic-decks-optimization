@@ -59,6 +59,12 @@ STORES = [
     {"id": "afkstore", "pref": 9, "name": "AFK Store", "kind": "shopify",
      "base": "https://www.afkstore.cl", "collection": "singles-mtg", "enabled": True},
 ]
+# Already read on 2026-10-17 (Magic4Ever and CardNexus by this script, PayToWin, Game of Magic and Oasis
+# in the owner's browser, see docs/research/phase7-handoff-2026-10-17.md): not requested again.
+# scripts/merge_prices.py keeps the newest reading of each store. Remove an id here to refresh it.
+ALREADY_READ = {"paytowin", "magic4ever", "cardnexus", "gameofmagic", "oasis"}
+for _store in STORES:
+    _store["enabled"] = _store["id"] not in ALREADY_READ
 
 BASICS = {"plains", "island", "swamp", "mountain", "forest", "wastes", "snow-covered plains",
           "snow-covered island", "snow-covered swamp", "snow-covered mountain", "snow-covered forest"}
@@ -311,10 +317,20 @@ def read_shopify(requests, throttle, store, targets, progress):
     except Exception as exc:  # the count is only for the ETA
         progress.log(f"  no product count ({exc}); ETA unknown")
     pages_expected = (total + SHOPIFY_PAGE - 1) // SHOPIFY_PAGE if total else 0
-    offers, seen, started = [], 0, time.time()
+    offers, seen, started, truncated = [], 0, time.time(), False
     for page in range(1, MAX_PAGES + 1):
-        data, _ = get_json(requests, throttle, base + "/products.json",
-                           {"limit": SHOPIFY_PAGE, "page": page}, progress)
+        try:
+            data, _ = get_json(requests, throttle, base + "/products.json",
+                               {"limit": SHOPIFY_PAGE, "page": page}, progress)
+        except Exception as exc:
+            # Shopify lists at most 100 pages of 250: page 101 answers HTTP 400. The default order can be
+            # price-descending, so the cheap tail may be missing: flag the reading as truncated.
+            status = getattr(getattr(exc, "response", None), "status_code", None)
+            if status == 400 and page > 1:
+                truncated = True
+                progress.log(f"  {store['name']}: HTTP 400 at page {page}: listing cap reached, reading truncated")
+                break
+            raise
         products = data.get("products") or []
         if not products:
             break
@@ -326,7 +342,8 @@ def read_shopify(requests, throttle, store, targets, progress):
                      + (Progress.eta(page, pages_expected, started) if pages_expected else "ETA ?"))
         if len(products) < SHOPIFY_PAGE:
             break
-    return offers, {"products_read": seen, "products_count_reported": total, "offers": len(offers)}
+    return offers, {"products_read": seen, "products_count_reported": total, "offers": len(offers),
+                    "truncated": truncated}
 
 
 def read_woocommerce(requests, throttle, store, targets, progress):
@@ -389,6 +406,8 @@ def summarize(targets, offers, store_stats):
     lines = ["Stores"]
     for sid, stats in store_stats.items():
         lines.append(f"  {sid}: {stats}")
+        if stats.get("truncated"):
+            lines.append("    WARNING: the listing hit Shopify's 100-page cap; the cheapest products may be missing")
     by_card = {}
     for offer in offers:
         by_card.setdefault(offer["card"], []).append(offer)
