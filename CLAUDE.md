@@ -20,18 +20,20 @@ a vehicle for learning modern AI tooling.
   `docs/power-scale.md` (v1.0). All 3 decks target Bracket 3 (user decision 2026-10-12, after Toph's current
   list measured floor 3 under Wizards' own conditions) and must not meet Bracket 4 conditions;
   the gate supports a different target per deck (`TARGET_BRACKET`).
-- Budget: the user's pick from that curve, never above 300,000 CLP; checkout totals for
-  cards and shipping (payment fees count if a store charges them), owned cards free.
+- Budget: the user's pick from that curve, never above 300,000 CLP; the cards only (payment
+  fees count if a store charges them), owned cards free. Shipping is outside the budget (owner,
+  2026-10-16): it is assumed to cost 5,000 CLP per store, reported separately, never counted.
 - Optional tokens (owner, 2026-10-16): once the final lists are frozen, list the tokens and emblems
   the decks create (for example Wrenn's emblem and elemental tokens), ask the owner which he
   already has, check stock for the missing ones only in stores already in the purchase plan (never
   a new store, so no new shipping), and ask him before adding any. They are optional and outside
   the budget. Survey existing token lists first (prior-art rule) and build only the gap.
-- Stores: the 7 Chilean specialist shops in `data/stores.md` (in the user's order of
-  preference; the first 3 are the default), never marketplaces or private sellers. Fewer
-  stores are better because each adds shipping; the optimizer finds the best point between
-  stores, shipping and stock, with no fixed cap. Every price is in CLP; there is no currency
-  conversion anywhere.
+- Stores: the Chilean specialist shops in `data/stores.md`, at most 10. The owner's 6 are the
+  preferred ones (in his order; the first 3 are the default); up to 4 more may be added only
+  with excellent reputation evidence and a public JSON stock feed, and only with his OK. Never
+  marketplaces or private sellers. Fewer stores are still better as a tie-break (each adds a
+  shipping), and the optimizer reports the assumed shipping per store. Every price is in CLP;
+  there is no currency conversion anywhere.
 - Every card to buy must have verified stock > 0 at decision time. If stock fails, re-plan
   (backtrack). Never leave an unverified card in a final list.
 - Nothing is bought before the chosen lists are eligible under `docs/power-scale.md`
@@ -121,6 +123,7 @@ a vehicle for learning modern AI tooling.
 | `data/cache/` | Downloaded bulk data from Scryfall and Commander Spellbook, and `collection_inventory.json` from `scripts/build_inventory.py` (untracked) |
 | `data/hazards.json` | Curated combos and packages Spellbook does not list (per commander), read by Layer A; extended from the Phase 3 reports |
 | `data/stores.md` | Allowlist of stores with domain, shipping rule, payment fees and date checked (created 2026-10-11 with the 7 stores; shipping and fees filled in Phase 7) |
+| `data/prices/` | Phase 7 price readings from `scripts/read_store_prices.py` (`<YYYYMMDDTHHMMZ>.json`, `.summary.txt`, `.progress.log`); a price hint, never stock evidence |
 | `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) |
 | `scripts/` | Python the user runs himself |
 | `tests/` | Offline tests and API fixtures (run with `python tests/<file>.py`) |

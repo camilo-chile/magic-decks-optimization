@@ -31,7 +31,7 @@ Plan the deck for $ARGUMENTS. Respect every hard constraint in `CLAUDE.md`. Plan
 6. Scoring: write the frozen candidate to `decks/<commander-slug>.txt`, ask the user for a
    ManaBox link of it, then run `/rate-deck <commander-slug>` (Commander Salt power and bracket)
    and continue once the report exists.
-7. Deliver: the shopping list grouped by store, the total cost in CLP including shipping,
+7. Deliver: the shopping list grouped by store, the cards total in CLP (shipping is outside the budget: list the assumed 5,000 CLP per store separately),
    and the evidence timestamps. Then the optional tokens: list the tokens and emblems the final
    decks create, ask the owner which he already has, check stock for the missing ones only in
    stores already in the plan, show them as a separate optional block outside the budget and

@@ -12,7 +12,7 @@ of the earlier design were dropped on 2026-10-13 with the switch to Commander Sa
 | E-3 | `tests/test_validate_deck_export.py` (7) | The ManaBox deck export validator: totals, singleton, foil marker, binder isolation, languages, text against CSV | Passing |
 | E-4 | `tests/test_build_inventory.py` (5) | Owned-card inventory (the ablation-ladder script and its 5 tests were retired on 2026-10-14) | Passing |
 | E-5 | `tests/test_collect_*.py` | Bulk collectors and the rulings reader | Passing |
-| E-6 | `scripts/optimize_purchase.py` and tests (planned) | Shipping as a fixed cost per store (no store cap), preference order as tie-break; quantities; English or Spanish only; condition floor; total with fees within budget; infeasible gives a clear report | Constraints asserted on toy store data |
+| E-6 | `scripts/optimize_purchase.py` and tests (planned) | Shipping as a fixed assumed cost of 5,000 CLP per store, reported but outside the budget (at most 10 stores), preference order as tie-break; quantities; English or Spanish only; condition floor; total with fees within budget; infeasible gives a clear report | Constraints asserted on toy store data |
 | E-7 | `scripts/allocate_collection.py` and tests (planned) | No physical copy in two decks; singleton per deck; basic lands; locked cards respected | Asserted |
 | E-8 | JSON Schema for `data/stock/*.json` (planned) | Store, URL, variant, language, condition, price, quantity, evidence, UTC timestamp | A purchase list is rejected if any line fails or is stale |
 | E-9 | Commander Salt repeatability (Phase 5, by hand) | The same list scored on two days agrees; the owner's two decks and the friend's Krenko deck as fixed points | Done 2026-10-14 for Toph (identical); recorded in `decks/reports/` |

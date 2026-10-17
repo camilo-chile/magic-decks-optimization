@@ -22,7 +22,7 @@ decks are kept at parity (within 0.2 power points) and the owner picks the budge
 | 4 | Candidate menu per commander: real public lists from the Commander Salt commander page (read by hand, one deck at a time), each with its site score and gated by Layer A; plus the Upgrades Meta picks for the owner's two decks. Replaces the agent-built references, slot rankings and ablation ladders (audit of 2026-10-13) | Phase 2 | Done on 2026-10-14 for the first menu: 13 lists in `decks/candidates/` (Alexios 4, Toph 4, Azula 5), 8 pass Layer A at Bracket 3 (Alexios 2 at power 7.2-7.5, Toph 3 at 7.2-7.4, Azula 3 at 7.2-7.4); Meta Staples (Bracket 3 bin) for Toph and Azula. The agent-built Alexios reference is archived in `evals/anchors/` and not used |
 | 5 | Repeatability on Commander Salt: the same list scored again on a later day (no ladder, no judge-panel validation, no Ollama) | Phase 4 | Done on 2026-10-14: the owner's Toph link scored 6.5 / bracket 3 / salt 72.4 / pillars 308-202-197-490 on 2026-10-13 and again the same on 2026-10-14 after Import and Refresh; the site's leaderboard rows were stale against deck pages (use the deck page) |
 | 6 | Score Toph and Azula on Commander Salt through their ManaBox links (pilot); the owner then picks the cards he keeps | Phase 1 | Done on 2026-10-16: Toph power 6.5, bracket 3; Azula power 4.0, bracket 2 (site version 2026.4195; reports in `decks/reports/`); the owner's 32 must-keep cards (15 from Toph, 17 from Azula) are in `decks/locked.txt`: each must be in at least one of the project's Commander decks (any number of them), free to move between decks within color identity (`decks/locked.md`) |
-| 7 | Feasibility: CLP prices, from the catalogs of the stores the owner names (price reading only; stock is verified later), of the cards missing from each candidate list and Meta pick | Phases 1 and 4, and the store list | Pending |
+| 7 | Feasibility: CLP prices, from the catalogs of the stores the owner names (price reading only; stock is verified later), of the cards in each candidate list, Meta pick and lock | Phases 1 and 4, and the store list | In progress (2026-10-16): store reconnaissance done (`docs/research/store-recon-2026-10-16.md`), 8 stores, all with a public JSON feed (Magic4Ever through its own API, found 2026-10-17); `scripts/read_store_prices.py` written (8 offline tests); the owner runs the script and Claude reads `data/prices/*.summary.txt` |
 | 8 | Global allocation across the 3 decks and the budget curve (100,000-300,000 CLP, steps of 50,000, parity within 0.2): one list per deck chosen from the measured candidates and the owner's deck upgraded with Meta picks (PuLP), the final lists scored on Commander Salt; dashboard (Artifact) | Phases 6 and 7 | Pending |
 | 9 | Choose stores and collect offers with verified real stock for the Phase 8 shortlist | Phase 8 | Pending (late) |
 | 10 | Joint optimization (allocation plus purchase, at most the stores the owner lists, shipping); backtrack when stock fails (at most 5 rounds, each re-scored on Commander Salt) | Phase 9 | Pending |
@@ -32,9 +32,11 @@ Status as of 2026-10-14.
 
 ## Constraints
 - Budget: chosen by the owner from the curve, between 100,000 and 300,000 CLP, only for
-  cards and shipping (payment fees count if a store charges them); owned cards are free.
-- Stores: the 7 Chilean specialist shops in `data/stores.md`, the first 3 by default; fewer
-  stores are preferred because of shipping; all prices in CLP, no conversion.
+  the cards (payment fees count if a store charges them); owned cards are free. Shipping is
+  outside the budget (assumed 5,000 CLP per store, reported separately).
+- Stores: the owner's 6 Chilean specialist shops in `data/stores.md` (the first 3 by default)
+  plus up to 4 more at most, only with excellent reputation evidence, a public JSON stock feed
+  and his OK; fewer stores preferred as a tie-break; all prices in CLP, no conversion.
 - Free tools only: no paid apps or subscriptions (an exception needs the user's approval).
 - Cards to buy: English or Spanish printings only, the cheaper one preferred.
 - Collection: mixed Spanish and English cards; the 2 decks are sleeved; scanning is done
