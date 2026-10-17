@@ -76,6 +76,7 @@ FOIL_RE = re.compile(r"(?<!non-)(?<!non )(?<!no )\bfoil\b", re.I)
 ETCHED_RE = re.compile(r"\betched\b", re.I)
 FINISH_WORDS = {"regular", "foil", "borderless", "showcase", "extended", "etched", "retro", "full",
                 "art", "promo", "surge", "serialized", "normal", "non-foil", "nonfoil"}
+ART_CARD_RE = re.compile(r"\bart (card|series)\b", re.I)  # art cards are not the playable card
 ACCEPTED_LANGUAGES = {"en", "es"}
 ACCEPTED_CONDITIONS = {"NM", "LP"}
 
@@ -164,6 +165,8 @@ def match_title(title, targets):
 
 def shopify_offers(product, store, targets, fetched_at):
     """Offers from one Shopify product (one per variant that passes the filters)."""
+    if ART_CARD_RE.search(product.get("title") or ""):
+        return []
     hit = match_title(product.get("title") or "", targets)
     if not hit:
         return []
@@ -191,7 +194,7 @@ def shopify_offers(product, store, targets, fetched_at):
 def woo_offers(product, store, targets, fetched_at):
     """Offers from one WooCommerce Store API product: purchasable listings only (`cn-child-*`)."""
     key = la.normalize((product.get("name") or "").split(" // ")[0])
-    if key not in targets or not product.get("is_purchasable"):
+    if key not in targets or not product.get("is_purchasable") or ART_CARD_RE.search(product.get("name") or ""):
         return []
     prices = product.get("prices") or {}
     try:
@@ -218,6 +221,8 @@ def woo_offers(product, store, targets, fetched_at):
 
 def magic4ever_offers(card, store, targets, fetched_at):
     """Offers from one Magic4Ever search card (its variants carry language, finish, grade, stock, price)."""
+    if ART_CARD_RE.search(card.get("name") or ""):
+        return []
     base_name = re.sub(r"\s*\([^)]*\)\s*$", "", card.get("name") or "").split(" // ")[0]
     key = la.normalize(base_name)
     if key not in targets:
@@ -374,6 +379,11 @@ READERS = {"shopify": read_shopify, "woocommerce": read_woocommerce, "magic4ever
 
 # ---------------------------------------------------------------- output
 
+def offer_rank(offer):
+    """Sort key for the best offer: cheapest first; at the same price Spanish before English (owner, 2026-10-17)."""
+    return (offer["price_clp"], 0 if offer["language"] == "es" else 1)
+
+
 def summarize(targets, offers, store_stats):
     """Text summary: stats per store, cards with no available offer, cheapest available offer per card."""
     lines = ["Stores"]
@@ -392,7 +402,7 @@ def summarize(targets, offers, store_stats):
     for name in sorted(by_card):
         live = [o for o in by_card[name] if o["available"]]
         if live:
-            best = min(live, key=lambda o: o["price_clp"])
+            best = min(live, key=offer_rank)
             lines.append(f"  {name}: {best['price_clp']} CLP at {best['store']} "
                          f"({best['language']}, {best['condition']}, {best['finish']}, match {best['match']})")
     return "\n".join(lines) + "\n"

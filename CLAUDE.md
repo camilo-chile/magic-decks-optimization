@@ -48,8 +48,8 @@ a vehicle for learning modern AI tooling.
 - Free tools only: no paid apps or subscriptions; an exception needs the user's explicit
   approval. The budget covers only checkout totals for cards, never apps, sleeves or
   accessories.
-- Purchases: English or Spanish printings only, the cheaper one preferred; never other
-  languages. The collection is mixed Spanish/English, so scanners must read Spanish cards.
+- Purchases: English or Spanish printings only, the cheaper one preferred; at the same price
+  the Spanish copy wins (owner, 2026-10-17); never other languages. The collection is mixed Spanish/English, so scanners must read Spanish cards.
 - Scanning is done from an Android phone; the 2 existing decks are sleeved.
 - Pipeline order is in `README.md`. Before any task, name the current phase(s) (Phases
   1 and 3 may run in parallel). Do not work on a later phase (for example store stock)
@@ -123,7 +123,7 @@ a vehicle for learning modern AI tooling.
 | `data/cache/` | Downloaded bulk data from Scryfall and Commander Spellbook, and `collection_inventory.json` from `scripts/build_inventory.py` (untracked) |
 | `data/hazards.json` | Curated combos and packages Spellbook does not list (per commander), read by Layer A; extended from the Phase 3 reports |
 | `data/stores.md` | Allowlist of stores with domain, shipping rule, payment fees and date checked (created 2026-10-11 with the 7 stores; shipping and fees filled in Phase 7) |
-| `data/prices/` | Phase 7 price readings from `scripts/read_store_prices.py` (`<YYYYMMDDTHHMMZ>.json`, `.summary.txt`, `.progress.log`); a price hint, never stock evidence |
+| `data/prices/` | Phase 7 price readings: `scripts/read_store_prices.py` (`<YYYYMMDDTHHMMZ>.json`, `.summary.txt`, `.progress.log`), browser readings of the Shopify stores (`browser-<store>-<date>.psv`, taken by Claude with `scripts/browser_shopify_reader.js`) and `scripts/merge_prices.py` output (`merged-*.json`); a price hint, never stock evidence. Handoff: `docs/research/phase7-handoff-2026-10-17.md` |
 | `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) |
 | `scripts/` | Python the user runs himself |
 | `tests/` | Offline tests and API fixtures (run with `python tests/<file>.py`) |

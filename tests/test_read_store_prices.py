@@ -59,6 +59,15 @@ def test_shopify_offers_filter_language_condition_and_keep_stock_flag():
     assert mod.shopify_offers({"title": "Other [Set]", "variants": []}, SHOP, TARGETS, WHEN) == []
 
 
+def test_art_cards_are_not_offers():
+    art = {"title": "Sol Ring Art Card [Commander Masters Art Series]", "handle": "a",
+           "variants": variants(("Near Mint", "570", True))}
+    assert mod.shopify_offers(art, SHOP, TARGETS, WHEN) == []
+    assert mod.woo_offers(woo(name="Sol Ring Art Card"), SHOP, TARGETS, WHEN) == []
+    assert mod.magic4ever_offers({"name": "Sol Ring Art Series", "variants": [
+        {"language": "en", "conditionGrade": "NM", "stock": 1, "priceClp": 500, "finish": "nonfoil"}]}, SHOP, TARGETS, WHEN) == []
+
+
 def test_shopify_offers_language_in_the_product_title():
     product = {"title": "Nykthos, Shrine to Nyx Regular (español) 223", "handle": "n",
                "variants": variants(("Default Title", "73797", True))}
@@ -119,6 +128,17 @@ def test_targets_from_repo_cover_candidates_picks_and_locked_without_basics():
     assert "frantic search" in targets  # Azula meta pick
     assert "valakut awakening" in targets  # double-faced name reduced to its front face
     assert 400 < len(targets) < 800
+
+
+def test_same_price_prefers_spanish_over_english():
+    def offer(lang, price, store):
+        return {"card": "Sol Ring", "store": store, "price_clp": price, "available": True, "language": lang,
+                "condition": "NM", "finish": "nonfoil", "match": "exact"}
+    targets = {"sol ring": "Sol Ring"}
+    tie = [offer("en", 2000, "a"), offer("es", 2000, "b")]
+    assert "at b (es" in mod.summarize(targets, tie, {})
+    cheaper_english = [offer("en", 1900, "a"), offer("es", 2000, "b")]
+    assert "1900 CLP at a (en" in mod.summarize(targets, cheaper_english, {})
 
 
 def test_summary_lists_missing_cards_and_cheapest_offer():

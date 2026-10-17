@@ -25,6 +25,11 @@ none were read; robots.txt was read only for the first Shopify store. All prices
   no scripted checkout). A reader script should send a clear User-Agent, throttle and stop on 429.
 - Shopify's `products.json` serves 30 products per page by default; the full singles catalog of store 4
   is on the order of tens of thousands of products.
+- **Script run of 2026-10-17:** Magic4Ever (626 searches, 2,244 offers) and CardNexus (3,205 offers) worked. All
+  6 Shopify stores answered HTTP 429 to the Python client (PayToWin after 4 pages, the rest from the first
+  request) and stayed blocked for 30+ minutes. The same collection feeds read from the owner's browser
+  (Claude in Chrome, by hand, 1.2 s between pages) returned 200 on every page. The script is not disguised as a
+  browser. The Shopify stores are therefore read in the browser and merged by `scripts/merge_prices.py`.
 - marketplace.scry.cl lists CardNexus with 0 stock while CardNexus's own API shows stock: aggregators
   are not a source.
 

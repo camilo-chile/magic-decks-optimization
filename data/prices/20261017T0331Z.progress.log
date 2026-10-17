@@ -1,0 +1,113 @@
+00:31:07  626 cards to price; stores: PayToWin, Magic4Ever, CardNexus, Game of Magic Singles, Tienda La Comarca, Oasis Games, Piedra Bruja, AFK Store
+00:31:07  Store 1/8: PayToWin (shopify)
+00:31:11    PayToWin: page 1/149, 250 products read, 312 offers kept, ETA 8m16s
+00:31:14    PayToWin: page 2/149, 500 products read, 776 offers kept, ETA 8m28s
+00:31:16    PayToWin: page 3/149, 750 products read, 1244 offers kept, ETA 6m44s
+00:31:19    PayToWin: page 4/149, 1000 products read, 1572 offers kept, ETA 7m17s
+00:31:20    429 from https://www.paytowin.cl/collections/mtg-singles-instock/products.json: waiting 30s
+00:31:50    429 from https://www.paytowin.cl/collections/mtg-singles-instock/products.json: waiting 30s
+00:32:20    FAILED PayToWin: HTTP 429 three times: stopping this store
+00:32:20  Store 2/8: Magic4Ever (magic4ever)
+00:32:40    Magic4Ever: 20/626 cards searched, 52 offers kept, ETA 10m23s
+00:33:00    Magic4Ever: 40/626 cards searched, 147 offers kept, ETA 9m54s
+00:33:20    Magic4Ever: 60/626 cards searched, 217 offers kept, ETA 9m31s
+00:33:40    Magic4Ever: 80/626 cards searched, 277 offers kept, ETA 9m10s
+00:34:00    Magic4Ever: 100/626 cards searched, 341 offers kept, ETA 8m49s
+00:34:20    Magic4Ever: 120/626 cards searched, 489 offers kept, ETA 8m28s
+00:34:40    Magic4Ever: 140/626 cards searched, 569 offers kept, ETA 8m08s
+00:35:01    Magic4Ever: 160/626 cards searched, 633 offers kept, ETA 7m47s
+00:35:21    Magic4Ever: 180/626 cards searched, 670 offers kept, ETA 7m27s
+00:35:41    Magic4Ever: 200/626 cards searched, 880 offers kept, ETA 7m07s
+00:36:01    Magic4Ever: 220/626 cards searched, 937 offers kept, ETA 6m47s
+00:36:21    Magic4Ever: 240/626 cards searched, 1012 offers kept, ETA 6m27s
+00:36:41    Magic4Ever: 260/626 cards searched, 1076 offers kept, ETA 6m07s
+00:37:01    Magic4Ever: 280/626 cards searched, 1134 offers kept, ETA 5m46s
+00:37:21    Magic4Ever: 300/626 cards searched, 1183 offers kept, ETA 5m26s
+00:37:41    Magic4Ever: 320/626 cards searched, 1269 offers kept, ETA 5m06s
+00:38:01    Magic4Ever: 340/626 cards searched, 1306 offers kept, ETA 4m46s
+00:38:21    Magic4Ever: 360/626 cards searched, 1382 offers kept, ETA 4m26s
+00:38:41    Magic4Ever: 380/626 cards searched, 1467 offers kept, ETA 4m06s
+00:39:01    Magic4Ever: 400/626 cards searched, 1518 offers kept, ETA 3m46s
+00:39:21    Magic4Ever: 420/626 cards searched, 1582 offers kept, ETA 3m26s
+00:39:41    Magic4Ever: 440/626 cards searched, 1666 offers kept, ETA 3m06s
+00:40:01    Magic4Ever: 460/626 cards searched, 1739 offers kept, ETA 2m46s
+00:40:21    Magic4Ever: 480/626 cards searched, 1830 offers kept, ETA 2m26s
+00:40:41    Magic4Ever: 500/626 cards searched, 1899 offers kept, ETA 2m06s
+00:41:01    Magic4Ever: 520/626 cards searched, 1993 offers kept, ETA 1m46s
+00:41:21    Magic4Ever: 540/626 cards searched, 2079 offers kept, ETA 1m26s
+00:41:41    Magic4Ever: 560/626 cards searched, 2128 offers kept, ETA 1m06s
+00:42:01    Magic4Ever: 580/626 cards searched, 2159 offers kept, ETA 0m46s
+00:42:36    Magic4Ever: 600/626 cards searched, 2190 offers kept, ETA 0m26s
+00:42:56    Magic4Ever: 620/626 cards searched, 2239 offers kept, ETA 0m06s
+00:43:02    Magic4Ever: 626/626 cards searched, 2244 offers kept, ETA 0m00s
+00:43:02  Store 3/8: CardNexus (woocommerce)
+00:43:24    CardNexus: 20/626 cards searched, 76 offers kept, ETA 11m18s
+00:43:46    CardNexus: 40/626 cards searched, 207 offers kept, ETA 10m54s
+00:44:09    CardNexus: 60/626 cards searched, 318 offers kept, ETA 10m34s
+00:44:31    CardNexus: 80/626 cards searched, 445 offers kept, ETA 10m10s
+00:44:53    CardNexus: 100/626 cards searched, 575 offers kept, ETA 9m46s
+00:45:19    CardNexus: 120/626 cards searched, 732 offers kept, ETA 9m39s
+00:45:41    CardNexus: 140/626 cards searched, 857 offers kept, ETA 9m11s
+00:46:03    CardNexus: 160/626 cards searched, 966 offers kept, ETA 8m47s
+00:46:24    CardNexus: 180/626 cards searched, 1012 offers kept, ETA 8m20s
+00:46:45    CardNexus: 200/626 cards searched, 1175 offers kept, ETA 7m56s
+00:47:07    CardNexus: 220/626 cards searched, 1280 offers kept, ETA 7m32s
+00:47:28    CardNexus: 240/626 cards searched, 1370 offers kept, ETA 7m07s
+00:47:49    CardNexus: 260/626 cards searched, 1458 offers kept, ETA 6m44s
+00:48:11    CardNexus: 280/626 cards searched, 1556 offers kept, ETA 6m22s
+00:48:32    CardNexus: 300/626 cards searched, 1602 offers kept, ETA 5m59s
+00:48:54    CardNexus: 320/626 cards searched, 1727 offers kept, ETA 5m37s
+00:49:16    CardNexus: 340/626 cards searched, 1802 offers kept, ETA 5m15s
+00:49:37    CardNexus: 360/626 cards searched, 1880 offers kept, ETA 4m52s
+00:50:01    CardNexus: 380/626 cards searched, 2001 offers kept, ETA 4m31s
+00:50:25    CardNexus: 400/626 cards searched, 2098 offers kept, ETA 4m10s
+00:50:47    CardNexus: 420/626 cards searched, 2224 offers kept, ETA 3m48s
+00:51:10    CardNexus: 440/626 cards searched, 2285 offers kept, ETA 3m26s
+00:51:31    CardNexus: 460/626 cards searched, 2373 offers kept, ETA 3m03s
+00:51:54    CardNexus: 480/626 cards searched, 2524 offers kept, ETA 2m41s
+00:52:17    CardNexus: 500/626 cards searched, 2640 offers kept, ETA 2m19s
+00:52:40    CardNexus: 520/626 cards searched, 2799 offers kept, ETA 1m57s
+00:53:02    CardNexus: 540/626 cards searched, 2906 offers kept, ETA 1m35s
+00:53:25    CardNexus: 560/626 cards searched, 2994 offers kept, ETA 1m13s
+00:53:47    CardNexus: 580/626 cards searched, 3053 offers kept, ETA 0m51s
+00:54:09    CardNexus: 600/626 cards searched, 3137 offers kept, ETA 0m28s
+00:54:31    CardNexus: 620/626 cards searched, 3196 offers kept, ETA 0m06s
+00:54:37    CardNexus: 626/626 cards searched, 3205 offers kept, ETA 0m00s
+00:54:37  Store 4/8: Game of Magic Singles (shopify)
+00:54:40    Game of Magic Singles: page 1/72, 250 products read, 222 offers kept, ETA 3m39s
+00:54:42    Game of Magic Singles: page 2/72, 500 products read, 378 offers kept, ETA 3m03s
+00:54:45    Game of Magic Singles: page 3/72, 750 products read, 496 offers kept, ETA 2m52s
+00:54:47    Game of Magic Singles: page 4/72, 1000 products read, 606 offers kept, ETA 2m43s
+00:54:49    Game of Magic Singles: page 5/72, 1250 products read, 658 offers kept, ETA 2m34s
+00:54:49    429 from https://gameofmagicsingles.cl/collections/mtg-todas-las-singles/products.json: waiting 30s
+00:55:19    429 from https://gameofmagicsingles.cl/collections/mtg-todas-las-singles/products.json: waiting 30s
+00:55:49    FAILED Game of Magic Singles: HTTP 429 three times: stopping this store
+00:55:49  Store 5/8: Tienda La Comarca (shopify)
+00:55:50    429 from https://www.tiendalacomarca.cl/collections/magic-the-gathering-singles.json: waiting 30s
+00:56:20    429 from https://www.tiendalacomarca.cl/collections/magic-the-gathering-singles.json: waiting 30s
+00:56:50    no product count (HTTP 429 three times: stopping this store); ETA unknown
+00:56:51    429 from https://www.tiendalacomarca.cl/collections/magic-the-gathering-singles/products.json: waiting 30s
+00:57:22    429 from https://www.tiendalacomarca.cl/collections/magic-the-gathering-singles/products.json: waiting 30s
+00:57:52    FAILED Tienda La Comarca: HTTP 429 three times: stopping this store
+00:57:52  Store 6/8: Oasis Games (shopify)
+00:57:53    429 from https://www.oasisgames.cl/collections/mtg-singles-instock.json: waiting 30s
+00:58:23    429 from https://www.oasisgames.cl/collections/mtg-singles-instock.json: waiting 30s
+00:58:53    no product count (HTTP 429 three times: stopping this store); ETA unknown
+00:58:54    429 from https://www.oasisgames.cl/collections/mtg-singles-instock/products.json: waiting 30s
+00:59:24    429 from https://www.oasisgames.cl/collections/mtg-singles-instock/products.json: waiting 30s
+00:59:54    FAILED Oasis Games: HTTP 429 three times: stopping this store
+00:59:54  Store 7/8: Piedra Bruja (shopify)
+00:59:55    429 from https://piedrabruja.cl/collections/single-mtg.json: waiting 30s
+01:00:25    429 from https://piedrabruja.cl/collections/single-mtg.json: waiting 30s
+01:00:55    no product count (HTTP 429 three times: stopping this store); ETA unknown
+01:00:56    429 from https://piedrabruja.cl/collections/single-mtg/products.json: waiting 30s
+01:01:27    429 from https://piedrabruja.cl/collections/single-mtg/products.json: waiting 30s
+01:01:57    FAILED Piedra Bruja: HTTP 429 three times: stopping this store
+01:01:57  Store 8/8: AFK Store (shopify)
+01:01:58    429 from https://www.afkstore.cl/collections/singles-mtg.json: waiting 30s
+01:02:28    429 from https://www.afkstore.cl/collections/singles-mtg.json: waiting 30s
+01:02:58    no product count (HTTP 429 three times: stopping this store); ETA unknown
+01:02:59    429 from https://www.afkstore.cl/collections/singles-mtg/products.json: waiting 30s
+01:03:29    429 from https://www.afkstore.cl/collections/singles-mtg/products.json: waiting 30s
+01:03:59    FAILED AFK Store: HTTP 429 three times: stopping this store
+01:03:59  Done: 5449 offers. Wrote data/prices/20261017T0331Z.json and .summary.txt
