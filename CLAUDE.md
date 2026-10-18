@@ -163,8 +163,10 @@ a vehicle for learning modern AI tooling.
   handles (the "Users" page lists deck-host users); the score comes from hard-coded rules, no AI at submission
   (FAQ); a Discord bot `/check <deck URL>` gives bracket and Game Changers only. Moxfield's terms could not be
   fetched (HTTP 403); read in the browser on 2026-10-18 (moxfield.com/help/terms, section 4c): robots, spiders
-  or any automatic means to access the site are barred without Moxfield's approval, so Moxfield is used by hand
-  only (never driven by Claude). A Salt account attributes decks only from linked Moxfield, Archidekt, TappedOut
+  or any automatic means to access the site are barred without Moxfield's approval. Owner decision (2026-10-18):
+  he accepts that risk for his own account, so Claude may drive Moxfield in his signed-in Chrome to host the lists
+  for scoring, one deck at a time, at human pace, never signing in or registering for him and never scraping. Do not
+  read other deck hosts' terms. A Salt account attributes decks only from linked Moxfield, Archidekt, TappedOut
   or MythicHub profiles (a ManaBox link stays "unknown author").
   marketplace.scry.cl is a marketplace with private sellers and lists only one of the 7 stores
   (CardNexus, 0 stock): not a price source.

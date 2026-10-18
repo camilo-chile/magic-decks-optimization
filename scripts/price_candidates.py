@@ -9,10 +9,10 @@ Spellbook caches, the merged prices (data/prices/merged-*.json), the inventory
                                (cheapest offer per card, owned copies free), cards with no stock, the shipping
                                the purchase would need, and the locked cards the list already holds
   pool-<slug>.json             per deck, every card the expert may use: the candidates' cards, the Upgrades
-                               picks and the owner's own cards that fit the color identity, each with mana
-                               cost, rules text, owned copies, cheapest offer and number of stores with stock.
-                               Only these cards have a price: the store reading (Phase 7) searched the 626 cards
-                               of the measured lists and the Upgrades picks, not whole catalogs
+                               picks, the owner's own cards and every priced card that fits the color identity,
+                               each with mana cost, rules text, owned copies, cheapest offer and number of stores
+                               with stock. Only these cards have a price: the store reading (Phase 7) searched the
+                               626 cards of the measured lists and the Upgrades picks, not whole catalogs
 
 Cost is a hint: stock and price are verified in Phase 9. Power is the site's score of that exact list;
 a list changed in the next step has no power until it is scored on Commander Salt.
@@ -131,6 +131,10 @@ def build_pool(slug, identity, listings, cards, index, owned, offers, locked):
         card = by_oid.get(oid)
         if card and am.fits_identity(card, identity):
             members.setdefault(oid, {"lists": []})["owned_fit"] = True
+    for oid in offers:  # every priced card that fits, also those that only another deck's lists asked for
+        card = by_oid.get(oid)
+        if card and am.fits_identity(card, identity):
+            members.setdefault(oid, {"lists": []})
     out = []
     for oid, info in members.items():
         card = by_oid.get(oid)

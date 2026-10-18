@@ -27,7 +27,7 @@ scores 6.5, above the friend's 6.1) and Alexios may not reach 6.1 at the lowest 
 | Every file the brief names exists | Fixed two paths: the candidates README is `decks/candidates/README.md` (not per deck) and the Upgrades picks sit in `decks/candidates/<slug>/meta-staples-bracket3.md` |
 | Pool fields match the brief | Yes (`lists` and `meta_pct` appear only on cards that have them). Added `mana_cost` and `oracle_text` so the expert reads the real rules text of the 2025-26 cards instead of relying on memory |
 | `ladder.py` runs the way the brief says | Yes, 5 s per run (the owner's Azula list as a zero-swap ladder: cost 0, floor 1); a dozen verifier runs cost seconds and only the printed lines count as tokens |
-| Price coverage | **Limit found.** Phase 7 searched the 626 cards of the measured lists and the Upgrades picks, not whole catalogs (the stores' tens of thousands of products were seen and filtered). Priced purchasable cards: Azula 443, Toph 223, Alexios 287 (owned and usable: 389, 394, 158). A cheap card that fits the deck but is in no top list has no price |
+| Price coverage | **Limit found.** Phase 7 searched the 626 cards of the measured lists and the Upgrades picks, not whole catalogs (the stores' tens of thousands of products were seen and filtered). Priced purchasable cards: Azula 443, Toph 442 (green-red-white), Alexios 287 (owned and usable: 389, 394, 158); the pool holds all of them (a first version of the pool left out the priced cards that only another deck's lists had asked for: 162, 189 and 89 cards). A cheap card that fits the deck but is in no top list has no price |
 | What that costs in accuracy | Little for power (Commander Salt rewards the cards the top lists play, and the owner's own collection fills the free base) but it can hide cheap on-theme role players, mostly for Alexios. Mitigation below: a wishlist priced afterwards and the same agent continued with `SendMessage` (its context is kept, so round 2 costs a fraction of round 1) |
 | Nested ladder | Accepted trade-off: a purchase path is nested by nature (you buy in order), so the optimum at one budget can differ slightly from base plus the first swaps. Cheaper than six independent builds and the checkpoints are exact lists |
 
@@ -134,10 +134,13 @@ conflicts (the same owned card wanted by two decks, locked cards in no deck, car
 picks one checkpoint per deck for each budget; the lists it picks are scored on Commander Salt (the owner hosts each
 list as a Moxfield link, Claude submits it to Commander Salt and reads the result); then the curve and the dashboard.
 
-### How many lists the owner hosts by hand
+### How many lists are hosted for scoring, and by whom
 Parity needs the power of every checkpoint the optimizer may combine, so the first pass scores a coarse grid:
 Toph 0, 25,000 and 40,000 (3), Azula 0, 50,000, 100,000 and 150,000 (4), Alexios 0, 50,000, 100,000, 150,000 and
 200,000 (5): **12 lists**. A second pass adds at most 3 to 6 finer checkpoints where the parity choice is ambiguous:
-**at most 18 in total**, about 2 minutes each (paste the text into Moxfield, public or unlisted), 25 to 35 minutes.
-Claude prepares one file with every list ready to paste. Moxfield and Archidekt terms bar automatic access, so this
-step stays manual.
+**at most 18 in total**. Owner decision (2026-10-18): Claude hosts them in the owner's Moxfield account (his
+signed-in Chrome, one deck at a time, unlisted), submits each link to Commander Salt and reads the result; the
+owner only creates the account and signs in. Accuracy control: after each import, Claude checks that the deck has
+100 cards and no unrecognized names, and compares the "Export list" of the Salt page with the list file. Validated
+on 2026-10-18 with the owner's two lists: Toph 6.5 and Azula 4.0 on Moxfield, identical to the ManaBox
+measurements, and the cards Salt scored hash identically to our files (`decks/reports/moxfield-validation-20261018.md`).

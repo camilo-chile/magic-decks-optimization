@@ -174,6 +174,63 @@
    "owned_fit": true
   },
   {
+   "name": "All Will Be One",
+   "oracle_id": "477374dc-042c-48f7-9ebe-99c15d8ae04f",
+   "type": "Enchantment",
+   "cmc": 5.0,
+   "mana_cost": "{3}{R}{R}",
+   "oracle_text": "Whenever you put one or more counters on a permanent or player, this enchantment deals that much damage to target opponent, creature an opponent controls, or planeswalker an opponent controls.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 21500,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
+  },
+  {
+   "name": "All-Fates Scroll",
+   "oracle_id": "cef5361a-a189-4e05-a8b8-fc764aed73b9",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "{T}: Add one mana of any color.\n{7}, {T}, Sacrifice this artifact: Draw X cards, where X is the number of differently named lands you control.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 350,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
+  },
+  {
+   "name": "Amulet of Vigor",
+   "oracle_id": "dba16032-66c1-4ccb-9d65-d41ac550d182",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "mana_cost": "{1}",
+   "oracle_text": "Whenever a permanent you control enters tapped, untap it.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 52250,
+    "store": "oasis",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6
+  },
+  {
    "name": "Ancient Tomb",
    "oracle_id": "23467047-6dba-4498-b783-1ebc4f74b8c2",
    "type": "Land",
@@ -259,6 +316,25 @@
    "owned_fit": true
   },
   {
+   "name": "Arcbound Ravager",
+   "oracle_id": "62e7e7b1-9887-4d15-b0e5-a8ddc711bd88",
+   "type": "Artifact Creature — Beast",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "Sacrifice an artifact: Put a +1/+1 counter on this creature.\nModular 1 (This creature enters with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2990,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7
+  },
+  {
    "name": "Arena of Glory",
    "oracle_id": "63dfe794-5f56-41ec-9883-5523b41cc3e0",
    "type": "Land",
@@ -280,6 +356,44 @@
     "40b377d5",
     "91a1a44e"
    ]
+  },
+  {
+   "name": "Arid Mesa",
+   "oracle_id": "c5acf2a5-40f4-433d-a74d-1cb56c521464",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 32880,
+    "store": "gameofmagic",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
+  },
+  {
+   "name": "Ashling, Flame Dancer",
+   "oracle_id": "6fe9fd59-9cac-4572-8f94-bc19bea44f94",
+   "type": "Legendary Creature — Elemental Shaman",
+   "cmc": 4.0,
+   "mana_cost": "{2}{R}{R}",
+   "oracle_text": "You don't lose unspent red mana as steps and phases end.\nMagecraft — Whenever you cast or copy an instant or sorcery spell, discard a card, then draw a card. If this is the second time this ability has resolved this turn, Ashling deals 2 damage to each opponent and each creature they control. If it's the third time, add {R}{R}{R}{R}.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 15490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
   },
   {
    "name": "Banefire",
@@ -310,6 +424,25 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "Baxter Building",
+   "oracle_id": "71bc69a5-7cec-4abd-b97d-13f8e1f9afac",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{4}, {T}: Add four mana in any combination of colors.\n{4}, {T}: Draw a card. Activate only if you control a creature with toughness 4 or greater.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 3
   },
   {
    "name": "Beamtown Beatstick",
@@ -480,6 +613,44 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "Blazing Firesinger // Seething Song",
+   "oracle_id": "1bf505a7-292e-4642-83b6-8ff41ebe5d51",
+   "type": "Creature — Dwarf Bard // Instant",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R} // {2}{R}",
+   "oracle_text": "This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.) // Add {R}{R}{R}{R}{R}.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 690,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1
+  },
+  {
+   "name": "Bloodstained Mire",
+   "oracle_id": "fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 27990,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
   },
   {
    "name": "Boar-q-pine",
@@ -927,6 +1098,25 @@
    "owned_fit": true
   },
   {
+   "name": "Chromatic Lantern",
+   "oracle_id": "539f5396-d99a-417d-a84c-dff7930b5900",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "Lands you control have \"{T}: Add one mana of any color.\"\n{T}: Add one mana of any color.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 600,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6
+  },
+  {
    "name": "Chromatic Star",
    "oracle_id": "fedbd40b-e3a5-449c-a8a3-b42e9da191a9",
    "type": "Artifact",
@@ -940,6 +1130,25 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "City of Brass",
+   "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 15990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
   },
   {
    "name": "City of Traitors",
@@ -1147,6 +1356,25 @@
    "owned_fit": true
   },
   {
+   "name": "Cosmic Cube",
+   "oracle_id": "0866a630-d962-4aa9-a15f-08b2947540ef",
+   "type": "Artifact",
+   "cmc": 5.0,
+   "mana_cost": "{5}",
+   "oracle_text": "Ward {2}\nWhenever you attack, look at the top six cards of your library. You may cast a spell from among them with mana value less than or equal to the greatest power among attacking creatures you control without paying its mana cost. Put the rest on the bottom of your library in a random order.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 9200,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
    "name": "Count on Luck",
    "oracle_id": "73ad7bcd-4ffc-442c-b6b5-d935b9ccaaaf",
    "type": "Enchantment",
@@ -1167,6 +1395,25 @@
    "lists": [
     "f4b8cc3a"
    ]
+  },
+  {
+   "name": "Crackle with Power",
+   "oracle_id": "273f5483-b67e-4dd6-bba8-c0a047fa34d7",
+   "type": "Sorcery",
+   "cmc": 2.0,
+   "mana_cost": "{X}{X}{X}{R}{R}",
+   "oracle_text": "Crackle with Power deals five times X damage to each of up to X targets.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 11600,
+    "store": "paytowin",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
   },
   {
    "name": "Crawlspace",
@@ -1204,6 +1451,44 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "Crimson Wisps",
+   "oracle_id": "e699d140-eb13-4f15-aecb-85c76e8b1b14",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{R}",
+   "oracle_text": "Target creature becomes red and gains haste until end of turn. (It can attack and {T} this turn.)\nDraw a card.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 61600,
+    "store": "paytowin",
+    "language": "es",
+    "finish": "foil"
+   },
+   "stores_with_stock": 1
+  },
+  {
+   "name": "Crucible of Worlds",
+   "oracle_id": "33c722cf-b4bf-431f-aefd-ee96241a7fbf",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "You may play lands from your graveyard.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 32680,
+    "store": "gameofmagic",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
   },
   {
    "name": "Cunning Maneuver",
@@ -1346,6 +1631,44 @@
    "owned_fit": true
   },
   {
+   "name": "Delayed Blast Fireball",
+   "oracle_id": "99915b5a-5092-4900-8824-6de2aab1b2c1",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{1}{R}{R}",
+   "oracle_text": "Delayed Blast Fireball deals 2 damage to each opponent and each creature they control. If this spell was cast from exile, it deals 5 damage to each opponent and each creature they control instead.\nForetell {4}{R}{R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 15000,
+    "store": "afkstore",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
+   "name": "Demand Answers",
+   "oracle_id": "c11e84a1-dbda-429b-8cd6-fd0deaefc689",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "As an additional cost to cast this spell, sacrifice an artifact or discard a card.\nDraw two cards.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1590,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1
+  },
+  {
    "name": "Demolition Field",
    "oracle_id": "93953926-a644-49bb-9b5a-4c8f19114c7e",
    "type": "Land",
@@ -1427,6 +1750,25 @@
    ]
   },
   {
+   "name": "Dolmen Gate",
+   "oracle_id": "d53d000f-c92f-4d70-ae60-8be3791da8a2",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "Prevent all combat damage that would be dealt to attacking creatures you control.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 27800,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
+  },
+  {
    "name": "Dragon Moose",
    "oracle_id": "4a678c6f-5a93-4a3b-80fd-4c0d0f9040c9",
    "type": "Creature — Dragon Elk",
@@ -1462,6 +1804,25 @@
    "lists": [
     "ec03cc3a"
    ]
+  },
+  {
+   "name": "Dualcaster Mage",
+   "oracle_id": "8eb7c0a5-6190-40de-b473-2d1daa3bbe28",
+   "type": "Creature — Human Wizard",
+   "cmc": 3.0,
+   "mana_cost": "{1}{R}{R}",
+   "oracle_text": "Flash\nWhen this creature enters, copy target instant or sorcery spell. You may choose new targets for the copy.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 6200,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
   },
   {
    "name": "Dwarven Mauler",
@@ -1501,6 +1862,25 @@
    "lists": [
     "ec03cc3a"
    ]
+  },
+  {
+   "name": "Eldrazi Monument",
+   "oracle_id": "c7ee1b21-d02e-49ef-95d6-d6dbf2f886ae",
+   "type": "Artifact",
+   "cmc": 5.0,
+   "mana_cost": "{5}",
+   "oracle_text": "Creatures you control get +1/+1 and have flying and indestructible.\nAt the beginning of your upkeep, sacrifice a creature. If you can't, sacrifice this artifact.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 11240,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1
   },
   {
    "name": "Electro, Assaulting Battery",
@@ -1573,6 +1953,44 @@
    "owned_fit": true
   },
   {
+   "name": "Emergence Zone",
+   "oracle_id": "7536eb66-959d-4dca-9b75-895572ef733c",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{1}, {T}, Sacrifice this land: You may cast spells this turn as though they had flash.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 4490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
+   "name": "Energy Refractor",
+   "oracle_id": "fd9dde4c-bacd-48d8-b4c9-a6a04f0b3338",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "When this artifact enters, draw a card.\n{2}: Add one mana of any color.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 500,
+    "store": "oasis",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
+  },
+  {
    "name": "Energybending",
    "oracle_id": "c4c1e49d-5f14-486c-acf2-1952512b12b2",
    "type": "Instant — Lesson",
@@ -1610,6 +2028,25 @@
    ]
   },
   {
+   "name": "Etali, Primal Storm",
+   "oracle_id": "078def07-ae5d-4591-8db6-d156834aab97",
+   "type": "Legendary Creature — Elder Dinosaur",
+   "cmc": 6.0,
+   "mana_cost": "{4}{R}{R}",
+   "oracle_text": "Whenever Etali attacks, exile the top card of each player's library, then you may cast any number of spells from among those cards without paying their mana costs.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 890,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
    "name": "Evolving Wilds",
    "oracle_id": "a75445d3-1303-4bb5-89ad-26ea93fecd48",
    "type": "Land",
@@ -1630,6 +2067,25 @@
    "owned_fit": true
   },
   {
+   "name": "Exotic Orchard",
+   "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 500,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7
+  },
+  {
    "name": "Expedite",
    "oracle_id": "3501a839-eef5-44e4-8637-b5754780454e",
    "type": "Instant",
@@ -1643,6 +2099,44 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "Expedition Map",
+   "oracle_id": "8fcf50cd-e6d0-4516-850f-d42ee75dcc3a",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "mana_cost": "{1}",
+   "oracle_text": "{2}, {T}, Sacrifice this artifact: Search your library for a land card, reveal it, put it into your hand, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1400,
+    "store": "gameofmagic",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
+  },
+  {
+   "name": "Experimental Synthesizer",
+   "oracle_id": "11db299a-0918-46a3-b39b-16acc3f4e281",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "mana_cost": "{R}",
+   "oracle_text": "When this artifact enters or leaves the battlefield, exile the top card of your library. Until end of turn, you may play that card.\n{2}{R}, Sacrifice this artifact: Create a 2/2 white Samurai creature token with vigilance. Activate only as a sorcery.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 650,
+    "store": "lacomarca",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
   },
   {
    "name": "Explosive Shot",
@@ -1722,6 +2216,44 @@
    "owned_fit": true
   },
   {
+   "name": "Fated Firepower",
+   "oracle_id": "13daa21c-278d-45bd-9a6e-a77d6a558453",
+   "type": "Enchantment",
+   "cmc": 3.0,
+   "mana_cost": "{X}{R}{R}{R}",
+   "oracle_text": "Flash\nThis enchantment enters with X fire counters on it.\nIf a source you control would deal damage to an opponent or a permanent an opponent controls, it deals that much damage plus an amount of damage equal to the number of fire counters on this enchantment instead.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 18920,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
+  },
+  {
+   "name": "Fateful Showdown",
+   "oracle_id": "729b7ce8-7e7f-4db9-b3ce-67aba46a7b0d",
+   "type": "Instant",
+   "cmc": 4.0,
+   "mana_cost": "{2}{R}{R}",
+   "oracle_text": "Fateful Showdown deals damage to any target equal to the number of cards in your hand. Discard all the cards in your hand, then draw that many cards.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 500,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
+  },
+  {
    "name": "Fellwar Stone",
    "oracle_id": "95560508-7ac9-4be9-8a3f-3c7d5b52807b",
    "type": "Artifact",
@@ -1742,6 +2274,25 @@
    "lists": [
     "f4b8cc3a"
    ]
+  },
+  {
+   "name": "Field of the Dead",
+   "oracle_id": "aa959340-c869-4caa-92c7-572bd8d23eef",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\n{T}: Add {C}.\nWhenever this land or another land you control enters, if you control seven or more lands with different names, create a 2/2 black Zombie creature token.",
+   "game_changer": true,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 27990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7
   },
   {
    "name": "Fiendish Duo",
@@ -1936,6 +2487,25 @@
    "owned_fit": true
   },
   {
+   "name": "Firebending Student",
+   "oracle_id": "1ad3be51-f68b-46d6-b58e-400b50e384f1",
+   "type": "Creature — Human Monk",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nFirebending X, where X is this creature's power. (Whenever this creature attacks, add X {R}. This mana lasts until end of combat.)",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 790,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 4
+  },
+  {
    "name": "Fishing Gear",
    "oracle_id": "7d309b18-8dc5-41ee-888c-e275761029e7",
    "type": "Artifact — Equipment",
@@ -1976,6 +2546,44 @@
    },
    "stores_with_stock": 3,
    "owned_fit": true
+  },
+  {
+   "name": "Flashback",
+   "oracle_id": "02070488-9203-4304-9392-a111d20218c5",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{R}",
+   "oracle_text": "Target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 4990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
+  },
+  {
+   "name": "Flooded Strand",
+   "oracle_id": "f3c7af78-a77d-4134-82a2-a5ce84285a84",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 21990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
   },
   {
    "name": "Flywheel Racer",
@@ -2160,6 +2768,25 @@
    ]
   },
   {
+   "name": "Gateway Plaza",
+   "oracle_id": "a6543f71-0326-4e1f-b58f-9ce325d5d036",
+   "type": "Land — Gate",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\nWhen this land enters, sacrifice it unless you pay {1}.\n{T}: Add one mana of any color.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
+  },
+  {
    "name": "Geier Reach Sanitarium",
    "oracle_id": "7b9fafe7-d26a-4ed5-b4c4-ce13763770b5",
    "type": "Legendary Land",
@@ -2182,6 +2809,25 @@
    ]
   },
   {
+   "name": "Gemstone Caverns",
+   "oracle_id": "c0adbddc-b070-4c5f-afe0-0474c72a9251",
+   "type": "Legendary Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "If this card is in your opening hand and you're not the starting player, you may begin the game with Gemstone Caverns on the battlefield with a luck counter on it. If you do, exile a card from your hand.\n{T}: Add {C}. If Gemstone Caverns has a luck counter on it, instead add one mana of any color.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 81400,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
    "name": "Genji Glove",
    "oracle_id": "8242cd78-6675-43b5-8924-0a88c3aa6f76",
    "type": "Artifact — Equipment",
@@ -2202,6 +2848,25 @@
    "lists": [
     "91a1a44e"
    ]
+  },
+  {
+   "name": "Getaway Barrel",
+   "oracle_id": "7ddbf891-7f80-44e9-b94c-70c1da0b91ed",
+   "type": "Artifact",
+   "cmc": 4.0,
+   "mana_cost": "{3}{R}",
+   "oracle_text": "When this artifact is put into a graveyard from the battlefield, reveal the top thirteen cards of your library. Put a random creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 482,
+    "store": "piedrabruja",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 5
   },
   {
    "name": "Gilgamesh, Master-at-Arms",
@@ -2331,6 +2996,25 @@
    ]
   },
   {
+   "name": "Great Furnace",
+   "oracle_id": "f4819061-b0b5-48ab-af7b-6525c3d2eab7",
+   "type": "Artifact Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {R}.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 3440,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6
+  },
+  {
    "name": "Grim Reaper's Sprint",
    "oracle_id": "99a6d7fe-40a1-4f2f-a3f6-6777884d5d1a",
    "type": "Enchantment — Aura",
@@ -2351,6 +3035,25 @@
    "lists": [
     "40b377d5"
    ]
+  },
+  {
+   "name": "Guttersnipe",
+   "oracle_id": "c6bdaf76-6a03-4695-9c4b-f040e73435af",
+   "type": "Creature — Goblin Shaman",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "Whenever you cast an instant or sorcery spell, this creature deals 2 damage to each opponent.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 700,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
   },
   {
    "name": "Hammer of Nazahn",
@@ -2397,6 +3100,25 @@
    "lists": [
     "91a1a44e"
    ]
+  },
+  {
+   "name": "Haste Magic",
+   "oracle_id": "5249dd0d-3bda-452e-ac6e-774c0ebc2e41",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Target creature gets +3/+1 and gains haste until end of turn. Exile the top card of your library. You may play it until your next end step.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 4
   },
   {
    "name": "Haunted Cloak",
@@ -2610,6 +3332,25 @@
    ]
   },
   {
+   "name": "Increasing Vengeance",
+   "oracle_id": "a5ca7bd9-0964-405f-adb9-7c27153595e6",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{R}{R}",
+   "oracle_text": "Copy target instant or sorcery spell you control. If this spell was cast from a graveyard, copy that spell twice instead. You may choose new targets for the copies.\nFlashback {3}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2400,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1
+  },
+  {
    "name": "Infiltration Lens",
    "oracle_id": "72dfd729-ebba-4bb1-83eb-54c2051fea3b",
    "type": "Artifact — Equipment",
@@ -2631,6 +3372,25 @@
     "40b377d5",
     "f4b8cc3a"
    ]
+  },
+  {
+   "name": "Instant Ramen",
+   "oracle_id": "2283e409-c6c7-4de9-899b-2b3caea5f35e",
+   "type": "Artifact — Food",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "Flash\nWhen this artifact enters, draw a card.\n{2}, {T}, Sacrifice this artifact: You gain 3 life.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 450,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
   },
   {
    "name": "Inti, Seneschal of the Sun",
@@ -2678,6 +3438,25 @@
    ]
   },
   {
+   "name": "Invoke Calamity",
+   "oracle_id": "5b3f041e-ad4a-47ea-bdc4-1be2353f2e18",
+   "type": "Instant",
+   "cmc": 5.0,
+   "mana_cost": "{1}{R}{R}{R}{R}",
+   "oracle_text": "You may cast up to two instant and/or sorcery spells with total mana value 6 or less from your graveyard and/or hand without paying their mana costs. If those spells would be put into your graveyard, exile them instead. Exile Invoke Calamity.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 900,
+    "store": "oasis",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
    "name": "Iroh, Firebending Instructor",
    "oracle_id": "8e03797d-dd61-439f-b4ce-996cd71bdcf5",
    "type": "Legendary Creature — Human Noble Ally",
@@ -2713,6 +3492,25 @@
    "lists": [
     "f4b8cc3a"
    ]
+  },
+  {
+   "name": "Isochron Scepter",
+   "oracle_id": "ddd649f4-dbaf-48ec-8ff7-95581257772d",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "Imprint — When this artifact enters, you may exile an instant card with mana value 2 or less from your hand.\n{2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 14360,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
   },
   {
    "name": "Jeska's Will",
@@ -2903,6 +3701,44 @@
    "owned_fit": true
   },
   {
+   "name": "Koth, the Geomancer",
+   "oracle_id": "3b17da84-ae4d-4fc1-a327-85e54e6156c6",
+   "type": "Legendary Creature — Human Warrior",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "Reach\nLandfall — Whenever a land you control enters, Koth deals 1 damage to each opponent. If that land is a Mountain, add {R}.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1
+  },
+  {
+   "name": "Krosan Verge",
+   "oracle_id": "d9a10971-f32b-4978-952d-fed0a5bc9e36",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\n{T}: Add {C}.\n{2}, {T}, Sacrifice this land: Search your library for a Forest card and a Plains card, put them onto the battlefield tapped, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
+  },
+  {
    "name": "Kyoshi Battle Fan",
    "oracle_id": "849e54f9-7662-4186-859c-e4f52afbccac",
    "type": "Artifact — Equipment",
@@ -2951,6 +3787,25 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "Lembas",
+   "oracle_id": "f71fcdc3-5e96-416e-a49d-37019806e2e2",
+   "type": "Artifact — Food",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "When this artifact enters, scry 1, then draw a card.\n{2}, {T}, Sacrifice this artifact: You gain 3 life.\nWhen this artifact is put into a graveyard from the battlefield, its owner shuffles it into their library.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1300,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
   },
   {
    "name": "Lightning Axe",
@@ -3034,6 +3889,63 @@
    "owned_fit": true
   },
   {
+   "name": "Liquimetal Coating",
+   "oracle_id": "f4bdc551-c2eb-4a34-a3e3-b4a017c925af",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{T}: Target permanent becomes an artifact in addition to its other types until end of turn.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
+  },
+  {
+   "name": "Liquimetal Torque",
+   "oracle_id": "b7d4b7dd-fbb1-4ca3-875f-ef13a95e66ad",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{T}: Add {C}.\n{T}: Target nonland permanent becomes an artifact in addition to its other types until end of turn.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2830,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
+  },
+  {
+   "name": "Lithoform Engine",
+   "oracle_id": "0bf299da-1854-4153-baea-3cee2eb01ee8",
+   "type": "Legendary Artifact",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "{2}, {T}: Copy target activated or triggered ability you control. You may choose new targets for the copy.\n{3}, {T}: Copy target instant or sorcery spell you control. You may choose new targets for the copy.\n{4}, {T}: Copy target permanent spell you control. (The copy becomes a token.)",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 6960,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
+  },
+  {
    "name": "Lizard Blades",
    "oracle_id": "f6314e50-a610-4fff-8f60-803d23460ff0",
    "type": "Artifact Creature — Equipment Lizard",
@@ -3055,6 +3967,25 @@
     "91a1a44e",
     "ec03cc3a"
    ]
+  },
+  {
+   "name": "Lotus Field",
+   "oracle_id": "134d5b82-7940-4b33-a922-7f9d1f403e50",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "Hexproof\nThis land enters tapped.\nWhen this land enters, sacrifice two lands.\n{T}: Add three mana of any one color.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2980,
+    "store": "oasis",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7
   },
   {
    "name": "Lotus Petal",
@@ -3114,6 +4045,25 @@
    "lists": [
     "40b377d5"
    ]
+  },
+  {
+   "name": "Maestros Theater",
+   "oracle_id": "9464ddf2-4bcb-44f6-b945-89a132544de6",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "When this land enters, sacrifice it. When you do, search your library for a basic Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle and you gain 1 life.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 550,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
   },
   {
    "name": "Magda, Brazen Outlaw",
@@ -3222,6 +4172,44 @@
    ]
   },
   {
+   "name": "Marketback Walker",
+   "oracle_id": "0405e0a9-6d02-4691-bdb8-59c72b824dab",
+   "type": "Artifact Creature — Construct",
+   "cmc": 0.0,
+   "mana_cost": "{X}{X}",
+   "oracle_text": "This creature enters with X +1/+1 counters on it.\n{4}: Put a +1/+1 counter on this creature.\nWhen this creature dies, draw a card for each +1/+1 counter on it.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 500,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
+  },
+  {
+   "name": "Marsh Flats",
+   "oracle_id": "dab520d0-20b4-4273-ba6b-eb07f85ea433",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 37300,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6
+  },
+  {
    "name": "Mask of Memory",
    "oracle_id": "d6b2c998-a226-426c-a40d-6e6007041bfe",
    "type": "Artifact — Equipment",
@@ -3313,6 +4301,25 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "Might of the Meek",
+   "oracle_id": "19b5c94b-b4fa-41a9-b649-51c4e6f03602",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{R}",
+   "oracle_text": "Target creature gains trample until end of turn. It also gets +1/+0 until end of turn if you control a Mouse.\nDraw a card.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 2
   },
   {
    "name": "Mind Stone",
@@ -3414,6 +4421,25 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "Misty Rainforest",
+   "oracle_id": "09dd85aa-47bc-4713-a9b9-8b52ff2285ed",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 44320,
+    "store": "gameofmagic",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
   },
   {
    "name": "Mithril Coat",
@@ -3565,6 +4591,25 @@
    "lists": [
     "91a1a44e"
    ]
+  },
+  {
+   "name": "Mycosynth Lattice",
+   "oracle_id": "ae1f2ab5-c6a5-4d49-a746-3cb4668bf805",
+   "type": "Artifact",
+   "cmc": 6.0,
+   "mana_cost": "{6}",
+   "oracle_text": "All permanents are artifacts in addition to their other types.\nAll cards that aren't on the battlefield, spells, and permanents are colorless.\nPlayers may spend mana as though it were mana of any color.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 35950,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
   },
   {
    "name": "Mycosynth Wellspring",
@@ -3755,6 +4800,25 @@
    ]
   },
   {
+   "name": "Past in Flames",
+   "oracle_id": "37a18736-5fe2-4897-809b-013497bdd890",
+   "type": "Sorcery",
+   "cmc": 4.0,
+   "mana_cost": "{3}{R}",
+   "oracle_text": "Each instant and sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.\nFlashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2990,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
+  },
+  {
    "name": "Path of Ancestry",
    "oracle_id": "b473e293-59e3-4e04-acf2-622604aeb25f",
    "type": "Land",
@@ -3773,6 +4837,25 @@
    },
    "stores_with_stock": 5,
    "owned_fit": true
+  },
+  {
+   "name": "Peter Parker's Camera",
+   "oracle_id": "10777360-c046-43e3-ab44-9d0b926fbbf8",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "mana_cost": "{1}",
+   "oracle_text": "This artifact enters with three film counters on it.\n{2}, {T}, Remove a film counter from this artifact: Copy target activated or triggered ability you control. You may choose new targets for the copy.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2600,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1
   },
   {
    "name": "Pinnacle Monk // Mystic Peak",
@@ -3854,6 +4937,25 @@
    "owned_fit": true
   },
   {
+   "name": "Polluted Delta",
+   "oracle_id": "ef86989d-ce80-4e55-aece-7d11710eeffa",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 26990,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6
+  },
+  {
    "name": "Powerbalance",
    "oracle_id": "8be368dc-6212-4627-989e-077eea78f30d",
    "type": "Enchantment",
@@ -3889,6 +4991,25 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "Prized Statue",
+   "oracle_id": "681fc668-cb26-4ba4-a915-48ddfa2b9520",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "When this artifact enters or is put into a graveyard from the battlefield, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 400,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1
   },
   {
    "name": "Professional Face-Breaker",
@@ -4077,6 +5198,25 @@
    ]
   },
   {
+   "name": "Reckless Ransacking",
+   "oracle_id": "ebcd198e-7fbd-46e0-a6d9-ff499e541978",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Target creature gets +3/+2 until end of turn. Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 350,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
+  },
+  {
    "name": "Red Elemental Blast",
    "oracle_id": "bb329a5c-b9f9-4973-a53f-090024146325",
    "type": "Instant",
@@ -4213,6 +5353,25 @@
     "91a1a44e",
     "ec03cc3a"
    ]
+  },
+  {
+   "name": "Reverberate",
+   "oracle_id": "a1f55890-31c5-4ed4-a2cd-7a4a9f05f8ca",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{R}{R}",
+   "oracle_text": "Copy target instant or sorcery spell. You may choose new targets for the copy.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 3500,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
   },
   {
    "name": "Rite of Flame",
@@ -4380,6 +5539,25 @@
    "owned_fit": true
   },
   {
+   "name": "Rupture Spire",
+   "oracle_id": "7eadffcb-1e15-44c1-b1db-78c71b8ec1ce",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\nWhen this land enters, sacrifice it unless you pay {1}.\n{T}: Add one mana of any color.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6
+  },
+  {
    "name": "Sabotender",
    "oracle_id": "65385311-1158-4e94-892a-683997706ca8",
    "type": "Creature — Plant",
@@ -4415,6 +5593,44 @@
    "lists": [
     "91a1a44e"
    ]
+  },
+  {
+   "name": "Sazacap's Brew",
+   "oracle_id": "ac7d1986-8388-4e4c-973e-d90382b12acf",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Gift a tapped Fish (You may promise an opponent a gift as you cast this spell. If you do, they create a tapped 1/1 blue Fish creature token before its other effects.)\nAs an additional cost to cast this spell, discard a card.\nTarget player draws two cards. If the gift was promised, target creature you control gets +2/+0 until end of turn.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 500,
+    "store": "oasis",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
+   "name": "Scalding Tarn",
+   "oracle_id": "cb027150-848c-4a66-88ad-e20222304dd8",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 44000,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
   },
   {
    "name": "Scavenger Grounds",
@@ -4482,6 +5698,25 @@
     "91a1a44e",
     "f4b8cc3a"
    ]
+  },
+  {
+   "name": "Seize the Spoils",
+   "oracle_id": "58f83528-9110-4895-b5ea-51b90af30a8d",
+   "type": "Sorcery",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "As an additional cost to cast this spell, discard a card.\nDraw two cards and create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6
   },
   {
    "name": "Shatterskull Smashing // Shatterskull, the Hammer Pass",
@@ -4629,6 +5864,25 @@
    "owned_fit": true
   },
   {
+   "name": "Sleeper Dart",
+   "oracle_id": "1f1b6130-3f18-4989-922b-438e41d683da",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "When this artifact enters, draw a card.\n{T}, Sacrifice this artifact: Target creature doesn't untap during its controller's next untap step.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 450,
+    "store": "oasis",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
    "name": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
    "oracle_id": "fa716557-8e75-4617-8310-ab23a9ca1af1",
    "type": "Legendary Artifact Creature — Robot // Legendary Artifact — Vehicle",
@@ -4730,6 +5984,44 @@
    "owned_fit": true
   },
   {
+   "name": "Soul-Guide Lantern",
+   "oracle_id": "1b5e6560-ff2e-4475-96cb-63f64c8a86db",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "mana_cost": "{1}",
+   "oracle_text": "When this artifact enters, exile target card from a graveyard.\n{T}, Sacrifice this artifact: Exile each opponent's graveyard.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 590,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
+  },
+  {
+   "name": "Sozin's Comet",
+   "oracle_id": "bc0da02c-2b85-4ddc-9ce0-63934dd14164",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "mana_cost": "{3}{R}{R}",
+   "oracle_text": "Each creature you control gains firebending 5 until end of turn. (Whenever it attacks, add {R}{R}{R}{R}{R}. This mana lasts until end of combat.)\nForetell {2}{R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 4320,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
    "name": "Spartan Veteran",
    "oracle_id": "b255d1ec-49ac-49a2-9af8-21915bbcd224",
    "type": "Creature — Human Soldier",
@@ -4789,6 +6081,25 @@
    ]
   },
   {
+   "name": "Spitfire Lagac",
+   "oracle_id": "7215ca87-bbff-4c14-a1f5-de5ddd97c875",
+   "type": "Creature — Lizard",
+   "cmc": 4.0,
+   "mana_cost": "{3}{R}",
+   "oracle_text": "Landfall — Whenever a land you control enters, this creature deals 1 damage to each opponent.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7
+  },
+  {
    "name": "Sterling Hound",
    "oracle_id": "3178c1f9-f644-4926-ac9a-d40e4db79955",
    "type": "Artifact Creature — Dog",
@@ -4826,6 +6137,25 @@
    ]
   },
   {
+   "name": "Storm-Kiln Artist",
+   "oracle_id": "a145ff8c-5812-4bcb-bd16-9839dc25121d",
+   "type": "Creature — Dwarf Shaman",
+   "cmc": 4.0,
+   "mana_cost": "{3}{R}",
+   "oracle_text": "This creature gets +1/+0 for each artifact you control.\nMagecraft — Whenever you cast or copy an instant or sorcery spell, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 3590,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
    "name": "Stranglehold",
    "oracle_id": "b66c6e3a-daed-43a3-95d6-4f9d6223bbf1",
    "type": "Enchantment",
@@ -4846,6 +6176,25 @@
    "lists": [
     "f4b8cc3a"
    ]
+  },
+  {
+   "name": "Strionic Resonator",
+   "oracle_id": "cf751552-156f-4f81-ac94-9814dce099f9",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{2}, {T}: Copy target triggered ability you control. You may choose new targets for the copy. (A triggered ability uses the words \"when,\" \"whenever,\" or \"at.\")",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 7800,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
   },
   {
    "name": "Sundering Eruption // Volcanic Fissure",
@@ -4890,6 +6239,25 @@
    "lists": [
     "ec03cc3a"
    ]
+  },
+  {
+   "name": "Survey Mechan",
+   "oracle_id": "53745903-de8f-42cf-a949-842e5831de30",
+   "type": "Artifact Creature — Robot",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "Flying\nHexproof (This creature can't be the target of spells or abilities your opponents control.)\n{10}, Sacrifice this creature: It deals 3 damage to any target. Target player draws three cards and gains 3 life. This ability costs {X} less to activate, where X is the number of differently named lands you control.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
   },
   {
    "name": "Survivors' Encampment",
@@ -5102,6 +6470,25 @@
    ]
   },
   {
+   "name": "Tablet of Discovery",
+   "oracle_id": "19cf5798-4600-4a66-b1c7-de77bde157d0",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "When this artifact enters, mill a card. You may play that card this turn. (To mill a card, put the top card of your library into your graveyard.)\n{T}: Add {R}.\n{T}: Add {R}{R}. Spend this mana only to cast instant and sorcery spells.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2550,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
+  },
+  {
    "name": "Talon Gates of Madara",
    "oracle_id": "8c45bf9d-a017-43bf-9e32-67810a8a217b",
    "type": "Land — Gate",
@@ -5183,6 +6570,25 @@
    "owned_fit": true
   },
   {
+   "name": "Tezzeret, Cruel Captain",
+   "oracle_id": "0eb11b2d-a397-48da-a0f3-9f0f83f42282",
+   "type": "Legendary Planeswalker — Tezzeret",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "Whenever an artifact you control enters, put a loyalty counter on Tezzeret.\n0: Untap target artifact or creature. If it's an artifact creature, put a +1/+1 counter on it.\n−3: Search your library for an artifact card with mana value 1 or less, reveal it, put it into your hand, then shuffle.\n−7: You get an emblem with \"At the beginning of combat on your turn, put three +1/+1 counters on target artifact you control. If it's not a creature, it becomes a 0/0 Robot artifact creature.\"",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 29990,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1
+  },
+  {
    "name": "The Animus",
    "oracle_id": "7e0062fb-aff8-4c41-96eb-1af656d8b195",
    "type": "Legendary Artifact",
@@ -5226,6 +6632,25 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "The Echoverse Fulcrum",
+   "oracle_id": "c04197ad-d2f3-499f-b863-bed0c869519c",
+   "type": "Legendary Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "When The Echoverse Fulcrum enters, draw a card, then discard a card.\n{5}, {T}, Exile The Echoverse Fulcrum: Destroy all creatures. Activate only as a sorcery.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
   },
   {
    "name": "The Last Agni Kai",
@@ -5312,6 +6737,25 @@
    "lists": [
     "f4b8cc3a"
    ]
+  },
+  {
+   "name": "The Ozolith",
+   "oracle_id": "1946ded1-5f53-409f-b0a6-5433bb0357d2",
+   "type": "Legendary Artifact",
+   "cmc": 1.0,
+   "mana_cost": "{1}",
+   "oracle_text": "Whenever a creature you control leaves the battlefield, if it had counters on it, put those counters on The Ozolith.\nAt the beginning of combat on your turn, if The Ozolith has counters on it, you may move all counters from The Ozolith onto target creature.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 58990,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
   },
   {
    "name": "The Reaver Cleaver",
@@ -5568,6 +7012,25 @@
    "owned_fit": true
   },
   {
+   "name": "Tormod's Crypt",
+   "oracle_id": "1573f7f9-672c-421a-b1ac-3d0d8aea59ca",
+   "type": "Artifact",
+   "cmc": 0.0,
+   "mana_cost": "{0}",
+   "oracle_text": "{T}, Sacrifice this artifact: Exile target player's graveyard.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1560,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
+  },
+  {
    "name": "Towering Viewpoint",
    "oracle_id": "46c404c3-636a-4945-a61c-62f013a9c50f",
    "type": "Artifact Creature — Wall",
@@ -5720,6 +7183,25 @@
    ]
   },
   {
+   "name": "Twinning Staff",
+   "oracle_id": "3ca8113b-f5b8-41a7-aae6-ebb32554dfe3",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "If you would copy a spell one or more times, instead copy it that many times plus an additional time. You may choose new targets for the additional copy.\n{7}, {T}: Copy target instant or sorcery spell you control. You may choose new targets for the copy.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 16300,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
+  },
+  {
    "name": "Two-Handed Axe // Sweeping Cleave",
    "oracle_id": "b012cec9-2aff-4dfb-8db1-61e830c33926",
    "type": "Artifact — Equipment // Instant — Adventure",
@@ -5850,6 +7332,63 @@
    ]
   },
   {
+   "name": "Urabrask // The Great Work",
+   "oracle_id": "4b1da9aa-a30c-44b8-a10e-f9dc3fe70b6f",
+   "type": "Legendary Creature — Phyrexian Praetor // Enchantment — Saga",
+   "cmc": 4.0,
+   "mana_cost": "{2}{R}{R} // ",
+   "oracle_text": "First strike\nWhenever you cast an instant or sorcery spell, Urabrask deals 1 damage to target opponent. Add {R}.\n{R}: Exile Urabrask, then return it to the battlefield transformed under its owner's control. Activate only as a sorcery and only if you've cast three or more instant and/or sorcery spells this turn. // (As this Saga enters and after your draw step, add a lore counter.)\nI — This Saga deals 3 damage to target opponent and each creature they control.\nII — Create three Treasure tokens.\nIII — Until end of turn, you may cast instant and sorcery spells from any graveyard. If a spell cast this way would be put into a graveyard, exile it instead. Exile this Saga, then return it to the battlefield (front face up).",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 18000,
+    "store": "afkstore",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
+  },
+  {
+   "name": "Urborg, Tomb of Yawgmoth",
+   "oracle_id": "db6174d7-211d-4817-b8e4-8384594c83f9",
+   "type": "Legendary Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "Each land is a Swamp in addition to its other land types.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 58990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
+  },
+  {
+   "name": "Urza's Bauble",
+   "oracle_id": "17dbbca3-ac1c-4d4e-9618-3e66ac3ccd24",
+   "type": "Artifact",
+   "cmc": 0.0,
+   "mana_cost": "{0}",
+   "oracle_text": "{T}, Sacrifice this artifact: Look at a card at random in target player's hand. You draw a card at the beginning of the next turn's upkeep.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 4520,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
+  },
+  {
    "name": "Urza's Cave",
    "oracle_id": "4474ecee-0ec3-409b-90df-738d9313fe3c",
    "type": "Land — Urza's Cave",
@@ -5974,6 +7513,25 @@
    ]
   },
   {
+   "name": "Vedalken Orrery",
+   "oracle_id": "60d640a4-032b-4279-ac75-8f200ca776fb",
+   "type": "Artifact",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "You may cast spells as though they had flash.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 17990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
+  },
+  {
    "name": "Vexing Bauble",
    "oracle_id": "4514777d-0589-4631-978b-ff244167c176",
    "type": "Artifact",
@@ -6005,6 +7563,25 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "Vivi's Persistence",
+   "oracle_id": "fd4a1f4b-674d-41f3-a9a6-c2b65bf5c1ab",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Create a 0/1 black Wizard creature token with \"Whenever you cast a noncreature spell, this token deals 1 damage to each opponent.\"\nWhenever your commander enters or attacks, you may pay {2}. If you do, return this card from your graveyard to your hand.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 43000,
+    "store": "afkstore",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 1
   },
   {
    "name": "Volatile Fault",
@@ -6104,6 +7681,25 @@
    "owned_fit": true
   },
   {
+   "name": "Weather Maker",
+   "oracle_id": "4097fea2-ae34-4b99-ab7e-a276d608b489",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "Landfall — Whenever a land you control enters, put a charge counter on this artifact.\n{T}: Add one mana of any color.\n{T}, Remove two charge counters from this artifact: Add {C}{C}.\n{T}, Remove three charge counters from this artifact: It deals 3 damage to any target.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 500,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
+  },
+  {
    "name": "Wheel of Fortune",
    "oracle_id": "a8abd966-de7b-46a3-8ac7-8747ab35653a",
    "type": "Sorcery",
@@ -6198,6 +7794,25 @@
    ]
   },
   {
+   "name": "Windswept Heath",
+   "oracle_id": "29737a60-3ebd-40d9-b935-c4f54b90d45d",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Plains card, put it onto the battlefield, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 14700,
+    "store": "paytowin",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6
+  },
+  {
    "name": "Witch's Clinic",
    "oracle_id": "05899372-9784-4bdb-9c28-504c71fed906",
    "type": "Land",
@@ -6220,6 +7835,44 @@
    ]
   },
   {
+   "name": "Wooded Foothills",
+   "oracle_id": "6587a463-a108-4854-b6d1-944e89b8c8a4",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 26990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6
+  },
+  {
+   "name": "World Map",
+   "oracle_id": "51d4f95e-aad2-4e5f-9f15-a68bbdf9ab3e",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "mana_cost": "{1}",
+   "oracle_text": "{1}, {T}, Sacrifice this artifact: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\n{3}, {T}, Sacrifice this artifact: Search your library for a land card, reveal it, put it into your hand, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 450,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 4
+  },
+  {
    "name": "Wrenn's Resolve",
    "oracle_id": "a7d8c99c-cd44-4bad-82e6-7c7cff9bd89f",
    "type": "Sorcery",
@@ -6233,6 +7886,25 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "Yavimaya, Cradle of Growth",
+   "oracle_id": "8dd5f5af-d2d8-4356-8617-8381081b930c",
+   "type": "Legendary Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "Each land is a Forest in addition to its other land types.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 19990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
   },
   {
    "name": "Yuyan Archers",
@@ -6323,6 +7995,25 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "Zuko, Firebending Master",
+   "oracle_id": "33db6dc8-2c88-4a7f-8d4d-3bc9fb6544b2",
+   "type": "Legendary Creature — Human Noble Ally",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "First strike\nFirebending X, where X is the number of experience counters you have. (Whenever this creature attacks, add X {R}. This mana lasts until end of combat.)\nWhenever you cast a spell during combat, you get an experience counter.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 16990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 1
   },
   {
    "name": "Zuran Orb",

@@ -1,6 +1,6 @@
 # Candidate costs (Phase 8, step 1)
 
-Generated 2026-10-18T04:16:41Z from prices `merged-20261017T2337Z.json` (read 2026-10-17T23:37:59Z), bulk `oracle-cards-20261011210156.jsonl.gz`, Commander Salt scoring 2026.4195. Cost = cheapest offer per card for the cards the owner does not have (owned copies free, each list priced on its own, so cards shared by two decks are counted in both); shipping is 5,000 CLP per store, outside the cost. Prices are a hint: stock is verified in Phase 9.
+Generated 2026-10-18T04:36:59Z from prices `merged-20261017T2337Z.json` (read 2026-10-17T23:37:59Z), bulk `oracle-cards-20261011210156.jsonl.gz`, Commander Salt scoring 2026.4195. Cost = cheapest offer per card for the cards the owner does not have (owned copies free, each list priced on its own, so cards shared by two decks are counted in both); shipping is 5,000 CLP per store, outside the cost. Prices are a hint: stock is verified in Phase 9.
 
 ## alexios-deimos-of-kosmos
 
