@@ -2,7 +2,8 @@
 """Phase 8: check proposed decklists against every constraint at once. Read-only: it prints, writes nothing.
 
 Run it with the "Run Python File" button (no arguments) to check every decks/proposals/*.txt, or pass
-the files: `python scripts/check_list.py decks/proposals/toph_cap20000.txt [more files] [--alone]`.
+the files: `python scripts/check_list.py decks/proposals/toph_cap20000.txt [more files] [--alone] [--brief]`
+(`--brief` lists only the 8 priciest purchases, to save reading time).
 No network. It reads the Scryfall and Spellbook caches, the merged prices (data/prices/merged-*.json),
 the inventory (data/cache/collection_inventory.json) and decks/locked.txt.
 
@@ -47,9 +48,28 @@ def cap_status(cost, cap):
     return f"{'within' if cost <= cap else 'OVER'} the cap of {cap:,} CLP ({cap - cost:+,} CLP left)"
 
 
-def check_one(path, ctx, claimed):
+def build_context():
+    """Everything the checks read (None when a cache is missing): index, card objects, offers, owned, locked."""
+    bulk = la.latest_bulk()
+    if bulk is None or am.latest_merged() is None or not am.INVENTORY_PATH.exists():
+        return None
+    cards = list(la.iter_cards(bulk))
+    index = la.build_index(cards)
+    offers, _, merged_name, _ = am.load_offers(index)
+    return {"index": index, "by_oid": {c.get("oracle_id"): c for c in cards}, "offers": offers,
+            "owned": am.load_owned(), "locked": am.read_locked(index), "hazards": la.load_hazards(),
+            "spellbook": la.load_spellbook() if la.SPELLBOOK_SLIM.exists() else None,
+            "banner": f"prices {merged_name}; bulk {bulk.name}"}
+
+
+def check_one(path, ctx, claimed, brief=False):
     """Report lines and a verdict dict for one list file."""
-    text = path.read_text(encoding="utf-8-sig")
+    return check_text(path.name, path.read_text(encoding="utf-8-sig"), ctx, claimed, brief)
+
+
+def check_text(name, text, ctx, claimed, brief=False):
+    """Report lines and a verdict dict for a list given as text; `name` carries the cap (`..._cap20000`).
+    In brief mode only the 8 priciest purchases are listed."""
     listing = am.read_list(text, ctx["index"])
     commanders, main_cards, bad = la.parse_decklist(text)
     slug = next((s for s, n in la.COMMANDERS.items()
@@ -57,7 +77,7 @@ def check_one(path, ctx, claimed):
     target = la.TARGET_BRACKET.get(slug, la.DEFAULT_TARGET)
     report, _ = la.analyze(commanders, main_cards, ctx["index"], slug, ctx["spellbook"], ctx["hazards"], target)
     priced = am.price_list(listing, ctx["owned"], ctx["offers"], claimed)
-    cap = cap_from_name(path.name)
+    cap = cap_from_name(name)
     sb = report.get("spellbook") or {}
     identity = set()
     for oid in listing["commanders"]:
@@ -68,7 +88,7 @@ def check_one(path, ctx, claimed):
     shipping = am.shipping_clp(priced["stores"])
     ok_layer = report["floor_ok_so_far"] and not bad
     ok = ok_layer and not priced["no_stock"] and (cap is None or priced["cost_clp"] <= cap)
-    lines = [f"=== {path.name}  ({slug or 'commander not recognized'}, target Bracket {target})",
+    lines = [f"=== {name}  ({slug or 'commander not recognized'}, target Bracket {target})",
              f"Layer A: floor {report['floor']}, {'OK' if ok_layer else 'NOT OK'}; "
              f"{sum(listing['cards'].values())} cards; Game Changers {len(report['checks']['game_changers']['cards'])} "
              f"{report['checks']['game_changers']['cards']}; extra-turn cards {report['checks']['extra_turns']['count']}"]
@@ -82,37 +102,36 @@ def check_one(path, ctx, claimed):
               f"stores {priced['stores']}, shipping {shipping:,} CLP (outside the budget)",
               f"Cap: {cap_status(priced['cost_clp'], cap)}"]
     lines += [f"  NO STOCK anywhere: {', '.join(priced['no_stock'])}"] if priced["no_stock"] else []
-    for buy in sorted(priced["to_buy"], key=lambda b: -b["unit_clp"] * b["qty"]):
+    buys = sorted(priced["to_buy"], key=lambda b: -b["unit_clp"] * b["qty"])
+    if brief and len(buys) > 8:
+        lines.append(f"  ({len(buys) - 8} cheaper purchases not listed in --brief mode)")
+    for buy in buys[:8] if brief else buys:
         lines.append(f"  buy {buy['qty']} x {buy['name']}: {buy['unit_clp']:,} CLP at {buy['store']} "
                      f"({buy['language']}, {buy['finish']})")
     lines.append(f"Locked cards held ({len(held)}): {', '.join(held) or 'none'}")
     lines.append(f"Locked cards that fit this identity but are not in the list ({len(missing_fit)}): "
                  f"{', '.join(missing_fit) or 'none'}")
     lines.append(f"VERDICT: {'ELIGIBLE (before the Commander Salt score and the stock check)' if ok else 'NOT ELIGIBLE'}")
-    return lines, {"file": path.name, "ok": ok, "cost": priced["cost_clp"], "held": held}
+    return lines, {"file": name, "ok": ok, "ok_layer": ok_layer, "floor": report["floor"], "cost": priced["cost_clp"],
+                   "no_stock": priced["no_stock"], "held": held, "reasons": report["reasons"]}
 
 
 def main(argv):
     """Check the given lists (default: every decks/proposals/*.txt) and print the reports."""
     alone = "--alone" in argv
+    brief = "--brief" in argv
     files = [Path(a) for a in argv if not a.startswith("--")] or sorted(PROPOSALS.glob("*.txt"))
     if not files:
         print("No lists to check: pass files or put them in decks/proposals/*.txt")
         return 2
-    bulk = la.latest_bulk()
-    if bulk is None or am.latest_merged() is None or not am.INVENTORY_PATH.exists():
+    ctx = build_context()
+    if ctx is None:
         print("Missing the Scryfall bulk, the merged prices or the inventory (Phases 1 and 7 first).")
         return 2
-    cards = list(la.iter_cards(bulk))
-    index = la.build_index(cards)
-    offers, _, merged_name, _ = am.load_offers(index)
-    ctx = {"index": index, "by_oid": {c.get("oracle_id"): c for c in cards}, "offers": offers,
-           "owned": am.load_owned(), "locked": am.read_locked(index), "hazards": la.load_hazards(),
-           "spellbook": la.load_spellbook() if la.SPELLBOOK_SLIM.exists() else None}
-    print(f"prices {merged_name}; bulk {bulk.name}\n")
+    print(ctx["banner"] + "\n")
     claimed, verdicts = Counter(), []
     for path in files:
-        lines, verdict = check_one(path, ctx, Counter() if alone else claimed)
+        lines, verdict = check_one(path, ctx, Counter() if alone else claimed, brief)
         print("\n".join(lines) + "\n")
         verdicts.append(verdict)
     if len(verdicts) > 1:

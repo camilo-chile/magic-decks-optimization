@@ -130,8 +130,8 @@ a vehicle for learning modern AI tooling.
 | `data/hazards.json` | Curated combos and packages Spellbook does not list (per commander), read by Layer A; extended from the Phase 3 reports |
 | `data/stores.md` | Allowlist of stores with domain, shipping rule, payment fees and date checked (created 2026-10-11 with the 7 stores; shipping and fees filled in Phase 7) |
 | `data/prices/` | Phase 7 price readings: `scripts/read_store_prices.py` (`<YYYYMMDDTHHMMZ>.json`, `.summary.txt`, `.progress.log`), browser readings of the Shopify stores (`browser-<store>-<date>.psv`, taken by Claude with `scripts/browser_shopify_reader.js`) and `scripts/merge_prices.py` output (`merged-*.json`); a price hint, never stock evidence. Handoff: `docs/research/phase7-handoff-2026-10-17.md` |
-| `data/model/` | Phase 8 step 1 output of `scripts/price_candidates.py`: `candidate-costs.json/.md` (cost, Layer A and power of each measured list) and `pool-<slug>.json` (every card the expert may use per deck, with owned copies and cheapest offer). Library: `scripts/allocation_model.py`. Scores of the candidates: `decks/candidates/scores.json` |
-| `decks/proposals/` | Lists proposed in Phase 8 step 2 (`<deck>_cap<N>.txt`, N = purchase cap in CLP, plus a `.md` rationale); checked with `scripts/check_list.py` (read-only) |
+| `data/model/` | Phase 8 step 1 output of `scripts/price_candidates.py`: `candidate-costs.json/.md` (cost, Layer A and power of each measured list) and `pool-<slug>.json` (every card the expert may use per deck, with rules text, owned copies and cheapest offer; only the 626 cards Phase 7 priced have an offer). Library: `scripts/allocation_model.py`. Scores of the candidates: `decks/candidates/scores.json` |
+| `decks/proposals/` | Lists proposed in Phase 8 step 2 (`<deck>_cap<N>.txt`, N = purchase cap in CLP, plus a `.md` rationale); checked with `scripts/check_list.py` (read-only); `<deck>.ladder.txt` (free base plus ordered swaps) is materialized by `scripts/ladder.py` |
 | `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) |
 | `scripts/` | Python the user runs himself |
 | `tests/` | Offline tests and API fixtures (run with `python tests/<file>.py`) |
@@ -158,6 +158,14 @@ a vehicle for learning modern AI tooling.
   time (2026-10-13), no bulk or scripted requests. Observed on the site (2026-10-14): leaderboard
   rows are stale (read power from the deck page, never from the row); a deck page's "Export list"
   gives the 100 cards; the Upgrades tab accepts `#upgrades?upgrades.bin=bracket_3&upgrades.mode=staples`.
+  Observed 2026-10-18 (public pages, read in the browser): the submit field takes only a deck URL (placeholder
+  Moxfield), not pasted text; there is an optional sign-in (AWS Cognito) that saves decks and linked-account
+  handles (the "Users" page lists deck-host users); the score comes from hard-coded rules, no AI at submission
+  (FAQ); a Discord bot `/check <deck URL>` gives bracket and Game Changers only. Moxfield's terms could not be
+  fetched (HTTP 403); read in the browser on 2026-10-18 (moxfield.com/help/terms, section 4c): robots, spiders
+  or any automatic means to access the site are barred without Moxfield's approval, so Moxfield is used by hand
+  only (never driven by Claude). A Salt account attributes decks only from linked Moxfield, Archidekt, TappedOut
+  or MythicHub profiles (a ManaBox link stays "unknown author").
   marketplace.scry.cl is a marketplace with private sellers and lists only one of the 7 stores
   (CardNexus, 0 stock): not a price source.
 - Shopify `products.json` lists at most 100 pages of 250 (page 101 answers HTTP 400), ignores `sort_by`, and

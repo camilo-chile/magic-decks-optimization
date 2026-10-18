@@ -9,8 +9,10 @@ Spellbook caches, the merged prices (data/prices/merged-*.json), the inventory
                                (cheapest offer per card, owned copies free), cards with no stock, the shipping
                                the purchase would need, and the locked cards the list already holds
   pool-<slug>.json             per deck, every card the expert may use: the candidates' cards, the Upgrades
-                               picks and the owner's own cards that fit the color identity, each with owned
-                               copies, cheapest offer and number of stores with stock
+                               picks and the owner's own cards that fit the color identity, each with mana
+                               cost, rules text, owned copies, cheapest offer and number of stores with stock.
+                               Only these cards have a price: the store reading (Phase 7) searched the 626 cards
+                               of the measured lists and the Upgrades picks, not whole catalogs
 
 Cost is a hint: stock and price are verified in Phase 9. Power is the site's score of that exact list;
 a list changed in the next step has no power until it is scored on Commander Salt.
@@ -105,6 +107,13 @@ def index_card(cards, oid):
     return {}
 
 
+def face_text(card, field):
+    """A text field of a card; a two-faced card joins the text of both faces with ' // '."""
+    if card.get(field):
+        return card[field]
+    return " // ".join(face.get(field) or "" for face in card.get("card_faces") or [])
+
+
 def build_pool(slug, identity, listings, cards, index, owned, offers, locked):
     """Every card the expert may use for one deck, with owned copies, cheapest offer and stores with stock."""
     members = {}
@@ -131,6 +140,7 @@ def build_pool(slug, identity, listings, cards, index, owned, offers, locked):
             continue
         best = am.best_offer(offers.get(oid, []))
         out.append({"name": card["name"], "oracle_id": oid, "type": card.get("type_line"), "cmc": card.get("cmc"),
+                    "mana_cost": face_text(card, "mana_cost"), "oracle_text": face_text(card, "oracle_text"),
                     "game_changer": bool(card.get("game_changer")), "locked": oid in locked,
                     "owned_usable": owned.get(oid, {}).get("usable", 0), "basic": am.is_basic(card["name"]),
                     "best_offer": ({"clp": best["price_clp"], "store": best["store"], "language": best["language"],
