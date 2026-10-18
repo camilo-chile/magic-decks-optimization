@@ -45,6 +45,13 @@ a vehicle for learning modern AI tooling.
   The user does not rate decks.
 - Combos (owner, 2026-10-18): combos that Layer A allows (late-game lines, three-card lines with the commander
   included) are welcome in every deck; the more reliable the combo, the better.
+- Locked cards (owner, 2026-10-18): the lock list `decks/locked.txt` is EMPTY on purpose, so no card is mandatory
+  and the optimizer may adapt every deck freely; the mechanism stays (a card listed there must be in at least one
+  deck) for future restrictions, see `decks/locked.md`. The former 32 cards are in version control history.
+- No reversible cards (owner, 2026-10-18): a card that must be taken out of its sleeve and turned over or around
+  (Scryfall layouts transform, modal_dfc, meld, flip, reversible_card) is never allowed; `scripts/check_list.py`
+  and `scripts/ladder.py` mark it INVALID and the pools leave it out. Adventure, split and similar one-faced
+  cards are fine.
 - The user makes every purchase. Claude never adds to a cart, checks out, signs in,
   accepts terms or submits forms on a store.
 - Free tools only: no paid apps or subscriptions; an exception needs the user's explicit
@@ -123,15 +130,15 @@ a vehicle for learning modern AI tooling.
 | `docs/proposals/` | Designs awaiting the user's decision |
 | `docs/research/` | Distilled research reports (dated) |
 | `decks/<commander-slug>.txt` | Decklist: `1 <English card name>` per line, the commander under `// Commander`; a ManaBox `(SET) 123` suffix is allowed |
-| `decks/locked.txt`, `decks/locked.md` | The 32 cards the user keeps: each must be in at least one of the project's Commander decks (any number of decks, however many the project has), not tied to its original deck (Phase 6, 2026-10-16); the rules and the color-identity table are in `locked.md` |
 | `decks/<commander-slug>.layer_a.json`, `.cards.json` | Layer A output and card facts of the owner's decks, written by `scripts/layer_a.py` (ignored by version control, regenerable) |
+| `decks/locked.txt`, `decks/locked.md` | The owner's optional lock list: cards that must stay in at least one of the project's Commander decks. Empty since 2026-10-18 (nothing is mandatory); the mechanism and its notes stay for future restrictions |
 | `decks/reports/` | Commander Salt score reports, one per deck and date |
 | `data/collection/` | The owner's ManaBox collection export, one full CSV per date (`ManaBox_Collection_<YYYY-MM-DD>.csv`: every binder and deck); tracked in git on purpose as the collection backup (owner, 2026-10-17); `scripts/build_inventory.py` reads the newest. The app's own restore file (`.backup`) and the per-binder CSVs stay in the owner's Drive |
 | `data/raw/` | Private inputs such as the owner's current deck lists `Toph.txt` and `Azula.txt` (git-ignored) |
 | `data/cache/` | Downloaded bulk data from Scryfall and Commander Spellbook, and `collection_inventory.json` from `scripts/build_inventory.py` (untracked) |
 | `data/hazards.json` | Curated combos and packages Spellbook does not list (per commander), read by Layer A; extended from the Phase 3 reports |
 | `data/stores.md` | Allowlist of stores with domain, shipping rule, payment fees and date checked (created 2026-10-11 with the 7 stores; shipping and fees filled in Phase 7) |
-| `data/prices/` | Phase 7 price readings: `scripts/read_store_prices.py` (`<YYYYMMDDTHHMMZ>.json`, `.summary.txt`, `.progress.log`), browser readings of the Shopify stores (`browser-<store>-<date>.psv`, taken by Claude with `scripts/browser_shopify_reader.js`) and `scripts/merge_prices.py` output (`merged-*.json`); a price hint, never stock evidence. Handoff: `docs/research/phase7-handoff-2026-10-17.md` |
+| `data/prices/` | Phase 7 price readings: `scripts/read_store_prices.py` (`<YYYYMMDDTHHMMZ>.json`, `.summary.txt`, `.progress.log`), browser readings of the Shopify stores (`browser-<store>-<date>.psv`, taken by Claude with `scripts/browser_shopify_reader.js`, or per card name for the wishlists with `scripts/browser_shopify_lookup.js` into `browser-<store>-<date>-wishlist.psv`; `merge_prices.py` keeps, per store and card, the newest reading) and `scripts/merge_prices.py` output (`merged-*.json`); a price hint, never stock evidence. Handoff: `docs/research/phase7-handoff-2026-10-17.md` |
 | `data/model/` | Phase 8 step 1 output of `scripts/price_candidates.py`: `candidate-costs.json/.md` (cost, Layer A and power of each measured list) and `pool-<slug>.json` (every card the expert may use per deck, with rules text, owned copies and cheapest offer; only the 626 cards Phase 7 priced have an offer). Library: `scripts/allocation_model.py`. Scores of the candidates: `decks/candidates/scores.json` |
 | `decks/proposals/` | Lists proposed in Phase 8 step 2 (`<deck>_cap<N>.txt`, N = purchase cap in CLP, plus a `.md` rationale); checked with `scripts/check_list.py` (read-only); `<deck>.ladder.txt` (free base plus ordered swaps) is materialized by `scripts/ladder.py` |
 | `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) |

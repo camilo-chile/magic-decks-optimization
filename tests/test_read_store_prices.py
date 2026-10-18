@@ -154,6 +154,29 @@ def test_summary_lists_missing_cards_and_cheapest_offer():
     assert "Sol Ring: 2500 CLP at b" in text
 
 
+def test_wishlist_names_come_from_the_wishlist_table_only():
+    text = ("## Roles\n| Card | x |\n|---|---|\n| Sol Ring | y |\n\n"
+            "## Wishlist (not in the pool)\n| Card | Role |\n|---|---|\n| Infernal Grasp | removal |\n"
+            "| Jeska's Will (GC; pool, no offer) | ramp |\n\n## Other\n| Pongify | x |\n")
+    assert mod.wishlist_names(text) == ["Infernal Grasp", "Jeska's Will"]
+
+
+def test_new_names_are_the_targets_the_newest_merged_file_did_not_request():
+    import json
+    import tempfile
+    old = mod.OUT_DIR
+    try:
+        with tempfile.TemporaryDirectory() as tmp:
+            mod.OUT_DIR = Path(tmp)
+            targets = {"sol ring": "Sol Ring", "opt": "Opt"}
+            assert mod.new_names(targets) == targets  # no merged file yet
+            (Path(tmp) / "merged-20261017T0000Z.json").write_text(
+                json.dumps({"cards_requested": ["Sol Ring"]}), encoding="utf-8")
+            assert mod.new_names(targets) == {"opt": "Opt"}
+    finally:
+        mod.OUT_DIR = old
+
+
 if __name__ == "__main__":
     failed = 0
     for name, fn in list(globals().items()):

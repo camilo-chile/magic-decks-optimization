@@ -1,40 +1,5 @@
-// Owner's must-keep cards (Phase 6, O2, 2026-10-16). Rule: each card must be in AT LEAST ONE of the
-// project's Commander decks (it may be in more than one, and it may move between decks if it
-// fits the color identity); the rule applies to however many decks the project has. See
-// decks/locked.md. English names, one copy each.
-
-// Toph list (15)
-1 Ashaya, Soul of the Wild
-1 Mindslaver
-1 Annie Joins Up
-1 The Earth King
-1 Terrasymbiosis
-1 Bumi, Unleashed
-1 Redirect Lightning
-1 Secret Tunnel
-1 Arbaaz Mir
-1 Deflecting Swat
-1 Heaped Harvest
-1 Seismic Tutelage
-1 Wrenn and Realmbreaker
-1 Inscription of Abundance
-1 The Stasis Coffin
-
-// Azula list (17)
-1 Hidden Footblade
-1 Rogue's Passage
-1 Royal Assassin
-1 Imprisoned in the Moon
-1 Aether Gale
-1 Torrential Gearhulk
-1 Ozai, the Phoenix King
-1 Labyrinth Adversary
-1 Bender's Waterskin
-1 Redirect Lightning
-1 Octopus Form
-1 Swiftfoot Boots
-1 Frostcliff Siege
-1 Assassin Gauntlet
-1 Combustion Man
-1 Electro, Assaulting Battery
-1 Horizon Stone
+# Cards that must stay in at least one of the project's Commander decks (the owner's lock list, Phase 6).
+# EMPTY since 2026-10-18 on purpose (owner decision): nothing is mandatory. To restrict a card again add a line such
+# as `1 Card Name`; scripts/allocation_model.py (read_locked), scripts/check_list.py and scripts/price_candidates.py
+# read this file and report the locked cards a list holds or misses. The former list of 32 cards is in version
+# control history: `git show 323cf77:decks/locked.txt` (its notes: `git show 323cf77:decks/locked.md`).

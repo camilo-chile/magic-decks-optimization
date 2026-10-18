@@ -15,7 +15,8 @@ A ladder file (`decks/proposals/<deck>.ladder.txt`) holds a free base list and a
 
 The base should cost 0 (owned cards and basics only). Each swap adds one copy of the first card and removes
 one copy of the second, in the order the owner would make them. Every step must be a valid list: 100 cards,
-Layer A at Bracket 3, every purchase in stock. The script prints, per step, the cumulative cost of the whole
+Layer A at Bracket 3, every purchase in stock, no reversible card (one that must be taken out of its sleeve and
+turned over: transform, modal double-faced, meld and flip cards). The script prints, per step, the cumulative cost of the whole
 list (owned copies free, cheapest English or Spanish offer otherwise, Spanish on a tie), the Layer A floor and
 whether the step is valid, then the checkpoints: for each cap, the last step whose cost is at or under it.
 
@@ -112,10 +113,12 @@ def run(path, ctx, caps, write):
     for i, st in enumerate(states):
         text = render(commanders, st)
         _, verdict = cl.check_text(f"{stem}_step{i}", text, ctx, Counter(), brief=True)
-        verdict["valid"] = verdict["ok_layer"] and not verdict["no_stock"]
+        verdict["valid"] = verdict["ok_layer"] and not verdict["no_stock"] and not verdict["reversible"]
         steps.append(verdict)
         change = "base" if i == 0 else f"+ {swaps[i - 1]['add']} | - {swaps[i - 1]['drop']}"
-        problem = "" if verdict["valid"] else f"  INVALID: {verdict['reasons'][:1] or verdict['no_stock'] or 'Layer A'}"
+        why = verdict["reasons"][:1] + (["no stock: " + ", ".join(verdict["no_stock"])] if verdict["no_stock"] else []) \
+            + (["reversible: " + ", ".join(verdict["reversible"])] if verdict["reversible"] else [])
+        problem = "" if verdict["valid"] else f"  INVALID: {why or 'Layer A'}"
         print(f"  step {i:>2}  cost {verdict['cost']:>9,}  floor {verdict['floor']}  {change}{problem}")
     print("Checkpoints (last valid step at or under each cap):")
     picked = pick_checkpoints(steps, caps)

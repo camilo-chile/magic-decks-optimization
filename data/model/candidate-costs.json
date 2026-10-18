@@ -1,5 +1,5 @@
 {
- "as_of_utc": "2026-10-18T04:36:59Z",
+ "as_of_utc": "2026-10-18T20:02:09Z",
  "bulk_file": "oracle-cards-20261011210156.jsonl.gz",
  "merged_prices": "merged-20261017T2337Z.json",
  "prices_as_of": "2026-10-17T23:37:59Z",
@@ -41,10 +41,6 @@
     "Vexing Bauble"
    ],
    "unresolved": [],
-   "locked_held": [
-    "Rogue's Passage",
-    "Swiftfoot Boots"
-   ],
    "to_buy": [
     {
      "name": "Aggravated Assault",
@@ -651,7 +647,7 @@
    "basics": 15,
    "owned_n": 12,
    "to_buy_n": 65,
-   "cost_clp": 1064470,
+   "cost_clp": 1065960,
    "stores": [
     "afkstore",
     "cardnexus",
@@ -673,11 +669,6 @@
     "Wheel of Fortune"
    ],
    "unresolved": [],
-   "locked_held": [
-    "Deflecting Swat",
-    "Rogue's Passage",
-    "Swiftfoot Boots"
-   ],
    "to_buy": [
     {
      "name": "Agitator Ant",
@@ -709,11 +700,11 @@
     {
      "name": "Bedlam",
      "qty": 1,
-     "unit_clp": 1500,
-     "store": "afkstore",
+     "unit_clp": 2990,
+     "store": "paytowin",
      "language": "en",
-     "finish": "foil",
-     "url": "https://www.afkstore.cl/products/bedlam-reveler-borderless-r0312"
+     "finish": "nonfoil",
+     "url": "https://www.paytowin.cl/products/bedlam-borderless-marvel-universe-eternal-legal"
     },
     {
      "name": "Bolt Bend",
@@ -1303,12 +1294,6 @@
     "Vexing Bauble"
    ],
    "unresolved": [],
-   "locked_held": [
-    "Redirect Lightning",
-    "Deflecting Swat",
-    "Rogue's Passage",
-    "Redirect Lightning"
-   ],
    "to_buy": [
     {
      "name": "Anger",
@@ -1924,11 +1909,6 @@
     "Treasonous Ogre"
    ],
    "unresolved": [],
-   "locked_held": [
-    "Redirect Lightning",
-    "Redirect Lightning",
-    "Swiftfoot Boots"
-   ],
    "to_buy": [
     {
      "name": "Aggravated Assault",
@@ -2515,12 +2495,6 @@
     "Valley Floodcaller"
    ],
    "unresolved": [],
-   "locked_held": [
-    "Secret Tunnel",
-    "Rogue's Passage",
-    "Bender's Waterskin",
-    "Swiftfoot Boots"
-   ],
    "to_buy": [
     {
      "name": "Aboleth Spawn",
@@ -3018,10 +2992,6 @@
     "Wheel of Fortune"
    ],
    "unresolved": [],
-   "locked_held": [
-    "Deflecting Swat",
-    "Electro, Assaulting Battery"
-   ],
    "to_buy": [
     {
      "name": "An Offer You Can't Refuse",
@@ -3699,12 +3669,6 @@
     "Leadership Vacuum"
    ],
    "unresolved": [],
-   "locked_held": [
-    "Deflecting Swat",
-    "Rogue's Passage",
-    "Ozai, the Phoenix King",
-    "Swiftfoot Boots"
-   ],
    "to_buy": [
     {
      "name": "Anticipate",
@@ -4362,13 +4326,6 @@
     "Valley Floodcaller"
    ],
    "unresolved": [],
-   "locked_held": [
-    "Redirect Lightning",
-    "Rogue's Passage",
-    "Ozai, the Phoenix King",
-    "Redirect Lightning",
-    "Electro, Assaulting Battery"
-   ],
    "to_buy": [
     {
      "name": "Ashling, Flame Dancer",
@@ -4964,12 +4921,6 @@
     "Jeska's Will"
    ],
    "unresolved": [],
-   "locked_held": [
-    "Redirect Lightning",
-    "Torrential Gearhulk",
-    "Redirect Lightning",
-    "Frostcliff Siege"
-   ],
    "to_buy": [
     {
      "name": "Arcane Denial",
@@ -5583,15 +5534,6 @@
     "Terra Eternal"
    ],
    "unresolved": [],
-   "locked_held": [
-    "Ashaya, Soul of the Wild",
-    "Annie Joins Up",
-    "Bumi, Unleashed",
-    "Redirect Lightning",
-    "Heaped Harvest",
-    "Wrenn and Realmbreaker",
-    "Redirect Lightning"
-   ],
    "to_buy": [
     {
      "name": "All Will Be One",
@@ -6117,7 +6059,7 @@
    "basics": 12,
    "owned_n": 30,
    "to_buy_n": 56,
-   "cost_clp": 1330680,
+   "cost_clp": 1331205,
    "stores": [
     "afkstore",
     "cardnexus",
@@ -6133,15 +6075,6 @@
     "Terra Eternal"
    ],
    "unresolved": [],
-   "locked_held": [
-    "Ashaya, Soul of the Wild",
-    "Mindslaver",
-    "Bumi, Unleashed",
-    "Secret Tunnel",
-    "The Stasis Coffin",
-    "Bender's Waterskin",
-    "Swiftfoot Boots"
-   ],
    "to_buy": [
     {
      "name": "Abandoned Air Temple",
@@ -6488,11 +6421,11 @@
     {
      "name": "Savannah",
      "qty": 1,
-     "unit_clp": 450,
-     "store": "lacomarca",
+     "unit_clp": 975,
+     "store": "paytowin",
      "language": "en",
      "finish": "nonfoil",
-     "url": "https://www.tiendalacomarca.cl/products/savannah-lions-dominaria-remastered-457184"
+     "url": "https://www.paytowin.cl/products/savannah-lions-retro-dominaria-remastered"
     },
     {
      "name": "Scute Swarm",
@@ -6679,16 +6612,6 @@
    "shipping_clp": 30000,
    "no_stock": [],
    "unresolved": [],
-   "locked_held": [
-    "Mindslaver",
-    "Annie Joins Up",
-    "Bumi, Unleashed",
-    "Redirect Lightning",
-    "Secret Tunnel",
-    "The Stasis Coffin",
-    "Redirect Lightning",
-    "Swiftfoot Boots"
-   ],
    "to_buy": [
     {
      "name": "Arboreal Grazer",
@@ -7168,15 +7091,6 @@
     "Terra Eternal"
    ],
    "unresolved": [],
-   "locked_held": [
-    "Ashaya, Soul of the Wild",
-    "Annie Joins Up",
-    "Terrasymbiosis",
-    "Bumi, Unleashed",
-    "Secret Tunnel",
-    "The Stasis Coffin",
-    "Swiftfoot Boots"
-   ],
    "to_buy": [
     {
      "name": "Abzan Falconer",
@@ -7581,25 +7495,6 @@
    "shipping_clp": 0,
    "no_stock": [],
    "unresolved": [],
-   "locked_held": [
-    "Ashaya, Soul of the Wild",
-    "Mindslaver",
-    "Annie Joins Up",
-    "The Earth King",
-    "Terrasymbiosis",
-    "Bumi, Unleashed",
-    "Redirect Lightning",
-    "Secret Tunnel",
-    "Arbaaz Mir",
-    "Deflecting Swat",
-    "Heaped Harvest",
-    "Seismic Tutelage",
-    "Wrenn and Realmbreaker",
-    "Inscription of Abundance",
-    "The Stasis Coffin",
-    "Rogue's Passage",
-    "Redirect Lightning"
-   ],
    "to_buy": []
   },
   {
@@ -7625,26 +7520,6 @@
    "shipping_clp": 0,
    "no_stock": [],
    "unresolved": [],
-   "locked_held": [
-    "Redirect Lightning",
-    "Hidden Footblade",
-    "Rogue's Passage",
-    "Royal Assassin",
-    "Imprisoned in the Moon",
-    "Aether Gale",
-    "Torrential Gearhulk",
-    "Ozai, the Phoenix King",
-    "Labyrinth Adversary",
-    "Bender's Waterskin",
-    "Redirect Lightning",
-    "Octopus Form",
-    "Swiftfoot Boots",
-    "Frostcliff Siege",
-    "Assassin Gauntlet",
-    "Combustion Man",
-    "Electro, Assaulting Battery",
-    "Horizon Stone"
-   ],
    "to_buy": []
   }
  ]

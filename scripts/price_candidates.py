@@ -24,6 +24,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import allocation_model as am  # noqa: E402
+import check_list as cl  # noqa: E402
 import layer_a as la  # noqa: E402
 
 ROOT = la.ROOT
@@ -62,7 +63,7 @@ def main():
     hazards = la.load_hazards()
     offers, unresolved, merged_name, offers_as_of = am.load_offers(index)
     owned = am.load_owned()
-    locked = am.read_locked(index)
+    locked = am.read_locked(index)  # empty since 2026-10-18; the pool flags a locked card when the list has any
     scores = json.loads(SCORES.read_text(encoding="utf-8"))
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -114,8 +115,9 @@ def face_text(card, field):
     return " // ".join(face.get(field) or "" for face in card.get("card_faces") or [])
 
 
-def build_pool(slug, identity, listings, cards, index, owned, offers, locked):
-    """Every card the expert may use for one deck, with owned copies, cheapest offer and stores with stock."""
+def build_pool(slug, identity, listings, cards, index, owned, offers, locked=()):
+    """Every card the expert may use for one deck, with owned copies, cheapest offer and stores with stock.
+    Cards that must be taken out of the sleeve and turned over (check_list.needs_flipping) are left out."""
     members = {}
     for (lslug, fname), listing in listings.items():
         if lslug != slug:
@@ -140,7 +142,7 @@ def build_pool(slug, identity, listings, cards, index, owned, offers, locked):
         card = by_oid.get(oid)
         if card is None or not am.fits_identity(card, identity):
             continue
-        if (card.get("legalities") or {}).get("commander") != "legal":
+        if (card.get("legalities") or {}).get("commander") != "legal" or cl.needs_flipping(card):
             continue
         best = am.best_offer(offers.get(oid, []))
         out.append({"name": card["name"], "oracle_id": oid, "type": card.get("type_line"), "cmc": card.get("cmc"),
@@ -164,15 +166,17 @@ def render_table(rows, stamp):
              "shared by two decks are counted in both); shipping is 5,000 CLP per store, outside the cost. "
              "Prices are a hint: stock is verified in Phase 9.", ""]
     for slug in dict.fromkeys(r["slug"] for r in rows):
-        lines += [f"## {slug}", "", "| List | Power | Layer A | Owned | To buy | Cost CLP | Stores | No stock | Locked held |",
-                  "|---|---|---|---|---|---|---|---|---|"]
+        show_locked = any(r["locked_held"] for r in rows)  # the column only exists while the lock list has cards
+        lines += [f"## {slug}", "", "| List | Power | Layer A | Owned | To buy | Cost CLP | Stores | No stock |"
+                  + (" Locked held |" if show_locked else ""), "|---|---|---|---|---|---|---|---|"
+                  + ("---|" if show_locked else "")]
         for r in (x for x in rows if x["slug"] == slug):
             gate = r["layer_a"]
             label = ("OK" if gate["ok"] else "NO") + f" (floor {gate['floor']})"
             name = "owner's list" if r["owner_list"] else r["file"].removesuffix(".txt")
             lines.append(f"| {name} | {r.get('power', '?')} | {label} | {r['owned_n']} | {r['to_buy_n']} | "
-                         f"{money(r['cost_clp'])} | {len(r['stores'])} | {len(r['no_stock'])} | "
-                         f"{len(r['locked_held'])} |")
+                         f"{money(r['cost_clp'])} | {len(r['stores'])} | {len(r['no_stock'])} |"
+                         + (f" {len(r['locked_held'])} |" if show_locked else ""))
         lines.append("")
     return "\n".join(lines) + "\n"
 

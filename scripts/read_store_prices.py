@@ -8,7 +8,7 @@ It never signs in, never touches a cart or a checkout. Terms of service were not
 instruction, 2026-10-16); the pace is deliberately gentle.
 
 Cards read: every card of decks/candidates/<slug>/*.txt, of the meta-staples-bracket3.md files and of
-decks/locked.txt (names in English), minus basic lands. Offers kept: English or Spanish, near mint or
+decks/locked.txt and of the wishlists in decks/proposals/*.md (names in English), minus basic lands. Offers kept: English or Spanish, near mint or
 lightly played, any finish (decision D6), price above 0. Out-of-stock variants are kept with
 `available: false`. The `available` flag is a price-phase hint, never stock evidence (Phase 9 verifies).
 
@@ -59,10 +59,12 @@ STORES = [
     {"id": "afkstore", "pref": 9, "name": "AFK Store", "kind": "shopify",
      "base": "https://www.afkstore.cl", "collection": "singles-mtg", "enabled": True},
 ]
-# Already read on 2026-10-17 (Magic4Ever and CardNexus by this script, PayToWin, Game of Magic and Oasis
-# in the owner's browser, see docs/research/phase7-handoff-2026-10-17.md): not requested again.
-# scripts/merge_prices.py keeps the newest reading of each store. Remove an id here to refresh it.
-ALREADY_READ = {"paytowin", "magic4ever", "cardnexus", "gameofmagic", "oasis"}
+# Read in the owner's browser (the Shopify stores answer HTTP 429 to this client, see
+# docs/research/phase7-handoff-2026-10-17.md): never requested by this script.
+# Magic4Ever and CardNexus (one search per card) are enabled again for the wishlist names; they search only the
+# names the newest merged file has not requested (see new_names). scripts/merge_prices.py keeps, per store and card,
+# the newest reading, so a partial run adds to the earlier ones instead of replacing them.
+ALREADY_READ = {"paytowin", "gameofmagic", "oasis"}
 for _store in STORES:
     _store["enabled"] = _store["id"] not in ALREADY_READ
 
@@ -89,8 +91,27 @@ ACCEPTED_CONDITIONS = {"NM", "LP"}
 
 # ---------------------------------------------------------------- card list
 
+WISHLIST_HEAD_RE = re.compile(r"^##\s+Wishlist", re.I)
+
+
+def wishlist_names(text):
+    """Card names of the `## Wishlist` table of a proposal report (first column; a note in parentheses is dropped)."""
+    names, inside = [], False
+    for line in text.splitlines():
+        if line.startswith("## "):
+            inside = bool(WISHLIST_HEAD_RE.match(line))
+            continue
+        if not inside or not line.startswith("|"):
+            continue
+        cell = re.sub(r"\s*\([^)]*\)\s*$", "", line.strip().strip("|").split("|")[0].strip())
+        if cell and cell.lower() != "card" and not set(cell) <= set("-: "):
+            names.append(cell)
+    return names
+
+
 def targets_from_repo():
-    """normalized front-face name -> display name, for every candidate, meta pick and locked card."""
+    """normalized front-face name -> display name, for every candidate, meta pick and locked card, and for the
+    cards of the wishlists in decks/proposals/*.md (cards an expert wanted that no list had asked for)."""
     names = {}
 
     def add(raw):
@@ -98,6 +119,10 @@ def targets_from_repo():
         key = la.normalize(raw.split(" // ")[0])
         if key and key not in BASICS:
             names.setdefault(key, raw.split(" // ")[0].strip())
+
+    for path in sorted((ROOT / "decks" / "proposals").glob("*.md")):
+        for raw in wishlist_names(path.read_text(encoding="utf-8")):
+            add(raw)
 
     for path in sorted((ROOT / "decks" / "candidates").glob("*/*.txt")):
         commanders, deck, _ = la.parse_decklist(path.read_text(encoding="utf-8-sig"))
@@ -427,6 +452,16 @@ def summarize(targets, offers, store_stats):
     return "\n".join(lines) + "\n"
 
 
+def new_names(targets):
+    """The targets the newest merged price file did not request (all of them when there is no merged file)."""
+    merged = sorted(OUT_DIR.glob("merged-*.json"))
+    if not merged:
+        return dict(targets)
+    done = {la.normalize(n.split(" // ")[0]) for n in json.loads(merged[-1].read_text(encoding="utf-8"))
+            .get("cards_requested", [])}
+    return {key: name for key, name in targets.items() if key not in done}
+
+
 def main():
     try:
         import requests
@@ -444,10 +479,13 @@ def main():
                  + ", ".join(s["name"] for s in STORES if s["enabled"]))
     throttle, offers, store_stats = Throttle(), [], {}
     active = [s for s in STORES if s["enabled"]]
+    fresh = new_names(targets)  # one search per card stores look up only the names not priced yet
+    progress.log(f"{len(fresh)} of them are new since the newest merged file")
     for n, store in enumerate(active, 1):
         progress.log(f"Store {n}/{len(active)}: {store['name']} ({store['kind']})")
         try:
-            got, stats = READERS[store["kind"]](requests, throttle, store, targets, progress)
+            store_targets = fresh if fresh and store["kind"] != "shopify" else targets
+            got, stats = READERS[store["kind"]](requests, throttle, store, store_targets, progress)
             offers += got
             store_stats[store["id"]] = stats
         except Exception as exc:  # one failing store must not lose the others

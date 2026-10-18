@@ -22,6 +22,14 @@ def test_cap_status_says_within_or_over():
     assert mod.cap_status(5, None) == "no cap in the file name"
 
 
+def test_cards_that_must_be_turned_over_are_flagged_and_one_faced_ones_are_not():
+    for layout in ("transform", "modal_dfc", "meld", "flip", "reversible_card"):
+        assert mod.needs_flipping({"layout": layout}), layout
+    for layout in ("normal", "adventure", "split", "prepare", "saga", "class", "prototype", None):
+        assert not mod.needs_flipping({"layout": layout}), layout
+    assert not mod.needs_flipping({})
+
+
 if __name__ == "__main__":
     failed = 0
     for name, fn in list(globals().items()):

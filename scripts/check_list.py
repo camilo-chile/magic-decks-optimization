@@ -14,7 +14,11 @@ list it reports:
   - cost: owned copies free, the cheapest available English or Spanish offer for the rest (the Spanish copy
     wins a tie), cards with no stock anywhere, the stores used and the assumed shipping (5,000 CLP per store,
     outside the budget);
-  - the locked cards the list holds and the locked cards that fit its color identity but are missing.
+  - reversible cards: any card that must be taken out of its sleeve and turned over or around (transform,
+    modal double-faced, meld and flip cards) is not allowed (owner rule, 2026-10-18); adventure, split and
+    similar one-faced cards are fine;
+  - the locked cards the list holds and those that fit its color identity but are missing (printed only when
+    decks/locked.txt has cards; it has been empty since 2026-10-18).
 A cap is read from the file name (`..._cap20000.txt`) and compared with the cost. When several files are
 checked together they share the owned copies in the order given (one physical copy sits in one deck, D5),
 so the second deck pays for a card the first one used; `--alone` prices each list as if it were the only one.
@@ -33,6 +37,9 @@ import layer_a as la  # noqa: E402
 ROOT = la.ROOT
 PROPOSALS = ROOT / "decks" / "proposals"
 CAP_RE = re.compile(r"_cap(\d+)", re.I)
+# Scryfall layouts of cards with two physical faces or a rotated half: the owner does not want to take a card
+# out of its sleeve to turn it over (2026-10-18). Adventure, split, prepare and similar layouts are one face.
+FLIP_LAYOUTS = {"transform", "modal_dfc", "meld", "flip", "reversible_card", "double_faced_token"}
 
 
 def cap_from_name(name):
@@ -48,8 +55,13 @@ def cap_status(cost, cap):
     return f"{'within' if cost <= cap else 'OVER'} the cap of {cap:,} CLP ({cap - cost:+,} CLP left)"
 
 
+def needs_flipping(card):
+    """True for a card that must be taken out of its sleeve and turned over or around (owner rule 2026-10-18)."""
+    return card.get("layout") in FLIP_LAYOUTS
+
+
 def build_context():
-    """Everything the checks read (None when a cache is missing): index, card objects, offers, owned, locked."""
+    """Everything the checks read (None when a cache is missing): index, card objects, offers, owned."""
     bulk = la.latest_bulk()
     if bulk is None or am.latest_merged() is None or not am.INVENTORY_PATH.exists():
         return None
@@ -79,6 +91,8 @@ def check_text(name, text, ctx, claimed, brief=False):
     priced = am.price_list(listing, ctx["owned"], ctx["offers"], claimed)
     cap = cap_from_name(name)
     sb = report.get("spellbook") or {}
+    flippers = sorted(listing["names"].get(oid, oid) for oid in set(listing["cards"]) | set(listing["commanders"])
+                      if needs_flipping(ctx["by_oid"].get(oid, {})))
     identity = set()
     for oid in listing["commanders"]:
         identity |= set(ctx["by_oid"][oid].get("color_identity") or [])
@@ -87,7 +101,7 @@ def check_text(name, text, ctx, claimed, brief=False):
                    if not listing["cards"].get(o) and am.fits_identity(ctx["by_oid"][o], identity)]
     shipping = am.shipping_clp(priced["stores"])
     ok_layer = report["floor_ok_so_far"] and not bad
-    ok = ok_layer and not priced["no_stock"] and (cap is None or priced["cost_clp"] <= cap)
+    ok = ok_layer and not priced["no_stock"] and not flippers and (cap is None or priced["cost_clp"] <= cap)
     lines = [f"=== {name}  ({slug or 'commander not recognized'}, target Bracket {target})",
              f"Layer A: floor {report['floor']}, {'OK' if ok_layer else 'NOT OK'}; "
              f"{sum(listing['cards'].values())} cards; Game Changers {len(report['checks']['game_changers']['cards'])} "
@@ -102,18 +116,22 @@ def check_text(name, text, ctx, claimed, brief=False):
               f"stores {priced['stores']}, shipping {shipping:,} CLP (outside the budget)",
               f"Cap: {cap_status(priced['cost_clp'], cap)}"]
     lines += [f"  NO STOCK anywhere: {', '.join(priced['no_stock'])}"] if priced["no_stock"] else []
+    lines += [f"  REVERSIBLE (must be taken out of the sleeve and turned over, not allowed): {', '.join(flippers)}"] \
+        if flippers else []
     buys = sorted(priced["to_buy"], key=lambda b: -b["unit_clp"] * b["qty"])
     if brief and len(buys) > 8:
         lines.append(f"  ({len(buys) - 8} cheaper purchases not listed in --brief mode)")
     for buy in buys[:8] if brief else buys:
         lines.append(f"  buy {buy['qty']} x {buy['name']}: {buy['unit_clp']:,} CLP at {buy['store']} "
                      f"({buy['language']}, {buy['finish']})")
-    lines.append(f"Locked cards held ({len(held)}): {', '.join(held) or 'none'}")
-    lines.append(f"Locked cards that fit this identity but are not in the list ({len(missing_fit)}): "
-                 f"{', '.join(missing_fit) or 'none'}")
+    if ctx["locked"]:  # the lock list is empty since 2026-10-18; nothing is printed while it is
+        lines.append(f"Locked cards held ({len(held)}): {', '.join(held) or 'none'}")
+        lines.append(f"Locked cards that fit this identity but are not in the list ({len(missing_fit)}): "
+                     f"{', '.join(missing_fit) or 'none'}")
     lines.append(f"VERDICT: {'ELIGIBLE (before the Commander Salt score and the stock check)' if ok else 'NOT ELIGIBLE'}")
     return lines, {"file": name, "ok": ok, "ok_layer": ok_layer, "floor": report["floor"], "cost": priced["cost_clp"],
-                   "no_stock": priced["no_stock"], "held": held, "reasons": report["reasons"]}
+                   "no_stock": priced["no_stock"], "reversible": flippers, "held": held,
+                   "reasons": report["reasons"]}
 
 
 def main(argv):

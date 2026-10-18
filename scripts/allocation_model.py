@@ -10,7 +10,8 @@ What it knows how to do, all offline:
     decision D5), then the cheapest available English or Spanish offer (the Spanish copy wins a tie,
     owner rule 2026-10-17), basic lands free (the owner holds 233), cards without stock reported;
   - report the shipping the cheapest-per-card purchase would need (5,000 CLP per store, outside the
-    budget, decision of 2026-10-16) and which locked cards a set of lists covers.
+    budget, decision of 2026-10-16) and which locked cards a set of lists covers (the lock list, decks/locked.txt,
+    has been empty since 2026-10-18; the mechanism stays for future restrictions).
 
 Prices are a hint, never stock evidence (Phase 9 verifies). Power is never computed here: it is the
 Commander Salt score of a list, read by hand (docs/power-scale.md).
@@ -34,6 +35,20 @@ SHIPPING_PER_STORE_CLP = 5000
 USABLE_LANGUAGES = ("en", "es")
 BASIC_NAMES = {"plains", "island", "swamp", "mountain", "forest", "wastes"}
 META_LINE_RE = re.compile(r"^\d+\.\s+(.+?)\s+(\d+)\s*$")
+TAGS_RE = re.compile(r"\[[^\]]*\]|\([^)]*\)")  # "[TLA - 218]", "(Borderless)"
+RARITY_NUMBER_RE = re.compile(r"^[A-Z]\d+[a-z]?$", re.I)  # AFK Store titles: "Comet Storm M411", "Anticipate P12"
+
+
+def is_the_card(offer):
+    """False when a loose title match names another card: "Savannah Lions" sold for "Savannah", "Bedlam Reveler"
+    for "Bedlam", "Anger of the Gods" for "Anger". An exact match is always the card; a loose one is accepted
+    only when the title is the card name plus set tags, finish words in parentheses or a rarity and number."""
+    if offer.get("match") == "exact":
+        return True
+    name = offer["card"].split(" // ")[0]
+    rest = re.sub(re.escape(name), "", offer.get("title") or "", count=1, flags=re.I)
+    rest = TAGS_RE.sub("", rest).strip(" -")
+    return not rest or bool(RARITY_NUMBER_RE.match(rest))
 
 
 def is_basic(name):
@@ -56,7 +71,7 @@ def load_offers(index, path=None):
     data = json.loads(path.read_text(encoding="utf-8"))
     by_oid, unresolved = {}, set()
     for offer in data["offers"]:
-        if not offer.get("available"):
+        if not offer.get("available") or not is_the_card(offer):
             continue
         card = index.get(la.normalize(offer["card"]))
         if card is None:
@@ -111,10 +126,16 @@ def read_meta_picks(text, index):
 
 
 def read_locked(index):
-    """The oracle IDs of the 32 must-keep cards of decks/locked.txt."""
+    """The oracle IDs of the cards of decks/locked.txt, each of which must stay in at least one deck (owner
+    mechanism). The list has been empty since 2026-10-18: a missing file or one without cards gives []."""
+    if not LOCKED_PATH.exists():
+        return []
     oids = []
     for raw in LOCKED_PATH.read_text(encoding="utf-8").splitlines():
-        match = la.LINE_RE.match(raw.strip())
+        line = raw.strip()
+        if not line or line.startswith(("#", "//")):
+            continue
+        match = la.LINE_RE.match(line)
         card = index.get(la.normalize(match.group(2))) if match else None
         if card is not None:
             oids.append(card["oracle_id"])

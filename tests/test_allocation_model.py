@@ -70,13 +70,44 @@ def test_unowned_japanese_copies_do_not_count_as_usable(tmp_path=None):
         assert am.load_owned(path)["x"]["usable"] == 1
 
 
-def test_meta_picks_and_identity_and_locked_coverage():
+def test_meta_picks_and_identity():
     picks = am.read_meta_picks("1. Sol Ring 90\n2. Unknown Thing 50\n3. Gamble 40\n", INDEX)
     assert [(n, p) for _, n, p in picks] == [("Sol Ring", 90), ("Gamble", 40)]
     assert am.fits_identity(CARDS[1], {"R", "G"}) and not am.fits_identity(CARDS[3], {"R", "G"})
+
+
+def test_the_locked_list_may_be_empty_and_coverage_reports_the_missing_cards():
+    import tempfile
+    old = am.LOCKED_PATH
+    try:
+        with tempfile.TemporaryDirectory() as tmp:
+            am.LOCKED_PATH = Path(tmp) / "locked.txt"
+            assert am.read_locked(INDEX) == []  # no file
+            am.LOCKED_PATH.write_text("# empty on purpose\n// Commander\n", encoding="utf-8")
+            assert am.read_locked(INDEX) == []  # comments only
+            am.LOCKED_PATH.write_text("1 Sol Ring\n1 Unknown Thing\n", encoding="utf-8")
+            assert am.read_locked(INDEX) == ["id-Sol Ring"]
+    finally:
+        am.LOCKED_PATH = old
     a, b = listing("// Commander\n1 Sol Ring\n"), listing("// Commander\n1 Gamble\n")
     cover = am.locked_coverage([a, b], ["id-Sol Ring", "id-Gamble", "id-Counterspell"])
     assert cover["missing"] == ["id-Counterspell"] and cover["copies_needed"]["id-Sol Ring"] == 1
+
+
+def test_a_loose_title_match_must_still_be_the_same_card():
+    def offer(card, title, match="loose"):
+        return {"card": card, "title": title, "match": match}
+    assert am.is_the_card(offer("Savannah", "Savannah Lions [DMR - 24]", "exact"))  # exact is always the card
+    assert not am.is_the_card(offer("Savannah", "Savannah Lions [DMR - 24]"))
+    assert not am.is_the_card(offer("Bedlam", "Bedlam Reveler (Borderless) [INR - 312]"))
+    assert not am.is_the_card(offer("Anger", "Anger of the Gods [TSR - 339]"))
+    assert not am.is_the_card(offer("Earth Rumble", "Earth Rumble Wrestlers Regular Foil (ingles) 218"))
+    assert am.is_the_card(offer("Comet Storm", "Comet Storm M411"))
+    assert am.is_the_card(offer("Anticipate", "Anticipate P12"))
+    assert not am.is_the_card(offer("Anger", "Anger of the Gods R112"))
+    assert am.is_the_card(offer("Ozai, the Phoenix King", "Ozai, the Phoenix King M335"))
+    assert am.is_the_card(offer("Anger", "Anger [TSR - 339]"))
+    assert am.is_the_card(offer("Waterlogged Teachings // Inundated Archive", "Waterlogged Teachings R12"))
 
 
 if __name__ == "__main__":

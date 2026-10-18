@@ -72,9 +72,46 @@ def test_merge_script_runs_keeps_each_stores_newest_good_reading():
     assert stats["a"]["run"] == "20261018T0100Z.json"
 
 
-def test_script_reads_only_the_stores_not_yet_read():
+def test_a_partial_script_run_adds_cards_to_the_earlier_reading_of_a_store():
+    import json
+    import tempfile
+
+    def offer(store, card, price):
+        return {"store": store, "card": card, "price_clp": price, "available": True}
+
+    old = {"store_stats": {"a": {"offers": 2}}, "offers": [offer("a", "Sol Ring", 100), offer("a", "Opt", 50)]}
+    new = {"store_stats": {"a": {"offers": 2}}, "offers": [offer("a", "Opt", 40), offer("a", "Pongify", 700)]}
+    with tempfile.TemporaryDirectory() as tmp:
+        paths = []
+        for name, data in (("20261017T0100Z.json", old), ("20261019T0100Z.json", new)):
+            path = Path(tmp) / name
+            path.write_text(json.dumps(data), encoding="utf-8")
+            paths.append(path)
+        offers, _ = mod.merge_script_runs(paths)
+    assert sorted((o["card"], o["price_clp"]) for o in offers) == [("Opt", 40), ("Pongify", 700), ("Sol Ring", 100)]
+
+
+def test_a_short_browser_file_adds_cards_to_the_earlier_file_of_a_store():
+    import tempfile
+    header = "#STORE paytowin fetched_at=2026-10-17T05:00:00Z source=browser seen=500 FORMAT x\n"
+    older = header + "sol ring|nen|sol-ring-cmr|Near Mint|2490|[Commander Legends]\n"
+    newer = (header.replace("2026-10-17", "2026-10-19").replace("seen=500", "seen=10")
+             + "gollum, riddle master|nen|gollum|Near Mint|5000|(Borderless)\n"
+             + "sol ring|nen|sol-ring-cmr|Near Mint|2300|[Commander Legends]\n")
+    with tempfile.TemporaryDirectory() as tmp:
+        paths = []
+        for name, text in (("browser-paytowin-20261017.psv", older), ("browser-paytowin-20261019-wishlist.psv", newer)):
+            path = Path(tmp) / name
+            path.write_text(text, encoding="utf-8")
+            paths.append(path)
+        offers, seen = mod.merge_browser_files(paths, TARGETS, STORE)
+    assert sorted((o["card"], o["price_clp"]) for o in offers) == [("Gollum, Riddle Master", 5000), ("Sol Ring", 2300)]
+    assert seen == 10
+
+
+def test_script_reads_the_api_and_catalog_stores_but_not_the_browser_ones():
     enabled = sorted(s["id"] for s in mod.rsp.STORES if s["enabled"])
-    assert enabled == ["afkstore", "lacomarca", "piedrabruja"]
+    assert enabled == ["afkstore", "cardnexus", "lacomarca", "magic4ever", "piedrabruja"]
 
 
 if __name__ == "__main__":
