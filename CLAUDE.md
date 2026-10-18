@@ -131,6 +131,7 @@ a vehicle for learning modern AI tooling.
 | `data/stores.md` | Allowlist of stores with domain, shipping rule, payment fees and date checked (created 2026-10-11 with the 7 stores; shipping and fees filled in Phase 7) |
 | `data/prices/` | Phase 7 price readings: `scripts/read_store_prices.py` (`<YYYYMMDDTHHMMZ>.json`, `.summary.txt`, `.progress.log`), browser readings of the Shopify stores (`browser-<store>-<date>.psv`, taken by Claude with `scripts/browser_shopify_reader.js`) and `scripts/merge_prices.py` output (`merged-*.json`); a price hint, never stock evidence. Handoff: `docs/research/phase7-handoff-2026-10-17.md` |
 | `data/model/` | Phase 8 step 1 output of `scripts/price_candidates.py`: `candidate-costs.json/.md` (cost, Layer A and power of each measured list) and `pool-<slug>.json` (every card the expert may use per deck, with owned copies and cheapest offer). Library: `scripts/allocation_model.py`. Scores of the candidates: `decks/candidates/scores.json` |
+| `decks/proposals/` | Lists proposed in Phase 8 step 2 (`<deck>_cap<N>.txt`, N = purchase cap in CLP, plus a `.md` rationale); checked with `scripts/check_list.py` (read-only) |
 | `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) |
 | `scripts/` | Python the user runs himself |
 | `tests/` | Offline tests and API fixtures (run with `python tests/<file>.py`) |
