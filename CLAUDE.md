@@ -65,6 +65,11 @@ a vehicle for learning modern AI tooling.
   prefer independent verification, the strongest models and more researchers over speed or
   token savings. Multi-agent workflows are welcome; state the plan and ask before launching
   unless the user already said to proceed.
+- Deck-building model (owner decision, 2026-10-18): the judgment work of Phase 8 and of every backtrack
+  (choosing the strategy and the cards like an expert builder: mana curve, synergy, slot functions,
+  competitive experience, re-opening earlier choices when a card is too expensive or out of stock) is
+  done by Opus 5.5 at extra-high effort (`model: opus`, `effort: xhigh` on the Agent tool). Ask before
+  launching it, with the cost estimate, as for any agent. PuLP only enforces constraints and budget.
 - Execution boundary (proposed default, the user may change it): Claude may run read-only
   commands and the offline tests (`python tests/<file>.py`; pytest is not installed). Claude never runs scripts that call network
   APIs, write project data, or install packages. It hands over the exact command and waits
@@ -119,7 +124,8 @@ a vehicle for learning modern AI tooling.
 | `decks/locked.txt`, `decks/locked.md` | The 32 cards the user keeps: each must be in at least one of the project's Commander decks (any number of decks, however many the project has), not tied to its original deck (Phase 6, 2026-10-16); the rules and the color-identity table are in `locked.md` |
 | `decks/<commander-slug>.layer_a.json`, `.cards.json` | Layer A output and card facts, written by scripts the user runs |
 | `decks/reports/` | Commander Salt score reports, one per deck and date |
-| `data/raw/` | Private inputs such as the collection export (git-ignored) |
+| `data/collection/` | The owner's ManaBox collection export, one full CSV per date (`ManaBox_Collection_<YYYY-MM-DD>.csv`: every binder and deck); tracked in git on purpose as the collection backup (owner, 2026-10-17); `scripts/build_inventory.py` reads the newest. The app's own restore file (`.backup`) and the per-binder CSVs stay in the owner's Drive |
+| `data/raw/` | Private inputs such as the owner's current deck lists `Toph.txt` and `Azula.txt` (git-ignored) |
 | `data/cache/` | Downloaded bulk data from Scryfall and Commander Spellbook, and `collection_inventory.json` from `scripts/build_inventory.py` (untracked) |
 | `data/hazards.json` | Curated combos and packages Spellbook does not list (per commander), read by Layer A; extended from the Phase 3 reports |
 | `data/stores.md` | Allowlist of stores with domain, shipping rule, payment fees and date checked (created 2026-10-11 with the 7 stores; shipping and fees filled in Phase 7) |

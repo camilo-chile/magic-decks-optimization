@@ -2,7 +2,8 @@
 """Owned-card inventory: ManaBox collection CSV -> one record per card (oracle ID).
 
 Run it with the "Run Python File" button (no arguments). No network. It reads
-data/raw/ManaBox_Collection.csv (every binder and deck of the export) and the Scryfall oracle
+the newest data/collection/ManaBox_Collection_<date>.csv (every binder and deck of the export; tracked in
+git as the collection backup) and the Scryfall oracle
 bulk file cached under data/cache/, and writes data/cache/collection_inventory.json plus a
 short text summary next to it. Phases 7 and 8 read that file: an owned copy costs 0, and one
 physical copy can sit in only one deck (decision D5).
@@ -27,7 +28,16 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import layer_a as la  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-CSV_PATH = ROOT / "data" / "raw" / "ManaBox_Collection.csv"
+COLLECTION_DIR = ROOT / "data" / "collection"
+
+
+def latest_collection_csv():
+    """The newest data/collection/ManaBox_Collection_<YYYY-MM-DD>.csv (the ISO date sorts by name), or None."""
+    files = sorted(COLLECTION_DIR.glob("ManaBox_Collection_*.csv"))
+    return files[-1] if files else None
+
+
+CSV_PATH = latest_collection_csv()
 OUT_PATH = ROOT / "data" / "cache" / "collection_inventory.json"
 RESERVED_BINDERS = set()  # O3 closed: no other decks are considered
 PROJECT_DECKS = {"toph": "toph-the-first-metalbender", "azula": "fire-lord-azula"}
@@ -128,9 +138,11 @@ def summary(inv):
 
 def main():
     """Read the collection CSV and write the inventory file."""
-    if not CSV_PATH.exists():
-        print(f"Missing {CSV_PATH}. Export the collection from ManaBox into data/raw/ first.")
+    if CSV_PATH is None:
+        print("No data/collection/ManaBox_Collection_<YYYY-MM-DD>.csv found. Export the collection "
+              "from ManaBox and save it there first.")
         sys.exit(2)
+    print(f"Reading {CSV_PATH.relative_to(ROOT)}")
     bulk = la.latest_bulk()
     if bulk is None:
         print("No oracle bulk file in data/cache/. Run scripts/collect_research_data.py first.")

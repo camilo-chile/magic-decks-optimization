@@ -83,8 +83,10 @@ COMMANDER_MULTIPLIERS = {
 
 
 def normalize(name):
-    """Lower-case a card name and unify apostrophes so lookups are forgiving."""
-    return name.replace("’", "'").strip().casefold()
+    """Lower-case a card name and unify apostrophes and colons so lookups are forgiving.
+
+    Scryfall spells "Ratonhnhaké꞉ton" with the modifier colon U+A789; ManaBox exports a plain ":"."""
+    return name.replace("’", "'").replace("꞉", ":").strip().casefold()
 
 
 def build_index(cards):

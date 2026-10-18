@@ -56,6 +56,10 @@ def gcs(n):
     return [card(f"GC {i}", ["R"], gc=True) for i in range(n)]
 
 
+def test_normalize_unifies_the_modifier_colon_of_ratonhnhaketon():
+    assert mod.normalize("Ratonhnhaké꞉ton") == mod.normalize("Ratonhnhaké:ton")
+
+
 def test_clean_deck_has_floor_1_and_is_not_rejected():
     r = run()
     assert r["total_cards"] == 100 and r["recognized_cards"] == 100
