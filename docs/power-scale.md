@@ -1,7 +1,7 @@
 # Power measurement (v1.0)
 
 Status: v1.0, 2026-10-13. Replaces the project's own `X.Y` scale, the Layer B judge panel and
-the speed-risk flag (archived in `research/archive-power-scale-v0.8.2-2026-10-12.md`). Rules
+the speed-risk flag (the earlier v0.8.2 text was removed on 2026-10-18; it is in the git history). Rules
 snapshot: the Wizards update of 2026-02-09 (Brackets still "beta"), re-checked on 2026-10-13
 against Wizards' own pages: no Commander, Brackets or Game Changers change; re-check at the
 2026-11-30 Banned and Restricted announcement and in the Phase 11 freshness check. Source reports:

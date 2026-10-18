@@ -1,4 +1,2 @@
-# Initial dependencies; extend as the tooling research phase decides.
+# Used today: `requests` (collectors and store readers). Phase 8 step 3 adds `pulp` (pin it when written).
 requests
-pandas
-pytest

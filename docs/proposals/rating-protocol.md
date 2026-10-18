@@ -1,7 +1,7 @@
 # Measurement protocol and decision log (v4)
 
-Status: v4, 2026-10-13. The judge-panel protocol (v3) is archived in
-`../research/archive-rating-protocol-v3-2026-10-12.md`. Power is now measured with Commander Salt
+Status: v4, 2026-10-13. The judge-panel protocol (v3) was removed on 2026-10-18 (it is in the git
+history). Power is now measured with Commander Salt
 (owner decision, 2026-10-13); see [power-scale.md](../power-scale.md) and
 [commandersalt-adoption.md](commandersalt-adoption.md).
 

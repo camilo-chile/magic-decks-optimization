@@ -1,0 +1,5706 @@
+{
+ "slug": "alexios-deimos-of-kosmos",
+ "color_identity": [
+  "R"
+ ],
+ "cards": [
+  {
+   "name": "Aang's Journey",
+   "oracle_id": "ddf461b9-a205-4dc7-a9c3-c047b1ff709f",
+   "type": "Sorcery — Lesson",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 3,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Abrade",
+   "oracle_id": "f9db72dc-9a5b-48a4-a86e-7464d9a2166a",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
+   "lists": [
+    "91a1a44e"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Abstergo Entertainment",
+   "oracle_id": "d06a8026-1657-4404-8dff-64e44f1a14f8",
+   "type": "Legendary Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 5500,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "ec03cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Adrestia",
+   "oracle_id": "94779ca4-c202-4163-9c77-1036921a34bc",
+   "type": "Legendary Artifact — Vehicle",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 4,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Aggravated Assault",
+   "oracle_id": "20129459-a386-41eb-899d-1aede3427300",
+   "type": "Enchantment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 29440,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Agitator Ant",
+   "oracle_id": "abe377f8-35f0-4dea-a681-91d31a36815c",
+   "type": "Creature — Insect",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 590,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Akki Battle Squad",
+   "oracle_id": "5bd81d2f-46a1-4536-92e7-28c7e1892735",
+   "type": "Creature — Goblin Samurai",
+   "cmc": 6.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 5840,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Alexios, Deimos of Kosmos",
+   "oracle_id": "81c6c4f0-81ad-463c-a42b-60a73e6d70f3",
+   "type": "Legendary Creature — Human Berserker",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 3,
+   "basic": false,
+   "best_offer": {
+    "clp": 742,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Ancient Tomb",
+   "oracle_id": "23467047-6dba-4498-b783-1ebc4f74b8c2",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": true,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 66500,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Anger",
+   "oracle_id": "eaabd151-2160-4bff-82c0-3fa88659be98",
+   "type": "Creature — Incarnation",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 590,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Apple of Eden, Isu Relic",
+   "oracle_id": "7849426d-895d-4dfe-a94d-b8df634618a5",
+   "type": "Legendary Artifact",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Arcane Signet",
+   "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": {
+    "clp": 890,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Arena of Glory",
+   "oracle_id": "63dfe794-5f56-41ec-9883-5523b41cc3e0",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 9700,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "40b377d5",
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Banefire",
+   "oracle_id": "5eff8a06-e0d6-435a-a7c0-db9f9d98636a",
+   "type": "Sorcery",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Barrels of Blasting Jelly",
+   "oracle_id": "c6cd520c-106b-4ee5-bc02-6c5fbdbc78dd",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 3,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Beamtown Beatstick",
+   "oracle_id": "035e33ab-adfe-4831-bdbc-52f4ddc7ffe8",
+   "type": "Artifact — Equipment",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1150,
+    "store": "lacomarca",
+    "language": "es",
+    "finish": "foil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Bedlam",
+   "oracle_id": "c28d4caf-9b7c-40b1-9cbe-275ca9dae06a",
+   "type": "Enchantment",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1500,
+    "store": "afkstore",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Bender's Waterskin",
+   "oracle_id": "3bc46467-323f-4cbf-9d0a-f3d2ae3c3a34",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": true,
+   "owned_usable": 3,
+   "basic": false,
+   "best_offer": {
+    "clp": 6240,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 2,
+   "owned_fit": true
+  },
+  {
+   "name": "Big Score",
+   "oracle_id": "a5cbd257-c836-493e-bb1a-76242619dea2",
+   "type": "Instant",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 1490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "oracle_id": "fb81e4d3-1d8c-4779-be62-87cf49277e51",
+   "type": "Legendary Creature — God // Legendary Artifact",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Bladegraft Aspirant",
+   "oracle_id": "644c785d-3061-44bc-9f78-bc939c565bf4",
+   "type": "Creature — Phyrexian Warrior",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Blasphemous Act",
+   "oracle_id": "7a2484a9-04fd-41a0-8224-610c1c07ed10",
+   "type": "Sorcery",
+   "cmc": 9.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": {
+    "clp": 1990,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Blazing Crescendo",
+   "oracle_id": "6344c96a-efa5-4125-8219-d333228391cf",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Boar-q-pine",
+   "oracle_id": "551e4356-5b1f-475c-a64b-9c50ea9b0368",
+   "type": "Creature — Boar Porcupine",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 3,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Bolt Bend",
+   "oracle_id": "c20a96f7-aa5a-4c15-b8b1-806685c99b27",
+   "type": "Instant",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 5990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "40b377d5",
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Boompile",
+   "oracle_id": "85b8902f-2515-4ded-b28a-a83334f089f1",
+   "type": "Artifact",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 1000,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "owned_fit": true
+  },
+  {
+   "name": "Brainstone",
+   "oracle_id": "ffac1923-99d0-48e6-b1e7-168e5c324a80",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Brash Taunter",
+   "oracle_id": "3e41648f-c5a9-4b26-b97e-8176fe5e9c85",
+   "type": "Creature — Goblin",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 5750,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Brass Squire",
+   "oracle_id": "5a10c3a5-6724-4e5a-ae4f-b27dde12735a",
+   "type": "Artifact Creature — Myr",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Brotherhood Headquarters",
+   "oracle_id": "0d3a06d5-5bb9-4733-a55b-9e2c75de6b6e",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 4,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Brotherhood Regalia",
+   "oracle_id": "d169738e-af0b-4488-a399-3aa1d1933aa1",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 9960,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Brute Suit",
+   "oracle_id": "bc64e396-7fa1-4a4e-a528-352737714a9c",
+   "type": "Artifact — Vehicle",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Bucolic Ranch",
+   "oracle_id": "8f5902bf-4bc4-4d0c-84ea-a425307a4eb2",
+   "type": "Land — Desert",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Bulk Up",
+   "oracle_id": "fade8af0-5fdb-4237-9dd6-48bfd1d62767",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 400,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Bumi Bash",
+   "oracle_id": "629f247c-1e64-4c32-8892-0716ed469d1c",
+   "type": "Sorcery",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Buried Ruin",
+   "oracle_id": "3644f316-f9a3-46c9-9b1e-747f86cf4ead",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 400,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Burnished Hart",
+   "oracle_id": "893fed41-c144-433f-af88-bc7d419b7fb3",
+   "type": "Artifact Creature — Elk",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Buster Sword",
+   "oracle_id": "5e060d58-4d6e-425c-b7d4-727669fcce5b",
+   "type": "Artifact — Equipment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 58990,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Cabaretti Courtyard",
+   "oracle_id": "65424bea-fd53-4f85-9757-0b91a6d40ba4",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Capital Guard",
+   "oracle_id": "aff20717-265d-4214-a8f5-f520bb243cb5",
+   "type": "Creature — Human Soldier",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Castle Embereth",
+   "oracle_id": "91fbb25b-8521-483f-88b0-77778d25f7fd",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 500,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Cathartic Reunion",
+   "oracle_id": "0f3c3e5f-6af3-4af2-8703-4ccc8ed8f675",
+   "type": "Sorcery",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Cavern of Souls",
+   "oracle_id": "89ca686a-7c72-4d8f-9290-e89635624a83",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 55500,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "91a1a44e",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Champion's Helm",
+   "oracle_id": "c01aafb8-3da5-4eb1-8731-2a223e747d63",
+   "type": "Artifact — Equipment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "f4b8cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Chandra's Ignition",
+   "oracle_id": "f61680da-606e-4d16-b0a0-361aa5210901",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 10400,
+    "store": "paytowin",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Chaos Warp",
+   "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
+   "type": "Instant",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": {
+    "clp": 790,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Chromatic Star",
+   "oracle_id": "fedbd40b-e3a5-449c-a8a3-b42e9da191a9",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "City of Traitors",
+   "oracle_id": "f161111d-9747-47b3-bb10-3c8bded32e21",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 52000,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Cobbled Wings",
+   "oracle_id": "8d8682f3-9ef3-4aa7-9ea6-8a2ce09bff6f",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Combat Celebrant",
+   "oracle_id": "5e15ff93-99a0-4000-918e-4bd2c257188d",
+   "type": "Creature — Human Warrior",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 35990,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "foil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Combustion Man",
+   "oracle_id": "533b107c-fd66-45ef-b74e-e6bd9b75ea8f",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": true,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": {
+    "clp": 350,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "owned_fit": true
+  },
+  {
+   "name": "Comet Storm",
+   "oracle_id": "9c2b262b-53c0-41a1-8f1a-0c336453d4bf",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 3200,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "owned_fit": true
+  },
+  {
+   "name": "Command Beacon",
+   "oracle_id": "7e8c2a18-e404-40ff-a9e0-ec3eeb6d576e",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 11100,
+    "store": "paytowin",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Command Tower",
+   "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": {
+    "clp": 500,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
+   "owned_fit": true
+  },
+  {
+   "name": "Command the Storm",
+   "oracle_id": "1dc816b5-8918-4a0c-bb10-74abe579a98c",
+   "type": "Instant",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Commander's Plate",
+   "oracle_id": "cae166de-e681-40a0-83a8-3c17cf40e2fc",
+   "type": "Artifact — Equipment",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 40100,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Commander's Sphere",
+   "oracle_id": "0b67c4e2-f88b-4e01-85a1-9d5f5b8db13b",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
+   "lists": [
+    "40b377d5"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Count on Luck",
+   "oracle_id": "73ad7bcd-4ffc-442c-b6b5-d935b9ccaaaf",
+   "type": "Enchantment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Crawlspace",
+   "oracle_id": "2296370c-fe34-4df6-92a5-260f1634bede",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 9990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Crescent Island Temple",
+   "oracle_id": "2886f95e-c4e8-4770-b7de-40985f336cfb",
+   "type": "Legendary Enchantment — Shrine",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 3,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Cunning Maneuver",
+   "oracle_id": "96335212-ec57-4beb-bab1-11c8eaa62119",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Cursed Mirror",
+   "oracle_id": "4d67e2a7-4aa7-44cc-853b-500d7aac046d",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Cursed Recording",
+   "oracle_id": "9adc3750-0ddb-4f2c-a0e7-131e59d4cba5",
+   "type": "Artifact",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Darksteel Citadel",
+   "oracle_id": "8dc067bf-f78f-4ac4-b6e7-b305c42cf0bc",
+   "type": "Artifact Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 600,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
+   "owned_fit": true
+  },
+  {
+   "name": "Darksteel Plate",
+   "oracle_id": "b5b4cf54-ed5e-42d0-9d98-5fec76b0b0b8",
+   "type": "Artifact — Equipment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 7480,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Defense Grid",
+   "oracle_id": "22ba474e-f6e6-450d-a4cf-0739f0b51079",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 8120,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Deflecting Swat",
+   "oracle_id": "ae120613-97d6-4393-b39d-c3e6c076f5d6",
+   "type": "Instant",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": true,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 147200,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "91a1a44e",
+    "ec03cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Demolition Field",
+   "oracle_id": "93953926-a644-49bb-9b5a-4c8f19114c7e",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 742,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Deserter's Disciple",
+   "oracle_id": "73ca3132-d849-4cf9-beba-75ba09789332",
+   "type": "Creature — Human Rebel Ally",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 4,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Desperate Ritual",
+   "oracle_id": "3620ab8f-b693-4225-bb96-5ca3cb3fa465",
+   "type": "Instant — Arcane",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 7600,
+    "store": "paytowin",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Disrupt Decorum",
+   "oracle_id": "9b084cd4-cc21-4f3a-9ac5-1e1160a31aa6",
+   "type": "Sorcery",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 5390,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Dragon Moose",
+   "oracle_id": "4a678c6f-5a93-4a3b-80fd-4c0d0f9040c9",
+   "type": "Creature — Dragon Elk",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Dragon's Rage Channeler",
+   "oracle_id": "0c016ccc-a341-4b76-87ba-69c639d2746d",
+   "type": "Creature — Human Shaman",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1440,
+    "store": "paytowin",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Dwarven Mauler",
+   "oracle_id": "70538676-2ffb-4cad-827e-b55e81088678",
+   "type": "Creature — Dwarf Warrior",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Dwarven Miner",
+   "oracle_id": "0935377b-384f-4e4c-9fbb-8d2a7d5dc280",
+   "type": "Creature — Dwarf",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Electro, Assaulting Battery",
+   "oracle_id": "3db16fb8-5650-4568-b975-42ad3d44ebcd",
+   "type": "Legendary Creature — Human Villain",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": true,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 8390,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "owned_fit": true
+  },
+  {
+   "name": "Electrodominance",
+   "oracle_id": "4a59d86e-405d-4c70-b2a5-c64f5cecfd9e",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 1290,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "owned_fit": true
+  },
+  {
+   "name": "Elsewhere Flask",
+   "oracle_id": "610618f9-8186-44b6-8041-0a5b70f11cc1",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Embodiment of Fury",
+   "oracle_id": "0e8adf34-0834-4027-9cda-18df69239e2b",
+   "type": "Creature — Elemental",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Energybending",
+   "oracle_id": "c4c1e49d-5f14-486c-acf2-1952512b12b2",
+   "type": "Instant — Lesson",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Errantry",
+   "oracle_id": "fee455f2-fcc4-47b1-a533-92fa1ae8ae63",
+   "type": "Enchantment — Aura",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Evolving Wilds",
+   "oracle_id": "a75445d3-1303-4bb5-89ad-26ea93fecd48",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
+   "owned_fit": true
+  },
+  {
+   "name": "Expedite",
+   "oracle_id": "3501a839-eef5-44e4-8637-b5754780454e",
+   "type": "Instant",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Explosive Shot",
+   "oracle_id": "a6081d17-599b-4fd2-bd68-55eca939213a",
+   "type": "Sorcery",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Fabled Passage",
+   "oracle_id": "0c85b8f7-0bd0-4680-9ec5-d4b110460a54",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1590,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Faceless Haven",
+   "oracle_id": "f74107d5-fb4a-464b-9251-42b84d91775d",
+   "type": "Snow Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Faithless Looting",
+   "oracle_id": "3d6fa57a-aa53-4b5c-b8af-a7612c823117",
+   "type": "Sorcery",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 975,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Fellwar Stone",
+   "oracle_id": "95560508-7ac9-4be9-8a3f-3c7d5b52807b",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Fiendish Duo",
+   "oracle_id": "ab0dfae5-b9d4-417b-8a0d-2525ae3a73b9",
+   "type": "Creature — Devil",
+   "cmc": 6.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Fire Nation Archers",
+   "oracle_id": "2e735849-1930-4f43-86b4-da660ade15bc",
+   "type": "Creature — Human Archer",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Fire Nation Attacks",
+   "oracle_id": "399fba23-fc13-440b-ab67-192eede6ecab",
+   "type": "Instant",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Fire Nation Cadets",
+   "oracle_id": "5ebfa3f5-f80a-4845-bba7-75c4ddb88682",
+   "type": "Creature — Human Soldier",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Fire Nation Palace",
+   "oracle_id": "f2000fb8-39c6-4ad6-a020-5245faaa1eba",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 2040,
+    "store": "gameofmagic",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "owned_fit": true
+  },
+  {
+   "name": "Fire Nation Raider",
+   "oracle_id": "b37e9bc5-6a2c-4f08-b856-3f8d0d16defb",
+   "type": "Creature — Human Soldier",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Fire Nation Soldier",
+   "oracle_id": "6a15fad7-8171-4bce-bb39-fe3a8175f8fa",
+   "type": "Creature — Human Soldier",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Fire Nation Warship",
+   "oracle_id": "987aab63-a889-400f-a3bd-feaef978b407",
+   "type": "Artifact — Vehicle",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Fire Nation's Conquest",
+   "oracle_id": "8893af49-2f90-4aed-bcaf-905bb9e8ed8f",
+   "type": "Enchantment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Fire Sages",
+   "oracle_id": "08d1940a-ddc6-4b6d-b6c9-9d2aa470b906",
+   "type": "Creature — Human Cleric",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Firebender Ascension",
+   "oracle_id": "96cc63af-69d1-4493-b241-0cb244a9e48a",
+   "type": "Enchantment",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": {
+    "clp": 915,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "owned_fit": true
+  },
+  {
+   "name": "Firebending Lesson",
+   "oracle_id": "a9282f91-638e-414b-8b3d-9a99e30aec96",
+   "type": "Instant — Lesson",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Fishing Gear",
+   "oracle_id": "7d309b18-8dc5-41ee-888c-e275761029e7",
+   "type": "Artifact — Equipment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 11600,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Fists of Flame",
+   "oracle_id": "e05abb6b-e9f4-4d9e-ad1e-7805ebc09914",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "owned_fit": true
+  },
+  {
+   "name": "Flywheel Racer",
+   "oracle_id": "0399b932-2a59-471c-828e-2b16614e0dae",
+   "type": "Artifact — Vehicle",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Forgotten Cave",
+   "oracle_id": "394c6de5-7957-4a0b-a6b9-ee0c707cd022",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5",
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Foundry Inspector",
+   "oracle_id": "18f22960-87ec-43cd-82ea-ec5cabf49ad3",
+   "type": "Artifact Creature — Construct",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 590,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "f4b8cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Freya Crescent",
+   "oracle_id": "7e3085d8-9d46-41e0-ad9d-54c44d9ef267",
+   "type": "Legendary Creature — Rat Knight",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 742,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Furnace Host Charger",
+   "oracle_id": "fea60c45-cc36-4dd1-8475-23a9361e370d",
+   "type": "Creature — Phyrexian Giant",
+   "cmc": 6.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Furnace Reins",
+   "oracle_id": "b623e61a-cdb9-46b0-a443-547be05db877",
+   "type": "Sorcery",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Furnace of Rath",
+   "oracle_id": "68715465-6cf9-4006-87e9-31f227fe9ed3",
+   "type": "Enchantment",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 9990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Fíli and Kíli, Joyous",
+   "oracle_id": "392f6cd3-3895-42b3-8bb9-6b0c6a689a29",
+   "type": "Legendary Creature — Dwarf Bard",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 5990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Gamble",
+   "oracle_id": "a54f0869-94c8-42af-9080-166efb9486a4",
+   "type": "Sorcery",
+   "cmc": 1.0,
+   "game_changer": true,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 28200,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Geier Reach Sanitarium",
+   "oracle_id": "7b9fafe7-d26a-4ed5-b4c4-ce13763770b5",
+   "type": "Legendary Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 950,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Genji Glove",
+   "oracle_id": "8242cd78-6675-43b5-8924-0a88c3aa6f76",
+   "type": "Artifact — Equipment",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 9960,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Gilgamesh, Master-at-Arms",
+   "oracle_id": "c9432e87-38f6-4889-8f07-ae7cd045e532",
+   "type": "Legendary Creature — Human Samurai",
+   "cmc": 6.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2600,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Glassworks // Shattered Yard",
+   "oracle_id": "4122720b-cad9-4ebb-b458-be71411c21e3",
+   "type": "Enchantment — Room // Enchantment — Room",
+   "cmc": 8.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Goblin Engineer",
+   "oracle_id": "c1d6cce8-085f-42cb-8b0c-b6fbbf88b16a",
+   "type": "Creature — Goblin Artificer",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 9900,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Goblin Welder",
+   "oracle_id": "9fc28e1f-f4ea-4bf8-9442-a36dba3b3b29",
+   "type": "Creature — Goblin Artificer",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 26000,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Godo, Bandit Warlord",
+   "oracle_id": "f890d51a-dc90-4179-8423-4738a72a527c",
+   "type": "Legendary Creature — Human Barbarian",
+   "cmc": 6.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1590,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Grafdigger's Cage",
+   "oracle_id": "753cb2b2-24ce-484f-a2d0-be6fd2c67ebd",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 9200,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Grim Reaper's Sprint",
+   "oracle_id": "99a6d7fe-40a1-4f2f-a3f6-6777884d5d1a",
+   "type": "Enchantment — Aura",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 11600,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Hammer of Nazahn",
+   "oracle_id": "e3955573-3db5-490e-903e-65e0172a9202",
+   "type": "Legendary Artifact — Equipment",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 14490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Hanweir Battlements",
+   "oracle_id": "0e735ba6-7fd1-4d12-b20c-21525dc1e2b5",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2320,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Haunted Cloak",
+   "oracle_id": "74fc88d5-19c3-4516-9a06-e9573d659caa",
+   "type": "Artifact — Equipment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Headsplitter",
+   "oracle_id": "8333c82f-aae6-470f-a9db-63ab24f9bb46",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Helm of the Host",
+   "oracle_id": "83b43aba-bf9c-4da2-967d-9daa632e97d2",
+   "type": "Legendary Artifact — Equipment",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 7490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Hexing Squelcher",
+   "oracle_id": "96c2d71e-0fc9-42aa-bc6b-6d0ae3f66f8b",
+   "type": "Creature — Goblin Sorcerer",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 23800,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Hexplate Wallbreaker",
+   "oracle_id": "f7f78825-10d6-441a-ae26-51b77cc271cd",
+   "type": "Artifact — Equipment",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 7300,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Hidden Blade",
+   "oracle_id": "37ec9b95-8c9a-4dd5-9ff2-3d6527984126",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Hidden Footblade",
+   "oracle_id": "daed1b38-510b-4698-95c3-05c09f5fabe9",
+   "type": "Artifact — Equipment",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": true,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "owned_fit": true
+  },
+  {
+   "name": "Horizon Stone",
+   "oracle_id": "add46292-470e-47fa-a261-4884d02e65fe",
+   "type": "Artifact",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": true,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 1290,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "owned_fit": true
+  },
+  {
+   "name": "How to Start a Riot",
+   "oracle_id": "268d0056-0d3e-438a-ab17-625a6f5ec68a",
+   "type": "Instant — Lesson",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Ichor Wellspring",
+   "oracle_id": "5b5ef43b-13fd-4461-8d2d-18be65e9a790",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "owned_fit": true
+  },
+  {
+   "name": "Imperial Recruiter",
+   "oracle_id": "4d6a1391-817a-4ddc-840d-886b138eeb3f",
+   "type": "Creature — Human Advisor",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 14700,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Infiltration Lens",
+   "oracle_id": "72dfd729-ebba-4bb1-83eb-54c2051fea3b",
+   "type": "Artifact — Equipment",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2300,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Inti, Seneschal of the Sun",
+   "oracle_id": "176f5ba8-6e7b-4234-a298-b6164f51656f",
+   "type": "Legendary Creature — Human Knight",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Inventors' Fair",
+   "oracle_id": "91d4a5fe-fd6d-4b14-a63f-61b4d0ecd9c4",
+   "type": "Legendary Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 14280,
+    "store": "gameofmagic",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "91a1a44e",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Iroh, Firebending Instructor",
+   "oracle_id": "8e03797d-dd61-439f-b4ce-996cd71bdcf5",
+   "type": "Legendary Creature — Human Noble Ally",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Iron Myr",
+   "oracle_id": "6c5cbab6-ee27-46f5-97a7-df85698d1e9f",
+   "type": "Artifact Creature — Myr",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1200,
+    "store": "paytowin",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Jeska's Will",
+   "oracle_id": "0fd114c4-092b-4e28-b0dc-ef529f3bc73e",
+   "type": "Sorcery",
+   "cmc": 3.0,
+   "game_changer": true,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "lists": [
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Jeska, Thrice Reborn",
+   "oracle_id": "b1fbfcf3-6921-4417-a58e-0f5e5d34a105",
+   "type": "Legendary Planeswalker — Jeska",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 7200,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Jet's Brainwashing",
+   "oracle_id": "5cca85e0-43e8-4b97-a43b-1b8f23f541d1",
+   "type": "Sorcery",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Karn's Sylex",
+   "oracle_id": "c5e817f9-a003-45b5-8e16-1746e6096166",
+   "type": "Legendary Artifact",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Karsus Depthguard",
+   "oracle_id": "dc8c6803-dd87-4f00-8a92-9613dbe90549",
+   "type": "Creature — Lizard Warrior",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Kediss, Emberclaw Familiar",
+   "oracle_id": "d9c87cc2-943e-49b6-becc-748857549617",
+   "type": "Legendary Creature — Elemental Lizard",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 6800,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Kiki-Jiki, Mirror Breaker",
+   "oracle_id": "a34b7416-cfe3-4a1e-a8c1-a3056b747519",
+   "type": "Legendary Creature — Goblin Shaman",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 18500,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Kitesail",
+   "oracle_id": "b079f9db-974d-4525-a894-57b754ba9dcc",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Komainu Battle Armor",
+   "oracle_id": "5e4d69de-1876-49a8-8ec6-a891d4a84ccf",
+   "type": "Artifact Creature — Equipment Dog",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 5000,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "91a1a44e",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Komodo Rhino",
+   "oracle_id": "7fe5cad0-8db8-4cb3-9d61-bda84477654d",
+   "type": "Creature — Lizard Rhino",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Kyoshi Battle Fan",
+   "oracle_id": "849e54f9-7662-4186-859c-e4f52afbccac",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 4,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Labyrinth Adversary",
+   "oracle_id": "00a9bdd0-8a39-4489-bd42-2ac92e550781",
+   "type": "Creature — Minotaur",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": true,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "owned_fit": true
+  },
+  {
+   "name": "Lava Coil",
+   "oracle_id": "fa71db44-5181-4c51-8b24-7fbedf36e3ca",
+   "type": "Sorcery",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Lightning Axe",
+   "oracle_id": "81b90905-fbc0-426a-a084-c3300533abb4",
+   "type": "Instant",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Lightning Bolt",
+   "oracle_id": "4457ed35-7c10-48c8-9776-456485fdf070",
+   "type": "Instant",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1400,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Lightning Greaves",
+   "oracle_id": "ca204b66-8d0c-431a-8d34-282f7c2d17da",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 6490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Lightning Strike",
+   "oracle_id": "f34b9bc4-7bfe-47fd-ba23-4eeeb46026eb",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
+   "owned_fit": true
+  },
+  {
+   "name": "Lizard Blades",
+   "oracle_id": "f6314e50-a610-4fff-8f60-803d23460ff0",
+   "type": "Artifact Creature — Equipment Lizard",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 3000,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "91a1a44e",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Lotus Petal",
+   "oracle_id": "32e5339e-9e4f-46f8-b305-f9d6d3ba8bb5",
+   "type": "Artifact",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 44000,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Loyal Fire Sage",
+   "oracle_id": "0c052420-2d8b-4bbf-8197-b8a36e7208c9",
+   "type": "Creature — Human Cleric Ally",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Luxior, Giada's Gift",
+   "oracle_id": "2f9263d7-916f-4535-95d2-888ab73cf339",
+   "type": "Legendary Artifact — Equipment",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 5300,
+    "store": "paytowin",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Magda, Brazen Outlaw",
+   "oracle_id": "3d268e48-3004-4384-bf52-e63243fb5e02",
+   "type": "Legendary Creature — Dwarf Berserker",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 10990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Magnetic Theft",
+   "oracle_id": "9b22cc97-003f-4227-acdc-7a0857674b67",
+   "type": "Instant",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 6500,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Magus of the Wheel",
+   "oracle_id": "df13dafb-f82e-42ac-b6dc-efe82af5db58",
+   "type": "Creature — Human Wizard",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2250,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Mai, Jaded Edge",
+   "oracle_id": "b5029f21-e0d6-4f22-9afd-79452de26490",
+   "type": "Legendary Creature — Human Noble",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Mana Geyser",
+   "oracle_id": "a8dba58b-2956-492e-ae30-49db2ae68e53",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2090,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Mask of Memory",
+   "oracle_id": "d6b2c998-a226-426c-a40d-6e6007041bfe",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 890,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Maximus, Knight Apparent",
+   "oracle_id": "23f0d43c-f84d-48cf-8ee7-bfda6e0f7e29",
+   "type": "Legendary Creature — Human Knight",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Maze of Ith",
+   "oracle_id": "38a12bd7-4394-44a8-91a0-6a4ff7fa4f71",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 10680,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Mechanical Glider",
+   "oracle_id": "d53d1805-c4ec-4b42-a226-3cd78cd2be84",
+   "type": "Artifact — Equipment",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Meteor Sword",
+   "oracle_id": "181965fb-e685-4b1f-9bd6-3a33bed933b2",
+   "type": "Artifact — Equipment",
+   "cmc": 7.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Mind Stone",
+   "oracle_id": "c97361b5-af16-4a7b-af85-a429dbaf4ad2",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 650,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "f4b8cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Mindslaver",
+   "oracle_id": "a806f4ee-f48a-46c3-8772-5aaabebe4c7e",
+   "type": "Legendary Artifact",
+   "cmc": 6.0,
+   "game_changer": false,
+   "locked": true,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": {
+    "clp": 4200,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 2,
+   "owned_fit": true
+  },
+  {
+   "name": "Mines of Moria",
+   "oracle_id": "583cdebe-0195-45be-bd2e-5765f07cb902",
+   "type": "Legendary Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 4600,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Mishra's Bauble",
+   "oracle_id": "63afc3d1-7653-476e-838f-fc18d4a62a21",
+   "type": "Artifact",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 2720,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "owned_fit": true
+  },
+  {
+   "name": "Misthios's Fury",
+   "oracle_id": "e99c088e-1326-4844-b932-fb51802656f5",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 3,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Mithril Coat",
+   "oracle_id": "3dc364f3-3094-4660-80ca-9418588c7fde",
+   "type": "Legendary Artifact — Equipment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 31700,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
+   "lists": [
+    "40b377d5",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Mjölnir, Hammer of Thor",
+   "oracle_id": "7f9a8845-d760-44a7-a4c9-8a20dba4e14a",
+   "type": "Legendary Artifact — Equipment",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 27990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Mjölnir, Storm Hammer",
+   "oracle_id": "f497e9a5-0ad3-4aec-8422-14be8e0dba4c",
+   "type": "Legendary Artifact — Equipment",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Mongoose Lizard",
+   "oracle_id": "a9bae56c-9666-42e8-94ec-03b0a964b142",
+   "type": "Creature — Mongoose Lizard",
+   "cmc": 6.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Moraug, Fury of Akoum",
+   "oracle_id": "6288c0cb-cf32-4ae9-abf0-104ec71654fa",
+   "type": "Legendary Creature — Minotaur Warrior",
+   "cmc": 6.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Most Valuable Slayer",
+   "oracle_id": "f5bece93-afb3-4fa4-83a8-d7eaac032522",
+   "type": "Creature — Human Warrior",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Mountain",
+   "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+   "type": "Basic Land — Mountain",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 42,
+   "basic": true,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Mox Opal",
+   "oracle_id": "de2440de-e948-4811-903c-0bbe376ff64d",
+   "type": "Legendary Artifact",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 252000,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Mycosynth Wellspring",
+   "oracle_id": "9ec43ec6-b625-4be8-8f79-3679e6657dbc",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Myriad Landscape",
+   "oracle_id": "2549bc57-9ffb-4053-9f10-f2a5f792b845",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1440,
+    "store": "paytowin",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "91a1a44e",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Neheb, the Eternal",
+   "oracle_id": "b0d3fd57-1420-4dd1-8410-9d659655287f",
+   "type": "Legendary Creature — Zombie Minotaur Warrior",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 9800,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "91a1a44e",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Neonate's Rush",
+   "oracle_id": "721aeedc-1de5-40d0-a04c-a2ebc056d06a",
+   "type": "Instant",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Nutrient Block",
+   "oracle_id": "04a0382f-7e4e-4450-ae70-18999379d875",
+   "type": "Artifact — Food",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Nykthos, Shrine to Nyx",
+   "oracle_id": "84dc18f0-8225-4b40-a165-b10321e41769",
+   "type": "Legendary Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 41660,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
+   "lists": [
+    "91a1a44e",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Origin of the Hidden Ones",
+   "oracle_id": "9c8f1abb-bd08-41e0-91ed-56ff25d7f9f2",
+   "type": "Enchantment — Saga",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Ornithopter of Paradise",
+   "oracle_id": "3a940dfa-a026-4969-8981-ef90cdfbe9ef",
+   "type": "Artifact Creature — Thopter",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 500,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Ovalchase Dragster",
+   "oracle_id": "345de988-4d26-4400-8202-225968db370f",
+   "type": "Artifact — Vehicle",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Overpowering Attack",
+   "oracle_id": "e31235f0-1f25-4158-b46e-cacde2f58b7e",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2100,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Path of Ancestry",
+   "oracle_id": "b473e293-59e3-4e04-acf2-622604aeb25f",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 3,
+   "basic": false,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "owned_fit": true
+  },
+  {
+   "name": "Pinnacle Monk // Mystic Peak",
+   "oracle_id": "f3d48efa-910a-4872-a5b1-a353c5dbce99",
+   "type": "Creature — Djinn Monk // Land",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 3190,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Pip-Boy 3000",
+   "oracle_id": "1e2ee630-9d37-4396-ae18-697c1a3a4e62",
+   "type": "Artifact — Equipment",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Pit of Offerings",
+   "oracle_id": "044d2788-6daa-4849-a813-1f577eef9295",
+   "type": "Land — Cave",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 700,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Planetarium of Wan Shi Tong",
+   "oracle_id": "f89d093d-c815-4df7-a348-2005aa227586",
+   "type": "Legendary Artifact",
+   "cmc": 6.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Powerbalance",
+   "oracle_id": "8be368dc-6212-4627-989e-077eea78f30d",
+   "type": "Enchantment",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 790,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Pristine Talisman",
+   "oracle_id": "1b3d7fce-e9fe-4176-9d9a-472415826cdd",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Professional Face-Breaker",
+   "oracle_id": "04152e7a-969c-4858-841b-0a569a9fc1bf",
+   "type": "Creature — Human Warrior",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 12100,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Pyretic Ritual",
+   "oracle_id": "86ef6474-613f-41fb-931c-d4279b03ed99",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 6990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Pyroblast",
+   "oracle_id": "ecc435e2-deb1-420a-a79f-01dd08747314",
+   "type": "Instant",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 5200,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Quick-Draw Katana",
+   "oracle_id": "604ef241-df8f-48f8-8680-f9ed77ff30ae",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Ragavan, Nimble Pilferer",
+   "oracle_id": "37108cd4-bbab-4ce3-9ed6-f60e8422e703",
+   "type": "Legendary Creature — Monkey Pirate",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 54100,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "91a1a44e",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Ran and Shaw",
+   "oracle_id": "a728685f-8670-4db2-ae02-3cf74eb3c402",
+   "type": "Legendary Creature — Dragon",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Raubahn, Bull of Ala Mhigo",
+   "oracle_id": "d81d5749-ab4d-42c5-8903-0b400f10fe33",
+   "type": "Legendary Creature — Human Warrior",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1000,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Reckless Fireweaver",
+   "oracle_id": "180e1a7e-890d-477c-80a5-da8a5f2857b3",
+   "type": "Creature — Human Artificer",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Reckless Handling",
+   "oracle_id": "f1ea7dc5-01cb-4780-947c-08ea9324c52f",
+   "type": "Sorcery",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 630,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Red Elemental Blast",
+   "oracle_id": "bb329a5c-b9f9-4973-a53f-090024146325",
+   "type": "Instant",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 7190,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Redirect Lightning",
+   "oracle_id": "c62b5c22-e058-436f-9575-a01cb2112829",
+   "type": "Instant — Lesson",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": true,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": {
+    "clp": 20990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "ec03cc3a",
+    "f4b8cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Reforge the Soul",
+   "oracle_id": "ece854f8-8c60-4f30-894f-2286d3dd61b9",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 7080,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Reliquary Tower",
+   "oracle_id": "c23e5b80-08d2-4e24-9908-fe2aa4f30f6f",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 5000,
+    "store": "paytowin",
+    "language": "es",
+    "finish": "foil"
+   },
+   "stores_with_stock": 6,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Repercussion",
+   "oracle_id": "f6069a4f-744e-43e8-9f8b-7c13b8b0187f",
+   "type": "Enchantment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 11830,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Return the Favor",
+   "oracle_id": "30377bd5-99ab-4888-9ea7-e5a069b527e8",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1250,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Rite of Flame",
+   "oracle_id": "8a2e53f9-8100-488f-8504-b59e9bd1cc29",
+   "type": "Sorcery",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 8090,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Rogue's Gloves",
+   "oracle_id": "308d7868-49f9-47a3-a7b1-4b0332d610f1",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1440,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Rogue's Passage",
+   "oracle_id": "f29dc596-2121-4421-8463-15f6c2e8b9b3",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": true,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": {
+    "clp": 742,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Roku's Mastery",
+   "oracle_id": "e5659c45-e064-4690-b90a-24ffe3793d4d",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Rough Rhino Cavalry",
+   "oracle_id": "3ac94b28-4b0a-4121-99b9-9cd7dff7948c",
+   "type": "Creature — Human Mercenary",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 3,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Ruby Medallion",
+   "oracle_id": "0c367958-729e-416d-988b-098e90e7a1fd",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 17320,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Rumble Arena",
+   "oracle_id": "83f2470e-2114-4cd9-ab1a-21b76e9cdf63",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "owned_fit": true
+  },
+  {
+   "name": "Run Amok",
+   "oracle_id": "d463de75-8d3c-4077-a2cc-c304a63acc69",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 8,
+   "owned_fit": true
+  },
+  {
+   "name": "Sabotender",
+   "oracle_id": "65385311-1158-4e94-892a-683997706ca8",
+   "type": "Creature — Plant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Sandstone Needle",
+   "oracle_id": "c8e0a1a5-8188-4677-9d8a-a18eb593343a",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 12000,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Scavenger Grounds",
+   "oracle_id": "5ece7d03-9ee7-4953-a06e-9d8e41874903",
+   "type": "Land — Desert",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
+   "lists": [
+    "40b377d5",
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Secret Tunnel",
+   "oracle_id": "632e2979-d88a-482e-9bb8-57b683c5310f",
+   "type": "Land — Cave",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": true,
+   "owned_usable": 3,
+   "basic": false,
+   "best_offer": {
+    "clp": 3500,
+    "store": "afkstore",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 5,
+   "owned_fit": true
+  },
+  {
+   "name": "Seething Song",
+   "oracle_id": "64bf8929-f5f2-4d50-8667-13b1d007bcfc",
+   "type": "Instant",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 10900,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Shatterskull Smashing // Shatterskull, the Hammer Pass",
+   "oracle_id": "78301998-fd9b-4cd5-afad-dbcb43cac2a7",
+   "type": "Sorcery // Land",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 9500,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
+   "lists": [
+    "91a1a44e",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Shinka, the Bloodsoaked Keep",
+   "oracle_id": "255b937f-c9c9-4ae9-815e-17418eba0602",
+   "type": "Legendary Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 15490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Shiny Impetus",
+   "oracle_id": "aae76e5c-f5e0-4d18-b465-e6a829be908a",
+   "type": "Enchantment — Aura",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Silent Arbiter",
+   "oracle_id": "1cdf30de-d88c-421a-80df-4917bbd2f09e",
+   "type": "Artifact Creature — Construct",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 15490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Silver Shroud Costume",
+   "oracle_id": "b40138c3-48bc-4825-ae48-5fea95304088",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 10900,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Skyblinder Staff",
+   "oracle_id": "3fea3d1a-067b-4eae-8433-f7e1e7b724a3",
+   "type": "Artifact — Equipment",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Slag Strider",
+   "oracle_id": "2b154d55-37dd-4e5f-aa99-d4bc547cdec0",
+   "type": "Creature — Elemental",
+   "cmc": 7.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+   "oracle_id": "fa716557-8e75-4617-8310-ab23a9ca1af1",
+   "type": "Legendary Artifact Creature — Robot // Legendary Artifact — Vehicle",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Sokenzan, Crucible of Defiance",
+   "oracle_id": "c5ee72d5-3a9e-4fe5-8802-3286ee612055",
+   "type": "Legendary Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 3360,
+    "store": "gameofmagic",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5",
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Sol Ring",
+   "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": {
+    "clp": 1900,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Solemn Simulacrum",
+   "oracle_id": "00c0543c-2a1f-4425-8283-4062d74a1637",
+   "type": "Artifact Creature — Golem",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 500,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
+   "owned_fit": true
+  },
+  {
+   "name": "Solstice Revelations",
+   "oracle_id": "310c1280-dee8-426f-8440-6132a634a1e0",
+   "type": "Instant — Lesson",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Spartan Veteran",
+   "oracle_id": "b255d1ec-49ac-49a2-9af8-21915bbcd224",
+   "type": "Creature — Human Soldier",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Spectacular Showdown",
+   "oracle_id": "b6f61b77-d571-4508-a5e8-435b4e097f3a",
+   "type": "Sorcery",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 4000,
+    "store": "afkstore",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Spinerock Knoll",
+   "oracle_id": "690c7f8e-fea2-4920-afa7-02ff120701a1",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 550,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Sterling Hound",
+   "oracle_id": "3178c1f9-f644-4926-ac9a-d40e4db79955",
+   "type": "Artifact Creature — Dog",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Sticky Fingers",
+   "oracle_id": "fa8ddc13-5108-4fe9-b3aa-dc28df476f7b",
+   "type": "Enchantment — Aura",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 790,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Stranglehold",
+   "oracle_id": "b66c6e3a-daed-43a3-95d6-4f9d6223bbf1",
+   "type": "Enchantment",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 8200,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Sundering Eruption // Volcanic Fissure",
+   "oracle_id": "c95309e9-5c2f-4518-b2fd-825d3d0a4ae0",
+   "type": "Sorcery // Land",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 6100,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Sunspine Lynx",
+   "oracle_id": "479adf64-f42c-4cb6-bf25-648c044bca8b",
+   "type": "Creature — Elemental Cat",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2600,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Survivors' Encampment",
+   "oracle_id": "152e7e91-4eda-4e72-a9fb-bd5cb2e68239",
+   "type": "Land — Desert",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 450,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Swiftfoot Boots",
+   "oracle_id": "c8b143ad-43ec-4e0d-a440-e348daa31391",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": true,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": {
+    "clp": 2680,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "f4b8cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Sword of Feast and Famine",
+   "oracle_id": "d0901053-6de0-46d0-9ee3-8d40510236c1",
+   "type": "Artifact — Equipment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 41800,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Sword of Fire and Ice",
+   "oracle_id": "2ccdc60a-49a9-44b9-a7af-0ebf18b26785",
+   "type": "Artifact — Equipment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 37990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Sword of Hearth and Home",
+   "oracle_id": "913e6182-706a-4872-8c8a-e146b0ae0738",
+   "type": "Artifact — Equipment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 15990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Sword of Light and Shadow",
+   "oracle_id": "01c8a554-45a6-46ca-b40a-af0fd4529e40",
+   "type": "Artifact — Equipment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 12500,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "40b377d5",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Sword of War and Peace",
+   "oracle_id": "b10ad415-0aae-4d70-82e6-a4055a40cbe4",
+   "type": "Artifact — Equipment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 10500,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Sword of Wealth and Power",
+   "oracle_id": "b3a80545-9a8a-46b2-9d8c-b0d66fb68a5d",
+   "type": "Artifact — Equipment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 23430,
+    "store": "oasis",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Sword of the Animist",
+   "oracle_id": "d79cbc61-6c15-48ea-bbba-3cffb819ccba",
+   "type": "Legendary Artifact — Equipment",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 5890,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Talon Gates of Madara",
+   "oracle_id": "8c45bf9d-a017-43bf-9e32-67810a8a217b",
+   "type": "Land — Gate",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 49100,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Tamiyo's Journal",
+   "oracle_id": "20591a83-7138-4876-b088-035bd3788be3",
+   "type": "Legendary Artifact — Book",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2400,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Temur Battle Rage",
+   "oracle_id": "2fdc0d17-b683-4263-949e-4f74ec76badf",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 450,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Terramorphic Expanse",
+   "oracle_id": "1bd3e453-aa21-4ee6-95c2-d6d920ee8e7a",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 3,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "The Animus",
+   "oracle_id": "7e0062fb-aff8-4c41-96eb-1af656d8b195",
+   "type": "Legendary Artifact",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "The Capitoline Triad",
+   "oracle_id": "e0321049-a3ed-4378-b607-7fb190b6f0fd",
+   "type": "Legendary Creature — God Artificer",
+   "cmc": 10.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "The Cave of Two Lovers",
+   "oracle_id": "c2df54f1-a2db-4de3-bc96-5c07f4594752",
+   "type": "Enchantment — Saga",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "The Last Agni Kai",
+   "oracle_id": "fd1998c0-c18e-4310-82de-b6320be5fe10",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 2600,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "owned_fit": true
+  },
+  {
+   "name": "The Lonely Mountain",
+   "oracle_id": "3678c06f-8a33-4a6d-bf20-5b92d5c05a95",
+   "type": "Land — Mountain",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 16920,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "The Mycosynth Gardens",
+   "oracle_id": "03f5c566-825c-4c46-9c01-a2f9b1e70a13",
+   "type": "Land — Sphere",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 890,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "The One Ring",
+   "oracle_id": "3aa83ed2-f48b-4ce6-a614-2c54ddf50538",
+   "type": "Legendary Artifact",
+   "cmc": 4.0,
+   "game_changer": true,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 124000,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "The Reaver Cleaver",
+   "oracle_id": "37a2a31d-51e6-4c07-b4c2-b206ad40eb42",
+   "type": "Legendary Artifact — Equipment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 30240,
+    "store": "oasis",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "The Sound of Drums",
+   "oracle_id": "0afcc646-cb34-4c0e-b3f5-4115ad4faa8e",
+   "type": "Enchantment — Aura",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "The Spear of Leonidas",
+   "oracle_id": "dac3a263-cc02-446a-88ec-882a21096b6c",
+   "type": "Legendary Artifact — Equipment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "91a1a44e",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "The Stasis Coffin",
+   "oracle_id": "a46bfaf5-e631-4603-850a-f0074395b2f5",
+   "type": "Legendary Artifact",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": true,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 11920,
+    "store": "gameofmagic",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "owned_fit": true
+  },
+  {
+   "name": "Thermo-Alchemist",
+   "oracle_id": "228fbae1-423e-461d-b8c3-55786938a3cb",
+   "type": "Creature — Human Shaman",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Thor, God of Thunder",
+   "oracle_id": "2842217a-173e-4879-8b25-fefe2fc1123f",
+   "type": "Legendary Creature — God Warrior Hero",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 50240,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Thorin, Mountain-king",
+   "oracle_id": "94917b80-ac32-45ab-b4ee-157ade024bcd",
+   "type": "Legendary Creature — Dwarf Noble",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 21000,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Thought Vessel",
+   "oracle_id": "9965d9c5-2ebf-4a6c-930e-55c5890979be",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2900,
+    "store": "paytowin",
+    "language": "es",
+    "finish": "foil"
+   },
+   "stores_with_stock": 6,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Thrill of Possibility",
+   "oracle_id": "1cb0610b-a731-42c2-b93f-0a29f63cebf4",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
+   "owned_fit": true
+  },
+  {
+   "name": "Thriving Bluff",
+   "oracle_id": "91fceb34-0f2d-4392-be27-00dcd765637f",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Tibalt's Trickery",
+   "oracle_id": "6623cb85-fb1e-4561-8b21-0977c25096c2",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 19300,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Ticket Booth // Tunnel of Hate",
+   "oracle_id": "4d01b62b-b924-4da5-8ff5-b2f29d7f19b2",
+   "type": "Enchantment — Room // Enchantment — Room",
+   "cmc": 9.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Tiger-Dillo",
+   "oracle_id": "b6e82d4f-4fbf-495c-bebd-982d2a855ad0",
+   "type": "Creature — Cat Armadillo",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Towering Viewpoint",
+   "oracle_id": "46c404c3-636a-4945-a61c-62f013a9c50f",
+   "type": "Artifact Creature — Wall",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "ec03cc3a"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Trailblazer's Boots",
+   "oracle_id": "634d5009-cbf3-44cb-8c15-7057f501a210",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 3400,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Treasonous Ogre",
+   "oracle_id": "826d4279-1576-4898-a1c2-26fd547fb0d0",
+   "type": "Creature — Ogre Shaman",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "lists": [
+    "91a1a44e",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Treasure Nabber",
+   "oracle_id": "20a6d576-a5b2-43b4-8be9-75be001e567d",
+   "type": "Creature — Goblin Rogue",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 3000,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Treetop Freedom Fighters",
+   "oracle_id": "922176b8-7174-4248-92fb-b196ceb802c7",
+   "type": "Creature — Human Rebel Ally",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 4,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Trusty Boomerang",
+   "oracle_id": "3c032e74-69c6-48ca-95d4-51aa3d894c14",
+   "type": "Artifact — Equipment",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Turn Inside Out",
+   "oracle_id": "be0a3925-8e0d-4ef6-85cb-c9f5eef6b4bb",
+   "type": "Instant",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Twinflame Tyrant",
+   "oracle_id": "321b5cc6-8df6-4292-97a0-a6a3a22f3b55",
+   "type": "Creature — Dragon",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 32000,
+    "store": "afkstore",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Two-Handed Axe // Sweeping Cleave",
+   "oracle_id": "b012cec9-2aff-4dfb-8db1-61e830c33926",
+   "type": "Artifact — Equipment // Instant — Adventure",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1700,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Ty Lee, Artful Acrobat",
+   "oracle_id": "3726b9a0-67cb-4f45-ab50-62db50f93568",
+   "type": "Legendary Creature — Human Performer",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 3,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Tyrite Sanctum",
+   "oracle_id": "38c83332-2d21-450c-ae97-34109b565f59",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2710,
+    "store": "oasis",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "40b377d5",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Unexpected Windfall",
+   "oracle_id": "498c10c9-253d-4b15-b48c-1509381b17e8",
+   "type": "Instant",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
+   "lists": [
+    "40b377d5"
+   ]
+  },
+  {
+   "name": "Unleash Fury",
+   "oracle_id": "4eaa100c-f1ef-4a2b-9370-5dad7f3a95f2",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 790,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
+   "lists": [
+    "40b377d5"
+   ],
+   "owned_fit": true
+  },
+  {
+   "name": "Untimely Malfunction",
+   "oracle_id": "2c49d24a-98a4-43c2-bb59-1ef13d4214c2",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 10000,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "40b377d5",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Urza's Cave",
+   "oracle_id": "4474ecee-0ec3-409b-90df-738d9313fe3c",
+   "type": "Land — Urza's Cave",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Urza's Saga",
+   "oracle_id": "4c6a0c30-b547-4eff-8ff4-0ca25803c076",
+   "type": "Enchantment Land — Urza's Saga",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 42880,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "91a1a44e",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Valakut Awakening // Valakut Stoneforge",
+   "oracle_id": "ff0ab867-b710-4b1a-baed-95fc3cf68f79",
+   "type": "Instant // Land",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 19090,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Valakut Exploration",
+   "oracle_id": "d6861319-ae16-4e6c-af87-a264f667d694",
+   "type": "Enchantment",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Valakut, the Molten Pinnacle",
+   "oracle_id": "1bc44216-4e06-4f66-89b7-5c327004604e",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 17930,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Vandalblast",
+   "oracle_id": "3567c3c8-b3c7-45b7-935b-b1fdbc973720",
+   "type": "Sorcery",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 3840,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Vexing Bauble",
+   "oracle_id": "4514777d-0589-4631-978b-ff244167c176",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "lists": [
+    "40b377d5",
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Vibrant Cityscape",
+   "oracle_id": "6a7f3e1f-6798-4644-b64c-7765f81f0938",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Volatile Fault",
+   "oracle_id": "95c44f28-f7fa-4785-83b9-0d81be0db0c8",
+   "type": "Land — Cave",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "War Room",
+   "oracle_id": "71c52bf5-2a5d-488e-8b15-7ef290e4b77d",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2390,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "ec03cc3a",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "War-Trained Slasher",
+   "oracle_id": "bc89face-92b1-47d3-8cdb-360b7334d3b8",
+   "type": "Creature — Wolverine Dinosaur",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Warship Scout",
+   "oracle_id": "f07e6ba7-42e8-4b4d-9831-00a856059060",
+   "type": "Creature — Human Scout",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Wayfarer's Bauble",
+   "oracle_id": "31f15274-301b-47c5-ba19-0ced04520878",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 900,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "owned_fit": true
+  },
+  {
+   "name": "Wheel of Fortune",
+   "oracle_id": "a8abd966-de7b-46a3-8ac7-8747ab35653a",
+   "type": "Sorcery",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "lists": [
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "Wheel of Misfortune",
+   "oracle_id": "10aff3f6-8347-4e1b-b8e7-c204c9e46657",
+   "type": "Sorcery",
+   "cmc": 3.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 9600,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "lists": [
+    "40b377d5",
+    "91a1a44e"
+   ]
+  },
+  {
+   "name": "White Lotus Hideout",
+   "oracle_id": "2cdbfda3-98fc-4108-b551-c7049168924e",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 2,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "White Lotus Tile",
+   "oracle_id": "f8a5e009-45b7-4e62-a494-1579f5fc0ba6",
+   "type": "Artifact",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Wild Magic Surge",
+   "oracle_id": "41d16975-d6c0-4343-bea2-4f360ead9a1c",
+   "type": "Instant",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1440,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "40b377d5",
+    "91a1a44e",
+    "f4b8cc3a"
+   ]
+  },
+  {
+   "name": "Witch's Clinic",
+   "oracle_id": "05899372-9784-4bdb-9c28-504c71fed906",
+   "type": "Land",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 16500,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
+   "lists": [
+    "ec03cc3a"
+   ]
+  },
+  {
+   "name": "Wrenn's Resolve",
+   "oracle_id": "a7d8c99c-cd44-4bad-82e6-7c7cff9bd89f",
+   "type": "Sorcery",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Yuyan Archers",
+   "oracle_id": "63e5180f-16d0-4524-94bf-ecbf3c417814",
+   "type": "Creature — Human Archer",
+   "cmc": 2.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 4,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Zhao, the Seething Flame",
+   "oracle_id": "92ce3e30-dde3-43bb-a3d6-ccd91ff18bc3",
+   "type": "Legendary Creature — Human Soldier",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Zuko's Exile",
+   "oracle_id": "5cf18398-9552-415e-a61f-2c149e35ec3d",
+   "type": "Instant — Lesson",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Zuko's Offense",
+   "oracle_id": "90a2ec9c-2f1c-4ed4-820d-dfdb6b58c0db",
+   "type": "Sorcery",
+   "cmc": 1.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Zuko, Avatar Hunter",
+   "oracle_id": "d445a584-98e7-4501-bb20-e76c9cafa757",
+   "type": "Legendary Creature — Human Noble",
+   "cmc": 5.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Zuko, Exiled Prince",
+   "oracle_id": "3231ce2e-d4f8-44fc-872d-aeafa59aed4b",
+   "type": "Legendary Creature — Human Noble",
+   "cmc": 4.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": null,
+   "stores_with_stock": 0,
+   "owned_fit": true
+  },
+  {
+   "name": "Zuran Orb",
+   "oracle_id": "08cb8a30-9cb4-4517-bee5-8848aa60d1a2",
+   "type": "Artifact",
+   "cmc": 0.0,
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 1,
+   "basic": false,
+   "best_offer": {
+    "clp": 2690,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
+   "owned_fit": true
+  }
+ ]
+}
