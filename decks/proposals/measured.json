@@ -1,0 +1,13 @@
+{
+  "_note": "Commander Salt scores of lists hosted on the owner's Moxfield (unlisted) and read by hand from the Salt deck page, one entry per list. cost_clp is the cumulative purchase cost of the ladder step (scripts/ladder.py, prices merged-20261017T2337Z). list_hash is the first 16 hex of the SHA-256 of the sorted lines of the list as Salt's Export list returned it, identical to the same hash of our file. Scoring version 2026.4195 (changelog of 2026-09-29, the latest on 2026-10-18).",
+  "scoring_version": "2026.4195",
+  "scored_on": "2026-10-18",
+  "lists": {
+    "toph-the-first-metalbender/owner-list": {"ladder_step": null, "cost_clp": 0, "bracket": "3", "power": 6.5, "salt": 72.4, "salt_page": "57eb4a9c05ba878d33f816e7d7ebf902", "moxfield": "x2velZ9UMkyVgzyhCZ9rXw", "list_hash": "e6f7594574b315d1"},
+    "fire-lord-azula/owner-list": {"ladder_step": null, "cost_clp": 0, "bracket": "2", "power": 4.0, "salt": 33.6, "salt_page": "b2b652820d0679a1d2713a477fed2023", "moxfield": "sDsdVt3HG0iI0zi0THvaSA", "list_hash": "ea3404de6c192df1"},
+    "fire-lord-azula/step0": {"ladder_step": 0, "cost_clp": 0, "bracket": "2", "power": 4.9, "salt": 41.9, "salt_page": "61500190b21b4244dac7493bf625ae00", "moxfield": "MxSnRGX7aEWQEwaHryHpCA", "list_hash": "86934e272632dcb2"},
+    "fire-lord-azula/step17": {"ladder_step": 17, "cost_clp": 24505, "bracket": "3*", "power": 6.1, "salt": 52.0, "salt_page": "a725901c922c26d65b680438f2ecc30c", "moxfield": "1B1jpAQD7EiffNkoFxkOQA", "list_hash": "9302fb085d70670d"},
+    "fire-lord-azula/step31": {"ladder_step": 31, "cost_clp": 49190, "bracket": "3*", "power": 6.6, "salt": 53.6, "salt_page": "654f927ababe83681dc7e60bda5db6bb", "moxfield": "aFdrpzrHA0mPMxIdSEvIrg", "list_hash": "7896a4cda92e65ca"},
+    "fire-lord-azula/step47": {"ladder_step": 47, "cost_clp": 148760, "bracket": "3*", "power": 7.4, "salt": 67.7, "salt_page": "d001f37fb3de3faf26001ee703cc74be", "moxfield": "SjyBJKHihkCfnqxbv2oL5w", "list_hash": "f4f70681b2955e70"}
+  }
+}

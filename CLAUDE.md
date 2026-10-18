@@ -43,6 +43,8 @@ a vehicle for learning modern AI tooling.
 - Power is measured with Commander Salt (power 1-10 and bracket; owner decision 2026-10-13,
   replaces our own scale and judge panel). Stamp every score with its scoring version and date.
   The user does not rate decks.
+- Combos (owner, 2026-10-18): combos that Layer A allows (late-game lines, three-card lines with the commander
+  included) are welcome in every deck; the more reliable the combo, the better.
 - The user makes every purchase. Claude never adds to a cart, checks out, signs in,
   accepts terms or submits forms on a store.
 - Free tools only: no paid apps or subscriptions; an exception needs the user's explicit

@@ -65,7 +65,7 @@ the function of every slot, competitive experience. Commander: <COMMANDER>. Targ
 conditions limit the deck; Layer A checks them). Budget: the deck must be good at every level of spending from 0 up to
 <MAX> CLP of purchases (cards only; owned cards cost 0; shipping is outside the budget). The deck is for casual games
 with friends; the goal is the highest power each budget buys, measured later on Commander Salt, with a consistent
-plan (no pile of expensive staples).
+plan (no pile of expensive staples). The owner welcomes combos that Layer A allows (late-game lines, three-card lines with the commander included): the more reliable the combo, the better.
 
 Do NOT take a top list and delete cards until it fits: the top lists cost far more than the budget and their
 synergies only work whole. Instead find the engine, protect it, build a free base from owned cards, then order the
@@ -144,3 +144,29 @@ owner only creates the account and signs in. Accuracy control: after each import
 100 cards and no unrecognized names, and compares the "Export list" of the Salt page with the list file. Validated
 on 2026-10-18 with the owner's two lists: Toph 6.5 and Azula 4.0 on Moxfield, identical to the ManaBox
 measurements, and the cards Salt scored hash identically to our files (`decks/reports/moxfield-validation-20261018.md`).
+
+## Probe result and next steps (2026-10-18, night)
+| Item | Value |
+|---|---|
+| Azula agent (Opus 5.5 extra high) | 35 min, 317,000 tokens, 62 tool calls; 47-step ladder, every step valid (checked again by the main assistant), last step 148,760 CLP |
+| Owner's plan usage | weekly 12 % to 16 % (+4 %), 5 h window 33 % to 53 % (+20 %); includes a little main-session work |
+| Projection for the three agents | Azula 4 % + Toph about 3 % (shorter ladder) + Alexios about 5-6 % (new deck, longer ladder) = about 12-13 % of the weekly limit, well under the owner's 25 % ceiling. In the 5 h window each agent costs about 20 %: launch the two others together only from a fresh window |
+| Owner decisions | Azula's three-card loops accepted; combos welcome, the more reliable the better (added to the brief) |
+
+Next, in order (owner asks before every launch): (1) the owner's go for the Toph and Alexios agents (same brief,
+Opus 5.5 extra high); (2) calibrate Azula on Commander Salt: host the checkpoints of steps 0, 17, 31 and 47 on the
+owner's Moxfield (about 40 minutes, owner's explicit OK for the Salt submissions first) and compare the measured
+power with the agent's judgment (4.6-5.2, 5.8-6.4, 6.6-7.1); (3) price the three wishlists (Azula 28 cards) in the
+stores; (4) continue each agent with `SendMessage` for round 2 (priced wishlist, stronger combos, tutors); (5)
+`ladder.py` and `check_list.py` on the three together, then the optimizer.
+
+### Status 2026-10-18 (day 2)
+- Owner: nothing pending; he asked Claude to continue alone and to report progress. The Toph and Alexios agents
+  (Opus 5.5 extra high, same brief, combos welcome) were launched in parallel on a fresh 5 h window; progress is read
+  from the files they save (`decks/proposals/`), watched by a Monitor.
+- Azula calibration done (`decks/reports/azula-ladder-calibration-20261018.md`, data in
+  `decks/proposals/measured.json`): step 0 = 4.9, step 17 (24,505 CLP) = 6.1, step 31 (49,190) = 6.6, step 47
+  (148,760) = 7.4. The agent's judgment was inside or below the measurement, so the method is confirmed.
+- Wishlist pricing (Azula 28 cards, Toph and Alexios when they finish): one targeted pass per store over only the
+  missing names (Magic4Ever and CardNexus by their feeds, the Shopify stores by `/search/suggest.json` in the
+  owner's browser), then merge into a new `data/prices/merged-*.json`.
