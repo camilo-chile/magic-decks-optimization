@@ -1,2 +1,3 @@
-# Used today: `requests` (collectors and store readers). Phase 8 step 3 adds `pulp` (pin it when written).
+# Used today: `requests` (collectors and store readers). The budget optimizer (scripts/optimize_budget.py) needs only the
+# standard library: it enumerates a few measured lists per deck (about 7 x 7 x 7), which is not a MILP, so no `pulp`.
 requests

@@ -16,4 +16,4 @@ of the earlier design were dropped on 2026-10-13 with the switch to Commander Sa
 | E-8 | Validator of a proposed list and JSON Schema for `data/stock/*.json` (planned, Phase 8 step 3 and Phase 9) | Layer A, identity, singleton, stock, shared copies, lock coverage; store, URL, variant, language, condition, price, quantity, evidence, UTC timestamp | A purchase list is rejected if any line fails or is stale |
 | E-9 | Commander Salt repeatability (Phase 5, by hand) | The same list scored on two days agrees; the owner's two decks and the friend's Krenko deck as fixed points | Done 2026-10-14 for Toph (identical); recorded in `decks/reports/` |
 
-Dependency to add when the optimizer is written: `pulp`; pin the version then.
+The optimizer (`scripts/optimize_budget.py`, 5 offline tests in `tests/test_optimize_budget.py`) uses only the standard library: it enumerates the measured lists of each deck, so `pulp` is not needed (2026-10-19).

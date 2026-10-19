@@ -8,13 +8,9 @@
 1 Foreboding Ruins
 1 Fire Nation Palace
 1 Rogue's Passage
-1 Path of Ancestry
-1 Evolving Wilds
-1 Terramorphic Expanse
-1 Vibrant Cityscape
-9 Island
-9 Swamp
-8 Mountain
+11 Island
+10 Swamp
+9 Mountain
 1 Sol Ring
 1 Arcane Signet
 1 Mind Stone
@@ -80,49 +76,62 @@
 1 Professor Zei, Anthropologist
 
 // Ladder
-+ Narset's Reversal | - It'll Quench Ya! | win path: with Azula attacking and the owned Frantic Search a Spellbook loop (loot, storm, mana); also a tempo counter that copies and bounces an opponent's spell
-+ Storm-Kiln Artist | - Professor Zei, Anthropologist | engine: a Treasure per cast and per copy (2 per instant in combat); second Narset's Reversal loop (unbounded Treasures); 5 of 5 measured lists
-+ Glamdring, Foe-hammer // Gleam of Death | - Commander's Sphere | on Azula every instant and sorcery costs 4 less (X spells too); the adventure mills six and keeps the instants
-+ Nightscape Familiar | - Roku's Mastery | 2-mana reducer for every blue and red spell, regenerating blocker; 4 of 5 lists
-+ Stormcatch Mentor | - Firebending Lesson | 2-mana hasty reducer for instants and sorceries
-+ Unexpected Windfall | - Fists of Flame | the copy skips the discard: 4 cards and 4 Treasures in combat; 5 of 5 lists
-+ Deadly Dispute | - Thrill of Possibility | the copy skips the sacrifice: 4 cards and 2 Treasures for 2 mana
-+ Invoke Calamity | - Escape Detection | copied in combat: up to four free instants or sorceries from hand and graveyard
-+ Guttersnipe | - Thermo-Alchemist | 2 damage to each opponent per instant cast (doubled by Veyran); turns the Narset loop into a kill
-+ Black Waltz No. 3 | - Get Out | 2 damage to each opponent per noncreature spell on a 4-mana deathtouch flyer
-+ Mystical Teachings | - Lo and Li, Twin Tutors | instant tutor: copied in combat it finds both halves of a loop
-+ Lightning Bolt | - Lightning Axe | the most efficient removal and reach; the copy hits a second target
-+ Veyran, Voice of Duality | - Murder | doubles Azula's copy trigger for instants (3 spells per cast) and every magecraft and cast trigger; 4 of 5 lists
-+ Exsanguinate | - Banefire | multiplayer finisher fed by Treasures; frees Banefire for Toph
-+ Bulk Up | - Unleash Fury | copied it doubles Azula twice (4 to 16); the copied flashback makes 64: lethal commander damage through Rogue's Passage
-+ Electrolyze | - Lightning Strike | instant 2-for-1; copied, 4 damage and 2 cards
-+ Bitter Triumph | - Deadly Derision | 2-mana instant kill for creatures and planeswalkers
-+ Dualcaster Mage | - Undying Malice | two more loops: with the owned Snap and Azula (infinite untaps), and with the owned Ember Island Production alone (infinite hasty-free tokens and magecraft, 8 mana)
-+ Counterspell | - Deny Entry | hard counter for UU, protects the combo turn
-+ Talisman of Dominance | - Dimir Signet | untapped U/B rock with no filter cost; 5 of 5 lists
-+ Talisman of Creativity | - Izzet Signet | untapped U/R rock; 5 of 5 lists
-+ Talisman of Indulgence | - Mind Stone | B/R rock; 5 of 5 lists
-+ High Fae Trickster | - Abrade | flash for every spell: Aether Gale, Ember Island Production, Exsanguinate and creatures (a token Storm-Kiln) get copied in combat
-+ Arcane Denial | - Ultimate Price | 2-mana hard counter
-+ My Precious // Allure of Power | - Champion's Helm | hexproof and unblockable for Azula for equip 2; the adventure draws 2
-+ Dark Ritual | - Fatal Push | copied in combat: 6 black for 1 to fuel X spells; 4 of 5 lists
-+ Toxic Deluge | - Blasphemous Act | flexible wipe that spares Azula (X = 3); frees Blasphemous Act
-+ Professor Onyx | - Day of Black Sun | each instant in combat drains each opponent for 4 (cast plus copy; 8 with Veyran)
-+ An Offer You Can't Refuse | - Negate | 1-mana counter for noncreature spells
-+ Sulfur Falls | - Vibrant Cityscape | untapped U/R dual for a tapped fetch
-+ Exotic Orchard | - Terramorphic Expanse | untapped any-color land for a tapped fetch
-+ Shivan Reef | - Path of Ancestry | untapped U/R painland for a tapped land
-+ Sunken Hollow | - Evolving Wilds | U/B dual, untapped with two basics
-+ Darkwater Catacombs | - Swamp | U/B filter land
-+ Shadowblood Ridge | - Mountain | B/R filter land
-+ Smoldering Marsh | - Mountain | B/R dual, untapped with two basics
++ Exotic Orchard | - Mountain | untapped any-color land: Manabase Quality is the biggest measured lever for Azula
++ Sulfur Falls | - Mountain | untapped U/R check land
++ Shadowblood Ridge | - Swamp | B/R filter land, never enters tapped
++ Shivan Reef | - Mountain | untapped U/R painland
++ Sunken Hollow | - Island | U/B battle land, untapped with two basics
++ Darkwater Catacombs | - Island | U/B filter land, never enters tapped
++ Smoldering Marsh | - Swamp | B/R battle land, untapped with two basics
 + Dragonskull Summit | - Swamp | B/R check land
-+ Drowned Catacomb | - Island | U/B check land
-+ Leyline of Anticipation | - Redirect | flash for every spell that creature removal cannot take away
-+ Desperate Ritual | - Abandon Attachments | second combat ritual; with Storm-Kiln it nets Treasures
-+ Underground River | - Swamp | untapped U/B painland
-+ Sulfurous Springs | - Mountain | untapped B/R painland
-+ Ashling, Flame Dancer | - Ozai, the Phoenix King | keeps red mana; each instant in combat triggers it twice: loots, the 2nd resolution each turn deals 2 to each opponent and each of their creatures, the 3rd adds RRRR
-+ Imperial Recruiter | - Ponder | creature tutor: finds Dualcaster Mage, Storm-Kiln Artist, Veyran or Guttersnipe; makes the loops reliable
-+ Snapcaster Mage | - Amphibian Downpour | flash; copied by Azula it gives two instants flashback in one combat
-+ Reliquary Tower | - Island | no hand-size limit after copied Windfalls and loops
++ Drowned Catacomb | - Island | U/B check land; these 9 lands are the measured 70 % mana base (+1.4 power)
++ Narset's Reversal | - It'll Quench Ya! | win path: with Azula attacking and the owned Frantic Search a Spellbook loop; took the deck from bracket 2 to 3
++ Glamdring, Foe-hammer // Gleam of Death | - Commander's Sphere | on Azula every instant and sorcery costs 4 less (X spells too)
++ Nightscape Familiar | - Roku's Mastery | 2-mana reducer for blue and red spells; 4 of 5 lists
++ Stormcatch Mentor | - Firebending Lesson | 2-mana hasty reducer for instants and sorceries
++ Mystical Teachings | - Lo and Li, Twin Tutors | instant tutor for the loop pieces (Salt caps loops with no tutor)
++ Frostboil Snarl | - Mountain | untapped U/R snarl (reveal an Island or Mountain)
++ Storm-Kiln Artist | - Professor Zei, Anthropologist | engine: a Treasure per cast and per copy; second Narset's Reversal loop; 5 of 5 lists
++ Underground River | - Island | untapped U/B painland
++ Sulfurous Springs | - Swamp | untapped B/R painland
++ Sunken Ruins | - Swamp | U/B filter land that also taps for colorless
++ Guttersnipe | - Thermo-Alchemist | 2 damage to each opponent per instant cast; turns the Narset loop into a kill
++ Black Waltz No. 3 | - Get Out | 2 damage to each opponent per noncreature spell on a deathtouch flyer
++ Fact or Fiction | - Abandon Attachments | copied, two 5-card splits for 4 mana
++ Mana Leak | - Deny Entry | 2-mana counter for any spell
++ Deadly Dispute | - Thrill of Possibility | the copy skips the sacrifice: 4 cards and 2 Treasures for 2 mana
++ Unexpected Windfall | - Fists of Flame | the copy skips the discard: 4 cards and 4 Treasures; 5 of 5 lists
++ Invoke Calamity | - Escape Detection | copied in combat: up to four free instants or sorceries
++ Infernal Grasp | - Murder | 2-mana instant unconditional kill
++ Lightning Bolt | - Lightning Strike | 1-mana removal and reach
++ Kolaghan's Command | - Deadly Derision | two modes, repeated by the copy with new targets
++ Exsanguinate | - Banefire | multiplayer finisher fed by Treasures
++ Bulk Up | - Unleash Fury | copied it doubles Azula twice (4 to 16); the copied flashback makes 64
++ Haunted Ridge | - Mountain | B/R land, untapped from the third land on
++ Shipwreck Marsh | - Island | U/B land, untapped from the third land on
++ Blood Crypt | - Swamp | first shock: Toph's three shocks lifted its Manabase Quality from 68 % to 93 %
++ Ertai Resurrected | - Ultimate Price | flash: counter or kill; its token copy in combat does it twice
++ Veyran, Voice of Duality | - Lightning Axe | doubles Azula's copy trigger for instants and every magecraft and cast trigger; 4 of 5 lists
++ Steam Vents | - Island | second shock (U/R)
++ Dualcaster Mage | - Undying Malice | two more loops: Azula + Snap, and Ember Island Production (owned) alone at 8 mana
++ Anger of the Gods | - Blasphemous Act | 3-damage wipe that spares Azula
++ Watery Grave | - Swamp | third shock (U/B)
++ Counterspell | - Negate | hard counter for UU
++ Stormcarved Coast | - Island | U/R land, untapped from the third land on
++ My Precious // Allure of Power | - Champion's Helm | hexproof and unblockable for Azula
++ Arcane Denial | - Fatal Push | 2-mana hard counter
++ Talisman of Dominance | - Dimir Signet | untapped U/B rock; 5 of 5 lists
++ Talisman of Creativity | - Izzet Signet | untapped U/R rock
++ Talisman of Indulgence | - Mind Stone | B/R rock
++ High Fae Trickster | - Abrade | flash for every spell: sorceries and creatures get copied in combat
++ Dark Ritual | - Redirect | copied in combat: 6 black for 1
++ Professor Onyx | - Day of Black Sun | each instant in combat drains each opponent for 4
++ Toxic Deluge | - Amphibian Downpour | flexible wipe that spares Azula (X = 3)
++ Ashling, Flame Dancer | - Ozai, the Phoenix King | keeps red mana; the 2nd magecraft each turn sweeps opponents' creatures for 2, the 3rd adds RRRR
++ An Offer You Can't Refuse | - Ponder | 1-mana counter for noncreature spells
++ Leyline of Anticipation | - Heartless Act | flash for every spell that creature removal cannot take away
++ Solve the Equation | - Consider | second tutor: any instant or sorcery
++ Luxury Suite | - Shadowblood Ridge | untapped B/R land in multiplayer, replaces the filter land that needs other mana
++ Snapcaster Mage | - Hero's Downfall | flash; copied by Azula it gives two instants flashback
++ Graven Cairns | - Mountain | B/R filter land that also taps for colorless
++ Desperate Ritual | - Go for the Throat | second combat ritual; with Storm-Kiln it nets Treasures

@@ -77,39 +77,37 @@
 1 Haystack
 
 // Ladder
-+ Liquimetal Coating | - Barrels of Blasting Jelly | second win line with the commander: Coating makes Bumi, Unleashed an artifact, Toph makes it a land, so Bumi untaps every land and attacks in each extra combat (Toph + Bumi + Coating, 3 cards); 490 CLP
-+ Exotic Orchard | - Forest | untapped any-color land for a basic: Manabase Quality is the biggest power lever measured on Commander Salt
-+ Clifftop Retreat | - Plains | untapped R/W check land for a basic
-+ Canopy Vista | - Forest | untapped G/W dual (two or more basics) for a basic
++ Liquimetal Coating | - Barrels of Blasting Jelly | second win line with the commander (Toph + Bumi + Coating, 3 cards, 2-mana piece); 490 CLP
++ Reckless Handling | - Mycosynth Wellspring | tutor right after the new combo (Salt cap: wincon combos with no tutors): finds Coating, Zuran Orb or Chromatic Lantern
++ Everflowing Chalice | - Moraug, Fury of Akoum | speed: a free landfall trigger or a 2-mana rock for a 6-drop
++ Talisman of Impulse | - Titania, Protector of Argoth | speed: untapped 2-mana R/G rock (a land under Toph) for a 5-drop
++ Sakura-Tribe Elder | - Awakening of Vitu-Ghazi | speed: 2-mana ramp that blocks first, for a 5-mana instant
++ Chromatic Lantern | - Elsewhere Flask | every artifact is a land under Toph, so Lantern turns each rock and bauble into a mana source of any color
++ Fateful Absence | - Trapped in the Screen | 2-mana instant removal for a 3-mana enchantment
++ Goblin Bombardment | - The Earth King | Ashaya + Bombardment + Blind Bandit or Earth Kingdom General wins on the spot (each sacrifice pings 1); also a free sacrifice outlet; 2 mana for a 4-drop
++ Brightglass Gearhulk | - Solemn Simulacrum | tutor on a body: finds Zuran Orb plus Everflowing Chalice now, Sylvan Safekeeper later (the Ashaya loop outlets)
++ Chord of Calling | - Bumi, Eclectic Earthbender | instant creature tutor convoked by land creatures: finds Ashaya, Bumi, Blind Bandit, later Nantuko and Cobra
++ Soul-Guide Lantern | - Chromatic Star | one-mana artifact (landfall) that also exiles graveyards
++ Lotus Cobra | - Roiling Regrowth | speed: a mana per land or artifact entering; half of the cheapest line (Toph + Springheart Nantuko + Cobra)
++ Springheart Nantuko | - Bitter Work | fastest combo: Toph + Nantuko + Lotus Cobra or Tireless Provisioner (3 cards, 2-mana pieces), found by Chord, Seismic Sense, Recruiter
++ Tireless Provisioner | - Raucous Audience | second Nantuko partner (Toph + Nantuko + Provisioner) and a Treasure per landfall
++ Stroke of Midnight | - Master's Rebuke | instant answer to any nonland permanent
++ Game Trail | - Forest | untapped R/G dual for a basic
++ Fortified Village | - Forest | untapped G/W dual for a basic
++ Rugged Prairie | - Plains | R/W filter land for a basic
++ Furycalm Snarl | - Mountain | untapped R/W dual for a basic
++ Exotic Orchard | - Forest | untapped any-color land for a basic
++ Clifftop Retreat | - Mountain | untapped R/W check land for a basic
++ Imperial Recruiter | - Haystack | tutor: finds Springheart Nantuko, Lotus Cobra, Sylvan Safekeeper, Earth Kingdom General or Haru
++ Sylvan Safekeeper | - Collective Resistance | second outlet for the Ashaya loop (1 mana, found by Gearhulk, Recruiter, Chord) and shroud on demand for Ashaya, Bumi or Toph
++ Liquimetal Torque | - Shared Roots | backup for the Coating line (Toph + Bumi + Torque) that is also a mana rock
++ Kutzil, Malamet Exemplar | - Origin of Metalbending | opponents cannot cast spells on Toph's turn: protects the combo turn
++ Inventors' Fair | - Forest | land that tutors an artifact (Coating, Torque, Zuran Orb); Toph's earthbend brings it back to repeat
++ Canopy Vista | - Forest | untapped G/W dual for a basic
++ Cinder Glade | - Forest | untapped R/G dual for a basic
 + Battlefield Forge | - Mountain | untapped R/W painland for a basic
-+ Cinder Glade | - Forest | untapped R/G dual (two or more basics) for a basic
-+ Rockfall Vale | - Forest | untapped R/G dual from the third land for a basic
-+ Karplusan Forest | - Forest | untapped R/G painland for a basic
-+ Overgrown Farmland | - Forest | untapped G/W dual from the third land for a basic
-+ Brushland | - Plains | untapped G/W painland for a basic; nine cheap duals in all for 10,100 CLP
-+ Chromatic Lantern | - Mycosynth Wellspring | every artifact is a land under Toph, so Lantern turns each rock, bauble and equipment into a mana source of any color; in 61% of Bracket 3 Toph decks
-+ Koth, the Geomancer | - Elsewhere Flask | legendary landfall pinger (Annie doubles it): 1 damage to each opponent per land or artifact entering, red mana on Mountains; payoff of the Ashaya loop
-+ Spitfire Lagac | - Nutrient Block | fourth landfall pinger: with Tannuk, Sabotender, Koth and Arbaaz each cheap artifact deals 5 to every opponent
-+ Soul-Guide Lantern | - Chromatic Star | one-mana artifact (landfall) that also exiles graveyards: the graveyard interaction the owner's Commander Salt report says is missing
-+ Stroke of Midnight | - Master's Rebuke | instant answer to any nonland permanent for a creature-only fight spell
-+ Reckless Handling | - Selesnya Signet | artifact tutor for the combo pieces (Coating, Zuran Orb) or Chromatic Lantern: Commander Salt caps combo win lines that have no tutor
-+ Felidar Retreat | - Haywire Mite | landfall engine: each artifact makes a 2/2 or a counter on every creature (Terrasymbiosis draws); infinite tokens with the Ashaya loop; 46% of Bracket 3 Toph decks
-+ Survey Mechan | - Ichor Wellspring | hexproof flying artifact; with many differently named lands (artifacts) its sacrifice costs 0: 3 damage, draw 3, gain 3
-+ All-Fates Scroll | - Boros Locket | any-color rock that later draws one card per differently named land (artifacts count under Toph)
-+ Tireless Provisioner | - Raucous Audience | a Treasure per land or artifact entering; infinite Treasures with the Ashaya loop; 54% of Bracket 3 Toph decks
-+ Kutzil, Malamet Exemplar | - Haystack | opponents cannot cast spells on Toph's turn: protects every combo turn; draws when earthbended lands (0/0 base) connect
-+ Generous Gift | - Origin of Metalbending | instant answer to any permanent for a narrow one
-+ Liquimetal Torque | - Shared Roots | backup for the Bumi combo (Toph + Bumi + Torque) that is also a mana rock; 54% of Bracket 3 Toph decks
-+ Evolution Sage | - Titania, Protector of Argoth | landfall proliferate: every artifact grows all earthbended lands and Felidar counters (Terrasymbiosis draws); 51% of Bracket 3 Toph decks
-+ Avenger of Zendikar | - Moraug, Fury of Akoum | finisher: a Plant per land (artifacts count) and a counter on each Plant per landfall
-+ Inspiring Call | - True Ancestry | draws one per creature with a counter (every earthbended land) and makes them indestructible against a wipe
-+ Lotus Cobra | - Roiling Regrowth | a mana per land or artifact entering: each artifact refunds one mana and every combo turn comes earlier; 55% of Bracket 3 Toph decks
-+ Brightglass Gearhulk | - Earthbender Ascension | 4/4 first strike trample that tutors two cards of mana value 1 or less (Zuran Orb, Sylvan Safekeeper, Sol Ring, Hardened Scales): a second tutor for the Ashaya loop
-+ Temple Garden | - Forest | untapped G/W shock with both basic types; 46% of Bracket 3 Toph decks
-+ Stomping Ground | - Forest | untapped R/G shock with both basic types; 52% of Bracket 3 Toph decks
-+ Springheart Nantuko | - Bitter Work | two more three-card infinite lines with the commander (Toph + Nantuko + Lotus Cobra or Tireless Provisioner) and an Insect per landfall otherwise
-+ Sacred Foundry | - Mountain | untapped R/W shock with both basic types; the thinnest color pair gets its third dual
-+ Scute Swarm | - The Earth King | every artifact is a landfall: Scute copies itself from six lands on, a threat that grows by doubling; infinite with the Ashaya loop; 43% of Bracket 3 Toph decks
-+ Sylvan Safekeeper | - Collective Resistance | shroud on demand for Ashaya, Bumi or Toph by sacrificing a land (an earthbended land returns), and a second outlet for the Ashaya loop; 40% of Bracket 3 Toph decks
-+ Heroic Intervention | - Trapped in the Screen | instant hexproof and indestructible for every permanent (artifact-lands included) against a wipe or removal on the combo turn
-+ Toph, Greatest Earthbender | - Awakening of Vitu-Ghazi | land creatures have double strike (earthbended lands, Bumi in the combo, the whole team under Ashaya); enters with a 4/4 hasty land; 55% of Bracket 3 Toph decks
++ Razorverge Thicket | - Forest | G/W fastland for a basic
++ Gamble | - Haywire Mite | Game Changer tutor for any piece (Bombardment, Ashaya, Bumi, Coating) for 1 mana
++ Formidable Speaker | - Ichor Wellspring | 3-mana tutor for any creature: Ashaya, Bumi, Nantuko
++ Green Sun's Zenith | - True Ancestry | creature tutor straight to the battlefield: Nantuko for 3, Ashaya for 6
++ Temple Garden | - Forest | untapped G/W shock for a basic

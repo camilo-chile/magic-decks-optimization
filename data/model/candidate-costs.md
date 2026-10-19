@@ -1,6 +1,6 @@
 # Candidate costs (Phase 8, step 1)
 
-Generated 2026-10-19T01:00:36Z from prices `merged-20261019T0100Z.json` (read 2026-10-19T01:00:14Z), bulk `oracle-cards-20261011210156.jsonl.gz`, Commander Salt scoring 2026.4195. Cost = cheapest offer per card for the cards the owner does not have (owned copies free, each list priced on its own, so cards shared by two decks are counted in both); shipping is 5,000 CLP per store, outside the cost. Prices are a hint: stock is verified in Phase 9.
+Generated 2026-10-19T06:06:44Z from prices `merged-20261019T0606Z.json` (read 2026-10-19T06:06:39Z), bulk `oracle-cards-20261011210156.jsonl.gz`, Commander Salt scoring 2026.4195. Cost = cheapest offer per card for the cards the owner does not have (owned copies free, each list priced on its own, so cards shared by two decks are counted in both); shipping is 5,000 CLP per store, outside the cost. Prices are a hint: stock is verified in Phase 9.
 
 ## alexios-deimos-of-kosmos
 
@@ -10,6 +10,12 @@ Generated 2026-10-19T01:00:36Z from prices `merged-20261019T0100Z.json` (read 20
 | 91a1a44e | 7.2 | OK (floor 3) | 12 | 65 | 1.065.660 | 7 | 8 |
 | ec03cc3a | 7.5 | OK (floor 3) | 12 | 64 | 790.562 | 6 | 6 |
 | f4b8cc3a | 8.0 | NO (floor 4) | 11 | 61 | 987.802 | 6 | 5 |
+
+## ezio-auditore-da-firenze
+
+| List | Power | Layer A | Owned | To buy | Cost CLP | Stores | No stock |
+|---|---|---|---|---|---|---|---|
+| extra-targets | ? | NO (floor 1) | 0 | 0 | 0 | 0 | 0 |
 
 ## fire-lord-azula
 
@@ -27,7 +33,7 @@ Generated 2026-10-19T01:00:36Z from prices `merged-20261019T0100Z.json` (read 20
 | List | Power | Layer A | Owned | To buy | Cost CLP | Stores | No stock |
 |---|---|---|---|---|---|---|---|
 | 0f65b61d | 7.2 | OK (floor 3) | 32 | 56 | 385.455 | 7 | 2 |
-| 46892532 | 7.3 | OK (floor 3) | 30 | 56 | 1.331.355 | 7 | 2 |
+| 46892532 | 7.3 | OK (floor 3) | 30 | 55 | 1.330.380 | 7 | 3 |
 | 9354c58f | 7.4 | OK (floor 1) | 37 | 49 | 266.720 | 6 | 0 |
 | dce02411 | 7.3 | NO (floor 3) | 43 | 42 | 206.366 | 6 | 2 |
 | owner's list | 6.5 | OK (floor 3) | 80 | 0 | 0 | 0 | 0 |

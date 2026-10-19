@@ -127,7 +127,7 @@ def test_targets_from_repo_cover_candidates_picks_and_locked_without_basics():
     assert "mindslaver" in targets  # locked list
     assert "frantic search" in targets  # Azula meta pick
     assert "valakut awakening" in targets  # double-faced name reduced to its front face
-    assert 400 < len(targets) < 800
+    assert 400 < len(targets) < 1500  # 916 with the Ezio targets (2026-10-19)
 
 
 def test_same_price_prefers_spanish_over_english():
@@ -167,6 +167,32 @@ def test_wishlist_names_drop_the_markdown_marks_of_the_experts():
     assert mod.wishlist_names(text) == ["Fact or Fiction", "Embercleave", "Copperline Gorge", "Mana Drain"]
 
 
+def test_ladder_cards_stay_targets_even_when_no_wishlist_names_them():
+    text = "\n".join(["// Commander", "1 Toph, the First Metalbender", "", "// Base", "33 Forest", "1 Sol Ring", "",
+                      "// Ladder", "+ Talisman of Impulse | - Titania, Protector of Argoth | rock",
+                      "+ Lotus Cobra | - Harrow | speed"])
+    assert mod.ladder_names(text) == ["Toph, the First Metalbender", "Forest", "Sol Ring", "Talisman of Impulse",
+                                      "Lotus Cobra"]
+    targets = mod.targets_from_repo()
+    assert "talisman of impulse" in targets and "sakura-tribe elder" in targets  # both came from round-2 wishlists only
+
+
+def test_extra_targets_of_a_deck_without_a_candidate_list_are_read():
+    import tempfile
+    old = mod.ROOT
+    try:
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp) / "decks" / "candidates" / "new-deck"
+            folder.mkdir(parents=True)
+            (folder / "extra-targets.txt").write_text(
+                "# comment\nBayek of Siwa\n\n  Mari, the Killing Quill\nIsland\n", encoding="utf-8")
+            mod.ROOT = Path(tmp)
+            got = mod.targets_from_repo()
+    finally:
+        mod.ROOT = old
+    assert sorted(got.values()) == ["Bayek of Siwa", "Mari, the Killing Quill"]  # a basic land is never a target
+
+
 def test_new_names_are_the_targets_the_newest_merged_file_did_not_request():
     import json
     import tempfile
@@ -181,6 +207,60 @@ def test_new_names_are_the_targets_the_newest_merged_file_did_not_request():
             assert mod.new_names(targets) == {"opt": "Opt"}
     finally:
         mod.OUT_DIR = old
+
+
+def test_stores_are_read_in_parallel_in_store_order_and_a_failure_stays_in_its_store():
+    import tempfile
+    import time
+    seen_throttles = []
+
+    def slow(requests, throttle, store, targets, progress):
+        seen_throttles.append(throttle)
+        time.sleep(0.3)  # the first store finishes last: the output must still follow the store order
+        progress.log(f"  {store['name']}: working")
+        return [{"card": "Sol Ring", "store": store["id"]}], {"offers": 1}
+
+    def fast(requests, throttle, store, targets, progress):
+        seen_throttles.append(throttle)
+        return [{"card": "Opt", "store": store["id"]}], {"offers": 1}
+
+    def broken(requests, throttle, store, targets, progress):
+        raise RuntimeError("HTTP 429 three times: stopping this store")
+
+    stores = [{"id": "a", "name": "A", "kind": "slow"}, {"id": "b", "name": "B", "kind": "broken"},
+              {"id": "c", "name": "C", "kind": "fast"}]
+    old = mod.READERS
+    try:
+        mod.READERS = {"slow": slow, "fast": fast, "broken": broken}
+        with tempfile.TemporaryDirectory() as tmp:
+            progress = mod.Progress(Path(tmp) / "run.progress.log")
+            started = time.time()
+            offers, stats = mod.read_all_stores(None, stores, {}, {}, progress)
+            elapsed = time.time() - started
+            assert [o["store"] for o in offers] == ["a", "c"]
+            assert list(stats) == ["a", "b", "c"]
+            assert stats["b"]["error"].startswith("RuntimeError") and "offers" in stats["a"]
+            assert len({id(t) for t in seen_throttles}) == 2  # one throttle per store, never shared
+            assert elapsed < 0.29 + 0.3  # parallel: the slow store did not wait for the others
+            assert "FAILED B" in (Path(tmp) / "run.progress.log").read_text(encoding="utf-8")
+    finally:
+        mod.READERS = old
+
+
+def test_progress_log_keeps_every_line_whole_when_threads_log_together():
+    import tempfile
+    import threading
+    with tempfile.TemporaryDirectory() as tmp:
+        path = Path(tmp) / "run.progress.log"
+        progress = mod.Progress(path)
+        threads = [threading.Thread(target=lambda n=n: [progress.log(f"store {n} line {i}") for i in range(50)])
+                   for n in range(6)]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+        lines = path.read_text(encoding="utf-8").splitlines()
+        assert len(lines) == 300 and all(" store " in line and " line " in line for line in lines)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,116 @@
+23:44:27  916 cards to price; stores: Magic4Ever, CardNexus, Tienda La Comarca, Piedra Bruja, AFK Store
+23:44:27  222 of them are new since the newest merged file
+23:44:27  Store 1/5: Magic4Ever (magic4ever)
+23:44:46    Magic4Ever: 20/222 cards searched, 47 offers kept, ETA 3m18s
+23:45:06    Magic4Ever: 40/222 cards searched, 80 offers kept, ETA 3m00s
+23:45:26    Magic4Ever: 60/222 cards searched, 122 offers kept, ETA 2m41s
+23:45:27    429 from https://mantenedor.magic4ever.cl/api/public/search: waiting 30s
+23:46:17    Magic4Ever: 80/222 cards searched, 167 offers kept, ETA 3m15s
+23:46:37    Magic4Ever: 100/222 cards searched, 206 offers kept, ETA 2m39s
+23:46:57    Magic4Ever: 120/222 cards searched, 247 offers kept, ETA 2m07s
+23:47:17    Magic4Ever: 140/222 cards searched, 294 offers kept, ETA 1m39s
+23:47:37    Magic4Ever: 160/222 cards searched, 331 offers kept, ETA 1m13s
+23:47:57    Magic4Ever: 180/222 cards searched, 375 offers kept, ETA 0m49s
+23:48:17    Magic4Ever: 200/222 cards searched, 408 offers kept, ETA 0m25s
+23:48:37    Magic4Ever: 220/222 cards searched, 441 offers kept, ETA 0m02s
+23:48:39    Magic4Ever: 222/222 cards searched, 443 offers kept, ETA 0m00s
+23:48:39  Store 2/5: CardNexus (woocommerce)
+23:49:05    CardNexus: 20/222 cards searched, 8 offers kept, ETA 4m18s
+23:49:37    CardNexus: 40/222 cards searched, 18 offers kept, ETA 4m24s
+23:50:02    CardNexus: 60/222 cards searched, 29 offers kept, ETA 3m44s
+23:50:33    CardNexus: 80/222 cards searched, 45 offers kept, ETA 3m23s
+23:51:12    CardNexus: 100/222 cards searched, 50 offers kept, ETA 3m06s
+23:51:35    CardNexus: 120/222 cards searched, 69 offers kept, ETA 2m29s
+23:52:07    CardNexus: 140/222 cards searched, 74 offers kept, ETA 2m01s
+23:52:35    CardNexus: 160/222 cards searched, 93 offers kept, ETA 1m31s
+23:52:59    CardNexus: 180/222 cards searched, 102 offers kept, ETA 1m00s
+23:53:25    CardNexus: 200/222 cards searched, 110 offers kept, ETA 0m31s
+23:53:49    CardNexus: 220/222 cards searched, 129 offers kept, ETA 0m02s
+23:53:51    CardNexus: 222/222 cards searched, 129 offers kept, ETA 0m00s
+23:53:51  Store 3/5: Tienda La Comarca (shopify)
+23:53:54    Tienda La Comarca: page 1/70, 250 products read, 83 offers kept, ETA 2m18s
+23:53:54    Tienda La Comarca: page 2/70, 500 products read, 179 offers kept, ETA 1m26s
+23:53:56    Tienda La Comarca: page 3/70, 750 products read, 232 offers kept, ETA 1m38s
+23:53:57    Tienda La Comarca: page 4/70, 1000 products read, 293 offers kept, ETA 1m36s
+23:53:58    Tienda La Comarca: page 5/70, 1250 products read, 340 offers kept, ETA 1m30s
+23:54:00    Tienda La Comarca: page 6/70, 1500 products read, 385 offers kept, ETA 1m29s
+23:54:01    Tienda La Comarca: page 7/70, 1750 products read, 440 offers kept, ETA 1m23s
+23:54:02    Tienda La Comarca: page 8/70, 2000 products read, 493 offers kept, ETA 1m24s
+23:54:04    Tienda La Comarca: page 9/70, 2250 products read, 512 offers kept, ETA 1m21s
+23:54:05    Tienda La Comarca: page 10/70, 2500 products read, 518 offers kept, ETA 1m20s
+23:54:05    Tienda La Comarca: page 11/70, 2750 products read, 547 offers kept, ETA 1m15s
+23:54:07    Tienda La Comarca: page 12/70, 3000 products read, 579 offers kept, ETA 1m14s
+23:54:08    Tienda La Comarca: page 13/70, 3250 products read, 587 offers kept, ETA 1m11s
+23:54:09    Tienda La Comarca: page 14/70, 3500 products read, 599 offers kept, ETA 1m09s
+23:54:10    Tienda La Comarca: page 15/70, 3750 products read, 606 offers kept, ETA 1m07s
+23:54:11    Tienda La Comarca: page 16/70, 4000 products read, 614 offers kept, ETA 1m05s
+23:54:12    Tienda La Comarca: page 17/70, 4250 products read, 624 offers kept, ETA 1m03s
+23:54:13    Tienda La Comarca: page 18/70, 4500 products read, 645 offers kept, ETA 1m01s
+23:54:14    Tienda La Comarca: page 19/70, 4750 products read, 650 offers kept, ETA 1m00s
+23:54:15    Tienda La Comarca: page 20/70, 5000 products read, 656 offers kept, ETA 0m58s
+23:54:16    Tienda La Comarca: page 21/70, 5250 products read, 665 offers kept, ETA 0m56s
+23:54:17    Tienda La Comarca: page 22/70, 5500 products read, 672 offers kept, ETA 0m55s
+23:54:18    Tienda La Comarca: page 23/70, 5750 products read, 683 offers kept, ETA 0m54s
+23:54:19    Tienda La Comarca: page 24/70, 6000 products read, 708 offers kept, ETA 0m52s
+23:54:20    Tienda La Comarca: page 25/70, 6250 products read, 718 offers kept, ETA 0m51s
+23:54:21    Tienda La Comarca: page 26/70, 6500 products read, 726 offers kept, ETA 0m49s
+23:54:22    Tienda La Comarca: page 27/70, 6750 products read, 732 offers kept, ETA 0m48s
+23:54:23    Tienda La Comarca: page 28/70, 7000 products read, 734 offers kept, ETA 0m46s
+23:54:24    Tienda La Comarca: page 29/70, 7250 products read, 742 offers kept, ETA 0m45s
+23:54:25    Tienda La Comarca: page 30/70, 7500 products read, 755 offers kept, ETA 0m44s
+23:54:26    Tienda La Comarca: page 31/70, 7750 products read, 758 offers kept, ETA 0m43s
+23:54:27    Tienda La Comarca: page 32/70, 8000 products read, 766 offers kept, ETA 0m42s
+23:54:28    Tienda La Comarca: page 33/70, 8250 products read, 845 offers kept, ETA 0m40s
+23:54:29    Tienda La Comarca: page 34/70, 8500 products read, 850 offers kept, ETA 0m39s
+23:54:30    Tienda La Comarca: page 35/70, 8750 products read, 860 offers kept, ETA 0m38s
+23:54:31    Tienda La Comarca: page 36/70, 9000 products read, 862 offers kept, ETA 0m37s
+23:54:32    Tienda La Comarca: page 37/70, 9250 products read, 871 offers kept, ETA 0m35s
+23:54:33    Tienda La Comarca: page 38/70, 9500 products read, 875 offers kept, ETA 0m34s
+23:54:34    Tienda La Comarca: page 39/70, 9750 products read, 876 offers kept, ETA 0m33s
+23:54:35    Tienda La Comarca: page 40/70, 10000 products read, 897 offers kept, ETA 0m32s
+23:54:36    Tienda La Comarca: page 41/70, 10250 products read, 909 offers kept, ETA 0m31s
+23:54:37    Tienda La Comarca: page 42/70, 10500 products read, 921 offers kept, ETA 0m30s
+23:54:38    Tienda La Comarca: page 43/70, 10750 products read, 926 offers kept, ETA 0m28s
+23:54:39    Tienda La Comarca: page 44/70, 11000 products read, 928 offers kept, ETA 0m28s
+23:54:40    Tienda La Comarca: page 45/70, 11250 products read, 933 offers kept, ETA 0m26s
+23:54:41    Tienda La Comarca: page 46/70, 11500 products read, 935 offers kept, ETA 0m25s
+23:54:42    Tienda La Comarca: page 47/70, 11750 products read, 939 offers kept, ETA 0m24s
+23:54:43    Tienda La Comarca: page 48/70, 12000 products read, 953 offers kept, ETA 0m23s
+23:54:44    Tienda La Comarca: page 49/70, 12250 products read, 957 offers kept, ETA 0m22s
+23:54:45    Tienda La Comarca: page 50/70, 12500 products read, 969 offers kept, ETA 0m21s
+23:54:46    Tienda La Comarca: page 51/70, 12750 products read, 979 offers kept, ETA 0m20s
+23:54:47    Tienda La Comarca: page 52/70, 13000 products read, 987 offers kept, ETA 0m19s
+23:54:48    Tienda La Comarca: page 53/70, 13250 products read, 993 offers kept, ETA 0m18s
+23:54:49    Tienda La Comarca: page 54/70, 13500 products read, 997 offers kept, ETA 0m17s
+23:54:50    Tienda La Comarca: page 55/70, 13750 products read, 1007 offers kept, ETA 0m15s
+23:54:51    Tienda La Comarca: page 56/70, 14000 products read, 1010 offers kept, ETA 0m14s
+23:54:52    Tienda La Comarca: page 57/70, 14250 products read, 1013 offers kept, ETA 0m13s
+23:54:53    Tienda La Comarca: page 58/70, 14500 products read, 1018 offers kept, ETA 0m12s
+23:54:54    Tienda La Comarca: page 59/70, 14750 products read, 1018 offers kept, ETA 0m11s
+23:54:55    Tienda La Comarca: page 60/70, 15000 products read, 1022 offers kept, ETA 0m10s
+23:54:56    Tienda La Comarca: page 61/70, 15096 products read, 1023 offers kept, ETA 0m09s
+23:54:56  Store 4/5: Piedra Bruja (shopify)
+23:54:58    Piedra Bruja: page 1/9, 250 products read, 14 offers kept, ETA 0m12s
+23:54:59    Piedra Bruja: page 2/9, 500 products read, 15 offers kept, ETA 0m07s
+23:55:00    Piedra Bruja: page 3/9, 750 products read, 19 offers kept, ETA 0m06s
+23:55:01    Piedra Bruja: page 4/9, 1000 products read, 26 offers kept, ETA 0m05s
+23:55:02    Piedra Bruja: page 5/9, 1250 products read, 33 offers kept, ETA 0m04s
+23:55:03    Piedra Bruja: page 6/9, 1500 products read, 33 offers kept, ETA 0m03s
+23:55:04    Piedra Bruja: page 7/9, 1750 products read, 34 offers kept, ETA 0m02s
+23:55:05    Piedra Bruja: page 8/9, 2000 products read, 43 offers kept, ETA 0m01s
+23:55:06    Piedra Bruja: page 9/9, 2070 products read, 45 offers kept, ETA 0m00s
+23:55:06  Store 5/5: AFK Store (shopify)
+23:55:08    AFK Store: page 1/13, 250 products read, 83 offers kept, ETA 0m17s
+23:55:09    AFK Store: page 2/13, 500 products read, 122 offers kept, ETA 0m14s
+23:55:10    AFK Store: page 3/13, 750 products read, 138 offers kept, ETA 0m11s
+23:55:11    AFK Store: page 4/13, 1000 products read, 155 offers kept, ETA 0m10s
+23:55:12    AFK Store: page 5/13, 1250 products read, 169 offers kept, ETA 0m08s
+23:55:13    AFK Store: page 6/13, 1500 products read, 183 offers kept, ETA 0m07s
+23:55:14    AFK Store: page 7/13, 1750 products read, 192 offers kept, ETA 0m06s
+23:55:16    AFK Store: page 8/13, 2000 products read, 217 offers kept, ETA 0m05s
+23:55:17    AFK Store: page 9/13, 2250 products read, 221 offers kept, ETA 0m04s
+23:55:18    AFK Store: page 10/13, 2500 products read, 235 offers kept, ETA 0m03s
+23:55:19    AFK Store: page 11/13, 2750 products read, 248 offers kept, ETA 0m02s
+23:55:20    AFK Store: page 12/13, 3000 products read, 258 offers kept, ETA 0m01s
+23:55:21    AFK Store: page 13/13, 3084 products read, 259 offers kept, ETA 0m00s
+23:55:21  Done: 1899 offers. Wrote data/prices/20261019T0244Z.json and .summary.txt

@@ -36,16 +36,24 @@ USABLE_LANGUAGES = ("en", "es")
 BASIC_NAMES = {"plains", "island", "swamp", "mountain", "forest", "wastes"}
 META_LINE_RE = re.compile(r"^\d+\.\s+(.+?)\s+(\d+)\s*$")
 TAGS_RE = re.compile(r"\[[^\]]*\]|\([^)]*\)")  # "[TLA - 218]", "(Borderless)"
+FOLLOW_WORD_RE = re.compile(r"^\s+([^\W\d_][\w'’-]*)")  # the word right after a card name in a title
 RARITY_NUMBER_RE = re.compile(r"^[A-Z]\d+[a-z]?$", re.I)  # AFK Store titles: "Comet Storm M411", "Anticipate P12"
 
 
 def is_the_card(offer):
-    """False when a loose title match names another card: "Savannah Lions" sold for "Savannah", "Bedlam Reveler"
-    for "Bedlam", "Anger of the Gods" for "Anger". An exact match is always the card; a loose one is accepted
+    """False when a title names another card: "Savannah Lions" sold for "Savannah", "Bedlam Reveler" for "Bedlam",
+    "Anger of the Gods" for "Anger". A title that continues with a plain word after the card name (not a finish
+    word or a rarity and number) is never the card, even when the reader called it exact (the browser readings
+    of 2026-10-17 did: "Savannah Lions (Retro)"). Otherwise an exact match is the card; a loose one is accepted
     only when the title is the card name plus set tags, finish words in parentheses or a rarity and number."""
+    name = offer["card"].split(" // ")[0]
+    title = offer.get("title") or ""
+    if title[:len(name)].casefold() == name.casefold():
+        follow = FOLLOW_WORD_RE.match(title[len(name):])
+        if follow and follow.group(1).casefold() not in rsp.FINISH_WORDS and not RARITY_NUMBER_RE.match(follow.group(1)):
+            return False
     if offer.get("match") == "exact":
         return True
-    name = offer["card"].split(" // ")[0]
     rest = re.sub(re.escape(name), "", offer.get("title") or "", count=1, flags=re.I)
     rest = TAGS_RE.sub("", rest).strip(" -")
     return not rest or bool(RARITY_NUMBER_RE.match(rest))
@@ -87,12 +95,19 @@ def best_offer(offers):
 
 
 def load_owned(path=None):
-    """Owned copies by oracle ID: {oid: {"name", "usable"}}; usable counts English and Spanish copies only."""
+    """Owned copies by oracle ID: {oid: {"name", "usable", "copies", "commander_ok"}}; usable counts English and
+    Spanish copies only and leaves out the copies of a reserved binder (owner rule 2026-10-18: Standard-deck cards,
+    never usable). `commander_ok` marks the cards that may be the commander without being bought (a creature of a
+    reserved binder or a proxy); such a card with no usable copy still appears, with usable 0."""
     data = json.loads(Path(path or INVENTORY_PATH).read_text(encoding="utf-8"))
     owned = {}
     for card in data["cards"]:
         usable = sum(n for lang, n in card["by_language"].items() if lang in USABLE_LANGUAGES)
-        owned[card["oracle_id"]] = {"name": card["name"], "usable": usable, "copies": card["copies"]}
+        usable -= sum(n for lang, n in card.get("reserved_by_language", {}).items() if lang in USABLE_LANGUAGES)
+        owned[card["oracle_id"]] = {"name": card["name"], "usable": max(usable, 0), "copies": card["copies"]}
+    for card in data.get("commander_ok", []):
+        entry = owned.setdefault(card["oracle_id"], {"name": card["name"], "usable": 0, "copies": 0})
+        entry["commander_ok"] = True
     return owned
 
 
@@ -161,6 +176,9 @@ def price_list(listing, owned, offers_by_oid, claimed=None):
         if use:
             result["owned"].append(name)
         need = qty - use
+        if need and oid in listing.get("commanders", ()) and owned.get(oid, {}).get("commander_ok"):
+            result["owned"].append(f"{name} (commander: proxy or reserved binder)")
+            need = 0  # the owner may use it as the commander; buying the real card is his call, outside the budget
         if not need:
             continue
         offer = best_offer(offers_by_oid.get(oid, []))

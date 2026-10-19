@@ -13,9 +13,11 @@ condition) and the places (binder or deck name and type). Problems are listed, n
 names the bulk file does not know, proxies, languages other than English or Spanish, and
 conditions worse than lightly played (decision D6).
 
-RESERVED_BINDERS (decision O3, closed 2026-10-12): the owner's other decks are out of scope, so
-nothing is reserved and the set stays empty. The mechanism remains: names listed there mark their
-cards `reserved` and the 3 project decks would never use them.
+RESERVED_BINDERS (owner rule, 2026-10-18): the binder "Assassin's Creed" holds the cards of his Standard decks,
+which he does not want to take apart for the Commander decks, so its copies are `reserved` and never count as
+usable (the swords in it must be bought like any card). Exception: a creature of a reserved binder, and any proxy
+(four good-quality proxies are allowed as commanders only), may be the COMMANDER of a project deck: those cards are
+listed in `commander_ok`. (Decision O3, 2026-10-12, had left the set empty because no other deck mattered.)
 """
 import csv
 import json
@@ -39,7 +41,7 @@ def latest_collection_csv():
 
 CSV_PATH = latest_collection_csv()
 OUT_PATH = ROOT / "data" / "cache" / "collection_inventory.json"
-RESERVED_BINDERS = set()  # O3 closed: no other decks are considered
+RESERVED_BINDERS = {"Assassin's Creed"}  # owner rule 2026-10-18: Standard-deck cards, commander use only
 PROJECT_DECKS = {"toph": "toph-the-first-metalbender", "azula": "fire-lord-azula"}
 LANGUAGES_OK = {"en", "es"}
 CONDITIONS_OK = {"near_mint", "mint", "excellent", "lightly_played", "good", ""}  # ManaBox spellings vary
@@ -61,8 +63,15 @@ def build_inventory(rows, index, reserved=frozenset()):
     """Aggregate CSV rows into the inventory dict. `index` is layer_a.build_index(...)."""
     reserved = {r.strip().lower() for r in reserved}
     cards = {}
+    commander_ok = {}
     problems = defaultdict(list)
     totals = Counter()
+
+    def commander_source(card, source):
+        key = card.get("oracle_id") or card["name"]
+        entry = commander_ok.setdefault(key, {"oracle_id": card.get("oracle_id"), "name": card["name"], "sources": []})
+        entry["sources"].append(source)
+
     for r in rows:
         qty = int(r.get("quantity") or 1)
         name = (r.get("name") or "").strip()
@@ -74,11 +83,16 @@ def build_inventory(rows, index, reserved=frozenset()):
         totals["copies"] += qty
         if truthy(r.get("proxy")):
             problems["proxies"].append(f"{name} x{qty} ({binder})")
+            card = index.get(la.normalize(name))
+            if card is not None:
+                commander_source(card, f"proxy:{binder}")  # proxies may only be commanders (owner rule)
             continue  # no proxies (D6): never counted as owned
         card = index.get(la.normalize(name))
         if card is None:
             problems["unknown_names"].append(f"{name} x{qty} ({binder})")
             continue
+        if binder.lower() in reserved and "creature" in (card.get("type_line") or "").lower():
+            commander_source(card, f"reserved:{binder}")
         if lang not in LANGUAGES_OK:
             problems["languages_other_than_en_es"].append(f"{name} [{lang or '?'}] x{qty} ({binder})")
         if cond not in CONDITIONS_OK:
@@ -87,7 +101,7 @@ def build_inventory(rows, index, reserved=frozenset()):
         entry = cards.setdefault(key, {
             "oracle_id": card.get("oracle_id"), "name": card["name"], "copies": 0,
             "by_language": Counter(), "printings": [], "places": Counter(),
-            "reserved_copies": 0, "in_project_deck": Counter(),
+            "reserved_copies": 0, "reserved_by_language": Counter(), "in_project_deck": Counter(),
         })
         entry["copies"] += qty
         entry["by_language"][lang or "?"] += qty
@@ -100,11 +114,13 @@ def build_inventory(rows, index, reserved=frozenset()):
         })
         if binder.lower() in reserved:
             entry["reserved_copies"] += qty
+            entry["reserved_by_language"][lang or "?"] += qty
         if btype == "deck" and binder.lower() in PROJECT_DECKS:
             entry["in_project_deck"][PROJECT_DECKS[binder.lower()]] += qty
     out_cards = []
     for entry in sorted(cards.values(), key=lambda e: e["name"].casefold()):
         entry["by_language"] = dict(entry["by_language"])
+        entry["reserved_by_language"] = dict(entry["reserved_by_language"])
         entry["places"] = dict(entry["places"])
         entry["in_project_deck"] = dict(entry["in_project_deck"])
         out_cards.append(entry)
@@ -114,6 +130,7 @@ def build_inventory(rows, index, reserved=frozenset()):
         "rows": totals["rows"], "copies_in_csv": totals["copies"],
         "unique_cards": len(out_cards), "owned_copies": sum(c["copies"] for c in out_cards),
         "problems": {k: v for k, v in problems.items()},
+        "commander_ok": sorted(commander_ok.values(), key=lambda e: e["name"].casefold()),
         "cards": out_cards,
     }
 
@@ -127,7 +144,9 @@ def summary(inv):
         f"rows {inv['rows']}, copies in the CSV {inv['copies_in_csv']}",
         f"owned copies counted {inv['owned_copies']} of {inv['unique_cards']} unique cards "
         f"(by language: {dict(langs)})",
-        f"reserved binders: {inv['reserved_binders'] or 'none (decision O3: no other decks)'}",
+        f"reserved binders: {inv['reserved_binders'] or 'none'}; reserved copies "
+        f"{sum(c['reserved_copies'] for c in inv['cards'])} (never usable); cards allowed as commander only: "
+        f"{len(inv.get('commander_ok', []))}",
     ]
     for kind, items in inv["problems"].items():
         lines.append(f"PROBLEM {kind}: {len(items)} e.g. {items[:3]}")

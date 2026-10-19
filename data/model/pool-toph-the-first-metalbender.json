@@ -210,8 +210,13 @@
    "locked": false,
    "owned_usable": 4,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 450,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -437,6 +442,25 @@
    "meta_pct": 21
   },
   {
+   "name": "All-Fates Stalker",
+   "oracle_id": "da9ec010-8b42-4927-b602-4e96bced4e99",
+   "type": "Creature — Drix Assassin",
+   "cmc": 4.0,
+   "mana_cost": "{3}{W}",
+   "oracle_text": "When this creature enters, exile up to one target non-Assassin creature until this creature leaves the battlefield.\nWarp {1}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
+  },
+  {
    "name": "Allied Teamwork",
    "oracle_id": "ceddea59-de47-4ddd-b424-6e1dcb13ab79",
    "type": "Enchantment",
@@ -593,7 +617,7 @@
     "language": "en",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 2
+   "stores_with_stock": 3
   },
   {
    "name": "Annie Joins Up",
@@ -680,8 +704,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 2990,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
    "owned_fit": true
   },
   {
@@ -701,7 +730,7 @@
     "language": "es",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 2,
+   "stores_with_stock": 5,
    "lists": [
     "Toph"
    ],
@@ -1021,6 +1050,25 @@
    "owned_fit": true
   },
   {
+   "name": "Aya of Alexandria",
+   "oracle_id": "27b690f2-d7ce-43b6-8e8b-98a8ffe487bb",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 4.0,
+   "mana_cost": "{2}{R}{W}",
+   "oracle_text": "Menace, lifelink\nWhenever a historic creature you control deals combat damage to a player, create a 1/1 black Assassin creature token with menace. (Artifacts, legendaries, and Sagas are historic.)",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 915,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 1
+  },
+  {
    "name": "Azusa, Lost but Seeking",
    "oracle_id": "6c2c8bf3-9bf8-4a86-89d3-3bb36260dc51",
    "type": "Legendary Creature — Human Monk",
@@ -1187,8 +1235,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 8800,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -1209,6 +1262,25 @@
     "finish": "foil"
    },
    "stores_with_stock": 3
+  },
+  {
+   "name": "Bayek of Siwa",
+   "oracle_id": "b0322e2e-e9f9-4fe2-a7a5-3e49665ad177",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 5.0,
+   "mana_cost": "{3}{R}{W}",
+   "oracle_text": "Double strike\nDuring your turn, other historic creatures you control have double strike.\nDisguise {1}{R}{W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 915,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
   },
   {
    "name": "Beamtown Beatstick",
@@ -1548,6 +1620,25 @@
    "owned_fit": true
   },
   {
+   "name": "Boilerbilges Ripper",
+   "oracle_id": "0cbe2a00-4303-4ade-98b5-4172d97f15fb",
+   "type": "Creature — Human Assassin",
+   "cmc": 5.0,
+   "mana_cost": "{4}{R}",
+   "oracle_text": "When this creature enters, you may sacrifice another creature or enchantment. When you do, this creature deals 2 damage to any target.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
+  },
+  {
    "name": "Bola Slinger",
    "oracle_id": "6ff995f9-080d-4316-8fbe-39bf195db91b",
    "type": "Creature — Cat Soldier",
@@ -1713,12 +1804,12 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 58800,
-    "store": "gameofmagic",
-    "language": "en",
+    "clp": 67990,
+    "store": "cardnexus",
+    "language": "es",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 4
+   "stores_with_stock": 1
   },
   {
    "name": "Bountiful Promenade",
@@ -1848,8 +1939,13 @@
    "locked": false,
    "owned_usable": 4,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 742,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -2027,6 +2123,25 @@
    "owned_fit": true
   },
   {
+   "name": "Bureau Headmaster",
+   "oracle_id": "c022b5df-1d85-44c0-94a1-d01b345b845b",
+   "type": "Creature — Human Assassin",
+   "cmc": 2.0,
+   "mana_cost": "{R}{W}",
+   "oracle_text": "Equipment spells you cast cost {1} less to cast.\nEquip abilities you activate cost {1} less to activate.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 7000,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1
+  },
+  {
    "name": "Buried Ruin",
    "oracle_id": "3644f316-f9a3-46c9-9b1e-747f86cf4ead",
    "type": "Land",
@@ -2113,8 +2228,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 10320,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -2521,7 +2641,7 @@
     "language": "en",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 1,
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -2719,12 +2839,12 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 1640,
-    "store": "gameofmagic",
-    "language": "en",
+    "clp": 1759,
+    "store": "piedrabruja",
+    "language": "es",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 4
+   "stores_with_stock": 2
   },
   {
    "name": "Cosmic Cube",
@@ -2815,12 +2935,12 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 31700,
-    "store": "paytowin",
+    "clp": 36000,
+    "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 3
+   "stores_with_stock": 2
   },
   {
    "name": "Crawlspace",
@@ -3119,6 +3239,25 @@
    "stores_with_stock": 3
   },
   {
+   "name": "Deadeye Duelist",
+   "oracle_id": "29ef90ac-2396-4488-970d-d440297ba5ee",
+   "type": "Creature — Human Assassin",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Reach\n{1}, {T}: This creature deals 1 damage to target opponent.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
+  },
+  {
    "name": "Defense Grid",
    "oracle_id": "22ba474e-f6e6-450d-a4cf-0739f0b51079",
    "type": "Artifact",
@@ -3262,8 +3401,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
    "owned_fit": true
   },
   {
@@ -3333,8 +3477,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 350,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -3705,6 +3854,25 @@
    "owned_fit": true
   },
   {
+   "name": "Eivor, Battle-Ready",
+   "oracle_id": "1b4a07bd-5345-4520-bd05-b5173e08135c",
+   "type": "Legendary Creature — Human Assassin Warrior",
+   "cmc": 5.0,
+   "mana_cost": "{3}{R}{W}",
+   "oracle_text": "Vigilance (Attacking doesn't cause this creature to tap.)\nHaste (This creature can attack as soon as it comes under your control.)\nWhenever Eivor attacks, it deals damage equal to the number of Equipment you control to each opponent.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 4690,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "foil"
+   },
+   "stores_with_stock": 2
+  },
+  {
    "name": "Eivor, Wolf-Kissed",
    "oracle_id": "cb8289e9-1e59-41f1-a994-6e34d2da2da2",
    "type": "Legendary Creature — Human Assassin Warrior",
@@ -3715,8 +3883,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 2990,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
    "owned_fit": true
   },
   {
@@ -3782,6 +3955,25 @@
    "owned_fit": true
   },
   {
+   "name": "Elektra, Femme Fatale",
+   "oracle_id": "75f2545d-cd31-4404-953f-1110f646228b",
+   "type": "Legendary Creature — Human Assassin Hero",
+   "cmc": 4.0,
+   "mana_cost": "{3}{R}",
+   "oracle_text": "When Elektra enters, you may have her deal 2 damage to you. When you do, she deals 4 damage to target creature.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2390,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 1
+  },
+  {
    "name": "Elemental Teachings",
    "oracle_id": "7255705c-b788-4bb1-824a-9262f4a0864e",
    "type": "Instant — Lesson",
@@ -3804,6 +3996,25 @@
     "Toph"
    ],
    "owned_fit": true
+  },
+  {
+   "name": "Elena, Turk Recruit",
+   "oracle_id": "f5b6835b-7ebe-4855-8b3e-bffb74fd50ee",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 3.0,
+   "mana_cost": "{2}{W}",
+   "oracle_text": "When Elena enters, return target non-Assassin historic card from your graveyard to your hand. (Artifacts, legendaries, and Sagas are historic.)\nWhenever you cast a historic spell, put a +1/+1 counter on Elena.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 915,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
   },
   {
    "name": "Elsewhere Flask",
@@ -4074,8 +4285,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 700,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -4129,12 +4345,12 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 2100,
-    "store": "paytowin",
+    "clp": 2490,
+    "store": "cardnexus",
     "language": "en",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 3
+   "stores_with_stock": 1
   },
   {
    "name": "Everflowing Chalice",
@@ -4203,6 +4419,25 @@
     "Toph"
    ],
    "owned_fit": true
+  },
+  {
+   "name": "Excalibur, Sword of Eden",
+   "oracle_id": "9fb6bd72-031b-40a1-83c5-8a1c82f84e12",
+   "type": "Legendary Artifact — Equipment",
+   "cmc": 12.0,
+   "mana_cost": "{12}",
+   "oracle_text": "This spell costs {X} less to cast, where X is the total mana value of historic permanents you control. (Artifacts, legendaries, and Sagas are historic.)\nEquipped creature gets +10/+0 and has vigilance.\nEquip legendary creature {2}",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 22160,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
   },
   {
    "name": "Exorcise",
@@ -4369,8 +4604,13 @@
    "locked": false,
    "owned_usable": 5,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -4431,6 +4671,25 @@
    },
    "stores_with_stock": 5,
    "owned_fit": true
+  },
+  {
+   "name": "Fall of the First Civilization",
+   "oracle_id": "dd0494f5-58bf-46ae-ad69-90b063f6f660",
+   "type": "Enchantment — Saga",
+   "cmc": 3.0,
+   "mana_cost": "{2}{W}",
+   "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — You and target opponent each draw two cards.\nII — Exile target artifact an opponent controls.\nIII — Each player chooses three nonland permanents they control. Destroy all other nonland permanents.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 700,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 3
   },
   {
    "name": "Fancy Footwork",
@@ -4642,7 +4901,7 @@
     "language": "en",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 4
+   "stores_with_stock": 5
   },
   {
    "name": "Fire Diamond",
@@ -4954,7 +5213,7 @@
     "language": "en",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 3
+   "stores_with_stock": 2
   },
   {
    "name": "Flooded Strand",
@@ -5328,7 +5587,7 @@
     "language": "en",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 5
+   "stores_with_stock": 6
   },
   {
    "name": "Garruk's Uprising",
@@ -5396,7 +5655,7 @@
     "language": "en",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 4
+   "stores_with_stock": 2
   },
   {
    "name": "Geier Reach Sanitarium",
@@ -5493,12 +5752,12 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 5600,
-    "store": "paytowin",
+    "clp": 6000,
+    "store": "afkstore",
     "language": "en",
-    "finish": "foil"
+    "finish": "nonfoil"
    },
-   "stores_with_stock": 4
+   "stores_with_stock": 3
   },
   {
    "name": "Getaway Barrel",
@@ -5647,6 +5906,25 @@
    "owned_fit": true
   },
   {
+   "name": "Goblin Assassin",
+   "oracle_id": "faf9bb36-e537-42a8-b9ee-bf2c50b0e5bd",
+   "type": "Creature — Goblin Assassin",
+   "cmc": 5.0,
+   "mana_cost": "{3}{R}{R}",
+   "oracle_text": "Whenever this creature or another Goblin enters, each player flips a coin. Each player whose coin comes up tails sacrifices a creature of their choice.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 14000,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "foil"
+   },
+   "stores_with_stock": 1
+  },
+  {
    "name": "Goblin Bombardment",
    "oracle_id": "edad60c6-80de-4033-af1b-a703ac332983",
    "type": "Enchantment",
@@ -5663,7 +5941,7 @@
     "language": "en",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 3
+   "stores_with_stock": 4
   },
   {
    "name": "Goblin Engineer",
@@ -6170,8 +6448,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1700,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -6185,8 +6468,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 742,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -6378,8 +6666,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 742,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -6399,7 +6692,7 @@
     "language": "es",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 2,
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -6443,8 +6736,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -6552,8 +6850,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 700,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -6672,12 +6975,12 @@
    "owned_usable": 2,
    "basic": false,
    "best_offer": {
-    "clp": 1290,
-    "store": "cardnexus",
+    "clp": 915,
+    "store": "gameofmagic",
     "language": "en",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 3,
+   "stores_with_stock": 5,
    "lists": [
     "Toph"
    ],
@@ -6745,12 +7048,12 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 2920,
-    "store": "gameofmagic",
+    "clp": 5000,
+    "store": "lacomarca",
     "language": "es",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 3
+   "stores_with_stock": 2
   },
   {
    "name": "Instant Ramen",
@@ -7169,6 +7472,25 @@
    "owned_fit": true
   },
   {
+   "name": "Kassandra, Eagle Bearer",
+   "oracle_id": "745b9a2c-bcd7-4db9-8cd0-d38be2ef6270",
+   "type": "Legendary Creature — Human Assassin Warrior",
+   "cmc": 3.0,
+   "mana_cost": "{1}{R}{W}",
+   "oracle_text": "Haste\nWhen Kassandra enters, search your graveyard, hand, and library for a card named The Spear of Leonidas, put it onto the battlefield, then shuffle.\nWhenever a creature you control with a legendary Equipment attached to it deals combat damage to a player, draw a card.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 39050,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 1
+  },
+  {
    "name": "Katara, Heroic Healer",
    "oracle_id": "703032eb-98b3-4ecf-8b92-4f4f1551c5d7",
    "type": "Legendary Creature — Human Warrior Ally",
@@ -7213,8 +7535,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
    "owned_fit": true
   },
   {
@@ -7229,12 +7556,12 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 7440,
-    "store": "gameofmagic",
-    "language": "en",
-    "finish": "nonfoil"
+    "clp": 7590,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "foil"
    },
-   "stores_with_stock": 3
+   "stores_with_stock": 2
   },
   {
    "name": "Kiki-Jiki, Mirror Breaker",
@@ -7377,6 +7704,25 @@
    "lists": [
     "9354c58f"
    ]
+  },
+  {
+   "name": "Kraul Stinger",
+   "oracle_id": "8481d91e-0242-4edc-8f4a-ffa47cf2e097",
+   "type": "Creature — Insect Assassin",
+   "cmc": 3.0,
+   "mana_cost": "{2}{G}",
+   "oracle_text": "Deathtouch",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
   },
   {
    "name": "Krosan Verge",
@@ -7551,6 +7897,25 @@
     "finish": "nonfoil"
    },
    "stores_with_stock": 2
+  },
+  {
+   "name": "Layla Hassan",
+   "oracle_id": "e27feb69-3120-4e8d-8ee6-0f87b58e2ae3",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 4.0,
+   "mana_cost": "{3}{W}",
+   "oracle_text": "First strike\nWhen Layla Hassan enters and whenever one or more Assassins you control deal combat damage to a player, return target historic card from your graveyard to your hand.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 915,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1
   },
   {
    "name": "Leaves from the Vine",
@@ -8019,12 +8384,12 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 40820,
-    "store": "oasis",
-    "language": "es",
-    "finish": "foil"
+    "clp": 42500,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
    },
-   "stores_with_stock": 5
+   "stores_with_stock": 2
   },
   {
    "name": "Mana Geyser",
@@ -8338,8 +8703,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
    "owned_fit": true
   },
   {
@@ -8396,6 +8766,25 @@
     "store": "cardnexus",
     "language": "en",
     "finish": "foil"
+   },
+   "stores_with_stock": 1
+  },
+  {
+   "name": "Mogg Assassin",
+   "oracle_id": "36a6925a-621e-47d6-8cb3-1b2886e1986e",
+   "type": "Creature — Goblin Assassin",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "{T}: You choose target creature an opponent controls, and that opponent chooses target creature. Flip a coin. If you win the flip, destroy the creature you chose. If you lose the flip, destroy the creature your opponent chose.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1560,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
    },
    "stores_with_stock": 1
   },
@@ -8458,6 +8847,25 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "Monastery Raid",
+   "oracle_id": "62f4a2db-6d7c-487b-be37-22f06c1e779e",
+   "type": "Sorcery",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "Freerunning {X}{R} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nExile the top two cards of your library. If this spell's freerunning cost was paid, exile the top X cards of your library instead. You may play the exiled cards until the end of your next turn.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
   },
   {
    "name": "Mongoose Lizard",
@@ -8606,12 +9014,12 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 107000,
-    "store": "paytowin",
-    "language": "en",
+    "clp": 108990,
+    "store": "cardnexus",
+    "language": "es",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 4
+   "stores_with_stock": 2
   },
   {
    "name": "Mox Opal",
@@ -8706,12 +9114,12 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 900,
-    "store": "paytowin",
+    "clp": 1800,
+    "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 3
+   "stores_with_stock": 1
   },
   {
    "name": "Nature's Lore",
@@ -8919,8 +9327,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -9088,8 +9501,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -9607,6 +10025,25 @@
    "stores_with_stock": 5
   },
   {
+   "name": "Pyrotechnic Performer",
+   "oracle_id": "78f9ec0f-6015-4024-aca6-9a14cba373fa",
+   "type": "Creature — Lizard Assassin",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Disguise {R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)\nWhenever this creature or another creature you control is turned face up, that creature deals damage equal to its power to each opponent.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 500,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6
+  },
+  {
    "name": "Quick-Draw Katana",
    "oracle_id": "604ef241-df8f-48f8-8680-f9ed77ff30ae",
    "type": "Artifact — Equipment",
@@ -9824,8 +10261,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 500,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
    "owned_fit": true
   },
   {
@@ -9844,6 +10286,25 @@
    "owned_fit": true
   },
   {
+   "name": "Razorkin Needlehead",
+   "oracle_id": "a78f981a-bf8a-42a4-b171-d655cc2cc1a2",
+   "type": "Creature — Human Assassin",
+   "cmc": 2.0,
+   "mana_cost": "{R}{R}",
+   "oracle_text": "This creature has first strike during your turn.\nWhenever an opponent draws a card, this creature deals 1 damage to them.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 9000,
+    "store": "afkstore",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
+  },
+  {
    "name": "Razorverge Thicket",
    "oracle_id": "94f6c407-e665-4032-be13-a01e40c1f306",
    "type": "Land",
@@ -9860,7 +10321,7 @@
     "language": "en",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 3
+   "stores_with_stock": 4
   },
   {
    "name": "Rebellious Captives",
@@ -10241,12 +10702,12 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 58240,
-    "store": "gameofmagic",
+    "clp": 67990,
+    "store": "cardnexus",
     "language": "en",
-    "finish": "nonfoil"
+    "finish": "foil"
    },
-   "stores_with_stock": 4
+   "stores_with_stock": 2
   },
   {
    "name": "Rockalanche",
@@ -10458,7 +10919,7 @@
     "language": "es",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 3
+   "stores_with_stock": 4
   },
   {
    "name": "Rumble Arena",
@@ -10682,13 +11143,8 @@
    "locked": false,
    "owned_usable": 0,
    "basic": false,
-   "best_offer": {
-    "clp": 975,
-    "store": "paytowin",
-    "language": "en",
-    "finish": "nonfoil"
-   },
-   "stores_with_stock": 1,
+   "best_offer": null,
+   "stores_with_stock": 0,
    "lists": [
     "46892532"
    ]
@@ -10782,7 +11238,7 @@
     "language": "es",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 6
+   "stores_with_stock": 3
   },
   {
    "name": "Scute Swarm",
@@ -11024,8 +11480,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
    "owned_fit": true
   },
   {
@@ -11117,8 +11578,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 915,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -11195,7 +11661,7 @@
     "language": "en",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 3
+   "stores_with_stock": 2
   },
   {
    "name": "Skyblinder Staff",
@@ -11224,12 +11690,12 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 1250,
-    "store": "gameofmagic",
+    "clp": 2190,
+    "store": "cardnexus",
     "language": "en",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 3
+   "stores_with_stock": 1
   },
   {
    "name": "Skyknight Legionnaire",
@@ -11321,6 +11787,25 @@
    "lists": [
     "0f65b61d"
    ]
+  },
+  {
+   "name": "Smoke Bomb",
+   "oracle_id": "c262e015-f379-484f-894f-1a1deb3c75cc",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "Flash\nAll creatures have shroud. (They can't be the targets of spells or abilities.)\nAt the beginning of your upkeep, sacrifice this artifact. When you do, target creature you control can't be blocked this turn.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 742,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 2
   },
   {
    "name": "Sokenzan, Crucible of Defiance",
@@ -11528,8 +12013,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
    "owned_fit": true
   },
   {
@@ -11682,6 +12172,25 @@
     "9354c58f"
    ],
    "meta_pct": 18
+  },
+  {
+   "name": "Staff of Eden, Vault's Key",
+   "oracle_id": "c4fe63e7-bb4c-4aff-b74f-d385d0128def",
+   "type": "Legendary Artifact",
+   "cmc": 6.0,
+   "mana_cost": "{6}",
+   "oracle_text": "When Staff of Eden enters, put target legendary permanent card not named Staff of Eden, Vault's Key from a graveyard onto the battlefield under your control.\n{T}: Draw a card for each permanent you control but don't own.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 4550,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 1
   },
   {
    "name": "Stalwart Valkyrie",
@@ -11965,12 +12474,12 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 4280,
-    "store": "gameofmagic",
+    "clp": 4490,
+    "store": "cardnexus",
     "language": "en",
-    "finish": "nonfoil"
+    "finish": "foil"
    },
-   "stores_with_stock": 5
+   "stores_with_stock": 4
   },
   {
    "name": "Sunpetal Grove",
@@ -12015,6 +12524,25 @@
     "finish": "nonfoil"
    },
    "stores_with_stock": 2
+  },
+  {
+   "name": "Surtr, Fiery Jötun",
+   "oracle_id": "424084cf-418f-47b4-915f-b254c8adb3bd",
+   "type": "Legendary Creature — Giant God Warrior",
+   "cmc": 5.0,
+   "mana_cost": "{3}{R}{R}",
+   "oracle_text": "Trample (This creature can deal excess combat damage to the player it's attacking.)\nWhenever you cast a historic spell, Surtr deals 3 damage to any target. (Artifacts, legendaries, and Sagas are historic.)",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 12500,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1
   },
   {
    "name": "Survey Mechan",
@@ -12386,25 +12914,6 @@
    "stores_with_stock": 1
   },
   {
-   "name": "Tamiyo's Safekeeping",
-   "oracle_id": "bb2b324c-970a-4920-884e-c92ba49669f0",
-   "type": "Instant",
-   "cmc": 1.0,
-   "mana_cost": "{G}",
-   "oracle_text": "Target permanent you control gains hexproof and indestructible until end of turn. You gain 2 life. (A permanent with hexproof and indestructible can't be the target of spells or abilities your opponents control. Damage and effects that say \"destroy\" don't destroy it.)",
-   "game_changer": false,
-   "locked": false,
-   "owned_usable": 0,
-   "basic": false,
-   "best_offer": {
-    "clp": 5800,
-    "store": "paytowin",
-    "language": "en",
-    "finish": "nonfoil"
-   },
-   "stores_with_stock": 2
-  },
-  {
    "name": "Tannuk, Memorial Ensign",
    "oracle_id": "76cb1912-3791-44b8-b594-b92dab21bafc",
    "type": "Legendary Creature — Kavu Pilot",
@@ -12441,8 +12950,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 700,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -12456,8 +12970,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1800,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
    "owned_fit": true
   },
   {
@@ -12599,8 +13118,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 350,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -12614,8 +13138,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 776,
+    "store": "piedrabruja",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -12647,8 +13176,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 3600,
+    "store": "paytowin",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -14164,9 +14698,52 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 350,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
+  },
+  {
+   "name": "Virulent Emissary",
+   "oracle_id": "3d4bec90-7bbc-4385-a2b8-303c7a8d0a0f",
+   "type": "Creature — Elf Assassin",
+   "cmc": 1.0,
+   "mana_cost": "{G}",
+   "oracle_text": "Deathtouch\nWhenever another creature you control enters, you gain 1 life.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1300,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
+   "name": "Virulent Silencer",
+   "oracle_id": "7d70a2f4-92cb-40c3-9e5a-f6c57d4a64c2",
+   "type": "Artifact Creature — Robot Assassin",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "Whenever a nontoken artifact creature you control deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.)",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
   },
   {
    "name": "Vivi's Persistence",
@@ -14372,8 +14949,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 500,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -14569,7 +15151,7 @@
     "language": "es",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 5
+   "stores_with_stock": 3
   },
   {
    "name": "Wooded Bastion",
@@ -14583,12 +15165,12 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 19000,
-    "store": "paytowin",
-    "language": "es",
+    "clp": 19990,
+    "store": "cardnexus",
+    "language": "en",
     "finish": "nonfoil"
    },
-   "stores_with_stock": 4
+   "stores_with_stock": 2
   },
   {
    "name": "Wooded Foothills",
@@ -14696,6 +15278,25 @@
     "dce02411"
    ],
    "meta_pct": 48
+  },
+  {
+   "name": "Yggdrasil, Rebirth Engine",
+   "oracle_id": "7617a6f7-c83b-4ee5-a681-c7e164456526",
+   "type": "Legendary Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "When Yggdrasil enters, exile all creature cards from your graveyard.\n{T}: Exile the top three cards of your library.\n{4}, {T}: Put a creature card exiled with Yggdrasil onto the battlefield under your control. It gains haste until end of turn. Activate only as a sorcery.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1680,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
   },
   {
    "name": "Yip Yip!",

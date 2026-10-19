@@ -1,0 +1,215 @@
+# Cards to price for the Ezio Auditore da Firenze deck (read by scripts/read_store_prices.py; one name per line).
+# Every Commander-legal, one-faced Assassin card and every card first printed in the Assassin's Creed set (2026-10-18),
+# the commander itself (to compare the real card with the proxy), the two swords (not free: the owner keeps the ones in
+# his Standard decks out of the Commander decks) and the cards of the Salt Bracket 3 core that are not already targets.
+Ezio Auditore da Firenze
+Sword of Feast and Famine
+Sword of Light and Shadow
+Abstergo Entertainment
+Abyssal Hunter
+Adrestia
+Adéwalé, Breaker of Chains
+Agate-Blade Assassin
+Agent of the Fates
+All-Fates Stalker
+Anhelo, the Painter
+Aphelia, Viper Whisperer
+Apple of Eden, Isu Relic
+Arbaaz Mir
+Assassin Den
+Assassin Gauntlet
+Assassin Initiate
+Auditore Ambush
+Aveline de Grandpré
+Aven Heartstabber
+Ballad of the Black Flag
+Battlefield Improvisation
+Become Anonymous
+Big Game Hunter
+Bile-Vial Boggart
+Black Widow, Deadly Hunter
+Black Widow, Natasha Romanoff
+Blade of the Swarm
+Bleeding Effect
+Blood Operative
+Boilerbilges Ripper
+Briarblade Adept
+Brotherhood Ambushers
+Brotherhood Patriarch
+Brotherhood Spy
+Bullseye, Death Dealer
+Bureau Headmaster
+Cackling Slasher
+Caduceus, Staff of Hermes
+Callidus Assassin
+Chain Assassination
+Cindering Cutthroat
+Cleopatra, Exiled Pharaoh
+Combustion Man
+Cruel Sadist
+Crystal Skull, Isu Spyglass
+Dark Impostor
+Darkblade Agent
+Deadeye Duelist
+Desynchronization
+Detained by Legionnaires
+Distract the Guards
+Downwind Ambusher
+Eivor, Battle-Ready
+Eivor, Wolf-Kissed
+Elektra, Femme Fatale
+Elena, Turk Recruit
+Escape Detection
+Escarpment Fortress
+Etrata, Deadly Fugitive
+Etrata, the Silencer
+Evie Frye
+Excalibur, Sword of Eden
+Eyeblight Assassin
+Ezio, Brash Novice
+Fall of the First Civilization
+Final-Sting Faerie
+Fleshtaker
+Garza's Assassin
+Gixian Skullflayer
+Gloom Ripper
+Goblin Assassin
+Guildsworn Prowler
+Guul Draz Assassin
+Hagra Sharpshooter
+Havi, the All-Father
+Haystack
+Haytham Kenway
+Headsplitter
+Hemlock Vial
+Hidden Blade
+Hidden Footblade
+Hired Blade
+Hired Poisoner
+Hit-Monkey
+Hooded Assassin
+Hookblade
+Hookblade Veteran
+Hullcarver
+Hunter of Eyeblights
+Hunter's Bow
+Iridescent Vinelasher
+Jackdaw
+Jacob Frye
+Kassandra, Eagle Bearer
+Keen-Eyed Raven
+Kelsien, the Plague
+Kiku, Night's Flower
+King's Assassin
+Kraul Stinger
+Kraul Whipcracker
+Labyrinth Adversary
+Leonardo da Vinci
+Loyal Inventor
+Lurking Deadeye
+Lydia Frye
+Lys Alana Scarblade
+Mary Read and Anne Bonny
+Massacre Girl
+Massacre Girl, Known Killer
+Massacre Girl, Most Wanted
+Mer-Ek Nightblade
+Merciless Harlequin
+Merfolk Assassin
+Midnight Assassin
+Misthios's Fury
+Mjölnir, Storm Hammer
+Mogg Assassin
+Monastery Raid
+Murderous Redcap
+Nekrataal
+Nightmare Sower
+Nightshade Assassin
+Nirkana Assassin
+Notorious Assassin
+Ochran Assassin
+Origin of the Hidden Ones
+Orzhov Euthanist
+Overpowering Attack
+Palazzo Archers
+Petty Larceny
+Phantom Blade
+Poison-Blade Mentor
+Pyrotechnic Performer
+Raffine's Silencer
+Ramses Overdark
+Rathi Assassin
+Ratonhnhaké꞉ton
+Raven Clan War-Axe
+Raven Eagle
+Ravenloft Adventurer
+Razorkin Needlehead
+Reno and Rude
+Repeat Offender
+Restart Sequence
+Rooftop Assassin
+Rooftop Bypass
+Roshan, Hidden Magister
+Ruthless Lawbringer
+Ruthless Ripper
+Sawblade Skinripper
+Scarblade Elite
+Senu, Keen-Eyed Protector
+Serpent Assassin
+Settlement Blacksmith
+Shadow, Mysterious Assassin
+Shao Jun
+Shaun & Rebecca, Agents
+Shay Cormac
+Sigurd, Jarl of Ravensthorpe
+Silent Assassin
+Silumgar Assassin
+Skulking Killer
+Smoke Bomb
+Sokrates, Athenian Teacher
+Spartan Veteran
+Staff of Eden, Vault's Key
+Stalking Assassin
+Stingblade Assassin
+Stronghold Assassin
+Suq'Ata Assassin
+Surtr, Fiery Jötun
+Tax Collector
+Templar Knight
+Termination Facilitator
+The Aesir Escape Valhalla
+The Animus
+The Capitoline Triad
+The Lord of Pain
+The Revelations of Ezio
+The Spear of Leonidas
+Thorn of the Black Rose
+Thraximundar
+Thrill-Kill Assassin
+Towering Viewpoint
+Tranquilize
+Tsabo's Assassin
+Twinblade Assassins
+Undercity Eliminator
+Unliving Psychopath
+Unscrupulous Contractor
+Unstoppable Slasher
+Vein Ripper
+Viewpoint Synchronization
+Vincent, Vengeful Atoner
+Viper, Cruel Conspirator
+Virtus the Veiled
+Virulent Emissary
+Virulent Silencer
+Vraska's Finisher
+Vraska, the Cutting Glare
+Vraska, the Silencer
+Weed-Pruner Poplar
+Wei Assassins
+What Must Be Done
+White Widow, Yelena Belova
+Winter Soldier, Icy Assassin
+Xathrid Slyblade
+Xira, the Golden Sting
+Yggdrasil, Rebirth Engine
+Zombie Assassin

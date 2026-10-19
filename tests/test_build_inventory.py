@@ -60,10 +60,27 @@ def test_reserved_binders_mark_their_copies():
     assert sol["copies"] == 2 and sol["reserved_copies"] == 1
 
 
+def test_reserved_binder_creatures_and_proxies_may_only_be_commanders():
+    index = la.build_index([
+        {"name": "Ezio", "oracle_id": "o-ezio", "type_line": "Legendary Creature", "cmc": 2},
+        {"name": "Sword", "oracle_id": "o-sword", "type_line": "Artifact — Equipment", "cmc": 3},
+        card("Sol Ring", "o-sol")])
+    inv = mod.build_inventory([
+        row("Ezio", binder="Std", btype="binder"), row("Sword", binder="Std", btype="binder"),
+        row("Sol Ring", proxy="true", binder="Std", btype="binder"), row("Sol Ring", binder="Box", btype="binder")],
+        index, {"std"})
+    ok = {c["name"]: c["sources"] for c in inv["commander_ok"]}
+    assert ok == {"Ezio": ["reserved:Std"], "Sol Ring": ["proxy:Std"]}  # the reserved sword is not a creature
+    ezio = next(c for c in inv["cards"] if c["name"] == "Ezio")
+    assert ezio["reserved_copies"] == 1 and ezio["reserved_by_language"] == {"en": 1}
+    sol = next(c for c in inv["cards"] if c["name"] == "Sol Ring")
+    assert sol["copies"] == 1  # the proxy is not an owned copy
+
+
 def test_summary_mentions_problems_and_reserved_state():
     inv = mod.build_inventory([row("Nonexistent Card")], INDEX)
     text = mod.summary(inv)
-    assert "PROBLEM unknown_names" in text and "none (decision O3" in text
+    assert "PROBLEM unknown_names" in text and "cards allowed as commander only: 0" in text
 
 
 if __name__ == "__main__":

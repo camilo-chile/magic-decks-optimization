@@ -32,6 +32,9 @@ OUT_DIR = ROOT / "data" / "model"
 SCORES = am.CANDIDATES_DIR / "scores.json"
 OWNER_LISTS = {"toph-the-first-metalbender": ROOT / "data" / "raw" / "Toph.txt",
                "fire-lord-azula": ROOT / "data" / "raw" / "Azula.txt"}
+# Decks with no candidate list yet get a pool only; the identity comes from the commander card (owner, 2026-10-18:
+# an Assassin's Creed assassin replaces Alexios, whose own pool stays until the choice is final).
+NEW_COMMANDERS = {"ezio-auditore-da-firenze": "Ezio Auditore da Firenze"}
 
 
 def layer_a_row(path, slug, index, spellbook, hazards):
@@ -87,6 +90,10 @@ def main():
                      "unresolved": listing["unresolved"], "locked_held": held, "to_buy": priced["to_buy"]})
         listings[(slug, fname)] = listing
 
+    for slug, name in NEW_COMMANDERS.items():
+        commander = index.get(la.normalize(name))
+        if slug not in identity and commander is not None:
+            identity[slug] = set(commander.get("color_identity") or [])
     for slug, ident in identity.items():
         pool = build_pool(slug, ident, listings, cards, index, owned, offers, locked)
         (OUT_DIR / f"pool-{slug}.json").write_text(json.dumps(pool, indent=1, ensure_ascii=False), encoding="utf-8")
@@ -129,9 +136,9 @@ def build_pool(slug, identity, listings, cards, index, owned, offers, locked=())
         for oid, _, pct in am.read_meta_picks(meta_path.read_text(encoding="utf-8"), index):
             members.setdefault(oid, {"lists": []})["meta_pct"] = pct
     by_oid = {c.get("oracle_id"): c for c in cards}
-    for oid in owned:
+    for oid, have in owned.items():
         card = by_oid.get(oid)
-        if card and am.fits_identity(card, identity):
+        if card and have.get("usable") and am.fits_identity(card, identity):
             members.setdefault(oid, {"lists": []})["owned_fit"] = True
     for oid in offers:  # every priced card that fits, also those that only another deck's lists asked for
         card = by_oid.get(oid)

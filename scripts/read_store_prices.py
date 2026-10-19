@@ -3,7 +3,8 @@
 
 Run it with the "Run Python File" button (no arguments). It needs the `requests` package and the
 network; it reads only public catalog feeds (Shopify `products.json`, the WooCommerce Store API),
-one request per second at most, with a clear User-Agent, and stops a store on repeated HTTP 429.
+with a clear User-Agent, and stops a store on repeated HTTP 429. The stores are read in parallel (one
+thread per store, owner request 2026-10-19), each at most one request per second to its own host.
 It never signs in, never touches a cart or a checkout. Terms of service were not read (owner's
 instruction, 2026-10-16); the pace is deliberately gentle.
 
@@ -20,7 +21,9 @@ Writes, next to each other under data/prices/:
 import json
 import re
 import sys
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -111,9 +114,30 @@ def wishlist_names(text):
     return names
 
 
+def ladder_names(text):
+    """Card names of a ladder file (decks/proposals/<deck>.ladder.txt): the base lines (`N Card`, also the commander)
+    and every `+ Card | - Card | why` swap, so a card that only ever came from a wishlist keeps its price once the
+    experts replace that wishlist."""
+    names = []
+    for line in text.splitlines():
+        line = line.strip().lstrip("﻿")
+        if not line or line.startswith("//"):
+            continue
+        if line.startswith("+"):
+            names.append(line[1:].split("|")[0].strip())
+            continue
+        match = re.match(r"^\d+\s+(.+)$", line)
+        if match:
+            names.append(match.group(1).strip())
+    return names
+
+
 def targets_from_repo():
-    """normalized front-face name -> display name, for every candidate, meta pick and locked card, and for the
-    cards of the wishlists in decks/proposals/*.md (cards an expert wanted that no list had asked for)."""
+    """normalized front-face name -> display name, for every candidate, meta pick and locked card, for the
+    cards of the wishlists in decks/proposals/*.md (cards an expert wanted that no list had asked for), for the
+    cards of the current ladders in decks/proposals/*.ladder.txt and for the
+    names of decks/candidates/<slug>/extra-targets.txt (one name per line, `#` comments; a deck with no candidate
+    list yet, such as the Assassin's Creed commander that replaces Alexios, lists the cards to price there)."""
     names = {}
 
     def add(raw):
@@ -126,6 +150,10 @@ def targets_from_repo():
         for raw in wishlist_names(path.read_text(encoding="utf-8")):
             add(raw)
 
+    for path in sorted((ROOT / "decks" / "proposals").glob("*.ladder.txt")):
+        for raw in ladder_names(path.read_text(encoding="utf-8-sig")):
+            add(raw)
+
     for path in sorted((ROOT / "decks" / "candidates").glob("*/*.txt")):
         commanders, deck, _ = la.parse_decklist(path.read_text(encoding="utf-8-sig"))
         for entry in commanders + deck:
@@ -135,6 +163,10 @@ def targets_from_repo():
             match = META_LINE_RE.match(line.strip())
             if match:
                 add(match.group(1))
+    for path in sorted((ROOT / "decks" / "candidates").glob("*/extra-targets.txt")):
+        for line in path.read_text(encoding="utf-8-sig").splitlines():
+            if line.strip() and not line.lstrip().startswith("#"):
+                add(line)
     locked = ROOT / "decks" / "locked.txt"
     if locked.exists():
         _, deck, _ = la.parse_decklist(locked.read_text(encoding="utf-8-sig"))
@@ -287,12 +319,14 @@ class Progress:
     def __init__(self, log_path):
         self.log_path = log_path
         self.start = time.time()
+        self.lock = threading.Lock()  # one line at a time: the stores log from their own threads
 
     def log(self, message):
         line = f"{datetime.now().strftime('%H:%M:%S')}  {message}"
-        print(line, flush=True)
-        with open(self.log_path, "a", encoding="utf-8") as fh:
-            fh.write(line + "\n")
+        with self.lock:
+            print(line, flush=True)
+            with open(self.log_path, "a", encoding="utf-8") as fh:
+                fh.write(line + "\n")
 
     @staticmethod
     def eta(done, total, started):
@@ -464,6 +498,31 @@ def new_names(targets):
     return {key: name for key, name in targets.items() if key not in done}
 
 
+def read_one_store(requests, store, targets, fresh, progress):
+    """Read one store with its own throttle (1 request per second to its own host); never raises, so one
+    failing store cannot lose the others. Returns (store id, offers, stats)."""
+    progress.log(f"Store started: {store['name']} ({store['kind']})")
+    try:
+        store_targets = fresh if fresh and store["kind"] != "shopify" else targets
+        got, stats = READERS[store["kind"]](requests, Throttle(), store, store_targets, progress)
+        return store["id"], got, stats
+    except Exception as exc:  # noqa: BLE001
+        progress.log(f"  FAILED {store['name']}: {exc}")
+        return store["id"], [], {"error": f"{type(exc).__name__}: {exc}"}
+
+
+def read_all_stores(requests, active, targets, fresh, progress):
+    """Read the active stores in parallel, one thread each; offers and stats come back in store order, so the
+    output does not depend on which store finished first."""
+    with ThreadPoolExecutor(max_workers=max(len(active), 1)) as pool:
+        results = list(pool.map(lambda store: read_one_store(requests, store, targets, fresh, progress), active))
+    offers, store_stats = [], {}
+    for store_id, got, stats in results:
+        offers += got
+        store_stats[store_id] = stats
+    return offers, store_stats
+
+
 def main():
     try:
         import requests
@@ -479,20 +538,10 @@ def main():
     progress = Progress(OUT_DIR / f"{stamp}.progress.log")
     progress.log(f"{len(targets)} cards to price; stores: "
                  + ", ".join(s["name"] for s in STORES if s["enabled"]))
-    throttle, offers, store_stats = Throttle(), [], {}
     active = [s for s in STORES if s["enabled"]]
     fresh = new_names(targets)  # one search per card stores look up only the names not priced yet
     progress.log(f"{len(fresh)} of them are new since the newest merged file")
-    for n, store in enumerate(active, 1):
-        progress.log(f"Store {n}/{len(active)}: {store['name']} ({store['kind']})")
-        try:
-            store_targets = fresh if fresh and store["kind"] != "shopify" else targets
-            got, stats = READERS[store["kind"]](requests, throttle, store, store_targets, progress)
-            offers += got
-            store_stats[store["id"]] = stats
-        except Exception as exc:  # one failing store must not lose the others
-            store_stats[store["id"]] = {"error": f"{type(exc).__name__}: {exc}"}
-            progress.log(f"  FAILED {store['name']}: {exc}")
+    offers, store_stats = read_all_stores(requests, active, targets, fresh, progress)
     result = {"as_of_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
               "note": "Price-phase evidence only: `available` is a hint, stock is verified in Phase 9.",
               "cards_requested": sorted(targets.values()), "store_stats": store_stats, "offers": offers}

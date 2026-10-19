@@ -70,6 +70,31 @@ def test_unowned_japanese_copies_do_not_count_as_usable(tmp_path=None):
         assert am.load_owned(path)["x"]["usable"] == 1
 
 
+def test_reserved_binder_copies_are_not_usable_but_a_commander_may_come_from_there():
+    import json
+    import tempfile
+    inv = {"cards": [
+        {"oracle_id": "id-Gamble", "name": "Gamble", "copies": 2, "by_language": {"en": 2},
+         "reserved_by_language": {"en": 1}},
+        {"oracle_id": "id-Sol Ring", "name": "Sol Ring", "copies": 1, "by_language": {"en": 1},
+         "reserved_by_language": {"en": 1}}],
+        "commander_ok": [{"oracle_id": "id-Sol Ring", "name": "Sol Ring", "sources": ["reserved:Std"]},
+                         {"oracle_id": "id-Counterspell", "name": "Counterspell", "sources": ["proxy:Std"]}]}
+    with tempfile.TemporaryDirectory() as tmp:
+        path = Path(tmp) / "inv.json"
+        path.write_text(json.dumps(inv), encoding="utf-8")
+        owned = am.load_owned(path)
+    assert owned["id-Gamble"]["usable"] == 1 and owned["id-Sol Ring"]["usable"] == 0
+    assert owned["id-Counterspell"] == {"name": "Counterspell", "usable": 0, "copies": 0, "commander_ok": True}
+    as_commander = am.price_list(listing("// Commander\n1 Counterspell\n\n// Main\n1 Sol Ring\n"), owned,
+                                 {"id-Sol Ring": [offer("Sol Ring", 2000)]})
+    assert as_commander["cost_clp"] == 2000  # the commander is free, the reserved Sol Ring in the 99 is bought
+    assert any("Counterspell (commander" in name for name in as_commander["owned"])
+    in_the_99 = am.price_list(listing("// Commander\n1 Gamble\n\n// Main\n1 Counterspell\n"), owned,
+                              {"id-Counterspell": [offer("Counterspell", 3000)]})
+    assert in_the_99["cost_clp"] == 3000  # a proxy or reserved card is never free outside the commander slot
+
+
 def test_meta_picks_and_identity():
     picks = am.read_meta_picks("1. Sol Ring 90\n2. Unknown Thing 50\n3. Gamble 40\n", INDEX)
     assert [(n, p) for _, n, p in picks] == [("Sol Ring", 90), ("Gamble", 40)]
@@ -97,7 +122,10 @@ def test_the_locked_list_may_be_empty_and_coverage_reports_the_missing_cards():
 def test_a_loose_title_match_must_still_be_the_same_card():
     def offer(card, title, match="loose"):
         return {"card": card, "title": title, "match": match}
-    assert am.is_the_card(offer("Savannah", "Savannah Lions [DMR - 24]", "exact"))  # exact is always the card
+    assert not am.is_the_card(offer("Savannah", "Savannah Lions [DMR - 24]", "exact"))  # even a reader's "exact" does not make it the card
+    assert not am.is_the_card(offer("Savannah", "Savannah Lions (Retro)", "exact"))
+    assert am.is_the_card(offer("Sol Ring", "Sol Ring Regular Foil (ingles) 277", "exact"))
+    assert am.is_the_card(offer("Pyroblast", "Pyroblast - 1998 Brian Selden (ICE) (SB) [WCD - 1998]", "exact"))
     assert not am.is_the_card(offer("Savannah", "Savannah Lions [DMR - 24]"))
     assert not am.is_the_card(offer("Bedlam", "Bedlam Reveler (Borderless) [INR - 312]"))
     assert not am.is_the_card(offer("Anger", "Anger of the Gods [TSR - 339]"))

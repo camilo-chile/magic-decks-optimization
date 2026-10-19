@@ -13,8 +13,13 @@
 //   #STORE <id> fetched_at=<UTC> source=browser seen=<names> FORMAT key|bucket|handle|variant|price|title_suffix
 // as data/prices/browser-<store>-<YYYYMMDD>-wishlist.psv; scripts/merge_prices.py adds those cards to the store's
 // earlier reading. Buckets: nen English, nes Spanish, f foil (the cheapest available variant of each).
+// A javascript_tool result is cut at about 900 characters: for the full lines, split them into chunks of at most
+// 760 characters in the page (window.__chunks), read one chunk per call (a browser_batch of calls works) and check
+// the copy with a checksum of the joined lines (h = (h * 31 + charCode) % 1000003) computed in the page and again in
+// Python before saving. window.__wl.sum is a short `card:cheapest non-foil price` summary for a quick estimate.
+// Do not POST the lines to a local server: Chrome holds a request from a public page to localhost for a permission.
 window.__wl = {state: 'running', done: 0, total: 0, lines: [], err: null, t0: Date.now()};
-(async () => {
+void (async () => {
   const wl = window.__wl;
   const names = window.name.split('|').filter(Boolean);
   wl.total = names.length;
@@ -67,5 +72,11 @@ window.__wl = {state: 'running', done: 0, total: 0, lines: [], err: null, t0: Da
       wl.lines.push([key, b, handle, variant, price, suffix].join('|'));
     }
   }
+  const cheapest = {};
+  for (const l of wl.lines) {
+    const [k, b, , , p] = l.split('|');
+    if (b !== 'f') (cheapest[k] = cheapest[k] || []).push(Number(p));
+  }
+  wl.sum = Object.entries(cheapest).map(([k, a]) => k.slice(0, 20) + ':' + Math.min(...a)).join('; ');
   wl.state = 'done';
 })();

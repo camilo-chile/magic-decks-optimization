@@ -1,0 +1,219 @@
+{
+ "scoring_version": "2026.4195",
+ "parity": 0.2,
+ "points": {
+  "toph-the-first-metalbender": [
+   {
+    "label": "round2-step0",
+    "cost": 0,
+    "power": 7.1,
+    "bracket": "3"
+   },
+   {
+    "label": "round3-step11",
+    "cost": 24152,
+    "power": 7.2,
+    "bracket": "3"
+   },
+   {
+    "label": "round3-step21",
+    "cost": 49142,
+    "power": 7.4,
+    "bracket": "3"
+   },
+   {
+    "label": "round3-step30",
+    "cost": 97537,
+    "power": 7.5,
+    "bracket": "3"
+   }
+  ],
+  "fire-lord-azula": [
+   {
+    "label": "round3-step23",
+    "cost": 24882,
+    "power": 6.8,
+    "bracket": "3*"
+   },
+   {
+    "label": "round3-step34",
+    "cost": 49592,
+    "power": 7.1,
+    "bracket": "3*"
+   },
+   {
+    "label": "round3-step53",
+    "cost": 148712,
+    "power": 7.2,
+    "bracket": "3*"
+   }
+  ],
+  "ezio-auditore-da-firenze": [
+   {
+    "label": "round3-step24",
+    "cost": 24827,
+    "power": 6.4,
+    "bracket": "3"
+   },
+   {
+    "label": "round3-step39",
+    "cost": 45872,
+    "power": 7.0,
+    "bracket": "3"
+   },
+   {
+    "label": "round3-step50",
+    "cost": 141322,
+    "power": 7.1,
+    "bracket": "3"
+   }
+  ]
+ },
+ "curve": [
+  {
+   "budget": 100000,
+   "decks": {
+    "ezio-auditore-da-firenze": {
+     "label": "round3-step39",
+     "cost": 45872,
+     "power": 7.0,
+     "bracket": "3"
+    },
+    "fire-lord-azula": {
+     "label": "round3-step34",
+     "cost": 49592,
+     "power": 7.1,
+     "bracket": "3*"
+    },
+    "toph-the-first-metalbender": {
+     "label": "round2-step0",
+     "cost": 0,
+     "power": 7.1,
+     "bracket": "3"
+    }
+   },
+   "cost": 95464,
+   "unspent": 4536,
+   "min_power": 7.0,
+   "gap": 0.1,
+   "parity": true,
+   "above_friend": true
+  },
+  {
+   "budget": 150000,
+   "decks": {
+    "ezio-auditore-da-firenze": {
+     "label": "round3-step39",
+     "cost": 45872,
+     "power": 7.0,
+     "bracket": "3"
+    },
+    "fire-lord-azula": {
+     "label": "round3-step34",
+     "cost": 49592,
+     "power": 7.1,
+     "bracket": "3*"
+    },
+    "toph-the-first-metalbender": {
+     "label": "round3-step11",
+     "cost": 24152,
+     "power": 7.2,
+     "bracket": "3"
+    }
+   },
+   "cost": 119616,
+   "unspent": 30384,
+   "min_power": 7.0,
+   "gap": 0.2,
+   "parity": true,
+   "above_friend": true
+  },
+  {
+   "budget": 200000,
+   "decks": {
+    "ezio-auditore-da-firenze": {
+     "label": "round3-step50",
+     "cost": 141322,
+     "power": 7.1,
+     "bracket": "3"
+    },
+    "fire-lord-azula": {
+     "label": "round3-step34",
+     "cost": 49592,
+     "power": 7.1,
+     "bracket": "3*"
+    },
+    "toph-the-first-metalbender": {
+     "label": "round2-step0",
+     "cost": 0,
+     "power": 7.1,
+     "bracket": "3"
+    }
+   },
+   "cost": 190914,
+   "unspent": 9086,
+   "min_power": 7.1,
+   "gap": 0.0,
+   "parity": true,
+   "above_friend": true
+  },
+  {
+   "budget": 250000,
+   "decks": {
+    "ezio-auditore-da-firenze": {
+     "label": "round3-step50",
+     "cost": 141322,
+     "power": 7.1,
+     "bracket": "3"
+    },
+    "fire-lord-azula": {
+     "label": "round3-step34",
+     "cost": 49592,
+     "power": 7.1,
+     "bracket": "3*"
+    },
+    "toph-the-first-metalbender": {
+     "label": "round3-step11",
+     "cost": 24152,
+     "power": 7.2,
+     "bracket": "3"
+    }
+   },
+   "cost": 215066,
+   "unspent": 34934,
+   "min_power": 7.1,
+   "gap": 0.1,
+   "parity": true,
+   "above_friend": true
+  },
+  {
+   "budget": 300000,
+   "decks": {
+    "ezio-auditore-da-firenze": {
+     "label": "round3-step50",
+     "cost": 141322,
+     "power": 7.1,
+     "bracket": "3"
+    },
+    "fire-lord-azula": {
+     "label": "round3-step34",
+     "cost": 49592,
+     "power": 7.1,
+     "bracket": "3*"
+    },
+    "toph-the-first-metalbender": {
+     "label": "round3-step11",
+     "cost": 24152,
+     "power": 7.2,
+     "bracket": "3"
+    }
+   },
+   "cost": 215066,
+   "unspent": 84934,
+   "min_power": 7.1,
+   "gap": 0.1,
+   "parity": true,
+   "above_friend": true
+  }
+ ]
+}
