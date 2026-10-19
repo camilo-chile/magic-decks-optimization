@@ -1,0 +1,3897 @@
+{
+ "budget": 200000,
+ "built_at": "2026-10-19T15:44:59Z",
+ "prices": "merged-20261019T1013Z.json",
+ "prices_as_of": "2026-10-19T10:13:44Z",
+ "lists": {
+  "Ezio": "round5-step40",
+  "Azula": "round4-step27",
+  "Toph": "round3-step21"
+ },
+ "plan_total_clp": 181924,
+ "total_clp": 181924,
+ "cards": [
+  {
+   "name": "Entomb",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "paytowin",
+     "price_clp": 22400,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Entomb [Dominaria Remastered]",
+     "url": "https://www.paytowin.cl/products/entomb-dominaria-remastered",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T09:56:00Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 22990,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Entomb",
+     "url": "https://cardnexus.cl/product/cn-child-a8077e62e03cce015a32a704acefdb395ec23a65/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-19T09:46:01Z"
+    },
+    {
+     "store": "magic4ever",
+     "price_clp": 137000,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Entomb (Borderless)",
+     "url": "https://www.magic4ever.cl/entomb-borderless",
+     "variant": "M-MP2-0023-EN-F",
+     "read_at": "2026-10-19T09:46:01Z"
+    }
+   ],
+   "unit_clp": 22400,
+   "line_clp": 22400,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Dualcaster Mage",
+   "qty": 2,
+   "decks": {
+    "Ezio": 1,
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "lacomarca",
+     "price_clp": 6200,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Dualcaster Mage [2XM - 124]",
+     "url": "https://www.tiendalacomarca.cl/products/dualcaster-mage-2xm-124",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 17400,
+     "language": "en",
+     "finish": "foil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Dualcaster Mage",
+     "url": "https://www.paytowin.cl/products/dualcaster-mage-double-masters",
+     "variant": "Lightly Played Foil",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 6200,
+   "line_clp": 12400,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Magister Sphinx",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "lacomarca",
+     "price_clp": 10850,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Magister Sphinx [CON - 116]",
+     "url": "https://www.tiendalacomarca.cl/products/magister-sphinx-conflux-28562",
+     "variant": "Lightly Played / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 18700,
+     "language": "en",
+     "finish": "etched",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Magister Sphinx (Foil Etched) [Double Masters 2022]",
+     "url": "https://www.paytowin.cl/products/magister-sphinx-foil-etched-double-masters-2022",
+     "variant": "Near Mint Foil",
+     "read_at": "2026-10-19T09:56:00Z"
+    }
+   ],
+   "unit_clp": 10850,
+   "line_clp": 10850,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Springheart Nantuko",
+   "qty": 1,
+   "decks": {
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "paytowin",
+     "price_clp": 10400,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Springheart Nantuko (Borderless)",
+     "url": "https://www.paytowin.cl/products/springheart-nantuko-borderless-modern-horizons-3",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T20:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 12800,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Springheart Nantuko (Borderless) [MH3 - 341]",
+     "url": "https://www.tiendalacomarca.cl/products/springheart-nantuko-borderless-mh3-341",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    }
+   ],
+   "unit_clp": 10400,
+   "line_clp": 10400,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Goblin Bombardment",
+   "qty": 2,
+   "decks": {
+    "Azula": 1,
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "gameofmagic",
+     "price_clp": 4200,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Goblin Bombardment [Modern Horizons 2]",
+     "url": "https://gameofmagicsingles.cl/products/goblin-bombardment-modern-horizons-2",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 4200,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Goblin Bombardment [Mystery Booster]",
+     "url": "https://www.paytowin.cl/products/goblin-bombardment-mystery-booster",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 4490,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 5,
+     "title": "Goblin Bombardment",
+     "url": "https://cardnexus.cl/product/cn-child-e7daf1b2ffc391abc8f0786ddf90cb1a74194211/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-19T00:46:35Z"
+    },
+    {
+     "store": "afkstore",
+     "price_clp": 6000,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Goblin Bombardment R279",
+     "url": "https://www.afkstore.cl/products/goblin-bombardment-r279",
+     "variant": "Ingles",
+     "read_at": "2026-10-19T10:13:26Z"
+    }
+   ],
+   "unit_clp": 4200,
+   "line_clp": 8400,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Chord of Calling",
+   "qty": 1,
+   "decks": {
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "paytowin",
+     "price_clp": 8100,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Chord of Calling [Magic 2015]",
+     "url": "https://www.paytowin.cl/products/chord-of-calling-magic-2015",
+     "variant": "Lightly Played Spanish",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 8640,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Chord of Calling [Ravnica Remastered]",
+     "url": "https://gameofmagicsingles.cl/products/chord-of-calling-ravnica-remastered",
+     "variant": "Near Mint Foil",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 9990,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": 1,
+     "title": "Chord of Calling",
+     "url": "https://cardnexus.cl/product/cn-child-862beba4829f91a3fc2117ec9d1e8bc10236e608/",
+     "variant": "Inglés/LP",
+     "read_at": "2026-10-19T00:46:35Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 11300,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Chord of Calling [RVR - 134]",
+     "url": "https://www.tiendalacomarca.cl/products/chord-of-calling-ravnica-remastered-531113",
+     "variant": "Near Mint / English / Foil",
+     "read_at": "2026-10-19T09:57:13Z"
+    }
+   ],
+   "unit_clp": 8100,
+   "line_clp": 8100,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Strionic Resonator",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "magic4ever",
+     "price_clp": 7800,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Strionic Resonator",
+     "url": "https://www.magic4ever.cl/strionic-resonator-1",
+     "variant": "M-NCC-0381-ES-NF",
+     "read_at": "2026-10-17T03:32:20Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 8000,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Strionic Resonator",
+     "url": "https://www.paytowin.cl/products/strionic-resonator-magic-2014",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T20:00:00Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 8680,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Strionic Resonator [March of the Machine Commander]",
+     "url": "https://gameofmagicsingles.cl/products/strionic-resonator-march-of-the-machine-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 9190,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": 1,
+     "title": "Strionic Resonator",
+     "url": "https://cardnexus.cl/product/cn-child-e5d561f15a8e120b526baf1ae6c168c0f8be8d2d/",
+     "variant": "Inglés/LP",
+     "read_at": "2026-10-17T03:43:02Z"
+    }
+   ],
+   "unit_clp": 7800,
+   "line_clp": 7800,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Lotus Cobra",
+   "qty": 1,
+   "decks": {
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "paytowin",
+     "price_clp": 7800,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Lotus Cobra",
+     "url": "https://www.paytowin.cl/products/lotus-cobra-zendikar-rising",
+     "variant": "Lightly Played Spanish",
+     "read_at": "2026-10-17T20:00:00Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 8090,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Lotus Cobra",
+     "url": "https://cardnexus.cl/product/cn-child-a5b07e6736391feb2f118e075e2cf2a98af24e17/",
+     "variant": "Español/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 8240,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Lotus Cobra (Promo Pack) [Zendikar Rising Promos]",
+     "url": "https://gameofmagicsingles.cl/products/lotus-cobra-promo-pack-zendikar-rising-promos",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T05:00:00Z"
+    }
+   ],
+   "unit_clp": 7800,
+   "line_clp": 7800,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Helm of the Host",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 7490,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": 1,
+     "title": "Helm of the Host",
+     "url": "https://cardnexus.cl/product/cn-child-408e7b6428bfee16800089f6c466b132a31121a6/",
+     "variant": "Inglés/LP",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 7690,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Helm of the Host [Marvel Super Heroes Commander]",
+     "url": "https://gameofmagicsingles.cl/products/helm-of-the-host-marvel-super-heroes-commander",
+     "variant": "Near Mint Español",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 8000,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Helm of the Host",
+     "url": "https://www.paytowin.cl/products/helm-of-the-host-bloomburrow-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T20:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 11250,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Helm of the Host [DOM - 217]",
+     "url": "https://www.tiendalacomarca.cl/products/helm-of-the-host-dom-217",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    }
+   ],
+   "unit_clp": 7490,
+   "line_clp": 7490,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Lithoform Engine",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "gameofmagic",
+     "price_clp": 6960,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Lithoform Engine (Retro) [The Brothers' War Commander]",
+     "url": "https://gameofmagicsingles.cl/products/lithoform-engine-retro-the-brothers-war-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 8090,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Lithoform Engine",
+     "url": "https://cardnexus.cl/product/cn-child-a529dfbe04159127dc2c23608459f5c216a7ae2a/",
+     "variant": "Español/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "oasis",
+     "price_clp": 8470,
+     "language": "en",
+     "finish": "foil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Lithoform Engine",
+     "url": "https://www.oasisgames.cl/products/lithoform-engine-zendikar-rising",
+     "variant": "Lightly Played Foil",
+     "read_at": "2026-10-17T21:00:00Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 8700,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Lithoform Engine (Promo Pack)",
+     "url": "https://www.paytowin.cl/products/lithoform-engine-zendikar-rising-promos-1",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 6960,
+   "line_clp": 6960,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Brightglass Gearhulk",
+   "qty": 1,
+   "decks": {
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "gameofmagic",
+     "price_clp": 6920,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Brightglass Gearhulk (Promo Pack) [Aetherdrift Promos]",
+     "url": "https://gameofmagicsingles.cl/products/brightglass-gearhulk-aetherdrift-promos",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "afkstore",
+     "price_clp": 9000,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Brightglass Gearhulk M191",
+     "url": "https://www.afkstore.cl/products/brightglass-gearhulk-m191",
+     "variant": "Ingles(Foil) M191",
+     "read_at": "2026-10-19T10:13:26Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 9100,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Brightglass Gearhulk (Borderless)",
+     "url": "https://www.paytowin.cl/products/brightglass-gearhulk-borderless-aetherdrift",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 6920,
+   "line_clp": 6920,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Solve the Equation",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 5390,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 4,
+     "title": "Solve the Equation",
+     "url": "https://cardnexus.cl/product/cn-child-681cfb172b097b19e9a76085b34cdafe22b0cd00/",
+     "variant": "Español/NM",
+     "read_at": "2026-10-19T00:46:35Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 6250,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Solve the Equation [STX - 54]",
+     "url": "https://www.tiendalacomarca.cl/products/solve-the-equation-stx-54",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "oasis",
+     "price_clp": 7320,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Solve the Equation [Secret Lair Drop Series]",
+     "url": "https://www.oasisgames.cl/products/solve-the-equation-secret-lair-drop-series",
+     "variant": "Near Mint Foil",
+     "read_at": "2026-10-19T01:00:00Z"
+    }
+   ],
+   "unit_clp": 5390,
+   "line_clp": 5390,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Storm-Kiln Artist",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 3590,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Storm-Kiln Artist",
+     "url": "https://cardnexus.cl/product/cn-child-1f2ce9d0e0f38f1b6d5316836ff968cd715859b5/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 4150,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Storm-Kiln Artist [CMM - 260]",
+     "url": "https://www.tiendalacomarca.cl/products/storm-kiln-artist-cmm-260",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 13800,
+     "language": "en",
+     "finish": "foil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Storm-Kiln Artist (Borderless Alternate Art)",
+     "url": "https://www.paytowin.cl/products/storm-kiln-artist-borderless-alternate-art-commander-masters",
+     "variant": "Lightly Played Foil",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 3590,
+   "line_clp": 3590,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Narset's Reversal",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "paytowin",
+     "price_clp": 3400,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Narset's Reversal",
+     "url": "https://www.paytowin.cl/products/narsets-reversal-war-of-the-spark",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T20:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 4800,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Narset's Reversal [WAR - 62]",
+     "url": "https://www.tiendalacomarca.cl/products/narset-s-reversal-war-62",
+     "variant": "Near Mint / Spanish / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 12120,
+     "language": "es",
+     "finish": "foil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Narset's Reversal (Promo Pack) [War of the Spark Promos]",
+     "url": "https://gameofmagicsingles.cl/products/narsets-reversal-promo-pack-war-of-the-spark-promos",
+     "variant": "Lightly Played Foil Español",
+     "read_at": "2026-10-17T05:00:00Z"
+    }
+   ],
+   "unit_clp": 3400,
+   "line_clp": 3400,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Tireless Provisioner",
+   "qty": 1,
+   "decks": {
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "paytowin",
+     "price_clp": 3400,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Tireless Provisioner",
+     "url": "https://www.paytowin.cl/products/tireless-provisioner-modern-horizons-2",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T20:00:00Z"
+    },
+    {
+     "store": "oasis",
+     "price_clp": 3660,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Tireless Provisioner",
+     "url": "https://www.oasisgames.cl/products/tireless-provisioner-the-list",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T21:00:00Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 4490,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Tireless Provisioner",
+     "url": "https://cardnexus.cl/product/cn-child-2e9f32807bedc5a6097126957eb0ef313af9aae0/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    }
+   ],
+   "unit_clp": 3400,
+   "line_clp": 3400,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Etrata, the Silencer",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "paytowin",
+     "price_clp": 2400,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Etrata, the Silencer [Guilds of Ravnica]",
+     "url": "https://www.paytowin.cl/products/etrata-the-silencer-guilds-of-ravnica",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-19T06:00:00Z"
+    }
+   ],
+   "unit_clp": 2400,
+   "line_clp": 2400,
+   "single_source": true,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Dragonskull Summit",
+   "qty": 2,
+   "decks": {
+    "Ezio": 1,
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 1190,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Dragonskull Summit",
+     "url": "https://cardnexus.cl/product/cn-child-3883638fe5ddabb1379378f2ce1c32cf637d5cde/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "afkstore",
+     "price_clp": 2000,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Dragonskull Summit R64",
+     "url": "https://www.afkstore.cl/products/dragonskull-summit-r64",
+     "variant": "Ingles",
+     "read_at": "2026-10-19T10:13:26Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2400,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Dragonskull Summit",
+     "url": "https://www.paytowin.cl/products/dragonskull-summit-ixalan",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T20:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 5600,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Dragonskull Summit (Extended Art) [WHO - 490]",
+     "url": "https://www.tiendalacomarca.cl/products/dragonskull-summit-extended-art-universes-beyond-doctor-who-520073",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    }
+   ],
+   "unit_clp": 1190,
+   "line_clp": 2380,
+   "single_source": false,
+   "thin_stock": true,
+   "stale": true
+  },
+  {
+   "name": "Drowned Catacomb",
+   "qty": 2,
+   "decks": {
+    "Ezio": 1,
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 1190,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 3,
+     "title": "Drowned Catacomb",
+     "url": "https://cardnexus.cl/product/cn-child-758cb2cac3b7f4d07469c4fb9a684a9731f58dd2/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 4300,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Drowned Catacomb (Extended Art) [MSC - 469]",
+     "url": "https://www.tiendalacomarca.cl/products/drowned-catacomb-extended-art-commander-marvel-super-heroes-699715",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 6080,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Drowned Catacomb (Extended Art) [Fallout]",
+     "url": "https://gameofmagicsingles.cl/products/drowned-catacomb-extended-art-fallout",
+     "variant": "Near Mint Foil",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 6700,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Drowned Catacomb (Surge Foil)",
+     "url": "https://www.paytowin.cl/products/drowned-catacomb-surge-foil-final-fantasy-commander",
+     "variant": "Near Mint Foil",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 1190,
+   "line_clp": 2380,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Sulfurous Springs",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 2090,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 3,
+     "title": "Sulfurous Springs",
+     "url": "https://cardnexus.cl/product/cn-child-a67299ce9cdcc04eba2f3e67ac63e292dcc5635d/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 3250,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Sulfurous Springs [Edge of Eternities Commander]",
+     "url": "https://gameofmagicsingles.cl/products/sulfurous-springs-edge-of-eternities-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "oasis",
+     "price_clp": 20670,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Sulfurous Springs",
+     "url": "https://www.oasisgames.cl/products/mtg-sulfurous-springsice-age",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T21:00:00Z"
+    },
+    {
+     "store": "magic4ever",
+     "price_clp": 23000,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Sulfurous Springs",
+     "url": "https://www.magic4ever.cl/sulfurous-springs-3",
+     "variant": "M-ICE-0360-EN-NF",
+     "read_at": "2026-10-17T03:32:20Z"
+    }
+   ],
+   "unit_clp": 2090,
+   "line_clp": 2090,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Queen Marchesa",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 1990,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Queen Marchesa",
+     "url": "https://cardnexus.cl/product/cn-child-7e07c9f6a6d50f4a67e0b3fd50e19a57b2a00d56/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-19T02:48:39Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 2400,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Queen Marchesa [Outlaws of Thunder Junction Commander]",
+     "url": "https://gameofmagicsingles.cl/products/queen-marchesa-outlaws-of-thunder-junction-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T06:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 2500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Queen Marchesa [CMM - 350]",
+     "url": "https://www.tiendalacomarca.cl/products/queen-marchesa-cmm-350",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2600,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Queen Marchesa [Outlaws of Thunder Junction Commander]",
+     "url": "https://www.paytowin.cl/products/queen-marchesa-outlaws-of-thunder-junction-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T06:00:00Z"
+    }
+   ],
+   "unit_clp": 1990,
+   "line_clp": 1990,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Underground River",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 1990,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Underground River",
+     "url": "https://cardnexus.cl/product/cn-child-2419be3fe30e53708ec28a6bfb9185d16b9b22fb/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "magic4ever",
+     "price_clp": 3500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": 1,
+     "title": "Underground River (Retro Frame)",
+     "url": "https://www.magic4ever.cl/underground-river-retro-frame-1",
+     "variant": "M-WC98-bs362-EN-NF-LP",
+     "read_at": "2026-10-17T03:32:20Z"
+    },
+    {
+     "store": "afkstore",
+     "price_clp": 5000,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Underground River R267",
+     "url": "https://www.afkstore.cl/products/underground-river-r267",
+     "variant": "Ingles",
+     "read_at": "2026-10-19T10:13:26Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 9680,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Underground River [Fifth Edition]",
+     "url": "https://gameofmagicsingles.cl/products/underground-river-fifth-edition",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T05:00:00Z"
+    }
+   ],
+   "unit_clp": 1990,
+   "line_clp": 1990,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Sol Ring",
+   "qty": 1,
+   "decks": {
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "magic4ever",
+     "price_clp": 1900,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 3,
+     "title": "Sol Ring",
+     "url": "https://www.magic4ever.cl/sol-ring-34",
+     "variant": "M-FRC-0021-EN-NF",
+     "read_at": "2026-10-17T03:32:20Z"
+    },
+    {
+     "store": "oasis",
+     "price_clp": 2220,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Sol Ring",
+     "url": "https://www.oasisgames.cl/products/sol-ring-tarkir-dragonstorm-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T21:00:00Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2300,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Sol Ring",
+     "url": "https://www.paytowin.cl/products/sol-ring-commander-legends-battle-for-baldurs-gate",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T20:00:00Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 2480,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Sol Ring [Dungeons & Dragons: Adventures in the Forgotten Realms Commander]",
+     "url": "https://gameofmagicsingles.cl/products/sol-ring-dungeons-dragons-adventures-in-the-forgotten-realms-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T05:00:00Z"
+    }
+   ],
+   "unit_clp": 1900,
+   "line_clp": 1900,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Reckless Handling",
+   "qty": 3,
+   "decks": {
+    "Ezio": 1,
+    "Azula": 1,
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "oasis",
+     "price_clp": 630,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Reckless Handling",
+     "url": "https://www.oasisgames.cl/products/reckless-handling-march-of-the-machine-the-aftermath",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T21:00:00Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 690,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 4,
+     "title": "Reckless Handling",
+     "url": "https://cardnexus.cl/product/cn-child-193a66bcdae861b8fccb5ee3491bd961ed944b32/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 700,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Reckless Handling [MAT - 19]",
+     "url": "https://www.tiendalacomarca.cl/products/reckless-handling-march-of-the-machine-the-aftermath-495617",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 1440,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Reckless Handling",
+     "url": "https://www.paytowin.cl/products/reckless-handling-march-of-the-machine-the-aftermath",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 630,
+   "line_clp": 1890,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Smoldering Marsh",
+   "qty": 2,
+   "decks": {
+    "Ezio": 1,
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "gameofmagic",
+     "price_clp": 915,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Smoldering Marsh [Marvel Super Heroes Commander]",
+     "url": "https://gameofmagicsingles.cl/products/smoldering-marsh-marvel-super-heroes-commander",
+     "variant": "Near Mint Español",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 1190,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Smoldering Marsh",
+     "url": "https://cardnexus.cl/product/cn-child-297946a0e84589ffba14c87600cd219e6e5a17f2/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "afkstore",
+     "price_clp": 1500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Smoldering Marsh R0073",
+     "url": "https://www.afkstore.cl/products/smoldering-marsh-r0073",
+     "variant": "Ingles R428",
+     "read_at": "2026-10-19T10:13:26Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2400,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Smoldering Marsh",
+     "url": "https://www.paytowin.cl/products/smoldering-marsh-innistrad-crimson-vow-commander",
+     "variant": "Lightly Played Spanish",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 915,
+   "line_clp": 1830,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Sunken Ruins",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 1790,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 3,
+     "title": "Sunken Ruins",
+     "url": "https://cardnexus.cl/product/cn-child-36c4c17c867f3df3825986f11c1b17268b04d5cd/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 14200,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Sunken Ruins",
+     "url": "https://www.paytowin.cl/products/sunken-ruins-shadowmoor",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T20:00:00Z"
+    },
+    {
+     "store": "oasis",
+     "price_clp": 49940,
+     "language": "en",
+     "finish": "foil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Sunken Ruins",
+     "url": "https://www.oasisgames.cl/products/mtg-sunken-ruinsshadowmoor",
+     "variant": "Lightly Played Foil",
+     "read_at": "2026-10-17T21:00:00Z"
+    }
+   ],
+   "unit_clp": 1790,
+   "line_clp": 1790,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Godo, Bandit Warlord",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 1590,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 6,
+     "title": "Godo, Bandit Warlord",
+     "url": "https://cardnexus.cl/product/cn-child-6d03174f7297f10dd20a923e34349fbcbaecc572/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 1900,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Godo, Bandit Warlord [CMM - 227]",
+     "url": "https://www.tiendalacomarca.cl/products/godo-bandit-warlord-cmm-227",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2400,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Godo, Bandit Warlord",
+     "url": "https://www.paytowin.cl/products/godo-bandit-warlord-commander-2016",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 1590,
+   "line_clp": 1590,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Sunken Hollow",
+   "qty": 2,
+   "decks": {
+    "Ezio": 1,
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 790,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Sunken Hollow",
+     "url": "https://cardnexus.cl/product/cn-child-b3f3f01e53e7ed71e2b6565a2c30e39f345bb6fb/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "afkstore",
+     "price_clp": 1500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Sunken Hollow R0076",
+     "url": "https://www.afkstore.cl/products/sunken-hollow-r0076",
+     "variant": "Ingles",
+     "read_at": "2026-10-19T10:13:26Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 2360,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Sunken Hollow (Surge Foil) [Fallout]",
+     "url": "https://gameofmagicsingles.cl/products/sunken-hollow-surge-foil-fallout",
+     "variant": "Near Mint Foil",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2400,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Sunken Hollow",
+     "url": "https://www.paytowin.cl/products/sunken-hollow-wilds-of-eldraine-commander",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 790,
+   "line_clp": 1580,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Exotic Orchard",
+   "qty": 3,
+   "decks": {
+    "Ezio": 1,
+    "Azula": 1,
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "magic4ever",
+     "price_clp": 500,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 38,
+     "title": "Exotic Orchard",
+     "url": "https://www.magic4ever.cl/exotic-orchard-4",
+     "variant": "M-TDC-0360-ES-NF",
+     "read_at": "2026-10-17T03:32:20Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 590,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 4,
+     "title": "Exotic Orchard",
+     "url": "https://cardnexus.cl/product/cn-child-c0c22c006f49fe90578c72f74fcdff33f52eb0bf/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 915,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Exotic Orchard [Edge of Eternities Commander]",
+     "url": "https://gameofmagicsingles.cl/products/exotic-orchard-edge-of-eternities-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "oasis",
+     "price_clp": 1000,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Exotic Orchard",
+     "url": "https://www.oasisgames.cl/products/exotic-orchard-tarkir-dragonstorm-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T21:00:00Z"
+    }
+   ],
+   "unit_clp": 500,
+   "line_clp": 1500,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Return the Favor",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "gameofmagic",
+     "price_clp": 1250,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Return the Favor [Secrets of Strixhaven: Mystical Archive]",
+     "url": "https://gameofmagicsingles.cl/products/return-the-favor-secrets-of-strixhaven-mystical-archive",
+     "variant": "NM Regular",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 1390,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 6,
+     "title": "Return the Favor",
+     "url": "https://cardnexus.cl/product/cn-child-8037a315fc4a72b77cc3d586c204a77cfd379514/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    }
+   ],
+   "unit_clp": 1250,
+   "line_clp": 1250,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Etrata, Deadly Fugitive",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "gameofmagic",
+     "price_clp": 1210,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Etrata, Deadly Fugitive (Showcase) [Murders at Karlov Manor]",
+     "url": "https://gameofmagicsingles.cl/products/etrata-deadly-fugitive-showcase-murders-at-karlov-manor",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T06:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 3600,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Etrata, Deadly Fugitive [MKM - 200]",
+     "url": "https://www.tiendalacomarca.cl/products/etrata-deadly-fugitive-mkm-200",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    }
+   ],
+   "unit_clp": 1210,
+   "line_clp": 1210,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Chromatic Lantern",
+   "qty": 2,
+   "decks": {
+    "Ezio": 1,
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "magic4ever",
+     "price_clp": 600,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Chromatic Lantern",
+     "url": "https://www.magic4ever.cl/chromatic-lantern-4",
+     "variant": "M-FRC-0054-EN-NF",
+     "read_at": "2026-10-17T03:32:20Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 1790,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Chromatic Lantern",
+     "url": "https://cardnexus.cl/product/cn-child-d75df1e26f69ef77050971c4a3550402712c4fb1/",
+     "variant": "Español/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "afkstore",
+     "price_clp": 2500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Chromatic Lantern R0053",
+     "url": "https://www.afkstore.cl/products/chromatic-lantern-r0053",
+     "variant": "Ingles",
+     "read_at": "2026-10-19T10:13:26Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2600,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Chromatic Lantern (Retro Frame)",
+     "url": "https://www.paytowin.cl/products/chromatic-lantern-retro-frame-ravnica-remastered",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 600,
+   "line_clp": 1200,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Clifftop Retreat",
+   "qty": 2,
+   "decks": {
+    "Ezio": 1,
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "magic4ever",
+     "price_clp": 500,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 7,
+     "title": "Clifftop Retreat",
+     "url": "https://www.magic4ever.cl/clifftop-retreat-3",
+     "variant": "M-PIP-0258-ES-NF",
+     "read_at": "2026-10-17T03:32:20Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 590,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 3,
+     "title": "Clifftop Retreat",
+     "url": "https://cardnexus.cl/product/cn-child-8b67f4c2473d254523aa665b601ac4878b521d67/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "afkstore",
+     "price_clp": 1500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Clifftop Retreat - Commander: FINAL FANTASY (FIC)",
+     "url": "https://www.afkstore.cl/products/clifftop-retreat-r0324",
+     "variant": "Ingles R0324",
+     "read_at": "2026-10-19T10:13:26Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2400,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Clifftop Retreat",
+     "url": "https://www.paytowin.cl/products/clifftop-retreat-dominaria",
+     "variant": "Lightly Played Spanish",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 500,
+   "line_clp": 1000,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Everflowing Chalice",
+   "qty": 2,
+   "decks": {
+    "Ezio": 1,
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "oasis",
+     "price_clp": 500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Everflowing Chalice [Double Masters]",
+     "url": "https://www.oasisgames.cl/products/everflowing-chalice-double-masters",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 650,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Everflowing Chalice [2XM - 254]",
+     "url": "https://www.tiendalacomarca.cl/products/everflowing-chalice-2xm-254",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 690,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 4,
+     "title": "Everflowing Chalice",
+     "url": "https://cardnexus.cl/product/cn-child-9073ff72fd29bcd916c572b5a219307b3a0ea9e7/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-19T00:46:35Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 742,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Everflowing Chalice [FINAL FANTASY Commander]",
+     "url": "https://gameofmagicsingles.cl/products/everflowing-chalice-final-fantasy-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T01:00:00Z"
+    }
+   ],
+   "unit_clp": 500,
+   "line_clp": 1000,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Fortified Village",
+   "qty": 2,
+   "decks": {
+    "Ezio": 1,
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "magic4ever",
+     "price_clp": 500,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 3,
+     "title": "Fortified Village",
+     "url": "https://www.magic4ever.cl/fortified-village-3",
+     "variant": "M-WOC-0161-ES-NF",
+     "read_at": "2026-10-19T00:45:13Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 590,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Fortified Village",
+     "url": "https://cardnexus.cl/product/cn-child-6c49b084cd644deed215bd34c229e4c724656deb/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-19T00:46:35Z"
+    },
+    {
+     "store": "oasis",
+     "price_clp": 900,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Fortified Village [Dungeons & Dragons: Adventures in the Forgotten Realms Commander]",
+     "url": "https://www.oasisgames.cl/products/fortified-village-dungeons-dragons-adventures-in-the-forgotten-realms-commander",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 915,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Fortified Village [Commander Masters]",
+     "url": "https://gameofmagicsingles.cl/products/fortified-village-commander-masters",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T01:00:00Z"
+    }
+   ],
+   "unit_clp": 500,
+   "line_clp": 1000,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Game Trail",
+   "qty": 2,
+   "decks": {
+    "Ezio": 1,
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "magic4ever",
+     "price_clp": 500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Game Trail",
+     "url": "https://www.magic4ever.cl/game-trail-1",
+     "variant": "M-BLC-0306-EN-NF",
+     "read_at": "2026-10-19T00:45:13Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 690,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Game Trail",
+     "url": "https://cardnexus.cl/product/cn-child-c356849f666e59c9eddaf4e57b76bc0b1d4a4a0b/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-19T00:46:35Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 915,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Game Trail [FINAL FANTASY Commander]",
+     "url": "https://gameofmagicsingles.cl/products/game-trail-final-fantasy-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "afkstore",
+     "price_clp": 1500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Game Trail R405",
+     "url": "https://www.afkstore.cl/products/game-trail-r405",
+     "variant": "Ingles",
+     "read_at": "2026-10-19T10:13:26Z"
+    }
+   ],
+   "unit_clp": 500,
+   "line_clp": 1000,
+   "single_source": false,
+   "thin_stock": true,
+   "stale": false
+  },
+  {
+   "name": "Sulfur Falls",
+   "qty": 2,
+   "decks": {
+    "Ezio": 1,
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "magic4ever",
+     "price_clp": 500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 6,
+     "title": "Sulfur Falls",
+     "url": "https://www.magic4ever.cl/sulfur-falls-5",
+     "variant": "M-FRC-0084-EN-NF",
+     "read_at": "2026-10-17T03:32:20Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 590,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 4,
+     "title": "Sulfur Falls",
+     "url": "https://cardnexus.cl/product/cn-child-a08ec2d225871b752aff876e8421333296307c09/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2400,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Sulfur Falls",
+     "url": "https://www.paytowin.cl/products/sulfur-falls-innistrad",
+     "variant": "Lightly Played Spanish",
+     "read_at": "2026-10-17T20:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 5650,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Sulfur Falls (Extended Art) [MSC - 496]",
+     "url": "https://www.tiendalacomarca.cl/products/sulfur-falls-extended-art-commander-marvel-super-heroes-699742",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    }
+   ],
+   "unit_clp": 500,
+   "line_clp": 1000,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Venser, Shaper Savant",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 990,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Venser, Shaper Savant",
+     "url": "https://cardnexus.cl/product/cn-child-13834fe2fca3d7a7a04dd46f88f5183ab87d6a05/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-19T00:46:35Z"
+    },
+    {
+     "store": "magic4ever",
+     "price_clp": 1100,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Venser, Shaper Savant",
+     "url": "https://www.magic4ever.cl/venser-shaper-savant-1",
+     "variant": "M-2X2-0066-EN-NF",
+     "read_at": "2026-10-19T00:45:13Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 1700,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Venser, Shaper Savant [2X2 - 66]",
+     "url": "https://www.tiendalacomarca.cl/products/venser-shaper-savant-2x2-66",
+     "variant": "Lightly Played / English / Normal",
+     "read_at": "2026-10-19T02:53:51Z"
+    }
+   ],
+   "unit_clp": 990,
+   "line_clp": 990,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Fateful Absence",
+   "qty": 2,
+   "decks": {
+    "Ezio": 1,
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 490,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Fateful Absence",
+     "url": "https://cardnexus.cl/product/cn-child-b692357acc7bca97891e5b04a650f5dd935b9608/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-19T00:46:35Z"
+    },
+    {
+     "store": "magic4ever",
+     "price_clp": 500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 4,
+     "title": "Fateful Absence",
+     "url": "https://www.magic4ever.cl/fateful-absence",
+     "variant": "M-FDC-0030-EN-NF",
+     "read_at": "2026-10-19T00:45:13Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 915,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Fateful Absence (Extended Art) [Innistrad: Midnight Hunt]",
+     "url": "https://gameofmagicsingles.cl/products/fateful-absence-extended-art-innistrad-midnight-hunt",
+     "variant": "Near Mint Foil",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 1550,
+     "language": "es",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Fateful Absence [GAME - 2]",
+     "url": "https://www.tiendalacomarca.cl/products/fateful-absence-game-2",
+     "variant": "Near Mint / Spanish / Foil",
+     "read_at": "2026-10-19T09:57:13Z"
+    }
+   ],
+   "unit_clp": 490,
+   "line_clp": 980,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Mana Leak",
+   "qty": 2,
+   "decks": {
+    "Ezio": 1,
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 490,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Mana Leak",
+     "url": "https://cardnexus.cl/product/cn-child-2b31facae93d61b013ed64678140e66ff17a1c70/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-19T00:46:35Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 550,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Mana Leak [IMA - 66]",
+     "url": "https://www.tiendalacomarca.cl/products/mana-leak-iconic-masters-145421",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 900,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Mana Leak [Ninth Edition]",
+     "url": "https://www.paytowin.cl/products/mana-leak-ninth-edition",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "magic4ever",
+     "price_clp": 2900,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Mana Leak (Retro Frame)",
+     "url": "https://www.magic4ever.cl/mana-leak-retro-frame",
+     "variant": "M-WC98-rb36-EN-NF",
+     "read_at": "2026-10-19T00:45:13Z"
+    }
+   ],
+   "unit_clp": 490,
+   "line_clp": 980,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Frostboil Snarl",
+   "qty": 2,
+   "decks": {
+    "Ezio": 1,
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "piedrabruja",
+     "price_clp": 481,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Frostboil Snarl Regular (ingles) 282",
+     "url": "https://piedrabruja.cl/products/frostboil-snarl-regular-ingles-282",
+     "variant": "Default Title",
+     "read_at": "2026-10-19T09:58:18Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 490,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Frostboil Snarl",
+     "url": "https://cardnexus.cl/product/cn-child-4f8245f61ad418482fa84842f874ceb2d352828c/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 915,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Frostboil Snarl [The Lost Caverns of Ixalan Commander]",
+     "url": "https://gameofmagicsingles.cl/products/frostboil-snarl-the-lost-caverns-of-ixalan-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 1700,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Frostboil Snarl [WHO - 282]",
+     "url": "https://www.tiendalacomarca.cl/products/frostboil-snarl-universes-beyond-doctor-who-519242",
+     "variant": "Near Mint / English / Foil",
+     "read_at": "2026-10-19T09:57:13Z"
+    }
+   ],
+   "unit_clp": 481,
+   "line_clp": 962,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Desmond Miles",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "gameofmagic",
+     "price_clp": 915,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Desmond Miles [Assassin's Creed]",
+     "url": "https://gameofmagicsingles.cl/products/desmond-miles-assassins-creed",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T06:00:00Z"
+    }
+   ],
+   "unit_clp": 915,
+   "line_clp": 915,
+   "single_source": true,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Glamdring, Foe-hammer // Gleam of Death",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "gameofmagic",
+     "price_clp": 915,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Glamdring, Foe-hammer [The Hobbit]",
+     "url": "https://gameofmagicsingles.cl/products/glamdring-foe-hammer-the-hobbit",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "magic4ever",
+     "price_clp": 1100,
+     "language": "es",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Glamdring, Foe-hammer // Gleam of Death",
+     "url": "https://www.magic4ever.cl/glamdring-foe-hammer-gleam-of-death",
+     "variant": "M-HOB-0174-ES-F",
+     "read_at": "2026-10-17T03:32:20Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 1700,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Glamdring, Foe-hammer [HOB - 174]",
+     "url": "https://www.tiendalacomarca.cl/products/glamdring-foe-hammer-the-hobbit-709521",
+     "variant": "Near Mint / English / Foil",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 2790,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 8,
+     "title": "Glamdring, Foe-hammer // Gleam of Death",
+     "url": "https://cardnexus.cl/product/cn-child-f9ea88d0899e8878f3b92c3ca737fb6fcc3eb2bb/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    }
+   ],
+   "unit_clp": 915,
+   "line_clp": 915,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Kolaghan's Command",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "oasis",
+     "price_clp": 900,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Kolaghan's Command [Modern Horizons 3 Commander]",
+     "url": "https://www.oasisgames.cl/products/kolaghans-command-modern-horizons-3-commander",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2400,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Kolaghan's Command [Dragons of Tarkir]",
+     "url": "https://www.paytowin.cl/products/kolaghans-command-dragons-of-tarkir",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 2600,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Kolaghan's Command (Borderless Alternate Art) [Double Masters 2022]",
+     "url": "https://gameofmagicsingles.cl/products/kolaghans-command-borderless-alternate-art-double-masters-2022",
+     "variant": "Near Mint Foil",
+     "read_at": "2026-10-19T01:00:00Z"
+    }
+   ],
+   "unit_clp": 900,
+   "line_clp": 900,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Mystical Teachings",
+   "qty": 2,
+   "decks": {
+    "Ezio": 1,
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "oasis",
+     "price_clp": 450,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Mystical Teachings",
+     "url": "https://www.oasisgames.cl/products/mtg-mystical-teachingsmodern-masters-2017",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T21:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Mystical Teachings [MM3 - 44]",
+     "url": "https://www.tiendalacomarca.cl/products/mystical-teachings-modern-masters-2017-128906",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 742,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Mystical Teachings [Time Spiral Remastered]",
+     "url": "https://gameofmagicsingles.cl/products/mystical-teachings-time-spiral-remastered",
+     "variant": "Near Mint Español",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 1560,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Mystical Teachings",
+     "url": "https://www.paytowin.cl/products/mystical-teachings-time-spiral-remastered",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 450,
+   "line_clp": 900,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Ravenloft Adventurer",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 890,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 3,
+     "title": "Ravenloft Adventurer",
+     "url": "https://cardnexus.cl/product/cn-child-31a7898ce8bb28cab7b437bbea2c6eedd38dd340/",
+     "variant": "Español/NM",
+     "read_at": "2026-10-19T02:48:39Z"
+    },
+    {
+     "store": "oasis",
+     "price_clp": 1500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Ravenloft Adventurer [Commander Legends: Battle for Baldur's Gate]",
+     "url": "https://www.oasisgames.cl/products/ravenloft-adventurer-commander-legends-battle-for-baldurs-gate",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T05:45:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 1700,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Ravenloft Adventurer [CLB - 142]",
+     "url": "https://www.tiendalacomarca.cl/products/ravenloft-adventurer-clb-142",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    }
+   ],
+   "unit_clp": 890,
+   "line_clp": 890,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Arcane Signet",
+   "qty": 1,
+   "decks": {
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 890,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 4,
+     "title": "Arcane Signet",
+     "url": "https://cardnexus.cl/product/cn-child-a3f1dc70be26c3c4e7235303ff01578d9058407f/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 975,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Arcane Signet",
+     "url": "https://www.paytowin.cl/products/arcane-signet-modern-horizons-3-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T20:00:00Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 1000,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Arcane Signet (0193) [Marvel Super Heroes Commander]",
+     "url": "https://gameofmagicsingles.cl/products/arcane-signet-0193-marvel-super-heroes-commander",
+     "variant": "Near Mint Español",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "oasis",
+     "price_clp": 1430,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Arcane Signet",
+     "url": "https://www.oasisgames.cl/products/arcane-signet-murders-at-karlov-manor-commander",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T21:00:00Z"
+    }
+   ],
+   "unit_clp": 890,
+   "line_clp": 890,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Sakura-Tribe Elder",
+   "qty": 1,
+   "decks": {
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 890,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 6,
+     "title": "Sakura-Tribe Elder",
+     "url": "https://cardnexus.cl/product/cn-child-ffe8afbb65603f6f6357d11d10e648fd97c06451/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-19T00:46:35Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 900,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Sakura-Tribe Elder [Champions of Kamigawa]",
+     "url": "https://www.paytowin.cl/products/sakura-tribe-elder-champions-of-kamigawa",
+     "variant": "Lightly Played Spanish",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 4360,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Sakura-Tribe Elder [Love Your LGS 2024]",
+     "url": "https://gameofmagicsingles.cl/products/sakura-tribe-elder-love-your-lgs-2024",
+     "variant": "Near Mint Foil",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 5650,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Sakura-Tribe Elder [WPN - 1]",
+     "url": "https://www.tiendalacomarca.cl/products/sakura-tribe-elder-wpn-1",
+     "variant": "Near Mint / English / Foil",
+     "read_at": "2026-10-19T09:57:13Z"
+    }
+   ],
+   "unit_clp": 890,
+   "line_clp": 890,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Darkwater Catacombs",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 790,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Darkwater Catacombs",
+     "url": "https://cardnexus.cl/product/cn-child-3521330dde60263a0df59c3f7e755a531066f0ca/",
+     "variant": "Español/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "oasis",
+     "price_clp": 900,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Darkwater Catacombs",
+     "url": "https://www.oasisgames.cl/products/darkwater-catacombs-dungeons-dragons-adventures-in-the-forgotten-realms-commander",
+     "variant": "Lightly Played Spanish",
+     "read_at": "2026-10-17T21:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 1700,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Darkwater Catacombs (Extended Art) [WHO - 487]",
+     "url": "https://www.tiendalacomarca.cl/products/darkwater-catacombs-extended-art-universes-beyond-doctor-who-520059",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2400,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Darkwater Catacombs",
+     "url": "https://www.paytowin.cl/products/darkwater-catacombs-murders-at-karlov-manor-commander",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 790,
+   "line_clp": 790,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Talisman of Impulse",
+   "qty": 1,
+   "decks": {
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "gameofmagic",
+     "price_clp": 742,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Talisman of Impulse [Tarkir: Dragonstorm Commander]",
+     "url": "https://gameofmagicsingles.cl/products/talisman-of-impulse-tarkir-dragonstorm-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "oasis",
+     "price_clp": 15650,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Talisman of Impulse [Secret Lair Drop Series]",
+     "url": "https://www.oasisgames.cl/products/talisman-of-impulse-secret-lair-drop-series",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 20500,
+     "language": "en",
+     "finish": "foil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Talisman of Impulse [Mirrodin]",
+     "url": "https://www.paytowin.cl/products/talisman-of-impulse-mirrodin",
+     "variant": "Lightly Played Foil",
+     "read_at": "2026-10-19T01:00:00Z"
+    }
+   ],
+   "unit_clp": 742,
+   "line_clp": 742,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Infernal Grasp",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "oasis",
+     "price_clp": 700,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Infernal Grasp [Tarkir: Dragonstorm Commander]",
+     "url": "https://www.oasisgames.cl/products/infernal-grasp-tarkir-dragonstorm-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 890,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 3,
+     "title": "Infernal Grasp",
+     "url": "https://cardnexus.cl/product/cn-child-57397bc7872cfb9dd60faae003c706216f5f02d3/",
+     "variant": "Español/NM",
+     "read_at": "2026-10-19T00:46:35Z"
+    },
+    {
+     "store": "magic4ever",
+     "price_clp": 1100,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 3,
+     "title": "Infernal Grasp",
+     "url": "https://www.magic4ever.cl/infernal-grasp-5",
+     "variant": "M-DBL-0107-EN-NF",
+     "read_at": "2026-10-19T00:45:13Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 7500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Infernal Grasp (Borderless) [Innistrad Remastered]",
+     "url": "https://www.paytowin.cl/products/infernal-grasp-borderless-innistrad-remastered",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-19T01:00:00Z"
+    }
+   ],
+   "unit_clp": 700,
+   "line_clp": 700,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Loyal Inventor",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "lacomarca",
+     "price_clp": 700,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Loyal Inventor [ACR - 21]",
+     "url": "https://www.tiendalacomarca.cl/products/loyal-inventor-acr-21",
+     "variant": "Near Mint / English / Foil",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 742,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Loyal Inventor [Assassin's Creed]",
+     "url": "https://gameofmagicsingles.cl/products/loyal-inventor-assassins-creed",
+     "variant": "Near Mint Foil",
+     "read_at": "2026-10-19T06:00:00Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 1560,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Loyal Inventor [Assassin's Creed]",
+     "url": "https://www.paytowin.cl/products/loyal-inventor-assassins-creed",
+     "variant": "Near Mint Spanish",
+     "read_at": "2026-10-19T06:00:00Z"
+    }
+   ],
+   "unit_clp": 700,
+   "line_clp": 700,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Shivan Reef",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 690,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 4,
+     "title": "Shivan Reef",
+     "url": "https://cardnexus.cl/product/cn-child-5ef7215d2837a51d1b6eca0779fb12a02e1e4b4d/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 915,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Shivan Reef [Tarkir: Dragonstorm Commander]",
+     "url": "https://gameofmagicsingles.cl/products/shivan-reef-tarkir-dragonstorm-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "afkstore",
+     "price_clp": 1500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Shivan Reef",
+     "url": "https://www.afkstore.cl/products/shivan-reef-r255-281",
+     "variant": "ingles R170",
+     "read_at": "2026-10-19T10:13:26Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2400,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Shivan Reef",
+     "url": "https://www.paytowin.cl/products/shivan-reef-magic-origins",
+     "variant": "Lightly Played Spanish",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 690,
+   "line_clp": 690,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Stroke of Midnight",
+   "qty": 2,
+   "decks": {
+    "Ezio": 1,
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "magic4ever",
+     "price_clp": 300,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Stroke of Midnight",
+     "url": "https://www.magic4ever.cl/stroke-of-midnight-1",
+     "variant": "M-FRC-0035-EN-NF",
+     "read_at": "2026-10-17T03:32:20Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 690,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 3,
+     "title": "Stroke of Midnight",
+     "url": "https://cardnexus.cl/product/cn-child-2e954d7c531855d406b469506640c4fe23237de4/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 1560,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Stroke of Midnight",
+     "url": "https://www.paytowin.cl/products/stroke-of-midnight-wilds-of-eldraine",
+     "variant": "Near Mint Spanish",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 300,
+   "line_clp": 600,
+   "single_source": false,
+   "thin_stock": true,
+   "stale": true
+  },
+  {
+   "name": "Shadowblood Ridge",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 590,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Shadowblood Ridge",
+     "url": "https://cardnexus.cl/product/cn-child-9cabd511cd824e4346277185d7049a49a203620b/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "afkstore",
+     "price_clp": 1500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Shadowblood Ridge R426",
+     "url": "https://www.afkstore.cl/products/shadowblood-ridge-r426",
+     "variant": "Ingles",
+     "read_at": "2026-10-19T10:13:26Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2400,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Shadowblood Ridge",
+     "url": "https://www.paytowin.cl/products/shadowblood-ridge-fallout",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 590,
+   "line_clp": 590,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Stormcatch Mentor",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 590,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 5,
+     "title": "Stormcatch Mentor",
+     "url": "https://cardnexus.cl/product/cn-child-8274242065a4a9c0f188263aa4d80a537235c91e/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 6700,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Stormcatch Mentor (Promo Pack)",
+     "url": "https://www.paytowin.cl/products/stormcatch-mentor-bloomburrow-promos",
+     "variant": "Near Mint Foil",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 590,
+   "line_clp": 590,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Furycalm Snarl",
+   "qty": 1,
+   "decks": {
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 590,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 5,
+     "title": "Furycalm Snarl",
+     "url": "https://cardnexus.cl/product/cn-child-3f3d8884e96047663dbf8feac577ff3c6a07413d/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-19T00:46:35Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 915,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Furycalm Snarl [Secrets of Strixhaven Commander]",
+     "url": "https://gameofmagicsingles.cl/products/furycalm-snarl-secrets-of-strixhaven-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T01:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 1700,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Furycalm Snarl [STX - 266]",
+     "url": "https://www.tiendalacomarca.cl/products/furycalm-snarl-stx-266",
+     "variant": "Near Mint / Spanish / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2400,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Furycalm Snarl [March of the Machine Commander]",
+     "url": "https://www.paytowin.cl/products/furycalm-snarl-march-of-the-machine-commander",
+     "variant": "Lightly Played Spanish",
+     "read_at": "2026-10-19T01:00:00Z"
+    }
+   ],
+   "unit_clp": 590,
+   "line_clp": 590,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Soul-Guide Lantern",
+   "qty": 1,
+   "decks": {
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 590,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Soul-Guide Lantern",
+     "url": "https://cardnexus.cl/product/cn-child-abfe1d1bd381a11b8f9489c3accc1edd3d24d68d/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 700,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Soul-Guide Lantern [THB - 237]",
+     "url": "https://www.tiendalacomarca.cl/products/soul-guide-lantern-thb-237",
+     "variant": "Near Mint / Spanish / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 742,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Soul-Guide Lantern [Wilds of Eldraine]",
+     "url": "https://gameofmagicsingles.cl/products/soul-guide-lantern-wilds-of-eldraine",
+     "variant": "Near Mint Español",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 1560,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Soul-Guide Lantern",
+     "url": "https://www.paytowin.cl/products/soul-guide-lantern-phyrexia-all-will-be-one-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 590,
+   "line_clp": 590,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Isolated Chapel",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "magic4ever",
+     "price_clp": 500,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 4,
+     "title": "Isolated Chapel",
+     "url": "https://www.magic4ever.cl/isolated-chapel-2",
+     "variant": "M-TDC-0373-ES-NF",
+     "read_at": "2026-10-19T09:46:01Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 690,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Isolated Chapel",
+     "url": "https://cardnexus.cl/product/cn-child-3fd8174e2576a130af34e5240645e7e36e28714b/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-19T09:46:01Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 915,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Isolated Chapel [Tarkir: Dragonstorm Commander]",
+     "url": "https://gameofmagicsingles.cl/products/isolated-chapel-tarkir-dragonstorm-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T10:00:00Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2400,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Isolated Chapel [Innistrad]",
+     "url": "https://www.paytowin.cl/products/isolated-chapel-innistrad",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-19T09:56:00Z"
+    }
+   ],
+   "unit_clp": 500,
+   "line_clp": 500,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Command Tower",
+   "qty": 1,
+   "decks": {
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "oasis",
+     "price_clp": 500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Command Tower",
+     "url": "https://www.oasisgames.cl/products/command-tower-tarkir-dragonstorm-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T21:00:00Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 570,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Command Tower [Dungeons & Dragons: Adventures in the Forgotten Realms Commander]",
+     "url": "https://gameofmagicsingles.cl/products/command-tower-dungeons-dragons-adventures-in-the-forgotten-realms-commander",
+     "variant": "Near Mint Español",
+     "read_at": "2026-10-17T05:00:00Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 690,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Command Tower",
+     "url": "https://cardnexus.cl/product/cn-child-0431155c54e1fe1a2ff5eb28c92bb45fcd8d9f0f/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 900,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Command Tower",
+     "url": "https://www.paytowin.cl/products/command-tower-commander-2015",
+     "variant": "Lightly Played Spanish",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 500,
+   "line_clp": 500,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Rugged Prairie",
+   "qty": 1,
+   "decks": {
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "magic4ever",
+     "price_clp": 500,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Rugged Prairie",
+     "url": "https://www.magic4ever.cl/rugged-prairie-2",
+     "variant": "M-TDC-0389-ES-NF",
+     "read_at": "2026-10-19T00:45:13Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 690,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 3,
+     "title": "Rugged Prairie",
+     "url": "https://cardnexus.cl/product/cn-child-1c05604fa203e43610f2db861f958e31dc50f621/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-19T00:46:35Z"
+    },
+    {
+     "store": "afkstore",
+     "price_clp": 1500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Rugged Prairie R174",
+     "url": "https://www.afkstore.cl/products/rugged-prairie-r174",
+     "variant": "Ingles",
+     "read_at": "2026-10-19T10:13:26Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2600,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Rugged Prairie [Double Masters]",
+     "url": "https://www.paytowin.cl/products/rugged-prairie-double-masters",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T01:00:00Z"
+    }
+   ],
+   "unit_clp": 500,
+   "line_clp": 500,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Bitter Triumph",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 490,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Bitter Triumph",
+     "url": "https://cardnexus.cl/product/cn-child-ac0329bc7883b5fa6799693696fac77925163741/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 1200,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Bitter Triumph [SOA - 26]",
+     "url": "https://www.tiendalacomarca.cl/products/bitter-triumph-secrets-of-strixhaven-mystical-archive-688855",
+     "variant": "Near Mint / English / Foil",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 1560,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Bitter Triumph",
+     "url": "https://www.paytowin.cl/products/bitter-triumph-secrets-of-strixhaven-mystical-archive",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 490,
+   "line_clp": 490,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Tome of Legends",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 490,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Tome of Legends",
+     "url": "https://cardnexus.cl/product/cn-child-6cad3808e2306ccbe36b33b0761b1f7657e3dffe/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-19T00:46:35Z"
+    },
+    {
+     "store": "magic4ever",
+     "price_clp": 500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Tome of Legends",
+     "url": "https://www.magic4ever.cl/tome-of-legends-3",
+     "variant": "M-FDC-0293-EN-NF",
+     "read_at": "2026-10-19T00:45:13Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 2400,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Tome of Legends [Secret Lair: Angels]",
+     "url": "https://www.paytowin.cl/products/tome-of-legends-secret-lair-angels",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-19T01:00:00Z"
+    }
+   ],
+   "unit_clp": 490,
+   "line_clp": 490,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Winter Soldier, Icy Assassin",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 490,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 4,
+     "title": "Winter Soldier, Icy Assassin",
+     "url": "https://cardnexus.cl/product/cn-child-3c10d38d578959fac560d28942af45a4095a922f/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-19T02:48:39Z"
+    },
+    {
+     "store": "magic4ever",
+     "price_clp": 500,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 6,
+     "title": "Winter Soldier, Icy Assassin",
+     "url": "https://www.magic4ever.cl/winter-soldier-icy-assassin",
+     "variant": "M-MSH-0239-EN-NF",
+     "read_at": "2026-10-19T02:44:27Z"
+    }
+   ],
+   "unit_clp": 490,
+   "line_clp": 490,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Liquimetal Coating",
+   "qty": 1,
+   "decks": {
+    "Toph": 1
+   },
+   "offers": [
+    {
+     "store": "cardnexus",
+     "price_clp": 490,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": 1,
+     "title": "Liquimetal Coating",
+     "url": "https://cardnexus.cl/product/cn-child-16c65793083c1a5b9b75d702320b8fb18dc651dd/",
+     "variant": "Inglés/LP",
+     "read_at": "2026-10-17T03:43:02Z"
+    },
+    {
+     "store": "oasis",
+     "price_clp": 630,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Liquimetal Coating (Retro)",
+     "url": "https://www.oasisgames.cl/products/liquimetal-coating-retro-the-brothers-war-retro-artifacts",
+     "variant": "Lightly Played Spanish",
+     "read_at": "2026-10-17T21:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 700,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Liquimetal Coating (Schematic) [BRR - 91]",
+     "url": "https://www.tiendalacomarca.cl/products/liquimetal-coating-schematic-the-brothers-war-retro-frame-artifacts-452465",
+     "variant": "Near Mint / Spanish / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 1440,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Liquimetal Coating",
+     "url": "https://www.paytowin.cl/products/liquimetal-coating-commander-2014",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T20:00:00Z"
+    }
+   ],
+   "unit_clp": 490,
+   "line_clp": 490,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Rakdos Signet",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "magic4ever",
+     "price_clp": 450,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 1,
+     "title": "Rakdos Signet",
+     "url": "https://www.magic4ever.cl/rakdos-signet-5",
+     "variant": "M-FRC-0060-EN-NF",
+     "read_at": "2026-10-17T03:32:20Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 1560,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Rakdos Signet",
+     "url": "https://www.paytowin.cl/products/rakdos-signet-modern-masters-2017",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T20:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 2000,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Rakdos Signet [MM3 - 225]",
+     "url": "https://www.tiendalacomarca.cl/products/rakdos-signet-mm3-225",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "oasis",
+     "price_clp": 2910,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Rakdos Signet",
+     "url": "https://www.oasisgames.cl/products/rakdos-signet-the-lost-caverns-of-ixalan-commander",
+     "variant": "Near Mint",
+     "read_at": "2026-10-17T21:00:00Z"
+    }
+   ],
+   "unit_clp": 450,
+   "line_clp": 450,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Survivors' Encampment",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "oasis",
+     "price_clp": 450,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Survivors' Encampment",
+     "url": "https://www.oasisgames.cl/products/mtg-survivors-encampmenthour-of-devastation",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T21:00:00Z"
+    }
+   ],
+   "unit_clp": 450,
+   "line_clp": 450,
+   "single_source": true,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Nightscape Familiar",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "magic4ever",
+     "price_clp": 450,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Nightscape Familiar",
+     "url": "https://www.magic4ever.cl/nightscape-familiar",
+     "variant": "M-DMR-0094-ES-NF",
+     "read_at": "2026-10-17T03:32:20Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 750,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Nightscape Familiar [DMR - 94]",
+     "url": "https://www.tiendalacomarca.cl/products/nightscape-familiar-dmr-94",
+     "variant": "Near Mint / English / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 1200,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Nightscape Familiar",
+     "url": "https://www.paytowin.cl/products/nightscape-familiar-archenemy-nicol-bolas",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-17T20:00:00Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 17990,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 2,
+     "title": "Nightscape Familiar",
+     "url": "https://cardnexus.cl/product/cn-child-9137b2c07135cab408f10de8539e9b19b8332e34/",
+     "variant": "Inglés/NM",
+     "read_at": "2026-10-17T03:43:02Z"
+    }
+   ],
+   "unit_clp": 450,
+   "line_clp": 450,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": true
+  },
+  {
+   "name": "Nekrataal",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "magic4ever",
+     "price_clp": 400,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": 1,
+     "title": "Nekrataal (Retro Frame)",
+     "url": "https://www.magic4ever.cl/nekrataal-retro-frame",
+     "variant": "M-WC98-bs66-EN-NF-LP",
+     "read_at": "2026-10-19T02:44:27Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 1560,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Nekrataal [The List]",
+     "url": "https://www.paytowin.cl/products/nekrataal-the-list-reprints",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T06:00:00Z"
+    }
+   ],
+   "unit_clp": 400,
+   "line_clp": 400,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Thorn of the Black Rose",
+   "qty": 1,
+   "decks": {
+    "Ezio": 1
+   },
+   "offers": [
+    {
+     "store": "piedrabruja",
+     "price_clp": 350,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Thorn of the Black Rose Regular (ingles) 154",
+     "url": "https://piedrabruja.cl/products/thorn-of-the-black-rose-regular-ingles-154",
+     "variant": "Default Title",
+     "read_at": "2026-10-19T09:58:18Z"
+    },
+    {
+     "store": "gameofmagic",
+     "price_clp": 570,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Thorn of the Black Rose [Commander Legends]",
+     "url": "https://gameofmagicsingles.cl/products/thorn-of-the-black-rose-commander-legends",
+     "variant": "Near Mint",
+     "read_at": "2026-10-19T06:00:00Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 650,
+     "language": "en",
+     "finish": "foil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Thorn of the Black Rose [CMR - 154]",
+     "url": "https://www.tiendalacomarca.cl/products/thorn-of-the-black-rose-cmr-154",
+     "variant": "Near Mint / English / Foil",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 975,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Thorn of the Black Rose [Commander Legends]",
+     "url": "https://www.paytowin.cl/products/thorn-of-the-black-rose-commander-legends",
+     "variant": "Near Mint Spanish",
+     "read_at": "2026-10-19T06:00:00Z"
+    }
+   ],
+   "unit_clp": 350,
+   "line_clp": 350,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  },
+  {
+   "name": "Fact or Fiction",
+   "qty": 1,
+   "decks": {
+    "Azula": 1
+   },
+   "offers": [
+    {
+     "store": "magic4ever",
+     "price_clp": 300,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 5,
+     "title": "Fact or Fiction",
+     "url": "https://www.magic4ever.cl/fact-or-fiction",
+     "variant": "M-DMR-0048-ES-NF",
+     "read_at": "2026-10-19T00:45:13Z"
+    },
+    {
+     "store": "cardnexus",
+     "price_clp": 490,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": 3,
+     "title": "Fact or Fiction",
+     "url": "https://cardnexus.cl/product/cn-child-983fcfcb6dacd7704b396de1b1375bc6f9ad09f0/",
+     "variant": "Español/NM",
+     "read_at": "2026-10-19T00:46:35Z"
+    },
+    {
+     "store": "lacomarca",
+     "price_clp": 700,
+     "language": "es",
+     "finish": "nonfoil",
+     "condition": "NM",
+     "stock_hint": null,
+     "title": "Fact or Fiction [DMR - 48]",
+     "url": "https://www.tiendalacomarca.cl/products/fact-or-fiction-dominaria-remastered-457549",
+     "variant": "Near Mint / Spanish / Normal",
+     "read_at": "2026-10-19T09:57:13Z"
+    },
+    {
+     "store": "paytowin",
+     "price_clp": 1440,
+     "language": "en",
+     "finish": "nonfoil",
+     "condition": "LP",
+     "stock_hint": null,
+     "title": "Fact or Fiction [Modern Horizons]",
+     "url": "https://www.paytowin.cl/products/fact-or-fiction-modern-horizons",
+     "variant": "Lightly Played",
+     "read_at": "2026-10-19T01:00:00Z"
+    }
+   ],
+   "unit_clp": 300,
+   "line_clp": 300,
+   "single_source": false,
+   "thin_stock": false,
+   "stale": false
+  }
+ ],
+ "no_stock": [],
+ "stores": {
+  "cardnexus": {
+   "cards": 27,
+   "subtotal_clp": 43680
+  },
+  "magic4ever": {
+   "cards": 15,
+   "subtotal_clp": 19600
+  },
+  "gameofmagic": {
+   "cards": 9,
+   "subtotal_clp": 29142
+  },
+  "lacomarca": {
+   "cards": 3,
+   "subtotal_clp": 23950
+  },
+  "paytowin": {
+   "cards": 7,
+   "subtotal_clp": 57900
+  },
+  "oasis": {
+   "cards": 7,
+   "subtotal_clp": 6340
+  },
+  "piedrabruja": {
+   "cards": 2,
+   "subtotal_clp": 1312
+  }
+ },
+ "shipping_clp": 35000,
+ "owned_used": {
+  "Ezio": 49,
+  "Azula": 54,
+  "Toph": 53
+ }
+}

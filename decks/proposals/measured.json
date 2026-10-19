@@ -814,6 +814,27 @@
    },
    "wotc_bracket": "3",
    "variant": "bcore"
+  },
+  "ezio-auditore-da-firenze/round5-step40": {
+   "round": 5,
+   "ladder_step": 40,
+   "cost_clp": 57201,
+   "power": 7.7,
+   "salt": 63.0,
+   "bracket": "4*",
+   "manabase_quality_pct": 97,
+   "salt_page": "fe62034bd0798e6185ba98d0decf423e",
+   "moxfield": "nKMlzQxYYkKfWmgJW_SrWA",
+   "list_hash": "d24a5cd0c975a892",
+   "salt_ceiling_pts": -0.21,
+   "salt_ceiling": "no fast mana, tutors or draw engine to reach the high-power band",
+   "salt_pillars": {
+    "consistency": 266,
+    "efficiency": 157,
+    "interaction": 194,
+    "wincons": 682
+   },
+   "wotc_bracket": "3"
   }
  }
 }

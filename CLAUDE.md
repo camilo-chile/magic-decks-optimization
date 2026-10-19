@@ -87,7 +87,7 @@ a vehicle for learning modern AI tooling.
   (choosing the strategy and the cards like an expert builder: mana curve, synergy, slot functions,
   competitive experience, re-opening earlier choices when a card is too expensive or out of stock) is
   done by Opus 5.5 at extra-high effort (`model: opus`, `effort: xhigh` on the Agent tool). Ask before
-  launching it, with the cost estimate, as for any agent. The optimizer (`scripts/optimize_budget.py`) only maximizes the total power within the budget over measured lists.
+  launching it, with the cost estimate, as for any agent. The optimizer (`scripts/optimize_budget.py`) only maximizes the total power within the budget over measured lists, pricing each combination of three lists jointly: an owned card that two decks play is bought again for the second deck (one physical copy per deck; Entomb alone was 22,400 CLP, found 2026-10-19), so never add the costs of lists priced alone.
 - Execution boundary (proposed default, the user may change it): Claude may run read-only
   commands and the offline tests (`python tests/<file>.py`; pytest is not installed). Claude never runs scripts that call network
   APIs, write project data, or install packages. It hands over the exact command and waits
@@ -168,7 +168,7 @@ a vehicle for learning modern AI tooling.
 | `data/model/` | Phase 8 step 1 output of `scripts/price_candidates.py`: `candidate-costs.json/.md` (cost, Layer A and power of each measured list) and `pool-<slug>.json` (every card the expert may use per deck, with rules text, owned copies and cheapest offer; only the 626 cards Phase 7 priced have an offer). Library: `scripts/allocation_model.py`. Scores of the candidates: `decks/candidates/scores.json` `scripts/optimize_budget.py` writes `budget-curve.json` (the plan per budget, highest total power, and the best buys); `scripts/dashboard_data.py` writes `dashboard/*.json`, the datasets of the dashboard Artifact (`lists`, `curve`, `plans`, `jumps`, `buys`, `decks`), while `dashboard/guide.json` (how each deck plays and wins) and `dashboard/deck-notes.json` are written by hand and only read |
 | `decks/proposals/` | Lists proposed in Phase 8 step 2 (`<deck>_cap<N>.txt`, N = purchase cap in CLP, plus a `.md` rationale); checked with `scripts/check_list.py` (read-only); `<deck>.ladder.txt` (free base plus ordered swaps) is materialized by `scripts/ladder.py` |
 | `decks/measured/<deck>/<label>.txt` | The exact 100-card lists scored on Commander Salt, one file per entry of `decks/proposals/measured.json` (its `list_hash` is the SHA-256 prefix of the sorted lines); `scripts/deck_stats.py` reads them for the dashboard statistics. Each list is saved here when it is measured |
-| `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) |
+| `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) written by `scripts/verify_stock.py` (live product data of the cheapest 3 offers of every card of the buy list `data/model/buylist-<budget>.json` from `scripts/plan_buylist.py`; reports `decks/reports/buylist-*.md`, `stock-*.md`, and `stores-*.md` from `scripts/plan_stores.py`); only the newest run matters, delete the older ones |
 | `scripts/` | Python the user runs himself |
 | `tests/` | Offline tests and API fixtures (run with `python tests/<file>.py`) |
 | `evals/` | The hook test table (`hook_cases.tsv`, `run_hook_cases.sh`) and the test plan (`README.md`) |
@@ -216,3 +216,10 @@ a vehicle for learning modern AI tooling.
   the stores sort price-descending: a store with more than 25,000 products hides its cheapest cards. Read
   such stores through smaller collections or the HTML ascending sort, and report the coverage
   (`docs/research/phase7-handoff-2026-10-17.md`).
+- Stock hints go stale (found 2026-10-19): `scripts/merge_prices.py` keeps the newest reading per store and card, so an
+  offer can be days old: Ezio's Peter Parker's Camera, a piece of its win line, came from a 2026-10-17 reading and had
+  sold out (the list was measured on Salt before anyone checked). Rules: verify the live stock of a finalist list with
+  `scripts/verify_stock.py` BEFORE measuring it on Commander Salt and again within 24 hours of buying; a card with one
+  store only or a reading over 24 hours old is flagged by `scripts/plan_buylist.py`; the pieces of a win line and the
+  tutors that reach it need stock in two stores, or the list is built without them (the deck-building agents get this
+  as a constraint, with the live stock file).

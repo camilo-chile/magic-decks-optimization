@@ -15,6 +15,11 @@ the newest Scryfall bulk in `data/cache/` and the Salt numbers of `measured.json
   subtypes.json    the ten most common creature types
   odds.json        chance of having at least one source of each color among the cards seen by turn 3, 5 and 7 (on the
                    play, 99-card library), and of having every color of the deck at once
+  drops.json       chance of hitting every land drop: at least N lands among the cards seen by turn N (N = 1 to 8, on the
+                   play, 99-card library), and of missing at most one
+  oncurve.json     chance of casting a spell of each mana value on its own turn (at least that many lands by that turn), with
+                   the number of such spells; the share of the whole deck castable on curve is `oncurve_pct` in liststats.
+                   Lands only: ramp and rocks make the real chance higher
 
 The role counts read the rules text, so they are heuristics: they rank lists against each other, they are not a rules check.
 """
@@ -38,6 +43,8 @@ DECK_NAME = {"ezio": "Ezio", "azula": "Azula", "toph": "Toph", "alexios": "Alexi
 VARIANT_NAME = {"bcore": "black-core"}
 TYPES = ["Creature", "Instant", "Sorcery", "Enchantment", "Artifact", "Planeswalker", "Land", "Battle"]
 TURNS = [3, 5, 7]
+DROP_TURNS = list(range(1, 9))
+MV_BUCKETS = ["0", "1", "2", "3", "4", "5", "6", "7+"]
 SAMPLES = 6000
 FACE_FIELDS = ("mana_cost", "colors", "type_line", "oracle_text")
 SKIP_LAYOUTS = {"art_series", "token", "double_faced_token", "emblem", "vanguard", "scheme", "planar"}  # same names, not the cards
@@ -142,6 +149,17 @@ def hypergeom_at_least_one(population, successes, draws):
     return 1.0 - math.comb(population - successes, draws) / math.comb(population, draws)
 
 
+def hypergeom_at_least(population, successes, draws, k):
+    """Chance that at least k of the `successes` marked cards are among `draws` cards drawn from `population`."""
+    draws = min(draws, population)
+    if k <= 0:
+        return 1.0
+    if successes < k or draws < k:
+        return 0.0
+    ways = sum(math.comb(successes, i) * math.comb(population - successes, draws - i) for i in range(k, min(draws, successes) + 1))
+    return ways / math.comb(population, draws)
+
+
 def compute(commanders, entries, cards, seed=7):
     """Statistics of one list. `cards` maps lower front-face names to card facts (see load_cards)."""
     deck = [(qty, cards[name.lower()]) for qty, name in entries]
@@ -204,10 +222,21 @@ def compute(commanders, entries, cards, seed=7):
                 seen |= m
             hits += (seen & need_mask) == need_mask
         odds.append({"color": "all", "turn": turn, "chance": hits / SAMPLES})
+    land_count = sum(q for q, c in deck if "Land" in type_set(c))
+    drops = [{"turn": t, "on_curve": hypergeom_at_least(population, land_count, 7 + t - 1, t),
+              "one_short": hypergeom_at_least(population, land_count, 7 + t - 1, t - 1)} for t in DROP_TURNS]
+    spells = {b: sum(count for (bucket, _), count in curve.items() if bucket == b) for b in MV_BUCKETS}
+    oncurve = []
+    for bucket in MV_BUCKETS:
+        m = 7 if bucket == "7+" else int(bucket)
+        oncurve.append({"mv": bucket, "spells": spells[bucket], "chance": hypergeom_at_least(population, land_count, 7 + m - 1, m)})
+    cast = sum(o["spells"] for o in oncurve)
+    oncurve_pct = round(100 * sum(o["spells"] * o["chance"] for o in oncurve) / cast, 1) if cast else 0.0
     return {"identity": identity, "curve": curve, "pips": pips, "production": production, "types": types, "subtypes": subs,
             "roles": role_counts, "tapped": tapped,
             "avg_mv": round(total_mv / max(sum(q for q, _ in nonland), 1), 2),
-            "lands": sum(q for q, _ in lands), "nonland": sum(q for q, _ in nonland), "odds": odds}
+            "lands": sum(q for q, _ in lands), "nonland": sum(q for q, _ in nonland), "odds": odds,
+            "drops": drops, "oncurve": oncurve, "oncurve_pct": oncurve_pct}
 
 
 def rows_for(deck_short, label, stats, meta):
@@ -217,7 +246,7 @@ def rows_for(deck_short, label, stats, meta):
     round_no = int(parts[0].replace("round", ""))
     list_id = f"{deck_short}{'-' + variant if variant else ''}-r{round_no}-{step}"
     deck = DECK_NAME[deck_short] + (f" {VARIANT_NAME.get(variant, variant)}" if variant else "")
-    out = {"mv": [], "pips": [], "production": [], "types": [], "subtypes": [], "odds": []}
+    out = {"mv": [], "pips": [], "production": [], "types": [], "subtypes": [], "odds": [], "drops": [], "oncurve": []}
     for (bucket, group), count in sorted(stats["curve"].items()):
         out["mv"].append({"id": f"{list_id}-{bucket}-{group}", "list_id": list_id, "deck": deck, "mv": bucket,
                           "color": COLOR_NAME[group], "count": count})
@@ -239,10 +268,18 @@ def rows_for(deck_short, label, stats, meta):
         name = "All colors" if item["color"] == "all" else COLOR_NAME[item["color"]]
         out["odds"].append({"id": f"{list_id}-{item['color']}-{item['turn']}", "list_id": list_id, "deck": deck, "color": name,
                             "turn": item["turn"], "chance_pct": round(100 * item["chance"])})
+    for item in stats["drops"]:
+        out["drops"].append({"id": f"{list_id}-t{item['turn']}", "list_id": list_id, "deck": deck, "turn": item["turn"],
+                             "lands": stats["lands"], "on_curve_pct": round(100 * item["on_curve"], 1),
+                             "one_short_pct": round(100 * item["one_short"], 1)})
+    for item in stats["oncurve"]:
+        out["oncurve"].append({"id": f"{list_id}-mv{item['mv']}", "list_id": list_id, "deck": deck, "mv": item["mv"],
+                               "spells": item["spells"], "chance_pct": round(100 * item["chance"], 1)})
     pillars = meta.get("salt_pillars") or {}
     row = {"id": list_id, "deck": deck, "list": f"R{round_no} step {step}", "label": label, "wotc_bracket": meta.get("wotc_bracket"), "bracket": meta.get("bracket"),
            "cost_clp": meta["cost_clp"], "power": meta["power"], "salt": meta.get("salt"),
            "manabase_pct": meta.get("manabase_quality_pct"), "avg_mv": stats["avg_mv"], "lands": stats["lands"],
+           "oncurve_pct": stats["oncurve_pct"],
            "nonland": stats["nonland"], "tapped_lands": stats["tapped"]["tapped"],
            "conditional_lands": stats["tapped"]["conditional"], "colors": len(stats["identity"]),
            "ceiling_pts": meta.get("salt_ceiling_pts"), "ceiling": meta.get("salt_ceiling"),
@@ -263,7 +300,7 @@ def main():
     missing = sorted(n for n in names if n.lower() not in cards)
     if missing:
         print(f"Cards not found in the Scryfall bulk ({len(missing)}): {missing[:10]}")
-    liststats, files = [], {k: [] for k in ("mv", "pips", "production", "types", "subtypes", "odds")}
+    liststats, files = [], {k: [] for k in ("mv", "pips", "production", "types", "subtypes", "odds", "drops", "oncurve")}
     for (slug, label), (commanders, entries) in sorted(parsed.items()):
         meta = measured.get(f"{slug}/{label}")
         if meta is None or meta.get("power") is None:

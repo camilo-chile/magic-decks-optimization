@@ -98,6 +98,29 @@ def test_render_lists_every_budget_and_the_best_buys():
     assert "Best buys first" in text and "parity" in text.lower()  # the header says the rule is gone
 
 
+def test_joint_cost_makes_a_shared_card_count_and_can_change_the_plan():
+    pts = {"a": [{"label": "a0", "cost": 0, "power": 7.0}, {"label": "a1", "cost": 40_000, "power": 8.0}],
+           "b": [{"label": "b0", "cost": 0, "power": 7.0}, {"label": "b1", "cost": 40_000, "power": 7.5}]}
+    plain = mod.best_for_budget(pts, 100_000)
+    assert plain["cost"] == 80_000 and plain["shared_extra"] == 0 and plain["sum_power"] == 15.5
+    # a1 and b1 both play a card the owner has once: bought again, 30,000 CLP more together
+    joint = lambda combo: sum(p["cost"] for p in combo.values()) + (30_000 if {p["label"] for p in combo.values()} >= {"a1", "b1"} else 0)
+    shared = mod.best_for_budget(pts, 100_000, joint)
+    assert shared["cost"] == 40_000  # a1 + b1 would now cost 110,000: it no longer fits 100,000
+    assert shared["decks"]["a"]["label"] == "a1" and shared["decks"]["b"]["label"] == "b0" and shared["shared_extra"] == 0
+    both = mod.best_for_budget(pts, 120_000, joint)
+    assert both["cost"] == 110_000 and both["shared_extra"] == 30_000 and both["unspent"] == 10_000
+
+
+def test_plan_keeps_every_eligible_list_for_the_search_and_the_frontier_for_the_buys():
+    measured = {"lists": {"a/round3-step0": {"cost_clp": 0, "power": 7.0, "round": 3},
+                          "a/round3-step5": {"cost_clp": 10_000, "power": 6.9, "round": 3},
+                          "a/round3-step9": {"cost_clp": 20_000, "power": 7.5, "round": 3}}}
+    every = mod.load_points(measured, keep_all=True)["a"]
+    assert [p["label"] for p in every] == ["round3-step0", "round3-step5", "round3-step9"]
+    assert [p["label"] for p in mod.load_points(measured)["a"]] == ["round3-step0", "round3-step9"]
+
+
 if __name__ == "__main__":
     failed = 0
     for name, fn in list(globals().items()):

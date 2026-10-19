@@ -6,15 +6,15 @@
    "commander": "Ezio Auditore da Firenze",
    "colors": "Five colors (B core)",
    "role": "New deck; the commander is a proxy (cost 0)",
-   "best_power": 7.4,
-   "best_cost_clp": 48951,
-   "lists_measured": 13,
-   "pick_list": "R4 step 39",
-   "pick_cost_clp": 48951,
-   "pick_power": 7.4,
-   "status": "Round 4 reached 7.4 at about 49,000 CLP; later lists with more combos scored lower. The black-core test measured 5.3.",
-   "next_step": "Stock check and final Salt score after the budget pick.",
-   "progress_pct": 85
+   "best_power": 7.7,
+   "best_cost_clp": 57201,
+   "lists_measured": 14,
+   "pick_list": "R5 step 40",
+   "pick_cost_clp": 57201,
+   "pick_power": 7.7,
+   "status": "Round 5 swapped Peter Parker's Camera (no stock in any store) for Magister Sphinx and scored 7.7 on Commander Salt (round 4 step 39 had 7.4): the Sphinx gives the commander a kill line of its own. Salt's own bracket reads 4, Wizards' criteria give 3, as for Azula.",
+   "next_step": "Final check of stock within 24 hours of the purchase (Etrata, the Silencer has a single store). Two further candidates (Solve the Equation and Annie Joins Up; Kiki-Jiki and Diabolic Intent) are written but not measured.",
+   "progress_pct": 90
   },
   {
    "id": "azula",
@@ -28,9 +28,9 @@
    "pick_list": "R4 step 27",
    "pick_cost_clp": 49191,
    "pick_power": 8.4,
-   "status": "Round 4 lifted it to 8.4 from about 49,000 CLP (Godo + Helm of the Host with tutors). Salt's own bracket reads 4 although Wizards' criteria give 3.",
-   "next_step": "Owner decision on the bracket note, then stock check and final Salt score.",
-   "progress_pct": 85
+   "status": "Round 4 lifted it to 8.4 from about 49,000 CLP (Godo + Helm of the Host with tutors). Salt's own bracket reads 4 although Wizards' criteria give 3; the owner accepted that on 2026-10-19.",
+   "next_step": "Final Salt score of the exact list and a stock check within 24 hours of the purchase. Her two Dualcaster Mage copies come from a store that does not show how many it has: the owner checks at the cart.",
+   "progress_pct": 90
   },
   {
    "id": "toph",
@@ -41,12 +41,12 @@
    "best_power": 7.5,
    "best_cost_clp": 97537,
    "lists_measured": 9,
-   "pick_list": "R3 step 21",
-   "pick_cost_clp": 49142,
-   "pick_power": 7.4,
-   "status": "Measured up to 7.5. Its power rises while tutors are added: Salt's ceiling (wincon combos with no tutors) disappears once ten tutors reach its win lines.",
-   "next_step": "Stock check and final Salt score after the budget pick. Optional: price the cheap tutors and elves of its wishlist.",
-   "progress_pct": 85
+   "pick_list": "R2 step 0 (free base)",
+   "pick_cost_clp": 0,
+   "pick_power": 7.1,
+   "status": "Measured up to 7.5; the plan of 200,000 CLP uses its round-3 step 21 (7.4). Its cards were found in stock on 2026-10-19.",
+   "next_step": "Final Salt score of the exact list and a stock check within 24 hours of the purchase.",
+   "progress_pct": 90
   },
   {
    "id": "alexios",
@@ -60,8 +60,8 @@
    "pick_list": null,
    "pick_cost_clp": null,
    "pick_power": null,
-   "status": "Round 2 was his last: far below Ezio at every price (see the power chart). His files stay until the owner confirms the replacement.",
-   "next_step": "Closed. Delete his files once the owner confirms.",
+   "status": "Round 2 was his last: far below Ezio at every price (see the power chart). His files are kept on purpose (owner, 2026-10-19), in case he is built some day.",
+   "next_step": "Closed and kept: nothing to do unless the owner wants him built.",
    "progress_pct": 100
   }
  ]

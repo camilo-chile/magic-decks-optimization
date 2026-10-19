@@ -42,7 +42,11 @@ keeps the hash, the Salt page id and the Moxfield id; the lists are in `decks/me
   any-color sources, tapped black-and-X duals: 5.3 at 49,205 CLP against 7.4 for the five-color list at 48,951. Manabase Quality is
   21 % against 97 % (six lands always tapped, four conditionally), and it gives up Godo, Kiki-Jiki, Dualcaster and Queen Marchesa. It casts
   the {B}{B} freerunning costs a little more often (32 black sources against 27), which Salt's power does not reward.
-- **Budget curve (no parity rule, `decks/reports/budget-curve.md`):** 100,000 CLP: Ezio 39 + Azula 27 + Toph free base (98,142 CLP,
-  7.4 / 8.4 / 7.1); 150,000: Toph step 21 (147,284 CLP, 7.4 / 8.4 / 7.4); 200,000: Toph step 30 (195,679 CLP, 7.4 / 8.4 / 7.5); above that nothing
-  more is offered. The checkpoints between (Azula 15, 24; Ezio 14, 31, 33, 43, 50, 54; black-core 0, 18, 26) are measured but dominated.
+- **Budget curve (no parity rule, `decks/reports/budget-curve.md`), corrected the same day for shared copies:** the first version added
+  the costs of the three lists as if each deck owned every card alone, but a card the owner has once and two decks play (Entomb, 22,400 CLP,
+  in Azula and Ezio; also Arcane Signet, Command Tower, Sol Ring and Loyal Inventor) must be bought again for the second deck: 26,390 CLP
+  more for the three round-4 lists. With the joint cost: 100,000 CLP: Ezio 39 + Azula R3 23 + Toph free base (77,122 CLP, 7.4 / 6.8 / 7.1;
+  Azula's 7.0 list would make it 100,262); 150,000: Ezio 39 + Azula 27 + Toph R3 11 (148,684 CLP, 7.4 / 8.4 / 7.2); 200,000: Toph R3 21 (173,674 CLP,
+  7.4 / 8.4 / 7.4); 250,000 and 300,000: Toph R3 30 (222,069 CLP, 7.5). The earlier 147,284 CLP figure for Toph step 21 was 173,674 CLP in reality.
+  The checkpoints between (Azula 15, 24; Ezio 14, 31, 33, 43, 50, 54; black-core 0, 18, 26) are measured but dominated.
 - Not measured: the black-core steps 20 and 23 (they sit between measured steps 18 and 26).

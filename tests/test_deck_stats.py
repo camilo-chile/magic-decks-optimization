@@ -67,6 +67,19 @@ def test_odds_use_the_hypergeometric_law_and_grow_with_the_turn():
     assert chances[("B", 3)] <= chances[("B", 5)] <= chances[("B", 7)]
 
 
+def test_land_drop_and_on_curve_odds_use_lands_only_and_weight_the_curve():
+    assert abs(mod.hypergeom_at_least(4, 2, 2, 1) - 5 / 6) < 1e-12
+    assert mod.hypergeom_at_least(10, 5, 10, 5) == 1.0 and mod.hypergeom_at_least(10, 5, 10, 6) == 0.0
+    assert abs(mod.hypergeom_at_least(99, 36, 7, 1) - mod.hypergeom_at_least_one(99, 36, 7)) < 1e-12
+    stats = mod.compute(["Boss"], [(1, "Rock"), (1, "Hybrid"), (2, "Swamp")], CARDS)  # population 4, 2 lands
+    assert [o["mv"] for o in stats["oncurve"]] == mod.MV_BUCKETS and stats["oncurve"][2]["spells"] == 3  # Boss, Rock, Hybrid
+    assert stats["oncurve"][2]["chance"] == 1.0 and stats["oncurve_pct"] == 100.0
+    assert [d["turn"] for d in stats["drops"]] == list(range(1, 9)) and stats["drops"][0]["on_curve"] == 1.0
+    big = mod.compute(["Boss"], [(36, "Swamp")] + [(1, "Rock")] * 63, CARDS)  # 36 lands in 99
+    chances = [d["on_curve"] for d in big["drops"]]
+    assert chances == sorted(chances, reverse=True) and 0.0 < chances[-1] < 0.1 and chances[0] > 0.95
+
+
 if __name__ == "__main__":
     failed = 0
     for name, fn in list(globals().items()):

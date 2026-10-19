@@ -4,8 +4,10 @@
 Run it with the "Run Python File" button (no arguments, no network). It reads `decks/proposals/measured.json` and writes
 JSON row files into `data/model/dashboard/`, which are uploaded to the dashboard as its datasets:
 
-  lists.json  every measured list that can be on a chart (status: offered, dominated by a cheaper list, replaced, variant)
-  curve.json  the plan of each budget: one row per budget and deck
+  lists.json  every measured list that can be on a chart (status: offered, dominated by a cheaper list, replaced, variant;
+              plus, for reference only, "older" round-2 lists without a saved list and the owner's own lists, "start").
+              The "offered" lists of a deck come from every round, so the chart's line is the best power at each spend
+  curve.json  the plan of each budget: one row per budget and deck (its total counts the copies two decks share once)
   plans.json  what each budget buys: one row per budget (the table "What each budget buys")
   jumps.json  the power change of each deck from one budget to the next
   buys.json   the best buys: power per 10,000 CLP between two measured points of a deck, best first
@@ -66,10 +68,12 @@ def list_name(label):
     return f"{VARIANT_NAME.get(variant, variant).capitalize()} {base}" if variant else base
 
 
-def charted(measured):
-    """[(deck slug, label, entry, status)] for every measured list that appears on a chart."""
+def charted(measured, plans=()):
+    """[(deck slug, label, entry, status)] for every measured list that appears on a chart. A list is offered when it is on
+    its deck's frontier or when some plan row uses it."""
     frontier = ob.load_points(measured)
     offered = {(deck, p["label"]) for deck, pts in frontier.items() for p in pts}
+    offered |= {(deck, point["label"]) for row in plans for deck, point in (row.get("decks") or {}).items()}
     out = []
     for key, entry in measured["lists"].items():
         deck, label = key.split("/", 1)
@@ -84,12 +88,43 @@ def charted(measured):
     return out
 
 
-def lists_rows(measured):
+def older(measured):
+    """[(deck slug, label, entry, status)] of the lists shown for reference only, never offered: the owner's own lists
+    ("start") and the round-2 lists whose exact list was not saved ("older"). Round 1 holds reversible cards: never charted."""
+    out = []
+    for key, entry in measured["lists"].items():
+        deck, label = key.split("/", 1)
+        if entry.get("power") is None or deck in REPLACED or entry.get("variant"):
+            continue
+        if label == "owner-list":
+            out.append((deck, label, entry, "start"))
+        elif entry.get("round") == 2 and not entry.get("eligible"):
+            out.append((deck, label, entry, "older"))
+    return out
+
+
+def older_row(deck, label, entry, status):
+    """A reference row. Labels such as 'round2-step24-plus-9-duals' keep their tail so that two lists never share an id."""
+    short = SHORT[deck].lower()
+    if status == "start":
+        ident, name, step, rnd = f"{short}-owner", "Owner's list", None, "Start"
+    else:
+        tail = label.split("-")[2:]
+        ident = list_id(deck, label) + ("-" + "-".join(tail) if tail else "")
+        name = list_name(label) + (" " + " ".join(tail) if tail else "")
+        step, rnd = step_of(label), f"R{round_of(label)}"
+    return {"id": ident, "deck": SHORT[deck], "list": name, "round": rnd, "step": step, "cost_clp": entry["cost_clp"],
+            "power": entry["power"], "salt": entry.get("salt"), "manabase_pct": entry.get("manabase_quality_pct"),
+            "bracket": entry.get("bracket"), "wotc_bracket": entry.get("wotc_bracket"), "status": status}
+
+
+def lists_rows(measured, plans=()):
     rows = [{"id": list_id(deck, label), "deck": series_name(deck, label), "list": list_name(label),
-             "step": step_of(label), "cost_clp": entry["cost_clp"], "power": entry["power"], "salt": entry.get("salt"),
-             "manabase_pct": entry.get("manabase_quality_pct"), "bracket": entry.get("bracket"),
+             "round": f"R{round_of(label)}", "step": step_of(label), "cost_clp": entry["cost_clp"], "power": entry["power"],
+             "salt": entry.get("salt"), "manabase_pct": entry.get("manabase_quality_pct"), "bracket": entry.get("bracket"),
              "wotc_bracket": entry.get("wotc_bracket"), "status": status}
-            for deck, label, entry, status in charted(measured)]
+            for deck, label, entry, status in charted(measured, plans)]
+    rows += [older_row(*item) for item in older(measured)]
     return sorted(rows, key=lambda r: (r["deck"], r["cost_clp"]))
 
 
@@ -99,7 +134,8 @@ def curve_rows(rows):
         for deck, point in sorted((row.get("decks") or {}).items()):
             out.append({"id": f"{row['budget']}-{SHORT[deck].lower()}", "budget_clp": row["budget"], "deck": SHORT[deck],
                         "list": list_name(point["label"]), "cost_clp": point["cost"], "power": point["power"],
-                        "total_cost_clp": row["cost"], "unspent_clp": row["unspent"], "sum_power": row["sum_power"],
+                        "total_cost_clp": row["cost"], "shared_extra_clp": row.get("shared_extra", 0),
+                        "unspent_clp": row["unspent"], "sum_power": row["sum_power"],
                         "weakest": row["min_power"], "gap": row["gap"]})
     return out
 
@@ -118,7 +154,8 @@ def plan_rows(rows):
                           f"{name}_id": list_id(deck, point["label"])})
         powers = " / ".join(f"{row['decks'][d]['power']:.1f}" for d in sorted(row["decks"], key=lambda d: TABLE_ORDER.index(SHORT[d])))
         out.append({"id": str(row["budget"]), "budget_clp": row["budget"], **cells, "powers": powers,
-                    "total_cost_clp": row["cost"], "unspent_clp": row["unspent"], "sum_power": row["sum_power"],
+                    "total_cost_clp": row["cost"], "shared_extra_clp": row.get("shared_extra", 0),
+                    "unspent_clp": row["unspent"], "sum_power": row["sum_power"],
                     "weakest": row["min_power"], "gap": row["gap"]})
     return out
 
@@ -181,11 +218,10 @@ def deck_rows(measured, plan_rows_, notes):
 
 def main():
     measured = json.loads(MEASURED.read_text(encoding="utf-8"))
-    frontier = ob.load_points(measured)
-    rows = ob.curve(frontier)
+    _, rows = ob.plan(measured)  # joint costs: an owned card two decks play is bought again for the second deck
     notes_path = OUT_DIR / "deck-notes.json"
     notes = json.loads(notes_path.read_text(encoding="utf-8")) if notes_path.exists() else {}
-    files = {"lists": lists_rows(measured), "curve": curve_rows(rows), "plans": plan_rows(rows),
+    files = {"lists": lists_rows(measured, rows), "curve": curve_rows(rows), "plans": plan_rows(rows),
              "jumps": jump_rows(rows), "buys": buy_rows(measured), "decks": deck_rows(measured, rows, notes)}
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     for name, data in files.items():

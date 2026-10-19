@@ -3417,6 +3417,230 @@
    "count": 1
   },
   {
+   "id": "ezio-r5-40-0-C",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "0",
+   "color": "Colorless",
+   "count": 2
+  },
+  {
+   "id": "ezio-r5-40-1-B",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "1",
+   "color": "Black",
+   "count": 2
+  },
+  {
+   "id": "ezio-r5-40-1-C",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "1",
+   "color": "Colorless",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-1-G",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "1",
+   "color": "Green",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-1-R",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "1",
+   "color": "Red",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-1-U",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "1",
+   "color": "Blue",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-2-B",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "2",
+   "color": "Black",
+   "count": 4
+  },
+  {
+   "id": "ezio-r5-40-2-C",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "2",
+   "color": "Colorless",
+   "count": 5
+  },
+  {
+   "id": "ezio-r5-40-2-G",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "2",
+   "color": "Green",
+   "count": 2
+  },
+  {
+   "id": "ezio-r5-40-2-M",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "2",
+   "color": "Multicolor",
+   "count": 3
+  },
+  {
+   "id": "ezio-r5-40-2-R",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "2",
+   "color": "Red",
+   "count": 2
+  },
+  {
+   "id": "ezio-r5-40-2-U",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "2",
+   "color": "Blue",
+   "count": 2
+  },
+  {
+   "id": "ezio-r5-40-2-W",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "2",
+   "color": "White",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-3-B",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "3",
+   "color": "Black",
+   "count": 4
+  },
+  {
+   "id": "ezio-r5-40-3-C",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "3",
+   "color": "Colorless",
+   "count": 2
+  },
+  {
+   "id": "ezio-r5-40-3-M",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "3",
+   "color": "Multicolor",
+   "count": 6
+  },
+  {
+   "id": "ezio-r5-40-3-R",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "3",
+   "color": "Red",
+   "count": 2
+  },
+  {
+   "id": "ezio-r5-40-3-U",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "3",
+   "color": "Blue",
+   "count": 3
+  },
+  {
+   "id": "ezio-r5-40-3-W",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "3",
+   "color": "White",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-4-B",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "4",
+   "color": "Black",
+   "count": 5
+  },
+  {
+   "id": "ezio-r5-40-4-C",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "4",
+   "color": "Colorless",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-4-M",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "4",
+   "color": "Multicolor",
+   "count": 6
+  },
+  {
+   "id": "ezio-r5-40-4-U",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "4",
+   "color": "Blue",
+   "count": 3
+  },
+  {
+   "id": "ezio-r5-40-5-M",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "5",
+   "color": "Multicolor",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-5-U",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "5",
+   "color": "Blue",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-5-W",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "5",
+   "color": "White",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-6-U",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "6",
+   "color": "Blue",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-7+-M",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "mv": "7+",
+   "color": "Multicolor",
+   "count": 1
+  },
+  {
    "id": "azula-r3-23-1-B",
    "list_id": "azula-r3-23",
    "deck": "Azula",

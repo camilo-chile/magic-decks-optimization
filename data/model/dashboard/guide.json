@@ -5,21 +5,21 @@
    "deck": "Plan",
    "order": 1,
    "title": "Where to stop",
-   "text": "About 150,000 CLP is the knee of the curve: each deck reaches its best measured list at roughly 49,000 CLP of cards (Ezio 7.4, Azula 8.4, Toph 7.4), 147,284 CLP together. Past that the only measured gain is Toph's tutor package (+0.1 for about 48,000 CLP more); Azula and Ezio did not improve with more money."
+   "text": "The owner chose 200,000 CLP: Ezio 7.7, Azula 8.4 and Toph 7.4 for 181,924 CLP of cards. That total counts the cards two decks share once: a card you own in a single copy that two decks play (Entomb in Azula and Ezio, 22,400 CLP) is bought again for the second deck, 26,390 CLP in all. A step down, 150,000 CLP keeps Toph on its free base (7.1) for 132,782 CLP; a step up adds only Toph's tutor package (7.5, about 48,000 CLP more). Azula and Ezio did not improve with more money."
   },
   {
    "id": "plan-2",
    "deck": "Plan",
    "order": 2,
    "title": "A tighter budget",
-   "text": "At 100,000 CLP Toph stays on its free base (7.1) while Azula and Ezio get their full lists: 98,142 CLP for the highest total that fits."
+   "text": "At 100,000 CLP Azula stays at 6.8 (24,882 CLP) beside Ezio's 7.7 and Toph's free base (7.1), 85,372 CLP in all: her 8.4 list would bring the three decks to 132,782 CLP once the shared cards are counted."
   },
   {
    "id": "plan-3",
    "deck": "Plan",
    "order": 3,
    "title": "Bracket note",
-   "text": "Azula's lists from round-4 step 27 reach power 8.4. Wizards' criteria (Layer A) still give Bracket 3, but Commander Salt's own estimate calls them Bracket 4 (optimized). If your table dislikes that, Azula's step 18 (24,921 CLP) scores 7.0 with Salt's bracket 3*."
+   "text": "Azula's lists from round-4 step 27 reach power 8.4. Wizards' criteria (Layer A) still give Bracket 3, but Commander Salt's own estimate calls them Bracket 4 (optimized). The owner accepted that on 2026-10-19: the rule is Wizards' Bracket 3 conditions, not the power. If a table ever dislikes it, Azula's step 18 (24,921 CLP) scores 7.0 with Salt's bracket 3*."
   },
   {
    "id": "plan-4",
@@ -229,7 +229,7 @@
    "deck": "Alexios",
    "order": 1,
    "title": "Where he ended",
-   "text": "Alexios, Deimos of Kosmos is a four-mana mono red commander that attacks each combat and passes to the next player's control at every upkeep, so the deck is a political chaos engine. His measured ladder scored below Ezio at every price on Commander Salt (see the power chart), so Ezio takes the new-deck slot. Alexios' files stay in the repository until you confirm the replacement."
+   "text": "Alexios, Deimos of Kosmos is a four-mana mono red commander that attacks each combat and passes to the next player's control at every upkeep, so the deck is a political chaos engine. His measured ladder scored below Ezio at every price on Commander Salt (see the power chart), so Ezio takes the new-deck slot. Alexios' files stay in the repository (owner decision, 2026-10-19) in case he is built some day."
   }
  ]
 }

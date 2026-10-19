@@ -883,6 +883,55 @@
    "count": 35
   },
   {
+   "id": "ezio-r5-40-Creature",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "type": "Creature",
+   "count": 24
+  },
+  {
+   "id": "ezio-r5-40-Instant",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "type": "Instant",
+   "count": 17
+  },
+  {
+   "id": "ezio-r5-40-Sorcery",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "type": "Sorcery",
+   "count": 7
+  },
+  {
+   "id": "ezio-r5-40-Enchantment",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "type": "Enchantment",
+   "count": 4
+  },
+  {
+   "id": "ezio-r5-40-Artifact",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "type": "Artifact",
+   "count": 13
+  },
+  {
+   "id": "ezio-r5-40-Planeswalker",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "type": "Planeswalker",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-Land",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "type": "Land",
+   "count": 35
+  },
+  {
    "id": "azula-r3-23-Creature",
    "list_id": "azula-r3-23",
    "deck": "Azula",

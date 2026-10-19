@@ -1331,6 +1331,76 @@
    "count": 1
   },
   {
+   "id": "ezio-r5-40-Human",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "subtype": "Human",
+   "count": 20
+  },
+  {
+   "id": "ezio-r5-40-Assassin",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "subtype": "Assassin",
+   "count": 17
+  },
+  {
+   "id": "ezio-r5-40-Vampire",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "subtype": "Vampire",
+   "count": 2
+  },
+  {
+   "id": "ezio-r5-40-Wizard",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "subtype": "Wizard",
+   "count": 2
+  },
+  {
+   "id": "ezio-r5-40-Artificer",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-Druid",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "subtype": "Druid",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-Knight",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "subtype": "Knight",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-Pirate",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "subtype": "Pirate",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-Rogue",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "subtype": "Rogue",
+   "count": 1
+  },
+  {
+   "id": "ezio-r5-40-Sphinx",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "subtype": "Sphinx",
+   "count": 1
+  },
+  {
    "id": "azula-r3-23-Human",
    "list_id": "azula-r3-23",
    "deck": "Azula",

@@ -2449,6 +2449,150 @@
    "chance_pct": 83
   },
   {
+   "id": "ezio-r5-40-W-3",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 3,
+   "chance_pct": 79
+  },
+  {
+   "id": "ezio-r5-40-U-3",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 3,
+   "chance_pct": 85
+  },
+  {
+   "id": "ezio-r5-40-B-3",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 3,
+   "chance_pct": 95
+  },
+  {
+   "id": "ezio-r5-40-R-3",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 83
+  },
+  {
+   "id": "ezio-r5-40-G-3",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 3,
+   "chance_pct": 79
+  },
+  {
+   "id": "ezio-r5-40-all-3",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 63
+  },
+  {
+   "id": "ezio-r5-40-W-5",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 5,
+   "chance_pct": 85
+  },
+  {
+   "id": "ezio-r5-40-U-5",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 5,
+   "chance_pct": 90
+  },
+  {
+   "id": "ezio-r5-40-B-5",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 5,
+   "chance_pct": 98
+  },
+  {
+   "id": "ezio-r5-40-R-5",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 89
+  },
+  {
+   "id": "ezio-r5-40-G-5",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 5,
+   "chance_pct": 85
+  },
+  {
+   "id": "ezio-r5-40-all-5",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 72
+  },
+  {
+   "id": "ezio-r5-40-W-7",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 7,
+   "chance_pct": 90
+  },
+  {
+   "id": "ezio-r5-40-U-7",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 7,
+   "chance_pct": 94
+  },
+  {
+   "id": "ezio-r5-40-B-7",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "ezio-r5-40-R-7",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 93
+  },
+  {
+   "id": "ezio-r5-40-G-7",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 7,
+   "chance_pct": 90
+  },
+  {
+   "id": "ezio-r5-40-all-7",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 80
+  },
+  {
    "id": "azula-r3-23-U-3",
    "list_id": "azula-r3-23",
    "deck": "Azula",

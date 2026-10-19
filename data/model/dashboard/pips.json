@@ -665,6 +665,46 @@
    "share_pct": 4
   },
   {
+   "id": "ezio-r5-40-W",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "White",
+   "pips": 11,
+   "share_pct": 13
+  },
+  {
+   "id": "ezio-r5-40-U",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Blue",
+   "pips": 22,
+   "share_pct": 27
+  },
+  {
+   "id": "ezio-r5-40-B",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Black",
+   "pips": 34,
+   "share_pct": 41
+  },
+  {
+   "id": "ezio-r5-40-R",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Red",
+   "pips": 12,
+   "share_pct": 14
+  },
+  {
+   "id": "ezio-r5-40-G",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Green",
+   "pips": 4,
+   "share_pct": 5
+  },
+  {
    "id": "azula-r3-23-U",
    "list_id": "azula-r3-23",
    "deck": "Azula",

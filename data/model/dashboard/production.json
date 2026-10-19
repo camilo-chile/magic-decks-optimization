@@ -919,6 +919,60 @@
    "total": 9
   },
   {
+   "id": "ezio-r5-40-W",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "White",
+   "lands": 13,
+   "other": 2,
+   "total": 15
+  },
+  {
+   "id": "ezio-r5-40-U",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Blue",
+   "lands": 15,
+   "other": 3,
+   "total": 18
+  },
+  {
+   "id": "ezio-r5-40-B",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Black",
+   "lands": 22,
+   "other": 5,
+   "total": 27
+  },
+  {
+   "id": "ezio-r5-40-R",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Red",
+   "lands": 14,
+   "other": 3,
+   "total": 17
+  },
+  {
+   "id": "ezio-r5-40-G",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Green",
+   "lands": 12,
+   "other": 3,
+   "total": 15
+  },
+  {
+   "id": "ezio-r5-40-C",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "color": "Colorless",
+   "lands": 6,
+   "other": 2,
+   "total": 8
+  },
+  {
    "id": "azula-r3-23-U",
    "list_id": "azula-r3-23",
    "deck": "Azula",

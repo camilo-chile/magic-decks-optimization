@@ -1,0 +1,2740 @@
+{
+ "rows": [
+  {
+   "id": "alexios-r2-19-t1",
+   "list_id": "alexios-r2-19",
+   "deck": "Alexios",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "alexios-r2-19-t2",
+   "list_id": "alexios-r2-19",
+   "deck": "Alexios",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "alexios-r2-19-t3",
+   "list_id": "alexios-r2-19",
+   "deck": "Alexios",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "alexios-r2-19-t4",
+   "list_id": "alexios-r2-19",
+   "deck": "Alexios",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "alexios-r2-19-t5",
+   "list_id": "alexios-r2-19",
+   "deck": "Alexios",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "alexios-r2-19-t6",
+   "list_id": "alexios-r2-19",
+   "deck": "Alexios",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "alexios-r2-19-t7",
+   "list_id": "alexios-r2-19",
+   "deck": "Alexios",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "alexios-r2-19-t8",
+   "list_id": "alexios-r2-19",
+   "deck": "Alexios",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "alexios-r2-39-t1",
+   "list_id": "alexios-r2-39",
+   "deck": "Alexios",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "alexios-r2-39-t2",
+   "list_id": "alexios-r2-39",
+   "deck": "Alexios",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "alexios-r2-39-t3",
+   "list_id": "alexios-r2-39",
+   "deck": "Alexios",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "alexios-r2-39-t4",
+   "list_id": "alexios-r2-39",
+   "deck": "Alexios",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "alexios-r2-39-t5",
+   "list_id": "alexios-r2-39",
+   "deck": "Alexios",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "alexios-r2-39-t6",
+   "list_id": "alexios-r2-39",
+   "deck": "Alexios",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "alexios-r2-39-t7",
+   "list_id": "alexios-r2-39",
+   "deck": "Alexios",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "alexios-r2-39-t8",
+   "list_id": "alexios-r2-39",
+   "deck": "Alexios",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "alexios-r2-48-t1",
+   "list_id": "alexios-r2-48",
+   "deck": "Alexios",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "alexios-r2-48-t2",
+   "list_id": "alexios-r2-48",
+   "deck": "Alexios",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "alexios-r2-48-t3",
+   "list_id": "alexios-r2-48",
+   "deck": "Alexios",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "alexios-r2-48-t4",
+   "list_id": "alexios-r2-48",
+   "deck": "Alexios",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "alexios-r2-48-t5",
+   "list_id": "alexios-r2-48",
+   "deck": "Alexios",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "alexios-r2-48-t6",
+   "list_id": "alexios-r2-48",
+   "deck": "Alexios",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "alexios-r2-48-t7",
+   "list_id": "alexios-r2-48",
+   "deck": "Alexios",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "alexios-r2-48-t8",
+   "list_id": "alexios-r2-48",
+   "deck": "Alexios",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-r3-24-t1",
+   "list_id": "ezio-r3-24",
+   "deck": "Ezio",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-r3-24-t2",
+   "list_id": "ezio-r3-24",
+   "deck": "Ezio",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-r3-24-t3",
+   "list_id": "ezio-r3-24",
+   "deck": "Ezio",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-r3-24-t4",
+   "list_id": "ezio-r3-24",
+   "deck": "Ezio",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-r3-24-t5",
+   "list_id": "ezio-r3-24",
+   "deck": "Ezio",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-r3-24-t6",
+   "list_id": "ezio-r3-24",
+   "deck": "Ezio",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-r3-24-t7",
+   "list_id": "ezio-r3-24",
+   "deck": "Ezio",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-r3-24-t8",
+   "list_id": "ezio-r3-24",
+   "deck": "Ezio",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-r3-39-t1",
+   "list_id": "ezio-r3-39",
+   "deck": "Ezio",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-r3-39-t2",
+   "list_id": "ezio-r3-39",
+   "deck": "Ezio",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-r3-39-t3",
+   "list_id": "ezio-r3-39",
+   "deck": "Ezio",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-r3-39-t4",
+   "list_id": "ezio-r3-39",
+   "deck": "Ezio",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-r3-39-t5",
+   "list_id": "ezio-r3-39",
+   "deck": "Ezio",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-r3-39-t6",
+   "list_id": "ezio-r3-39",
+   "deck": "Ezio",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-r3-39-t7",
+   "list_id": "ezio-r3-39",
+   "deck": "Ezio",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-r3-39-t8",
+   "list_id": "ezio-r3-39",
+   "deck": "Ezio",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-r3-43-t1",
+   "list_id": "ezio-r3-43",
+   "deck": "Ezio",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-r3-43-t2",
+   "list_id": "ezio-r3-43",
+   "deck": "Ezio",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-r3-43-t3",
+   "list_id": "ezio-r3-43",
+   "deck": "Ezio",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-r3-43-t4",
+   "list_id": "ezio-r3-43",
+   "deck": "Ezio",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-r3-43-t5",
+   "list_id": "ezio-r3-43",
+   "deck": "Ezio",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-r3-43-t6",
+   "list_id": "ezio-r3-43",
+   "deck": "Ezio",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-r3-43-t7",
+   "list_id": "ezio-r3-43",
+   "deck": "Ezio",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-r3-43-t8",
+   "list_id": "ezio-r3-43",
+   "deck": "Ezio",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-r3-46-t1",
+   "list_id": "ezio-r3-46",
+   "deck": "Ezio",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-r3-46-t2",
+   "list_id": "ezio-r3-46",
+   "deck": "Ezio",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-r3-46-t3",
+   "list_id": "ezio-r3-46",
+   "deck": "Ezio",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-r3-46-t4",
+   "list_id": "ezio-r3-46",
+   "deck": "Ezio",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-r3-46-t5",
+   "list_id": "ezio-r3-46",
+   "deck": "Ezio",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-r3-46-t6",
+   "list_id": "ezio-r3-46",
+   "deck": "Ezio",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-r3-46-t7",
+   "list_id": "ezio-r3-46",
+   "deck": "Ezio",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-r3-46-t8",
+   "list_id": "ezio-r3-46",
+   "deck": "Ezio",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-r3-50-t1",
+   "list_id": "ezio-r3-50",
+   "deck": "Ezio",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-r3-50-t2",
+   "list_id": "ezio-r3-50",
+   "deck": "Ezio",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-r3-50-t3",
+   "list_id": "ezio-r3-50",
+   "deck": "Ezio",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-r3-50-t4",
+   "list_id": "ezio-r3-50",
+   "deck": "Ezio",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-r3-50-t5",
+   "list_id": "ezio-r3-50",
+   "deck": "Ezio",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-r3-50-t6",
+   "list_id": "ezio-r3-50",
+   "deck": "Ezio",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-r3-50-t7",
+   "list_id": "ezio-r3-50",
+   "deck": "Ezio",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-r3-50-t8",
+   "list_id": "ezio-r3-50",
+   "deck": "Ezio",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-bcore-r4-0-t1",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-bcore-r4-0-t2",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-bcore-r4-0-t3",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-bcore-r4-0-t4",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-bcore-r4-0-t5",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-bcore-r4-0-t6",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-bcore-r4-0-t7",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-bcore-r4-0-t8",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-bcore-r4-18-t1",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-bcore-r4-18-t2",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-bcore-r4-18-t3",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-bcore-r4-18-t4",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-bcore-r4-18-t5",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-bcore-r4-18-t6",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-bcore-r4-18-t7",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-bcore-r4-18-t8",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-bcore-r4-26-t1",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-bcore-r4-26-t2",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-bcore-r4-26-t3",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-bcore-r4-26-t4",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-bcore-r4-26-t5",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-bcore-r4-26-t6",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-bcore-r4-26-t7",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-bcore-r4-26-t8",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-r4-0-t1",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-r4-0-t2",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-r4-0-t3",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-r4-0-t4",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-r4-0-t5",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-r4-0-t6",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-r4-0-t7",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-r4-0-t8",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-r4-14-t1",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-r4-14-t2",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-r4-14-t3",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-r4-14-t4",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-r4-14-t5",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-r4-14-t6",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-r4-14-t7",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-r4-14-t8",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-r4-31-t1",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-r4-31-t2",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-r4-31-t3",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-r4-31-t4",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-r4-31-t5",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-r4-31-t6",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-r4-31-t7",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-r4-31-t8",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-r4-33-t1",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-r4-33-t2",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-r4-33-t3",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-r4-33-t4",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-r4-33-t5",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-r4-33-t6",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-r4-33-t7",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-r4-33-t8",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-r4-39-t1",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-r4-39-t2",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-r4-39-t3",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-r4-39-t4",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-r4-39-t5",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-r4-39-t6",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-r4-39-t7",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-r4-39-t8",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-r4-43-t1",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-r4-43-t2",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-r4-43-t3",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-r4-43-t4",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-r4-43-t5",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-r4-43-t6",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-r4-43-t7",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-r4-43-t8",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-r4-50-t1",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-r4-50-t2",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-r4-50-t3",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-r4-50-t4",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-r4-50-t5",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-r4-50-t6",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-r4-50-t7",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-r4-50-t8",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-r4-54-t1",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-r4-54-t2",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-r4-54-t3",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-r4-54-t4",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-r4-54-t5",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-r4-54-t6",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-r4-54-t7",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-r4-54-t8",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "ezio-r5-40-t1",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "ezio-r5-40-t2",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "ezio-r5-40-t3",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "ezio-r5-40-t4",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "ezio-r5-40-t5",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "ezio-r5-40-t6",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "ezio-r5-40-t7",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "ezio-r5-40-t8",
+   "list_id": "ezio-r5-40",
+   "deck": "Ezio",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "azula-r3-23-t1",
+   "list_id": "azula-r3-23",
+   "deck": "Azula",
+   "turn": 1,
+   "lands": 36,
+   "on_curve_pct": 96.3,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "azula-r3-23-t2",
+   "list_id": "azula-r3-23",
+   "deck": "Azula",
+   "turn": 2,
+   "lands": 36,
+   "on_curve_pct": 86.1,
+   "one_short_pct": 97.7
+  },
+  {
+   "id": "azula-r3-23-t3",
+   "list_id": "azula-r3-23",
+   "deck": "Azula",
+   "turn": 3,
+   "lands": 36,
+   "on_curve_pct": 70.4,
+   "one_short_pct": 90.6
+  },
+  {
+   "id": "azula-r3-23-t4",
+   "list_id": "azula-r3-23",
+   "deck": "Azula",
+   "turn": 4,
+   "lands": 36,
+   "on_curve_pct": 52.7,
+   "one_short_pct": 78.0
+  },
+  {
+   "id": "azula-r3-23-t5",
+   "list_id": "azula-r3-23",
+   "deck": "Azula",
+   "turn": 5,
+   "lands": 36,
+   "on_curve_pct": 36.2,
+   "one_short_pct": 62.1
+  },
+  {
+   "id": "azula-r3-23-t6",
+   "list_id": "azula-r3-23",
+   "deck": "Azula",
+   "turn": 6,
+   "lands": 36,
+   "on_curve_pct": 23.1,
+   "one_short_pct": 45.6
+  },
+  {
+   "id": "azula-r3-23-t7",
+   "list_id": "azula-r3-23",
+   "deck": "Azula",
+   "turn": 7,
+   "lands": 36,
+   "on_curve_pct": 13.7,
+   "one_short_pct": 31.1
+  },
+  {
+   "id": "azula-r3-23-t8",
+   "list_id": "azula-r3-23",
+   "deck": "Azula",
+   "turn": 8,
+   "lands": 36,
+   "on_curve_pct": 7.6,
+   "one_short_pct": 19.8
+  },
+  {
+   "id": "azula-r3-34-t1",
+   "list_id": "azula-r3-34",
+   "deck": "Azula",
+   "turn": 1,
+   "lands": 36,
+   "on_curve_pct": 96.3,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "azula-r3-34-t2",
+   "list_id": "azula-r3-34",
+   "deck": "Azula",
+   "turn": 2,
+   "lands": 36,
+   "on_curve_pct": 86.1,
+   "one_short_pct": 97.7
+  },
+  {
+   "id": "azula-r3-34-t3",
+   "list_id": "azula-r3-34",
+   "deck": "Azula",
+   "turn": 3,
+   "lands": 36,
+   "on_curve_pct": 70.4,
+   "one_short_pct": 90.6
+  },
+  {
+   "id": "azula-r3-34-t4",
+   "list_id": "azula-r3-34",
+   "deck": "Azula",
+   "turn": 4,
+   "lands": 36,
+   "on_curve_pct": 52.7,
+   "one_short_pct": 78.0
+  },
+  {
+   "id": "azula-r3-34-t5",
+   "list_id": "azula-r3-34",
+   "deck": "Azula",
+   "turn": 5,
+   "lands": 36,
+   "on_curve_pct": 36.2,
+   "one_short_pct": 62.1
+  },
+  {
+   "id": "azula-r3-34-t6",
+   "list_id": "azula-r3-34",
+   "deck": "Azula",
+   "turn": 6,
+   "lands": 36,
+   "on_curve_pct": 23.1,
+   "one_short_pct": 45.6
+  },
+  {
+   "id": "azula-r3-34-t7",
+   "list_id": "azula-r3-34",
+   "deck": "Azula",
+   "turn": 7,
+   "lands": 36,
+   "on_curve_pct": 13.7,
+   "one_short_pct": 31.1
+  },
+  {
+   "id": "azula-r3-34-t8",
+   "list_id": "azula-r3-34",
+   "deck": "Azula",
+   "turn": 8,
+   "lands": 36,
+   "on_curve_pct": 7.6,
+   "one_short_pct": 19.8
+  },
+  {
+   "id": "azula-r3-39-t1",
+   "list_id": "azula-r3-39",
+   "deck": "Azula",
+   "turn": 1,
+   "lands": 36,
+   "on_curve_pct": 96.3,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "azula-r3-39-t2",
+   "list_id": "azula-r3-39",
+   "deck": "Azula",
+   "turn": 2,
+   "lands": 36,
+   "on_curve_pct": 86.1,
+   "one_short_pct": 97.7
+  },
+  {
+   "id": "azula-r3-39-t3",
+   "list_id": "azula-r3-39",
+   "deck": "Azula",
+   "turn": 3,
+   "lands": 36,
+   "on_curve_pct": 70.4,
+   "one_short_pct": 90.6
+  },
+  {
+   "id": "azula-r3-39-t4",
+   "list_id": "azula-r3-39",
+   "deck": "Azula",
+   "turn": 4,
+   "lands": 36,
+   "on_curve_pct": 52.7,
+   "one_short_pct": 78.0
+  },
+  {
+   "id": "azula-r3-39-t5",
+   "list_id": "azula-r3-39",
+   "deck": "Azula",
+   "turn": 5,
+   "lands": 36,
+   "on_curve_pct": 36.2,
+   "one_short_pct": 62.1
+  },
+  {
+   "id": "azula-r3-39-t6",
+   "list_id": "azula-r3-39",
+   "deck": "Azula",
+   "turn": 6,
+   "lands": 36,
+   "on_curve_pct": 23.1,
+   "one_short_pct": 45.6
+  },
+  {
+   "id": "azula-r3-39-t7",
+   "list_id": "azula-r3-39",
+   "deck": "Azula",
+   "turn": 7,
+   "lands": 36,
+   "on_curve_pct": 13.7,
+   "one_short_pct": 31.1
+  },
+  {
+   "id": "azula-r3-39-t8",
+   "list_id": "azula-r3-39",
+   "deck": "Azula",
+   "turn": 8,
+   "lands": 36,
+   "on_curve_pct": 7.6,
+   "one_short_pct": 19.8
+  },
+  {
+   "id": "azula-r3-44-t1",
+   "list_id": "azula-r3-44",
+   "deck": "Azula",
+   "turn": 1,
+   "lands": 36,
+   "on_curve_pct": 96.3,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "azula-r3-44-t2",
+   "list_id": "azula-r3-44",
+   "deck": "Azula",
+   "turn": 2,
+   "lands": 36,
+   "on_curve_pct": 86.1,
+   "one_short_pct": 97.7
+  },
+  {
+   "id": "azula-r3-44-t3",
+   "list_id": "azula-r3-44",
+   "deck": "Azula",
+   "turn": 3,
+   "lands": 36,
+   "on_curve_pct": 70.4,
+   "one_short_pct": 90.6
+  },
+  {
+   "id": "azula-r3-44-t4",
+   "list_id": "azula-r3-44",
+   "deck": "Azula",
+   "turn": 4,
+   "lands": 36,
+   "on_curve_pct": 52.7,
+   "one_short_pct": 78.0
+  },
+  {
+   "id": "azula-r3-44-t5",
+   "list_id": "azula-r3-44",
+   "deck": "Azula",
+   "turn": 5,
+   "lands": 36,
+   "on_curve_pct": 36.2,
+   "one_short_pct": 62.1
+  },
+  {
+   "id": "azula-r3-44-t6",
+   "list_id": "azula-r3-44",
+   "deck": "Azula",
+   "turn": 6,
+   "lands": 36,
+   "on_curve_pct": 23.1,
+   "one_short_pct": 45.6
+  },
+  {
+   "id": "azula-r3-44-t7",
+   "list_id": "azula-r3-44",
+   "deck": "Azula",
+   "turn": 7,
+   "lands": 36,
+   "on_curve_pct": 13.7,
+   "one_short_pct": 31.1
+  },
+  {
+   "id": "azula-r3-44-t8",
+   "list_id": "azula-r3-44",
+   "deck": "Azula",
+   "turn": 8,
+   "lands": 36,
+   "on_curve_pct": 7.6,
+   "one_short_pct": 19.8
+  },
+  {
+   "id": "azula-r3-53-t1",
+   "list_id": "azula-r3-53",
+   "deck": "Azula",
+   "turn": 1,
+   "lands": 36,
+   "on_curve_pct": 96.3,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "azula-r3-53-t2",
+   "list_id": "azula-r3-53",
+   "deck": "Azula",
+   "turn": 2,
+   "lands": 36,
+   "on_curve_pct": 86.1,
+   "one_short_pct": 97.7
+  },
+  {
+   "id": "azula-r3-53-t3",
+   "list_id": "azula-r3-53",
+   "deck": "Azula",
+   "turn": 3,
+   "lands": 36,
+   "on_curve_pct": 70.4,
+   "one_short_pct": 90.6
+  },
+  {
+   "id": "azula-r3-53-t4",
+   "list_id": "azula-r3-53",
+   "deck": "Azula",
+   "turn": 4,
+   "lands": 36,
+   "on_curve_pct": 52.7,
+   "one_short_pct": 78.0
+  },
+  {
+   "id": "azula-r3-53-t5",
+   "list_id": "azula-r3-53",
+   "deck": "Azula",
+   "turn": 5,
+   "lands": 36,
+   "on_curve_pct": 36.2,
+   "one_short_pct": 62.1
+  },
+  {
+   "id": "azula-r3-53-t6",
+   "list_id": "azula-r3-53",
+   "deck": "Azula",
+   "turn": 6,
+   "lands": 36,
+   "on_curve_pct": 23.1,
+   "one_short_pct": 45.6
+  },
+  {
+   "id": "azula-r3-53-t7",
+   "list_id": "azula-r3-53",
+   "deck": "Azula",
+   "turn": 7,
+   "lands": 36,
+   "on_curve_pct": 13.7,
+   "one_short_pct": 31.1
+  },
+  {
+   "id": "azula-r3-53-t8",
+   "list_id": "azula-r3-53",
+   "deck": "Azula",
+   "turn": 8,
+   "lands": 36,
+   "on_curve_pct": 7.6,
+   "one_short_pct": 19.8
+  },
+  {
+   "id": "azula-r4-0-t1",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "turn": 1,
+   "lands": 36,
+   "on_curve_pct": 96.3,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "azula-r4-0-t2",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "turn": 2,
+   "lands": 36,
+   "on_curve_pct": 86.1,
+   "one_short_pct": 97.7
+  },
+  {
+   "id": "azula-r4-0-t3",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "turn": 3,
+   "lands": 36,
+   "on_curve_pct": 70.4,
+   "one_short_pct": 90.6
+  },
+  {
+   "id": "azula-r4-0-t4",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "turn": 4,
+   "lands": 36,
+   "on_curve_pct": 52.7,
+   "one_short_pct": 78.0
+  },
+  {
+   "id": "azula-r4-0-t5",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "turn": 5,
+   "lands": 36,
+   "on_curve_pct": 36.2,
+   "one_short_pct": 62.1
+  },
+  {
+   "id": "azula-r4-0-t6",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "turn": 6,
+   "lands": 36,
+   "on_curve_pct": 23.1,
+   "one_short_pct": 45.6
+  },
+  {
+   "id": "azula-r4-0-t7",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "turn": 7,
+   "lands": 36,
+   "on_curve_pct": 13.7,
+   "one_short_pct": 31.1
+  },
+  {
+   "id": "azula-r4-0-t8",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "turn": 8,
+   "lands": 36,
+   "on_curve_pct": 7.6,
+   "one_short_pct": 19.8
+  },
+  {
+   "id": "azula-r4-15-t1",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "turn": 1,
+   "lands": 36,
+   "on_curve_pct": 96.3,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "azula-r4-15-t2",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "turn": 2,
+   "lands": 36,
+   "on_curve_pct": 86.1,
+   "one_short_pct": 97.7
+  },
+  {
+   "id": "azula-r4-15-t3",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "turn": 3,
+   "lands": 36,
+   "on_curve_pct": 70.4,
+   "one_short_pct": 90.6
+  },
+  {
+   "id": "azula-r4-15-t4",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "turn": 4,
+   "lands": 36,
+   "on_curve_pct": 52.7,
+   "one_short_pct": 78.0
+  },
+  {
+   "id": "azula-r4-15-t5",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "turn": 5,
+   "lands": 36,
+   "on_curve_pct": 36.2,
+   "one_short_pct": 62.1
+  },
+  {
+   "id": "azula-r4-15-t6",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "turn": 6,
+   "lands": 36,
+   "on_curve_pct": 23.1,
+   "one_short_pct": 45.6
+  },
+  {
+   "id": "azula-r4-15-t7",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "turn": 7,
+   "lands": 36,
+   "on_curve_pct": 13.7,
+   "one_short_pct": 31.1
+  },
+  {
+   "id": "azula-r4-15-t8",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "turn": 8,
+   "lands": 36,
+   "on_curve_pct": 7.6,
+   "one_short_pct": 19.8
+  },
+  {
+   "id": "azula-r4-18-t1",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "turn": 1,
+   "lands": 36,
+   "on_curve_pct": 96.3,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "azula-r4-18-t2",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "turn": 2,
+   "lands": 36,
+   "on_curve_pct": 86.1,
+   "one_short_pct": 97.7
+  },
+  {
+   "id": "azula-r4-18-t3",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "turn": 3,
+   "lands": 36,
+   "on_curve_pct": 70.4,
+   "one_short_pct": 90.6
+  },
+  {
+   "id": "azula-r4-18-t4",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "turn": 4,
+   "lands": 36,
+   "on_curve_pct": 52.7,
+   "one_short_pct": 78.0
+  },
+  {
+   "id": "azula-r4-18-t5",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "turn": 5,
+   "lands": 36,
+   "on_curve_pct": 36.2,
+   "one_short_pct": 62.1
+  },
+  {
+   "id": "azula-r4-18-t6",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "turn": 6,
+   "lands": 36,
+   "on_curve_pct": 23.1,
+   "one_short_pct": 45.6
+  },
+  {
+   "id": "azula-r4-18-t7",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "turn": 7,
+   "lands": 36,
+   "on_curve_pct": 13.7,
+   "one_short_pct": 31.1
+  },
+  {
+   "id": "azula-r4-18-t8",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "turn": 8,
+   "lands": 36,
+   "on_curve_pct": 7.6,
+   "one_short_pct": 19.8
+  },
+  {
+   "id": "azula-r4-24-t1",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "turn": 1,
+   "lands": 36,
+   "on_curve_pct": 96.3,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "azula-r4-24-t2",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "turn": 2,
+   "lands": 36,
+   "on_curve_pct": 86.1,
+   "one_short_pct": 97.7
+  },
+  {
+   "id": "azula-r4-24-t3",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "turn": 3,
+   "lands": 36,
+   "on_curve_pct": 70.4,
+   "one_short_pct": 90.6
+  },
+  {
+   "id": "azula-r4-24-t4",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "turn": 4,
+   "lands": 36,
+   "on_curve_pct": 52.7,
+   "one_short_pct": 78.0
+  },
+  {
+   "id": "azula-r4-24-t5",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "turn": 5,
+   "lands": 36,
+   "on_curve_pct": 36.2,
+   "one_short_pct": 62.1
+  },
+  {
+   "id": "azula-r4-24-t6",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "turn": 6,
+   "lands": 36,
+   "on_curve_pct": 23.1,
+   "one_short_pct": 45.6
+  },
+  {
+   "id": "azula-r4-24-t7",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "turn": 7,
+   "lands": 36,
+   "on_curve_pct": 13.7,
+   "one_short_pct": 31.1
+  },
+  {
+   "id": "azula-r4-24-t8",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "turn": 8,
+   "lands": 36,
+   "on_curve_pct": 7.6,
+   "one_short_pct": 19.8
+  },
+  {
+   "id": "azula-r4-27-t1",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "turn": 1,
+   "lands": 36,
+   "on_curve_pct": 96.3,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "azula-r4-27-t2",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "turn": 2,
+   "lands": 36,
+   "on_curve_pct": 86.1,
+   "one_short_pct": 97.7
+  },
+  {
+   "id": "azula-r4-27-t3",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "turn": 3,
+   "lands": 36,
+   "on_curve_pct": 70.4,
+   "one_short_pct": 90.6
+  },
+  {
+   "id": "azula-r4-27-t4",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "turn": 4,
+   "lands": 36,
+   "on_curve_pct": 52.7,
+   "one_short_pct": 78.0
+  },
+  {
+   "id": "azula-r4-27-t5",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "turn": 5,
+   "lands": 36,
+   "on_curve_pct": 36.2,
+   "one_short_pct": 62.1
+  },
+  {
+   "id": "azula-r4-27-t6",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "turn": 6,
+   "lands": 36,
+   "on_curve_pct": 23.1,
+   "one_short_pct": 45.6
+  },
+  {
+   "id": "azula-r4-27-t7",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "turn": 7,
+   "lands": 36,
+   "on_curve_pct": 13.7,
+   "one_short_pct": 31.1
+  },
+  {
+   "id": "azula-r4-27-t8",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "turn": 8,
+   "lands": 36,
+   "on_curve_pct": 7.6,
+   "one_short_pct": 19.8
+  },
+  {
+   "id": "azula-r4-35-t1",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "turn": 1,
+   "lands": 36,
+   "on_curve_pct": 96.3,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "azula-r4-35-t2",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "turn": 2,
+   "lands": 36,
+   "on_curve_pct": 86.1,
+   "one_short_pct": 97.7
+  },
+  {
+   "id": "azula-r4-35-t3",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "turn": 3,
+   "lands": 36,
+   "on_curve_pct": 70.4,
+   "one_short_pct": 90.6
+  },
+  {
+   "id": "azula-r4-35-t4",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "turn": 4,
+   "lands": 36,
+   "on_curve_pct": 52.7,
+   "one_short_pct": 78.0
+  },
+  {
+   "id": "azula-r4-35-t5",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "turn": 5,
+   "lands": 36,
+   "on_curve_pct": 36.2,
+   "one_short_pct": 62.1
+  },
+  {
+   "id": "azula-r4-35-t6",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "turn": 6,
+   "lands": 36,
+   "on_curve_pct": 23.1,
+   "one_short_pct": 45.6
+  },
+  {
+   "id": "azula-r4-35-t7",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "turn": 7,
+   "lands": 36,
+   "on_curve_pct": 13.7,
+   "one_short_pct": 31.1
+  },
+  {
+   "id": "azula-r4-35-t8",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "turn": 8,
+   "lands": 36,
+   "on_curve_pct": 7.6,
+   "one_short_pct": 19.8
+  },
+  {
+   "id": "azula-r4-40-t1",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "turn": 1,
+   "lands": 36,
+   "on_curve_pct": 96.3,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "azula-r4-40-t2",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "turn": 2,
+   "lands": 36,
+   "on_curve_pct": 86.1,
+   "one_short_pct": 97.7
+  },
+  {
+   "id": "azula-r4-40-t3",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "turn": 3,
+   "lands": 36,
+   "on_curve_pct": 70.4,
+   "one_short_pct": 90.6
+  },
+  {
+   "id": "azula-r4-40-t4",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "turn": 4,
+   "lands": 36,
+   "on_curve_pct": 52.7,
+   "one_short_pct": 78.0
+  },
+  {
+   "id": "azula-r4-40-t5",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "turn": 5,
+   "lands": 36,
+   "on_curve_pct": 36.2,
+   "one_short_pct": 62.1
+  },
+  {
+   "id": "azula-r4-40-t6",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "turn": 6,
+   "lands": 36,
+   "on_curve_pct": 23.1,
+   "one_short_pct": 45.6
+  },
+  {
+   "id": "azula-r4-40-t7",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "turn": 7,
+   "lands": 36,
+   "on_curve_pct": 13.7,
+   "one_short_pct": 31.1
+  },
+  {
+   "id": "azula-r4-40-t8",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "turn": 8,
+   "lands": 36,
+   "on_curve_pct": 7.6,
+   "one_short_pct": 19.8
+  },
+  {
+   "id": "azula-r4-44-t1",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "turn": 1,
+   "lands": 36,
+   "on_curve_pct": 96.3,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "azula-r4-44-t2",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "turn": 2,
+   "lands": 36,
+   "on_curve_pct": 86.1,
+   "one_short_pct": 97.7
+  },
+  {
+   "id": "azula-r4-44-t3",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "turn": 3,
+   "lands": 36,
+   "on_curve_pct": 70.4,
+   "one_short_pct": 90.6
+  },
+  {
+   "id": "azula-r4-44-t4",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "turn": 4,
+   "lands": 36,
+   "on_curve_pct": 52.7,
+   "one_short_pct": 78.0
+  },
+  {
+   "id": "azula-r4-44-t5",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "turn": 5,
+   "lands": 36,
+   "on_curve_pct": 36.2,
+   "one_short_pct": 62.1
+  },
+  {
+   "id": "azula-r4-44-t6",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "turn": 6,
+   "lands": 36,
+   "on_curve_pct": 23.1,
+   "one_short_pct": 45.6
+  },
+  {
+   "id": "azula-r4-44-t7",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "turn": 7,
+   "lands": 36,
+   "on_curve_pct": 13.7,
+   "one_short_pct": 31.1
+  },
+  {
+   "id": "azula-r4-44-t8",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "turn": 8,
+   "lands": 36,
+   "on_curve_pct": 7.6,
+   "one_short_pct": 19.8
+  },
+  {
+   "id": "toph-r2-0-t1",
+   "list_id": "toph-r2-0",
+   "deck": "Toph",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "toph-r2-0-t2",
+   "list_id": "toph-r2-0",
+   "deck": "Toph",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "toph-r2-0-t3",
+   "list_id": "toph-r2-0",
+   "deck": "Toph",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "toph-r2-0-t4",
+   "list_id": "toph-r2-0",
+   "deck": "Toph",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "toph-r2-0-t5",
+   "list_id": "toph-r2-0",
+   "deck": "Toph",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "toph-r2-0-t6",
+   "list_id": "toph-r2-0",
+   "deck": "Toph",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "toph-r2-0-t7",
+   "list_id": "toph-r2-0",
+   "deck": "Toph",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "toph-r2-0-t8",
+   "list_id": "toph-r2-0",
+   "deck": "Toph",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "toph-r3-11-t1",
+   "list_id": "toph-r3-11",
+   "deck": "Toph",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "toph-r3-11-t2",
+   "list_id": "toph-r3-11",
+   "deck": "Toph",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "toph-r3-11-t3",
+   "list_id": "toph-r3-11",
+   "deck": "Toph",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "toph-r3-11-t4",
+   "list_id": "toph-r3-11",
+   "deck": "Toph",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "toph-r3-11-t5",
+   "list_id": "toph-r3-11",
+   "deck": "Toph",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "toph-r3-11-t6",
+   "list_id": "toph-r3-11",
+   "deck": "Toph",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "toph-r3-11-t7",
+   "list_id": "toph-r3-11",
+   "deck": "Toph",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "toph-r3-11-t8",
+   "list_id": "toph-r3-11",
+   "deck": "Toph",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "toph-r3-21-t1",
+   "list_id": "toph-r3-21",
+   "deck": "Toph",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "toph-r3-21-t2",
+   "list_id": "toph-r3-21",
+   "deck": "Toph",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "toph-r3-21-t3",
+   "list_id": "toph-r3-21",
+   "deck": "Toph",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "toph-r3-21-t4",
+   "list_id": "toph-r3-21",
+   "deck": "Toph",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "toph-r3-21-t5",
+   "list_id": "toph-r3-21",
+   "deck": "Toph",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "toph-r3-21-t6",
+   "list_id": "toph-r3-21",
+   "deck": "Toph",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "toph-r3-21-t7",
+   "list_id": "toph-r3-21",
+   "deck": "Toph",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "toph-r3-21-t8",
+   "list_id": "toph-r3-21",
+   "deck": "Toph",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "toph-r3-30-t1",
+   "list_id": "toph-r3-30",
+   "deck": "Toph",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "toph-r3-30-t2",
+   "list_id": "toph-r3-30",
+   "deck": "Toph",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "toph-r3-30-t3",
+   "list_id": "toph-r3-30",
+   "deck": "Toph",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "toph-r3-30-t4",
+   "list_id": "toph-r3-30",
+   "deck": "Toph",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "toph-r3-30-t5",
+   "list_id": "toph-r3-30",
+   "deck": "Toph",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "toph-r3-30-t6",
+   "list_id": "toph-r3-30",
+   "deck": "Toph",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "toph-r3-30-t7",
+   "list_id": "toph-r3-30",
+   "deck": "Toph",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "toph-r3-30-t8",
+   "list_id": "toph-r3-30",
+   "deck": "Toph",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  },
+  {
+   "id": "toph-r3-32-t1",
+   "list_id": "toph-r3-32",
+   "deck": "Toph",
+   "turn": 1,
+   "lands": 35,
+   "on_curve_pct": 95.8,
+   "one_short_pct": 100.0
+  },
+  {
+   "id": "toph-r3-32-t2",
+   "list_id": "toph-r3-32",
+   "deck": "Toph",
+   "turn": 2,
+   "lands": 35,
+   "on_curve_pct": 84.7,
+   "one_short_pct": 97.4
+  },
+  {
+   "id": "toph-r3-32-t3",
+   "list_id": "toph-r3-32",
+   "deck": "Toph",
+   "turn": 3,
+   "lands": 35,
+   "on_curve_pct": 68.1,
+   "one_short_pct": 89.5
+  },
+  {
+   "id": "toph-r3-32-t4",
+   "list_id": "toph-r3-32",
+   "deck": "Toph",
+   "turn": 4,
+   "lands": 35,
+   "on_curve_pct": 49.8,
+   "one_short_pct": 75.9
+  },
+  {
+   "id": "toph-r3-32-t5",
+   "list_id": "toph-r3-32",
+   "deck": "Toph",
+   "turn": 5,
+   "lands": 35,
+   "on_curve_pct": 33.4,
+   "one_short_pct": 59.2
+  },
+  {
+   "id": "toph-r3-32-t6",
+   "list_id": "toph-r3-32",
+   "deck": "Toph",
+   "turn": 6,
+   "lands": 35,
+   "on_curve_pct": 20.7,
+   "one_short_pct": 42.5
+  },
+  {
+   "id": "toph-r3-32-t7",
+   "list_id": "toph-r3-32",
+   "deck": "Toph",
+   "turn": 7,
+   "lands": 35,
+   "on_curve_pct": 11.9,
+   "one_short_pct": 28.2
+  },
+  {
+   "id": "toph-r3-32-t8",
+   "list_id": "toph-r3-32",
+   "deck": "Toph",
+   "turn": 8,
+   "lands": 35,
+   "on_curve_pct": 6.4,
+   "one_short_pct": 17.4
+  }
+ ]
+}

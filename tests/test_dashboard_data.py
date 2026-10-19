@@ -22,6 +22,8 @@ MEASURED = {"lists": {
     f"{E}/round3-step39": entry(46_000, 7.0, round=3),
     f"{X}/round2-step19": entry(25_000, 4.1, round=2), f"{X}/round2-step48": entry(197_000, 6.8, round=2),
     f"{E}/round4-bcore-step26": entry(49_000, 5.3, round=4, variant="bcore"),
+    f"{T}/round2-step36": entry(146_000, 7.5, round=2), f"{A}/round2-step24-plus-9-duals": entry(56_000, 6.9, round=2),
+    f"{T}/owner-list": entry(0, 6.5),
 }}
 
 
@@ -32,6 +34,17 @@ def test_lists_mark_offered_dominated_and_replaced_and_leave_out_unusable_rounds
     assert "azula-r1-9" not in rows  # round 1 holds reversible cards: never charted
     black = rows["ezio-bcore-r4-26"]  # a variant test list: charted as its own series, never offered
     assert black["status"] == "variant" and black["deck"] == "Ezio black-core" and black["list"] == "Black-core R4 step 26"
+    assert rows["toph-r3-30"]["round"] == "R3"
+
+
+def test_older_and_start_lists_are_reference_rows_that_never_reach_a_plan_or_the_best_buys():
+    rows = {r["id"]: r for r in mod.lists_rows(MEASURED)}
+    assert rows["toph-r2-36"]["status"] == "older" and rows["toph-r2-36"]["round"] == "R2"
+    assert rows["azula-r2-24-plus-9-duals"]["status"] == "older" and rows["azula-r2-24-plus-9-duals"]["list"] == "R2 step 24 plus 9 duals"
+    assert rows["toph-owner"]["status"] == "start" and rows["toph-owner"]["list"] == "Owner's list" and rows["toph-owner"]["round"] == "Start"
+    points = mod.ob.load_points(MEASURED)
+    assert all(p["label"] not in ("round2-step36", "owner-list") for p in points[T])
+    assert {b["from_list"] for b in mod.buy_rows(MEASURED)}.isdisjoint({"R2 step 36", "Owner's list"})
 
 
 def test_plans_buys_and_jumps_follow_the_optimizer_and_alexios_never_enters_a_plan():
