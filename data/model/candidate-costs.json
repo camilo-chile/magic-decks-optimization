@@ -1,8 +1,8 @@
 {
- "as_of_utc": "2026-10-18T20:02:09Z",
+ "as_of_utc": "2026-10-19T01:00:36Z",
  "bulk_file": "oracle-cards-20261011210156.jsonl.gz",
- "merged_prices": "merged-20261017T2337Z.json",
- "prices_as_of": "2026-10-17T23:37:59Z",
+ "merged_prices": "merged-20261019T0100Z.json",
+ "prices_as_of": "2026-10-19T01:00:14Z",
  "scoring_version": "2026.4195",
  "offer_cards_not_in_bulk": [],
  "lists": [
@@ -41,6 +41,7 @@
     "Vexing Bauble"
    ],
    "unresolved": [],
+   "locked_held": [],
    "to_buy": [
     {
      "name": "Aggravated Assault",
@@ -162,7 +163,7 @@
     {
      "name": "Gamble",
      "qty": 1,
-     "unit_clp": 28200,
+     "unit_clp": 28050,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -207,7 +208,7 @@
     {
      "name": "Grim Reaper's Sprint",
      "qty": 1,
-     "unit_clp": 11600,
+     "unit_clp": 11650,
      "store": "lacomarca",
      "language": "en",
      "finish": "foil",
@@ -261,7 +262,7 @@
     {
      "name": "Kiki-Jiki, Mirror Breaker",
      "qty": 1,
-     "unit_clp": 18500,
+     "unit_clp": 18600,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -647,7 +648,7 @@
    "basics": 15,
    "owned_n": 12,
    "to_buy_n": 65,
-   "cost_clp": 1065960,
+   "cost_clp": 1065660,
    "stores": [
     "afkstore",
     "cardnexus",
@@ -669,6 +670,7 @@
     "Wheel of Fortune"
    ],
    "unresolved": [],
+   "locked_held": [],
    "to_buy": [
     {
      "name": "Agitator Ant",
@@ -826,7 +828,7 @@
     {
      "name": "Gamble",
      "qty": 1,
-     "unit_clp": 28200,
+     "unit_clp": 28050,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -1015,7 +1017,7 @@
     {
      "name": "Pyroblast",
      "qty": 1,
-     "unit_clp": 5200,
+     "unit_clp": 5050,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -1275,7 +1277,7 @@
    "basics": 18,
    "owned_n": 12,
    "to_buy_n": 64,
-   "cost_clp": 790862,
+   "cost_clp": 790562,
    "stores": [
     "cardnexus",
     "gameofmagic",
@@ -1294,6 +1296,7 @@
     "Vexing Bauble"
    ],
    "unresolved": [],
+   "locked_held": [],
    "to_buy": [
     {
      "name": "Anger",
@@ -1406,7 +1409,7 @@
     {
      "name": "Gamble",
      "qty": 1,
-     "unit_clp": 28200,
+     "unit_clp": 28050,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -1586,7 +1589,7 @@
     {
      "name": "Pyroblast",
      "qty": 1,
-     "unit_clp": 5200,
+     "unit_clp": 5050,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -1891,7 +1894,7 @@
    "basics": 23,
    "owned_n": 11,
    "to_buy_n": 61,
-   "cost_clp": 987852,
+   "cost_clp": 987802,
    "stores": [
     "cardnexus",
     "gameofmagic",
@@ -1909,6 +1912,7 @@
     "Treasonous Ogre"
    ],
    "unresolved": [],
+   "locked_held": [],
    "to_buy": [
     {
      "name": "Aggravated Assault",
@@ -1949,7 +1953,7 @@
     {
      "name": "Brash Taunter",
      "qty": 1,
-     "unit_clp": 5750,
+     "unit_clp": 5850,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -2237,7 +2241,7 @@
     {
      "name": "Pyroblast",
      "qty": 1,
-     "unit_clp": 5200,
+     "unit_clp": 5050,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -2495,6 +2499,7 @@
     "Valley Floodcaller"
    ],
    "unresolved": [],
+   "locked_held": [],
    "to_buy": [
     {
      "name": "Aboleth Spawn",
@@ -2975,7 +2980,7 @@
    "basics": 8,
    "owned_n": 17,
    "to_buy_n": 71,
-   "cost_clp": 1233795,
+   "cost_clp": 1233695,
    "stores": [
     "cardnexus",
     "gameofmagic",
@@ -2992,6 +2997,7 @@
     "Wheel of Fortune"
    ],
    "unresolved": [],
+   "locked_held": [],
    "to_buy": [
     {
      "name": "An Offer You Can't Refuse",
@@ -3158,7 +3164,7 @@
     {
      "name": "Dismember",
      "qty": 1,
-     "unit_clp": 4100,
+     "unit_clp": 4150,
      "store": "lacomarca",
      "language": "es",
      "finish": "nonfoil",
@@ -3563,7 +3569,7 @@
     {
      "name": "Undercity Sewers",
      "qty": 1,
-     "unit_clp": 15400,
+     "unit_clp": 15250,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -3652,7 +3658,7 @@
    "basics": 6,
    "owned_n": 23,
    "to_buy_n": 69,
-   "cost_clp": 752012,
+   "cost_clp": 752062,
    "stores": [
     "afkstore",
     "cardnexus",
@@ -3669,6 +3675,7 @@
     "Leadership Vacuum"
    ],
    "unresolved": [],
+   "locked_held": [],
    "to_buy": [
     {
      "name": "Anticipate",
@@ -4006,7 +4013,7 @@
     {
      "name": "Maestros Theater",
      "qty": 1,
-     "unit_clp": 550,
+     "unit_clp": 600,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -4311,7 +4318,7 @@
    "basics": 13,
    "owned_n": 23,
    "to_buy_n": 62,
-   "cost_clp": 546097,
+   "cost_clp": 545247,
    "stores": [
     "cardnexus",
     "gameofmagic",
@@ -4326,6 +4333,7 @@
     "Valley Floodcaller"
    ],
    "unresolved": [],
+   "locked_held": [],
    "to_buy": [
     {
      "name": "Ashling, Flame Dancer",
@@ -4591,7 +4599,7 @@
     {
      "name": "My Precious // Allure of Power",
      "qty": 1,
-     "unit_clp": 2350,
+     "unit_clp": 2300,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -4780,7 +4788,7 @@
     {
      "name": "Tablet of Discovery",
      "qty": 1,
-     "unit_clp": 2550,
+     "unit_clp": 2500,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -4843,7 +4851,7 @@
     {
      "name": "Vampiric Tutor",
      "qty": 1,
-     "unit_clp": 88300,
+     "unit_clp": 88050,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -4870,7 +4878,7 @@
     {
      "name": "Wizard's Staff",
      "qty": 1,
-     "unit_clp": 7650,
+     "unit_clp": 7150,
      "store": "lacomarca",
      "language": "en",
      "finish": "foil",
@@ -4905,7 +4913,7 @@
    "basics": 13,
    "owned_n": 22,
    "to_buy_n": 64,
-   "cost_clp": 630172,
+   "cost_clp": 630122,
    "stores": [
     "afkstore",
     "cardnexus",
@@ -4921,6 +4929,7 @@
     "Jeska's Will"
    ],
    "unresolved": [],
+   "locked_held": [],
    "to_buy": [
     {
      "name": "Arcane Denial",
@@ -5168,7 +5177,7 @@
     {
      "name": "My Precious // Allure of Power",
      "qty": 1,
-     "unit_clp": 2350,
+     "unit_clp": 2300,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -5534,6 +5543,7 @@
     "Terra Eternal"
    ],
    "unresolved": [],
+   "locked_held": [],
    "to_buy": [
     {
      "name": "All Will Be One",
@@ -6059,7 +6069,7 @@
    "basics": 12,
    "owned_n": 30,
    "to_buy_n": 56,
-   "cost_clp": 1331205,
+   "cost_clp": 1331355,
    "stores": [
     "afkstore",
     "cardnexus",
@@ -6075,6 +6085,7 @@
     "Terra Eternal"
    ],
    "unresolved": [],
+   "locked_held": [],
    "to_buy": [
     {
      "name": "Abandoned Air Temple",
@@ -6304,7 +6315,7 @@
     {
      "name": "Heroic Intervention",
      "qty": 1,
-     "unit_clp": 15350,
+     "unit_clp": 15500,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -6600,7 +6611,7 @@
    "basics": 14,
    "owned_n": 37,
    "to_buy_n": 49,
-   "cost_clp": 266470,
+   "cost_clp": 266720,
    "stores": [
     "cardnexus",
     "gameofmagic",
@@ -6612,6 +6623,7 @@
    "shipping_clp": 30000,
    "no_stock": [],
    "unresolved": [],
+   "locked_held": [],
    "to_buy": [
     {
      "name": "Arboreal Grazer",
@@ -6778,7 +6790,7 @@
     {
      "name": "Heroic Intervention",
      "qty": 1,
-     "unit_clp": 15350,
+     "unit_clp": 15500,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -6859,7 +6871,7 @@
     {
      "name": "Mossborn Hydra",
      "qty": 1,
-     "unit_clp": 20800,
+     "unit_clp": 20900,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -7076,7 +7088,7 @@
    "basics": 13,
    "owned_n": 43,
    "to_buy_n": 42,
-   "cost_clp": 206367,
+   "cost_clp": 206366,
    "stores": [
     "cardnexus",
     "gameofmagic",
@@ -7091,6 +7103,7 @@
     "Terra Eternal"
    ],
    "unresolved": [],
+   "locked_held": [],
    "to_buy": [
     {
      "name": "Abzan Falconer",
@@ -7257,7 +7270,7 @@
     {
      "name": "Getaway Barrel",
      "qty": 1,
-     "unit_clp": 482,
+     "unit_clp": 481,
      "store": "piedrabruja",
      "language": "en",
      "finish": "foil",
@@ -7495,6 +7508,7 @@
    "shipping_clp": 0,
    "no_stock": [],
    "unresolved": [],
+   "locked_held": [],
    "to_buy": []
   },
   {
@@ -7520,6 +7534,7 @@
    "shipping_clp": 0,
    "no_stock": [],
    "unresolved": [],
+   "locked_held": [],
    "to_buy": []
   }
  ]
