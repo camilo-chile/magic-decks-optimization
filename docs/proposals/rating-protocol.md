@@ -8,17 +8,18 @@ history). Power is now measured with Commander Salt
 ## How a deck is scored
 1. **Layer A** (offline): `scripts/layer_a.py` writes `decks/<slug>.layer_a.json`. The floor must
    not exceed the deck's target bracket and nothing may be rejected.
-2. **Host the list.** The owner creates the deck in ManaBox (import the text list, then menu, Share,
-   Link) or on another site Commander Salt accepts, and gives the link.
-3. **Score.** Claude imports the link in Commander Salt in the browser, one deck at a time, and
-   reads: power, bracket (WotC criteria and Commander Salt), salt, pillars, anti-patterns, combos,
-   synergy, mana base, role breakdown, upgrade suggestions, and the scoring version.
-4. **Record.** The numbers go to `decks/reports/<commander-slug>-<UTC date>.md`, stamped with the
-   scoring version and the date. Scores from different versions are not compared.
-5. **Decide.** The optimizer chooses among measured candidate lists (real public lists scored by
-   the site, Phase 4) and the owner's decks upgraded with the site's Meta picks, gated by Layer A;
-   the final lists of each budget point are scored on the site before the owner chooses. No local
-   surrogate model (it would be our own power scale again).
+2. **Host the list.** Since 2026-10-18 Claude creates the deck (unlisted, paste in list) in the
+   owner's signed-in Moxfield (`camilochile`), one deck at a time, and submits the link to Commander Salt.
+3. **Score.** Claude reads on the Salt deck page: power, bracket, salt, pillars, Manabase Quality, score
+   drivers (caps and penalties), combos and the scoring version, and compares the hash of Salt's
+   "Export list" with the hash of our file (they must be identical).
+4. **Record.** The numbers go to `decks/proposals/measured.json` (one entry per list, with the hash, the
+   Salt page id and the Moxfield id) and a short report in `decks/reports/`, stamped with the scoring version
+   and the date. Scores from different versions are not compared.
+5. **Decide.** The optimizer chooses one measured checkpoint per deck for each budget at parity, gated by
+   Layer A; the final lists of each budget point are scored on the site before the owner chooses. No local
+   surrogate model (it would be our own power scale again) and no expert judgment of power: the agents'
+   estimates were 0.3 to 2.1 points too high for Toph and Alexios (`decks/reports/round2-measured-20261018.md`).
 
 ## Calibration (Phase 5)
 - Dropped on 2026-10-14 (prior-art audit): the ablation ladder (the site already shows a dense

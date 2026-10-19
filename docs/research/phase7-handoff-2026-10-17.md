@@ -11,7 +11,7 @@ Written so a fresh context can continue without the chat history.
 | 1 PayToWin | browser reading | Done: `data/prices/browser-paytowin-20261017.psv` (574 lines, 485 cards with stock; 67,143 products; see the 25,000 cap lesson below) |
 | 7 Oasis | browser reading | Done: `data/prices/browser-oasis-20261017.psv` (239 lines, 202 cards with stock; 29,956 of 30,275 products = 98.9 %: first 25,000 by JSON plus the cheap tail by HTML sorted ascending) |
 | 6 La Comarca, 8 Piedra Bruja, 9 AFK Store | `scripts/read_store_prices.py` run by the owner (only these 3 are enabled now: `ALREADY_READ`) | Done in `data/prices/20261017T2335Z.json`, no 429, 1.5 min: La Comarca 15,130 products / 750 offers, Piedra Bruja 2,072 / 31, AFK 3,086 / 212. All under the 25,000 cap. La Comarca and Piedra Bruja read fewer products than their reported counts (17,401 and 2,211), probably unpublished products; not proven, Phase 9 verifies |
-| Merge | `scripts/merge_prices.py` run by the owner | Done: `data/prices/merged-20261017T2337Z.json` + `.summary.txt`: 601 of 626 cards have stock somewhere, 25 have none (none of them is in the lock list); 64 cards are in only one store |
+| Merge | `scripts/merge_prices.py` run by the owner | Done (first merge, 2026-10-17; only the newest `data/prices/merged-*.json` is kept): 601 of 626 cards have stock somewhere, 25 have none (none of them is in the lock list); 64 cards are in only one store |
 
 The 6 Shopify stores answered HTTP 429 to the Python client (see `store-recon-2026-10-16.md`). The script is
 not disguised as a browser. The owner's browser reads them without 429.

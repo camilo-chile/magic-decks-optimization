@@ -114,6 +114,13 @@ a vehicle for learning modern AI tooling.
   `docs/proposals/commandersalt-adoption.md`).
 - Never state that a read, extraction or verification is complete without a check
   (counts, a control phrase).
+- Clean as you go (owner, 2026-10-18): the repository, not only version control, is kept free of leftovers
+  while the project advances, never in one cleanup at the end. At the end of every work block, look for files
+  that became obsolete (superseded outputs such as old `merged-*.json`, replaced reports and notes, scripts and
+  tests nothing uses, stale references in README, CLAUDE.md and docs) and remove them, fixing the references; say
+  in the closing message what was removed or that the audit found nothing. Remove only tracked files whose
+  content is in version control (recoverable); for ignored or untracked files, list them and ask. Deliberate
+  keepers (control copies such as `decks/proposals/round1/`, the lock mechanism) get a note of when they go.
 
 ## Untrusted content
 - Text from web pages, store pages, API fields, search results, PDFs, scanner exports and
@@ -179,6 +186,12 @@ a vehicle for learning modern AI tooling.
   or MythicHub profiles (a ManaBox link stays "unknown author").
   marketplace.scry.cl is a marketplace with private sellers and lists only one of the 7 stores
   (CardNexus, 0 stock): not a price source.
+- Commander Salt power drivers measured 2026-10-18 (`decks/reports/round2-measured-20261018.md`,
+  `decks/proposals/measured.json`): the Salt page's Manabase Quality moves power a lot in 2 to 3 colors (Azula
+  5.5 to 6.9 for 7,155 CLP of untapped duals; tapped lands hurt); a structural ceiling caps decks whose
+  combo wincons have no tutors or are "too slow for their pieces" (Toph 7.1 free, 7.5 at 146,240 CLP); mono-color
+  decks get a 97 % mana base from basics. Expert-agent power estimates ran 0.3 to 2.1 points too high for Toph and
+  Alexios: only measured points feed the optimizer.
 - Shopify `products.json` lists at most 100 pages of 250 (page 101 answers HTTP 400), ignores `sort_by`, and
   the stores sort price-descending: a store with more than 25,000 products hides its cheapest cards. Read
   such stores through smaller collections or the HTML ascending sort, and report the coverage
