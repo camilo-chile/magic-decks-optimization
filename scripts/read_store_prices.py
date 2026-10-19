@@ -65,7 +65,7 @@ STORES = [
 # Read in the owner's browser (the Shopify stores answer HTTP 429 to this client, see
 # docs/research/phase7-handoff-2026-10-17.md): never requested by this script.
 # Magic4Ever and CardNexus (one search per card) are enabled again for the wishlist names; they search only the
-# names the newest merged file has not requested (see new_names). scripts/merge_prices.py keeps, per store and card,
+# names the newest run of this script has not requested (see new_names). scripts/merge_prices.py keeps, per store and card,
 # the newest reading, so a partial run adds to the earlier ones instead of replacing them.
 ALREADY_READ = {"paytowin", "gameofmagic", "oasis"}
 for _store in STORES:
@@ -489,21 +489,24 @@ def summarize(targets, offers, store_stats):
 
 
 def new_names(targets):
-    """The targets the newest merged price file did not request (all of them when there is no merged file)."""
-    merged = sorted(OUT_DIR.glob("merged-*.json"))
-    if not merged:
+    """The targets the newest run of this script did not request (all of them when there is no earlier run).
+    The merged files list the repo's targets at merge time, not what the stores were asked, so they cannot tell
+    which names are new."""
+    runs = sorted(p for p in OUT_DIR.glob("2*.json") if p.stem[:8].isdigit())
+    if not runs:
         return dict(targets)
-    done = {la.normalize(n.split(" // ")[0]) for n in json.loads(merged[-1].read_text(encoding="utf-8"))
+    done = {la.normalize(n.split(" // ")[0]) for n in json.loads(runs[-1].read_text(encoding="utf-8"))
             .get("cards_requested", [])}
     return {key: name for key, name in targets.items() if key not in done}
 
 
 def read_one_store(requests, store, targets, fresh, progress):
     """Read one store with its own throttle (1 request per second to its own host); never raises, so one
-    failing store cannot lose the others. Returns (store id, offers, stats)."""
+    failing store cannot lose the others. Returns (store id, offers, stats). The stores that search one card at
+    a time look up only the names not priced yet (`fresh`); the Shopify stores always read their whole collection."""
     progress.log(f"Store started: {store['name']} ({store['kind']})")
     try:
-        store_targets = fresh if fresh and store["kind"] != "shopify" else targets
+        store_targets = targets if store["kind"] == "shopify" else fresh
         got, stats = READERS[store["kind"]](requests, Throttle(), store, store_targets, progress)
         return store["id"], got, stats
     except Exception as exc:  # noqa: BLE001
@@ -512,14 +515,24 @@ def read_one_store(requests, store, targets, fresh, progress):
 
 
 def read_all_stores(requests, active, targets, fresh, progress):
-    """Read the active stores in parallel, one thread each; offers and stats come back in store order, so the
-    output does not depend on which store finished first."""
-    with ThreadPoolExecutor(max_workers=max(len(active), 1)) as pool:
-        results = list(pool.map(lambda store: read_one_store(requests, store, targets, fresh, progress), active))
+    """Read the stores in parallel, one thread per store, except the Shopify stores: they answered HTTP 429 to all
+    of them at once from one address (2026-10-19), so they share one thread and are read one after another.
+    Offers and stats come back in store order, so the output does not depend on which store finished first."""
+    groups = [[store] for store in active if store["kind"] != "shopify"]
+    shopify = [store for store in active if store["kind"] == "shopify"]
+    if shopify:
+        groups.append(shopify)
+
+    def run(group):
+        return [read_one_store(requests, store, targets, fresh, progress) for store in group]
+
+    with ThreadPoolExecutor(max_workers=max(len(groups), 1)) as pool:
+        results = {sid: (got, stats) for group in pool.map(run, groups) for sid, got, stats in group}
     offers, store_stats = [], {}
-    for store_id, got, stats in results:
+    for store in active:
+        got, stats = results[store["id"]]
         offers += got
-        store_stats[store_id] = stats
+        store_stats[store["id"]] = stats
     return offers, store_stats
 
 
@@ -540,11 +553,14 @@ def main():
                  + ", ".join(s["name"] for s in STORES if s["enabled"]))
     active = [s for s in STORES if s["enabled"]]
     fresh = new_names(targets)  # one search per card stores look up only the names not priced yet
-    progress.log(f"{len(fresh)} of them are new since the newest merged file")
+    progress.log(f"{len(fresh)} of them are new since the newest run")
     offers, store_stats = read_all_stores(requests, active, targets, fresh, progress)
+    # a one-card-at-a-time store that failed did not look up the new names: the next run must try them again
+    searched_ok = all("error" not in store_stats[s["id"]] for s in active if s["kind"] != "shopify")
+    requested = targets if searched_ok else {k: v for k, v in targets.items() if k not in fresh}
     result = {"as_of_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
               "note": "Price-phase evidence only: `available` is a hint, stock is verified in Phase 9.",
-              "cards_requested": sorted(targets.values()), "store_stats": store_stats, "offers": offers}
+              "cards_requested": sorted(requested.values()), "store_stats": store_stats, "offers": offers}
     (OUT_DIR / f"{stamp}.json").write_text(json.dumps(result, indent=1, ensure_ascii=False), encoding="utf-8")
     (OUT_DIR / f"{stamp}.summary.txt").write_text(summarize(targets, offers, store_stats), encoding="utf-8")
     progress.log(f"Done: {len(offers)} offers. Wrote data/prices/{stamp}.json and .summary.txt")

@@ -40,7 +40,8 @@ Ezio step 46 289 / 191 / 173 / 353 (Ezio step 24: 242 / 133 / 148 / 234).
   ceiling vanished at step 30 (seven tutors that reach its win lines).
 - Expensive late buys do not help and can hurt (Toph 148,907: 7.4 below 97,537: 7.5; Ezio 70,872: 6.9). Salt differences
   of 0.1 are within its noise (the same list scored twice moved salt by 0.2, power not at all).
-- The weakest deck sets the parity level, so the curve is flat: see `decks/reports/budget-curve.md`.
+- Under the parity rule the weakest deck set the level and the curve was flat. The owner dropped the rule (2026-10-19): with the
+  highest total power the knee is about 145,000 CLP (Toph 7.4 for 49,142 CLP): see `decks/reports/budget-curve.md`.
 
 ## What could still move the weakest decks (not done, owner to decide)
 Toph's Wincons pillar is 1,654 against 219 (Azula) and 339 (Ezio): its deck holds many Spellbook win lines with tutors.

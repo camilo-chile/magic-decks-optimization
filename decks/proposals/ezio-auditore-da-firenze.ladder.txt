@@ -27,7 +27,6 @@
 1 Royal Assassin
 1 Poison-Blade Mentor
 1 Merciless Harlequin
-1 Darkblade Agent
 1 Aven Heartstabber
 1 Brotherhood Spy
 1 Agate-Blade Assassin
@@ -36,17 +35,11 @@
 1 Rooftop Assassin
 1 Haytham Kenway
 1 Inspiring Overseer
-1 Shao Jun
-1 Rakdos, the Muscle
 1 Loyal Inventor
-1 Nightshade Assassin
-1 Combustion Man
-1 Aveline de Grandpré
-1 Eivor, Wolf-Kissed
 1 Deathcap Cultivator
-1 Earth Kingdom Jailer
-1 Hired Blade
-1 Brotherhood Patriarch
+1 Deadeye Navigator
+1 Hullcarver
+1 Shao Jun
 1 Sol Ring
 1 Arcane Signet
 1 Dimir Locket
@@ -62,76 +55,85 @@
 1 Terminate
 1 Feed the Swarm
 1 Chaos Warp
-1 Kaya, Ghost Assassin
-1 Decree of Pain
+1 Epic Downfall
+1 Lava Coil
+1 Explosive Shot
+1 Justice Strike
+1 Mirrodin Avenged
 1 It'll Quench Ya!
+1 Kaya, Ghost Assassin
 1 The Revelations of Ezio
+1 Starfall Invocation
 1 Coastal Piracy
 1 Rooftop Bypass
 1 Theater of Horrors
 1 Notion Rain
+1 Brainstorm
+1 Faithless Looting
+1 Mishra's Bauble
+1 Abandon Attachments
+1 Glimpse the Cosmos
 1 Petty Larceny
-1 Disinformation Campaign
+1 Hemlock Vial
+1 Entomb
+1 Seismic Sense
+1 Restart Sequence
+1 Intruder Alarm
 1 Swiftfoot Boots
 1 Assassin Gauntlet
-1 Mechanical Glider
-1 Auditore Ambush
-1 Restart Sequence
-1 Origin of the Hidden Ones
-1 Seismic Sense
-1 What Must Be Done
-1 Entomb
 
 // Ladder
-+ Exotic Orchard | - Forest | untapped land that makes any color the opponents' lands make; 500 CLP
-+ Chromatic Lantern | - Boros Locket | every land taps for any color: fixes all five colors for the price of a two-color rock
-+ Drowned Catacomb | - Island | untapped U/B check land (Swamps, Islands, Sunken Hollow and Prairie Stream turn it on)
++ Chromatic Lantern | - Boros Locket | every land taps for any color: fixes five colors for 600 CLP
++ Exotic Orchard | - Forest | untapped any-color land
++ Venser, Shaper Savant | - Shao Jun | second Spellbook line with the owned Intruder Alarm (Venser + Alarm, 7 mana, floor 3 with a note); flash bounce of any spell or permanent
++ Mystical Teachings | - Glimpse the Cosmos | instant tutor for Venser now, for Return the Favor and Dualcaster Mage later; also counterspells and removal
++ Survivors' Encampment | - Plains | untapped any-color land
++ Drowned Catacomb | - Island | untapped U/B check land
 + Dragonskull Summit | - Mountain | untapped B/R check land
-+ Survivors' Encampment | - Plains | untapped any-color land (tap a creature), the deck always has one
-+ Godo, Bandit Warlord | - Eivor, Wolf-Kissed | win line: Godo puts Helm of the Host onto the battlefield as he enters; Godo + Helm = infinite combats (Spellbook, 2 cards, 10 mana: Layer A floor 3); BB by freerunning once Roshan is out
-+ Helm of the Host | - Mechanical Glider | the second piece; also makes a hasty non-legendary Ezio (alt-win trigger) or Queen Marchesa every combat
-+ Reckless Handling | - Darkblade Agent | 2-mana tutor for Helm right after the combo arrives (Salt cap: wincon combos with no tutors); Loyal Inventor, Godo, Entomb and Seismic Sense are the other four
-+ Sunken Hollow | - Swamp | U/B dual with basic types (feeds the check lands)
++ Etrata, the Silencer | - Brotherhood Spy | unblockable Assassin; each hit exiles a creature with a hit counter and three hit-counter cards kill: the hub of the copy lines
++ Return the Favor | - Hemlock Vial | copies Etrata's trigger (and any spell or ability) or redirects a removal spell
++ Peter Parker's Camera | - Mirrodin Avenged | Etrata + Return the Favor + Camera: three triggers, that opponent loses (Spellbook, 3 cards); copies Godo, Helm, Thorn or Ravenloft triggers otherwise
++ Reckless Handling | - Notion Rain | 2-mana tutor for the Camera (later Strionic Resonator, Lithoform Engine, Helm)
++ Sunken Hollow | - Swamp | U/B dual with basic types
 + Smoldering Marsh | - Swamp | B/R dual with basic types
++ Infernal Grasp | - Explosive Shot | 2-mana instant unconditional removal for a 2-mana sorcery
++ Isolated Chapel | - Plains | untapped W/B check land
 + Sulfur Falls | - Island | U/R check land
 + Clifftop Retreat | - Mountain | R/W check land
 + Fortified Village | - Forest | G/W reveal land
 + Game Trail | - Mountain | R/G reveal land
-+ Furycalm Snarl | - Plains | R/W reveal land
 + Frostboil Snarl | - Island | U/R reveal land
-+ Canopy Vista | - Swamp | G/W dual with basic types
-+ Cinder Glade | - Swamp | R/G dual with basic types
-+ Thorn of the Black Rose | - Brotherhood Patriarch | monarch on a deathtouch body for 350; evasive Assassins keep the crown
-+ Ravenloft Adventurer | - Nightshade Assassin | initiative: Undercity rooms are card advantage that removal cannot touch
-+ Infernal Grasp | - Decree of Pain | 2-mana instant removal for an 8-mana wipe (lower curve); What Must Be Done stays as the reset
-+ Eagle Vision | - Disinformation Campaign | draw three for {1}{U} after combat damage
-+ Queen Marchesa | - Agate-Blade Assassin | monarch plus deathtouch haste; makes Assassin tokens while an opponent holds the crown
-+ Nekrataal | - Aveline de Grandpré | removal on a 4-drop Assassin paid with black only (Aveline needs GG)
-+ Bayek of Siwa | - Combustion Man | double strike for every historic (legendary) creature on our turn: two Ezio damage steps, two alt-win checks
-+ Whispersilk Cloak | - Brotherhood Spy | Ezio unblockable every turn: freerunning every turn and the WUBRG kill at 10 life
++ Thorn of the Black Rose | - Agate-Blade Assassin | monarch on a deathtouch Assassin: a card every turn
++ Ravenloft Adventurer | - Aven Heartstabber | initiative (Undercity); its hit counters also feed Etrata's kill
++ Fateful Absence | - Lava Coil | 2-mana instant removal for a sorcery
++ Winter Soldier, Icy Assassin | - Poison-Blade Mentor | 2-mana menace vigilance Assassin legend that returns
++ Desmond Miles | - Silumgar Assassin | 2-mana menace Assassin that grows with every Assassin
++ Etrata, Deadly Fugitive | - Merciless Harlequin | deathtouch; Assassin hits cloak cards: bodies and card advantage
++ Nekrataal | - Rooftop Bypass | removal on an Assassin body
++ Tome of Legends | - Petty Larceny | a card per Ezio attack for {1} (2 mana for a 4-mana printed card)
++ Bitter Triumph | - Justice Strike | 2-mana instant removal for any creature or planeswalker
++ Mana Leak | - It'll Quench Ya! | harder counter for the same 2 mana
++ Kolaghan's Command | - Feed the Swarm | instant two-for-one
++ Strionic Resonator | - Inspiring Overseer | two more Etrata lines (with Return the Favor, with the Camera); copies any trigger for {2}
++ Queen Marchesa | - Ratonhnhaké꞉ton | second monarch card, deathtouch haste, Assassin tokens
++ Lithoform Engine | - Rooftop Assassin | three more Etrata lines (with Return the Favor, Camera, Resonator); copies spells and permanents late
++ Dualcaster Mage | - Hullcarver | Dualcaster + the owned Starfall Invocation (Spellbook, 8 mana, floor 3 with a note); flash copy of removal otherwise
++ Ember Island Production | - Abandon Attachments | owned: Dualcaster + Ember Island Production is one more line (8 mana, floor 3 with a note)
++ Rakdos Signet | - Barrels of Blasting Jelly | 2-mana B/R rock for a once-a-turn filter
++ Stroke of Midnight | - Epic Downfall | instant answer to any nonland permanent
++ Everflowing Chalice | - Bender's Waterskin | a 2-mana rock with mana value 0 for a 3-mana one
++ Kiki-Jiki, Mirror Breaker | - Coastal Piracy | three lines at once: Kiki + Intruder Alarm (8 mana, floor 3), Kiki + Dualcaster + Return the Favor (Spellbook); copies Thorn, Ravenloft or Nekrataal otherwise
++ Goblin Bombardment | - Theater of Horrors | outlet; turns Kiki tokens into damage
++ All-Fates Stalker | - Kaya, Ghost Assassin | Kiki + Bombardment + All-Fates: infinite damage (Spellbook); exiles a non-Assassin creature otherwise
++ Sheoldred's Edict | - Murder | instant edict for hexproof and indestructible threats
++ Godo, Bandit Warlord | - Restart Sequence | enters and puts Helm of the Host onto the battlefield (tutor and first half of the next line)
++ Helm of the Host | - Assassin Gauntlet | Godo + Helm (infinite combats, 10 mana) and Kiki + Helm (Spellbook, floor 3); copies Ezio or Queen every combat
++ Counterspell | - Chaos Warp | hard counter for a 3-mana removal spell
 + Talisman of Dominance | - Dimir Locket | 2-mana U/B rock for a 3-mana one
-+ Counterspell | - It'll Quench Ya! | hard counter for a soft one
-+ Kolaghan's Command | - Feed the Swarm | instant two-for-one (recursion, discard, artifact or damage)
-+ Etrata, Deadly Fugitive | - Lydia Frye | deathtouch; every Assassin hit cloaks a card from that opponent's library: bodies and card advantage
-+ Phyrexian Arena | - Silumgar Assassin | a card every turn
-+ Fact or Fiction | - Auditore Ambush | instant card advantage for a sorcery-speed tutor of one card
-+ Tome of Legends | - Aven Heartstabber | Ezio attacks every turn: a card per attack for {1}
-+ Winter Soldier, Icy Assassin | - Poison-Blade Mentor | 2-mana menace vigilance legend that grows with the Equipment and comes back
-+ Fateful Absence | - Earth Kingdom Jailer | 2-mana instant removal for a conditional 3-drop
-+ Vraska, the Cutting Glare | - Shao Jun | deathtouch 3-drop that destroys any permanent late
-+ Fellwar Stone | - Barrels of Blasting Jelly | 2-mana any-color rock for a once-a-turn filter
-+ Chain Assassination | - Origin of the Hidden Ones | instant removal for {1}{B} after combat damage, draws a card
-+ Battlefield Forge | - Rumble Arena | untapped R/W land for a colorless filter
-+ Kiki-Jiki, Mirror Breaker | - Hired Blade | second and third win lines: Kiki + Intruder Alarm (infinite hasty tokens, 8 mana, floor 3) and Kiki + Helm + Goblin Bombardment; copies Thorn, Ravenloft or Nekrataal otherwise; BB by freerunning with Roshan
-+ Intruder Alarm | - Notion Rain | owned combo piece for Kiki-Jiki (no Joo Dee, Xerex or Deadeye in the list, so no early two-card loop)
-+ Goblin Bombardment | - Petty Larceny | outlet: Kiki tokens become damage at instant speed; Kiki + Helm + Bombardment wins
-+ Sheoldred's Edict | - Fatal Push | instant edict that answers hexproof or indestructible threats; Fatal Push misses most commanders
-+ Imperial Recruiter | - Inspiring Overseer | tutor for Kiki-Jiki (power 2), Nekrataal, Thorn or Royal Assassin
-+ Mari, the Killing Quill | - Merciless Harlequin | every Assassin gets deathtouch; hits draw a card and make two Treasures
-+ Shivan Reef | - White Lotus Hideout | untapped U/R land for a colorless filter
-+ Gamble | - Rakdos, the Muscle | Game Changer 1 of 3: 1-mana tutor for any piece (Kiki, Godo, Helm, Intruder Alarm)
-+ Cover of Darkness | - Rooftop Bypass | Assassins have fear (with Roshan every creature): the whole team connects
-+ Plaza of Heroes | - Swamp | untapped land that casts every legendary spell in any color
-+ Underground River | - Abstergo Entertainment | untapped U/B land for a colorless filter
-+ Enlightened Tutor | - Bender's Waterskin | Game Changer 2 of 3: instant tutor for Helm, Intruder Alarm, Bombardment or Whispersilk
-+ Basim Ibn Ishaq | - Ratonhnhaké꞉ton | draws a card for each historic spell (most of the deck) and is unblockable that turn
++ Phyrexian Arena | - Faithless Looting | a card every turn
++ Whispersilk Cloak | - Rampant Growth | Ezio unblockable every turn: freerunning and the WUBRG kill
++ Fellwar Stone | - Lydia Frye | 2-mana any-color rock
++ Recruiter of the Guard | - Jacob Frye | tutor for Kiki-Jiki, Dualcaster or Venser (toughness 2)
++ Mari, the Killing Quill | - Evie Frye | Assassins get deathtouch; hits draw and make Treasures; its hit counters feed Etrata
++ Idyllic Tutor | - The Revelations of Ezio | tutor for Intruder Alarm, the only piece of three lines nothing else reaches; also Bombardment or Arena
++ Diabolic Intent | - Mortify | 2-mana tutor for any piece (sacrifice a Kiki token or a spare body)

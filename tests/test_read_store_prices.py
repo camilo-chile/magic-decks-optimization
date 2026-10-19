@@ -193,7 +193,7 @@ def test_extra_targets_of_a_deck_without_a_candidate_list_are_read():
     assert sorted(got.values()) == ["Bayek of Siwa", "Mari, the Killing Quill"]  # a basic land is never a target
 
 
-def test_new_names_are_the_targets_the_newest_merged_file_did_not_request():
+def test_new_names_are_the_targets_the_newest_run_did_not_request():
     import json
     import tempfile
     old = mod.OUT_DIR
@@ -201,8 +201,12 @@ def test_new_names_are_the_targets_the_newest_merged_file_did_not_request():
         with tempfile.TemporaryDirectory() as tmp:
             mod.OUT_DIR = Path(tmp)
             targets = {"sol ring": "Sol Ring", "opt": "Opt"}
-            assert mod.new_names(targets) == targets  # no merged file yet
-            (Path(tmp) / "merged-20261017T0000Z.json").write_text(
+            assert mod.new_names(targets) == targets  # no run yet
+            # a merged file lists the repo's targets at merge time: it must not hide the new names
+            (Path(tmp) / "merged-20261018T0000Z.json").write_text(
+                json.dumps({"cards_requested": ["Sol Ring", "Opt"]}), encoding="utf-8")
+            assert mod.new_names(targets) == targets
+            (Path(tmp) / "20261017T0000Z.json").write_text(
                 json.dumps({"cards_requested": ["Sol Ring"]}), encoding="utf-8")
             assert mod.new_names(targets) == {"opt": "Opt"}
     finally:
@@ -245,6 +249,41 @@ def test_stores_are_read_in_parallel_in_store_order_and_a_failure_stays_in_its_s
             assert "FAILED B" in (Path(tmp) / "run.progress.log").read_text(encoding="utf-8")
     finally:
         mod.READERS = old
+
+
+def test_shopify_stores_are_read_one_after_another_beside_the_other_stores():
+    import tempfile
+    import threading
+    import time
+    spans = {}
+
+    def shop(requests, throttle, store, targets, progress):
+        spans[store["id"]] = [time.time(), None, threading.get_ident()]
+        time.sleep(0.2)
+        spans[store["id"]][1] = time.time()
+        return [], {"offers": 0}
+
+    def card(requests, throttle, store, targets, progress):
+        assert targets == {"opt": "Opt"}  # the per-card store searches only the fresh names
+        spans[store["id"]] = [time.time(), None, threading.get_ident()]
+        time.sleep(0.2)
+        spans[store["id"]][1] = time.time()
+        return [], {"offers": 0}
+
+    stores = [{"id": "s1", "name": "S1", "kind": "shop"}, {"id": "c1", "name": "C1", "kind": "card"},
+              {"id": "s2", "name": "S2", "kind": "shopify"}, {"id": "s3", "name": "S3", "kind": "shopify"}]
+    old = mod.READERS
+    try:
+        mod.READERS = {"shop": shop, "shopify": shop, "card": card}
+        with tempfile.TemporaryDirectory() as tmp:
+            progress = mod.Progress(Path(tmp) / "run.progress.log")
+            mod.read_all_stores(None, stores, {"sol ring": "Sol Ring", "opt": "Opt"}, {"opt": "Opt"}, progress)
+    finally:
+        mod.READERS = old
+    assert spans["s2"][1] <= spans["s3"][0] + 0.01  # the second Shopify store started after the first one ended
+    assert spans["s2"][2] == spans["s3"][2]          # in the same thread
+    assert spans["c1"][2] != spans["s2"][2]          # the per-card store runs beside them
+    assert spans["c1"][0] < spans["s2"][1]
 
 
 def test_progress_log_keeps_every_line_whole_when_threads_log_together():

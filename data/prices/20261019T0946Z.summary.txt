@@ -1,0 +1,1033 @@
+Stores
+  magic4ever: {'cards_searched': 140, 'offers': 525}
+  cardnexus: {'cards_searched': 140, 'offers': 409}
+  lacomarca: {'error': 'RuntimeError: HTTP 429 three times: stopping this store'}
+  piedrabruja: {'error': 'RuntimeError: HTTP 429 three times: stopping this store'}
+  afkstore: {'error': 'RuntimeError: HTTP 429 three times: stopping this store'}
+
+Cards requested: 1021; with at least one available offer: 117; with none: 904
+
+Cards with no available offer (English or Spanish, NM or LP):
+  Abandon Attachments
+  Abandoned Air Temple
+  Aboleth Spawn
+  Abrade
+  Abstergo Entertainment
+  Abyssal Hunter
+  Abzan Falconer
+  Achilles Davenport
+  Adrestia
+  Adéwalé, Breaker of Chains
+  Agate-Blade Assassin
+  Agent of the Fates
+  Aggravated Assault
+  Agitator Ant
+  Akki Battle Squad
+  Akroma's Will
+  Alexios, Deimos of Kosmos
+  All Will Be One
+  All-Fates Scroll
+  All-Fates Stalker
+  Altaïr Ibn-La'Ahad
+  Amphibian Downpour
+  Amulet of Vigor
+  An Offer You Can't Refuse
+  Ancient Den
+  Ancient Tomb
+  Anger
+  Anger of the Gods
+  Anhelo, the Painter
+  Annie Joins Up
+  Anticipate
+  Aphelia, Viper Whisperer
+  Apple of Eden, Isu Relic
+  Aqueous Form
+  Arbaaz Mir
+  Arboreal Grazer
+  Arcane Denial
+  Arcane Heist
+  Arcane Signet
+  Arcbound Ravager
+  Archmage Emeritus
+  Archmage of Runes
+  Arena of Glory
+  Argentum Armor
+  Arid Mesa
+  Arno Dorian
+  Ashaya, Soul of the Wild
+  Ashling, Flame Dancer
+  Ashnod's Altar
+  Assassin Den
+  Assassin Gauntlet
+  Assassin Initiate
+  Assassin's Trophy
+  Auditore Ambush
+  Avatar Kyoshi, Earthbender
+  Avatar Roku, Firebender
+  Avatar's Wrath
+  Aveline de Grandpré
+  Aven Heartstabber
+  Avenger of Zendikar
+  Aya of Alexandria
+  Azula, Cunning Usurper
+  Azusa, Lost but Seeking
+  Ba Sing Se
+  Badgermole
+  Badgermole Cub
+  Badlands
+  Ballad of the Black Flag
+  Barrels of Blasting Jelly
+  Basim Ibn Ishaq
+  Battlefield Forge
+  Battlefield Improvisation
+  Baxter Building
+  Bayek of Siwa
+  Beamtown Beatstick
+  Beast Within
+  Become Anonymous
+  Bedlam
+  Bender's Waterskin
+  Big Game Hunter
+  Big Score
+  Bile-Vial Boggart
+  Birds of Paradise
+  Birgi, God of Storytelling
+  Bitter Triumph
+  Bitter Work
+  Bitterthorn, Nissa's Animus
+  Black Market Connections
+  Black Waltz No. 3
+  Black Widow, Deadly Hunter
+  Black Widow, Natasha Romanoff
+  Blackblade Reforged
+  Blade of the Swarm
+  Bladegraft Aspirant
+  Blasphemous Act
+  Blazemire Verge
+  Blazing Firesinger
+  Bleeding Effect
+  Blightstep Pathway
+  Blood Crypt
+  Blood Operative
+  Bloodstained Mire
+  Boilerbilges Ripper
+  Bojuka Bog
+  Bolt Bend
+  Boompile
+  Bootleggers' Stash
+  Borne Upon a Wind
+  Boros Charm
+  Boros Garrison
+  Bountiful Promenade
+  Brainstorm
+  Branching Evolution
+  Brash Taunter
+  Brass Squire
+  Brazen Borrower
+  Briarblade Adept
+  Bridgeworks Battle
+  Brightglass Gearhulk
+  Bristly Bill, Spine Sower
+  Brotherhood Ambushers
+  Brotherhood Headquarters
+  Brotherhood Patriarch
+  Brotherhood Regalia
+  Brotherhood Spy
+  Brushland
+  Bulk Up
+  Bullseye, Death Dealer
+  Bumi, Eclectic Earthbender
+  Bumi, Unleashed
+  Bureau Headmaster
+  Buried Ruin
+  Buster Sword
+  Cabal Ritual
+  Cackling Slasher
+  Caduceus, Staff of Hermes
+  Callidus Assassin
+  Canopy Vista
+  Cascade Bluffs
+  Castle Embereth
+  Cataclysmic Gearhulk
+  Cavern of Souls
+  Chain Assassination
+  Champion's Helm
+  Chandra's Ignition
+  Changing Loyalty
+  Chaos Warp
+  Choked Estuary
+  Chord of Calling
+  Chromatic Lantern
+  Cinder Glade
+  Cindering Cutthroat
+  City of Brass
+  City of Traitors
+  Clearwater Pathway
+  Cleopatra, Exiled Pharaoh
+  Clifftop Retreat
+  Combat Celebrant
+  Combustion Man
+  Comet Storm
+  Command Beacon
+  Command Tower
+  Commander's Plate
+  Commander's Sphere
+  Concealed Courtyard
+  Concordant Crossroads
+  Consider
+  Constant Mists
+  Cormela, Glamour Thief
+  Cosmic Cube
+  Count on Luck
+  Counterspell
+  Cover of Darkness
+  Cracked Earth Technique
+  Crackle with Power
+  Crawlspace
+  Crimson Wisps
+  Crop Rotation
+  Crucible of Worlds
+  Cruel Sadist
+  Crumbling Necropolis
+  Crystal Skull, Isu Spyglass
+  Culling the Weak
+  Cultivate
+  Cunning Nightbonder
+  Curse of Opulence
+  Cursed Mirror
+  Cycle of Renewal
+  Cyclonic Rift
+  Dancing from Dark to Dawn
+  Dark Impostor
+  Dark Ritual
+  Darkblade Agent
+  Darksteel Citadel
+  Darksteel Plate
+  Darkwater Catacombs
+  Day of Black Sun
+  Deadeye Duelist
+  Deadly Dispute
+  Deadly Rollick
+  Defense Grid
+  Deflecting Swat
+  Delayed Blast Fireball
+  Demand Answers
+  Demolition Field
+  Demonic Tutor
+  Desmond Miles
+  Desperate Ritual
+  Desynchronization
+  Detained by Legionnaires
+  Diabolic Intent
+  Dig Through Time
+  Dimir Signet
+  Disciple of Freyalise
+  Dismember
+  Dispatch
+  Disrupt Decorum
+  Distract the Guards
+  Dolmen Gate
+  Downwind Ambusher
+  Dragon's Rage Channeler
+  Dragonskull Summit
+  Dramatic Reversal
+  Drowned Catacomb
+  Dryad of the Ilysian Grove
+  Dualcaster Mage
+  Dune Chanter
+  Dwarven Mauler
+  Dwarven Miner
+  Eagle Vision
+  Earth Kingdom General
+  Earth Rumble
+  Earthbender Ascension
+  Earthbending Lesson
+  Earthbending Student
+  Earthshape
+  Edward Kenway
+  Eivor, Battle-Ready
+  Eivor, Wolf-Kissed
+  Eladamri's Call
+  Eldrazi Monument
+  Electro, Assaulting Battery
+  Electrodominance
+  Electrolyze
+  Elektra, Femme Fatale
+  Elemental Teachings
+  Elena, Turk Recruit
+  Elvish Reclaimer
+  Embercleave
+  Emergence Zone
+  Emeritus of Truce
+  Emeritus of Woe
+  Enduring Curiosity
+  Energy Refractor
+  Enlightened Tutor
+  Entish Restoration
+  Epic Downfall
+  Erode
+  Errantry
+  Ertai Resurrected
+  Escape Detection
+  Escarpment Fortress
+  Esper Sentinel
+  Etali, Primal Storm
+  Etrata, Deadly Fugitive
+  Etrata, the Silencer
+  Everflowing Chalice
+  Evie Frye
+  Evolution Sage
+  Evolving Wilds
+  Excalibur, Sword of Eden
+  Exotic Orchard
+  Expedition Map
+  Experimental Augury
+  Experimental Synthesizer
+  Exploration Broodship
+  Exsanguinate
+  Eyeblight Assassin
+  Ezio Auditore da Firenze
+  Ezio, Blade of Vengeance
+  Ezio, Brash Novice
+  Fabled Passage
+  Fact or Fiction
+  Faerie Mastermind
+  Faithless Looting
+  Fall of the First Civilization
+  Farseek
+  Fated Firepower
+  Fateful Absence
+  Fateful Showdown
+  Feed the Swarm
+  Felidar Retreat
+  Fell the Profane
+  Fellwar Stone
+  Field of the Dead
+  Fiendish Duo
+  Fierce Guardianship
+  Fiery Confluence
+  Fiery Islet
+  Final-Sting Faerie
+  Fire Diamond
+  Fire Lord Azula
+  Fire Nation Archers
+  Fire Nation Palace
+  Fire-Lit Thicket
+  Firebender Ascension
+  Firebending Student
+  Fishing Gear
+  Fists of Flame
+  Flashback
+  Fleshtaker
+  Flooded Strand
+  Foreboding Ruins
+  Forgotten Cave
+  Formidable Speaker
+  Fortified Village
+  Foundry Inspector
+  Frantic Search
+  Freya Crescent
+  Frostboil Snarl
+  Frostcliff Siege
+  Furnace of Rath
+  Fury
+  Furycalm Snarl
+  Fíli and Kíli, Joyous
+  Gamble
+  Game Trail
+  Garza's Assassin
+  Gateway Plaza
+  Geier Reach Sanitarium
+  Gemstone Caverns
+  Generous Gift
+  Genji Glove
+  Get Out
+  Getaway Barrel
+  Gilgamesh, Master-at-Arms
+  Gixian Skullflayer
+  Glamdring, Foe-hammer
+  Gloom Ripper
+  Gloomlake Verge
+  Goblin Assassin
+  Goblin Bombardment
+  Goblin Electromancer
+  Goblin Engineer
+  Goblin Welder
+  Godo, Bandit Warlord
+  Gogo, Mysterious Mime
+  Goldspan Dragon
+  Goldvein Pick
+  Grafdigger's Cage
+  Grafted Wargear
+  Graven Cairns
+  Great Divide Guide
+  Great Furnace
+  Green Sun's Zenith
+  Grim Reaper's Sprint
+  Gruul Signet
+  Gruul Turf
+  Guildsworn Prowler
+  Guttersnipe
+  Guul Draz Assassin
+  Hagra Sharpshooter
+  Hammer of Nazahn
+  Hanweir Battlements
+  Hardened Scales
+  Harmonize
+  Harrow
+  Haru, Hidden Talent
+  Haste Magic
+  Haunted Cloak
+  Haunted Ridge
+  Havi, the All-Father
+  Haystack
+  Haytham Kenway
+  Haywire Mite
+  Headsplitter
+  Heaped Harvest
+  Heartless Act
+  Helm of the Host
+  Hemlock Vial
+  Heroic Intervention
+  Hexing Squelcher
+  Hexplate Wallbreaker
+  Hidden Blade
+  Hidden Footblade
+  High Fae Trickster
+  Hired Blade
+  Hired Poisoner
+  Hit-Monkey
+  Hooded Assassin
+  Hookblade
+  Hookblade Veteran
+  Hour of Revelation
+  Hullbreaker Horror
+  Hullcarver
+  Hunter of Eyeblights
+  Hunter's Bow
+  Hushwood Verge
+  Hydroelectric Specimen
+  Ichor Wellspring
+  Imperial Recruiter
+  Impulse
+  Increasing Vengeance
+  Infernal Grasp
+  Infiltration Lens
+  Inspiring Call
+  Instant Ramen
+  Inti, Seneschal of the Sun
+  Into the Flood Maw
+  Inventors' Fair
+  Invoke Calamity
+  Iridescent Vinelasher
+  Iroh, Firebending Instructor
+  Iron Myr
+  Isochron Scepter
+  Izzet Signet
+  Jackdaw
+  Jacob Frye
+  Jeska's Will
+  Jeska, Thrice Reborn
+  Jetmir's Garden
+  Jungle Shrine
+  Kamahl's Will
+  Karplusan Forest
+  Kassandra, Eagle Bearer
+  Kediss, Emberclaw Familiar
+  Keen-Eyed Raven
+  Kelsien, the Plague
+  Kess, Dissident Mage
+  Kiki-Jiki, Mirror Breaker
+  Kiku, Night's Flower
+  King's Assassin
+  Kodama's Reach
+  Kolaghan's Command
+  Komainu Battle Armor
+  Koth, the Geomancer
+  Kraul Stinger
+  Kraul Whipcracker
+  Krosan Verge
+  Kutzil, Malamet Exemplar
+  Labyrinth Adversary
+  Lavaspur Boots
+  Layla Hassan
+  Leadership Vacuum
+  Lembas
+  Leonardo da Vinci
+  Leyline of Anticipation
+  Lightning Bolt
+  Lightning Greaves
+  Lightning Strike
+  Liquimetal Coating
+  Liquimetal Torque
+  Lithoform Engine
+  Lizard Blades
+  Loading Zone
+  Lotus Cobra
+  Lotus Field
+  Lotus Petal
+  Loyal Inventor
+  Lumbering Worldwagon
+  Lurking Deadeye
+  Luxior, Giada's Gift
+  Luxury Suite
+  Lydia Frye
+  Lys Alana Scarblade
+  Maestros Theater
+  Magda, Brazen Outlaw
+  Magic Damper
+  Magister Sphinx
+  Magnetic Theft
+  Magus of the Wheel
+  Mai and Zuko
+  Malakir Rebirth
+  Mana Geyser
+  Mana Leak
+  Mana Sculpt
+  Mari, the Killing Quill
+  Marketback Walker
+  Marsh Flats
+  Mary Read and Anne Bonny
+  Mask of Memory
+  Massacre Girl
+  Massacre Girl, Known Killer
+  Massacre Girl, Most Wanted
+  Master's Rebuke
+  Maximus, Knight Apparent
+  Maze of Ith
+  Memory Deluge
+  Mer-Ek Nightblade
+  Merciless Harlequin
+  Merfolk Assassin
+  Merfolk Trickster
+  Midnight Assassin
+  Might of the Meek
+  Mind Stone
+  Mindslaver
+  Mines of Moria
+  Mishra's Bauble
+  Misthios's Fury
+  Misty Rainforest
+  Mithril Coat
+  Mjölnir, Hammer of Thor
+  Mjölnir, Storm Hammer
+  Mocking Doppelganger
+  Mogg Assassin
+  Monastery Raid
+  Moonsilver Spear
+  Morphic Pool
+  Mossborn Hydra
+  Mossfire Valley
+  Mox Opal
+  Multiversal Passage
+  Murderous Redcap
+  My Precious
+  Mycosynth Lattice
+  Mycosynth Wellspring
+  Myriad Landscape
+  Mystical Teachings
+  Narset's Reversal
+  Nature's Lore
+  Negate
+  Neheb, the Eternal
+  Nekrataal
+  Nexus of Fate
+  Nightmare Sower
+  Nightscape Familiar
+  Nightshade Assassin
+  Nirkana Assassin
+  Nissa, Worldsoul Speaker
+  Notorious Assassin
+  Nutrient Block
+  Nykthos, Shrine to Nyx
+  Observed Stasis
+  Ochran Assassin
+  Olivia, Opulent Outlaw
+  Omnath, Locus of Rage
+  Ondu Inversion
+  Opt
+  Orcish Bowmasters
+  Origin of Metalbending
+  Origin of the Hidden Ones
+  Ornithopter of Paradise
+  Orzhov Euthanist
+  Oscorp Industries
+  Otawara, Soaring City
+  Ouroboroid
+  Outpost Siege
+  Overgrown Farmland
+  Overpowering Attack
+  Ozai, the Phoenix King
+  Ozolith, the Shattered Spire
+  Palazzo Archers
+  Past in Flames
+  Path of Ancestry
+  Path to Exile
+  Patrolling Peacemaker
+  Peek
+  Peter Parker's Camera
+  Petty Larceny
+  Phantom Blade
+  Phyrexian Arena
+  Pinnacle Monk
+  Pip-Boy 3000
+  Pit of Offerings
+  Planar Cleansing
+  Planar Engineering
+  Planar Outburst
+  Plateau
+  Plaza of Heroes
+  Poison-Blade Mentor
+  Polluted Delta
+  Powerbalance
+  Prismari Command
+  Prismatic Omen
+  Prismatic Vista
+  Prized Statue
+  Professional Face-Breaker
+  Professor Onyx
+  Prying Blade
+  Pyretic Ritual
+  Pyroblast
+  Pyrotechnic Performer
+  Queen Marchesa
+  Raffine's Silencer
+  Ragavan, Nimble Pilferer
+  Rakdos Charm
+  Rakdos Signet
+  Rakdos, the Muscle
+  Rampaging Baloths
+  Rampant Growth
+  Ramses Overdark
+  Ramses, Assassin Lord
+  Rathi Assassin
+  Ratonhnhaké꞉ton
+  Raubahn, Bull of Ala Mhigo
+  Raucous Theater
+  Raven Clan War-Axe
+  Raven Eagle
+  Ravenloft Adventurer
+  Razorkin Needlehead
+  Razorverge Thicket
+  Reckless Handling
+  Reckless Ransacking
+  Recruiter of the Guard
+  Red Elemental Blast
+  Redirect
+  Redirect Lightning
+  Reforge the Soul
+  Reliquary Tower
+  Reno and Rude
+  Repeat Offender
+  Repercussion
+  Resonating Lute
+  Resourceful Defense
+  Restart Sequence
+  Return the Favor
+  Reverberate
+  Rishkar's Expertise
+  Rite of Flame
+  Rite of Passage
+  Rite of the Raging Storm
+  Rites of Flourishing
+  Riverglide Pathway
+  Riverpyre Verge
+  Rockfall Vale
+  Rogue's Gloves
+  Rogue's Passage
+  Rooftop Assassin
+  Rooftop Bypass
+  Rootbound Crag
+  Roshan, Hidden Magister
+  Royal Assassin
+  Ruby Medallion
+  Rugged Prairie
+  Rumble Arena
+  Run Amok
+  Rupture Spire
+  Ruthless Lawbringer
+  Ruthless Ripper
+  Sabotender
+  Sacred Foundry
+  Sakura-Tribe Elder
+  Sandstone Needle
+  Savannah
+  Sawblade Skinripper
+  Sazacap's Brew
+  Scalding Tarn
+  Scarblade Elite
+  Scavenger Grounds
+  Scute Swarm
+  Seasoned Pyromancer
+  Secret Tunnel
+  Sedgemoor Witch
+  Seething Landscape
+  Seething Song
+  Seismic Sense
+  Seize the Spoils
+  Selesnya Sanctuary
+  Selesnya Signet
+  Senu, Keen-Eyed Protector
+  Serpent Assassin
+  Settlement Blacksmith
+  Shadow, Mysterious Assassin
+  Shadowblood Ridge
+  Shao Jun
+  Shared Roots
+  Shatterskull Smashing
+  Shaun & Rebecca, Agents
+  Shay Cormac
+  Sheoldred's Edict
+  Shinka, the Bloodsoaked Keep
+  Shiny Impetus
+  Shipwreck Marsh
+  Shivan Reef
+  Shore Up
+  Sigurd, Jarl of Ravensthorpe
+  Silent Arbiter
+  Silent Assassin
+  Silumgar Assassin
+  Silver Shroud Costume
+  Simian Spirit Guide
+  Sink into Stupor
+  Skulking Killer
+  Slagwoods Bridge
+  Sleeper Dart
+  Slicer, Hired Muscle
+  Slip Out the Back
+  Smoke Bomb
+  Smoldering Marsh
+  Snap
+  Snapcaster Mage
+  Sokenzan, Crucible of Defiance
+  Sokrates, Athenian Teacher
+  Sol Ring
+  Solemn Simulacrum
+  Solid Ground
+  Solve the Equation
+  Soul-Guide Lantern
+  Sozin's Comet
+  Spartan Veteran
+  Spectacular Showdown
+  Spectator Seating
+  Spelunking
+  Spinerock Knoll
+  Spire Garden
+  Spitfire Lagac
+  Springheart Nantuko
+  Staff of Eden, Vault's Key
+  Stalking Assassin
+  Steam Vents
+  Sticky Fingers
+  Stingblade Assassin
+  Stock Up
+  Stomping Ground
+  Storm-Kiln Artist
+  Stormcarved Coast
+  Stormcatch Mentor
+  Stranglehold
+  Strionic Resonator
+  Stroke of Midnight
+  Stronghold Assassin
+  Stump Stomp
+  Stunt Double
+  Sulfur Falls
+  Sulfurous Springs
+  Summoner's Pact
+  Sunbillow Verge
+  Sundering Eruption
+  Sunken Hollow
+  Sunken Ruins
+  Sunpetal Grove
+  Sunspine Lynx
+  Suq'Ata Assassin
+  Surtr, Fiery Jötun
+  Survey Mechan
+  Survival of the Fittest
+  Survivors' Encampment
+  Swan Song
+  Swiftfoot Boots
+  Sword of Feast and Famine
+  Sword of Fire and Ice
+  Sword of Hearth and Home
+  Sword of Light and Shadow
+  Sword of War and Peace
+  Sword of Wealth and Power
+  Sword of the Animist
+  Swords to Plowshares
+  Sylvan Safekeeper
+  Tablet of Discovery
+  Taiga
+  Tale of Katara and Toph
+  Talisman of Creativity
+  Talisman of Dominance
+  Talisman of Impulse
+  Talisman of Indulgence
+  Talisman of Unity
+  Talon Gates of Madara
+  Tamiyo's Journal
+  Tannuk, Memorial Ensign
+  Tax Collector
+  Templar Knight
+  Temple Garden
+  Temple of Epiphany
+  Temur Battle Rage
+  Terminate
+  Termination Facilitator
+  Terra Eternal
+  Terrasymbiosis
+  Tezzeret, Cruel Captain
+  The Aesir Escape Valhalla
+  The Animus
+  The Capitoline Triad
+  The Earth Crystal
+  The Echoverse Fulcrum
+  The Key to the Vault
+  The Last Agni Kai
+  The Legend of Kyoshi
+  The Lonely Mountain
+  The Lord of Pain
+  The Mind Stone
+  The Mycosynth Gardens
+  The One Ring
+  The Ozolith
+  The Reaver Cleaver
+  The Revelations of Ezio
+  The Sound of Drums
+  The Spear of Leonidas
+  The Stasis Coffin
+  Thor, God of Thunder
+  Thorin, Mountain-king
+  Thorn of the Black Rose
+  Thornspire Verge
+  Thought Vessel
+  Thraximundar
+  Three Visits
+  Thrill of Possibility
+  Thrill-Kill Assassin
+  Thundering Falls
+  Tibalt's Trickery
+  Tidal Barracuda
+  Tireless Provisioner
+  Titania, Protector of Argoth
+  Tome of Legends
+  Tomik, Distinguished Advokist
+  Toph, Earthbending Master
+  Toph, Greatest Earthbender
+  Toph, Hardheaded Teacher
+  Toph, the Blind Bandit
+  Toph, the First Metalbender
+  Torment of Hailfire
+  Tormod's Crypt
+  Torrential Gearhulk
+  Toski, Bearer of Secrets
+  Towering Viewpoint
+  Toxic Deluge
+  Trailblazer's Boots
+  Training Center
+  Tranquilize
+  Treasonous Ogre
+  Treasure Nabber
+  Tree of Tales
+  Trumpeting Carnosaur
+  Tsabo's Assassin
+  Turn Inside Out
+  Twinblade Assassins
+  Twinflame Tyrant
+  Twinning Staff
+  Two-Handed Axe
+  Tyrite Sanctum
+  Umezawa's Jitte
+  Undercity Eliminator
+  Undercity Sewers
+  Underground River
+  Underground Sea
+  Undying Malice
+  Unexpected Windfall
+  Unleash Fury
+  Unliving Psychopath
+  Unscrupulous Contractor
+  Unstoppable Slasher
+  Untimely Malfunction
+  Urabrask
+  Urborg, Tomb of Yawgmoth
+  Urza's Bauble
+  Urza's Saga
+  V.A.T.S.
+  Valakut Awakening
+  Valakut, the Molten Pinnacle
+  Valley Floodcaller
+  Vampiric Tutor
+  Vandalblast
+  Vedalken Orrery
+  Vein Ripper
+  Vendilion Clique
+  Vengeful Ancestor
+  Vexing Bauble
+  Veyran, Voice of Duality
+  Viewpoint Synchronization
+  Vincent, Vengeful Atoner
+  Viper, Cruel Conspirator
+  Virtus the Veiled
+  Virulent Emissary
+  Virulent Silencer
+  Vivi Ornitier
+  Vivi's Persistence
+  Volatile Fault
+  Volcanic Island
+  Vraska's Finisher
+  Vraska, the Cutting Glare
+  Vraska, the Silencer
+  Wan Shi Tong, Librarian
+  War Room
+  Waterlogged Teachings
+  Watery Grave
+  Wayfarer's Bauble
+  Weather Maker
+  Weed-Pruner Poplar
+  Wei Assassins
+  What Must Be Done
+  Wheel of Fortune
+  Wheel of Misfortune
+  Whispersilk Cloak
+  White Widow, Yelena Belova
+  Wild Magic Surge
+  Wilderness Reclamation
+  Windswept Heath
+  Winged Boots
+  Winter Soldier, Icy Assassin
+  Witch's Clinic
+  Withering Torment
+  Wizard's Staff
+  Wooded Foothills
+  World Map
+  Wrenn and Realmbreaker
+  Xander's Lounge
+  Xathrid Slyblade
+  Xira, the Golden Sting
+  Yavimaya, Cradle of Growth
+  Yggdrasil, Rebirth Engine
+  Zabaz, the Glimmerwasp
+  Zombie Assassin
+  Zuko, Avatar Hunter
+  Zuko, Firebending Master
+  Zuran Orb
+
+Cheapest available offer per card (any finish):
+  Aether Gale: 490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Arbor Elf: 9090 CLP at cardnexus (en, NM, foil, match exact)
+  Awakening of Vitu-Ghazi: 500 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Banefire: 1190 CLP at cardnexus (es, LP, nonfoil, match exact)
+  Blackcleave Cliffs: 4090 CLP at cardnexus (es, NM, nonfoil, match exact)
+  Blazing Crescendo: 200 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Boros Locket: 250 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Brainstone: 490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Bumi Bash: 200 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Burnished Hart: 300 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Cathartic Reunion: 200 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Chromatic Star: 490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Coastal Piracy: 1290 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Cobbled Wings: 200 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Collective Resistance: 1990 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Command the Storm: 200 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Cunning Maneuver: 200 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Darkslick Shores: 4190 CLP at cardnexus (es, NM, nonfoil, match exact)
+  Deadly Derision: 250 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Deathcap Cultivator: 490 CLP at cardnexus (es, LP, nonfoil, match exact)
+  Decree of Pain: 590 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Deny Entry: 250 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Dimir Locket: 200 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Disinformation Campaign: 300 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Earth Kingdom Jailer: 300 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Elsewhere Flask: 250 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Elvish Mystic: 1490 CLP at cardnexus (en, LP, nonfoil, match exact)
+  Elvish Spirit Guide: 16490 CLP at cardnexus (es, NM, foil, match exact)
+  Ember Island Production: 350 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Energybending: 300 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Entomb: 22990 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Expedite: 250 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Explosive Shot: 200 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Exquisite Blood: 43990 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Fatal Push: 900 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Finale of Devastation: 59990 CLP at cardnexus (en, NM, foil, match exact)
+  Fire Nation Attacks: 300 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Fire Nation Raider: 200 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Firebending Lesson: 790 CLP at cardnexus (en, NM, foil, match exact)
+  Furnace Host Charger: 200 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Fyndhorn Elves: 7190 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Glassworks: 200 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Go for the Throat: 1290 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Golgari Signet: 400 CLP at magic4ever (en, LP, nonfoil, match exact)
+  Grim Tutor: 28990 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Hardlight Containment: 490 CLP at cardnexus (es, NM, nonfoil, match exact)
+  Hero's Downfall: 300 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Hinterland Harbor: 490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Idyllic Tutor: 18490 CLP at cardnexus (es, LP, nonfoil, match exact)
+  Imprisoned in the Moon: 300 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Inscription of Abundance: 1290 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Inspiring Overseer: 250 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Intruder Alarm: 4990 CLP at cardnexus (en, NM, foil, match exact)
+  Isolated Chapel: 500 CLP at magic4ever (es, NM, nonfoil, match exact)
+  It'll Quench Ya!: 250 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Jet's Brainwashing: 300 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Kaya, Ghost Assassin: 3290 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Kitesail: 200 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Kyoshi Battle Fan: 200 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Lava Coil: 300 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Lightning Axe: 300 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Llanowar Elves: 690 CLP at cardnexus (es, LP, nonfoil, match exact)
+  Llanowar Wastes: 1590 CLP at cardnexus (es, NM, nonfoil, match exact)
+  Lo and Li, Twin Tutors: 300 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Loyal Fire Sage: 300 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Mechanical Glider: 200 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Meteor Sword: 300 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Mongoose Lizard: 200 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Moraug, Fury of Akoum: 21990 CLP at cardnexus (en, NM, foil, match exact)
+  Mortify: 590 CLP at cardnexus (en, NM, foil, match exact)
+  Most Valuable Slayer: 200 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Murder: 200 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Natural Order: 22990 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Neonate's Rush: 200 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Notion Rain: 250 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Octopus Form: 490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Ponder: 4490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Prairie Stream: 490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Pristine Talisman: 490 CLP at cardnexus (en, NM, foil, match exact)
+  Professor Zei, Anthropologist: 300 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Quick-Draw Katana: 200 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Ragost, Deft Gastronaut: 490 CLP at cardnexus (en, LP, nonfoil, match exact)
+  Ran and Shaw: 490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Raucous Audience: 200 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Reckless Fireweaver: 1190 CLP at cardnexus (es, NM, nonfoil, match exact)
+  Rocky Rebuke: 200 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Roiling Regrowth: 790 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Roku's Mastery: 300 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Solstice Revelations: 300 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Spirebluff Canal: 5500 CLP at magic4ever (en, LP, foil, match exact)
+  Steelshaper's Gift: 9900 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Stoneforge Mystic: 30990 CLP at cardnexus (en, LP, nonfoil, match exact)
+  Tainted Isle: 4090 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Tainted Peak: 2190 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Talisman of Conviction: 890 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Talisman of Hierarchy: 5990 CLP at cardnexus (en, NM, foil, match exact)
+  The Earth King: 5390 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Theater of Horrors: 500 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Thermo-Alchemist: 300 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Ticket Booth: 200 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Tireless Tracker: 590 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Trapped in the Screen: 200 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Treetop Freedom Fighters: 200 CLP at magic4ever (en, NM, nonfoil, match exact)
+  True Ancestry: 300 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Ty Lee, Artful Acrobat: 300 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Ultimate Price: 300 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Unclaimed Territory: 350 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Utter End: 490 CLP at cardnexus (es, NM, nonfoil, match exact)
+  Valakut Exploration: 4490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  White Lotus Hideout: 300 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Woodland Cemetery: 1300 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Worldly Tutor: 35990 CLP at cardnexus (en, LP, nonfoil, match exact)
+  Wrenn's Resolve: 3100 CLP at magic4ever (en, NM, foil, match exact)
+  Yuyan Archers: 200 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Zuko's Exile: 250 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Zuko's Offense: 200 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Zuko, Exiled Prince: 300 CLP at magic4ever (en, NM, nonfoil, match exact)

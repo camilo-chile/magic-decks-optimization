@@ -1,8 +1,8 @@
 {
- "as_of_utc": "2026-10-19T06:06:44Z",
+ "as_of_utc": "2026-10-19T10:13:51Z",
  "bulk_file": "oracle-cards-20261011210156.jsonl.gz",
- "merged_prices": "merged-20261019T0606Z.json",
- "prices_as_of": "2026-10-19T06:06:39Z",
+ "merged_prices": "merged-20261019T1013Z.json",
+ "prices_as_of": "2026-10-19T10:13:44Z",
  "scoring_version": "2026.4195",
  "offer_cards_not_in_bulk": [],
  "lists": [
@@ -24,7 +24,7 @@
    "basics": 18,
    "owned_n": 13,
    "to_buy_n": 65,
-   "cost_clp": 564002,
+   "cost_clp": 563902,
    "stores": [
     "cardnexus",
     "gameofmagic",
@@ -163,7 +163,7 @@
     {
      "name": "Gamble",
      "qty": 1,
-     "unit_clp": 28050,
+     "unit_clp": 28100,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -208,7 +208,7 @@
     {
      "name": "Grim Reaper's Sprint",
      "qty": 1,
-     "unit_clp": 11650,
+     "unit_clp": 11600,
      "store": "lacomarca",
      "language": "en",
      "finish": "foil",
@@ -262,7 +262,7 @@
     {
      "name": "Kiki-Jiki, Mirror Breaker",
      "qty": 1,
-     "unit_clp": 18600,
+     "unit_clp": 18500,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -648,7 +648,7 @@
    "basics": 15,
    "owned_n": 12,
    "to_buy_n": 65,
-   "cost_clp": 1065660,
+   "cost_clp": 1065710,
    "stores": [
     "afkstore",
     "cardnexus",
@@ -828,7 +828,7 @@
     {
      "name": "Gamble",
      "qty": 1,
-     "unit_clp": 28050,
+     "unit_clp": 28100,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -1277,7 +1277,7 @@
    "basics": 18,
    "owned_n": 12,
    "to_buy_n": 64,
-   "cost_clp": 790562,
+   "cost_clp": 790612,
    "stores": [
     "cardnexus",
     "gameofmagic",
@@ -1409,7 +1409,7 @@
     {
      "name": "Gamble",
      "qty": 1,
-     "unit_clp": 28050,
+     "unit_clp": 28100,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -1894,7 +1894,7 @@
    "basics": 23,
    "owned_n": 11,
    "to_buy_n": 61,
-   "cost_clp": 987802,
+   "cost_clp": 987552,
    "stores": [
     "cardnexus",
     "gameofmagic",
@@ -1953,7 +1953,7 @@
     {
      "name": "Brash Taunter",
      "qty": 1,
-     "unit_clp": 5850,
+     "unit_clp": 5600,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -3221,7 +3221,7 @@
    "basics": 8,
    "owned_n": 17,
    "to_buy_n": 71,
-   "cost_clp": 1233695,
+   "cost_clp": 1233645,
    "stores": [
     "cardnexus",
     "gameofmagic",
@@ -3711,7 +3711,7 @@
     {
      "name": "Stunt Double",
      "qty": 1,
-     "unit_clp": 6850,
+     "unit_clp": 6800,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -3899,7 +3899,7 @@
    "basics": 6,
    "owned_n": 23,
    "to_buy_n": 69,
-   "cost_clp": 752062,
+   "cost_clp": 752061,
    "stores": [
     "afkstore",
     "cardnexus",
@@ -4047,7 +4047,7 @@
     {
      "name": "Deadly Dispute",
      "qty": 1,
-     "unit_clp": 1650,
+     "unit_clp": 1700,
      "store": "lacomarca",
      "language": "en",
      "finish": "foil",
@@ -4155,7 +4155,7 @@
     {
      "name": "Frostboil Snarl",
      "qty": 1,
-     "unit_clp": 482,
+     "unit_clp": 481,
      "store": "piedrabruja",
      "language": "en",
      "finish": "nonfoil",
@@ -4254,7 +4254,7 @@
     {
      "name": "Maestros Theater",
      "qty": 1,
-     "unit_clp": 600,
+     "unit_clp": 550,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -4559,7 +4559,7 @@
    "basics": 13,
    "owned_n": 23,
    "to_buy_n": 62,
-   "cost_clp": 545247,
+   "cost_clp": 545197,
    "stores": [
     "cardnexus",
     "gameofmagic",
@@ -5029,7 +5029,7 @@
     {
      "name": "Tablet of Discovery",
      "qty": 1,
-     "unit_clp": 2500,
+     "unit_clp": 2450,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -5092,7 +5092,7 @@
     {
      "name": "Vampiric Tutor",
      "qty": 1,
-     "unit_clp": 88050,
+     "unit_clp": 88100,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -5119,7 +5119,7 @@
     {
      "name": "Wizard's Staff",
      "qty": 1,
-     "unit_clp": 7150,
+     "unit_clp": 7100,
      "store": "lacomarca",
      "language": "en",
      "finish": "foil",
@@ -5154,7 +5154,7 @@
    "basics": 13,
    "owned_n": 22,
    "to_buy_n": 64,
-   "cost_clp": 630122,
+   "cost_clp": 630071,
    "stores": [
     "afkstore",
     "cardnexus",
@@ -5580,7 +5580,7 @@
     {
      "name": "Stunt Double",
      "qty": 1,
-     "unit_clp": 6850,
+     "unit_clp": 6800,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -5643,7 +5643,7 @@
     {
      "name": "The Key to the Vault",
      "qty": 1,
-     "unit_clp": 1267,
+     "unit_clp": 1266,
      "store": "piedrabruja",
      "language": "en",
      "finish": "foil",
@@ -5768,7 +5768,7 @@
    "basics": 10,
    "owned_n": 32,
    "to_buy_n": 56,
-   "cost_clp": 385455,
+   "cost_clp": 385505,
    "stores": [
     "afkstore",
     "cardnexus",
@@ -5969,7 +5969,7 @@
     {
      "name": "Experimental Synthesizer",
      "qty": 1,
-     "unit_clp": 650,
+     "unit_clp": 700,
      "store": "lacomarca",
      "language": "es",
      "finish": "nonfoil",
@@ -6310,7 +6310,7 @@
    "basics": 12,
    "owned_n": 30,
    "to_buy_n": 55,
-   "cost_clp": 1330380,
+   "cost_clp": 1330180,
    "stores": [
     "afkstore",
     "cardnexus",
@@ -6557,7 +6557,7 @@
     {
      "name": "Heroic Intervention",
      "qty": 1,
-     "unit_clp": 15500,
+     "unit_clp": 15300,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -6844,7 +6844,7 @@
    "basics": 14,
    "owned_n": 37,
    "to_buy_n": 49,
-   "cost_clp": 266720,
+   "cost_clp": 266320,
    "stores": [
     "cardnexus",
     "gameofmagic",
@@ -7023,7 +7023,7 @@
     {
      "name": "Heroic Intervention",
      "qty": 1,
-     "unit_clp": 15500,
+     "unit_clp": 15300,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",
@@ -7104,7 +7104,7 @@
     {
      "name": "Mossborn Hydra",
      "qty": 1,
-     "unit_clp": 20900,
+     "unit_clp": 20700,
      "store": "lacomarca",
      "language": "en",
      "finish": "nonfoil",

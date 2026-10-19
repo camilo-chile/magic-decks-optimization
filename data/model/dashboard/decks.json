@@ -1,0 +1,68 @@
+{
+ "rows": [
+  {
+   "id": "ezio",
+   "deck": "Ezio",
+   "commander": "Ezio Auditore da Firenze",
+   "colors": "Five colors (B core)",
+   "role": "New deck; the commander is a proxy (cost 0)",
+   "best_power": 7.1,
+   "best_cost_clp": 141322,
+   "lists_measured": 5,
+   "pick_list": "Step 39",
+   "pick_cost_clp": 45872,
+   "pick_power": 7.0,
+   "status": "Measured up to 7.1; 7.0 already at about 46,000 CLP, then flat.",
+   "next_step": "Round 4: more Spellbook win lines with tutors, then measure the new checkpoints.",
+   "progress_pct": 70
+  },
+  {
+   "id": "azula",
+   "deck": "Azula",
+   "commander": "Fire Lord Azula",
+   "colors": "Grixis (U B R)",
+   "role": "Upgrade of the owner's deck",
+   "best_power": 7.4,
+   "best_cost_clp": 148760,
+   "lists_measured": 12,
+   "pick_list": "Step 34",
+   "pick_cost_clp": 49592,
+   "pick_power": 7.1,
+   "status": "Measured up to 7.2, flat from about 50,000 CLP: Salt caps it for combo wincons with no tutors to assemble them.",
+   "next_step": "Round 4: tutors that reach its loops and more efficiency, then measure the new checkpoints.",
+   "progress_pct": 70
+  },
+  {
+   "id": "toph",
+   "deck": "Toph",
+   "commander": "Toph, the First Metalbender",
+   "colors": "Naya (R G W)",
+   "role": "Upgrade of the owner's deck",
+   "best_power": 7.5,
+   "best_cost_clp": 97537,
+   "lists_measured": 9,
+   "pick_list": "Step 21",
+   "pick_cost_clp": 49142,
+   "pick_power": 7.4,
+   "status": "Measured up to 7.5. Its power rises while tutors are added: Salt's ceiling (wincon combos with no tutors) disappears once ten tutors reach its win lines.",
+   "next_step": "Stock check and final Salt score after the budget pick. Optional: price the cheap tutors and elves of its wishlist.",
+   "progress_pct": 85
+  },
+  {
+   "id": "alexios",
+   "deck": "Alexios",
+   "commander": "Alexios, Deimos of Kosmos",
+   "colors": "Mono red",
+   "role": "Replaced by Ezio",
+   "best_power": 6.8,
+   "best_cost_clp": 197392,
+   "lists_measured": 3,
+   "pick_list": null,
+   "pick_cost_clp": null,
+   "pick_power": null,
+   "status": "Round 2 was his last: far below Ezio at every price (see the power chart). His files stay until the owner confirms the replacement.",
+   "next_step": "Closed. Delete his files once the owner confirms.",
+   "progress_pct": 100
+  }
+ ]
+}

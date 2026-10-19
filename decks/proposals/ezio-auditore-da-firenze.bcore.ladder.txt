@@ -1,0 +1,115 @@
+// Commander
+1 Ezio Auditore da Firenze
+
+// Base
+12 Swamp
+6 Island
+1 Dismal Backwater
+1 Temple of Deceit
+1 Serpent's Pass
+1 Murky Sewer
+1 Scoured Barrens
+1 Temple of Malady
+1 Temple of Malice
+1 Thriving Moor
+1 Path of Ancestry
+1 Command Tower
+1 Brotherhood Headquarters
+1 Abstergo Entertainment
+1 Rumble Arena
+1 White Lotus Hideout
+1 Concealed Courtyard
+1 Woodland Cemetery
+1 Secret Tunnel
+1 Roshan, Hidden Magister
+1 Ezio, Blade of Vengeance
+1 Adéwalé, Breaker of Chains
+1 Jacob Frye
+1 Evie Frye
+1 Lydia Frye
+1 Royal Assassin
+1 Poison-Blade Mentor
+1 Merciless Harlequin
+1 Agate-Blade Assassin
+1 Silumgar Assassin
+1 Rooftop Assassin
+1 Hullcarver
+1 Assassin Initiate
+1 Loyal Inventor
+1 Deadeye Navigator
+1 Nightshade Assassin
+1 Hired Blade
+1 Brotherhood Patriarch
+1 Callous Inspector
+1 Corrupt Court Official
+1 Gilacorn
+1 Pirate Peddlers
+1 Brotherhood Ambushers
+1 Elephant-Rat
+1 Boneyard Desecrator
+1 June, Bounty Hunter
+1 Sol Ring
+1 Arcane Signet
+1 Dimir Locket
+1 Bender's Waterskin
+1 Barrels of Blasting Jelly
+1 Fatal Push
+1 Murder
+1 Feed the Swarm
+1 Epic Downfall
+1 Mirrodin Avenged
+1 Deadly Precision
+1 Sold Out
+1 Overwhelming Remorse
+1 Desert's Due
+1 The Revelations of Ezio
+1 Decree of Pain
+1 Desperate Plea
+1 Deadly Visit
+1 Swampsnare Trap
+1 Azula Always Lies
+1 Notion Rain
+1 Rooftop Bypass
+1 Brainstorm
+1 Mishra's Bauble
+1 Petty Larceny
+1 Hemlock Vial
+1 Dai Li Indoctrination
+1 Vicious Rumors
+1 Ozai's Cruelty
+1 Gisa's Bidding
+1 Entomb
+1 Restart Sequence
+1 Intruder Alarm
+1 Swiftfoot Boots
+1 Assassin Gauntlet
+1 Hidden Blade
+1 Mask of Griselbrand
+
+// Ladder
++ Chromatic Lantern | - Barrels of Blasting Jelly | every land taps for any color: the splash colors and Ezio's WUBRG without casting them regularly
++ Exotic Orchard | - Path of Ancestry | untapped any-color land for a tapped one
++ Venser, Shaper Savant | - Hired Blade | Venser + the owned Intruder Alarm (Spellbook, 7 mana, floor 3 with a note); flash bounce
++ Mystical Teachings | - Elephant-Rat | instant tutor for Venser and flash Assassins; flashback {2}{B}
++ Infernal Grasp | - Deadly Precision | 2-mana instant unconditional removal
++ Thorn of the Black Rose | - Brotherhood Patriarch | monarch on a deathtouch Assassin, black only
++ Ravenloft Adventurer | - Nightshade Assassin | initiative, black only; hit counters for Etrata
++ Nekrataal | - Corrupt Court Official | removal on a black Assassin body
++ Desmond Miles | - Agate-Blade Assassin | 2-mana Assassin that grows with every Assassin
++ Bitter Triumph | - Mirrodin Avenged | 2-mana instant removal for any creature or planeswalker
++ Tome of Legends | - Petty Larceny | a card per Ezio attack for {1}
++ Etrata, Deadly Fugitive | - Gilacorn | deathtouch; Assassin hits cloak cards
++ Sunken Hollow | - Serpent's Pass | U/B land that is usually untapped for a tapped one
++ Etrata, the Silencer | - Callous Inspector | unblockable U/B Assassin; hub of the colorless copy lines
++ Peter Parker's Camera | - Hemlock Vial | first copier for Etrata's trigger (the line needs a second copier: Strionic Resonator)
++ Unclaimed Territory | - Swamp | any color for every Assassin creature spell (all of them with Roshan)
++ Reno and Rude | - Assassin Initiate | 2-mana menace Assassin that steals cards
++ Hooded Assassin | - June, Bounty Hunter | removal or a bigger body, black only
++ Strionic Resonator | - Dai Li Indoctrination | Etrata + Strionic Resonator + Camera: that opponent loses (Spellbook, 3 cards, colorless copiers)
++ Talisman of Dominance | - Dimir Locket | 2-mana U/B rock for a 3-mana one
++ Lithoform Engine | - Desert's Due | two more lines: Etrata + Lithoform + Camera, Etrata + Strionic + Lithoform
++ Fellwar Stone | - Bender's Waterskin | 2-mana any-color rock
++ Agent of the Fates | - Pirate Peddlers | deathtouch Assassin; each targeting spell makes every opponent sacrifice a creature
++ Magister Sphinx | - Decree of Pain | Ezio + Magister Sphinx (Spellbook, 9 mana, floor 3): a player goes to 10 and Ezio's trigger kills; {B}{B} by freerunning with Roshan
++ Sheoldred's Edict | - Overwhelming Remorse | 2-mana instant edict
++ Withering Torment | - Sold Out | instant removal for a creature or enchantment

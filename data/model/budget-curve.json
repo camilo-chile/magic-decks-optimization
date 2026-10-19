@@ -1,6 +1,5 @@
 {
  "scoring_version": "2026.4195",
- "parity": 0.2,
  "points": {
   "toph-the-first-metalbender": [
    {
@@ -95,9 +94,9 @@
    "cost": 95464,
    "unspent": 4536,
    "min_power": 7.0,
+   "sum_power": 21.2,
    "gap": 0.1,
-   "parity": true,
-   "above_friend": true
+   "reaches_target": true
   },
   {
    "budget": 150000,
@@ -115,26 +114,26 @@
      "bracket": "3*"
     },
     "toph-the-first-metalbender": {
-     "label": "round3-step11",
-     "cost": 24152,
-     "power": 7.2,
+     "label": "round3-step21",
+     "cost": 49142,
+     "power": 7.4,
      "bracket": "3"
     }
    },
-   "cost": 119616,
-   "unspent": 30384,
+   "cost": 144606,
+   "unspent": 5394,
    "min_power": 7.0,
-   "gap": 0.2,
-   "parity": true,
-   "above_friend": true
+   "sum_power": 21.5,
+   "gap": 0.4,
+   "reaches_target": true
   },
   {
    "budget": 200000,
    "decks": {
     "ezio-auditore-da-firenze": {
-     "label": "round3-step50",
-     "cost": 141322,
-     "power": 7.1,
+     "label": "round3-step39",
+     "cost": 45872,
+     "power": 7.0,
      "bracket": "3"
     },
     "fire-lord-azula": {
@@ -144,18 +143,18 @@
      "bracket": "3*"
     },
     "toph-the-first-metalbender": {
-     "label": "round2-step0",
-     "cost": 0,
-     "power": 7.1,
+     "label": "round3-step30",
+     "cost": 97537,
+     "power": 7.5,
      "bracket": "3"
     }
    },
-   "cost": 190914,
-   "unspent": 9086,
-   "min_power": 7.1,
-   "gap": 0.0,
-   "parity": true,
-   "above_friend": true
+   "cost": 193001,
+   "unspent": 6999,
+   "min_power": 7.0,
+   "sum_power": 21.6,
+   "gap": 0.5,
+   "reaches_target": true
   },
   {
    "budget": 250000,
@@ -173,18 +172,18 @@
      "bracket": "3*"
     },
     "toph-the-first-metalbender": {
-     "label": "round3-step11",
-     "cost": 24152,
-     "power": 7.2,
+     "label": "round3-step21",
+     "cost": 49142,
+     "power": 7.4,
      "bracket": "3"
     }
    },
-   "cost": 215066,
-   "unspent": 34934,
+   "cost": 240056,
+   "unspent": 9944,
    "min_power": 7.1,
-   "gap": 0.1,
-   "parity": true,
-   "above_friend": true
+   "sum_power": 21.6,
+   "gap": 0.3,
+   "reaches_target": true
   },
   {
    "budget": 300000,
@@ -202,18 +201,90 @@
      "bracket": "3*"
     },
     "toph-the-first-metalbender": {
-     "label": "round3-step11",
-     "cost": 24152,
-     "power": 7.2,
+     "label": "round3-step30",
+     "cost": 97537,
+     "power": 7.5,
      "bracket": "3"
     }
    },
-   "cost": 215066,
-   "unspent": 84934,
+   "cost": 288451,
+   "unspent": 11549,
    "min_power": 7.1,
-   "gap": 0.1,
-   "parity": true,
-   "above_friend": true
+   "sum_power": 21.7,
+   "gap": 0.4,
+   "reaches_target": true
+  }
+ ],
+ "best_buys": [
+  {
+   "deck": "ezio-auditore-da-firenze",
+   "from": "round3-step24",
+   "to": "round3-step39",
+   "from_cost": 24827,
+   "to_cost": 45872,
+   "extra_cost": 21045,
+   "gain": 0.6,
+   "per_10k": 0.285
+  },
+  {
+   "deck": "fire-lord-azula",
+   "from": "round3-step23",
+   "to": "round3-step34",
+   "from_cost": 24882,
+   "to_cost": 49592,
+   "extra_cost": 24710,
+   "gain": 0.3,
+   "per_10k": 0.121
+  },
+  {
+   "deck": "toph-the-first-metalbender",
+   "from": "round3-step11",
+   "to": "round3-step21",
+   "from_cost": 24152,
+   "to_cost": 49142,
+   "extra_cost": 24990,
+   "gain": 0.2,
+   "per_10k": 0.08
+  },
+  {
+   "deck": "toph-the-first-metalbender",
+   "from": "round2-step0",
+   "to": "round3-step11",
+   "from_cost": 0,
+   "to_cost": 24152,
+   "extra_cost": 24152,
+   "gain": 0.1,
+   "per_10k": 0.041
+  },
+  {
+   "deck": "toph-the-first-metalbender",
+   "from": "round3-step21",
+   "to": "round3-step30",
+   "from_cost": 49142,
+   "to_cost": 97537,
+   "extra_cost": 48395,
+   "gain": 0.1,
+   "per_10k": 0.021
+  },
+  {
+   "deck": "ezio-auditore-da-firenze",
+   "from": "round3-step39",
+   "to": "round3-step50",
+   "from_cost": 45872,
+   "to_cost": 141322,
+   "extra_cost": 95450,
+   "gain": 0.1,
+   "per_10k": 0.01
+  },
+  {
+   "deck": "fire-lord-azula",
+   "from": "round3-step34",
+   "to": "round3-step53",
+   "from_cost": 49592,
+   "to_cost": 148712,
+   "extra_cost": 99120,
+   "gain": 0.1,
+   "per_10k": 0.01
   }
  ]
 }

@@ -4,18 +4,23 @@
 Run it with the "Run Python File" button (no arguments, no network). For every budget from 100,000 to 300,000 CLP
 in steps of 50,000 it picks one MEASURED list per deck from `decks/proposals/measured.json` so that
 
-  1. the three decks sit at parity (max power - min power <= 0.2), when any combination within the budget allows it;
-  2. the weakest deck is as strong as possible, then the sum of the powers, then the lowest total cost.
+  1. the sum of the three powers is as high as possible (every CLP goes where it buys the most power),
+  2. then the weakest deck is as strong as possible,
+  3. then the total cost is as low as possible.
+
+Owner decision (2026-10-19): the parity rule of the first goal (decks within 0.2 power points of each other) is dropped;
+each deck gets the most power its money buys, whatever the others score. The gap between decks is still reported.
 
 Only lists measured on Commander Salt feed it (owner rule, 2026-10-18: the agents' power judgments ran 0.3 to 2.1 points
 too high). A measured entry is eligible when it carries `"eligible": true`, or, when it says nothing, when its `round` is
-at least MIN_ROUND (round-1 lists contain reversible cards and are not valid). A dearer list that measured no higher than a
-cheaper one of the same deck is never chosen. Costs are card totals from `scripts/ladder.py` (shipping is outside the
-budget). The chosen lists still go through stock verification (Phase 9) and a final Salt measurement (Phase 11).
+at least MIN_ROUND (round-1 lists contain reversible cards and are not valid; round 2 is superseded by round 3). A dearer
+list that measured no higher than a cheaper one of the same deck is never chosen. Costs are card totals from
+`scripts/ladder.py` (shipping is outside the budget). The chosen lists still go through stock verification (Phase 9) and
+a final Salt measurement (Phase 11).
 
 Writes:
-  data/model/budget-curve.json   the choice per budget (read by the dashboard)
-  decks/reports/budget-curve.md  the same as a table
+  data/model/budget-curve.json   the choice per budget and the best buys (read by the dashboard data script)
+  decks/reports/budget-curve.md  the same as tables
 """
 import itertools
 import json
@@ -28,8 +33,7 @@ MEASURED = ROOT / "decks" / "proposals" / "measured.json"
 OUT_JSON = ROOT / "data" / "model" / "budget-curve.json"
 OUT_MD = ROOT / "decks" / "reports" / "budget-curve.md"
 BUDGETS = list(range(100_000, 300_001, 50_000))
-PARITY = 0.2
-FRIEND_POWER = 6.1  # the friend's Krenko deck on Commander Salt
+TARGET_POWER = 7.0  # owner decision 2026-10-19 (it was the friend's 6.1)
 MIN_ROUND = 3
 
 
@@ -55,7 +59,7 @@ def load_points(measured, min_round=MIN_ROUND):
     return {deck: frontier(points) for deck, points in by_deck.items()}
 
 
-def best_for_budget(points, budget, parity=PARITY):
+def best_for_budget(points, budget):
     """The best combination of one list per deck within the budget, or None when no combination fits."""
     decks = sorted(points)
     best = None
@@ -64,29 +68,56 @@ def best_for_budget(points, budget, parity=PARITY):
         if cost > budget:
             continue
         powers = [p["power"] for p in combo]
-        gap = round(max(powers) - min(powers), 2)
-        key = (gap <= parity + 1e-9, min(powers), round(sum(powers), 2), -cost)
+        key = (round(sum(powers), 2), min(powers), -cost)
         if best is None or key > best[0]:
-            best = (key, dict(zip(decks, combo)), cost, gap)
+            best = (key, dict(zip(decks, combo)), cost)
     if best is None:
         return None
-    _, chosen, cost, gap = best
+    _, chosen, cost = best
     powers = [p["power"] for p in chosen.values()]
     return {"budget": budget, "decks": chosen, "cost": cost, "unspent": budget - cost, "min_power": min(powers),
-            "gap": gap, "parity": gap <= parity + 1e-9, "above_friend": min(powers) > FRIEND_POWER}
+            "sum_power": round(sum(powers), 2), "gap": round(max(powers) - min(powers), 2),
+            "reaches_target": min(powers) >= TARGET_POWER}
 
 
 def curve(points, budgets=BUDGETS):
     return [best_for_budget(points, budget) or {"budget": budget, "decks": None} for budget in budgets]
 
 
+def jumps(rows):
+    """Power change of every deck from one budget to the next, {deck: [(budget, change)]} (the first budget has none)."""
+    out = {}
+    for before, after in zip(rows, rows[1:]):
+        if not before.get("decks") or not after.get("decks"):
+            continue
+        for deck, point in after["decks"].items():
+            out.setdefault(deck, []).append((after["budget"], round(point["power"] - before["decks"][deck]["power"], 2)))
+    return out
+
+
+def best_buys(points):
+    """Every step from one point of a deck's frontier to the next, best power per CLP first (cost > 0 only)."""
+    steps = []
+    for deck, pts in points.items():
+        for before, after in zip(pts, pts[1:]):
+            extra = after["cost"] - before["cost"]
+            if extra <= 0:
+                continue
+            gain = round(after["power"] - before["power"], 2)
+            steps.append({"deck": deck, "from": before["label"], "to": after["label"], "from_cost": before["cost"],
+                          "to_cost": after["cost"], "extra_cost": extra, "gain": gain,
+                          "per_10k": round(gain / extra * 10_000, 3)})
+    return sorted(steps, key=lambda s: (-s["per_10k"], s["extra_cost"]))
+
+
 def render(rows, points, version, scored_on):
     decks = sorted(points)
     lines = ["# Budget curve (measured points only)", "",
              f"Generated {date.today().isoformat()} by `scripts/optimize_budget.py` from `decks/proposals/measured.json` "
-             f"(Commander Salt {version}, measured {scored_on}). One measured list per deck; parity = within {PARITY} "
-             f"power points; the friend's deck is {FRIEND_POWER}. Costs are cards only (shipping outside the budget).", "",
-             "| Budget | " + " | ".join(decks) + " | Total | Unspent | Weakest | Gap | Parity | All > 6.1 |",
+             f"(Commander Salt {version}, measured {scored_on}). One measured list per deck, the highest sum of powers "
+             f"within the budget (no parity rule since 2026-10-19); every deck should reach {TARGET_POWER}. Costs are cards "
+             "only (shipping outside the budget).", "",
+             "| Budget | " + " | ".join(decks) + " | Total | Unspent | Sum | Weakest | Gap | All >= 7.0 |",
              "|---|" + "---|" * (len(decks) + 6)]
     for row in rows:
         if not row.get("decks"):
@@ -94,8 +125,16 @@ def render(rows, points, version, scored_on):
             continue
         cells = [f"{row['decks'][d]['label']} ({row['decks'][d]['cost']:,}; {row['decks'][d]['power']})" for d in decks]
         lines.append(f"| {row['budget']:,} | " + " | ".join(cells)
-                     + f" | {row['cost']:,} | {row['unspent']:,} | {row['min_power']} | {row['gap']} | "
-                     + f"{'yes' if row['parity'] else 'NO'} | {'yes' if row['above_friend'] else 'no'} |")
+                     + f" | {row['cost']:,} | {row['unspent']:,} | {row['sum_power']} | {row['min_power']} | {row['gap']} | "
+                     + f"{'yes' if row['reaches_target'] else 'no'} |")
+    lines += ["", "Power change of each deck from one budget to the next:", ""]
+    for deck, steps in sorted(jumps(rows).items()):
+        lines.append(f"- {deck}: " + ", ".join(f"{b:,}: {d:+.1f}" for b, d in steps))
+    lines += ["", "Best buys first (power gained per 10,000 CLP between two measured points of the same deck):", "",
+              "| Deck | From | To | Extra CLP | Power | Per 10,000 CLP |", "|---|---|---|---|---|---|"]
+    for s in best_buys(points):
+        lines.append(f"| {s['deck']} | {s['from']} ({s['from_cost']:,}) | {s['to']} ({s['to_cost']:,}) | "
+                     f"{s['extra_cost']:,} | {s['gain']:+.1f} | {s['per_10k']:+.2f} |")
     lines += ["", "Measured points used per deck (cost CLP; power):", ""]
     for deck in decks:
         lines.append(f"- {deck}: " + ", ".join(f"{p['label']} ({p['cost']:,}; {p['power']})" for p in points[deck]))
@@ -110,8 +149,8 @@ def main():
         sys.exit(2)
     rows = curve(points)
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    OUT_JSON.write_text(json.dumps({"scoring_version": measured.get("scoring_version"), "parity": PARITY,
-                                    "points": points, "curve": rows}, indent=1, ensure_ascii=False), encoding="utf-8")
+    OUT_JSON.write_text(json.dumps({"scoring_version": measured.get("scoring_version"), "points": points, "curve": rows,
+                                    "best_buys": best_buys(points)}, indent=1, ensure_ascii=False), encoding="utf-8")
     OUT_MD.write_text(render(rows, points, measured.get("scoring_version"), measured.get("scored_on")), encoding="utf-8")
     print(OUT_MD.read_text(encoding="utf-8"))
     print(f"Wrote {OUT_JSON.relative_to(ROOT)} and {OUT_MD.relative_to(ROOT)}")

@@ -5,7 +5,7 @@ Ladder: `decks/proposals/toph-the-first-metalbender.ladder.txt` (base + 34 swaps
 (0 INVALID; 100 cards, no reversible cards, Layer A floor 3 at target 3, 1-2 Game Changers, 0 extra-turn cards,
 every purchase with stock > 0). Layer A notes, all review-only: Bumi + Ashaya (two-card, 10 mana, floor 3),
 Toph + The Stasis Coffin (lock note), hub Toph Hardheaded Teacher, Springheart Nantuko template variants.
-Prices: `merged-20261019T0300Z.json` (a hint; stock is verified in Phase 9). Control copies: round 1 in
+Prices: the merged price file of 2026-10-19 (a hint; stock is verified in Phase 9). Control copies: round 1 in
 `decks/proposals/round1/`, round 2 in `decks/proposals/round2/`.
 
 ## Round 3

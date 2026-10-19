@@ -1,0 +1,34 @@
+{
+  "Toph": {
+    "commander": "Toph, the First Metalbender",
+    "colors": "Naya (R G W)",
+    "role": "Upgrade of the owner's deck",
+    "status": "Measured up to 7.5. Its power rises while tutors are added: Salt's ceiling (wincon combos with no tutors) disappears once ten tutors reach its win lines.",
+    "next_step": "Stock check and final Salt score after the budget pick. Optional: price the cheap tutors and elves of its wishlist.",
+    "progress_pct": 85
+  },
+  "Azula": {
+    "commander": "Fire Lord Azula",
+    "colors": "Grixis (U B R)",
+    "role": "Upgrade of the owner's deck",
+    "status": "Measured up to 7.2, flat from about 50,000 CLP: Salt caps it for combo wincons with no tutors to assemble them.",
+    "next_step": "Round 4: tutors that reach its loops and more efficiency, then measure the new checkpoints.",
+    "progress_pct": 70
+  },
+  "Ezio": {
+    "commander": "Ezio Auditore da Firenze",
+    "colors": "Five colors (B core)",
+    "role": "New deck; the commander is a proxy (cost 0)",
+    "status": "Measured up to 7.1; 7.0 already at about 46,000 CLP, then flat.",
+    "next_step": "Round 4: more Spellbook win lines with tutors, then measure the new checkpoints.",
+    "progress_pct": 70
+  },
+  "Alexios": {
+    "commander": "Alexios, Deimos of Kosmos",
+    "colors": "Mono red",
+    "role": "Replaced by Ezio",
+    "status": "Round 2 was his last: far below Ezio at every price (see the power chart). His files stay until the owner confirms the replacement.",
+    "next_step": "Closed. Delete his files once the owner confirms.",
+    "progress_pct": 100
+  }
+}

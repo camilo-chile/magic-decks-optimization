@@ -24,7 +24,7 @@ against Wizards' own pages: no Commander, Brackets or Game Changers change; re-c
 | High power | 7.6 - 8.99 |
 | Fringe cEDH and cEDH | 9 and above |
 
-Reference deck to beat: the owner's friend's Krenko, Mob Boss deck, **power 6.1**, bracket 3*, salt
+Target power: **7.0** (owner decision 2026-10-19). Earlier reference deck: the owner's friend's Krenko, Mob Boss deck, power 6.1, bracket 3*, salt
 78.3. Community averages (as of 2026-10-13; the counts grow daily): Alexios 5.4 (1,553 decks), Toph 6.8
 (4,001), Azula 7.8 (5,298). Highest power seen on deck pages that pass Layer A at Bracket 3
 (2026-10-14): Alexios 7.5, Toph 7.4, Azula 7.4.
@@ -98,8 +98,8 @@ Descriptive statistics (tutor count, average mana value) are reported and never 
 ## Goal and acceptance
 Nothing is bought until the user picks a budget from the **budget curve**.
 - For each budget point (100,000 to 300,000 CLP in steps of 50,000) the 3 decks are built together
-  to reach the highest Commander Salt power they can **at parity**: within 0.2 power points of each
-  other, maximizing the lowest. Every deck is above the friend's 6.1 whenever the budget allows.
+  to reach the highest Commander Salt power they can: the optimizer maximizes the sum of the three
+  powers (owner decision 2026-10-19: the earlier parity rule, within 0.2 power points, is dropped). Every deck reaches 7.0 whenever the budget allows (owner decision 2026-10-19: the yardstick is 7.0, no longer the friend's 6.1).
 - The curve plots budget against each deck's power, with the Layer A result and the site's
   suggestions per point.
 - A list is eligible only with: Layer A floor at or below its target bracket and no rejection; a

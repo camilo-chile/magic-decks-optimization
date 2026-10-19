@@ -1,0 +1,121 @@
+{
+ "rows": [
+  {
+   "id": "ezio-24-39",
+   "rank": 1,
+   "deck": "Ezio",
+   "from_list": "Step 24",
+   "to_list": "Step 39",
+   "from_cost_clp": 24827,
+   "to_cost_clp": 45872,
+   "extra_cost_clp": 21045,
+   "gain": 0.6,
+   "per_10k": 0.285,
+   "status": "planned"
+  },
+  {
+   "id": "alexios-19-39",
+   "rank": 2,
+   "deck": "Alexios",
+   "from_list": "Step 19",
+   "to_list": "Step 39",
+   "from_cost_clp": 24822,
+   "to_cost_clp": 97602,
+   "extra_cost_clp": 72780,
+   "gain": 1.8,
+   "per_10k": 0.247,
+   "status": "replaced"
+  },
+  {
+   "id": "azula-23-34",
+   "rank": 3,
+   "deck": "Azula",
+   "from_list": "Step 23",
+   "to_list": "Step 34",
+   "from_cost_clp": 24882,
+   "to_cost_clp": 49592,
+   "extra_cost_clp": 24710,
+   "gain": 0.3,
+   "per_10k": 0.121,
+   "status": "planned"
+  },
+  {
+   "id": "alexios-39-48",
+   "rank": 4,
+   "deck": "Alexios",
+   "from_list": "Step 39",
+   "to_list": "Step 48",
+   "from_cost_clp": 97602,
+   "to_cost_clp": 197392,
+   "extra_cost_clp": 99790,
+   "gain": 0.9,
+   "per_10k": 0.09,
+   "status": "replaced"
+  },
+  {
+   "id": "toph-11-21",
+   "rank": 5,
+   "deck": "Toph",
+   "from_list": "Step 11",
+   "to_list": "Step 21",
+   "from_cost_clp": 24152,
+   "to_cost_clp": 49142,
+   "extra_cost_clp": 24990,
+   "gain": 0.2,
+   "per_10k": 0.08,
+   "status": "planned"
+  },
+  {
+   "id": "toph-0-11",
+   "rank": 6,
+   "deck": "Toph",
+   "from_list": "Step 0 (free base)",
+   "to_list": "Step 11",
+   "from_cost_clp": 0,
+   "to_cost_clp": 24152,
+   "extra_cost_clp": 24152,
+   "gain": 0.1,
+   "per_10k": 0.041,
+   "status": "planned"
+  },
+  {
+   "id": "toph-21-30",
+   "rank": 7,
+   "deck": "Toph",
+   "from_list": "Step 21",
+   "to_list": "Step 30",
+   "from_cost_clp": 49142,
+   "to_cost_clp": 97537,
+   "extra_cost_clp": 48395,
+   "gain": 0.1,
+   "per_10k": 0.021,
+   "status": "planned"
+  },
+  {
+   "id": "ezio-39-50",
+   "rank": 8,
+   "deck": "Ezio",
+   "from_list": "Step 39",
+   "to_list": "Step 50",
+   "from_cost_clp": 45872,
+   "to_cost_clp": 141322,
+   "extra_cost_clp": 95450,
+   "gain": 0.1,
+   "per_10k": 0.01,
+   "status": "planned"
+  },
+  {
+   "id": "azula-34-53",
+   "rank": 9,
+   "deck": "Azula",
+   "from_list": "Step 34",
+   "to_list": "Step 53",
+   "from_cost_clp": 49592,
+   "to_cost_clp": 148712,
+   "extra_cost_clp": 99120,
+   "gain": 0.1,
+   "per_10k": 0.01,
+   "status": "planned"
+  }
+ ]
+}

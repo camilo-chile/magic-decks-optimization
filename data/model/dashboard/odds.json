@@ -1,0 +1,1828 @@
+{
+ "rows": [
+  {
+   "id": "alexios-19-R-3",
+   "list_id": "alexios-19",
+   "deck": "Alexios",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 99
+  },
+  {
+   "id": "alexios-19-all-3",
+   "list_id": "alexios-19",
+   "deck": "Alexios",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 99
+  },
+  {
+   "id": "alexios-19-R-5",
+   "list_id": "alexios-19",
+   "deck": "Alexios",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 100
+  },
+  {
+   "id": "alexios-19-all-5",
+   "list_id": "alexios-19",
+   "deck": "Alexios",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 100
+  },
+  {
+   "id": "alexios-19-R-7",
+   "list_id": "alexios-19",
+   "deck": "Alexios",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 100
+  },
+  {
+   "id": "alexios-19-all-7",
+   "list_id": "alexios-19",
+   "deck": "Alexios",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 100
+  },
+  {
+   "id": "alexios-39-R-3",
+   "list_id": "alexios-39",
+   "deck": "Alexios",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 99
+  },
+  {
+   "id": "alexios-39-all-3",
+   "list_id": "alexios-39",
+   "deck": "Alexios",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 99
+  },
+  {
+   "id": "alexios-39-R-5",
+   "list_id": "alexios-39",
+   "deck": "Alexios",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 100
+  },
+  {
+   "id": "alexios-39-all-5",
+   "list_id": "alexios-39",
+   "deck": "Alexios",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 100
+  },
+  {
+   "id": "alexios-39-R-7",
+   "list_id": "alexios-39",
+   "deck": "Alexios",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 100
+  },
+  {
+   "id": "alexios-39-all-7",
+   "list_id": "alexios-39",
+   "deck": "Alexios",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 100
+  },
+  {
+   "id": "alexios-48-R-3",
+   "list_id": "alexios-48",
+   "deck": "Alexios",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 99
+  },
+  {
+   "id": "alexios-48-all-3",
+   "list_id": "alexios-48",
+   "deck": "Alexios",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 99
+  },
+  {
+   "id": "alexios-48-R-5",
+   "list_id": "alexios-48",
+   "deck": "Alexios",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 100
+  },
+  {
+   "id": "alexios-48-all-5",
+   "list_id": "alexios-48",
+   "deck": "Alexios",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 100
+  },
+  {
+   "id": "alexios-48-R-7",
+   "list_id": "alexios-48",
+   "deck": "Alexios",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 100
+  },
+  {
+   "id": "alexios-48-all-7",
+   "list_id": "alexios-48",
+   "deck": "Alexios",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 100
+  },
+  {
+   "id": "ezio-24-W-3",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 3,
+   "chance_pct": 85
+  },
+  {
+   "id": "ezio-24-U-3",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 3,
+   "chance_pct": 88
+  },
+  {
+   "id": "ezio-24-B-3",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 3,
+   "chance_pct": 94
+  },
+  {
+   "id": "ezio-24-R-3",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 88
+  },
+  {
+   "id": "ezio-24-G-3",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 3,
+   "chance_pct": 87
+  },
+  {
+   "id": "ezio-24-all-3",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 71
+  },
+  {
+   "id": "ezio-24-W-5",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 5,
+   "chance_pct": 90
+  },
+  {
+   "id": "ezio-24-U-5",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 5,
+   "chance_pct": 93
+  },
+  {
+   "id": "ezio-24-B-5",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 5,
+   "chance_pct": 97
+  },
+  {
+   "id": "ezio-24-R-5",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 93
+  },
+  {
+   "id": "ezio-24-G-5",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 5,
+   "chance_pct": 92
+  },
+  {
+   "id": "ezio-24-all-5",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 80
+  },
+  {
+   "id": "ezio-24-W-7",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 7,
+   "chance_pct": 94
+  },
+  {
+   "id": "ezio-24-U-7",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 7,
+   "chance_pct": 96
+  },
+  {
+   "id": "ezio-24-B-7",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 7,
+   "chance_pct": 98
+  },
+  {
+   "id": "ezio-24-R-7",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 96
+  },
+  {
+   "id": "ezio-24-G-7",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 7,
+   "chance_pct": 95
+  },
+  {
+   "id": "ezio-24-all-7",
+   "list_id": "ezio-24",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 87
+  },
+  {
+   "id": "ezio-39-W-3",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 3,
+   "chance_pct": 87
+  },
+  {
+   "id": "ezio-39-U-3",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 3,
+   "chance_pct": 88
+  },
+  {
+   "id": "ezio-39-B-3",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 3,
+   "chance_pct": 94
+  },
+  {
+   "id": "ezio-39-R-3",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 89
+  },
+  {
+   "id": "ezio-39-G-3",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 3,
+   "chance_pct": 87
+  },
+  {
+   "id": "ezio-39-all-3",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 71
+  },
+  {
+   "id": "ezio-39-W-5",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 5,
+   "chance_pct": 92
+  },
+  {
+   "id": "ezio-39-U-5",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 5,
+   "chance_pct": 93
+  },
+  {
+   "id": "ezio-39-B-5",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 5,
+   "chance_pct": 97
+  },
+  {
+   "id": "ezio-39-R-5",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 94
+  },
+  {
+   "id": "ezio-39-G-5",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 5,
+   "chance_pct": 92
+  },
+  {
+   "id": "ezio-39-all-5",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 81
+  },
+  {
+   "id": "ezio-39-W-7",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 7,
+   "chance_pct": 95
+  },
+  {
+   "id": "ezio-39-U-7",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 7,
+   "chance_pct": 96
+  },
+  {
+   "id": "ezio-39-B-7",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 7,
+   "chance_pct": 98
+  },
+  {
+   "id": "ezio-39-R-7",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 96
+  },
+  {
+   "id": "ezio-39-G-7",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 7,
+   "chance_pct": 95
+  },
+  {
+   "id": "ezio-39-all-7",
+   "list_id": "ezio-39",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 88
+  },
+  {
+   "id": "ezio-43-W-3",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 3,
+   "chance_pct": 87
+  },
+  {
+   "id": "ezio-43-U-3",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 3,
+   "chance_pct": 88
+  },
+  {
+   "id": "ezio-43-B-3",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 3,
+   "chance_pct": 94
+  },
+  {
+   "id": "ezio-43-R-3",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 89
+  },
+  {
+   "id": "ezio-43-G-3",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 3,
+   "chance_pct": 87
+  },
+  {
+   "id": "ezio-43-all-3",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 71
+  },
+  {
+   "id": "ezio-43-W-5",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 5,
+   "chance_pct": 92
+  },
+  {
+   "id": "ezio-43-U-5",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 5,
+   "chance_pct": 93
+  },
+  {
+   "id": "ezio-43-B-5",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 5,
+   "chance_pct": 97
+  },
+  {
+   "id": "ezio-43-R-5",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 94
+  },
+  {
+   "id": "ezio-43-G-5",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 5,
+   "chance_pct": 92
+  },
+  {
+   "id": "ezio-43-all-5",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 81
+  },
+  {
+   "id": "ezio-43-W-7",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 7,
+   "chance_pct": 95
+  },
+  {
+   "id": "ezio-43-U-7",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 7,
+   "chance_pct": 96
+  },
+  {
+   "id": "ezio-43-B-7",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 7,
+   "chance_pct": 98
+  },
+  {
+   "id": "ezio-43-R-7",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 96
+  },
+  {
+   "id": "ezio-43-G-7",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 7,
+   "chance_pct": 95
+  },
+  {
+   "id": "ezio-43-all-7",
+   "list_id": "ezio-43",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 88
+  },
+  {
+   "id": "ezio-46-W-3",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 3,
+   "chance_pct": 85
+  },
+  {
+   "id": "ezio-46-U-3",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 3,
+   "chance_pct": 88
+  },
+  {
+   "id": "ezio-46-B-3",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 3,
+   "chance_pct": 93
+  },
+  {
+   "id": "ezio-46-R-3",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 89
+  },
+  {
+   "id": "ezio-46-G-3",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 3,
+   "chance_pct": 85
+  },
+  {
+   "id": "ezio-46-all-3",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 70
+  },
+  {
+   "id": "ezio-46-W-5",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 5,
+   "chance_pct": 90
+  },
+  {
+   "id": "ezio-46-U-5",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 5,
+   "chance_pct": 93
+  },
+  {
+   "id": "ezio-46-B-5",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 5,
+   "chance_pct": 96
+  },
+  {
+   "id": "ezio-46-R-5",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 94
+  },
+  {
+   "id": "ezio-46-G-5",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 5,
+   "chance_pct": 90
+  },
+  {
+   "id": "ezio-46-all-5",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 79
+  },
+  {
+   "id": "ezio-46-W-7",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 7,
+   "chance_pct": 94
+  },
+  {
+   "id": "ezio-46-U-7",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 7,
+   "chance_pct": 96
+  },
+  {
+   "id": "ezio-46-B-7",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 7,
+   "chance_pct": 98
+  },
+  {
+   "id": "ezio-46-R-7",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 96
+  },
+  {
+   "id": "ezio-46-G-7",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 7,
+   "chance_pct": 94
+  },
+  {
+   "id": "ezio-46-all-7",
+   "list_id": "ezio-46",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 86
+  },
+  {
+   "id": "ezio-50-W-3",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 3,
+   "chance_pct": 85
+  },
+  {
+   "id": "ezio-50-U-3",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 3,
+   "chance_pct": 89
+  },
+  {
+   "id": "ezio-50-B-3",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 3,
+   "chance_pct": 93
+  },
+  {
+   "id": "ezio-50-R-3",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 89
+  },
+  {
+   "id": "ezio-50-G-3",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 3,
+   "chance_pct": 85
+  },
+  {
+   "id": "ezio-50-all-3",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 70
+  },
+  {
+   "id": "ezio-50-W-5",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 5,
+   "chance_pct": 90
+  },
+  {
+   "id": "ezio-50-U-5",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 5,
+   "chance_pct": 94
+  },
+  {
+   "id": "ezio-50-B-5",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 5,
+   "chance_pct": 96
+  },
+  {
+   "id": "ezio-50-R-5",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 94
+  },
+  {
+   "id": "ezio-50-G-5",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 5,
+   "chance_pct": 90
+  },
+  {
+   "id": "ezio-50-all-5",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 79
+  },
+  {
+   "id": "ezio-50-W-7",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "White",
+   "turn": 7,
+   "chance_pct": 94
+  },
+  {
+   "id": "ezio-50-U-7",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "Blue",
+   "turn": 7,
+   "chance_pct": 96
+  },
+  {
+   "id": "ezio-50-B-7",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "Black",
+   "turn": 7,
+   "chance_pct": 98
+  },
+  {
+   "id": "ezio-50-R-7",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 96
+  },
+  {
+   "id": "ezio-50-G-7",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "Green",
+   "turn": 7,
+   "chance_pct": 94
+  },
+  {
+   "id": "ezio-50-all-7",
+   "list_id": "ezio-50",
+   "deck": "Ezio",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 86
+  },
+  {
+   "id": "azula-23-U-3",
+   "list_id": "azula-23",
+   "deck": "Azula",
+   "color": "Blue",
+   "turn": 3,
+   "chance_pct": 94
+  },
+  {
+   "id": "azula-23-B-3",
+   "list_id": "azula-23",
+   "deck": "Azula",
+   "color": "Black",
+   "turn": 3,
+   "chance_pct": 93
+  },
+  {
+   "id": "azula-23-R-3",
+   "list_id": "azula-23",
+   "deck": "Azula",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 94
+  },
+  {
+   "id": "azula-23-all-3",
+   "list_id": "azula-23",
+   "deck": "Azula",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 84
+  },
+  {
+   "id": "azula-23-U-5",
+   "list_id": "azula-23",
+   "deck": "Azula",
+   "color": "Blue",
+   "turn": 5,
+   "chance_pct": 97
+  },
+  {
+   "id": "azula-23-B-5",
+   "list_id": "azula-23",
+   "deck": "Azula",
+   "color": "Black",
+   "turn": 5,
+   "chance_pct": 96
+  },
+  {
+   "id": "azula-23-R-5",
+   "list_id": "azula-23",
+   "deck": "Azula",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 97
+  },
+  {
+   "id": "azula-23-all-5",
+   "list_id": "azula-23",
+   "deck": "Azula",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 91
+  },
+  {
+   "id": "azula-23-U-7",
+   "list_id": "azula-23",
+   "deck": "Azula",
+   "color": "Blue",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "azula-23-B-7",
+   "list_id": "azula-23",
+   "deck": "Azula",
+   "color": "Black",
+   "turn": 7,
+   "chance_pct": 98
+  },
+  {
+   "id": "azula-23-R-7",
+   "list_id": "azula-23",
+   "deck": "Azula",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 98
+  },
+  {
+   "id": "azula-23-all-7",
+   "list_id": "azula-23",
+   "deck": "Azula",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 95
+  },
+  {
+   "id": "azula-34-U-3",
+   "list_id": "azula-34",
+   "deck": "Azula",
+   "color": "Blue",
+   "turn": 3,
+   "chance_pct": 95
+  },
+  {
+   "id": "azula-34-B-3",
+   "list_id": "azula-34",
+   "deck": "Azula",
+   "color": "Black",
+   "turn": 3,
+   "chance_pct": 95
+  },
+  {
+   "id": "azula-34-R-3",
+   "list_id": "azula-34",
+   "deck": "Azula",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 95
+  },
+  {
+   "id": "azula-34-all-3",
+   "list_id": "azula-34",
+   "deck": "Azula",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 87
+  },
+  {
+   "id": "azula-34-U-5",
+   "list_id": "azula-34",
+   "deck": "Azula",
+   "color": "Blue",
+   "turn": 5,
+   "chance_pct": 98
+  },
+  {
+   "id": "azula-34-B-5",
+   "list_id": "azula-34",
+   "deck": "Azula",
+   "color": "Black",
+   "turn": 5,
+   "chance_pct": 98
+  },
+  {
+   "id": "azula-34-R-5",
+   "list_id": "azula-34",
+   "deck": "Azula",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 98
+  },
+  {
+   "id": "azula-34-all-5",
+   "list_id": "azula-34",
+   "deck": "Azula",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 93
+  },
+  {
+   "id": "azula-34-U-7",
+   "list_id": "azula-34",
+   "deck": "Azula",
+   "color": "Blue",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "azula-34-B-7",
+   "list_id": "azula-34",
+   "deck": "Azula",
+   "color": "Black",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "azula-34-R-7",
+   "list_id": "azula-34",
+   "deck": "Azula",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "azula-34-all-7",
+   "list_id": "azula-34",
+   "deck": "Azula",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 97
+  },
+  {
+   "id": "azula-39-U-3",
+   "list_id": "azula-39",
+   "deck": "Azula",
+   "color": "Blue",
+   "turn": 3,
+   "chance_pct": 95
+  },
+  {
+   "id": "azula-39-B-3",
+   "list_id": "azula-39",
+   "deck": "Azula",
+   "color": "Black",
+   "turn": 3,
+   "chance_pct": 95
+  },
+  {
+   "id": "azula-39-R-3",
+   "list_id": "azula-39",
+   "deck": "Azula",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 96
+  },
+  {
+   "id": "azula-39-all-3",
+   "list_id": "azula-39",
+   "deck": "Azula",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 89
+  },
+  {
+   "id": "azula-39-U-5",
+   "list_id": "azula-39",
+   "deck": "Azula",
+   "color": "Blue",
+   "turn": 5,
+   "chance_pct": 98
+  },
+  {
+   "id": "azula-39-B-5",
+   "list_id": "azula-39",
+   "deck": "Azula",
+   "color": "Black",
+   "turn": 5,
+   "chance_pct": 98
+  },
+  {
+   "id": "azula-39-R-5",
+   "list_id": "azula-39",
+   "deck": "Azula",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 98
+  },
+  {
+   "id": "azula-39-all-5",
+   "list_id": "azula-39",
+   "deck": "Azula",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 95
+  },
+  {
+   "id": "azula-39-U-7",
+   "list_id": "azula-39",
+   "deck": "Azula",
+   "color": "Blue",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "azula-39-B-7",
+   "list_id": "azula-39",
+   "deck": "Azula",
+   "color": "Black",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "azula-39-R-7",
+   "list_id": "azula-39",
+   "deck": "Azula",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "azula-39-all-7",
+   "list_id": "azula-39",
+   "deck": "Azula",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 97
+  },
+  {
+   "id": "azula-44-U-3",
+   "list_id": "azula-44",
+   "deck": "Azula",
+   "color": "Blue",
+   "turn": 3,
+   "chance_pct": 96
+  },
+  {
+   "id": "azula-44-B-3",
+   "list_id": "azula-44",
+   "deck": "Azula",
+   "color": "Black",
+   "turn": 3,
+   "chance_pct": 95
+  },
+  {
+   "id": "azula-44-R-3",
+   "list_id": "azula-44",
+   "deck": "Azula",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 96
+  },
+  {
+   "id": "azula-44-all-3",
+   "list_id": "azula-44",
+   "deck": "Azula",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 89
+  },
+  {
+   "id": "azula-44-U-5",
+   "list_id": "azula-44",
+   "deck": "Azula",
+   "color": "Blue",
+   "turn": 5,
+   "chance_pct": 98
+  },
+  {
+   "id": "azula-44-B-5",
+   "list_id": "azula-44",
+   "deck": "Azula",
+   "color": "Black",
+   "turn": 5,
+   "chance_pct": 98
+  },
+  {
+   "id": "azula-44-R-5",
+   "list_id": "azula-44",
+   "deck": "Azula",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 98
+  },
+  {
+   "id": "azula-44-all-5",
+   "list_id": "azula-44",
+   "deck": "Azula",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 94
+  },
+  {
+   "id": "azula-44-U-7",
+   "list_id": "azula-44",
+   "deck": "Azula",
+   "color": "Blue",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "azula-44-B-7",
+   "list_id": "azula-44",
+   "deck": "Azula",
+   "color": "Black",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "azula-44-R-7",
+   "list_id": "azula-44",
+   "deck": "Azula",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "azula-44-all-7",
+   "list_id": "azula-44",
+   "deck": "Azula",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 97
+  },
+  {
+   "id": "azula-53-U-3",
+   "list_id": "azula-53",
+   "deck": "Azula",
+   "color": "Blue",
+   "turn": 3,
+   "chance_pct": 96
+  },
+  {
+   "id": "azula-53-B-3",
+   "list_id": "azula-53",
+   "deck": "Azula",
+   "color": "Black",
+   "turn": 3,
+   "chance_pct": 97
+  },
+  {
+   "id": "azula-53-R-3",
+   "list_id": "azula-53",
+   "deck": "Azula",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 98
+  },
+  {
+   "id": "azula-53-all-3",
+   "list_id": "azula-53",
+   "deck": "Azula",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 91
+  },
+  {
+   "id": "azula-53-U-5",
+   "list_id": "azula-53",
+   "deck": "Azula",
+   "color": "Blue",
+   "turn": 5,
+   "chance_pct": 98
+  },
+  {
+   "id": "azula-53-B-5",
+   "list_id": "azula-53",
+   "deck": "Azula",
+   "color": "Black",
+   "turn": 5,
+   "chance_pct": 99
+  },
+  {
+   "id": "azula-53-R-5",
+   "list_id": "azula-53",
+   "deck": "Azula",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 99
+  },
+  {
+   "id": "azula-53-all-5",
+   "list_id": "azula-53",
+   "deck": "Azula",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 96
+  },
+  {
+   "id": "azula-53-U-7",
+   "list_id": "azula-53",
+   "deck": "Azula",
+   "color": "Blue",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "azula-53-B-7",
+   "list_id": "azula-53",
+   "deck": "Azula",
+   "color": "Black",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "azula-53-R-7",
+   "list_id": "azula-53",
+   "deck": "Azula",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 100
+  },
+  {
+   "id": "azula-53-all-7",
+   "list_id": "azula-53",
+   "deck": "Azula",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "toph-0-W-3",
+   "list_id": "toph-0",
+   "deck": "Toph",
+   "color": "White",
+   "turn": 3,
+   "chance_pct": 83
+  },
+  {
+   "id": "toph-0-R-3",
+   "list_id": "toph-0",
+   "deck": "Toph",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 83
+  },
+  {
+   "id": "toph-0-G-3",
+   "list_id": "toph-0",
+   "deck": "Toph",
+   "color": "Green",
+   "turn": 3,
+   "chance_pct": 96
+  },
+  {
+   "id": "toph-0-all-3",
+   "list_id": "toph-0",
+   "deck": "Toph",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 69
+  },
+  {
+   "id": "toph-0-W-5",
+   "list_id": "toph-0",
+   "deck": "Toph",
+   "color": "White",
+   "turn": 5,
+   "chance_pct": 89
+  },
+  {
+   "id": "toph-0-R-5",
+   "list_id": "toph-0",
+   "deck": "Toph",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 89
+  },
+  {
+   "id": "toph-0-G-5",
+   "list_id": "toph-0",
+   "deck": "Toph",
+   "color": "Green",
+   "turn": 5,
+   "chance_pct": 98
+  },
+  {
+   "id": "toph-0-all-5",
+   "list_id": "toph-0",
+   "deck": "Toph",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 80
+  },
+  {
+   "id": "toph-0-W-7",
+   "list_id": "toph-0",
+   "deck": "Toph",
+   "color": "White",
+   "turn": 7,
+   "chance_pct": 93
+  },
+  {
+   "id": "toph-0-R-7",
+   "list_id": "toph-0",
+   "deck": "Toph",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 93
+  },
+  {
+   "id": "toph-0-G-7",
+   "list_id": "toph-0",
+   "deck": "Toph",
+   "color": "Green",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "toph-0-all-7",
+   "list_id": "toph-0",
+   "deck": "Toph",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 86
+  },
+  {
+   "id": "toph-11-W-3",
+   "list_id": "toph-11",
+   "deck": "Toph",
+   "color": "White",
+   "turn": 3,
+   "chance_pct": 81
+  },
+  {
+   "id": "toph-11-R-3",
+   "list_id": "toph-11",
+   "deck": "Toph",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 83
+  },
+  {
+   "id": "toph-11-G-3",
+   "list_id": "toph-11",
+   "deck": "Toph",
+   "color": "Green",
+   "turn": 3,
+   "chance_pct": 96
+  },
+  {
+   "id": "toph-11-all-3",
+   "list_id": "toph-11",
+   "deck": "Toph",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 69
+  },
+  {
+   "id": "toph-11-W-5",
+   "list_id": "toph-11",
+   "deck": "Toph",
+   "color": "White",
+   "turn": 5,
+   "chance_pct": 87
+  },
+  {
+   "id": "toph-11-R-5",
+   "list_id": "toph-11",
+   "deck": "Toph",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 89
+  },
+  {
+   "id": "toph-11-G-5",
+   "list_id": "toph-11",
+   "deck": "Toph",
+   "color": "Green",
+   "turn": 5,
+   "chance_pct": 98
+  },
+  {
+   "id": "toph-11-all-5",
+   "list_id": "toph-11",
+   "deck": "Toph",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 79
+  },
+  {
+   "id": "toph-11-W-7",
+   "list_id": "toph-11",
+   "deck": "Toph",
+   "color": "White",
+   "turn": 7,
+   "chance_pct": 91
+  },
+  {
+   "id": "toph-11-R-7",
+   "list_id": "toph-11",
+   "deck": "Toph",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 93
+  },
+  {
+   "id": "toph-11-G-7",
+   "list_id": "toph-11",
+   "deck": "Toph",
+   "color": "Green",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "toph-11-all-7",
+   "list_id": "toph-11",
+   "deck": "Toph",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 85
+  },
+  {
+   "id": "toph-21-W-3",
+   "list_id": "toph-21",
+   "deck": "Toph",
+   "color": "White",
+   "turn": 3,
+   "chance_pct": 91
+  },
+  {
+   "id": "toph-21-R-3",
+   "list_id": "toph-21",
+   "deck": "Toph",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 91
+  },
+  {
+   "id": "toph-21-G-3",
+   "list_id": "toph-21",
+   "deck": "Toph",
+   "color": "Green",
+   "turn": 3,
+   "chance_pct": 97
+  },
+  {
+   "id": "toph-21-all-3",
+   "list_id": "toph-21",
+   "deck": "Toph",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 83
+  },
+  {
+   "id": "toph-21-W-5",
+   "list_id": "toph-21",
+   "deck": "Toph",
+   "color": "White",
+   "turn": 5,
+   "chance_pct": 95
+  },
+  {
+   "id": "toph-21-R-5",
+   "list_id": "toph-21",
+   "deck": "Toph",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 95
+  },
+  {
+   "id": "toph-21-G-5",
+   "list_id": "toph-21",
+   "deck": "Toph",
+   "color": "Green",
+   "turn": 5,
+   "chance_pct": 99
+  },
+  {
+   "id": "toph-21-all-5",
+   "list_id": "toph-21",
+   "deck": "Toph",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 91
+  },
+  {
+   "id": "toph-21-W-7",
+   "list_id": "toph-21",
+   "deck": "Toph",
+   "color": "White",
+   "turn": 7,
+   "chance_pct": 97
+  },
+  {
+   "id": "toph-21-R-7",
+   "list_id": "toph-21",
+   "deck": "Toph",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 97
+  },
+  {
+   "id": "toph-21-G-7",
+   "list_id": "toph-21",
+   "deck": "Toph",
+   "color": "Green",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "toph-21-all-7",
+   "list_id": "toph-21",
+   "deck": "Toph",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 94
+  },
+  {
+   "id": "toph-30-W-3",
+   "list_id": "toph-30",
+   "deck": "Toph",
+   "color": "White",
+   "turn": 3,
+   "chance_pct": 94
+  },
+  {
+   "id": "toph-30-R-3",
+   "list_id": "toph-30",
+   "deck": "Toph",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 92
+  },
+  {
+   "id": "toph-30-G-3",
+   "list_id": "toph-30",
+   "deck": "Toph",
+   "color": "Green",
+   "turn": 3,
+   "chance_pct": 96
+  },
+  {
+   "id": "toph-30-all-3",
+   "list_id": "toph-30",
+   "deck": "Toph",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 86
+  },
+  {
+   "id": "toph-30-W-5",
+   "list_id": "toph-30",
+   "deck": "Toph",
+   "color": "White",
+   "turn": 5,
+   "chance_pct": 97
+  },
+  {
+   "id": "toph-30-R-5",
+   "list_id": "toph-30",
+   "deck": "Toph",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 95
+  },
+  {
+   "id": "toph-30-G-5",
+   "list_id": "toph-30",
+   "deck": "Toph",
+   "color": "Green",
+   "turn": 5,
+   "chance_pct": 98
+  },
+  {
+   "id": "toph-30-all-5",
+   "list_id": "toph-30",
+   "deck": "Toph",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 93
+  },
+  {
+   "id": "toph-30-W-7",
+   "list_id": "toph-30",
+   "deck": "Toph",
+   "color": "White",
+   "turn": 7,
+   "chance_pct": 98
+  },
+  {
+   "id": "toph-30-R-7",
+   "list_id": "toph-30",
+   "deck": "Toph",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 98
+  },
+  {
+   "id": "toph-30-G-7",
+   "list_id": "toph-30",
+   "deck": "Toph",
+   "color": "Green",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "toph-30-all-7",
+   "list_id": "toph-30",
+   "deck": "Toph",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 96
+  },
+  {
+   "id": "toph-32-W-3",
+   "list_id": "toph-32",
+   "deck": "Toph",
+   "color": "White",
+   "turn": 3,
+   "chance_pct": 94
+  },
+  {
+   "id": "toph-32-R-3",
+   "list_id": "toph-32",
+   "deck": "Toph",
+   "color": "Red",
+   "turn": 3,
+   "chance_pct": 92
+  },
+  {
+   "id": "toph-32-G-3",
+   "list_id": "toph-32",
+   "deck": "Toph",
+   "color": "Green",
+   "turn": 3,
+   "chance_pct": 96
+  },
+  {
+   "id": "toph-32-all-3",
+   "list_id": "toph-32",
+   "deck": "Toph",
+   "color": "All colors",
+   "turn": 3,
+   "chance_pct": 86
+  },
+  {
+   "id": "toph-32-W-5",
+   "list_id": "toph-32",
+   "deck": "Toph",
+   "color": "White",
+   "turn": 5,
+   "chance_pct": 97
+  },
+  {
+   "id": "toph-32-R-5",
+   "list_id": "toph-32",
+   "deck": "Toph",
+   "color": "Red",
+   "turn": 5,
+   "chance_pct": 95
+  },
+  {
+   "id": "toph-32-G-5",
+   "list_id": "toph-32",
+   "deck": "Toph",
+   "color": "Green",
+   "turn": 5,
+   "chance_pct": 98
+  },
+  {
+   "id": "toph-32-all-5",
+   "list_id": "toph-32",
+   "deck": "Toph",
+   "color": "All colors",
+   "turn": 5,
+   "chance_pct": 93
+  },
+  {
+   "id": "toph-32-W-7",
+   "list_id": "toph-32",
+   "deck": "Toph",
+   "color": "White",
+   "turn": 7,
+   "chance_pct": 98
+  },
+  {
+   "id": "toph-32-R-7",
+   "list_id": "toph-32",
+   "deck": "Toph",
+   "color": "Red",
+   "turn": 7,
+   "chance_pct": 98
+  },
+  {
+   "id": "toph-32-G-7",
+   "list_id": "toph-32",
+   "deck": "Toph",
+   "color": "Green",
+   "turn": 7,
+   "chance_pct": 99
+  },
+  {
+   "id": "toph-32-all-7",
+   "list_id": "toph-32",
+   "deck": "Toph",
+   "color": "All colors",
+   "turn": 7,
+   "chance_pct": 96
+  }
+ ]
+}

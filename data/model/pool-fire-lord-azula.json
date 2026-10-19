@@ -100,7 +100,7 @@
    "owned_usable": 1,
    "basic": false,
    "best_offer": {
-    "clp": 5500,
+    "clp": 5450,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -1024,8 +1024,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1190,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -1058,8 +1063,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 450,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -1348,8 +1358,8 @@
    "owned_usable": 1,
    "basic": false,
    "best_offer": {
-    "clp": 21720,
-    "store": "gameofmagic",
+    "clp": 21700,
+    "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
    },
@@ -1419,6 +1429,25 @@
     "finish": "nonfoil"
    },
    "stores_with_stock": 2
+  },
+  {
+   "name": "Blackcleave Cliffs",
+   "oracle_id": "5ad94412-6f79-4c5d-bbd4-4ef5779a7b6d",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {B} or {R}.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2400,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
   },
   {
    "name": "Blade of the Swarm",
@@ -1516,8 +1545,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -1773,8 +1807,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -1815,7 +1854,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 5850,
+    "clp": 5600,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -2047,8 +2086,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -2082,8 +2126,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -2313,8 +2362,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -2499,8 +2553,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -2590,8 +2649,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1290,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "lists": [
     "Azula"
    ],
@@ -2608,8 +2672,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -2736,8 +2805,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -3160,7 +3234,7 @@
    "owned_usable": 1,
    "basic": false,
    "best_offer": {
-    "clp": 11950,
+    "clp": 11900,
     "store": "lacomarca",
     "language": "en",
     "finish": "etched"
@@ -3201,8 +3275,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "lists": [
     "Azula"
    ],
@@ -3362,6 +3441,25 @@
    "owned_fit": true
   },
   {
+   "name": "Darkslick Shores",
+   "oracle_id": "a2b48695-f7d7-42ce-a8a0-2a723428542a",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {U} or {B}.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 3560,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
    "name": "Darksteel Citadel",
    "oracle_id": "8dc067bf-f78f-4ac4-b6e7-b305c42cf0bc",
    "type": "Artifact Land",
@@ -3504,8 +3602,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -3520,7 +3623,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 1650,
+    "clp": 1700,
     "store": "lacomarca",
     "language": "en",
     "finish": "foil"
@@ -3595,8 +3698,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 590,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -3630,7 +3738,7 @@
    "owned_usable": 1,
    "basic": false,
    "best_offer": {
-    "clp": 147500,
+    "clp": 145750,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -3741,8 +3849,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -3854,6 +3967,25 @@
    "stores_with_stock": 1
   },
   {
+   "name": "Diabolic Intent",
+   "oracle_id": "038519b9-bca8-4b27-b5ac-2409595469d0",
+   "type": "Sorcery",
+   "cmc": 2.0,
+   "mana_cost": "{1}{B}",
+   "oracle_text": "As an additional cost to cast this spell, sacrifice a creature.\nSearch your library for a card, put that card into your hand, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 19580,
+    "store": "gameofmagic",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
+  },
+  {
    "name": "Dig Through Time",
    "oracle_id": "f8b17b89-26ce-4208-874a-9e1d66514640",
    "type": "Instant",
@@ -3901,8 +4033,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -3957,8 +4094,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -4429,8 +4571,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -4444,8 +4591,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 350,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -4593,8 +4745,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -4608,8 +4765,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 22400,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -4871,8 +5033,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -4928,7 +5095,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 650,
+    "clp": 700,
     "store": "lacomarca",
     "language": "es",
     "finish": "nonfoil"
@@ -4946,9 +5113,33 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
+  },
+  {
+   "name": "Exquisite Blood",
+   "oracle_id": "8f933fae-6c0c-42d7-a817-14760d8285cd",
+   "type": "Enchantment",
+   "cmc": 5.0,
+   "mana_cost": "{4}{B}",
+   "oracle_text": "Whenever an opponent loses life, you gain that much life.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 43990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
   },
   {
    "name": "Exsanguinate",
@@ -5149,8 +5340,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 630,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
    "owned_fit": true
   },
   {
@@ -5325,6 +5521,25 @@
    "stores_with_stock": 5
   },
   {
+   "name": "Fiery Islet",
+   "oracle_id": "026f4a4b-eedd-44e1-9d37-ca4fb8d6db98",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}, Pay 1 life: Add {U} or {R}.\n{1}, {T}, Sacrifice this land: Draw a card.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 5880,
+    "store": "piedrabruja",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
    "name": "Final-Sting Faerie",
    "oracle_id": "299765d8-72b9-4ada-a607-efb36aa0f5db",
    "type": "Creature — Faerie Assassin",
@@ -5435,8 +5650,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 915,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -5450,8 +5670,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "lists": [
     "Azula"
    ],
@@ -5523,8 +5748,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -5658,8 +5888,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 450,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -6040,7 +6275,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 482,
+    "clp": 481,
     "store": "piedrabruja",
     "language": "en",
     "finish": "nonfoil"
@@ -6086,8 +6321,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -6174,7 +6414,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 28050,
+    "clp": 28100,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -6293,8 +6533,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 700,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
    "owned_fit": true
   },
   {
@@ -6462,8 +6707,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -6493,7 +6743,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 482,
+    "clp": 481,
     "store": "piedrabruja",
     "language": "en",
     "finish": "nonfoil"
@@ -6533,8 +6783,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 742,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -6801,12 +7056,31 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 11650,
+    "clp": 11600,
     "store": "lacomarca",
     "language": "en",
     "finish": "foil"
    },
    "stores_with_stock": 1
+  },
+  {
+   "name": "Grim Tutor",
+   "oracle_id": "e62f8d69-a559-4f13-a5c9-5fb750b4af2c",
+   "type": "Sorcery",
+   "cmc": 3.0,
+   "mana_cost": "{1}{B}{B}",
+   "oracle_text": "Search your library for a card, put that card into your hand, then shuffle. You lose 3 life.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 28990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
   },
   {
    "name": "Guildsworn Prowler",
@@ -6974,8 +7248,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 450,
+    "store": "lacomarca",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -7089,8 +7368,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "lists": [
     "Azula"
    ],
@@ -7696,8 +7980,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 4990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -7804,8 +8093,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1760,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -7884,8 +8178,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "lists": [
     "Azula"
    ],
@@ -8004,8 +8303,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -8170,7 +8474,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 18600,
+    "clp": 18500,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -8207,8 +8511,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -8346,8 +8655,13 @@
    "locked": false,
    "owned_usable": 4,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -8384,8 +8698,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -8494,8 +8813,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -8694,8 +9018,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -8777,8 +9106,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -8914,7 +9248,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 600,
+    "clp": 550,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -9372,8 +9706,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -9553,8 +9892,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -9845,8 +10189,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -9879,8 +10228,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 7480,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -9917,8 +10271,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "lists": [
     "Azula"
    ],
@@ -9986,6 +10345,25 @@
    "stores_with_stock": 4
   },
   {
+   "name": "Multiversal Passage",
+   "oracle_id": "17770eeb-ecbf-4510-af2d-acececfbe146",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "As this land enters, choose a basic land type. Then you may pay 2 life. If you don't, it enters tapped.\nThis land is the chosen type.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 8360,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
    "name": "Murder",
    "oracle_id": "938b4e2c-88d9-4637-bc00-e228920c9a78",
    "type": "Instant",
@@ -9996,8 +10374,13 @@
    "locked": false,
    "owned_usable": 4,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
    "owned_fit": true
   },
   {
@@ -10027,7 +10410,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 2150,
+    "clp": 2050,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -10259,8 +10642,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -10443,8 +10831,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -10458,8 +10851,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 550,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -11086,8 +11484,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 4360,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -11182,8 +11585,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -11257,8 +11665,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -11401,8 +11814,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -11532,8 +11950,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
    "owned_fit": true
   },
   {
@@ -11683,8 +12106,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1190,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -12179,8 +12607,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -13306,8 +13739,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "lists": [
     "Azula"
    ],
@@ -13446,6 +13884,25 @@
     "finish": "nonfoil"
    },
    "stores_with_stock": 4
+  },
+  {
+   "name": "Spirebluff Canal",
+   "oracle_id": "eb0d8093-5f93-4b25-9384-08f9731bfb28",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {U} or {R}.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 5100,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6
   },
   {
    "name": "Spitfire Lagac",
@@ -13740,7 +14197,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 6850,
+    "clp": 6800,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -14167,7 +14624,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 2500,
+    "clp": 2450,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -14176,6 +14633,44 @@
    "lists": [
     "963a6e62"
    ]
+  },
+  {
+   "name": "Tainted Isle",
+   "oracle_id": "0222414f-98b5-458a-a0fd-831a66cd8b07",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. Activate only if you control a Swamp.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 4090,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
+  },
+  {
+   "name": "Tainted Peak",
+   "oracle_id": "b2bae7fc-0668-4b34-9cd6-0d80aea52275",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. Activate only if you control a Swamp.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1954,
+    "store": "piedrabruja",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
   },
   {
    "name": "Talisman of Creativity",
@@ -14552,7 +15047,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 1267,
+    "clp": 1266,
     "store": "piedrabruja",
     "language": "en",
     "finish": "foil"
@@ -14771,8 +15266,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 500,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -14786,8 +15286,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "lists": [
     "Azula"
    ],
@@ -15033,8 +15538,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -15314,8 +15824,13 @@
    "locked": false,
    "owned_usable": 4,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -15363,8 +15878,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 500,
+    "store": "oasis",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -15456,8 +15976,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -15505,8 +16030,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -15542,6 +16072,25 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "Unclaimed Territory",
+   "oracle_id": "584b15f2-6ae9-413a-8b8d-9244dbea4878",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "As this land enters, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 350,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
   },
   {
    "name": "Undercity Eliminator",
@@ -15882,8 +16431,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 3000,
+    "store": "afkstore",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -15937,7 +16491,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 88050,
+    "clp": 88100,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -16595,8 +17149,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -16745,7 +17304,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 7150,
+    "clp": 7100,
     "store": "lacomarca",
     "language": "en",
     "finish": "foil"
@@ -16822,8 +17381,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1800,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -16949,8 +17513,13 @@
    "locked": false,
    "owned_usable": 4,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -17028,8 +17597,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "lists": [
     "Azula"
    ],
@@ -17046,8 +17620,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -17061,8 +17640,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 915,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
    "owned_fit": true
   },
   {
@@ -17091,8 +17675,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "lists": [
     "Azula"
    ],

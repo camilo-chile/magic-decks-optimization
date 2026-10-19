@@ -29,16 +29,23 @@ def test_only_eligible_lists_and_a_dearer_list_that_measured_no_higher_is_droppe
     assert pts["c"][1]["label"] == "legacy"                # eligible by flag, cheapest list that reaches 7.9
 
 
-def test_parity_beats_a_higher_weakest_deck_and_the_leader_is_lowered_when_needed():
-    pts = {"a": [{"label": "a0", "cost": 0, "power": 7.1}, {"label": "a1", "cost": 50_000, "power": 7.9}],
-           "b": [{"label": "b0", "cost": 0, "power": 6.0}, {"label": "b1", "cost": 60_000, "power": 6.8}]}
-    row = mod.best_for_budget(pts, 100_000)
-    # a1 + b1 costs 110,000 (over budget); a0 + b1 is at parity? 7.1 - 6.8 = 0.3 no; a0 + b0 gap 1.1 no;
-    # a1 + b0 gap 1.9 no: nothing is at parity, so the best weakest deck wins and parity is reported false
-    assert not row["parity"] and row["decks"]["b"]["label"] == "b1" and row["decks"]["a"]["label"] == "a0"
-    pts["a"].append({"label": "a05", "cost": 10_000, "power": 6.9})
-    row = mod.best_for_budget(pts, 100_000)
-    assert row["parity"] and row["gap"] == 0.1 and row["min_power"] == 6.8 and row["cost"] == 70_000
+def test_the_highest_sum_wins_even_when_one_deck_runs_far_ahead():
+    pts = {"a": [{"label": "a0", "cost": 0, "power": 7.1}, {"label": "a1", "cost": 50_000, "power": 7.4}],
+           "b": [{"label": "b0", "cost": 0, "power": 7.0}, {"label": "b1", "cost": 60_000, "power": 7.1}]}
+    row = mod.best_for_budget(pts, 60_000)
+    # a1 + b0 = 14.4 beats a0 + b1 = 14.2: the money goes where it buys more power, the gap (0.4) is only reported
+    assert row["decks"]["a"]["label"] == "a1" and row["decks"]["b"]["label"] == "b0"
+    assert row["sum_power"] == 14.4 and row["gap"] == 0.4 and row["cost"] == 50_000 and row["min_power"] == 7.0
+
+
+def test_ties_prefer_the_stronger_weakest_deck_then_the_lower_cost():
+    pts = {"a": [{"label": "a0", "cost": 0, "power": 7.0}, {"label": "a1", "cost": 10_000, "power": 7.2}],
+           "b": [{"label": "b0", "cost": 0, "power": 6.8}, {"label": "b1", "cost": 20_000, "power": 7.0}]}
+    # a1 + b0 and a0 + b1 both sum to 14.0 and 14.2? a1+b0 = 14.0, a0+b1 = 14.0: the weakest deck decides (6.8 vs 7.0)
+    row = mod.best_for_budget(pts, 25_000)
+    assert row["decks"]["a"]["label"] == "a0" and row["decks"]["b"]["label"] == "b1"
+    cheap = {"a": [{"label": "a0", "cost": 0, "power": 7.0}], "b": [{"label": "b0", "cost": 0, "power": 7.0}]}
+    assert mod.best_for_budget(cheap, 50_000)["cost"] == 0
 
 
 def test_budget_is_never_exceeded_and_no_fit_is_reported():
@@ -50,16 +57,34 @@ def test_budget_is_never_exceeded_and_no_fit_is_reported():
     assert mod.curve({"a": [{"label": "x", "cost": 500_000, "power": 7.0}]})[0]["decks"] is None
 
 
-def test_more_budget_never_lowers_the_weakest_deck():
+def test_more_budget_never_lowers_the_total_power():
     pts = mod.load_points(MEASURED)
-    weakest = [mod.best_for_budget(pts, b)["min_power"] for b in mod.BUDGETS]
-    assert weakest == sorted(weakest)
+    sums = [mod.best_for_budget(pts, b)["sum_power"] for b in mod.BUDGETS]
+    assert sums == sorted(sums)
 
 
-def test_render_lists_every_budget_and_flags_parity():
+def test_jumps_follow_the_budget_steps():
+    pts = {"a": [{"label": "a0", "cost": 0, "power": 7.1}, {"label": "a1", "cost": 50_000, "power": 7.4}],
+           "b": [{"label": "b0", "cost": 0, "power": 7.0}, {"label": "b1", "cost": 60_000, "power": 7.1}]}
+    rows = mod.curve(pts, budgets=[50_000, 60_000, 110_000])
+    assert mod.jumps(rows) == {"a": [(60_000, 0.0), (110_000, 0.0)], "b": [(60_000, 0.0), (110_000, 0.1)]}
+
+
+def test_best_buys_rank_power_per_clp_and_skip_free_steps():
+    pts = {"a": [{"label": "a0", "cost": 0, "power": 7.0}, {"label": "a1", "cost": 20_000, "power": 7.2},
+                 {"label": "a2", "cost": 120_000, "power": 7.5}],
+           "b": [{"label": "b0", "cost": 10_000, "power": 6.0}, {"label": "b1", "cost": 30_000, "power": 7.0}]}
+    buys = mod.best_buys(pts)
+    assert [(s["deck"], s["to"]) for s in buys] == [("b", "b1"), ("a", "a1"), ("a", "a2")]
+    assert buys[0]["per_10k"] == 0.5 and buys[1]["per_10k"] == 0.1 and buys[2]["extra_cost"] == 100_000
+
+
+def test_render_lists_every_budget_and_the_best_buys():
     pts = mod.load_points(MEASURED)
     text = mod.render(mod.curve(pts), pts, "2026.4195", "2026-10-19")
-    assert text.count("| 100,000 |") == 1 and text.count("| 300,000 |") == 1 and "Weakest" in text
+    rows = [line for line in text.splitlines() if line.startswith("| 100,000 |") or line.startswith("| 300,000 |")]
+    assert len(rows) == 2 and "Weakest" in text
+    assert "Best buys first" in text and "parity" in text.lower()  # the header says the rule is gone
 
 
 if __name__ == "__main__":

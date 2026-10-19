@@ -55,7 +55,7 @@
    "owned_usable": 1,
    "basic": false,
    "best_offer": {
-    "clp": 5500,
+    "clp": 5450,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -456,8 +456,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1190,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -471,8 +476,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 450,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -683,8 +693,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -813,8 +828,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -829,7 +849,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 5850,
+    "clp": 5600,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -969,8 +989,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -1010,8 +1035,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -1100,8 +1130,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -1229,8 +1264,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -1285,8 +1325,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -1407,8 +1452,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -1605,8 +1655,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -1757,7 +1812,7 @@
    "owned_usable": 1,
    "basic": false,
    "best_offer": {
-    "clp": 147500,
+    "clp": 145750,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -2093,8 +2148,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -2180,8 +2240,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -2313,8 +2378,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -2348,7 +2418,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 650,
+    "clp": 700,
     "store": "lacomarca",
     "language": "es",
     "finish": "nonfoil"
@@ -2366,8 +2436,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -2579,8 +2654,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 915,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -2594,8 +2674,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -2644,8 +2729,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -2739,8 +2829,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 450,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -2937,8 +3032,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -3031,7 +3131,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 28050,
+    "clp": 28100,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -3177,8 +3277,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -3398,7 +3503,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 11650,
+    "clp": 11600,
     "store": "lacomarca",
     "language": "en",
     "finish": "foil"
@@ -3482,8 +3587,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 450,
+    "store": "lacomarca",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -3824,8 +3934,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1760,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -3924,8 +4039,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -4015,7 +4135,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 18600,
+    "clp": 18500,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -4036,8 +4156,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -4128,8 +4253,13 @@
    "locked": false,
    "owned_usable": 4,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -4163,8 +4293,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -4216,8 +4351,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -4420,8 +4560,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -4458,7 +4603,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 600,
+    "clp": 550,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -4703,8 +4848,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -4718,8 +4868,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -4980,8 +5135,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -5014,8 +5174,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 7480,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -5029,8 +5194,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -5094,6 +5264,25 @@
    "lists": [
     "91a1a44e"
    ]
+  },
+  {
+   "name": "Multiversal Passage",
+   "oracle_id": "17770eeb-ecbf-4510-af2d-acececfbe146",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "As this land enters, choose a basic land type. Then you may pay 2 life. If you don't, it enters tapped.\nThis land is the chosen type.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 8360,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
   },
   {
    "name": "Mycosynth Lattice",
@@ -5186,8 +5375,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -5201,8 +5395,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 550,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -5531,8 +5730,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -5676,8 +5880,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -5714,8 +5923,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
    "owned_fit": true
   },
   {
@@ -5770,8 +5984,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1190,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -6093,8 +6312,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -6658,8 +6882,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -7183,7 +7412,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 2500,
+    "clp": 2450,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -7567,8 +7796,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -7708,8 +7942,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -7862,8 +8101,13 @@
    "locked": false,
    "owned_usable": 4,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -7911,8 +8155,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 500,
+    "store": "oasis",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -7990,8 +8239,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -8033,6 +8287,25 @@
     "store": "paytowin",
     "language": "en",
     "finish": "foil"
+   },
+   "stores_with_stock": 4
+  },
+  {
+   "name": "Unclaimed Territory",
+   "oracle_id": "584b15f2-6ae9-413a-8b8d-9244dbea4878",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "As this land enters, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 350,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
    },
    "stores_with_stock": 4
   },
@@ -8194,8 +8467,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 3000,
+    "store": "afkstore",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -8543,8 +8821,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -8676,8 +8959,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1800,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -8729,8 +9017,13 @@
    "locked": false,
    "owned_usable": 4,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -8759,8 +9052,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -8774,8 +9072,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -8789,8 +9092,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 915,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
    "owned_fit": true
   },
   {
@@ -8804,8 +9112,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {

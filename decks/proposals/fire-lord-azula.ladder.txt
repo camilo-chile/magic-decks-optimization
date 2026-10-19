@@ -30,8 +30,8 @@
 1 Ponder
 1 Abandon Attachments
 1 Archmage Emeritus
-1 Escape Detection
-1 Fists of Flame
+1 Loyal Inventor
+1 Entomb
 1 Lo and Li, Twin Tutors
 1 Terminate
 1 Heartless Act
@@ -60,8 +60,8 @@
 1 Octopus Form
 1 Champion's Helm
 1 Undying Malice
-1 Redirect
-1 Blasphemous Act
+1 Frostcliff Siege
+1 Ritual of Soot
 1 Aether Gale
 1 Day of Black Sun
 1 Comet Storm
@@ -76,7 +76,7 @@
 1 Professor Zei, Anthropologist
 
 // Ladder
-+ Exotic Orchard | - Mountain | untapped any-color land: Manabase Quality is the biggest measured lever for Azula
++ Exotic Orchard | - Mountain | untapped any-color land; the cheap untapped duals were the biggest measured lever (Manabase Quality 32 % to 95 %+)
 + Sulfur Falls | - Mountain | untapped U/R check land
 + Shadowblood Ridge | - Swamp | B/R filter land, never enters tapped
 + Shivan Reef | - Mountain | untapped U/R painland
@@ -84,54 +84,39 @@
 + Darkwater Catacombs | - Island | U/B filter land, never enters tapped
 + Smoldering Marsh | - Swamp | B/R battle land, untapped with two basics
 + Dragonskull Summit | - Swamp | B/R check land
-+ Drowned Catacomb | - Island | U/B check land; these 9 lands are the measured 70 % mana base (+1.4 power)
-+ Narset's Reversal | - It'll Quench Ya! | win path: with Azula attacking and the owned Frantic Search a Spellbook loop; took the deck from bracket 2 to 3
-+ Glamdring, Foe-hammer // Gleam of Death | - Commander's Sphere | on Azula every instant and sorcery costs 4 less (X spells too)
-+ Nightscape Familiar | - Roku's Mastery | 2-mana reducer for blue and red spells; 4 of 5 lists
-+ Stormcatch Mentor | - Firebending Lesson | 2-mana hasty reducer for instants and sorceries
-+ Mystical Teachings | - Lo and Li, Twin Tutors | instant tutor for the loop pieces (Salt caps loops with no tutor)
-+ Frostboil Snarl | - Mountain | untapped U/R snarl (reveal an Island or Mountain)
-+ Storm-Kiln Artist | - Professor Zei, Anthropologist | engine: a Treasure per cast and per copy; second Narset's Reversal loop; 5 of 5 lists
++ Drowned Catacomb | - Island | U/B check land
++ Frostboil Snarl | - Mountain | untapped U/R snarl
 + Underground River | - Island | untapped U/B painland
 + Sulfurous Springs | - Swamp | untapped B/R painland
-+ Sunken Ruins | - Swamp | U/B filter land that also taps for colorless
-+ Guttersnipe | - Thermo-Alchemist | 2 damage to each opponent per instant cast; turns the Narset loop into a kill
-+ Black Waltz No. 3 | - Get Out | 2 damage to each opponent per noncreature spell on a deathtouch flyer
-+ Fact or Fiction | - Abandon Attachments | copied, two 5-card splits for 4 mana
-+ Mana Leak | - Deny Entry | 2-mana counter for any spell
-+ Deadly Dispute | - Thrill of Possibility | the copy skips the sacrifice: 4 cards and 2 Treasures for 2 mana
-+ Unexpected Windfall | - Fists of Flame | the copy skips the discard: 4 cards and 4 Treasures; 5 of 5 lists
-+ Invoke Calamity | - Escape Detection | copied in combat: up to four free instants or sorceries
-+ Infernal Grasp | - Murder | 2-mana instant unconditional kill
-+ Lightning Bolt | - Lightning Strike | 1-mana removal and reach
-+ Kolaghan's Command | - Deadly Derision | two modes, repeated by the copy with new targets
-+ Exsanguinate | - Banefire | multiplayer finisher fed by Treasures
-+ Bulk Up | - Unleash Fury | copied it doubles Azula twice (4 to 16); the copied flashback makes 64
-+ Haunted Ridge | - Mountain | B/R land, untapped from the third land on
-+ Shipwreck Marsh | - Island | U/B land, untapped from the third land on
-+ Blood Crypt | - Swamp | first shock: Toph's three shocks lifted its Manabase Quality from 68 % to 93 %
-+ Ertai Resurrected | - Ultimate Price | flash: counter or kill; its token copy in combat does it twice
-+ Veyran, Voice of Duality | - Lightning Axe | doubles Azula's copy trigger for instants and every magecraft and cast trigger; 4 of 5 lists
-+ Steam Vents | - Island | second shock (U/R)
-+ Dualcaster Mage | - Undying Malice | two more loops: Azula + Snap, and Ember Island Production (owned) alone at 8 mana
-+ Anger of the Gods | - Blasphemous Act | 3-damage wipe that spares Azula
-+ Watery Grave | - Swamp | third shock (U/B)
-+ Counterspell | - Negate | hard counter for UU
-+ Stormcarved Coast | - Island | U/R land, untapped from the third land on
-+ My Precious // Allure of Power | - Champion's Helm | hexproof and unblockable for Azula
-+ Arcane Denial | - Fatal Push | 2-mana hard counter
-+ Talisman of Dominance | - Dimir Signet | untapped U/B rock; 5 of 5 lists
-+ Talisman of Creativity | - Izzet Signet | untapped U/R rock
-+ Talisman of Indulgence | - Mind Stone | B/R rock
-+ High Fae Trickster | - Abrade | flash for every spell: sorceries and creatures get copied in combat
-+ Dark Ritual | - Redirect | copied in combat: 6 black for 1
-+ Professor Onyx | - Day of Black Sun | each instant in combat drains each opponent for 4
-+ Toxic Deluge | - Amphibian Downpour | flexible wipe that spares Azula (X = 3)
-+ Ashling, Flame Dancer | - Ozai, the Phoenix King | keeps red mana; the 2nd magecraft each turn sweeps opponents' creatures for 2, the 3rd adds RRRR
-+ An Offer You Can't Refuse | - Ponder | 1-mana counter for noncreature spells
-+ Leyline of Anticipation | - Heartless Act | flash for every spell that creature removal cannot take away
-+ Solve the Equation | - Consider | second tutor: any instant or sorcery
-+ Luxury Suite | - Shadowblood Ridge | untapped B/R land in multiplayer, replaces the filter land that needs other mana
-+ Snapcaster Mage | - Hero's Downfall | flash; copied by Azula it gives two instants flashback
-+ Graven Cairns | - Mountain | B/R filter land that also taps for colorless
-+ Desperate Ritual | - Go for the Throat | second combat ritual; with Storm-Kiln it nets Treasures
++ Sunken Ruins | - Swamp | U/B filter land; with the 12 above, the round-3 land set that measured 95 % or more
++ Mystical Teachings | - Roku's Mastery | tutor: finds Narset's Reversal, Frantic Search, Dualcaster Mage, Snap or Undying Malice (copied in combat, two of them)
++ Nightscape Familiar | - Firebending Lesson | 2-mana reducer for blue and red spells
++ Narset's Reversal | - It'll Quench Ya! | win line 1: Azula + Narset's Reversal + Frantic Search (owned)
++ Glamdring, Foe-hammer // Gleam of Death | - Commander's Sphere | on Azula every instant and sorcery costs 4 less
++ Dualcaster Mage | - Professor Zei, Anthropologist | win lines 2 and 3: Azula + Snap + Dualcaster; Dualcaster + Ember Island Production (both owned halves)
++ Goblin Bombardment | - Thermo-Alchemist | win line 4: Goblin Bombardment + Dualcaster Mage + Undying Malice (owned), infinite damage; also a sacrifice outlet
++ Storm-Kiln Artist | - Get Out | win line 5: Azula + Narset's Reversal + Storm-Kiln; Treasure engine
++ Stormcatch Mentor | - Deny Entry | 2-mana reducer for instants and sorceries
++ Reckless Handling | - Abandon Attachments | 2-mana artifact tutor (Glamdring, Helm of the Host, Strionic Resonator, Lithoform Engine)
++ Fact or Fiction | - Thrill of Possibility | copied, two 5-card splits
++ Mana Leak | - Lightning Axe | 2-mana counter
++ Godo, Bandit Warlord | - Murder | tutor and win line 6: Godo finds Helm of the Host on entering; Godo + Helm is infinite combats
++ Helm of the Host | - Deadly Derision | win line 6 piece; every extra combat is another Azula copy window
++ Solve the Equation | - Unleash Fury | tutor for any instant or sorcery piece (Narset's Reversal, Frantic Search, Snap, Undying Malice, Ember Island Production)
++ Etrata, the Silencer | - Ultimate Price | unblockable; with two trigger copiers its hit makes an opponent lose
++ Strionic Resonator | - Abrade | win line 7 (Etrata + Strionic + Peter Parker's Camera); also copies Azula's copy trigger
++ Peter Parker's Camera | - Lightning Strike | win line 7 piece; copies any trigger or activation three times
++ Lithoform Engine | - Banefire | win lines 8 and 9 (Etrata + Lithoform + Strionic or Camera); also copies instants and Helm's trigger
++ Unexpected Windfall | - Ponder | the copy skips the discard: 4 cards and 4 Treasures
++ Deadly Dispute | - Day of Black Sun | the copy skips the sacrifice: 4 cards and 2 Treasures
++ Black Waltz No. 3 | - Amphibian Downpour | 2 damage to each opponent per noncreature spell
++ Guttersnipe | - Mind Stone | 2 damage to each opponent per instant cast; makes the Narset loops lethal
++ Akki Battle Squad | - Hero's Downfall | win line 10: Akki + Helm of the Host (infinite combats); Godo also untaps it (Samurai)
++ Sword of Hearth and Home | - Heartless Act | win lines 11-13: Godo + Sword + Frostcliff Siege (owned), Godo + Sword + Anger, Akki + Sword
++ Anger | - Champion's Helm | win line 12 piece; in the graveyard it gives every creature haste
++ Infernal Grasp | - Go for the Throat | 2-mana instant unconditional kill
++ Lightning Bolt | - Izzet Signet | 1-mana removal and reach
++ Aggravated Assault | - Aether Gale | hub of six lines with the owned Electro, The Last Agni Kai and Ozai (red mana kept, infinite combats)
++ Firebending Student | - Dimir Signet | win lines 14-16: Student + Aggravated Assault + Electro / The Last Agni Kai / Ozai
++ Sozin's Comet | - Torrential Gearhulk | win lines 17-19: Sozin's Comet + Aggravated Assault + Electro / The Last Agni Kai / Ozai
++ Imperial Recruiter | - Negate | tutor for Dualcaster Mage, Storm-Kiln Artist or Firebending Student

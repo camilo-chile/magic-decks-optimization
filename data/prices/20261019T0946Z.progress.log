@@ -1,0 +1,46 @@
+06:46:01  1021 cards to price; stores: Magic4Ever, CardNexus, Tienda La Comarca, Piedra Bruja, AFK Store
+06:46:01  140 of them are new since the newest merged file
+06:46:01  Store started: Magic4Ever (magic4ever)
+06:46:01  Store started: CardNexus (woocommerce)
+06:46:01  Store started: Tienda La Comarca (shopify)
+06:46:01  Store started: Piedra Bruja (shopify)
+06:46:01  Store started: AFK Store (shopify)
+06:46:03    Piedra Bruja: page 1/9, 250 products read, 19 offers kept, ETA 0m11s
+06:46:04    AFK Store: page 1/13, 250 products read, 85 offers kept, ETA 0m24s
+06:46:04    Tienda La Comarca: page 1/70, 250 products read, 75 offers kept, ETA 2m16s
+06:46:04    Piedra Bruja: page 2/9, 500 products read, 20 offers kept, ETA 0m07s
+06:46:05    Piedra Bruja: page 3/9, 750 products read, 37 offers kept, ETA 0m06s
+06:46:05    AFK Store: page 2/13, 500 products read, 125 offers kept, ETA 0m18s
+06:46:05    Tienda La Comarca: page 2/70, 500 products read, 169 offers kept, ETA 2m00s
+06:46:06    Piedra Bruja: page 4/9, 1000 products read, 42 offers kept, ETA 0m05s
+06:46:06    AFK Store: page 3/13, 750 products read, 145 offers kept, ETA 0m15s
+06:46:07    Tienda La Comarca: page 3/70, 750 products read, 225 offers kept, ETA 1m53s
+06:46:07    Piedra Bruja: page 5/9, 1250 products read, 50 offers kept, ETA 0m04s
+06:46:07    AFK Store: page 4/13, 1000 products read, 167 offers kept, ETA 0m13s
+06:46:08    429 from https://www.afkstore.cl/collections/singles-mtg/products.json: waiting 30s
+06:46:08    Piedra Bruja: page 6/9, 1500 products read, 53 offers kept, ETA 0m03s
+06:46:08    Tienda La Comarca: page 4/70, 1000 products read, 287 offers kept, ETA 1m46s
+06:46:08    429 from https://www.tiendalacomarca.cl/collections/magic-the-gathering-singles/products.json: waiting 30s
+06:46:08    429 from https://piedrabruja.cl/collections/single-mtg/products.json: waiting 30s
+06:46:21    Magic4Ever: 20/140 cards searched, 78 offers kept, ETA 1m57s
+06:46:24    CardNexus: 20/140 cards searched, 54 offers kept, ETA 2m18s
+06:46:38    429 from https://www.afkstore.cl/collections/singles-mtg/products.json: waiting 30s
+06:46:38    429 from https://piedrabruja.cl/collections/single-mtg/products.json: waiting 30s
+06:46:38    429 from https://www.tiendalacomarca.cl/collections/magic-the-gathering-singles/products.json: waiting 30s
+06:46:41    Magic4Ever: 40/140 cards searched, 145 offers kept, ETA 1m39s
+06:46:46    CardNexus: 40/140 cards searched, 114 offers kept, ETA 1m51s
+06:47:01    Magic4Ever: 60/140 cards searched, 217 offers kept, ETA 1m19s
+06:47:02    429 from https://mantenedor.magic4ever.cl/api/public/search: waiting 30s
+06:47:08    CardNexus: 60/140 cards searched, 192 offers kept, ETA 1m28s
+06:47:08    FAILED AFK Store: HTTP 429 three times: stopping this store
+06:47:09    FAILED Piedra Bruja: HTTP 429 three times: stopping this store
+06:47:09    FAILED Tienda La Comarca: HTTP 429 three times: stopping this store
+06:47:29    CardNexus: 80/140 cards searched, 245 offers kept, ETA 1m05s
+06:47:51    CardNexus: 100/140 cards searched, 305 offers kept, ETA 0m43s
+06:47:52    Magic4Ever: 80/140 cards searched, 287 offers kept, ETA 1m22s
+06:48:12    Magic4Ever: 100/140 cards searched, 400 offers kept, ETA 0m52s
+06:48:13    CardNexus: 120/140 cards searched, 373 offers kept, ETA 0m21s
+06:48:32    Magic4Ever: 120/140 cards searched, 461 offers kept, ETA 0m25s
+06:48:35    CardNexus: 140/140 cards searched, 409 offers kept, ETA 0m00s
+06:48:52    Magic4Ever: 140/140 cards searched, 525 offers kept, ETA 0m00s
+06:48:52  Done: 934 offers. Wrote data/prices/20261019T0946Z.json and .summary.txt

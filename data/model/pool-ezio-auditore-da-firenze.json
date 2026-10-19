@@ -203,7 +203,7 @@
    "owned_usable": 1,
    "basic": false,
    "best_offer": {
-    "clp": 5500,
+    "clp": 5450,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -983,6 +983,25 @@
    "owned_fit": true
   },
   {
+   "name": "Arbor Elf",
+   "oracle_id": "4567a528-75f0-4ea6-b927-3a500caf76ac",
+   "type": "Creature — Elf Druid",
+   "cmc": 1.0,
+   "mana_cost": "{G}",
+   "oracle_text": "{T}: Untap target Forest.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 900,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
    "name": "Arboreal Grazer",
    "oracle_id": "d18a0815-59d3-4667-b52b-9acda741215e",
    "type": "Creature — Sloth Beast",
@@ -1500,8 +1519,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 500,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -1681,8 +1705,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1190,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -1715,8 +1744,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 450,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -2122,8 +2156,8 @@
    "owned_usable": 1,
    "basic": false,
    "best_offer": {
-    "clp": 21720,
-    "store": "gameofmagic",
+    "clp": 21700,
+    "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
    },
@@ -2186,6 +2220,25 @@
     "finish": "nonfoil"
    },
    "stores_with_stock": 2
+  },
+  {
+   "name": "Blackcleave Cliffs",
+   "oracle_id": "5ad94412-6f79-4c5d-bbd4-4ef5779a7b6d",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {B} or {R}.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2400,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
   },
   {
    "name": "Blade of the Swarm",
@@ -2275,8 +2328,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -2644,8 +2702,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -2697,8 +2760,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -2752,7 +2820,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 5850,
+    "clp": 5600,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -3044,8 +3112,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -3153,8 +3226,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -3446,8 +3524,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -3630,8 +3713,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -3790,8 +3878,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1290,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -3805,8 +3898,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -3820,8 +3918,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -3934,8 +4037,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -4022,8 +4130,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1320,
+    "store": "oasis",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -4271,7 +4384,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 9150,
+    "clp": 9200,
     "store": "lacomarca",
     "language": "en",
     "finish": "foil"
@@ -4488,7 +4601,7 @@
    "owned_usable": 1,
    "basic": false,
    "best_offer": {
-    "clp": 11950,
+    "clp": 11900,
     "store": "lacomarca",
     "language": "en",
     "finish": "etched"
@@ -4545,8 +4658,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -4745,6 +4863,25 @@
    "owned_fit": true
   },
   {
+   "name": "Darkslick Shores",
+   "oracle_id": "a2b48695-f7d7-42ce-a8a0-2a723428542a",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {U} or {B}.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 3560,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
    "name": "Darksteel Citadel",
    "oracle_id": "8dc067bf-f78f-4ac4-b6e7-b305c42cf0bc",
    "type": "Artifact Land",
@@ -4897,8 +5034,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -4913,7 +5055,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 1650,
+    "clp": 1700,
     "store": "lacomarca",
     "language": "en",
     "finish": "foil"
@@ -4980,8 +5122,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -4995,8 +5142,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 590,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -5030,7 +5182,7 @@
    "owned_usable": 1,
    "basic": false,
    "best_offer": {
-    "clp": 147500,
+    "clp": 145750,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -5125,8 +5277,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -5253,6 +5410,25 @@
    "owned_fit": true
   },
   {
+   "name": "Diabolic Intent",
+   "oracle_id": "038519b9-bca8-4b27-b5ac-2409595469d0",
+   "type": "Sorcery",
+   "cmc": 2.0,
+   "mana_cost": "{1}{B}",
+   "oracle_text": "As an additional cost to cast this spell, sacrifice a creature.\nSearch your library for a card, put that card into your hand, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 19580,
+    "store": "gameofmagic",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
+  },
+  {
    "name": "Dig Through Time",
    "oracle_id": "f8b17b89-26ce-4208-874a-9e1d66514640",
    "type": "Instant",
@@ -5312,8 +5488,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -5362,8 +5543,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -5789,8 +5975,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -6006,6 +6197,25 @@
    "owned_fit": true
   },
   {
+   "name": "Eladamri's Call",
+   "oracle_id": "4acb6612-54e8-428d-acb6-c7259a5ad6a8",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{G}{W}",
+   "oracle_text": "Search your library for a creature card, reveal that card, put it into your hand, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 25080,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 2
+  },
+  {
    "name": "Eldrazi Monument",
    "oracle_id": "c7ee1b21-d02e-49ef-95d6-d6dbf2f886ae",
    "type": "Artifact",
@@ -6167,9 +6377,33 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
+  },
+  {
+   "name": "Elvish Mystic",
+   "oracle_id": "3f3b2c10-21f8-4e13-be83-4ef3fa36e123",
+   "type": "Creature — Elf Druid",
+   "cmc": 1.0,
+   "mana_cost": "{G}",
+   "oracle_text": "{T}: Add {G}.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1200,
+    "store": "gameofmagic",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
   },
   {
    "name": "Elvish Reclaimer",
@@ -6191,6 +6425,25 @@
    "stores_with_stock": 4
   },
   {
+   "name": "Elvish Spirit Guide",
+   "oracle_id": "6b0e23cf-7d68-4329-86db-7adc26abd86b",
+   "type": "Creature — Elf Spirit",
+   "cmc": 3.0,
+   "mana_cost": "{2}{G}",
+   "oracle_text": "Exile this card from your hand: Add {G}.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 16490,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "foil"
+   },
+   "stores_with_stock": 4
+  },
+  {
    "name": "Ember Island Production",
    "oracle_id": "0b786547-67ed-49fa-9981-35c4c2175f62",
    "type": "Sorcery",
@@ -6201,8 +6454,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 350,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -6356,8 +6614,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -6424,8 +6687,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 22400,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -6783,8 +7051,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -6837,7 +7110,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 650,
+    "clp": 700,
     "store": "lacomarca",
     "language": "es",
     "finish": "nonfoil"
@@ -6889,9 +7162,33 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
+  },
+  {
+   "name": "Exquisite Blood",
+   "oracle_id": "8f933fae-6c0c-42d7-a817-14760d8285cd",
+   "type": "Enchantment",
+   "cmc": 5.0,
+   "mana_cost": "{4}{B}",
+   "oracle_text": "Whenever an opponent loses life, you gain that much life.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 43990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
   },
   {
    "name": "Exsanguinate",
@@ -7192,8 +7489,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 630,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
    "owned_fit": true
   },
   {
@@ -7414,6 +7716,25 @@
    "stores_with_stock": 5
   },
   {
+   "name": "Fiery Islet",
+   "oracle_id": "026f4a4b-eedd-44e1-9d37-ca4fb8d6db98",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}, Pay 1 life: Add {U} or {R}.\n{1}, {T}, Sacrifice this land: Draw a card.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 5880,
+    "store": "piedrabruja",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
    "name": "Final-Sting Faerie",
    "oracle_id": "299765d8-72b9-4ada-a607-efb36aa0f5db",
    "type": "Creature — Faerie Assassin",
@@ -7431,6 +7752,25 @@
     "finish": "nonfoil"
    },
    "stores_with_stock": 2
+  },
+  {
+   "name": "Finale of Devastation",
+   "oracle_id": "69872a9a-fe54-4e58-940c-89395af71acd",
+   "type": "Sorcery",
+   "cmc": 2.0,
+   "mana_cost": "{X}{G}{G}",
+   "oracle_text": "Search your library and/or graveyard for a creature card with mana value X or less and put it onto the battlefield. If you search your library this way, shuffle. If X is 10 or more, creatures you control get +X/+X and gain haste until end of turn.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 39800,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 4
   },
   {
    "name": "Fire Covenant",
@@ -7531,8 +7871,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 915,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -7546,8 +7891,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -7611,8 +7961,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -7755,8 +8110,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 450,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -8274,7 +8634,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 482,
+    "clp": 481,
     "store": "piedrabruja",
     "language": "en",
     "finish": "nonfoil"
@@ -8312,8 +8672,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -8389,6 +8754,25 @@
    "stores_with_stock": 4
   },
   {
+   "name": "Fyndhorn Elves",
+   "oracle_id": "df317532-7d36-40fd-938f-e972749c8792",
+   "type": "Creature — Elf Druid",
+   "cmc": 1.0,
+   "mana_cost": "{G}",
+   "oracle_text": "{T}: Add {G}.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 2400,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
+  },
+  {
    "name": "Fíli and Kíli, Joyous",
    "oracle_id": "392f6cd3-3895-42b3-8bb9-6b0c6a689a29",
    "type": "Legendary Creature — Dwarf Bard",
@@ -8434,7 +8818,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 28050,
+    "clp": 28100,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -8653,8 +9037,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 700,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
    "owned_fit": true
   },
   {
@@ -8879,8 +9268,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -8940,7 +9334,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 482,
+    "clp": 481,
     "store": "piedrabruja",
     "language": "en",
     "finish": "nonfoil"
@@ -8977,8 +9371,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 742,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -9148,6 +9547,25 @@
     "finish": "nonfoil"
    },
    "stores_with_stock": 4
+  },
+  {
+   "name": "Golgari Signet",
+   "oracle_id": "1cf51f50-24e4-48d0-95b3-1dad3ffa4bf5",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{1}, {T}: Add {B}{G}.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 400,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
   },
   {
    "name": "Grafdigger's Cage",
@@ -9321,12 +9739,31 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 11650,
+    "clp": 11600,
     "store": "lacomarca",
     "language": "en",
     "finish": "foil"
    },
    "stores_with_stock": 1
+  },
+  {
+   "name": "Grim Tutor",
+   "oracle_id": "e62f8d69-a559-4f13-a5c9-5fb750b4af2c",
+   "type": "Sorcery",
+   "cmc": 3.0,
+   "mana_cost": "{1}{B}{B}",
+   "oracle_text": "Search your library for a card, put that card into your hand, then shuffle. You lose 3 life.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 28990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
   },
   {
    "name": "Gruul Signet",
@@ -9538,8 +9975,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -9631,8 +10073,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 450,
+    "store": "lacomarca",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -9884,8 +10331,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -9900,7 +10352,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 15500,
+    "clp": 15300,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -10015,8 +10467,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -10405,6 +10862,25 @@
    "owned_fit": true
   },
   {
+   "name": "Idyllic Tutor",
+   "oracle_id": "57c9ff89-dd30-467b-bb3e-499eeea8cb94",
+   "type": "Sorcery",
+   "cmc": 3.0,
+   "mana_cost": "{2}{W}",
+   "oracle_text": "Search your library for an enchantment card, reveal it, put it into your hand, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 14640,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
+  },
+  {
    "name": "Iguana Parrot",
    "oracle_id": "edd3a3ea-6bde-408c-8b16-85ed3cc312b2",
    "type": "Creature — Lizard Bird Pirate",
@@ -10629,8 +11105,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -10720,8 +11201,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 4990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -10867,8 +11353,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1760,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -10955,6 +11446,25 @@
    "stores_with_stock": 5
   },
   {
+   "name": "Isolated Chapel",
+   "oracle_id": "7e5d9efe-48a9-434b-bb09-056e0e09cc9a",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control a Plains or a Swamp.\n{T}: Add {W} or {B}.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 500,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
+  },
+  {
    "name": "It of the Horrid Swarm",
    "oracle_id": "f4ad190a-6c82-4923-af54-b4cce8d6465f",
    "type": "Creature — Eldrazi Insect",
@@ -10980,8 +11490,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -11088,8 +11603,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -11286,7 +11806,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 39050,
+    "clp": 38950,
     "store": "lacomarca",
     "language": "en",
     "finish": "foil"
@@ -11334,8 +11854,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 3290,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -11446,7 +11971,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 18600,
+    "clp": 18500,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -11498,8 +12023,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -11725,8 +12255,13 @@
    "locked": false,
    "owned_usable": 4,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -11820,8 +12355,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -11957,8 +12497,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -12126,6 +12671,44 @@
    "stores_with_stock": 5
   },
   {
+   "name": "Llanowar Elves",
+   "oracle_id": "68954295-54e3-4303-a6bc-fc4547a4e3a3",
+   "type": "Creature — Elf Druid",
+   "cmc": 1.0,
+   "mana_cost": "{G}",
+   "oracle_text": "{T}: Add {G}.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 690,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
+  },
+  {
+   "name": "Llanowar Wastes",
+   "oracle_id": "32116127-cf96-4a1b-8896-a1ebc087b597",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {G}. This land deals 1 damage to you.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1590,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
+  },
+  {
    "name": "Lo and Li, Twin Tutors",
    "oracle_id": "ad643992-eb9f-4a4a-9b74-a5aee2337f30",
    "type": "Legendary Creature — Human Advisor",
@@ -12136,8 +12719,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -12272,8 +12860,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -12423,7 +13016,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 600,
+    "clp": 550,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -12467,6 +13060,25 @@
     "finish": "nonfoil"
    },
    "stores_with_stock": 5
+  },
+  {
+   "name": "Magister Sphinx",
+   "oracle_id": "1d86ae29-4705-4bbc-8922-9b4e031df5b1",
+   "type": "Artifact Creature — Sphinx",
+   "cmc": 7.0,
+   "mana_cost": "{4}{W}{U}{B}",
+   "oracle_text": "Flying\nWhen this creature enters, target player's life total becomes 10.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 10850,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
   },
   {
    "name": "Magnetic Theft",
@@ -12874,8 +13486,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 400,
+    "store": "gameofmagic",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -12923,8 +13540,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -13098,8 +13720,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -13454,8 +14081,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -13488,8 +14120,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 7480,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -13522,8 +14159,13 @@
    "locked": false,
    "owned_usable": 4,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 590,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -13538,7 +14180,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 20900,
+    "clp": 20700,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -13576,8 +14218,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -13634,6 +14281,25 @@
    "stores_with_stock": 4
   },
   {
+   "name": "Multiversal Passage",
+   "oracle_id": "17770eeb-ecbf-4510-af2d-acececfbe146",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "As this land enters, choose a basic land type. Then you may pay 2 life. If you don't, it enters tapped.\nThis land is the chosen type.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 8360,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
    "name": "Murder",
    "oracle_id": "938b4e2c-88d9-4637-bc00-e228920c9a78",
    "type": "Instant",
@@ -13644,8 +14310,13 @@
    "locked": false,
    "owned_usable": 4,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
    "owned_fit": true
   },
   {
@@ -13675,7 +14346,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 2150,
+    "clp": 2050,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -13806,6 +14477,25 @@
     "finish": "nonfoil"
    },
    "stores_with_stock": 3
+  },
+  {
+   "name": "Natural Order",
+   "oracle_id": "8c1fe337-375a-4add-93b6-0ac39ed72b4f",
+   "type": "Sorcery",
+   "cmc": 4.0,
+   "mana_cost": "{2}{G}{G}",
+   "oracle_text": "As an additional cost to cast this spell, sacrifice a green creature.\nSearch your library for a green creature card, put it onto the battlefield, then shuffle.",
+   "game_changer": true,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 22990,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
   },
   {
    "name": "Nature's Claim",
@@ -13944,8 +14634,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -14134,8 +14829,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -14149,8 +14849,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 550,
+    "store": "lacomarca",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -15127,8 +15832,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 4360,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -15180,8 +15890,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -15267,8 +15982,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "foil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -15339,8 +16059,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -15495,8 +16220,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -15563,8 +16293,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -15715,8 +16450,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
    "owned_fit": true
   },
   {
@@ -15802,8 +16542,13 @@
    "locked": false,
    "owned_usable": 5,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -15992,8 +16737,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1190,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -16048,6 +16798,25 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "Recruiter of the Guard",
+   "oracle_id": "d521a329-a53a-4962-810a-2abed80df260",
+   "type": "Creature — Human Soldier",
+   "cmc": 3.0,
+   "mana_cost": "{2}{W}",
+   "oracle_text": "When this creature enters, you may search your library for a creature card with toughness 2 or less, reveal it, put it into your hand, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 8300,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1
   },
   {
    "name": "Red Elemental Blast",
@@ -16551,8 +17320,13 @@
    "locked": false,
    "owned_usable": 6,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -16605,8 +17379,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 742,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -16620,8 +17399,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -18279,8 +19063,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -18501,6 +19290,25 @@
    "stores_with_stock": 5
   },
   {
+   "name": "Spirebluff Canal",
+   "oracle_id": "eb0d8093-5f93-4b25-9384-08f9731bfb28",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {U} or {R}.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 5100,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6
+  },
+  {
    "name": "Spitfire Lagac",
    "oracle_id": "7215ca87-bbff-4c14-a1f5-de5ddd97c875",
    "type": "Creature — Lizard",
@@ -18622,6 +19430,25 @@
    "stores_with_stock": 7
   },
   {
+   "name": "Steelshaper's Gift",
+   "oracle_id": "d9abda7e-6ca2-42ea-ab24-c542e57014f1",
+   "type": "Sorcery",
+   "cmc": 1.0,
+   "mana_cost": "{W}",
+   "oracle_text": "Search your library for an Equipment card, reveal that card, put it into your hand, then shuffle.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 9900,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
    "name": "Sterling Hound",
    "oracle_id": "3178c1f9-f644-4926-ac9a-d40e4db79955",
    "type": "Artifact Creature — Dog",
@@ -18741,6 +19568,25 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "Stoneforge Mystic",
+   "oracle_id": "358789f9-7d87-411d-919e-d597da665cbd",
+   "type": "Creature — Kor Artificer",
+   "cmc": 2.0,
+   "mana_cost": "{1}{W}",
+   "oracle_text": "When this creature enters, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle.\n{1}{W}, {T}: You may put an Equipment card from your hand onto the battlefield.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 29610,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
   },
   {
    "name": "Storm-Kiln Artist",
@@ -18887,7 +19733,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 6850,
+    "clp": 6800,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -18961,6 +19807,25 @@
     "finish": "nonfoil"
    },
    "stores_with_stock": 5
+  },
+  {
+   "name": "Summoner's Pact",
+   "oracle_id": "782dcbc4-5a11-42f5-b8d9-4572e36d45b3",
+   "type": "Instant",
+   "cmc": 0.0,
+   "mana_cost": "{0}",
+   "oracle_text": "Search your library for a green creature card, reveal it, put it into your hand, then shuffle.\nAt the beginning of your next upkeep, pay {2}{G}{G}. If you don't, you lose the game.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 9700,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1
   },
   {
    "name": "Sun Warriors",
@@ -19417,7 +20282,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 2500,
+    "clp": 2450,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -19442,6 +20307,63 @@
     "finish": "nonfoil"
    },
    "stores_with_stock": 2
+  },
+  {
+   "name": "Tainted Isle",
+   "oracle_id": "0222414f-98b5-458a-a0fd-831a66cd8b07",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. Activate only if you control a Swamp.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 4090,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2
+  },
+  {
+   "name": "Tainted Peak",
+   "oracle_id": "b2bae7fc-0668-4b34-9cd6-0d80aea52275",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. Activate only if you control a Swamp.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1954,
+    "store": "piedrabruja",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
+  },
+  {
+   "name": "Talisman of Conviction",
+   "oracle_id": "6c326439-5620-4ec6-a56a-fe9c3d5d2a46",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {R} or {W}. This artifact deals 1 damage to you.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 890,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
   },
   {
    "name": "Talisman of Creativity",
@@ -19482,6 +20404,25 @@
    "stores_with_stock": 2
   },
   {
+   "name": "Talisman of Hierarchy",
+   "oracle_id": "b693c3de-2eaf-4850-b405-e79d00adefda",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {W} or {B}. This artifact deals 1 damage to you.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 5200,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "etched"
+   },
+   "stores_with_stock": 4
+  },
+  {
    "name": "Talisman of Impulse",
    "oracle_id": "f2ccc9e8-8e92-4f8c-8728-8c748630e0dd",
    "type": "Artifact",
@@ -19518,6 +20459,25 @@
     "finish": "nonfoil"
    },
    "stores_with_stock": 5
+  },
+  {
+   "name": "Talisman of Unity",
+   "oracle_id": "e5fcc5d7-6a60-4a5b-9d02-6c30041a95b9",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {G} or {W}. This artifact deals 1 damage to you.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 1510,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3
   },
   {
    "name": "Talon Gates of Madara",
@@ -20032,7 +20992,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 1267,
+    "clp": 1266,
     "store": "piedrabruja",
     "language": "en",
     "finish": "foil"
@@ -20258,8 +21218,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 500,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -20273,8 +21238,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -20588,8 +21558,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -20656,8 +21631,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 590,
+    "store": "cardnexus",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -21065,8 +22045,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -21133,8 +22118,13 @@
    "locked": false,
    "owned_usable": 4,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -21148,8 +22138,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -21227,8 +22222,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 500,
+    "store": "oasis",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4,
    "owned_fit": true
   },
   {
@@ -21348,8 +22348,13 @@
    "locked": false,
    "owned_usable": 3,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -21397,8 +22402,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -21449,6 +22459,25 @@
    "best_offer": null,
    "stores_with_stock": 0,
    "owned_fit": true
+  },
+  {
+   "name": "Unclaimed Territory",
+   "oracle_id": "584b15f2-6ae9-413a-8b8d-9244dbea4878",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "As this land enters, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type.",
+   "game_changer": false,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 350,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 4
   },
   {
    "name": "Uncle Iroh",
@@ -21765,8 +22794,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 490,
+    "store": "cardnexus",
+    "language": "es",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
    "owned_fit": true
   },
   {
@@ -21799,8 +22833,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 3000,
+    "store": "afkstore",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -21834,7 +22873,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 88050,
+    "clp": 88100,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -22115,7 +23154,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 1300,
+    "clp": 1250,
     "store": "lacomarca",
     "language": "en",
     "finish": "nonfoil"
@@ -22619,8 +23658,13 @@
    "locked": false,
    "owned_usable": 2,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -22813,7 +23857,7 @@
    "owned_usable": 0,
    "basic": false,
    "best_offer": {
-    "clp": 7150,
+    "clp": 7100,
     "store": "lacomarca",
     "language": "en",
     "finish": "foil"
@@ -22918,8 +23962,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 900,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 7,
    "owned_fit": true
   },
   {
@@ -22957,6 +24006,25 @@
    "stores_with_stock": 4
   },
   {
+   "name": "Worldly Tutor",
+   "oracle_id": "e8863518-0bfa-49c3-8c6e-6c9116a81051",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{G}",
+   "oracle_text": "Search your library for a creature card, reveal it, then shuffle and put the card on top.",
+   "game_changer": true,
+   "locked": false,
+   "owned_usable": 0,
+   "basic": false,
+   "best_offer": {
+    "clp": 33120,
+    "store": "oasis",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5
+  },
+  {
    "name": "Wrenn and Realmbreaker",
    "oracle_id": "4566fb92-448e-4b3f-9045-9d74323c35d1",
    "type": "Legendary Planeswalker — Wrenn",
@@ -22987,8 +24055,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 1800,
+    "store": "paytowin",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {
@@ -23142,8 +24215,13 @@
    "locked": false,
    "owned_usable": 4,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 6,
    "owned_fit": true
   },
   {
@@ -23240,8 +24318,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 250,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 5,
    "owned_fit": true
   },
   {
@@ -23255,8 +24338,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 200,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 2,
    "owned_fit": true
   },
   {
@@ -23270,8 +24358,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 915,
+    "store": "gameofmagic",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 1,
    "owned_fit": true
   },
   {
@@ -23300,8 +24393,13 @@
    "locked": false,
    "owned_usable": 1,
    "basic": false,
-   "best_offer": null,
-   "stores_with_stock": 0,
+   "best_offer": {
+    "clp": 300,
+    "store": "magic4ever",
+    "language": "en",
+    "finish": "nonfoil"
+   },
+   "stores_with_stock": 3,
    "owned_fit": true
   },
   {

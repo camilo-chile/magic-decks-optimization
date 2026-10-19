@@ -1,5 +1,5 @@
 {
- "_note": "Commander Salt scores of lists hosted on the owner's Moxfield (unlisted) and read by hand from the Salt deck page, one entry per list. cost_clp is the cumulative purchase cost of the ladder step (scripts/ladder.py, prices of the merged file current when the list was measured). list_hash is the first 16 hex of the SHA-256 of the sorted lines of the list as Salt's Export list returned it, identical to the same hash of our file. Scoring version 2026.4195 (changelog of 2026-09-29, the latest on 2026-10-18). Optional fields: round (1, 2, 3), ladder_step, eligible (true or false; scripts/optimize_budget.py uses a list when eligible, or when round is 3 or more), salt_page, moxfield, list_hash.",
+ "_note": "Commander Salt scores of lists hosted on the owner's Moxfield (unlisted) and read by hand from the Salt deck page, one entry per list. cost_clp is the cumulative purchase cost of the ladder step (scripts/ladder.py, prices of the merged file current when the list was measured). list_hash is the first 16 hex of the SHA-256 of the sorted lines of the list as Salt's Export list returned it, identical to the same hash of our file. Scoring version 2026.4195 (changelog of 2026-09-29, the latest on 2026-10-18). Optional fields: round (1, 2, 3), ladder_step, eligible (true or false; scripts/optimize_budget.py uses a list when eligible, or when round is 3 or more), salt_page, moxfield, list_hash. Optional Salt fields (round 3, read 2026-10-19): salt_ceiling_pts and salt_ceiling (the structural ceiling line of the Salt page, 0.0 when none), salt_pillars (Consistency, Efficiency, Interaction, Win conditions; baselines 100, 100, 140, 200) where they were read.",
  "scoring_version": "2026.4195",
  "scored_on": "2026-10-19",
  "lists": {
@@ -88,7 +88,9 @@
    "manabase_quality_pct": 52,
    "eligible": true,
    "note": "the free base, unchanged in round 3 (round-3 step 0 = round-2 step 0); structural cap -0.27 wincon combos with no tutors",
-   "salt_page": "unchanged"
+   "salt_page": "unchanged",
+   "salt_ceiling_pts": -0.27,
+   "salt_ceiling": "wincon combos with no tutors"
   },
   "toph-the-first-metalbender/round2-step10": {
    "round": 2,
@@ -192,7 +194,9 @@
    "salt_page": "484489b8dc03d2308059fea74f46dc17",
    "moxfield": "auVuDyii7USKe4b2D9Aidw",
    "list_hash": "22b6c5b53d82aa9e",
-   "note": "round-3 Toph, 3 new tutors + speed; cap -0.18 wincon combos with no tutors (was -0.50 at round-2 step 22); too slow for its pieces still capped major"
+   "note": "round-3 Toph, 3 new tutors + speed; cap -0.18 wincon combos with no tutors (was -0.50 at round-2 step 22); too slow for its pieces still capped major",
+   "salt_ceiling_pts": -0.18,
+   "salt_ceiling": "wincon combos with no tutors"
   },
   "toph-the-first-metalbender/round3-step21": {
    "round": 3,
@@ -205,7 +209,9 @@
    "salt_page": "3ed1d62abe1861bc3b065b9c72a3135e",
    "moxfield": "VMOaYgiQpUGU3rABX687IA",
    "list_hash": "16764d25098421dd",
-   "note": "round-3 Toph; cap -0.11 wincon combos with no tutors; too slow for its pieces still capped"
+   "note": "round-3 Toph; cap -0.11 wincon combos with no tutors; too slow for its pieces still capped",
+   "salt_ceiling_pts": -0.11,
+   "salt_ceiling": "wincon combos with no tutors"
   },
   "toph-the-first-metalbender/round3-step30": {
    "round": 3,
@@ -218,7 +224,15 @@
    "salt_page": "323ea9248cbf9e1c31bfd28b476419a2",
    "moxfield": "TRKkqrUQrUGcvwUZiP-XgA",
    "list_hash": "6da54317a83f0797",
-   "note": "round-3 Toph; Salt shows no structural ceiling line any more (tutors: Imperial Recruiter, Chord, Crop Rotation...); same 7.5 as round-2 step 36 at 146,240 CLP for 49k less"
+   "note": "round-3 Toph; Salt shows no structural ceiling line any more (tutors: Imperial Recruiter, Chord, Crop Rotation...); same 7.5 as round-2 step 36 at 146,240 CLP for 49k less",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none",
+   "salt_pillars": {
+    "consistency": 349,
+    "efficiency": 289,
+    "interaction": 202,
+    "wincons": 1654
+   }
   },
   "fire-lord-azula/round3-step23": {
    "round": 3,
@@ -231,7 +245,9 @@
    "salt_page": "d405c2fa14ec9d070930a23d2fa654a6",
    "moxfield": "6hDa6lwgPEKqQzG9IENFhA",
    "list_hash": "a6b4dd233216c296",
-   "note": "round-3 Azula, lands first (13 untapped duals + Exotic Orchard); ceiling -0.25 sparse slow combo package; round 1 at 24,505 CLP measured 6.1"
+   "note": "round-3 Azula, lands first (13 untapped duals + Exotic Orchard); ceiling -0.25 sparse slow combo package; round 1 at 24,505 CLP measured 6.1",
+   "salt_ceiling_pts": -0.25,
+   "salt_ceiling": "sparse, slow combo package"
   },
   "fire-lord-azula/round3-step34": {
    "round": 3,
@@ -244,7 +260,9 @@
    "salt_page": "a237070de82404a2f95504fe6fdd0e13",
    "moxfield": "jQbBkyPUc0Sb1knDu-GKMA",
    "list_hash": "c2c191977bfefdff",
-   "note": "round-3 Azula, 15 duals + 1 shock; ceiling -0.12 sparse slow combo package; round 1 at 49,190 CLP measured 6.6"
+   "note": "round-3 Azula, 15 duals + 1 shock; ceiling -0.12 sparse slow combo package; round 1 at 49,190 CLP measured 6.6",
+   "salt_ceiling_pts": -0.12,
+   "salt_ceiling": "sparse, slow combo package"
   },
   "fire-lord-azula/round3-step39": {
    "round": 3,
@@ -257,7 +275,9 @@
    "salt_page": "dae02630a6542e8bca394ff02f2b4fd5",
    "moxfield": "qx_nPmN6p0CFsGXT6tDfgQ",
    "list_hash": "8ddb909e0ea33881",
-   "note": "round-3 Azula; same 7.1 as step 34: ceiling -0.21 wincon combos with no tutors (major); Dualcaster + Ember Island loop adds no tutor"
+   "note": "round-3 Azula; same 7.1 as step 34: ceiling -0.21 wincon combos with no tutors (major); Dualcaster + Ember Island loop adds no tutor",
+   "salt_ceiling_pts": -0.21,
+   "salt_ceiling": "wincon combos with no tutors"
   },
   "fire-lord-azula/round3-step44": {
    "round": 3,
@@ -270,7 +290,9 @@
    "salt_page": "5ffbacec136e9c2e3fe3d0f3fa20649d",
    "moxfield": "C8RoD0EYqUuMuOUejtgdZw",
    "list_hash": "18ab8ba4f09ab3b8",
-   "note": "round-3 Azula; plateau 7.1 from 49.6k to 98.9k: ceiling -0.27 wincon combos with no tutors (major); 3 shocks added no power"
+   "note": "round-3 Azula; plateau 7.1 from 49.6k to 98.9k: ceiling -0.27 wincon combos with no tutors (major); 3 shocks added no power",
+   "salt_ceiling_pts": -0.27,
+   "salt_ceiling": "wincon combos with no tutors"
   },
   "fire-lord-azula/round3-step53": {
    "round": 3,
@@ -283,7 +305,15 @@
    "salt_page": "918d61a950339ac958e4d278446fd93f",
    "moxfield": "ofOkqKWJF0GcvhFV8UYn_w",
    "list_hash": "8d9a3259ce42e1b0",
-   "note": "round-3 Azula; +0.1 for 50k CLP over step 44; ceiling -0.35 wincon combos with no tutors (major) even with Dark Ritual/Talismans; interaction suite is a plus"
+   "note": "round-3 Azula; +0.1 for 50k CLP over step 44; ceiling -0.35 wincon combos with no tutors (major) even with Dark Ritual/Talismans; interaction suite is a plus",
+   "salt_ceiling_pts": -0.35,
+   "salt_ceiling": "wincon combos with no tutors",
+   "salt_pillars": {
+    "consistency": 207,
+    "efficiency": 411,
+    "interaction": 326,
+    "wincons": 219
+   }
   },
   "toph-the-first-metalbender/round3-step32": {
    "round": 3,
@@ -296,7 +326,9 @@
    "salt_page": "5f1a44560a95568127887e0b9fe058a5",
    "moxfield": "th8JG-Z6tU-pt6hA6GB4IA",
    "list_hash": "6239fc7710eb425a",
-   "note": "round-3 Toph; 7.4 < step 30 (7.5 at 97,537): Gamble and Formidable Speaker add nothing; ceiling -0.06 tutored synergy combos but low overall speed"
+   "note": "round-3 Toph; 7.4 < step 30 (7.5 at 97,537): Gamble and Formidable Speaker add nothing; ceiling -0.06 tutored synergy combos but low overall speed",
+   "salt_ceiling_pts": -0.06,
+   "salt_ceiling": "tutored combos, low overall speed"
   },
   "ezio-auditore-da-firenze/round3-step24": {
    "round": 3,
@@ -309,7 +341,15 @@
    "salt_page": "36f9c30695bc861d65e177db59afca90",
    "moxfield": "bDae6hxBvUyqaU7y6qFO4Q",
    "list_hash": "6115274f8fa79c64",
-   "note": "first Ezio list measured; no structural ceiling line; Godo + Helm of the Host line from 25k"
+   "note": "first Ezio list measured; no structural ceiling line; Godo + Helm of the Host line from 25k",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none",
+   "salt_pillars": {
+    "consistency": 242,
+    "efficiency": 133,
+    "interaction": 148,
+    "wincons": 234
+   }
   },
   "ezio-auditore-da-firenze/round3-step39": {
    "round": 3,
@@ -322,7 +362,9 @@
    "salt_page": "9cce8ab6827ac4e7d6f95bfd10b8a815",
    "moxfield": "8DuCHv1oG0W8CN_tLCsxmA",
    "list_hash": "0d8d4a36539d0d5b",
-   "note": "Ezio 7.0 at 49k: Godo + Helm of the Host, Roshan, tutors Reckless Handling/Seismic Sense; no structural ceiling line Cost at measurement 49,047 CLP; repriced 45,872 CLP with the readings of 2026-10-19."
+   "note": "Ezio 7.0 at 49k: Godo + Helm of the Host, Roshan, tutors Reckless Handling/Seismic Sense; no structural ceiling line Cost at measurement 49,047 CLP; repriced 45,872 CLP with the readings of 2026-10-19.",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none"
   },
   "ezio-auditore-da-firenze/round3-step46": {
    "round": 3,
@@ -335,7 +377,15 @@
    "salt_page": "53ace6768ab6406c66472d1f08b3e32e",
    "moxfield": "zxgj4hpuIUinKoQWxz5jbg",
    "list_hash": "42ad879c0d56eee8",
-   "note": "Ezio plateau 7.0 from 49k to 98.6k; salt 73.3; Intruder Alarm/Kiki-Jiki lines added, no structural ceiling line Cost at measurement 98,587 CLP; repriced 93,962 CLP with the readings of 2026-10-19."
+   "note": "Ezio plateau 7.0 from 49k to 98.6k; salt 73.3; Intruder Alarm/Kiki-Jiki lines added, no structural ceiling line Cost at measurement 98,587 CLP; repriced 93,962 CLP with the readings of 2026-10-19.",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none",
+   "salt_pillars": {
+    "consistency": 289,
+    "efficiency": 191,
+    "interaction": 173,
+    "wincons": 353
+   }
   },
   "ezio-auditore-da-firenze/round3-step43": {
    "round": 3,
@@ -348,7 +398,9 @@
    "salt_page": "da6a982b2e07001fd992acfcddad418a",
    "moxfield": "zqNqAUrbZEeJFieP5WQKlw",
    "list_hash": "8c7ba284b6677d84",
-   "note": "Ezio 6.9 at 74k (below step 39, 7.0 at 49k): ceiling -0.06 sparse slow combo package; pillars consistency 278, efficiency 180, interaction 173, wincons 340 Cost at measurement 74,047 CLP; repriced 70,872 CLP with the readings of 2026-10-19."
+   "note": "Ezio 6.9 at 74k (below step 39, 7.0 at 49k): ceiling -0.06 sparse slow combo package; pillars consistency 278, efficiency 180, interaction 173, wincons 340 Cost at measurement 74,047 CLP; repriced 70,872 CLP with the readings of 2026-10-19.",
+   "salt_ceiling_pts": -0.06,
+   "salt_ceiling": "sparse, slow combo package"
   },
   "ezio-auditore-da-firenze/round3-step50": {
    "round": 3,
@@ -361,7 +413,29 @@
    "salt_page": "2d9a88ac8b3e9d56d03e8a622b6723a8",
    "moxfield": "y4lBqCKMv0qJsT-QpLotWQ",
    "list_hash": "7186039e3e5e4be3",
-   "note": "Ezio 7.1 at 148.8k (+0.1 over 49k): Gamble/Imperial Recruiter/Cover of Darkness added; pillars consistency 304, efficiency 192, interaction 185, wincons 339; no ceiling line Cost at measurement 148,797 CLP; repriced 141,322 CLP with the readings of 2026-10-19."
+   "note": "Ezio 7.1 at 148.8k (+0.1 over 49k): Gamble/Imperial Recruiter/Cover of Darkness added; pillars consistency 304, efficiency 192, interaction 185, wincons 339; no ceiling line Cost at measurement 148,797 CLP; repriced 141,322 CLP with the readings of 2026-10-19.",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none"
+  },
+  "fire-lord-azula/round4-step0": {
+   "round": 4,
+   "ladder_step": 0,
+   "cost_clp": 0,
+   "power": 4.9,
+   "salt": 44.0,
+   "bracket": "2",
+   "manabase_quality_pct": 63,
+   "salt_page": "7bcc29334e39aca96dc2d89dd909e66c",
+   "moxfield": "hWDukeJrTUeHXZFp6FbVmQ",
+   "list_hash": "14580bb33fc47baf",
+   "salt_ceiling_pts": -1.6,
+   "salt_ceiling": "casual stall shell, no clear win path (no combos)",
+   "salt_pillars": {
+    "consistency": 237,
+    "efficiency": 341,
+    "interaction": 301,
+    "wincons": 72
+   }
   }
  }
 }

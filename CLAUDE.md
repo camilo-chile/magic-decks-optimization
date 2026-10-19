@@ -13,9 +13,11 @@ a vehicle for learning modern AI tooling.
 | UPGRADE | Fire Lord Azula | `fire-lord-azula` |
 
 ## Hard constraints
-- Goal (user decision, 2026-10-11): the 3 decks as strong as possible **at parity** (within
-  0.2 Commander Salt power points) for each budget from 100,000 to 300,000 CLP in steps of
-  50,000, every deck above the friend's 6.1 whenever the budget allows. The output is a
+- Goal (user decision, 2026-10-11; parity rule dropped 2026-10-19): each of the 3 decks as strong as
+  its money buys, the best Commander Salt power per CLP (the optimizer maximizes the sum of the three
+  powers; the decks need not be within any gap of each other), for each budget from 100,000 to 300,000
+  CLP in steps of 50,000, every deck at 7.0 or more whenever the budget allows (owner decision 2026-10-19: the
+  yardstick is 7.0, no longer the friend's 6.1). The output is a
   budget curve and a dashboard; the user then picks the budget and the cards. Spec:
   `docs/power-scale.md` (v1.0). All 3 decks target Bracket 3 (user decision 2026-10-12, after Toph's current
   list measured floor 3 under Wizards' own conditions) and must not meet Bracket 4 conditions;
@@ -85,7 +87,7 @@ a vehicle for learning modern AI tooling.
   (choosing the strategy and the cards like an expert builder: mana curve, synergy, slot functions,
   competitive experience, re-opening earlier choices when a card is too expensive or out of stock) is
   done by Opus 5.5 at extra-high effort (`model: opus`, `effort: xhigh` on the Agent tool). Ask before
-  launching it, with the cost estimate, as for any agent. The optimizer (`scripts/optimize_budget.py`) only enforces parity and budget over measured lists.
+  launching it, with the cost estimate, as for any agent. The optimizer (`scripts/optimize_budget.py`) only maximizes the total power within the budget over measured lists.
 - Execution boundary (proposed default, the user may change it): Claude may run read-only
   commands and the offline tests (`python tests/<file>.py`; pytest is not installed). Claude never runs scripts that call network
   APIs, write project data, or install packages. It hands over the exact command and waits
@@ -153,7 +155,7 @@ a vehicle for learning modern AI tooling.
 | `data/hazards.json` | Curated combos and packages Spellbook does not list (per commander), read by Layer A; extended from the Phase 3 reports |
 | `data/stores.md` | Allowlist of stores with domain, shipping rule, payment fees and date checked (created 2026-10-11 with the 7 stores; shipping and fees filled in Phase 7) |
 | `data/prices/` | Phase 7 price readings: `scripts/read_store_prices.py` (`<YYYYMMDDTHHMMZ>.json`, `.summary.txt`, `.progress.log`), browser readings of the Shopify stores (`browser-<store>-<date>.psv`, taken by Claude with `scripts/browser_shopify_reader.js`, or per card name for the wishlists with `scripts/browser_shopify_lookup.js` into `browser-<store>-<date>-wishlist.psv`; `merge_prices.py` keeps, per store and card, the newest reading) and `scripts/merge_prices.py` output (`merged-*.json`); a price hint, never stock evidence. Handoff: `docs/research/phase7-handoff-2026-10-17.md` |
-| `data/model/` | Phase 8 step 1 output of `scripts/price_candidates.py`: `candidate-costs.json/.md` (cost, Layer A and power of each measured list) and `pool-<slug>.json` (every card the expert may use per deck, with rules text, owned copies and cheapest offer; only the 626 cards Phase 7 priced have an offer). Library: `scripts/allocation_model.py`. Scores of the candidates: `decks/candidates/scores.json` |
+| `data/model/` | Phase 8 step 1 output of `scripts/price_candidates.py`: `candidate-costs.json/.md` (cost, Layer A and power of each measured list) and `pool-<slug>.json` (every card the expert may use per deck, with rules text, owned copies and cheapest offer; only the 626 cards Phase 7 priced have an offer). Library: `scripts/allocation_model.py`. Scores of the candidates: `decks/candidates/scores.json` `scripts/optimize_budget.py` writes `budget-curve.json` (the plan per budget, highest total power, and the best buys); `scripts/dashboard_data.py` writes `dashboard/*.json`, the datasets of the dashboard Artifact (`lists`, `curve`, `plans`, `jumps`, `buys`, `decks`), while `dashboard/guide.json` (how each deck plays and wins) and `dashboard/deck-notes.json` are written by hand and only read |
 | `decks/proposals/` | Lists proposed in Phase 8 step 2 (`<deck>_cap<N>.txt`, N = purchase cap in CLP, plus a `.md` rationale); checked with `scripts/check_list.py` (read-only); `<deck>.ladder.txt` (free base plus ordered swaps) is materialized by `scripts/ladder.py` |
 | `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) |
 | `scripts/` | Python the user runs himself |

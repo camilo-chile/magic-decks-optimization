@@ -16,7 +16,7 @@ history). Power is now measured with Commander Salt
 4. **Record.** The numbers go to `decks/proposals/measured.json` (one entry per list, with the hash, the
    Salt page id and the Moxfield id) and a short report in `decks/reports/`, stamped with the scoring version
    and the date. Scores from different versions are not compared.
-5. **Decide.** The optimizer chooses one measured checkpoint per deck for each budget at parity, gated by
+5. **Decide.** The optimizer chooses one measured checkpoint per deck for each budget (highest total power; no parity rule since 2026-10-19), gated by
    Layer A; the final lists of each budget point are scored on the site before the owner chooses. No local
    surrogate model (it would be our own power scale again) and no expert judgment of power: the agents'
    estimates were 0.3 to 2.1 points too high for Toph and Alexios (`decks/reports/round2-measured-20261018.md`).
@@ -32,7 +32,7 @@ history). Power is now measured with Commander Salt
 | ID | Decision | Status |
 |---|---|---|
 | D1 | Y relative to each commander | Superseded: power is Commander Salt's absolute 1-10 |
-| D2 | Goal: budget curve, 100,000 to 300,000 CLP in steps of 50,000, parity within 0.2 points, owner picks | **Kept** (points are Commander Salt power points) |
+| D2 | Goal: budget curve, 100,000 to 300,000 CLP in steps of 50,000, owner picks (parity within 0.2 points dropped by the owner on 2026-10-19: highest total power per budget) | **Kept** (points are Commander Salt power points) |
 | D3 | Speed as a 5-level flag | Superseded: the site's speed and pillars |
 | D4 | Pairwise judgments, Bradley-Terry | Superseded |
 | D5 | Owned cards cost 0; one physical copy per deck; locked-cards file per deck, chosen in Phase 6 | **Kept** |
