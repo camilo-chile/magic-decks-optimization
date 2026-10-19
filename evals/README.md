@@ -6,7 +6,7 @@ of the earlier design were dropped on 2026-10-13 with the switch to Commander Sa
 
 | ID | Artifact | What it checks | Pass rule / status |
 |---|---|---|---|
-| E-0 | `evals/hook_cases.tsv` with `evals/run_hook_cases.sh` | The git-writes hook: 140 cases (read-only git allowed, state-changing spellings blocked) | 0 failures: `sh evals/run_hook_cases.sh .claude/hooks/block-git-writes.sh evals/hook_cases.tsv`. Passing |
+| E-0 | `evals/hook_cases.tsv` with `evals/run_hook_cases.sh` | The git-writes hook: 199 cases (read-only git allowed, state-changing spellings blocked, `add` and `commit` allowed only with the owner's one-shot authorization and never with `--amend`, `--no-verify`, `-a`, `GIT_*`, a push; the authorization file cannot be named) | 0 failures: `sh evals/run_hook_cases.sh .claude/hooks/block-git-writes.sh evals/hook_cases.tsv`. Passing |
 | E-1 | `tests/test_layer_a.py` (37), `tests/test_golden_decks.py` (6) | Layer A: Game Changer counts, mass land denial, extra turns (up to 3, the 4th is floor 4), early and late two-card combos with the cards' own mana values, a finite combo, locks as notes, target bracket, singleton, identity, 100 cards, banned, front-face names, Spanish and unknown names, commander omitted; golden floors of the real Toph, Azula and Alexios lists | All green. Passing |
 | E-2 | The rules-freshness line printed by `scripts/layer_a.py` on every run | Bulk date and Game Changers count against the pinned 53 (2026-10-13) | Prints a `STALE?` line when the count differs; the banned list and Spellbook schema are re-read by hand. Run at 2026-11-30 and in Phase 11 |
 | E-4 | `tests/test_build_inventory.py` (5) | Owned-card inventory | Passing |

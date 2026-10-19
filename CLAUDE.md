@@ -102,11 +102,21 @@ a vehicle for learning modern AI tooling.
 - The conda env lives in conda's default envs directory; the repo only holds
   `requirements.txt`. Never create a venv.
 - Git is read-only for Claude: status, diff, log, show, ls-files, check-ignore, var. Never
-  add, commit, push, merge, rebase, reset, stash, tag, restore, checkout or switch.
-  The deny rules and `.claude/hooks/block-git-writes.sh` (an allowlist of read-only
-  subcommands; test table in `evals/hook_cases.tsv`) reduce the risk. They match command
-  text only, so allow rules must never include interpreters or scripts Claude can rewrite.
-  Propose a commit message; the user commits from the VS Code UI.
+  push, merge, rebase, reset, stash, tag, restore, checkout or switch, and never amend.
+  Exception (owner, 2026-10-19, so work can continue when he is away from the PC): Claude may `add`
+  and `commit` (never push) only on the owner's express authorization, his message saying
+  "autorizo commit". The UserPromptSubmit hook `.claude/hooks/authorize-commit.sh` turns that
+  phrase into a one-shot file `.claude/commit-authorization` (30 minutes, used up by one commit,
+  ignored by version control); `.claude/hooks/block-git-writes.sh` blocks `add` and `commit`
+  without it and, even with it, `--amend`, `--no-verify`, `-a`, `--allow-empty`, author or date
+  overrides, `GIT_*` variables and a commit with no message. Claude never creates that file
+  itself (a command that names it is blocked, Write and Edit are denied); it may run
+  `authorize-commit.sh` by hand only when the owner's message in this turn expressly orders
+  the commit and the hook did not fire (hook changes need a restart), and says so. Commit
+  messages carry no "git" word (the hook reads the command text), use a message file
+  (`-F`) written with the Write tool. Without authorization: propose a commit message.
+  The hook and test table (`evals/hook_cases.tsv`) match command text only, so allow rules must
+  never include interpreters or scripts Claude can rewrite.
 - Git identity for this repo: camilo-chile / camiloy.94@gmail.com. Never the work or
   university email. `.githooks/pre-commit` enforces it for commits made once
   `core.hooksPath` is set (README); `git commit --no-verify` bypasses it.
@@ -157,6 +167,7 @@ a vehicle for learning modern AI tooling.
 | `data/prices/` | Phase 7 price readings: `scripts/read_store_prices.py` (`<YYYYMMDDTHHMMZ>.json`, `.summary.txt`, `.progress.log`), browser readings of the Shopify stores (`browser-<store>-<date>.psv`, taken by Claude with `scripts/browser_shopify_reader.js`, or per card name for the wishlists with `scripts/browser_shopify_lookup.js` into `browser-<store>-<date>-wishlist.psv`; `merge_prices.py` keeps, per store and card, the newest reading) and `scripts/merge_prices.py` output (`merged-*.json`); a price hint, never stock evidence. Handoff: `docs/research/phase7-handoff-2026-10-17.md` |
 | `data/model/` | Phase 8 step 1 output of `scripts/price_candidates.py`: `candidate-costs.json/.md` (cost, Layer A and power of each measured list) and `pool-<slug>.json` (every card the expert may use per deck, with rules text, owned copies and cheapest offer; only the 626 cards Phase 7 priced have an offer). Library: `scripts/allocation_model.py`. Scores of the candidates: `decks/candidates/scores.json` `scripts/optimize_budget.py` writes `budget-curve.json` (the plan per budget, highest total power, and the best buys); `scripts/dashboard_data.py` writes `dashboard/*.json`, the datasets of the dashboard Artifact (`lists`, `curve`, `plans`, `jumps`, `buys`, `decks`), while `dashboard/guide.json` (how each deck plays and wins) and `dashboard/deck-notes.json` are written by hand and only read |
 | `decks/proposals/` | Lists proposed in Phase 8 step 2 (`<deck>_cap<N>.txt`, N = purchase cap in CLP, plus a `.md` rationale); checked with `scripts/check_list.py` (read-only); `<deck>.ladder.txt` (free base plus ordered swaps) is materialized by `scripts/ladder.py` |
+| `decks/measured/<deck>/<label>.txt` | The exact 100-card lists scored on Commander Salt, one file per entry of `decks/proposals/measured.json` (its `list_hash` is the SHA-256 prefix of the sorted lines); `scripts/deck_stats.py` reads them for the dashboard statistics. Each list is saved here when it is measured |
 | `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) |
 | `scripts/` | Python the user runs himself |
 | `tests/` | Offline tests and API fixtures (run with `python tests/<file>.py`) |
@@ -164,7 +175,7 @@ a vehicle for learning modern AI tooling.
 | `decks/candidates/<slug>/` | Real public lists copied from Commander Salt deck pages (candidate end states), `README.md` with their site scores and Layer A results, `meta-staples-bracket3.md` (Upgrades picks), `extra-targets.txt` (names to price for a deck with no candidate list yet, such as `ezio-auditore-da-firenze`), `gate-report.json` from `scripts/check_candidates.py` |
 | `.claude/skills/` | `rate-deck`, `check-stock`, `build-deck` (all user-invoked) |
 | `.claude/agents/` | `stock-verifier` |
-| `.claude/hooks/` | `block-git-writes.sh` |
+| `.claude/hooks/` | `block-git-writes.sh` (PreToolUse: git read-only, `add`/`commit` only with the owner's authorization) and `authorize-commit.sh` (UserPromptSubmit: writes the one-shot authorization when his message says "autorizo commit") |
 | `.githooks/pre-commit` | Blocks commits made with a non-personal git email |
 
 ## Known facts and pitfalls

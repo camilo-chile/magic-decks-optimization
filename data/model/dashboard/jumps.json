@@ -4,14 +4,14 @@
    "id": "150000-ezio",
    "budget_clp": 150000,
    "deck": "Ezio",
-   "power": 7.0,
+   "power": 7.4,
    "change": 0.0
   },
   {
    "id": "150000-azula",
    "budget_clp": 150000,
    "deck": "Azula",
-   "power": 7.1,
+   "power": 8.4,
    "change": 0.0
   },
   {
@@ -25,21 +25,21 @@
    "id": "150000-total",
    "budget_clp": 150000,
    "deck": "All three",
-   "power": 21.5,
+   "power": 23.2,
    "change": 0.3
   },
   {
    "id": "200000-ezio",
    "budget_clp": 200000,
    "deck": "Ezio",
-   "power": 7.0,
+   "power": 7.4,
    "change": 0.0
   },
   {
    "id": "200000-azula",
    "budget_clp": 200000,
    "deck": "Azula",
-   "power": 7.1,
+   "power": 8.4,
    "change": 0.0
   },
   {
@@ -53,49 +53,49 @@
    "id": "200000-total",
    "budget_clp": 200000,
    "deck": "All three",
-   "power": 21.6,
+   "power": 23.3,
    "change": 0.1
   },
   {
    "id": "250000-ezio",
    "budget_clp": 250000,
    "deck": "Ezio",
-   "power": 7.1,
-   "change": 0.1
+   "power": 7.4,
+   "change": 0.0
   },
   {
    "id": "250000-azula",
    "budget_clp": 250000,
    "deck": "Azula",
-   "power": 7.1,
+   "power": 8.4,
    "change": 0.0
   },
   {
    "id": "250000-toph",
    "budget_clp": 250000,
    "deck": "Toph",
-   "power": 7.4,
-   "change": -0.1
+   "power": 7.5,
+   "change": 0.0
   },
   {
    "id": "250000-total",
    "budget_clp": 250000,
    "deck": "All three",
-   "power": 21.6,
+   "power": 23.3,
    "change": 0.0
   },
   {
    "id": "300000-ezio",
    "budget_clp": 300000,
    "deck": "Ezio",
-   "power": 7.1,
+   "power": 7.4,
    "change": 0.0
   },
   {
    "id": "300000-azula",
    "budget_clp": 300000,
    "deck": "Azula",
-   "power": 7.1,
+   "power": 8.4,
    "change": 0.0
   },
   {
@@ -103,14 +103,14 @@
    "budget_clp": 300000,
    "deck": "Toph",
    "power": 7.5,
-   "change": 0.1
+   "change": 0.0
   },
   {
    "id": "300000-total",
    "budget_clp": 300000,
    "deck": "All three",
-   "power": 21.7,
-   "change": 0.1
+   "power": 23.3,
+   "change": 0.0
   }
  ]
 }

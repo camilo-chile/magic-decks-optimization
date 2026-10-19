@@ -1,36 +1,235 @@
 {
-  "rows": [
-    {"id": "plan-1", "deck": "Plan", "order": 1, "title": "Where to stop", "text": "About 150,000 CLP is the knee of the curve: Toph's tutor package is the cheapest big jump (7.1 to 7.4 for about 49,000 CLP), while Azula and Ezio already sit near their ceiling from about 46,000 to 50,000 CLP each. Going further buys little, so spend more only on a deck that is still climbing."},
-    {"id": "plan-2", "deck": "Plan", "order": 2, "title": "Buy order inside a deck", "text": "1) the cheap untapped dual lands and signets of the three-color and five-color decks (Azula, Ezio, then Toph): they fix the mana base for a few thousand CLP. 2) Tutors that reach the win lines (Toph: Reckless Handling, Brightglass Gearhulk, Chord of Calling). 3) Fast cheap pieces. 4) Expensive staples last: they did not move Commander Salt's power."},
-    {"id": "plan-3", "deck": "Plan", "order": 3, "title": "What decides the game", "text": "All three decks play the same way: a cheap engine that makes the commander matter by turn 3 or 4, tutors that find one of two or three late-game win lines, and a few cheap answers. Keep the answers for the one permanent that stops your line, not for the first threat you see."},
-
-    {"id": "toph-1", "deck": "Toph", "order": 1, "title": "Idea", "text": "Landfall deck built on Toph's rule: every nontoken artifact you control is also a land. Each rock, locket or bauble is therefore a land drop that triggers landfall, and at your end step Toph earthbends 2 (a land becomes a haste creature with two +1/+1 counters that returns if it dies). Landfall pingers (Tannuk, Sabotender, Ragost, Valakut Exploration) drain the table while cheap ramp and tutors keep the engine fed."},
-    {"id": "toph-2", "deck": "Toph", "order": 2, "title": "Fair win", "text": "Most games end by damage: Sabotender and Tannuk hit every opponent for each land, Valakut Exploration turns the exiled cards into damage at your end step, and Bumi, Unleashed (earthbend 4, trample) untaps your lands whenever he connects."},
-    {"id": "toph-3", "deck": "Toph", "order": 3, "title": "Line A: Bumi and Coating", "text": "Toph + Bumi, Unleashed + Liquimetal Coating. Coating makes Bumi an artifact, so under Toph a land. When Bumi connects all your lands untap and there is another combat in which only land creatures attack, so he attacks again and again. Rogue's Passage keeps him unblockable."},
-    {"id": "toph-4", "deck": "Toph", "order": 4, "title": "Line B: Ashaya and Bumi", "text": "Ashaya makes every nontoken creature a Forest land, so Bumi is a land without Coating and loops the same way. It is a two-card line that needs about ten mana, so it is a late-game finish."},
-    {"id": "toph-5", "deck": "Toph", "order": 5, "title": "Line C: Ashaya, Zuran Orb and a pinger", "text": "Ashaya + Zuran Orb + a creature that earthbends when it enters (Toph the Blind Bandit, Earth Kingdom General): the creature is a land, sacrifices itself to the Orb, returns and earthbends itself again, for infinite enters, landfall and deaths. Goblin Bombardment wins on its own; Sylvan Safekeeper or any landfall pinger also finish."},
-    {"id": "toph-6", "deck": "Toph", "order": 6, "title": "Line D: infinite landfall", "text": "Toph + Springheart Nantuko + Lotus Cobra or Tireless Provisioner: three cards with two-mana pieces make infinite landfall, and any pinger or Valakut Exploration is lethal. It is the fastest line of the deck."},
-    {"id": "toph-7", "deck": "Toph", "order": 7, "title": "Tutors", "text": "Seismic Sense and Crop Rotation from the free base, then Reckless Handling (finds Coating, Torque, Zuran Orb), Brightglass Gearhulk, Chord of Calling (any creature, convoked by earthbent lands), and later Imperial Recruiter, Inventors' Fair, Gamble and more. Whichever piece is missing, something finds it."},
-    {"id": "toph-8", "deck": "Toph", "order": 8, "title": "How it plays", "text": "Turns 1 and 2: Sol Ring, signets, talismans, Wayfarer's Bauble, Sakura-Tribe Elder or Lotus Cobra. Turn 3 or 4: Toph, as soon as you control two artifacts to turn into lands; from then on every artifact is a land drop. Keep Swords, Path, Beast Within and Fateful Absence for the permanent that stops your line, and protect Toph with The Stasis Coffin or Redirect Lightning."},
-    {"id": "toph-9", "deck": "Toph", "order": 9, "title": "Watch out", "text": "Bumi must connect in the first combat, and Liquimetal Coating only lasts until end of turn. Ashaya's creatures are still summoning sick for tap abilities. Gamble discards a card at random after the search, so cast it with a full hand or as your last card. Brightglass Gearhulk puts the two cards into your hand, not onto the battlefield. Artifact removal and sweepers hit your land-artifacts."},
-
-    {"id": "azula-1", "deck": "Azula", "order": 1, "title": "Idea", "text": "Grixis combat spellslinger. Fire Lord Azula attacks every turn: firebending adds {R}{R} when she attacks, and every spell you cast while she is attacking is copied. So the best cards are cheap instants: removal, card draw and Treasure makers become two-for-ones, and a few cost reducers make them nearly free."},
-    {"id": "azula-2", "deck": "Azula", "order": 2, "title": "Engine", "text": "Goblin Electromancer, Stormcatch Mentor and Nightscape Familiar reduce the cost of your spells; Electro adds red mana for each instant and sorcery, Storm-Kiln Artist makes a Treasure for each one, Archmage Emeritus draws, and Guttersnipe and Black Waltz No. 3 hit every opponent for each noncreature spell. Cheap duals let her come down on curve and still hold mana for combat."},
-    {"id": "azula-3", "deck": "Azula", "order": 3, "title": "Loops", "text": "Azula + Narset's Reversal + Frantic Search, or + Storm-Kiln Artist; Snap + Dualcaster Mage; Dualcaster Mage + Ember Island Production. Each loop gives unlimited casts while she attacks, and Guttersnipe, Black Waltz No. 3, Electro or a big X spell closes it. Mystical Teachings (copied, both halves) finds the instants."},
-    {"id": "azula-4", "deck": "Azula", "order": 4, "title": "Copied X spells", "text": "Comet Storm, Electrodominance, Exsanguinate and Invoke Calamity cast while she attacks are copied: Treasures, rituals and Electro's mana pay for a large X."},
-    {"id": "azula-5", "deck": "Azula", "order": 5, "title": "Commander damage", "text": "Bulk Up on an attacking Azula is copied, so her power doubles twice; its flashback, also copied, doubles it twice more. A single combat can kill by commander damage."},
-    {"id": "azula-6", "deck": "Azula", "order": 6, "title": "How it plays", "text": "Keep two or three lands, a cost reducer and cheap instants. Cast Azula on turn 4 with Swiftfoot Boots, Deflecting Swat or Redirect behind her, attack every turn and cast your instants during combat so each is copied. Use removal on the blockers or the threat, draw spells to dig for the loop."},
-    {"id": "azula-7", "deck": "Azula", "order": 7, "title": "Watch out", "text": "Archmage Emeritus draws are mandatory, so stop a loop before you deck yourself. Ritual mana empties between combat steps unless Electro, Ozai or The Last Agni Kai keeps it. Sorceries and creatures are copied only if they have flash. Ember Island Production can copy Azula as a non-legendary token, so two attacking Azulas copy every spell twice."},
-    {"id": "azula-8", "deck": "Azula", "order": 8, "title": "Weak spots", "text": "She has to survive to attack: instant-speed removal or a wall of blockers slows the plan. Commander Salt caps her because the combo wincons have few tutors to assemble them, which is exactly what the next round of lists attacks."},
-
-    {"id": "ezio-1", "deck": "Ezio", "order": 1, "title": "Idea", "text": "Five-color Assassin tempo with black at the core. Ezio is a two-mana menace attacker: once he or any Assassin connects, Assassin spells cost {B}{B} (freerunning). Roshan, Hidden Magister makes every creature an Assassin, so the whole deck gets the discount; Brotherhood Headquarters pays for them, and Ezio, Blade of Vengeance draws a card each time an Assassin connects."},
-    {"id": "ezio-2", "deck": "Ezio", "order": 2, "title": "Ezio's own win", "text": "If Ezio connects while a player has 10 life or less, pay {W}{U}{B}{R}{G} and that player loses the game. Whispersilk Cloak, Secret Tunnel or Assassin Gauntlet (which taps their creatures) make him unblockable; card draw from combat and the monarch keeps the pressure up."},
-    {"id": "ezio-3", "deck": "Ezio", "order": 3, "title": "Line A: Godo and Helm of the Host", "text": "Godo, Bandit Warlord puts Helm of the Host onto the battlefield when he enters. Equip Helm to Godo for {5}: at each combat a hasty token copy of Godo is made, it attacks for the first time, untaps and adds another combat, for infinite combats."},
-    {"id": "ezio-4", "deck": "Ezio", "order": 4, "title": "Line B: Kiki-Jiki", "text": "Kiki-Jiki + Intruder Alarm gives infinite hasty tokens at any time, and Kiki-Jiki + Helm of the Host + Goblin Bombardment turns the loop into damage. They are late-game backups to Line A."},
-    {"id": "ezio-5", "deck": "Ezio", "order": 5, "title": "Tutors", "text": "Godo finds Helm; Loyal Inventor and Reckless Handling find Helm too; Entomb followed by Restart Sequence or What Must Be Done reanimates Godo; Seismic Sense and Gamble reach the rest."},
-    {"id": "ezio-6", "deck": "Ezio", "order": 6, "title": "How it plays", "text": "Turn 2 Ezio, attack with menace. After a hit, cast the freerunning spells (Eagle Vision, Chain Assassination, Restart Sequence) for {B}{B}, and Roshan or a cheap Assassin follows. Thorn of the Black Rose and Queen Marchesa make you the monarch for card flow; Murder, Terminate, Counterspell and Fact or Fiction keep the table honest while the Assassins connect."},
-    {"id": "ezio-7", "deck": "Ezio", "order": 7, "title": "Watch out", "text": "Five colors on few basics: the cheap untapped duals are the first purchase. Ezio is a two-mana creature, so keep Swiftfoot Boots or removal mana ready to protect him; creature sweepers hurt the whole plan. The commander is a proxy at no cost; the real card is an optional purchase outside the budget."},
-
-    {"id": "alexios-1", "deck": "Alexios", "order": 1, "title": "Where he ended", "text": "Alexios, Deimos of Kosmos is a four-mana mono red commander that attacks each combat and passes to the next player's control at every upkeep, so the deck is a political chaos engine. His measured ladder scored below Ezio at every price on Commander Salt (see the power chart), so Ezio takes the new-deck slot. Alexios' files stay in the repository until you confirm the replacement."}
-  ]
+ "rows": [
+  {
+   "id": "plan-1",
+   "deck": "Plan",
+   "order": 1,
+   "title": "Where to stop",
+   "text": "About 150,000 CLP is the knee of the curve: each deck reaches its best measured list at roughly 49,000 CLP of cards (Ezio 7.4, Azula 8.4, Toph 7.4), 147,284 CLP together. Past that the only measured gain is Toph's tutor package (+0.1 for about 48,000 CLP more); Azula and Ezio did not improve with more money."
+  },
+  {
+   "id": "plan-2",
+   "deck": "Plan",
+   "order": 2,
+   "title": "A tighter budget",
+   "text": "At 100,000 CLP Toph stays on its free base (7.1) while Azula and Ezio get their full lists: 98,142 CLP for the highest total that fits."
+  },
+  {
+   "id": "plan-3",
+   "deck": "Plan",
+   "order": 3,
+   "title": "Bracket note",
+   "text": "Azula's lists from round-4 step 27 reach power 8.4. Wizards' criteria (Layer A) still give Bracket 3, but Commander Salt's own estimate calls them Bracket 4 (optimized). If your table dislikes that, Azula's step 18 (24,921 CLP) scores 7.0 with Salt's bracket 3*."
+  },
+  {
+   "id": "plan-4",
+   "deck": "Plan",
+   "order": 4,
+   "title": "Buy order inside a deck",
+   "text": "1) the cheap untapped dual lands and signets (they fix the mana base for a few thousand CLP). 2) The tutors and the pieces that complete a win line (Azula: Godo, Helm of the Host, Reckless Handling, Solve the Equation; Ezio: Etrata, the copy pieces, Venser; Toph: Reckless Handling, Brightglass Gearhulk, Chord of Calling). 3) Expensive staples last: they did not raise Commander Salt's power."
+  },
+  {
+   "id": "plan-5",
+   "deck": "Plan",
+   "order": 5,
+   "title": "What decides the game",
+   "text": "All three decks play the same way: a cheap engine that makes the commander matter by turn 3 or 4, tutors that find one of two or three late-game win lines, and a few cheap answers. Keep the answers for the one permanent that stops your line, not for the first threat you see."
+  },
+  {
+   "id": "toph-1",
+   "deck": "Toph",
+   "order": 1,
+   "title": "Idea",
+   "text": "Landfall deck built on Toph's rule: every nontoken artifact you control is also a land. Each rock, locket or bauble is therefore a land drop that triggers landfall, and at your end step Toph earthbends 2 (a land becomes a haste creature with two +1/+1 counters that returns if it dies). Landfall pingers (Tannuk, Sabotender, Ragost, Valakut Exploration) drain the table while cheap ramp and tutors keep the engine fed."
+  },
+  {
+   "id": "toph-2",
+   "deck": "Toph",
+   "order": 2,
+   "title": "Fair win",
+   "text": "Most games end by damage: Sabotender and Tannuk hit every opponent for each land, Valakut Exploration turns the exiled cards into damage at your end step, and Bumi, Unleashed (earthbend 4, trample) untaps your lands whenever he connects."
+  },
+  {
+   "id": "toph-3",
+   "deck": "Toph",
+   "order": 3,
+   "title": "Line A: Bumi and Coating",
+   "text": "Toph + Bumi, Unleashed + Liquimetal Coating. Coating makes Bumi an artifact, so under Toph a land. When Bumi connects all your lands untap and there is another combat in which only land creatures attack, so he attacks again and again. Rogue's Passage keeps him unblockable."
+  },
+  {
+   "id": "toph-4",
+   "deck": "Toph",
+   "order": 4,
+   "title": "Line B: Ashaya and Bumi",
+   "text": "Ashaya makes every nontoken creature a Forest land, so Bumi is a land without Coating and loops the same way. It is a two-card line that needs about ten mana, so it is a late-game finish."
+  },
+  {
+   "id": "toph-5",
+   "deck": "Toph",
+   "order": 5,
+   "title": "Line C: Ashaya, Zuran Orb and a pinger",
+   "text": "Ashaya + Zuran Orb + a creature that earthbends when it enters (Toph the Blind Bandit, Earth Kingdom General): the creature is a land, sacrifices itself to the Orb, returns and earthbends itself again, for infinite enters, landfall and deaths. Goblin Bombardment wins on its own; Sylvan Safekeeper or any landfall pinger also finish."
+  },
+  {
+   "id": "toph-6",
+   "deck": "Toph",
+   "order": 6,
+   "title": "Line D: infinite landfall",
+   "text": "Toph + Springheart Nantuko + Lotus Cobra or Tireless Provisioner: three cards with two-mana pieces make infinite landfall, and any pinger or Valakut Exploration is lethal. It is the fastest line of the deck."
+  },
+  {
+   "id": "toph-7",
+   "deck": "Toph",
+   "order": 7,
+   "title": "Tutors",
+   "text": "Seismic Sense and Crop Rotation from the free base, then Reckless Handling (finds Coating, Torque, Zuran Orb), Brightglass Gearhulk, Chord of Calling (any creature, convoked by earthbent lands), and later Imperial Recruiter, Inventors' Fair, Gamble and more. Whichever piece is missing, something finds it."
+  },
+  {
+   "id": "toph-8",
+   "deck": "Toph",
+   "order": 8,
+   "title": "How it plays",
+   "text": "Turns 1 and 2: Sol Ring, signets, talismans, Wayfarer's Bauble, Sakura-Tribe Elder or Lotus Cobra. Turn 3 or 4: Toph, as soon as you control two artifacts to turn into lands; from then on every artifact is a land drop. Keep Swords, Path, Beast Within and Fateful Absence for the permanent that stops your line, and protect Toph with The Stasis Coffin or Redirect Lightning."
+  },
+  {
+   "id": "toph-9",
+   "deck": "Toph",
+   "order": 9,
+   "title": "Watch out",
+   "text": "Bumi must connect in the first combat, and Liquimetal Coating only lasts until end of turn. Ashaya's creatures are still summoning sick for tap abilities. Gamble discards a card at random after the search, so cast it with a full hand or as your last card. Brightglass Gearhulk puts the two cards into your hand, not onto the battlefield. Artifact removal and sweepers hit your land-artifacts."
+  },
+  {
+   "id": "azula-1",
+   "deck": "Azula",
+   "order": 1,
+   "title": "Idea",
+   "text": "Grixis combat spellslinger with a combo spine. Fire Lord Azula attacks every turn: firebending adds {R}{R} when she attacks, and every spell you cast while she is attacking is copied. So the best cards are cheap instants: removal, card draw and Treasure makers become two-for-ones, and a few cost reducers make them nearly free."
+  },
+  {
+   "id": "azula-2",
+   "deck": "Azula",
+   "order": 2,
+   "title": "Engine",
+   "text": "Goblin Electromancer, Stormcatch Mentor, Nightscape Familiar and Glamdring on Azula cut the cost of your spells; Electro adds red mana for each instant and sorcery, Storm-Kiln Artist makes a Treasure for each one, and Guttersnipe and Black Waltz No. 3 hit every opponent for each noncreature spell. About ten cheap untapped duals let her come down on curve and still hold mana for combat."
+  },
+  {
+   "id": "azula-3",
+   "deck": "Azula",
+   "order": 3,
+   "title": "Instant loops",
+   "text": "Azula + Narset's Reversal + Frantic Search, or + Storm-Kiln Artist; Azula + Snap + Dualcaster Mage; Dualcaster Mage + Ember Island Production; Goblin Bombardment + Dualcaster Mage + Undying Malice. Each loop gives unlimited casts, and Guttersnipe, Black Waltz No. 3, Electro or a big X spell closes it. Mystical Teachings and Solve the Equation find the instants."
+  },
+  {
+   "id": "azula-4",
+   "deck": "Azula",
+   "order": 4,
+   "title": "Godo and Helm of the Host: the jump to 8.4",
+   "text": "Godo, Bandit Warlord puts Helm of the Host onto the battlefield when he enters; equipped (equip {5}) it makes a hasty token Godo each combat that untaps and adds another combat, so Azula also gets a new copy window every turn. Reckless Handling and Loyal Inventor find Helm. The step that added this line (with Solve the Equation) is where Azula jumped on Commander Salt, from 6.9 to 8.4, and Salt's ceiling for combos with no tutors disappeared."
+  },
+  {
+   "id": "azula-5",
+   "deck": "Azula",
+   "order": 5,
+   "title": "More lines (later steps)",
+   "text": "Etrata, the Silencer + two of Strionic Resonator, Lithoform Engine and Peter Parker's Camera exile three creatures with hit counters (the opponents must control creatures); Akki Battle Squad + Helm of the Host; Godo + Sword of Hearth and Home with Anger or Frostcliff Siege; Aggravated Assault or Sozin's Comet with Electro, The Last Agni Kai or Ozai. They add lines but not measured power."
+  },
+  {
+   "id": "azula-6",
+   "deck": "Azula",
+   "order": 6,
+   "title": "Copied X spells and commander damage",
+   "text": "Comet Storm, Electrodominance, Exsanguinate and Invoke Calamity cast while she attacks are copied, paid by Treasures and Electro's mana. Bulk Up on an attacking Azula is copied twice: her power doubles four times with its flashback, a commander-damage kill in one combat."
+  },
+  {
+   "id": "azula-7",
+   "deck": "Azula",
+   "order": 7,
+   "title": "How it plays",
+   "text": "Keep two or three lands, a cost reducer and cheap instants. Cast Azula on turn 4 with Swiftfoot Boots, Deflecting Swat or Redirect behind her, attack every turn and cast your instants during combat so each is copied. Use removal on the blockers or the threat and draw spells to dig for Godo, Helm or the loop pieces."
+  },
+  {
+   "id": "azula-8",
+   "deck": "Azula",
+   "order": 8,
+   "title": "Watch out",
+   "text": "Archmage Emeritus draws are mandatory, so stop a loop before you deck yourself. Ritual mana empties between combat steps unless Electro, Ozai or The Last Agni Kai keeps it. Sorceries and creatures are copied only if they have flash. Godo plus Helm is a ten-mana line, so it is a late-game finish, not a turn-five plan."
+  },
+  {
+   "id": "azula-9",
+   "deck": "Azula",
+   "order": 9,
+   "title": "Weak spots",
+   "text": "She has to survive to attack: instant-speed removal or a wall of blockers slows the plan, and the burn pieces are weak against lifegain. Commander Salt flags group-slug pressure (many burn and drain cards) and an overlap of win types as minor penalties."
+  },
+  {
+   "id": "ezio-1",
+   "deck": "Ezio",
+   "order": 1,
+   "title": "Idea",
+   "text": "Assassin tempo with black at the core and dense, cheap combo hubs. Ezio is a two-mana menace attacker: once he or any Assassin connects, Assassin spells cost {B}{B} (freerunning). Roshan, Hidden Magister makes every creature an Assassin, so Kiki-Jiki, Godo and the rest get the discount too; Brotherhood Headquarters pays for them and Ezio, Blade of Vengeance draws a card each time an Assassin connects."
+  },
+  {
+   "id": "ezio-2",
+   "deck": "Ezio",
+   "order": 2,
+   "title": "Ezio's own win",
+   "text": "If Ezio connects while a player has 10 life or less, pay {W}{U}{B}{R}{G} and that player loses the game. Whispersilk Cloak, Secret Tunnel or the Etrata trick make him hard to block; card draw from combat and the monarch keep the pressure up."
+  },
+  {
+   "id": "ezio-3",
+   "deck": "Ezio",
+   "order": 3,
+   "title": "Combo hubs (the round-4 change)",
+   "text": "Five cards share most of the lines, so each new piece adds several: Intruder Alarm (owned) with Deadeye Navigator, Venser or Kiki-Jiki; Etrata, the Silencer with any two of Return the Favor, Peter Parker's Camera, Strionic Resonator and Lithoform Engine (three hit-counter exiles lose the game); Dualcaster Mage with Starfall Invocation or Ember Island Production; Kiki-Jiki or Godo with Helm of the Host and Goblin Bombardment."
+  },
+  {
+   "id": "ezio-4",
+   "deck": "Ezio",
+   "order": 4,
+   "title": "What measured best",
+   "text": "The list at about 49,000 CLP scored 7.4. Adding Kiki-Jiki, Godo, Helm and Bombardment (more lines, later) measured lower, 6.2 to 6.4, so more combos is not automatically more power on Commander Salt, which is why the plan stops at that list."
+  },
+  {
+   "id": "ezio-5",
+   "deck": "Ezio",
+   "order": 5,
+   "title": "Tutors",
+   "text": "Mystical Teachings, Reckless Handling, Loyal Inventor, Seismic Sense and Entomb with Restart Sequence reach the hubs; Adéwalé finds Etrata. The free base starts with only one combo line and Ezio's own trigger, which is why it is the weakest list of the three."
+  },
+  {
+   "id": "ezio-6",
+   "deck": "Ezio",
+   "order": 6,
+   "title": "How it plays",
+   "text": "Turn 2 Ezio, attack with menace. After a hit, cast the freerunning spells (Eagle Vision, Chain Assassination, Restart Sequence) for {B}{B}, and Roshan or a cheap Assassin follows. Thorn of the Black Rose and Queen Marchesa make you the monarch for card flow; Murder, Terminate, Mana Leak and Fact or Fiction keep the table honest while the Assassins connect."
+  },
+  {
+   "id": "ezio-7",
+   "deck": "Ezio",
+   "order": 7,
+   "title": "How five colors run at this price",
+   "text": "It is not a four-color splash on a mono-black deck: black is about 41 % of the colored symbols, blue 26 %, red 15 %, white 12 % and green 5 %. What makes it work cheaply is 35 lands with none that always enters tapped (14 enter untapped when a condition holds: check, battle and reveal lands; about 8,600 CLP buy the dozen cheap lands and Chromatic Lantern), Command Tower, Chromatic Lantern, Exotic Orchard and the signets: about 27 black sources and 15 to 18 of each other color, and an average mana value of 2.8. The price you pay is consistency: the chance of seeing a source of every color by turn 5 is about 72 %."
+  },
+  {
+   "id": "ezio-8",
+   "deck": "Ezio",
+   "order": 8,
+   "title": "Your black-core idea, tested",
+   "text": "We built it: black at least 73 % of the symbols, blue as the only regular second color, the other colors only through any-color lands and mana rocks (enough for Ezio's late WUBRG), and tapped black-and-X duals. At about 49,200 CLP it measured 5.3 on Commander Salt against 7.4 for the five-color list. Salt's Manabase Quality fell from 97 % to 21 % (six lands always enter tapped, four more conditionally) and it gives up Godo, Kiki-Jiki, Dualcaster and Queen Marchesa. It does cast {B}{B} freerunning costs a little more often (32 black sources against 27), but power is the measure we have."
+  },
+  {
+   "id": "ezio-9",
+   "deck": "Ezio",
+   "order": 9,
+   "title": "Watch out",
+   "text": "Ezio is a two-mana creature, so keep Swiftfoot Boots or removal mana ready to protect him; creature sweepers hurt the whole plan. The commander is a proxy at no cost; the real card is an optional purchase outside the budget."
+  },
+  {
+   "id": "alexios-1",
+   "deck": "Alexios",
+   "order": 1,
+   "title": "Where he ended",
+   "text": "Alexios, Deimos of Kosmos is a four-mana mono red commander that attacks each combat and passes to the next player's control at every upkeep, so the deck is a political chaos engine. His measured ladder scored below Ezio at every price on Commander Salt (see the power chart), so Ezio takes the new-deck slot. Alexios' files stay in the repository until you confirm the replacement."
+  }
+ ]
 }

@@ -1,464 +1,1096 @@
 {
  "rows": [
   {
-   "id": "alexios-19-R",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-R",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "color": "Red",
    "pips": 58,
    "share_pct": 100
   },
   {
-   "id": "alexios-39-R",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-R",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "color": "Red",
    "pips": 60,
    "share_pct": 100
   },
   {
-   "id": "alexios-48-R",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-R",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "color": "Red",
    "pips": 57,
    "share_pct": 100
   },
   {
-   "id": "ezio-24-W",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-W",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "color": "White",
    "pips": 10,
    "share_pct": 12
   },
   {
-   "id": "ezio-24-U",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-U",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "color": "Blue",
    "pips": 18,
    "share_pct": 21
   },
   {
-   "id": "ezio-24-B",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-B",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "color": "Black",
    "pips": 41,
    "share_pct": 48
   },
   {
-   "id": "ezio-24-R",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-R",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "color": "Red",
    "pips": 12,
    "share_pct": 14
   },
   {
-   "id": "ezio-24-G",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-G",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "color": "Green",
    "pips": 4,
    "share_pct": 5
   },
   {
-   "id": "ezio-39-W",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-W",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "color": "White",
    "pips": 12,
    "share_pct": 14
   },
   {
-   "id": "ezio-39-U",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-U",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "color": "Blue",
    "pips": 16,
    "share_pct": 18
   },
   {
-   "id": "ezio-39-B",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-B",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "color": "Black",
    "pips": 44,
    "share_pct": 51
   },
   {
-   "id": "ezio-39-R",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-R",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "color": "Red",
    "pips": 10,
    "share_pct": 11
   },
   {
-   "id": "ezio-39-G",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-G",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "color": "Green",
    "pips": 5,
    "share_pct": 6
   },
   {
-   "id": "ezio-43-W",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-W",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "color": "White",
    "pips": 12,
    "share_pct": 14
   },
   {
-   "id": "ezio-43-U",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-U",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "color": "Blue",
    "pips": 16,
    "share_pct": 18
   },
   {
-   "id": "ezio-43-B",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-B",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "color": "Black",
    "pips": 41,
    "share_pct": 47
   },
   {
-   "id": "ezio-43-R",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-R",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "color": "Red",
    "pips": 14,
    "share_pct": 16
   },
   {
-   "id": "ezio-43-G",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-G",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "color": "Green",
    "pips": 5,
    "share_pct": 6
   },
   {
-   "id": "ezio-46-W",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-W",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "color": "White",
    "pips": 11,
    "share_pct": 12
   },
   {
-   "id": "ezio-46-U",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-U",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "color": "Blue",
    "pips": 16,
    "share_pct": 18
   },
   {
-   "id": "ezio-46-B",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-B",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "color": "Black",
    "pips": 42,
    "share_pct": 47
   },
   {
-   "id": "ezio-46-R",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-R",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "color": "Red",
    "pips": 15,
    "share_pct": 17
   },
   {
-   "id": "ezio-46-G",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-G",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "color": "Green",
    "pips": 5,
    "share_pct": 6
   },
   {
-   "id": "ezio-50-W",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-W",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "color": "White",
    "pips": 11,
    "share_pct": 13
   },
   {
-   "id": "ezio-50-U",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-U",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "color": "Blue",
    "pips": 15,
    "share_pct": 17
   },
   {
-   "id": "ezio-50-B",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-B",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "color": "Black",
    "pips": 40,
    "share_pct": 47
   },
   {
-   "id": "ezio-50-R",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-R",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "color": "Red",
    "pips": 15,
    "share_pct": 17
   },
   {
-   "id": "ezio-50-G",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-G",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "color": "Green",
    "pips": 5,
    "share_pct": 6
   },
   {
-   "id": "azula-23-U",
-   "list_id": "azula-23",
+   "id": "ezio-bcore-r4-0-W",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "color": "White",
+   "pips": 0,
+   "share_pct": 0
+  },
+  {
+   "id": "ezio-bcore-r4-0-U",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "color": "Blue",
+   "pips": 12,
+   "share_pct": 17
+  },
+  {
+   "id": "ezio-bcore-r4-0-B",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "color": "Black",
+   "pips": 58,
+   "share_pct": 83
+  },
+  {
+   "id": "ezio-bcore-r4-0-R",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "color": "Red",
+   "pips": 0,
+   "share_pct": 0
+  },
+  {
+   "id": "ezio-bcore-r4-0-G",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "color": "Green",
+   "pips": 0,
+   "share_pct": 0
+  },
+  {
+   "id": "ezio-bcore-r4-18-W",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "color": "White",
+   "pips": 0,
+   "share_pct": 0
+  },
+  {
+   "id": "ezio-bcore-r4-18-U",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "color": "Blue",
+   "pips": 17,
+   "share_pct": 24
+  },
+  {
+   "id": "ezio-bcore-r4-18-B",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "color": "Black",
+   "pips": 54,
+   "share_pct": 76
+  },
+  {
+   "id": "ezio-bcore-r4-18-R",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "color": "Red",
+   "pips": 0,
+   "share_pct": 0
+  },
+  {
+   "id": "ezio-bcore-r4-18-G",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "color": "Green",
+   "pips": 0,
+   "share_pct": 0
+  },
+  {
+   "id": "ezio-bcore-r4-26-W",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "color": "White",
+   "pips": 1,
+   "share_pct": 1
+  },
+  {
+   "id": "ezio-bcore-r4-26-U",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "color": "Blue",
+   "pips": 18,
+   "share_pct": 25
+  },
+  {
+   "id": "ezio-bcore-r4-26-B",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "color": "Black",
+   "pips": 52,
+   "share_pct": 73
+  },
+  {
+   "id": "ezio-bcore-r4-26-R",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "color": "Red",
+   "pips": 0,
+   "share_pct": 0
+  },
+  {
+   "id": "ezio-bcore-r4-26-G",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "color": "Green",
+   "pips": 0,
+   "share_pct": 0
+  },
+  {
+   "id": "ezio-r4-0-W",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "color": "White",
+   "pips": 9,
+   "share_pct": 11
+  },
+  {
+   "id": "ezio-r4-0-U",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "color": "Blue",
+   "pips": 22,
+   "share_pct": 27
+  },
+  {
+   "id": "ezio-r4-0-B",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "color": "Black",
+   "pips": 36,
+   "share_pct": 44
+  },
+  {
+   "id": "ezio-r4-0-R",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "color": "Red",
+   "pips": 10,
+   "share_pct": 12
+  },
+  {
+   "id": "ezio-r4-0-G",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "color": "Green",
+   "pips": 4,
+   "share_pct": 5
+  },
+  {
+   "id": "ezio-r4-14-W",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "color": "White",
+   "pips": 9,
+   "share_pct": 11
+  },
+  {
+   "id": "ezio-r4-14-U",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "color": "Blue",
+   "pips": 22,
+   "share_pct": 27
+  },
+  {
+   "id": "ezio-r4-14-B",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "color": "Black",
+   "pips": 35,
+   "share_pct": 43
+  },
+  {
+   "id": "ezio-r4-14-R",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "color": "Red",
+   "pips": 11,
+   "share_pct": 14
+  },
+  {
+   "id": "ezio-r4-14-G",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "color": "Green",
+   "pips": 4,
+   "share_pct": 5
+  },
+  {
+   "id": "ezio-r4-31-W",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "color": "White",
+   "pips": 10,
+   "share_pct": 12
+  },
+  {
+   "id": "ezio-r4-31-U",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "color": "Blue",
+   "pips": 21,
+   "share_pct": 26
+  },
+  {
+   "id": "ezio-r4-31-B",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "color": "Black",
+   "pips": 36,
+   "share_pct": 44
+  },
+  {
+   "id": "ezio-r4-31-R",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "color": "Red",
+   "pips": 10,
+   "share_pct": 12
+  },
+  {
+   "id": "ezio-r4-31-G",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "color": "Green",
+   "pips": 4,
+   "share_pct": 5
+  },
+  {
+   "id": "ezio-r4-33-W",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "color": "White",
+   "pips": 9,
+   "share_pct": 11
+  },
+  {
+   "id": "ezio-r4-33-U",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "color": "Blue",
+   "pips": 20,
+   "share_pct": 25
+  },
+  {
+   "id": "ezio-r4-33-B",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "color": "Black",
+   "pips": 36,
+   "share_pct": 45
+  },
+  {
+   "id": "ezio-r4-33-R",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "color": "Red",
+   "pips": 11,
+   "share_pct": 14
+  },
+  {
+   "id": "ezio-r4-33-G",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "color": "Green",
+   "pips": 4,
+   "share_pct": 5
+  },
+  {
+   "id": "ezio-r4-39-W",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "color": "White",
+   "pips": 10,
+   "share_pct": 12
+  },
+  {
+   "id": "ezio-r4-39-U",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "color": "Blue",
+   "pips": 21,
+   "share_pct": 26
+  },
+  {
+   "id": "ezio-r4-39-B",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "color": "Black",
+   "pips": 33,
+   "share_pct": 41
+  },
+  {
+   "id": "ezio-r4-39-R",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "color": "Red",
+   "pips": 12,
+   "share_pct": 15
+  },
+  {
+   "id": "ezio-r4-39-G",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "color": "Green",
+   "pips": 4,
+   "share_pct": 5
+  },
+  {
+   "id": "ezio-r4-43-W",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "color": "White",
+   "pips": 10,
+   "share_pct": 13
+  },
+  {
+   "id": "ezio-r4-43-U",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "color": "Blue",
+   "pips": 19,
+   "share_pct": 24
+  },
+  {
+   "id": "ezio-r4-43-B",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "color": "Black",
+   "pips": 30,
+   "share_pct": 38
+  },
+  {
+   "id": "ezio-r4-43-R",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "color": "Red",
+   "pips": 15,
+   "share_pct": 19
+  },
+  {
+   "id": "ezio-r4-43-G",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "color": "Green",
+   "pips": 4,
+   "share_pct": 5
+  },
+  {
+   "id": "ezio-r4-50-W",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "color": "White",
+   "pips": 10,
+   "share_pct": 13
+  },
+  {
+   "id": "ezio-r4-50-U",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "color": "Blue",
+   "pips": 19,
+   "share_pct": 25
+  },
+  {
+   "id": "ezio-r4-50-B",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "color": "Black",
+   "pips": 30,
+   "share_pct": 39
+  },
+  {
+   "id": "ezio-r4-50-R",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "color": "Red",
+   "pips": 14,
+   "share_pct": 18
+  },
+  {
+   "id": "ezio-r4-50-G",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "color": "Green",
+   "pips": 3,
+   "share_pct": 4
+  },
+  {
+   "id": "ezio-r4-54-W",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "color": "White",
+   "pips": 11,
+   "share_pct": 14
+  },
+  {
+   "id": "ezio-r4-54-U",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "color": "Blue",
+   "pips": 18,
+   "share_pct": 24
+  },
+  {
+   "id": "ezio-r4-54-B",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "color": "Black",
+   "pips": 30,
+   "share_pct": 39
+  },
+  {
+   "id": "ezio-r4-54-R",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "color": "Red",
+   "pips": 14,
+   "share_pct": 18
+  },
+  {
+   "id": "ezio-r4-54-G",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "color": "Green",
+   "pips": 3,
+   "share_pct": 4
+  },
+  {
+   "id": "azula-r3-23-U",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "color": "Blue",
    "pips": 31,
    "share_pct": 39
   },
   {
-   "id": "azula-23-B",
-   "list_id": "azula-23",
+   "id": "azula-r3-23-B",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "color": "Black",
    "pips": 20,
    "share_pct": 25
   },
   {
-   "id": "azula-23-R",
-   "list_id": "azula-23",
+   "id": "azula-r3-23-R",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "color": "Red",
    "pips": 28,
    "share_pct": 35
   },
   {
-   "id": "azula-34-U",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-U",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "color": "Blue",
    "pips": 29,
    "share_pct": 35
   },
   {
-   "id": "azula-34-B",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-B",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "color": "Black",
    "pips": 21,
    "share_pct": 26
   },
   {
-   "id": "azula-34-R",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-R",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "color": "Red",
    "pips": 32,
    "share_pct": 39
   },
   {
-   "id": "azula-39-U",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-U",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "color": "Blue",
    "pips": 31,
    "share_pct": 36
   },
   {
-   "id": "azula-39-B",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-B",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "color": "Black",
    "pips": 20,
    "share_pct": 23
   },
   {
-   "id": "azula-39-R",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-R",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "color": "Red",
    "pips": 35,
    "share_pct": 41
   },
   {
-   "id": "azula-44-U",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-U",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "color": "Blue",
    "pips": 33,
    "share_pct": 38
   },
   {
-   "id": "azula-44-B",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-B",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "color": "Black",
    "pips": 20,
    "share_pct": 23
   },
   {
-   "id": "azula-44-R",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-R",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "color": "Red",
    "pips": 35,
    "share_pct": 40
   },
   {
-   "id": "azula-53-U",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-U",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "color": "Blue",
    "pips": 31,
    "share_pct": 36
   },
   {
-   "id": "azula-53-B",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-B",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "color": "Black",
    "pips": 20,
    "share_pct": 24
   },
   {
-   "id": "azula-53-R",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-R",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "color": "Red",
    "pips": 34,
    "share_pct": 40
   },
   {
-   "id": "toph-0-W",
-   "list_id": "toph-0",
+   "id": "azula-r4-0-U",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "color": "Blue",
+   "pips": 29,
+   "share_pct": 36
+  },
+  {
+   "id": "azula-r4-0-B",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "color": "Black",
+   "pips": 22,
+   "share_pct": 27
+  },
+  {
+   "id": "azula-r4-0-R",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "color": "Red",
+   "pips": 30,
+   "share_pct": 37
+  },
+  {
+   "id": "azula-r4-15-U",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "color": "Blue",
+   "pips": 30,
+   "share_pct": 38
+  },
+  {
+   "id": "azula-r4-15-B",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "color": "Black",
+   "pips": 23,
+   "share_pct": 29
+  },
+  {
+   "id": "azula-r4-15-R",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "color": "Red",
+   "pips": 27,
+   "share_pct": 34
+  },
+  {
+   "id": "azula-r4-18-U",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "color": "Blue",
+   "pips": 30,
+   "share_pct": 38
+  },
+  {
+   "id": "azula-r4-18-B",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "color": "Black",
+   "pips": 23,
+   "share_pct": 29
+  },
+  {
+   "id": "azula-r4-18-R",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "color": "Red",
+   "pips": 27,
+   "share_pct": 34
+  },
+  {
+   "id": "azula-r4-24-U",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "color": "Blue",
+   "pips": 29,
+   "share_pct": 37
+  },
+  {
+   "id": "azula-r4-24-B",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "color": "Black",
+   "pips": 23,
+   "share_pct": 29
+  },
+  {
+   "id": "azula-r4-24-R",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "color": "Red",
+   "pips": 27,
+   "share_pct": 34
+  },
+  {
+   "id": "azula-r4-27-U",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "color": "Blue",
+   "pips": 30,
+   "share_pct": 39
+  },
+  {
+   "id": "azula-r4-27-B",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "color": "Black",
+   "pips": 19,
+   "share_pct": 25
+  },
+  {
+   "id": "azula-r4-27-R",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "color": "Red",
+   "pips": 27,
+   "share_pct": 36
+  },
+  {
+   "id": "azula-r4-35-U",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "color": "Blue",
+   "pips": 29,
+   "share_pct": 38
+  },
+  {
+   "id": "azula-r4-35-B",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "color": "Black",
+   "pips": 19,
+   "share_pct": 25
+  },
+  {
+   "id": "azula-r4-35-R",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "color": "Red",
+   "pips": 28,
+   "share_pct": 37
+  },
+  {
+   "id": "azula-r4-40-U",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "color": "Blue",
+   "pips": 29,
+   "share_pct": 38
+  },
+  {
+   "id": "azula-r4-40-B",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "color": "Black",
+   "pips": 16,
+   "share_pct": 21
+  },
+  {
+   "id": "azula-r4-40-R",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "color": "Red",
+   "pips": 31,
+   "share_pct": 41
+  },
+  {
+   "id": "azula-r4-44-U",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "color": "Blue",
+   "pips": 24,
+   "share_pct": 32
+  },
+  {
+   "id": "azula-r4-44-B",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "color": "Black",
+   "pips": 16,
+   "share_pct": 21
+  },
+  {
+   "id": "azula-r4-44-R",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "color": "Red",
+   "pips": 36,
+   "share_pct": 47
+  },
+  {
+   "id": "toph-r2-0-W",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "color": "White",
    "pips": 11,
    "share_pct": 17
   },
   {
-   "id": "toph-0-R",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-R",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "color": "Red",
    "pips": 13,
    "share_pct": 20
   },
   {
-   "id": "toph-0-G",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-G",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "color": "Green",
    "pips": 42,
    "share_pct": 64
   },
   {
-   "id": "toph-11-W",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-W",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "color": "White",
    "pips": 13,
    "share_pct": 19
   },
   {
-   "id": "toph-11-R",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-R",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "color": "Red",
    "pips": 13,
    "share_pct": 19
   },
   {
-   "id": "toph-11-G",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-G",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "color": "Green",
    "pips": 41,
    "share_pct": 61
   },
   {
-   "id": "toph-21-W",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-W",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "color": "White",
    "pips": 14,
    "share_pct": 21
   },
   {
-   "id": "toph-21-R",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-R",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "color": "Red",
    "pips": 12,
    "share_pct": 18
   },
   {
-   "id": "toph-21-G",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-G",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "color": "Green",
    "pips": 40,
    "share_pct": 61
   },
   {
-   "id": "toph-30-W",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-W",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "color": "White",
    "pips": 14,
    "share_pct": 21
   },
   {
-   "id": "toph-30-R",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-R",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "color": "Red",
    "pips": 13,
    "share_pct": 20
   },
   {
-   "id": "toph-30-G",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-G",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "color": "Green",
    "pips": 39,
    "share_pct": 59
   },
   {
-   "id": "toph-32-W",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-W",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "color": "White",
    "pips": 14,
    "share_pct": 21
   },
   {
-   "id": "toph-32-R",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-R",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "color": "Red",
    "pips": 14,
    "share_pct": 21
   },
   {
-   "id": "toph-32-G",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-G",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "color": "Green",
    "pips": 40,

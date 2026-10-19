@@ -6,10 +6,10 @@
       "WebFetch(domain:backend.commanderspellbook.com)"
     ],
     "deny": [
-      "Bash(git commit *)",
       "Bash(git push *)",
-      "PowerShell(git commit *)",
-      "PowerShell(git push *)"
+      "PowerShell(git push *)",
+      "Write(.claude/commit-authorization)",
+      "Edit(.claude/commit-authorization)"
     ]
   },
   "hooks": {
@@ -20,6 +20,16 @@
           {
             "type": "command",
             "command": "sh \"${CLAUDE_PROJECT_DIR}/.claude/hooks/block-git-writes.sh\""
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PROJECT_DIR}/.claude/hooks/authorize-commit.sh\""
           }
         ]
       }

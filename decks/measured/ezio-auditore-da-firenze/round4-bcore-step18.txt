@@ -1,0 +1,88 @@
+// Commander
+1 Ezio Auditore da Firenze
+
+// Main
+1 Abstergo Entertainment
+1 Adéwalé, Breaker of Chains
+1 Arcane Signet
+1 Assassin Gauntlet
+1 Azula Always Lies
+1 Bender's Waterskin
+1 Bitter Triumph
+1 Boneyard Desecrator
+1 Brainstorm
+1 Brotherhood Ambushers
+1 Brotherhood Headquarters
+1 Chromatic Lantern
+1 Command Tower
+1 Concealed Courtyard
+1 Dai Li Indoctrination
+1 Deadeye Navigator
+1 Deadly Visit
+1 Decree of Pain
+1 Desert's Due
+1 Desmond Miles
+1 Desperate Plea
+1 Dimir Locket
+1 Dismal Backwater
+1 Entomb
+1 Epic Downfall
+1 Etrata, Deadly Fugitive
+1 Etrata, the Silencer
+1 Evie Frye
+1 Exotic Orchard
+1 Ezio, Blade of Vengeance
+1 Fatal Push
+1 Feed the Swarm
+1 Gisa's Bidding
+1 Hidden Blade
+1 Hooded Assassin
+1 Hullcarver
+1 Infernal Grasp
+1 Intruder Alarm
+6 Island
+1 Jacob Frye
+1 Loyal Inventor
+1 Lydia Frye
+1 Mask of Griselbrand
+1 Merciless Harlequin
+1 Mishra's Bauble
+1 Murder
+1 Murky Sewer
+1 Mystical Teachings
+1 Nekrataal
+1 Notion Rain
+1 Overwhelming Remorse
+1 Ozai's Cruelty
+1 Peter Parker's Camera
+1 Pirate Peddlers
+1 Poison-Blade Mentor
+1 Ravenloft Adventurer
+1 Reno and Rude
+1 Restart Sequence
+1 Rooftop Assassin
+1 Rooftop Bypass
+1 Roshan, Hidden Magister
+1 Royal Assassin
+1 Rumble Arena
+1 Scoured Barrens
+1 Secret Tunnel
+1 Silumgar Assassin
+1 Sol Ring
+1 Sold Out
+1 Sunken Hollow
+11 Swamp
+1 Swampsnare Trap
+1 Swiftfoot Boots
+1 Temple of Deceit
+1 Temple of Malady
+1 Temple of Malice
+1 The Revelations of Ezio
+1 Thorn of the Black Rose
+1 Thriving Moor
+1 Tome of Legends
+1 Unclaimed Territory
+1 Venser, Shaper Savant
+1 Vicious Rumors
+1 White Lotus Hideout
+1 Woodland Cemetery

@@ -436,6 +436,384 @@
     "interaction": 301,
     "wincons": 72
    }
+  },
+  "fire-lord-azula/round4-step15": {
+   "round": 4,
+   "ladder_step": 15,
+   "cost_clp": 14406,
+   "power": 6.0,
+   "salt": 40.3,
+   "bracket": "3*",
+   "manabase_quality_pct": 96,
+   "salt_page": "7adc7375c0a7bace1441e0ba662a0ffc",
+   "moxfield": "5C3yAmZvlUivGqq-UgP0Tw",
+   "list_hash": "16d45cd540cb0e54",
+   "salt_ceiling_pts": -0.7,
+   "salt_ceiling": "casual stall shell, no clear win path (no combos)",
+   "salt_pillars": {
+    "consistency": 249,
+    "efficiency": 356,
+    "interaction": 293,
+    "wincons": 83
+   }
+  },
+  "fire-lord-azula/round4-step18": {
+   "round": 4,
+   "ladder_step": 18,
+   "cost_clp": 24921,
+   "power": 7.0,
+   "salt": 50.5,
+   "bracket": "3*",
+   "manabase_quality_pct": 96,
+   "salt_page": "be998150544678522cf9d2266fa1c879",
+   "moxfield": "TGvXUPP9B0mQr3fZYoFBwg",
+   "list_hash": "72f68be0f6d9d5e1",
+   "salt_ceiling_pts": -0.26,
+   "salt_ceiling": "sparse, slow combo package",
+   "salt_pillars": {
+    "consistency": 236,
+    "efficiency": 360,
+    "interaction": 291,
+    "wincons": 212
+   }
+  },
+  "fire-lord-azula/round4-step24": {
+   "round": 4,
+   "ladder_step": 24,
+   "cost_clp": 34721,
+   "power": 6.9,
+   "salt": 58.3,
+   "bracket": "3*",
+   "manabase_quality_pct": 96,
+   "salt_page": "71509ba5f6601f1a60f8fdce1d924a87",
+   "moxfield": "2VaicMdbk0qFu6iKEs7c-w",
+   "list_hash": "115a0d40bcd90a8b",
+   "salt_ceiling_pts": -0.93,
+   "salt_ceiling": "wincon combos with no tutors to assemble them",
+   "salt_pillars": {
+    "consistency": 241,
+    "efficiency": 384,
+    "interaction": 279,
+    "wincons": 292
+   }
+  },
+  "fire-lord-azula/round4-step27": {
+   "round": 4,
+   "ladder_step": 27,
+   "cost_clp": 49191,
+   "power": 8.4,
+   "salt": 66.1,
+   "bracket": "4*",
+   "manabase_quality_pct": 95,
+   "salt_page": "c9b45a94f555b7ccffaf100b233d5d57",
+   "moxfield": "OdrRwIeKmki4c-mqVhBlJg",
+   "list_hash": "66717523bb43e4c7",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none structural; 4 anti-patterns flagged (group-slug pressure, low fast mana, kitchen-sink wincon)",
+   "salt_pillars": {
+    "consistency": 256,
+    "efficiency": 381,
+    "interaction": 265,
+    "wincons": 477
+   },
+   "wotc_bracket": "3"
+  },
+  "fire-lord-azula/round4-step35": {
+   "round": 4,
+   "ladder_step": 35,
+   "cost_clp": 74041,
+   "power": 8.4,
+   "salt": 67.0,
+   "bracket": "4*",
+   "manabase_quality_pct": 95,
+   "salt_page": "d9fd2873356b0ec3d369957e78cd5fca",
+   "moxfield": "6zEdY27DG0uQBhb691l_VA",
+   "list_hash": "a56506c0ef632746",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none structural; 3 minor anti-patterns (group-slug pressure, kitchen-sink wincon)",
+   "salt_pillars": {
+    "consistency": 246,
+    "efficiency": 379,
+    "interaction": 225,
+    "wincons": 745
+   },
+   "wotc_bracket": "3"
+  },
+  "fire-lord-azula/round4-step40": {
+   "round": 4,
+   "ladder_step": 40,
+   "cost_clp": 98561,
+   "power": 8.4,
+   "salt": 82.8,
+   "bracket": "4*",
+   "manabase_quality_pct": 95,
+   "salt_page": "e1561e7847da8996a01f642b5f3ca05f",
+   "moxfield": "Sh0BvgA4lUaNwcPW-UVGbg",
+   "list_hash": "d4d457e57a0049a4",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none structural; 2 minor anti-patterns (group-slug pressure, kitchen-sink wincon)",
+   "salt_pillars": {
+    "consistency": 251,
+    "efficiency": 367,
+    "interaction": 221,
+    "wincons": 1501
+   },
+   "wotc_bracket": "3"
+  },
+  "fire-lord-azula/round4-step44": {
+   "round": 4,
+   "ladder_step": 44,
+   "cost_clp": 147811,
+   "power": 8.3,
+   "salt": 104.5,
+   "bracket": "4*",
+   "manabase_quality_pct": 95,
+   "salt_page": "f97771243ce14a95c36edbc51796d5c9",
+   "moxfield": "PYybkmAj-EmJD6Cofj9yDA",
+   "list_hash": "a3be8de523ca41b9",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none structural; 2 minor anti-patterns (group-slug pressure, kitchen-sink wincon)",
+   "salt_pillars": {
+    "consistency": 259,
+    "efficiency": 357,
+    "interaction": 204,
+    "wincons": 2147
+   },
+   "wotc_bracket": "3"
+  },
+  "ezio-auditore-da-firenze/round4-step0": {
+   "round": 4,
+   "ladder_step": 0,
+   "cost_clp": 0,
+   "power": 4.1,
+   "salt": 57.0,
+   "bracket": "2",
+   "manabase_quality_pct": 43,
+   "salt_page": "108aa26e7d17057261df91275f8a4b73",
+   "moxfield": "vQRVBJobdk-O9L4cyDoM5A",
+   "list_hash": "63045cda38c8e733",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none structural; control without a finisher (notable)",
+   "salt_pillars": {
+    "consistency": 279,
+    "efficiency": 128,
+    "interaction": 152,
+    "wincons": 31
+   },
+   "wotc_bracket": "2"
+  },
+  "ezio-auditore-da-firenze/round4-step14": {
+   "round": 4,
+   "ladder_step": 14,
+   "cost_clp": 14655,
+   "power": 5.3,
+   "salt": 58.9,
+   "bracket": "3*",
+   "manabase_quality_pct": 55,
+   "salt_page": "ba9679b70aa495b5b75991fddbc04272",
+   "moxfield": "nS8VG8EOvUyEuKb8YWVB9g",
+   "list_hash": "78e85ba2903b0871",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none structural; control without a finisher (minor)",
+   "salt_pillars": {
+    "consistency": 262,
+    "efficiency": 136,
+    "interaction": 171,
+    "wincons": 135
+   },
+   "wotc_bracket": "2"
+  },
+  "ezio-auditore-da-firenze/round4-step31": {
+   "round": 4,
+   "ladder_step": 31,
+   "cost_clp": 24751,
+   "power": 5.8,
+   "salt": 51.9,
+   "bracket": "3*",
+   "manabase_quality_pct": 97,
+   "salt_page": "3a3605f44cb67c788211107f855723ce",
+   "moxfield": "7jfYsECvmk67EjhnmPGLsA",
+   "list_hash": "2cc5b86ec9a13b4a",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none structural; control without a finisher (minor)",
+   "salt_pillars": {
+    "consistency": 291,
+    "efficiency": 150,
+    "interaction": 188,
+    "wincons": 163
+   },
+   "wotc_bracket": "2"
+  },
+  "ezio-auditore-da-firenze/round4-step33": {
+   "round": 4,
+   "ladder_step": 33,
+   "cost_clp": 34541,
+   "power": 6.8,
+   "salt": 52.7,
+   "bracket": "3*",
+   "manabase_quality_pct": 97,
+   "salt_page": "301396f20cb0b5c79e02e10628b6d05f",
+   "moxfield": "tZTcqE0NkkCFhud0uiSVxA",
+   "list_hash": "8f4ca3c1e648a904",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none",
+   "salt_pillars": {
+    "consistency": 285,
+    "efficiency": 150,
+    "interaction": 186,
+    "wincons": 290
+   },
+   "wotc_bracket": "2"
+  },
+  "ezio-auditore-da-firenze/round4-step39": {
+   "round": 4,
+   "ladder_step": 39,
+   "cost_clp": 48951,
+   "power": 7.4,
+   "salt": 59.6,
+   "bracket": "3*",
+   "manabase_quality_pct": 97,
+   "salt_page": "32b232375f60702f608c81c21c8ef2dc",
+   "moxfield": "qRzfdmvbG0G6MyfVpgsa9A",
+   "list_hash": "e6df68e86816ccea",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none",
+   "salt_pillars": {
+    "consistency": 267,
+    "efficiency": 159,
+    "interaction": 194,
+    "wincons": 429
+   },
+   "wotc_bracket": "2"
+  },
+  "ezio-auditore-da-firenze/round4-step43": {
+   "round": 4,
+   "ladder_step": 43,
+   "cost_clp": 74151,
+   "power": 6.2,
+   "salt": 72.0,
+   "bracket": "3*",
+   "manabase_quality_pct": 97,
+   "salt_page": "8bc8f3e44c247864857390cb0249d841",
+   "moxfield": "OL5FLyYK906TjSSo4Wvnsw",
+   "list_hash": "b219baf48b431d23",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none",
+   "salt_pillars": {
+    "consistency": 257,
+    "efficiency": 163,
+    "interaction": 199,
+    "wincons": 503
+   },
+   "wotc_bracket": "2"
+  },
+  "ezio-auditore-da-firenze/round4-step50": {
+   "round": 4,
+   "ladder_step": 50,
+   "cost_clp": 97791,
+   "power": 6.4,
+   "salt": 83.2,
+   "bracket": "3",
+   "manabase_quality_pct": 97,
+   "salt_page": "0012a025854bd7744a970e280ab57b50",
+   "moxfield": "WT9ZCIzsTEmt1v8HsNsRGw",
+   "list_hash": "b2caece2d9e8bce8",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none",
+   "salt_pillars": {
+    "consistency": 252,
+    "efficiency": 179,
+    "interaction": 213,
+    "wincons": 603
+   },
+   "wotc_bracket": "3"
+  },
+  "ezio-auditore-da-firenze/round4-step54": {
+   "round": 4,
+   "ladder_step": 54,
+   "cost_clp": 148011,
+   "power": 6.3,
+   "salt": 84.4,
+   "bracket": "3",
+   "manabase_quality_pct": 97,
+   "salt_page": "9d93dfd3abf4d5a9e81b451e0260d84e",
+   "moxfield": "m2-Y2_2e-0u92Rs9ovWOaQ",
+   "list_hash": "b5457eba324786ce",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none",
+   "salt_pillars": {
+    "consistency": 284,
+    "efficiency": 190,
+    "interaction": 198,
+    "wincons": 622
+   },
+   "wotc_bracket": "3"
+  },
+  "ezio-auditore-da-firenze/round4-bcore-step0": {
+   "round": 4,
+   "ladder_step": 0,
+   "cost_clp": 0,
+   "power": 4.1,
+   "salt": 62.3,
+   "bracket": "2",
+   "manabase_quality_pct": 10,
+   "salt_page": "6c6ed94adf2b9332e58d7eaa3aaca757",
+   "moxfield": "M-H3yOVHt0CgfUx-lsVv4Q",
+   "list_hash": "26101147fd6264f3",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none structural; control without a finisher (minor)",
+   "salt_pillars": {
+    "consistency": 257,
+    "efficiency": 112,
+    "interaction": 155,
+    "wincons": 51
+   },
+   "wotc_bracket": "2",
+   "variant": "bcore"
+  },
+  "ezio-auditore-da-firenze/round4-bcore-step18": {
+   "round": 4,
+   "ladder_step": 18,
+   "cost_clp": 14625,
+   "power": 4.7,
+   "salt": 64.4,
+   "bracket": "2",
+   "manabase_quality_pct": 21,
+   "salt_page": "aea4cb3e08a06368d9a27f12bad47b10",
+   "moxfield": "SyDFjNBBfkmeNzZqhEjn4w",
+   "list_hash": "af897c2327d3b028",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none",
+   "salt_pillars": {
+    "consistency": 250,
+    "efficiency": 133,
+    "interaction": 171,
+    "wincons": 63
+   },
+   "wotc_bracket": "2",
+   "variant": "bcore"
+  },
+  "ezio-auditore-da-firenze/round4-bcore-step26": {
+   "round": 4,
+   "ladder_step": 26,
+   "cost_clp": 49205,
+   "power": 5.3,
+   "salt": 70.7,
+   "bracket": "3",
+   "manabase_quality_pct": 21,
+   "salt_page": "e2b25c0ba8bc4b5034e2b328e6b4d397",
+   "moxfield": "1IBqvxcc506dg0hMUFh34g",
+   "list_hash": "3946b8d14f490f13",
+   "salt_ceiling_pts": 0.0,
+   "salt_ceiling": "none",
+   "salt_pillars": {
+    "consistency": 222,
+    "efficiency": 157,
+    "interaction": 159,
+    "wincons": 492
+   },
+   "wotc_bracket": "3",
+   "variant": "bcore"
   }
  }
 }

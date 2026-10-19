@@ -29,6 +29,11 @@ def test_only_eligible_lists_and_a_dearer_list_that_measured_no_higher_is_droppe
     assert pts["c"][1]["label"] == "legacy"                # eligible by flag, cheapest list that reaches 7.9
 
 
+def test_variant_entries_are_measured_but_never_planned():
+    measured = {"lists": {"a/s0": entry(0, 7.0, round=3), "a/s1": entry(10_000, 7.9, round=3, variant="bcore")}}
+    assert [p["label"] for p in mod.load_points(measured)["a"]] == ["s0"]
+
+
 def test_the_highest_sum_wins_even_when_one_deck_runs_far_ahead():
     pts = {"a": [{"label": "a0", "cost": 0, "power": 7.1}, {"label": "a1", "cost": 50_000, "power": 7.4}],
            "b": [{"label": "b0", "cost": 0, "power": 7.0}, {"label": "b1", "cost": 60_000, "power": 7.1}]}
@@ -77,6 +82,12 @@ def test_best_buys_rank_power_per_clp_and_skip_free_steps():
     buys = mod.best_buys(pts)
     assert [(s["deck"], s["to"]) for s in buys] == [("b", "b1"), ("a", "a1"), ("a", "a2")]
     assert buys[0]["per_10k"] == 0.5 and buys[1]["per_10k"] == 0.1 and buys[2]["extra_cost"] == 100_000
+
+
+def test_best_buys_merge_lists_that_cost_nearly_the_same():
+    pts = {"a": [{"label": "r4s31", "cost": 24_751, "power": 5.8}, {"label": "r3s24", "cost": 24_827, "power": 6.4},
+                 {"label": "r4s39", "cost": 48_951, "power": 7.4}]}
+    assert [(s["from"], s["to"]) for s in mod.best_buys(pts)] == [("r3s24", "r4s39")]
 
 
 def test_render_lists_every_budget_and_the_best_buys():

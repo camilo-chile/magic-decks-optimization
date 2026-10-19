@@ -145,3 +145,70 @@
 # ===== accepted false positives (2): blocked although harmless
 2	Bash	echo "git commit"
 2	Bash	git; ls
+# ===== owner's express authorization (2026-10-19). No authorization on record: add and commit stay blocked
+@token off
+2	Bash	git add -A
+2	Bash	git add decks/measured README.md
+2	Bash	git commit -m "feat: x"
+2	Bash	git commit -F msg.txt
+2	PowerShell	git commit -m "feat: x"
+2	Bash	git add -A && git commit -m x
+@token old
+2	Bash	git add -A
+2	Bash	git commit -m "feat: x"
+# ===== authorization on record (a fresh one before every case): add and commit with a message are allowed
+@token on
+0	Bash	git add -A
+0	Bash	git add .
+0	Bash	git add decks/measured README.md
+0	Bash	git add -u
+0	Bash	git add -- decks/measured/x.txt
+0	Bash	git commit -m "feat: round 4 measured"
+0	Bash	git commit -m feat: x
+0	Bash	git commit --message="feat: x"
+0	Bash	git commit -F C:/Users/Usuario/scratch/msg.txt
+0	Bash	git -C . commit -m "feat: x"
+0	PowerShell	git commit -m "feat: x"
+0	PowerShell	& "C:\Program Files\Git\cmd\git.exe" commit -m "feat: x"
+0	Bash	git add -A && git commit -m "feat: x" && git status --short
+0	Bash	git commit -m "feat: x (round 4)"	parentheses and a colon inside a message
+# ===== authorization on record: still blocked
+2	Bash	git push
+2	Bash	git commit -m x && git push
+2	Bash	git add -A && git commit -m x && git push origin main
+2	Bash	git commit --amend -m x
+2	Bash	git commit --amend --no-edit
+2	Bash	git commit -am x
+2	Bash	git commit -a -m x
+2	Bash	git commit -m x --no-verify
+2	Bash	git commit -n -m x
+2	Bash	git commit
+2	Bash	git commit -e -m x
+2	Bash	git commit --allow-empty -m x
+2	Bash	git commit --author="a <a@b.c>" -m x
+2	Bash	git commit --date=2020-01-01 -m x
+2	Bash	git commit -C HEAD
+2	Bash	git commit -m "a, b" --amend	a comma inside the message must not hide a flag
+2	Bash	git commit -m "a (b" --no-verify	a parenthesis inside the message must not hide a flag
+2	Bash	GIT_AUTHOR_NAME=a git commit -m z
+2	Bash	GIT_COMMITTER_EMAIL=a@b.c git commit -m z
+2	Bash	git -c user.email=a@b.c commit -m z
+2	Bash	git -c core.hooksPath=/dev/null commit -m z
+2	Bash	git add -f data/raw/Toph.txt
+2	Bash	git add -i
+2	Bash	git add -p
+2	Bash	git add --force x
+2	Bash	git commit -m a && git commit -m b	one authorization, one commit
+2	Bash	git reset --soft HEAD~1
+2	Bash	git stash
+2	Bash	git tag v1
+2	Bash	git rm x
+2	Bash	git checkout main
+# ===== the authorization file cannot be named by a command
+2	Bash	echo ok > .claude/commit-authorization
+2	Bash	cat .claude/commit-authorization
+2	Bash	rm .claude/commit-authorization
+2	PowerShell	Set-Content .claude\commit-authorization "x"
+2	PowerShell	New-Item .claude/commit-authorization
+2	Bash	touch .claude/commit-authorization && git commit -m x
+@token off

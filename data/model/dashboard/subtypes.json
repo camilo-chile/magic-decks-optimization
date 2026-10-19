@@ -1,1261 +1,2591 @@
 {
  "rows": [
   {
-   "id": "alexios-19-Human",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-Human",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "subtype": "Human",
    "count": 14
   },
   {
-   "id": "alexios-19-Ally",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-Ally",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "subtype": "Ally",
    "count": 3
   },
   {
-   "id": "alexios-19-Noble",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-Noble",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "subtype": "Noble",
    "count": 3
   },
   {
-   "id": "alexios-19-Archer",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-Archer",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "subtype": "Archer",
    "count": 2
   },
   {
-   "id": "alexios-19-Warrior",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-Warrior",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "subtype": "Warrior",
    "count": 2
   },
   {
-   "id": "alexios-19-Artificer",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-Artificer",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "subtype": "Artificer",
    "count": 1
   },
   {
-   "id": "alexios-19-Assassin",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-Assassin",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "subtype": "Assassin",
    "count": 1
   },
   {
-   "id": "alexios-19-Barbarian",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-Barbarian",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "subtype": "Barbarian",
    "count": 1
   },
   {
-   "id": "alexios-19-Berserker",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-Berserker",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "subtype": "Berserker",
    "count": 1
   },
   {
-   "id": "alexios-19-Cleric",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-Cleric",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "subtype": "Cleric",
    "count": 1
   },
   {
-   "id": "alexios-39-Human",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Human",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "subtype": "Human",
    "count": 13
   },
   {
-   "id": "alexios-39-Archer",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Archer",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "subtype": "Archer",
    "count": 2
   },
   {
-   "id": "alexios-39-Knight",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Knight",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "subtype": "Knight",
    "count": 2
   },
   {
-   "id": "alexios-39-Lizard",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Lizard",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "subtype": "Lizard",
    "count": 2
   },
   {
-   "id": "alexios-39-Noble",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Noble",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "subtype": "Noble",
    "count": 2
   },
   {
-   "id": "alexios-39-Samurai",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Samurai",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "subtype": "Samurai",
    "count": 2
   },
   {
-   "id": "alexios-39-Artificer",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Artificer",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "subtype": "Artificer",
    "count": 1
   },
   {
-   "id": "alexios-39-Assassin",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Assassin",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "subtype": "Assassin",
    "count": 1
   },
   {
-   "id": "alexios-39-Barbarian",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Barbarian",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "subtype": "Barbarian",
    "count": 1
   },
   {
-   "id": "alexios-39-Berserker",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Berserker",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "subtype": "Berserker",
    "count": 1
   },
   {
-   "id": "alexios-48-Human",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Human",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "subtype": "Human",
    "count": 10
   },
   {
-   "id": "alexios-48-Knight",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Knight",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "subtype": "Knight",
    "count": 2
   },
   {
-   "id": "alexios-48-Lizard",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Lizard",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "subtype": "Lizard",
    "count": 2
   },
   {
-   "id": "alexios-48-Noble",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Noble",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "subtype": "Noble",
    "count": 2
   },
   {
-   "id": "alexios-48-Samurai",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Samurai",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "subtype": "Samurai",
    "count": 2
   },
   {
-   "id": "alexios-48-Archer",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Archer",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "subtype": "Archer",
    "count": 1
   },
   {
-   "id": "alexios-48-Artificer",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Artificer",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "subtype": "Artificer",
    "count": 1
   },
   {
-   "id": "alexios-48-Barbarian",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Barbarian",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "subtype": "Barbarian",
    "count": 1
   },
   {
-   "id": "alexios-48-Berserker",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Berserker",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "subtype": "Berserker",
    "count": 1
   },
   {
-   "id": "alexios-48-Construct",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Construct",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "subtype": "Construct",
    "count": 1
   },
   {
-   "id": "ezio-24-Human",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Human",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "subtype": "Human",
    "count": 26
   },
   {
-   "id": "ezio-24-Assassin",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Assassin",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "subtype": "Assassin",
    "count": 23
   },
   {
-   "id": "ezio-24-Ally",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Ally",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "subtype": "Ally",
    "count": 1
   },
   {
-   "id": "ezio-24-Angel",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Angel",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "subtype": "Angel",
    "count": 1
   },
   {
-   "id": "ezio-24-Artificer",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Artificer",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "subtype": "Artificer",
    "count": 1
   },
   {
-   "id": "ezio-24-Barbarian",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Barbarian",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "subtype": "Barbarian",
    "count": 1
   },
   {
-   "id": "ezio-24-Bird",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Bird",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "subtype": "Bird",
    "count": 1
   },
   {
-   "id": "ezio-24-Cleric",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Cleric",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "subtype": "Cleric",
    "count": 1
   },
   {
-   "id": "ezio-24-Demon",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Demon",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "subtype": "Demon",
    "count": 1
   },
   {
-   "id": "ezio-24-Druid",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Druid",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "subtype": "Druid",
    "count": 1
   },
   {
-   "id": "ezio-39-Human",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Human",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "subtype": "Human",
    "count": 21
   },
   {
-   "id": "ezio-39-Assassin",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Assassin",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "subtype": "Assassin",
    "count": 20
   },
   {
-   "id": "ezio-39-Vampire",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Vampire",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "subtype": "Vampire",
    "count": 2
   },
   {
-   "id": "ezio-39-Angel",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Angel",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "subtype": "Angel",
    "count": 1
   },
   {
-   "id": "ezio-39-Artificer",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Artificer",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "subtype": "Artificer",
    "count": 1
   },
   {
-   "id": "ezio-39-Barbarian",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Barbarian",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "subtype": "Barbarian",
    "count": 1
   },
   {
-   "id": "ezio-39-Cleric",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Cleric",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "subtype": "Cleric",
    "count": 1
   },
   {
-   "id": "ezio-39-Demon",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Demon",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "subtype": "Demon",
    "count": 1
   },
   {
-   "id": "ezio-39-Druid",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Druid",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "subtype": "Druid",
    "count": 1
   },
   {
-   "id": "ezio-39-Gorgon",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Gorgon",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "subtype": "Gorgon",
    "count": 1
   },
   {
-   "id": "ezio-43-Human",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Human",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "subtype": "Human",
    "count": 20
   },
   {
-   "id": "ezio-43-Assassin",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Assassin",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "subtype": "Assassin",
    "count": 19
   },
   {
-   "id": "ezio-43-Vampire",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Vampire",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "subtype": "Vampire",
    "count": 2
   },
   {
-   "id": "ezio-43-Angel",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Angel",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "subtype": "Angel",
    "count": 1
   },
   {
-   "id": "ezio-43-Artificer",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Artificer",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "subtype": "Artificer",
    "count": 1
   },
   {
-   "id": "ezio-43-Barbarian",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Barbarian",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "subtype": "Barbarian",
    "count": 1
   },
   {
-   "id": "ezio-43-Cleric",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Cleric",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "subtype": "Cleric",
    "count": 1
   },
   {
-   "id": "ezio-43-Demon",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Demon",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "subtype": "Demon",
    "count": 1
   },
   {
-   "id": "ezio-43-Druid",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Druid",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "subtype": "Druid",
    "count": 1
   },
   {
-   "id": "ezio-43-Goblin",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Goblin",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "subtype": "Goblin",
    "count": 1
   },
   {
-   "id": "ezio-46-Human",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Human",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "subtype": "Human",
    "count": 20
   },
   {
-   "id": "ezio-46-Assassin",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Assassin",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "subtype": "Assassin",
    "count": 19
   },
   {
-   "id": "ezio-46-Vampire",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Vampire",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "subtype": "Vampire",
    "count": 3
   },
   {
-   "id": "ezio-46-Advisor",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Advisor",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "subtype": "Advisor",
    "count": 1
   },
   {
-   "id": "ezio-46-Artificer",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Artificer",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "subtype": "Artificer",
    "count": 1
   },
   {
-   "id": "ezio-46-Barbarian",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Barbarian",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "subtype": "Barbarian",
    "count": 1
   },
   {
-   "id": "ezio-46-Demon",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Demon",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "subtype": "Demon",
    "count": 1
   },
   {
-   "id": "ezio-46-Druid",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Druid",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "subtype": "Druid",
    "count": 1
   },
   {
-   "id": "ezio-46-Goblin",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Goblin",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "subtype": "Goblin",
    "count": 1
   },
   {
-   "id": "ezio-46-Gorgon",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Gorgon",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "subtype": "Gorgon",
    "count": 1
   },
   {
-   "id": "ezio-50-Human",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Human",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "subtype": "Human",
    "count": 20
   },
   {
-   "id": "ezio-50-Assassin",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Assassin",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "subtype": "Assassin",
    "count": 19
   },
   {
-   "id": "ezio-50-Vampire",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Vampire",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "subtype": "Vampire",
    "count": 3
   },
   {
-   "id": "ezio-50-Advisor",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Advisor",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "subtype": "Advisor",
    "count": 1
   },
   {
-   "id": "ezio-50-Artificer",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Artificer",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "subtype": "Artificer",
    "count": 1
   },
   {
-   "id": "ezio-50-Barbarian",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Barbarian",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "subtype": "Barbarian",
    "count": 1
   },
   {
-   "id": "ezio-50-Druid",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Druid",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "subtype": "Druid",
    "count": 1
   },
   {
-   "id": "ezio-50-Goblin",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Goblin",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "subtype": "Goblin",
    "count": 1
   },
   {
-   "id": "ezio-50-Gorgon",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Gorgon",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "subtype": "Gorgon",
    "count": 1
   },
   {
-   "id": "ezio-50-Knight",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Knight",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "subtype": "Knight",
    "count": 1
   },
   {
-   "id": "azula-23-Human",
-   "list_id": "azula-23",
+   "id": "ezio-bcore-r4-0-Human",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "subtype": "Human",
+   "count": 21
+  },
+  {
+   "id": "ezio-bcore-r4-0-Assassin",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "subtype": "Assassin",
+   "count": 19
+  },
+  {
+   "id": "ezio-bcore-r4-0-Lizard",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "subtype": "Lizard",
+   "count": 2
+  },
+  {
+   "id": "ezio-bcore-r4-0-Mercenary",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "subtype": "Mercenary",
+   "count": 2
+  },
+  {
+   "id": "ezio-bcore-r4-0-Pirate",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "subtype": "Pirate",
+   "count": 2
+  },
+  {
+   "id": "ezio-bcore-r4-0-Advisor",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "subtype": "Advisor",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-0-Artificer",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-0-Elephant",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "subtype": "Elephant",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-0-Rat",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "subtype": "Rat",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-0-Robot",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "subtype": "Robot",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-18-Assassin",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "subtype": "Assassin",
+   "count": 22
+  },
+  {
+   "id": "ezio-bcore-r4-18-Human",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "subtype": "Human",
+   "count": 21
+  },
+  {
+   "id": "ezio-bcore-r4-18-Vampire",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "subtype": "Vampire",
+   "count": 3
+  },
+  {
+   "id": "ezio-bcore-r4-18-Pirate",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "subtype": "Pirate",
+   "count": 2
+  },
+  {
+   "id": "ezio-bcore-r4-18-Artificer",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-18-Mercenary",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "subtype": "Mercenary",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-18-Robot",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "subtype": "Robot",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-18-Rogue",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "subtype": "Rogue",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-18-Spirit",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "subtype": "Spirit",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-18-Wizard",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "subtype": "Wizard",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-26-Assassin",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "subtype": "Assassin",
+   "count": 23
+  },
+  {
+   "id": "ezio-bcore-r4-26-Human",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "subtype": "Human",
+   "count": 21
+  },
+  {
+   "id": "ezio-bcore-r4-26-Vampire",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "subtype": "Vampire",
+   "count": 3
+  },
+  {
+   "id": "ezio-bcore-r4-26-Artificer",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-26-Mercenary",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "subtype": "Mercenary",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-26-Pirate",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "subtype": "Pirate",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-26-Robot",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "subtype": "Robot",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-26-Rogue",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "subtype": "Rogue",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-26-Sphinx",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "subtype": "Sphinx",
+   "count": 1
+  },
+  {
+   "id": "ezio-bcore-r4-26-Spirit",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "subtype": "Spirit",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-0-Assassin",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "subtype": "Assassin",
+   "count": 19
+  },
+  {
+   "id": "ezio-r4-0-Human",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "subtype": "Human",
+   "count": 18
+  },
+  {
+   "id": "ezio-r4-0-Angel",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "subtype": "Angel",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-0-Artificer",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-0-Bird",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "subtype": "Bird",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-0-Cleric",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "subtype": "Cleric",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-0-Druid",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "subtype": "Druid",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-0-Knight",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "subtype": "Knight",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-0-Lizard",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "subtype": "Lizard",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-0-Pirate",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "subtype": "Pirate",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-14-Assassin",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "subtype": "Assassin",
+   "count": 18
+  },
+  {
+   "id": "ezio-r4-14-Human",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "subtype": "Human",
+   "count": 17
+  },
+  {
+   "id": "ezio-r4-14-Vampire",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "subtype": "Vampire",
+   "count": 2
+  },
+  {
+   "id": "ezio-r4-14-Angel",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "subtype": "Angel",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-14-Artificer",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-14-Bird",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "subtype": "Bird",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-14-Cleric",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "subtype": "Cleric",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-14-Druid",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "subtype": "Druid",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-14-Knight",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "subtype": "Knight",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-14-Lizard",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "subtype": "Lizard",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-31-Assassin",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "subtype": "Assassin",
+   "count": 19
+  },
+  {
+   "id": "ezio-r4-31-Human",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "subtype": "Human",
+   "count": 19
+  },
+  {
+   "id": "ezio-r4-31-Vampire",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "subtype": "Vampire",
+   "count": 3
+  },
+  {
+   "id": "ezio-r4-31-Angel",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "subtype": "Angel",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-31-Artificer",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-31-Cleric",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "subtype": "Cleric",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-31-Druid",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "subtype": "Druid",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-31-Knight",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "subtype": "Knight",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-31-Pirate",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "subtype": "Pirate",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-31-Robot",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "subtype": "Robot",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-33-Assassin",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "subtype": "Assassin",
+   "count": 19
+  },
+  {
+   "id": "ezio-r4-33-Human",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "subtype": "Human",
+   "count": 19
+  },
+  {
+   "id": "ezio-r4-33-Vampire",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "subtype": "Vampire",
+   "count": 3
+  },
+  {
+   "id": "ezio-r4-33-Artificer",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-33-Druid",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "subtype": "Druid",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-33-Knight",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "subtype": "Knight",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-33-Pirate",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "subtype": "Pirate",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-33-Robot",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "subtype": "Robot",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-33-Rogue",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "subtype": "Rogue",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-33-Spirit",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "subtype": "Spirit",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-39-Human",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "subtype": "Human",
+   "count": 20
+  },
+  {
+   "id": "ezio-r4-39-Assassin",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "subtype": "Assassin",
+   "count": 17
+  },
+  {
+   "id": "ezio-r4-39-Vampire",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "subtype": "Vampire",
+   "count": 2
+  },
+  {
+   "id": "ezio-r4-39-Wizard",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "subtype": "Wizard",
+   "count": 2
+  },
+  {
+   "id": "ezio-r4-39-Artificer",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-39-Druid",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "subtype": "Druid",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-39-Knight",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "subtype": "Knight",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-39-Pirate",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "subtype": "Pirate",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-39-Rogue",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "subtype": "Rogue",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-39-Spirit",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "subtype": "Spirit",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-43-Human",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "subtype": "Human",
+   "count": 20
+  },
+  {
+   "id": "ezio-r4-43-Assassin",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "subtype": "Assassin",
+   "count": 18
+  },
+  {
+   "id": "ezio-r4-43-Vampire",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "subtype": "Vampire",
+   "count": 2
+  },
+  {
+   "id": "ezio-r4-43-Wizard",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "subtype": "Wizard",
+   "count": 2
+  },
+  {
+   "id": "ezio-r4-43-Artificer",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-43-Drix",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "subtype": "Drix",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-43-Druid",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "subtype": "Druid",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-43-Goblin",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "subtype": "Goblin",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-43-Knight",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "subtype": "Knight",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-43-Pirate",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "subtype": "Pirate",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-50-Human",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "subtype": "Human",
+   "count": 20
+  },
+  {
+   "id": "ezio-r4-50-Assassin",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "subtype": "Assassin",
+   "count": 17
+  },
+  {
+   "id": "ezio-r4-50-Vampire",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "subtype": "Vampire",
+   "count": 2
+  },
+  {
+   "id": "ezio-r4-50-Wizard",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "subtype": "Wizard",
+   "count": 2
+  },
+  {
+   "id": "ezio-r4-50-Artificer",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-50-Barbarian",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "subtype": "Barbarian",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-50-Drix",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "subtype": "Drix",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-50-Druid",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "subtype": "Druid",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-50-Goblin",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "subtype": "Goblin",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-50-Knight",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "subtype": "Knight",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-54-Human",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "subtype": "Human",
+   "count": 19
+  },
+  {
+   "id": "ezio-r4-54-Assassin",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "subtype": "Assassin",
+   "count": 16
+  },
+  {
+   "id": "ezio-r4-54-Vampire",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "subtype": "Vampire",
+   "count": 3
+  },
+  {
+   "id": "ezio-r4-54-Wizard",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "subtype": "Wizard",
+   "count": 2
+  },
+  {
+   "id": "ezio-r4-54-Artificer",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-54-Barbarian",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "subtype": "Barbarian",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-54-Drix",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "subtype": "Drix",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-54-Druid",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "subtype": "Druid",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-54-Goblin",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "subtype": "Goblin",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-54-Knight",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "subtype": "Knight",
+   "count": 1
+  },
+  {
+   "id": "azula-r3-23-Human",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "subtype": "Human",
    "count": 4
   },
   {
-   "id": "azula-23-Wizard",
-   "list_id": "azula-23",
+   "id": "azula-r3-23-Wizard",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "subtype": "Wizard",
    "count": 4
   },
   {
-   "id": "azula-23-Goblin",
-   "list_id": "azula-23",
+   "id": "azula-r3-23-Goblin",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "subtype": "Goblin",
    "count": 2
   },
   {
-   "id": "azula-23-Noble",
-   "list_id": "azula-23",
+   "id": "azula-r3-23-Noble",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "subtype": "Noble",
    "count": 2
   },
   {
-   "id": "azula-23-Shaman",
-   "list_id": "azula-23",
+   "id": "azula-r3-23-Shaman",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "subtype": "Shaman",
    "count": 2
   },
   {
-   "id": "azula-23-Construct",
-   "list_id": "azula-23",
+   "id": "azula-r3-23-Construct",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "subtype": "Construct",
    "count": 1
   },
   {
-   "id": "azula-23-Dwarf",
-   "list_id": "azula-23",
+   "id": "azula-r3-23-Dwarf",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "subtype": "Dwarf",
    "count": 1
   },
   {
-   "id": "azula-23-Otter",
-   "list_id": "azula-23",
+   "id": "azula-r3-23-Otter",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "subtype": "Otter",
    "count": 1
   },
   {
-   "id": "azula-23-Villain",
-   "list_id": "azula-23",
+   "id": "azula-r3-23-Villain",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "subtype": "Villain",
    "count": 1
   },
   {
-   "id": "azula-23-Zombie",
-   "list_id": "azula-23",
+   "id": "azula-r3-23-Zombie",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "subtype": "Zombie",
    "count": 1
   },
   {
-   "id": "azula-34-Human",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-Human",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "subtype": "Human",
    "count": 4
   },
   {
-   "id": "azula-34-Wizard",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-Wizard",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "subtype": "Wizard",
    "count": 4
   },
   {
-   "id": "azula-34-Goblin",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-Goblin",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "subtype": "Goblin",
    "count": 2
   },
   {
-   "id": "azula-34-Noble",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-Noble",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "subtype": "Noble",
    "count": 2
   },
   {
-   "id": "azula-34-Shaman",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-Shaman",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "subtype": "Shaman",
    "count": 2
   },
   {
-   "id": "azula-34-Construct",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-Construct",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "subtype": "Construct",
    "count": 1
   },
   {
-   "id": "azula-34-Dwarf",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-Dwarf",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "subtype": "Dwarf",
    "count": 1
   },
   {
-   "id": "azula-34-Otter",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-Otter",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "subtype": "Otter",
    "count": 1
   },
   {
-   "id": "azula-34-Villain",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-Villain",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "subtype": "Villain",
    "count": 1
   },
   {
-   "id": "azula-34-Zombie",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-Zombie",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "subtype": "Zombie",
    "count": 1
   },
   {
-   "id": "azula-39-Wizard",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-Wizard",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "subtype": "Wizard",
    "count": 7
   },
   {
-   "id": "azula-39-Human",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-Human",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "subtype": "Human",
    "count": 6
   },
   {
-   "id": "azula-39-Goblin",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-Goblin",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "subtype": "Goblin",
    "count": 2
   },
   {
-   "id": "azula-39-Noble",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-Noble",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "subtype": "Noble",
    "count": 2
   },
   {
-   "id": "azula-39-Shaman",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-Shaman",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "subtype": "Shaman",
    "count": 2
   },
   {
-   "id": "azula-39-Construct",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-Construct",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "subtype": "Construct",
    "count": 1
   },
   {
-   "id": "azula-39-Dwarf",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-Dwarf",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "subtype": "Dwarf",
    "count": 1
   },
   {
-   "id": "azula-39-Efreet",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-Efreet",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "subtype": "Efreet",
    "count": 1
   },
   {
-   "id": "azula-39-Otter",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-Otter",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "subtype": "Otter",
    "count": 1
   },
   {
-   "id": "azula-39-Phyrexian",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-Phyrexian",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "subtype": "Phyrexian",
    "count": 1
   },
   {
-   "id": "azula-44-Wizard",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-Wizard",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "subtype": "Wizard",
    "count": 7
   },
   {
-   "id": "azula-44-Human",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-Human",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "subtype": "Human",
    "count": 6
   },
   {
-   "id": "azula-44-Goblin",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-Goblin",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "subtype": "Goblin",
    "count": 2
   },
   {
-   "id": "azula-44-Noble",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-Noble",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "subtype": "Noble",
    "count": 2
   },
   {
-   "id": "azula-44-Shaman",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-Shaman",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "subtype": "Shaman",
    "count": 2
   },
   {
-   "id": "azula-44-Construct",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-Construct",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "subtype": "Construct",
    "count": 1
   },
   {
-   "id": "azula-44-Dwarf",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-Dwarf",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "subtype": "Dwarf",
    "count": 1
   },
   {
-   "id": "azula-44-Efreet",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-Efreet",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "subtype": "Efreet",
    "count": 1
   },
   {
-   "id": "azula-44-Otter",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-Otter",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "subtype": "Otter",
    "count": 1
   },
   {
-   "id": "azula-44-Phyrexian",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-Phyrexian",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "subtype": "Phyrexian",
    "count": 1
   },
   {
-   "id": "azula-53-Wizard",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Wizard",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "subtype": "Wizard",
    "count": 8
   },
   {
-   "id": "azula-53-Human",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Human",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "subtype": "Human",
    "count": 5
   },
   {
-   "id": "azula-53-Shaman",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Shaman",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "subtype": "Shaman",
    "count": 3
   },
   {
-   "id": "azula-53-Goblin",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Goblin",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "subtype": "Goblin",
    "count": 2
   },
   {
-   "id": "azula-53-Construct",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Construct",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "subtype": "Construct",
    "count": 1
   },
   {
-   "id": "azula-53-Dwarf",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Dwarf",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "subtype": "Dwarf",
    "count": 1
   },
   {
-   "id": "azula-53-Efreet",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Efreet",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "subtype": "Efreet",
    "count": 1
   },
   {
-   "id": "azula-53-Elemental",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Elemental",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "subtype": "Elemental",
    "count": 1
   },
   {
-   "id": "azula-53-Faerie",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Faerie",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "subtype": "Faerie",
    "count": 1
   },
   {
-   "id": "azula-53-Noble",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Noble",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "subtype": "Noble",
    "count": 1
   },
   {
-   "id": "toph-0-Human",
-   "list_id": "toph-0",
+   "id": "azula-r4-0-Human",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "subtype": "Human",
+   "count": 8
+  },
+  {
+   "id": "azula-r4-0-Advisor",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "subtype": "Advisor",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-0-Noble",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "subtype": "Noble",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-0-Wizard",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "subtype": "Wizard",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-0-Ally",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "subtype": "Ally",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-0-Artificer",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-0-Construct",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "subtype": "Construct",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-0-Goblin",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "subtype": "Goblin",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-0-Shaman",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "subtype": "Shaman",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-0-Villain",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "subtype": "Villain",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-15-Human",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "subtype": "Human",
+   "count": 8
+  },
+  {
+   "id": "azula-r4-15-Advisor",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "subtype": "Advisor",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-15-Noble",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "subtype": "Noble",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-15-Wizard",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "subtype": "Wizard",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-15-Ally",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "subtype": "Ally",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-15-Artificer",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-15-Construct",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "subtype": "Construct",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-15-Goblin",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "subtype": "Goblin",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-15-Shaman",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "subtype": "Shaman",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-15-Villain",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "subtype": "Villain",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-18-Human",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "subtype": "Human",
+   "count": 8
+  },
+  {
+   "id": "azula-r4-18-Wizard",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "subtype": "Wizard",
+   "count": 3
+  },
+  {
+   "id": "azula-r4-18-Noble",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "subtype": "Noble",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-18-Advisor",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "subtype": "Advisor",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-18-Artificer",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-18-Construct",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "subtype": "Construct",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-18-Goblin",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "subtype": "Goblin",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-18-Shaman",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "subtype": "Shaman",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-18-Villain",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "subtype": "Villain",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-18-Zombie",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "subtype": "Zombie",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-24-Human",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "subtype": "Human",
+   "count": 7
+  },
+  {
+   "id": "azula-r4-24-Wizard",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "subtype": "Wizard",
+   "count": 4
+  },
+  {
+   "id": "azula-r4-24-Noble",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "subtype": "Noble",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-24-Advisor",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "subtype": "Advisor",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-24-Artificer",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-24-Construct",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "subtype": "Construct",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-24-Dwarf",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "subtype": "Dwarf",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-24-Goblin",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "subtype": "Goblin",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-24-Otter",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "subtype": "Otter",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-24-Shaman",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "subtype": "Shaman",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-27-Human",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "subtype": "Human",
+   "count": 8
+  },
+  {
+   "id": "azula-r4-27-Wizard",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "subtype": "Wizard",
+   "count": 4
+  },
+  {
+   "id": "azula-r4-27-Noble",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "subtype": "Noble",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-27-Advisor",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "subtype": "Advisor",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-27-Artificer",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-27-Barbarian",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "subtype": "Barbarian",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-27-Construct",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "subtype": "Construct",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-27-Dwarf",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "subtype": "Dwarf",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-27-Goblin",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "subtype": "Goblin",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-27-Otter",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "subtype": "Otter",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-35-Human",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "subtype": "Human",
+   "count": 8
+  },
+  {
+   "id": "azula-r4-35-Wizard",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "subtype": "Wizard",
+   "count": 5
+  },
+  {
+   "id": "azula-r4-35-Goblin",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "subtype": "Goblin",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-35-Noble",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "subtype": "Noble",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-35-Shaman",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "subtype": "Shaman",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-35-Advisor",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "subtype": "Advisor",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-35-Artificer",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-35-Assassin",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "subtype": "Assassin",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-35-Barbarian",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "subtype": "Barbarian",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-35-Construct",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "subtype": "Construct",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-40-Human",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "subtype": "Human",
+   "count": 8
+  },
+  {
+   "id": "azula-r4-40-Wizard",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "subtype": "Wizard",
+   "count": 5
+  },
+  {
+   "id": "azula-r4-40-Goblin",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "subtype": "Goblin",
+   "count": 3
+  },
+  {
+   "id": "azula-r4-40-Noble",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "subtype": "Noble",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-40-Shaman",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "subtype": "Shaman",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-40-Advisor",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "subtype": "Advisor",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-40-Artificer",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-40-Assassin",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "subtype": "Assassin",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-40-Barbarian",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "subtype": "Barbarian",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-40-Construct",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "subtype": "Construct",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-44-Human",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "subtype": "Human",
+   "count": 10
+  },
+  {
+   "id": "azula-r4-44-Wizard",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "subtype": "Wizard",
+   "count": 5
+  },
+  {
+   "id": "azula-r4-44-Goblin",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "subtype": "Goblin",
+   "count": 3
+  },
+  {
+   "id": "azula-r4-44-Advisor",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "subtype": "Advisor",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-44-Noble",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "subtype": "Noble",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-44-Shaman",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "subtype": "Shaman",
+   "count": 2
+  },
+  {
+   "id": "azula-r4-44-Artificer",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "subtype": "Artificer",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-44-Assassin",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "subtype": "Assassin",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-44-Barbarian",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "subtype": "Barbarian",
+   "count": 1
+  },
+  {
+   "id": "azula-r4-44-Dwarf",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "subtype": "Dwarf",
+   "count": 1
+  },
+  {
+   "id": "toph-r2-0-Human",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "subtype": "Human",
    "count": 12
   },
   {
-   "id": "toph-0-Ally",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-Ally",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "subtype": "Ally",
    "count": 9
   },
   {
-   "id": "toph-0-Warrior",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-Warrior",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "subtype": "Warrior",
    "count": 4
   },
   {
-   "id": "toph-0-Noble",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-Noble",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "subtype": "Noble",
    "count": 3
   },
   {
-   "id": "toph-0-Citizen",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-Citizen",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "subtype": "Citizen",
    "count": 2
   },
   {
-   "id": "toph-0-Elemental",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-Elemental",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "subtype": "Elemental",
    "count": 2
   },
   {
-   "id": "toph-0-Scout",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-Scout",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "subtype": "Scout",
    "count": 2
   },
   {
-   "id": "toph-0-Assassin",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-Assassin",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "subtype": "Assassin",
    "count": 1
   },
   {
-   "id": "toph-0-Golem",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-Golem",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "subtype": "Golem",
    "count": 1
   },
   {
-   "id": "toph-0-Insect",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-Insect",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "subtype": "Insect",
    "count": 1
   },
   {
-   "id": "toph-11-Human",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Human",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "subtype": "Human",
    "count": 10
   },
   {
-   "id": "toph-11-Ally",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Ally",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "subtype": "Ally",
    "count": 7
   },
   {
-   "id": "toph-11-Warrior",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Warrior",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "subtype": "Warrior",
    "count": 3
   },
   {
-   "id": "toph-11-Citizen",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Citizen",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "subtype": "Citizen",
    "count": 2
   },
   {
-   "id": "toph-11-Scout",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Scout",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "subtype": "Scout",
    "count": 2
   },
   {
-   "id": "toph-11-Assassin",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Assassin",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "subtype": "Assassin",
    "count": 1
   },
   {
-   "id": "toph-11-Construct",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Construct",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "subtype": "Construct",
    "count": 1
   },
   {
-   "id": "toph-11-Elemental",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Elemental",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "subtype": "Elemental",
    "count": 1
   },
   {
-   "id": "toph-11-Insect",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Insect",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "subtype": "Insect",
    "count": 1
   },
   {
-   "id": "toph-11-Kavu",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Kavu",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "subtype": "Kavu",
    "count": 1
   },
   {
-   "id": "toph-21-Human",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Human",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "subtype": "Human",
    "count": 9
   },
   {
-   "id": "toph-21-Ally",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Ally",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "subtype": "Ally",
    "count": 7
   },
   {
-   "id": "toph-21-Scout",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Scout",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "subtype": "Scout",
    "count": 3
   },
   {
-   "id": "toph-21-Warrior",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Warrior",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "subtype": "Warrior",
    "count": 3
   },
   {
-   "id": "toph-21-Insect",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Insect",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "subtype": "Insect",
    "count": 2
   },
   {
-   "id": "toph-21-Snake",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Snake",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "subtype": "Snake",
    "count": 2
   },
   {
-   "id": "toph-21-Assassin",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Assassin",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "subtype": "Assassin",
    "count": 1
   },
   {
-   "id": "toph-21-Citizen",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Citizen",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "subtype": "Citizen",
    "count": 1
   },
   {
-   "id": "toph-21-Construct",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Construct",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "subtype": "Construct",
    "count": 1
   },
   {
-   "id": "toph-21-Elemental",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Elemental",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "subtype": "Elemental",
    "count": 1
   },
   {
-   "id": "toph-30-Human",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Human",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "subtype": "Human",
    "count": 11
   },
   {
-   "id": "toph-30-Ally",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Ally",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "subtype": "Ally",
    "count": 7
   },
   {
-   "id": "toph-30-Warrior",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Warrior",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "subtype": "Warrior",
    "count": 4
   },
   {
-   "id": "toph-30-Scout",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Scout",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "subtype": "Scout",
    "count": 3
   },
   {
-   "id": "toph-30-Insect",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Insect",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "subtype": "Insect",
    "count": 2
   },
   {
-   "id": "toph-30-Snake",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Snake",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "subtype": "Snake",
    "count": 2
   },
   {
-   "id": "toph-30-Advisor",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Advisor",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "subtype": "Advisor",
    "count": 1
   },
   {
-   "id": "toph-30-Assassin",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Assassin",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "subtype": "Assassin",
    "count": 1
   },
   {
-   "id": "toph-30-Cat",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Cat",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "subtype": "Cat",
    "count": 1
   },
   {
-   "id": "toph-30-Citizen",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Citizen",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "subtype": "Citizen",
    "count": 1
   },
   {
-   "id": "toph-32-Human",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Human",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "subtype": "Human",
    "count": 11
   },
   {
-   "id": "toph-32-Ally",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Ally",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "subtype": "Ally",
    "count": 7
   },
   {
-   "id": "toph-32-Warrior",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Warrior",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "subtype": "Warrior",
    "count": 4
   },
   {
-   "id": "toph-32-Scout",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Scout",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "subtype": "Scout",
    "count": 3
   },
   {
-   "id": "toph-32-Elf",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Elf",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "subtype": "Elf",
    "count": 2
   },
   {
-   "id": "toph-32-Snake",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Snake",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "subtype": "Snake",
    "count": 2
   },
   {
-   "id": "toph-32-Advisor",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Advisor",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "subtype": "Advisor",
    "count": 1
   },
   {
-   "id": "toph-32-Assassin",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Assassin",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "subtype": "Assassin",
    "count": 1
   },
   {
-   "id": "toph-32-Cat",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Cat",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "subtype": "Cat",
    "count": 1
   },
   {
-   "id": "toph-32-Citizen",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Citizen",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "subtype": "Citizen",
    "count": 1

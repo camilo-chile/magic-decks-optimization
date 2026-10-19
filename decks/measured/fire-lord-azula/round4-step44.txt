@@ -1,0 +1,89 @@
+// Commander
+1 Fire Lord Azula
+
+// Main
+1 Aggravated Assault
+1 Akki Battle Squad
+1 Anger
+1 Arcane Signet
+1 Archmage Emeritus
+1 Bender's Waterskin
+1 Big Score
+1 Black Market Connections
+1 Black Waltz No. 3
+1 Brainstorm
+1 Cascade Bluffs
+1 Chaos Warp
+1 Choked Estuary
+1 Comet Storm
+1 Command Tower
+1 Consider
+1 Darkwater Catacombs
+1 Deadly Dispute
+1 Deflecting Swat
+1 Dragonskull Summit
+1 Drowned Catacomb
+1 Dualcaster Mage
+1 Electro, Assaulting Battery
+1 Electrodominance
+1 Ember Island Production
+1 Entomb
+1 Etrata, the Silencer
+1 Exotic Orchard
+1 Fact or Fiction
+1 Fatal Push
+1 Fire Nation Palace
+1 Firebending Student
+1 Foreboding Ruins
+1 Frantic Search
+1 Frostboil Snarl
+1 Frostcliff Siege
+1 Glamdring, Foe-hammer // Gleam of Death
+1 Goblin Bombardment
+1 Goblin Electromancer
+1 Godo, Bandit Warlord
+1 Guttersnipe
+1 Helm of the Host
+1 Imperial Recruiter
+1 Imprisoned in the Moon
+1 Infernal Grasp
+7 Island
+1 Lightning Bolt
+1 Lithoform Engine
+1 Lo and Li, Twin Tutors
+1 Loyal Inventor
+1 Mana Leak
+5 Mountain
+1 Mystical Teachings
+1 Narset's Reversal
+1 Nightscape Familiar
+1 Octopus Form
+1 Opt
+1 Ozai, the Phoenix King
+1 Peter Parker's Camera
+1 Reckless Handling
+1 Redirect Lightning
+1 Ritual of Soot
+1 Rogue's Passage
+1 Shadowblood Ridge
+1 Shivan Reef
+1 Smoldering Marsh
+1 Snap
+1 Sol Ring
+1 Solve the Equation
+1 Sozin's Comet
+1 Storm-Kiln Artist
+1 Stormcatch Mentor
+1 Strionic Resonator
+1 Sulfur Falls
+1 Sulfurous Springs
+1 Sunken Hollow
+1 Sunken Ruins
+5 Swamp
+1 Swiftfoot Boots
+1 Sword of Hearth and Home
+1 Terminate
+1 The Last Agni Kai
+1 Underground River
+1 Undying Malice
+1 Unexpected Windfall

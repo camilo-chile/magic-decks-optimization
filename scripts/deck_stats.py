@@ -35,6 +35,7 @@ COLOR_NAME = {"W": "White", "U": "Blue", "B": "Black", "R": "Red", "G": "Green",
 SHORT = {"ezio-auditore-da-firenze": "ezio", "fire-lord-azula": "azula", "toph-the-first-metalbender": "toph",
          "alexios-deimos-of-kosmos": "alexios"}
 DECK_NAME = {"ezio": "Ezio", "azula": "Azula", "toph": "Toph", "alexios": "Alexios"}
+VARIANT_NAME = {"bcore": "black-core"}
 TYPES = ["Creature", "Instant", "Sorcery", "Enchantment", "Artifact", "Planeswalker", "Land", "Battle"]
 TURNS = [3, 5, 7]
 SAMPLES = 6000
@@ -210,8 +211,12 @@ def compute(commanders, entries, cards, seed=7):
 
 
 def rows_for(deck_short, label, stats, meta):
-    list_id = f"{deck_short}-{int(label.rsplit('step', 1)[1].split('-')[0])}"
-    deck = DECK_NAME[deck_short]
+    step = int(label.rsplit("step", 1)[1].split("-")[0])
+    parts = label.split("-")
+    variant = parts[1] if len(parts) == 3 else ""  # 'round4-bcore-step26' is a variant list of the deck
+    round_no = int(parts[0].replace("round", ""))
+    list_id = f"{deck_short}{'-' + variant if variant else ''}-r{round_no}-{step}"
+    deck = DECK_NAME[deck_short] + (f" {VARIANT_NAME.get(variant, variant)}" if variant else "")
     out = {"mv": [], "pips": [], "production": [], "types": [], "subtypes": [], "odds": []}
     for (bucket, group), count in sorted(stats["curve"].items()):
         out["mv"].append({"id": f"{list_id}-{bucket}-{group}", "list_id": list_id, "deck": deck, "mv": bucket,
@@ -235,7 +240,7 @@ def rows_for(deck_short, label, stats, meta):
         out["odds"].append({"id": f"{list_id}-{item['color']}-{item['turn']}", "list_id": list_id, "deck": deck, "color": name,
                             "turn": item["turn"], "chance_pct": round(100 * item["chance"])})
     pillars = meta.get("salt_pillars") or {}
-    row = {"id": list_id, "deck": deck, "list": f"Step {int(label.rsplit('step', 1)[1].split('-')[0])}", "label": label,
+    row = {"id": list_id, "deck": deck, "list": f"R{round_no} step {step}", "label": label, "wotc_bracket": meta.get("wotc_bracket"), "bracket": meta.get("bracket"),
            "cost_clp": meta["cost_clp"], "power": meta["power"], "salt": meta.get("salt"),
            "manabase_pct": meta.get("manabase_quality_pct"), "avg_mv": stats["avg_mv"], "lands": stats["lands"],
            "nonland": stats["nonland"], "tapped_lands": stats["tapped"]["tapped"],

@@ -1,5 +1,13 @@
 #!/bin/sh
-# PreToolUse hook (Bash, PowerShell and Monitor): git is read-only for Claude.
+# PreToolUse hook (Bash, PowerShell and Monitor): git is read-only for Claude, with one exception.
+#
+# Exception (owner decision, 2026-10-19): `add` and `commit` are allowed only while the owner's express
+# authorization is on record, a one-shot file `.claude/commit-authorization` that the UserPromptSubmit hook
+# (`authorize-commit.sh`) writes when the owner's message says "autorizo commit". It expires after 30
+# minutes and is used up by the commit. Even then: no `push`, `--amend`, `--no-verify`, `-a`, `--allow-empty`,
+# no author or date overrides, no GIT_* variables, no interactive forms; a message (`-m` or `-F`) is required.
+# Claude cannot write the file through a command (any command that names it is blocked here) nor through the
+# Write and Edit tools (permission deny rules).
 #
 # Allowlist: every git invocation in the command must use a read-only subcommand
 # (status, diff, log, show, ls-files, check-ignore, check-attr, var, rev-parse, blame,
@@ -23,6 +31,10 @@ PATH="/usr/bin:/bin:$PATH"
 export PATH
 set -f
 
+# COMMIT_TOKEN_FILE exists only so that evals/run_hook_cases.sh can test the exception.
+TOKEN="${COMMIT_TOKEN_FILE:-${CLAUDE_PROJECT_DIR:-.}/.claude/commit-authorization}"
+TOKEN_MINUTES=30
+
 block() {
   echo "Blocked by project rule: git is read-only for Claude ($1). Propose the command to the user instead." >&2
   exit 2
@@ -43,6 +55,9 @@ $payload
 EOF
 )" || block "hook could not parse the payload"
 [ -n "$cmd" ] || cmd="$payload"
+case "$cmd" in
+  *commit-authorization*) block "the commit authorization file is written only by the UserPromptSubmit hook" ;;
+esac
 
 # 2. Normalize: unescape JSON, turn backslashes into slashes (Windows paths), delete quotes
 #    and backticks (so "git.exe" commit and g''it are seen), cut at shell separators, and
@@ -67,6 +82,19 @@ EOF
 )" || block "hook could not split the command"
 
 # 3. Check each git invocation.
+authorized() {
+  [ -f "$TOKEN" ] || return 1
+  [ -n "$(find "$TOKEN" -mmin "-$TOKEN_MINUTES" 2>/dev/null)" ]
+}
+
+# The raw command must not hide a forbidden flag behind a separator inside a commit message.
+check_raw_write() {
+  case "$cmd" in
+    *GIT_*) block "GIT_* variable together with $1" ;;
+    *--amend*|*--no-verify*|*--allow-empty*|*--force*|*--author*|*--date*|*--reset-author*|*--gpg-sign*|*--no-gpg-sign*) block "forbidden option together with $1" ;;
+  esac
+}
+
 check_args() {
   # Read-only subcommands must not write files or start other programs.
   for a in "$@"; do
@@ -111,6 +139,29 @@ check_line() {
   case "$sub" in
     status|diff|log|show|ls-files|check-ignore|check-attr|var|rev-parse|blame|grep|shortlog|describe|cat-file|ls-tree|help|version)
       check_args "$@"
+      ;;
+    add)
+      authorized || block "add needs the owner's express authorization (a message with 'autorizo commit')"
+      check_raw_write add
+      for a in "$@"; do
+        case "$a" in
+          -A|--all|-u|--update|-v|--verbose|--) ;;
+          -*) block "add option $a" ;;
+        esac
+      done
+      ;;
+    commit)
+      authorized || block "commit needs the owner's express authorization (a message with 'autorizo commit')"
+      check_raw_write commit
+      has_msg=0
+      for a in "$@"; do
+        case "$a" in
+          -m|-F|--message|--file|--message=*|--file=*) has_msg=1 ;;
+          -[a-zA-Z]*|--[a-zA-Z]*) block "commit option $a" ;;
+        esac
+      done
+      [ "$has_msg" -eq 1 ] || block "commit without a message (-m or -F) would open an editor"
+      rm -f "$TOKEN"
       ;;
     config)
       read_form=0

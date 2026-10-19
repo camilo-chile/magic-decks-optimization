@@ -29,30 +29,66 @@
   ],
   "fire-lord-azula": [
    {
+    "label": "round4-step0",
+    "cost": 0,
+    "power": 4.9,
+    "bracket": "2"
+   },
+   {
+    "label": "round4-step15",
+    "cost": 14406,
+    "power": 6.0,
+    "bracket": "3*"
+   },
+   {
     "label": "round3-step23",
     "cost": 24882,
     "power": 6.8,
     "bracket": "3*"
    },
    {
-    "label": "round3-step34",
-    "cost": 49592,
-    "power": 7.1,
+    "label": "round4-step18",
+    "cost": 24921,
+    "power": 7.0,
     "bracket": "3*"
    },
    {
-    "label": "round3-step53",
-    "cost": 148712,
-    "power": 7.2,
-    "bracket": "3*"
+    "label": "round4-step27",
+    "cost": 49191,
+    "power": 8.4,
+    "bracket": "4*"
    }
   ],
   "ezio-auditore-da-firenze": [
+   {
+    "label": "round4-step0",
+    "cost": 0,
+    "power": 4.1,
+    "bracket": "2"
+   },
+   {
+    "label": "round4-step14",
+    "cost": 14655,
+    "power": 5.3,
+    "bracket": "3*"
+   },
+   {
+    "label": "round4-step31",
+    "cost": 24751,
+    "power": 5.8,
+    "bracket": "3*"
+   },
    {
     "label": "round3-step24",
     "cost": 24827,
     "power": 6.4,
     "bracket": "3"
+   },
+   {
+    "label": "round4-step33",
+    "cost": 34541,
+    "power": 6.8,
+    "bracket": "3*"
    },
    {
     "label": "round3-step39",
@@ -61,10 +97,10 @@
     "bracket": "3"
    },
    {
-    "label": "round3-step50",
-    "cost": 141322,
-    "power": 7.1,
-    "bracket": "3"
+    "label": "round4-step39",
+    "cost": 48951,
+    "power": 7.4,
+    "bracket": "3*"
    }
   ]
  },
@@ -73,16 +109,16 @@
    "budget": 100000,
    "decks": {
     "ezio-auditore-da-firenze": {
-     "label": "round3-step39",
-     "cost": 45872,
-     "power": 7.0,
-     "bracket": "3"
+     "label": "round4-step39",
+     "cost": 48951,
+     "power": 7.4,
+     "bracket": "3*"
     },
     "fire-lord-azula": {
-     "label": "round3-step34",
-     "cost": 49592,
-     "power": 7.1,
-     "bracket": "3*"
+     "label": "round4-step27",
+     "cost": 49191,
+     "power": 8.4,
+     "bracket": "4*"
     },
     "toph-the-first-metalbender": {
      "label": "round2-step0",
@@ -91,27 +127,27 @@
      "bracket": "3"
     }
    },
-   "cost": 95464,
-   "unspent": 4536,
-   "min_power": 7.0,
-   "sum_power": 21.2,
-   "gap": 0.1,
+   "cost": 98142,
+   "unspent": 1858,
+   "min_power": 7.1,
+   "sum_power": 22.9,
+   "gap": 1.3,
    "reaches_target": true
   },
   {
    "budget": 150000,
    "decks": {
     "ezio-auditore-da-firenze": {
-     "label": "round3-step39",
-     "cost": 45872,
-     "power": 7.0,
-     "bracket": "3"
+     "label": "round4-step39",
+     "cost": 48951,
+     "power": 7.4,
+     "bracket": "3*"
     },
     "fire-lord-azula": {
-     "label": "round3-step34",
-     "cost": 49592,
-     "power": 7.1,
-     "bracket": "3*"
+     "label": "round4-step27",
+     "cost": 49191,
+     "power": 8.4,
+     "bracket": "4*"
     },
     "toph-the-first-metalbender": {
      "label": "round3-step21",
@@ -120,27 +156,27 @@
      "bracket": "3"
     }
    },
-   "cost": 144606,
-   "unspent": 5394,
-   "min_power": 7.0,
-   "sum_power": 21.5,
-   "gap": 0.4,
+   "cost": 147284,
+   "unspent": 2716,
+   "min_power": 7.4,
+   "sum_power": 23.2,
+   "gap": 1.0,
    "reaches_target": true
   },
   {
    "budget": 200000,
    "decks": {
     "ezio-auditore-da-firenze": {
-     "label": "round3-step39",
-     "cost": 45872,
-     "power": 7.0,
-     "bracket": "3"
+     "label": "round4-step39",
+     "cost": 48951,
+     "power": 7.4,
+     "bracket": "3*"
     },
     "fire-lord-azula": {
-     "label": "round3-step34",
-     "cost": 49592,
-     "power": 7.1,
-     "bracket": "3*"
+     "label": "round4-step27",
+     "cost": 49191,
+     "power": 8.4,
+     "bracket": "4*"
     },
     "toph-the-first-metalbender": {
      "label": "round3-step30",
@@ -149,56 +185,27 @@
      "bracket": "3"
     }
    },
-   "cost": 193001,
-   "unspent": 6999,
-   "min_power": 7.0,
-   "sum_power": 21.6,
-   "gap": 0.5,
+   "cost": 195679,
+   "unspent": 4321,
+   "min_power": 7.4,
+   "sum_power": 23.3,
+   "gap": 1.0,
    "reaches_target": true
   },
   {
    "budget": 250000,
    "decks": {
     "ezio-auditore-da-firenze": {
-     "label": "round3-step50",
-     "cost": 141322,
-     "power": 7.1,
-     "bracket": "3"
-    },
-    "fire-lord-azula": {
-     "label": "round3-step34",
-     "cost": 49592,
-     "power": 7.1,
-     "bracket": "3*"
-    },
-    "toph-the-first-metalbender": {
-     "label": "round3-step21",
-     "cost": 49142,
+     "label": "round4-step39",
+     "cost": 48951,
      "power": 7.4,
-     "bracket": "3"
-    }
-   },
-   "cost": 240056,
-   "unspent": 9944,
-   "min_power": 7.1,
-   "sum_power": 21.6,
-   "gap": 0.3,
-   "reaches_target": true
-  },
-  {
-   "budget": 300000,
-   "decks": {
-    "ezio-auditore-da-firenze": {
-     "label": "round3-step50",
-     "cost": 141322,
-     "power": 7.1,
-     "bracket": "3"
+     "bracket": "3*"
     },
     "fire-lord-azula": {
-     "label": "round3-step34",
-     "cost": 49592,
-     "power": 7.1,
-     "bracket": "3*"
+     "label": "round4-step27",
+     "cost": 49191,
+     "power": 8.4,
+     "bracket": "4*"
     },
     "toph-the-first-metalbender": {
      "label": "round3-step30",
@@ -207,34 +214,113 @@
      "bracket": "3"
     }
    },
-   "cost": 288451,
-   "unspent": 11549,
-   "min_power": 7.1,
-   "sum_power": 21.7,
-   "gap": 0.4,
+   "cost": 195679,
+   "unspent": 54321,
+   "min_power": 7.4,
+   "sum_power": 23.3,
+   "gap": 1.0,
+   "reaches_target": true
+  },
+  {
+   "budget": 300000,
+   "decks": {
+    "ezio-auditore-da-firenze": {
+     "label": "round4-step39",
+     "cost": 48951,
+     "power": 7.4,
+     "bracket": "3*"
+    },
+    "fire-lord-azula": {
+     "label": "round4-step27",
+     "cost": 49191,
+     "power": 8.4,
+     "bracket": "4*"
+    },
+    "toph-the-first-metalbender": {
+     "label": "round3-step30",
+     "cost": 97537,
+     "power": 7.5,
+     "bracket": "3"
+    }
+   },
+   "cost": 195679,
+   "unspent": 104321,
+   "min_power": 7.4,
+   "sum_power": 23.3,
+   "gap": 1.0,
    "reaches_target": true
   }
  ],
  "best_buys": [
   {
    "deck": "ezio-auditore-da-firenze",
-   "from": "round3-step24",
-   "to": "round3-step39",
-   "from_cost": 24827,
-   "to_cost": 45872,
-   "extra_cost": 21045,
-   "gain": 0.6,
-   "per_10k": 0.285
+   "from": "round4-step14",
+   "to": "round3-step24",
+   "from_cost": 14655,
+   "to_cost": 24827,
+   "extra_cost": 10172,
+   "gain": 1.1,
+   "per_10k": 1.081
   },
   {
    "deck": "fire-lord-azula",
-   "from": "round3-step23",
-   "to": "round3-step34",
-   "from_cost": 24882,
-   "to_cost": 49592,
-   "extra_cost": 24710,
-   "gain": 0.3,
-   "per_10k": 0.121
+   "from": "round4-step15",
+   "to": "round4-step18",
+   "from_cost": 14406,
+   "to_cost": 24921,
+   "extra_cost": 10515,
+   "gain": 1.0,
+   "per_10k": 0.951
+  },
+  {
+   "deck": "ezio-auditore-da-firenze",
+   "from": "round4-step0",
+   "to": "round4-step14",
+   "from_cost": 0,
+   "to_cost": 14655,
+   "extra_cost": 14655,
+   "gain": 1.2,
+   "per_10k": 0.819
+  },
+  {
+   "deck": "fire-lord-azula",
+   "from": "round4-step0",
+   "to": "round4-step15",
+   "from_cost": 0,
+   "to_cost": 14406,
+   "extra_cost": 14406,
+   "gain": 1.1,
+   "per_10k": 0.764
+  },
+  {
+   "deck": "fire-lord-azula",
+   "from": "round4-step18",
+   "to": "round4-step27",
+   "from_cost": 24921,
+   "to_cost": 49191,
+   "extra_cost": 24270,
+   "gain": 1.4,
+   "per_10k": 0.577
+  },
+  {
+   "deck": "ezio-auditore-da-firenze",
+   "from": "round4-step33",
+   "to": "round4-step39",
+   "from_cost": 34541,
+   "to_cost": 48951,
+   "extra_cost": 14410,
+   "gain": 0.6,
+   "per_10k": 0.416
+  },
+  {
+   "deck": "ezio-auditore-da-firenze",
+   "from": "round3-step24",
+   "to": "round4-step33",
+   "from_cost": 24827,
+   "to_cost": 34541,
+   "extra_cost": 9714,
+   "gain": 0.4,
+   "per_10k": 0.412
   },
   {
    "deck": "toph-the-first-metalbender",
@@ -265,26 +351,6 @@
    "extra_cost": 48395,
    "gain": 0.1,
    "per_10k": 0.021
-  },
-  {
-   "deck": "ezio-auditore-da-firenze",
-   "from": "round3-step39",
-   "to": "round3-step50",
-   "from_cost": 45872,
-   "to_cost": 141322,
-   "extra_cost": 95450,
-   "gain": 0.1,
-   "per_10k": 0.01
-  },
-  {
-   "deck": "fire-lord-azula",
-   "from": "round3-step34",
-   "to": "round3-step53",
-   "from_cost": 49592,
-   "to_cost": 148712,
-   "extra_cost": 99120,
-   "gain": 0.1,
-   "per_10k": 0.01
   }
  ]
 }

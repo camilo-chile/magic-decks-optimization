@@ -4,17 +4,18 @@
 Run it with the "Run Python File" button (no arguments, no network). It reads `decks/proposals/measured.json` and writes
 JSON row files into `data/model/dashboard/`, which are uploaded to the dashboard as its datasets:
 
-  lists.json  every measured list that can be on a chart (status: offered, dominated by a cheaper list, or replaced)
+  lists.json  every measured list that can be on a chart (status: offered, dominated by a cheaper list, replaced, variant)
   curve.json  the plan of each budget: one row per budget and deck
   plans.json  what each budget buys: one row per budget (the table "What each budget buys")
   jumps.json  the power change of each deck from one budget to the next
   buys.json   the best buys: power per 10,000 CLP between two measured points of a deck, best first
   decks.json  one row per deck: measured numbers plus the hand-written status of deck-notes.json
 
-`guide.json` (how each deck plays and wins) and `deck-notes.json` are written by hand and only read here.
-The plans come from `scripts/optimize_budget.py` (highest sum of powers, no parity rule); this script adds nothing to
-them. Alexios, Deimos of Kosmos was replaced by Ezio Auditore da Firenze: his round-2 lists stay on the charts (status
-"replaced") so the owner sees where he ended, but they never enter a plan.
+`scripts/deck_stats.py` writes the statistics datasets next to them; `guide.json` (how each deck plays and wins) and
+`deck-notes.json` are written by hand and only read here. The plans come from `scripts/optimize_budget.py` (highest sum of
+powers, no parity rule); this script adds nothing to them. Alexios, Deimos of Kosmos was replaced by Ezio Auditore da
+Firenze: his round-2 lists stay on the charts (status "replaced") so the owner sees where he ended, and a variant list (the
+black-core Ezio test) is charted as its own series; neither ever enters a plan.
 """
 import importlib.util
 import json
@@ -25,6 +26,7 @@ MEASURED = ROOT / "decks" / "proposals" / "measured.json"
 OUT_DIR = ROOT / "data" / "model" / "dashboard"
 SHORT = {"ezio-auditore-da-firenze": "Ezio", "fire-lord-azula": "Azula", "toph-the-first-metalbender": "Toph",
          "alexios-deimos-of-kosmos": "Alexios"}
+VARIANT_NAME = {"bcore": "black-core"}
 TABLE_ORDER = ["Ezio", "Azula", "Toph"]  # the column order of "What each budget buys"
 REPLACED = {"alexios-deimos-of-kosmos"}  # measured, shown, never planned
 
@@ -37,9 +39,31 @@ def step_of(label):
     return int(label.rsplit("step", 1)[1].split("-")[0])
 
 
+def variant_of(label):
+    """'round4-bcore-step26' -> 'bcore'; 'round4-step26' -> ''."""
+    parts = label.split("-")
+    return parts[1] if len(parts) == 3 else ""
+
+
+def round_of(label):
+    return int(label.split("-")[0].replace("round", ""))
+
+
+def list_id(deck, label):
+    variant = variant_of(label)
+    return f"{SHORT[deck].lower()}{'-' + variant if variant else ''}-r{round_of(label)}-{step_of(label)}"
+
+
+def series_name(deck, label):
+    variant = variant_of(label)
+    return SHORT[deck] + (f" {VARIANT_NAME.get(variant, variant)}" if variant else "")
+
+
 def list_name(label):
     step = step_of(label)
-    return "Step 0 (free base)" if step == 0 else f"Step {step}"
+    variant = variant_of(label)
+    base = f"R{round_of(label)} step {step}" + (" (free base)" if step == 0 else "")
+    return f"{VARIANT_NAME.get(variant, variant).capitalize()} {base}" if variant else base
 
 
 def charted(measured):
@@ -53,15 +77,18 @@ def charted(measured):
             continue
         if deck in REPLACED:
             out.append((deck, label, entry, "replaced"))
+        elif entry.get("variant"):
+            out.append((deck, label, entry, "variant"))
         elif entry.get("eligible", (entry.get("round") or 0) >= ob.MIN_ROUND):
             out.append((deck, label, entry, "offered" if (deck, label) in offered else "dominated"))
     return out
 
 
 def lists_rows(measured):
-    rows = [{"id": f"{SHORT[deck].lower()}-{step_of(label)}", "deck": SHORT[deck], "list": list_name(label),
+    rows = [{"id": list_id(deck, label), "deck": series_name(deck, label), "list": list_name(label),
              "step": step_of(label), "cost_clp": entry["cost_clp"], "power": entry["power"], "salt": entry.get("salt"),
-             "manabase_pct": entry.get("manabase_quality_pct"), "bracket": entry.get("bracket"), "status": status}
+             "manabase_pct": entry.get("manabase_quality_pct"), "bracket": entry.get("bracket"),
+             "wotc_bracket": entry.get("wotc_bracket"), "status": status}
             for deck, label, entry, status in charted(measured)]
     return sorted(rows, key=lambda r: (r["deck"], r["cost_clp"]))
 
@@ -88,12 +115,11 @@ def plan_rows(rows):
             cells.update({f"{name}_list": list_name(point["label"]), f"{name}_cost": point["cost"],
                           f"{name}_power": point["power"],
                           f"{name}_cell": f"{list_name(point['label'])} ({point['cost']:,} CLP)",
-                          f"{name}_id": f"{name}-{step_of(point['label'])}"})
+                          f"{name}_id": list_id(deck, point["label"])})
         powers = " / ".join(f"{row['decks'][d]['power']:.1f}" for d in sorted(row["decks"], key=lambda d: TABLE_ORDER.index(SHORT[d])))
         out.append({"id": str(row["budget"]), "budget_clp": row["budget"], **cells, "powers": powers,
-                    "total_cost_clp": row["cost"],
-                    "unspent_clp": row["unspent"], "sum_power": row["sum_power"], "weakest": row["min_power"],
-                    "gap": row["gap"]})
+                    "total_cost_clp": row["cost"], "unspent_clp": row["unspent"], "sum_power": row["sum_power"],
+                    "weakest": row["min_power"], "gap": row["gap"]})
     return out
 
 
@@ -112,19 +138,23 @@ def jump_rows(rows):
 
 
 def buy_rows(measured):
-    """Best buys of every charted deck (Alexios included, status replaced), best power per 10,000 CLP first."""
-    by_deck = {}
+    """Best buys of every charted series (Alexios replaced, the black-core variant apart), best power per 10,000 CLP first."""
+    by_series, owner = {}, {}
     for deck, label, entry, status in charted(measured):
-        if status != "dominated":
-            by_deck.setdefault(deck, []).append({"label": label, "cost": entry["cost_clp"], "power": entry["power"]})
-    points = {deck: ob.frontier(pts) for deck, pts in by_deck.items()}
+        if status == "dominated":
+            continue
+        key = f"{deck}#{variant_of(label)}"
+        by_series.setdefault(key, []).append({"label": label, "cost": entry["cost_clp"], "power": entry["power"]})
+        owner[key] = (deck, label)
+    points = {key: ob.frontier(pts) for key, pts in by_series.items()}
     rows = []
     for rank, s in enumerate(ob.best_buys(points), 1):
-        rows.append({"id": f"{SHORT[s['deck']].lower()}-{step_of(s['from'])}-{step_of(s['to'])}", "rank": rank,
-                     "deck": SHORT[s["deck"]], "from_list": list_name(s["from"]), "to_list": list_name(s["to"]),
+        deck, label = owner[s["deck"]]
+        status = "replaced" if deck in REPLACED else ("variant" if variant_of(label) else "planned")
+        rows.append({"id": f"{list_id(deck, s['from'])}-{step_of(s['to'])}", "rank": rank,
+                     "deck": series_name(deck, label), "from_list": list_name(s["from"]), "to_list": list_name(s["to"]),
                      "from_cost_clp": s["from_cost"], "to_cost_clp": s["to_cost"], "extra_cost_clp": s["extra_cost"],
-                     "gain": s["gain"], "per_10k": s["per_10k"],
-                     "status": "replaced" if s["deck"] in REPLACED else "planned"})
+                     "gain": s["gain"], "per_10k": s["per_10k"], "status": status})
     return rows
 
 
@@ -132,7 +162,8 @@ def deck_rows(measured, plan_rows_, notes):
     plan = next((r for r in plan_rows_ if r["budget"] == 150_000 and r.get("decks")), None)
     out = []
     for slug, short in SHORT.items():
-        entries = [e for k, e in measured["lists"].items() if k.startswith(slug + "/") and e.get("power") is not None]
+        entries = [e for k, e in measured["lists"].items()
+                   if k.startswith(slug + "/") and e.get("power") is not None and not e.get("variant")]
         top = max((e["power"] for e in entries), default=None)
         cheapest = min((e["cost_clp"] for e in entries if e["power"] == top), default=None)
         chosen = plan["decks"].get(slug) if plan else None

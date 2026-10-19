@@ -11,17 +11,17 @@
     "commander": "Fire Lord Azula",
     "colors": "Grixis (U B R)",
     "role": "Upgrade of the owner's deck",
-    "status": "Measured up to 7.2, flat from about 50,000 CLP: Salt caps it for combo wincons with no tutors to assemble them.",
-    "next_step": "Round 4: tutors that reach its loops and more efficiency, then measure the new checkpoints.",
-    "progress_pct": 70
+    "status": "Round 4 lifted it to 8.4 from about 49,000 CLP (Godo + Helm of the Host with tutors). Salt's own bracket reads 4 although Wizards' criteria give 3.",
+    "next_step": "Owner decision on the bracket note, then stock check and final Salt score.",
+    "progress_pct": 85
   },
   "Ezio": {
     "commander": "Ezio Auditore da Firenze",
     "colors": "Five colors (B core)",
     "role": "New deck; the commander is a proxy (cost 0)",
-    "status": "Measured up to 7.1; 7.0 already at about 46,000 CLP, then flat.",
-    "next_step": "Round 4: more Spellbook win lines with tutors, then measure the new checkpoints.",
-    "progress_pct": 70
+    "status": "Round 4 reached 7.4 at about 49,000 CLP; later lists with more combos scored lower. The black-core test measured 5.3.",
+    "next_step": "Stock check and final Salt score after the budget pick.",
+    "progress_pct": 85
   },
   "Alexios": {
     "commander": "Alexios, Deimos of Kosmos",

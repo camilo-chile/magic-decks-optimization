@@ -21,14 +21,17 @@ MEASURED = {"lists": {
     f"{A}/round3-step34": entry(49_000, 7.1, round=3), f"{A}/round1-step9": entry(10_000, 5.0, round=1),
     f"{E}/round3-step39": entry(46_000, 7.0, round=3),
     f"{X}/round2-step19": entry(25_000, 4.1, round=2), f"{X}/round2-step48": entry(197_000, 6.8, round=2),
+    f"{E}/round4-bcore-step26": entry(49_000, 5.3, round=4, variant="bcore"),
 }}
 
 
 def test_lists_mark_offered_dominated_and_replaced_and_leave_out_unusable_rounds():
     rows = {r["id"]: r for r in mod.lists_rows(MEASURED)}
-    assert rows["toph-30"]["status"] == "offered" and rows["toph-32"]["status"] == "dominated"
-    assert rows["alexios-19"]["status"] == "replaced" and rows["alexios-48"]["status"] == "replaced"
-    assert "azula-9" not in rows  # round 1 holds reversible cards: never charted
+    assert rows["toph-r3-30"]["status"] == "offered" and rows["toph-r3-32"]["status"] == "dominated"
+    assert rows["alexios-r2-19"]["status"] == "replaced" and rows["alexios-r2-48"]["status"] == "replaced"
+    assert "azula-r1-9" not in rows  # round 1 holds reversible cards: never charted
+    black = rows["ezio-bcore-r4-26"]  # a variant test list: charted as its own series, never offered
+    assert black["status"] == "variant" and black["deck"] == "Ezio black-core" and black["list"] == "Black-core R4 step 26"
 
 
 def test_plans_buys_and_jumps_follow_the_optimizer_and_alexios_never_enters_a_plan():
@@ -37,7 +40,8 @@ def test_plans_buys_and_jumps_follow_the_optimizer_and_alexios_never_enters_a_pl
     rows = mod.ob.curve(points, budgets=[100_000, 150_000])
     plans = mod.plan_rows(rows)
     assert [p["id"] for p in plans] == ["100000", "150000"]
-    assert plans[1]["toph_cell"] == "Step 21 (49,000 CLP)" and plans[1]["powers"] == "7.0 / 7.1 / 7.4"
+    assert plans[1]["toph_cell"] == "R3 step 21 (49,000 CLP)" and plans[1]["powers"] == "7.0 / 7.1 / 7.4"
+    assert plans[1]["toph_id"] == "toph-r3-21"
     jumps = {j["id"]: j["change"] for j in mod.jump_rows(rows)}
     assert jumps["150000-toph"] == 0.3 and jumps["150000-total"] == 0.3 and jumps["150000-ezio"] == 0.0
     buys = mod.buy_rows(MEASURED)

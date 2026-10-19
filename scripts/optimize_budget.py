@@ -35,6 +35,7 @@ OUT_MD = ROOT / "decks" / "reports" / "budget-curve.md"
 BUDGETS = list(range(100_000, 300_001, 50_000))
 TARGET_POWER = 7.0  # owner decision 2026-10-19 (it was the friend's 6.1)
 MIN_ROUND = 3
+MIN_STEP = 5_000  # best buys: lists closer in cost than this are alternatives, not a purchase
 
 
 def frontier(points):
@@ -52,8 +53,8 @@ def load_points(measured, min_round=MIN_ROUND):
     by_deck = {}
     for key, entry in measured.get("lists", {}).items():
         deck, label = key.split("/", 1)
-        if entry.get("power") is None or not entry.get("eligible", (entry.get("round") or 0) >= min_round):
-            continue
+        if entry.get("power") is None or entry.get("variant") or not entry.get("eligible", (entry.get("round") or 0) >= min_round):
+            continue  # a `variant` entry (such as a black-core test list) is measured and charted, never planned
         by_deck.setdefault(deck, []).append({"label": label, "cost": entry["cost_clp"], "power": entry["power"],
                                              "bracket": entry.get("bracket")})
     return {deck: frontier(points) for deck, points in by_deck.items()}
@@ -95,10 +96,14 @@ def jumps(rows):
     return out
 
 
-def best_buys(points):
-    """Every step from one point of a deck's frontier to the next, best power per CLP first (cost > 0 only)."""
+def best_buys(points, min_step=MIN_STEP):
+    """Every step from one point of a deck's frontier to the next, best power per CLP first (cost > 0 only).
+    A point less than `min_step` CLP below the next one is merged into it: two lists that cost nearly the same are
+    alternatives (often of different rounds), not a purchase."""
     steps = []
-    for deck, pts in points.items():
+    for deck, frontier_pts in points.items():
+        pts = [p for i, p in enumerate(frontier_pts)
+               if i + 1 == len(frontier_pts) or frontier_pts[i + 1]["cost"] - p["cost"] >= min_step]
         for before, after in zip(pts, pts[1:]):
             extra = after["cost"] - before["cost"]
             if extra <= 0:

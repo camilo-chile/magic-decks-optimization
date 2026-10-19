@@ -1,848 +1,1681 @@
 {
  "rows": [
   {
-   "id": "alexios-19-Creature",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-Creature",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "type": "Creature",
    "count": 23
   },
   {
-   "id": "alexios-19-Instant",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-Instant",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "type": "Instant",
    "count": 11
   },
   {
-   "id": "alexios-19-Sorcery",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-Sorcery",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "type": "Sorcery",
    "count": 8
   },
   {
-   "id": "alexios-19-Enchantment",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-Enchantment",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "type": "Enchantment",
    "count": 5
   },
   {
-   "id": "alexios-19-Artifact",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-Artifact",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "type": "Artifact",
    "count": 21
   },
   {
-   "id": "alexios-19-Land",
-   "list_id": "alexios-19",
+   "id": "alexios-r2-19-Land",
+   "list_id": "alexios-r2-19",
    "deck": "Alexios",
    "type": "Land",
    "count": 35
   },
   {
-   "id": "alexios-39-Creature",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Creature",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "type": "Creature",
    "count": 23
   },
   {
-   "id": "alexios-39-Instant",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Instant",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "type": "Instant",
    "count": 10
   },
   {
-   "id": "alexios-39-Sorcery",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Sorcery",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "type": "Sorcery",
    "count": 10
   },
   {
-   "id": "alexios-39-Enchantment",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Enchantment",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "type": "Enchantment",
    "count": 4
   },
   {
-   "id": "alexios-39-Artifact",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Artifact",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "type": "Artifact",
    "count": 21
   },
   {
-   "id": "alexios-39-Planeswalker",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Planeswalker",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "type": "Planeswalker",
    "count": 1
   },
   {
-   "id": "alexios-39-Land",
-   "list_id": "alexios-39",
+   "id": "alexios-r2-39-Land",
+   "list_id": "alexios-r2-39",
    "deck": "Alexios",
    "type": "Land",
    "count": 35
   },
   {
-   "id": "alexios-48-Creature",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Creature",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "type": "Creature",
    "count": 19
   },
   {
-   "id": "alexios-48-Instant",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Instant",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "type": "Instant",
    "count": 11
   },
   {
-   "id": "alexios-48-Sorcery",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Sorcery",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "type": "Sorcery",
    "count": 12
   },
   {
-   "id": "alexios-48-Enchantment",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Enchantment",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "type": "Enchantment",
    "count": 2
   },
   {
-   "id": "alexios-48-Artifact",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Artifact",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "type": "Artifact",
    "count": 24
   },
   {
-   "id": "alexios-48-Planeswalker",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Planeswalker",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "type": "Planeswalker",
    "count": 1
   },
   {
-   "id": "alexios-48-Land",
-   "list_id": "alexios-48",
+   "id": "alexios-r2-48-Land",
+   "list_id": "alexios-r2-48",
    "deck": "Alexios",
    "type": "Land",
    "count": 35
   },
   {
-   "id": "ezio-24-Creature",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Creature",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "type": "Creature",
    "count": 30
   },
   {
-   "id": "ezio-24-Instant",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Instant",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "type": "Instant",
    "count": 10
   },
   {
-   "id": "ezio-24-Sorcery",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Sorcery",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "type": "Sorcery",
    "count": 10
   },
   {
-   "id": "ezio-24-Enchantment",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Enchantment",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "type": "Enchantment",
    "count": 5
   },
   {
-   "id": "ezio-24-Artifact",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Artifact",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "type": "Artifact",
    "count": 9
   },
   {
-   "id": "ezio-24-Planeswalker",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Planeswalker",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "type": "Planeswalker",
    "count": 1
   },
   {
-   "id": "ezio-24-Land",
-   "list_id": "ezio-24",
+   "id": "ezio-r3-24-Land",
+   "list_id": "ezio-r3-24",
    "deck": "Ezio",
    "type": "Land",
    "count": 35
   },
   {
-   "id": "ezio-39-Creature",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Creature",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "type": "Creature",
    "count": 26
   },
   {
-   "id": "ezio-39-Instant",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Instant",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "type": "Instant",
    "count": 14
   },
   {
-   "id": "ezio-39-Sorcery",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Sorcery",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "type": "Sorcery",
    "count": 8
   },
   {
-   "id": "ezio-39-Enchantment",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Enchantment",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "type": "Enchantment",
    "count": 5
   },
   {
-   "id": "ezio-39-Artifact",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Artifact",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "type": "Artifact",
    "count": 11
   },
   {
-   "id": "ezio-39-Planeswalker",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Planeswalker",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "type": "Planeswalker",
    "count": 1
   },
   {
-   "id": "ezio-39-Land",
-   "list_id": "ezio-39",
+   "id": "ezio-r3-39-Land",
+   "list_id": "ezio-r3-39",
    "deck": "Ezio",
    "type": "Land",
    "count": 35
   },
   {
-   "id": "ezio-43-Creature",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Creature",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "type": "Creature",
    "count": 26
   },
   {
-   "id": "ezio-43-Instant",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Instant",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "type": "Instant",
    "count": 14
   },
   {
-   "id": "ezio-43-Sorcery",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Sorcery",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "type": "Sorcery",
    "count": 6
   },
   {
-   "id": "ezio-43-Enchantment",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Enchantment",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "type": "Enchantment",
    "count": 7
   },
   {
-   "id": "ezio-43-Artifact",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Artifact",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "type": "Artifact",
    "count": 11
   },
   {
-   "id": "ezio-43-Planeswalker",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Planeswalker",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "type": "Planeswalker",
    "count": 1
   },
   {
-   "id": "ezio-43-Land",
-   "list_id": "ezio-43",
+   "id": "ezio-r3-43-Land",
+   "list_id": "ezio-r3-43",
    "deck": "Ezio",
    "type": "Land",
    "count": 35
   },
   {
-   "id": "ezio-46-Creature",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Creature",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "type": "Creature",
    "count": 26
   },
   {
-   "id": "ezio-46-Instant",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Instant",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "type": "Instant",
    "count": 14
   },
   {
-   "id": "ezio-46-Sorcery",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Sorcery",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "type": "Sorcery",
    "count": 6
   },
   {
-   "id": "ezio-46-Enchantment",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Enchantment",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "type": "Enchantment",
    "count": 7
   },
   {
-   "id": "ezio-46-Artifact",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Artifact",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "type": "Artifact",
    "count": 11
   },
   {
-   "id": "ezio-46-Planeswalker",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Planeswalker",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "type": "Planeswalker",
    "count": 1
   },
   {
-   "id": "ezio-46-Land",
-   "list_id": "ezio-46",
+   "id": "ezio-r3-46-Land",
+   "list_id": "ezio-r3-46",
    "deck": "Ezio",
    "type": "Land",
    "count": 35
   },
   {
-   "id": "ezio-50-Creature",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Creature",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "type": "Creature",
    "count": 25
   },
   {
-   "id": "ezio-50-Instant",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Instant",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "type": "Instant",
    "count": 14
   },
   {
-   "id": "ezio-50-Sorcery",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Sorcery",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "type": "Sorcery",
    "count": 7
   },
   {
-   "id": "ezio-50-Enchantment",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Enchantment",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "type": "Enchantment",
    "count": 7
   },
   {
-   "id": "ezio-50-Artifact",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Artifact",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "type": "Artifact",
    "count": 11
   },
   {
-   "id": "ezio-50-Planeswalker",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Planeswalker",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "type": "Planeswalker",
    "count": 1
   },
   {
-   "id": "ezio-50-Land",
-   "list_id": "ezio-50",
+   "id": "ezio-r3-50-Land",
+   "list_id": "ezio-r3-50",
    "deck": "Ezio",
    "type": "Land",
    "count": 35
   },
   {
-   "id": "azula-23-Creature",
-   "list_id": "azula-23",
+   "id": "ezio-bcore-r4-0-Creature",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "type": "Creature",
+   "count": 28
+  },
+  {
+   "id": "ezio-bcore-r4-0-Instant",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "type": "Instant",
+   "count": 9
+  },
+  {
+   "id": "ezio-bcore-r4-0-Sorcery",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "type": "Sorcery",
+   "count": 13
+  },
+  {
+   "id": "ezio-bcore-r4-0-Enchantment",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "type": "Enchantment",
+   "count": 4
+  },
+  {
+   "id": "ezio-bcore-r4-0-Artifact",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "type": "Artifact",
+   "count": 12
+  },
+  {
+   "id": "ezio-bcore-r4-0-Land",
+   "list_id": "ezio-bcore-r4-0",
+   "deck": "Ezio black-core",
+   "type": "Land",
+   "count": 35
+  },
+  {
+   "id": "ezio-bcore-r4-18-Creature",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "type": "Creature",
+   "count": 27
+  },
+  {
+   "id": "ezio-bcore-r4-18-Instant",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "type": "Instant",
+   "count": 11
+  },
+  {
+   "id": "ezio-bcore-r4-18-Sorcery",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "type": "Sorcery",
+   "count": 11
+  },
+  {
+   "id": "ezio-bcore-r4-18-Enchantment",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "type": "Enchantment",
+   "count": 4
+  },
+  {
+   "id": "ezio-bcore-r4-18-Artifact",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "type": "Artifact",
+   "count": 13
+  },
+  {
+   "id": "ezio-bcore-r4-18-Land",
+   "list_id": "ezio-bcore-r4-18",
+   "deck": "Ezio black-core",
+   "type": "Land",
+   "count": 35
+  },
+  {
+   "id": "ezio-bcore-r4-26-Creature",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "type": "Creature",
+   "count": 28
+  },
+  {
+   "id": "ezio-bcore-r4-26-Instant",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "type": "Instant",
+   "count": 10
+  },
+  {
+   "id": "ezio-bcore-r4-26-Sorcery",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "type": "Sorcery",
+   "count": 9
+  },
+  {
+   "id": "ezio-bcore-r4-26-Enchantment",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "type": "Enchantment",
+   "count": 4
+  },
+  {
+   "id": "ezio-bcore-r4-26-Artifact",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "type": "Artifact",
+   "count": 16
+  },
+  {
+   "id": "ezio-bcore-r4-26-Land",
+   "list_id": "ezio-bcore-r4-26",
+   "deck": "Ezio black-core",
+   "type": "Land",
+   "count": 35
+  },
+  {
+   "id": "ezio-r4-0-Creature",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "type": "Creature",
+   "count": 24
+  },
+  {
+   "id": "ezio-r4-0-Instant",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "type": "Instant",
+   "count": 13
+  },
+  {
+   "id": "ezio-r4-0-Sorcery",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "type": "Sorcery",
+   "count": 12
+  },
+  {
+   "id": "ezio-r4-0-Enchantment",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "type": "Enchantment",
+   "count": 5
+  },
+  {
+   "id": "ezio-r4-0-Artifact",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "type": "Artifact",
+   "count": 11
+  },
+  {
+   "id": "ezio-r4-0-Planeswalker",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "type": "Planeswalker",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-0-Land",
+   "list_id": "ezio-r4-0",
+   "deck": "Ezio",
+   "type": "Land",
+   "count": 35
+  },
+  {
+   "id": "ezio-r4-14-Creature",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "type": "Creature",
+   "count": 24
+  },
+  {
+   "id": "ezio-r4-14-Instant",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "type": "Instant",
+   "count": 15
+  },
+  {
+   "id": "ezio-r4-14-Sorcery",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "type": "Sorcery",
+   "count": 10
+  },
+  {
+   "id": "ezio-r4-14-Enchantment",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "type": "Enchantment",
+   "count": 5
+  },
+  {
+   "id": "ezio-r4-14-Artifact",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "type": "Artifact",
+   "count": 11
+  },
+  {
+   "id": "ezio-r4-14-Planeswalker",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "type": "Planeswalker",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-14-Land",
+   "list_id": "ezio-r4-14",
+   "deck": "Ezio",
+   "type": "Land",
+   "count": 35
+  },
+  {
+   "id": "ezio-r4-31-Creature",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "type": "Creature",
+   "count": 25
+  },
+  {
+   "id": "ezio-r4-31-Instant",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "type": "Instant",
+   "count": 17
+  },
+  {
+   "id": "ezio-r4-31-Sorcery",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "type": "Sorcery",
+   "count": 7
+  },
+  {
+   "id": "ezio-r4-31-Enchantment",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "type": "Enchantment",
+   "count": 4
+  },
+  {
+   "id": "ezio-r4-31-Artifact",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "type": "Artifact",
+   "count": 12
+  },
+  {
+   "id": "ezio-r4-31-Planeswalker",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "type": "Planeswalker",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-31-Land",
+   "list_id": "ezio-r4-31",
+   "deck": "Ezio",
+   "type": "Land",
+   "count": 35
+  },
+  {
+   "id": "ezio-r4-33-Creature",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "type": "Creature",
+   "count": 24
+  },
+  {
+   "id": "ezio-r4-33-Instant",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "type": "Instant",
+   "count": 17
+  },
+  {
+   "id": "ezio-r4-33-Sorcery",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "type": "Sorcery",
+   "count": 7
+  },
+  {
+   "id": "ezio-r4-33-Enchantment",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "type": "Enchantment",
+   "count": 4
+  },
+  {
+   "id": "ezio-r4-33-Artifact",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "type": "Artifact",
+   "count": 13
+  },
+  {
+   "id": "ezio-r4-33-Planeswalker",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "type": "Planeswalker",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-33-Land",
+   "list_id": "ezio-r4-33",
+   "deck": "Ezio",
+   "type": "Land",
+   "count": 35
+  },
+  {
+   "id": "ezio-r4-39-Creature",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "type": "Creature",
+   "count": 23
+  },
+  {
+   "id": "ezio-r4-39-Instant",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "type": "Instant",
+   "count": 17
+  },
+  {
+   "id": "ezio-r4-39-Sorcery",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "type": "Sorcery",
+   "count": 7
+  },
+  {
+   "id": "ezio-r4-39-Enchantment",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "type": "Enchantment",
+   "count": 4
+  },
+  {
+   "id": "ezio-r4-39-Artifact",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "type": "Artifact",
+   "count": 13
+  },
+  {
+   "id": "ezio-r4-39-Planeswalker",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "type": "Planeswalker",
+   "count": 1
+  },
+  {
+   "id": "ezio-r4-39-Land",
+   "list_id": "ezio-r4-39",
+   "deck": "Ezio",
+   "type": "Land",
+   "count": 35
+  },
+  {
+   "id": "ezio-r4-43-Creature",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "type": "Creature",
+   "count": 25
+  },
+  {
+   "id": "ezio-r4-43-Instant",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "type": "Instant",
+   "count": 17
+  },
+  {
+   "id": "ezio-r4-43-Sorcery",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "type": "Sorcery",
+   "count": 7
+  },
+  {
+   "id": "ezio-r4-43-Enchantment",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "type": "Enchantment",
+   "count": 3
+  },
+  {
+   "id": "ezio-r4-43-Artifact",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "type": "Artifact",
+   "count": 13
+  },
+  {
+   "id": "ezio-r4-43-Land",
+   "list_id": "ezio-r4-43",
+   "deck": "Ezio",
+   "type": "Land",
+   "count": 35
+  },
+  {
+   "id": "ezio-r4-50-Creature",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "type": "Creature",
+   "count": 25
+  },
+  {
+   "id": "ezio-r4-50-Instant",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "type": "Instant",
+   "count": 17
+  },
+  {
+   "id": "ezio-r4-50-Sorcery",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "type": "Sorcery",
+   "count": 4
+  },
+  {
+   "id": "ezio-r4-50-Enchantment",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "type": "Enchantment",
+   "count": 4
+  },
+  {
+   "id": "ezio-r4-50-Artifact",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "type": "Artifact",
+   "count": 15
+  },
+  {
+   "id": "ezio-r4-50-Land",
+   "list_id": "ezio-r4-50",
+   "deck": "Ezio",
+   "type": "Land",
+   "count": 35
+  },
+  {
+   "id": "ezio-r4-54-Creature",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "type": "Creature",
+   "count": 25
+  },
+  {
+   "id": "ezio-r4-54-Instant",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "type": "Instant",
+   "count": 16
+  },
+  {
+   "id": "ezio-r4-54-Sorcery",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "type": "Sorcery",
+   "count": 6
+  },
+  {
+   "id": "ezio-r4-54-Enchantment",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "type": "Enchantment",
+   "count": 3
+  },
+  {
+   "id": "ezio-r4-54-Artifact",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "type": "Artifact",
+   "count": 15
+  },
+  {
+   "id": "ezio-r4-54-Land",
+   "list_id": "ezio-r4-54",
+   "deck": "Ezio",
+   "type": "Land",
+   "count": 35
+  },
+  {
+   "id": "azula-r3-23-Creature",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "type": "Creature",
    "count": 11
   },
   {
-   "id": "azula-23-Instant",
-   "list_id": "azula-23",
+   "id": "azula-r3-23-Instant",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "type": "Instant",
    "count": 35
   },
   {
-   "id": "azula-23-Sorcery",
-   "list_id": "azula-23",
+   "id": "azula-r3-23-Sorcery",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "type": "Sorcery",
    "count": 6
   },
   {
-   "id": "azula-23-Enchantment",
-   "list_id": "azula-23",
+   "id": "azula-r3-23-Enchantment",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "type": "Enchantment",
    "count": 3
   },
   {
-   "id": "azula-23-Artifact",
-   "list_id": "azula-23",
+   "id": "azula-r3-23-Artifact",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "type": "Artifact",
    "count": 10
   },
   {
-   "id": "azula-23-Land",
-   "list_id": "azula-23",
+   "id": "azula-r3-23-Land",
+   "list_id": "azula-r3-23",
    "deck": "Azula",
    "type": "Land",
    "count": 36
   },
   {
-   "id": "azula-34-Creature",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-Creature",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "type": "Creature",
    "count": 11
   },
   {
-   "id": "azula-34-Instant",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-Instant",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "type": "Instant",
    "count": 35
   },
   {
-   "id": "azula-34-Sorcery",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-Sorcery",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "type": "Sorcery",
    "count": 6
   },
   {
-   "id": "azula-34-Enchantment",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-Enchantment",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "type": "Enchantment",
    "count": 3
   },
   {
-   "id": "azula-34-Artifact",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-Artifact",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "type": "Artifact",
    "count": 10
   },
   {
-   "id": "azula-34-Land",
-   "list_id": "azula-34",
+   "id": "azula-r3-34-Land",
+   "list_id": "azula-r3-34",
    "deck": "Azula",
    "type": "Land",
    "count": 36
   },
   {
-   "id": "azula-39-Creature",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-Creature",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "type": "Creature",
    "count": 14
   },
   {
-   "id": "azula-39-Instant",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-Instant",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "type": "Instant",
    "count": 32
   },
   {
-   "id": "azula-39-Sorcery",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-Sorcery",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "type": "Sorcery",
    "count": 6
   },
   {
-   "id": "azula-39-Enchantment",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-Enchantment",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "type": "Enchantment",
    "count": 3
   },
   {
-   "id": "azula-39-Artifact",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-Artifact",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "type": "Artifact",
    "count": 10
   },
   {
-   "id": "azula-39-Land",
-   "list_id": "azula-39",
+   "id": "azula-r3-39-Land",
+   "list_id": "azula-r3-39",
    "deck": "Azula",
    "type": "Land",
    "count": 36
   },
   {
-   "id": "azula-44-Creature",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-Creature",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "type": "Creature",
    "count": 14
   },
   {
-   "id": "azula-44-Instant",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-Instant",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "type": "Instant",
    "count": 32
   },
   {
-   "id": "azula-44-Sorcery",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-Sorcery",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "type": "Sorcery",
    "count": 6
   },
   {
-   "id": "azula-44-Enchantment",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-Enchantment",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "type": "Enchantment",
    "count": 3
   },
   {
-   "id": "azula-44-Artifact",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-Artifact",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "type": "Artifact",
    "count": 10
   },
   {
-   "id": "azula-44-Land",
-   "list_id": "azula-44",
+   "id": "azula-r3-44-Land",
+   "list_id": "azula-r3-44",
    "deck": "Azula",
    "type": "Land",
    "count": 36
   },
   {
-   "id": "azula-53-Creature",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Creature",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "type": "Creature",
    "count": 15
   },
   {
-   "id": "azula-53-Instant",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Instant",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "type": "Instant",
    "count": 32
   },
   {
-   "id": "azula-53-Sorcery",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Sorcery",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "type": "Sorcery",
    "count": 5
   },
   {
-   "id": "azula-53-Enchantment",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Enchantment",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "type": "Enchantment",
    "count": 2
   },
   {
-   "id": "azula-53-Artifact",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Artifact",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "type": "Artifact",
    "count": 10
   },
   {
-   "id": "azula-53-Planeswalker",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Planeswalker",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "type": "Planeswalker",
    "count": 1
   },
   {
-   "id": "azula-53-Land",
-   "list_id": "azula-53",
+   "id": "azula-r3-53-Land",
+   "list_id": "azula-r3-53",
    "deck": "Azula",
    "type": "Land",
    "count": 36
   },
   {
-   "id": "toph-0-Creature",
-   "list_id": "toph-0",
+   "id": "azula-r4-0-Creature",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "type": "Creature",
+   "count": 10
+  },
+  {
+   "id": "azula-r4-0-Instant",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "type": "Instant",
+   "count": 35
+  },
+  {
+   "id": "azula-r4-0-Sorcery",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "type": "Sorcery",
+   "count": 6
+  },
+  {
+   "id": "azula-r4-0-Enchantment",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "type": "Enchantment",
+   "count": 4
+  },
+  {
+   "id": "azula-r4-0-Artifact",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "type": "Artifact",
+   "count": 10
+  },
+  {
+   "id": "azula-r4-0-Land",
+   "list_id": "azula-r4-0",
+   "deck": "Azula",
+   "type": "Land",
+   "count": 36
+  },
+  {
+   "id": "azula-r4-15-Creature",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "type": "Creature",
+   "count": 11
+  },
+  {
+   "id": "azula-r4-15-Instant",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "type": "Instant",
+   "count": 34
+  },
+  {
+   "id": "azula-r4-15-Sorcery",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "type": "Sorcery",
+   "count": 6
+  },
+  {
+   "id": "azula-r4-15-Enchantment",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "type": "Enchantment",
+   "count": 4
+  },
+  {
+   "id": "azula-r4-15-Artifact",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "type": "Artifact",
+   "count": 10
+  },
+  {
+   "id": "azula-r4-15-Land",
+   "list_id": "azula-r4-15",
+   "deck": "Azula",
+   "type": "Land",
+   "count": 36
+  },
+  {
+   "id": "azula-r4-18-Creature",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "type": "Creature",
+   "count": 11
+  },
+  {
+   "id": "azula-r4-18-Instant",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "type": "Instant",
+   "count": 34
+  },
+  {
+   "id": "azula-r4-18-Sorcery",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "type": "Sorcery",
+   "count": 6
+  },
+  {
+   "id": "azula-r4-18-Enchantment",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "type": "Enchantment",
+   "count": 4
+  },
+  {
+   "id": "azula-r4-18-Artifact",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "type": "Artifact",
+   "count": 10
+  },
+  {
+   "id": "azula-r4-18-Land",
+   "list_id": "azula-r4-18",
+   "deck": "Azula",
+   "type": "Land",
+   "count": 36
+  },
+  {
+   "id": "azula-r4-24-Creature",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "type": "Creature",
+   "count": 12
+  },
+  {
+   "id": "azula-r4-24-Instant",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "type": "Instant",
+   "count": 31
+  },
+  {
+   "id": "azula-r4-24-Sorcery",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "type": "Sorcery",
+   "count": 7
+  },
+  {
+   "id": "azula-r4-24-Enchantment",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "type": "Enchantment",
+   "count": 5
+  },
+  {
+   "id": "azula-r4-24-Artifact",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "type": "Artifact",
+   "count": 10
+  },
+  {
+   "id": "azula-r4-24-Land",
+   "list_id": "azula-r4-24",
+   "deck": "Azula",
+   "type": "Land",
+   "count": 36
+  },
+  {
+   "id": "azula-r4-27-Creature",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "type": "Creature",
+   "count": 13
+  },
+  {
+   "id": "azula-r4-27-Instant",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "type": "Instant",
+   "count": 28
+  },
+  {
+   "id": "azula-r4-27-Sorcery",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "type": "Sorcery",
+   "count": 8
+  },
+  {
+   "id": "azula-r4-27-Enchantment",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "type": "Enchantment",
+   "count": 5
+  },
+  {
+   "id": "azula-r4-27-Artifact",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "type": "Artifact",
+   "count": 11
+  },
+  {
+   "id": "azula-r4-27-Land",
+   "list_id": "azula-r4-27",
+   "deck": "Azula",
+   "type": "Land",
+   "count": 36
+  },
+  {
+   "id": "azula-r4-35-Creature",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "type": "Creature",
+   "count": 16
+  },
+  {
+   "id": "azula-r4-35-Instant",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "type": "Instant",
+   "count": 27
+  },
+  {
+   "id": "azula-r4-35-Sorcery",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "type": "Sorcery",
+   "count": 5
+  },
+  {
+   "id": "azula-r4-35-Enchantment",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "type": "Enchantment",
+   "count": 4
+  },
+  {
+   "id": "azula-r4-35-Artifact",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "type": "Artifact",
+   "count": 13
+  },
+  {
+   "id": "azula-r4-35-Land",
+   "list_id": "azula-r4-35",
+   "deck": "Azula",
+   "type": "Land",
+   "count": 36
+  },
+  {
+   "id": "azula-r4-40-Creature",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "type": "Creature",
+   "count": 18
+  },
+  {
+   "id": "azula-r4-40-Instant",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "type": "Instant",
+   "count": 26
+  },
+  {
+   "id": "azula-r4-40-Sorcery",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "type": "Sorcery",
+   "count": 5
+  },
+  {
+   "id": "azula-r4-40-Enchantment",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "type": "Enchantment",
+   "count": 4
+  },
+  {
+   "id": "azula-r4-40-Artifact",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "type": "Artifact",
+   "count": 12
+  },
+  {
+   "id": "azula-r4-40-Land",
+   "list_id": "azula-r4-40",
+   "deck": "Azula",
+   "type": "Land",
+   "count": 36
+  },
+  {
+   "id": "azula-r4-44-Creature",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "type": "Creature",
+   "count": 19
+  },
+  {
+   "id": "azula-r4-44-Instant",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "type": "Instant",
+   "count": 25
+  },
+  {
+   "id": "azula-r4-44-Sorcery",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "type": "Sorcery",
+   "count": 5
+  },
+  {
+   "id": "azula-r4-44-Enchantment",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "type": "Enchantment",
+   "count": 5
+  },
+  {
+   "id": "azula-r4-44-Artifact",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "type": "Artifact",
+   "count": 10
+  },
+  {
+   "id": "azula-r4-44-Land",
+   "list_id": "azula-r4-44",
+   "deck": "Azula",
+   "type": "Land",
+   "count": 36
+  },
+  {
+   "id": "toph-r2-0-Creature",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "type": "Creature",
    "count": 20
   },
   {
-   "id": "toph-0-Instant",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-Instant",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "type": "Instant",
    "count": 14
   },
   {
-   "id": "toph-0-Sorcery",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-Sorcery",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "type": "Sorcery",
    "count": 5
   },
   {
-   "id": "toph-0-Enchantment",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-Enchantment",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "type": "Enchantment",
    "count": 8
   },
   {
-   "id": "toph-0-Artifact",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-Artifact",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "type": "Artifact",
    "count": 19
   },
   {
-   "id": "toph-0-Planeswalker",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-Planeswalker",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "type": "Planeswalker",
    "count": 1
   },
   {
-   "id": "toph-0-Land",
-   "list_id": "toph-0",
+   "id": "toph-r2-0-Land",
+   "list_id": "toph-r2-0",
    "deck": "Toph",
    "type": "Land",
    "count": 35
   },
   {
-   "id": "toph-11-Creature",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Creature",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "type": "Creature",
    "count": 17
   },
   {
-   "id": "toph-11-Instant",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Instant",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "type": "Instant",
    "count": 15
   },
   {
-   "id": "toph-11-Sorcery",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Sorcery",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "type": "Sorcery",
    "count": 6
   },
   {
-   "id": "toph-11-Enchantment",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Enchantment",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "type": "Enchantment",
    "count": 8
   },
   {
-   "id": "toph-11-Artifact",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Artifact",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "type": "Artifact",
    "count": 20
   },
   {
-   "id": "toph-11-Planeswalker",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Planeswalker",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "type": "Planeswalker",
    "count": 1
   },
   {
-   "id": "toph-11-Land",
-   "list_id": "toph-11",
+   "id": "toph-r3-11-Land",
+   "list_id": "toph-r3-11",
    "deck": "Toph",
    "type": "Land",
    "count": 35
   },
   {
-   "id": "toph-21-Creature",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Creature",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "type": "Creature",
    "count": 19
   },
   {
-   "id": "toph-21-Instant",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Instant",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "type": "Instant",
    "count": 14
   },
   {
-   "id": "toph-21-Sorcery",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Sorcery",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "type": "Sorcery",
    "count": 6
   },
   {
-   "id": "toph-21-Enchantment",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Enchantment",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "type": "Enchantment",
    "count": 8
   },
   {
-   "id": "toph-21-Artifact",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Artifact",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "type": "Artifact",
    "count": 20
   },
   {
-   "id": "toph-21-Planeswalker",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Planeswalker",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "type": "Planeswalker",
    "count": 1
   },
   {
-   "id": "toph-21-Land",
-   "list_id": "toph-21",
+   "id": "toph-r3-21-Land",
+   "list_id": "toph-r3-21",
    "deck": "Toph",
    "type": "Land",
    "count": 35
   },
   {
-   "id": "toph-30-Creature",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Creature",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "type": "Creature",
    "count": 22
   },
   {
-   "id": "toph-30-Instant",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Instant",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "type": "Instant",
    "count": 12
   },
   {
-   "id": "toph-30-Sorcery",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Sorcery",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "type": "Sorcery",
    "count": 5
   },
   {
-   "id": "toph-30-Enchantment",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Enchantment",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "type": "Enchantment",
    "count": 8
   },
   {
-   "id": "toph-30-Artifact",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Artifact",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "type": "Artifact",
    "count": 20
   },
   {
-   "id": "toph-30-Planeswalker",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Planeswalker",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "type": "Planeswalker",
    "count": 1
   },
   {
-   "id": "toph-30-Land",
-   "list_id": "toph-30",
+   "id": "toph-r3-30-Land",
+   "list_id": "toph-r3-30",
    "deck": "Toph",
    "type": "Land",
    "count": 35
   },
   {
-   "id": "toph-32-Creature",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Creature",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "type": "Creature",
    "count": 22
   },
   {
-   "id": "toph-32-Instant",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Instant",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "type": "Instant",
    "count": 12
   },
   {
-   "id": "toph-32-Sorcery",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Sorcery",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "type": "Sorcery",
    "count": 6
   },
   {
-   "id": "toph-32-Enchantment",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Enchantment",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "type": "Enchantment",
    "count": 8
   },
   {
-   "id": "toph-32-Artifact",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Artifact",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "type": "Artifact",
    "count": 18
   },
   {
-   "id": "toph-32-Planeswalker",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Planeswalker",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "type": "Planeswalker",
    "count": 1
   },
   {
-   "id": "toph-32-Land",
-   "list_id": "toph-32",
+   "id": "toph-r3-32-Land",
+   "list_id": "toph-r3-32",
    "deck": "Toph",
    "type": "Land",
    "count": 35
