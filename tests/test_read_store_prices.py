@@ -161,6 +161,12 @@ def test_wishlist_names_come_from_the_wishlist_table_only():
     assert mod.wishlist_names(text) == ["Infernal Grasp", "Jeska's Will"]
 
 
+def test_wishlist_names_drop_the_markdown_marks_of_the_experts():
+    text = ("## Wishlist\n| Card | Role |\n|---|---|\n| **Fact or Fiction** | draw |\n| * Embercleave | win |\n"
+            "| Copperline Gorge * | land |\n| `Mana Drain` (GC) | counter |\n")
+    assert mod.wishlist_names(text) == ["Fact or Fiction", "Embercleave", "Copperline Gorge", "Mana Drain"]
+
+
 def test_new_names_are_the_targets_the_newest_merged_file_did_not_request():
     import json
     import tempfile

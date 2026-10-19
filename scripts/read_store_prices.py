@@ -95,7 +95,8 @@ WISHLIST_HEAD_RE = re.compile(r"^##\s+Wishlist", re.I)
 
 
 def wishlist_names(text):
-    """Card names of the `## Wishlist` table of a proposal report (first column; a note in parentheses is dropped)."""
+    """Card names of the `## Wishlist` table of a proposal report (first column; a note in parentheses is dropped,
+    and so are the markdown marks the experts use to flag the cards whose price matters: bold, a star, backticks)."""
     names, inside = [], False
     for line in text.splitlines():
         if line.startswith("## "):
@@ -103,7 +104,8 @@ def wishlist_names(text):
             continue
         if not inside or not line.startswith("|"):
             continue
-        cell = re.sub(r"\s*\([^)]*\)\s*$", "", line.strip().strip("|").split("|")[0].strip())
+        cell = line.strip().strip("|").split("|")[0].replace("*", "").replace("`", "").strip()
+        cell = re.sub(r"\s*\([^)]*\)\s*$", "", cell).strip()
         if cell and cell.lower() != "card" and not set(cell) <= set("-: "):
             names.append(cell)
     return names

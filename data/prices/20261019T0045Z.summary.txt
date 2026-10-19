@@ -1,0 +1,706 @@
+Stores
+  magic4ever: {'cards_searched': 81, 'offers': 237}
+  cardnexus: {'cards_searched': 81, 'offers': 366}
+  lacomarca: {'products_read': 15096, 'products_count_reported': 17367, 'offers': 820, 'truncated': False}
+  piedrabruja: {'products_read': 2070, 'products_count_reported': 2209, 'offers': 31, 'truncated': False}
+  afkstore: {'error': 'RuntimeError: HTTP 429 three times: stopping this store'}
+
+Cards requested: 694; with at least one available offer: 392; with none: 302
+
+Cards with no available offer (English or Spanish, NM or LP):
+  Abandoned Air Temple
+  Aboleth Spawn
+  Abzan Falconer
+  Aggravated Assault
+  Agitator Ant
+  Akki Battle Squad
+  Akroma's Will
+  All Will Be One
+  Amphibian Downpour
+  Anger
+  Aqueous Form
+  Arcane Heist
+  Archmage of Runes
+  Arena of Glory
+  Ashaya, Soul of the Wild
+  Ashling, Flame Dancer
+  Ashnod's Altar
+  Avatar Roku, Firebender
+  Avatar's Wrath
+  Avenger of Zendikar
+  Azula, Cunning Usurper
+  Badgermole Cub
+  Battlefield Forge
+  Bender's Waterskin
+  Birgi, God of Storytelling
+  Black Waltz No. 3
+  Bladegraft Aspirant
+  Blasphemous Act
+  Blazemire Verge
+  Blazing Firesinger
+  Blightstep Pathway
+  Bolt Bend
+  Bootleggers' Stash
+  Bountiful Promenade
+  Branching Evolution
+  Brass Squire
+  Brazen Borrower
+  Brightglass Gearhulk
+  Bulk Up
+  Bumi, Eclectic Earthbender
+  Buster Sword
+  Cabal Ritual
+  Callidus Assassin
+  Castle Embereth
+  Cataclysmic Gearhulk
+  Champion's Helm
+  Changing Loyalty
+  Chaos Warp
+  Cinder Glade
+  City of Brass
+  City of Traitors
+  Clifftop Retreat
+  Combat Celebrant
+  Command Beacon
+  Commander's Plate
+  Concordant Crossroads
+  Consider
+  Constant Mists
+  Count on Luck
+  Crackle with Power
+  Crawlspace
+  Crimson Wisps
+  Crucible of Worlds
+  Crumbling Necropolis
+  Culling the Weak
+  Cunning Nightbonder
+  Curse of Opulence
+  Dark Ritual
+  Darksteel Plate
+  Deadly Rollick
+  Defense Grid
+  Delayed Blast Fireball
+  Demand Answers
+  Demolition Field
+  Demonic Tutor
+  Desperate Ritual
+  Disciple of Freyalise
+  Dispatch
+  Dune Chanter
+  Dwarven Miner
+  Earthbender Ascension
+  Earthbending Student
+  Earthshape
+  Eldrazi Monument
+  Electro, Assaulting Battery
+  Elvish Reclaimer
+  Enduring Curiosity
+  Energy Refractor
+  Enlightened Tutor
+  Errantry
+  Etali, Primal Storm
+  Evolution Sage
+  Experimental Augury
+  Exploration Broodship
+  Faithless Looting
+  Fated Firepower
+  Fellwar Stone
+  Fiendish Duo
+  Fierce Guardianship
+  Fire Lord Azula
+  Fire Nation Palace
+  Fire-Lit Thicket
+  Firebending Student
+  Foreboding Ruins
+  Forgotten Cave
+  Frantic Search
+  Freya Crescent
+  Frostcliff Siege
+  Furnace of Rath
+  Fíli and Kíli, Joyous
+  Genji Glove
+  Gilgamesh, Master-at-Arms
+  Goblin Engineer
+  Goblin Welder
+  Gogo, Mysterious Mime
+  Grafdigger's Cage
+  Graven Cairns
+  Green Sun's Zenith
+  Gruul Turf
+  Hammer of Nazahn
+  Hardened Scales
+  Harrow
+  Haywire Mite
+  Hexing Squelcher
+  Hexplate Wallbreaker
+  Hullbreaker Horror
+  Hydroelectric Specimen
+  Ichor Wellspring
+  Increasing Vengeance
+  Inspiring Call
+  Inventors' Fair
+  Invoke Calamity
+  Izzet Signet
+  Jeska's Will
+  Jeska, Thrice Reborn
+  Jetmir's Garden
+  Kess, Dissident Mage
+  Kolaghan's Command
+  Komainu Battle Armor
+  Koth, the Geomancer
+  Krosan Verge
+  Kutzil, Malamet Exemplar
+  Lavaspur Boots
+  Leadership Vacuum
+  Lembas
+  Leyline of Anticipation
+  Lizard Blades
+  Loading Zone
+  Lotus Cobra
+  Lumbering Worldwagon
+  Luxior, Giada's Gift
+  Luxury Suite
+  Magnetic Theft
+  Mai and Zuko
+  Mana Geyser
+  Mask of Memory
+  Maximus, Knight Apparent
+  Maze of Ith
+  Merfolk Trickster
+  Might of the Meek
+  Mines of Moria
+  Mishra's Bauble
+  Mjölnir, Hammer of Thor
+  Mjölnir, Storm Hammer
+  Mocking Doppelganger
+  Moonsilver Spear
+  Morphic Pool
+  Mossfire Valley
+  Mox Opal
+  Mycosynth Lattice
+  Mycosynth Wellspring
+  Mystic Remora
+  Neheb, the Eternal
+  Observed Stasis
+  Omnath, Locus of Rage
+  Ondu Inversion
+  Otawara, Soaring City
+  Overpowering Attack
+  Ozai, the Phoenix King
+  Path of Ancestry
+  Peter Parker's Camera
+  Phyrexian Arena
+  Pinnacle Monk
+  Pip-Boy 3000
+  Planar Cleansing
+  Planar Outburst
+  Plateau
+  Prismari Command
+  Prismatic Omen
+  Prized Statue
+  Professional Face-Breaker
+  Prying Blade
+  Rakdos Charm
+  Rampaging Baloths
+  Rampant Growth
+  Raubahn, Bull of Ala Mhigo
+  Red Elemental Blast
+  Redirect
+  Repercussion
+  Resourceful Defense
+  Return the Favor
+  Rite of Flame
+  Rite of Passage
+  Rogue's Gloves
+  Ruby Medallion
+  Sabotender
+  Sandstone Needle
+  Sazacap's Brew
+  Scute Swarm
+  Secret Tunnel
+  Sedgemoor Witch
+  Seething Song
+  Shadowblood Ridge
+  Shivan Reef
+  Silver Shroud Costume
+  Sleeper Dart
+  Slicer, Hired Muscle
+  Snap
+  Snapcaster Mage
+  Sokenzan, Crucible of Defiance
+  Sozin's Comet
+  Spectacular Showdown
+  Spectator Seating
+  Spellseeker
+  Spelunking
+  Spinerock Knoll
+  Stormcatch Mentor
+  Stranglehold
+  Strionic Resonator
+  Stroke of Midnight
+  Sulfurous Springs
+  Sunbillow Verge
+  Sunken Ruins
+  Sunpetal Grove
+  Sunspine Lynx
+  Survivors' Encampment
+  Swan Song
+  Swiftfoot Boots
+  Sword of Hearth and Home
+  Sylvan Safekeeper
+  Taiga
+  Tale of Katara and Toph
+  Talisman of Dominance
+  Talisman of Impulse
+  Talisman of Indulgence
+  Talon Gates of Madara
+  Tamiyo's Journal
+  Tamiyo's Safekeeping
+  Tannuk, Memorial Ensign
+  Terminate
+  Terra Eternal
+  Terrasymbiosis
+  Tezzeret, Cruel Captain
+  The Echoverse Fulcrum
+  The Mycosynth Gardens
+  The Ozolith
+  The Reaver Cleaver
+  The Sound of Drums
+  The Stasis Coffin
+  Thorin, Mountain-king
+  Three Visits
+  Tidal Barracuda
+  Tireless Provisioner
+  Titania, Protector of Argoth
+  Toph, Greatest Earthbender
+  Toph, the Blind Bandit
+  Toph, the First Metalbender
+  Torment of Hailfire
+  Tormod's Crypt
+  Toski, Bearer of Secrets
+  Toxic Deluge
+  Training Center
+  Treasonous Ogre
+  Treasure Nabber
+  Tree of Tales
+  Underground River
+  Unexpected Windfall
+  Unleash Fury
+  Untimely Malfunction
+  Urabrask
+  Urza's Saga
+  V.A.T.S.
+  Valakut Awakening
+  Valakut, the Molten Pinnacle
+  Valley Floodcaller
+  Vendilion Clique
+  Vengeful Ancestor
+  Vexing Bauble
+  Veyran, Voice of Duality
+  Vivi Ornitier
+  Vivi's Persistence
+  Volcanic Island
+  Waterlogged Teachings
+  Wheel of Fortune
+  Wild Magic Surge
+  Winged Boots
+  Witch's Clinic
+  Withering Torment
+  World Map
+  Yavimaya, Cradle of Growth
+  Zuko, Firebending Master
+  Zuran Orb
+
+Cheapest available offer per card (any finish):
+  Abandon Attachments: 350 CLP at piedrabruja (en, NM, nonfoil, match exact)
+  Abrade: 450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Abstergo Entertainment: 5500 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Alexios, Deimos of Kosmos: 1000 CLP at lacomarca (en, NM, foil, match exact)
+  All-Fates Scroll: 700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Amulet of Vigor: 77150 CLP at lacomarca (en, NM, nonfoil, match exact)
+  An Offer You Can't Refuse: 6250 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Ancient Den: 3850 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Ancient Tomb: 201450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Anger of the Gods: 800 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Annie Joins Up: 6850 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Anticipate: 450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Arboreal Grazer: 450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Arcane Denial: 3750 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Arcane Signet: 24950 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Arcbound Ravager: 4400 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Archmage Emeritus: 4350 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Argentum Armor: 4790 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Arid Mesa: 65600 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Avatar Kyoshi, Earthbender: 26050 CLP at lacomarca (en, NM, foil, match exact)
+  Azusa, Lost but Seeking: 24000 CLP at lacomarca (en, NM, foil, match exact)
+  Ba Sing Se: 8050 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Badgermole: 350 CLP at piedrabruja (en, NM, nonfoil, match exact)
+  Baral, Chief of Compliance: 5390 CLP at cardnexus (es, LP, nonfoil, match exact)
+  Baxter Building: 700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Beamtown Beatstick: 1150 CLP at lacomarca (es, NM, foil, match exact)
+  Beast Within: 9150 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Bedlam: 1700 CLP at lacomarca (en, NM, nonfoil, match loose)
+  Big Score: 1450 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Birds of Paradise: 18500 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Bitter Triumph: 1200 CLP at lacomarca (en, NM, foil, match exact)
+  Bitter Work: 700 CLP at lacomarca (en, NM, foil, match exact)
+  Bitterthorn, Nissa's Animus: 20550 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Black Market Connections: 21750 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Blackblade Reforged: 4090 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Blood Crypt: 14800 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Bloodstained Mire: 30350 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Bojuka Bog: 2300 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Boompile: 2000 CLP at lacomarca (en, NM, foil, match exact)
+  Borne Upon a Wind: 47200 CLP at lacomarca (en, NM, foil, match exact)
+  Boros Charm: 13650 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Boros Garrison: 550 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Boseiju, Who Endures: 67990 CLP at cardnexus (es, NM, nonfoil, match exact)
+  Brainstorm: 3100 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Brash Taunter: 5850 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Bridgeworks Battle: 4200 CLP at lacomarca (en, NM, foil, match exact)
+  Bristly Bill, Spine Sower: 58750 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Brotherhood Regalia: 45850 CLP at lacomarca (en, NM, etched, match exact)
+  Brushland: 6450 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Bumi, Unleashed: 8050 CLP at lacomarca (en, NM, foil, match exact)
+  Buried Ruin: 2300 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Canopy Vista: 2700 CLP at lacomarca (en, NM, foil, match exact)
+  Cascade Bluffs: 3350 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Cavern of Souls: 77350 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Chandra's Ignition: 35550 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Choked Estuary: 2050 CLP at lacomarca (en, NM, foil, match exact)
+  Chord of Calling: 9990 CLP at cardnexus (en, LP, nonfoil, match exact)
+  Chromatic Lantern: 21150 CLP at lacomarca (en, NM, foil, match exact)
+  Clearwater Pathway: 8500 CLP at lacomarca (en, NM, foil, match exact)
+  Comet Storm: 4950 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Command Tower: 4500 CLP at lacomarca (en, NM, foil, match exact)
+  Commander's Sphere: 500 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Commence the Endgame: 500 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Copperline Gorge: 1759 CLP at piedrabruja (es, NM, nonfoil, match exact)
+  Cormela, Glamour Thief: 700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Cosmic Cube: 19650 CLP at lacomarca (en, NM, foil, match exact)
+  Counterspell: 5650 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Cracked Earth Technique: 9150 CLP at lacomarca (en, NM, foil, match exact)
+  Craterhoof Behemoth: 36000 CLP at lacomarca (en, LP, nonfoil, match exact)
+  Crop Rotation: 6100 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Cultivate: 6850 CLP at lacomarca (en, NM, etched, match exact)
+  Cursed Mirror: 7600 CLP at lacomarca (en, NM, foil, match exact)
+  Cycle of Renewal: 500 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Cyclonic Rift: 46650 CLP at lacomarca (en, LP, nonfoil, match exact)
+  Dancing from Dark to Dawn: 11100 CLP at lacomarca (en, NM, foil, match exact)
+  Darksteel Citadel: 2300 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Darkwater Catacombs: 1700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Day of Black Sun: 4100 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Deadly Dispute: 1650 CLP at lacomarca (en, NM, foil, match exact)
+  Deflecting Swat: 147500 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Dig Through Time: 1700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Dimir Signet: 2200 CLP at lacomarca (es, LP, nonfoil, match exact)
+  Dismember: 4150 CLP at lacomarca (es, LP, nonfoil, match exact)
+  Disrupt Decorum: 7550 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Dolmen Gate: 39500 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Dragon's Rage Channeler: 2300 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Dragonskull Summit: 5700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Dramatic Reversal: 3900 CLP at lacomarca (en, NM, foil, match exact)
+  Drowned Catacomb: 4300 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Dryad of the Ilysian Grove: 24200 CLP at lacomarca (es, NM, foil, match exact)
+  Dualcaster Mage: 6200 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Dwarven Mauler: 700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Earth Kingdom General: 700 CLP at lacomarca (en, NM, foil, match exact)
+  Earth Rumble: 350 CLP at piedrabruja (en, NM, nonfoil, match loose)
+  Earthbending Lesson: 350 CLP at piedrabruja (en, NM, nonfoil, match exact)
+  Electrodominance: 3650 CLP at lacomarca (en, NM, foil, match exact)
+  Electrolyze: 700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Elemental Teachings: 1700 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Embercleave: 9990 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Emergence Zone: 6250 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Emeritus of Truce: 3600 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Emeritus of Woe: 20000 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Entish Restoration: 15250 CLP at lacomarca (en, NM, foil, match exact)
+  Epic Downfall: 700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Erode: 12350 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Ertai Resurrected: 1290 CLP at cardnexus (es, NM, nonfoil, match exact)
+  Esper Sentinel: 124500 CLP at lacomarca (en, NM, foil, match exact)
+  Eternal Witness: 2490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Everflowing Chalice: 650 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Evolving Wilds: 350 CLP at piedrabruja (en, NM, nonfoil, match exact)
+  Exotic Orchard: 1700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Expedition Map: 8950 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Experimental Synthesizer: 650 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Exsanguinate: 1550 CLP at lacomarca (en, NM, foil, match exact)
+  Fabled Passage: 6100 CLP at lacomarca (en, LP, foil, match exact)
+  Fact or Fiction: 300 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Faerie Mastermind: 19850 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Farseek: 2850 CLP at lacomarca (en, NM, foil, match exact)
+  Fateful Absence: 490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Fateful Showdown: 1700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Feed the Swarm: 1450 CLP at lacomarca (en, NM, foil, match exact)
+  Felidar Retreat: 2650 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Fell the Profane: 8450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Field of the Dead: 43800 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Fiery Confluence: 1090 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Fire Covenant: 17990 CLP at cardnexus (en, NM, foil, match exact)
+  Fire Diamond: 250 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Firebender Ascension: 3050 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Fishing Gear: 11779 CLP at piedrabruja (en, NM, nonfoil, match exact)
+  Fists of Flame: 550 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Flashback: 6450 CLP at lacomarca (en, NM, foil, match exact)
+  Flawless Maneuver: 14990 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Flooded Strand: 24750 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Flusterstorm: 7190 CLP at cardnexus (es, LP, nonfoil, match exact)
+  Force of Negation: 80550 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Formidable Speaker: 39750 CLP at lacomarca (en, NM, foil, match exact)
+  Fortified Village: 500 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Foundry Inspector: 650 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Frostboil Snarl: 482 CLP at piedrabruja (en, NM, nonfoil, match exact)
+  Fury: 450 CLP at lacomarca (en, NM, nonfoil, match loose)
+  Furycalm Snarl: 590 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Gamble: 28050 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Game Trail: 500 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Gateway Plaza: 450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Gavony Township: 5690 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Geier Reach Sanitarium: 4300 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Gemstone Caverns: 116650 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Generous Gift: 1700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Get Lost: 6200 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Getaway Barrel: 481 CLP at piedrabruja (en, NM, foil, match exact)
+  Glamdring, Foe-hammer: 1700 CLP at lacomarca (en, NM, foil, match exact)
+  Gloomlake Verge: 17500 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Goblin Bombardment: 4490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Goblin Electromancer: 450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Godo, Bandit Warlord: 1900 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Goldspan Dragon: 57990 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Goldvein Pick: 250 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Grafted Wargear: 700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Great Divide Guide: 3900 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Great Furnace: 4411 CLP at piedrabruja (en, NM, nonfoil, match exact)
+  Grim Reaper's Sprint: 11650 CLP at lacomarca (en, NM, foil, match exact)
+  Gruul Signet: 700 CLP at lacomarca (en, LP, nonfoil, match exact)
+  Guttersnipe: 700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Hanweir Battlements: 3100 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Harmonize: 383 CLP at piedrabruja (en, NM, nonfoil, match exact)
+  Haru, Hidden Talent: 700 CLP at lacomarca (en, NM, foil, match exact)
+  Haste Magic: 550 CLP at lacomarca (en, NM, foil, match exact)
+  Haunted Ridge: 13750 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Heaped Harvest: 450 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Heartless Act: 700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Helm of the Host: 11600 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Heroic Intervention: 15500 CLP at lacomarca (en, NM, nonfoil, match exact)
+  High Fae Trickster: 11200 CLP at lacomarca (en, NM, foil, match exact)
+  Hour of Revelation: 4100 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Hushwood Verge: 13500 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Imperial Recruiter: 20450 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Impulse: 450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Infernal Grasp: 890 CLP at cardnexus (es, NM, nonfoil, match exact)
+  Infiltration Lens: 2700 CLP at lacomarca (es, LP, nonfoil, match exact)
+  Inspiring Vantage: 5000 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Instant Ramen: 450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Inti, Seneschal of the Sun: 3100 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Into the Flood Maw: 3850 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Iron Myr: 1250 CLP at lacomarca (en, LP, nonfoil, match exact)
+  Isochron Scepter: 25300 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Jungle Shrine: 700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Kamahl's Will: 1700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Karplusan Forest: 2050 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Kediss, Emberclaw Familiar: 17450 CLP at lacomarca (en, NM, foil, match exact)
+  Kessig Flamebreather: 7590 CLP at cardnexus (es, NM, foil, match exact)
+  Kiki-Jiki, Mirror Breaker: 18600 CLP at lacomarca (en, LP, nonfoil, match exact)
+  Kodama's Reach: 3850 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Lightning Bolt: 1600 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Lightning Greaves: 22000 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Lightning Strike: 450 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Liquimetal Coating: 700 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Liquimetal Torque: 4200 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Lithoform Engine: 11050 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Lotus Field: 16200 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Lotus Petal: 61000 CLP at lacomarca (en, NM, etched, match exact)
+  Maestros Theater: 600 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Magda, Brazen Outlaw: 30500 CLP at lacomarca (en, NM, foil, match exact)
+  Magic Damper: 482 CLP at piedrabruja (en, NM, foil, match exact)
+  Magus of the Wheel: 2250 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Malakir Rebirth: 21100 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Mana Confluence: 42500 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Mana Drain: 83990 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Mana Leak: 490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Mana Sculpt: 2350 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Marketback Walker: 1700 CLP at lacomarca (en, NM, foil, match exact)
+  Marsh Flats: 50050 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Memory Deluge: 1700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Merchant Scroll: 7850 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Mind Stone: 650 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Mindslaver: 7350 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Misty Rainforest: 57950 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Mithril Coat: 64050 CLP at lacomarca (en, NM, foil, match exact)
+  Mossborn Hydra: 20900 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Mox Amber: 108990 CLP at cardnexus (es, NM, nonfoil, match exact)
+  My Precious: 2300 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Myriad Landscape: 6500 CLP at lacomarca (en, NM, foil, match exact)
+  Mystical Teachings: 500 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Narset's Reversal: 4950 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Nature's Claim: 1800 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Nature's Lore: 4600 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Negate: 350 CLP at piedrabruja (es, NM, nonfoil, match exact)
+  Nexus of Fate: 20000 CLP at lacomarca (en, NM, foil, match exact)
+  Nightscape Familiar: 750 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Nissa, Worldsoul Speaker: 1700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Nykthos, Shrine to Nyx: 73673 CLP at piedrabruja (es, NM, nonfoil, match exact)
+  Opt: 750 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Orcish Bowmasters: 68650 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Origin of Metalbending: 383 CLP at piedrabruja (en, NM, nonfoil, match exact)
+  Ornithopter of Paradise: 750 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Oscorp Industries: 1700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Ouroboroid: 57250 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Outpost Siege: 490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Overgrown Farmland: 5450 CLP at lacomarca (en, NM, foil, match exact)
+  Ozolith, the Shattered Spire: 11150 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Past in Flames: 4700 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Path to Exile: 2850 CLP at lacomarca (en, NM, foil, match exact)
+  Patrolling Peacemaker: 3500 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Peek: 950 CLP at lacomarca (es, LP, nonfoil, match exact)
+  Pit of Offerings: 700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Planar Engineering: 2450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Plaza of Heroes: 8490 CLP at cardnexus (es, NM, foil, match exact)
+  Polluted Delta: 32050 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Pongify: 4090 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Powerbalance: 1700 CLP at lacomarca (en, NM, foil, match exact)
+  Prismatic Vista: 46000 CLP at magic4ever (en, NM, etched, match exact)
+  Professor Onyx: 8450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Pyretic Ritual: 9350 CLP at lacomarca (es, LP, nonfoil, match exact)
+  Pyroblast: 5050 CLP at lacomarca (en, LP, nonfoil, match exact)
+  Ragavan, Nimble Pilferer: 67100 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Rakdos Signet: 2100 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Rapid Hybridization: 2090 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Raucous Theater: 18300 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Razorverge Thicket: 5400 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Reckless Handling: 700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Reckless Ransacking: 450 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Redirect Lightning: 39800 CLP at lacomarca (en, NM, foil, match exact)
+  Reforge the Soul: 10750 CLP at lacomarca (en, NM, foil, match exact)
+  Reliquary Tower: 6900 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Resonating Lute: 3550 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Reverberate: 4850 CLP at lacomarca (en, LP, nonfoil, match exact)
+  Rhystic Study: 72000 CLP at magic4ever (en, LP, nonfoil, match exact)
+  Rishkar's Expertise: 6850 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Rite of the Raging Storm: 2100 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Rites of Flourishing: 3600 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Riverglide Pathway: 9150 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Riverpyre Verge: 25800 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Roaming Throne: 67990 CLP at cardnexus (en, NM, foil, match exact)
+  Rockfall Vale: 5350 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Rogue's Passage: 6000 CLP at lacomarca (en, NM, foil, match exact)
+  Rootbound Crag: 3400 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Rugged Prairie: 500 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Rumble Arena: 450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Run Amok: 481 CLP at piedrabruja (en, NM, foil, match exact)
+  Rupture Spire: 350 CLP at piedrabruja (en, NM, nonfoil, match exact)
+  Sacred Foundry: 17250 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Sakura-Tribe Elder: 890 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Savannah: 450 CLP at lacomarca (en, NM, nonfoil, match loose)
+  Scalding Tarn: 56650 CLP at lacomarca (en, LP, nonfoil, match exact)
+  Scavenger Grounds: 1700 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Scavenging Ooze: 490 CLP at cardnexus (es, NM, nonfoil, match exact)
+  Seasoned Pyromancer: 218000 CLP at magic4ever (en, NM, foil, match exact)
+  Seething Landscape: 450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Seismic Sense: 700 CLP at lacomarca (en, NM, foil, match exact)
+  Seize the Spoils: 450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Selesnya Sanctuary: 550 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Selesnya Signet: 1650 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Shared Roots: 1300 CLP at lacomarca (en, NM, foil, match exact)
+  Shatterskull Smashing: 45000 CLP at lacomarca (en, NM, foil, match exact)
+  Sheoldred's Edict: 2200 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Shinka, the Bloodsoaked Keep: 25400 CLP at lacomarca (en, LP, nonfoil, match exact)
+  Shiny Impetus: 450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Shipwreck Marsh: 11000 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Shore Up: 450 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Silent Arbiter: 17000 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Simian Spirit Guide: 3490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Sink into Stupor: 14000 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Skullclamp: 7990 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Skyclave Apparition: 2190 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Slagwoods Bridge: 600 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Slip Out the Back: 5950 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Smoldering Marsh: 33450 CLP at lacomarca (en, NM, foil, match exact)
+  Snuff Out: 9490 CLP at cardnexus (es, NM, nonfoil, match exact)
+  Sol Ring: 20950 CLP at lacomarca (en, NM, foil, match exact)
+  Solemn Simulacrum: 4000 CLP at lacomarca (en, NM, foil, match exact)
+  Solid Ground: 7800 CLP at lacomarca (en, NM, foil, match exact)
+  Solve the Equation: 5390 CLP at cardnexus (es, NM, nonfoil, match exact)
+  Soul-Guide Lantern: 700 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Spire Garden: 12800 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Spitfire Lagac: 450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Springheart Nantuko: 12800 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Steam Vents: 16700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Sticky Fingers: 2600 CLP at lacomarca (en, NM, foil, match exact)
+  Stock Up: 2100 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Stomping Ground: 12000 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Storm-Kiln Artist: 4200 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Stormcarved Coast: 3900 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Stump Stomp: 700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Stunt Double: 6850 CLP at lacomarca (en, LP, nonfoil, match exact)
+  Sulfur Falls: 5650 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Sundering Eruption: 7850 CLP at lacomarca (en, NM, foil, match exact)
+  Sundown Pass: 4490 CLP at cardnexus (en, NM, foil, match exact)
+  Sunken Hollow: 3050 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Survey Mechan: 700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Sword of Feast and Famine: 57050 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Sword of Fire and Ice: 60450 CLP at lacomarca (en, LP, nonfoil, match exact)
+  Sword of Light and Shadow: 14050 CLP at lacomarca (en, NM, foil, match exact)
+  Sword of War and Peace: 14750 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Sword of Wealth and Power: 32250 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Sword of the Animist: 6867 CLP at piedrabruja (es, NM, nonfoil, match exact)
+  Swords to Plowshares: 7450 CLP at lacomarca (en, NM, foil, match exact)
+  Tablet of Discovery: 2500 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Talisman of Creativity: 3900 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Temple Garden: 11600 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Temple of Epiphany: 1700 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Temur Battle Rage: 450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  The Earth Crystal: 18950 CLP at lacomarca (en, NM, nonfoil, match exact)
+  The Key to the Vault: 1267 CLP at piedrabruja (en, NM, foil, match exact)
+  The Last Agni Kai: 8050 CLP at lacomarca (en, NM, foil, match exact)
+  The Legend of Kyoshi: 26450 CLP at lacomarca (en, NM, foil, match exact)
+  The Lonely Mountain: 24050 CLP at lacomarca (en, NM, foil, match exact)
+  The Mind Stone: 142250 CLP at lacomarca (es, NM, foil, match exact)
+  The One Ring: 177200 CLP at lacomarca (en, NM, nonfoil, match exact)
+  The Spear of Leonidas: 3650 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Thor, God of Thunder: 65700 CLP at lacomarca (en, NM, foil, match exact)
+  Thornspire Verge: 10250 CLP at lacomarca (en, NM, foil, match exact)
+  Thought Vessel: 7150 CLP at lacomarca (en, NM, foil, match exact)
+  Thrill of Possibility: 450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Thundering Falls: 24550 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Tibalt's Trickery: 20600 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Tishana's Tidebinder: 4250 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Tome of Legends: 490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Tomik, Distinguished Advokist: 1700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Toph, Earthbending Master: 65000 CLP at lacomarca (en, NM, foil, match exact)
+  Toph, Hardheaded Teacher: 5600 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Torrential Gearhulk: 8100 CLP at lacomarca (en, NM, etched, match exact)
+  Towering Viewpoint: 700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Trailblazer's Boots: 3850 CLP at lacomarca (es, LP, nonfoil, match exact)
+  Trumpeting Carnosaur: 4190 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Twinflame Tyrant: 42600 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Twinning Staff: 23650 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Two-Handed Axe: 2700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Tyrite Sanctum: 5450 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Umezawa's Jitte: 19850 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Undercity Sewers: 15250 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Urborg, Tomb of Yawgmoth: 76850 CLP at lacomarca (en, LP, nonfoil, match exact)
+  Urza's Bauble: 9500 CLP at lacomarca (en, LP, nonfoil, match exact)
+  Vampiric Tutor: 88050 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Vandalblast: 4400 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Vedalken Orrery: 25850 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Venser, Shaper Savant: 990 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Volatile Fault: 700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Wan Shi Tong, Librarian: 56200 CLP at lacomarca (en, NM, nonfoil, match exact)
+  War Room: 10500 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Watery Grave: 15450 CLP at lacomarca (en, LP, nonfoil, match exact)
+  Wayfarer's Bauble: 4250 CLP at lacomarca (en, NM, foil, match exact)
+  Weather Maker: 1700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Wheel of Misfortune: 15500 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Whispersilk Cloak: 3290 CLP at cardnexus (en, LP, nonfoil, match exact)
+  Wilderness Reclamation: 11700 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Windswept Heath: 24850 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Wizard's Staff: 7150 CLP at lacomarca (en, NM, foil, match exact)
+  Wood Elves: 300 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Wooded Bastion: 19990 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Wooded Foothills: 29050 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Wrenn and Realmbreaker: 9950 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Xander's Lounge: 23150 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Zabaz, the Glimmerwasp: 1700 CLP at lacomarca (es, NM, nonfoil, match exact)

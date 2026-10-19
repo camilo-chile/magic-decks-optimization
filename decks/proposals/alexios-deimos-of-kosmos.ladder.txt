@@ -2,47 +2,47 @@
 1 Alexios, Deimos of Kosmos
 
 // Base
+33 Mountain
 1 Rogue's Passage
 1 Buried Ruin
 1 Abstergo Entertainment
-1 Secret Tunnel
-32 Mountain
 1 Sol Ring
 1 Arcane Signet
-1 Mind Stone
-1 Commander's Sphere
 1 Bender's Waterskin
 1 Pristine Talisman
 1 Burnished Hart
 1 Foundry Inspector
+1 Barrels of Blasting Jelly
 1 Swiftfoot Boots
-1 Champion's Helm
 1 Haunted Cloak
 1 Mechanical Glider
 1 Cobbled Wings
 1 Hidden Footblade
 1 Quick-Draw Katana
 1 Kitesail
+1 Meteor Sword
 1 Faithless Looting
-1 Energybending
 1 Wrenn's Resolve
 1 Cathartic Reunion
 1 Zuko, Exiled Prince
 1 Blazing Crescendo
 1 Neonate's Rush
 1 Solstice Revelations
-1 Loyal Fire Sage
+1 Energybending
+1 Brainstone
+1 Mishra's Bauble
+1 Yuyan Archers
+1 Fire Nation Raider
 1 Chaos Warp
-1 Abrade
-1 Zuko's Offense
 1 Misthios's Fury
-1 Explosive Shot
 1 Lava Coil
+1 Explosive Shot
 1 Lightning Strike
 1 Firebending Lesson
 1 Bumi Bash
 1 Command the Storm
 1 Zuko's Exile
+1 Zuko's Offense
 1 Blasphemous Act
 1 Glassworks // Shattered Yard
 1 Origin of the Hidden Ones
@@ -51,71 +51,71 @@
 1 Cunning Maneuver
 1 Iroh, Firebending Instructor
 1 Ticket Booth // Tunnel of Hate
-1 Labyrinth Adversary
-1 Ty Lee, Artful Acrobat
 1 Most Valuable Slayer
+1 Ty Lee, Artful Acrobat
+1 Labyrinth Adversary
 1 Fire Nation Archers
 1 Reckless Fireweaver
 1 Zuko, Avatar Hunter
 1 Towering Viewpoint
 1 Treetop Freedom Fighters
-1 Yuyan Archers
 1 Mongoose Lizard
-1 Brainstone
 1 Kyoshi Battle Fan
 1 Expedite
 1 Jet's Brainwashing
-1 Mishra's Bauble
-1 Fire Nation Raider
 1 Headsplitter
 1 Fire Nation Attacks
-1 Barrels of Blasting Jelly
+1 Loyal Fire Sage
+1 Hidden Blade
+1 Furnace Host Charger
+1 Ran and Shaw
 
 // Ladder
++ Helm of the Host | - Kyoshi Battle Fan | on Alexios a non-legendary hasty Alexios copy every owner turn (copies never attack the owner either); with Godo or Akki infinite combats
++ Godo, Bandit Warlord | - Fire Nation Attacks | enters and puts any Equipment onto the battlefield (Helm, or Meteor Sword as removal); Godo + Helm is the first combo (late two-card, Layer A floor 3)
 + Shiny Impetus | - Kitesail | Treasure on every Alexios attack, every player's turn (about 4 per round), +2/+2; the Aura stays when control changes
-+ Mask of Memory | - Quick-Draw Katana | draw 2, discard 1 on every Alexios hit, every turn: the deck's card engine for equip 1
-+ Beamtown Beatstick | - Cobbled Wings | menace and a Treasure on every hit for R; in 4 of 4 measured lists
-+ Koth, the Geomancer | - Mongoose Lizard | landfall: 1 damage to each opponent and R per Mountain; a reach blocker for the owner
-+ Count on Luck | - Loyal Fire Sage | an extra card every upkeep for RRR
-+ Reckless Handling | - Neonate's Rush | 2-mana tutor for any artifact: Sword of the Animist, Mask, Helm
-+ Sword of the Animist | - Pristine Talisman | a basic land on every Alexios attack, every player's turn; in 4 of 4 lists
-+ Helm of the Host | - Kyoshi Battle Fan | on Alexios: a non-legendary hasty Alexios copy each turn that also never attacks the owner; on Godo or Akki Battle Squad: infinite combats (late two-card line, Layer A floor 3)
-+ Godo, Bandit Warlord | - Fire Nation Attacks | enters and puts any Equipment onto the battlefield (Helm); with Helm, infinite combats
-+ Two-Handed Axe // Sweeping Cleave | - Turn Inside Out | doubles Alexios's power on every attack; the adventure gives double strike first
++ Mask of Memory | - Quick-Draw Katana | draw 2, discard 1 on every Alexios hit, every turn, equip 1: the card engine
++ Beamtown Beatstick | - Cobbled Wings | menace and a Treasure per hit for R; in 4 of 4 measured lists
++ Reckless Handling | - Neonate's Rush | 2-mana tutor for any artifact: Helm, Mask, Sword of the Animist
 + Lightning Bolt | - Zuko's Offense | the most efficient instant removal
-+ The Spear of Leonidas | - Most Valuable Slayer | each attack: double strike, a 3/2 blocker for the owner, or loot 2
-+ Anger | - Expedite | in the graveyard (Mask, Faithless Looting, Spear discards) every creature has haste: recast Alexios attacks at once; third piece of Godo + Sword of Hearth and Home
-+ Return the Favor | - Cunning Maneuver | redirects removal aimed at Alexios or copies a Helm, Godo or Mask trigger
 + Wild Magic Surge | - Bumi Bash | 2-mana instant answer to any permanent
-+ Agitator Ant | - Ty Lee, Artful Acrobat | +2 counters on Alexios at each of the owner's end steps; opponents' creatures get goaded away from the owner
++ Return the Favor | - Cunning Maneuver | redirects removal aimed at Alexios, or copies a Helm, Godo or Mask trigger
++ Two-Handed Axe // Sweeping Cleave | - Turn Inside Out | doubles Alexios's power on every attack; the adventure gives double strike first
++ Anger | - Expedite | in the graveyard (Mask, Looting, Spear discards) every creature has haste: a recast Alexios attacks at once
++ Count on Luck | - Energybending | an extra card every upkeep for RRR
++ Koth, the Geomancer | - Mongoose Lizard | landfall: 1 damage to each opponent and R per Mountain; a reach blocker for the owner
++ Agitator Ant | - Ty Lee, Artful Acrobat | +2 counters on Alexios at each owner end step; opponents' creatures goaded away from the owner
 + Castle Embereth | - Mountain | untapped red source and a team pump
-+ Freya Crescent | - Mountain | 1-mana source for Equipment and equip costs
-+ Unexpected Windfall | - Blazing Crescendo | 2 cards and 2 Treasures at instant speed
++ Freya Crescent | - Mountain | 1-mana source for Equipment spells and equip costs
++ Scavenger Grounds | - Mountain | untapped land that exiles all graveyards on demand (graveyard interaction)
++ War Room | - Mountain | untapped land that draws a card for 3 and 1 life
++ The Mycosynth Gardens | - Mountain | untapped land; for X = 1 it becomes a second Sol Ring
++ The Spear of Leonidas | - Most Valuable Slayer | each attack: double strike, a 3/2 blocker for the owner, or loot 2
++ Sword of the Animist | - Pristine Talisman | a basic land on every Alexios attack, every player's turn; in 4 of 4 lists
++ Akki Battle Squad | - Ran and Shaw | Alexios with counters is modified: an extra combat every owner turn; Akki + Helm is the second combo (late two-card, floor 3)
++ Kediss, Emberclaw Familiar | - Iroh, Firebending Instructor | on the owner's turn Alexios's hit is dealt to every other opponent too; in 4 of 4 lists
 + Gilgamesh, Master-at-Arms | - Headsplitter | enters and attacks: Equipment from the top six onto the battlefield (a second Helm finder)
-+ Fellwar Stone | - Commander's Sphere | 2-mana rock for a 3-mana one
-+ Mana Geyser | - Burnished Hart | a red mana per tapped opponent land: Godo, Helm and equip in one turn
++ Fellwar Stone | - Barrels of Blasting Jelly | 2-mana rock
++ Unexpected Windfall | - Blazing Crescendo | 2 cards and 2 Treasures at instant speed
++ Tyrite Sanctum | - Mountain | untapped land: +1/+1 counter on Alexios, then a permanent indestructible counter
++ Geier Reach Sanitarium | - Mountain | untapped land; its loot on any turn feeds Inti and puts Anger in the graveyard
 + Overpowering Attack | - Ticket Booth // Tunnel of Hate | 3-mana extra combat after Alexios connects (freerunning); Helm triggers again
-+ Kediss, Emberclaw Familiar | - Iroh, Firebending Instructor | on the owner's turn Alexios's hit is dealt to every other opponent too: one hit becomes three; in 4 of 4 lists
-+ Tyrite Sanctum | - Mountain | +1/+1 counter on Alexios, then a permanent indestructible counter
-+ Magus of the Wheel | - Energybending | repeatable refill of seven cards
-+ War Room | - Secret Tunnel | card draw from a land slot (1 life)
++ Magus of the Wheel | - Mishra's Bauble | repeatable refill of seven cards
 + Vandalblast | - Firebending Lesson | one artifact, or all of opponents' artifacts
-+ Spinerock Knoll | - Mountain | hideaway: a free spell once an opponent took 7 (one Alexios hit)
-+ Myriad Landscape | - Mountain | two Mountains: ramp and two landfall triggers for Koth (2 damage to each opponent, RR)
-+ Thought Vessel | - Mishra's Bauble | 2-mana rock and no hand size limit for the Mask draws
++ Mana Geyser | - Furnace Host Charger | a red mana per tapped opponent land: Godo, Helm and equip in one turn
 + Inti, Seneschal of the Sun | - Cathartic Reunion | each discard (Mask, Spear, Looting) exiles a card to play; attack trigger adds a counter and trample
-+ Infiltration Lens | - Mechanical Glider | draw 2 per blocker (4 with menace): chump blocks now pay the owner
-+ Akki Battle Squad | - Fire Nation Raider | Alexios with counters is modified: an extra combat each owner turn; second Helm combo partner
-+ Jeska, Thrice Reborn | - Treetop Freedom Fighters | 0: Alexios deals triple combat damage to opponents until the owner's next turn (every player's turn)
-+ Lizard Blades | - Brainstone | double strike for reconfigure 2
-+ Darksteel Plate | - Haunted Cloak | indestructible: answers removal cast by whoever controls Alexios, which hexproof does not
-+ Sokenzan, Crucible of Defiance | - Mountain | untapped red source that channels into two instant blockers
++ Infiltration Lens | - Mechanical Glider | draw 2 per blocker (4 with menace): chump blocks pay the owner
++ Lizard Blades | - Hidden Blade | double strike for reconfigure 2
++ Jeska, Thrice Reborn | - Loyal Fire Sage | 0: Alexios deals triple combat damage to opponents until the owner's next turn (every player's turn)
++ Darksteel Plate | - Treetop Freedom Fighters | indestructible: stops removal cast by whoever controls Alexios, which hexproof does not
 + Pyroblast | - Lightning Strike | 1-mana counter or kill against blue
-+ Disrupt Decorum | - Yuyan Archers | goad every opposing creature away from the owner
-+ Genji Glove | - Jet's Brainwashing | double strike and a second combat for Alexios on every player's turn
++ Sokenzan, Crucible of Defiance | - Mountain | untapped red land that channels into two instant blockers
++ Thought Vessel | - Brainstone | 2-mana rock and no hand size limit for the Mask draws
++ Untimely Malfunction | - Command the Storm | redirect, artifact kill or two creatures can't block; in 3 of 4 lists
 + Chandra's Ignition | - Origin of the Hidden Ones | Alexios deals its power to every other creature and every opponent: wipe and finisher
-+ Brotherhood Regalia | - Foundry Inspector | unblockable and ward 2 for equip 1
-+ Shatterskull Smashing // Shatterskull, the Hammer Pass | - Mountain | removal or an untapped land
-+ Sword of Hearth and Home | - Glassworks // Shattered Yard | land and a blink per hit; with Akki Battle Squad infinite combats (two-card, late), with Godo and Anger a third line
-+ Untimely Malfunction | - Command the Storm | redirect, artifact kill or two creatures can't block
-+ Gamble | - Barrels of Blasting Jelly | 1-mana tutor for any card (Game Changer 1 of 3): Helm, Godo or the missing engine piece
++ Brotherhood Regalia | - Labyrinth Adversary | unblockable and ward 2 for equip 1; in 4 of 4 lists
++ Sword of Hearth and Home | - Glassworks // Shattered Yard | land and a blink per hit; combos without Helm: Akki + this Sword (two-card, floor 3) and Godo + this Sword + Anger (three cards)
++ Genji Glove | - Jet's Brainwashing | double strike and a second combat for Alexios on every player's turn
++ Disrupt Decorum | - Yuyan Archers | goads every opposing creature away from the owner
++ Pyretic Ritual | - Fire Nation Raider | fast mana: Alexios on turn 2 or 3; in 3 of 4 lists
++ Gamble | - Combustion Man | 1-mana tutor for any card (Game Changer 1 of 3): Helm, Godo or the missing engine piece
