@@ -131,7 +131,7 @@
    "deck": "Azula",
    "order": 5,
    "title": "More lines (later steps)",
-   "text": "Etrata, the Silencer + two of Strionic Resonator, Lithoform Engine and Peter Parker's Camera exile three creatures with hit counters (the opponents must control creatures); Akki Battle Squad + Helm of the Host; Godo + Sword of Hearth and Home with Anger or Frostcliff Siege; Aggravated Assault or Sozin's Comet with Electro, The Last Agni Kai or Ozai. They add lines but not measured power."
+   "text": "Akki Battle Squad + Helm of the Host; Godo + Sword of Hearth and Home with Anger or Frostcliff Siege; Aggravated Assault or Sozin's Comet with Electro, The Last Agni Kai or Ozai. They add lines but not measured power."
   },
   {
    "id": "azula-6",
@@ -180,14 +180,14 @@
    "deck": "Ezio",
    "order": 3,
    "title": "Combo hubs (the round-4 change)",
-   "text": "Five cards share most of the lines, so each new piece adds several: Intruder Alarm (owned) with Deadeye Navigator, Venser or Kiki-Jiki; Etrata, the Silencer with any two of Return the Favor, Peter Parker's Camera, Strionic Resonator and Lithoform Engine (three hit-counter exiles lose the game); Dualcaster Mage with Starfall Invocation or Ember Island Production; Kiki-Jiki or Godo with Helm of the Host and Goblin Bombardment."
+   "text": "Five cards share most of the lines, so each new piece adds several: Intruder Alarm (owned) with Deadeye Navigator or Venser; Etrata, the Silencer with any two of Return the Favor, Strionic Resonator and Lithoform Engine (three hit-counter exiles lose the game); Magister Sphinx sets a player to 10 life and Ezio's own trigger then wins; Dualcaster Mage with Starfall Invocation or Ember Island Production."
   },
   {
    "id": "ezio-4",
    "deck": "Ezio",
    "order": 4,
    "title": "What measured best",
-   "text": "The list at about 49,000 CLP scored 7.4. Adding Kiki-Jiki, Godo, Helm and Bombardment (more lines, later) measured lower, 6.2 to 6.4, so more combos is not automatically more power on Commander Salt, which is why the plan stops at that list."
+   "text": "The final list (round 5) scores 7.7 on Commander Salt. Peter Parker's Camera sold out, so Magister Sphinx replaced it: the Wincons pillar went from 429 to 682. Salt's own bracket reads 4* (Wizards' criteria give 3), the same stance accepted for Azula. Adding Kiki-Jiki, Godo, Helm and Bombardment measured lower, 6.2 to 6.4, so more combos is not automatically more power."
   },
   {
    "id": "ezio-5",

@@ -30,6 +30,31 @@ a vehicle for learning modern AI tooling.
   already has, check stock for the missing ones only in stores already in the purchase plan (never
   a new store, so no new shipping), and ask him before adding any. They are optional and outside
   the budget. Survey existing token lists first (prior-art rule) and build only the gap.
+  Refined 2026-10-20 (owner, after the Phase 11 token step): the list covers EVERY card of the final lists AND of his
+  current decks (owned cards included, emblems included: Scryfall tags emblems as `combo_piece` in `all_parts`), each
+  token must be the exact token the card makes (name, type line, P/T, colors, abilities, checked face by face against
+  Scryfall, double-faced tokens count), listings are matched by face name plus set and number (never by name only),
+  prices and stock are read per variant (NM to LP, EN/ES) from the product page (a search "from" price is the Damaged
+  variant), and the buy plan uses the fewest stores (one if it covers everything, else two, and so on); a token no
+  store has in stock stays in the table as "Sin stock". The tokens he owns are kept in the Tokens binder of the export.
+  Standing rule (owner, 2026-10-20): whenever a purchase adds a card that makes tokens or emblems, the tokens he lacks
+  for it go into that same purchase (same store when possible), not as a later optional step; check the card's tokens
+  against his Tokens binder at planning time and show them as lines of the purchase order.
+- Same printing in one store (owner, 2026-10-20; applies from the next purchase, the 2026-10-19 one is closed): he prefers
+  every copy of a card to be the same edition and art from one store, when feasible. When a card is needed in several copies
+  and the cheapest allocation splits them across stores or printings, keep them together if doing so costs 400 CLP or
+  less in total for that card; split only when the saving is over 400 CLP. `scripts/plan_purchase.py` must apply this
+  before the next purchase.
+- Full-art basic lands (owner, 2026-10-20; applies from the next deck change): keep at least 20 full-art basics of EACH
+  color in stock (full art means no white border; the cheap white-border basics never count). If building a deck or
+  editing one takes basics out of that stock and a color falls below 20, buy the difference, following the rules of the
+  2026-10-20 search: full art only, NM to LP, EN/ES, up to 250 CLP each when that exists (Avatar, Assassin's Creed or
+  other pretty arts preferred), otherwise the cheapest ones; take them in the store of the purchase already planned,
+  because a new store's shipping (about 5,000 CLP) outweighs the saving per land. Baseline from the 2026-10-18 export
+  (Lands binder, full art): Plains 13, Island 1, Swamp 4, Mountain 0, Forest 15, all under 20 (the current Toph and Azula decks hold
+  20 and 26 more full-art basics, not counted; whether they count is an open question for the owner); the count is
+  refreshed with each new export. Found 2026-10-20: 250 CLP is rarely met (Magic4Ever
+  Battle for Zendikar 200 to 300, only about 8 copies); 450 CLP each is the usual price (Oasis, LP).
 - Stores: the Chilean specialist shops in `data/stores.md`, at most 10. The owner's 6 are the
   preferred ones (in his order; the first 3 are the default); up to 4 more may be added only
   with excellent reputation evidence and a public JSON stock feed, and only with his OK. Never
@@ -68,6 +93,9 @@ a vehicle for learning modern AI tooling.
   accessories.
 - Purchases: English or Spanish printings only, the cheaper one preferred; at the same price
   the Spanish copy wins (owner, 2026-10-17); never other languages. The collection is mixed Spanish/English, so scanners must read Spanish cards.
+- Language when building a deck (owner, 2026-10-21; buying keeps the rule above, Spanish wins at the same price): when
+  a card is owned in both English and Spanish, the deck takes the ENGLISH copy. Exception: a deck built 100 % in Spanish
+  takes the Spanish copy even if an English one exists. The pull list and the build sheets follow this rule.
 - Scanning is done from an Android phone; the 2 existing decks are sleeved.
 - Pipeline order is in `README.md`. Before any task, name the current phase(s) (Phases
   1 and 3 may run in parallel). Do not work on a later phase (for example store stock)
@@ -168,7 +196,7 @@ a vehicle for learning modern AI tooling.
 | `data/model/` | Phase 8 step 1 output of `scripts/price_candidates.py`: `candidate-costs.json/.md` (cost, Layer A and power of each measured list) and `pool-<slug>.json` (every card the expert may use per deck, with rules text, owned copies and cheapest offer; only the 626 cards Phase 7 priced have an offer). Library: `scripts/allocation_model.py`. Scores of the candidates: `decks/candidates/scores.json` `scripts/optimize_budget.py` writes `budget-curve.json` (the plan per budget, highest total power, and the best buys); `scripts/dashboard_data.py` writes `dashboard/*.json`, the datasets of the dashboard Artifact (`lists`, `curve`, `plans`, `jumps`, `buys`, `decks`), while `dashboard/guide.json` (how each deck plays and wins) and `dashboard/deck-notes.json` are written by hand and only read |
 | `decks/proposals/` | Lists proposed in Phase 8 step 2 (`<deck>_cap<N>.txt`, N = purchase cap in CLP, plus a `.md` rationale); checked with `scripts/check_list.py` (read-only); `<deck>.ladder.txt` (free base plus ordered swaps) is materialized by `scripts/ladder.py` |
 | `decks/measured/<deck>/<label>.txt` | The exact 100-card lists scored on Commander Salt, one file per entry of `decks/proposals/measured.json` (its `list_hash` is the SHA-256 prefix of the sorted lines); `scripts/deck_stats.py` reads them for the dashboard statistics. Each list is saved here when it is measured |
-| `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) written by `scripts/verify_stock.py` (live product data of the cheapest 3 offers of every card of the buy list `data/model/buylist-<budget>.json` from `scripts/plan_buylist.py`; reports `decks/reports/buylist-*.md`, `stock-*.md`, and `stores-*.md` from `scripts/plan_stores.py`); only the newest run matters, delete the older ones |
+| `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) written by `scripts/verify_stock.py` (live product data of the cheapest 3 offers of every card of the buy list `data/model/buylist-<budget>.json` from `scripts/plan_buylist.py`; also the quantities that the Shopify product pages print; reports `decks/reports/buylist-*.md`, `stock-*.md`, `stores-*.md` from `scripts/plan_stores.py` and `purchase-order-<budget>.md` from `scripts/plan_purchase.py`, which orders the purchase for a buyer who pays store by store with no check in between: store 1 is the one with most win-line cards at risk, copies split across stores when one shows too few, a fallback for each line; `scripts/plan_optional.py` adds, outside the budget, the real commander card and the missing tokens in the plan's stores, `data/model/optional-<budget>.json`); only the newest run matters, delete the older ones |
 | `scripts/` | Python the user runs himself |
 | `tests/` | Offline tests and API fixtures (run with `python tests/<file>.py`) |
 | `evals/` | The hook test table (`hook_cases.tsv`, `run_hook_cases.sh`) and the test plan (`README.md`) |

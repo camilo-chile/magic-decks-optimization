@@ -1,0 +1,708 @@
+{
+ "budget": 200000,
+ "items": [
+  {
+   "store": "paytowin",
+   "name": "Ezio Auditore da Firenze",
+   "qty": 1,
+   "unit_clp": 19900,
+   "stock_shown": null,
+   "title": "Ezio Auditore da Firenze (Borderless) [Assassin's Creed]",
+   "url": "https://www.paytowin.cl/products/ezio-auditore-da-firenze-borderless-assassins-creed",
+   "note": "Ezio Auditore da Firenze (Borderless) [Assassin's Creed]"
+  },
+  {
+   "store": "paytowin",
+   "name": "Beast (token)",
+   "qty": 1,
+   "unit_clp": 560,
+   "stock_shown": null,
+   "title": "Beast Token ESPAÑOL [Amonkhet Tokens]",
+   "url": "https://www.paytowin.cl/products/beast-token-amonkhet-tokens-1",
+   "note": "Beast Token ESPAÑOL [Amonkhet Tokens]"
+  },
+  {
+   "store": "paytowin",
+   "name": "Insect (token)",
+   "qty": 1,
+   "unit_clp": 600,
+   "stock_shown": null,
+   "title": "Insect Token [Innistrad: Midnight Hunt Tokens]",
+   "url": "https://www.paytowin.cl/products/insect-token-innistrad-midnight-hunt-tokens",
+   "note": "Insect Token [Innistrad: Midnight Hunt Tokens]"
+  },
+  {
+   "store": "paytowin",
+   "name": "Treasure (token)",
+   "qty": 1,
+   "unit_clp": 600,
+   "stock_shown": null,
+   "title": "Treasure (0019) // Alien Double-Sided Token [Fallout Tokens]",
+   "url": "https://www.paytowin.cl/products/treasure-0019-alien-double-sided-token-fallout-tokens",
+   "note": "Treasure (0019) // Alien Double-Sided Token [Fallout Tokens]"
+  },
+  {
+   "store": "paytowin",
+   "name": "Assassin (token)",
+   "qty": 1,
+   "unit_clp": 600,
+   "stock_shown": null,
+   "title": "Assassin Token [Return to Ravnica Tokens]",
+   "url": "https://www.paytowin.cl/products/assassin-token-return-to-ravnica-tokens",
+   "note": "Assassin Token [Return to Ravnica Tokens]"
+  },
+  {
+   "store": "gameofmagic",
+   "name": "Beast (token)",
+   "qty": 1,
+   "unit_clp": 342,
+   "stock_shown": null,
+   "title": "Beast Token [Innistrad: Midnight Hunt Tokens]",
+   "url": "https://gameofmagicsingles.cl/products/beast-token-innistrad-midnight-hunt-tokens",
+   "note": "Beast Token [Innistrad: Midnight Hunt Tokens]"
+  },
+  {
+   "store": "gameofmagic",
+   "name": "Insect (token)",
+   "qty": 1,
+   "unit_clp": 342,
+   "stock_shown": null,
+   "title": "Insect Token [Innistrad: Midnight Hunt Tokens]",
+   "url": "https://gameofmagicsingles.cl/products/insect-token-innistrad-midnight-hunt-tokens",
+   "note": "Insect Token [Innistrad: Midnight Hunt Tokens]"
+  },
+  {
+   "store": "gameofmagic",
+   "name": "Human (token)",
+   "qty": 1,
+   "unit_clp": 342,
+   "stock_shown": null,
+   "title": "Human // Treefolk Double-Sided Token [Innistrad: Midnight Hunt Tokens]",
+   "url": "https://gameofmagicsingles.cl/products/human-treefolk-double-sided-token-innistrad-midnight-hunt-tokens",
+   "note": "Human // Treefolk Double-Sided Token [Innistrad: Midnight Hunt Tokens]"
+  },
+  {
+   "store": "gameofmagic",
+   "name": "Treasure (token)",
+   "qty": 1,
+   "unit_clp": 342,
+   "stock_shown": null,
+   "title": "Treasure Token [The Lost Caverns of Ixalan Tokens]",
+   "url": "https://gameofmagicsingles.cl/products/treasure-token-the-lost-caverns-of-ixalan-tokens",
+   "note": "Treasure Token [The Lost Caverns of Ixalan Tokens]"
+  },
+  {
+   "store": "gameofmagic",
+   "name": "Shapeshifter (token)",
+   "qty": 1,
+   "unit_clp": 480,
+   "stock_shown": null,
+   "title": "Shapeshifter // Golem (0013) Double-Sided Token [Edge of Eternities Commander Tokens]",
+   "url": "https://gameofmagicsingles.cl/products/shapeshifter-golem-0013-double-sided-token-edge-of-eternities-commander-tokens",
+   "note": "Shapeshifter // Golem (0013) Double-Sided Token [Edge of Eternities Commander Tokens]"
+  },
+  {
+   "store": "gameofmagic",
+   "name": "Assassin (token)",
+   "qty": 1,
+   "unit_clp": 342,
+   "stock_shown": null,
+   "title": "Assassin Token [War of the Spark Tokens]",
+   "url": "https://gameofmagicsingles.cl/products/assassin-token-war-of-the-spark-tokens",
+   "note": "Assassin Token [War of the Spark Tokens]"
+  },
+  {
+   "store": "lacomarca",
+   "name": "Beast (token)",
+   "qty": 1,
+   "unit_clp": 550,
+   "stock_shown": null,
+   "title": "Beast Token [RVR - 14]",
+   "url": "https://www.tiendalacomarca.cl/products/beast-token-rvr-14",
+   "note": "Beast Token [RVR - 14]"
+  },
+  {
+   "store": "lacomarca",
+   "name": "Insect (token)",
+   "qty": 1,
+   "unit_clp": 450,
+   "stock_shown": null,
+   "title": "Insect // Spider Double-Sided Token [INR - 15 // 16]",
+   "url": "https://www.tiendalacomarca.cl/products/insect-spider-double-sided-token-inr-15-16",
+   "note": "Insect // Spider Double-Sided Token [INR - 15 // 16]"
+  },
+  {
+   "store": "lacomarca",
+   "name": "Human (token)",
+   "qty": 1,
+   "unit_clp": 450,
+   "stock_shown": null,
+   "title": "Human // Knight Double-Sided Token [FDN - 3 // 4]",
+   "url": "https://www.tiendalacomarca.cl/products/human-knight-double-sided-token-fdn-3-4",
+   "note": "Human // Knight Double-Sided Token [FDN - 3 // 4]"
+  },
+  {
+   "store": "lacomarca",
+   "name": "Treasure (token)",
+   "qty": 1,
+   "unit_clp": 450,
+   "stock_shown": null,
+   "title": "Treasure // Clue Double-Sided Token [TMC - 3 // 2]",
+   "url": "https://www.tiendalacomarca.cl/products/treasure-clue-double-sided-token-commander-teenage-mutant-ninja-turtles-682063",
+   "note": "Treasure // Clue Double-Sided Token [TMC - 3 // 2]"
+  },
+  {
+   "store": "lacomarca",
+   "name": "Shapeshifter (token)",
+   "qty": 1,
+   "unit_clp": 450,
+   "stock_shown": null,
+   "title": "Shapeshifter // Merfolk Double-Sided Token [ECL - 1 // 8]",
+   "url": "https://www.tiendalacomarca.cl/products/shapeshifter-merfolk-double-sided-token-lorwyn-eclipsed-673450",
+   "note": "Shapeshifter // Merfolk Double-Sided Token [ECL - 1 // 8]"
+  },
+  {
+   "store": "lacomarca",
+   "name": "Assassin (token)",
+   "qty": 1,
+   "unit_clp": 500,
+   "stock_shown": null,
+   "title": "Assassin // Human Rogue Double-Sided Token [ACR - 4 // 3]",
+   "url": "https://www.tiendalacomarca.cl/products/assassin-human-rogue-double-sided-token-acr-4-3",
+   "note": "Assassin // Human Rogue Double-Sided Token [ACR - 4 // 3]"
+  },
+  {
+   "store": "oasis",
+   "name": "Beast (token)",
+   "qty": 1,
+   "unit_clp": 250,
+   "stock_shown": null,
+   "title": "Beast Token [Core Set 2021]",
+   "url": "https://www.oasisgames.cl/products/beast-token-core-set-2021",
+   "note": "Beast Token [Core Set 2021]"
+  },
+  {
+   "store": "oasis",
+   "name": "Insect (token)",
+   "qty": 1,
+   "unit_clp": 120,
+   "stock_shown": null,
+   "title": "Insect Token [Time Spiral Remastered Tokens]",
+   "url": "https://www.oasisgames.cl/products/insect-token-time-spiral-remastered-tokens",
+   "note": "Insect Token [Time Spiral Remastered Tokens]"
+  },
+  {
+   "store": "oasis",
+   "name": "Human (token)",
+   "qty": 1,
+   "unit_clp": 250,
+   "stock_shown": null,
+   "title": "Human (7/8) [Avacyn Restored Tokens]",
+   "url": "https://www.oasisgames.cl/products/mtg-human-token-redavacyn-restored-tokens",
+   "note": "Human (7/8) [Avacyn Restored Tokens]"
+  },
+  {
+   "store": "oasis",
+   "name": "Treasure (token)",
+   "qty": 1,
+   "unit_clp": 250,
+   "stock_shown": null,
+   "title": "Treasure Token [Core Set 2021]",
+   "url": "https://www.oasisgames.cl/products/treasure-token-core-set-2021",
+   "note": "Treasure Token [Core Set 2021]"
+  },
+  {
+   "store": "oasis",
+   "name": "Shapeshifter (token)",
+   "qty": 1,
+   "unit_clp": 250,
+   "stock_shown": null,
+   "title": "Shapeshifter (001) // Emblem - Wrenn and Six (021) Double-sided Token [Modern Horizons Tokens]",
+   "url": "https://www.oasisgames.cl/products/mtg-shapeshifter-001-emblem-wrenn-and-six-021-doublesided-tokenmodern-horizons",
+   "note": "Shapeshifter (001) // Emblem - Wrenn and Six (021) Double-sided Token [Modern Horizons Tokens]"
+  },
+  {
+   "store": "oasis",
+   "name": "Assassin (token)",
+   "qty": 1,
+   "unit_clp": 250,
+   "stock_shown": null,
+   "title": "Assassin Token [War of the Spark Tokens]",
+   "url": "https://www.oasisgames.cl/products/mtg-assassin-tokenwar-of-the-spark-tokens",
+   "note": "Assassin Token [War of the Spark Tokens]"
+  }
+ ],
+ "candidates": {
+  "Ezio Auditore da Firenze": [
+   {
+    "store": "paytowin",
+    "best": {
+     "title": "Ezio Auditore da Firenze (Borderless) [Assassin's Creed]",
+     "price_clp": 19900,
+     "available": true,
+     "url": "https://www.paytowin.cl/products/ezio-auditore-da-firenze-borderless-assassins-creed",
+     "stock_shown": null
+    },
+    "seen": [
+     "Ezio Auditore da Firenze (Borderless) [Assassin's Creed]",
+     "Ezio Auditore da Firenze (Foil Etched) [Assassin's Creed]",
+     "Ezio Auditore da Firenze [Assassin's Creed]",
+     "Ezio Auditore da Firenze (Showcase) [Assassin's Creed]"
+    ]
+   },
+   {
+    "store": "gameofmagic",
+    "best": null,
+    "seen": [
+     "Ezio Auditore da Firenze [Assassin's Creed]",
+     "Ezio Auditore da Firenze (Foil Etched) [Assassin's Creed]",
+     "Ezio Auditore da Firenze (Borderless) [Assassin's Creed]",
+     "Ezio Auditore da Firenze (Showcase) [Assassin's Creed]"
+    ]
+   },
+   {
+    "store": "lacomarca",
+    "best": null,
+    "seen": []
+   },
+   {
+    "store": "magic4ever",
+    "best": null,
+    "seen": []
+   },
+   {
+    "store": "oasis",
+    "best": null,
+    "seen": [
+     "Ezio Auditore da Firenze (Foil Etched) [Assassin's Creed]",
+     "Ezio Auditore da Firenze [Assassin's Creed]",
+     "Ezio Auditore da Firenze (Borderless) [Assassin's Creed]",
+     "Ezio Auditore da Firenze (Showcase) [Assassin's Creed]"
+    ]
+   },
+   {
+    "store": "cardnexus",
+    "best": null,
+    "seen": []
+   }
+  ],
+  "Beast": [
+   {
+    "store": "paytowin",
+    "best": {
+     "title": "Beast Token ESPAÑOL [Amonkhet Tokens]",
+     "price_clp": 560,
+     "available": true,
+     "url": "https://www.paytowin.cl/products/beast-token-amonkhet-tokens-1",
+     "stock_shown": null
+    },
+    "seen": [
+     "Beast Token [Magic Player Rewards 2004]",
+     "Beast Token ESPAÑOL [Amonkhet Tokens]",
+     "Beast // Dragon Spirit Double-Sided Token [Dungeons & Dragons: Adventures in the Forgotten Realms Commander Tokens]",
+     "Beast // Liliana, Defiant Necromancer Emblem Double-Sided Token [Secret Lair: From Cute to Brute Tokens]"
+    ]
+   },
+   {
+    "store": "gameofmagic",
+    "best": {
+     "title": "Beast Token [Innistrad: Midnight Hunt Tokens]",
+     "price_clp": 342,
+     "available": true,
+     "url": "https://gameofmagicsingles.cl/products/beast-token-innistrad-midnight-hunt-tokens",
+     "stock_shown": null
+    },
+    "seen": [
+     "Beast Token [Innistrad: Midnight Hunt Tokens]",
+     "Beast // Manifest Double-Sided Token [Duskmourn: House of Horror Tokens]"
+    ]
+   },
+   {
+    "store": "lacomarca",
+    "best": {
+     "title": "Beast Token [RVR - 14]",
+     "price_clp": 550,
+     "available": true,
+     "url": "https://www.tiendalacomarca.cl/products/beast-token-rvr-14",
+     "stock_shown": null
+    },
+    "seen": [
+     "Beast Token [RVR - 14]",
+     "Beast Token [MH2 - 9]"
+    ]
+   },
+   {
+    "store": "magic4ever",
+    "best": null,
+    "seen": []
+   },
+   {
+    "store": "oasis",
+    "best": {
+     "title": "Beast Token [Core Set 2021]",
+     "price_clp": 250,
+     "available": true,
+     "url": "https://www.oasisgames.cl/products/beast-token-core-set-2021",
+     "stock_shown": null
+    },
+    "seen": [
+     "Beast Token [Core Set 2021]",
+     "Beast (010) // Snake Double-sided Token [Commander 2020]",
+     "Beast Token (001) [Kaladesh Tokens]",
+     "Beast // Saproling Double-sided Token [Commander: Zendikar Rising Tokens]"
+    ]
+   },
+   {
+    "store": "cardnexus",
+    "best": null,
+    "seen": []
+   }
+  ],
+  "Insect": [
+   {
+    "store": "paytowin",
+    "best": {
+     "title": "Insect Token [Innistrad: Midnight Hunt Tokens]",
+     "price_clp": 600,
+     "available": true,
+     "url": "https://www.paytowin.cl/products/insect-token-innistrad-midnight-hunt-tokens",
+     "stock_shown": null
+    },
+    "seen": [
+     "Insect Token [Innistrad: Midnight Hunt Tokens]",
+     "Insect Token [Magic 2010 Tokens]",
+     "Insect Token [Magic Player Rewards 2003]"
+    ]
+   },
+   {
+    "store": "gameofmagic",
+    "best": {
+     "title": "Insect Token [Innistrad: Midnight Hunt Tokens]",
+     "price_clp": 342,
+     "available": true,
+     "url": "https://gameofmagicsingles.cl/products/insect-token-innistrad-midnight-hunt-tokens",
+     "stock_shown": null
+    },
+    "seen": [
+     "Insect Token [Innistrad: Midnight Hunt Tokens]",
+     "Insect // Zombie Double-Sided Token [Hour of Devastation Tokens]",
+     "Insect // Warrior Double-Sided Token [Hour of Devastation Tokens]"
+    ]
+   },
+   {
+    "store": "lacomarca",
+    "best": {
+     "title": "Insect // Spider Double-Sided Token [INR - 15 // 16]",
+     "price_clp": 450,
+     "available": true,
+     "url": "https://www.tiendalacomarca.cl/products/insect-spider-double-sided-token-inr-15-16",
+     "stock_shown": null
+    },
+    "seen": [
+     "Insect // Spider Double-Sided Token [INR - 15 // 16]",
+     "Insect (0013) // Spider Double-Sided Token [DSK - 13 // 12]",
+     "Insect Token (0025) [MH3 - 25]",
+     "Insect Token [TSR - 11]"
+    ]
+   },
+   {
+    "store": "magic4ever",
+    "best": null,
+    "seen": []
+   },
+   {
+    "store": "oasis",
+    "best": {
+     "title": "Insect Token [Time Spiral Remastered Tokens]",
+     "price_clp": 120,
+     "available": true,
+     "url": "https://www.oasisgames.cl/products/insect-token-time-spiral-remastered-tokens",
+     "stock_shown": null
+    },
+    "seen": [
+     "Insect Token [Innistrad: Midnight Hunt Tokens]",
+     "Insect // Elephant Double-Sided Token [Aetherdrift Tokens]",
+     "Insect Token (0025) [Modern Horizons 3 Tokens]",
+     "Insect Token [Time Spiral Remastered Tokens]"
+    ]
+   },
+   {
+    "store": "cardnexus",
+    "best": null,
+    "seen": []
+   }
+  ],
+  "Human": [
+   {
+    "store": "paytowin",
+    "best": null,
+    "seen": []
+   },
+   {
+    "store": "gameofmagic",
+    "best": {
+     "title": "Human // Treefolk Double-Sided Token [Innistrad: Midnight Hunt Tokens]",
+     "price_clp": 342,
+     "available": true,
+     "url": "https://gameofmagicsingles.cl/products/human-treefolk-double-sided-token-innistrad-midnight-hunt-tokens",
+     "stock_shown": null
+    },
+    "seen": [
+     "Human // Treefolk Double-Sided Token [Innistrad: Midnight Hunt Tokens]",
+     "Human // Wrenn and Seven Emblem Double-Sided Token [Innistrad: Midnight Hunt Tokens]",
+     "Human // Knight Double-Sided Token [Foundations Tokens]",
+     "Human // Insect Double-Sided Token [Innistrad: Midnight Hunt Tokens]"
+    ]
+   },
+   {
+    "store": "lacomarca",
+    "best": {
+     "title": "Human // Knight Double-Sided Token [FDN - 3 // 4]",
+     "price_clp": 450,
+     "available": true,
+     "url": "https://www.tiendalacomarca.cl/products/human-knight-double-sided-token-fdn-3-4",
+     "stock_shown": null
+    },
+    "seen": [
+     "Human // Knight Double-Sided Token [FDN - 3 // 4]",
+     "Human (0005) // Treasure (0028) Double-Sided Token [WHO - 5 // 28]",
+     "Human (0038) // Mutant Double-Sided Token (Surge Foil) [WHO - 38 // 50]"
+    ]
+   },
+   {
+    "store": "magic4ever",
+    "best": null,
+    "seen": []
+   },
+   {
+    "store": "oasis",
+    "best": {
+     "title": "Human (7/8) [Avacyn Restored Tokens]",
+     "price_clp": 250,
+     "available": true,
+     "url": "https://www.oasisgames.cl/products/mtg-human-token-redavacyn-restored-tokens",
+     "stock_shown": null
+    },
+    "seen": [
+     "Human Token [30th Anniversary Tokens]",
+     "Human (7/8) [Avacyn Restored Tokens]",
+     "Human [Throne of Eldraine Tokens]"
+    ]
+   },
+   {
+    "store": "cardnexus",
+    "best": null,
+    "seen": []
+   }
+  ],
+  "Treasure": [
+   {
+    "store": "paytowin",
+    "best": {
+     "title": "Treasure (0019) // Alien Double-Sided Token [Fallout Tokens]",
+     "price_clp": 600,
+     "available": true,
+     "url": "https://www.paytowin.cl/products/treasure-0019-alien-double-sided-token-fallout-tokens",
+     "stock_shown": null
+    },
+    "seen": [
+     "Treasure Token (1736) [Secret Lair Drop Series]",
+     "Treasure Token (1736) (Rainbow Foil) [Secret Lair Drop Series]",
+     "Treasure // Daretti Emblem Double-Sided Token [Secret Lair Drop Series]",
+     "Treasure (0019) // Alien Double-Sided Token [Fallout Tokens]"
+    ]
+   },
+   {
+    "store": "gameofmagic",
+    "best": {
+     "title": "Treasure Token [The Lost Caverns of Ixalan Tokens]",
+     "price_clp": 342,
+     "available": true,
+     "url": "https://gameofmagicsingles.cl/products/treasure-token-the-lost-caverns-of-ixalan-tokens",
+     "stock_shown": null
+    },
+    "seen": [
+     "Treasure Token [The Lost Caverns of Ixalan Tokens]",
+     "Treasure // Clue Double-Sided Token [Teenage Mutant Ninja Turtles Commander Tokens]",
+     "Treasure Token [Double Masters Tokens]",
+     "Treasure Token [Outlaws of Thunder Junction Tokens]"
+    ]
+   },
+   {
+    "store": "lacomarca",
+    "best": {
+     "title": "Treasure // Clue Double-Sided Token [TMC - 3 // 2]",
+     "price_clp": 450,
+     "available": true,
+     "url": "https://www.tiendalacomarca.cl/products/treasure-clue-double-sided-token-commander-teenage-mutant-ninja-turtles-682063",
+     "stock_shown": null
+    },
+    "seen": [
+     "Treasure // Clue Double-Sided Token [TMC - 3 // 2]",
+     "Treasure // Energy Reserve Double-Sided Token [MH3 - 34 // 36]",
+     "Treasure // Pilot Double-Sided Token [DFT - 11 // 1]",
+     "Treasure Token [BLB - 29]"
+    ]
+   },
+   {
+    "store": "magic4ever",
+    "best": null,
+    "seen": []
+   },
+   {
+    "store": "oasis",
+    "best": {
+     "title": "Treasure Token [Core Set 2021]",
+     "price_clp": 250,
+     "available": true,
+     "url": "https://www.oasisgames.cl/products/treasure-token-core-set-2021",
+     "stock_shown": null
+    },
+    "seen": [
+     "Treasure Token [Core Set 2021]",
+     "Treasure Token [The Lord of the Rings: Tales of Middle-Earth Tokens]",
+     "Treasure Token (017) [Streets of New Capenna Tokens]",
+     "Treasure Token (015) [Streets of New Capenna Tokens]"
+    ]
+   },
+   {
+    "store": "cardnexus",
+    "best": null,
+    "seen": []
+   }
+  ],
+  "Shapeshifter": [
+   {
+    "store": "paytowin",
+    "best": null,
+    "seen": []
+   },
+   {
+    "store": "gameofmagic",
+    "best": {
+     "title": "Shapeshifter // Golem (0013) Double-Sided Token [Edge of Eternities Commander Tokens]",
+     "price_clp": 480,
+     "available": true,
+     "url": "https://gameofmagicsingles.cl/products/shapeshifter-golem-0013-double-sided-token-edge-of-eternities-commander-tokens",
+     "stock_shown": null
+    },
+    "seen": [
+     "Shapeshifter Token [Double Masters Tokens]",
+     "Shapeshifter // Golem (0013) Double-Sided Token [Edge of Eternities Commander Tokens]"
+    ]
+   },
+   {
+    "store": "lacomarca",
+    "best": {
+     "title": "Shapeshifter // Merfolk Double-Sided Token [ECL - 1 // 8]",
+     "price_clp": 450,
+     "available": true,
+     "url": "https://www.tiendalacomarca.cl/products/shapeshifter-merfolk-double-sided-token-lorwyn-eclipsed-673450",
+     "stock_shown": null
+    },
+    "seen": [
+     "Shapeshifter // Merfolk Double-Sided Token [ECL - 1 // 8]"
+    ]
+   },
+   {
+    "store": "magic4ever",
+    "best": null,
+    "seen": []
+   },
+   {
+    "store": "oasis",
+    "best": {
+     "title": "Shapeshifter (001) // Emblem - Wrenn and Six (021) Double-sided Token [Modern Horizons Tokens]",
+     "price_clp": 250,
+     "available": true,
+     "url": "https://www.oasisgames.cl/products/mtg-shapeshifter-001-emblem-wrenn-and-six-021-doublesided-tokenmodern-horizons",
+     "stock_shown": null
+    },
+    "seen": [
+     "Shapeshifter (001) // Emblem - Wrenn and Six (021) Double-sided Token [Modern Horizons Tokens]",
+     "Shapeshifter // Ape Villain Double-Sided Token [Marvel Super Heroes Commander Tokens]",
+     "Shapeshifter (001) // Bear (011) Double-sided Token [Modern Horizons Tokens]",
+     "Shapeshifter // Merfolk Double-Sided Token [Lorwyn Eclipsed Tokens]"
+    ]
+   },
+   {
+    "store": "cardnexus",
+    "best": null,
+    "seen": []
+   }
+  ],
+  "Assassin": [
+   {
+    "store": "paytowin",
+    "best": {
+     "title": "Assassin Token [Return to Ravnica Tokens]",
+     "price_clp": 600,
+     "available": true,
+     "url": "https://www.paytowin.cl/products/assassin-token-return-to-ravnica-tokens",
+     "stock_shown": null
+    },
+    "seen": [
+     "Assassin Token [Return to Ravnica Tokens]"
+    ]
+   },
+   {
+    "store": "gameofmagic",
+    "best": {
+     "title": "Assassin Token [War of the Spark Tokens]",
+     "price_clp": 342,
+     "available": true,
+     "url": "https://gameofmagicsingles.cl/products/assassin-token-war-of-the-spark-tokens",
+     "stock_shown": null
+    },
+    "seen": [
+     "Assassin Token [War of the Spark Tokens]",
+     "Assassin Token [Assassin's Creed Tokens]",
+     "Assassin Token [Return to Ravnica Tokens]",
+     "Assassin // Treasure Double-Sided Token [Assassin's Creed Tokens]"
+    ]
+   },
+   {
+    "store": "lacomarca",
+    "best": {
+     "title": "Assassin // Human Rogue Double-Sided Token [ACR - 4 // 3]",
+     "price_clp": 500,
+     "available": true,
+     "url": "https://www.tiendalacomarca.cl/products/assassin-human-rogue-double-sided-token-acr-4-3",
+     "stock_shown": null
+    },
+    "seen": [
+     "Assassin // Treasure Double-Sided Token [ACR - 4 // 6]",
+     "Assassin // Phobos Double-Sided Token [ACR - 4 // 5]",
+     "Assassin // Human Rogue Double-Sided Token [ACR - 4 // 3]",
+     "Assassin Token [ACR - 4]"
+    ]
+   },
+   {
+    "store": "magic4ever",
+    "best": null,
+    "seen": []
+   },
+   {
+    "store": "oasis",
+    "best": {
+     "title": "Assassin Token [War of the Spark Tokens]",
+     "price_clp": 250,
+     "available": true,
+     "url": "https://www.oasisgames.cl/products/mtg-assassin-tokenwar-of-the-spark-tokens",
+     "stock_shown": null
+    },
+    "seen": [
+     "Assassin Token [War of the Spark Tokens]"
+    ]
+   },
+   {
+    "store": "cardnexus",
+    "best": null,
+    "seen": []
+   }
+  ]
+ },
+ "notes": [
+  "Tokens the three lists create that you already own: Clue, Copy, Food. Missing: Assassin (1/1 B Deathtouch, haste; made by Queen Marchesa (Ezio)); Beast (3/3 G; made by Beast Within (Toph)); Human (1/1 W; made by Stroke of Midnight (Ezio+Toph)); Insect (1/1 G; made by Springheart Nantuko (Toph)); Shapeshifter (3/2 colorless Changeling (This token is every creature type.); made by Black Market Connections (Azula)); Treasure (colorless {T}, Sacrifice this token: Add one mana of any color.; made by Storm-Kiln Artist (Azula), Big Score (Azula), Tireless Provisioner (Toph))."
+ ]
+}

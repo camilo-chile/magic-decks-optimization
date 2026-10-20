@@ -31,6 +31,24 @@ def test_buy_lists_add_the_copies_every_deck_buys_and_offers_keep_one_per_store_
     assert [(o["store"], o["price_clp"], o["language"]) for o in picked] == [("a", 700, "es"), ("c", 800, "en")]
 
 
+def test_the_quantity_is_read_from_the_theme_data_of_each_shopify_page():
+    paytowin = '"selected_variant_id": 42024411201709 ,"inventories": {"42024411201709": {\n "inventory_management": "shopify",\n "inventory_policy": "deny",\n "inventory_quantity": 1,\n "inventory_message": "x"}, "42024411234477": {"inventory_quantity": 5}}'
+    assert vs.html_quantity(paytowin, 42024411201709) == 1 and vs.html_quantity(paytowin, 42024411234477) == 5
+    samita = 'variants=[{"id":67580356591901,"title":"Near Mint","price":620000,"available":true,"sku":"4519252","inventory_quantity":2,"metafields":{}}];'
+    assert vs.html_quantity(samita, 67580356591901) == 2
+    oasis = '{ "id":33248841700001, "price":869000, "available":false, "sku":"A", "inventory_quantity" :0} , { "id":33248841700002, "sku":"B", "inventory_quantity" :4}'
+    assert vs.html_quantity(oasis, 33248841700001) == 0 and vs.html_quantity(oasis, 33248841700002) == 4
+    assert vs.html_quantity("<html>no stock data</html>", 1) is None
+
+
+def test_the_copies_may_come_from_several_stores_when_the_quantities_add_up():
+    def rec(status, qty):
+        return {"status": status, "quantity": qty}
+    assert vs.verdict(2, [rec("in_stock", 1), rec("in_stock", 1)]) == "verified"
+    assert vs.verdict(2, [rec("in_stock", 1)]) == "short"
+    assert vs.verdict(2, [rec("in_stock", 1), rec("in_stock", None)]) == "quantity_unverified"
+
+
 def test_an_offer_read_more_than_a_day_before_the_price_reading_is_stale():
     assert pb.is_stale("2026-10-17T20:00:00Z", "2026-10-19T10:13:44Z") and not pb.is_stale("2026-10-19T09:56:00Z", "2026-10-19T10:13:44Z")
     assert pb.is_stale(None, "2026-10-19T10:13:44Z")
@@ -61,7 +79,7 @@ def test_verdict_needs_the_copies_the_plan_buys_and_a_price_rise_over_5_percent_
     def rec(status, qty=None, price=100, plan=100):
         return {"status": status, "quantity": qty, "price_clp": price, "plan_price_clp": plan}
     assert vs.verdict(1, [rec("in_stock")]) == "verified" and vs.verdict(2, [rec("in_stock", qty=2)]) == "verified"
-    assert vs.verdict(2, [rec("in_stock")]) == "quantity_unverified" and vs.verdict(2, [rec("in_stock", qty=1)]) == "quantity_unverified"
+    assert vs.verdict(2, [rec("in_stock")]) == "quantity_unverified" and vs.verdict(2, [rec("in_stock", qty=1)]) == "short"
     assert vs.verdict(1, [rec("out_of_stock"), rec("error")]) == "no_stock"
     assert vs.drifted(rec("in_stock", price=106)) and not vs.drifted(rec("in_stock", price=105)) and not vs.drifted(rec("error", price=None))
 
@@ -100,7 +118,27 @@ def test_purchase_order_secures_single_source_and_costly_fallbacks_first():
     assert by["Costly"]["reasons"] == ["quantity not shown"] and by["Thin"]["reasons"] == ["thin stock"]
     assert round(pp.risk_weight(by["Costly"]), 1) == 24.4 and round(pp.risk_weight(by["Single"]), 1) == 12.4 and pp.risk_weight(by["Plain"]) == 0
     order, weight, value = pp.store_order(rows)
-    assert order == ["b", "a", "c"] and value["b"] == 12400  # b holds the costly fallback risk, a the single source, c only a thin card
+    assert order == ["b", "a", "c"] and value["b"] == 12400  # b first (the heaviest risk, no core card in this stock), then a before c
+
+
+def test_copies_are_split_across_stores_when_one_shows_too_few_and_a_short_card_is_reported():
+    pp = load("plan_purchase")
+
+    def card(name, qty, *offers):
+        return {"name": name, "qty": qty, "decks": {"Azula": 1, "Ezio": 1},
+                "records": [{"status": "in_stock", "store": s, "price_clp": p, "quantity": q} for s, p, q in offers]}
+    stock = {"budget": 1, "cards": [card("Dualcaster Mage", 2, ("lacomarca", 6200, 1), ("paytowin", 17400, 3)),
+                                    card("Short", 2, ("lacomarca", 100, 1)), card("Plain", 1, ("oasis", 500, None), ("paytowin", 900, 5))]}
+    rows, uncovered = pp.rows_for(stock, ("lacomarca", "paytowin", "oasis"))
+    dual = sorted((r["store"], r["take"], r["unit"]) for r in rows if r["card"] == "Dualcaster Mage")
+    assert dual == [("lacomarca", 1, 6200), ("paytowin", 1, 17400)] and all(r["total"] == 2 for r in rows if r["card"] == "Dualcaster Mage")
+    assert uncovered == ["Short (1 of 2 copies in stock)"]
+    order = ["paytowin", "oasis", "lacomarca"]
+    lac = next(r for r in rows if r["store"] == "lacomarca")
+    assert lac["core"] and lac["fallback"] is None and "single source" in lac["reasons"]  # both stores are already used by the split
+    plain = next(r for r in rows if r["card"] == "Plain")  # bought in oasis, fallback paytowin
+    assert pp.when_missing(plain, order).startswith("paytowin (already bought)") and "tell me" in pp.when_missing(plain, order)
+    assert pp.when_missing(plain, ["oasis", "paytowin", "lacomarca"]).startswith("add it in paytowin (store 2)")
 
 
 if __name__ == "__main__":

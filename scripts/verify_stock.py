@@ -38,6 +38,8 @@ DEFAULT_BUDGET = 150_000
 OFFERS_CHECKED = 3  # the cheapest three offers of each card (one per store)
 PRICE_DRIFT = 0.05
 KINDS = {s["id"]: s for s in rsp.STORES}
+QUANTITY_STORES = {"paytowin", "gameofmagic", "lacomarca", "oasis"}  # Shopify stores whose product pages are read for the quantity
+SHOPIFY_INTERVAL_S = 2.5  # the product pages are heavy: at one request per second the stores answered HTTP 429 (2026-10-19)
 
 
 def now_utc():
@@ -53,13 +55,33 @@ def record(card, offer, status, **extra):
     return base
 
 
+def html_quantity(html, variant_id):
+    """The stock quantity a Shopify product page prints for one variant, or None when the page shows none. The `.js` JSON has only
+    available or not, but the page carries the quantity in the theme's own data: an "inventories" block keyed by variant id
+    (PayToWin, Game of Magic) or the variant list of the label apps (La Comarca, Piedra Bruja, Oasis). Found 2026-10-19: La Comarca
+    had one Dualcaster Mage, not the two the plan needed."""
+    vid = str(variant_id)
+    block = re.search(r'"%s"\s*:\s*\{[^{}]{0,400}?"inventory_quantity"\s*:\s*(-?\d+)' % vid, html)
+    if block:
+        return max(int(block.group(1)), 0)
+    for found in re.finditer(r'"id"\s*:\s*%s\b' % vid, html):
+        tail = html[found.end():found.end() + 900]
+        other = re.search(r'"id"\s*:\s*\d{8,}', tail)  # the next variant starts there
+        if other:
+            tail = tail[:other.start()]
+        qty = re.search(r'"inventory_quantity"\s*:\s*(-?\d+)', tail)
+        if qty:
+            return max(int(qty.group(1)), 0)
+    return None
+
+
 def shopify_status(card, offer, product):
     """The record of a Shopify product (`.js` JSON): the variant is the one the offer names by its title."""
     variant = next((v for v in product.get("variants", []) if v.get("title") == offer.get("variant")), None)
     if variant is None:
         return record(card, offer, "variant_not_found", evidence=f"variants: {[v.get('title') for v in product.get('variants', [])][:6]}")
     price = int(variant["price"]) // 100
-    return record(card, offer, "in_stock" if variant.get("available") else "out_of_stock", price_clp=price,
+    return record(card, offer, "in_stock" if variant.get("available") else "out_of_stock", price_clp=price, variant_id=variant.get("id"),
                   evidence=f"Shopify product JSON: variant '{variant['title']}' available={variant.get('available')}, price {price:,}")
 
 
@@ -88,13 +110,33 @@ def magic4ever_status(card, offer, cards):
     return record(card, offer, "variant_not_found", evidence=f"SKU {offer.get('variant')} not in the search answer")
 
 
+def page_quantity(requests, throttle, url, variant_id):
+    """The quantity printed by a product page, or None (also when the store rate-limits: the offer stays in stock, quantity unknown)."""
+    for _ in range(3):
+        throttle.wait()
+        page = requests.get(url, headers={"User-Agent": rsp.USER_AGENT}, timeout=60)
+        if page.status_code == 429:
+            time.sleep(int(page.headers.get("Retry-After") or 30))
+            continue
+        return html_quantity(page.text, variant_id) if page.status_code == 200 else None
+    return None
+
+
 def check_offer(requests, throttle, card, offer):
     """One offer's record; a network or format problem is an `error` record, never an exception."""
     kind = KINDS[offer["store"]]["kind"]
     try:
         if kind == "shopify":
             data, _ = rsp.get_json(requests, throttle, offer["url"] + ".js")
-            return shopify_status(card, offer, data)
+            rec = shopify_status(card, offer, data)
+            if rec["status"] == "in_stock" and rec.get("variant_id") and offer["store"] in QUANTITY_STORES:
+                qty = page_quantity(requests, throttle, offer["url"], rec["variant_id"])
+                if qty is not None:
+                    rec["quantity"] = qty
+                    rec["evidence"] += f"; the product page shows {qty} in stock"
+                    if qty == 0:
+                        rec["status"] = "out_of_stock"
+            return rec
         if kind == "woocommerce":
             slug = urlparse(offer["url"]).path.strip("/").split("/")[-1]
             data, _ = rsp.get_json(requests, throttle, f"{KINDS[offer['store']]['base']}/wp-json/wc/store/v1/products", {"slug": slug})
@@ -107,13 +149,17 @@ def check_offer(requests, throttle, card, offer):
 
 
 def verdict(qty_needed, records):
-    """verified / quantity_unverified / no_stock for one card from its offer records."""
+    """verified / quantity_unverified / short / no_stock for one card from its offer records. The copies may come from several
+    stores: `verified` when the shown quantities add up to the copies needed (or one store with no quantity shown covers a single
+    copy), `quantity_unverified` when a store shows no quantity and more than one copy is needed, `short` when every quantity is
+    shown and they add up to fewer copies than needed."""
     live = [r for r in records if r["status"] == "in_stock"]
     if not live:
         return "no_stock"
-    if any(r["quantity"] is None and qty_needed == 1 or r["quantity"] is not None and r["quantity"] >= qty_needed for r in live):
+    shown = sum(r["quantity"] for r in live if r["quantity"] is not None)
+    if shown >= qty_needed or (qty_needed == 1 and live):
         return "verified"
-    return "quantity_unverified"
+    return "quantity_unverified" if any(r["quantity"] is None for r in live) else "short"
 
 
 def drifted(rec):
@@ -169,7 +215,7 @@ def main(argv):
     started = time.time()
 
     def run_store(store):
-        throttle = rsp.Throttle()
+        throttle = rsp.Throttle(SHOPIFY_INTERVAL_S if KINDS[store]["kind"] == "shopify" else rsp.MIN_INTERVAL_S)
         out = []
         for i, (card, offer) in enumerate(jobs[store], 1):
             out.append(check_offer(requests, throttle, card, offer))

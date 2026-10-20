@@ -1,6 +1,6 @@
 {
  "budget": 200000,
- "checked_at": "2026-10-19T15:43:13Z",
+ "checked_at": "2026-10-19T16:30:09Z",
  "buylist": "buylist-200000.json",
  "prices": "merged-20261019T1013Z.json",
  "cards": [
@@ -23,10 +23,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 22400,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:22Z",
+     "checked_at": "2026-10-19T16:27:27Z",
      "price_clp": 22200,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 22,200"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 22,200; the product page shows 1 in stock",
+     "variant_id": 42024411201709
     },
     {
      "card": "Entomb",
@@ -39,7 +40,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 22990,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:23Z",
+     "checked_at": "2026-10-19T16:27:27Z",
      "price_clp": 22990,
      "quantity": 1,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '1 disponibles', price 22,990"
@@ -55,7 +56,7 @@
      "finish": "foil",
      "plan_price_clp": 137000,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:23Z",
+     "checked_at": "2026-10-19T16:27:27Z",
      "price_clp": 137000,
      "quantity": 1,
      "evidence": "Magic4Ever API: SKU M-MP2-0023-EN-F stock 1, price 137,000"
@@ -69,7 +70,7 @@
     "Ezio": 1,
     "Azula": 1
    },
-   "verdict": "quantity_unverified",
+   "verdict": "verified",
    "records": [
     {
      "card": "Dualcaster Mage",
@@ -82,10 +83,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 6200,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:22Z",
+     "checked_at": "2026-10-19T16:27:26Z",
      "price_clp": 6200,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 6,200"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 6,200; the product page shows 1 in stock",
+     "variant_id": 67580356591901
     },
     {
      "card": "Dualcaster Mage",
@@ -98,10 +100,11 @@
      "finish": "foil",
      "plan_price_clp": 17400,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:23Z",
+     "checked_at": "2026-10-19T16:27:31Z",
      "price_clp": 17400,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played Foil' available=True, price 17,400"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played Foil' available=True, price 17,400; the product page shows 1 in stock",
+     "variant_id": 39307998822573
     }
    ]
   },
@@ -124,10 +127,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 10850,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:23Z",
+     "checked_at": "2026-10-19T16:27:31Z",
      "price_clp": 10850,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played / English / Normal' available=True, price 10,850"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played / English / Normal' available=True, price 10,850; the product page shows 1 in stock",
+     "variant_id": 67608792531229
     },
     {
      "card": "Magister Sphinx",
@@ -140,10 +144,11 @@
      "finish": "etched",
      "plan_price_clp": 18700,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:24Z",
+     "checked_at": "2026-10-19T16:27:36Z",
      "price_clp": 18700,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 18,700"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 18,700; the product page shows 1 in stock",
+     "variant_id": 41610305831085
     }
    ]
   },
@@ -166,10 +171,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 10400,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:25Z",
+     "checked_at": "2026-10-19T16:27:42Z",
      "price_clp": 10400,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 10,400"
+     "quantity": 3,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 10,400; the product page shows 3 in stock",
+     "variant_id": 43393772093613
     },
     {
      "card": "Springheart Nantuko",
@@ -182,10 +188,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 12800,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:24Z",
+     "checked_at": "2026-10-19T16:27:37Z",
      "price_clp": 12800,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 12,800"
+     "quantity": 4,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 12,800; the product page shows 4 in stock",
+     "variant_id": 67587833954589
     }
    ]
   },
@@ -209,10 +216,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 4200,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:22Z",
+     "checked_at": "2026-10-19T16:27:26Z",
      "price_clp": 3960,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 3,960"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 3,960; the product page shows 1 in stock",
+     "variant_id": 46737860198710
     },
     {
      "card": "Goblin Bombardment",
@@ -225,10 +233,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 4200,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:26Z",
+     "checked_at": "2026-10-19T16:27:46Z",
      "price_clp": 4200,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 4,200"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 4,200; the product page shows 1 in stock",
+     "variant_id": 39306841260205
     },
     {
      "card": "Goblin Bombardment",
@@ -241,7 +250,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 4490,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:24Z",
+     "checked_at": "2026-10-19T16:27:28Z",
      "price_clp": 4490,
      "quantity": 5,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '5 disponibles', price 4,490"
@@ -267,10 +276,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 8100,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:27Z",
+     "checked_at": "2026-10-19T16:27:51Z",
      "price_clp": 8100,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played Spanish' available=True, price 8,100"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played Spanish' available=True, price 8,100; the product page shows 1 in stock",
+     "variant_id": 46137293865133
     },
     {
      "card": "Chord of Calling",
@@ -283,10 +293,11 @@
      "finish": "foil",
      "plan_price_clp": 8640,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:23Z",
+     "checked_at": "2026-10-19T16:27:31Z",
      "price_clp": 8720,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 8,720"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 8,720; the product page shows 1 in stock",
+     "variant_id": 47593792209206
     },
     {
      "card": "Chord of Calling",
@@ -299,7 +310,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 9990,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:25Z",
+     "checked_at": "2026-10-19T16:27:29Z",
      "price_clp": 9990,
      "quantity": 1,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '1 disponibles', price 9,990"
@@ -325,7 +336,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 7800,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:24Z",
+     "checked_at": "2026-10-19T16:27:28Z",
      "price_clp": 7700,
      "quantity": 1,
      "evidence": "Magic4Ever API: SKU M-NCC-0381-ES-NF stock 1, price 7,700"
@@ -341,10 +352,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 8000,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:28Z",
+     "checked_at": "2026-10-19T16:27:57Z",
      "price_clp": 7800,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 7,800"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 7,800; the product page shows 1 in stock",
+     "variant_id": 39300271734957
     },
     {
      "card": "Strionic Resonator",
@@ -357,10 +369,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 8680,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:24Z",
+     "checked_at": "2026-10-19T16:27:36Z",
      "price_clp": 8640,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 8,640"
+     "quantity": 3,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 8,640; the product page shows 3 in stock",
+     "variant_id": 46727750582582
     }
    ]
   },
@@ -383,10 +396,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 7800,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:29Z",
+     "checked_at": "2026-10-19T16:28:02Z",
      "price_clp": 7700,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played Spanish' available=True, price 7,700"
+     "quantity": 2,
+     "evidence": "Shopify product JSON: variant 'Lightly Played Spanish' available=True, price 7,700; the product page shows 2 in stock",
+     "variant_id": 46165364900013
     },
     {
      "card": "Lotus Cobra",
@@ -399,7 +413,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 8090,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:26Z",
+     "checked_at": "2026-10-19T16:27:30Z",
      "price_clp": 8090,
      "quantity": 1,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '1 disponibles', price 8,090"
@@ -415,10 +429,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 8240,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:25Z",
+     "checked_at": "2026-10-19T16:27:41Z",
      "price_clp": 8120,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 8,120"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 8,120; the product page shows 1 in stock",
+     "variant_id": 46739043451190
     }
    ]
   },
@@ -441,7 +456,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 7490,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:27Z",
+     "checked_at": "2026-10-19T16:27:31Z",
      "price_clp": 7490,
      "quantity": 1,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '1 disponibles', price 7,490"
@@ -457,10 +472,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 7690,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:26Z",
+     "checked_at": "2026-10-19T16:27:46Z",
      "price_clp": 7690,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Español' available=True, price 7,690"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint Español' available=True, price 7,690; the product page shows 1 in stock",
+     "variant_id": 54548607402294
     },
     {
      "card": "Helm of the Host",
@@ -473,10 +489,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 8000,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:30Z",
+     "checked_at": "2026-10-19T16:28:07Z",
      "price_clp": 8300,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 8,300"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 8,300; the product page shows 1 in stock",
+     "variant_id": 43576009162925
     }
    ]
   },
@@ -499,10 +516,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 6960,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:27Z",
+     "checked_at": "2026-10-19T16:27:51Z",
      "price_clp": 7000,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 7,000"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 7,000; the product page shows 1 in stock",
+     "variant_id": 46730209820982
     },
     {
      "card": "Lithoform Engine",
@@ -515,7 +533,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 8090,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:28Z",
+     "checked_at": "2026-10-19T16:27:32Z",
      "price_clp": 8090,
      "quantity": 2,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '2 disponibles', price 8,090"
@@ -531,10 +549,11 @@
      "finish": "foil",
      "plan_price_clp": 8470,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:22Z",
+     "checked_at": "2026-10-19T16:27:26Z",
      "price_clp": 8470,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played Foil' available=True, price 8,470"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played Foil' available=True, price 8,470; the product page shows 1 in stock",
+     "variant_id": 33248842055766
     }
    ]
   },
@@ -557,10 +576,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 6920,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:28Z",
+     "checked_at": "2026-10-19T16:27:57Z",
      "price_clp": 6920,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 6,920"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 6,920; the product page shows 1 in stock",
+     "variant_id": 51730392842550
     },
     {
      "card": "Brightglass Gearhulk",
@@ -573,10 +593,11 @@
      "finish": "foil",
      "plan_price_clp": 9000,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:22Z",
+     "checked_at": "2026-10-19T16:27:27Z",
      "price_clp": 9000,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Ingles(Foil) M191' available=True, price 9,000"
+     "evidence": "Shopify product JSON: variant 'Ingles(Foil) M191' available=True, price 9,000",
+     "variant_id": 50051388375335
     },
     {
      "card": "Brightglass Gearhulk",
@@ -589,10 +610,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 9100,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:31Z",
+     "checked_at": "2026-10-19T16:28:11Z",
      "price_clp": 9100,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 9,100"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 9,100; the product page shows 1 in stock",
+     "variant_id": 44084572782765
     }
    ]
   },
@@ -615,7 +637,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 5390,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:29Z",
+     "checked_at": "2026-10-19T16:27:33Z",
      "price_clp": 5390,
      "quantity": 4,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '4 disponibles', price 5,390"
@@ -631,10 +653,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 6250,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:25Z",
+     "checked_at": "2026-10-19T16:27:41Z",
      "price_clp": 6250,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 6,250"
+     "quantity": 5,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 6,250; the product page shows 5 in stock",
+     "variant_id": 67580256977181
     },
     {
      "card": "Solve the Equation",
@@ -647,10 +670,11 @@
      "finish": "foil",
      "plan_price_clp": 7320,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:23Z",
+     "checked_at": "2026-10-19T16:27:32Z",
      "price_clp": 7390,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 7,390"
+     "quantity": 4,
+     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 7,390; the product page shows 4 in stock",
+     "variant_id": 39736408932438
     }
    ]
   },
@@ -673,7 +697,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 3590,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:30Z",
+     "checked_at": "2026-10-19T16:27:34Z",
      "price_clp": 3590,
      "quantity": 2,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '2 disponibles', price 3,590"
@@ -689,10 +713,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 4150,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:26Z",
+     "checked_at": "2026-10-19T16:27:47Z",
      "price_clp": 4150,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 4,150"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 4,150; the product page shows 1 in stock",
+     "variant_id": 67604572012829
     },
     {
      "card": "Storm-Kiln Artist",
@@ -705,10 +730,11 @@
      "finish": "foil",
      "plan_price_clp": 13800,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:32Z",
+     "checked_at": "2026-10-19T16:28:17Z",
      "price_clp": 13800,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played Foil' available=True, price 13,800"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played Foil' available=True, price 13,800; the product page shows 1 in stock",
+     "variant_id": 42285971046573
     }
    ]
   },
@@ -731,10 +757,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 3400,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:33Z",
+     "checked_at": "2026-10-19T16:28:22Z",
      "price_clp": 3000,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 3,000"
+     "quantity": 6,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 3,000; the product page shows 6 in stock",
+     "variant_id": 39305001500845
     },
     {
      "card": "Narset's Reversal",
@@ -747,10 +774,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 4800,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:27Z",
+     "checked_at": "2026-10-19T16:27:51Z",
      "price_clp": 4800,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / Spanish / Normal' available=True, price 4,800"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint / Spanish / Normal' available=True, price 4,800; the product page shows 1 in stock",
+     "variant_id": 67668895039773
     },
     {
      "card": "Narset's Reversal",
@@ -763,10 +791,11 @@
      "finish": "foil",
      "plan_price_clp": 12120,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:29Z",
+     "checked_at": "2026-10-19T16:28:01Z",
      "price_clp": 12120,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played Foil Español' available=True, price 12,120"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played Foil Español' available=True, price 12,120; the product page shows 1 in stock",
+     "variant_id": 53515935973686
     }
    ]
   },
@@ -789,10 +818,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 3400,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:34Z",
+     "checked_at": "2026-10-19T16:28:27Z",
      "price_clp": 3700,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 3,700"
+     "quantity": 2,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 3,700; the product page shows 2 in stock",
+     "variant_id": 40001609236653
     },
     {
      "card": "Tireless Provisioner",
@@ -805,10 +835,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 3660,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:24Z",
+     "checked_at": "2026-10-19T16:27:36Z",
      "price_clp": 3560,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 3,560"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 3,560; the product page shows 1 in stock",
+     "variant_id": 39904491405398
     },
     {
      "card": "Tireless Provisioner",
@@ -821,7 +852,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 4490,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:31Z",
+     "checked_at": "2026-10-19T16:27:35Z",
      "price_clp": 4490,
      "quantity": 2,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '2 disponibles', price 4,490"
@@ -847,10 +878,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 2400,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:35Z",
+     "checked_at": "2026-10-19T16:28:32Z",
      "price_clp": 2400,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 2,400"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 2,400; the product page shows 1 in stock",
+     "variant_id": 39304449130669
     }
    ]
   },
@@ -861,7 +893,7 @@
     "Ezio": 1,
     "Azula": 1
    },
-   "verdict": "quantity_unverified",
+   "verdict": "verified",
    "records": [
     {
      "card": "Dragonskull Summit",
@@ -874,7 +906,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 1190,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:32Z",
+     "checked_at": "2026-10-19T16:27:36Z",
      "price_clp": 890,
      "quantity": 1,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '1 disponibles', price 890"
@@ -890,10 +922,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 2000,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:23Z",
+     "checked_at": "2026-10-19T16:27:29Z",
      "price_clp": 2000,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Ingles' available=True, price 2,000"
+     "evidence": "Shopify product JSON: variant 'Ingles' available=True, price 2,000",
+     "variant_id": 51106775499047
     },
     {
      "card": "Dragonskull Summit",
@@ -906,10 +939,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 2400,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:36Z",
+     "checked_at": "2026-10-19T16:28:37Z",
      "price_clp": 2400,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 2,400"
+     "quantity": 2,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 2,400; the product page shows 2 in stock",
+     "variant_id": 39300139942061
     }
    ]
   },
@@ -933,7 +967,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 1190,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:33Z",
+     "checked_at": "2026-10-19T16:27:37Z",
      "price_clp": 1190,
      "quantity": 3,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '3 disponibles', price 1,190"
@@ -949,10 +983,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 4300,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:28Z",
+     "checked_at": "2026-10-19T16:27:57Z",
      "price_clp": 4300,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 4,300"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 4,300; the product page shows 1 in stock",
+     "variant_id": 67601700356381
     },
     {
      "card": "Drowned Catacomb",
@@ -965,10 +1000,11 @@
      "finish": "foil",
      "plan_price_clp": 6080,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:30Z",
+     "checked_at": "2026-10-19T16:28:06Z",
      "price_clp": 6160,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 6,160"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 6,160; the product page shows 1 in stock",
+     "variant_id": 48241729405238
     }
    ]
   },
@@ -991,7 +1027,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 2090,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:34Z",
+     "checked_at": "2026-10-19T16:27:38Z",
      "price_clp": 1790,
      "quantity": 3,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '3 disponibles', price 1,790"
@@ -1007,10 +1043,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 3250,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:31Z",
+     "checked_at": "2026-10-19T16:28:11Z",
      "price_clp": 3250,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 3,250"
+     "quantity": 3,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 3,250; the product page shows 3 in stock",
+     "variant_id": 52462476132662
     },
     {
      "card": "Sulfurous Springs",
@@ -1023,10 +1060,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 20670,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:25Z",
+     "checked_at": "2026-10-19T16:27:42Z",
      "price_clp": 20670,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 20,670"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 20,670; the product page shows 1 in stock",
+     "variant_id": 30991635447894
     }
    ]
   },
@@ -1049,7 +1087,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 1990,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:35Z",
+     "checked_at": "2026-10-19T16:27:39Z",
      "price_clp": 1990,
      "quantity": 1,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '1 disponibles', price 1,990"
@@ -1065,10 +1103,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 2400,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:32Z",
+     "checked_at": "2026-10-19T16:28:16Z",
      "price_clp": 2480,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 2,480"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 2,480; the product page shows 1 in stock",
+     "variant_id": 48530634539318
     },
     {
      "card": "Queen Marchesa",
@@ -1081,10 +1120,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 2500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:29Z",
+     "checked_at": "2026-10-19T16:28:02Z",
      "price_clp": 2500,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 2,500"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 2,500; the product page shows 1 in stock",
+     "variant_id": 67604543308061
     }
    ]
   },
@@ -1107,7 +1147,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 1990,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:36Z",
+     "checked_at": "2026-10-19T16:27:40Z",
      "price_clp": 1990,
      "quantity": 2,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '2 disponibles', price 1,990"
@@ -1123,7 +1163,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 3500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:25Z",
+     "checked_at": "2026-10-19T16:27:29Z",
      "price_clp": 3500,
      "quantity": 1,
      "evidence": "Magic4Ever API: SKU M-WC98-bs362-EN-NF-LP stock 1, price 3,500"
@@ -1139,10 +1179,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 5000,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:24Z",
+     "checked_at": "2026-10-19T16:27:31Z",
      "price_clp": 5000,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Ingles' available=True, price 5,000"
+     "evidence": "Shopify product JSON: variant 'Ingles' available=True, price 5,000",
+     "variant_id": 49146830225703
     }
    ]
   },
@@ -1165,7 +1206,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 1900,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:26Z",
+     "checked_at": "2026-10-19T16:27:30Z",
      "price_clp": 1900,
      "quantity": 1,
      "evidence": "Magic4Ever API: SKU M-FRC-0021-EN-NF stock 1, price 1,900"
@@ -1181,10 +1222,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 2220,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:26Z",
+     "checked_at": "2026-10-19T16:27:46Z",
      "price_clp": 2220,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 2,220"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 2,220; the product page shows 1 in stock",
+     "variant_id": 49866286661927
     },
     {
      "card": "Sol Ring",
@@ -1196,11 +1238,11 @@
      "condition": "LP",
      "finish": "nonfoil",
      "plan_price_clp": 2300,
-     "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:37Z",
-     "price_clp": 2300,
+     "status": "error",
+     "checked_at": "2026-10-19T16:28:41Z",
+     "price_clp": null,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 2,300"
+     "evidence": "HTTPError: 503 Server Error: Service Unavailable for url: https://www.paytowin.cl/products/sol-ring-commander-legends-battle-for-baldurs-gate.js"
     }
    ]
   },
@@ -1225,10 +1267,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 630,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:27Z",
+     "checked_at": "2026-10-19T16:27:51Z",
      "price_clp": 630,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 630"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 630; the product page shows 1 in stock",
+     "variant_id": 44978866520359
     },
     {
      "card": "Reckless Handling",
@@ -1241,7 +1284,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 690,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:37Z",
+     "checked_at": "2026-10-19T16:27:41Z",
      "price_clp": 590,
      "quantity": 4,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '4 disponibles', price 590"
@@ -1257,10 +1300,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 700,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:30Z",
+     "checked_at": "2026-10-19T16:28:07Z",
      "price_clp": 700,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 700"
+     "quantity": 4,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 700; the product page shows 4 in stock",
+     "variant_id": 67608610636061
     }
    ]
   },
@@ -1271,7 +1315,7 @@
     "Ezio": 1,
     "Azula": 1
    },
-   "verdict": "quantity_unverified",
+   "verdict": "verified",
    "records": [
     {
      "card": "Smoldering Marsh",
@@ -1284,10 +1328,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 915,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:33Z",
+     "checked_at": "2026-10-19T16:28:21Z",
      "price_clp": 915,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Español' available=True, price 915"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint Español' available=True, price 915; the product page shows 1 in stock",
+     "variant_id": 54482367152438
     },
     {
      "card": "Smoldering Marsh",
@@ -1300,7 +1345,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 1190,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:38Z",
+     "checked_at": "2026-10-19T16:27:42Z",
      "price_clp": 1190,
      "quantity": 1,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '1 disponibles', price 1,190"
@@ -1316,10 +1361,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:25Z",
+     "checked_at": "2026-10-19T16:27:34Z",
      "price_clp": 1500,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Ingles R428' available=True, price 1,500"
+     "evidence": "Shopify product JSON: variant 'Ingles R428' available=True, price 1,500",
+     "variant_id": 52346305511719
     }
    ]
   },
@@ -1342,7 +1388,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 1790,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:39Z",
+     "checked_at": "2026-10-19T16:27:43Z",
      "price_clp": 1490,
      "quantity": 3,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '3 disponibles', price 1,490"
@@ -1358,10 +1404,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 14200,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:38Z",
+     "checked_at": "2026-10-19T16:28:44Z",
      "price_clp": 14200,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 14,200"
+     "quantity": 3,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 14,200; the product page shows 3 in stock",
+     "variant_id": 39300634935469
     },
     {
      "card": "Sunken Ruins",
@@ -1374,10 +1421,11 @@
      "finish": "foil",
      "plan_price_clp": 49940,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:28Z",
+     "checked_at": "2026-10-19T16:27:57Z",
      "price_clp": 49940,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played Foil' available=True, price 49,940"
+     "quantity": 2,
+     "evidence": "Shopify product JSON: variant 'Lightly Played Foil' available=True, price 49,940; the product page shows 2 in stock",
+     "variant_id": 31001610453078
     }
    ]
   },
@@ -1400,7 +1448,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 1590,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:40Z",
+     "checked_at": "2026-10-19T16:27:44Z",
      "price_clp": 1590,
      "quantity": 6,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '6 disponibles', price 1,590"
@@ -1416,10 +1464,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1900,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:31Z",
+     "checked_at": "2026-10-19T16:28:12Z",
      "price_clp": 1900,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 1,900"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 1,900; the product page shows 1 in stock",
+     "variant_id": 67604548223261
     },
     {
      "card": "Godo, Bandit Warlord",
@@ -1432,10 +1481,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 2400,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:39Z",
+     "checked_at": "2026-10-19T16:28:49Z",
      "price_clp": 2400,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 2,400"
+     "quantity": 2,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 2,400; the product page shows 2 in stock",
+     "variant_id": 39298950955181
     }
    ]
   },
@@ -1459,7 +1509,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 790,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:41Z",
+     "checked_at": "2026-10-19T16:27:45Z",
      "price_clp": 690,
      "quantity": 2,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '2 disponibles', price 690"
@@ -1475,10 +1525,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:26Z",
+     "checked_at": "2026-10-19T16:27:36Z",
      "price_clp": 1500,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Ingles' available=True, price 1,500"
+     "evidence": "Shopify product JSON: variant 'Ingles' available=True, price 1,500",
+     "variant_id": 51107999318311
     },
     {
      "card": "Sunken Hollow",
@@ -1491,10 +1542,11 @@
      "finish": "foil",
      "plan_price_clp": 2360,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:34Z",
+     "checked_at": "2026-10-19T16:28:26Z",
      "price_clp": 2360,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 2,360"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 2,360; the product page shows 1 in stock",
+     "variant_id": 48241364238646
     }
    ]
   },
@@ -1519,7 +1571,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:27Z",
+     "checked_at": "2026-10-19T16:27:31Z",
      "price_clp": 500,
      "quantity": 38,
      "evidence": "Magic4Ever API: SKU M-TDC-0360-ES-NF stock 38, price 500"
@@ -1535,7 +1587,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 590,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:42Z",
+     "checked_at": "2026-10-19T16:27:46Z",
      "price_clp": 590,
      "quantity": 4,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '4 disponibles', price 590"
@@ -1551,10 +1603,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 915,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:35Z",
+     "checked_at": "2026-10-19T16:28:34Z",
      "price_clp": 915,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 915"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 915; the product page shows 1 in stock",
+     "variant_id": 52462493237558
     }
    ]
   },
@@ -1577,10 +1630,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1250,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:36Z",
+     "checked_at": "2026-10-19T16:28:37Z",
      "price_clp": 1250,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'NM Regular' available=True, price 1,250"
+     "quantity": 9,
+     "evidence": "Shopify product JSON: variant 'NM Regular' available=True, price 1,250; the product page shows 9 in stock",
+     "variant_id": 54171537998134
     },
     {
      "card": "Return the Favor",
@@ -1593,7 +1647,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 1390,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:43Z",
+     "checked_at": "2026-10-19T16:27:47Z",
      "price_clp": 1390,
      "quantity": 6,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '6 disponibles', price 1,390"
@@ -1619,10 +1673,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1210,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:37Z",
+     "checked_at": "2026-10-19T16:28:42Z",
      "price_clp": 1210,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 1,210"
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 1,210",
+     "variant_id": 47960311529782
     },
     {
      "card": "Etrata, Deadly Fugitive",
@@ -1635,10 +1690,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 3600,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:32Z",
+     "checked_at": "2026-10-19T16:28:17Z",
      "price_clp": 3600,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 3,600"
+     "quantity": 13,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 3,600; the product page shows 13 in stock",
+     "variant_id": 67587607789853
     }
    ]
   },
@@ -1662,7 +1718,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 600,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:28Z",
+     "checked_at": "2026-10-19T16:27:32Z",
      "price_clp": 600,
      "quantity": 2,
      "evidence": "Magic4Ever API: SKU M-FRC-0054-EN-NF stock 2, price 600"
@@ -1678,7 +1734,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 1790,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:44Z",
+     "checked_at": "2026-10-19T16:27:48Z",
      "price_clp": 1790,
      "quantity": 1,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '1 disponibles', price 1,790"
@@ -1694,10 +1750,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 2500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:27Z",
+     "checked_at": "2026-10-19T16:27:39Z",
      "price_clp": 2500,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Ingles' available=True, price 2,500"
+     "evidence": "Shopify product JSON: variant 'Ingles' available=True, price 2,500",
+     "variant_id": 49974498656551
     }
    ]
   },
@@ -1721,7 +1778,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:29Z",
+     "checked_at": "2026-10-19T16:27:33Z",
      "price_clp": 500,
      "quantity": 7,
      "evidence": "Magic4Ever API: SKU M-PIP-0258-ES-NF stock 7, price 500"
@@ -1737,7 +1794,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 590,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:45Z",
+     "checked_at": "2026-10-19T16:27:49Z",
      "price_clp": 690,
      "quantity": 3,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '3 disponibles', price 690"
@@ -1753,10 +1810,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:28Z",
+     "checked_at": "2026-10-19T16:27:42Z",
      "price_clp": 1500,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Ingles R0324' available=True, price 1,500"
+     "evidence": "Shopify product JSON: variant 'Ingles R0324' available=True, price 1,500",
+     "variant_id": 50026609017127
     }
    ]
   },
@@ -1780,10 +1838,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:29Z",
+     "checked_at": "2026-10-19T16:28:01Z",
      "price_clp": 500,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 500"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 500; the product page shows 1 in stock",
+     "variant_id": 33102154793046
     },
     {
      "card": "Everflowing Chalice",
@@ -1796,10 +1855,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 650,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:33Z",
+     "checked_at": "2026-10-19T16:28:22Z",
      "price_clp": 650,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 650"
+     "quantity": 6,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 650; the product page shows 6 in stock",
+     "variant_id": 67580348301597
     },
     {
      "card": "Everflowing Chalice",
@@ -1812,7 +1872,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 690,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:46Z",
+     "checked_at": "2026-10-19T16:27:51Z",
      "price_clp": 690,
      "quantity": 4,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '4 disponibles', price 690"
@@ -1839,7 +1899,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:30Z",
+     "checked_at": "2026-10-19T16:27:34Z",
      "price_clp": 500,
      "quantity": 3,
      "evidence": "Magic4Ever API: SKU M-WOC-0161-ES-NF stock 3, price 500"
@@ -1855,7 +1915,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 590,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:47Z",
+     "checked_at": "2026-10-19T16:27:52Z",
      "price_clp": 590,
      "quantity": 2,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '2 disponibles', price 590"
@@ -1871,10 +1931,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 900,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:30Z",
+     "checked_at": "2026-10-19T16:28:06Z",
      "price_clp": 900,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 900"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 900; the product page shows 1 in stock",
+     "variant_id": 39470917058646
     }
    ]
   },
@@ -1885,7 +1946,7 @@
     "Ezio": 1,
     "Toph": 1
    },
-   "verdict": "quantity_unverified",
+   "verdict": "verified",
    "records": [
     {
      "card": "Game Trail",
@@ -1898,7 +1959,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:31Z",
+     "checked_at": "2026-10-19T16:27:35Z",
      "price_clp": 500,
      "quantity": 1,
      "evidence": "Magic4Ever API: SKU M-BLC-0306-EN-NF stock 1, price 500"
@@ -1914,7 +1975,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 690,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:48Z",
+     "checked_at": "2026-10-19T16:27:52Z",
      "price_clp": 690,
      "quantity": 1,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '1 disponibles', price 690"
@@ -1930,10 +1991,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 915,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:38Z",
+     "checked_at": "2026-10-19T16:28:47Z",
      "price_clp": 915,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 915"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 915; the product page shows 1 in stock",
+     "variant_id": 51892821655862
     }
    ]
   },
@@ -1957,7 +2019,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:32Z",
+     "checked_at": "2026-10-19T16:27:36Z",
      "price_clp": 500,
      "quantity": 3,
      "evidence": "Magic4Ever API: SKU M-FRC-0084-EN-NF stock 3, price 500"
@@ -1973,7 +2035,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 590,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:49Z",
+     "checked_at": "2026-10-19T16:27:53Z",
      "price_clp": 590,
      "quantity": 4,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '4 disponibles', price 590"
@@ -1989,10 +2051,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 2400,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:40Z",
+     "checked_at": "2026-10-19T16:28:54Z",
      "price_clp": 2400,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played Spanish' available=True, price 2,400"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played Spanish' available=True, price 2,400; the product page shows 1 in stock",
+     "variant_id": 46213713494189
     }
    ]
   },
@@ -2015,7 +2078,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 990,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:50Z",
+     "checked_at": "2026-10-19T16:27:55Z",
      "price_clp": 990,
      "quantity": 2,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '2 disponibles', price 990"
@@ -2031,7 +2094,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 1100,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:33Z",
+     "checked_at": "2026-10-19T16:27:37Z",
      "price_clp": 1200,
      "quantity": 1,
      "evidence": "Magic4Ever API: SKU M-2X2-0066-EN-NF stock 1, price 1,200"
@@ -2047,10 +2110,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1700,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:34Z",
+     "checked_at": "2026-10-19T16:28:27Z",
      "price_clp": 1700,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played / English / Normal' available=True, price 1,700"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played / English / Normal' available=True, price 1,700; the product page shows 1 in stock",
+     "variant_id": 67668923351325
     }
    ]
   },
@@ -2074,7 +2138,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 490,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:51Z",
+     "checked_at": "2026-10-19T16:27:55Z",
      "price_clp": 490,
      "quantity": 2,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '2 disponibles', price 490"
@@ -2090,7 +2154,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:34Z",
+     "checked_at": "2026-10-19T16:27:38Z",
      "price_clp": 500,
      "quantity": 4,
      "evidence": "Magic4Ever API: SKU M-FDC-0030-EN-NF stock 4, price 500"
@@ -2106,10 +2170,11 @@
      "finish": "foil",
      "plan_price_clp": 915,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:39Z",
+     "checked_at": "2026-10-19T16:28:52Z",
      "price_clp": 915,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 915"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 915; the product page shows 1 in stock",
+     "variant_id": 46737101422902
     }
    ]
   },
@@ -2133,7 +2198,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 490,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:52Z",
+     "checked_at": "2026-10-19T16:27:57Z",
      "price_clp": 490,
      "quantity": 2,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '2 disponibles', price 490"
@@ -2149,10 +2214,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 550,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:35Z",
+     "checked_at": "2026-10-19T16:28:32Z",
      "price_clp": 550,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 550"
+     "quantity": 4,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 550; the product page shows 4 in stock",
+     "variant_id": 67659758633245
     },
     {
      "card": "Mana Leak",
@@ -2165,10 +2231,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 900,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:41Z",
+     "checked_at": "2026-10-19T16:28:59Z",
      "price_clp": 900,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 900"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 900; the product page shows 1 in stock",
+     "variant_id": 39298211545261
     }
    ]
   },
@@ -2192,10 +2259,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 481,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:22Z",
+     "checked_at": "2026-10-19T16:27:26Z",
      "price_clp": 481,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Default Title' available=True, price 481"
+     "evidence": "Shopify product JSON: variant 'Default Title' available=True, price 481",
+     "variant_id": 52430823358744
     },
     {
      "card": "Frostboil Snarl",
@@ -2208,7 +2276,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 490,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:53Z",
+     "checked_at": "2026-10-19T16:27:57Z",
      "price_clp": 490,
      "quantity": 2,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '2 disponibles', price 490"
@@ -2224,10 +2292,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 915,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:40Z",
+     "checked_at": "2026-10-19T16:28:57Z",
      "price_clp": 915,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 915"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 915; the product page shows 1 in stock",
+     "variant_id": 47394474721590
     }
    ]
   },
@@ -2250,10 +2319,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 915,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:41Z",
+     "checked_at": "2026-10-19T16:29:03Z",
      "price_clp": 915,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 915"
+     "quantity": 2,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 915; the product page shows 2 in stock",
+     "variant_id": 49301200175414
     }
    ]
   },
@@ -2276,10 +2346,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 915,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:42Z",
+     "checked_at": "2026-10-19T16:29:07Z",
      "price_clp": 915,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 915"
+     "quantity": 2,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 915; the product page shows 2 in stock",
+     "variant_id": 54364520415542
     },
     {
      "card": "Glamdring, Foe-hammer // Gleam of Death",
@@ -2292,7 +2363,7 @@
      "finish": "foil",
      "plan_price_clp": 1100,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:35Z",
+     "checked_at": "2026-10-19T16:27:39Z",
      "price_clp": 1100,
      "quantity": 1,
      "evidence": "Magic4Ever API: SKU M-HOB-0174-ES-F stock 1, price 1,100"
@@ -2308,10 +2379,11 @@
      "finish": "foil",
      "plan_price_clp": 1700,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:36Z",
+     "checked_at": "2026-10-19T16:28:37Z",
      "price_clp": 1700,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Foil' available=True, price 1,700"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Foil' available=True, price 1,700; the product page shows 1 in stock",
+     "variant_id": 67612368961821
     }
    ]
   },
@@ -2334,10 +2406,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 900,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:31Z",
+     "checked_at": "2026-10-19T16:28:12Z",
      "price_clp": 900,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 900"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 900; the product page shows 1 in stock",
+     "variant_id": 48578557509927
     },
     {
      "card": "Kolaghan's Command",
@@ -2350,10 +2423,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 2400,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:42Z",
+     "checked_at": "2026-10-19T16:29:04Z",
      "price_clp": 2400,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 2,400"
+     "quantity": 14,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 2,400; the product page shows 14 in stock",
+     "variant_id": 39299290300589
     },
     {
      "card": "Kolaghan's Command",
@@ -2366,10 +2440,11 @@
      "finish": "foil",
      "plan_price_clp": 2600,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:43Z",
+     "checked_at": "2026-10-19T16:29:12Z",
      "price_clp": 2600,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 2,600"
+     "quantity": 2,
+     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 2,600; the product page shows 2 in stock",
+     "variant_id": 46733196001590
     }
    ]
   },
@@ -2380,7 +2455,7 @@
     "Ezio": 1,
     "Azula": 1
    },
-   "verdict": "quantity_unverified",
+   "verdict": "verified",
    "records": [
     {
      "card": "Mystical Teachings",
@@ -2393,10 +2468,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 450,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:32Z",
+     "checked_at": "2026-10-19T16:28:16Z",
      "price_clp": 450,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 450"
+     "quantity": 14,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 450; the product page shows 14 in stock",
+     "variant_id": 31003919679574
     },
     {
      "card": "Mystical Teachings",
@@ -2409,10 +2485,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:37Z",
+     "checked_at": "2026-10-19T16:28:42Z",
      "price_clp": 500,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 500"
+     "quantity": 6,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 500; the product page shows 6 in stock",
+     "variant_id": 67608797675805
     },
     {
      "card": "Mystical Teachings",
@@ -2425,10 +2502,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 742,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:44Z",
+     "checked_at": "2026-10-19T16:29:17Z",
      "price_clp": 742,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Español' available=True, price 742"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint Español' available=True, price 742; the product page shows 1 in stock",
+     "variant_id": 54209077772598
     }
    ]
   },
@@ -2451,7 +2529,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 890,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:54Z",
+     "checked_at": "2026-10-19T16:27:58Z",
      "price_clp": 890,
      "quantity": 3,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '3 disponibles', price 890"
@@ -2467,10 +2545,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:33Z",
+     "checked_at": "2026-10-19T16:28:21Z",
      "price_clp": 1500,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 1,500"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 1,500; the product page shows 1 in stock",
+     "variant_id": 39900845015126
     },
     {
      "card": "Ravenloft Adventurer",
@@ -2483,10 +2562,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1700,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:38Z",
+     "checked_at": "2026-10-19T16:28:47Z",
      "price_clp": 1700,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 1,700"
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 1,700",
+     "variant_id": 67580100051229
     }
    ]
   },
@@ -2509,7 +2589,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 890,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:55Z",
+     "checked_at": "2026-10-19T16:27:59Z",
      "price_clp": 890,
      "quantity": 4,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '4 disponibles', price 890"
@@ -2525,10 +2605,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 975,
      "status": "out_of_stock",
-     "checked_at": "2026-10-19T15:42:43Z",
+     "checked_at": "2026-10-19T16:29:09Z",
      "price_clp": 975,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=False, price 975"
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=False, price 975",
+     "variant_id": 43394271477933
     },
     {
      "card": "Arcane Signet",
@@ -2541,10 +2622,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1000,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:45Z",
+     "checked_at": "2026-10-19T16:29:22Z",
      "price_clp": 1000,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Español' available=True, price 1,000"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint Español' available=True, price 1,000; the product page shows 1 in stock",
+     "variant_id": 54482240176438
     }
    ]
   },
@@ -2567,7 +2649,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 890,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:56Z",
+     "checked_at": "2026-10-19T16:28:01Z",
      "price_clp": 890,
      "quantity": 6,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '6 disponibles', price 890"
@@ -2583,10 +2665,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 900,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:44Z",
+     "checked_at": "2026-10-19T16:29:12Z",
      "price_clp": 900,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played Spanish' available=True, price 900"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played Spanish' available=True, price 900; the product page shows 1 in stock",
+     "variant_id": 46199884644525
     },
     {
      "card": "Sakura-Tribe Elder",
@@ -2599,10 +2682,11 @@
      "finish": "foil",
      "plan_price_clp": 4360,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:46Z",
+     "checked_at": "2026-10-19T16:29:27Z",
      "price_clp": 4320,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 4,320"
+     "quantity": 2,
+     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 4,320; the product page shows 2 in stock",
+     "variant_id": 49406313726262
     }
    ]
   },
@@ -2625,7 +2709,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 790,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:57Z",
+     "checked_at": "2026-10-19T16:28:02Z",
      "price_clp": 790,
      "quantity": 1,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '1 disponibles', price 790"
@@ -2641,10 +2725,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 900,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:34Z",
+     "checked_at": "2026-10-19T16:28:26Z",
      "price_clp": 900,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played Spanish' available=True, price 900"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played Spanish' available=True, price 900; the product page shows 1 in stock",
+     "variant_id": 39470912143446
     },
     {
      "card": "Darkwater Catacombs",
@@ -2656,11 +2741,11 @@
      "condition": "NM",
      "finish": "nonfoil",
      "plan_price_clp": 1700,
-     "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:39Z",
-     "price_clp": 1700,
+     "status": "error",
+     "checked_at": "2026-10-19T16:28:51Z",
+     "price_clp": null,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 1,700"
+     "evidence": "HTTPError: 503 Server Error: Service Unavailable for url: https://www.tiendalacomarca.cl/products/darkwater-catacombs-extended-art-universes-beyond-doctor-who-520059.js"
     }
    ]
   },
@@ -2683,10 +2768,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 742,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:47Z",
+     "checked_at": "2026-10-19T16:29:32Z",
      "price_clp": 742,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 742"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 742; the product page shows 1 in stock",
+     "variant_id": 51760494346550
     },
     {
      "card": "Talisman of Impulse",
@@ -2699,10 +2785,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 15650,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:35Z",
+     "checked_at": "2026-10-19T16:28:31Z",
      "price_clp": 15650,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 15,650"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 15,650; the product page shows 1 in stock",
+     "variant_id": 40023755096150
     },
     {
      "card": "Talisman of Impulse",
@@ -2715,10 +2802,11 @@
      "finish": "foil",
      "plan_price_clp": 20500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:45Z",
+     "checked_at": "2026-10-19T16:29:17Z",
      "price_clp": 20500,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played Foil' available=True, price 20,500"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played Foil' available=True, price 20,500; the product page shows 1 in stock",
+     "variant_id": 39300736549037
     }
    ]
   },
@@ -2741,10 +2829,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 700,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:36Z",
+     "checked_at": "2026-10-19T16:28:38Z",
      "price_clp": 700,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 700"
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 700",
+     "variant_id": 49896326562087
     },
     {
      "card": "Infernal Grasp",
@@ -2757,7 +2846,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 890,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:58Z",
+     "checked_at": "2026-10-19T16:28:03Z",
      "price_clp": 890,
      "quantity": 3,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '3 disponibles', price 890"
@@ -2773,7 +2862,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 1100,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:36Z",
+     "checked_at": "2026-10-19T16:27:40Z",
      "price_clp": 1200,
      "quantity": 3,
      "evidence": "Magic4Ever API: SKU M-DBL-0107-EN-NF stock 3, price 1,200"
@@ -2799,10 +2888,11 @@
      "finish": "foil",
      "plan_price_clp": 700,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:40Z",
+     "checked_at": "2026-10-19T16:28:54Z",
      "price_clp": 700,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Foil' available=True, price 700"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Foil' available=True, price 700; the product page shows 1 in stock",
+     "variant_id": 67587864232221
     },
     {
      "card": "Loyal Inventor",
@@ -2815,10 +2905,11 @@
      "finish": "foil",
      "plan_price_clp": 742,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:48Z",
+     "checked_at": "2026-10-19T16:29:37Z",
      "price_clp": 742,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 742"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 742; the product page shows 1 in stock",
+     "variant_id": 49320563114294
     },
     {
      "card": "Loyal Inventor",
@@ -2831,10 +2922,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1560,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:46Z",
+     "checked_at": "2026-10-19T16:29:21Z",
      "price_clp": 1560,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Spanish' available=True, price 1,560"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint Spanish' available=True, price 1,560; the product page shows 1 in stock",
+     "variant_id": 46165549056173
     }
    ]
   },
@@ -2857,7 +2949,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 690,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:59Z",
+     "checked_at": "2026-10-19T16:28:04Z",
      "price_clp": 690,
      "quantity": 4,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '4 disponibles', price 690"
@@ -2873,10 +2965,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 915,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:49Z",
+     "checked_at": "2026-10-19T16:29:42Z",
      "price_clp": 915,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 915"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 915; the product page shows 1 in stock",
+     "variant_id": 51722825531702
     },
     {
      "card": "Shivan Reef",
@@ -2889,10 +2982,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:29Z",
+     "checked_at": "2026-10-19T16:27:44Z",
      "price_clp": 1500,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'ingles R170' available=True, price 1,500"
+     "evidence": "Shopify product JSON: variant 'ingles R170' available=True, price 1,500",
+     "variant_id": 52338729615655
     }
    ]
   },
@@ -2916,7 +3010,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 300,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:37Z",
+     "checked_at": "2026-10-19T16:27:41Z",
      "price_clp": 300,
      "quantity": 1,
      "evidence": "Magic4Ever API: SKU M-FRC-0035-EN-NF stock 1, price 300"
@@ -2932,7 +3026,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 690,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:43:01Z",
+     "checked_at": "2026-10-19T16:28:05Z",
      "price_clp": 690,
      "quantity": 3,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '3 disponibles', price 690"
@@ -2948,10 +3042,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1560,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:47Z",
+     "checked_at": "2026-10-19T16:29:27Z",
      "price_clp": 1560,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Spanish' available=True, price 1,560"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint Spanish' available=True, price 1,560; the product page shows 1 in stock",
+     "variant_id": 46213342658733
     }
    ]
   },
@@ -2974,7 +3069,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 590,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:43:02Z",
+     "checked_at": "2026-10-19T16:28:06Z",
      "price_clp": 590,
      "quantity": 1,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '1 disponibles', price 590"
@@ -2990,10 +3085,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:30Z",
+     "checked_at": "2026-10-19T16:27:46Z",
      "price_clp": 1500,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Ingles' available=True, price 1,500"
+     "evidence": "Shopify product JSON: variant 'Ingles' available=True, price 1,500",
+     "variant_id": 52346070270247
     },
     {
      "card": "Shadowblood Ridge",
@@ -3006,10 +3102,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 2400,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:48Z",
+     "checked_at": "2026-10-19T16:29:32Z",
      "price_clp": 2400,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 2,400"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 2,400; the product page shows 1 in stock",
+     "variant_id": 42795504468141
     }
    ]
   },
@@ -3032,7 +3129,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 590,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:43:03Z",
+     "checked_at": "2026-10-19T16:28:07Z",
      "price_clp": 690,
      "quantity": 5,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '5 disponibles', price 690"
@@ -3048,10 +3145,11 @@
      "finish": "foil",
      "plan_price_clp": 6700,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:49Z",
+     "checked_at": "2026-10-19T16:29:37Z",
      "price_clp": 6700,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 6,700"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint Foil' available=True, price 6,700; the product page shows 1 in stock",
+     "variant_id": 43594772644013
     }
    ]
   },
@@ -3074,7 +3172,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 590,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:43:04Z",
+     "checked_at": "2026-10-19T16:28:08Z",
      "price_clp": 590,
      "quantity": 5,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '5 disponibles', price 590"
@@ -3090,10 +3188,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 915,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:50Z",
+     "checked_at": "2026-10-19T16:29:47Z",
      "price_clp": 915,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 915"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 915; the product page shows 1 in stock",
+     "variant_id": 53873661444406
     },
     {
      "card": "Furycalm Snarl",
@@ -3106,10 +3205,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1700,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:41Z",
+     "checked_at": "2026-10-19T16:28:59Z",
      "price_clp": 1700,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / Spanish / Normal' available=True, price 1,700"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint / Spanish / Normal' available=True, price 1,700; the product page shows 1 in stock",
+     "variant_id": 67669009858845
     }
    ]
   },
@@ -3132,7 +3232,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 590,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:43:05Z",
+     "checked_at": "2026-10-19T16:28:09Z",
      "price_clp": 690,
      "quantity": 2,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '2 disponibles', price 690"
@@ -3148,10 +3248,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 700,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:42Z",
+     "checked_at": "2026-10-19T16:29:04Z",
      "price_clp": 700,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / Spanish / Normal' available=True, price 700"
+     "quantity": 2,
+     "evidence": "Shopify product JSON: variant 'Near Mint / Spanish / Normal' available=True, price 700; the product page shows 2 in stock",
+     "variant_id": 67580390179101
     },
     {
      "card": "Soul-Guide Lantern",
@@ -3164,10 +3265,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 742,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:51Z",
+     "checked_at": "2026-10-19T16:29:52Z",
      "price_clp": 742,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Español' available=True, price 742"
+     "quantity": 2,
+     "evidence": "Shopify product JSON: variant 'Near Mint Español' available=True, price 742; the product page shows 2 in stock",
+     "variant_id": 54546193088822
     }
    ]
   },
@@ -3190,7 +3292,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:38Z",
+     "checked_at": "2026-10-19T16:27:42Z",
      "price_clp": 500,
      "quantity": 4,
      "evidence": "Magic4Ever API: SKU M-TDC-0373-ES-NF stock 4, price 500"
@@ -3206,7 +3308,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 690,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:43:06Z",
+     "checked_at": "2026-10-19T16:28:10Z",
      "price_clp": 690,
      "quantity": 2,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '2 disponibles', price 690"
@@ -3222,10 +3324,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 915,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:52Z",
+     "checked_at": "2026-10-19T16:29:57Z",
      "price_clp": 915,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 915"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 915; the product page shows 1 in stock",
+     "variant_id": 51722808754486
     }
    ]
   },
@@ -3248,10 +3351,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:37Z",
+     "checked_at": "2026-10-19T16:28:41Z",
      "price_clp": 500,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 500"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 500; the product page shows 1 in stock",
+     "variant_id": 49858237628711
     },
     {
      "card": "Command Tower",
@@ -3264,10 +3368,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 570,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:53Z",
+     "checked_at": "2026-10-19T16:30:02Z",
      "price_clp": 570,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint Español' available=True, price 570"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint Español' available=True, price 570; the product page shows 1 in stock",
+     "variant_id": 54563825746230
     },
     {
      "card": "Command Tower",
@@ -3280,7 +3385,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 690,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:43:07Z",
+     "checked_at": "2026-10-19T16:28:11Z",
      "price_clp": 690,
      "quantity": 2,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '2 disponibles', price 690"
@@ -3306,7 +3411,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:39Z",
+     "checked_at": "2026-10-19T16:27:43Z",
      "price_clp": 500,
      "quantity": 1,
      "evidence": "Magic4Ever API: SKU M-TDC-0389-ES-NF stock 1, price 500"
@@ -3322,7 +3427,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 690,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:43:08Z",
+     "checked_at": "2026-10-19T16:28:12Z",
      "price_clp": 690,
      "quantity": 3,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '3 disponibles', price 690"
@@ -3338,10 +3443,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:31Z",
+     "checked_at": "2026-10-19T16:27:49Z",
      "price_clp": 1500,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Ingles' available=True, price 1,500"
+     "evidence": "Shopify product JSON: variant 'Ingles' available=True, price 1,500",
+     "variant_id": 52347086962983
     }
    ]
   },
@@ -3364,7 +3470,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 490,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:43:09Z",
+     "checked_at": "2026-10-19T16:28:13Z",
      "price_clp": 490,
      "quantity": 1,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '1 disponibles', price 490"
@@ -3380,10 +3486,11 @@
      "finish": "foil",
      "plan_price_clp": 1200,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:43Z",
+     "checked_at": "2026-10-19T16:29:09Z",
      "price_clp": 1200,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Foil' available=True, price 1,200"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Foil' available=True, price 1,200; the product page shows 1 in stock",
+     "variant_id": 67601688953117
     },
     {
      "card": "Bitter Triumph",
@@ -3396,10 +3503,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1560,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:50Z",
+     "checked_at": "2026-10-19T16:29:43Z",
      "price_clp": 1560,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 1,560"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 1,560; the product page shows 1 in stock",
+     "variant_id": 45897284976813
     }
    ]
   },
@@ -3422,7 +3530,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 490,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:43:10Z",
+     "checked_at": "2026-10-19T16:28:14Z",
      "price_clp": 490,
      "quantity": 2,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '2 disponibles', price 490"
@@ -3438,7 +3546,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:40Z",
+     "checked_at": "2026-10-19T16:27:44Z",
      "price_clp": 500,
      "quantity": 2,
      "evidence": "Magic4Ever API: SKU M-FDC-0293-EN-NF stock 2, price 500"
@@ -3454,10 +3562,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 2400,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:51Z",
+     "checked_at": "2026-10-19T16:29:47Z",
      "price_clp": 2400,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 2,400"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 2,400; the product page shows 1 in stock",
+     "variant_id": 42345001877677
     }
    ]
   },
@@ -3480,7 +3589,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 490,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:43:11Z",
+     "checked_at": "2026-10-19T16:28:15Z",
      "price_clp": 490,
      "quantity": 4,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '4 disponibles', price 490"
@@ -3496,7 +3605,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 500,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:41Z",
+     "checked_at": "2026-10-19T16:27:45Z",
      "price_clp": 500,
      "quantity": 6,
      "evidence": "Magic4Ever API: SKU M-MSH-0239-EN-NF stock 6, price 500"
@@ -3522,7 +3631,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 490,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:43:12Z",
+     "checked_at": "2026-10-19T16:28:16Z",
      "price_clp": 490,
      "quantity": 1,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '1 disponibles', price 490"
@@ -3537,11 +3646,11 @@
      "condition": "LP",
      "finish": "nonfoil",
      "plan_price_clp": 630,
-     "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:38Z",
-     "price_clp": 630,
+     "status": "error",
+     "checked_at": "2026-10-19T16:28:46Z",
+     "price_clp": null,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played Spanish' available=True, price 630"
+     "evidence": "HTTPError: 503 Server Error: Service Unavailable for url: https://www.oasisgames.cl/products/liquimetal-coating-retro-the-brothers-war-retro-artifacts.js"
     },
     {
      "card": "Liquimetal Coating",
@@ -3554,10 +3663,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 700,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:44Z",
+     "checked_at": "2026-10-19T16:29:14Z",
      "price_clp": 700,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / Spanish / Normal' available=True, price 700"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint / Spanish / Normal' available=True, price 700; the product page shows 1 in stock",
+     "variant_id": 67579940208925
     }
    ]
   },
@@ -3580,7 +3690,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 450,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:42Z",
+     "checked_at": "2026-10-19T16:27:46Z",
      "price_clp": 400,
      "quantity": 1,
      "evidence": "Magic4Ever API: SKU M-FRC-0060-EN-NF stock 1, price 400"
@@ -3596,10 +3706,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1560,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:52Z",
+     "checked_at": "2026-10-19T16:29:52Z",
      "price_clp": 1560,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 1,560"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 1,560; the product page shows 1 in stock",
+     "variant_id": 39299422159021
     },
     {
      "card": "Rakdos Signet",
@@ -3612,10 +3723,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 2000,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:45Z",
+     "checked_at": "2026-10-19T16:29:19Z",
      "price_clp": 2000,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 2,000"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 2,000; the product page shows 1 in stock",
+     "variant_id": 67604680278301
     }
    ]
   },
@@ -3638,10 +3750,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 450,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:39Z",
+     "checked_at": "2026-10-19T16:28:49Z",
      "price_clp": 450,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 450"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 450; the product page shows 1 in stock",
+     "variant_id": 31005053386838
     }
    ]
   },
@@ -3664,7 +3777,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 450,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:43Z",
+     "checked_at": "2026-10-19T16:27:47Z",
      "price_clp": 450,
      "quantity": 2,
      "evidence": "Magic4Ever API: SKU M-DMR-0094-ES-NF stock 2, price 450"
@@ -3680,10 +3793,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 750,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:46Z",
+     "checked_at": "2026-10-19T16:29:24Z",
      "price_clp": 750,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 750"
+     "quantity": 2,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Normal' available=True, price 750; the product page shows 2 in stock",
+     "variant_id": 67604494876957
     },
     {
      "card": "Nightscape Familiar",
@@ -3695,11 +3809,11 @@
      "condition": "LP",
      "finish": "nonfoil",
      "plan_price_clp": 1200,
-     "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:53Z",
-     "price_clp": 1200,
+     "status": "error",
+     "checked_at": "2026-10-19T16:29:56Z",
+     "price_clp": null,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Lightly Played' available=True, price 1,200"
+     "evidence": "HTTPError: 503 Server Error: Service Unavailable for url: https://www.paytowin.cl/products/nightscape-familiar-archenemy-nicol-bolas.js"
     }
    ]
   },
@@ -3722,7 +3836,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 400,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:44Z",
+     "checked_at": "2026-10-19T16:27:48Z",
      "price_clp": 400,
      "quantity": 1,
      "evidence": "Magic4Ever API: SKU M-WC98-bs66-EN-NF-LP stock 1, price 400"
@@ -3738,10 +3852,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 1560,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:54Z",
+     "checked_at": "2026-10-19T16:29:59Z",
      "price_clp": 1560,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 1,560"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 1,560; the product page shows 1 in stock",
+     "variant_id": 43799362764973
     }
    ]
   },
@@ -3764,10 +3879,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 350,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:23Z",
+     "checked_at": "2026-10-19T16:27:29Z",
      "price_clp": 350,
      "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Default Title' available=True, price 350"
+     "evidence": "Shopify product JSON: variant 'Default Title' available=True, price 350",
+     "variant_id": 52690685985048
     },
     {
      "card": "Thorn of the Black Rose",
@@ -3780,10 +3896,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 570,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:54Z",
+     "checked_at": "2026-10-19T16:30:07Z",
      "price_clp": 570,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 570"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint' available=True, price 570; the product page shows 1 in stock",
+     "variant_id": 46738997870902
     },
     {
      "card": "Thorn of the Black Rose",
@@ -3796,10 +3913,11 @@
      "finish": "foil",
      "plan_price_clp": 650,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:47Z",
+     "checked_at": "2026-10-19T16:29:29Z",
      "price_clp": 650,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / English / Foil' available=True, price 650"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint / English / Foil' available=True, price 650; the product page shows 1 in stock",
+     "variant_id": 67580326347037
     }
    ]
   },
@@ -3822,7 +3940,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 300,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:45Z",
+     "checked_at": "2026-10-19T16:27:49Z",
      "price_clp": 300,
      "quantity": 5,
      "evidence": "Magic4Ever API: SKU M-DMR-0048-ES-NF stock 5, price 300"
@@ -3838,7 +3956,7 @@
      "finish": "nonfoil",
      "plan_price_clp": 490,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:43:13Z",
+     "checked_at": "2026-10-19T16:28:17Z",
      "price_clp": 490,
      "quantity": 3,
      "evidence": "WooCommerce Store API: is_in_stock=True, is_purchasable=True, '3 disponibles', price 490"
@@ -3854,10 +3972,11 @@
      "finish": "nonfoil",
      "plan_price_clp": 700,
      "status": "in_stock",
-     "checked_at": "2026-10-19T15:42:48Z",
+     "checked_at": "2026-10-19T16:29:34Z",
      "price_clp": 700,
-     "quantity": null,
-     "evidence": "Shopify product JSON: variant 'Near Mint / Spanish / Normal' available=True, price 700"
+     "quantity": 1,
+     "evidence": "Shopify product JSON: variant 'Near Mint / Spanish / Normal' available=True, price 700; the product page shows 1 in stock",
+     "variant_id": 67608678826269
     }
    ]
   }

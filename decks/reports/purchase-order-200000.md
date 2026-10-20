@@ -1,119 +1,145 @@
-# Purchase order of the 200,000 CLP plan (20261019T1542Z)
+# Purchase order of the 200,000 CLP plan (20261019T1627Z)
 
-From the live stock check `20261019T1542Z.json` (`scripts/plan_purchase.py`), 6 stores chosen by the owner's rules of 2026-10-19: stock first, fewer stores, the cards at risk are secured first. Live prices of the stock check; the plan priced them a few hours earlier.
+From the live stock check `20261019T1627Z.json` (`scripts/plan_purchase.py`), 6 stores chosen by the owner's rules of 2026-10-19: stock first, fewer stores, the cards that matter most and have no alternative first. Live prices of the stock check, with the quantities the product pages print.
 
-91 copies of 70 distinct cards; total 184,342 CLP; shipping assumed 30,000 CLP (outside the budget).
+91 copies of 70 distinct cards; total 193,667 CLP; shipping assumed 30,000 CLP (outside the budget).
 
 ## How to buy
 
-1. Fill every cart first, the A cards of each store first. A cart shows the quantity limit of a card without paying: where it says fewer than the plan needs, stop and tell me.
-2. Pay store by store in the order below (the riskiest first). If a card of a store fails when you pay, use its fallback (the price difference is in the table); a card with no fallback means stop and re-plan before paying anything else.
+Store by store in this order: put every line in the cart and pay at once. When a line is not there, the last column says what to do.
 
-| Order | Store | Cards | A cards | Subtotal CLP |
+| Order | Store | Lines | A lines | Subtotal CLP |
 |---|---|---|---|---|
-| 1 | gameofmagic | 11 | 4 | 31,102 |
-| 2 | paytowin | 7 | 2 | 58,600 |
-| 3 | lacomarca | 3 | 1 | 23,950 |
-| 4 | magic4ever | 13 | 6 | 17,850 |
-| 5 | cardnexus | 29 | 10 | 44,830 |
-| 6 | oasis | 7 | 3 | 8,010 |
+| 1 | paytowin | 9 | 6 | 77,800 |
+| 2 | cardnexus | 32 | 14 | 46,910 |
+| 3 | lacomarca | 4 | 3 | 18,400 |
+| 4 | magic4ever | 15 | 8 | 18,650 |
+| 5 | gameofmagic | 10 | 7 | 24,397 |
+| 6 | oasis | 7 | 5 | 7,510 |
 
-## 1. gameofmagic (31,102 CLP)
+## 1. paytowin (77,800 CLP)
 
-| Class | Card | Qty | Unit CLP | Stock shown | Why | Fallback inside the set |
-|---|---|---|---|---|---|---|
-| A | Goblin Bombardment | 2 | 3,960 | ? | quantity not shown | paytowin 4,200 (+480) |
-| A | Game Trail | 2 | 915 | ? | single source, quantity not shown | none |
-| A | Smoldering Marsh | 2 | 915 | ? | single source, quantity not shown | none |
-| A | Desmond Miles | 1 | 915 | ? | single source | none |
-| B | Lithoform Engine | 1 | 7,000 | ? | - | cardnexus 8,090 (+1,090) |
-| B | Brightglass Gearhulk | 1 | 6,920 | ? | - | paytowin 9,100 (+2,180) |
-| B | Return the Favor | 1 | 1,250 | ? | - | cardnexus 1,390 (+140) |
-| B | Etrata, Deadly Fugitive | 1 | 1,210 | ? | - | lacomarca 3,600 (+2,390) |
-| B | Glamdring, Foe-hammer // Gleam of Death | 1 | 915 | ? | - | magic4ever 1,100 (+185) |
-| B | Talisman of Impulse | 1 | 742 | ? | - | oasis 15,650 (+14,908) |
-| B | Thorn of the Black Rose | 1 | 570 | ? | - | lacomarca 650 (+80) |
+| Class | Card | Qty | Unit CLP | Line CLP | Stock shown | Why | If it is not there |
+|---|---|---|---|---|---|---|---|
+| A core | Dualcaster Mage | 1 of 2 | 17,400 | 17,400 | 1 | single source, thin stock | no alternative: tell me |
+| A core | Etrata, the Silencer | 1 | 2,400 | 2,400 | 1 | single source, thin stock | no alternative: tell me |
+| A | Dragonskull Summit | 1 of 2 | 2,400 | 2,400 | 2 | single source | no alternative: skip it and tell me |
+| A core | Entomb | 1 | 22,200 | 22,200 | 1 | thin stock | add it in cardnexus (store 2), 22,990 each (+790) |
+| A | Chord of Calling | 1 | 8,100 | 8,100 | 1 | thin stock | add it in gameofmagic (store 5), 8,720 each (+620) |
+| A | Goblin Bombardment | 1 of 2 | 4,200 | 4,200 | 1 | thin stock | add it in cardnexus (store 2), 4,490 each (+290) |
+| B | Springheart Nantuko | 1 | 10,400 | 10,400 | 3 | - | add it in lacomarca (store 3), 12,800 each (+2,400) |
+| B | Lotus Cobra | 1 | 7,700 | 7,700 | 2 | - | add it in cardnexus (store 2), 8,090 each (+390) |
+| B | Narset's Reversal | 1 | 3,000 | 3,000 | 6 | - | add it in lacomarca (store 3), 4,800 each (+1,800) |
+| | **Total** | **9** | | **77,800** | | | 9 lines |
 
-## 2. paytowin (58,600 CLP)
+## 2. cardnexus (46,910 CLP)
 
-| Class | Card | Qty | Unit CLP | Stock shown | Why | Fallback inside the set |
-|---|---|---|---|---|---|---|
-| A | Dragonskull Summit | 2 | 2,400 | ? | single source, quantity not shown | none |
-| A | Etrata, the Silencer | 1 | 2,400 | ? | single source | none |
-| B | Entomb | 1 | 22,200 | ? | - | cardnexus 22,990 (+790) |
-| B | Springheart Nantuko | 1 | 10,400 | ? | - | lacomarca 12,800 (+2,400) |
-| B | Chord of Calling | 1 | 8,100 | ? | - | gameofmagic 8,720 (+620) |
-| B | Lotus Cobra | 1 | 7,700 | ? | - | cardnexus 8,090 (+390) |
-| B | Narset's Reversal | 1 | 3,000 | ? | - | lacomarca 4,800 (+1,800) |
+| Class | Card | Qty | Unit CLP | Line CLP | Stock shown | Why | If it is not there |
+|---|---|---|---|---|---|---|---|
+| A | Drowned Catacomb | 2 | 1,190 | 2,380 | 3 | single source | no alternative: skip it and tell me |
+| A | Sunken Hollow | 2 | 690 | 1,380 | 2 | single source, thin stock | no alternative: skip it and tell me |
+| A | Smoldering Marsh | 1 of 2 | 1,190 | 1,190 | 1 | single source, thin stock | no alternative: skip it and tell me |
+| A | Frostboil Snarl | 2 | 490 | 980 | 2 | single source, thin stock | no alternative: skip it and tell me |
+| A | Dragonskull Summit | 1 of 2 | 890 | 890 | 1 | single source, thin stock | no alternative: skip it and tell me |
+| A core | Helm of the Host | 1 | 7,490 | 7,490 | 1 | thin stock | add it in gameofmagic (store 5), 7,690 each (+200) |
+| A | Shadowblood Ridge | 1 | 590 | 590 | 1 | thin stock | paytowin (already bought) 2,400 each (+1,810): tell me |
+| A | Bitter Triumph | 1 | 490 | 490 | 1 | thin stock | add it in lacomarca (store 3), 1,200 each (+710) |
+| A | Queen Marchesa | 1 | 1,990 | 1,990 | 1 | thin stock | add it in gameofmagic (store 5), 2,480 each (+490) |
+| A | Game Trail | 1 of 2 | 690 | 690 | 1 | thin stock | add it in gameofmagic (store 5), 915 each (+225) |
+| A | Liquimetal Coating | 1 | 490 | 490 | 1 | thin stock | add it in lacomarca (store 3), 700 each (+210) |
+| A | Mana Leak | 2 | 490 | 980 | 2 | thin stock | add it in lacomarca (store 3), 550 each (+120) |
+| A | Darkwater Catacombs | 1 | 790 | 790 | 1 | thin stock | add it in oasis (store 6), 900 each (+110) |
+| A | Fateful Absence | 2 | 490 | 980 | 2 | thin stock | add it in magic4ever (store 4), 500 each (+20) |
+| B | Solve the Equation | 1 | 5,390 | 5,390 | 4 | - | add it in lacomarca (store 3), 6,250 each (+860) |
+| B | Storm-Kiln Artist | 1 | 3,590 | 3,590 | 2 | - | add it in lacomarca (store 3), 4,150 each (+560) |
+| B | Underground River | 1 | 1,990 | 1,990 | 2 | - | add it in magic4ever (store 4), 3,500 each (+1,510) |
+| B | Sulfurous Springs | 1 | 1,790 | 1,790 | 3 | - | add it in gameofmagic (store 5), 3,250 each (+1,460) |
+| B | Reckless Handling | 3 | 590 | 1,770 | 4 | - | add it in lacomarca (store 3), 700 each (+330) |
+| B | Godo, Bandit Warlord | 1 | 1,590 | 1,590 | 6 | - | add it in lacomarca (store 3), 1,900 each (+310) |
+| B | Sunken Ruins | 1 | 1,490 | 1,490 | 3 | - | paytowin (already bought) 14,200 each (+12,710): tell me |
+| B | Venser, Shaper Savant | 1 | 990 | 990 | 2 | - | add it in magic4ever (store 4), 1,200 each (+210) |
+| B | Arcane Signet | 1 | 890 | 890 | 4 | - | add it in gameofmagic (store 5), 1,000 each (+110) |
+| B | Ravenloft Adventurer | 1 | 890 | 890 | 3 | - | add it in oasis (store 6), 1,500 each (+610) |
+| B | Sakura-Tribe Elder | 1 | 890 | 890 | 6 | - | paytowin (already bought) 900 each (+10): tell me |
+| B | Shivan Reef | 1 | 690 | 690 | 4 | - | add it in gameofmagic (store 5), 915 each (+225) |
+| B | Soul-Guide Lantern | 1 | 690 | 690 | 2 | - | add it in lacomarca (store 3), 700 each (+10) |
+| B | Stormcatch Mentor | 1 | 690 | 690 | 5 | - | paytowin (already bought) 6,700 each (+6,010): tell me |
+| B | Stroke of Midnight | 1 of 2 | 690 | 690 | 3 | - | paytowin (already bought) 1,560 each (+870): tell me |
+| B | Furycalm Snarl | 1 | 590 | 590 | 5 | - | add it in gameofmagic (store 5), 915 each (+325) |
+| B | Tome of Legends | 1 | 490 | 490 | 2 | - | add it in magic4ever (store 4), 500 each (+10) |
+| B | Winter Soldier, Icy Assassin | 1 | 490 | 490 | 4 | - | add it in magic4ever (store 4), 500 each (+10) |
+| | **Total** | **39** | | **46,910** | | | 32 lines |
 
-## 3. lacomarca (23,950 CLP)
+## 3. lacomarca (18,400 CLP)
 
-| Class | Card | Qty | Unit CLP | Stock shown | Why | Fallback inside the set |
-|---|---|---|---|---|---|---|
-| A | Dualcaster Mage | 2 | 6,200 | ? | quantity not shown | paytowin 17,400 (+22,400) |
-| B | Magister Sphinx | 1 | 10,850 | ? | - | paytowin 18,700 (+7,850) |
-| B | Loyal Inventor | 1 | 700 | ? | - | gameofmagic 742 (+42) |
+| Class | Card | Qty | Unit CLP | Line CLP | Stock shown | Why | If it is not there |
+|---|---|---|---|---|---|---|---|
+| A core | Dualcaster Mage | 1 of 2 | 6,200 | 6,200 | 1 | single source, thin stock | no alternative: tell me |
+| A core | Magister Sphinx | 1 | 10,850 | 10,850 | 1 | thin stock | paytowin (already bought) 18,700 each (+7,850): tell me |
+| A core | Loyal Inventor | 1 | 700 | 700 | 1 | thin stock | add it in gameofmagic (store 5), 742 each (+42) |
+| B | Everflowing Chalice | 1 of 2 | 650 | 650 | 6 | - | cardnexus (already bought) 690 each (+40): tell me |
+| | **Total** | **4** | | **18,400** | | | 4 lines |
 
-## 4. magic4ever (17,850 CLP)
+## 4. magic4ever (18,650 CLP)
 
-| Class | Card | Qty | Unit CLP | Stock shown | Why | Fallback inside the set |
-|---|---|---|---|---|---|---|
-| A | Strionic Resonator | 1 | 7,700 | 1 | thin stock | paytowin 7,800 (+100) |
-| A | Sol Ring | 1 | 1,900 | 1 | thin stock | oasis 2,220 (+320) |
-| A | Chromatic Lantern | 2 | 600 | 2 | single source, thin stock | none |
-| A | Rugged Prairie | 1 | 500 | 1 | thin stock | cardnexus 690 (+190) |
-| A | Nekrataal | 1 | 400 | 1 | thin stock | paytowin 1,560 (+1,160) |
-| A | Rakdos Signet | 1 | 400 | 1 | thin stock | paytowin 1,560 (+1,160) |
-| B | Exotic Orchard | 3 | 500 | 38 | - | cardnexus 590 (+270) |
-| B | Clifftop Retreat | 2 | 500 | 7 | - | cardnexus 690 (+380) |
-| B | Fortified Village | 2 | 500 | 3 | - | cardnexus 590 (+180) |
-| B | Sulfur Falls | 2 | 500 | 3 | - | cardnexus 590 (+180) |
-| B | Isolated Chapel | 1 | 500 | 4 | - | cardnexus 690 (+190) |
-| B | Nightscape Familiar | 1 | 450 | 2 | - | lacomarca 750 (+300) |
-| B | Fact or Fiction | 1 | 300 | 5 | - | cardnexus 490 (+190) |
+| Class | Card | Qty | Unit CLP | Line CLP | Stock shown | Why | If it is not there |
+|---|---|---|---|---|---|---|---|
+| A | Chromatic Lantern | 2 | 600 | 1,200 | 2 | single source, thin stock | no alternative: skip it and tell me |
+| A core | Strionic Resonator | 1 | 7,700 | 7,700 | 1 | thin stock | paytowin (already bought) 7,800 each (+100): tell me |
+| A | Stroke of Midnight | 1 of 2 | 300 | 300 | 1 | thin stock | paytowin (already bought) 1,560 each (+1,260): tell me |
+| A | Nekrataal | 1 | 400 | 400 | 1 | thin stock | paytowin (already bought) 1,560 each (+1,160): tell me |
+| A | Rakdos Signet | 1 | 400 | 400 | 1 | thin stock | paytowin (already bought) 1,560 each (+1,160): tell me |
+| A | Game Trail | 1 of 2 | 500 | 500 | 1 | thin stock | add it in gameofmagic (store 5), 915 each (+415) |
+| A | Sol Ring | 1 | 1,900 | 1,900 | 1 | thin stock | add it in oasis (store 6), 2,220 each (+320) |
+| A | Rugged Prairie | 1 | 500 | 500 | 1 | thin stock | cardnexus (already bought) 690 each (+190): tell me |
+| B | Exotic Orchard | 3 | 500 | 1,500 | 38 | - | cardnexus (already bought) 590 each (+270): tell me |
+| B | Clifftop Retreat | 2 | 500 | 1,000 | 7 | - | cardnexus (already bought) 690 each (+380): tell me |
+| B | Fortified Village | 2 | 500 | 1,000 | 3 | - | cardnexus (already bought) 590 each (+180): tell me |
+| B | Sulfur Falls | 2 | 500 | 1,000 | 3 | - | cardnexus (already bought) 590 each (+180): tell me |
+| B | Isolated Chapel | 1 | 500 | 500 | 4 | - | cardnexus (already bought) 690 each (+190): tell me |
+| B | Nightscape Familiar | 1 | 450 | 450 | 2 | - | lacomarca (already bought) 750 each (+300): tell me |
+| B | Fact or Fiction | 1 | 300 | 300 | 5 | - | cardnexus (already bought) 490 each (+190): tell me |
+| | **Total** | **21** | | **18,650** | | | 15 lines |
 
-## 5. cardnexus (44,830 CLP)
+## 5. gameofmagic (24,397 CLP)
 
-| Class | Card | Qty | Unit CLP | Stock shown | Why | Fallback inside the set |
-|---|---|---|---|---|---|---|
-| A | Helm of the Host | 1 | 7,490 | 1 | thin stock | gameofmagic 7,690 (+200) |
-| A | Queen Marchesa | 1 | 1,990 | 1 | thin stock | gameofmagic 2,480 (+490) |
-| A | Sunken Hollow | 2 | 690 | 2 | thin stock | gameofmagic 2,360 (+3,340) |
-| A | Fateful Absence | 2 | 490 | 2 | thin stock | magic4ever 500 (+20) |
-| A | Frostboil Snarl | 2 | 490 | 2 | thin stock | gameofmagic 915 (+850) |
-| A | Mana Leak | 2 | 490 | 2 | thin stock | lacomarca 550 (+120) |
-| A | Darkwater Catacombs | 1 | 790 | 1 | thin stock | oasis 900 (+110) |
-| A | Shadowblood Ridge | 1 | 590 | 1 | thin stock | paytowin 2,400 (+1,810) |
-| A | Bitter Triumph | 1 | 490 | 1 | thin stock | lacomarca 1,200 (+710) |
-| A | Liquimetal Coating | 1 | 490 | 1 | thin stock | oasis 630 (+140) |
-| B | Solve the Equation | 1 | 5,390 | 4 | - | lacomarca 6,250 (+860) |
-| B | Storm-Kiln Artist | 1 | 3,590 | 2 | - | lacomarca 4,150 (+560) |
-| B | Drowned Catacomb | 2 | 1,190 | 3 | - | lacomarca 4,300 (+6,220) |
-| B | Underground River | 1 | 1,990 | 2 | - | magic4ever 3,500 (+1,510) |
-| B | Sulfurous Springs | 1 | 1,790 | 3 | - | gameofmagic 3,250 (+1,460) |
-| B | Reckless Handling | 3 | 590 | 4 | - | oasis 630 (+120) |
-| B | Godo, Bandit Warlord | 1 | 1,590 | 6 | - | lacomarca 1,900 (+310) |
-| B | Sunken Ruins | 1 | 1,490 | 3 | - | paytowin 14,200 (+12,710) |
-| B | Stroke of Midnight | 2 | 690 | 3 | - | paytowin 1,560 (+1,740) |
-| B | Venser, Shaper Savant | 1 | 990 | 2 | - | magic4ever 1,200 (+210) |
-| B | Arcane Signet | 1 | 890 | 4 | - | gameofmagic 1,000 (+110) |
-| B | Ravenloft Adventurer | 1 | 890 | 3 | - | oasis 1,500 (+610) |
-| B | Sakura-Tribe Elder | 1 | 890 | 6 | - | paytowin 900 (+10) |
-| B | Shivan Reef | 1 | 690 | 4 | - | gameofmagic 915 (+225) |
-| B | Soul-Guide Lantern | 1 | 690 | 2 | - | lacomarca 700 (+10) |
-| B | Stormcatch Mentor | 1 | 690 | 5 | - | paytowin 6,700 (+6,010) |
-| B | Furycalm Snarl | 1 | 590 | 5 | - | gameofmagic 915 (+325) |
-| B | Tome of Legends | 1 | 490 | 2 | - | magic4ever 500 (+10) |
-| B | Winter Soldier, Icy Assassin | 1 | 490 | 4 | - | magic4ever 500 (+10) |
+| Class | Card | Qty | Unit CLP | Line CLP | Stock shown | Why | If it is not there |
+|---|---|---|---|---|---|---|---|
+| A | Talisman of Impulse | 1 | 742 | 742 | 1 | thin stock | add it in oasis (store 6), 15,650 each (+14,908) |
+| A | Desmond Miles | 1 | 915 | 915 | 2 | single source | no alternative: skip it and tell me |
+| A | Smoldering Marsh | 1 of 2 | 915 | 915 | 1 | single source, thin stock | no alternative: skip it and tell me |
+| A core | Lithoform Engine | 1 | 7,000 | 7,000 | 1 | thin stock | cardnexus (already bought) 8,090 each (+1,090): tell me |
+| A | Brightglass Gearhulk | 1 | 6,920 | 6,920 | 1 | thin stock | paytowin (already bought) 9,100 each (+2,180): tell me |
+| A | Goblin Bombardment | 1 of 2 | 3,960 | 3,960 | 1 | thin stock | cardnexus (already bought) 4,490 each (+530): tell me |
+| A | Thorn of the Black Rose | 1 | 570 | 570 | 1 | thin stock | lacomarca (already bought) 650 each (+80): tell me |
+| B | Return the Favor | 1 | 1,250 | 1,250 | 9 | - | cardnexus (already bought) 1,390 each (+140): tell me |
+| B | Etrata, Deadly Fugitive | 1 | 1,210 | 1,210 | ? | - | lacomarca (already bought) 3,600 each (+2,390): tell me |
+| B | Glamdring, Foe-hammer // Gleam of Death | 1 | 915 | 915 | 2 | - | magic4ever (already bought) 1,100 each (+185): tell me |
+| | **Total** | **10** | | **24,397** | | | 10 lines |
 
-## 6. oasis (8,010 CLP)
+## 6. oasis (7,510 CLP)
 
-| Class | Card | Qty | Unit CLP | Stock shown | Why | Fallback inside the set |
-|---|---|---|---|---|---|---|
-| A | Everflowing Chalice | 2 | 500 | ? | quantity not shown | lacomarca 650 (+300) |
-| A | Mystical Teachings | 2 | 450 | ? | quantity not shown | lacomarca 500 (+100) |
-| A | Survivors' Encampment | 1 | 450 | ? | single source | none |
-| B | Tireless Provisioner | 1 | 3,560 | ? | - | paytowin 3,700 (+140) |
-| B | Kolaghan's Command | 1 | 900 | ? | - | paytowin 2,400 (+1,500) |
-| B | Infernal Grasp | 1 | 700 | ? | - | cardnexus 890 (+190) |
-| B | Command Tower | 1 | 500 | ? | - | gameofmagic 570 (+70) |
+| Class | Card | Qty | Unit CLP | Line CLP | Stock shown | Why | If it is not there |
+|---|---|---|---|---|---|---|---|
+| A | Survivors' Encampment | 1 | 450 | 450 | 1 | single source, thin stock | no alternative: skip it and tell me |
+| A | Kolaghan's Command | 1 | 900 | 900 | 1 | thin stock | paytowin (already bought) 2,400 each (+1,500): tell me |
+| A | Everflowing Chalice | 1 of 2 | 500 | 500 | 1 | thin stock | cardnexus (already bought) 690 each (+190): tell me |
+| A | Tireless Provisioner | 1 | 3,560 | 3,560 | 1 | thin stock | paytowin (already bought) 3,700 each (+140): tell me |
+| A | Command Tower | 1 | 500 | 500 | 1 | thin stock | gameofmagic (already bought) 570 each (+70): tell me |
+| B | Mystical Teachings | 2 | 450 | 900 | 14 | - | lacomarca (already bought) 500 each (+100): tell me |
+| B | Infernal Grasp | 1 | 700 | 700 | ? | - | cardnexus (already bought) 890 each (+190): tell me |
+| | **Total** | **8** | | **7,510** | | | 7 lines |
+
+## Optional, outside the budget (only in the stores above, add them if you want)
+
+| Store | Item | Qty | Unit CLP | Stock shown | Note |
+|---|---|---|---|---|---|
+| paytowin (store 1) | Ezio Auditore da Firenze | 1 | 19,900 | ? | Ezio Auditore da Firenze (Borderless) [Assassin's Creed] |
+| oasis (store 6) | Assassin (token) | 1 | 250 | ? | Assassin Token [War of the Spark Tokens] |
+| oasis (store 6) | Beast (token) | 1 | 250 | ? | Beast Token [Core Set 2021] |
+| oasis (store 6) | Human (token) | 1 | 250 | ? | Human (7/8) [Avacyn Restored Tokens] |
+| oasis (store 6) | Insect (token) | 1 | 120 | ? | Insect Token [Time Spiral Remastered Tokens] |
+| oasis (store 6) | Shapeshifter (token) | 1 | 250 | ? | Shapeshifter (001) // Emblem - Wrenn and Six (021) Double-sided Token [Modern Horizons Tokens] |
+| oasis (store 6) | Treasure (token) | 1 | 250 | ? | Treasure Token [Core Set 2021] |
+
+Tokens the three lists create that you already own: Clue, Copy, Food. Missing: Assassin (1/1 B Deathtouch, haste; made by Queen Marchesa (Ezio)); Beast (3/3 G; made by Beast Within (Toph)); Human (1/1 W; made by Stroke of Midnight (Ezio+Toph)); Insect (1/1 G; made by Springheart Nantuko (Toph)); Shapeshifter (3/2 colorless Changeling (This token is every creature type.); made by Black Market Connections (Azula)); Treasure (colorless {T}, Sacrifice this token: Add one mana of any color.; made by Storm-Kiln Artist (Azula), Big Score (Azula), Tireless Provisioner (Toph)).
