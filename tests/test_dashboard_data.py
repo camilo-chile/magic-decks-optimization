@@ -37,17 +37,16 @@ def test_lists_mark_offered_dominated_and_replaced_and_leave_out_unusable_rounds
     assert rows["toph-r3-30"]["round"] == "R3"
 
 
-def test_older_and_start_lists_are_reference_rows_that_never_reach_a_plan_or_the_best_buys():
+def test_older_and_start_lists_are_reference_rows_that_never_reach_a_plan():
     rows = {r["id"]: r for r in mod.lists_rows(MEASURED)}
     assert rows["toph-r2-36"]["status"] == "older" and rows["toph-r2-36"]["round"] == "R2"
     assert rows["azula-r2-24-plus-9-duals"]["status"] == "older" and rows["azula-r2-24-plus-9-duals"]["list"] == "R2 step 24 plus 9 duals"
     assert rows["toph-owner"]["status"] == "start" and rows["toph-owner"]["list"] == "Owner's list" and rows["toph-owner"]["round"] == "Start"
     points = mod.ob.load_points(MEASURED)
     assert all(p["label"] not in ("round2-step36", "owner-list") for p in points[T])
-    assert {b["from_list"] for b in mod.buy_rows(MEASURED)}.isdisjoint({"R2 step 36", "Owner's list"})
 
 
-def test_plans_buys_and_jumps_follow_the_optimizer_and_alexios_never_enters_a_plan():
+def test_plans_follow_the_optimizer_and_alexios_never_enters_a_plan():
     points = mod.ob.load_points(MEASURED)
     assert X not in points
     rows = mod.ob.curve(points, budgets=[100_000, 150_000])
@@ -55,12 +54,6 @@ def test_plans_buys_and_jumps_follow_the_optimizer_and_alexios_never_enters_a_pl
     assert [p["id"] for p in plans] == ["100000", "150000"]
     assert plans[1]["toph_cell"] == "R3 step 21 (49,000 CLP)" and plans[1]["powers"] == "7.0 / 7.1 / 7.4"
     assert plans[1]["toph_id"] == "toph-r3-21"
-    jumps = {j["id"]: j["change"] for j in mod.jump_rows(rows)}
-    assert jumps["150000-toph"] == 0.3 and jumps["150000-total"] == 0.3 and jumps["150000-ezio"] == 0.0
-    buys = mod.buy_rows(MEASURED)
-    assert {b["deck"] for b in buys} == {"Toph", "Alexios"}  # Azula and Ezio have a single point here
-    assert [b["status"] for b in buys if b["deck"] == "Alexios"] == ["replaced"]
-    assert buys[0]["rank"] == 1 and buys[0]["per_10k"] >= buys[-1]["per_10k"]
 
 
 if __name__ == "__main__":

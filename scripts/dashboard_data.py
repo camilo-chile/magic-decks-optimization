@@ -7,14 +7,13 @@ JSON row files into `data/model/dashboard/`, which are uploaded to the dashboard
   lists.json  every measured list that can be on a chart (status: offered, dominated by a cheaper list, replaced, variant;
               plus, for reference only, "older" round-2 lists without a saved list and the owner's own lists, "start").
               The "offered" lists of a deck come from every round, so the chart's line is the best power at each spend
-  curve.json  the plan of each budget: one row per budget and deck (its total counts the copies two decks share once)
-  plans.json  what each budget buys: one row per budget (the table "What each budget buys")
-  jumps.json  the power change of each deck from one budget to the next
-  buys.json   the best buys: power per 10,000 CLP between two measured points of a deck, best first
+  plans.json  the plan of each budget: one row per budget (the deck pages read the 200,000 CLP row, the statistics its list ids)
   decks.json  one row per deck: measured numbers plus the hand-written status of deck-notes.json
 
-`scripts/deck_stats.py` writes the statistics datasets next to them; `guide.json` (how each deck plays and wins) and
-`deck-notes.json` are written by hand and only read here. The plans come from `scripts/optimize_budget.py` (highest sum of
+`scripts/deck_stats.py` writes the statistics datasets next to them. The deck pages (plan of play, Commander Salt combos
+with steps, how to play each of the 100 cards) are written by hand in `playbook-<deck>.json` and `guide.json` (combos only)
+and turned into the `playbook` dataset by `scripts/dashboard_playbook.py`; `scripts/dashboard_cards.py` fetches the card
+images. `deck-notes.json` is written by hand and only read here. The plans come from `scripts/optimize_budget.py` (highest sum of
 powers, no parity rule); this script adds nothing to them. Alexios, Deimos of Kosmos was replaced by Ezio Auditore da
 Firenze: his round-2 lists stay on the charts (status "replaced") so the owner sees where he ended, and a variant list (the
 black-core Ezio test) is charted as its own series; neither ever enters a plan.
@@ -128,18 +127,6 @@ def lists_rows(measured, plans=()):
     return sorted(rows, key=lambda r: (r["deck"], r["cost_clp"]))
 
 
-def curve_rows(rows):
-    out = []
-    for row in rows:
-        for deck, point in sorted((row.get("decks") or {}).items()):
-            out.append({"id": f"{row['budget']}-{SHORT[deck].lower()}", "budget_clp": row["budget"], "deck": SHORT[deck],
-                        "list": list_name(point["label"]), "cost_clp": point["cost"], "power": point["power"],
-                        "total_cost_clp": row["cost"], "shared_extra_clp": row.get("shared_extra", 0),
-                        "unspent_clp": row["unspent"], "sum_power": row["sum_power"],
-                        "weakest": row["min_power"], "gap": row["gap"]})
-    return out
-
-
 def plan_rows(rows):
     out = []
     for row in rows:
@@ -158,41 +145,6 @@ def plan_rows(rows):
                     "unspent_clp": row["unspent"], "sum_power": row["sum_power"],
                     "weakest": row["min_power"], "gap": row["gap"]})
     return out
-
-
-def jump_rows(rows):
-    out = []
-    for before, after in zip(rows, rows[1:]):
-        if not before.get("decks") or not after.get("decks"):
-            continue
-        for deck, point in sorted(after["decks"].items()):
-            out.append({"id": f"{after['budget']}-{SHORT[deck].lower()}", "budget_clp": after["budget"],
-                        "deck": SHORT[deck], "power": point["power"],
-                        "change": round(point["power"] - before["decks"][deck]["power"], 2)})
-        out.append({"id": f"{after['budget']}-total", "budget_clp": after["budget"], "deck": "All three",
-                    "power": after["sum_power"], "change": round(after["sum_power"] - before["sum_power"], 2)})
-    return out
-
-
-def buy_rows(measured):
-    """Best buys of every charted series (Alexios replaced, the black-core variant apart), best power per 10,000 CLP first."""
-    by_series, owner = {}, {}
-    for deck, label, entry, status in charted(measured):
-        if status == "dominated":
-            continue
-        key = f"{deck}#{variant_of(label)}"
-        by_series.setdefault(key, []).append({"label": label, "cost": entry["cost_clp"], "power": entry["power"]})
-        owner[key] = (deck, label)
-    points = {key: ob.frontier(pts) for key, pts in by_series.items()}
-    rows = []
-    for rank, s in enumerate(ob.best_buys(points), 1):
-        deck, label = owner[s["deck"]]
-        status = "replaced" if deck in REPLACED else ("variant" if variant_of(label) else "planned")
-        rows.append({"id": f"{list_id(deck, s['from'])}-{step_of(s['to'])}", "rank": rank,
-                     "deck": series_name(deck, label), "from_list": list_name(s["from"]), "to_list": list_name(s["to"]),
-                     "from_cost_clp": s["from_cost"], "to_cost_clp": s["to_cost"], "extra_cost_clp": s["extra_cost"],
-                     "gain": s["gain"], "per_10k": s["per_10k"], "status": status})
-    return rows
 
 
 def deck_rows(measured, plan_rows_, notes):
@@ -221,8 +173,7 @@ def main():
     _, rows = ob.plan(measured)  # joint costs: an owned card two decks play is bought again for the second deck
     notes_path = OUT_DIR / "deck-notes.json"
     notes = json.loads(notes_path.read_text(encoding="utf-8")) if notes_path.exists() else {}
-    files = {"lists": lists_rows(measured, rows), "curve": curve_rows(rows), "plans": plan_rows(rows),
-             "jumps": jump_rows(rows), "buys": buy_rows(measured), "decks": deck_rows(measured, rows, notes)}
+    files = {"lists": lists_rows(measured, rows), "plans": plan_rows(rows), "decks": deck_rows(measured, rows, notes)}
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     for name, data in files.items():
         (OUT_DIR / f"{name}.json").write_text(json.dumps({"rows": data}, indent=1, ensure_ascii=False) + "\n",
