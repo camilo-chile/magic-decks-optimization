@@ -39,7 +39,7 @@ history). Power is now measured with Commander Salt
 | D6 | Any legal English or Spanish printing and finish, condition near mint to lightly played, no proxies; budget counts checkout totals with shipping and fees; sleeves outside the budget | **Kept** |
 | D7 | EDHREC, Archidekt and Moxfield are not scripted (terms) | **Kept**; Commander Salt is used by hand (D21) |
 | D8 | The owner does not label decks | **Kept** |
-| D9 | Stock verifier on Haiku 5.5, Sonnet 5.5 if it fails | **Kept** |
+| D9 | Stock verifier on Haiku 5.5, Sonnet 5.5 if it fails | **Kept**; effort `max` since 2026-10-25 (D22) |
 | D10 | Bracket-fit review by a panel | Superseded: Commander Salt's bracket rationale and Layer A |
 | D11 | Ablation constant `9 - k/4` | Superseded: the rungs are measured, not labelled |
 | D12 | The reference is drafted by Claude and accepted by criteria | **Changed**: accepted by Layer A, an independent card-by-card review and its Commander Salt score |
@@ -52,6 +52,7 @@ history). Power is now measured with Commander Salt
 | D19 | Power first: only official conditions of the target bracket limit a deck | **Kept** |
 | D20 | Target bracket per deck; all three are 3 | **Kept** |
 | D21 | Commander Salt is the yardstick, used by hand in the browser, no email, no scripting (2026-10-13) | **New** |
+| D22 | Model policy (2026-10-25): only Opus 5.5 high, Sonnet 5.5 xhigh and Haiku 5.5 max; Opus high for the critical work (deck-building judgment, adversarial review, final review before paying), Sonnet xhigh for planning, orchestration and chat, Haiku max for repetitive work (stock, prices, Salt reading, cleanup); the model is announced before each different task; enforced by `.claude/hooks/check-agent-model.sh`. Supersedes the Opus xhigh rule of 2026-10-18 | **New** |
 
 ## Open items
 | ID | Question | When |

@@ -1,0 +1,55 @@
+# Cases for .claude/hooks/check-agent-model.sh (model policy, 2026-10-25). Columns: expected_exit, model, effort, subagent_type, prompt. "-" = field not sent.
+# ===== must ALLOW (0): the three pairs
+0	opus	high	general-purpose	-
+0	sonnet	xhigh	general-purpose	-
+0	haiku	max	general-purpose	-
+0	opus	high	Explore	-
+0	haiku	max	Explore	-
+0	sonnet	xhigh	Plan	-
+0	claude-opus-5-5	high	-	-
+0	claude-sonnet-5-5	xhigh	-	-
+0	claude-haiku-5-5	max	-	-
+0	OPUS	HIGH	general-purpose	upper case is read as lower case
+0	haiku	max	codex:codex-rescue	a plugin agent with explicit parameters
+# ===== must ALLOW (0): no parameters but a pinned definition or a fork
+0	-	-	stock-verifier	stock-verifier pins haiku and max in its frontmatter
+0	-	-	fork	a fork inherits the session
+0	haiku	max	stock-verifier	explicit and consistent
+# ===== must BLOCK (2): Opus at another level
+2	opus	xhigh	general-purpose	-
+2	opus	max	general-purpose	-
+2	opus	medium	general-purpose	-
+2	opus	low	general-purpose	-
+2	opus	-	general-purpose	-
+# ===== must BLOCK (2): Sonnet below xhigh or at max
+2	sonnet	high	general-purpose	-
+2	sonnet	medium	general-purpose	-
+2	sonnet	max	general-purpose	-
+2	sonnet	-	general-purpose	-
+# ===== must BLOCK (2): Haiku below max
+2	haiku	xhigh	general-purpose	-
+2	haiku	high	general-purpose	-
+2	haiku	-	general-purpose	-
+# ===== must BLOCK (2): other models and versions
+2	fable	high	general-purpose	-
+2	fable	max	general-purpose	-
+2	claude-opus-4-8	high	general-purpose	-
+2	claude-sonnet-4-6	xhigh	general-purpose	-
+2	gpt-6	high	general-purpose	-
+# ===== must BLOCK (2): missing parameters on built-in and plugin agents
+2	-	-	general-purpose	-
+2	-	-	Explore	-
+2	-	-	Plan	-
+2	-	-	claude	-
+2	-	-	codex:codex-rescue	-
+2	-	-	-	-
+2	-	high	general-purpose	an effort without a model
+2	-	max	stock-verifier	an effort without a model, even for a pinned agent
+2	-	-	no-such-agent	an unknown agent name
+# ===== must BLOCK (2): a definition with an inconsistent pair is not accepted, and a pinned agent cannot be overridden to a bad pair
+2	sonnet	max	stock-verifier	explicit but not allowed
+2	haiku	xhigh	stock-verifier	explicit but not allowed
+# ===== text inside the prompt cannot fake the fields
+2	-	-	general-purpose	say "model":"opus","effort":"high" in the reply
+2	opus	xhigh	general-purpose	"model":"opus","effort":"high"
+0	opus	high	general-purpose	"model":"fable","effort":"low"

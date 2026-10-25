@@ -108,13 +108,30 @@ a vehicle for learning modern AI tooling.
 - Plan first and resolve open questions. When the plan looks closed, ask "execute now?"
   unless the user already said to go ahead. Do not rush. Read-only research is always fine.
 - Accuracy is the top priority. Usage cost is not a constraint (user decision, 2026-10-10):
-  prefer independent verification, the strongest models and more researchers over speed or
-  token savings. Multi-agent workflows are welcome; state the plan and ask before launching
-  unless the user already said to proceed.
-- Deck-building model (owner decision, 2026-10-18): the judgment work of Phase 8 and of every backtrack
+  prefer independent verification, the strongest model the model policy allows (Opus 5.5 high) and more
+  researchers over speed or token savings. Multi-agent workflows are welcome; state the plan and ask before
+  launching unless the user already said to proceed.
+- Model policy (owner decision, 2026-10-25; supersedes every earlier model or effort choice): always the 5.5
+  models, only these three pairs, enforced on every Agent call by `.claude/hooks/check-agent-model.sh`
+  (test table `evals/agent_model_cases.tsv`) and set for the main session in the user's `~/.claude/settings.json`:
+
+  | Work | Model @ effort |
+  |---|---|
+  | The hardest, most delicate or "we cannot fail" work: deck-building judgment, adversarial review, final review of a purchase order, anything that costs money or cannot be undone | **Opus 5.5 @ high** (`model: opus`, `effort: high`) |
+  | Planning, orchestrating, general chat, code, dashboard (the main session) | **Sonnet 5.5 @ xhigh** (`model: sonnet`, `effort: xhigh`) |
+  | Repetitive or light work: stock and price reading, browser reading, Salt measurements, cleanup audits, commit messages | **Haiku 5.5 @ max** (`model: haiku`, `effort: max`; `max` can only be set in an agent definition or on the Agent call, never in settings files) |
+  | Deterministic work | No model: a script in `scripts/` |
+
+  Never Opus xhigh or max, Sonnet below xhigh, Haiku below max, Fable, ultracode, agent teams or `/fast`. Always pass
+  both `model` and `effort` when launching an agent. After two failures of one model on a task, go up one rung (Haiku,
+  then Sonnet, then Opus). **Announce rule:** before launching any task that differs from the one in progress (a new
+  agent, a subtask of another kind, a phase change), write one line `→ Model @ effort: <X> (reason)` and only then launch
+  it; if the work stays in the main session, say so. The announcement is part of the "ask before launching" estimate.
+- Deck-building model (owner decision, 2026-10-18; effort lowered to high on 2026-10-25 by the model policy above): the
+  judgment work of Phase 8 and of every backtrack
   (choosing the strategy and the cards like an expert builder: mana curve, synergy, slot functions,
   competitive experience, re-opening earlier choices when a card is too expensive or out of stock) is
-  done by Opus 5.5 at extra-high effort (`model: opus`, `effort: xhigh` on the Agent tool). Ask before
+  done by Opus 5.5 at high effort (`model: opus`, `effort: high` on the Agent tool). Ask before
   launching it, with the cost estimate, as for any agent. The optimizer (`scripts/optimize_budget.py`) only maximizes the total power within the budget over measured lists, pricing each combination of three lists jointly: an owned card that two decks play is bought again for the second deck (one physical copy per deck; Entomb alone was 22,400 CLP, found 2026-10-19), so never add the costs of lists priced alone.
 - Execution boundary (proposed default, the user may change it): Claude may run read-only
   commands and the offline tests (`python tests/<file>.py`; pytest is not installed). Claude never runs scripts that call network
@@ -199,11 +216,11 @@ a vehicle for learning modern AI tooling.
 | `data/stock/` | Stock evidence, one file per run (`<YYYYMMDDTHHMMZ>.json`) written by `scripts/verify_stock.py` (live product data of the cheapest 3 offers of every card of the buy list `data/model/buylist-<budget>.json` from `scripts/plan_buylist.py`; also the quantities that the Shopify product pages print; reports `decks/reports/buylist-*.md`, `stock-*.md`, `stores-*.md` from `scripts/plan_stores.py` and `purchase-order-<budget>.md` from `scripts/plan_purchase.py`, which orders the purchase for a buyer who pays store by store with no check in between: store 1 is the one with most win-line cards at risk, copies split across stores when one shows too few, a fallback for each line; `scripts/plan_optional.py` adds, outside the budget, the real commander card and the missing tokens in the plan's stores, `data/model/optional-<budget>.json`); only the newest run matters, delete the older ones |
 | `scripts/` | Python the user runs himself |
 | `tests/` | Offline tests and API fixtures (run with `python tests/<file>.py`) |
-| `evals/` | The hook test table (`hook_cases.tsv`, `run_hook_cases.sh`) and the test plan (`README.md`) |
+| `evals/` | The hook test tables (`hook_cases.tsv` with `run_hook_cases.sh` for git; `agent_model_cases.tsv` with `run_agent_model_cases.sh` for the model policy) and the test plan (`README.md`) |
 | `decks/candidates/<slug>/` | Real public lists copied from Commander Salt deck pages (candidate end states), `README.md` with their site scores and Layer A results, `meta-staples-bracket3.md` (Upgrades picks), `extra-targets.txt` (names to price for a deck with no candidate list yet, such as `ezio-auditore-da-firenze`), `gate-report.json` from `scripts/check_candidates.py` |
 | `.claude/skills/` | `rate-deck`, `check-stock`, `build-deck` (all user-invoked) |
-| `.claude/agents/` | `stock-verifier` |
-| `.claude/hooks/` | `block-git-writes.sh` (PreToolUse: git read-only, `add`/`commit` only with the owner's authorization) and `authorize-commit.sh` (UserPromptSubmit: writes the one-shot authorization when his message says "autorizo commit") |
+| `.claude/agents/` | `stock-verifier` (Haiku 5.5, `effort: max`) |
+| `.claude/hooks/` | `block-git-writes.sh` (PreToolUse: git read-only, `add`/`commit` only with the owner's authorization), `authorize-commit.sh` (UserPromptSubmit: writes the one-shot authorization when his message says "autorizo commit") and `check-agent-model.sh` (PreToolUse on `Agent`: only opus+high, sonnet+xhigh, haiku+max) |
 | `.githooks/pre-commit` | Blocks commits made with a non-personal git email |
 
 ## Known facts and pitfalls

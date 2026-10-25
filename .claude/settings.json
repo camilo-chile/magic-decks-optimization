@@ -22,6 +22,15 @@
             "command": "sh \"${CLAUDE_PROJECT_DIR}/.claude/hooks/block-git-writes.sh\""
           }
         ]
+      },
+      {
+        "matcher": "Agent|Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PROJECT_DIR}/.claude/hooks/check-agent-model.sh\""
+          }
+        ]
       }
     ],
     "UserPromptSubmit": [
