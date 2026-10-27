@@ -5,14 +5,19 @@ Scryfall API for each card (name, mana cost, type line, oracle text, small image
 (untracked, regenerable):
 
   cards-facts.json                 per deck: the facts of every nonbasic card, for writing the function notes
-  dashboard-images/img-<deck>.json rows {name, url} where url is a data: URL (JPEG, 146x204), the only image form the
-                                   dashboard allows
+  dashboard-images/img-<deck>.json rows {name, url, big} where url is a data: URL (JPEG, 146x204), the only image form
+                                   the dashboard allows, and big is the number of the large-image file that holds the card
+  dashboard-images/imgbig-<deck>-<n>.json
+                                   rows {name, url} with the large image (JPEG, 488x680) that opens when a thumbnail is
+                                   clicked; the cards of one deck are split in BIG_CHUNKS files because a dataset may not
+                                   exceed 8 MB (about 80 KB per card)
 
 The images of lands are skipped (the deck pages list lands as text). Scryfall asks for about 10 requests per second at
 most; this script waits 0.15 s between calls. Run it from the VS Code "Run Python File" button; no arguments.
 """
 import base64
 import json
+import math
 import re
 import sys
 import time
@@ -27,6 +32,7 @@ LISTS = {
     "ezio": "decks/measured/ezio-auditore-da-firenze/round5-step40.txt",
 }
 BASIC = {"Plains", "Island", "Swamp", "Mountain", "Forest"}
+BIG_CHUNKS = 2
 HEADERS = {"User-Agent": "mazos-magic/1.0", "Accept": "application/json"}
 
 
@@ -90,10 +96,10 @@ def main():
     (CACHE / "dashboard-images").mkdir(exist_ok=True)
     allnames = sorted({n for p in LISTS.values() for part in read_list(p) for n in part})
     found = collect(allnames)
-    facts, image_cache = {}, {}
+    facts, image_cache, big_cache = {}, {}, {}
     for deck, path in LISTS.items():
         commander, main_cards = read_list(path)
-        rows, images = [], []
+        rows, images, bigs = [], [], []
         for name in commander + main_cards:
             card = found.get(name.split(" // ")[0].lower())
             if not card:
@@ -107,7 +113,21 @@ def main():
             if f["small"] not in image_cache:
                 image_cache[f["small"]] = base64.b64encode(get(f["small"], binary=True)).decode()
                 time.sleep(0.15)
+            big_url = f["small"].replace("/small/", "/normal/")
+            if big_url not in big_cache:
+                big_cache[big_url] = base64.b64encode(get(big_url, binary=True)).decode()
+                time.sleep(0.15)
             images.append({"name": f["name"], "url": "data:image/jpeg;base64," + image_cache[f["small"]]})
+            bigs.append({"name": f["name"], "url": "data:image/jpeg;base64," + big_cache[big_url]})
+        per_chunk = math.ceil(len(bigs) / BIG_CHUNKS)
+        for i, img in enumerate(images):
+            img["big"] = i // per_chunk
+        for k in range(BIG_CHUNKS):
+            big_out = CACHE / "dashboard-images" / f"imgbig-{deck}-{k}.json"
+            big_out.write_text(json.dumps({"rows": bigs[k * per_chunk:(k + 1) * per_chunk]}, ensure_ascii=False), encoding="utf-8")
+            if big_out.stat().st_size > 7.5e6:
+                sys.exit(f"{big_out.name} is {big_out.stat().st_size / 1e6:.2f} MB: raise BIG_CHUNKS (a dataset may not exceed 8 MB)")
+            print("  ", big_out.name, round(big_out.stat().st_size / 1e6, 2), "MB")
         facts[deck] = rows
         out = CACHE / "dashboard-images" / f"img-{deck}.json"
         out.write_text(json.dumps({"rows": images}, ensure_ascii=False), encoding="utf-8")

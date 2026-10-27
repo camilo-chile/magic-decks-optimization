@@ -48,7 +48,7 @@
    "lang": "en",
    "title": "Dualcaster Mage + Fire Lord Azula + Snap",
    "meta": "Infinite untap and storm · 3 cards · Salt score 14 · mana 4",
-   "text": "Needs: Azula attacking, two lands that make {1}{R} between them.\nAzula attacks: firebending adds {R}{R}. Cast Snap ({1}{U}); Azula's trigger copies it.\nHolding priority, cast Dualcaster Mage; Azula copies it too.\nThe copy of the Mage enters and copies Snap on another creature; Snap resolves, bounces the creature and untaps up to two lands.\nResolve the original Mage: it copies Snap targeting itself, bounces it and untaps two lands again. Recast the Mage and repeat. You get infinite untaps, mana and storm count (finish with Guttersnipe, Black Waltz No. 3 or Electro)."
+   "text": "Needs: Azula attacking, two lands that make {1}{R} between them.\nAzula attacks: firebending adds {R}{R}. Cast Snap ({1}{U}); Azula's trigger copies it.\nHolding priority, cast Dualcaster Mage; Azula copies it too.\nThe copy of the Mage enters and copies Snap on another creature; Snap resolves, bounces the creature and untaps up to two lands.\nResolve the original Mage: it copies Snap targeting itself, bounces it and untaps two lands again. Recast the Mage and repeat. You get infinite untaps, mana and storm count (finish with Comet Storm using the infinite mana in the same combat, with Amphibian Downpour for the storm count, or with Electro: bounce it with a copy of Snap and pay X)."
   },
   {
    "id": "azula-combo-3",
@@ -67,7 +67,7 @@
    "kind": "combo",
    "lang": "en",
    "title": "Fire Lord Azula + Frantic Search + Narset's Reversal",
-   "meta": "Infinite draw and loot · 3 cards · Salt score 14 · mana 6",
+   "meta": "Near-infinite draw and loot · 3 cards · Salt score 14 · mana 6",
    "text": "Needs: Azula attacking and three lands that make {U}{U}{U}.\nCast Frantic Search ({2}{U}); Azula copies it; the copy loots twice and untaps three lands.\nHolding priority, tap the lands again and cast Narset's Reversal ({U}{U}) on the original Frantic Search; Azula copies Reversal.\nThe copies of Reversal copy Frantic Search and return the original spells to your hand.\nRepeat: infinite looting and near-infinite storm and blue mana. Stop before your library runs out and finish with a storm or damage payoff."
   },
   {
@@ -78,7 +78,7 @@
    "lang": "en",
    "title": "Fire Lord Azula + Narset's Reversal + Storm-Kiln Artist",
    "meta": "Infinite Treasures and storm · 3 cards · Salt score 14 · mana 0",
-   "text": "Needs: another instant or sorcery in hand that you can cast with the mana you have, and Azula attacking.\nAzula attacks: firebending adds {R}{R}. Cast the instant or sorcery; Azula and Storm-Kiln Artist trigger (two Treasures).\nSacrifice two Treasures for {U}{U} and cast Narset's Reversal on that spell; Azula copies the Reversal.\nEach trigger makes more Treasures; the copies return the original spell and Reversal to your hand.\nRepeat: every cycle nets Treasures, so you get infinite mana, copies and storm count. Choose a finisher as the first spell (a big X spell such as Comet Storm)."
+   "text": "Needs: another instant or sorcery in hand that you can cast with the mana you have, and Azula attacking.\nAzula attacks: firebending adds {R}{R}. Cast the instant or sorcery; Azula and Storm-Kiln Artist trigger (two Treasures).\nSacrifice two Treasures for {U}{U} and cast Narset's Reversal on that spell; Azula copies the Reversal. The copy of Azula's trigger must target the original Narset's Reversal, not the spell, or the loop stops.\nEach trigger makes more Treasures; the copies return the original spell and Reversal to your hand.\nRepeat: every cycle nets Treasures, so you get infinite mana, copies and storm count. Choose a finisher as the first spell (a big X spell such as Comet Storm)."
   },
   {
    "id": "ezio-combo-1",
@@ -178,7 +178,7 @@
    "lang": "es",
    "title": "Dualcaster Mage + Fire Lord Azula + Snap",
    "meta": "Desgirar y tormenta infinitos · 3 cartas · puntaje de Salt 14 · maná 4",
-   "text": "Requisitos: Azula atacando y dos tierras que juntas den {1}{R}.\nAzula ataca: firebending agrega {R}{R}. Lanza Snap ({1}{U}); el disparador de Azula lo copia.\nManteniendo la prioridad, lanza Dualcaster Mage; Azula también lo copia.\nLa copia del Mage entra y copia Snap sobre otra criatura; Snap se resuelve, devuelve la criatura a la mano y desgira hasta dos tierras.\nResuelve el Mage original: copia Snap apuntándose a sí mismo, se devuelve a la mano y desgira dos tierras de nuevo. Vuelve a lanzar el Mage y repite. Obtienes desgires, maná y conteo de tormenta infinitos (remata con Guttersnipe, Black Waltz No. 3 o Electro)."
+   "text": "Requisitos: Azula atacando y dos tierras que juntas den {1}{R}.\nAzula ataca: firebending agrega {R}{R}. Lanza Snap ({1}{U}); el disparador de Azula lo copia.\nManteniendo la prioridad, lanza Dualcaster Mage; Azula también lo copia.\nLa copia del Mage entra y copia Snap sobre otra criatura; Snap se resuelve, devuelve la criatura a la mano y desgira hasta dos tierras.\nResuelve el Mage original: copia Snap apuntándose a sí mismo, se devuelve a la mano y desgira dos tierras de nuevo. Vuelve a lanzar el Mage y repite. Obtienes desgires, maná y conteo de tormenta infinitos (remata con Comet Storm gastando el maná infinito en el mismo combate, con Amphibian Downpour por la tormenta, o con Electro: devuélvelo con una copia de Snap y paga X)."
   },
   {
    "id": "azula-combo-3-es",
@@ -197,7 +197,7 @@
    "kind": "combo",
    "lang": "es",
    "title": "Fire Lord Azula + Frantic Search + Narset's Reversal",
-   "meta": "Robo y descarte infinitos · 3 cartas · puntaje de Salt 14 · maná 6",
+   "meta": "Robo y descarte casi infinitos · 3 cartas · puntaje de Salt 14 · maná 6",
    "text": "Requisitos: Azula atacando y tres tierras que den {U}{U}{U}.\nLanza Frantic Search ({2}{U}); Azula la copia; la copia roba y descarta dos veces y desgira tres tierras.\nManteniendo la prioridad, gira las tierras de nuevo y lanza Narset's Reversal ({U}{U}) sobre el Frantic Search original; Azula copia el Reversal.\nLas copias de Reversal copian Frantic Search y devuelven los hechizos originales a tu mano.\nRepite: roba-y-descarta infinito y tormenta y maná azul casi infinitos. Detente antes de quedarte sin biblioteca y remata con un efecto de tormenta o de daño."
   },
   {
@@ -208,7 +208,7 @@
    "lang": "es",
    "title": "Fire Lord Azula + Narset's Reversal + Storm-Kiln Artist",
    "meta": "Treasures y tormenta infinitos · 3 cartas · puntaje de Salt 14 · maná 0",
-   "text": "Requisitos: otro instantáneo o conjuro en la mano que puedas lanzar con el maná que tienes, y Azula atacando.\nAzula ataca: firebending agrega {R}{R}. Lanza el instantáneo o conjuro; se disparan Azula y Storm-Kiln Artist (dos Treasures).\nSacrifica dos Treasures por {U}{U} y lanza Narset's Reversal sobre ese hechizo; Azula copia el Reversal.\nCada disparador crea más Treasures; las copias devuelven el hechizo original y el Reversal a tu mano.\nRepite: cada ciclo deja Treasures de sobra, así que obtienes maná, copias y conteo de tormenta infinitos. Elige un rematador como primer hechizo (un hechizo X grande como Comet Storm)."
+   "text": "Requisitos: otro instantáneo o conjuro en la mano que puedas lanzar con el maná que tienes, y Azula atacando.\nAzula ataca: firebending agrega {R}{R}. Lanza el instantáneo o conjuro; se disparan Azula y Storm-Kiln Artist (dos Treasures).\nSacrifica dos Treasures por {U}{U} y lanza Narset's Reversal sobre ese hechizo; Azula copia el Reversal. La copia debe apuntar al Narset's Reversal original, no al hechizo; si no, el bucle se corta.\nCada disparador crea más Treasures; las copias devuelven el hechizo original y el Reversal a tu mano.\nRepite: cada ciclo deja Treasures de sobra, así que obtienes maná, copias y conteo de tormenta infinitos. Elige un rematador como primer hechizo (un hechizo X grande como Comet Storm)."
   },
   {
    "id": "ezio-combo-1-es",
@@ -259,6 +259,66 @@
    "title": "Dualcaster Mage + Ember Island Production",
    "meta": "Entradas infinitas · 2 cartas · puntaje de Salt 10 · maná 1",
    "text": "Requisitos: controlas una criatura.\nLanza Ember Island Production ({3}{U}{U}) sobre una criatura que controles; mantén la prioridad.\nLanza Dualcaster Mage ({1}{R}{R}). Al entrar copia Ember Island Production, apuntando al Mage.\nResuelve la copia: creas una ficha copia de Dualcaster Mage.\nEl disparador de entrada de la ficha copia la Production otra vez: repite. Obtienes entradas infinitas de fichas Mage; necesita un efecto que castigue entrar al campo para ganar."
+  },
+  {
+   "id": "azula-combo-6",
+   "deck": "Azula",
+   "order": 6,
+   "kind": "combo",
+   "lang": "en",
+   "title": "Dualcaster Mage + Ember Island Production",
+   "meta": "Infinite enters · 2 cards · Salt score 10 · mana 1",
+   "text": "Needs: you control a creature.\nCast Ember Island Production ({3}{U}{U}) targeting a creature you control; hold priority.\nCast Dualcaster Mage ({1}{R}{R}). When it enters, it copies Ember Island Production, targeting the Mage.\nResolve the copy: you create a token copy of Dualcaster Mage.\nThe token's enter trigger copies the Production again: repeat. You get infinite enters of Mage tokens; it needs an enter-the-battlefield payoff to win."
+  },
+  {
+   "id": "azula-combo-6-es",
+   "deck": "Azula",
+   "order": 6,
+   "kind": "combo",
+   "lang": "es",
+   "title": "Dualcaster Mage + Ember Island Production",
+   "meta": "Entradas infinitas · 2 cartas · puntaje de Salt 10 · maná 1",
+   "text": "Requisitos: controlas una criatura.\nLanza Ember Island Production ({3}{U}{U}) sobre una criatura que controles; mantén la prioridad.\nLanza Dualcaster Mage ({1}{R}{R}). Al entrar copia Ember Island Production, apuntando al Mage.\nResuelve la copia: creas una ficha copia de Dualcaster Mage.\nEl disparador de entrada de la ficha copia la Production otra vez: repite. Obtienes entradas infinitas de fichas Mage; necesita un efecto que castigue entrar al campo para ganar."
+  },
+  {
+   "id": "toph-combo-4",
+   "deck": "Toph",
+   "order": 4,
+   "kind": "combo",
+   "lang": "en",
+   "title": "Toph + Springheart Nantuko + Lotus Cobra (or Tireless Provisioner)",
+   "meta": "Infinite landfall · 3 cards · 4 mana",
+   "text": "Needs: a land card in hand, and you control a land that enters untapped and taps for at least {1}.\nAt the beginning of your end step Toph earthbends a land that entered untapped.\nOn your next turn cast Springheart Nantuko for its bestow cost ({1}{G}) on that animated land, then play a land: Nantuko triggers; pay {1}{G} to create a token copy of the land it is attached to.\nWhen the land token enters, Springheart Nantuko and Lotus Cobra trigger. Holding priority, tap the token for at least {1}.\nResolve Lotus Cobra ({G}).\nResolve Springheart Nantuko: pay {1}{G} for another token and repeat from step 4. With Tireless Provisioner instead of Lotus Cobra the trigger makes a Treasure that you sacrifice for {G}. You get infinite landfall (each token enters tapped); finish with Sabotender or Tannuk."
+  },
+  {
+   "id": "toph-combo-4-es",
+   "deck": "Toph",
+   "order": 4,
+   "kind": "combo",
+   "lang": "es",
+   "title": "Toph + Springheart Nantuko + Lotus Cobra (o Tireless Provisioner)",
+   "meta": "Landfall infinito · 3 cartas · 4 de maná",
+   "text": "Requisitos: una tierra en la mano, y controlas una tierra que entra sin girar y da al menos {1}.\nEn tu fin de turno Toph hace earthbend sobre una tierra que entró sin girar.\nEn tu turno siguiente lanza Springheart Nantuko con bestow ({1}{G}) sobre esa tierra animada y juega una tierra: Nantuko se dispara; paga {1}{G} para crear una ficha copia de la tierra a la que está pegada.\nAl entrar la ficha se disparan Springheart Nantuko y Lotus Cobra. Manteniendo la prioridad, gira la ficha para obtener al menos {1}.\nResuelve Lotus Cobra ({G}).\nResuelve Springheart Nantuko: paga {1}{G} para otra ficha y repite desde el paso 4. Con Tireless Provisioner en vez de Lotus Cobra, el disparador crea un Tesoro que sacrificas por {G}. Obtienes landfall infinito (cada ficha entra girada); remata con Sabotender o Tannuk."
+  },
+  {
+   "id": "toph-combo-5",
+   "deck": "Toph",
+   "order": 5,
+   "kind": "combo",
+   "lang": "en",
+   "title": "Toph + The Stasis Coffin",
+   "meta": "Protection from everything on opponents' turns · 2 cards · 2 mana each turn",
+   "text": "At the beginning of your end step Toph earthbends The Stasis Coffin (it is a land thanks to Toph).\nPay {2}, tap The Stasis Coffin and exile it.\nIt triggers and returns itself from exile to the battlefield tapped.\nResolve its ability from step 2: you gain protection from everything until your next turn.\nRepeat during each of your turns. It does not win by itself and it protects you, not your permanents."
+  },
+  {
+   "id": "toph-combo-5-es",
+   "deck": "Toph",
+   "order": 5,
+   "kind": "combo",
+   "lang": "es",
+   "title": "Toph + The Stasis Coffin",
+   "meta": "Protección total en turnos rivales · 2 cartas · 2 de maná por turno",
+   "text": "En tu fin de turno Toph hace earthbend sobre The Stasis Coffin (es una tierra gracias a Toph).\nPaga {2}, gira The Stasis Coffin y exíliala.\nSe dispara y vuelve del exilio al campo girada.\nResuelve su habilidad del paso 2: ganas protección contra todo hasta tu próximo turno.\nRepite en cada uno de tus turnos. No gana por sí sola y te protege a ti, no a tus permanentes."
   }
  ]
 }
