@@ -13,14 +13,21 @@ condition) and the places (binder or deck name and type). Problems are listed, n
 names the bulk file does not know, proxies, languages other than English or Spanish, and
 conditions worse than lightly played (decision D6).
 
-RESERVED_BINDERS (owner rule, 2026-10-18): the binder "Assassin's Creed" holds the cards of his Standard decks,
-which he does not want to take apart for the Commander decks, so its copies are `reserved` and never count as
-usable (the swords in it must be bought like any card). Exception: a creature of a reserved binder, and any proxy
-(four good-quality proxies are allowed as commanders only), may be the COMMANDER of a project deck: those cards are
-listed in `commander_ok`. (Decision O3, 2026-10-12, had left the set empty because no other deck mattered.)
+RESERVED_BINDERS (owner rule, 2026-10-18): a binder whose copies are `reserved` never counts as usable. It held
+the cards of his Standard decks ("Assassin's Creed"); on 2026-10-26, for Phase 2, he decided not to scan those cards
+at all, so the set is empty again and the mechanism stays for future restrictions. A creature of a reserved binder, and
+any proxy (four good-quality proxies are allowed as commanders only), may be the COMMANDER of a project deck: those
+cards are listed in `commander_ok`.
+
+Phase 2 layout (owner, 2026-10-26): after a full rescan every card, basic lands and tokens included, sits in a
+binder by language (Spanish, English); the decks are plain decklists that are not registered in the collection, so
+nothing counts twice. The language of each row is the one ManaBox recorded; a binder whose name says Spanish or English
+and holds a card of the other language is reported as `language_binder_mismatch` (a scan error to fix in the app).
+Tokens and emblems (rows of a set whose name says Tokens or Emblems) are listed apart in `tokens`, never as cards.
 """
 import csv
 import json
+import re
 import sys
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
@@ -41,8 +48,10 @@ def latest_collection_csv():
 
 CSV_PATH = latest_collection_csv()
 OUT_PATH = ROOT / "data" / "cache" / "collection_inventory.json"
-RESERVED_BINDERS = {"Assassin's Creed"}  # owner rule 2026-10-18: Standard-deck cards, commander use only
-PROJECT_DECKS = {"toph": "toph-the-first-metalbender", "azula": "fire-lord-azula"}
+RESERVED_BINDERS = set()  # owner rule 2026-10-18 reserved "Assassin's Creed"; dropped 2026-10-26 (those cards are not scanned)
+PROJECT_DECKS = {"toph": "toph-the-first-metalbender", "azula": "fire-lord-azula", "ezio": "ezio-auditore-da-firenze"}
+TOKEN_SET_RE = re.compile(r"\b(tokens?|emblems?)\b", re.I)
+BINDER_LANGUAGE_RES = (("es", re.compile(r"span|espa", re.I)), ("en", re.compile(r"engl|ingl", re.I)))
 LANGUAGES_OK = {"en", "es"}
 CONDITIONS_OK = {"near_mint", "mint", "excellent", "lightly_played", "good", ""}  # ManaBox spellings vary
 
@@ -59,6 +68,19 @@ def truthy(value):
     return str(value or "").strip().lower() in ("true", "1", "yes")
 
 
+def is_token_row(row):
+    """True for a token or emblem: ManaBox names the set "<Set> Tokens" or "<Set> Emblems"."""
+    return bool(TOKEN_SET_RE.search(row.get("set name") or ""))
+
+
+def binder_language(binder):
+    """The language a binder's name promises ("Spanish Cards", "Inglés"), or None for any other name."""
+    for lang, pattern in BINDER_LANGUAGE_RES:
+        if pattern.search(binder or ""):
+            return lang
+    return None
+
+
 def build_inventory(rows, index, reserved=frozenset()):
     """Aggregate CSV rows into the inventory dict. `index` is layer_a.build_index(...)."""
     reserved = {r.strip().lower() for r in reserved}
@@ -66,6 +88,7 @@ def build_inventory(rows, index, reserved=frozenset()):
     commander_ok = {}
     problems = defaultdict(list)
     totals = Counter()
+    tokens = {}
 
     def commander_source(card, source):
         key = card.get("oracle_id") or card["name"]
@@ -81,6 +104,14 @@ def build_inventory(rows, index, reserved=frozenset()):
         cond = (r.get("condition") or "").strip().lower().replace(" ", "_")
         totals["rows"] += 1
         totals["copies"] += qty
+        if is_token_row(r):
+            tkey = (name.casefold(), (r.get("set code") or "").strip().lower(), (r.get("collector number") or "").strip(), lang)
+            tok = tokens.setdefault(tkey, {"name": name, "set": tkey[1], "number": tkey[2], "language": lang,
+                                           "quantity": 0, "scryfall_id": (r.get("scryfall id") or "").strip(), "binders": set()})
+            tok["quantity"] += qty
+            tok["binders"].add(binder)
+            totals["tokens"] += qty
+            continue
         if truthy(r.get("proxy")):
             problems["proxies"].append(f"{name} x{qty} ({binder})")
             card = index.get(la.normalize(name))
@@ -95,6 +126,9 @@ def build_inventory(rows, index, reserved=frozenset()):
             commander_source(card, f"reserved:{binder}")
         if lang not in LANGUAGES_OK:
             problems["languages_other_than_en_es"].append(f"{name} [{lang or '?'}] x{qty} ({binder})")
+        promised = binder_language(binder)
+        if promised and lang in LANGUAGES_OK and lang != promised:
+            problems["language_binder_mismatch"].append(f"{name} [{lang}] x{qty} in {binder}")
         if cond not in CONDITIONS_OK:
             problems["worse_than_lightly_played"].append(f"{name} [{cond}] x{qty} ({binder})")
         key = card.get("oracle_id") or card["name"]
@@ -111,6 +145,7 @@ def build_inventory(rows, index, reserved=frozenset()):
             "number": (r.get("collector number") or "").strip(),
             "language": lang, "foil": (r.get("foil") or "").strip().lower(),
             "condition": cond, "quantity": qty, "scryfall_id": (r.get("scryfall id") or "").strip(),
+            "binder": binder, "binder_type": btype,
         })
         if binder.lower() in reserved:
             entry["reserved_copies"] += qty
@@ -129,6 +164,8 @@ def build_inventory(rows, index, reserved=frozenset()):
         "reserved_binders": sorted(reserved),
         "rows": totals["rows"], "copies_in_csv": totals["copies"],
         "unique_cards": len(out_cards), "owned_copies": sum(c["copies"] for c in out_cards),
+        "token_copies": totals["tokens"],
+        "tokens": [dict(t, binders=sorted(t["binders"])) for t in sorted(tokens.values(), key=lambda t: (t["name"].casefold(), t["set"], t["number"]))],
         "problems": {k: v for k, v in problems.items()},
         "commander_ok": sorted(commander_ok.values(), key=lambda e: e["name"].casefold()),
         "cards": out_cards,
@@ -144,6 +181,7 @@ def summary(inv):
         f"rows {inv['rows']}, copies in the CSV {inv['copies_in_csv']}",
         f"owned copies counted {inv['owned_copies']} of {inv['unique_cards']} unique cards "
         f"(by language: {dict(langs)})",
+        f"tokens and emblems (not cards): {inv['token_copies']} copies in {len(inv['tokens'])} printings",
         f"reserved binders: {inv['reserved_binders'] or 'none'}; reserved copies "
         f"{sum(c['reserved_copies'] for c in inv['cards'])} (never usable); cards allowed as commander only: "
         f"{len(inv.get('commander_ok', []))}",

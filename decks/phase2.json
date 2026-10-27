@@ -1,0 +1,10 @@
+{
+ "as_of": "2026-10-26",
+ "note": "Phase 2 (owner, 2026-10-26): four Commander decks built only from the owned collection after a full rescan into a Spanish and an English binder. The lists in decks/phase2/ start as the three final Phase 1 lists and are replaced as the optimization proceeds; the fourth deck takes Spanish copies only and its commander is chosen from the Spanish collection (the Counter Intelligence precon in Spanish is the base).",
+ "decks": [
+  {"slug": "toph-the-first-metalbender", "name": "Toph", "languages": "both", "list": "decks/phase2/toph-the-first-metalbender.txt"},
+  {"slug": "fire-lord-azula", "name": "Azula", "languages": "both", "list": "decks/phase2/fire-lord-azula.txt"},
+  {"slug": "ezio-auditore-da-firenze", "name": "Ezio", "languages": "both", "proxy_commander": true, "list": "decks/phase2/ezio-auditore-da-firenze.txt"},
+  {"slug": "spanish-deck", "name": "Spanish deck (commander to be chosen)", "languages": "es", "list": "decks/phase2/spanish-deck.txt"}
+ ]
+}

@@ -12,6 +12,33 @@ a vehicle for learning modern AI tooling.
 | UPGRADE | Toph, the First Metalbender | `toph-the-first-metalbender` |
 | UPGRADE | Fire Lord Azula | `fire-lord-azula` |
 
+## Phase 2 (iteration 2, owner decision 2026-10-26)
+The owner closed iteration 1 (the 200,000 CLP plan: Toph 7.4, Azula 8.4, Ezio 7.7 on Commander Salt). Iteration 2 optimizes
+FOUR Commander decks, Bracket 3, from the owned collection only: Toph, Ezio and Azula (each bilingual) and a fourth deck
+that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-optimization.md`.
+- No purchases, stores, shipping or budget in this iteration. Everything in "Hard constraints" about budget, stores,
+  stock, purchases, same printing in one store, full-art basics to buy, optional tokens to buy and the reserved binder is
+  superseded; what stays: Bracket 3 / Layer A, Commander Salt as the measure, no reversible cards, the language rule when
+  building (English copy if owned in both, a 100 % Spanish deck uses Spanish), exact tokens as a check against the tokens he
+  owns, the model policy, the commit rules and the prior-art rule.
+- Collection layout: he wipes the collection and the decks and rescans EVERYTHING (basic lands and tokens included) into two
+  binders, Spanish and English. The Standard cards (binder "Assassin's Creed") are not scanned and never used; the commander
+  of the Ezio deck is a proxy, declared in `decks/phase2.json` (`proxy_commander`). The decks are plain decklists NOT
+  registered in ManaBox, so nothing counts twice (ManaBox guide: a registered deck moves the cards out of the binders).
+  `scripts/build_inventory.py` reads the export (language per row, tokens apart, scan errors reported) and
+  `scripts/assign_copies.py` gives each deck its own physical copies and writes the pull list; the decks and their
+  language policy are in `decks/phase2.json`, the lists in `decks/phase2/<slug>.txt`.
+- No score target (owner, 2026-10-26): improve each deck as much as the collection allows, and find the best deck the Spanish
+  collection can make for the fourth. Commander Salt is a measure to compare lists, never a target; the 7.0 yardstick of
+  Phase 1 is void; the only gate is Bracket 3.
+- The fourth deck: Claude chooses its commander from the Spanish collection. His Spanish "Counter Intelligence" precon is the
+  base, but another commander may be better; the choice is judgment work (Opus 5.5 high) over a deterministic table of the
+  owned legendary creatures and the cards they would take.
+- Quality criterion (owner, 2026-10-26, after playing the Ezio deck): broad synergy and stand-alone value in 3 to 4 player pods
+  count next to the Commander Salt power. No pile of exact mini-combos whose pieces are dead alone; every card must do
+  something by itself and with many others. The guide of each deck says how to USE each card, not what it says.
+  See `docs/research/phase2-play-review-20261026.md`.
+
 ## Hard constraints
 - Goal (user decision, 2026-10-11; parity rule dropped 2026-10-19): each of the 3 decks as strong as
   its money buys, the best Commander Salt power per CLP (the optimizer maximizes the sum of the three

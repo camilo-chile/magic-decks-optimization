@@ -77,6 +77,30 @@ def test_reserved_binder_creatures_and_proxies_may_only_be_commanders():
     assert sol["copies"] == 1  # the proxy is not an owned copy
 
 
+def test_tokens_and_emblems_are_listed_apart_never_as_cards_or_unknown_names():
+    token = dict(row("Treasure", 2, binder="Inglés", btype="binder"), **{"set name": "Lost Caverns of Ixalan Tokens"})
+    emblem = dict(row("Wrenn Emblem", 1, lang="es", binder="Español", btype="binder"), **{"set name": "Modern Horizons Emblems"})
+    inv = mod.build_inventory([token, emblem, row("Sol Ring", binder="Inglés", btype="binder")], INDEX)
+    assert inv["unique_cards"] == 1 and inv["token_copies"] == 3 and inv["problems"] == {}
+    assert [(t["name"], t["quantity"], t["language"], t["binders"]) for t in inv["tokens"]] == [
+        ("Treasure", 2, "en", ["Inglés"]), ("Wrenn Emblem", 1, "es", ["Español"])]
+    assert "tokens and emblems (not cards): 3 copies in 2 printings" in mod.summary(inv)
+
+
+def test_printings_say_which_binder_holds_each_copy():
+    inv = mod.build_inventory([row("Sol Ring", binder="Español", btype="binder", lang="es")], INDEX)
+    assert (inv["cards"][0]["printings"][0]["binder"], inv["cards"][0]["printings"][0]["binder_type"]) == ("Español", "binder")
+
+
+def test_a_card_in_the_binder_of_the_other_language_is_a_scan_error_that_is_reported():
+    inv = mod.build_inventory([row("Sol Ring", lang="en", binder="Español", btype="binder"),
+                               row("Arcane Signet", lang="es", binder="English Cards", btype="binder"),
+                               row("Sol Ring", lang="en", binder="Box", btype="binder")], INDEX)
+    assert len(inv["problems"]["language_binder_mismatch"]) == 2  # a binder with another name promises no language
+    assert mod.binder_language("Spanish Cards") == "es" and mod.binder_language("Inglés") == "en"
+    assert mod.binder_language("Toph") is None
+
+
 def test_summary_mentions_problems_and_reserved_state():
     inv = mod.build_inventory([row("Nonexistent Card")], INDEX)
     text = mod.summary(inv)
