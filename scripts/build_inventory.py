@@ -40,9 +40,21 @@ ROOT = Path(__file__).resolve().parent.parent
 COLLECTION_DIR = ROOT / "data" / "collection"
 
 
-def latest_collection_csv():
-    """The newest data/collection/ManaBox_Collection_<YYYY-MM-DD>.csv (the ISO date sorts by name), or None."""
-    files = sorted(COLLECTION_DIR.glob("ManaBox_Collection_*.csv"))
+STAGES = ("ezio", "azula", "toph", "rest")  # owner 2026-10-30: the decks are scanned one at a time, each export is cumulative
+STAGE_FILE_RE = re.compile(r"^ManaBox_Collection_(\d{4}-\d{2}-\d{2})(?:_([a-z]+))?\.csv$")
+
+
+def collection_sort_key(path):
+    """(date, stage rank): the newest export wins and, on one day, the later stage (the more complete export)."""
+    m = STAGE_FILE_RE.match(Path(path).name)
+    if not m:
+        return ("", -1)
+    return (m.group(1), STAGES.index(m.group(2)) if m.group(2) in STAGES else -1)
+
+
+def latest_collection_csv(directory=COLLECTION_DIR):
+    """The newest data/collection/ManaBox_Collection_<YYYY-MM-DD>[_<stage>].csv, or None."""
+    files = sorted(Path(directory).glob("ManaBox_Collection_*.csv"), key=collection_sort_key)
     return files[-1] if files else None
 
 

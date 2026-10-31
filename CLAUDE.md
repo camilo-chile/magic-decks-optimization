@@ -28,6 +28,15 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
   `scripts/build_inventory.py` reads the export (language per row, tokens apart, scan errors reported) and
   `scripts/assign_copies.py` gives each deck its own physical copies and writes the pull list; the decks and their
   language policy are in `decks/phase2.json`, the lists in `decks/phase2/<slug>.txt`.
+- Scan by stages (owner, 2026-10-30): he scans one deck at a time into the two binders, in this order: Ezio (proxy commander
+  and tokens included), Azula, Toph, then the rest of the collection. After each stage he exports a full CSV of both binders
+  (cumulative); the rows that are new against the previous export belong to that deck (multiset difference by exact
+  printing, language, finish, condition, binder and proxy flag), and the last export minus the three decks is the free
+  collection. Claude keeps the exact data of every physical card as scanned (Scryfall printing, set, collector number, foil
+  or etched, language, condition, proxy, deck). When a list goes to Moxfield, Commander Salt or any other site, it carries the
+  exact printing, finish and language wherever the site can store them, and Claude says which field a site cannot hold. The
+  scan is the truth of what he owns: a difference against the Phase 1 final list is reported, never corrected silently.
+  After the stages: the Spanish deck, then the optimization of the four decks from the whole collection.
 - No score target (owner, 2026-10-26): improve each deck as much as the collection allows, and find the best deck the Spanish
   collection can make for the fourth. Commander Salt is a measure to compare lists, never a target; the 7.0 yardstick of
   Phase 1 is void; the only gate is Bracket 3.
@@ -38,6 +47,11 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
   count next to the Commander Salt power. No pile of exact mini-combos whose pieces are dead alone; every card must do
   something by itself and with many others. The guide of each deck says how to USE each card, not what it says.
   See `docs/research/phase2-play-review-20261026.md`.
+- Consistency first (owner, 2026-10-30, after two heavy losses with Ezio at Salt 7.7 against a friend's deck that Salt rates far
+  lower): a list needs ONE declared plan with enough pieces of every function the plan relies on (recursion, evasion, ways past
+  big or wide boards, enablers), not a mix of many plans with one to three support cards each. Salt measures the potential of
+  ideal draws, so it is only a tie-break among lists that pass the consistency gate in
+  `docs/proposals/phase2-collection-optimization.md`. Every deck-building prompt carries this gate.
 
 ## Hard constraints
 - Goal (user decision, 2026-10-11; parity rule dropped 2026-10-19): each of the 3 decks as strong as
