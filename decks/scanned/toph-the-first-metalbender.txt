@@ -1,7 +1,6 @@
 // Commander
 1 Toph, the First Metalbender (TLA) 247
 
-// Main
 1 Annie Joins Up (OTJ) 191
 1 Arbaaz Mir (ACR) 46
 1 Arcane Signet (TLE) 315

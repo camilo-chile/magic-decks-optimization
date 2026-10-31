@@ -1,0 +1,230 @@
+{
+ "plan": "Assassin tempo: connect on turn 2 to 3 with cheap menace or evasive Assassins and Ezio, cast more Assassins for freerunning {B}{B} after a hit, draw off every hit (Coastal Piracy, Ezio, Blade of Vengeance), then set one player to 10 with Magister Sphinx (cast, tutored, reanimated or copied) and kill that player with Ezio's combat trigger paying {W}{U}{B}{R}{G}.",
+ "backup": "Etrata, the Silencer as unblockable removal that accumulates hit counters (Ravenloft Adventurer turns every opposing death into one; Strionic Resonator, Lithoform Engine or Return the Favor copy her trigger), and plain Assassin beatdown with Arno Dorian's +2/+0.",
+ "tags": {
+  "Abstergo Entertainment": "land",
+  "Brotherhood Headquarters": "land",
+  "Clifftop Retreat": "land",
+  "Command Tower": "land",
+  "Concealed Courtyard": "land",
+  "Dragonskull Summit": "land",
+  "Drowned Catacomb": "land",
+  "Exotic Orchard": "land",
+  "Fortified Village": "land",
+  "Frostboil Snarl": "land",
+  "Game Trail": "land",
+  "Hinterland Harbor": "land",
+  "Isolated Chapel": "land",
+  "Prairie Stream": "land",
+  "Rumble Arena": "land",
+  "Secret Tunnel": "land",
+  "Smoldering Marsh": "land",
+  "Sulfur Falls": "land",
+  "Sunken Hollow": "land",
+  "Survivors' Encampment": "land",
+  "White Lotus Hideout": "land",
+  "Woodland Cemetery": "land",
+  "Arcane Signet": "ramp",
+  "Chromatic Lantern": "ramp",
+  "Deathcap Cultivator": "ramp",
+  "Dimir Locket": "ramp",
+  "Everflowing Chalice": "ramp",
+  "Rakdos Signet": "ramp",
+  "Rampant Growth": "ramp",
+  "Sol Ring": "ramp",
+  "Brainstorm": "draw",
+  "Mishra's Bauble": "draw",
+  "Faithless Looting": "draw",
+  "Tome of Legends": "draw",
+  "Theater of Horrors": "draw",
+  "Seismic Sense": "draw",
+  "Mystical Teachings": "draw",
+  "Thorn of the Black Rose": "draw",
+  "Kaya, Ghost Assassin": "draw",
+  "Assassin's Trophy": "removal",
+  "Bitter Triumph": "removal",
+  "Chaos Warp": "removal",
+  "Fatal Push": "removal",
+  "Fateful Absence": "removal",
+  "Infernal Grasp": "removal",
+  "Kolaghan's Command": "removal",
+  "Mortify": "removal",
+  "Murder": "removal",
+  "Stroke of Midnight": "removal",
+  "Terminate": "removal",
+  "Utter End": "removal",
+  "Starfall Invocation": "removal",
+  "Nekrataal": "removal",
+  "Royal Assassin": "removal",
+  "Haytham Kenway": "removal",
+  "Mana Leak": "removal",
+  "Dualcaster Mage": "removal",
+  "Swiftfoot Boots": "protection",
+  "Venser, Shaper Savant": "protection",
+  "Return the Favor": "protection",
+  "Ezio, Blade of Vengeance": "engine",
+  "Coastal Piracy": "engine",
+  "Roshan, Hidden Magister": "engine",
+  "Jacob Frye": "engine",
+  "Loyal Inventor": "engine",
+  "Reckless Handling": "engine",
+  "Entomb": "engine",
+  "Desmond Miles": "engine",
+  "Winter Soldier, Icy Assassin": "engine",
+  "Lydia Frye": "engine",
+  "Evie Frye": "engine",
+  "Etrata, Deadly Fugitive": "engine",
+  "Adéwalé, Breaker of Chains": "engine",
+  "Assassin Gauntlet": "engine",
+  "Strionic Resonator": "engine",
+  "Lithoform Engine": "engine",
+  "Restart Sequence": "engine",
+  "The Revelations of Ezio": "engine",
+  "Deadeye Navigator": "engine",
+  "Ember Island Production": "engine",
+  "Magister Sphinx": "payoff",
+  "Arno Dorian": "payoff",
+  "Queen Marchesa": "payoff",
+  "Etrata, the Silencer": "backup",
+  "Ravenloft Adventurer": "backup",
+  "Intruder Alarm": "orphan"
+ },
+ "_note": "Opus 5.5 high test plan for the Phase 1 Ezio list, converted on 2026-10-31 to the schema of the revised gate; the two reference-board functions (outs listed by the reviewer) and the route axes were added.",
+ "win_routes": {
+  "Ezio kill after Magister Sphinx": {
+   "cards": [
+    "Ezio Auditore da Firenze",
+    "Magister Sphinx",
+    "Chromatic Lantern"
+   ],
+   "axis": "combat",
+   "vs_three": "Ezio's trigger removes ONE player per hit and needs that player at 10 life and {W}{U}{B}{R}{G}: three hits, three setups"
+  },
+  "Etrata hit counters": {
+   "cards": [
+    "Etrata, the Silencer",
+    "Ravenloft Adventurer",
+    "Strionic Resonator",
+    "Lithoform Engine",
+    "Return the Favor"
+   ],
+   "axis": "combat",
+   "vs_three": "three hit counters per player, three players: nine unblocked hits"
+  }
+ },
+ "functions": {
+  "connect: evasion past blockers": {
+   "cards": [
+    "Desmond Miles",
+    "Winter Soldier, Icy Assassin",
+    "Etrata, the Silencer",
+    "Lydia Frye",
+    "Evie Frye",
+    "Secret Tunnel",
+    "Assassin Gauntlet",
+    "Magister Sphinx"
+   ],
+   "needed_by": "early"
+  },
+  "cheap Assassins (MV 3 or less) to turn on freerunning": {
+   "cards": [
+    "Desmond Miles",
+    "Winter Soldier, Icy Assassin",
+    "Evie Frye",
+    "Lydia Frye",
+    "Jacob Frye",
+    "Adéwalé, Breaker of Chains",
+    "Etrata, Deadly Fugitive",
+    "Royal Assassin"
+   ],
+   "needed_by": "early"
+  },
+  "card flow on combat damage": {
+   "cards": [
+    "Coastal Piracy",
+    "Ezio, Blade of Vengeance",
+    "Assassin Gauntlet",
+    "Desmond Miles",
+    "Etrata, Deadly Fugitive",
+    "Jacob Frye",
+    "Theater of Horrors",
+    "Tome of Legends"
+   ],
+   "needed_by": "early"
+  },
+  "kill setup: put a player at 10 (Magister Sphinx and what finds it)": {
+   "cards": [
+    "Magister Sphinx",
+    "Loyal Inventor",
+    "Reckless Handling",
+    "Seismic Sense",
+    "Entomb"
+   ],
+   "needed_by": "late"
+  },
+  "any-color mana for {W}{U}{B}{R}{G}": {
+   "cards": [
+    "Chromatic Lantern",
+    "Command Tower",
+    "Arcane Signet",
+    "Exotic Orchard",
+    "Abstergo Entertainment",
+    "Rumble Arena",
+    "White Lotus Hideout",
+    "Survivors' Encampment"
+   ],
+   "needed_by": "early"
+  },
+  "recursion of Magister Sphinx or an Assassin": {
+   "cards": [
+    "Restart Sequence",
+    "The Revelations of Ezio",
+    "Jacob Frye",
+    "Kolaghan's Command",
+    "Abstergo Entertainment",
+    "Starfall Invocation"
+   ],
+   "needed_by": "late"
+  },
+  "re-use an enter or combat trigger (blink, bounce, copy)": {
+   "cards": [
+    "Deadeye Navigator",
+    "Venser, Shaper Savant",
+    "Kaya, Ghost Assassin",
+    "Ember Island Production",
+    "Strionic Resonator",
+    "Lithoform Engine",
+    "Return the Favor"
+   ],
+   "needed_by": "late"
+  },
+  "through_wide_board": {
+   "cards": [
+    "Etrata, the Silencer",
+    "Secret Tunnel",
+    "Evie Frye",
+    "Assassin Gauntlet",
+    "Magister Sphinx",
+    "Starfall Invocation"
+   ],
+   "needed_by": "early"
+  },
+  "through_big_creatures": {
+   "cards": [
+    "Assassin's Trophy",
+    "Bitter Triumph",
+    "Chaos Warp",
+    "Fatal Push",
+    "Fateful Absence",
+    "Infernal Grasp",
+    "Mortify",
+    "Murder",
+    "Stroke of Midnight",
+    "Terminate",
+    "Utter End",
+    "Nekrataal"
+   ],
+   "needed_by": "early"
+  }
+ }
+}

@@ -51,7 +51,9 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
   lower): a list needs ONE declared plan with enough pieces of every function the plan relies on (recursion, evasion, ways past
   big or wide boards, enablers), not a mix of many plans with one to three support cards each. Salt measures the potential of
   ideal draws, so it is only a tie-break among lists that pass the consistency gate in
-  `docs/proposals/phase2-collection-optimization.md`. Every deck-building prompt carries this gate.
+  `docs/proposals/phase2-collection-optimization.md` (checked by `scripts/plan_density.py`, reviewed by Opus in
+  `docs/research/phase2-gate-review-20261031.md`). Every deck-building prompt carries this gate and the paragraph for the
+  builders from section (f) of that review.
 
 ## Hard constraints
 - Goal (user decision, 2026-10-11; parity rule dropped 2026-10-19): each of the 3 decks as strong as

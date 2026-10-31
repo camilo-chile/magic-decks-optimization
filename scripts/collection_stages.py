@@ -181,9 +181,10 @@ def printing_line(rec, qty):
 
 
 def deck_text(records, commander_names):
-    """The scanned deck as plain text in the `// Commander` / `// Main` layout, one line per printing and finish.
+    """The scanned deck as plain text: a `// Commander` block, a blank line, then one line per printing and finish.
 
-    The commander is one copy of the card named in the plan (the proxy first); tokens are not part of the deck."""
+    There is no `// Main` header on purpose: Moxfield reads it as a card it cannot find (tested 2026-10-31). The commander
+    is one copy of the card named in the plan (the proxy first); tokens are not part of the deck."""
     cards = [dict(r) for r in records if not r["token"]]
     commander = None
     for pick in sorted((r for r in cards if front(r["name"]) in commander_names), key=lambda r: not r["proxy"]):
@@ -199,8 +200,7 @@ def deck_text(records, commander_names):
             sample.setdefault(key, r)
     lines = []
     if commander:
-        lines += ["// Commander", printing_line(commander, 1), ""]
-    lines.append("// Main")
+        lines += ["// Commander", printing_line(commander, 1), ""]  # the blank line ends the commander block
     lines += [printing_line(sample[key], grouped[key]) for key in sorted(grouped, key=lambda k: (k[0].casefold(),) + k[1:])]
     return "\n".join(lines) + "\n"
 

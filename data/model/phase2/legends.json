@@ -1,0 +1,366 @@
+[
+ {
+  "name": "Ezio, Blade of Vengeance",
+  "oracle_id": "2127a245-d664-45cb-8ed1-0024de1a10df",
+  "color_identity": "BU",
+  "type": "Legendary Creature — Human Assassin",
+  "copies": 1,
+  "spanish_copies": 1,
+  "pool_es": 23,
+  "pool_any": 94,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Arbaaz Mir",
+  "oracle_id": "a383ef16-1af8-4b3a-956c-c10a93768617",
+  "color_identity": "RW",
+  "type": "Legendary Creature — Human Assassin",
+  "copies": 1,
+  "spanish_copies": 1,
+  "pool_es": 16,
+  "pool_any": 65,
+  "held_by": {
+   "toph-the-first-metalbender": 1
+  }
+ },
+ {
+  "name": "Evie Frye",
+  "oracle_id": "248cafe8-cc37-4cf3-8239-ac10e55ced13",
+  "color_identity": "U",
+  "type": "Legendary Creature — Human Assassin",
+  "copies": 1,
+  "spanish_copies": 1,
+  "pool_es": 15,
+  "pool_any": 55,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Fire Lord Azula",
+  "oracle_id": "2631130e-63e2-43a3-914a-648e76722203",
+  "color_identity": "BRU",
+  "type": "Legendary Creature — Human Noble",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 28,
+  "pool_any": 137,
+  "held_by": {
+   "fire-lord-azula": 1
+  }
+ },
+ {
+  "name": "Queen Marchesa",
+  "oracle_id": "d7ac4be1-dcca-49b6-8ddb-d1b0e6cf2dcf",
+  "color_identity": "BRW",
+  "type": "Legendary Creature — Human Assassin",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 27,
+  "pool_any": 109,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Adéwalé, Breaker of Chains",
+  "oracle_id": "e30d9e08-cf88-4e2d-95e1-7144d8fea5c7",
+  "color_identity": "BU",
+  "type": "Legendary Creature — Human Assassin Pirate",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 24,
+  "pool_any": 94,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Etrata, Deadly Fugitive",
+  "oracle_id": "87957d09-7e22-40fe-8770-ff66d1934a38",
+  "color_identity": "BU",
+  "type": "Legendary Creature — Vampire Assassin",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 24,
+  "pool_any": 94,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Etrata, the Silencer",
+  "oracle_id": "2ee87667-ec9d-4ced-b7e6-df3fd18b0ed6",
+  "color_identity": "BU",
+  "type": "Legendary Creature — Vampire Assassin",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 24,
+  "pool_any": 94,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Lydia Frye",
+  "oracle_id": "0315f5e7-2867-428e-8e43-66dda0db57a0",
+  "color_identity": "BU",
+  "type": "Legendary Creature — Human Assassin",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 24,
+  "pool_any": 94,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Toph, the First Metalbender",
+  "oracle_id": "fbfef028-b10c-4ade-9503-d9af5b0c211b",
+  "color_identity": "GRW",
+  "type": "Legendary Creature — Human Warrior Ally",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 22,
+  "pool_any": 109,
+  "held_by": {
+   "toph-the-first-metalbender": 1
+  }
+ },
+ {
+  "name": "Haytham Kenway",
+  "oracle_id": "ee6a9bac-cf5b-4edd-8cb2-874d8dd0e62a",
+  "color_identity": "UW",
+  "type": "Legendary Creature — Human Knight",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 21,
+  "pool_any": 66,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Winter Soldier, Icy Assassin",
+  "oracle_id": "6f4c94b6-f829-4646-a574-083997b78dfb",
+  "color_identity": "BW",
+  "type": "Legendary Creature — Human Assassin Villain",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 20,
+  "pool_any": 68,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Arno Dorian",
+  "oracle_id": "ae90daea-6644-4235-bca6-b94ee9925f63",
+  "color_identity": "BR",
+  "type": "Legendary Creature — Human Assassin",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 17,
+  "pool_any": 87,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Ozai, the Phoenix King",
+  "oracle_id": "7472af8e-2e93-43b2-bc32-a3741f6d7502",
+  "color_identity": "BR",
+  "type": "Legendary Creature — Human Noble",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 17,
+  "pool_any": 87,
+  "held_by": {
+   "fire-lord-azula": 1
+  }
+ },
+ {
+  "name": "Ragost, Deft Gastronaut",
+  "oracle_id": "76f5445a-5193-4794-8593-b44f961334b6",
+  "color_identity": "RW",
+  "type": "Legendary Creature — Lobster Citizen",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 17,
+  "pool_any": 65,
+  "held_by": {
+   "toph-the-first-metalbender": 1
+  }
+ },
+ {
+  "name": "Venser, Shaper Savant",
+  "oracle_id": "0f41cefc-d6ff-4db7-ba35-502b7e081de1",
+  "color_identity": "U",
+  "type": "Legendary Creature — Human Wizard",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 16,
+  "pool_any": 55,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Desmond Miles",
+  "oracle_id": "654d84bb-f801-4d03-898c-78952f1c5a73",
+  "color_identity": "B",
+  "type": "Legendary Creature — Human Assassin",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 13,
+  "pool_any": 53,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Jacob Frye",
+  "oracle_id": "31af65c3-602b-4ac9-a25f-dccb88f8f751",
+  "color_identity": "B",
+  "type": "Legendary Creature — Human Assassin",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 13,
+  "pool_any": 53,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Lo and Li, Twin Tutors",
+  "oracle_id": "ad643992-eb9f-4a4a-9b74-a5aee2337f30",
+  "color_identity": "B",
+  "type": "Legendary Creature — Human Advisor",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 13,
+  "pool_any": 53,
+  "held_by": {
+   "fire-lord-azula": 1
+  }
+ },
+ {
+  "name": "Roshan, Hidden Magister",
+  "oracle_id": "f60b21c1-d192-4a02-9b1f-a08e9e08a84a",
+  "color_identity": "B",
+  "type": "Legendary Creature — Human Assassin",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 13,
+  "pool_any": 53,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Bumi, Unleashed",
+  "oracle_id": "1fef13d8-5da2-46a6-91ed-7a31bd46e538",
+  "color_identity": "GR",
+  "type": "Legendary Creature — Human Noble Ally",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 12,
+  "pool_any": 88,
+  "held_by": {
+   "toph-the-first-metalbender": 1
+  }
+ },
+ {
+  "name": "Tannuk, Memorial Ensign",
+  "oracle_id": "76cb1912-3791-44b8-b594-b92dab21bafc",
+  "color_identity": "GR",
+  "type": "Legendary Creature — Kavu Pilot",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 12,
+  "pool_any": 88,
+  "held_by": {
+   "toph-the-first-metalbender": 1
+  }
+ },
+ {
+  "name": "Toph, Hardheaded Teacher",
+  "oracle_id": "8c1c0117-6fc0-43c5-a4c8-6472de6503d9",
+  "color_identity": "GR",
+  "type": "Legendary Creature — Human Warrior Ally",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 12,
+  "pool_any": 88,
+  "held_by": {
+   "toph-the-first-metalbender": 1
+  }
+ },
+ {
+  "name": "Ashaya, Soul of the Wild",
+  "oracle_id": "162572f2-1757-42e9-bd97-e6bd9a762c0e",
+  "color_identity": "G",
+  "type": "Legendary Creature — Elemental",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 11,
+  "pool_any": 60,
+  "held_by": {
+   "toph-the-first-metalbender": 1
+  }
+ },
+ {
+  "name": "Haru, Hidden Talent",
+  "oracle_id": "7488ce54-37c6-475c-b327-59f52f2b1424",
+  "color_identity": "G",
+  "type": "Legendary Creature — Human Peasant Ally",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 11,
+  "pool_any": 60,
+  "held_by": {
+   "toph-the-first-metalbender": 1
+  }
+ },
+ {
+  "name": "Toph, the Blind Bandit",
+  "oracle_id": "2ce20f43-9357-448f-bb40-7315feb08433",
+  "color_identity": "G",
+  "type": "Legendary Creature — Human Warrior Ally",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 11,
+  "pool_any": 60,
+  "held_by": {
+   "toph-the-first-metalbender": 1
+  }
+ },
+ {
+  "name": "Electro, Assaulting Battery",
+  "oracle_id": "3db16fb8-5650-4568-b975-42ad3d44ebcd",
+  "color_identity": "R",
+  "type": "Legendary Creature — Human Villain",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 9,
+  "pool_any": 50,
+  "held_by": {
+   "fire-lord-azula": 1
+  }
+ },
+ {
+  "name": "Godo, Bandit Warlord",
+  "oracle_id": "f890d51a-dc90-4179-8423-4738a72a527c",
+  "color_identity": "R",
+  "type": "Legendary Creature — Human Barbarian",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 9,
+  "pool_any": 50,
+  "held_by": {
+   "fire-lord-azula": 1
+  }
+ }
+]

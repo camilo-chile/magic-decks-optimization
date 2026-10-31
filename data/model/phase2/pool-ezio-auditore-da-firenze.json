@@ -1,0 +1,7157 @@
+{
+ "slug": "ezio-auditore-da-firenze",
+ "commander": "Ezio Auditore da Firenze",
+ "language_policy": "both",
+ "color_identity": [
+  "B",
+  "G",
+  "R",
+  "U",
+  "W"
+ ],
+ "cards": [
+  {
+   "name": "Abrade",
+   "oracle_id": "f9db72dc-9a5b-48a4-a86e-7464d9a2166a",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Choose one —\n• Abrade deals 3 damage to target creature.\n• Destroy target artifact.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "BLC",
+     "number": "191",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Abstergo Entertainment",
+   "oracle_id": "d06a8026-1657-4404-8dff-64e44f1a14f8",
+   "type": "Legendary Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.\n{3}, {T}, Exile Abstergo Entertainment: Return up to one target historic card from your graveyard to your hand, then exile all graveyards. (Artifacts, legendaries, and Sagas are historic.)",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "79",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Adéwalé, Breaker of Chains",
+   "oracle_id": "e30d9e08-cf88-4e2d-95e1-7144d8fea5c7",
+   "type": "Legendary Creature — Human Assassin Pirate",
+   "cmc": 3.0,
+   "mana_cost": "{1}{U}{B}",
+   "oracle_text": "When Adéwalé enters, reveal the top six cards of your library. Put an Assassin, Pirate, or Vehicle card from among them into your hand and the rest on the bottom of your library in a random order.\nWhenever a Vehicle you control deals combat damage to a player, you may return this card from your graveyard to your hand.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "136",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Aether Gale",
+   "oracle_id": "b21d6482-1b3a-47e6-98a5-3067f5f3818b",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "mana_cost": "{3}{U}{U}",
+   "oracle_text": "Return six target nonland permanents to their owners' hands.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "SOC",
+     "number": "186",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Amphibian Downpour",
+   "oracle_id": "a4280cea-386b-450d-a7e9-29c7aa58ce5a",
+   "type": "Enchantment — Aura",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "Flash\nStorm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies. Copies become tokens.)\nEnchant creature\nEnchanted creature loses all abilities and is a blue Frog creature with base power and toughness 1/1.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "MH3",
+     "number": "51",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Annie Joins Up",
+   "oracle_id": "4c3ad545-b375-44a7-a24e-58baacc4e4b6",
+   "type": "Legendary Enchantment",
+   "cmc": 4.0,
+   "mana_cost": "{1}{R}{G}{W}",
+   "oracle_text": "When Annie Joins Up enters, it deals 5 damage to target creature or planeswalker an opponent controls.\nIf a triggered ability of a legendary creature you control triggers, that ability triggers an additional time.",
+   "color_identity": [
+    "G",
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "OTJ",
+     "number": "191",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Arbaaz Mir",
+   "oracle_id": "a383ef16-1af8-4b3a-956c-c10a93768617",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 2.0,
+   "mana_cost": "{R}{W}",
+   "oracle_text": "Whenever Arbaaz Mir or another nontoken historic permanent you control enters, Arbaaz Mir deals 1 damage to each opponent and you gain 1 life. (Artifacts, legendaries, and Sagas are historic.)",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "46",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Arcane Signet",
+   "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 3,
+   "by_language": {
+    "en": 3
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "FIC",
+     "number": "335",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "TLE",
+     "number": "315",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "TLE",
+     "number": "315",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Archmage Emeritus",
+   "oracle_id": "8305d576-21d8-4ce7-8eda-a7cd9793aca5",
+   "type": "Creature — Human Wizard",
+   "cmc": 4.0,
+   "mana_cost": "{2}{U}{U}",
+   "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, draw a card.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "STX",
+     "number": "377",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Arno Dorian",
+   "oracle_id": "ae90daea-6644-4235-bca6-b94ee9925f63",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 4.0,
+   "mana_cost": "{2}{B}{R}",
+   "oracle_text": "Deathtouch\nOther Assassins you control get +2/+0.\nDisguise {B}{R} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "139",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Ashaya, Soul of the Wild",
+   "oracle_id": "162572f2-1757-42e9-bd97-e6bd9a762c0e",
+   "type": "Legendary Creature — Elemental",
+   "cmc": 5.0,
+   "mana_cost": "{3}{G}{G}",
+   "oracle_text": "Ashaya's power and toughness are each equal to the number of lands you control.\nNontoken creatures you control are Forest lands in addition to their other types. (They're still affected by summoning sickness.)",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "SLD",
+     "number": "2014",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Assassin Gauntlet",
+   "oracle_id": "85d06533-3c0b-46a8-8fdb-379db9ae7e2e",
+   "type": "Artifact — Equipment",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "When this Equipment enters, attach it to up to one target creature you control. Tap all creatures target opponent controls.\nEquipped creature gets +1/+1 and has \"Whenever this creature deals combat damage to a player, draw a card, then discard a card.\"\nEquip {2}",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "12",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Assassin's Trophy",
+   "oracle_id": "ac10d218-f9a6-4058-9cda-a15ca1b0b7b5",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{B}{G}",
+   "oracle_text": "Destroy target permanent an opponent controls. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle.",
+   "color_identity": [
+    "B",
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "95",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Ba Sing Se",
+   "oracle_id": "de1ae205-ca5b-4d26-8194-ca85f1406e53",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control a basic land.\n{T}: Add {G}.\n{2}{G}, {T}: Earthbend 2. Activate only as a sorcery. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "266",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Banefire",
+   "oracle_id": "5eff8a06-e0d6-435a-a7c0-db9f9d98636a",
+   "type": "Sorcery",
+   "cmc": 1.0,
+   "mana_cost": "{X}{R}",
+   "oracle_text": "Banefire deals X damage to any target.\nIf X is 5 or more, this spell can't be countered and the damage can't be prevented.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "M19",
+     "number": "130",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Beast Within",
+   "oracle_id": "7735eeba-693b-47e2-bd51-414379cf1016",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{2}{G}",
+   "oracle_text": "Destroy target permanent. Its controller creates a 3/3 green Beast creature token.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "SOC",
+     "number": "263",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Bender's Waterskin",
+   "oracle_id": "3bc46467-323f-4cbf-9d0a-f3d2ae3c3a34",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "Untap this artifact during each other player's untap step.\n{T}: Add one mana of any color.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "fire-lord-azula": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "255",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "TLA",
+     "number": "255",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Big Score",
+   "oracle_id": "a5cbd257-c836-493e-bb1a-76242619dea2",
+   "type": "Instant",
+   "cmc": 4.0,
+   "mana_cost": "{3}{R}",
+   "oracle_text": "As an additional cost to cast this spell, discard a card.\nDraw two cards and create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "FIC",
+     "number": "290",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Bitter Triumph",
+   "oracle_id": "776341cb-d2ec-423f-9250-92dc8bd8d503",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{B}",
+   "oracle_text": "As an additional cost to cast this spell, discard a card or pay 3 life.\nDestroy target creature or planeswalker.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "TDC",
+     "number": "173",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Black Market Connections",
+   "oracle_id": "d2664f28-49e1-46f8-a863-b217e961a57c",
+   "type": "Enchantment",
+   "cmc": 3.0,
+   "mana_cost": "{2}{B}",
+   "oracle_text": "At the beginning of your first main phase, choose one or more —\n• Sell Contraband — Create a Treasure token. You lose 1 life.\n• Buy Information — Draw a card. You lose 2 life.\n• Hire a Mercenary — Create a 3/2 colorless Shapeshifter creature token with changeling. You lose 3 life. (It is every creature type.)",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "87",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Boros Locket",
+   "oracle_id": "b044b4fd-d504-4a11-80bf-eb8fb0b6e21e",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "{T}: Add {R} or {W}.\n{R/W}{R/W}{R/W}{R/W}, {T}, Sacrifice this artifact: Draw two cards.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "C21",
+     "number": "236",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Brainstorm",
+   "oracle_id": "36cd2364-d113-47d1-b2c4-b088d9eb88dd",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{U}",
+   "oracle_text": "Draw three cards, then put two cards from your hand on top of your library in any order.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "fire-lord-azula": 1,
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "A25",
+     "number": "46",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "TLE",
+     "number": "155",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Brightglass Gearhulk",
+   "oracle_id": "0c7019a7-3cca-481a-9af0-abedb89c15ad",
+   "type": "Artifact Creature — Construct",
+   "cmc": 4.0,
+   "mana_cost": "{G}{G}{W}{W}",
+   "oracle_text": "First strike, trample\nWhen this creature enters, you may search your library for up to two artifact, creature, and/or enchantment cards with mana value 1 or less, reveal them, put them into your hand, then shuffle.",
+   "color_identity": [
+    "G",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "DFT",
+     "number": "191",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Brotherhood Headquarters",
+   "oracle_id": "0d3a06d5-5bb9-4733-a55b-9e2c75de6b6e",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast an Assassin spell or a spell that has freerunning, or to activate an ability of an Assassin source.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "80",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Bumi, Unleashed",
+   "oracle_id": "1fef13d8-5da2-46a6-91ed-7a31bd46e538",
+   "type": "Legendary Creature — Human Noble Ally",
+   "cmc": 5.0,
+   "mana_cost": "{3}{R}{G}",
+   "oracle_text": "Trample\nWhen Bumi enters, earthbend 4.\nWhenever Bumi deals combat damage to a player, untap all lands you control. After this phase, there is an additional combat phase. Only land creatures can attack during that combat phase.",
+   "color_identity": [
+    "G",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "211",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Canyon Slough",
+   "oracle_id": "2031b17c-0536-446f-a9aa-b46fe79b7ea7",
+   "type": "Land — Swamp Mountain",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "({T}: Add {B} or {R}.)\nThis land enters tapped.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "MSC",
+     "number": "228",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Cascade Bluffs",
+   "oracle_id": "f1603384-4361-49c9-98aa-7785fc3504c4",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{U/R}, {T}: Add {U}{U}, {U}{R}, or {R}{R}.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "SOC",
+     "number": "364",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Champion's Helm",
+   "oracle_id": "c01aafb8-3da5-4eb1-8731-2a223e747d63",
+   "type": "Artifact — Equipment",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "Equipped creature gets +2/+2.\nAs long as equipped creature is legendary, it has hexproof. (It can't be the target of spells or abilities your opponents control.)\nEquip {1}",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "CMM",
+     "number": "375",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Chaos Warp",
+   "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "MBC",
+     "number": "72",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "SOC",
+     "number": "239",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Choked Estuary",
+   "oracle_id": "d473b507-8c33-4118-bc10-b0a268776074",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "As this land enters, you may reveal an Island or Swamp card from your hand. If you don't, this land enters tapped.\n{T}: Add {U} or {B}.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "MKC",
+     "number": "254",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Chord of Calling",
+   "oracle_id": "6789a170-f2c5-4fc0-8a45-2b2361e67410",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{X}{G}{G}{G}",
+   "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nSearch your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "2XM",
+     "number": "158",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Chromatic Lantern",
+   "oracle_id": "539f5396-d99a-417d-a84c-dff7930b5900",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "Lands you control have \"{T}: Add one mana of any color.\"\n{T}: Add one mana of any color.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "54",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "FRC",
+     "number": "54",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Clifftop Retreat",
+   "oracle_id": "d7faa3c8-46cf-46b2-bfa4-89000307cf18",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control a Mountain or a Plains.\n{T}: Add {R} or {W}.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "67",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "FRC",
+     "number": "67",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Coastal Piracy",
+   "oracle_id": "8a05ec32-7b0c-4f23-a4f7-413301c2a70a",
+   "type": "Enchantment",
+   "cmc": 4.0,
+   "mana_cost": "{2}{U}{U}",
+   "oracle_text": "Whenever a creature you control deals combat damage to an opponent, you may draw a card.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "84",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Collective Resistance",
+   "oracle_id": "bffdfe7b-f17a-41b6-a460-80280fe497d4",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{G}",
+   "oracle_text": "Escalate {G} (Pay this cost for each mode chosen beyond the first.)\nChoose one or more —\n• Destroy target artifact.\n• Destroy target enchantment.\n• Target creature gains hexproof and indestructible until end of turn.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "MH3",
+     "number": "147",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Comet Storm",
+   "oracle_id": "9c2b262b-53c0-41a1-8f1a-0c336453d4bf",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{X}{R}{R}",
+   "oracle_text": "Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)\nChoose any target, then choose another target for each time this spell was kicked. Comet Storm deals X damage to each of them.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "CMR",
+     "number": "411",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Command Tower",
+   "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 3,
+   "by_language": {
+    "en": 1,
+    "es": 2
+   },
+   "held_by": {
+    "fire-lord-azula": 1,
+    "ezio-auditore-da-firenze": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "CMM",
+     "number": "659",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "EOC",
+     "number": "59",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "PIP",
+     "number": "259",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Concealed Courtyard",
+   "oracle_id": "2d899466-b1eb-4901-b626-1f2fb09b786d",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {W} or {B}.",
+   "color_identity": [
+    "B",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "KLD",
+     "number": "245",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Consider",
+   "oracle_id": "4c9bcba6-87b5-4fb3-97ee-6fe5b739337d",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{U}",
+   "oracle_text": "Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nDraw a card.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TDC",
+     "number": "148",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Crop Rotation",
+   "oracle_id": "28b46183-c62f-47b1-9fee-3ba148202cab",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{G}",
+   "oracle_text": "As an additional cost to cast this spell, sacrifice a land.\nSearch your library for a land card, put that card onto the battlefield, then shuffle.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": true,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "DMR",
+     "number": "154",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Cycle of Renewal",
+   "oracle_id": "77eda626-5cef-496d-b291-cfa1ee6fc1fb",
+   "type": "Instant — Lesson",
+   "cmc": 3.0,
+   "mana_cost": "{2}{G}",
+   "oracle_text": "Sacrifice a land. Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "170",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Darkwater Catacombs",
+   "oracle_id": "4869a530-757f-4364-8d8e-4dc8001f433c",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{1}, {T}: Add {U}{B}.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TDC",
+     "number": "355",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Day of Black Sun",
+   "oracle_id": "dc857129-533c-41d1-8e8b-1c0443030d69",
+   "type": "Sorcery",
+   "cmc": 2.0,
+   "mana_cost": "{X}{B}{B}",
+   "oracle_text": "Each creature with mana value X or less loses all abilities until end of turn. Destroy those creatures.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "94",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Deadeye Navigator",
+   "oracle_id": "ebef6d84-b724-4a84-bcde-8eb6dc06717d",
+   "type": "Creature — Spirit",
+   "cmc": 6.0,
+   "mana_cost": "{4}{U}{U}",
+   "oracle_text": "Soulbond (You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)\nAs long as Deadeye Navigator is paired with another creature, each of those creatures has \"{1}{U}: Exile this creature, then return it to the battlefield under your control.\"",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "INR",
+     "number": "59",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Deathcap Cultivator",
+   "oracle_id": "26e555f1-e0ed-4b84-8783-1c0c968f462d",
+   "type": "Creature — Human Druid",
+   "cmc": 2.0,
+   "mana_cost": "{1}{G}",
+   "oracle_text": "{T}: Add {B} or {G}.\nDelirium — This creature has deathtouch as long as there are four or more card types among cards in your graveyard.",
+   "color_identity": [
+    "B",
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "DSC",
+     "number": "175",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Deflecting Swat",
+   "oracle_id": "ae120613-97d6-4393-b39d-c3e6c076f5d6",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nYou may choose new targets for target spell or ability.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TLE",
+     "number": "311",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Desmond Miles",
+   "oracle_id": "654d84bb-f801-4d03-898c-78952f1c5a73",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 2.0,
+   "mana_cost": "{1}{B}",
+   "oracle_text": "Menace\nDesmond Miles gets +1/+0 for each other Assassin you control and each Assassin card in your graveyard.\nWhenever Desmond Miles deals combat damage to a player, surveil X, where X is the amount of damage it dealt to that player.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "24",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Dimir Locket",
+   "oracle_id": "3ae4b679-2e3c-4f60-bcf4-b279917cdc54",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "{T}: Add {U} or {B}.\n{U/B}{U/B}{U/B}{U/B}, {T}, Sacrifice this artifact: Draw two cards.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "GRN",
+     "number": "234",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Dimir Signet",
+   "oracle_id": "7d881c57-0bd9-4c57-aa4a-b10808b86143",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{1}, {T}: Add {U}{B}.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "56",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Dragonskull Summit",
+   "oracle_id": "63398c02-6fb1-481d-9d9f-81063532fbc0",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control a Swamp or a Mountain.\n{T}: Add {B} or {R}.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "fire-lord-azula": 1,
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "DSC",
+     "number": "271",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "MSC",
+     "number": "238",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Drowned Catacomb",
+   "oracle_id": "819fc966-434e-470f-91e9-a38df974ad17",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control an Island or a Swamp.\n{T}: Add {U} or {B}.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "69",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "FRC",
+     "number": "69",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Dualcaster Mage",
+   "oracle_id": "8eb7c0a5-6190-40de-b473-2d1daa3bbe28",
+   "type": "Creature — Human Wizard",
+   "cmc": 3.0,
+   "mana_cost": "{1}{R}{R}",
+   "oracle_text": "Flash\nWhen this creature enters, copy target instant or sorcery spell. You may choose new targets for the copy.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "2XM",
+     "number": "124",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "C21",
+     "number": "165",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Earth Kingdom General",
+   "oracle_id": "e43c31ee-1bac-4f96-8b74-334b3238ab73",
+   "type": "Creature — Human Soldier Ally",
+   "cmc": 4.0,
+   "mana_cost": "{3}{G}",
+   "oracle_text": "When this creature enters, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)\nWhenever you put one or more +1/+1 counters on a creature, you may gain that much life. Do this only once each turn.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "173",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Earthbender Ascension",
+   "oracle_id": "f8966fd5-2926-4ba0-b7d6-cfea40cd4e05",
+   "type": "Enchantment",
+   "cmc": 3.0,
+   "mana_cost": "{2}{G}",
+   "oracle_text": "When this enchantment enters, earthbend 2. Then search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\nLandfall — Whenever a land you control enters, put a quest counter on this enchantment. When you do, if it has four or more quest counters on it, put a +1/+1 counter on target creature you control. It gains trample until end of turn.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "175",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Electro, Assaulting Battery",
+   "oracle_id": "3db16fb8-5650-4568-b975-42ad3d44ebcd",
+   "type": "Legendary Creature — Human Villain",
+   "cmc": 3.0,
+   "mana_cost": "{1}{R}{R}",
+   "oracle_text": "Flying\nYou don't lose unspent red mana as steps and phases end.\nWhenever you cast an instant or sorcery spell, add {R}.\nWhen Electro leaves the battlefield, you may pay {X}. When you do, he deals X damage to target player.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "SPM",
+     "number": "76",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Electrodominance",
+   "oracle_id": "4a59d86e-405d-4c70-b2a5-c64f5cecfd9e",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{X}{R}{R}",
+   "oracle_text": "Electrodominance deals X damage to any target. You may cast a spell with mana value X or less from your hand without paying its mana cost.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "OTP",
+     "number": "23",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Ember Island Production",
+   "oracle_id": "0b786547-67ed-49fa-9981-35c4c2175f62",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "mana_cost": "{3}{U}{U}",
+   "oracle_text": "Choose one —\n• Create a token that's a copy of target creature you control, except it's not legendary and it's a 4/4 Hero in addition to its other types.\n• Create a token that's a copy of target creature an opponent controls, except it's not legendary and it's a 2/2 Coward in addition to its other types.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "48",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "TLA",
+     "number": "48",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Entomb",
+   "oracle_id": "299fc083-0834-4064-8344-f895aff68867",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{B}",
+   "oracle_text": "Search your library for a card, put that card into your graveyard, then shuffle.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "fire-lord-azula": 1,
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "DMR",
+     "number": "82",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "TLE",
+     "number": "310",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Etrata, Deadly Fugitive",
+   "oracle_id": "87957d09-7e22-40fe-8770-ff66d1934a38",
+   "type": "Legendary Creature — Vampire Assassin",
+   "cmc": 3.0,
+   "mana_cost": "{1}{U}{B}",
+   "oracle_text": "Deathtouch\nFace-down creatures you control have \"{2}{U}{B}: Turn this creature face up. If you can't, exile it, then you may cast the exiled card without paying its mana cost.\"\nWhenever an Assassin you control deals combat damage to an opponent, cloak the top card of that player's library.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "MKM",
+     "number": "359",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Etrata, the Silencer",
+   "oracle_id": "2ee87667-ec9d-4ced-b7e6-df3fd18b0ed6",
+   "type": "Legendary Creature — Vampire Assassin",
+   "cmc": 4.0,
+   "mana_cost": "{2}{U}{B}",
+   "oracle_text": "Etrata can't be blocked.\nWhenever Etrata deals combat damage to a player, exile target creature that player controls and put a hit counter on that card. That player loses the game if they own three or more exiled cards with hit counters on them. Etrata's owner shuffles Etrata into their library.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "GRN",
+     "number": "170",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Everflowing Chalice",
+   "oracle_id": "0a79237e-0811-4a8a-bd4d-db3ca91bff22",
+   "type": "Artifact",
+   "cmc": 0.0,
+   "mana_cost": "{0}",
+   "oracle_text": "Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)\nThis artifact enters with a charge counter on it for each time it was kicked.\n{T}: Add {C} for each charge counter on this artifact.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "137",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "EOC",
+     "number": "137",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Evie Frye",
+   "oracle_id": "248cafe8-cc37-4cf3-8239-ac10e55ced13",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 2.0,
+   "mana_cost": "{1}{U}",
+   "oracle_text": "Partner with Jacob Frye (When this creature enters, target player may put Jacob into their hand from their library, then shuffle.)\n{1}, {T}: Draw a card, then discard a card. When you discard a creature card this way, target creature you control can't be blocked this turn.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "19",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Exotic Orchard",
+   "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 3,
+   "by_language": {
+    "es": 3
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "70",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "FRC",
+     "number": "70",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "FRC",
+     "number": "70",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Ezio, Blade of Vengeance",
+   "oracle_id": "2127a245-d664-45cb-8ed1-0024de1a10df",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 5.0,
+   "mana_cost": "{3}{U}{B}",
+   "oracle_text": "Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhenever an Assassin you control deals combat damage to a player, draw a card.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "275",
+     "finish": "foil",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Fact or Fiction",
+   "oracle_id": "437b2dab-15e0-4b9a-a204-58622d37a3b3",
+   "type": "Instant",
+   "cmc": 4.0,
+   "mana_cost": "{3}{U}",
+   "oracle_text": "Reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "CMR",
+     "number": "634",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Faithless Looting",
+   "oracle_id": "3d6fa57a-aa53-4b5c-b8af-a7612c823117",
+   "type": "Sorcery",
+   "cmc": 1.0,
+   "mana_cost": "{R}",
+   "oracle_text": "Draw two cards, then discard two cards.\nFlashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "SOC",
+     "number": "244",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Fatal Push",
+   "oracle_id": "16437a83-be52-44cd-a768-a767c9347eb2",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{B}",
+   "oracle_text": "Destroy target creature if it has mana value 2 or less.\nRevolt — Destroy that creature if it has mana value 4 or less instead if a permanent left the battlefield under your control this turn.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "90",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "ACR",
+     "number": "90",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Fateful Absence",
+   "oracle_id": "35bba442-1aec-4d33-b502-4c580d61644b",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{W}",
+   "oracle_text": "Destroy target creature or planeswalker. Its controller investigates. (They create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "MID",
+     "number": "18",
+     "finish": "foil",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "PW22",
+     "number": "2",
+     "finish": "foil",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Fire Lord Azula",
+   "oracle_id": "2631130e-63e2-43a3-914a-648e76722203",
+   "type": "Legendary Creature — Human Noble",
+   "cmc": 4.0,
+   "mana_cost": "{1}{U}{B}{R}",
+   "oracle_text": "Firebending 2 (Whenever this creature attacks, add {R}{R}. This mana lasts until end of combat.)\nWhenever you cast a spell while Fire Lord Azula is attacking, copy that spell. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)",
+   "color_identity": [
+    "B",
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "220",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Fire Nation Palace",
+   "oracle_id": "f2000fb8-39c6-4ad6-a020-5245faaa1eba",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control a basic land.\n{T}: Add {R}.\n{1}{R}, {T}: Target creature you control gains firebending 4 until end of turn. (Whenever it attacks, add {R}{R}{R}{R}. This mana lasts until end of combat.)",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "268",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Foreboding Ruins",
+   "oracle_id": "5c87e2fa-77f1-4978-b25f-f14d227301d1",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "As this land enters, you may reveal a Swamp or Mountain card from your hand. If you don't, this land enters tapped.\n{T}: Add {B} or {R}.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "DSC",
+     "number": "277",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Forest",
+   "oracle_id": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
+   "type": "Basic Land — Forest",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "({T}: Add {G}.)",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": true,
+   "copies": 14,
+   "by_language": {
+    "en": 14
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 13,
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "110",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 4,
+     "deck": "toph-the-first-metalbender"
+    },
+    {
+     "set": "ACR",
+     "number": "110",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "ACR",
+     "number": "110",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 5,
+     "deck": "toph-the-first-metalbender"
+    },
+    {
+     "set": "TLA",
+     "number": "291",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "toph-the-first-metalbender"
+    },
+    {
+     "set": "TLA",
+     "number": "291",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Fortified Village",
+   "oracle_id": "56f1a16a-9f41-41fb-b580-c200bca27cd6",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "As this land enters, you may reveal a Forest or Plains card from your hand. If you don't, this land enters tapped.\n{T}: Add {G} or {W}.",
+   "color_identity": [
+    "G",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TDC",
+     "number": "366",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "TDC",
+     "number": "366",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Frantic Search",
+   "oracle_id": "16e015b2-f8a3-4b1a-80be-58a8f5fb5e8c",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "Draw two cards, then discard two cards. Untap up to three lands.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TDC",
+     "number": "153",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Frostboil Snarl",
+   "oracle_id": "7137aae6-260d-41de-8b4e-42a8cf752697",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "As this land enters, you may reveal an Island or Mountain card from your hand. If you don't, this land enters tapped.\n{T}: Add {U} or {R}.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "WHO",
+     "number": "282",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "WHO",
+     "number": "282",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Frostcliff Siege",
+   "oracle_id": "e7af31ff-fa1b-4225-b3bc-fde80ac72d0a",
+   "type": "Enchantment",
+   "cmc": 3.0,
+   "mana_cost": "{1}{U}{R}",
+   "oracle_text": "As this enchantment enters, choose Jeskai or Temur.\n• Jeskai — Whenever one or more creatures you control deal combat damage to a player, draw a card.\n• Temur — Creatures you control get +1/+0 and have trample and haste.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TDM",
+     "number": "187",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Furycalm Snarl",
+   "oracle_id": "651dea9c-2375-4e44-8e65-ba8e40f0c0ef",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "As this land enters, you may reveal a Mountain or Plains card from your hand. If you don't, this land enters tapped.\n{T}: Add {R} or {W}.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "STX",
+     "number": "266",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Game Trail",
+   "oracle_id": "00de57d2-7cb6-4337-9bc6-f6711e4dfabf",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "As this land enters, you may reveal a Mountain or Forest card from your hand. If you don't, this land enters tapped.\n{T}: Add {R} or {G}.",
+   "color_identity": [
+    "G",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1,
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "BLC",
+     "number": "306",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    },
+    {
+     "set": "FIC",
+     "number": "398",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Glamdring, Foe-hammer // Gleam of Death",
+   "oracle_id": "2802069f-201e-43a7-b5d3-43a95951a2ec",
+   "type": "Legendary Artifact — Equipment // Sorcery — Adventure",
+   "cmc": 2.0,
+   "mana_cost": "{2} // {3}{U}",
+   "oracle_text": "Instant and sorcery spells you cast cost {X} less to cast, where X is equipped creature's power.\nEquip {2} // Mill six cards, then put all instant and sorcery cards from among them into your hand. (Then exile this card. You may cast the artifact later from exile.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "HOB",
+     "number": "174",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Go for the Throat",
+   "oracle_id": "2f092562-9e17-43cd-aeb8-d0567f99363e",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{B}",
+   "oracle_text": "Destroy target nonartifact creature.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "91",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Goblin Bombardment",
+   "oracle_id": "edad60c6-80de-4033-af1b-a703ac332983",
+   "type": "Enchantment",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Sacrifice a creature: This enchantment deals 1 damage to any target.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 1,
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "MH2",
+     "number": "279",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "MH2",
+     "number": "279",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Goblin Electromancer",
+   "oracle_id": "81f06f84-1580-43c0-89d5-08d34541a519",
+   "type": "Creature — Goblin Wizard",
+   "cmc": 2.0,
+   "mana_cost": "{U}{R}",
+   "oracle_text": "Instant and sorcery spells you cast cost {1} less to cast.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "RVR",
+     "number": "186",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Godo, Bandit Warlord",
+   "oracle_id": "f890d51a-dc90-4179-8423-4738a72a527c",
+   "type": "Legendary Creature — Human Barbarian",
+   "cmc": 6.0,
+   "mana_cost": "{5}{R}",
+   "oracle_text": "When Godo enters, you may search your library for an Equipment card, put it onto the battlefield, then shuffle.\nWhenever Godo attacks for the first time each turn, untap it and all Samurai you control. After this phase, there is an additional combat phase.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "CMM",
+     "number": "227",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Great Divide Guide",
+   "oracle_id": "79e69a91-d580-47fb-be76-1e32c50d2fa0",
+   "type": "Creature — Human Scout Ally",
+   "cmc": 2.0,
+   "mana_cost": "{1}{G}",
+   "oracle_text": "Each land and Ally you control has \"{T}: Add one mana of any color.\"",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "181",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Hardened Scales",
+   "oracle_id": "a1f3da21-af6d-450e-bf0b-985d158418e6",
+   "type": "Enchantment",
+   "cmc": 1.0,
+   "mana_cost": "{G}",
+   "oracle_text": "If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "FIC",
+     "number": "307",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Hardlight Containment",
+   "oracle_id": "8054092a-1940-4f4b-991d-81f4d384cdb1",
+   "type": "Enchantment — Aura",
+   "cmc": 1.0,
+   "mana_cost": "{W}",
+   "oracle_text": "Enchant artifact you control\nWhen this Aura enters, exile target creature an opponent controls until this Aura leaves the battlefield.\nEnchanted permanent has ward {1}.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "EOE",
+     "number": "20",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Harrow",
+   "oracle_id": "705509e9-a034-4a5a-9c65-66f58748b8a2",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{2}{G}",
+   "oracle_text": "As an additional cost to cast this spell, sacrifice a land.\nSearch your library for up to two basic land cards, put them onto the battlefield, then shuffle.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "98",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Haru, Hidden Talent",
+   "oracle_id": "7488ce54-37c6-475c-b327-59f52f2b1424",
+   "type": "Legendary Creature — Human Peasant Ally",
+   "cmc": 2.0,
+   "mana_cost": "{1}{G}",
+   "oracle_text": "Whenever another Ally you control enters, earthbend 1. (Target land you control becomes a 0/0 creature with haste that's still a land. Put a +1/+1 counter on it. When it dies or is exiled, return it to the battlefield tapped.)",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "182",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Haystack",
+   "oracle_id": "d64d69bd-1815-4647-90bc-767fad5c7da7",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{1}{W}",
+   "oracle_text": "{2}, {T}: Target creature you control phases out. (Treat it and anything attached to it as though they don't exist until your next turn.)",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "5",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Haytham Kenway",
+   "oracle_id": "ee6a9bac-cf5b-4edd-8cb2-874d8dd0e62a",
+   "type": "Legendary Creature — Human Knight",
+   "cmc": 4.0,
+   "mana_cost": "{2}{W}{U}",
+   "oracle_text": "Protection from Assassins\nOther Knights you control get +2/+2 and have protection from Assassins.\nWhen Haytham Kenway enters, for each opponent, exile up to one target creature that player controls until Haytham Kenway leaves the battlefield.",
+   "color_identity": [
+    "U",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "57",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Haywire Mite",
+   "oracle_id": "749d2994-44e7-40d3-8630-7bebed239e9e",
+   "type": "Artifact Creature — Insect",
+   "cmc": 1.0,
+   "mana_cost": "{1}",
+   "oracle_text": "When this creature dies, you gain 2 life.\n{G}, Sacrifice this creature: Exile target noncreature artifact or noncreature enchantment.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "BRO",
+     "number": "199",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Heaped Harvest",
+   "oracle_id": "bbfc5011-a9b7-442d-a443-974a5a64de46",
+   "type": "Artifact — Food",
+   "cmc": 3.0,
+   "mana_cost": "{2}{G}",
+   "oracle_text": "When this artifact enters and when you sacrifice it, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\n{2}, {T}, Sacrifice this artifact: You gain 3 life.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "BLB",
+     "number": "175",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Heartless Act",
+   "oracle_id": "3641d572-8335-4804-88ad-edf4dc67a8e4",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{B}",
+   "oracle_text": "Choose one —\n• Destroy target creature with no counters on it.\n• Remove up to three counters from target creature.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "103",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Helm of the Host",
+   "oracle_id": "83b43aba-bf9c-4da2-967d-9daa632e97d2",
+   "type": "Legendary Artifact — Equipment",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "At the beginning of combat on your turn, create a token that's a copy of equipped creature, except the token isn't legendary. That token gains haste.\nEquip {5}",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "BLC",
+     "number": "276",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Hero's Downfall",
+   "oracle_id": "03df6a57-37c9-46d3-83b3-4a6240100714",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{1}{B}{B}",
+   "oracle_text": "Destroy target creature or planeswalker.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "THS",
+     "number": "90",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Hinterland Harbor",
+   "oracle_id": "fb5a3403-7f0b-406c-8c4f-d693be010ca6",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control a Forest or an Island.\n{T}: Add {G} or {U}.",
+   "color_identity": [
+    "G",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "DSC",
+     "number": "284",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Hunter's Bow",
+   "oracle_id": "810592fe-65f5-4c95-9d75-d6806e004903",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "mana_cost": "{1}{G}",
+   "oracle_text": "When this Equipment enters, attach it to target creature you control. That creature deals damage equal to its power to up to one target creature you don't control.\nEquipped creature has reach and ward {2}.\nEquip {1}",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "41",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Ichor Wellspring",
+   "oracle_id": "5b5ef43b-13fd-4461-8d2d-18be65e9a790",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "When this artifact enters or is put into a graveyard from the battlefield, draw a card.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "C21",
+     "number": "245",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Imprisoned in the Moon",
+   "oracle_id": "339a7418-9a29-4eae-a3c2-ea590d175936",
+   "type": "Enchantment — Aura",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "Enchant creature, land, or planeswalker\nEnchanted permanent is a colorless land with \"{T}: Add {C}\" and loses all other card types and abilities.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "INR",
+     "number": "69",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Infernal Grasp",
+   "oracle_id": "94f0a572-e91c-4b56-a5d1-6cbbeabd210d",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{B}",
+   "oracle_text": "Destroy target creature. You lose 2 life.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "SOC",
+     "number": "216",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Inscription of Abundance",
+   "oracle_id": "a5e28749-18ea-4a2b-b7d9-905cf2913d4e",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{G}",
+   "oracle_text": "Kicker {2}{G}\nChoose one. If this spell was kicked, choose any number instead.\n• Put two +1/+1 counters on target creature.\n• Target player gains X life, where X is the greatest power among creatures they control.\n• Target creature you control fights target creature you don't control.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "DSC",
+     "number": "186",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Intruder Alarm",
+   "oracle_id": "1e943e04-e213-4781-b1a7-935aad8790e1",
+   "type": "Enchantment",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "Creatures don't untap during their controllers' untap steps.\nWhenever a creature enters, untap all creatures.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "TLE",
+     "number": "15",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Island",
+   "oracle_id": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+   "type": "Basic Land — Island",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "({T}: Add {U}.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": true,
+   "copies": 9,
+   "by_language": {
+    "en": 9
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 2,
+    "fire-lord-azula": 7
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "103",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "ACR",
+     "number": "103",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 4,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "ACR",
+     "number": "104",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "ACR",
+     "number": "104",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Isolated Chapel",
+   "oracle_id": "7e5d9efe-48a9-434b-bb09-056e0e09cc9a",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control a Plains or a Swamp.\n{T}: Add {W} or {B}.",
+   "color_identity": [
+    "B",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "74",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Izzet Signet",
+   "oracle_id": "2fda4fe7-8b0c-489c-a000-6d358e614e34",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{1}, {T}: Add {U}{R}.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "58",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Jacob Frye",
+   "oracle_id": "31af65c3-602b-4ac9-a25f-dccb88f8f751",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 3.0,
+   "mana_cost": "{2}{B}",
+   "oracle_text": "Partner with Evie Frye (When this creature enters, target player may put Evie into their hand from their library, then shuffle.)\nWhenever one or more Assassins you control deal combat damage to a player, exile up to one target Assassin card or card with freerunning from your graveyard. If you do, copy it. You may cast the copy.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "132",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Kaya, Ghost Assassin",
+   "oracle_id": "5e4c81b9-a31e-45e6-983f-30f11b8a05c0",
+   "type": "Legendary Planeswalker — Kaya",
+   "cmc": 4.0,
+   "mana_cost": "{2}{W}{B}",
+   "oracle_text": "0: Exile Kaya or up to one target creature. Return that card to the battlefield under its owner's control at the beginning of your next upkeep. You lose 2 life.\n−1: Each opponent loses 2 life and you gain 2 life.\n−2: Each opponent discards a card and you draw a card.",
+   "color_identity": [
+    "B",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "SLD",
+     "number": "247",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Kolaghan's Command",
+   "oracle_id": "45f1e957-09f0-4d46-8e32-238f26060a87",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{1}{B}{R}",
+   "oracle_text": "Choose two —\n• Return target creature card from your graveyard to your hand.\n• Target player discards a card.\n• Destroy target artifact.\n• Kolaghan's Command deals 2 damage to any target.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "M3C",
+     "number": "268",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Lightning Strike",
+   "oracle_id": "f34b9bc4-7bfe-47fd-ba23-4eeeb46026eb",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Lightning Strike deals 3 damage to any target.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "146",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Liquimetal Coating",
+   "oracle_id": "f4bdc551-c2eb-4a34-a3e3-b4a017c925af",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{T}: Target permanent becomes an artifact in addition to its other types until end of turn.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "BRR",
+     "number": "28",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Lithoform Engine",
+   "oracle_id": "0bf299da-1854-4153-baea-3cee2eb01ee8",
+   "type": "Legendary Artifact",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "{2}, {T}: Copy target activated or triggered ability you control. You may choose new targets for the copy.\n{3}, {T}: Copy target instant or sorcery spell you control. You may choose new targets for the copy.\n{4}, {T}: Copy target permanent spell you control. (The copy becomes a token.)",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ZNR",
+     "number": "245",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Lo and Li, Twin Tutors",
+   "oracle_id": "ad643992-eb9f-4a4a-9b74-a5aee2337f30",
+   "type": "Legendary Creature — Human Advisor",
+   "cmc": 5.0,
+   "mana_cost": "{4}{B}",
+   "oracle_text": "When Lo and Li enter, search your library for a Lesson or Noble card, reveal it, put it into your hand, then shuffle.\nNoble creatures you control and Lesson spells you control have lifelink.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "108",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Lotus Cobra",
+   "oracle_id": "8ad91f64-ccab-4edc-bd54-b2ee9267d614",
+   "type": "Creature — Snake",
+   "cmc": 2.0,
+   "mana_cost": "{1}{G}",
+   "oracle_text": "Landfall — Whenever a land you control enters, add one mana of any color.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "BLC",
+     "number": "229",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Loyal Inventor",
+   "oracle_id": "eff22b28-88b8-4251-937f-4c06b6ca7bd2",
+   "type": "Creature — Human Artificer",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "Vigilance\nWhen this creature enters, you may search your library for an artifact card, reveal it, then shuffle. Put that card into your hand if you control an Assassin. Otherwise, put that card on top of your library.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "fire-lord-azula": 1,
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "21",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "ACR",
+     "number": "21",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Lydia Frye",
+   "oracle_id": "0315f5e7-2867-428e-8e43-66dda0db57a0",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U/B}",
+   "oracle_text": "Lydia Frye can't be blocked by creatures with power 3 or greater.\nAt the beginning of your end step, surveil X, where X is the number of tapped Assassins you control. (Look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "60",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Magister Sphinx",
+   "oracle_id": "1d86ae29-4705-4bbc-8922-9b4e031df5b1",
+   "type": "Artifact Creature — Sphinx",
+   "cmc": 7.0,
+   "mana_cost": "{4}{W}{U}{B}",
+   "oracle_text": "Flying\nWhen this creature enters, target player's life total becomes 10.",
+   "color_identity": [
+    "B",
+    "U",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "2X2",
+     "number": "247",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Mana Leak",
+   "oracle_id": "c61fe162-2202-4e56-9ba0-393547f9875f",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{U}",
+   "oracle_text": "Counter target spell unless its controller pays {3}.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "8ED",
+     "number": "89",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "8ED",
+     "number": "89",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Mind Stone",
+   "oracle_id": "c97361b5-af16-4a7b-af85-a429dbaf4ad2",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{T}: Add {C}.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "BLC",
+     "number": "280",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Mishra's Bauble",
+   "oracle_id": "63afc3d1-7653-476e-838f-fc18d4a62a21",
+   "type": "Artifact",
+   "cmc": 0.0,
+   "mana_cost": "{0}",
+   "oracle_text": "{T}, Sacrifice this artifact: Look at the top card of target player's library. Draw a card at the beginning of the next turn's upkeep.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "2XM",
+     "number": "274",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Mortify",
+   "oracle_id": "faa01ed1-ccfa-4e58-951f-cd81f9068027",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{1}{W}{B}",
+   "oracle_text": "Destroy target creature or enchantment.",
+   "color_identity": [
+    "B",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "96",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Mountain",
+   "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+   "type": "Basic Land — Mountain",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "({T}: Add {R}.)",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": true,
+   "copies": 11,
+   "by_language": {
+    "en": 11
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 5,
+    "fire-lord-azula": 5,
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "107",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 3,
+     "deck": "toph-the-first-metalbender"
+    },
+    {
+     "set": "ACR",
+     "number": "108",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "EOE",
+     "number": "265",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "TLA",
+     "number": "290",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "TLA",
+     "number": "290",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    },
+    {
+     "set": "TLA",
+     "number": "290",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "TLA",
+     "number": "290",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Murder",
+   "oracle_id": "938b4e2c-88d9-4637-bc00-e228920c9a78",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{1}{B}{B}",
+   "oracle_text": "Destroy target creature.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "92",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Mystical Teachings",
+   "oracle_id": "81d72511-88b4-45ec-a5a9-e722caf55577",
+   "type": "Instant",
+   "cmc": 4.0,
+   "mana_cost": "{3}{U}",
+   "oracle_text": "Search your library for an instant card or a card with flash, reveal it, put it into your hand, then shuffle.\nFlashback {5}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "fire-lord-azula": 1,
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "FDN",
+     "number": "594",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "MM3",
+     "number": "44",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Narset's Reversal",
+   "oracle_id": "d55f6c70-321f-4fb4-bd33-0850ae1a7c36",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{U}{U}",
+   "oracle_text": "Copy target instant or sorcery spell, then return it to its owner's hand. You may choose new targets for the copy.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "WAR",
+     "number": "62",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Negate",
+   "oracle_id": "3407fe41-fdd3-4119-8f70-4bc4590a379f",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{U}",
+   "oracle_text": "Counter target noncreature spell.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "OGW",
+     "number": "59",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Nekrataal",
+   "oracle_id": "d40adf5d-5edf-48a0-98f3-fcdbf1b5f25c",
+   "type": "Creature — Human Assassin",
+   "cmc": 4.0,
+   "mana_cost": "{2}{B}{B}",
+   "oracle_text": "First strike\nWhen this creature enters, destroy target nonartifact, nonblack creature. That creature can't be regenerated.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "WC98",
+     "number": "bs66",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Nightscape Familiar",
+   "oracle_id": "57296ea3-3c0d-49b7-bc08-0d0d8414e9ad",
+   "type": "Creature — Zombie",
+   "cmc": 2.0,
+   "mana_cost": "{1}{B}",
+   "oracle_text": "Blue spells and red spells you cast cost {1} less to cast.\n{1}{B}: Regenerate this creature.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "DMR",
+     "number": "94",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Nutrient Block",
+   "oracle_id": "04a0382f-7e4e-4450-ae70-18999379d875",
+   "type": "Artifact — Food",
+   "cmc": 1.0,
+   "mana_cost": "{1}",
+   "oracle_text": "Indestructible (Effects that say \"destroy\" don't destroy this artifact.)\n{2}, {T}, Sacrifice this artifact: You gain 3 life.\nWhen this artifact is put into a graveyard from the battlefield, draw a card.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "EOE",
+     "number": "243",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Octopus Form",
+   "oracle_id": "6fec368d-374d-4318-861b-ff478ba51a3c",
+   "type": "Instant — Lesson",
+   "cmc": 1.0,
+   "mana_cost": "{U}",
+   "oracle_text": "Target creature you control gets +1/+1 and gains hexproof until end of turn. Untap it. (It can't be the target of spells or abilities your opponents control.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "66",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Opt",
+   "oracle_id": "713332c1-5bd8-400f-bfff-c1ca0697a043",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{U}",
+   "oracle_text": "Scry 1. (Look at the top card of your library. You may put that card on the bottom.)\nDraw a card.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "FDN",
+     "number": "512",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Origin of Metalbending",
+   "oracle_id": "177113f8-1188-4e5e-8ad7-34a7bb8ca7f1",
+   "type": "Instant — Lesson",
+   "cmc": 2.0,
+   "mana_cost": "{1}{G}",
+   "oracle_text": "Choose one —\n• Destroy target artifact or enchantment.\n• Put a +1/+1 counter on target creature you control. It gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "187",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Ozai, the Phoenix King",
+   "oracle_id": "7472af8e-2e93-43b2-bc32-a3741f6d7502",
+   "type": "Legendary Creature — Human Noble",
+   "cmc": 6.0,
+   "mana_cost": "{2}{B}{B}{R}{R}",
+   "oracle_text": "Trample, firebending 4, haste\nIf you would lose unspent mana, that mana becomes red instead.\nOzai has flying and indestructible as long as you have six or more unspent mana.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "235",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Path to Exile",
+   "oracle_id": "d683d985-9888-4d21-8b5f-69e69ce4a03b",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{W}",
+   "oracle_text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "30",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Plains",
+   "oracle_id": "bc71ebf6-2056-41f7-be35-b2e5c34afa99",
+   "type": "Basic Land — Plains",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "({T}: Add {W}.)",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": true,
+   "copies": 6,
+   "by_language": {
+    "en": 6
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 5,
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "101",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 3,
+     "deck": "toph-the-first-metalbender"
+    },
+    {
+     "set": "ACR",
+     "number": "102",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "TLA",
+     "number": "287",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Planar Outburst",
+   "oracle_id": "ff0d05b9-0c9c-4217-abd2-7e7757a0c4c9",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "mana_cost": "{3}{W}{W}",
+   "oracle_text": "Destroy all nonland creatures.\nAwaken 4—{5}{W}{W}{W} (If you cast this spell for {5}{W}{W}{W}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "NCC",
+     "number": "209",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Ponder",
+   "oracle_id": "02090581-61aa-4348-ad57-451be8ee91c2",
+   "type": "Sorcery",
+   "cmc": 1.0,
+   "mana_cost": "{U}",
+   "oracle_text": "Look at the top three cards of your library, then put them back in any order. You may shuffle.\nDraw a card.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TDC",
+     "number": "159",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Prairie Stream",
+   "oracle_id": "5330e24a-8568-446e-840a-594cd08bd1bc",
+   "type": "Land — Plains Island",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "({T}: Add {W} or {U}.)\nThis land enters tapped unless you control two or more basic lands.",
+   "color_identity": [
+    "U",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "M3C",
+     "number": "365",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Queen Marchesa",
+   "oracle_id": "d7ac4be1-dcca-49b6-8ddb-d1b0e6cf2dcf",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 4.0,
+   "mana_cost": "{1}{R}{W}{B}",
+   "oracle_text": "Deathtouch, haste\nWhen Queen Marchesa enters, you become the monarch.\nAt the beginning of your upkeep, if an opponent is the monarch, create a 1/1 black Assassin creature token with deathtouch and haste.",
+   "color_identity": [
+    "B",
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "OTC",
+     "number": "239",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Ragost, Deft Gastronaut",
+   "oracle_id": "76f5445a-5193-4794-8593-b44f961334b6",
+   "type": "Legendary Creature — Lobster Citizen",
+   "cmc": 2.0,
+   "mana_cost": "{R}{W}",
+   "oracle_text": "Artifacts you control are Foods in addition to their other types and have \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\"\n{1}, {T}, Sacrifice a Food: Ragost deals 3 damage to each opponent.\nAt the beginning of each end step, if you gained life this turn, untap Ragost.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "EOE",
+     "number": "224",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Rakdos Signet",
+   "oracle_id": "3adb7681-977f-4a32-9ec8-51481b958268",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{1}, {T}: Add {B}{R}.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "60",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Rampant Growth",
+   "oracle_id": "8539f295-5d58-4436-a73a-b9277c4c7795",
+   "type": "Sorcery",
+   "cmc": 2.0,
+   "mana_cost": "{1}{G}",
+   "oracle_text": "Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TDC",
+     "number": "265",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "TDC",
+     "number": "265",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Ravenloft Adventurer",
+   "oracle_id": "1822f924-51ba-4f81-92cc-6c5d741a33f9",
+   "type": "Creature — Human Rogue Assassin",
+   "cmc": 4.0,
+   "mana_cost": "{3}{B}",
+   "oracle_text": "When this creature enters, you take the initiative.\nIf a creature an opponent controls would die, instead exile it and put a hit counter on it.\nWhenever this creature attacks, if you've completed a dungeon, defending player loses 1 life for each card they own in exile with a hit counter on it.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "CLB",
+     "number": "142",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Reckless Handling",
+   "oracle_id": "f1ea7dc5-01cb-4780-947c-08ea9324c52f",
+   "type": "Sorcery",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Search your library for an artifact card, reveal it, put it into your hand, shuffle, then discard a card at random. If an artifact card was discarded this way, Reckless Handling deals 2 damage to each opponent.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 3,
+   "by_language": {
+    "en": 3
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "MAT",
+     "number": "19",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "MAT",
+     "number": "19",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "MAT",
+     "number": "19",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Redirect Lightning",
+   "oracle_id": "c62b5c22-e058-436f-9575-a01cb2112829",
+   "type": "Instant — Lesson",
+   "cmc": 1.0,
+   "mana_cost": "{R}",
+   "oracle_text": "As an additional cost to cast this spell, pay 5 life or pay {2}.\nChange the target of target spell or ability with a single target.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1,
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "343",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    },
+    {
+     "set": "TLA",
+     "number": "343",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Restart Sequence",
+   "oracle_id": "c415bfdd-3d42-4f94-9f93-7e310becbc8b",
+   "type": "Sorcery",
+   "cmc": 4.0,
+   "mana_cost": "{3}{B}",
+   "oracle_text": "Freerunning {1}{B} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nReturn target creature card from your graveyard to the battlefield.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "30",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Return the Favor",
+   "oracle_id": "30377bd5-99ab-4888-9ea7-e5a069b527e8",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{R}{R}",
+   "oracle_text": "Spree (Choose one or more additional costs.)\n+ {1} — Copy target instant spell, sorcery spell, activated ability, or triggered ability. You may choose new targets for the copy.\n+ {1} — Change the target of target spell or ability with a single target.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "SOA",
+     "number": "47",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Ritual of Soot",
+   "oracle_id": "29e9cf1c-a6bd-4bee-9000-ac1b4e19d6b0",
+   "type": "Sorcery",
+   "cmc": 4.0,
+   "mana_cost": "{2}{B}{B}",
+   "oracle_text": "Destroy all creatures with mana value 3 or less.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "GRN",
+     "number": "84",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Rocky Rebuke",
+   "oracle_id": "fd85db70-8616-42df-9dac-bad7923f88d7",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{G}",
+   "oracle_text": "Target creature you control deals damage equal to its power to target creature an opponent controls.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "193",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Rogue's Passage",
+   "oracle_id": "f29dc596-2121-4421-8463-15f6c2e8b9b3",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{4}, {T}: Target creature can't be blocked this turn.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1,
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "CMM",
+     "number": "426",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    },
+    {
+     "set": "SOC",
+     "number": "400",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Rootbound Crag",
+   "oracle_id": "9516c4c1-d72d-434f-97e1-6a862434a169",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control a Mountain or a Forest.\n{T}: Add {R} or {G}.",
+   "color_identity": [
+    "G",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "FIC",
+     "number": "416",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Roshan, Hidden Magister",
+   "oracle_id": "f60b21c1-d192-4a02-9b1f-a08e9e08a84a",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 4.0,
+   "mana_cost": "{3}{B}",
+   "oracle_text": "Other creatures you control are Assassins in addition to their other types. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.\nFace-down creatures you control have menace.\nWhenever a permanent you control is turned face up, you draw a card and you lose 1 life.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "32",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Royal Assassin",
+   "oracle_id": "9ed6f28f-a3db-48c5-9ab0-b90a7fba5f57",
+   "type": "Creature — Human Assassin",
+   "cmc": 3.0,
+   "mana_cost": "{1}{B}{B}",
+   "oracle_text": "{T}: Destroy target tapped creature.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "306",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Rugged Prairie",
+   "oracle_id": "8e7641e1-e814-4d5a-9cb3-71ad2f4ceee8",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{R/W}, {T}: Add {R}{R}, {R}{W}, or {W}{W}.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "FIC",
+     "number": "417",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Rumble Arena",
+   "oracle_id": "83f2470e-2114-4cd9-ab1a-21b76e9cdf63",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "Vigilance\nWhen this land enters, scry 1. (Look at the top card of your library. You may put it on the bottom.)\n{T}: Add {C}.\n{1}, {T}: Add one mana of any color.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "277",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "TLA",
+     "number": "277",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Sabotender",
+   "oracle_id": "65385311-1158-4e94-892a-683997706ca8",
+   "type": "Creature — Plant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Reach\nLandfall — Whenever a land you control enters, this creature deals 1 damage to each opponent.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "FIN",
+     "number": "153",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Sakura-Tribe Elder",
+   "oracle_id": "e3afc704-220f-498f-9eaa-0821b17dc24c",
+   "type": "Creature — Snake Shaman",
+   "cmc": 2.0,
+   "mana_cost": "{1}{G}",
+   "oracle_text": "Sacrifice this creature: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TDC",
+     "number": "266",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Secret Tunnel",
+   "oracle_id": "632e2979-d88a-482e-9bb8-57b683c5310f",
+   "type": "Land — Cave",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land can't be blocked.\n{T}: Add {C}.\n{4}, {T}: Two target creatures you control that share a creature type can't be blocked this turn.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "278",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Seismic Sense",
+   "oracle_id": "9d586c74-b1dd-4fcb-a24a-c703d250fa63",
+   "type": "Sorcery — Lesson",
+   "cmc": 1.0,
+   "mana_cost": "{G}",
+   "oracle_text": "Look at the top X cards of your library, where X is the number of lands you control. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "195",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "TLA",
+     "number": "195",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Selesnya Signet",
+   "oracle_id": "1436dd81-496e-42a5-b210-fb5b9cdf073f",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{1}, {T}: Add {G}{W}.",
+   "color_identity": [
+    "G",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TDC",
+     "number": "324",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Shadowblood Ridge",
+   "oracle_id": "15687ee3-3cdb-4a8f-a726-46b73bceb792",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{1}, {T}: Add {B}{R}.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "DSC",
+     "number": "296",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Shared Roots",
+   "oracle_id": "9e0fd3bf-f47a-4f06-8ff1-73f6bf5d1e03",
+   "type": "Sorcery — Lesson",
+   "cmc": 2.0,
+   "mana_cost": "{1}{G}",
+   "oracle_text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "196",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Shivan Reef",
+   "oracle_id": "0fe16212-66c3-4e45-a641-7391e9b2e304",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {R}. This land deals 1 damage to you.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "83",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Smoldering Marsh",
+   "oracle_id": "390f1b56-264e-4336-83be-dc1fe79bfdcf",
+   "type": "Land — Swamp Mountain",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "({T}: Add {B} or {R}.)\nThis land enters tapped unless you control two or more basic lands.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "LTC",
+     "number": "332",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Snap",
+   "oracle_id": "ac914d98-221e-426c-8a50-342896b15f9e",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{U}",
+   "oracle_text": "Return target creature to its owner's hand. Untap up to two lands.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "WOC",
+     "number": "110",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Sol Ring",
+   "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "mana_cost": "{1}",
+   "oracle_text": "{T}: Add {C}{C}.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 3,
+   "by_language": {
+    "en": 3
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1,
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "21",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    },
+    {
+     "set": "OTC",
+     "number": "267",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "TLE",
+     "number": "316",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Solve the Equation",
+   "oracle_id": "f02682f0-26c0-4032-9df3-273b6a45d0a8",
+   "type": "Sorcery",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "Search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "STX",
+     "number": "54",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Soul-Guide Lantern",
+   "oracle_id": "1b5e6560-ff2e-4475-96cb-63f64c8a86db",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "mana_cost": "{1}",
+   "oracle_text": "When this artifact enters, exile target card from a graveyard.\n{T}, Sacrifice this artifact: Exile each opponent's graveyard.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "DRC",
+     "number": "139",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Springheart Nantuko",
+   "oracle_id": "8a3ad2ef-8bcb-40c0-85de-f03328c2b644",
+   "type": "Enchantment Creature — Insect Monk",
+   "cmc": 2.0,
+   "mana_cost": "{1}{G}",
+   "oracle_text": "Bestow {1}{G}\nEnchanted creature gets +1/+1.\nLandfall — Whenever a land you control enters, you may pay {1}{G} if this permanent is attached to a creature you control. If you do, create a token that's a copy of that creature. If you didn't create a token this way, create a 1/1 green Insect creature token.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "MH3",
+     "number": "341",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Starfall Invocation",
+   "oracle_id": "7024532b-f99b-43a7-b0ed-5b3e7ec7592b",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "mana_cost": "{3}{W}{W}",
+   "oracle_text": "Gift a card (You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects.)\nDestroy all creatures. If the gift was promised, return a creature card put into your graveyard this way to the battlefield under your control.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "BLB",
+     "number": "34",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Storm-Kiln Artist",
+   "oracle_id": "a145ff8c-5812-4bcb-bd16-9839dc25121d",
+   "type": "Creature — Dwarf Shaman",
+   "cmc": 4.0,
+   "mana_cost": "{3}{R}",
+   "oracle_text": "This creature gets +1/+0 for each artifact you control.\nMagecraft — Whenever you cast or copy an instant or sorcery spell, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "SOC",
+     "number": "255",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Stormcatch Mentor",
+   "oracle_id": "b2252471-01ca-4d58-aa99-4ab0aa5eae12",
+   "type": "Creature — Otter Wizard",
+   "cmc": 2.0,
+   "mana_cost": "{U}{R}",
+   "oracle_text": "Haste\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nInstant and sorcery spells you cast cost {1} less to cast.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "SOC",
+     "number": "331",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Strionic Resonator",
+   "oracle_id": "cf751552-156f-4f81-ac94-9814dce099f9",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{2}, {T}: Copy target triggered ability you control. You may choose new targets for the copy. (A triggered ability uses the words \"when,\" \"whenever,\" or \"at.\")",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "MOC",
+     "number": "384",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Stroke of Midnight",
+   "oracle_id": "9a107e48-3d50-4941-95b1-10f2b29a4245",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{2}{W}",
+   "oracle_text": "Destroy target nonland permanent. Its controller creates a 1/1 white Human creature token.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "35",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "FRC",
+     "number": "35",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Sulfur Falls",
+   "oracle_id": "6a6c5e17-6465-4a1f-9d63-8a3ce2edc522",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control an Island or a Mountain.\n{T}: Add {U} or {R}.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "84",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "FRC",
+     "number": "84",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Sulfurous Springs",
+   "oracle_id": "f5c38c01-4a40-469f-91a0-7479daf4e8e7",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. This land deals 1 damage to you.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "85",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Sunken Hollow",
+   "oracle_id": "cd2c90ac-2b04-461c-92f3-939871b6b6a3",
+   "type": "Land — Island Swamp",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "({T}: Add {U} or {B}.)\nThis land enters tapped unless you control two or more basic lands.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TMC",
+     "number": "76",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "TMC",
+     "number": "76",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Sunken Ruins",
+   "oracle_id": "e6415ffb-8b7a-41c3-bedf-0d4112b7b795",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{U/B}, {T}: Add {U}{U}, {U}{B}, or {B}{B}.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "86",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Sunpetal Grove",
+   "oracle_id": "402ec768-76fb-474e-ae74-babc90d833c4",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control a Forest or a Plains.\n{T}: Add {G} or {W}.",
+   "color_identity": [
+    "G",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "FIC",
+     "number": "432",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Survivors' Encampment",
+   "oracle_id": "152e7e91-4eda-4e72-a9fb-bd5cb2e68239",
+   "type": "Land — Desert",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}, Tap an untapped creature you control: Add one mana of any color.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "HOU",
+     "number": "184",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Swamp",
+   "oracle_id": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
+   "type": "Basic Land — Swamp",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "({T}: Add {B}.)",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": true,
+   "copies": 13,
+   "by_language": {
+    "en": 13
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 8,
+    "fire-lord-azula": 5
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "105",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 4,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "ACR",
+     "number": "105",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "ACR",
+     "number": "106",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "ACR",
+     "number": "106",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 4,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "TLA",
+     "number": "289",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "TLA",
+     "number": "289",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Swiftfoot Boots",
+   "oracle_id": "c8b143ad-43ec-4e0d-a440-e348daa31391",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "Equipped creature has hexproof and haste. (It can't be the target of spells or abilities your opponents control. It can attack and {T} no matter when it came under your control.)\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TDC",
+     "number": "328",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "TLE",
+     "number": "317",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Swords to Plowshares",
+   "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{W}",
+   "oracle_text": "Exile target creature. Its controller gains life equal to its power.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "37",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Talisman of Impulse",
+   "oracle_id": "f2ccc9e8-8e92-4f8c-8728-8c748630e0dd",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {R} or {G}. This artifact deals 1 damage to you.",
+   "color_identity": [
+    "G",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TDC",
+     "number": "332",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Tannuk, Memorial Ensign",
+   "oracle_id": "76cb1912-3791-44b8-b594-b92dab21bafc",
+   "type": "Legendary Creature — Kavu Pilot",
+   "cmc": 3.0,
+   "mana_cost": "{1}{R}{G}",
+   "oracle_text": "Landfall — Whenever a land you control enters, Tannuk deals 1 damage to each opponent. If this is the second time this ability has resolved this turn, draw a card.",
+   "color_identity": [
+    "G",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "EOE",
+     "number": "233",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Terminate",
+   "oracle_id": "6257c2fd-005f-41e3-8a72-af76df1eb134",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{B}{R}",
+   "oracle_text": "Destroy target creature. It can't be regenerated.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "98",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "ACR",
+     "number": "98",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Terrasymbiosis",
+   "oracle_id": "4ac94586-3ac7-4ade-af31-ad0d0e3ffc4a",
+   "type": "Enchantment",
+   "cmc": 3.0,
+   "mana_cost": "{2}{G}",
+   "oracle_text": "Whenever you put one or more +1/+1 counters on a creature you control, you may draw that many cards. Do this only once each turn.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "EOE",
+     "number": "210",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "The Last Agni Kai",
+   "oracle_id": "fd1998c0-c18e-4310-82de-b6320be5fe10",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Target creature you control fights target creature an opponent controls. If the creature the opponent controls is dealt excess damage this way, add that much {R}.\nUntil end of turn, you don't lose unspent red mana as steps and phases end.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "144",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "The Revelations of Ezio",
+   "oracle_id": "c7fe1f05-f412-4991-98bd-f6a4b8b62501",
+   "type": "Enchantment — Saga",
+   "cmc": 3.0,
+   "mana_cost": "{2}{B}",
+   "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Destroy target tapped creature an opponent controls.\nII — Whenever an Assassin you control attacks this turn, put a +1/+1 counter on it.\nIII — Return target Assassin creature card from your graveyard to the battlefield with an additional +1/+1 counter on it.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "31",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "The Stasis Coffin",
+   "oracle_id": "a46bfaf5-e631-4603-850a-f0074395b2f5",
+   "type": "Legendary Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "{2}, {T}, Exile The Stasis Coffin: You gain protection from everything until your next turn.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "BRO",
+     "number": "245",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Theater of Horrors",
+   "oracle_id": "b391a4ce-52ce-4a8c-bbe5-6053951ee1d4",
+   "type": "Enchantment",
+   "cmc": 3.0,
+   "mana_cost": "{1}{B}{R}",
+   "oracle_text": "At the beginning of your upkeep, exile the top card of your library.\nDuring your turn, if an opponent lost life this turn, you may play lands and cast spells from among cards exiled with this enchantment.\n{3}{R}: This enchantment deals 1 damage to target opponent or planeswalker.",
+   "color_identity": [
+    "B",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "DSC",
+     "number": "236",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Thorn of the Black Rose",
+   "oracle_id": "a7894a81-8c0a-4015-8bc1-2698cf5306d1",
+   "type": "Creature — Human Assassin",
+   "cmc": 4.0,
+   "mana_cost": "{3}{B}",
+   "oracle_text": "Deathtouch\nWhen this creature enters, you become the monarch.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "CMM",
+     "number": "190",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Tireless Provisioner",
+   "oracle_id": "ab8d5f5c-1976-4f77-8ed2-8d28ee666741",
+   "type": "Creature — Elf Scout",
+   "cmc": 3.0,
+   "mana_cost": "{2}{G}",
+   "oracle_text": "Landfall — Whenever a land you control enters, create a Food token or a Treasure token. (Food is an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\" Treasure is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "BLC",
+     "number": "243",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Tireless Tracker",
+   "oracle_id": "e6555cca-e608-4c87-b835-9cd47fd1f543",
+   "type": "Creature — Human Scout",
+   "cmc": 3.0,
+   "mana_cost": "{2}{G}",
+   "oracle_text": "Landfall — Whenever a land you control enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nWhenever you sacrifice a Clue, put a +1/+1 counter on this creature.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "110",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Tome of Legends",
+   "oracle_id": "cada2a1c-5db2-4702-9a57-cbe7da1bf208",
+   "type": "Artifact — Book",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "This artifact enters with a page counter on it.\nWhenever your commander enters or attacks, put a page counter on this artifact.\n{1}, {T}, Remove a page counter from this artifact: Draw a card.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "MKC",
+     "number": "246",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Toph, Hardheaded Teacher",
+   "oracle_id": "8c1c0117-6fc0-43c5-a4c8-6472de6503d9",
+   "type": "Legendary Creature — Human Warrior Ally",
+   "cmc": 4.0,
+   "mana_cost": "{2}{R}{G}",
+   "oracle_text": "When Toph enters, you may discard a card. If you do, return target instant or sorcery card from your graveyard to your hand.\nWhenever you cast a spell, earthbend 1. If that spell is a Lesson, put an additional +1/+1 counter on that land. (Target land you control becomes a 0/0 creature with haste that's still a land. Put a +1/+1 counter on it. When it dies or is exiled, return it to the battlefield tapped.)",
+   "color_identity": [
+    "G",
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "246",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Toph, the Blind Bandit",
+   "oracle_id": "2ce20f43-9357-448f-bb40-7315feb08433",
+   "type": "Legendary Creature — Human Warrior Ally",
+   "cmc": 3.0,
+   "mana_cost": "{2}{G}",
+   "oracle_text": "When Toph enters, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)\nToph's power is equal to the number of +1/+1 counters on lands you control.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "198",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Toph, the First Metalbender",
+   "oracle_id": "fbfef028-b10c-4ade-9503-d9af5b0c211b",
+   "type": "Legendary Creature — Human Warrior Ally",
+   "cmc": 4.0,
+   "mana_cost": "{1}{R}{G}{W}",
+   "oracle_text": "Nontoken artifacts you control are lands in addition to their other types. (They don't gain the ability to {T} for mana.)\nAt the beginning of your end step, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",
+   "color_identity": [
+    "G",
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "247",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Torrential Gearhulk",
+   "oracle_id": "a6395447-677d-4c39-8eda-2d57e527c94e",
+   "type": "Artifact Creature — Construct",
+   "cmc": 6.0,
+   "mana_cost": "{4}{U}{U}",
+   "oracle_text": "Flash\nWhen this creature enters, you may cast target instant card from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "CMM",
+     "number": "128",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "True Ancestry",
+   "oracle_id": "26c2dd96-07e7-4294-9431-96d5aeff3761",
+   "type": "Sorcery — Lesson",
+   "cmc": 2.0,
+   "mana_cost": "{1}{G}",
+   "oracle_text": "Return up to one target permanent card from your graveyard to your hand.\nCreate a Clue token. (It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "199",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Ultimate Price",
+   "oracle_id": "d740453b-d8f8-48d0-8c50-72a7cdb791b5",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{B}",
+   "oracle_text": "Destroy target monocolored creature.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "RVR",
+     "number": "95",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Underground River",
+   "oracle_id": "857febd9-cdd7-4f8e-a852-d88084b0cfbc",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. This land deals 1 damage to you.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "87",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Undying Malice",
+   "oracle_id": "8b061702-1bc3-45aa-a758-446b25034801",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{B}",
+   "oracle_text": "Until end of turn, target creature gains \"When this creature dies, return it to the battlefield tapped under its owner's control with a +1/+1 counter on it.\"",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "FDN",
+     "number": "528",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Utter End",
+   "oracle_id": "cba94732-1f1f-4ffd-9aba-45db990043fa",
+   "type": "Instant",
+   "cmc": 4.0,
+   "mana_cost": "{2}{W}{B}",
+   "oracle_text": "Exile target nonland permanent.",
+   "color_identity": [
+    "B",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "DSC",
+     "number": "91",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Valakut Exploration",
+   "oracle_id": "d6861319-ae16-4e6c-af87-a264f667d694",
+   "type": "Enchantment",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "Landfall — Whenever a land you control enters, exile the top card of your library. You may play that card for as long as it remains exiled.\nAt the beginning of your end step, if there are cards exiled with this enchantment, put them into their owner's graveyard, then this enchantment deals that much damage to each opponent.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "ZNR",
+     "number": "175",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Venser, Shaper Savant",
+   "oracle_id": "0f41cefc-d6ff-4db7-ba35-502b7e081de1",
+   "type": "Legendary Creature — Human Wizard",
+   "cmc": 4.0,
+   "mana_cost": "{2}{U}{U}",
+   "oracle_text": "Flash (You may cast this spell any time you could cast an instant.)\nWhen Venser enters, return target spell or permanent to its owner's hand.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "2X2",
+     "number": "66",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Wayfarer's Bauble",
+   "oracle_id": "31f15274-301b-47c5-ba19-0ced04520878",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "mana_cost": "{1}",
+   "oracle_text": "{2}, {T}, Sacrifice this artifact: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "TDC",
+     "number": "335",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "White Lotus Hideout",
+   "oracle_id": "2cdbfda3-98fc-4108-b551-c7049168924e",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a Lesson or Shrine spell.\n{1}, {T}: Add one mana of any color.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "281",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Winter Soldier, Icy Assassin",
+   "oracle_id": "6f4c94b6-f829-4646-a574-083997b78dfb",
+   "type": "Legendary Creature — Human Assassin Villain",
+   "cmc": 2.0,
+   "mana_cost": "{W}{B}",
+   "oracle_text": "Vigilance, menace\nWinter Soldier gets +2/+0 for each Equipment attached to him.\n{3}{W}{B}: Return this card from your graveyard to the battlefield with a finality counter on him. Then you may attach an Equipment you control to him. (If a creature with a finality counter on it would die, exile it instead.)",
+   "color_identity": [
+    "B",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "MSH",
+     "number": "239",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Woodland Cemetery",
+   "oracle_id": "c9fe1383-1331-4a58-a45a-3320250221a9",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control a Swamp or a Forest.\n{T}: Add {B} or {G}.",
+   "color_identity": [
+    "B",
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ECC",
+     "number": "176",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Wrenn and Realmbreaker",
+   "oracle_id": "4566fb92-448e-4b3f-9045-9d74323c35d1",
+   "type": "Legendary Planeswalker — Wrenn",
+   "cmc": 3.0,
+   "mana_cost": "{1}{G}{G}",
+   "oracle_text": "Lands you control have \"{T}: Add one mana of any color.\"\n+1: Up to one target land you control becomes a 3/3 Elemental creature with vigilance, hexproof, and haste until your next turn. It's still a land.\n−2: Mill three cards. You may put a permanent card from among the milled cards into your hand.\n−7: You get an emblem with \"You may play lands and cast permanent spells from your graveyard.\"",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "MOM",
+     "number": "217",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Zuran Orb",
+   "oracle_id": "08cb8a30-9cb4-4517-bee5-8848aa60d1a2",
+   "type": "Artifact",
+   "cmc": 0.0,
+   "mana_cost": "{0}",
+   "oracle_text": "Sacrifice a land: You gain 2 life.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "ICE",
+     "number": "350",
+     "finish": "normal",
+     "language": "en",
+     "condition": "poor",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  }
+ ]
+}

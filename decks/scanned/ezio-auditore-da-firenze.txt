@@ -1,7 +1,6 @@
 // Commander
 1 Ezio Auditore da Firenze (ACR) 25
 
-// Main
 1 Abstergo Entertainment (ACR) 79
 1 Adéwalé, Breaker of Chains (ACR) 136
 1 Arcane Signet (FIC) 335

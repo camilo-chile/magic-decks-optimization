@@ -1,7 +1,6 @@
 // Commander
 1 Fire Lord Azula (TLA) 220
 
-// Main
 1 Abrade (BLC) 191
 1 Aether Gale (SOC) 186
 1 Amphibian Downpour (MH3) 51 *F*
