@@ -1,0 +1,97 @@
+kind,quantity,name,set,number,finish,language,condition,binder,proxy,scryfall_id
+card,1,Abstergo Entertainment,ACR,79,normal,en,near_mint,English Cards,false,4d197866-7633-493c-80dd-ec3a09165934
+card,1,"Adéwalé, Breaker of Chains",ACR,136,normal,en,near_mint,English Cards,false,c2e0ee24-94fc-4042-b3cf-a5a8a2432ba4
+card,1,Arcane Signet,FIC,335,normal,en,near_mint,English Cards,false,4c861c4c-0520-46d9-b281-63a1188417dc
+card,1,Arno Dorian,ACR,139,normal,en,near_mint,English Cards,false,60a97041-4c09-46f2-b979-e4f63c676fb4
+card,1,Assassin Gauntlet,ACR,12,normal,es,near_mint,Spanish Cards,false,a9ebdd18-7f07-417c-8f30-470c1f14dfae
+card,1,Assassin's Trophy,ACR,95,foil,en,near_mint,English Cards,false,def90432-6d13-4d28-aa27-f75dd26456bb
+card,1,Bitter Triumph,TDC,173,normal,en,near_mint,English Cards,false,c5333556-eea2-41ae-833e-007b9d540700
+card,1,Brainstorm,TLE,155,foil,en,near_mint,English Cards,false,b5545882-6963-4729-b2c6-fb4bdc75ffcc
+card,1,Brotherhood Headquarters,ACR,80,normal,es,near_mint,Spanish Cards,false,535f43c4-8926-4981-967d-f681f98e07d9
+card,1,Chaos Warp,MBC,72,normal,en,near_mint,English Cards,false,fb8d8106-b9bd-405c-886e-72fc301c65e1
+card,1,Chromatic Lantern,FRC,54,normal,en,near_mint,English Cards,false,424c40b0-49d8-4a6f-a0ef-545738224ec9
+card,1,Clifftop Retreat,FRC,67,normal,es,near_mint,Spanish Cards,false,cd112d5c-102f-45a6-b26c-f80cc97d4df2
+card,1,Coastal Piracy,ACR,84,normal,en,near_mint,English Cards,false,1bdc8ac7-a9aa-4323-84c9-fa0cade02bd1
+card,1,Command Tower,EOC,59,normal,es,near_mint,Spanish Cards,false,85eb4b03-305b-45a4-82e5-5fcd586cc744
+card,1,Concealed Courtyard,KLD,245,normal,en,near_mint,English Cards,false,c8769e97-aee8-4466-a9d7-0f4245ae4a97
+card,1,Deadeye Navigator,INR,59,normal,en,near_mint,English Cards,false,4f0791b5-fdb4-4378-8fd3-7e7367ffc05c
+card,1,Deathcap Cultivator,DSC,175,normal,es,near_mint,Spanish Cards,false,17f9339a-d327-4239-a0d8-12f7ff58982b
+card,1,Desmond Miles,ACR,24,normal,en,near_mint,English Cards,false,c9523cd1-c3cf-4745-af09-77c1a83ac86f
+card,1,Dimir Locket,GRN,234,normal,en,near_mint,English Cards,false,dfb6810b-9bc9-43c5-8cd9-817b12ee3110
+card,1,Dragonskull Summit,MSC,238,normal,en,near_mint,English Cards,false,d20e433a-eb62-4301-bc20-bfe27468b033
+card,1,Drowned Catacomb,FRC,69,normal,en,near_mint,English Cards,false,4acb0f92-74be-40e8-b70e-61c4aaaeb47b
+card,1,Dualcaster Mage,2XM,124,foil,en,near_mint,English Cards,false,ea4814b8-9aea-4e44-aec1-d585473f5d1c
+card,1,Ember Island Production,TLA,48,normal,en,near_mint,English Cards,false,0f79a7fc-36b1-4397-8e67-6638379d3a38
+card,1,Entomb,TLE,310,normal,en,near_mint,English Cards,false,fbc089cf-affb-4713-bd39-aa776d1805b9
+card,1,"Etrata, Deadly Fugitive",MKM,359,normal,en,near_mint,English Cards,false,b01cf59e-b98b-4a8d-8347-07e2c1527330
+card,1,"Etrata, the Silencer",GRN,170,normal,en,near_mint,English Cards,false,fa36b142-e67e-49da-9080-c5994e275266
+card,1,Everflowing Chalice,EOC,137,normal,en,near_mint,English Cards,false,e4ed0052-d6dd-4f69-8313-10863baefac9
+card,1,Evie Frye,ACR,19,normal,es,near_mint,Spanish Cards,false,62f1ff84-d363-4aa2-b884-e9640cf62537
+card,1,Exotic Orchard,FRC,70,normal,es,near_mint,Spanish Cards,false,cc14b1ee-5def-42df-8ef6-0d91dba39e3a
+card,1,Ezio Auditore da Firenze,ACR,25,normal,en,near_mint,English Cards,true,dae9ee75-30b8-4e24-af8b-031c816d3221
+card,1,"Ezio, Blade of Vengeance",ACR,275,foil,es,near_mint,Spanish Cards,false,bbdc8019-9b5e-4d9a-a09b-2a14f41ddfe1
+card,1,Faithless Looting,SOC,244,normal,en,near_mint,English Cards,false,fc019ffa-4461-4f3d-ab8d-e4d20e77ca0c
+card,1,Fatal Push,ACR,90,normal,en,near_mint,English Cards,false,e6949e85-2db2-43a7-93bd-485c7b196298
+card,1,Fateful Absence,MID,18,foil,es,near_mint,Spanish Cards,false,eca8d6f8-c6f1-437c-99e2-4281eae14a6f
+card,1,Forest,ACR,110,normal,en,near_mint,English Cards,false,650e47f3-476f-4b32-b892-c1a01335d0fe
+card,1,Fortified Village,TDC,366,normal,es,near_mint,Spanish Cards,false,4a0aeb3a-923a-4b97-9d27-ea7e0b57de75
+card,1,Frostboil Snarl,WHO,282,normal,en,near_mint,English Cards,false,6e1d2c3d-e6ec-4130-8765-346adbb79d31
+card,1,Game Trail,FIC,398,normal,en,near_mint,English Cards,false,4d62258f-135b-44ca-a27d-3c2267f408a5
+card,1,Haytham Kenway,ACR,57,normal,en,near_mint,English Cards,false,73468f53-7de5-4a64-8f83-c0376f1d1f3f
+card,1,Hinterland Harbor,DSC,284,normal,es,near_mint,Spanish Cards,false,5675b928-33d5-4abf-a732-e36a5c7c4f86
+card,1,Infernal Grasp,SOC,216,normal,en,near_mint,English Cards,false,f67b323d-0dda-45f8-84b7-d883ce5045a8
+card,1,Intruder Alarm,TLE,15,foil,en,near_mint,English Cards,false,0ef9c823-3810-4e1f-8bb4-aba59e29c111
+card,2,Island,ACR,103,foil,en,near_mint,English Cards,false,a22426c4-914a-4e0b-a28a-b8573b63e320
+card,1,Isolated Chapel,FRC,74,normal,es,near_mint,Spanish Cards,false,b3169b9a-f5e3-402e-883a-08274d0c7b12
+card,1,Jacob Frye,ACR,132,foil,en,near_mint,English Cards,false,24dd5f46-2a61-4553-8469-fd69cccec9d8
+card,1,"Kaya, Ghost Assassin",SLD,247,foil,en,near_mint,English Cards,false,67851439-26d6-422d-9bce-8c9c25ffc0c2
+card,1,Kolaghan's Command,M3C,268,normal,en,near_mint,English Cards,false,666317db-2f38-4187-b6a5-7947d0c1591b
+card,1,Lithoform Engine,ZNR,245,normal,es,near_mint,Spanish Cards,false,6683416a-5820-4cd0-b28a-60a53239e9ef
+card,1,Loyal Inventor,ACR,21,normal,en,near_mint,English Cards,false,be1e598a-840c-4166-88a6-92a8b9958536
+card,1,Lydia Frye,ACR,60,normal,en,near_mint,English Cards,false,9dd6c700-f961-484a-8fe2-57107f5b7717
+card,1,Magister Sphinx,2X2,247,normal,en,near_mint,English Cards,false,be662808-e452-407d-b142-bf6f30990b5a
+card,1,Mana Leak,8ED,89,normal,en,near_mint,English Cards,false,56707af4-eb74-4b33-8741-6cc9b547d919
+card,1,Mishra's Bauble,2XM,274,normal,en,near_mint,English Cards,false,45bbbf9b-8fee-4c32-a513-02dac6ac8a39
+card,1,Mortify,ACR,96,foil,en,near_mint,English Cards,false,11de7338-243a-40e2-84e3-c31240840768
+card,1,Mountain,EOE,265,normal,en,near_mint,English Cards,false,3204f401-1bcb-4d97-b15d-113a5d3c3e9f
+card,1,Murder,ACR,92,normal,en,near_mint,English Cards,false,86d73f4c-0bbd-4616-81a6-102db6cd7db9
+card,1,Mystical Teachings,MM3,44,foil,en,near_mint,English Cards,false,b9f3a4e2-b3d2-4803-bcaf-5d63bff0feb5
+card,1,Nekrataal,WC98,bs66,normal,en,near_mint,English Cards,false,2d2223a9-49cc-4cff-878b-d720f23d09fd
+card,1,Plains,ACR,102,normal,en,near_mint,English Cards,false,4578c984-afb6-4532-b5be-093ed4ecb8b9
+card,1,Prairie Stream,M3C,365,foil,en,near_mint,English Cards,false,5d8c44d9-a3cc-4087-82d1-b34147c2a229
+card,1,Queen Marchesa,OTC,239,normal,en,near_mint,English Cards,false,0fdae05f-7bdc-45fb-b9b9-e5ec3766f965
+card,1,Rakdos Signet,FRC,60,normal,en,near_mint,English Cards,false,a263e71d-953f-4648-b326-33133cfa7e00
+card,1,Rampant Growth,TDC,265,normal,en,near_mint,English Cards,false,b7c47024-5e08-4b17-b41a-7647f8b814b9
+card,1,Ravenloft Adventurer,CLB,142,normal,es,near_mint,Spanish Cards,false,a5e27c36-d883-4681-8430-b4d0ad7f1df0
+card,1,Reckless Handling,MAT,19,normal,en,near_mint,English Cards,false,239165bb-7819-4d54-a84c-2911934253d6
+card,1,Restart Sequence,ACR,30,normal,es,near_mint,Spanish Cards,false,9a2b1b20-e5fd-4ccb-8529-12dbde0e0811
+card,1,Return the Favor,SOA,47,normal,en,near_mint,English Cards,false,e968efff-635b-4780-9bbe-099e75a1841b
+card,1,"Roshan, Hidden Magister",ACR,32,normal,en,near_mint,English Cards,false,eb17e6aa-8be5-40ea-a627-783c478c8eda
+card,1,Royal Assassin,ACR,306,foil,en,near_mint,English Cards,false,b7d9cde9-8937-4861-8eec-17a94e1602c7
+card,1,Rumble Arena,TLA,277,normal,en,near_mint,English Cards,false,3f5d2c38-663c-4f64-8cfc-c102462e82ef
+card,1,Secret Tunnel,TLA,278,normal,en,near_mint,English Cards,false,2d39a0e1-6484-409c-ab05-5b276925a949
+card,1,Seismic Sense,TLA,195,normal,en,near_mint,English Cards,false,a7b93c2a-c478-4734-8aca-03f3e9c11b20
+card,1,Smoldering Marsh,LTC,332,normal,en,near_mint,English Cards,false,b8de7fc8-3a90-4693-9d4d-cdca5c5aa206
+card,1,Sol Ring,OTC,267,normal,en,near_mint,English Cards,false,6c5c9437-3d99-4a7c-8255-9acdcb1acc40
+card,1,Starfall Invocation,BLB,34,normal,es,near_mint,Spanish Cards,false,2aea38e6-ec58-4091-b27c-2761bdd12b13
+card,1,Strionic Resonator,MOC,384,normal,es,near_mint,Spanish Cards,false,b9edb215-f967-4968-905e-d1dc3b5d3424
+card,1,Stroke of Midnight,FRC,35,normal,en,near_mint,English Cards,false,d42b9f9e-2df2-491e-b6ac-3b2bac8a8d8e
+card,1,Sulfur Falls,FRC,84,normal,en,near_mint,English Cards,false,2b20fa73-c6de-49c1-b3d0-6ebd543a00d0
+card,1,Sunken Hollow,TMC,76,normal,en,near_mint,English Cards,false,7ab0a5f2-5260-403d-9522-954efc91e96d
+card,1,Survivors' Encampment,HOU,184,normal,en,near_mint,English Cards,false,c7b0404e-0f42-456b-91ce-f960195c4951
+card,4,Swamp,ACR,105,foil,en,near_mint,English Cards,false,c163a697-01ee-4a55-814f-b0ba79be3a7f
+card,4,Swamp,ACR,106,normal,en,near_mint,English Cards,false,07a6df7a-a080-4aef-9a76-5b08bbc4e762
+card,1,Swiftfoot Boots,TDC,328,normal,en,near_mint,English Cards,false,1969b151-3192-4d35-80ca-c4e180601ec8
+card,1,Terminate,ACR,98,normal,en,near_mint,English Cards,false,c6c38679-5563-4390-ba1f-804731953206
+card,1,The Revelations of Ezio,ACR,31,normal,es,near_mint,Spanish Cards,false,ed77def5-ac92-4907-805d-261cae0db357
+card,1,Theater of Horrors,DSC,236,normal,es,near_mint,Spanish Cards,false,f0b88e4f-070f-48d1-a5f9-c22dfc7ab31b
+card,1,Thorn of the Black Rose,CMM,190,normal,en,near_mint,English Cards,false,b4b266e2-1cad-40df-bc0e-3e1464b299b3
+card,1,Tome of Legends,MKC,246,normal,en,near_mint,English Cards,false,8d4cb84a-fa17-4a85-a687-ee010a789d53
+card,1,Utter End,DSC,91,normal,es,near_mint,Spanish Cards,false,1819a0af-0775-431d-9637-13f8f10830f5
+card,1,"Venser, Shaper Savant",2X2,66,normal,en,near_mint,English Cards,false,77e19416-aa6c-46f1-b247-a94da5d1a13a
+card,1,White Lotus Hideout,TLA,281,normal,en,near_mint,English Cards,false,24d1e22c-0d99-4ed5-94f0-fd055fd8e2be
+card,1,"Winter Soldier, Icy Assassin",MSH,239,normal,en,near_mint,English Cards,false,ebf71ffc-6e3e-4ca0-a84a-3c1ebd2b64b1
+card,1,Woodland Cemetery,ECC,176,normal,es,near_mint,Spanish Cards,false,0c20aa48-58a0-4dee-970f-ba1292affa28
+token,1,Clue,TTLA,15,normal,en,near_mint,English Cards,false,33648889-2715-40f0-81fa-b6571d0bb0c9
+token,1,Copy,TTLA,1,normal,es,near_mint,Spanish Cards,false,2b3d7795-3fc3-4b78-bdf4-0a79981f1eee
+token,1,Human,TTDC,5,normal,es,near_mint,Spanish Cards,false,5054bb15-ddd5-4e5e-a9fd-6bdf255f7fd3
