@@ -1,0 +1,89 @@
+// Commander
+1 Toph, the First Metalbender (TLA) 247
+
+// Main
+1 Annie Joins Up (OTJ) 191
+1 Arbaaz Mir (ACR) 46
+1 Arcane Signet (TLE) 315
+1 Ashaya, Soul of the Wild (SLD) 2014
+1 Ba Sing Se (TLA) 266
+1 Beast Within (SOC) 263
+1 Bender's Waterskin (TLA) 255
+1 Boros Locket (C21) 236
+1 Brightglass Gearhulk (DFT) 191 *F*
+1 Bumi, Unleashed (TLA) 211
+1 Chord of Calling (2XM) 158
+1 Chromatic Lantern (FRC) 54
+1 Clifftop Retreat (FRC) 67
+1 Collective Resistance (MH3) 147
+1 Command Tower (PIP) 259
+1 Crop Rotation (DMR) 154
+1 Cycle of Renewal (TLA) 170
+1 Earth Kingdom General (TLA) 173 *F*
+1 Earthbender Ascension (TLA) 175
+1 Everflowing Chalice (EOC) 137
+1 Exotic Orchard (FRC) 70
+1 Fateful Absence (PW22) 2 *F*
+4 Forest (ACR) 110 *F*
+5 Forest (ACR) 110
+2 Forest (TLA) 291 *F*
+2 Forest (TLA) 291
+1 Fortified Village (TDC) 366
+1 Furycalm Snarl (STX) 266 *F*
+1 Game Trail (BLC) 306
+1 Goblin Bombardment (MH2) 279
+1 Great Divide Guide (TLA) 181
+1 Hardened Scales (FIC) 307
+1 Hardlight Containment (EOE) 20
+1 Harrow (EOC) 98
+1 Haru, Hidden Talent (TLA) 182
+1 Haystack (ACR) 5 *F*
+1 Haywire Mite (BRO) 199
+1 Heaped Harvest (BLB) 175
+1 Hunter's Bow (ACR) 41
+1 Ichor Wellspring (C21) 245
+1 Inscription of Abundance (DSC) 186
+1 Liquimetal Coating (BRR) 28 *F*
+1 Lotus Cobra (BLC) 229
+3 Mountain (ACR) 107
+1 Mountain (TLA) 290 *F*
+1 Mountain (TLA) 290
+1 Nutrient Block (EOE) 243 *F*
+1 Origin of Metalbending (TLA) 187
+1 Path to Exile (FRC) 30
+3 Plains (ACR) 101
+2 Plains (TLA) 287 *F*
+1 Planar Outburst (NCC) 209
+1 Ragost, Deft Gastronaut (EOE) 224
+1 Rampant Growth (TDC) 265
+1 Reckless Handling (MAT) 19
+1 Redirect Lightning (TLA) 343 *F*
+1 Rocky Rebuke (TLA) 193 *F*
+1 Rogue's Passage (CMM) 426 *F*
+1 Rootbound Crag (FIC) 416
+1 Rugged Prairie (FIC) 417
+1 Rumble Arena (TLA) 277
+1 Sabotender (FIN) 153
+1 Sakura-Tribe Elder (TDC) 266
+1 Seismic Sense (TLA) 195
+1 Selesnya Signet (TDC) 324
+1 Shared Roots (TLA) 196
+1 Sol Ring (FRC) 21
+1 Soul-Guide Lantern (DRC) 139
+1 Springheart Nantuko (MH3) 341
+1 Stroke of Midnight (FRC) 35
+1 Sunpetal Grove (FIC) 432
+1 Swords to Plowshares (FRC) 37
+1 Talisman of Impulse (TDC) 332
+1 Tannuk, Memorial Ensign (EOE) 233 *F*
+1 Terrasymbiosis (EOE) 210
+1 The Stasis Coffin (BRO) 245
+1 Tireless Provisioner (BLC) 243
+1 Tireless Tracker (EOC) 110
+1 Toph, Hardheaded Teacher (TLA) 246
+1 Toph, the Blind Bandit (TLA) 198
+1 True Ancestry (TLA) 199 *F*
+1 Valakut Exploration (ZNR) 175
+1 Wayfarer's Bauble (TDC) 335
+1 Wrenn and Realmbreaker (MOM) 217
+1 Zuran Orb (ICE) 350

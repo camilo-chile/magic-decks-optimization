@@ -1,0 +1,95 @@
+kind,quantity,name,set,number,finish,language,condition,binder,proxy,scryfall_id
+card,1,Annie Joins Up,OTJ,191,normal,en,near_mint,English Cards,false,1624a5f4-f5bc-47c9-85de-c5520ee234ce
+card,1,Arbaaz Mir,ACR,46,normal,es,near_mint,Spanish Cards,false,c7187506-4af3-47e9-bad0-4ce8c78ccc10
+card,1,Arcane Signet,TLE,315,normal,en,near_mint,English Cards,false,89ac0b50-8c64-46b0-b670-cd2321153502
+card,1,"Ashaya, Soul of the Wild",SLD,2014,normal,en,near_mint,English Cards,false,813057d4-ec5b-4ec4-a6ad-8f53cc49b827
+card,1,Ba Sing Se,TLA,266,normal,en,near_mint,English Cards,false,bdf3b2be-d0cd-4a3c-a10e-82d32c12d3bd
+card,1,Beast Within,SOC,263,normal,en,near_mint,English Cards,false,2a000bb0-1dc4-4fda-b26d-d89cc8daf930
+card,1,Bender's Waterskin,TLA,255,normal,en,near_mint,English Cards,false,6d4a1712-d19e-4475-9614-a0b1af4da610
+card,1,Boros Locket,C21,236,normal,en,near_mint,English Cards,false,c61204b7-02c2-41be-8841-0b261798de7a
+card,1,Brightglass Gearhulk,DFT,191,foil,en,near_mint,English Cards,false,3dea5b45-925c-4732-8e9d-fa8232792736
+card,1,"Bumi, Unleashed",TLA,211,normal,en,near_mint,English Cards,false,b20a5185-7e31-4fc9-be11-9423bfc389bf
+card,1,Chord of Calling,2XM,158,normal,es,near_mint,Spanish Cards,false,dac257a9-39bf-4185-9d2e-f80f0848a96a
+card,1,Chromatic Lantern,FRC,54,normal,en,near_mint,English Cards,false,424c40b0-49d8-4a6f-a0ef-545738224ec9
+card,1,Clifftop Retreat,FRC,67,normal,es,near_mint,Spanish Cards,false,cd112d5c-102f-45a6-b26c-f80cc97d4df2
+card,1,Collective Resistance,MH3,147,normal,en,near_mint,English Cards,false,f260bd08-68b6-44f4-ace9-e298cb13d82e
+card,1,Command Tower,PIP,259,normal,es,near_mint,Spanish Cards,false,952cb8cb-633c-468f-8ef5-54ff91ddfb22
+card,1,Crop Rotation,DMR,154,normal,en,near_mint,English Cards,false,523414cb-f8db-407a-808a-01454e03d8b9
+card,1,Cycle of Renewal,TLA,170,normal,en,near_mint,English Cards,false,233f4a05-057b-48f4-8f56-8d4a060a40e4
+card,1,Earth Kingdom General,TLA,173,foil,en,near_mint,English Cards,false,8688fce5-74b1-41e1-a59a-05a3878a75cb
+card,1,Earthbender Ascension,TLA,175,normal,en,near_mint,English Cards,false,590a58ab-5e98-4031-8aa6-ce396dc1429f
+card,1,Everflowing Chalice,EOC,137,normal,en,near_mint,English Cards,false,e4ed0052-d6dd-4f69-8313-10863baefac9
+card,1,Exotic Orchard,FRC,70,normal,es,near_mint,Spanish Cards,false,cc14b1ee-5def-42df-8ef6-0d91dba39e3a
+card,1,Fateful Absence,PW22,2,foil,es,near_mint,Spanish Cards,false,83e3dff5-4ffc-49e3-9b40-b9c6e1c864ef
+card,4,Forest,ACR,110,foil,en,near_mint,English Cards,false,650e47f3-476f-4b32-b892-c1a01335d0fe
+card,5,Forest,ACR,110,normal,en,near_mint,English Cards,false,650e47f3-476f-4b32-b892-c1a01335d0fe
+card,2,Forest,TLA,291,foil,en,near_mint,English Cards,false,05683891-cdd4-4401-b7d5-0ef17e79c699
+card,2,Forest,TLA,291,normal,en,near_mint,English Cards,false,05683891-cdd4-4401-b7d5-0ef17e79c699
+card,1,Fortified Village,TDC,366,normal,es,near_mint,Spanish Cards,false,4a0aeb3a-923a-4b97-9d27-ea7e0b57de75
+card,1,Furycalm Snarl,STX,266,foil,en,near_mint,English Cards,false,53e33f37-7fd1-4431-a032-cd61b644401c
+card,1,Game Trail,BLC,306,normal,en,near_mint,English Cards,false,e42e3260-33d7-4cee-8cac-61ed006abf3e
+card,1,Goblin Bombardment,MH2,279,normal,es,near_mint,Spanish Cards,false,e262f55e-9239-4a97-a19e-9b08fb34502e
+card,1,Great Divide Guide,TLA,181,normal,en,near_mint,English Cards,false,cc3063ec-5ea6-46c1-8331-c740cbaf6c76
+card,1,Hardened Scales,FIC,307,normal,en,near_mint,English Cards,false,1219d294-22b3-45de-91d9-8d80e27c2fd6
+card,1,Hardlight Containment,EOE,20,normal,en,near_mint,English Cards,false,0b934241-4d6b-4b9c-99f1-c49cb387cf56
+card,1,Harrow,EOC,98,normal,en,near_mint,English Cards,false,3e76be46-cf81-4fef-bc5b-f87666cb0413
+card,1,"Haru, Hidden Talent",TLA,182,normal,en,near_mint,English Cards,false,9657a0c0-2c26-4331-8e62-f032265a01af
+card,1,Haystack,ACR,5,foil,en,near_mint,English Cards,false,46e791f0-297b-46bf-acd5-f62458009d76
+card,1,Haywire Mite,BRO,199,normal,en,near_mint,English Cards,false,847a175e-ead1-4596-baf3-5f7f57859e0b
+card,1,Heaped Harvest,BLB,175,normal,en,near_mint,English Cards,false,3b5349db-0e0a-4b15-886e-0db403ef49cb
+card,1,Hunter's Bow,ACR,41,normal,en,near_mint,English Cards,false,ca2765df-edff-4607-843c-8528d5d4fce9
+card,1,Ichor Wellspring,C21,245,normal,en,near_mint,English Cards,false,1ccdb407-ac8f-4736-89d3-ab0d086096ea
+card,1,Inscription of Abundance,DSC,186,normal,es,near_mint,Spanish Cards,false,d0429a79-af7a-4de1-be3a-773498cfdc22
+card,1,Liquimetal Coating,BRR,28,foil,en,near_mint,English Cards,false,a8fc80eb-f158-479f-8626-c9665e2f8248
+card,1,Lotus Cobra,BLC,229,normal,es,near_mint,Spanish Cards,false,3e9cc3c4-82e2-43ba-892d-91836e6ac6fc
+card,3,Mountain,ACR,107,normal,en,near_mint,English Cards,false,1a534ae1-4e6f-43ae-a8ad-89e306f11f21
+card,1,Mountain,TLA,290,foil,en,near_mint,English Cards,false,ea96ecc4-72f3-46a4-8900-6a7c5a83d4df
+card,1,Mountain,TLA,290,normal,en,near_mint,English Cards,false,ea96ecc4-72f3-46a4-8900-6a7c5a83d4df
+card,1,Nutrient Block,EOE,243,foil,en,near_mint,English Cards,false,a26064bb-c568-4ed6-86db-3aab69b050db
+card,1,Origin of Metalbending,TLA,187,normal,en,near_mint,English Cards,false,25749f9a-260d-4bdc-bd28-429c12faa4a5
+card,1,Path to Exile,FRC,30,normal,es,near_mint,Spanish Cards,false,22e08a78-55b7-46b0-bd1a-a51548fc1861
+card,3,Plains,ACR,101,normal,en,near_mint,English Cards,false,66ad5a57-7296-43cb-b477-826e65d37222
+card,2,Plains,TLA,287,foil,en,near_mint,English Cards,false,8a880169-41ca-4507-83fd-306a489d31ce
+card,1,Planar Outburst,NCC,209,normal,es,near_mint,Spanish Cards,false,3d45dfee-810e-4359-96ad-8d423ab86178
+card,1,"Ragost, Deft Gastronaut",EOE,224,normal,en,near_mint,English Cards,false,011374c3-f69d-4573-8c32-5bd0fe083d6a
+card,1,Rampant Growth,TDC,265,normal,en,near_mint,English Cards,false,b7c47024-5e08-4b17-b41a-7647f8b814b9
+card,1,Reckless Handling,MAT,19,normal,en,near_mint,English Cards,false,239165bb-7819-4d54-a84c-2911934253d6
+card,1,Redirect Lightning,TLA,343,foil,en,near_mint,English Cards,false,2c1c0fb2-cb74-46a1-9ce4-5274feab1146
+card,1,Rocky Rebuke,TLA,193,foil,en,near_mint,English Cards,false,52fd910f-6d42-41f5-a4be-f375aa254ea2
+card,1,Rogue's Passage,CMM,426,foil,en,near_mint,English Cards,false,481c877e-0188-427f-8de2-25ad82d7cadb
+card,1,Rootbound Crag,FIC,416,normal,en,near_mint,English Cards,false,73a2e070-f375-4558-a982-01f6f4e902e9
+card,1,Rugged Prairie,FIC,417,normal,es,near_mint,Spanish Cards,false,3d575770-cb81-4353-b49e-cdaca7a5162f
+card,1,Rumble Arena,TLA,277,normal,en,near_mint,English Cards,false,3f5d2c38-663c-4f64-8cfc-c102462e82ef
+card,1,Sabotender,FIN,153,normal,en,near_mint,English Cards,false,12df1295-8b08-4c8e-bac9-55b4f514c0be
+card,1,Sakura-Tribe Elder,TDC,266,normal,en,near_mint,English Cards,false,d619aece-7eab-40f3-8f41-970065f0dc73
+card,1,Seismic Sense,TLA,195,normal,en,near_mint,English Cards,false,a7b93c2a-c478-4734-8aca-03f3e9c11b20
+card,1,Selesnya Signet,TDC,324,normal,es,near_mint,Spanish Cards,false,4e21a028-0f06-4124-bd0f-04989a1f9481
+card,1,Shared Roots,TLA,196,normal,en,near_mint,English Cards,false,e7847ba5-e85e-417f-96c0-aef2e6f83994
+card,1,Sol Ring,FRC,21,normal,en,near_mint,English Cards,false,8ee443cc-e17a-493b-9c93-1f9e141a30e4
+card,1,Soul-Guide Lantern,DRC,139,normal,es,near_mint,Spanish Cards,false,6a0f5301-0af9-496d-b55d-6bb5518b009c
+card,1,Springheart Nantuko,MH3,341,normal,en,near_mint,English Cards,false,cf723c91-e3ae-4a71-93b2-65d05bfa9b60
+card,1,Stroke of Midnight,FRC,35,normal,en,near_mint,English Cards,false,d42b9f9e-2df2-491e-b6ac-3b2bac8a8d8e
+card,1,Sunpetal Grove,FIC,432,normal,en,near_mint,English Cards,false,5b0275b1-64bc-4c78-ac1a-9bd31399b946
+card,1,Swords to Plowshares,FRC,37,normal,es,near_mint,Spanish Cards,false,f7e12477-d59f-442b-a678-1be746d0b7be
+card,1,Talisman of Impulse,TDC,332,normal,en,near_mint,English Cards,false,5135919f-7b10-4a2e-a98a-83ed1347ad36
+card,1,"Tannuk, Memorial Ensign",EOE,233,foil,en,near_mint,English Cards,false,52498b7b-0389-4e7b-b29f-7ac86aab9229
+card,1,Terrasymbiosis,EOE,210,normal,en,near_mint,English Cards,false,26008c7d-5dbe-4da2-b475-4dd307e7bc68
+card,1,The Stasis Coffin,BRO,245,normal,en,near_mint,English Cards,false,45537ac3-fc61-4253-a782-7f3e436b2aa6
+card,1,Tireless Provisioner,BLC,243,normal,en,near_mint,English Cards,false,ac73d130-ceb6-41ea-af0d-314d5adba9e6
+card,1,Tireless Tracker,EOC,110,normal,en,near_mint,English Cards,false,66444549-ad9b-49c6-a7c6-34e977c1085d
+card,1,"Toph, Hardheaded Teacher",TLA,246,normal,en,near_mint,English Cards,false,e3ba3395-39db-4330-9801-53def924f253
+card,1,"Toph, the Blind Bandit",TLA,198,normal,en,near_mint,English Cards,false,ff68fa7b-8065-407b-a8b4-bfbb14f1c99c
+card,1,"Toph, the First Metalbender",TLA,247,normal,en,near_mint,English Cards,false,70b6670f-a9fa-4d75-b0a7-c01b5071a514
+card,1,True Ancestry,TLA,199,foil,en,near_mint,English Cards,false,8c55b333-dc8b-4332-895b-eec5eb45543f
+card,1,Valakut Exploration,ZNR,175,normal,en,near_mint,English Cards,false,18cb7bf6-9c7c-4e62-a678-7b75862e2f64
+card,1,Wayfarer's Bauble,TDC,335,normal,en,near_mint,English Cards,false,ac1960a1-9141-468c-b96c-6c8e6905084d
+card,1,Wrenn and Realmbreaker,MOM,217,normal,en,near_mint,English Cards,false,6f807d91-b157-44e8-a431-49782184f876
+card,1,Zuran Orb,ICE,350,normal,en,poor,English Cards,false,3a9d1082-a862-45d4-9e5e-392e879fead6
+token,1,Ally,TTLA,5,normal,en,near_mint,English Cards,false,cae9c13e-fda2-4591-bd52-888d12194e4d
+token,1,Beast,TTDC,20,normal,en,near_mint,English Cards,false,f0aba72c-4dd1-47e5-a447-e074d0ab4ba1
+token,1,Clue,TTLA,17,foil,en,near_mint,English Cards,false,98bdb578-e81e-40f9-9c06-b2867158baef
+token,1,Copy,TTLA,1,normal,en,near_mint,English Cards,false,2b3d7795-3fc3-4b78-bdf4-0a79981f1eee
+token,1,Food,TTLA,19,normal,en,near_mint,English Cards,false,db202f04-61e7-4e12-848e-6c1761956a58
+token,1,Insect,TMH3,25,normal,en,near_mint,English Cards,false,059e9d51-c7bf-41c0-a6f0-c0bbc6d3b434
+token,1,Treasure,TACR,6,normal,en,near_mint,English Cards,false,536a82d3-f5e2-46b7-969e-84683f937b38
+token,1,Wrenn and Realmbreaker Emblem,TMOM,23,foil,en,near_mint,English Cards,false,0aa8ebb6-26dc-41eb-ae40-47c8e7b040a6

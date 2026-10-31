@@ -1,0 +1,97 @@
+kind,quantity,name,set,number,finish,language,condition,binder,proxy,scryfall_id
+card,1,Abrade,BLC,191,normal,en,near_mint,English Cards,false,c1466ae6-9dbc-4ead-844b-9b1ba7274baf
+card,1,Aether Gale,SOC,186,normal,es,near_mint,Spanish Cards,false,4e336e87-e5af-46a0-8caf-5d9ad8d671fd
+card,1,Amphibian Downpour,MH3,51,foil,en,near_mint,English Cards,false,2d8aeca5-622a-45be-8168-07e7c00e3092
+card,1,Arcane Signet,TLE,315,normal,en,near_mint,English Cards,false,89ac0b50-8c64-46b0-b670-cd2321153502
+card,1,Archmage Emeritus,STX,377,foil,en,near_mint,English Cards,false,f2f7218a-511a-4ca8-899d-ae78a935f7a0
+card,1,Banefire,M19,130,normal,en,near_mint,English Cards,false,5b012532-1186-4dc8-9d42-867e418b0280
+card,1,Bender's Waterskin,TLA,255,normal,en,near_mint,English Cards,false,6d4a1712-d19e-4475-9614-a0b1af4da610
+card,1,Big Score,FIC,290,normal,en,near_mint,English Cards,false,67d41ba2-a908-4613-b275-6ffe4165e48a
+card,1,Black Market Connections,ACR,87,normal,en,near_mint,English Cards,false,9bac8176-d0db-4397-820d-acbdd3264377
+card,1,Brainstorm,A25,46,normal,en,near_mint,English Cards,false,2ea8d5cb-cf7e-4194-8019-812b3f56cf20
+card,1,Canyon Slough,MSC,228,normal,es,near_mint,Spanish Cards,false,587cc3ba-75c2-46a0-bd44-6f953fe1eb01
+card,1,Cascade Bluffs,SOC,364,normal,en,near_mint,English Cards,false,22acccd2-4e9d-46de-a060-863b08152e50
+card,1,Champion's Helm,CMM,375,normal,en,near_mint,English Cards,false,c6548a30-577a-47e7-aa6e-8f6db1f7b78e
+card,1,Chaos Warp,SOC,239,normal,en,near_mint,English Cards,false,65ae241c-8955-4c97-8be6-7356fbee2195
+card,1,Choked Estuary,MKC,254,normal,es,near_mint,Spanish Cards,false,e9ad18b2-1061-4893-9171-07ffe142a762
+card,1,Comet Storm,CMR,411,normal,en,near_mint,English Cards,false,bb5f586d-6bf0-4590-ad73-2d46b2a45b1a
+card,1,Command Tower,CMM,659,normal,en,near_mint,English Cards,false,24179418-d92c-43eb-a8f6-b8ea83f8c80f
+card,1,Consider,TDC,148,normal,es,near_mint,Spanish Cards,false,ff6f3824-3670-46e1-af43-0db405726084
+card,1,Darkwater Catacombs,TDC,355,normal,es,near_mint,Spanish Cards,false,03fbf51d-f622-4629-a228-a03ce7caf500
+card,1,Day of Black Sun,TLA,94,normal,en,near_mint,English Cards,false,d0e24797-3e45-4c2b-b4b0-1ef44d42eaee
+card,1,Deflecting Swat,TLE,311,normal,en,near_mint,English Cards,false,c2cb5a93-d2f9-4df6-9488-c57b6f18ae2b
+card,1,Dimir Signet,FRC,56,normal,en,near_mint,English Cards,false,0862060d-3198-4eeb-af8c-efeb27f42a99
+card,1,Dragonskull Summit,DSC,271,normal,en,near_mint,English Cards,false,3b96a40e-828a-4cec-99cd-130dbcbdc67c
+card,1,Drowned Catacomb,FRC,69,normal,en,near_mint,English Cards,false,4acb0f92-74be-40e8-b70e-61c4aaaeb47b
+card,1,Dualcaster Mage,C21,165,normal,en,near_mint,English Cards,false,defcc4a3-40e0-4f5d-b23c-6cd6a614abc1
+card,1,"Electro, Assaulting Battery",SPM,76,normal,en,near_mint,English Cards,false,d672cfad-e656-47f8-bf93-64f262aff33e
+card,1,Electrodominance,OTP,23,normal,en,near_mint,English Cards,false,6d550bc9-2cb5-4947-a48d-2c92b5c72541
+card,1,Ember Island Production,TLA,48,normal,en,near_mint,English Cards,false,0f79a7fc-36b1-4397-8e67-6638379d3a38
+card,1,Entomb,DMR,82,normal,en,near_mint,English Cards,false,3caa9c55-5e3b-436b-84a9-b7ccebf63799
+card,1,Exotic Orchard,FRC,70,normal,es,near_mint,Spanish Cards,false,cc14b1ee-5def-42df-8ef6-0d91dba39e3a
+card,1,Fact or Fiction,CMR,634,foil,en,near_mint,English Cards,false,8fb642e0-a390-4079-b349-ff0ec29c610e
+card,1,Fatal Push,ACR,90,normal,en,near_mint,English Cards,false,e6949e85-2db2-43a7-93bd-485c7b196298
+card,1,Fire Lord Azula,TLA,220,normal,en,near_mint,English Cards,false,bc6146bf-f0c6-4557-af6a-74c643d5fc01
+card,1,Fire Nation Palace,TLA,268,normal,en,near_mint,English Cards,false,c91ac3f2-9fcd-4b41-a168-ae7f70b67d3c
+card,1,Foreboding Ruins,DSC,277,normal,en,near_mint,English Cards,false,e9236b80-fa80-4da3-a357-db7749011499
+card,1,Frantic Search,TDC,153,normal,en,near_mint,English Cards,false,a1c71f3e-16be-492a-8a3e-5911867270bd
+card,1,Frostboil Snarl,WHO,282,normal,en,near_mint,English Cards,false,6e1d2c3d-e6ec-4130-8765-346adbb79d31
+card,1,Frostcliff Siege,TDM,187,normal,en,near_mint,English Cards,false,a750aabb-9788-494a-841f-bf75717970a7
+card,1,"Glamdring, Foe-hammer // Gleam of Death",HOB,174,foil,en,near_mint,English Cards,false,a5cfbfde-783e-46ca-b3cf-11f16209d6cb
+card,1,Go for the Throat,ACR,91,normal,en,near_mint,English Cards,false,4f95ad5d-d0c7-4a65-9e46-1d33abbf77aa
+card,1,Goblin Bombardment,MH2,279,normal,en,near_mint,English Cards,false,e262f55e-9239-4a97-a19e-9b08fb34502e
+card,1,Goblin Electromancer,RVR,186,foil,en,near_mint,English Cards,false,dba5f096-4b1b-4c38-b0e5-1711b318d2f7
+card,1,"Godo, Bandit Warlord",CMM,227,normal,en,near_mint,English Cards,false,01d566cf-cb32-461d-8afe-b0f3f4c24160
+card,1,Heartless Act,TLA,103,normal,en,near_mint,English Cards,false,b57c57a8-d72b-4c6c-a2db-a7ef61190f42
+card,1,Helm of the Host,BLC,276,normal,es,near_mint,Spanish Cards,false,898c66d5-d8e6-4a58-ba41-4650ba0e7262
+card,1,Hero's Downfall,THS,90,normal,en,near_mint,English Cards,false,596822f6-dbd4-4cc8-aa50-9331ff42544e
+card,1,Imprisoned in the Moon,INR,69,normal,en,near_mint,English Cards,false,0d150547-09f5-45ce-a825-89944b066bd4
+card,4,Island,ACR,103,normal,en,near_mint,English Cards,false,a22426c4-914a-4e0b-a28a-b8573b63e320
+card,1,Island,ACR,104,foil,en,near_mint,English Cards,false,a76f785d-1972-4bd6-8a43-848d51068712
+card,2,Island,ACR,104,normal,en,near_mint,English Cards,false,a76f785d-1972-4bd6-8a43-848d51068712
+card,1,Izzet Signet,FRC,58,normal,en,near_mint,English Cards,false,d5e141ad-5cb8-416b-9acf-bce1baeb6b6b
+card,1,Lightning Strike,TLA,146,normal,en,near_mint,English Cards,false,5787b0e0-9469-4a6d-8b81-c992628e28c0
+card,1,"Lo and Li, Twin Tutors",TLA,108,normal,en,near_mint,English Cards,false,cba9260d-ef07-4429-99f9-6004cc1fea0f
+card,1,Loyal Inventor,ACR,21,foil,en,near_mint,English Cards,false,be1e598a-840c-4166-88a6-92a8b9958536
+card,1,Mana Leak,8ED,89,normal,en,near_mint,English Cards,false,56707af4-eb74-4b33-8741-6cc9b547d919
+card,1,Mind Stone,BLC,280,normal,es,near_mint,Spanish Cards,false,5cf95476-27ed-487d-8459-c97a921bb808
+card,2,Mountain,ACR,108,normal,en,near_mint,English Cards,false,d0a55d99-d668-4621-bb14-f7df210adbe4
+card,1,Mountain,TLA,290,foil,en,near_mint,English Cards,false,ea96ecc4-72f3-46a4-8900-6a7c5a83d4df
+card,2,Mountain,TLA,290,normal,en,near_mint,English Cards,false,ea96ecc4-72f3-46a4-8900-6a7c5a83d4df
+card,1,Mystical Teachings,FDN,594,normal,en,near_mint,English Cards,false,3f88eacf-5c7b-4a35-86f0-af3b0516d4c2
+card,1,Narset's Reversal,WAR,62,normal,es,near_mint,Spanish Cards,false,63754036-d51e-47bb-925b-564d9dc922ff
+card,1,Negate,OGW,59,normal,es,near_mint,Spanish Cards,false,026c499d-3d5b-4f65-a824-f78f146b82ef
+card,1,Nightscape Familiar,DMR,94,normal,es,near_mint,Spanish Cards,false,4cf1918f-ad58-4f62-bd8c-649919de0e75
+card,1,Octopus Form,TLA,66,normal,en,near_mint,English Cards,false,ce96a826-53a0-4029-bf34-46779d133b13
+card,1,Opt,FDN,512,normal,en,near_mint,English Cards,false,58d26b54-0093-4e90-a2b1-b57c64340f9c
+card,1,"Ozai, the Phoenix King",TLA,235,normal,en,near_mint,English Cards,false,a98b1550-4609-4a2f-9371-4afe1cdc613e
+card,1,Ponder,TDC,159,normal,en,near_mint,English Cards,false,dc69f960-68ba-4315-8146-6a7a82047503
+card,1,Reckless Handling,MAT,19,normal,en,near_mint,English Cards,false,239165bb-7819-4d54-a84c-2911934253d6
+card,1,Redirect Lightning,TLA,343,normal,en,near_mint,English Cards,false,2c1c0fb2-cb74-46a1-9ce4-5274feab1146
+card,1,Ritual of Soot,GRN,84,normal,en,near_mint,English Cards,false,269af993-4894-4bf1-b55a-af4d736cb3cc
+card,1,Rogue's Passage,SOC,400,normal,en,near_mint,English Cards,false,335444f0-0848-4c17-b056-56d4fc876a58
+card,1,Shadowblood Ridge,DSC,296,normal,en,near_mint,English Cards,false,d7af1d6b-ff13-4886-a212-4a6e09153475
+card,1,Shivan Reef,FRC,83,normal,en,near_mint,English Cards,false,9fb3938c-9ecf-46cc-865a-0091455419f9
+card,1,Snap,WOC,110,normal,en,near_mint,English Cards,false,f21a70d2-53ec-4fee-b7bc-b459309fe657
+card,1,Sol Ring,TLE,316,normal,en,near_mint,English Cards,false,c1f93f78-645b-4f21-a80b-5542f3328111
+card,1,Solve the Equation,STX,54,normal,es,near_mint,Spanish Cards,false,66c04ee2-c1e0-45fb-aaf5-1b4459df80fc
+card,1,Storm-Kiln Artist,SOC,255,normal,en,near_mint,English Cards,false,da7ae8e0-cb6b-4386-8a30-9527d1af9be5
+card,1,Stormcatch Mentor,SOC,331,normal,en,near_mint,English Cards,false,f1bbb5ad-a293-48f3-a3d0-7ac85a7b8467
+card,1,Sulfur Falls,FRC,84,normal,en,near_mint,English Cards,false,2b20fa73-c6de-49c1-b3d0-6ebd543a00d0
+card,1,Sulfurous Springs,FRC,85,normal,es,near_mint,Spanish Cards,false,be340a1c-f1e7-446e-ae91-86ecb884479c
+card,1,Sunken Hollow,TMC,76,normal,en,near_mint,English Cards,false,7ab0a5f2-5260-403d-9522-954efc91e96d
+card,1,Sunken Ruins,FRC,86,normal,en,near_mint,English Cards,false,b8652a52-d9f6-42ad-9746-6827845b540e
+card,2,Swamp,ACR,105,normal,en,near_mint,English Cards,false,c163a697-01ee-4a55-814f-b0ba79be3a7f
+card,1,Swamp,ACR,106,foil,en,near_mint,English Cards,false,07a6df7a-a080-4aef-9a76-5b08bbc4e762
+card,1,Swamp,TLA,289,foil,en,near_mint,English Cards,false,874f0f27-81a4-4853-aaa0-2c15e07c177e
+card,1,Swamp,TLA,289,normal,en,near_mint,English Cards,false,874f0f27-81a4-4853-aaa0-2c15e07c177e
+card,1,Swiftfoot Boots,TLE,317,normal,en,near_mint,English Cards,false,aff074f2-6ad9-4c0c-88e2-fc622772d2a1
+card,1,Terminate,ACR,98,normal,en,near_mint,English Cards,false,c6c38679-5563-4390-ba1f-804731953206
+card,1,The Last Agni Kai,TLA,144,foil,en,near_mint,English Cards,false,61eaebc6-7575-48ed-b212-ff8b0c7ae694
+card,1,Torrential Gearhulk,CMM,128,normal,es,near_mint,Spanish Cards,false,92872fea-2fb4-4154-815e-cad9d966e60f
+card,1,Ultimate Price,RVR,95,normal,es,near_mint,Spanish Cards,false,253c6342-fec3-459c-8376-8ccf8aea2905
+card,1,Underground River,FRC,87,normal,en,near_mint,English Cards,false,e8b05f37-815f-4854-bf82-ca544ca67532
+card,1,Undying Malice,FDN,528,normal,en,near_mint,English Cards,false,97b3cf11-e352-4ee1-8c03-13898f576ef9
+token,1,Copy,TTLA,1,normal,en,near_mint,English Cards,false,2b3d7795-3fc3-4b78-bdf4-0a79981f1eee
+token,1,Shapeshifter,TMSC,18,foil,en,near_mint,English Cards,false,b66aadb2-cbbb-4150-b4b4-bb0dc5327394
+token,1,Treasure,TLTR,12,normal,es,near_mint,Spanish Cards,false,46a2c363-c879-4c36-b08a-dd57e3da19ae
