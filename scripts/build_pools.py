@@ -23,6 +23,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import allocation_model as am  # noqa: E402
 import check_list as cl  # noqa: E402
+import edhrec_data  # noqa: E402
 import layer_a as la  # noqa: E402
 
 ROOT = la.ROOT
@@ -66,6 +67,38 @@ def owned_cards(records, index):
     return owned, sorted(set(unknown))
 
 
+def with_borrowed(owned, borrowed, index):
+    """A copy of `owned` plus the cards one deck borrows (decks/phase2.json "borrowed", held by "loan"); unknown names.
+
+    Loans come from the owner's Standard decks, which are not scanned (owner, 2026-10-31: Eagle Vision for Ezio, to be
+    replaced at the next purchase); they join the pool of the deck that borrows them and no other."""
+    out = {oid: {"copies": v["copies"], "by_language": Counter(v["by_language"]), "by_deck": Counter(v["by_deck"]),
+                 "printings": list(v["printings"])} for oid, v in owned.items()}
+    unknown = []
+    for loan in borrowed or []:
+        if loan.get("proxy"):
+            continue  # a proxy commander is listed only so the real card gets bought; it is never a pool card
+        card = resolve(loan["name"], index)
+        if card is None:
+            unknown.append(loan["name"])
+            continue
+        qty = int(loan.get("quantity", 1))
+        language = loan.get("language", "en")
+        entry = out.setdefault(card["oracle_id"], {"copies": 0, "by_language": Counter(), "by_deck": Counter(),
+                                                    "printings": []})
+        holder = "owed" if loan.get("status") == "owed" else "loan candidate" if loan.get("candidate") else "loan"
+        entry["copies"] += qty
+        entry["by_language"][language] += qty
+        entry["by_deck"][holder] += qty
+        entry["printings"].append({"set": loan.get("set", ""), "number": loan.get("number", ""),
+                                   "finish": loan.get("finish", "normal"), "language": language,
+                                   "condition": loan.get("condition", ""), "quantity": qty, "deck": holder,
+                                   "from": loan.get("from", ""), "restock": bool(loan.get("restock")),
+                                   "replacement_clp": loan.get("clp"), "in_stock": loan.get("in_stock"),
+                                   "loan_class": loan.get("loan_class")})
+    return out, unknown
+
+
 def usable(card):
     """Legal in Commander and not a card that must be turned over."""
     return (card.get("legalities") or {}).get("commander") == "legal" and not cl.needs_flipping(card)
@@ -89,6 +122,19 @@ def pool(identity, owned, by_oid, language=None, exclude=()):
                     "printings": [p for p in have["printings"] if not language or p["language"] == language]})
     out.sort(key=lambda c: c["name"])
     return out
+
+
+def annotate_edhrec(entries, edhrec_cards):
+    """Add the commander's EDHREC numbers (list, synergy, inclusion, num_decks) to the pool entries; returns how many had them.
+
+    A prior for the builder (what the EDHREC community plays with this commander), never a reason by itself."""
+    found = 0
+    for entry in entries:
+        row = edhrec_cards.get(la.normalize(entry["name"]))
+        if row:
+            entry["edhrec"] = {k: row.get(k) for k in ("list", "synergy", "inclusion", "num_decks")}
+            found += 1
+    return found
 
 
 def can_be_commander(card):
@@ -158,11 +204,22 @@ def main():
             print(f"{deck['slug']}: no commander yet, no pool written")
             continue
         language = "es" if deck.get("languages") == "es" else None
-        entries = pool(set(commander.get("color_identity") or []), owned, by_oid, language, exclude={commander["oracle_id"]})
+        taken = {la.normalize(b["name"]) for d in config["decks"] for b in d.get("borrowed", [])}
+        candidates = [{"name": c["name"], "clp": c["clp"], "in_stock": c["in_stock"], "loan_class": c["loan_class"],
+                       "candidate": True, "from": "Standard decks (loan candidate)", "restock": True}
+                      for c in (config.get("loan_candidates") or {}).get("cards", []) if la.normalize(c["name"]) not in taken]
+        owed = list(config.get("pending_owned") or [])  # owed to him, counted as owned until it arrives and is scanned
+        deck_owned, missing = with_borrowed(owned, list(deck.get("borrowed", [])) + candidates + owed, index)
+        if missing:
+            print(f"{deck['slug']}: borrowed cards Scryfall does not know: {missing}")
+        entries = pool(set(commander.get("color_identity") or []), deck_owned, by_oid, language,
+                       exclude={commander["oracle_id"]})
+        seen = annotate_edhrec(entries, edhrec_data.load_cards(commander["name"]))
         data = {"slug": deck["slug"], "commander": commander["name"], "language_policy": deck.get("languages"),
                 "color_identity": sorted(commander.get("color_identity") or []), "cards": entries}
         (OUT_DIR / f"pool-{deck['slug']}.json").write_text(json.dumps(data, indent=1, ensure_ascii=False), encoding="utf-8")
-        print(f"{deck['slug']}: {len(entries)} owned cards fit {''.join(data['color_identity']) or 'C'}")
+        print(f"{deck['slug']}: {len(entries)} owned cards fit {''.join(data['color_identity']) or 'C'}; "
+              f"{seen} with EDHREC numbers")
     rows = legends(owned, by_oid)
     (OUT_DIR / "legends.json").write_text(json.dumps(rows, indent=1, ensure_ascii=False), encoding="utf-8")
     (OUT_DIR / "legends.md").write_text(legends_markdown(rows), encoding="utf-8")

@@ -99,7 +99,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Enchantments",
+    "synergy": 0.28778573325346285,
+    "inclusion": 0.4879,
+    "num_decks": 17002
+   }
   },
   {
    "name": "Arbaaz Mir",
@@ -180,7 +186,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.03671268524612736,
+    "inclusion": 0.7837,
+    "num_decks": 27309
+   }
   },
   {
    "name": "Ashaya, Soul of the Wild",
@@ -210,6 +222,49 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.3917871003273565,
+    "inclusion": 0.4345,
+    "num_decks": 15142
+   }
+  },
+  {
+   "name": "Aya of Alexandria",
+   "oracle_id": "27b690f2-d7ce-43b6-8e8b-98a8ffe487bb",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 4.0,
+   "mana_cost": "{2}{R}{W}",
+   "oracle_text": "Menace, lifelink\nWhenever a historic creature you control deals combat damage to a player, create a 1/1 black Assassin creature token with menace. (Artifacts, legendaries, and Sagas are historic.)",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 1960,
+     "in_stock": true,
+     "loan_class": "auto"
     }
    ]
   },
@@ -242,7 +297,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Utility Lands",
+    "synergy": 0.6006625518543571,
+    "inclusion": 0.6926,
+    "num_decks": 22417
+   }
   },
   {
    "name": "Banefire",
@@ -276,6 +337,43 @@
    ]
   },
   {
+   "name": "Bayek of Siwa",
+   "oracle_id": "b0322e2e-e9f9-4fe2-a7a5-3e49665ad177",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 5.0,
+   "mana_cost": "{3}{R}{W}",
+   "oracle_text": "Double strike\nDuring your turn, other historic creatures you control have double strike.\nDisguise {1}{R}{W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 915,
+     "in_stock": true,
+     "loan_class": "auto"
+    }
+   ]
+  },
+  {
    "name": "Beast Within",
    "oracle_id": "7735eeba-693b-47e2-bd51-414379cf1016",
    "type": "Instant",
@@ -304,7 +402,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": -0.039458585472488095,
+    "inclusion": 0.2608,
+    "num_decks": 9089
+   }
   },
   {
    "name": "Bender's Waterskin",
@@ -343,7 +447,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.2048363518163819,
+    "inclusion": 0.2371,
+    "num_decks": 8247
+   }
   },
   {
    "name": "Big Score",
@@ -438,7 +548,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.2576663268645185,
+    "inclusion": 0.2896,
+    "num_decks": 10092
+   }
   },
   {
    "name": "Brotherhood Headquarters",
@@ -498,6 +614,49 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.599239557567411,
+    "inclusion": 0.686,
+    "num_decks": 22444
+   }
+  },
+  {
+   "name": "Bureau Headmaster",
+   "oracle_id": "c022b5df-1d85-44c0-94a1-d01b345b845b",
+   "type": "Creature — Human Assassin",
+   "cmc": 2.0,
+   "mana_cost": "{R}{W}",
+   "oracle_text": "Equipment spells you cast cost {1} less to cast.\nEquip abilities you activate cost {1} less to activate.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
     }
    ]
   },
@@ -569,7 +728,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": -0.07162948105133893,
+    "inclusion": 0.127,
+    "num_decks": 4425
+   }
   },
   {
    "name": "Chord of Calling",
@@ -639,7 +804,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.41635726856567357,
+    "inclusion": 0.5407,
+    "num_decks": 18842
+   }
   },
   {
    "name": "Clifftop Retreat",
@@ -681,7 +852,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": -0.21751168441135452,
+    "inclusion": 0.2295,
+    "num_decks": 7999
+   }
   },
   {
    "name": "Collective Resistance",
@@ -793,7 +970,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": -0.0706909564312469,
+    "inclusion": 0.8362,
+    "num_decks": 29139
+   }
   },
   {
    "name": "Crop Rotation",
@@ -824,7 +1007,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.2709947570247602,
+    "inclusion": 0.3515,
+    "num_decks": 12248
+   }
   },
   {
    "name": "Cycle of Renewal",
@@ -855,7 +1044,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.32690781781096667,
+    "inclusion": 0.3799,
+    "num_decks": 12430
+   }
   },
   {
    "name": "Deflecting Swat",
@@ -886,7 +1081,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.05439877974155524,
+    "inclusion": 0.1897,
+    "num_decks": 6610
+   }
   },
   {
    "name": "Dualcaster Mage",
@@ -958,7 +1159,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.2606888564937425,
+    "inclusion": 0.2984,
+    "num_decks": 9692
+   }
   },
   {
    "name": "Earthbender Ascension",
@@ -988,6 +1195,49 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.5273209582232482,
+    "inclusion": 0.6063,
+    "num_decks": 19661
+   }
+  },
+  {
+   "name": "Eivor, Battle-Ready",
+   "oracle_id": "1b4a07bd-5345-4520-bd05-b5173e08135c",
+   "type": "Legendary Creature — Human Assassin Warrior",
+   "cmc": 5.0,
+   "mana_cost": "{3}{R}{W}",
+   "oracle_text": "Vigilance (Attacking doesn't cause this creature to tap.)\nHaste (This creature can attack as soon as it comes under your control.)\nWhenever Eivor attacks, it deals damage equal to the number of Equipment you control to each opponent.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
     }
    ]
   },
@@ -1050,6 +1300,42 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Enchanter's Bane",
+   "oracle_id": "1f0548f8-5dec-44b5-b5a9-e55fa4366e08",
+   "type": "Enchantment",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "At the beginning of your end step, target enchantment deals damage equal to its mana value to its controller unless that player sacrifices it.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
     }
    ]
   },
@@ -1139,7 +1425,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": -0.16386135463887147,
+    "inclusion": 0.3736,
+    "num_decks": 13020
+   }
   },
   {
    "name": "Faithless Looting",
@@ -1310,7 +1602,13 @@
      "quantity": 2,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": -0.010411760193500097,
+    "inclusion": 0.9604,
+    "num_decks": 33466
+   }
   },
   {
    "name": "Fortified Village",
@@ -1530,7 +1828,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.45864337122345733,
+    "inclusion": 0.5263,
+    "num_decks": 17033
+   }
   },
   {
    "name": "Hardened Scales",
@@ -1561,7 +1865,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Enchantments",
+    "synergy": 0.15111094023666333,
+    "inclusion": 0.2447,
+    "num_decks": 8527
+   }
   },
   {
    "name": "Hardlight Containment",
@@ -1623,7 +1933,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.17301903255360782,
+    "inclusion": 0.2527,
+    "num_decks": 8806
+   }
   },
   {
    "name": "Haru, Hidden Talent",
@@ -1654,7 +1970,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "High Lift Cards",
+    "synergy": 0.19717506887943492,
+    "inclusion": 0.2231,
+    "num_decks": 7744
+   }
   },
   {
    "name": "Haystack",
@@ -1716,7 +2038,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.3742177269112453,
+    "inclusion": 0.4134,
+    "num_decks": 14407
+   }
   },
   {
    "name": "Heaped Harvest",
@@ -1747,7 +2075,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.09107507155132605,
+    "inclusion": 0.1068,
+    "num_decks": 3720
+   }
   },
   {
    "name": "Helm of the Host",
@@ -1775,6 +2109,76 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Hidden Blade",
+   "oracle_id": "37ec9b95-8c9a-4dd5-9ff2-3d6527984126",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "Flash\nWhen this Equipment enters, attach it to target creature you control. If that creature is an Assassin, it gains deathtouch until end of turn.\nEquipped creature gets +1/+0 and has first strike.\nEquip {2}",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 742,
+     "in_stock": true,
+     "loan_class": "auto"
+    }
+   ]
+  },
+  {
+   "name": "Hidden Footblade",
+   "oracle_id": "daed1b38-510b-4698-95c3-05c09f5fabe9",
+   "type": "Artifact — Equipment",
+   "cmc": 1.0,
+   "mana_cost": "{R}",
+   "oracle_text": "Flash\nWhen this Equipment enters, attach it to target creature you control. That creature gains first strike until end of turn.\nEquipped creature gets +1/+0 and has haste.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
     }
    ]
   },
@@ -1836,7 +2240,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.5179389346992644,
+    "inclusion": 0.5651,
+    "num_decks": 19692
+   }
   },
   {
    "name": "Inscription of Abundance",
@@ -1866,6 +2276,79 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Kassandra, Eagle Bearer",
+   "oracle_id": "745b9a2c-bcd7-4db9-8cd0-d38be2ef6270",
+   "type": "Legendary Creature — Human Assassin Warrior",
+   "cmc": 3.0,
+   "mana_cost": "{1}{R}{W}",
+   "oracle_text": "Haste\nWhen Kassandra enters, search your graveyard, hand, and library for a card named The Spear of Leonidas, put it onto the battlefield, then shuffle.\nWhenever a creature you control with a legendary Equipment attached to it deals combat damage to a player, draw a card.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
+    }
+   ]
+  },
+  {
+   "name": "Layla Hassan",
+   "oracle_id": "e27feb69-3120-4e8d-8ee6-0f87b58e2ae3",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 4.0,
+   "mana_cost": "{3}{W}",
+   "oracle_text": "First strike\nWhen Layla Hassan enters and whenever one or more Assassins you control deal combat damage to a player, return target historic card from your graveyard to your hand.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 915,
+     "in_stock": true,
+     "loan_class": "auto"
     }
    ]
   },
@@ -1927,7 +2410,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "High Lift Cards",
+    "synergy": 0.25441771320243617,
+    "inclusion": 0.2778,
+    "num_decks": 9679
+   }
   },
   {
    "name": "Lithoform Engine",
@@ -1987,7 +2476,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.42431857830987546,
+    "inclusion": 0.4948,
+    "num_decks": 17243
+   }
   },
   {
    "name": "Mind Stone",
@@ -2016,7 +2511,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.13831184979276037,
+    "inclusion": 0.1722,
+    "num_decks": 6002
+   }
   },
   {
    "name": "Mishra's Bauble",
@@ -2044,6 +2545,46 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
+    }
+   ],
+   "edhrec": {
+    "list": "High Lift Cards",
+    "synergy": 0.2870228889259489,
+    "inclusion": 0.3135,
+    "num_decks": 10923
+   }
+  },
+  {
+   "name": "Mjölnir, Storm Hammer",
+   "oracle_id": "f497e9a5-0ad3-4aec-8422-14be8e0dba4c",
+   "type": "Legendary Artifact — Equipment",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "When Mjölnir enters, attach it to target legendary creature you control.\nWhenever equipped creature attacks, tap target creature defending player controls and put a stun counter on it. Then Mjölnir deals damage to each opponent equal to the number of tapped creatures that opponent controls.\nEquip {4}",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 29600,
+     "in_stock": true,
+     "loan_class": "evaluate"
     }
    ]
   },
@@ -2132,7 +2673,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": -0.011102471699212302,
+    "inclusion": 0.9419,
+    "num_decks": 32824
+   }
   },
   {
    "name": "Nutrient Block",
@@ -2161,7 +2708,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.05784161355837554,
+    "inclusion": 0.0656,
+    "num_decks": 2285
+   }
   },
   {
    "name": "Origin of Metalbending",
@@ -2191,6 +2744,48 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
+    }
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.32602175071445966,
+    "inclusion": 0.3799,
+    "num_decks": 12395
+   }
+  },
+  {
+   "name": "Overpowering Attack",
+   "oracle_id": "e31235f0-1f25-4158-b46e-cacde2f58b7e",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "mana_cost": "{3}{R}{R}",
+   "oracle_text": "Freerunning {2}{R} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nUntap all creatures you control that attacked this turn. If it's your main phase, there is an additional combat phase after this phase, followed by an additional main phase.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
     }
    ]
   },
@@ -2223,7 +2818,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": -0.03461540269595531,
+    "inclusion": 0.504,
+    "num_decks": 17562
+   }
   },
   {
    "name": "Plains",
@@ -2273,7 +2874,13 @@
      "quantity": 2,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": -0.017725148151545578,
+    "inclusion": 0.9462,
+    "num_decks": 32971
+   }
   },
   {
    "name": "Planar Outburst",
@@ -2304,7 +2911,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Sorceries",
+    "synergy": 0.09282552697220034,
+    "inclusion": 0.106,
+    "num_decks": 3695
+   }
   },
   {
    "name": "Ragost, Deft Gastronaut",
@@ -2377,7 +2990,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Sorceries",
+    "synergy": -0.21531157293479206,
+    "inclusion": 0.1645,
+    "num_decks": 5731
+   }
   },
   {
    "name": "Reckless Handling",
@@ -2469,7 +3088,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.22083649777377173,
+    "inclusion": 0.2726,
+    "num_decks": 9500
+   }
   },
   {
    "name": "Return the Favor",
@@ -2531,7 +3156,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.09060480300365044,
+    "inclusion": 0.1032,
+    "num_decks": 3580
+   }
   },
   {
    "name": "Rogue's Passage",
@@ -2570,7 +3201,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Utility Lands",
+    "synergy": -0.16386881962248306,
+    "inclusion": 0.099,
+    "num_decks": 3449
+   }
   },
   {
    "name": "Rootbound Crag",
@@ -2602,7 +3239,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": -0.11733911803788499,
+    "inclusion": 0.2902,
+    "num_decks": 10113
+   }
   },
   {
    "name": "Rugged Prairie",
@@ -2673,7 +3316,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.32546002675435437,
+    "inclusion": 0.3732,
+    "num_decks": 12056
+   }
   },
   {
    "name": "Sabotender",
@@ -2704,7 +3353,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.2255376685275325,
+    "inclusion": 0.2636,
+    "num_decks": 9187
+   }
   },
   {
    "name": "Sakura-Tribe Elder",
@@ -2764,7 +3419,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Utility Lands",
+    "synergy": 0.4370393470900586,
+    "inclusion": 0.5122,
+    "num_decks": 16737
+   }
   },
   {
    "name": "Seismic Sense",
@@ -2805,7 +3466,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Sorceries",
+    "synergy": 0.2292930569118555,
+    "inclusion": 0.2625,
+    "num_decks": 8587
+   }
   },
   {
    "name": "Selesnya Signet",
@@ -2836,6 +3503,48 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
+    }
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": -0.008399072944673555,
+    "inclusion": 0.0654,
+    "num_decks": 2279
+   }
+  },
+  {
+   "name": "Senu, Keen-Eyed Protector",
+   "oracle_id": "bf2dc318-7b51-451e-ac4d-0f1b756dc860",
+   "type": "Legendary Creature — Bird Scout",
+   "cmc": 2.0,
+   "mana_cost": "{1}{W}",
+   "oracle_text": "Flying, vigilance\n{T}, Exile Senu: You gain 2 life and scry 2.\nWhen a legendary creature you control attacks and isn't blocked, if this card is exiled, put it onto the battlefield attacking.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
     }
    ]
   },
@@ -2868,7 +3577,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Sorceries",
+    "synergy": 0.17758361405236528,
+    "inclusion": 0.2367,
+    "num_decks": 7690
+   }
   },
   {
    "name": "Sol Ring",
@@ -2917,7 +3632,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.03179099057645973,
+    "inclusion": 0.872,
+    "num_decks": 30387
+   }
   },
   {
    "name": "Soul-Guide Lantern",
@@ -2945,6 +3666,48 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.08608958127008924,
+    "inclusion": 0.0964,
+    "num_decks": 3358
+   }
+  },
+  {
+   "name": "Split Up",
+   "oracle_id": "2e82520a-9da3-49ae-b5c8-37e7ac8853fe",
+   "type": "Sorcery",
+   "cmc": 3.0,
+   "mana_cost": "{1}{W}{W}",
+   "oracle_text": "Choose one —\n• Destroy all tapped creatures.\n• Destroy all untapped creatures.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
     }
    ]
   },
@@ -2977,7 +3740,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.14529772736955715,
+    "inclusion": 0.1815,
+    "num_decks": 6324
+   }
   },
   {
    "name": "Starfall Invocation",
@@ -3068,7 +3837,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.13723026157041607,
+    "inclusion": 0.1656,
+    "num_decks": 5771
+   }
   },
   {
    "name": "Stroke of Midnight",
@@ -3109,7 +3884,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": -0.031117603664351595,
+    "inclusion": 0.0588,
+    "num_decks": 2049
+   }
   },
   {
    "name": "Sunpetal Grove",
@@ -3141,7 +3922,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": -0.146604801174258,
+    "inclusion": 0.2648,
+    "num_decks": 9228
+   }
   },
   {
    "name": "Survivors' Encampment",
@@ -3209,7 +3996,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.10771327362390498,
+    "inclusion": 0.3754,
+    "num_decks": 13083
+   }
   },
   {
    "name": "Swords to Plowshares",
@@ -3240,7 +4033,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": -0.0011855327225691603,
+    "inclusion": 0.5763,
+    "num_decks": 20082
+   }
   },
   {
    "name": "Talisman of Impulse",
@@ -3272,7 +4071,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.056545870302749254,
+    "inclusion": 0.1417,
+    "num_decks": 4939
+   }
   },
   {
    "name": "Tannuk, Memorial Ensign",
@@ -3304,7 +4109,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.4966778830339239,
+    "inclusion": 0.571,
+    "num_decks": 19899
+   }
   },
   {
    "name": "Terrasymbiosis",
@@ -3335,7 +4146,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Enchantments",
+    "synergy": 0.3496041636234074,
+    "inclusion": 0.4409,
+    "num_decks": 15363
+   }
   },
   {
    "name": "The Last Agni Kai",
@@ -3369,6 +4186,42 @@
    ]
   },
   {
+   "name": "The Spear of Leonidas",
+   "oracle_id": "dac3a263-cc02-446a-88ec-882a21096b6c",
+   "type": "Legendary Artifact — Equipment",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "Whenever equipped creature attacks, choose one —\n• Bull Rush — It gains double strike until end of turn.\n• Summon — Create Phobos, a legendary 3/2 red Horse creature token.\n• Revelation — Discard two cards, then draw two cards.\nEquip {2}",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
+    }
+   ]
+  },
+  {
    "name": "The Stasis Coffin",
    "oracle_id": "a46bfaf5-e631-4603-850a-f0074395b2f5",
    "type": "Legendary Artifact",
@@ -3395,7 +4248,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "High Lift Cards",
+    "synergy": 0.4153166888048228,
+    "inclusion": 0.4529,
+    "num_decks": 15783
+   }
   },
   {
    "name": "Tireless Provisioner",
@@ -3426,7 +4285,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.37100580146423784,
+    "inclusion": 0.4797,
+    "num_decks": 16715
+   }
   },
   {
    "name": "Tireless Tracker",
@@ -3457,7 +4322,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.12200369185139251,
+    "inclusion": 0.1594,
+    "num_decks": 5553
+   }
   },
   {
    "name": "Tome of Legends",
@@ -3518,7 +4389,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.5850915779593183,
+    "inclusion": 0.6706,
+    "num_decks": 21664
+   }
   },
   {
    "name": "Toph, the Blind Bandit",
@@ -3549,7 +4426,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.5106653792390651,
+    "inclusion": 0.5779,
+    "num_decks": 20056
+   }
   },
   {
    "name": "True Ancestry",
@@ -3580,7 +4463,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Sorceries",
+    "synergy": 0.058385882214148595,
+    "inclusion": 0.0679,
+    "num_decks": 2218
+   }
   },
   {
    "name": "Valakut Exploration",
@@ -3611,6 +4500,84 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
+   ],
+   "edhrec": {
+    "list": "Enchantments",
+    "synergy": 0.08774739079437316,
+    "inclusion": 0.1109,
+    "num_decks": 3866
+   }
+  },
+  {
+   "name": "Viewpoint Synchronization",
+   "oracle_id": "2e338e09-5758-4cc2-9143-21f050a28677",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "mana_cost": "{4}{G}",
+   "oracle_text": "Freerunning {2}{G} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nSearch your library for up to three basic land cards and reveal them. Put two of them onto the battlefield tapped and the other into your hand, then shuffle.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 742,
+     "in_stock": true,
+     "loan_class": "auto"
+    }
+   ]
+  },
+  {
+   "name": "Vincent, Vengeful Atoner",
+   "oracle_id": "b8961205-87fa-4cce-aba9-84fa2f91a67f",
+   "type": "Legendary Creature — Assassin",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "Menace\nWhenever one or more creatures you control deal combat damage to a player, put a +1/+1 counter on Vincent.\nChaos — Whenever Vincent deals combat damage to an opponent, it deals that much damage to each other opponent if Vincent's power is 7 or greater.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 2440,
+     "in_stock": true,
+     "loan_class": "auto"
+    }
    ]
   },
   {
@@ -3640,7 +4607,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.0909704886473409,
+    "inclusion": 0.1119,
+    "num_decks": 3900
+   }
   },
   {
    "name": "White Lotus Hideout",
@@ -3700,7 +4673,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Planeswalkers",
+    "synergy": 0.14366737975178412,
+    "inclusion": 0.1621,
+    "num_decks": 5650
+   }
   },
   {
    "name": "Zuran Orb",
@@ -3729,7 +4708,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.4364342322888711,
+    "inclusion": 0.5084,
+    "num_decks": 17716
+   }
   }
  ]
 }

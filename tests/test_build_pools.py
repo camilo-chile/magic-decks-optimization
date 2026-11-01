@@ -76,6 +76,41 @@ def test_legends_rank_by_the_spanish_only_pool_and_list_the_other_ones_last():
     assert "| Blue Hero | U | 1 | 3 | 3 |" in bp.legends_markdown(rows)
 
 
+def test_borrowed_cards_join_only_the_deck_that_borrows_them():
+    have, _ = owned()
+    loans = [{"name": "Counterspell", "language": "en", "quantity": 1, "set": "acr", "number": "17",
+              "from": "Standard decks", "restock": True}, {"name": "Nope"},
+             {"name": "Blue Hero", "proxy": True, "restock": True}]  # a proxy commander never joins a pool
+    deck_have, unknown = bp.with_borrowed(have, loans, INDEX)
+    counter = {c["name"]: c for c in bp.pool({"U"}, deck_have, BY_OID)}["Counterspell"]
+    assert counter["copies"] == 2 and counter["held_by"] == {"a": 1, "loan": 1} and counter["by_language"] == {"es": 1, "en": 1}
+    assert [p for p in counter["printings"] if p["deck"] == "loan"][0]["restock"] is True
+    assert unknown == ["Nope"] and have["o-counter"]["copies"] == 1  # the shared collection is not changed
+
+
+def test_owed_cards_and_loan_candidates_are_marked_apart_from_loans():
+    have, _ = owned()
+    extra = [{"name": "Counterspell", "status": "owed", "language": "es"},
+             {"name": "Sol Ring", "candidate": True, "clp": 742, "in_stock": True, "loan_class": "auto", "restock": True}]
+    deck_have, unknown = bp.with_borrowed(have, extra, INDEX)
+    entries = {c["name"]: c for c in bp.pool({"U"}, deck_have, BY_OID)}
+    assert entries["Counterspell"]["held_by"] == {"a": 1, "owed": 1} and unknown == []
+    sol = entries["Sol Ring"]
+    assert sol["held_by"] == {"a": 1, "free": 1, "loan candidate": 1}
+    loan = [p for p in sol["printings"] if p["deck"] == "loan candidate"][0]
+    assert loan["replacement_clp"] == 742 and loan["loan_class"] == "auto" and loan["in_stock"] is True
+
+
+def test_edhrec_numbers_are_added_to_the_pool_cards_that_have_them():
+    have, _ = owned()
+    entries = bp.pool({"U"}, have, BY_OID)
+    found = bp.annotate_edhrec(entries, {"sol ring": {"name": "Sol Ring", "list": "Top Cards", "synergy": -0.01,
+                                                      "inclusion": 0.95, "num_decks": 950, "potential_decks": 1000}})
+    sol = [e for e in entries if e["name"] == "Sol Ring"][0]
+    assert found == 1 and sol["edhrec"] == {"list": "Top Cards", "synergy": -0.01, "inclusion": 0.95, "num_decks": 950}
+    assert all("edhrec" not in e for e in entries if e["name"] != "Sol Ring")
+
+
 def test_commander_of_reads_the_planned_list():
     with tempfile.TemporaryDirectory() as tmp:
         root = Path(tmp)

@@ -1,0 +1,2058 @@
+{
+  "schema_version": 3,
+  "as_of": "2026-11-01",
+  "meta": {
+    "purpose": "Starting function profiles per Commander archetype for 100-card decks in 3 to 4 player pods at Bracket 3. A builder starts from the matching profile and then adjusts every count to the commander's own text (SKILL.md step 3). These are floors and aims, never a decklist template.",
+    "schema": "archetypes.<slug> = {name, recognize[], fuel, land_band[lo,hi], land_why, base{ramp,draw,removal,wipe,protection: {min,target,why,source}}, functions{<name>: {min,target,tier,needed_by,why,source}}, curve{avg_mv[lo,hi],creature_count[lo,hi],why}, win_routes_min, win_routes_hint, failure_modes[], sources[]}. `base` holds ONLY the five tag floors; every plan function (fuel, payoff, support, reference board) lives in `functions`. Optional keys on a function: if_commander_is_payoff, if_commander_is_source (each {needed_by,min,target}), counts_inside (the gate function whose cards a support line shares), unit (when min/target are not card counts).",
+    "units": "Every count is cards in the 99 (the commander is not counted unless a field says so). A card may count in several functions (multi-role), but carries one primary tag in the plan file.",
+    "min": "The floor. Below it the builder writes a reason the reviewer checks. For the five base keys this matches the warning level of scripts/plan_density.py when the archetype does not say otherwise.",
+    "target": "Where to aim when the slots allow it.",
+    "needed_by": "early = the function must show up by about turn 5 (12 cards seen in multiplayer); late = needed by about turn 13 (20 cards seen). plan_density.py asks 10 effective pieces for early functions (74 % to see one by 12 cards) and 6 for late ones (75 % by 20 cards).",
+    "judgment_marker": "A source string starting with [J] means builder judgment anchored on the hypergeometric table (references/probability.md), not a sourced number; the text after it names what the judgment rests on. Every other source names its note and source ID in docs/research/commander-deckbuilding/notes/. notes/13 is the ratio-gaps note: K1 K2 K3 = Karsten's three articles, CZ-new and CZ-old = the Command Zone templates, E1 = EDHREC Bracket 3 average decks counted by function (community behaviour, not quality), PG = Playgroup opening-hand data. [owner signal] = a lesson from the owner's play, kept as a general principle.",
+    "generic_base_sourced": "Lands: Command Zone 2025 template 38 (notes/13 CZ-new); Bracket 3 median 36, IQR 34 to 37 (notes/11 S15); EDHREC Bracket 3 averages 34 to 36 outside landfall (notes/13 E1); Karsten starts at 42 + Sol Ring and cuts one land per 2 to 3 extra rocks or 3 to 4 cheap cantrips (notes/13 K1). Ramp: CZ-new 10, 12 when the commander costs 4+; B3 median 13, IQR 10 to 18, counting rocks and rituals (notes/11 S15). Draw: CZ-new card advantage 12 (cards that net two or more); B3 median 10, IQR 7 to 13; floor 10 (notes/03 S1 S2 S3). Removal: B3 spot-removal median 5, IQR 3 to 7 (notes/11 S15); spot 5 to 8 and wipes 2 to 4 (notes/04 S4); CZ-new targeted disruption 12 (counters, bounce, tappers and graveyard hate included). Wipes: B3 median 2 (notes/11 S15); CZ-new mass disruption 6 (wipes plus tax, sweeper and graveyard effects). Protection: 5 to 7 (notes/04 S5, single source). Graveyard hate 1+ (notes/09 S17). Average mana value: B3 median 3.11, IQR 2.83 to 3.44 (notes/11 S15). Tutors: B3 median 4 (notes/11 S15).",
+    "removal_definition": "base.removal = SPOT answers only: one target per card (destroy, exile, bounce used as an answer, counterspell, steal, tap-lock, edict). Counterspells count here. Wipes are the separate base.wipe key. Total answers = removal + wipe, floor 8 to 10 (notes/04 S2). scripts/plan_density.py counts the primary `removal` tag the same way.",
+    "draw_definition": "base.draw = effective pieces that NET cards: repeatable draw, multi-card bursts, plan-tied draw met most turns. Cantrips, scry and loot are not draw (notes/03 S2). The default floor is 10; a profile goes lower only with a written reason (voltron 8).",
+    "commander_dependence": {
+      "applies_to": "base.protection of each profile is COMMANDER protection: protection that keeps the commander on the table, set by the dependence class (SKILL.md step 1). The profile stores its default class; the class of the actual commander overrides it.",
+      "engine": {
+        "min": 5,
+        "target": 7,
+        "text": "The plan stops when the commander is off the board (it must attack, cast, or trigger every turn). [J; anchored on 5 to 7 total protection, notes/04 S5, and the gate review's 4]"
+      },
+      "attack_engine": {
+        "min": 6,
+        "target": 8,
+        "text": "An engine that acts only by attacking or connecting: it is the visible threat and the first removal target. 6 to 10 protection pieces [J]; Rate My Decks asks 8 to 10 protection spells for voltron (notes/13 W1, opinion); EDHREC Bracket 3 average decks run 10 (combat) to 15.5 (voltron) cards tagged protection, a broad tag (notes/13 E1)."
+      },
+      "enabler": {
+        "min": 3,
+        "target": 4,
+        "text": "The commander starts or speeds the engine, but the 99 can run the plan without it [J]."
+      },
+      "value": {
+        "min": 2,
+        "target": 3,
+        "text": "The commander is a bonus; the 99 carry the plan [J]."
+      }
+    },
+    "protection_total": "Protection to plan for = commander protection (base.protection, from the class) + wipe_insurance (a function of board-based plans, SKILL.md step 6). A card counts in both only if it does both jobs. The class overrides the profile's default.",
+    "ramp_commander_rule": "Add 2 to the ramp min when the commander costs 4 or more (CZ-new: 10, or 12 with a 4+ commander). Karsten's simulation: rocks pay off only with a 4+ MV commander (notes/13 K1). Count ramp the SKILL.md step 4 way (a card counts only if the deck casts it by turn 3).",
+    "lean_low_land_rule": "A band below 36 is allowed only while BOTH hold: average MV of nonland cards under 2.8 AND 10+ cheap (MV 2 or less) ramp, draw or cantrip pieces. Karsten's formula (60-card tournament decks scaled to 99 cards, NOT Commander data; notes/13 K2): lands = 31.42 + 3.13 x average MV - 0.28 x cheap pieces. Otherwise 36 to 38 [J].",
+    "weights": {
+      "commander_conditional_piece": 0.5,
+      "one_shot_in_support_line": 0.5,
+      "single_small_ping_vs_wide_board": 0.5,
+      "copied_cantrip_as_draw": 0.5,
+      "conditional_draw_unmet_most_turns": 0.5,
+      "note": "[J] Weights the gate does not see. Commander-conditional pieces count 0.5 + 0.5 x min(1, protection pieces / protection min) for an engine commander (0.5 is the floor and the weight for any other commander). Support-line mins assume REPEATABLE permanents; a one-shot effect counts half. A 1-damage ping counts half against a wide board; team effects and scaling damage count full. A cantrip that the commander copies nets a card per copy: half a draw piece while the commander is out. Conditional draw counts half when the condition is not met most turns (references/role-players-and-upgrades.md 5, card-flow.md 2)."
+    },
+    "required_functions_of_the_gate": [
+      "through_wide_board",
+      "through_big_creatures"
+    ],
+    "required_functions_note": "Every profile carries through_wide_board and through_big_creatures as tier gate, needed_by early, 10+ pieces: the gate demands them of every plan. Combat archetypes fill them with evasion and removal; other archetypes fill them with their closers, non-combat damage and one-sided wipes. Support lines such as evasion, team_evasion and removal feed them.",
+    "unsupported_archetypes": {
+      "group_hug": "No read source gives a group-hug profile; only one ramp card is called a group-hug pick (notes/07 S1). Use pillowfort_goad for politics-based plans, or build from the generic base and mark every count [J]."
+    },
+    "tier": "Every function has a tier. 'gate' = declare it in the plan file 'functions' with its needed_by; its min already meets the gate's class (10 effective pieces early, 6 late, counting the commander and tutors). 'support' = a profile line the builder and the reviewer check against its own min; do NOT declare it alone in the plan file (a short line would fail the gate's class minimum): put its cards inside the gate function whose job they share (counts_inside) or under their primary tag (protection, draw, ramp). If the plan cannot work at all without a support line, promote it to a gate function and reach the class minimum (SKILL.md step 3.1 gives the haste test). Support mins assume repeatable permanents; one-shot effects count half (weights). The five base keys are tag counts, not plan-file functions.",
+    "if_commander_is_payoff": "Payoff functions carry an alternative: when the commander itself is the payoff (a guaranteed piece), the other payoffs are backups for when it is removed, so the function is judged late (6). Otherwise it is early (10).",
+    "if_commander_is_source": "Source functions (token makers, counter sources, fodder) carry the same alternative when the commander is a guaranteed source every turn it is out: the other sources are backups for when it is removed, judged late (6) [J]. A land-entry or draw engine is NOT covered: those must work in the turns before and after the commander.",
+    "hybrid": {
+      "rule": "Combine two archetypes only when the commander's text rewards both, or when one archetype is the fuel of the other (tokens feed sacrifice; land entries make counters; spells cast while attacking need the attacker profile; a conditional kill needs the attacker profile when it triggers on combat). Name one PRIMARY archetype; the other is SECONDARY.",
+      "how": [
+        "Land band: the primary's band; if the secondary's band overlaps, use the overlap.",
+        "Shared functions (ramp, draw, removal, wipe, protection and any function both profiles name): take the HIGHER min and target of the two, never the sum. Protection takes the class of the actual commander.",
+        "Secondary-only functions keep their min, but at least half of their pieces must also count as pieces of a primary function (a card that serves only the secondary is a second plan) [J].",
+        "A secondary that is only a MODIFIER (a cost reducer, a one-line bonus, a clause that rewards a card type) is sized as a support line, not as a plan: the function keeps the 'if_secondary_modifier' numbers when the profile has them (typal members 16 to 20) [J]. Such a modifier is live on most casts only when members are about a third of the deck's spells; check it with the odds tables.",
+        "Fit check: add the mins of all functions counting each card once; the result must fit in the non-land slots (SKILL.md step 3.5 does the arithmetic for single profiles too). If it does not, cut the secondary down to the pieces that also serve the primary, and drop every card that exists only for a secondary function that no longer reaches its min (gate rule: a function is dropped together with its cards).",
+        "Conflicting ranges (creature_count, avg_mv, spell_density counted only on instants and flash in a combat window): take the stricter one and write why.",
+        "Win routes: at least one route from the primary; the secondary may supply the non-combat or alternate route the gate asks for.",
+        "Failure modes: list both profiles' failure modes and say which cards answer each."
+      ],
+      "examples_of_valid_pairs": [
+        "go_wide_tokens + aristocrats_sacrifice (tokens are the fodder)",
+        "landfall_lands + plus_one_counters (land entries place counters)",
+        "spellslinger + combat_attackers (a commander that rewards spells cast in its combat window)",
+        "reanimator_graveyard + aristocrats_sacrifice (sacrificed creatures are reanimation targets)",
+        "alternate_kill + combat_attackers (the kill triggers on combat damage)",
+        "typal + combat_attackers (the type wins by attacking)"
+      ],
+      "sources": [
+        "notes/03 S5 (one main plan, subthemes only if they support the core)",
+        "notes/11 S3 (cards two steps from the plan become dead draws)",
+        "notes/06 S14 (too many subsystems failed)",
+        "[J] for the arithmetic"
+      ]
+    }
+  },
+  "archetypes": {
+    "landfall_lands": {
+      "name": "Landfall / lands matter",
+      "recognize": [
+        "Whenever a land enters the battlefield under your control",
+        "landfall",
+        "You may play an additional land",
+        "play lands from your graveyard",
+        "for each land you control",
+        "lands you control are / become creatures",
+        "sacrifice a land",
+        "return a land card"
+      ],
+      "fuel": "Land entries per turn. One natural land drop a turn is the baseline; the plan wants two or more entries a turn from about turn 4.",
+      "land_band": [38, 40],
+      "land_why": "Simulated cast rates: landfall 38 to 40 (notes/11 S14; notes/02 S2). EDHREC Bracket 3 landfall average decks hold a median of 39.5 lands, range 38 to 46 over 8 commanders (notes/13 E1); Playgroup gives 38 to 42 for heavy ramp and landfall (notes/02 S1). Karsten's start of 42, less one per 2 to 3 extra rocks and per 3 to 4 cheap cantrips, lands near 40 at average MV 3.2 (notes/13 K1, K2). Lean 40 when the deck sacrifices or recurs lands; extra land drops need lands in hand.",
+      "base": {
+        "ramp": {
+          "min": 18,
+          "target": 20,
+          "why": "[J, owner signal] A landfall plan needs far more ramp than another plan, so this profile sits at or above the TOP of the Bracket 3 interquartile range (median 13, IQR 10 to 18, notes/11 S15). EDHREC Bracket 3 landfall average decks tag a median of 28.5 cards as ramp (22 to 37; a broad tag that includes land tutors and extra drops, notes/13 E1). The 2019 note says landfall decks run fewer rocks and more land ramp, and no source gives a landfall total (notes/09 conflict 2). Prefer ramp that puts LANDS onto the battlefield: each is also a landfall trigger. Extra land drops have their own function.",
+          "source": "[J] owner signal; notes/11 S15; notes/13 E1; notes/09 conflict 2"
+        },
+        "draw": {
+          "min": 10,
+          "target": 12,
+          "why": "CZ-new card advantage 12 (cards that net two or more, notes/13 CZ-new); EDHREC landfall averages: card advantage 12, draw tag 8 (5 to 11) (notes/13 E1). Landfall payoffs that draw count here. Draw also finds the lands that extra drops need.",
+          "source": "notes/13 CZ-new; notes/13 E1; notes/03 S1"
+        },
+        "removal": {
+          "min": 6,
+          "target": 8,
+          "why": "Spot answers only (wipes are separate). B3 spot-removal median 5, IQR 3 to 7 (notes/11 S15); EDHREC landfall averages 5.5 (notes/13 E1); spot 5 to 8 (notes/04 S4). The deck is not combat-centred, so removal is a supporting role (notes/04 S3).",
+          "source": "notes/11 S15; notes/13 E1; notes/04 S3 S4"
+        },
+        "wipe": {
+          "min": 1,
+          "target": 2,
+          "why": "B3 median 2 (notes/11 S15); EDHREC landfall averages 1 (notes/13 E1). A board of lands survives creature wipes, so a wipe costs the deck less than it costs a creature deck; still prefer one-sided wipes (notes/04 S1).",
+          "source": "notes/11 S15; notes/13 E1; notes/04 S1"
+        },
+        "protection": {
+          "min": 3,
+          "target": 4,
+          "why": "Commander protection for a default 'enabler' commander (meta.commander_dependence): 3 to 4; the class of the actual commander overrides this. Wipe insurance is counted apart (functions.wipe_insurance). Fuel comes from the 99, so the default is enabler; protect the engine permanents (landfall enchantments, creatures) as much as the commander.",
+          "source": "[J] meta.commander_dependence; notes/04 S5",
+          "default_class": "enabler"
+        }
+      },
+      "functions": {
+        "land_entries": {
+          "min": 12,
+          "target": 16,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "The fuel function: every card that makes a land enter beyond the natural drop (land ramp onto the battlefield, extra land drops, fetch lands, land recursion, lands-onto-battlefield creatures). EDHREC Bracket 3 landfall averages put a median of 16 lands onto the battlefield by effects (11 to 20, notes/13 E1). Overlaps ramp on purpose (notes/07 S1; notes/11 S14). Budget entries per turn, not only cards (SKILL.md step 3.2): repeatable permanents give an entry every turn, one-shots give one.",
+          "source": "[J] partly sourced; notes/13 E1; notes/07 S1; notes/11 S14"
+        },
+        "extra_land_drops": {
+          "min": 5,
+          "target": 7,
+          "tier": "support",
+          "needed_by": "early",
+          "why": "REPEATABLE engines: permanents that let you play extra lands or put a land onto the battlefield every turn. The per-turn rate cannot exceed one land a turn without them (notes/07 S1). EDHREC landfall averages run a median of 7 (3 to 10, notes/13 E1). They need lands in hand: keep the land count at the top of the band. A one-shot effect counts half. Cards go inside land_entries.",
+          "source": "notes/07 S1; notes/13 E1",
+          "counts_inside": "land_entries"
+        },
+        "land_recursion": {
+          "min": 3,
+          "target": 5,
+          "tier": "support",
+          "needed_by": "late",
+          "why": "Lets lands enter again and again: sacrifice-and-return effects, graveyard land play, fetch lands that come back. EDHREC landfall averages run a median of 6 (2 to 11, notes/13 E1); the mechanism is also in notes/10 N3 N4 snippets. Cards go inside land_entries.",
+          "source": "notes/13 E1; notes/10 N3 N4",
+          "counts_inside": "land_entries"
+        },
+        "landfall_payoffs": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Ramp without payoffs makes a slow deck (notes/07 S9 snippet, notes/10 N3). EDHREC landfall averages run a median of 11.5 payoffs (5 to 21, notes/13 E1). The big payoffs compete for one role, so do not stack many expensive ones (notes/10 S1). When the commander is the payoff, the others are backups (late 6).",
+          "source": "notes/13 E1; notes/10 S1 N3; notes/07 S9",
+          "if_commander_is_payoff": {
+            "needed_by": "late",
+            "min": 6,
+            "target": 8
+          }
+        },
+        "mana_sinks": {
+          "min": 3,
+          "target": 4,
+          "tier": "support",
+          "needed_by": "late",
+          "why": "[J] Surplus mana must have a use: ramp past about five mana is no longer ramp (notes/07 S1); ramp that later turns into cards keeps its value (notes/07 S2).",
+          "source": "[J]; notes/07 S1; notes/07 S2"
+        },
+        "wipe_insurance": {
+          "min": 2,
+          "target": 3,
+          "tier": "support",
+          "needed_by": "late",
+          "why": "[J] The payoff creatures and enchantments are the exposed part of the board; team protection, recursion or rebuild engines (notes/04 S1 layers).",
+          "source": "[J]; notes/04 S1"
+        },
+        "through_wide_board": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats eight or more small chump blockers: non-combat damage or drain to each opponent, flyers or unblockables, one-sided wipes, 'creatures can't block' effects. Closers that ignore blockers count (notes/12 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        },
+        "through_big_creatures": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats two or more creatures bigger than yours: removal on the key blockers, deathtouch, flying, forced blocks, finishers that ignore blockers (notes/12 C1 C4 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        }
+      },
+      "curve": {
+        "avg_mv": [3.0, 3.5],
+        "creature_count": [22, 30],
+        "why": "Landfall preset at MV 3.0 (notes/11 S14); battlecruiser 3.5+ needs 38 to 40 lands (notes/02 S2); EDHREC landfall averages: MV 3.22, 25.5 creatures (notes/13 E1)."
+      },
+      "win_routes_min": 2,
+      "win_routes_hint": "Landfall tokens or damage that grows with land entries; team pump over a token board; a non-combat drain or damage per land entry (notes/10 S1 payoff list). No source rates a lands-only attack plan.",
+      "failure_modes": [
+        "Ramp with no payoffs on board: the deck does nothing with its mana (notes/07 S9 snippet; notes/10 N3).",
+        "Extra land drops in hand with no lands to play (notes/07 S1).",
+        "Flood with nothing to spend on: unused mana is wasted (notes/07 S2).",
+        "Payoffs that compete for the same role clog the curve (notes/10 S1).",
+        "Payoffs whose value comes on entry, not on landfall, get no landfall bonus (notes/10 S1 trap on Avenger-type cards).",
+        "Single-land removal or graveyard hate on a land-recursion engine (inference)."
+      ],
+      "sources": [
+        "notes/02 S1 S2",
+        "notes/07 S1 S2 S9",
+        "notes/09 S5",
+        "notes/10 S1 S2 S5 N3 N4",
+        "notes/11 S14",
+        "notes/13 CZ-new",
+        "notes/13 E1",
+        "notes/13 K1"
+      ]
+    },
+    "spellslinger": {
+      "name": "Spellslinger / instants and sorceries",
+      "recognize": [
+        "Whenever you cast an instant or sorcery",
+        "magecraft",
+        "copy target instant or sorcery",
+        "copy that spell",
+        "noncreature spell",
+        "prowess",
+        "flash",
+        "instant and sorcery spells you cast cost less"
+      ],
+      "fuel": "Instants and sorceries in hand when the commander's window is open. Every cast spends a card, so the hand empties fastest of any archetype.",
+      "land_band": [34, 36],
+      "land_why": "EDHREC Bracket 3 spellslinger average decks hold a median of 35 lands (34 to 36) at average MV 2.52 (notes/13 E1); the sample list runs 34 (notes/10 S7). Karsten's formula (60-card tournament decks scaled to 99, not Commander data) gives about 34 at MV 2.5 with 20 cheap draw or ramp pieces (notes/13 K2). This low band holds only under the lean-low rule (average MV under 2.8 AND 10+ cheap pieces); otherwise 36 to 38 [J].",
+      "base": {
+        "ramp": {
+          "min": 10,
+          "target": 12,
+          "why": "CZ-new 10, or 12 with a 4+ commander (notes/13 CZ-new); EDHREC spellslinger averages tag 13 (7 to 17, notes/13 E1). Treasure-making spells are the stated mana answer (notes/07 S4). Rituals give same-turn mana only (notes/10 S7 trap) and do not count.",
+          "source": "notes/13 CZ-new; notes/13 E1; notes/07 S4; notes/10 S7"
+        },
+        "draw": {
+          "min": 12,
+          "target": 18,
+          "why": "A commander built around DRAWING cards needs 15 to 20 (notes/03 S2); extending that to a commander that SPENDS cards is builder judgment [J]. CZ-new card advantage 12 (notes/13 CZ-new). EDHREC spellslinger averages: draw tag 21 (15 to 27, cantrips included) and card advantage tag 25 (20 to 29) against a Bracket 3 all-deck median of 10 (notes/13 E1). Count only draw that nets cards; cantrips replace themselves and go in spell_density (notes/03 S2).",
+          "source": "[J] spend extension; notes/03 S2; notes/13 CZ-new; notes/13 E1; notes/09 S17"
+        },
+        "removal": {
+          "min": 8,
+          "target": 10,
+          "why": "Spot answers incl. counterspells (wipes separate). EDHREC spellslinger averages tag 11 removal and 5 counterspells (notes/13 E1); instant-speed removal is also fuel for the commander's window.",
+          "source": "notes/13 E1; notes/04 S2 S4"
+        },
+        "wipe": {
+          "min": 2,
+          "target": 3,
+          "why": "Few own creatures, so wipes cost less (notes/04 S1: non-creature decks run more); EDHREC spellslinger averages 3 (notes/13 E1).",
+          "source": "notes/04 S1; notes/13 E1"
+        },
+        "protection": {
+          "min": 3,
+          "target": 4,
+          "why": "Commander protection for a default 'enabler' commander (meta.commander_dependence): 3 to 4; the class of the actual commander overrides this. Wipe insurance is counted apart (functions.wipe_insurance). Counterspells double as protection (notes/04 S5) and may be counted here when they can answer the removal aimed at the commander; the endgame needs protection and disruption (notes/07 S4).",
+          "source": "[J] meta.commander_dependence; notes/04 S5",
+          "default_class": "enabler"
+        }
+      },
+      "functions": {
+        "spell_density": {
+          "min": 30,
+          "target": 36,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Critical mass of instants and sorceries. EDHREC Bracket 3 spellslinger averages run a median of 36 (31 to 43, notes/13 E1); the EDHREC guide's sample list 38 (notes/10 S7); a Draftsim list 40 (snippet). Creatures 25 or fewer (notes/06 S1). If the commander rewards only spells cast in a window (for example while it attacks, or on opponents' turns), count only cards castable in that window (instants, flash).",
+          "source": "notes/13 E1; notes/10 S7; notes/06 S1; notes/03 F3 (snippet); notes/07 S7 (snippet)"
+        },
+        "spell_payoffs": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Engine plus payoffs or copy effects are the archetype's needs (notes/07 S4). EDHREC averages hold a median of 8 cast-payoffs by regex, which undercounts (3 to 15, notes/13 E1). Read each payoff's text for which spell types it counts (notes/10 S7). When the commander is the payoff, the others are backups (late 6).",
+          "source": "[J] gate class; notes/07 S4; notes/10 S7; notes/13 E1",
+          "if_commander_is_payoff": {
+            "needed_by": "late",
+            "min": 6,
+            "target": 8
+          }
+        },
+        "cost_reducers": {
+          "min": 2,
+          "target": 4,
+          "tier": "support",
+          "needed_by": "early",
+          "why": "Cost reducers for instants and sorceries make the commander's window cheaper. EDHREC spellslinger averages run a median of 3 (1 to 8, notes/13 E1). Count a reducer as ramp only if it applies to most of the deck's spells; check the window (a reducer that works only on your main phase does nothing in a combat window).",
+          "source": "notes/13 E1; [J] window check",
+          "counts_inside": "ramp"
+        },
+        "through_wide_board": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats eight or more small chump blockers: non-combat damage or drain to each opponent, flyers or unblockables, one-sided wipes, 'creatures can't block' effects. Closers that ignore blockers count (notes/12 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        },
+        "through_big_creatures": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats two or more creatures bigger than yours: removal on the key blockers, deathtouch, flying, forced blocks, finishers that ignore blockers (notes/12 C1 C4 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        }
+      },
+      "curve": {
+        "avg_mv": [2.5, 3.0],
+        "creature_count": [10, 25],
+        "why": "Cheap spells and instants rise with power (notes/09 S20 averages); EDHREC spellslinger averages: MV 2.52, 13 creatures (10 to 17), 36 instants and sorceries (notes/13 E1). [J] for the band."
+      },
+      "win_routes_min": 2,
+      "win_routes_hint": "Copied or repeated burn that hits each opponent, storm-style counts, token armies made by spells, an X spell. Include non-combat damage for when the board stalls (notes/10 S7).",
+      "failure_modes": [
+        "Forgetting a win condition (notes/07 S4).",
+        "The commander as the only win condition (notes/07 S7, unverified).",
+        "Running out of cards: hand empties before the payoff turn ([owner signal]; notes/03 S6 empty-hand sign).",
+        "Payoffs that count spell types the deck does not run (notes/10 S7).",
+        "Ritual mana spent the same turn only; no holding (notes/10 S7).",
+        "Board stalls, so attacks stop paying (notes/10 S7).",
+        "Effects that limit casting to sorcery speed or one spell a turn shut down a cast-trigger commander [J]."
+      ],
+      "sources": [
+        "notes/03 S2 SN8",
+        "notes/04 S5",
+        "notes/06 S1",
+        "notes/07 S4 S7",
+        "notes/09 S17 S20",
+        "notes/10 S7",
+        "notes/11 S15",
+        "notes/13 CZ-new",
+        "notes/13 E1",
+        "notes/13 K2"
+      ]
+    },
+    "go_wide_tokens": {
+      "name": "Go-wide tokens",
+      "recognize": [
+        "create a 1/1",
+        "create X tokens",
+        "for each creature you control",
+        "creatures you control get +",
+        "populate",
+        "whenever one or more tokens",
+        "if you would create one or more tokens"
+      ],
+      "fuel": "Bodies on the battlefield. A wide board is a top removal and wipe target.",
+      "land_band": [36, 38],
+      "land_why": "Token sample list 35 (notes/10 S10); EDHREC Bracket 3 token averages hold a median of 35 (35 to 36) at MV 3.05 (notes/13 E1); B3 median 36 (notes/11 S15); CZ-new 38. Karsten's formula (60-card decks scaled to 99, not Commander data) gives about 38 at MV 3.05 with 8 cheap pieces (notes/13 K2). Go to 35 only under the lean-low rule (meta.lean_low_land_rule).",
+      "base": {
+        "ramp": {
+          "min": 10,
+          "target": 12,
+          "why": "CZ-new 10 (notes/13 CZ-new); aggressive decks need less (notes/09 S17), but the Bracket 3 median counts 13 (notes/11 S15). Token averages tag 17 as ramp, a broad tag that includes Treasure (notes/13 E1).",
+          "source": "notes/13 CZ-new; notes/09 S17; notes/11 S15; notes/13 E1"
+        },
+        "draw": {
+          "min": 10,
+          "target": 12,
+          "why": "Base 10 (notes/03); refills after a wipe; aggressive decks need cheap refills (notes/09 S17).",
+          "source": "notes/03 S1 S2; notes/09 S17"
+        },
+        "removal": {
+          "min": 5,
+          "target": 7,
+          "why": "Spot answers only. Aggressive decks run 5 to 7 (notes/09 S17); B3 spot median 5 (notes/11 S15); used selectively (notes/04 S2).",
+          "source": "notes/09 S17; notes/11 S15; notes/04 S2"
+        },
+        "wipe": {
+          "min": 0,
+          "target": 1,
+          "why": "Wraths hurt tokens even when you cast them; only one-sided or synergy wipes (notes/04 S1, notes/06 S5). EDHREC token averages run 2 (notes/13 E1) but they are mostly one-sided.",
+          "source": "notes/04 S1; notes/06 S5; notes/13 E1"
+        },
+        "protection": {
+          "min": 3,
+          "target": 4,
+          "why": "Commander protection for a default 'enabler' commander (meta.commander_dependence): 3 to 4; the class of the actual commander overrides this. Wipe insurance is counted apart (functions.wipe_insurance). The board-wide worry is wipes: count it in wipe_insurance, not here.",
+          "source": "[J] meta.commander_dependence; notes/04 S5",
+          "default_class": "enabler"
+        }
+      },
+      "functions": {
+        "token_makers": {
+          "min": 15,
+          "target": 20,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Snippets disagree: 10 to 15 producers (notes/10 N1) against about a third of the list (N2); both unverified. EDHREC Bracket 3 token averages hold a median of 32 by a broad regex that includes Treasure (13 to 35, notes/13 E1). Repeatable makers count more than one-shots. Unsupported 1/1s backfire (notes/06 S1).",
+          "source": "[J] partly sourced; notes/13 E1; notes/10 N1 N2; notes/06 S1",
+          "if_commander_is_source": {
+            "needed_by": "late",
+            "min": 6,
+            "target": 8
+          }
+        },
+        "token_payoffs": {
+          "min": 6,
+          "target": 8,
+          "tier": "gate",
+          "needed_by": "late",
+          "why": "Anthems, overrun effects, damage per token, drain. EDHREC token averages: anthem tag median 6 (1 to 14), team pump 4 (0 to 6) (notes/13 E1). The N1 snippet's 2 to 3 payoffs is below the gate's late floor of 6. Board-dependent payoffs are weak early (anthem useful at about 5 creatures, lethal at 10, notes/10 S10).",
+          "source": "notes/13 E1; notes/10 S10 N1"
+        },
+        "doublers": {
+          "min": 0,
+          "target": 2,
+          "tier": "support",
+          "needed_by": "late",
+          "why": "Strong but dead without tokens in play (notes/10 S10; notes/12 C14). Snippet 1 to 2 (notes/10 N1).",
+          "source": "notes/10 S10; notes/12 C14; notes/10 N1"
+        },
+        "wipe_insurance": {
+          "min": 3,
+          "target": 4,
+          "tier": "support",
+          "needed_by": "late",
+          "why": "[J] Wipes are the main danger: indestructible, phasing, or rebuild engines (notes/04 S1 protection table; notes/12 C3: two plans, indestructible or recursion and tokens).",
+          "source": "[J]; notes/04 S1; notes/12 C3"
+        },
+        "sac_outlets": {
+          "min": 0,
+          "target": 2,
+          "tier": "support",
+          "needed_by": "late",
+          "why": "Free outlets turn wipes and edicts into value (notes/12 C1).",
+          "source": "notes/12 C1"
+        },
+        "through_wide_board": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Ways past eight or more small chump blockers: team evasion, flyers, unblockables, trample on a big attacker, 'creatures can't block' effects, one-sided wipes, scaling pingers, non-combat damage or drain. Menace and power-restricted evasion fail here (notes/12 C10; notes/06 S3); a single 1-damage ping counts half (role-players-and-upgrades.md 5). Support lines (evasion, team_evasion) put their cards inside this function.",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        },
+        "through_big_creatures": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Ways past two or more creatures bigger than yours: removal on the few key blockers, deathtouch, flying, forced blocks, pump plus trample, power-restricted evasion (notes/12 C1 C4; notes/06 S3).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        }
+      },
+      "curve": {
+        "avg_mv": [2.7, 3.2],
+        "creature_count": [25, 35],
+        "why": "Low curve to deploy wide; EDHREC token averages MV 3.05 (2.58 to 3.59), 26 creatures (notes/13 E1); B3 median 3.11 (notes/11 S15). [J] for the band."
+      },
+      "win_routes_min": 2,
+      "win_routes_hint": "Overrun or team pump (kills several players in one combat, notes/05 S4), damage per token entering, sacrifice drain, monarch drain (notes/10 S10).",
+      "failure_modes": [
+        "Board wipes, including your own symmetric ones (notes/10 S10, notes/04 S1).",
+        "Attack caps and taxes (two attackers per turn, pay per attacker) blunt wide attacks (notes/05 S5).",
+        "Payoffs drawn before the board exists (notes/10 S10).",
+        "Opponents at full life are much tougher than near 20 (notes/05 S3).",
+        "Mass edicts hurt less, but a token deck without outlets loses its board to sacrifice-wide effects (notes/06 S5)."
+      ],
+      "sources": [
+        "notes/04 S1",
+        "notes/05 S3 S4 S5",
+        "notes/06 S1 S5",
+        "notes/09 S17",
+        "notes/10 S10 N1 N2",
+        "notes/12 C1 C3 C14",
+        "notes/13 CZ-new",
+        "notes/13 E1",
+        "notes/13 K2"
+      ]
+    },
+    "voltron": {
+      "name": "Voltron (equipment or auras on one creature)",
+      "recognize": [
+        "equipped creature",
+        "enchanted creature",
+        "Equip",
+        "for each Aura and Equipment attached",
+        "attach",
+        "double strike",
+        "commander damage",
+        "hexproof"
+      ],
+      "fuel": "One protected, evasive, big threat that connects every turn. Wins by commander damage one player at a time.",
+      "land_band": [35, 37],
+      "land_why": "One aura list runs 34 (notes/06 S11, an outlier against 36 to 40); EDHREC Bracket 3 voltron averages hold a median of 35 (34 to 36) at MV 2.48 with 10 ramp (notes/13 E1); Karsten's formula (60-card decks scaled to 99, not Commander data) gives about 36 with 12 cheap pieces (notes/13 K2). Below 36 only under the lean-low rule (10+ rocks, MV under 2.8).",
+      "base": {
+        "ramp": {
+          "min": 10,
+          "target": 12,
+          "why": "8 to 12 mana rocks to cast the commander on turn 3 (notes/11 S16, opinion; Rate My Decks 8 to 12, notes/13 W1). Karsten: rocks pay off with a 4+ MV commander (notes/13 K1). EDHREC voltron averages tag 10 (3 to 15, notes/13 E1).",
+          "source": "notes/11 S16; notes/13 W1; notes/13 K1; notes/13 E1"
+        },
+        "draw": {
+          "min": 8,
+          "target": 10,
+          "why": "Below the default 10 on purpose: the one aura list has 11 draw (notes/06 S11); EDHREC voltron averages run draw 7 and card advantage 9 (notes/13 E1); combat-damage draw counts (notes/03 S2 combat-tied category).",
+          "source": "notes/06 S11; notes/13 E1; notes/03 S2"
+        },
+        "removal": {
+          "min": 5,
+          "target": 7,
+          "why": "Spot answers only. Aggressive decks run 5 to 7 (notes/09 S17); Rate My Decks 8 to 10 counts removal loosely (notes/13 W1, opinion).",
+          "source": "notes/09 S17; notes/13 W1"
+        },
+        "wipe": {
+          "min": 1,
+          "target": 2,
+          "why": "Few own creatures; a wipe plus an indestructible commander clears the way (notes/06 S9); EDHREC voltron averages 2 (notes/13 E1).",
+          "source": "notes/06 S9; notes/13 E1"
+        },
+        "protection": {
+          "min": 6,
+          "target": 8,
+          "why": "Commander protection for a default 'attack_engine' commander (meta.commander_dependence): 6 to 8; the class of the actual commander overrides this. Wipe insurance is counted apart (functions.wipe_insurance). The commander IS the plan: protection ranked first (notes/06 S9); Rate My Decks asks 8 to 10 protection spells (notes/13 W1, opinion); EDHREC voltron averages tag 15.5 (10 to 20, includes equipment, notes/13 E1). Cast the commander only when protection is ready and reserve tutors for protection (notes/11 S16). Stack two layers: one against targeted removal, one against destroy or damage (notes/06 S9 inference).",
+          "source": "[J] meta.commander_dependence; notes/04 S5",
+          "default_class": "attack_engine"
+        }
+      },
+      "functions": {
+        "equipment_auras": {
+          "min": 12,
+          "target": 16,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Rate My Decks asks at least 15 to 20 equipment and auras (notes/13 W1, opinion); search snippets give 12 to 18 (unverified); the one aura list runs about 20 auras (notes/06 S11). Equipment is the safer multiplayer choice because it stays when the creature dies (notes/11 S16). Spread auras over two carriers (notes/06 S11).",
+          "source": "[J] partly sourced; notes/13 W1; notes/06 S11; notes/11 S16"
+        },
+        "evasion": {
+          "min": 6,
+          "target": 8,
+          "tier": "support",
+          "needed_by": "early",
+          "why": "A 1/1 token can absorb a 25-power hit (notes/10 S12); trample, flying or unblockable on the carrier. EDHREC voltron averages tag a median of 5.5 evasion granters (2 to 12, notes/13 E1); snippets say 6 to 8. Evasion is one of three pillars (notes/11 S16). Its cards also count in through_wide_board and through_big_creatures.",
+          "source": "notes/10 S12; notes/13 E1; notes/11 S16",
+          "counts_inside": "through_wide_board"
+        },
+        "haste": {
+          "min": 2,
+          "target": 3,
+          "tier": "support",
+          "needed_by": "early",
+          "why": "Opponents remove the commander before it can attack (notes/06 S4). EDHREC voltron averages tag a median of 2 haste granters (1 to 4, notes/13 E1). Haste equipment also carries hexproof or shroud (notes/06 S15). Promote to a gate function with the haste test (SKILL.md step 3.1).",
+          "source": "notes/06 S4 S15; notes/13 E1"
+        },
+        "recursion": {
+          "min": 1,
+          "target": 2,
+          "tier": "support",
+          "needed_by": "late",
+          "why": "Return spent auras or equipment (notes/06 S11).",
+          "source": "notes/06 S11"
+        },
+        "wipe_insurance": {
+          "min": 1,
+          "target": 2,
+          "tier": "support",
+          "needed_by": "late",
+          "why": "[J] The board is one creature plus its gear; the commander's own protection is counted in base.protection. Equipment that stays and recursion for spent auras are the insurance.",
+          "source": "[J]"
+        },
+        "through_wide_board": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Ways past eight or more small chump blockers: team evasion, flyers, unblockables, trample on a big attacker, 'creatures can't block' effects, one-sided wipes, scaling pingers, non-combat damage or drain. Menace and power-restricted evasion fail here (notes/12 C10; notes/06 S3); a single 1-damage ping counts half (role-players-and-upgrades.md 5). Support lines (evasion, team_evasion) put their cards inside this function.",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        },
+        "through_big_creatures": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Ways past two or more creatures bigger than yours: removal on the few key blockers, deathtouch, flying, forced blocks, pump plus trample, power-restricted evasion (notes/12 C1 C4; notes/06 S3).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        }
+      },
+      "curve": {
+        "avg_mv": [2.3, 3.0],
+        "creature_count": [15, 30],
+        "why": "One voltron list's spells average 1.56 (notes/06 S9); EDHREC voltron averages MV 2.48, 17 creatures (notes/13 E1); cheap pump is central. [J] for the band."
+      },
+      "win_routes_min": 2,
+      "win_routes_hint": "Commander damage (21 from one commander, a rules fact not re-checked in the notes) needs one kill per opponent: add extra combats, double strike, or finishers that hit several players (notes/11 S16). The gate also asks for one non-combat route.",
+      "failure_modes": [
+        "The single threat is removed before combat (notes/10 S12).",
+        "Chump blockers absorb the hit (notes/10 S12).",
+        "Auras are lost in a 2-for-1 when the creature dies (notes/06 S11; notes/11 S16).",
+        "The voltron player becomes the table's archenemy (notes/11 S16).",
+        "One kill per turn loses to three opponents (notes/11 S16).",
+        "Attack caps such as two-attackers-per-turn do not stop it, but a 'can't attack' lock does (notes/05 S5)."
+      ],
+      "sources": [
+        "notes/03 S2",
+        "notes/04 S5",
+        "notes/05 S5",
+        "notes/06 S4 S9 S11 S15",
+        "notes/09 S17",
+        "notes/10 S12",
+        "notes/11 S16",
+        "notes/13 E1",
+        "notes/13 K1",
+        "notes/13 K2",
+        "notes/13 W1"
+      ]
+    },
+    "combat_attackers": {
+      "name": "Combat / attack-trigger (evasive attackers, typal aggro, commanders that act while attacking)",
+      "recognize": [
+        "Whenever ~ attacks",
+        "deals combat damage to a player",
+        "attacking creatures you control",
+        "menace",
+        "can't be blocked",
+        "additional combat phase",
+        "raid",
+        "whenever one or more creatures you control attack"
+      ],
+      "fuel": "Attackers that survive and connect every turn, starting the turn they arrive.",
+      "land_band": [36, 38],
+      "land_why": "B3 median 36 (notes/11 S15); EDHREC Bracket 3 combat averages hold a median of 35.5 (34 to 37) at MV 3.16 (notes/13 E1); CZ-new 38; Karsten's formula (60-card decks scaled to 99, not Commander data) gives about 38 with 10 cheap pieces (notes/13 K2). Aggro aims for a low curve and about 10 ramp (notes/12 C3, opinion): lean to 36 only under the lean-low rule.",
+      "base": {
+        "ramp": {
+          "min": 10,
+          "target": 12,
+          "why": "Aggro near 10, ramp ahead of early draw (notes/12 C3, opinion); CZ-new 10, or 12 with a 4+ commander (notes/13 CZ-new). EDHREC combat averages tag 13.5 (8 to 21, notes/13 E1).",
+          "source": "notes/12 C3; notes/13 CZ-new; notes/13 E1"
+        },
+        "draw": {
+          "min": 10,
+          "target": 12,
+          "why": "Default 10 (notes/03); combat-damage draw counts at full weight when the deck connects reliably, at half weight otherwise (notes/03 S2 conditional draw). EDHREC combat averages run less (draw 7, card advantage 8.5, notes/13 E1): that is community behaviour, not quality, and an attacker that spends its hand needs the refill.",
+          "source": "notes/03 S2; notes/13 E1"
+        },
+        "removal": {
+          "min": 5,
+          "target": 7,
+          "why": "Spot answers only. Aggressive decks 5 to 7 (notes/09 S17); removal is support and clears blockers selectively (notes/04 S2 S3). More answers than closing pieces is a red flag (SKILL.md step 15).",
+          "source": "notes/09 S17; notes/04 S2 S3"
+        },
+        "wipe": {
+          "min": 0,
+          "target": 1,
+          "why": "Symmetric wipes hit your own attackers (notes/04 S1, notes/06 S2). Only one-sided wipes. EDHREC combat averages 2.5 (notes/13 E1).",
+          "source": "notes/04 S1; notes/06 S2; notes/13 E1"
+        },
+        "protection": {
+          "min": 6,
+          "target": 8,
+          "why": "Commander protection for a default 'attack_engine' commander (meta.commander_dependence): 6 to 8; the class of the actual commander overrides this. Wipe insurance is counted apart (functions.wipe_insurance). Attackers and commander must live: 5 to 7 protection (notes/04 S5); EDHREC combat averages tag 10, a broad tag (notes/13 E1). A commander that is only an enabler uses the enabler class.",
+          "source": "[J] meta.commander_dependence; notes/04 S5",
+          "default_class": "attack_engine"
+        }
+      },
+      "functions": {
+        "attackers": {
+          "min": 12,
+          "target": 16,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "The fuel function: creatures that want to attack and can connect (evasive, hasty or big enough). Aggro runs 30+ creatures (notes/06 S1); EDHREC combat averages hold a median of 12 evasive creatures (7 to 26, notes/13 E1). Count only creatures the plan actually attacks with.",
+          "source": "[J]; notes/06 S1; notes/13 E1"
+        },
+        "haste": {
+          "min": 4,
+          "target": 6,
+          "tier": "support",
+          "needed_by": "early",
+          "why": "Opponents remove an attacker before it can attack (notes/06 S4). EDHREC combat averages tag a median of 4 haste granters (0 to 8) plus 2 hasty creatures, about 5 in all (notes/13 E1); one sourced deck runs six (notes/06 S4). Team haste for a wide board, single-target haste with protection for one or two key attackers (notes/12 U1 snippet). If the commander must attack, at least one haste source should reach it after a recast. Promote to a gate function (early, 10) with the haste test in SKILL.md step 3.1.",
+          "source": "notes/06 S4; notes/13 E1; notes/12 U1"
+        },
+        "team_evasion": {
+          "min": 6,
+          "target": 8,
+          "tier": "support",
+          "needed_by": "early",
+          "why": "[J, owner signal] Effects that cover the whole attack scale with its size: creatures can't block, type-wide or team-wide flying, fear, unblockable (notes/06 S3). Menace and 'can't be blocked by power 3 or more' do NOT count against a wide board of small blockers (notes/12 C10; notes/06 S3). Community average decks run far fewer (regex 1.5, evasion granters 3, notes/13 E1): the line comes from the owner's losses, not from behaviour. Floor 4 when the pool lacks 6, with through_wide_board carried by flyers, trample and non-combat damage.",
+          "source": "[J] owner signal; notes/06 S3; notes/12 C10; notes/13 E1",
+          "counts_inside": "through_wide_board"
+        },
+        "defense_while_tapped": {
+          "min": 4,
+          "target": 6,
+          "tier": "support",
+          "needed_by": "early",
+          "why": "[J] No source counts it as a whole (notes/05 gap, notes/12 gap). Sourced tools: vigilance (attacking does not tap; notes/12 C1; EDHREC combat averages run a median of 4 vigilance creatures (1 to 5), notes/13 E1), attack taxes (push attacks to other players; payers still attack; notes/05 S5, notes/12 C2), deathtouch and reach or flying blockers (notes/12 C1 C2), punishment effects (notes/05 S5), instant-speed responses held (notes/12 C5). Taxes, fogs and goad are about 0 in every community average sampled (notes/13 E1).",
+          "source": "[J] partly sourced; notes/12 C1 C2 C5; notes/05 S5; notes/13 E1"
+        },
+        "combat_draw": {
+          "min": 4,
+          "target": 6,
+          "tier": "support",
+          "needed_by": "early",
+          "why": "[J] Draw tied to combat damage is the plan's own card flow (notes/03 S2 category); a cheap plan-tied draw spell often beats a generic one in this archetype.",
+          "source": "[J]; notes/03 S2"
+        },
+        "wipe_insurance": {
+          "min": 2,
+          "target": 3,
+          "tier": "support",
+          "needed_by": "late",
+          "why": "[J] A wide attacking board is a wipe target: team protection, recursion, or creatures that return (notes/12 C1 C3 two plans against wipes).",
+          "source": "[J]; notes/12 C1 C3"
+        },
+        "through_wide_board": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Ways past eight or more small chump blockers: team evasion, flyers, unblockables, trample on a big attacker, 'creatures can't block' effects, one-sided wipes, scaling pingers, non-combat damage or drain. Menace and power-restricted evasion fail here (notes/12 C10; notes/06 S3); a single 1-damage ping counts half (role-players-and-upgrades.md 5). Support lines (evasion, team_evasion) put their cards inside this function.",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        },
+        "through_big_creatures": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Ways past two or more creatures bigger than yours: removal on the few key blockers, deathtouch, flying, forced blocks, pump plus trample, power-restricted evasion (notes/12 C1 C4; notes/06 S3).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        }
+      },
+      "curve": {
+        "avg_mv": [2.6, 3.2],
+        "creature_count": [28, 35],
+        "why": "Low-ramp aggro needs average 2.8 or lower (notes/12 C3, opinion); EDHREC combat averages MV 3.16, 30.5 creatures (notes/13 E1). Skipping two-drops leaves dead turns (notes/12 C3)."
+      },
+      "win_routes_min": 2,
+      "win_routes_hint": "Team-wide: overrun, extra combats, team double strike, damage on attack to each opponent. A single-target kill (one player per trigger) is a backup, not the main route (notes/05 S3 inference, notes/12 section 4). Three opponents at 40 life total 120 (notes/12 C3).",
+      "failure_modes": [
+        "Menace and power-restricted evasion fail against eight small chump blockers (notes/12 C10; notes/06 S3).",
+        "Fragile creatures (toughness 2 or less) die to pingers, blocks and small wipes (notes/06 section 4; gate review).",
+        "No haste: the attacker is removed before it ever attacks (notes/06 S4).",
+        "Wide open after attacking: the crack-back kills you ([owner signal]; notes/12 C1 C2).",
+        "One kill per turn against three opponents (notes/05 S3).",
+        "Going wide into a likely sweeper (notes/12 C1).",
+        "Becoming the table's main target (notes/12 C6).",
+        "Too much removal and too few threats: no damage gets through (notes/04 section 5)."
+      ],
+      "sources": [
+        "notes/03 S2",
+        "notes/04 S1 S2 S3 S5",
+        "notes/05 S3 S5",
+        "notes/06 S2 S3 S4",
+        "notes/09 S17",
+        "notes/11 S15",
+        "notes/12 C1 C2 C3 C5 C6 C10 U1",
+        "notes/13 CZ-new",
+        "notes/13 E1",
+        "notes/13 K2"
+      ]
+    },
+    "plus_one_counters": {
+      "name": "+1/+1 counters",
+      "recognize": [
+        "+1/+1 counter",
+        "proliferate",
+        "with a +1/+1 counter on it",
+        "double the number of counters",
+        "one or more counters",
+        "put that many +1/+1 counters"
+      ],
+      "fuel": "Counter placements every turn, multiplied by doublers.",
+      "land_band": [36, 38],
+      "land_why": "Counters guide list 34 (notes/10 S6); EDHREC Bracket 3 counters averages hold a median of 35 (34 to 37) at MV 2.79 (notes/13 E1); B3 median 36 (notes/11 S15). Below 36 only under the lean-low rule (meta.lean_low_land_rule).",
+      "base": {
+        "ramp": {
+          "min": 10,
+          "target": 12,
+          "why": "CZ-new 10 (notes/13 CZ-new); the upgrade guide cut ramp on a counters list that had too much (notes/09 S17). Counters averages tag 20, a broad tag (notes/13 E1).",
+          "source": "notes/13 CZ-new; notes/09 S17; notes/13 E1"
+        },
+        "draw": {
+          "min": 10,
+          "target": 12,
+          "why": "Base 10; counter payoffs that draw count (notes/10 S6).",
+          "source": "notes/03 S1; notes/10 S6"
+        },
+        "removal": {
+          "min": 6,
+          "target": 8,
+          "why": "Spot answers only. The upgrade guide expanded a counters list's 5 removal (notes/09 S17); EDHREC counters averages 6.5 (notes/13 E1).",
+          "source": "notes/09 S17; notes/13 E1"
+        },
+        "wipe": {
+          "min": 1,
+          "target": 2,
+          "why": "Prefer wipes that spare countered creatures (notes/07 S5: expected one-sided more than half the time); EDHREC counters averages 1 (notes/13 E1).",
+          "source": "notes/07 S5; notes/13 E1"
+        },
+        "protection": {
+          "min": 3,
+          "target": 4,
+          "why": "Commander protection for a default 'enabler' commander (meta.commander_dependence): 3 to 4; the class of the actual commander overrides this. Wipe insurance is counted apart (functions.wipe_insurance). A runaway counter board draws table attention (notes/07 S5); the counter sources must stay in play (notes/07 S5).",
+          "source": "[J] meta.commander_dependence; notes/04 S5",
+          "default_class": "enabler"
+        }
+      },
+      "functions": {
+        "counter_sources": {
+          "min": 12,
+          "target": 18,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "One counter source making too few counters is a named trap (notes/10 S6). EDHREC counters averages hold a median of 20.5 cards that place +1/+1 counters (3 to 46, notes/13 E1). Repeatable sources count more than one-shots.",
+          "source": "[J] partly sourced; notes/10 S6; notes/13 E1",
+          "if_commander_is_source": {
+            "needed_by": "late",
+            "min": 6,
+            "target": 8
+          }
+        },
+        "counter_doublers": {
+          "min": 4,
+          "target": 7,
+          "tier": "support",
+          "needed_by": "early",
+          "why": "Doublers and proliferate multiply every source (notes/07 S5; notes/10 S6); doublers are called essential in green (notes/07 S5). EDHREC counters averages hold a median of 11 (0 to 25, notes/13 E1).",
+          "source": "notes/07 S5; notes/10 S6; notes/13 E1"
+        },
+        "counter_payoffs": {
+          "min": 6,
+          "target": 8,
+          "tier": "gate",
+          "needed_by": "late",
+          "why": "[J] Payoff roles: draw, mana, damage, evasion, finishers by proliferate (notes/10 S6). Cards that multiply the trigger resource when the deck's main action happens are payoffs AND fuel.",
+          "source": "[J]; notes/10 S6"
+        },
+        "evasion": {
+          "min": 4,
+          "target": 6,
+          "tier": "support",
+          "needed_by": "early",
+          "why": "Blockers alone can stall a counters board (notes/07 S5); EDHREC counters averages run 6 evasive creatures (2 to 13, notes/13 E1). [J] for the line.",
+          "source": "[J]; notes/07 S5; notes/13",
+          "counts_inside": "through_wide_board"
+        },
+        "wipe_insurance": {
+          "min": 2,
+          "target": 3,
+          "tier": "support",
+          "needed_by": "late",
+          "why": "[J] A runaway board is the wipe target; wipes that spare countered creatures, indestructible effects, or counters that survive a bounce.",
+          "source": "[J]"
+        },
+        "through_wide_board": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Ways past eight or more small chump blockers: team evasion, flyers, unblockables, trample on a big attacker, 'creatures can't block' effects, one-sided wipes, scaling pingers, non-combat damage or drain. Menace and power-restricted evasion fail here (notes/12 C10; notes/06 S3); a single 1-damage ping counts half (role-players-and-upgrades.md 5). Support lines (evasion, team_evasion) put their cards inside this function.",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        },
+        "through_big_creatures": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Ways past two or more creatures bigger than yours: removal on the few key blockers, deathtouch, flying, forced blocks, pump plus trample, power-restricted evasion (notes/12 C1 C4; notes/06 S3).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        }
+      },
+      "curve": {
+        "avg_mv": [2.7, 3.1],
+        "creature_count": [28, 34],
+        "why": "EDHREC counters averages MV 2.79 (2.47 to 3.69), 29.5 creatures (notes/13 E1); B3 median 3.11 (notes/11 S15). [J] for the band."
+      },
+      "win_routes_min": 2,
+      "win_routes_hint": "Big evasive attackers, damage or life loss from counters, proliferate finishers (notes/10 S6).",
+      "failure_modes": [
+        "Blockers stall the counters board (notes/07 S5).",
+        "One counter source is too little (notes/10 S6).",
+        "Trigger order mistakes on the big payoff (notes/07 S5).",
+        "Table attention on a runaway board (notes/07 S5).",
+        "Black is the weakest color for counters (notes/10 S6)."
+      ],
+      "sources": [
+        "notes/02 S4",
+        "notes/04 S2",
+        "notes/07 S5",
+        "notes/09 S17",
+        "notes/10 S6",
+        "notes/11 S15",
+        "notes/13 CZ-new",
+        "notes/13 E1"
+      ]
+    },
+    "aristocrats_sacrifice": {
+      "name": "Aristocrats / sacrifice",
+      "recognize": [
+        "Sacrifice a creature:",
+        "Whenever a creature you control dies",
+        "Whenever another creature dies",
+        "each opponent loses 1 life",
+        "as an additional cost to cast this spell, sacrifice",
+        "Blood Artist-type drain"
+      ],
+      "fuel": "Bodies to sacrifice, a free outlet, and payoffs on each death; recursion loops the bodies.",
+      "land_band": [36, 38],
+      "land_why": "Aristocrats sample list 35 (notes/10 S11); EDHREC Bracket 3 aristocrats averages hold a median of 35.5 (34 to 36) at MV 2.77 (notes/13 E1); B3 median 36 (notes/11 S15). Below 36 only under the lean-low rule (meta.lean_low_land_rule).",
+      "base": {
+        "ramp": {
+          "min": 10,
+          "target": 12,
+          "why": "CZ-new 10 (notes/13 CZ-new); EDHREC aristocrats averages tag 17, a broad tag (notes/13 E1).",
+          "source": "notes/13 CZ-new; notes/13 E1"
+        },
+        "draw": {
+          "min": 10,
+          "target": 12,
+          "why": "Base 10; outlets and payoffs that draw count (notes/10 S11).",
+          "source": "notes/03 S1; notes/10 S11"
+        },
+        "removal": {
+          "min": 6,
+          "target": 8,
+          "why": "Spot answers only; edicts that hit each player fit (notes/04 S2). EDHREC aristocrats averages tag 14.5, a broad tag (notes/13 E1).",
+          "source": "notes/04 S2; notes/13 E1"
+        },
+        "wipe": {
+          "min": 2,
+          "target": 3,
+          "why": "Own creatures dying is value here, so symmetric wipes cost less [J]; B3 median 2 (notes/11 S15); EDHREC aristocrats averages 2 (notes/13 E1).",
+          "source": "[J]; notes/11 S15; notes/13 E1"
+        },
+        "protection": {
+          "min": 3,
+          "target": 4,
+          "why": "Commander protection for a default 'enabler' commander (meta.commander_dependence): 3 to 4; the class of the actual commander overrides this. Wipe insurance is counted apart (functions.wipe_insurance). The plan is spread over many cheap pieces.",
+          "source": "[J] meta.commander_dependence; notes/04 S5",
+          "default_class": "enabler"
+        }
+      },
+      "functions": {
+        "sac_outlets": {
+          "min": 10,
+          "target": 14,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Outlets are the most crucial piece: 7 to 12 slots (notes/07 S6 summary, unverified) or 6 to 8 free outlets (notes/07 S14, notes/10 N6, low authority). EDHREC aristocrats averages hold a median of 18 cards tagged as sacrifice outlets (14 to 25), a broad tag that includes costed outlets (notes/13 E1). Gate early class; the commander counts if it is an outlet. Free outlets are far stronger than costed ones (notes/10 S11). Keep a spare outlet before a kill attempt (notes/07 S6).",
+          "source": "notes/07 S6 S14; notes/10 S11 N6; notes/13 E1"
+        },
+        "fodder": {
+          "min": 14,
+          "target": 18,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Missing any of the three legs hurts (notes/10 S11). Token makers and creatures with death or enter value count. EDHREC aristocrats averages: token makers 17 (4 to 24), creatures 32.5 (notes/13 E1).",
+          "source": "[J] partly sourced; notes/10 S11; notes/13 E1",
+          "if_commander_is_source": {
+            "needed_by": "late",
+            "min": 6,
+            "target": 8
+          }
+        },
+        "death_payoffs": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Without payoffs the deck takes long solo turns that do nothing (notes/10 S11). EDHREC aristocrats averages hold a median of 7 by regex, which undercounts (2 to 13, notes/13 E1). Many fodder creatures are also payoffs (multi-role). When the commander is the payoff, the others are backups (late 6).",
+          "source": "[J] gate class; notes/10 S11; notes/13 E1",
+          "if_commander_is_payoff": {
+            "needed_by": "late",
+            "min": 6,
+            "target": 8
+          }
+        },
+        "recursion": {
+          "min": 6,
+          "target": 8,
+          "tier": "gate",
+          "needed_by": "late",
+          "why": "The loop is offer, return, offer again (notes/10 S11); generic recursion is 2 to 3, graveyard strategies run more (notes/04 S5). EDHREC aristocrats averages hold a median of 5.5 (2 to 13, notes/13 E1). Gate late class.",
+          "source": "notes/10 S11; notes/04 S5; notes/13 E1"
+        },
+        "through_wide_board": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats eight or more small chump blockers: non-combat damage or drain to each opponent, flyers or unblockables, one-sided wipes, 'creatures can't block' effects. Closers that ignore blockers count (notes/12 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        },
+        "through_big_creatures": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats two or more creatures bigger than yours: removal on the key blockers, deathtouch, flying, forced blocks, finishers that ignore blockers (notes/12 C1 C4 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        }
+      },
+      "curve": {
+        "avg_mv": [2.6, 3.1],
+        "creature_count": [28, 35],
+        "why": "Cheap bodies; EDHREC aristocrats averages MV 2.77, 32.5 creatures (notes/13 E1); B3 median 3.11 (notes/11 S15). [J] for the band."
+      },
+      "win_routes_min": 2,
+      "win_routes_hint": "Drain each opponent per death (hits all three at once), damage per sacrifice, a loop the Bracket 3 gate allows late.",
+      "failure_modes": [
+        "Missing one of outlets, fodder or payoffs (notes/10 S11).",
+        "Costed outlets instead of free ones (notes/10 S11).",
+        "A kill attempt with no spare outlet; a failed combo makes you the target (notes/07 S6, unverified).",
+        "Opponents stop cooperating once they see the engine (notes/10 S11).",
+        "Graveyard hate cuts the recursion loop (notes/04 S1).",
+        "Low creature power if the drain stops (notes/10 S11)."
+      ],
+      "sources": [
+        "notes/04 S1 S2 S5",
+        "notes/07 S6 S14",
+        "notes/10 S11 N6",
+        "notes/11 S15",
+        "notes/13 CZ-new",
+        "notes/13 E1"
+      ]
+    },
+    "reanimator_graveyard": {
+      "name": "Reanimator / graveyard",
+      "recognize": [
+        "return target creature card from a graveyard to the battlefield",
+        "mill",
+        "discard",
+        "from your graveyard",
+        "you may cast ... from your graveyard",
+        "whenever a creature card is put into your graveyard"
+      ],
+      "fuel": "Big creatures in the graveyard plus revival effects; a steady way to fill the graveyard.",
+      "land_band": [36, 38],
+      "land_why": "Reanimator guide list 36 (notes/10 S8); 38 to 40 claimed for Commander generally (notes/07 S3, no source); B3 median 36 (notes/11 S15). Reanimator was not sampled in the EDHREC averages (notes/13 E1).",
+      "base": {
+        "ramp": {
+          "min": 8,
+          "target": 10,
+          "why": "Below the default on purpose [J]: revival cheats mana, but hard-casting targets late is the backup (notes/10 S8). CZ-new 10 (notes/13 CZ-new).",
+          "source": "[J] revival cheats mana; notes/10 S8; notes/13 CZ-new"
+        },
+        "draw": {
+          "min": 10,
+          "target": 12,
+          "why": "Base 10; looting-style draw also fills the graveyard (notes/10 S8).",
+          "source": "notes/03 S1; notes/10 S8"
+        },
+        "removal": {
+          "min": 6,
+          "target": 8,
+          "why": "Spot answers only (notes/04 S2 S4).",
+          "source": "notes/04 S2 S4"
+        },
+        "wipe": {
+          "min": 2,
+          "target": 3,
+          "why": "Base; a wipe also stocks your graveyard [J].",
+          "source": "[J]; notes/11 S15"
+        },
+        "protection": {
+          "min": 3,
+          "target": 4,
+          "why": "Commander protection for a default 'enabler' commander (meta.commander_dependence): 3 to 4; the class of the actual commander overrides this. Wipe insurance is counted apart (functions.wipe_insurance). Graveyard-dependent commanders need protection (notes/10 S8, no specifics).",
+          "source": "[J] meta.commander_dependence; notes/04 S5",
+          "default_class": "enabler"
+        }
+      },
+      "functions": {
+        "graveyard_fillers": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "[J] Enablers usually cost 3 or less, almost never above 5 (notes/07 S3); self-mill, discard, looting, surveil, cards that put a chosen creature into the graveyard (notes/10 S8). Gate early class. No count sourced.",
+          "source": "[J]; notes/07 S3; notes/10 S8"
+        },
+        "reanimation": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Run several revival spells, not one or two (notes/07 S3); keep a spare (notes/10 S8). Gate early class; tutors that find a revival spell count. [J]",
+          "source": "[J]; notes/07 S3; notes/10 S8"
+        },
+        "reanimation_targets": {
+          "min": 8,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "late",
+          "why": "8 to 12 expensive creatures, usually 5 to 7 MV (notes/07 S3). Judged late because fillers that put a chosen creature into the graveyard give access to a target; above the gate's late class.",
+          "source": "notes/07 S3"
+        },
+        "nongraveyard_threats": {
+          "min": 3,
+          "target": 5,
+          "tier": "support",
+          "needed_by": "late",
+          "why": "[J] Keep threats that work without the graveyard so exile does not end the plan (notes/07 S3).",
+          "source": "[J]; notes/07 S3"
+        },
+        "through_wide_board": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats eight or more small chump blockers: non-combat damage or drain to each opponent, flyers or unblockables, one-sided wipes, 'creatures can't block' effects. Closers that ignore blockers count (notes/12 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        },
+        "through_big_creatures": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats two or more creatures bigger than yours: removal on the key blockers, deathtouch, flying, forced blocks, finishers that ignore blockers (notes/12 C1 C4 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        }
+      },
+      "curve": {
+        "avg_mv": [3.0, 3.6],
+        "creature_count": [25, 40],
+        "why": "Targets are 5 to 7 MV but are not meant to be cast; enablers are cheap (notes/07 S3). [J] for the band."
+      },
+      "win_routes_min": 2,
+      "win_routes_hint": "Reanimated finishers that hit each opponent or drain (notes/07 S3); a non-graveyard route for when the yard is exiled.",
+      "failure_modes": [
+        "Graveyard hate (notes/07 S3, notes/10 S8).",
+        "Big targets drawn with no enabler: dead cards (notes/10 S8); fix with looting, dual-role cards, late hard-casts.",
+        "Too few revival spells (notes/07 S3).",
+        "The reanimator becomes the table's focus (notes/10 S8).",
+        "Slow play is punished (notes/07 S3)."
+      ],
+      "sources": [
+        "notes/02 S4",
+        "notes/04 S2 S5",
+        "notes/07 S3",
+        "notes/10 S8",
+        "notes/11 S15",
+        "notes/13 CZ-new",
+        "notes/13 E1"
+      ]
+    },
+    "blink_etb": {
+      "name": "Blink / enter-the-battlefield value",
+      "recognize": [
+        "exile ... then return it to the battlefield",
+        "Whenever another creature enters the battlefield under your control",
+        "enters the battlefield, ",
+        "flicker",
+        "triggers an additional time"
+      ],
+      "fuel": "Creatures with strong enter effects plus blink effects to repeat them.",
+      "land_band": [36, 38],
+      "land_why": "Blink sample list 36 (notes/10 S9, 2021); B3 median 36 (notes/11 S15). Not sampled in the EDHREC averages (notes/13 E1).",
+      "base": {
+        "ramp": {
+          "min": 10,
+          "target": 12,
+          "why": "Enter-effect ramp creatures count (notes/10 S9); CZ-new 10 (notes/13 CZ-new).",
+          "source": "notes/10 S9; notes/13 CZ-new"
+        },
+        "draw": {
+          "min": 10,
+          "target": 12,
+          "why": "Enter-effect draw creatures count (notes/10 S9).",
+          "source": "notes/03 S1; notes/10 S9"
+        },
+        "removal": {
+          "min": 6,
+          "target": 8,
+          "why": "Spot answers only; enter-effect removal counts; creature removal crowds out noncreature answers (notes/10 S9).",
+          "source": "notes/10 S9; notes/04 S2"
+        },
+        "wipe": {
+          "min": 1,
+          "target": 2,
+          "why": "Creature-based deck: fewer creature-killing effects (notes/04 S5).",
+          "source": "notes/04 S5"
+        },
+        "protection": {
+          "min": 3,
+          "target": 4,
+          "why": "Commander protection for a default 'enabler' commander (meta.commander_dependence): 3 to 4; the class of the actual commander overrides this. Wipe insurance is counted apart (functions.wipe_insurance). Blink in response to removal is protection [J].",
+          "source": "[J] meta.commander_dependence; notes/04 S5",
+          "default_class": "enabler"
+        }
+      },
+      "functions": {
+        "etb_creatures": {
+          "min": 15,
+          "target": 20,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "[J] A lopsided mix of targets and blink effects suffers (notes/10 S9). Sample list has 40 creatures (notes/10 S9).",
+          "source": "[J]; notes/10 S9"
+        },
+        "blink_effects": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "[J] Gate early class. No source says whether repeatable or one-shot blink counts more; newer builders overload one-shot flicker and a lopsided mix of targets and blink effects underperforms (notes/07 S15 unverified; notes/10 S9). Judge by what each effect repeats.",
+          "source": "[J]; notes/07 S15; notes/10 S9"
+        },
+        "wipe_insurance": {
+          "min": 2,
+          "target": 3,
+          "tier": "support",
+          "needed_by": "late",
+          "why": "[J] A creature board is the wipe target; blink in response and recursion rebuild it.",
+          "source": "[J]"
+        },
+        "through_wide_board": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats eight or more small chump blockers: non-combat damage or drain to each opponent, flyers or unblockables, one-sided wipes, 'creatures can't block' effects. Closers that ignore blockers count (notes/12 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        },
+        "through_big_creatures": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats two or more creatures bigger than yours: removal on the key blockers, deathtouch, flying, forced blocks, finishers that ignore blockers (notes/12 C1 C4 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        }
+      },
+      "curve": {
+        "avg_mv": [2.8, 3.3],
+        "creature_count": [30, 40],
+        "why": "B3 median 3.11 (notes/11 S15); the sample list holds 40 creatures (notes/10 S9). [J] for the band."
+      },
+      "win_routes_min": 2,
+      "win_routes_hint": "Repeated enter drains or damage to each opponent; a haymaker that takes over with one or two blinks (notes/10 S9).",
+      "failure_modes": [
+        "Enter-effect hosers shut the plan down (notes/10 S9).",
+        "Imbalance between targets and blink effects (notes/10 S9).",
+        "The target is removed in response to the blink (notes/10 S9).",
+        "Removal slots all creature-based, leaving noncreature threats unanswered (notes/10 S9)."
+      ],
+      "sources": [
+        "notes/04 S5",
+        "notes/07 S15 S16",
+        "notes/10 S9",
+        "notes/11 S15",
+        "notes/13 CZ-new",
+        "notes/13 E1"
+      ]
+    },
+    "artifacts": {
+      "name": "Artifacts matter",
+      "recognize": [
+        "artifact spell",
+        "artifacts you control",
+        "Whenever an artifact enters",
+        "Treasure",
+        "affinity for artifacts",
+        "improvise",
+        "metalcraft"
+      ],
+      "fuel": "Artifact count on the battlefield and artifact entries.",
+      "land_band": [35, 37],
+      "land_why": "[J] No artifact composition source was read (notes/07 gap). Mana rocks are ramp in most definitions (notes/02 S4; notes/07 S2), so an artifact deck with 12+ rocks can sit at the low end under the lean-low rule; otherwise 36 to 38.",
+      "base": {
+        "ramp": {
+          "min": 10,
+          "target": 12,
+          "why": "Rocks are also artifact fuel; rocks that later become cards keep their value (notes/07 S2); CZ-new 10 (notes/13 CZ-new).",
+          "source": "notes/07 S2; notes/13 CZ-new"
+        },
+        "draw": {
+          "min": 10,
+          "target": 12,
+          "why": "Base 10 (notes/03).",
+          "source": "notes/03 S1"
+        },
+        "removal": {
+          "min": 6,
+          "target": 8,
+          "why": "Spot answers only (notes/04 S2 S4).",
+          "source": "notes/04 S2 S4"
+        },
+        "wipe": {
+          "min": 2,
+          "target": 2,
+          "why": "Base (notes/11 S15).",
+          "source": "notes/11 S15"
+        },
+        "protection": {
+          "min": 3,
+          "target": 4,
+          "why": "Commander protection for a default 'enabler' commander (meta.commander_dependence): 3 to 4; the class of the actual commander overrides this. Wipe insurance is counted apart (functions.wipe_insurance). Artifact wipes are the archetype's hazard (inference); see wipe_insurance.",
+          "source": "[J] meta.commander_dependence; notes/04 S5",
+          "default_class": "enabler"
+        }
+      },
+      "functions": {
+        "artifact_density": {
+          "min": 20,
+          "target": 25,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "[J] Only sample type counts exist: a ramp-theme average runs 20 artifacts (notes/09 S20), a typal average deck 14 (notes/10 S3). Weakly supported.",
+          "source": "[J]; notes/09 S20; notes/10 S3"
+        },
+        "artifact_payoffs": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "[J] No source. Gate early class; late 6 when the commander is the payoff.",
+          "source": "[J]",
+          "if_commander_is_payoff": {
+            "needed_by": "late",
+            "min": 6,
+            "target": 8
+          }
+        },
+        "wipe_insurance": {
+          "min": 2,
+          "target": 3,
+          "tier": "support",
+          "needed_by": "late",
+          "why": "[J] Artifact wipes and artifact hate are the archetype's hazard: protection that covers artifacts, recursion for them, or payoffs that are not artifacts.",
+          "source": "[J]"
+        },
+        "through_wide_board": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats eight or more small chump blockers: non-combat damage or drain to each opponent, flyers or unblockables, one-sided wipes, 'creatures can't block' effects. Closers that ignore blockers count (notes/12 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        },
+        "through_big_creatures": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats two or more creatures bigger than yours: removal on the key blockers, deathtouch, flying, forced blocks, finishers that ignore blockers (notes/12 C1 C4 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        }
+      },
+      "curve": {
+        "avg_mv": [2.6, 3.1],
+        "creature_count": [15, 28],
+        "why": "[J] No source."
+      },
+      "win_routes_min": 2,
+      "win_routes_hint": "[J] Damage or drain per artifact entering; a large artifact threat.",
+      "failure_modes": [
+        "Artifact wipes and artifact hate [J].",
+        "Rocks with nothing to cast late (notes/07 S2: Sol Ring near dead after the opener when the mana is not needed).",
+        "Card-type count without payoffs (generic engine-without-enablers risk, notes/11 S4)."
+      ],
+      "sources": [
+        "notes/02 S4",
+        "notes/07 S2 (gap noted)",
+        "notes/09 S20",
+        "notes/10 S3",
+        "notes/11 S4",
+        "notes/13 CZ-new"
+      ]
+    },
+    "enchantments": {
+      "name": "Enchantments matter / enchantress",
+      "recognize": [
+        "enchantment spell",
+        "constellation",
+        "Whenever an enchantment enters",
+        "Aura",
+        "enchantments you control"
+      ],
+      "fuel": "Enchantment casts and entries.",
+      "land_band": [36, 38],
+      "land_why": "[J] No enchantress source was read. Aura voltron list 34 (notes/06 S11); pillowfort lists 36 and 39 (notes/10 S4, notes/12 C15).",
+      "base": {
+        "ramp": {
+          "min": 10,
+          "target": 12,
+          "why": "CZ-new 10 (notes/13 CZ-new).",
+          "source": "notes/13 CZ-new"
+        },
+        "draw": {
+          "min": 10,
+          "target": 12,
+          "why": "Enchantress draw counts (notes/10 S13 role list).",
+          "source": "notes/03 S1; notes/10 S13"
+        },
+        "removal": {
+          "min": 6,
+          "target": 8,
+          "why": "Spot answers only (notes/04 S2 S4).",
+          "source": "notes/04 S2 S4"
+        },
+        "wipe": {
+          "min": 2,
+          "target": 3,
+          "why": "Base; few creatures (notes/04 S1).",
+          "source": "notes/04 S1"
+        },
+        "protection": {
+          "min": 3,
+          "target": 4,
+          "why": "Commander protection for a default 'enabler' commander (meta.commander_dependence): 3 to 4; the class of the actual commander overrides this. Wipe insurance is counted apart (functions.wipe_insurance). Enchantment wipes break the board (notes/10 S13); see wipe_insurance.",
+          "source": "[J] meta.commander_dependence; notes/04 S5",
+          "default_class": "enabler"
+        }
+      },
+      "functions": {
+        "enchantment_density": {
+          "min": 18,
+          "target": 25,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "[J] Aura voltron list 27 enchantments (notes/06 S11), pillowfort list 18 (notes/12 C15). Weakly supported.",
+          "source": "[J]; notes/06 S11; notes/12 C15"
+        },
+        "enchantment_payoffs": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "[J] No source. Gate early class; late 6 when the commander is the payoff.",
+          "source": "[J]",
+          "if_commander_is_payoff": {
+            "needed_by": "late",
+            "min": 6,
+            "target": 8
+          }
+        },
+        "wipe_insurance": {
+          "min": 2,
+          "target": 3,
+          "tier": "support",
+          "needed_by": "late",
+          "why": "[J] Enchantment wipes break the board (notes/10 S13): recursion for enchantments, protection that covers them, payoffs that are not enchantments.",
+          "source": "[J]; notes/10 S13"
+        },
+        "through_wide_board": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats eight or more small chump blockers: non-combat damage or drain to each opponent, flyers or unblockables, one-sided wipes, 'creatures can't block' effects. Closers that ignore blockers count (notes/12 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        },
+        "through_big_creatures": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats two or more creatures bigger than yours: removal on the key blockers, deathtouch, flying, forced blocks, finishers that ignore blockers (notes/12 C1 C4 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        }
+      },
+      "curve": {
+        "avg_mv": [2.6, 3.2],
+        "creature_count": [10, 25],
+        "why": "[J] No source."
+      },
+      "win_routes_min": 2,
+      "win_routes_hint": "[J] Enchantment-based drains or tokens; pillowfort finishers (notes/10 S13).",
+      "failure_modes": [
+        "Enchantment wipes (notes/10 S13).",
+        "Aura 2-for-1s (notes/06 S11).",
+        "No finisher (notes/10 S13)."
+      ],
+      "sources": [
+        "notes/04 S1 S2",
+        "notes/06 S11",
+        "notes/10 S4 S13",
+        "notes/12 C15",
+        "notes/13 CZ-new"
+      ]
+    },
+    "typal": {
+      "name": "Typal (tribal)",
+      "recognize": [
+        "Other [type]s you control get",
+        "[type] spells you cast",
+        "Whenever a [type] you control",
+        "choose a creature type",
+        "creatures of the chosen type"
+      ],
+      "fuel": "A dense board of one creature type; lords and typal payoffs.",
+      "land_band": [36, 38],
+      "land_why": "One typal average deck runs 33 (notes/10 S3); eight non-landfall samples average 34.9 (notes/10); B3 median 36 (notes/11 S15); CZ-new 38. Typal was not sampled in the EDHREC averages (notes/13 E1). Below 36 only under the lean-low rule (meta.lean_low_land_rule).",
+      "base": {
+        "ramp": {
+          "min": 10,
+          "target": 12,
+          "why": "CZ-new 10 (notes/13 CZ-new).",
+          "source": "notes/13 CZ-new"
+        },
+        "draw": {
+          "min": 10,
+          "target": 12,
+          "why": "Typal draw counts. The one typal sample ran only 3 draw (notes/06 S12), which is below every base.",
+          "source": "notes/03 S1; notes/06 S12"
+        },
+        "removal": {
+          "min": 6,
+          "target": 8,
+          "why": "Spot answers only. 'Too much theme, too few answers' is a named mistake; reserve interaction slots (notes/06 S10).",
+          "source": "notes/06 S10; notes/04 S2"
+        },
+        "wipe": {
+          "min": 1,
+          "target": 2,
+          "why": "One that spares your own type; lopsided wipes singled out a typal board in testing (notes/06 S12).",
+          "source": "notes/06 S12"
+        },
+        "protection": {
+          "min": 3,
+          "target": 4,
+          "why": "Commander protection for a default 'enabler' commander (meta.commander_dependence): 3 to 4; the class of the actual commander overrides this. Wipe insurance is counted apart (functions.wipe_insurance). Wide typal boards are wipe targets (notes/06 S5): count that in wipe_insurance.",
+          "source": "[J] meta.commander_dependence; notes/04 S5",
+          "default_class": "enabler"
+        }
+      },
+      "functions": {
+        "type_members": {
+          "min": 25,
+          "target": 30,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "30 or more creatures for typal; lords need a dense board (notes/06 S1). When typal is only a SECONDARY modifier (a cost reducer or a one-line bonus, not a body count), use the if_secondary_modifier numbers: members are enough when about a third of the deck's spells carry the type, and 16 pieces give 84 % to hold one by turn 3 (probability.md A) [J].",
+          "source": "notes/06 S1; [J] secondary modifier",
+          "if_secondary_modifier": {
+            "min": 16,
+            "target": 20,
+            "tier": "support"
+          }
+        },
+        "lords_payoffs": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "One typal list runs 11 anthems (notes/06 S12). Gate early class; late 6 when the commander is the lord or payoff [J]. A type-wide effect that gives the whole attack evasion or protection (type-wide flying, 'can't be blocked', 'creatures can't block', type-wide hexproof) is a role-player: one card covers every attacker (notes/06 S3).",
+          "source": "[J]; notes/06 S12; notes/06 S3",
+          "if_commander_is_payoff": {
+            "needed_by": "late",
+            "min": 6,
+            "target": 8
+          }
+        },
+        "theme_share": {
+          "min": 32,
+          "target": 45,
+          "tier": "support",
+          "needed_by": "early",
+          "why": "Cards on theme out of about 63 non-land cards: about 75 % (45 to 47) as the aim, a floor near half (32), plus reserved interaction slots (notes/06 S10, a 2017 opinion; treat as historical). Also a ceiling: more theme than this starves interaction.",
+          "source": "notes/06 S10",
+          "unit": "cards on theme out of about 63 non-land cards",
+          "ceiling": 47
+        },
+        "wipe_insurance": {
+          "min": 3,
+          "target": 4,
+          "tier": "support",
+          "needed_by": "late",
+          "why": "[J] A dense typal board is a wipe target: team protection, indestructible, recursion (notes/06 S5).",
+          "source": "[J]; notes/06 S5"
+        },
+        "through_wide_board": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Ways past eight or more small chump blockers: team evasion, flyers, unblockables, trample on a big attacker, 'creatures can't block' effects, one-sided wipes, scaling pingers, non-combat damage or drain. Menace and power-restricted evasion fail here (notes/12 C10; notes/06 S3); a single 1-damage ping counts half (role-players-and-upgrades.md 5). Support lines (evasion, team_evasion) put their cards inside this function.",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        },
+        "through_big_creatures": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "Ways past two or more creatures bigger than yours: removal on the few key blockers, deathtouch, flying, forced blocks, pump plus trample, power-restricted evasion (notes/12 C1 C4; notes/06 S3).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        }
+      },
+      "curve": {
+        "avg_mv": [2.6, 3.1],
+        "creature_count": [28, 36],
+        "why": "B3 median 3.11 (notes/11 S15). [J] for the band."
+      },
+      "win_routes_min": 2,
+      "win_routes_hint": "Typal overrun or team evasion for the type; drain per member. Apply the combat_attackers profile if the type wins by attacking (hybrid).",
+      "failure_modes": [
+        "Too much theme, too few answers (notes/06 S10).",
+        "Self-hosing wraths (notes/06 S2, S12).",
+        "Members that are weak cards on their own (inference; dead-alone rule).",
+        "Fragile members die to small wipes (notes/06 section 4)."
+      ],
+      "sources": [
+        "notes/06 S1 S2 S5 S10 S12",
+        "notes/10 S3",
+        "notes/11 S15",
+        "notes/13 CZ-new",
+        "notes/13 E1"
+      ]
+    },
+    "control_stax_lite": {
+      "name": "Control / light stax (Bracket 3 legal)",
+      "recognize": [
+        "counter target spell",
+        "players can't",
+        "each opponent can't",
+        "spells cost {1} more",
+        "destroy all",
+        "tap target permanent",
+        "skip"
+      ],
+      "fuel": "Answers and card advantage over a long game, then one finisher.",
+      "land_band": [36, 38],
+      "land_why": "B3 median 36 (notes/11 S15); long games need land drops [J].",
+      "base": {
+        "ramp": {
+          "min": 10,
+          "target": 12,
+          "why": "CZ-new 10 (notes/13 CZ-new).",
+          "source": "notes/13 CZ-new"
+        },
+        "draw": {
+          "min": 12,
+          "target": 15,
+          "why": "Control leans on card advantage (notes/03 SN7, snippet); CZ-new card advantage 12 (notes/13 CZ-new); 12+ (notes/09 S17).",
+          "source": "notes/03 SN7; notes/13 CZ-new; notes/09 S17"
+        },
+        "removal": {
+          "min": 12,
+          "target": 15,
+          "why": "Spot answers INCLUDING counterspells (the counterspells line counts inside): a long-game deck runs 15 or more (notes/09 S17); CZ-new targeted disruption 12 (notes/13 CZ-new).",
+          "source": "notes/09 S17; notes/13 CZ-new"
+        },
+        "wipe": {
+          "min": 3,
+          "target": 5,
+          "why": "Control decks run more wipes; 3 to 5 is the figure for most decks (notes/04 S1), so control sits at its upper end [J]. CZ-new mass disruption 6 (notes/13 CZ-new).",
+          "source": "[J]; notes/04 S1; notes/13 CZ-new"
+        },
+        "protection": {
+          "min": 3,
+          "target": 4,
+          "why": "Commander protection for a default 'enabler' commander (meta.commander_dependence): 3 to 4; the class of the actual commander overrides this. Wipe insurance is counted apart (functions.wipe_insurance). Counterspells double as protection (notes/04 S5).",
+          "source": "[J] meta.commander_dependence; notes/04 S5",
+          "default_class": "enabler"
+        }
+      },
+      "functions": {
+        "counterspells": {
+          "min": 4,
+          "target": 6,
+          "tier": "support",
+          "needed_by": "early",
+          "why": "B3 median 1 counterspell (IQR 0 to 3) for the average deck (notes/11 S15); EDHREC spellslinger averages 5 (2 to 12, notes/13 E1) is the nearest sample; control runs more. A few counters stop wipes aimed at you (notes/05 S5). Cards also count in base.removal.",
+          "source": "[J]; notes/11 S15; notes/13 E1; notes/05 S5",
+          "counts_inside": "removal"
+        },
+        "finishers": {
+          "min": 6,
+          "target": 8,
+          "tier": "gate",
+          "needed_by": "late",
+          "why": "Each deck needs a named finisher; value alone seldom ends games (notes/03 S5; notes/11 S17). Gate late class; tutors that can fetch a finisher count as pieces.",
+          "source": "notes/03 S5; notes/11 S17"
+        },
+        "through_wide_board": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats eight or more small chump blockers: non-combat damage or drain to each opponent, flyers or unblockables, one-sided wipes, 'creatures can't block' effects. Closers that ignore blockers count (notes/12 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        },
+        "through_big_creatures": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats two or more creatures bigger than yours: removal on the key blockers, deathtouch, flying, forced blocks, finishers that ignore blockers (notes/12 C1 C4 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        }
+      },
+      "curve": {
+        "avg_mv": [2.8, 3.3],
+        "creature_count": [8, 20],
+        "why": "B3 median 3.11 (notes/11 S15). [J] for the band."
+      },
+      "win_routes_min": 2,
+      "win_routes_hint": "A finisher that ends the game the turn it lands (notes/03 S1 'I-Win card'); a second one so one counterspell does not stop the plan (notes/03 S5).",
+      "failure_modes": [
+        "No finisher; draw that does not advance the kill gives the table time (notes/11 S17).",
+        "Sweeper-heavy decks make pods concede or gang up (notes/06 S14; notes/05 S3 wipes draw the table's attention).",
+        "Griefer cards (global locks) draw battle lines against you (notes/11 S8).",
+        "Mass land denial and chained extra turns are not allowed in Bracket 3 (docs/research/commander-brackets-rules-snapshot.md)."
+      ],
+      "sources": [
+        "notes/03 S1 S5 SN7",
+        "notes/04 S1 S5",
+        "notes/05 S5",
+        "notes/06 S14",
+        "notes/09 S17",
+        "notes/11 S8 S15 S17",
+        "notes/13 CZ-new",
+        "notes/13 E1"
+      ]
+    },
+    "pillowfort_goad": {
+      "name": "Pillow fort / goad (politics)",
+      "recognize": [
+        "creatures can't attack you",
+        "goad",
+        "attacks you or a planeswalker you control",
+        "for each creature attacking you",
+        "prevent all combat damage",
+        "attacks another player"
+      ],
+      "fuel": "Deterrents that make attacking you pointless, then a finisher that wins through the other players.",
+      "land_band": [36, 39],
+      "land_why": "Pillowfort lists run 36 (notes/10 S4) and 39 (notes/12 C15).",
+      "base": {
+        "ramp": {
+          "min": 10,
+          "target": 12,
+          "why": "CZ-new 10 (notes/13 CZ-new).",
+          "source": "notes/13 CZ-new"
+        },
+        "draw": {
+          "min": 10,
+          "target": 12,
+          "why": "Base 10 (notes/03); slow plan.",
+          "source": "notes/03 S1"
+        },
+        "removal": {
+          "min": 6,
+          "target": 8,
+          "why": "Spot answers only (notes/04 S2 S4).",
+          "source": "notes/04 S2 S4"
+        },
+        "wipe": {
+          "min": 2,
+          "target": 3,
+          "why": "Base; go-wide aggro is the archetype's weak spot (notes/10 S13).",
+          "source": "notes/10 S13"
+        },
+        "protection": {
+          "min": 3,
+          "target": 4,
+          "why": "Commander protection for a default 'enabler' commander (meta.commander_dependence): 3 to 4; the class of the actual commander overrides this. Wipe insurance is counted apart (functions.wipe_insurance). Enchantment wipes break the fort (notes/10 S13); see wipe_insurance.",
+          "source": "[J] meta.commander_dependence; notes/04 S5",
+          "default_class": "enabler"
+        }
+      },
+      "functions": {
+        "attack_deterrents": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "[J] Taxes, punishers, fogs, goad and deterrent blockers (notes/10 S13; notes/12 C1 C2 C15). Taxes stop only opponents who cannot pay (notes/05 S5); punishment is preferred by one source (notes/05 S5). No community average sampled runs any: taxes and fogs are about 0 in every archetype sampled (notes/13 E1, no pillowfort sample).",
+          "source": "[J]; notes/10 S13; notes/12 C1 C2 C15; notes/05 S5; notes/13"
+        },
+        "finishers": {
+          "min": 6,
+          "target": 8,
+          "tier": "gate",
+          "needed_by": "late",
+          "why": "Name a finisher route (notes/10 S13); the last opponent still has to be beaten (notes/05 S5). Gate late class; tutors that can fetch a finisher count.",
+          "source": "notes/10 S13; notes/05 S5"
+        },
+        "wipe_insurance": {
+          "min": 2,
+          "target": 3,
+          "tier": "support",
+          "needed_by": "late",
+          "why": "[J] Enchantment wipes and go-wide aggro are the weak spots (notes/10 S13).",
+          "source": "[J]; notes/10 S13"
+        },
+        "through_wide_board": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats eight or more small chump blockers: non-combat damage or drain to each opponent, flyers or unblockables, one-sided wipes, 'creatures can't block' effects. Closers that ignore blockers count (notes/12 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        },
+        "through_big_creatures": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats two or more creatures bigger than yours: removal on the key blockers, deathtouch, flying, forced blocks, finishers that ignore blockers (notes/12 C1 C4 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        }
+      },
+      "curve": {
+        "avg_mv": [2.8, 3.4],
+        "creature_count": [10, 20],
+        "why": "[J] No source."
+      },
+      "win_routes_min": 2,
+      "win_routes_hint": "Point opponents at each other, then win with a finisher, token engine or alternate win (notes/10 S13).",
+      "failure_modes": [
+        "Go-wide aggro and opponents who can pay the tax (notes/10 S13; notes/05 S5).",
+        "Enchantment wipes (notes/10 S13).",
+        "Haste gets around goad (notes/05 S5; notes/10 S13).",
+        "Slow payoff, and the last opponent (notes/05 S5).",
+        "Whole-table deterrents hurt your own position; one-sided ones keep the table fighting (notes/12 C7)."
+      ],
+      "sources": [
+        "notes/02 S4",
+        "notes/03",
+        "notes/05 S5",
+        "notes/10 S4 S13",
+        "notes/12 C1 C2 C7 C15",
+        "notes/13 CZ-new",
+        "notes/13 E1"
+      ]
+    },
+    "big_mana_ramp": {
+      "name": "Big mana / battlecruiser",
+      "recognize": [
+        "Add {C}{C}",
+        "for each land you control, add",
+        "lands you control tap for an additional",
+        "X",
+        "costs {X} less",
+        "mana value 6 or greater",
+        "commander with mana value 6+"
+      ],
+      "fuel": "Mana, early, to cast 6 to 8 mana threats from turn 5.",
+      "land_band": [38, 40],
+      "land_why": "Battlecruiser (MV 3.5+, 8 ramp) 38 to 40 (notes/11 S14, notes/02 S2); high average MV 40 to 44 (notes/02 S1); Karsten starts at 42 + Sol Ring and keeps 38 to 39 with 7 to 9 rocks for a 4 to 6 MV commander (notes/13 K1).",
+      "base": {
+        "ramp": {
+          "min": 12,
+          "target": 15,
+          "why": "Big-mana commanders up to 15, 20 seen (notes/09 S17); CZ-new 12 for a 4+ commander (notes/13 CZ-new); Karsten: 7 to 9 rocks plus Sol Ring for a 4 to 6 MV commander (notes/13 K1); 14 ramp gives 80 % to have one by turn 3, 20 gives 90 % (notes/03 S1).",
+          "source": "notes/09 S17; notes/13 CZ-new; notes/13 K1; notes/03 S1"
+        },
+        "draw": {
+          "min": 10,
+          "target": 12,
+          "why": "Base 10 (notes/03).",
+          "source": "notes/03 S1"
+        },
+        "removal": {
+          "min": 6,
+          "target": 8,
+          "why": "Spot answers only (notes/04 S2 S4).",
+          "source": "notes/04 S2 S4"
+        },
+        "wipe": {
+          "min": 2,
+          "target": 3,
+          "why": "Base (notes/11 S15).",
+          "source": "notes/11 S15"
+        },
+        "protection": {
+          "min": 3,
+          "target": 4,
+          "why": "Commander protection for a default 'enabler' commander (meta.commander_dependence): 3 to 4; the class of the actual commander overrides this. Wipe insurance is counted apart (functions.wipe_insurance).",
+          "source": "[J] meta.commander_dependence; notes/04 S5",
+          "default_class": "enabler"
+        }
+      },
+      "functions": {
+        "big_threats": {
+          "min": 8,
+          "target": 10,
+          "tier": "gate",
+          "needed_by": "late",
+          "why": "[J] Six or seven cards at 7+ MV leave many stuck in hand (notes/08 S14); Karsten's model keeps 4 to 10 six-drops by commander MV (notes/13 K1). Count threats, not ramp.",
+          "source": "[J]; notes/08 S14; notes/13"
+        },
+        "through_wide_board": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats eight or more small chump blockers: non-combat damage or drain to each opponent, flyers or unblockables, one-sided wipes, 'creatures can't block' effects. Closers that ignore blockers count (notes/12 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        },
+        "through_big_creatures": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats two or more creatures bigger than yours: removal on the key blockers, deathtouch, flying, forced blocks, finishers that ignore blockers (notes/12 C1 C4 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        }
+      },
+      "curve": {
+        "avg_mv": [3.5, 4.0],
+        "creature_count": [20, 30],
+        "why": "Battlecruiser preset MV 3.5 (notes/02 S2)."
+      },
+      "win_routes_min": 2,
+      "win_routes_hint": "Large threats that hit several opponents; X spells that drain each opponent.",
+      "failure_modes": [
+        "Hands clogged with 6 to 7 drops (notes/08 S14).",
+        "Ramp with nothing to cast (notes/07 S2).",
+        "A turn-2 rock only helps if the third land drop arrives (notes/03 S5)."
+      ],
+      "sources": [
+        "notes/02 S1 S2",
+        "notes/03 S1 S5",
+        "notes/07 S2",
+        "notes/08 S14",
+        "notes/09 S17",
+        "notes/11 S14 S15",
+        "notes/13 CZ-new",
+        "notes/13 K1"
+      ]
+    },
+    "alternate_kill": {
+      "name": "Alternate kill / conditional elimination",
+      "recognize": [
+        "target player loses the game",
+        "each opponent with N life or less loses",
+        "if that player has N or less life",
+        "you win the game",
+        "when you control N or more",
+        "eliminate",
+        "destroy ... if their life total is"
+      ],
+      "fuel": "Progress toward the condition for EVERY opponent (life lost, counters, devotion, a board threshold) and the resources to pay for the kill when it opens (mana, colors, a window).",
+      "land_band": [36, 38],
+      "land_why": "[J] No source; follows the commander's cost and the mana the kill needs. Lean to the top of the band when the kill costs a lot of mana in a window; the odds of paying it are in probability.md E and E2.",
+      "base": {
+        "ramp": {
+          "min": 10,
+          "target": 12,
+          "why": "CZ-new 10 (notes/13 CZ-new); add mana for the kill's payment, not only the commander's cast.",
+          "source": "notes/13 CZ-new; [J] payment mana"
+        },
+        "draw": {
+          "min": 10,
+          "target": 12,
+          "why": "Base 10 (notes/03).",
+          "source": "notes/03 S1"
+        },
+        "removal": {
+          "min": 6,
+          "target": 8,
+          "why": "Spot answers only; they also keep the table off the commander's window (notes/04 S2 S4).",
+          "source": "notes/04 S2 S4"
+        },
+        "wipe": {
+          "min": 1,
+          "target": 2,
+          "why": "Base [J]; a board is not the plan, so a one-sided wipe is cheap.",
+          "source": "[J]"
+        },
+        "protection": {
+          "min": 5,
+          "target": 7,
+          "why": "Commander protection for a default 'engine' commander (meta.commander_dependence): 5 to 7; the class of the actual commander overrides this. Wipe insurance is counted apart (functions.wipe_insurance). The commander IS the kill: it is the visible threat and each removal on it delays the plan by a recast and its tax.",
+          "source": "[J] meta.commander_dependence; notes/04 S5",
+          "default_class": "engine"
+        }
+      },
+      "functions": {
+        "condition_enablers": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "[J] Cards that move EVERY opponent toward the condition (damage, life loss, counters, devotion or a board threshold). A team-wide effect counts full; a single-target effect counts half, because the kill must be repeated per opponent. The commander's own trigger is a guaranteed piece.",
+          "source": "[J] gate class",
+          "if_commander_is_source": {
+            "needed_by": "late",
+            "min": 6,
+            "target": 8
+          }
+        },
+        "payment_enablers": {
+          "min": 6,
+          "target": 8,
+          "tier": "support",
+          "needed_by": "early",
+          "why": "[J] The mana, colors, cost reduction and window access the kill needs when it is open: untapped sources in the window, instant-speed fixing, ways to keep or convert mana across steps. Check the joint-color odds (probability.md E2) and what else the mana is wanted for that turn. Window COSTS are treated in mana-and-ramp.md section 6.",
+          "source": "[J]; mana-and-ramp.md 6",
+          "counts_inside": "condition_enablers"
+        },
+        "team_finishers": {
+          "min": 6,
+          "target": 8,
+          "tier": "gate",
+          "needed_by": "late",
+          "why": "[J] Cards that finish or damage every opponent at once. The commander's own kill is usually one player per resolution and is therefore a backup route (notes/05 S3 inference; notes/12 section 4), so the main route must reach the table: drain to each opponent, overrun, a spell that hits all.",
+          "source": "[J]; notes/05 S3 inference; notes/12 section 4"
+        },
+        "through_wide_board": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats eight or more small chump blockers: non-combat damage or drain to each opponent, flyers or unblockables, one-sided wipes, 'creatures can't block' effects. Closers that ignore blockers count (notes/12 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        },
+        "through_big_creatures": {
+          "min": 10,
+          "target": 12,
+          "tier": "gate",
+          "needed_by": "early",
+          "why": "How the closing route beats two or more creatures bigger than yours: removal on the key blockers, deathtouch, flying, forced blocks, finishers that ignore blockers (notes/12 C1 C4 C14).",
+          "source": "[J] gate review docs/research/phase2-gate-review-20261031.md; notes/12 C1 C4 C10; notes/06 S3"
+        }
+      },
+      "curve": {
+        "avg_mv": [2.5, 3.2],
+        "creature_count": [20, 32],
+        "why": "[J] No source."
+      },
+      "win_routes_min": 2,
+      "win_routes_hint": "The commander's own elimination is one player per resolution: keep it as a route but add a team-wide finisher (damage or life loss to each opponent) so the whole table falls under the threshold at once. A second disjoint route is required by the gate.",
+      "failure_modes": [
+        "The condition is met for one opponent only: three resolutions are needed against three opponents.",
+        "The payment (mana, colors, a window) is not available when the kill opens (joint-color odds, probability.md E2).",
+        "The commander is removed or responded to before the kill resolves (tax makes each recast dearer).",
+        "Opponents gain life or change the threshold out of reach.",
+        "The kill window competes with other spending the same turn."
+      ],
+      "sources": [
+        "notes/05 S3 inference",
+        "notes/12 section 4",
+        "notes/13 CZ-new",
+        "[J] for the profile"
+      ]
+    }
+  }
+}

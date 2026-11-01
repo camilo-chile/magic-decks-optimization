@@ -68,7 +68,56 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.39013403023201787,
+    "inclusion": 0.4073,
+    "num_decks": 7193
+   }
+  },
+  {
+   "name": "Achilles Davenport",
+   "oracle_id": "b921a672-721e-4bd8-a10b-a6de8c13c7d8",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 4.0,
+   "mana_cost": "{2}{U}{B}",
+   "oracle_text": "Freerunning {U}{B} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nMenace (This creature can't be blocked except by two or more creatures.)\nOther Assassins you control get +1/+1.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 8680,
+     "in_stock": true,
+     "loan_class": "evaluate"
+    }
+   ],
+   "edhrec": {
+    "list": "High Lift Cards",
+    "synergy": 0.7007410672792114,
+    "inclusion": 0.719,
+    "num_decks": 12698
+   }
   },
   {
    "name": "Adéwalé, Breaker of Chains",
@@ -100,7 +149,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.28041899252204017,
+    "inclusion": 0.2879,
+    "num_decks": 5085
+   }
   },
   {
    "name": "Aether Gale",
@@ -227,7 +282,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.5724963868901074,
+    "inclusion": 0.5927,
+    "num_decks": 10467
+   }
   },
   {
    "name": "Arcane Signet",
@@ -276,7 +337,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.04768897236573344,
+    "inclusion": 0.8073,
+    "num_decks": 14257
+   }
   },
   {
    "name": "Archmage Emeritus",
@@ -339,7 +406,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.763147910093193,
+    "inclusion": 0.7831,
+    "num_decks": 13830
+   }
   },
   {
    "name": "Ashaya, Soul of the Wild",
@@ -401,7 +474,55 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.38676389987332854,
+    "inclusion": 0.3971,
+    "num_decks": 7012
+   }
+  },
+  {
+   "name": "Assassin Initiate",
+   "oracle_id": "23be5c68-6530-474d-b677-551da4745b3c",
+   "type": "Creature — Human Assassin",
+   "cmc": 1.0,
+   "mana_cost": "{B}",
+   "oracle_text": "{1}: This creature gains your choice of flying, deathtouch, or lifelink until end of turn.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 742,
+     "in_stock": true,
+     "loan_class": "auto"
+    }
+   ],
+   "edhrec": {
+    "list": "High Lift Cards",
+    "synergy": 0.4363388730458037,
+    "inclusion": 0.4478,
+    "num_decks": 7908
+   }
   },
   {
    "name": "Assassin's Trophy",
@@ -433,7 +554,56 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.4444742096140323,
+    "inclusion": 0.5854,
+    "num_decks": 10339
+   }
+  },
+  {
+   "name": "Aya of Alexandria",
+   "oracle_id": "27b690f2-d7ce-43b6-8e8b-98a8ffe487bb",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 4.0,
+   "mana_cost": "{2}{R}{W}",
+   "oracle_text": "Menace, lifelink\nWhenever a historic creature you control deals combat damage to a player, create a 1/1 black Assassin creature token with menace. (Artifacts, legendaries, and Sagas are historic.)",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 1960,
+     "in_stock": true,
+     "loan_class": "auto"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.7474111065366217,
+    "inclusion": 0.7678,
+    "num_decks": 13560
+   }
   },
   {
    "name": "Ba Sing Se",
@@ -467,6 +637,48 @@
    ]
   },
   {
+   "name": "Ballad of the Black Flag",
+   "oracle_id": "e8e15ab4-e4c7-4faf-b469-288451ddee02",
+   "type": "Enchantment — Saga",
+   "cmc": 3.0,
+   "mana_cost": "{1}{U}{U}",
+   "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI, II, III — Mill three cards. You may put a historic card from among them into your hand. (Artifacts, legendaries, and Sagas are historic.)\nIV — Historic spells you cast this turn cost {2} less to cast.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 742,
+     "in_stock": true,
+     "loan_class": "auto"
+    }
+   ],
+   "edhrec": {
+    "list": "Enchantments",
+    "synergy": 0.09248585375781612,
+    "inclusion": 0.1075,
+    "num_decks": 1898
+   }
+  },
+  {
    "name": "Banefire",
    "oracle_id": "5eff8a06-e0d6-435a-a7c0-db9f9d98636a",
    "type": "Sorcery",
@@ -496,6 +708,92 @@
      "deck": "fire-lord-azula"
     }
    ]
+  },
+  {
+   "name": "Basim Ibn Ishaq",
+   "oracle_id": "8a70bde5-c514-4dcf-919a-48bdd1c17768",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 2.0,
+   "mana_cost": "{U}{B}",
+   "oracle_text": "Whenever you cast a historic spell, draw a card. Basim Ibn Ishaq can't be blocked this turn. This ability triggers only once each turn. (Artifacts, legendaries, and Sagas are historic.)\nWhenever Basim Ibn Ishaq deals combat damage to a player, put a +1/+1 counter on it.",
+   "color_identity": [
+    "B",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.7895370180232725,
+    "inclusion": 0.8252,
+    "num_decks": 14573
+   }
+  },
+  {
+   "name": "Bayek of Siwa",
+   "oracle_id": "b0322e2e-e9f9-4fe2-a7a5-3e49665ad177",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 5.0,
+   "mana_cost": "{3}{R}{W}",
+   "oracle_text": "Double strike\nDuring your turn, other historic creatures you control have double strike.\nDisguise {1}{R}{W} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 915,
+     "in_stock": true,
+     "loan_class": "auto"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.7671336096327915,
+    "inclusion": 0.7932,
+    "num_decks": 14008
+   }
   },
   {
    "name": "Beast Within",
@@ -658,7 +956,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Enchantments",
+    "synergy": 0.42036405913498637,
+    "inclusion": 0.4699,
+    "num_decks": 8298
+   }
   },
   {
    "name": "Boros Locket",
@@ -792,7 +1096,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.7684175306261091,
+    "inclusion": 0.7889,
+    "num_decks": 13932
+   }
   },
   {
    "name": "Bumi, Unleashed",
@@ -825,6 +1135,49 @@
      "deck": "toph-the-first-metalbender"
     }
    ]
+  },
+  {
+   "name": "Bureau Headmaster",
+   "oracle_id": "c022b5df-1d85-44c0-94a1-d01b345b845b",
+   "type": "Creature — Human Assassin",
+   "cmc": 2.0,
+   "mana_cost": "{R}{W}",
+   "oracle_text": "Equipment spells you cast cost {1} less to cast.\nEquip abilities you activate cost {1} less to activate.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.10115490046701137,
+    "inclusion": 0.1041,
+    "num_decks": 1839
+   }
   },
   {
    "name": "Canyon Slough",
@@ -1060,7 +1413,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.07030010277355658,
+    "inclusion": 0.5727,
+    "num_decks": 10113
+   }
   },
   {
    "name": "Clifftop Retreat",
@@ -1133,7 +1492,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Enchantments",
+    "synergy": 0.3859431910878224,
+    "inclusion": 0.3988,
+    "num_decks": 7043
+   }
   },
   {
    "name": "Collective Resistance",
@@ -1245,7 +1610,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": -0.010291703553775844,
+    "inclusion": 0.8754,
+    "num_decks": 15460
+   }
   },
   {
    "name": "Concealed Courtyard",
@@ -1309,6 +1680,48 @@
      "deck": "fire-lord-azula"
     }
    ]
+  },
+  {
+   "name": "Cover of Darkness",
+   "oracle_id": "d78654fc-7d90-40ce-9c36-a211424d1a88",
+   "type": "Enchantment",
+   "cmc": 2.0,
+   "mana_cost": "{1}{B}",
+   "oracle_text": "As this enchantment enters, choose a creature type.\nCreatures of the chosen type have fear. (They can't be blocked except by artifact creatures and/or black creatures.)",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 10360,
+     "in_stock": true,
+     "loan_class": "evaluate"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.727375148693049,
+    "inclusion": 0.7519,
+    "num_decks": 13279
+   }
   },
   {
    "name": "Crop Rotation",
@@ -1527,7 +1940,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.011163301693827857,
+    "inclusion": 0.1182,
+    "num_decks": 2088
+   }
   },
   {
    "name": "Desmond Miles",
@@ -1558,7 +1977,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.7447427601480267,
+    "inclusion": 0.7642,
+    "num_decks": 13495
+   }
   },
   {
    "name": "Dimir Locket",
@@ -1750,6 +2175,48 @@
    ]
   },
   {
+   "name": "Eagle Vision",
+   "oracle_id": "f96f1b4c-f06a-4374-8d8f-aaa06c6108c3",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "mana_cost": "{4}{U}",
+   "oracle_text": "Freerunning {1}{U} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nDraw three cards.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "17",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "loan",
+     "from": "Assassin's Creed binder (Standard decks)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": null,
+     "loan_class": null
+    }
+   ],
+   "edhrec": {
+    "list": "Sorceries",
+    "synergy": 0.6499998689807069,
+    "inclusion": 0.6679,
+    "num_decks": 11795
+   }
+  },
+  {
    "name": "Earth Kingdom General",
    "oracle_id": "e43c31ee-1bac-4f96-8b74-334b3238ab73",
    "type": "Creature — Human Soldier Ally",
@@ -1810,6 +2277,49 @@
      "deck": "toph-the-first-metalbender"
     }
    ]
+  },
+  {
+   "name": "Eivor, Battle-Ready",
+   "oracle_id": "1b4a07bd-5345-4520-bd05-b5173e08135c",
+   "type": "Legendary Creature — Human Assassin Warrior",
+   "cmc": 5.0,
+   "mana_cost": "{3}{R}{W}",
+   "oracle_text": "Vigilance (Attacking doesn't cause this creature to tap.)\nHaste (This creature can attack as soon as it comes under your control.)\nWhenever Eivor attacks, it deals damage equal to the number of Equipment you control to each opponent.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.16703997900711265,
+    "inclusion": 0.1717,
+    "num_decks": 3032
+   }
   },
   {
    "name": "Electro, Assaulting Battery",
@@ -1915,6 +2425,42 @@
    ]
   },
   {
+   "name": "Enchanter's Bane",
+   "oracle_id": "1f0548f8-5dec-44b5-b5a9-e55fa4366e08",
+   "type": "Enchantment",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "At the beginning of your end step, target enchantment deals damage equal to its mana value to its controller unless that player sacrifices it.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
+    }
+   ]
+  },
+  {
    "name": "Entomb",
    "oracle_id": "299fc083-0834-4064-8344-f895aff68867",
    "type": "Instant",
@@ -1985,7 +2531,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.20422087804669772,
+    "inclusion": 0.2102,
+    "num_decks": 3712
+   }
   },
   {
    "name": "Etrata, the Silencer",
@@ -2017,7 +2569,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.41737344695153017,
+    "inclusion": 0.429,
+    "num_decks": 7576
+   }
   },
   {
    "name": "Everflowing Chalice",
@@ -2087,7 +2645,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.5798364953563238,
+    "inclusion": 0.5953,
+    "num_decks": 10513
+   }
   },
   {
    "name": "Exotic Orchard",
@@ -2136,7 +2700,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": -0.0011607307452710103,
+    "inclusion": 0.6408,
+    "num_decks": 11316
+   }
   },
   {
    "name": "Ezio, Blade of Vengeance",
@@ -2168,7 +2738,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.8000419440765374,
+    "inclusion": 0.821,
+    "num_decks": 14499
+   }
   },
   {
    "name": "Fact or Fiction",
@@ -2271,7 +2847,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.11995832843074714,
+    "inclusion": 0.126,
+    "num_decks": 2225
+   }
   },
   {
    "name": "Fateful Absence",
@@ -2311,6 +2893,42 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Feed the Swarm",
+   "oracle_id": "5825997b-10d7-4a36-972c-a80ddd90b8ed",
+   "type": "Sorcery",
+   "cmc": 2.0,
+   "mana_cost": "{1}{B}",
+   "oracle_text": "Destroy target creature or enchantment an opponent controls. You lose life equal to that permanent's mana value.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 570,
+     "in_stock": true,
+     "loan_class": "auto"
     }
    ]
   },
@@ -2476,7 +3094,13 @@
      "quantity": 2,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": -0.08237336934347228,
+    "inclusion": 0.7373,
+    "num_decks": 13020
+   }
   },
   {
    "name": "Fortified Village",
@@ -2626,6 +3250,42 @@
    ]
   },
   {
+   "name": "Funeral Room // Awakening Hall",
+   "oracle_id": "a39d541e-86c1-4595-a2e9-f107def5bbc6",
+   "type": "Enchantment — Room // Enchantment — Room",
+   "cmc": 11.0,
+   "mana_cost": "{2}{B} // {6}{B}{B}",
+   "oracle_text": "Whenever a creature you control dies, each opponent loses 1 life and you gain 1 life.\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.) // When you unlock this door, return all creature cards from your graveyard to the battlefield.\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
+    }
+   ]
+  },
+  {
    "name": "Furycalm Snarl",
    "oracle_id": "651dea9c-2375-4e44-8e65-ba8e40f0c0ef",
    "type": "Land",
@@ -2759,7 +3419,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.3127875989288588,
+    "inclusion": 0.3276,
+    "num_decks": 5786
+   }
   },
   {
    "name": "Goblin Bombardment",
@@ -3050,7 +3716,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.43138885914595726,
+    "inclusion": 0.4435,
+    "num_decks": 7832
+   }
   },
   {
    "name": "Haytham Kenway",
@@ -3238,6 +3910,88 @@
    ]
   },
   {
+   "name": "Hidden Blade",
+   "oracle_id": "37ec9b95-8c9a-4dd5-9ff2-3d6527984126",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "Flash\nWhen this Equipment enters, attach it to target creature you control. If that creature is an Assassin, it gains deathtouch until end of turn.\nEquipped creature gets +1/+0 and has first strike.\nEquip {2}",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 742,
+     "in_stock": true,
+     "loan_class": "auto"
+    }
+   ],
+   "edhrec": {
+    "list": "High Lift Cards",
+    "synergy": 0.5171200175050767,
+    "inclusion": 0.5306,
+    "num_decks": 9371
+   }
+  },
+  {
+   "name": "Hidden Footblade",
+   "oracle_id": "daed1b38-510b-4698-95c3-05c09f5fabe9",
+   "type": "Artifact — Equipment",
+   "cmc": 1.0,
+   "mana_cost": "{R}",
+   "oracle_text": "Flash\nWhen this Equipment enters, attach it to target creature you control. That creature gains first strike until end of turn.\nEquipped creature gets +1/+0 and has haste.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.11542082965818998,
+    "inclusion": 0.1189,
+    "num_decks": 2100
+   }
+  },
+  {
    "name": "Hinterland Harbor",
    "oracle_id": "fb5a3403-7f0b-406c-8c4f-d693be010ca6",
    "type": "Land",
@@ -3298,7 +4052,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.09243497130747327,
+    "inclusion": 0.0952,
+    "num_decks": 1681
+   }
   },
   {
    "name": "Ichor Wellspring",
@@ -3510,7 +4270,13 @@
      "quantity": 2,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.030849622913067587,
+    "inclusion": 0.8301,
+    "num_decks": 14660
+   }
   },
   {
    "name": "Isolated Chapel",
@@ -3605,7 +4371,56 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.5868635126697318,
+    "inclusion": 0.6024,
+    "num_decks": 10639
+   }
+  },
+  {
+   "name": "Kassandra, Eagle Bearer",
+   "oracle_id": "745b9a2c-bcd7-4db9-8cd0-d38be2ef6270",
+   "type": "Legendary Creature — Human Assassin Warrior",
+   "cmc": 3.0,
+   "mana_cost": "{1}{R}{W}",
+   "oracle_text": "Haste\nWhen Kassandra enters, search your graveyard, hand, and library for a card named The Spear of Leonidas, put it onto the battlefield, then shuffle.\nWhenever a creature you control with a legendary Equipment attached to it deals combat damage to a player, draw a card.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.25861732355172196,
+    "inclusion": 0.2659,
+    "num_decks": 4695
+   }
   },
   {
    "name": "Kaya, Ghost Assassin",
@@ -3670,6 +4485,48 @@
      "deck": "ezio-auditore-da-firenze"
     }
    ]
+  },
+  {
+   "name": "Layla Hassan",
+   "oracle_id": "e27feb69-3120-4e8d-8ee6-0f87b58e2ae3",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 4.0,
+   "mana_cost": "{3}{W}",
+   "oracle_text": "First strike\nWhen Layla Hassan enters and whenever one or more Assassins you control deal combat damage to a player, return target historic card from your graveyard to your hand.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 915,
+     "in_stock": true,
+     "loan_class": "auto"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.7055591901099559,
+    "inclusion": 0.7243,
+    "num_decks": 12791
+   }
   },
   {
    "name": "Lightning Strike",
@@ -3861,7 +4718,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.1756253528780272,
+    "inclusion": 0.1815,
+    "num_decks": 3205
+   }
   },
   {
    "name": "Lydia Frye",
@@ -3893,7 +4756,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "High Lift Cards",
+    "synergy": 0.6067837063777747,
+    "inclusion": 0.6227,
+    "num_decks": 10997
+   }
   },
   {
    "name": "Magister Sphinx",
@@ -3970,6 +4839,48 @@
    ]
   },
   {
+   "name": "Massacre Girl, Known Killer",
+   "oracle_id": "ccb39f4a-2684-4eb7-9066-aad81ae08962",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 4.0,
+   "mana_cost": "{2}{B}{B}",
+   "oracle_text": "Menace\nCreatures you control have wither. (They deal damage to creatures in the form of -1/-1 counters.)\nWhenever a creature an opponent controls dies, if its toughness was less than 1, draw a card.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 742,
+     "in_stock": true,
+     "loan_class": "auto"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.40876041171265015,
+    "inclusion": 0.4206,
+    "num_decks": 7428
+   }
+  },
+  {
    "name": "Mind Stone",
    "oracle_id": "c97361b5-af16-4a7b-af85-a429dbaf4ad2",
    "type": "Artifact",
@@ -4028,6 +4939,46 @@
    ]
   },
   {
+   "name": "Mjölnir, Storm Hammer",
+   "oracle_id": "f497e9a5-0ad3-4aec-8422-14be8e0dba4c",
+   "type": "Legendary Artifact — Equipment",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "When Mjölnir enters, attach it to target legendary creature you control.\nWhenever equipped creature attacks, tap target creature defending player controls and put a stun counter on it. Then Mjölnir deals damage to each opponent equal to the number of tapped creatures that opponent controls.\nEquip {4}",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 29600,
+     "in_stock": true,
+     "loan_class": "evaluate"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.11837255873545535,
+    "inclusion": 0.1227,
+    "num_decks": 2167
+   }
+  },
+  {
    "name": "Mortify",
    "oracle_id": "faa01ed1-ccfa-4e58-951f-cd81f9068027",
    "type": "Instant",
@@ -4057,7 +5008,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.35774290392082764,
+    "inclusion": 0.3844,
+    "num_decks": 6788
+   }
   },
   {
    "name": "Mountain",
@@ -4144,7 +5101,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": -0.011745339730048543,
+    "inclusion": 0.767,
+    "num_decks": 13545
+   }
   },
   {
    "name": "Murder",
@@ -4175,7 +5138,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.21002546119116294,
+    "inclusion": 0.2232,
+    "num_decks": 3941
+   }
   },
   {
    "name": "Mystical Teachings",
@@ -4279,7 +5248,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.007796793472677907,
+    "inclusion": 0.0925,
+    "num_decks": 1633
+   }
   },
   {
    "name": "Nekrataal",
@@ -4466,6 +5441,48 @@
    ]
   },
   {
+   "name": "Overpowering Attack",
+   "oracle_id": "e31235f0-1f25-4158-b46e-cacde2f58b7e",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "mana_cost": "{3}{R}{R}",
+   "oracle_text": "Freerunning {2}{R} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nUntap all creatures you control that attacked this turn. If it's your main phase, there is an additional combat phase after this phase, followed by an additional main phase.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
+    }
+   ],
+   "edhrec": {
+    "list": "Sorceries",
+    "synergy": 0.4492842114964873,
+    "inclusion": 0.4621,
+    "num_decks": 8160
+   }
+  },
+  {
    "name": "Ozai, the Phoenix King",
    "oracle_id": "7472af8e-2e93-43b2-bc32-a3741f6d7502",
    "type": "Legendary Creature — Human Noble",
@@ -4526,7 +5543,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.26192130971946287,
+    "inclusion": 0.5644,
+    "num_decks": 9968
+   }
   },
   {
    "name": "Plains",
@@ -4576,7 +5599,13 @@
      "quantity": 2,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": -0.0018675714017696299,
+    "inclusion": 0.7837,
+    "num_decks": 13841
+   }
   },
   {
    "name": "Planar Outburst",
@@ -4673,6 +5702,48 @@
    ]
   },
   {
+   "name": "Propaganda",
+   "oracle_id": "ea9709b6-4c37-4d5a-b04d-cd4c42e4f9dd",
+   "type": "Enchantment",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 3520,
+     "in_stock": true,
+     "loan_class": "auto"
+    }
+   ],
+   "edhrec": {
+    "list": "Enchantments",
+    "synergy": 0.29090104936643346,
+    "inclusion": 0.3635,
+    "num_decks": 6420
+   }
+  },
+  {
    "name": "Queen Marchesa",
    "oracle_id": "d7ac4be1-dcca-49b6-8ddb-d1b0e6cf2dcf",
    "type": "Legendary Creature — Human Assassin",
@@ -4703,7 +5774,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.6344723692264845,
+    "inclusion": 0.6595,
+    "num_decks": 11647
+   }
   },
   {
    "name": "Ragost, Deft Gastronaut",
@@ -4808,7 +5885,57 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Sorceries",
+    "synergy": -0.07891605560015001,
+    "inclusion": 0.1079,
+    "num_decks": 1905
+   }
+  },
+  {
+   "name": "Ratonhnhaké꞉ton",
+   "oracle_id": "a37f8381-83a4-4b6b-8176-c90f6a61da74",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 3.0,
+   "mana_cost": "{W}{U}{B}",
+   "oracle_text": "As long as Ratonhnhaké꞉ton hasn't dealt damage yet, it has hexproof and can't be blocked.\nWhenever Ratonhnhaké꞉ton deals combat damage to a player, create a 1/1 black Assassin creature token with menace. When you do, return target Equipment card from your graveyard to the battlefield, then attach it to that token.",
+   "color_identity": [
+    "B",
+    "U",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 915,
+     "in_stock": true,
+     "loan_class": "auto"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.6077123073032342,
+    "inclusion": 0.6237,
+    "num_decks": 11014
+   }
   },
   {
    "name": "Ravenloft Adventurer",
@@ -4962,7 +6089,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Sorceries",
+    "synergy": 0.6013785410876158,
+    "inclusion": 0.6175,
+    "num_decks": 10905
+   }
   },
   {
    "name": "Return the Favor",
@@ -5094,7 +6227,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Utility Lands",
+    "synergy": 0.42635506418846303,
+    "inclusion": 0.4843,
+    "num_decks": 8552
+   }
   },
   {
    "name": "Rootbound Crag",
@@ -5157,7 +6296,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.31153266611469327,
+    "inclusion": 0.3203,
+    "num_decks": 5656
+   }
   },
   {
    "name": "Royal Assassin",
@@ -5188,7 +6333,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.6057352890313462,
+    "inclusion": 0.6232,
+    "num_decks": 11005
+   }
   },
   {
    "name": "Rugged Prairie",
@@ -5350,7 +6501,13 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Utility Lands",
+    "synergy": 0.05709570066295364,
+    "inclusion": 0.0858,
+    "num_decks": 839
+   }
   },
   {
    "name": "Seismic Sense",
@@ -5424,6 +6581,48 @@
      "deck": "toph-the-first-metalbender"
     }
    ]
+  },
+  {
+   "name": "Senu, Keen-Eyed Protector",
+   "oracle_id": "bf2dc318-7b51-451e-ac4d-0f1b756dc860",
+   "type": "Legendary Creature — Bird Scout",
+   "cmc": 2.0,
+   "mana_cost": "{1}{W}",
+   "oracle_text": "Flying, vigilance\n{T}, Exile Senu: You gain 2 life and scry 2.\nWhen a legendary creature you control attacks and isn't blocked, if this card is exiled, put it onto the battlefield attacking.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.126955563822509,
+    "inclusion": 0.1313,
+    "num_decks": 2318
+   }
   },
   {
    "name": "Shadowblood Ridge",
@@ -5533,12 +6732,14 @@
    ],
    "game_changer": false,
    "basic": false,
-   "copies": 1,
+   "copies": 2,
    "by_language": {
-    "en": 1
+    "en": 1,
+    "es": 1
    },
    "held_by": {
-    "ezio-auditore-da-firenze": 1
+    "ezio-auditore-da-firenze": 1,
+    "owed": 1
    },
    "printings": [
     {
@@ -5549,8 +6750,28 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "MSC",
+     "number": "",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "owed",
+     "from": "",
+     "restock": false,
+     "replacement_clp": null,
+     "in_stock": null,
+     "loan_class": null
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.06318497522641124,
+    "inclusion": 0.1448,
+    "num_decks": 2558
+   }
   },
   {
    "name": "Snap",
@@ -5630,7 +6851,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.028338002172123233,
+    "inclusion": 0.8259,
+    "num_decks": 14586
+   }
   },
   {
    "name": "Solve the Equation",
@@ -5689,6 +6916,42 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Split Up",
+   "oracle_id": "2e82520a-9da3-49ae-b5c8-37e7ac8853fe",
+   "type": "Sorcery",
+   "cmc": 3.0,
+   "mana_cost": "{1}{W}{W}",
+   "oracle_text": "Choose one —\n• Destroy all tapped creatures.\n• Destroy all untapped creatures.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
     }
    ]
   },
@@ -6001,7 +7264,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.09549569254083996,
+    "inclusion": 0.1806,
+    "num_decks": 3190
+   }
   },
   {
    "name": "Sunken Ruins",
@@ -6171,7 +7440,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.16048813888521618,
+    "inclusion": 0.9189,
+    "num_decks": 16227
+   }
   },
   {
    "name": "Swiftfoot Boots",
@@ -6210,7 +7485,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.11706313771081926,
+    "inclusion": 0.2413,
+    "num_decks": 4262
+   }
   },
   {
    "name": "Swords to Plowshares",
@@ -6241,7 +7522,13 @@
      "quantity": 1,
      "deck": "toph-the-first-metalbender"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": -0.036172462166208175,
+    "inclusion": 0.3502,
+    "num_decks": 6184
+   }
   },
   {
    "name": "Talisman of Impulse",
@@ -6347,7 +7634,13 @@
      "quantity": 1,
      "deck": "fire-lord-azula"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.3073604451973922,
+    "inclusion": 0.3426,
+    "num_decks": 6050
+   }
   },
   {
    "name": "Terrasymbiosis",
@@ -6440,7 +7733,55 @@
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
     }
-   ]
+   ],
+   "edhrec": {
+    "list": "Enchantments",
+    "synergy": 0.46554632245791794,
+    "inclusion": 0.4778,
+    "num_decks": 8438
+   }
+  },
+  {
+   "name": "The Spear of Leonidas",
+   "oracle_id": "dac3a263-cc02-446a-88ec-882a21096b6c",
+   "type": "Legendary Artifact — Equipment",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "Whenever equipped creature attacks, choose one —\n• Bull Rush — It gains double strike until end of turn.\n• Summon — Create Phobos, a legendary 3/2 red Horse creature token.\n• Revelation — Discard two cards, then draw two cards.\nEquip {2}",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": null,
+     "in_stock": false,
+     "loan_class": "evaluate"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.2900902541332577,
+    "inclusion": 0.2988,
+    "num_decks": 5276
+   }
   },
   {
    "name": "The Stasis Coffin",
@@ -6878,6 +8219,48 @@
    ]
   },
   {
+   "name": "Unstoppable Slasher",
+   "oracle_id": "6662968e-ca9e-454c-be44-24ad10e43d3e",
+   "type": "Creature — Zombie Assassin",
+   "cmc": 3.0,
+   "mana_cost": "{2}{B}",
+   "oracle_text": "Deathtouch\nWhenever this creature deals combat damage to a player, they lose half their life, rounded up.\nWhen this creature dies, if it had no counters on it, return it to the battlefield tapped under its owner's control with two stun counters on it.",
+   "color_identity": [
+    "B"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 5560,
+     "in_stock": true,
+     "loan_class": "evaluate"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.4100801458502917,
+    "inclusion": 0.4217,
+    "num_decks": 7447
+   }
+  },
+  {
    "name": "Utter End",
    "oracle_id": "cba94732-1f1f-4ffd-9aba-45db990043fa",
    "type": "Instant",
@@ -6970,6 +8353,90 @@
      "deck": "ezio-auditore-da-firenze"
     }
    ]
+  },
+  {
+   "name": "Viewpoint Synchronization",
+   "oracle_id": "2e338e09-5758-4cc2-9143-21f050a28677",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "mana_cost": "{4}{G}",
+   "oracle_text": "Freerunning {2}{G} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nSearch your library for up to three basic land cards and reveal them. Put two of them onto the battlefield tapped and the other into your hand, then shuffle.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 742,
+     "in_stock": true,
+     "loan_class": "auto"
+    }
+   ],
+   "edhrec": {
+    "list": "Sorceries",
+    "synergy": 0.5770372561179222,
+    "inclusion": 0.5947,
+    "num_decks": 10503
+   }
+  },
+  {
+   "name": "Vincent, Vengeful Atoner",
+   "oracle_id": "b8961205-87fa-4cce-aba9-84fa2f91a67f",
+   "type": "Legendary Creature — Assassin",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "Menace\nWhenever one or more creatures you control deal combat damage to a player, put a +1/+1 counter on Vincent.\nChaos — Whenever Vincent deals combat damage to an opponent, it deals that much damage to each other opponent if Vincent's power is 7 or greater.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "loan candidate": 1
+   },
+   "printings": [
+    {
+     "set": "",
+     "number": "",
+     "finish": "normal",
+     "language": "en",
+     "condition": "",
+     "quantity": 1,
+     "deck": "loan candidate",
+     "from": "Standard decks (loan candidate)",
+     "restock": true,
+     "replacement_clp": 2440,
+     "in_stock": true,
+     "loan_class": "auto"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.12765566589596217,
+    "inclusion": 0.1322,
+    "num_decks": 1772
+   }
   },
   {
    "name": "Wayfarer's Bauble",

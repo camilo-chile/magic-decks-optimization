@@ -2,9 +2,251 @@
  "as_of": "2026-10-26",
  "note": "Phase 2 (owner, 2026-10-26): four Commander decks built only from the owned collection after a full rescan into a Spanish and an English binder. The lists in decks/phase2/ start as the three final Phase 1 lists and are replaced as the optimization proceeds; the fourth deck takes Spanish copies only and its commander is chosen from the Spanish collection (the Counter Intelligence precon in Spanish is the base).",
  "decks": [
-  {"slug": "toph-the-first-metalbender", "name": "Toph", "languages": "both", "list": "decks/phase2/toph-the-first-metalbender.txt"},
-  {"slug": "fire-lord-azula", "name": "Azula", "languages": "both", "list": "decks/phase2/fire-lord-azula.txt"},
-  {"slug": "ezio-auditore-da-firenze", "name": "Ezio", "languages": "both", "proxy_commander": true, "list": "decks/phase2/ezio-auditore-da-firenze.txt"},
-  {"slug": "spanish-deck", "name": "Spanish deck (commander to be chosen)", "languages": "es", "list": "decks/phase2/spanish-deck.txt"}
+  {
+   "slug": "toph-the-first-metalbender",
+   "name": "Toph",
+   "languages": "both",
+   "list": "decks/phase2/toph-the-first-metalbender.txt"
+  },
+  {
+   "slug": "fire-lord-azula",
+   "name": "Azula",
+   "languages": "both",
+   "list": "decks/phase2/fire-lord-azula.txt"
+  },
+  {
+   "slug": "ezio-auditore-da-firenze",
+   "name": "Ezio",
+   "languages": "both",
+   "proxy_commander": true,
+   "list": "decks/phase2/ezio-auditore-da-firenze.txt",
+   "borrowed": [
+    {
+     "name": "Eagle Vision",
+     "set": "ACR",
+     "number": "17",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "from": "Assassin's Creed binder (Standard decks)",
+     "restock": true,
+     "since": "2026-10-31"
+    },
+    {
+     "name": "Ezio Auditore da Firenze",
+     "set": "ACR",
+     "number": "25",
+     "finish": "normal",
+     "language": "en",
+     "quantity": 1,
+     "from": "proxy commander (the deck plays a proxy)",
+     "proxy": true,
+     "restock": true,
+     "since": "2026-10-31"
+    }
+   ]
+  },
+  {
+   "slug": "spanish-deck",
+   "name": "Spanish deck (commander to be chosen)",
+   "languages": "es",
+   "list": "decks/phase2/spanish-deck.txt"
+  }
+ ],
+ "note_borrowed": "Owner, 2026-10-31: one English Eagle Vision from his Standard decks is lent to Ezio, to be replaced; the proxy Ezio commander is listed so the real card is bought. Restock rule: decks/phase2/restock.md.",
+ "loan_candidates": {
+  "store": "Game of Magic Singles",
+  "read": "2026-10-31",
+  "report": "decks/reports/loan-candidates-gom-20261031.md",
+  "cards": [
+   {
+    "name": "Feed the Swarm",
+    "clp": 570,
+    "in_stock": true,
+    "loan_class": "auto"
+   },
+   {
+    "name": "Viewpoint Synchronization",
+    "clp": 742,
+    "in_stock": true,
+    "loan_class": "auto"
+   },
+   {
+    "name": "Assassin Initiate",
+    "clp": 742,
+    "in_stock": true,
+    "loan_class": "auto"
+   },
+   {
+    "name": "Massacre Girl, Known Killer",
+    "clp": 742,
+    "in_stock": true,
+    "loan_class": "auto"
+   },
+   {
+    "name": "Ballad of the Black Flag",
+    "clp": 742,
+    "in_stock": true,
+    "loan_class": "auto"
+   },
+   {
+    "name": "Hidden Blade",
+    "clp": 742,
+    "in_stock": true,
+    "loan_class": "auto"
+   },
+   {
+    "name": "Bayek of Siwa",
+    "clp": 915,
+    "in_stock": true,
+    "loan_class": "auto"
+   },
+   {
+    "name": "Layla Hassan",
+    "clp": 915,
+    "in_stock": true,
+    "loan_class": "auto"
+   },
+   {
+    "name": "Ratonhnhaké꞉ton",
+    "clp": 915,
+    "in_stock": true,
+    "loan_class": "auto"
+   },
+   {
+    "name": "Aya of Alexandria",
+    "clp": 1960,
+    "in_stock": true,
+    "loan_class": "auto"
+   },
+   {
+    "name": "Vincent, Vengeful Atoner",
+    "clp": 2440,
+    "in_stock": true,
+    "loan_class": "auto"
+   },
+   {
+    "name": "Propaganda",
+    "clp": 3520,
+    "in_stock": true,
+    "loan_class": "auto"
+   },
+   {
+    "name": "Unstoppable Slasher",
+    "clp": 5560,
+    "in_stock": true,
+    "loan_class": "evaluate"
+   },
+   {
+    "name": "Achilles Davenport",
+    "clp": 8680,
+    "in_stock": true,
+    "loan_class": "evaluate"
+   },
+   {
+    "name": "Cover of Darkness",
+    "clp": 10360,
+    "in_stock": true,
+    "loan_class": "evaluate"
+   },
+   {
+    "name": "Mjölnir, Storm Hammer",
+    "clp": 29600,
+    "in_stock": true,
+    "loan_class": "evaluate"
+   },
+   {
+    "name": "Eivor, Battle-Ready",
+    "clp": null,
+    "in_stock": false,
+    "loan_class": "evaluate"
+   },
+   {
+    "name": "Hidden Footblade",
+    "clp": null,
+    "in_stock": false,
+    "loan_class": "evaluate"
+   },
+   {
+    "name": "Senu, Keen-Eyed Protector",
+    "clp": null,
+    "in_stock": false,
+    "loan_class": "evaluate"
+   },
+   {
+    "name": "Split Up",
+    "clp": null,
+    "in_stock": false,
+    "loan_class": "evaluate"
+   },
+   {
+    "name": "Overpowering Attack",
+    "clp": null,
+    "in_stock": false,
+    "loan_class": "evaluate"
+   },
+   {
+    "name": "Enchanter's Bane",
+    "clp": null,
+    "in_stock": false,
+    "loan_class": "evaluate"
+   },
+   {
+    "name": "The Spear of Leonidas",
+    "clp": null,
+    "in_stock": false,
+    "loan_class": "evaluate"
+   },
+   {
+    "name": "Kassandra, Eagle Bearer",
+    "clp": null,
+    "in_stock": false,
+    "loan_class": "evaluate"
+   },
+   {
+    "name": "Bureau Headmaster",
+    "clp": null,
+    "in_stock": false,
+    "loan_class": "evaluate"
+   },
+   {
+    "name": "Basim Ibn Ishaq",
+    "clp": null,
+    "in_stock": false,
+    "loan_class": "evaluate"
+   },
+   {
+    "name": "Funeral Room // Awakening Hall",
+    "clp": null,
+    "in_stock": false,
+    "loan_class": "evaluate"
+   }
+  ],
+  "limit_clp": 5000,
+  "note": "loan_class 'auto': in stock in a store of the iteration and replacement under limit_clp, so it may be lent (one deck only). 'evaluate': replacement at or over limit_clp, or no stock in the iteration's stores (the replacement must wait for a restock): a builder may propose it only with a written justification of the need, the replacement situation and a fallback card, and the owner accepts or rejects it. Stock and prices as read on the date above."
+ },
+ "iteration": {
+  "name": "Phase 2 (iteration 2)",
+  "stores": [
+   "Game of Magic Singles"
+  ],
+  "purchase_budget_clp": 10000,
+  "budget_note": "Owner, 2026-10-31: up to 10,000 CLP in total to buy cards for the optimization of the four decks, only in the stores of this iteration. It is the budget of this run and has nothing to do with the loans."
+ },
+ "loan_rules": "decks/phase2/loans.md: a loan goes to one deck only; it is allowed only if a store of the current iteration (iteration.stores) has it in stock so it can be replaced; the replacement must cost under 5,000 CLP, and a dearer card only if it is indispensable, with a written justification and its price for the owner to decide.",
+ "pending_owned": [
+  {
+   "name": "Smoldering Marsh",
+   "set": "MSC",
+   "number": "",
+   "language": "es",
+   "finish": "normal",
+   "condition": "near_mint",
+   "quantity": 1,
+   "status": "owed",
+   "why": "Game of Magic Singles sent Canyon Slough (MSC 228, Spanish) instead of the Smoldering Marsh (MSC, Spanish, NM, 915 CLP) of the Phase 1 order; the store gives it at the next purchase there (owner, 2026-10-31)",
+   "remove_when": "it arrives and is scanned into a binder, so it is not counted twice"
+  }
  ]
 }

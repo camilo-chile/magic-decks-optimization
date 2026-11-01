@@ -44,6 +44,10 @@ commander). Salt measures the potential of ideal draws, not resilience in a pod 
 The gate for the four lists, before any Salt run, is `scripts/plan_density.py` reading `decks/phase2/<slug>.plan.json` (schema
 in the script). Sources: the survey `docs/research/phase2-consistency-survey-20261031.md` (package size 8, base counts, odds);
 everything else is judgment and says so in `GATE`. The adversarial review is `docs/research/phase2-gate-review-20261031.md`.
+Since 2026-11-01 the floors are not one template: the plan names its archetype, and the gate applies that profile from the
+Commander deckbuilding skill (`.claude/skills/commander-deckbuilding/archetypes.json`: land band, base floors, the functions it must
+declare and their minimums, support lines reported). The six holes the audit found in the first version are closed
+(`docs/research/commander-deckbuilding/skill-coverage.md`, revision 3).
 1. ONE primary plan, plus at most one backup that reuses most of its pieces.
 2. Every non-basic card has a tag (a second one allowed): engine, payoff, backup, ramp, draw, removal, wipe, tutor, protection,
    land or orphan. Orphans, at most 3, are the declared ones PLUS every engine, payoff or backup card that sits in no function
