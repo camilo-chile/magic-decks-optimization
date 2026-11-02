@@ -4,6 +4,7 @@ Sorted by the size of the pool a Spanish-only deck would have. Only candidates w
 
 | Commander | Identity | Spanish copies | Pool, Spanish only | Pool, any language | Held by now |
 |---|---|---|---|---|---|
+| Inspirit, Flagship Vessel | RUW | 1 | 191 | 495 | free 1 |
 | Kilo, Apogee Mind | RUW | 1 | 191 | 495 | free 1 |
 | Eivor, Wolf-Kissed | GRW | 1 | 151 | 472 | free 1 |
 | Adéwalé, Breaker of Chains | BU | 1 | 141 | 359 | ezio-auditore-da-firenze 1, free 2 |
@@ -25,6 +26,7 @@ Sorted by the size of the pool a Spanish-only deck would have. Only candidates w
 | Lo and Li, Twin Tutors | B | 1 | 80 | 209 | fire-lord-azula 1, free 1 |
 | Zuko, Exiled Prince | R | 1 | 77 | 207 | free 2 |
 | Titania, Nature's Force | G | 1 | 75 | 203 | free 1 |
+| Adrestia | C | 1 | 53 | 103 | free 4 |
 | Ratonhnhaké꞉ton | BUW | 0 | 187 | 492 | free 1 |
 | Fire Lord Azula | BRU | 0 | 179 | 504 | fire-lord-azula 1, free 1 |
 | Iroh, Grand Lotus | GRU | 0 | 161 | 464 | free 1 |
@@ -82,7 +84,5 @@ Sorted by the size of the pool a Spanish-only deck would have. Only candidates w
 | Appa, Aang's Companion | W | 0 | 86 | 203 | free 2 |
 | Appa, Loyal Sky Bison | W | 0 | 86 | 203 | free 2 |
 | Appa, Steadfast Guardian | W | 0 | 86 | 203 | free 1 |
-| Hakoda, Selfless Commander | W | 0 | 86 | 203 | free 1 |
-| Katara, Heroic Healer | W | 0 | 86 | 203 | free 1 |
 
-31 more candidates are in legends.json.
+33 more candidates are in legends.json.

@@ -348,9 +348,9 @@
    ],
    "edhrec": {
     "list": "Lands",
-    "synergy": 0.39013403023201787,
-    "inclusion": 0.4073,
-    "num_decks": 7193
+    "synergy": 0.39000455737177947,
+    "inclusion": 0.4072,
+    "num_decks": 7195
    }
   },
   {
@@ -422,9 +422,9 @@
    ],
    "edhrec": {
     "list": "High Lift Cards",
-    "synergy": 0.7007410672792114,
-    "inclusion": 0.719,
-    "num_decks": 12698
+    "synergy": 0.7008091817717319,
+    "inclusion": 0.7191,
+    "num_decks": 12707
    }
   },
   {
@@ -499,9 +499,9 @@
    ],
    "edhrec": {
     "list": "Utility Artifacts",
-    "synergy": 0.16503575737281487,
+    "synergy": 0.16510042988615256,
     "inclusion": 0.1695,
-    "num_decks": 2993
+    "num_decks": 2996
    }
   },
   {
@@ -557,9 +557,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.28041899252204017,
-    "inclusion": 0.2879,
-    "num_decks": 5085
+    "synergy": 0.28030279796033686,
+    "inclusion": 0.2878,
+    "num_decks": 5086
    }
   },
   {
@@ -871,9 +871,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.09347775257642013,
-    "inclusion": 0.1022,
-    "num_decks": 1805
+    "synergy": 0.09364396121431487,
+    "inclusion": 0.1024,
+    "num_decks": 1809
    }
   },
   {
@@ -1299,9 +1299,9 @@
    ],
    "edhrec": {
     "list": "Utility Artifacts",
-    "synergy": 0.051066304691188016,
+    "synergy": 0.05109039065805718,
     "inclusion": 0.0527,
-    "num_decks": 931
+    "num_decks": 932
    }
   },
   {
@@ -1337,9 +1337,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.5724963868901074,
+    "synergy": 0.572476790682121,
     "inclusion": 0.5927,
-    "num_decks": 10467
+    "num_decks": 10473
    }
   },
   {
@@ -1403,9 +1403,9 @@
    ],
    "edhrec": {
     "list": "Mana Artifacts",
-    "synergy": 0.04768897236573344,
-    "inclusion": 0.8073,
-    "num_decks": 14257
+    "synergy": 0.04758731652860382,
+    "inclusion": 0.8072,
+    "num_decks": 14264
    }
   },
   {
@@ -1514,9 +1514,9 @@
    ],
    "edhrec": {
     "list": "Top Cards",
-    "synergy": 0.763147910093193,
+    "synergy": 0.7631778950263914,
     "inclusion": 0.7831,
-    "num_decks": 13830
+    "num_decks": 13839
    }
   },
   {
@@ -1687,9 +1687,9 @@
    ],
    "edhrec": {
     "list": "Utility Artifacts",
-    "synergy": 0.38676389987332854,
+    "synergy": 0.3868585504542144,
     "inclusion": 0.3971,
-    "num_decks": 7012
+    "num_decks": 7018
    }
   },
   {
@@ -1749,9 +1749,9 @@
    ],
    "edhrec": {
     "list": "High Lift Cards",
-    "synergy": 0.4363388730458037,
-    "inclusion": 0.4478,
-    "num_decks": 7908
+    "synergy": 0.43623621915257976,
+    "inclusion": 0.4477,
+    "num_decks": 7911
    }
   },
   {
@@ -1797,9 +1797,9 @@
    ],
    "edhrec": {
     "list": "Instants",
-    "synergy": 0.4444742096140323,
-    "inclusion": 0.5854,
-    "num_decks": 10339
+    "synergy": 0.4443108953271453,
+    "inclusion": 0.5853,
+    "num_decks": 10343
    }
   },
   {
@@ -1895,9 +1895,9 @@
    ],
    "edhrec": {
     "list": "High Lift Cards",
-    "synergy": 0.18536500134192818,
+    "synergy": 0.18536201329575044,
     "inclusion": 0.1902,
-    "num_decks": 3359
+    "num_decks": 3361
    }
   },
   {
@@ -2004,9 +2004,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.40584030187782805,
-    "inclusion": 0.4165,
-    "num_decks": 7356
+    "synergy": 0.40592324839291843,
+    "inclusion": 0.4166,
+    "num_decks": 7362
    }
   },
   {
@@ -2110,9 +2110,9 @@
    ],
    "edhrec": {
     "list": "Top Cards",
-    "synergy": 0.7474111065366217,
+    "synergy": 0.7473930712991508,
     "inclusion": 0.7678,
-    "num_decks": 13560
+    "num_decks": 13568
    }
   },
   {
@@ -2285,9 +2285,9 @@
    ],
    "edhrec": {
     "list": "Enchantments",
-    "synergy": 0.09248585375781612,
-    "inclusion": 0.1075,
-    "num_decks": 1898
+    "synergy": 0.09276426509466053,
+    "inclusion": 0.1077,
+    "num_decks": 1904
    }
   },
   {
@@ -2429,9 +2429,9 @@
    ],
    "edhrec": {
     "list": "Top Cards",
-    "synergy": 0.7895370180232725,
-    "inclusion": 0.8252,
-    "num_decks": 14573
+    "synergy": 0.7894978056161173,
+    "inclusion": 0.8251,
+    "num_decks": 14581
    }
   },
   {
@@ -2535,9 +2535,9 @@
    ],
    "edhrec": {
     "list": "Top Cards",
-    "synergy": 0.7671336096327915,
+    "synergy": 0.7671014430445808,
     "inclusion": 0.7932,
-    "num_decks": 14008
+    "num_decks": 14016
    }
   },
   {
@@ -2603,9 +2603,9 @@
    ],
    "edhrec": {
     "list": "Instants",
-    "synergy": 0.11231946378350492,
-    "inclusion": 0.1156,
-    "num_decks": 2042
+    "synergy": 0.1123612969196016,
+    "inclusion": 0.1157,
+    "num_decks": 2044
    }
   },
   {
@@ -2887,9 +2887,9 @@
    ],
    "edhrec": {
     "list": "Enchantments",
-    "synergy": 0.42036405913498637,
-    "inclusion": 0.4699,
-    "num_decks": 8298
+    "synergy": 0.4202039309372634,
+    "inclusion": 0.4698,
+    "num_decks": 8301
    }
   },
   {
@@ -2933,9 +2933,9 @@
    ],
    "edhrec": {
     "list": "Sorceries",
-    "synergy": -0.07586814037873976,
-    "inclusion": 0.0734,
-    "num_decks": 1296
+    "synergy": -0.07599548210951139,
+    "inclusion": 0.0733,
+    "num_decks": 1295
    }
   },
   {
@@ -3002,9 +3002,9 @@
    ],
    "edhrec": {
     "list": "Enchantments",
-    "synergy": 0.30532800263356485,
-    "inclusion": 0.314,
-    "num_decks": 5546
+    "synergy": 0.3054175038506649,
+    "inclusion": 0.3141,
+    "num_decks": 5551
    }
   },
   {
@@ -3473,9 +3473,9 @@
    ],
    "edhrec": {
     "list": "High Lift Cards",
-    "synergy": 0.07493474849840771,
-    "inclusion": 0.0769,
-    "num_decks": 1358
+    "synergy": 0.07499928192664806,
+    "inclusion": 0.077,
+    "num_decks": 1360
    }
   },
   {
@@ -3518,9 +3518,9 @@
    ],
    "edhrec": {
     "list": "Lands",
-    "synergy": 0.7684175306261091,
-    "inclusion": 0.7889,
-    "num_decks": 13932
+    "synergy": 0.7684996235655498,
+    "inclusion": 0.789,
+    "num_decks": 13942
    }
   },
   {
@@ -3586,9 +3586,9 @@
    ],
    "edhrec": {
     "list": "High Lift Cards",
-    "synergy": 0.23875194736857375,
+    "synergy": 0.23877148104883067,
     "inclusion": 0.245,
-    "num_decks": 4326
+    "num_decks": 4329
    }
   },
   {
@@ -3832,9 +3832,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.10115490046701137,
-    "inclusion": 0.1041,
-    "num_decks": 1839
+    "synergy": 0.10142423773375918,
+    "inclusion": 0.1044,
+    "num_decks": 1845
    }
   },
   {
@@ -3997,9 +3997,9 @@
    ],
    "edhrec": {
     "list": "Utility Artifacts",
-    "synergy": 0.13490405475634082,
-    "inclusion": 0.1403,
-    "num_decks": 2478
+    "synergy": 0.13498506266368404,
+    "inclusion": 0.1404,
+    "num_decks": 2481
    }
   },
   {
@@ -4527,9 +4527,9 @@
    ],
    "edhrec": {
     "list": "Mana Artifacts",
-    "synergy": 0.07030010277355658,
-    "inclusion": 0.5727,
-    "num_decks": 10113
+    "synergy": 0.07041787151281287,
+    "inclusion": 0.5728,
+    "num_decks": 10122
    }
   },
   {
@@ -4841,9 +4841,9 @@
    ],
    "edhrec": {
     "list": "Enchantments",
-    "synergy": 0.3859431910878224,
-    "inclusion": 0.3988,
-    "num_decks": 7043
+    "synergy": 0.3860351963314428,
+    "inclusion": 0.3989,
+    "num_decks": 7049
    }
   },
   {
@@ -4948,9 +4948,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.15469551559761072,
-    "inclusion": 0.1601,
-    "num_decks": 1552
+    "synergy": 0.15444554354939796,
+    "inclusion": 0.1599,
+    "num_decks": 1553
    }
   },
   {
@@ -5095,9 +5095,9 @@
    ],
    "edhrec": {
     "list": "Lands",
-    "synergy": -0.010291703553775844,
-    "inclusion": 0.8754,
-    "num_decks": 15460
+    "synergy": -0.010376074017376946,
+    "inclusion": 0.8753,
+    "num_decks": 15468
    }
   },
   {
@@ -5161,9 +5161,9 @@
    ],
    "edhrec": {
     "list": "Mana Artifacts",
-    "synergy": 0.020242923288722542,
-    "inclusion": 0.1565,
-    "num_decks": 2764
+    "synergy": 0.020070196912598565,
+    "inclusion": 0.1562,
+    "num_decks": 2761
    }
   },
   {
@@ -5480,9 +5480,9 @@
    ],
    "edhrec": {
     "list": "Top Cards",
-    "synergy": 0.727375148693049,
-    "inclusion": 0.7519,
-    "num_decks": 13279
+    "synergy": 0.7275411045996141,
+    "inclusion": 0.7521,
+    "num_decks": 13290
    }
   },
   {
@@ -5692,9 +5692,9 @@
    ],
    "edhrec": {
     "list": "Mana Artifacts",
-    "synergy": 0.2504224413640856,
+    "synergy": 0.25049242805411703,
     "inclusion": 0.266,
-    "num_decks": 4697
+    "num_decks": 4701
    }
   },
   {
@@ -6439,9 +6439,9 @@
    ],
    "edhrec": {
     "list": "Instants",
-    "synergy": 0.011163301693827857,
+    "synergy": 0.011139387897995248,
     "inclusion": 0.1182,
-    "num_decks": 2088
+    "num_decks": 2089
    }
   },
   {
@@ -6620,9 +6620,9 @@
    ],
    "edhrec": {
     "list": "Top Cards",
-    "synergy": 0.7447427601480267,
-    "inclusion": 0.7642,
-    "num_decks": 13495
+    "synergy": 0.7447287891401937,
+    "inclusion": 0.7641,
+    "num_decks": 13503
    }
   },
   {
@@ -7401,9 +7401,9 @@
    ],
    "edhrec": {
     "list": "Sorceries",
-    "synergy": 0.6499998689807069,
-    "inclusion": 0.6679,
-    "num_decks": 11795
+    "synergy": 0.6500979870453957,
+    "inclusion": 0.668,
+    "num_decks": 11804
    }
   },
   {
@@ -7783,9 +7783,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.16703997900711265,
-    "inclusion": 0.1717,
-    "num_decks": 3032
+    "synergy": 0.16721383772196508,
+    "inclusion": 0.1719,
+    "num_decks": 3037
    }
   },
   {
@@ -7822,9 +7822,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.18699036198477526,
-    "inclusion": 0.1982,
-    "num_decks": 3501
+    "synergy": 0.1870442568510624,
+    "inclusion": 0.1983,
+    "num_decks": 3504
    }
   },
   {
@@ -8456,9 +8456,9 @@
    ],
    "edhrec": {
     "list": "Instants",
-    "synergy": 0.11013153166519794,
-    "inclusion": 0.113,
-    "num_decks": 1996
+    "synergy": 0.11000902914925392,
+    "inclusion": 0.1129,
+    "num_decks": 1995
    }
   },
   {
@@ -8585,9 +8585,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.20422087804669772,
+    "synergy": 0.20420663290060082,
     "inclusion": 0.2102,
-    "num_decks": 3712
+    "num_decks": 3714
    }
   },
   {
@@ -8623,9 +8623,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.41737344695153017,
-    "inclusion": 0.429,
-    "num_decks": 7576
+    "synergy": 0.4175019473225364,
+    "inclusion": 0.4291,
+    "num_decks": 7583
    }
   },
   {
@@ -8710,9 +8710,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.5798364953563238,
-    "inclusion": 0.5953,
-    "num_decks": 10513
+    "synergy": 0.5800338485290645,
+    "inclusion": 0.5955,
+    "num_decks": 10523
    }
   },
   {
@@ -8782,9 +8782,9 @@
    ],
    "edhrec": {
     "list": "Lands",
-    "synergy": 0.034464068046385576,
+    "synergy": 0.03440723267447374,
     "inclusion": 0.2318,
-    "num_decks": 4094
+    "num_decks": 4096
    }
   },
   {
@@ -8878,9 +8878,9 @@
    ],
    "edhrec": {
     "list": "Lands",
-    "synergy": -0.0011607307452710103,
-    "inclusion": 0.6408,
-    "num_decks": 11316
+    "synergy": -0.0013567723242952079,
+    "inclusion": 0.6406,
+    "num_decks": 11320
    }
   },
   {
@@ -9040,9 +9040,9 @@
    ],
    "edhrec": {
     "list": "Top Cards",
-    "synergy": 0.8000419440765374,
-    "inclusion": 0.821,
-    "num_decks": 14499
+    "synergy": 0.8001045556284755,
+    "inclusion": 0.8211,
+    "num_decks": 14509
    }
   },
   {
@@ -9106,9 +9106,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.20078843926348344,
-    "inclusion": 0.2065,
-    "num_decks": 3646
+    "synergy": 0.20072102787666066,
+    "inclusion": 0.2064,
+    "num_decks": 3647
    }
   },
   {
@@ -9388,9 +9388,9 @@
    ],
    "edhrec": {
     "list": "Instants",
-    "synergy": 0.11995832843074714,
+    "synergy": 0.11993855545854626,
     "inclusion": 0.126,
-    "num_decks": 2225
+    "num_decks": 2226
    }
   },
   {
@@ -10746,9 +10746,9 @@
    ],
    "edhrec": {
     "list": "Lands",
-    "synergy": -0.08237336934347228,
-    "inclusion": 0.7373,
-    "num_decks": 13020
+    "synergy": -0.08204754071461473,
+    "inclusion": 0.7376,
+    "num_decks": 13034
    }
   },
   {
@@ -11947,9 +11947,9 @@
    ],
    "edhrec": {
     "list": "Instants",
-    "synergy": 0.3127875989288588,
-    "inclusion": 0.3276,
-    "num_decks": 5786
+    "synergy": 0.31265152983535965,
+    "inclusion": 0.3275,
+    "num_decks": 5787
    }
   },
   {
@@ -12656,9 +12656,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.07749046702580051,
+    "synergy": 0.07749737178933747,
     "inclusion": 0.0941,
-    "num_decks": 1662
+    "num_decks": 1663
    }
   },
   {
@@ -12703,9 +12703,9 @@
    ],
    "edhrec": {
     "list": "Utility Artifacts",
-    "synergy": 0.43138885914595726,
-    "inclusion": 0.4435,
-    "num_decks": 7832
+    "synergy": 0.43167719232757074,
+    "inclusion": 0.4438,
+    "num_decks": 7842
    }
   },
   {
@@ -13104,9 +13104,9 @@
    ],
    "edhrec": {
     "list": "High Lift Cards",
-    "synergy": 0.5171200175050767,
-    "inclusion": 0.5306,
-    "num_decks": 9371
+    "synergy": 0.5173555841385129,
+    "inclusion": 0.5309,
+    "num_decks": 9381
    }
   },
   {
@@ -13156,9 +13156,9 @@
    ],
    "edhrec": {
     "list": "Utility Artifacts",
-    "synergy": 0.11542082965818998,
-    "inclusion": 0.1189,
-    "num_decks": 2100
+    "synergy": 0.11546080980186318,
+    "inclusion": 0.119,
+    "num_decks": 2102
    }
   },
   {
@@ -13400,9 +13400,9 @@
    ],
    "edhrec": {
     "list": "Utility Artifacts",
-    "synergy": 0.18343398978832098,
+    "synergy": 0.18337847291359,
     "inclusion": 0.1883,
-    "num_decks": 3326
+    "num_decks": 3327
    }
   },
   {
@@ -13437,9 +13437,9 @@
    ],
    "edhrec": {
     "list": "High Lift Cards",
-    "synergy": 0.13204460484716887,
+    "synergy": 0.13207422304570718,
     "inclusion": 0.1355,
-    "num_decks": 2393
+    "num_decks": 2395
    }
   },
   {
@@ -13709,9 +13709,9 @@
    ],
    "edhrec": {
     "list": "Utility Artifacts",
-    "synergy": 0.09243497130747327,
-    "inclusion": 0.0952,
-    "num_decks": 1681
+    "synergy": 0.092542703311059,
+    "inclusion": 0.0953,
+    "num_decks": 1684
    }
   },
   {
@@ -14625,9 +14625,9 @@
    ],
    "edhrec": {
     "list": "Lands",
-    "synergy": 0.030849622913067587,
+    "synergy": 0.030765295177672347,
     "inclusion": 0.8301,
-    "num_decks": 14660
+    "num_decks": 14668
    }
   },
   {
@@ -14798,9 +14798,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.5868635126697318,
-    "inclusion": 0.6024,
-    "num_decks": 10639
+    "synergy": 0.5868910164840936,
+    "inclusion": 0.6025,
+    "num_decks": 10646
    }
   },
   {
@@ -15284,9 +15284,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.25861732355172196,
-    "inclusion": 0.2659,
-    "num_decks": 4695
+    "synergy": 0.2588456222594703,
+    "inclusion": 0.2661,
+    "num_decks": 4702
    }
   },
   {
@@ -16027,9 +16027,9 @@
    ],
    "edhrec": {
     "list": "Top Cards",
-    "synergy": 0.7055591901099559,
+    "synergy": 0.705567905506021,
     "inclusion": 0.7243,
-    "num_decks": 12791
+    "num_decks": 12799
    }
   },
   {
@@ -16639,9 +16639,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.1756253528780272,
-    "inclusion": 0.1815,
-    "num_decks": 3205
+    "synergy": 0.17546050662637935,
+    "inclusion": 0.1813,
+    "num_decks": 3204
    }
   },
   {
@@ -16745,9 +16745,9 @@
    ],
    "edhrec": {
     "list": "High Lift Cards",
-    "synergy": 0.6067837063777747,
+    "synergy": 0.606743785620222,
     "inclusion": 0.6227,
-    "num_decks": 10997
+    "num_decks": 11003
    }
   },
   {
@@ -16986,9 +16986,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.40876041171265015,
+    "synergy": 0.4087316839736381,
     "inclusion": 0.4206,
-    "num_decks": 7428
+    "num_decks": 7432
    }
   },
   {
@@ -17603,8 +17603,8 @@
    ],
    "edhrec": {
     "list": "Utility Artifacts",
-    "synergy": 0.11837255873545535,
-    "inclusion": 0.1227,
+    "synergy": 0.11830212773054354,
+    "inclusion": 0.1226,
     "num_decks": 2167
    }
   },
@@ -17875,9 +17875,9 @@
    ],
    "edhrec": {
     "list": "Instants",
-    "synergy": 0.35774290392082764,
+    "synergy": 0.3577903799751672,
     "inclusion": 0.3844,
-    "num_decks": 6788
+    "num_decks": 6793
    }
   },
   {
@@ -18123,9 +18123,9 @@
    ],
    "edhrec": {
     "list": "Lands",
-    "synergy": -0.011745339730048543,
-    "inclusion": 0.767,
-    "num_decks": 13545
+    "synergy": -0.011660445915110396,
+    "inclusion": 0.7671,
+    "num_decks": 13555
    }
   },
   {
@@ -18209,8 +18209,8 @@
    ],
    "edhrec": {
     "list": "Instants",
-    "synergy": 0.21002546119116294,
-    "inclusion": 0.2232,
+    "synergy": 0.20990029352502168,
+    "inclusion": 0.223,
     "num_decks": 3941
    }
   },
@@ -18516,9 +18516,9 @@
    ],
    "edhrec": {
     "list": "Instants",
-    "synergy": 0.007796793472677907,
-    "inclusion": 0.0925,
-    "num_decks": 1633
+    "synergy": 0.007704698084918679,
+    "inclusion": 0.0924,
+    "num_decks": 1632
    }
   },
   {
@@ -19202,9 +19202,9 @@
    ],
    "edhrec": {
     "list": "Enchantments",
-    "synergy": 0.17752877997327846,
-    "inclusion": 0.1828,
-    "num_decks": 3229
+    "synergy": 0.17758462865775854,
+    "inclusion": 0.1829,
+    "num_decks": 3232
    }
   },
   {
@@ -19384,9 +19384,9 @@
    ],
    "edhrec": {
     "list": "Sorceries",
-    "synergy": 0.4492842114964873,
+    "synergy": 0.4493424143215513,
     "inclusion": 0.4621,
-    "num_decks": 8160
+    "num_decks": 8166
    }
   },
   {
@@ -19585,9 +19585,9 @@
    ],
    "edhrec": {
     "list": "Lands",
-    "synergy": 0.17745607566559424,
-    "inclusion": 0.6208,
-    "num_decks": 10963
+    "synergy": 0.1774398019971456,
+    "inclusion": 0.6207,
+    "num_decks": 10969
    }
   },
   {
@@ -19622,9 +19622,9 @@
    ],
    "edhrec": {
     "list": "Instants",
-    "synergy": 0.26192130971946287,
-    "inclusion": 0.5644,
-    "num_decks": 9968
+    "synergy": 0.2619639819824639,
+    "inclusion": 0.5645,
+    "num_decks": 9976
    }
   },
   {
@@ -19750,8 +19750,8 @@
    ],
    "edhrec": {
     "list": "Sorceries",
-    "synergy": 0.16032628887391598,
-    "inclusion": 0.1646,
+    "synergy": 0.16022828015270793,
+    "inclusion": 0.1645,
     "num_decks": 2906
    }
   },
@@ -19787,9 +19787,9 @@
    ],
    "edhrec": {
     "list": "Utility Artifacts",
-    "synergy": 0.16179695346393327,
-    "inclusion": 0.1661,
-    "num_decks": 2934
+    "synergy": 0.1619187724067394,
+    "inclusion": 0.1663,
+    "num_decks": 2938
    }
   },
   {
@@ -20047,9 +20047,9 @@
    ],
    "edhrec": {
     "list": "Lands",
-    "synergy": -0.0018675714017696299,
-    "inclusion": 0.7837,
-    "num_decks": 13841
+    "synergy": -0.00176047527223544,
+    "inclusion": 0.7839,
+    "num_decks": 13852
    }
   },
   {
@@ -20207,9 +20207,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.1329746235426747,
-    "inclusion": 0.1365,
-    "num_decks": 2410
+    "synergy": 0.13294850303895753,
+    "inclusion": 0.1364,
+    "num_decks": 2411
    }
   },
   {
@@ -20434,9 +20434,9 @@
    ],
    "edhrec": {
     "list": "Enchantments",
-    "synergy": 0.29090104936643346,
-    "inclusion": 0.3635,
-    "num_decks": 6420
+    "synergy": 0.2912472743949186,
+    "inclusion": 0.3639,
+    "num_decks": 6430
    }
   },
   {
@@ -20576,9 +20576,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.6344723692264845,
+    "synergy": 0.6344629231364443,
     "inclusion": 0.6595,
-    "num_decks": 11647
+    "num_decks": 11654
    }
   },
   {
@@ -20927,9 +20927,9 @@
    ],
    "edhrec": {
     "list": "Sorceries",
-    "synergy": -0.07891605560015001,
+    "synergy": -0.07887416118775219,
     "inclusion": 0.1079,
-    "num_decks": 1905
+    "num_decks": 1906
    }
   },
   {
@@ -21012,9 +21012,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.6077123073032342,
-    "inclusion": 0.6237,
-    "num_decks": 11014
+    "synergy": 0.60750630211354,
+    "inclusion": 0.6235,
+    "num_decks": 11017
    }
   },
   {
@@ -21163,9 +21163,9 @@
    ],
    "edhrec": {
     "list": "Utility Artifacts",
-    "synergy": 0.07703378940523052,
-    "inclusion": 0.0792,
-    "num_decks": 1399
+    "synergy": 0.07731780504227417,
+    "inclusion": 0.0795,
+    "num_decks": 1405
    }
   },
   {
@@ -21417,9 +21417,9 @@
    ],
    "edhrec": {
     "list": "Sorceries",
-    "synergy": 0.11659797739383805,
-    "inclusion": 0.1215,
-    "num_decks": 2145
+    "synergy": 0.1163633545260353,
+    "inclusion": 0.1212,
+    "num_decks": 2142
    }
   },
   {
@@ -21557,9 +21557,9 @@
    ],
    "edhrec": {
     "list": "Sorceries",
-    "synergy": 0.6013785410876158,
+    "synergy": 0.6013420679702982,
     "inclusion": 0.6175,
-    "num_decks": 10905
+    "num_decks": 10911
    }
   },
   {
@@ -21860,9 +21860,9 @@
    ],
    "edhrec": {
     "list": "Utility Lands",
-    "synergy": 0.42635506418846303,
-    "inclusion": 0.4843,
-    "num_decks": 8552
+    "synergy": 0.42623158944288875,
+    "inclusion": 0.4841,
+    "num_decks": 8555
    }
   },
   {
@@ -21991,9 +21991,9 @@
    ],
    "edhrec": {
     "list": "High Lift Cards",
-    "synergy": 0.5003313911441161,
-    "inclusion": 0.5134,
-    "num_decks": 9066
+    "synergy": 0.5004668568396292,
+    "inclusion": 0.5135,
+    "num_decks": 9074
    }
   },
   {
@@ -22060,9 +22060,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.31153266611469327,
-    "inclusion": 0.3203,
-    "num_decks": 5656
+    "synergy": 0.3115079680071692,
+    "inclusion": 0.3202,
+    "num_decks": 5659
    }
   },
   {
@@ -22206,9 +22206,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.6057352890313462,
+    "synergy": 0.6058070049372626,
     "inclusion": 0.6232,
-    "num_decks": 11005
+    "num_decks": 11013
    }
   },
   {
@@ -22757,9 +22757,9 @@
    ],
    "edhrec": {
     "list": "Utility Lands",
-    "synergy": 0.05709570066295364,
-    "inclusion": 0.0858,
-    "num_decks": 839
+    "synergy": 0.05702019651562537,
+    "inclusion": 0.0857,
+    "num_decks": 840
    }
   },
   {
@@ -22976,8 +22976,8 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.126955563822509,
-    "inclusion": 0.1313,
+    "synergy": 0.126879776161983,
+    "inclusion": 0.1312,
     "num_decks": 2318
    }
   },
@@ -23168,8 +23168,8 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.3583673764728389,
-    "inclusion": 0.368,
+    "synergy": 0.3581483853133345,
+    "inclusion": 0.3678,
     "num_decks": 6499
    }
   },
@@ -23246,9 +23246,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.27372963175635606,
+    "synergy": 0.2737769805350279,
     "inclusion": 0.2835,
-    "num_decks": 5006
+    "num_decks": 5010
    }
   },
   {
@@ -23688,7 +23688,7 @@
    ],
    "edhrec": {
     "list": "Lands",
-    "synergy": 0.06318497522641124,
+    "synergy": 0.0631335425638711,
     "inclusion": 0.1448,
     "num_decks": 2558
    }
@@ -23952,9 +23952,9 @@
    ],
    "edhrec": {
     "list": "Mana Artifacts",
-    "synergy": 0.028338002172123233,
-    "inclusion": 0.8259,
-    "num_decks": 14586
+    "synergy": 0.028212098871685742,
+    "inclusion": 0.8258,
+    "num_decks": 14593
    }
   },
   {
@@ -24979,9 +24979,9 @@
    ],
    "edhrec": {
     "list": "Lands",
-    "synergy": 0.09549569254083996,
-    "inclusion": 0.1806,
-    "num_decks": 3190
+    "synergy": 0.09518651516188488,
+    "inclusion": 0.1803,
+    "num_decks": 3186
    }
   },
   {
@@ -25231,9 +25231,9 @@
    ],
    "edhrec": {
     "list": "Lands",
-    "synergy": 0.16048813888521618,
-    "inclusion": 0.9189,
-    "num_decks": 16227
+    "synergy": 0.16055478224064057,
+    "inclusion": 0.919,
+    "num_decks": 16239
    }
   },
   {
@@ -25309,9 +25309,9 @@
    ],
    "edhrec": {
     "list": "Instants",
-    "synergy": -0.036675382131054785,
-    "inclusion": 0.0753,
-    "num_decks": 1330
+    "synergy": -0.03657691221782702,
+    "inclusion": 0.0754,
+    "num_decks": 1333
    }
   },
   {
@@ -25385,8 +25385,8 @@
    ],
    "edhrec": {
     "list": "Utility Artifacts",
-    "synergy": 0.11706313771081926,
-    "inclusion": 0.2413,
+    "synergy": 0.11693817210800951,
+    "inclusion": 0.2412,
     "num_decks": 4262
    }
   },
@@ -25432,9 +25432,9 @@
    ],
    "edhrec": {
     "list": "Instants",
-    "synergy": -0.036172462166208175,
-    "inclusion": 0.3502,
-    "num_decks": 6184
+    "synergy": -0.036386949941586255,
+    "inclusion": 0.35,
+    "num_decks": 6185
    }
   },
   {
@@ -25952,8 +25952,8 @@
    ],
    "edhrec": {
     "list": "Instants",
-    "synergy": 0.3073604451973922,
-    "inclusion": 0.3426,
+    "synergy": 0.3071628116126333,
+    "inclusion": 0.3424,
     "num_decks": 6050
    }
   },
@@ -25997,7 +25997,7 @@
    ],
    "edhrec": {
     "list": "Lands",
-    "synergy": 0.013106767385885676,
+    "synergy": 0.013007912555690976,
     "inclusion": 0.1465,
     "num_decks": 2588
    }
@@ -26096,9 +26096,9 @@
    ],
    "edhrec": {
     "list": "Enchantments",
-    "synergy": 0.08677373860336668,
-    "inclusion": 0.0971,
-    "num_decks": 1715
+    "synergy": 0.0866689343028902,
+    "inclusion": 0.097,
+    "num_decks": 1714
    }
   },
   {
@@ -26131,9 +26131,9 @@
    ],
    "edhrec": {
     "list": "Utility Artifacts",
-    "synergy": 0.3297156544640322,
+    "synergy": 0.3297350247329263,
     "inclusion": 0.339,
-    "num_decks": 5986
+    "num_decks": 5990
    }
   },
   {
@@ -26360,9 +26360,9 @@
    ],
    "edhrec": {
     "list": "Enchantments",
-    "synergy": 0.46554632245791794,
-    "inclusion": 0.4778,
-    "num_decks": 8438
+    "synergy": 0.4658134597493885,
+    "inclusion": 0.4781,
+    "num_decks": 8448
    }
   },
   {
@@ -26402,9 +26402,9 @@
    ],
    "edhrec": {
     "list": "Utility Artifacts",
-    "synergy": 0.2900902541332577,
-    "inclusion": 0.2988,
-    "num_decks": 5276
+    "synergy": 0.2904650870646042,
+    "inclusion": 0.2991,
+    "num_decks": 5286
    }
   },
   {
@@ -27371,9 +27371,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.105871629136712,
-    "inclusion": 0.1089,
-    "num_decks": 1924
+    "synergy": 0.10591737675631419,
+    "inclusion": 0.109,
+    "num_decks": 1926
    }
   },
   {
@@ -27440,9 +27440,9 @@
    ],
    "edhrec": {
     "list": "Sorceries",
-    "synergy": 0.06803232362849507,
-    "inclusion": 0.0699,
-    "num_decks": 1234
+    "synergy": 0.06793416611948964,
+    "inclusion": 0.0698,
+    "num_decks": 1233
    }
   },
   {
@@ -28196,9 +28196,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.4100801458502917,
-    "inclusion": 0.4217,
-    "num_decks": 7447
+    "synergy": 0.40988355605381444,
+    "inclusion": 0.4215,
+    "num_decks": 7448
    }
   },
   {
@@ -28574,9 +28574,9 @@
    ],
    "edhrec": {
     "list": "Sorceries",
-    "synergy": 0.5770372561179222,
-    "inclusion": 0.5947,
-    "num_decks": 10503
+    "synergy": 0.5770731943655968,
+    "inclusion": 0.5948,
+    "num_decks": 10510
    }
   },
   {
@@ -28616,9 +28616,9 @@
    ],
    "edhrec": {
     "list": "Creatures",
-    "synergy": 0.12765566589596217,
-    "inclusion": 0.1322,
-    "num_decks": 1772
+    "synergy": 0.12780890121561023,
+    "inclusion": 0.1323,
+    "num_decks": 1777
    }
   },
   {
@@ -29167,9 +29167,9 @@
    ],
    "edhrec": {
     "list": "Sorceries",
-    "synergy": 0.21181535477040497,
-    "inclusion": 0.219,
-    "num_decks": 3867
+    "synergy": 0.21173604491547998,
+    "inclusion": 0.2189,
+    "num_decks": 3868
    }
   },
   {

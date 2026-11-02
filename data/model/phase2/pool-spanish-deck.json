@@ -1,0 +1,6737 @@
+{
+ "slug": "spanish-deck",
+ "commander": "Kilo, Apogee Mind",
+ "language_policy": "es",
+ "color_identity": [
+  "R",
+  "U",
+  "W"
+ ],
+ "cards": [
+  {
+   "name": "Aang's Journey",
+   "oracle_id": "ddf461b9-a205-4dc7-a9c3-c047b1ff709f",
+   "type": "Sorcery — Lesson",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "Kicker {2} (You may pay an additional {2} as you cast this spell.)\nSearch your library for a basic land card. If this spell was kicked, instead search your library for a basic land card and a Shrine card. Reveal those cards, put them into your hand, then shuffle.\nYou gain 2 life.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 3,
+    "es": 1
+   },
+   "held_by": {
+    "free": 4
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "1",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Aang, the Last Airbender",
+   "oracle_id": "70564c3a-858f-498e-8b92-acb3ca54ae7e",
+   "type": "Legendary Creature — Human Avatar Ally",
+   "cmc": 4.0,
+   "mana_cost": "{3}{W}",
+   "oracle_text": "Flying\nWhen Aang enters, airbend up to one other target nonland permanent. (Exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.)\nWhenever you cast a Lesson spell, Aang gains lifelink until end of turn.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "4",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Adarkar Wastes",
+   "oracle_id": "d5ad26cc-2bdb-46b7-b8bf-dd099d5fa09b",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {W} or {U}. This land deals 1 damage to you.",
+   "color_identity": [
+    "U",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "147",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.24523358959214564,
+    "inclusion": 0.6307,
+    "num_decks": 12734
+   }
+  },
+  {
+   "name": "Adrestia",
+   "oracle_id": "94779ca4-c202-4163-9c77-1036921a34bc",
+   "type": "Legendary Artifact — Vehicle",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)\nWhenever Adrestia attacks, if an Assassin crewed it this turn, draw a card. Adrestia becomes an Assassin in addition to its other types until end of turn.\nCrew 1",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 3,
+    "es": 1
+   },
+   "held_by": {
+    "free": 4
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "68",
+     "finish": "foil",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Aether Gale",
+   "oracle_id": "b21d6482-1b3a-47e6-98a5-3067f5f3818b",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "mana_cost": "{3}{U}{U}",
+   "oracle_text": "Return six target nonland permanents to their owners' hands.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "SOC",
+     "number": "186",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Airbending Lesson",
+   "oracle_id": "e101b744-9175-4aa5-bf80-d6944359e538",
+   "type": "Instant — Lesson",
+   "cmc": 3.0,
+   "mana_cost": "{2}{W}",
+   "oracle_text": "Airbend target nonland permanent. (Exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.)\nDraw a card.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 3,
+    "es": 1
+   },
+   "held_by": {
+    "free": 4
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "8",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Airship Engine Room",
+   "oracle_id": "01ed9139-293d-4477-a145-3c6fe59266c7",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\n{T}: Add {U} or {R}.\n{4}, {T}, Sacrifice this land: Draw a card.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "265",
+     "finish": "foil",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Alibou, Ancient Witness",
+   "oracle_id": "e5e8e116-10fe-48b0-b3d8-6edb39bd5f90",
+   "type": "Legendary Artifact Creature — Golem",
+   "cmc": 5.0,
+   "mana_cost": "{3}{R}{W}",
+   "oracle_text": "Other artifact creatures you control have haste.\nWhenever one or more artifact creatures you control attack, Alibou deals X damage to any target and you scry X, where X is the number of tapped artifacts you control.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "113",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.3689540671142461,
+    "inclusion": 0.4449,
+    "num_decks": 8983
+   }
+  },
+  {
+   "name": "Ancient Den",
+   "oracle_id": "02f16726-f2f6-4943-b71a-93f8e26251d3",
+   "type": "Artifact Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {W}.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "148",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Lands",
+    "synergy": 0.6281936230783737,
+    "inclusion": 0.7681,
+    "num_decks": 15508
+   }
+  },
+  {
+   "name": "Angel of the Ruins",
+   "oracle_id": "14878a5f-7983-4133-a1a7-9d539531e092",
+   "type": "Artifact Creature — Angel",
+   "cmc": 7.0,
+   "mana_cost": "{5}{W}{W}",
+   "oracle_text": "Flying\nWhen this creature enters, exile up to two target artifacts and/or enchantments.\nPlainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "63",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.07921650547087523,
+    "inclusion": 0.1193,
+    "num_decks": 2408
+   }
+  },
+  {
+   "name": "Arbaaz Mir",
+   "oracle_id": "a383ef16-1af8-4b3a-956c-c10a93768617",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 2.0,
+   "mana_cost": "{R}{W}",
+   "oracle_text": "Whenever Arbaaz Mir or another nontoken historic permanent you control enters, Arbaaz Mir deals 1 damage to each opponent and you gain 1 life. (Artifacts, legendaries, and Sagas are historic.)",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "46",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Arcane Signet",
+   "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1,
+    "en": 3
+   },
+   "held_by": {
+    "free": 1,
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "53",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": -0.030651711716913277,
+    "inclusion": 0.8463,
+    "num_decks": 17087
+   }
+  },
+  {
+   "name": "Assassin Den",
+   "oracle_id": "826274fd-9831-4122-a5d9-0d1caa3d3a85",
+   "type": "Creature — Wall",
+   "cmc": 4.0,
+   "mana_cost": "{3}{U}",
+   "oracle_text": "Defender (This creature can't attack.)\n{3}{U}: Put a +1/+1 counter on target creature you control. It can't be blocked this turn. Activate only as a sorcery.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "281",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Assassin Gauntlet",
+   "oracle_id": "85d06533-3c0b-46a8-8fdb-379db9ae7e2e",
+   "type": "Artifact — Equipment",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "When this Equipment enters, attach it to up to one target creature you control. Tap all creatures target opponent controls.\nEquipped creature gets +1/+1 and has \"Whenever this creature deals combat damage to a player, draw a card, then discard a card.\"\nEquip {2}",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "12",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "ACR",
+     "number": "12",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Astral Cornucopia",
+   "oracle_id": "1bc42024-52da-4d93-8b47-544f0a4a72a1",
+   "type": "Artifact",
+   "cmc": 0.0,
+   "mana_cost": "{X}{X}{X}",
+   "oracle_text": "This artifact enters with X charge counters on it.\n{T}: Choose a color. Add one mana of that color for each charge counter on this artifact.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "SOC",
+     "number": "342",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.6379553103791862,
+    "inclusion": 0.7172,
+    "num_decks": 14480
+   }
+  },
+  {
+   "name": "Astral Wingspan",
+   "oracle_id": "a054b6ed-f6ca-4436-a433-89771ffdd2d6",
+   "type": "Enchantment — Aura",
+   "cmc": 5.0,
+   "mana_cost": "{4}{U}",
+   "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nEnchant creature\nWhen this Aura enters, draw a card.\nEnchanted creature gets +2/+2 and has flying.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "MOM",
+     "number": "48",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Barrels of Blasting Jelly",
+   "oracle_id": "c6cd520c-106b-4ee5-bc02-6c5fbdbc78dd",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "mana_cost": "{1}",
+   "oracle_text": "{1}: Add one mana of any color. Activate only once each turn.\n{5}, {T}, Sacrifice this artifact: It deals 5 damage to target creature.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 3,
+    "es": 1
+   },
+   "held_by": {
+    "free": 4
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "254",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Battlefield Forge",
+   "oracle_id": "6b75b94e-83b7-457e-ac41-7ca90b5a59aa",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {R} or {W}. This land deals 1 damage to you.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "58",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.15088883103423867,
+    "inclusion": 0.5865,
+    "num_decks": 11842
+   }
+  },
+  {
+   "name": "Battlefield Improvisation",
+   "oracle_id": "c5b85aa7-6a76-4fe2-a63e-4f376b6c9af7",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{W}",
+   "oracle_text": "Target creature gets +2/+2 until end of turn. If that creature is attacking, you may attach any number of Equipment you control to it.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "276",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Boar-q-pine",
+   "oracle_id": "551e4356-5b1f-475c-a64b-9c50ea9b0368",
+   "type": "Creature — Boar Porcupine",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "Whenever you cast a noncreature spell, put a +1/+1 counter on this creature.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 3,
+    "es": 1
+   },
+   "held_by": {
+    "free": 4
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "124",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Brotherhood Headquarters",
+   "oracle_id": "0d3a06d5-5bb9-4733-a55b-9e2c75de6b6e",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast an Assassin spell or a spell that has freerunning, or to activate an ability of an Assassin source.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 4,
+   "by_language": {
+    "es": 4
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "80",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "ACR",
+     "number": "80",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 3,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Brotherhood Spy",
+   "oracle_id": "26d800b2-b312-4400-8357-615301971086",
+   "type": "Creature — Human Assassin",
+   "cmc": 2.0,
+   "mana_cost": "{1}{U}",
+   "oracle_text": "At the beginning of combat on your turn, if you control a legendary Assassin, this creature gets +1/+0 until end of turn and can't be blocked this turn.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 3,
+   "by_language": {
+    "es": 3
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "282",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 3,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Brute Suit",
+   "oracle_id": "bc64e396-7fa1-4a4e-a528-352737714a9c",
+   "type": "Artifact — Vehicle",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "Vigilance\nCrew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "NEO",
+     "number": "241",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Bumi Bash",
+   "oracle_id": "629f247c-1e64-4c32-8892-0716ed469d1c",
+   "type": "Sorcery",
+   "cmc": 4.0,
+   "mana_cost": "{3}{R}",
+   "oracle_text": "Choose one —\n• Bumi Bash deals damage equal to the number of lands you control to target creature.\n• Destroy target land creature or nonbasic land.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1,
+    "es": 1
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "125",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Buried Ruin",
+   "oracle_id": "3644f316-f9a3-46c9-9b1e-747f86cf4ead",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice this land: Return target artifact card from your graveyard to your hand.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1,
+    "es": 1
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "150",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Lands",
+    "synergy": 0.48087201976149335,
+    "inclusion": 0.5969,
+    "num_decks": 12051
+   }
+  },
+  {
+   "name": "Burnished Hart",
+   "oracle_id": "893fed41-c144-433f-af88-bc7d419b7fb3",
+   "type": "Artifact Creature — Elk",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "{3}, Sacrifice this creature: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "FDN",
+     "number": "250",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Cascade Bluffs",
+   "oracle_id": "f1603384-4361-49c9-98aa-7785fc3504c4",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{U/R}, {T}: Add {U}{U}, {U}{R}, or {R}{R}.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1,
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1,
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "SOC",
+     "number": "364",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.3022627006074818,
+    "inclusion": 0.5584,
+    "num_decks": 11275
+   }
+  },
+  {
+   "name": "Cat-Owl",
+   "oracle_id": "ba6840a6-b6fd-4b91-ac1a-a61b7b15849a",
+   "type": "Creature — Cat Bird",
+   "cmc": 4.0,
+   "mana_cost": "{3}{W/U}",
+   "oracle_text": "Flying\nWhenever this creature attacks, untap target artifact or creature.",
+   "color_identity": [
+    "U",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "212",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Chain Reaction",
+   "oracle_id": "086b2564-9114-4ba2-94fd-b490f98f38a7",
+   "type": "Sorcery",
+   "cmc": 4.0,
+   "mana_cost": "{2}{R}{R}",
+   "oracle_text": "Chain Reaction deals X damage to each creature, where X is the number of creatures on the battlefield.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "ECC",
+     "number": "92",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Sorceries",
+    "synergy": 0.19203047219907363,
+    "inclusion": 0.2273,
+    "num_decks": 4589
+   }
+  },
+  {
+   "name": "Chaos Warp",
+   "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2,
+    "en": 2
+   },
+   "held_by": {
+    "free": 2,
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "49",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
+    {
+     "set": "FIC",
+     "number": "291",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.2525742452571709,
+    "inclusion": 0.4731,
+    "num_decks": 9552
+   }
+  },
+  {
+   "name": "Chromatic Star",
+   "oracle_id": "fedbd40b-e3a5-449c-a8a3-b42e9da191a9",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "mana_cost": "{1}",
+   "oracle_text": "{1}, {T}, Sacrifice this artifact: Add one mana of any color.\nWhen this artifact is put into a graveyard from the battlefield, draw a card.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "TSR",
+     "number": "263",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Chrome Host Seedshark",
+   "oracle_id": "837c5d0e-0a33-4f9d-ae25-68a687bdf640",
+   "type": "Creature — Phyrexian Shark",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "Flying\nWhenever you cast a noncreature spell, incubate X, where X is that spell's mana value. (Create an Incubator token with X +1/+1 counters on it and \"{2}: Transform this token.\" It transforms into a 0/0 Phyrexian artifact creature.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "68",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.17284002697876946,
+    "inclusion": 0.2082,
+    "num_decks": 4204
+   }
+  },
+  {
+   "name": "Clifftop Retreat",
+   "oracle_id": "d7faa3c8-46cf-46b2-bfa4-89000307cf18",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control a Mountain or a Plains.\n{T}: Add {R} or {W}.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 3,
+   "by_language": {
+    "es": 3
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "toph-the-first-metalbender": 1,
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "67",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "FRC",
+     "number": "67",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    },
+    {
+     "set": "FRC",
+     "number": "67",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.08956261901705687,
+    "inclusion": 0.6302,
+    "num_decks": 12724
+   }
+  },
+  {
+   "name": "Cloud Key",
+   "oracle_id": "2a838818-d590-4374-9a63-d9e6381a0f0d",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "As this artifact enters, choose artifact, creature, enchantment, instant, or sorcery.\nSpells you cast of the chosen type cost {1} less to cast.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "54",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.4174427714250523,
+    "inclusion": 0.4909,
+    "num_decks": 9912
+   }
+  },
+  {
+   "name": "Coastal Piracy",
+   "oracle_id": "8a05ec32-7b0c-4f23-a4f7-413301c2a70a",
+   "type": "Enchantment",
+   "cmc": 4.0,
+   "mana_cost": "{2}{U}{U}",
+   "oracle_text": "Whenever a creature you control deals combat damage to an opponent, you may draw a card.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 1,
+    "es": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "84",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Cobbled Wings",
+   "oracle_id": "8d8682f3-9ef3-4aa7-9ea6-8a2ce09bff6f",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "Equipped creature has flying.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1,
+    "es": 1
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "INR",
+     "number": "258",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Coming In Hot",
+   "oracle_id": "9666729d-3a06-43f9-a957-d5cc4d25b974",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{R}",
+   "oracle_text": "Target creature gets +1/+0 and gains first strike until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "MOM",
+     "number": "136",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Command Tower",
+   "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 1,
+    "es": 2
+   },
+   "held_by": {
+    "fire-lord-azula": 1,
+    "ezio-auditore-da-firenze": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "59",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "PIP",
+     "number": "259",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.03081350384771797,
+    "inclusion": 0.9569,
+    "num_decks": 19321
+   }
+  },
+  {
+   "name": "Commander's Sphere",
+   "oracle_id": "0b67c4e2-f88b-4e01-85a1-9d5f5b8db13b",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "{T}: Add one mana of any color in your commander's color identity.\nSacrifice this artifact: Draw a card.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "ECC",
+     "number": "139",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Consider",
+   "oracle_id": "4c9bcba6-87b5-4fb3-97ee-6fe5b739337d",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{U}",
+   "oracle_text": "Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nDraw a card.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "TDC",
+     "number": "148",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Coretapper",
+   "oracle_id": "66e37011-f3d2-41ed-8e09-7bba9464e8c3",
+   "type": "Artifact Creature — Myr",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{T}: Put a charge counter on target artifact.\nSacrifice this creature: Put two charge counters on target artifact.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "132",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.34573634303296297,
+    "inclusion": 0.3946,
+    "num_decks": 7968
+   }
+  },
+  {
+   "name": "Crescent Island Temple",
+   "oracle_id": "2886f95e-c4e8-4770-b7de-40985f336cfb",
+   "type": "Legendary Enchantment — Shrine",
+   "cmc": 4.0,
+   "mana_cost": "{3}{R}",
+   "oracle_text": "When Crescent Island Temple enters, for each Shrine you control, create a 1/1 red Monk creature token with prowess. (Whenever you cast a noncreature spell, it gets +1/+1 until end of turn.)\nWhenever another Shrine you control enters, create a 1/1 red Monk creature token with prowess.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "129",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Crystalline Crawler",
+   "oracle_id": "5ea3e672-ae14-49a4-badb-f713497dd126",
+   "type": "Artifact Creature — Construct",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "Converge — This creature enters with a +1/+1 counter on it for each color of mana spent to cast it.\nRemove a +1/+1 counter from this creature: Add one mana of any color.\n{T}: Put a +1/+1 counter on this creature.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "133",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.6349709369784602,
+    "inclusion": 0.6976,
+    "num_decks": 14085
+   }
+  },
+  {
+   "name": "Cunning Maneuver",
+   "oracle_id": "96335212-ec57-4beb-bab1-11c8eaa62119",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Target creature gets +3/+1 until end of turn.\nCreate a Clue token. (It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "130",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Cyberdrive Awakener",
+   "oracle_id": "126a5d0b-e7d6-458e-87af-47d845678014",
+   "type": "Artifact Creature — Construct",
+   "cmc": 6.0,
+   "mana_cost": "{5}{U}",
+   "oracle_text": "Flying\nOther artifact creatures you control have flying.\nWhen this creature enters, each noncreature artifact you control becomes a 4/4 artifact creature until end of turn.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "69",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.4346523520301818,
+    "inclusion": 0.5138,
+    "num_decks": 10375
+   }
+  },
+  {
+   "name": "Darksteel Reactor",
+   "oracle_id": "bc483bab-14fb-498d-9310-9c070766c7ae",
+   "type": "Artifact",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "Indestructible (Effects that say \"destroy\" don't destroy this artifact.)\nAt the beginning of your upkeep, you may put a charge counter on this artifact.\nWhen this artifact has twenty or more charge counters on it, you win the game.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "134",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.5919948761526886,
+    "inclusion": 0.6572,
+    "num_decks": 13270
+   }
+  },
+  {
+   "name": "Deepglow Skate",
+   "oracle_id": "debce64a-18bd-42f5-9e85-158c2242e9e9",
+   "type": "Creature — Fish",
+   "cmc": 5.0,
+   "mana_cost": "{4}{U}",
+   "oracle_text": "When this creature enters, double the number of each kind of counter on any number of target permanents.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "70",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.4056283760942655,
+    "inclusion": 0.4826,
+    "num_decks": 9744
+   }
+  },
+  {
+   "name": "Depthshaker Titan",
+   "oracle_id": "23bf0648-7097-41df-a539-1d36ac42cf9c",
+   "type": "Artifact Creature — Robot",
+   "cmc": 7.0,
+   "mana_cost": "{5}{R}{R}",
+   "oracle_text": "When this creature enters, any number of target noncreature artifacts you control become 3/3 artifact creatures. Sacrifice them at the beginning of the next end step.\nEach artifact creature you control has melee, trample, and haste. (Whenever a creature with melee attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "9",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.1874499949669311,
+    "inclusion": 0.2316,
+    "num_decks": 4612
+   }
+  },
+  {
+   "name": "Deserter's Disciple",
+   "oracle_id": "73ca3132-d849-4cf9-beba-75ba09789332",
+   "type": "Creature — Human Rebel Ally",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "{T}: Another target creature you control with power 2 or less can't be blocked this turn.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 3,
+    "es": 1
+   },
+   "held_by": {
+    "free": 4
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "131",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Detained by Legionnaires",
+   "oracle_id": "d59488b5-1118-4276-b862-11e860c7c32a",
+   "type": "Enchantment — Aura",
+   "cmc": 2.0,
+   "mana_cost": "{1}{W}",
+   "oracle_text": "Enchant creature\nEnchanted creature can't attack or block.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 3,
+   "by_language": {
+    "es": 3
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "277",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 3,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Dispatch",
+   "oracle_id": "133c99c0-3652-410f-8100-68015a47af9f",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{W}",
+   "oracle_text": "Tap target creature.\nMetalcraft — If you control three or more artifacts, exile that creature.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "64",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.5189864900629902,
+    "inclusion": 0.6697,
+    "num_decks": 13522
+   }
+  },
+  {
+   "name": "Divination",
+   "oracle_id": "273b339c-964b-4a18-8eb5-ceb8abcdfd9e",
+   "type": "Sorcery",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "Draw two cards.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 1,
+    "es": 2
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "M19",
+     "number": "51",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Dragonfly Swarm",
+   "oracle_id": "83abf1d0-04e4-49e5-bf63-59f77829ffd1",
+   "type": "Creature — Dragon Insect",
+   "cmc": 3.0,
+   "mana_cost": "{1}{U}{R}",
+   "oracle_text": "Flying, ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)\nThis creature's power is equal to the number of noncreature, nonland cards in your graveyard.\nWhen this creature dies, if there's a Lesson card in your graveyard, draw a card.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "en": 1,
+    "es": 2
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "215",
+     "finish": "foil",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
+    {
+     "set": "TLA",
+     "number": "215",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Elsewhere Flask",
+   "oracle_id": "610618f9-8186-44b6-8041-0a5b70f11cc1",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "When this artifact enters, draw a card.\nSacrifice this artifact: Choose a basic land type. Each land you control becomes that type until end of turn.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "BRR",
+     "number": "15",
+     "finish": "foil",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Embodiment of Fury",
+   "oracle_id": "0e8adf34-0834-4027-9cda-18df69239e2b",
+   "type": "Creature — Elemental",
+   "cmc": 4.0,
+   "mana_cost": "{3}{R}",
+   "oracle_text": "Trample\nLand creatures you control have trample.\nLandfall — Whenever a land you control enters, you may have target land you control become a 3/3 Elemental creature with haste until end of turn. It's still a land.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "OGW",
+     "number": "107",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Empowered Autogenerator",
+   "oracle_id": "6832f9e2-294a-44a2-8af9-eb16ccfdfc36",
+   "type": "Artifact",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "This artifact enters tapped.\n{T}: Put a charge counter on this artifact. Add X mana of any one color, where X is the number of charge counters on this artifact.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "135",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.31574264378729816,
+    "inclusion": 0.3599,
+    "num_decks": 7267
+   }
+  },
+  {
+   "name": "Emry, Lurker of the Loch",
+   "oracle_id": "da3e7d3d-2ca0-40c3-9602-fca37c92f507",
+   "type": "Legendary Creature — Merfolk Wizard",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)\nWhen Emry enters, mill four cards.\n{T}: Choose target artifact card in your graveyard. You may cast that card this turn. (You still pay its costs. Timing rules still apply.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "71",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.47623757691839114,
+    "inclusion": 0.5686,
+    "num_decks": 11480
+   }
+  },
+  {
+   "name": "Enter the Enigma",
+   "oracle_id": "67554654-e751-4679-9e92-f3588525ae4f",
+   "type": "Sorcery",
+   "cmc": 1.0,
+   "mana_cost": "{U}",
+   "oracle_text": "Target creature can't be blocked this turn.\nDraw a card.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "DSK",
+     "number": "52",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Enthusiastic Mechanaut",
+   "oracle_id": "c9722086-23e8-43dc-8a8c-541ff6962318",
+   "type": "Artifact Creature — Goblin Artificer",
+   "cmc": 2.0,
+   "mana_cost": "{U}{R}",
+   "oracle_text": "Flying\nArtifact spells you cast cost {1} less to cast.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "114",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.5045307861802061,
+    "inclusion": 0.6365,
+    "num_decks": 12852
+   }
+  },
+  {
+   "name": "Escarpment Fortress",
+   "oracle_id": "5c3f45cb-d2f0-4dac-b124-18e8f6d7e2dc",
+   "type": "Creature — Wall",
+   "cmc": 5.0,
+   "mana_cost": "{4}{W}",
+   "oracle_text": "Defender (This creature can't attack.)\nReach (This creature can block creatures with flying.)\nOther creatures you control get +1/+0.\nWhenever you attack with two or more creatures, draw a card.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "278",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Etched Oracle",
+   "oracle_id": "7ecfa47e-1165-46a6-884c-290b1c14d020",
+   "type": "Artifact Creature — Wizard",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "Sunburst (This creature enters with a +1/+1 counter on it for each color of mana spent to cast it.)\n{1}, Remove four +1/+1 counters from this creature: Target player draws three cards.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "136",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.2462160960340836,
+    "inclusion": 0.2733,
+    "num_decks": 5518
+   }
+  },
+  {
+   "name": "Etherium Sculptor",
+   "oracle_id": "96b87445-6362-4a17-91b2-cbf203fd03fd",
+   "type": "Artifact Creature — Vedalken Artificer",
+   "cmc": 2.0,
+   "mana_cost": "{1}{U}",
+   "oracle_text": "Artifact spells you cast cost {1} less to cast.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "72",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.5217015907898315,
+    "inclusion": 0.6581,
+    "num_decks": 13287
+   }
+  },
+  {
+   "name": "Everflowing Chalice",
+   "oracle_id": "0a79237e-0811-4a8a-bd4d-db3ca91bff22",
+   "type": "Artifact",
+   "cmc": 0.0,
+   "mana_cost": "{0}",
+   "oracle_text": "Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)\nThis artifact enters with a charge counter on it for each time it was kicked.\n{T}: Add {C} for each charge counter on this artifact.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "toph-the-first-metalbender": 1,
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "137",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.6961609851701618,
+    "inclusion": 0.8061,
+    "num_decks": 16276
+   }
+  },
+  {
+   "name": "Evie Frye",
+   "oracle_id": "248cafe8-cc37-4cf3-8239-ac10e55ced13",
+   "type": "Legendary Creature — Human Assassin",
+   "cmc": 2.0,
+   "mana_cost": "{1}{U}",
+   "oracle_text": "Partner with Jacob Frye (When this creature enters, target player may put Jacob into their hand from their library, then shuffle.)\n{1}, {T}: Draw a card, then discard a card. When you discard a creature card this way, target creature you control can't be blocked this turn.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "19",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Evolving Wilds",
+   "oracle_id": "a75445d3-1303-4bb5-89ad-26ea93fecd48",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2,
+    "en": 3
+   },
+   "held_by": {
+    "free": 5
+   },
+   "printings": [
+    {
+     "set": "AFR",
+     "number": "256",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
+    {
+     "set": "EOC",
+     "number": "158",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.0545634873151547,
+    "inclusion": 0.309,
+    "num_decks": 6240
+   }
+  },
+  {
+   "name": "Exotic Orchard",
+   "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 5,
+   "by_language": {
+    "es": 5
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1,
+    "toph-the-first-metalbender": 1,
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "70",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "FRC",
+     "number": "70",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    },
+    {
+     "set": "FRC",
+     "number": "70",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    },
+    {
+     "set": "FRC",
+     "number": "70",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.07876959783641402,
+    "inclusion": 0.7016,
+    "num_decks": 14165
+   }
+  },
+  {
+   "name": "Experimental Augury",
+   "oracle_id": "2ee08dcd-5558-45be-b619-8a550f3865ad",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{U}",
+   "oracle_text": "Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "73",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.5250258155880566,
+    "inclusion": 0.6154,
+    "num_decks": 12425
+   }
+  },
+  {
+   "name": "Ezio, Brash Novice",
+   "oracle_id": "d4e2b541-31b6-4bcb-a28a-d897deb91484",
+   "type": "Legendary Creature — Human",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R/W}",
+   "oracle_text": "Whenever Ezio attacks, put a +1/+1 counter on it.\nAs long as Ezio has two or more counters on it, it has first strike and is an Assassin in addition to its other types.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 4,
+    "es": 1
+   },
+   "held_by": {
+    "free": 5
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "55",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Fateful Absence",
+   "oracle_id": "35bba442-1aec-4d33-b502-4c580d61644b",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{W}",
+   "oracle_text": "Destroy target creature or planeswalker. Its controller investigates. (They create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "MID",
+     "number": "18",
+     "finish": "foil",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "PW22",
+     "number": "2",
+     "finish": "foil",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Firebender Ascension",
+   "oracle_id": "96cc63af-69d1-4493-b241-0cb244a9e48a",
+   "type": "Enchantment",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "When this enchantment enters, create a 2/2 red Soldier creature token with firebending 1.\nWhenever a creature you control attacking causes a triggered ability of that creature to trigger, put a quest counter on this enchantment. Then if it has four or more quest counters on it, you may copy that ability. You may choose new targets for the copy.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "137",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Firebending Lesson",
+   "oracle_id": "a9282f91-638e-414b-8b3d-9a99e30aec96",
+   "type": "Instant — Lesson",
+   "cmc": 1.0,
+   "mana_cost": "{R}",
+   "oracle_text": "Kicker {4} (You may pay an additional {4} as you cast this spell.)\nFirebending Lesson deals 2 damage to target creature. If this spell was kicked, it deals 5 damage to that creature instead.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "138",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Flexible Waterbender",
+   "oracle_id": "8cf88fa8-2f47-4125-a59d-9c2b2d4765a7",
+   "type": "Creature — Human Warrior Ally",
+   "cmc": 4.0,
+   "mana_cost": "{3}{U}",
+   "oracle_text": "Vigilance\nWaterbend {3}: This creature has base power and toughness 5/2 until end of turn. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "50",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Forecasting Fortune Teller",
+   "oracle_id": "a5a05edd-2a30-414b-b766-f0651d5783f5",
+   "type": "Creature — Human Advisor Ally",
+   "cmc": 2.0,
+   "mana_cost": "{1}{U}",
+   "oracle_text": "When this creature enters, create a Clue token. (It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 3,
+    "es": 1
+   },
+   "held_by": {
+    "free": 4
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "51",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Fumigate",
+   "oracle_id": "b17ea905-0696-4e58-b564-557e87236e27",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "mana_cost": "{3}{W}{W}",
+   "oracle_text": "Destroy all creatures. You gain 1 life for each creature destroyed this way.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "65",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Sorceries",
+    "synergy": 0.1912455413519291,
+    "inclusion": 0.2259,
+    "num_decks": 4561
+   }
+  },
+  {
+   "name": "Gavel of the Righteous",
+   "oracle_id": "204a5616-9f19-4d4c-aeb0-d1ec486b9ace",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "At the beginning of combat on your turn, put a charge counter on this Equipment.\nEquipped creature gets +1/+1 for each counter on this Equipment.\nAs long as this Equipment has four or more counters on it, equipped creature has double strike.\nEquip—Pay {3} or remove a counter from this Equipment.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "55",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.25260540532200954,
+    "inclusion": 0.2884,
+    "num_decks": 5824
+   }
+  },
+  {
+   "name": "Geyser Leaper",
+   "oracle_id": "dfdcb451-a597-46fe-893c-49e6dbda5f71",
+   "type": "Creature — Human Warrior Ally",
+   "cmc": 5.0,
+   "mana_cost": "{4}{U}",
+   "oracle_text": "Flying\nWaterbend {4}: Draw a card, then discard a card. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 3,
+    "es": 1
+   },
+   "held_by": {
+    "free": 4
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "52",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Glacial Fortress",
+   "oracle_id": "027dd013-baa7-4111-b3c9-f4d1414e9c45",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control a Plains or an Island.\n{T}: Add {W} or {U}.",
+   "color_identity": [
+    "U",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "73",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.12358640461135262,
+    "inclusion": 0.6921,
+    "num_decks": 13975
+   }
+  },
+  {
+   "name": "Glider Kids",
+   "oracle_id": "ff5ce28b-25be-4136-a7b2-8f25c08a6455",
+   "type": "Creature — Human Pilot Ally",
+   "cmc": 3.0,
+   "mana_cost": "{2}{W}",
+   "oracle_text": "Flying\nWhen this creature enters, scry 1. (Look at the top card of your library. You may put it on the bottom.)",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 3,
+    "es": 1
+   },
+   "held_by": {
+    "free": 4
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "21",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Glider Staff",
+   "oracle_id": "823006a8-098c-457a-8546-77ae2457c459",
+   "type": "Artifact — Equipment",
+   "cmc": 3.0,
+   "mana_cost": "{2}{W}",
+   "oracle_text": "When this Equipment enters, airbend up to one target creature. (Exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.)\nEquipped creature gets +1/+1 and has flying.\nEquip {2}",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "22",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Glittering Massif",
+   "oracle_id": "23732d20-aba6-46cc-89d0-0542629bc6b5",
+   "type": "Land — Mountain Plains",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "({T}: Add {R} or {W}.)\nThis land enters tapped.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "SOC",
+     "number": "376",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.2411504358446617,
+    "inclusion": 0.3158,
+    "num_decks": 6288
+   }
+  },
+  {
+   "name": "Goblin Bombardment",
+   "oracle_id": "edad60c6-80de-4033-af1b-a703ac332983",
+   "type": "Enchantment",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Sacrifice a creature: This enchantment deals 1 damage to any target.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1,
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "MH2",
+     "number": "279",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Golem Foundry",
+   "oracle_id": "8e96c09f-c064-4dd8-85ee-0f48d86ab670",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "Whenever you cast an artifact spell, you may put a charge counter on this artifact.\nRemove three charge counters from this artifact: Create a 3/3 colorless Golem artifact creature token.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "138",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.28808647998948284,
+    "inclusion": 0.3245,
+    "num_decks": 6552
+   }
+  },
+  {
+   "name": "Great Furnace",
+   "oracle_id": "f4819061-b0b5-48ab-af7b-6525c3d2eab7",
+   "type": "Artifact Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {R}.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "161",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Lands",
+    "synergy": 0.6189845302974216,
+    "inclusion": 0.757,
+    "num_decks": 15285
+   }
+  },
+  {
+   "name": "Hangarback Walker",
+   "oracle_id": "dde55256-5259-44e7-a267-fca45a7f0d04",
+   "type": "Artifact Creature — Construct",
+   "cmc": 0.0,
+   "mana_cost": "{X}{X}",
+   "oracle_text": "This creature enters with X +1/+1 counters on it.\nWhen this creature dies, create a 1/1 colorless Thopter artifact creature token with flying for each +1/+1 counter on this creature.\n{1}, {T}: Put a +1/+1 counter on this creature.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "SOC",
+     "number": "348",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.4151805299475409,
+    "inclusion": 0.4645,
+    "num_decks": 9379
+   }
+  },
+  {
+   "name": "Headsplitter",
+   "oracle_id": "8333c82f-aae6-470f-a9db-63ab24f9bb46",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "When this Equipment enters, create a 1/1 black Assassin creature token with menace, then attach this Equipment to it.\nEquipped creature gets +1/+0.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "289",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Helm of the Host",
+   "oracle_id": "83b43aba-bf9c-4da2-967d-9daa632e97d2",
+   "type": "Legendary Artifact — Equipment",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "At the beginning of combat on your turn, create a token that's a copy of equipped creature, except the token isn't legendary. That token gains haste.\nEquip {5}",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "BLC",
+     "number": "276",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Hookblade",
+   "oracle_id": "8df6c4e2-8b62-4c64-a1d2-f17ae9d02bac",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "mana_cost": "{1}{W}",
+   "oracle_text": "When this Equipment enters, attach it to target creature you control.\nEquipped creature gets +1/+0.\nDuring your turn, equipped creature has flying.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "6",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Hookblade Veteran",
+   "oracle_id": "bad2385b-6981-46fa-a012-d3992c3bc118",
+   "type": "Creature — Human Assassin",
+   "cmc": 1.0,
+   "mana_cost": "{U}",
+   "oracle_text": "During your turn, this creature has flying. (It can't be blocked except by creatures with flying or reach.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "283",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Insight Engine",
+   "oracle_id": "83409a22-10de-4d51-90a3-e0579ca8cbea",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "{2}, {T}: Put a charge counter on this artifact, then draw a card for each charge counter on it.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "6",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.6928220290064991,
+    "inclusion": 0.8069,
+    "num_decks": 16068
+   }
+  },
+  {
+   "name": "Inspiring Overseer",
+   "oracle_id": "d646e42b-5635-4798-b633-29c093b66a55",
+   "type": "Creature — Angel Cleric",
+   "cmc": 3.0,
+   "mana_cost": "{2}{W}",
+   "oracle_text": "Flying\nWhen this creature enters, you gain 1 life and draw a card.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "FDN",
+     "number": "496",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Inspirit, Flagship Vessel",
+   "oracle_id": "554df866-3dbb-4811-8573-6033481591aa",
+   "type": "Legendary Artifact — Spacecraft",
+   "cmc": 3.0,
+   "mana_cost": "{U}{R}{W}",
+   "oracle_text": "Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)\n1+ | At the beginning of combat on your turn, put your choice of a +1/+1 counter or two charge counters on up to one other target artifact.\n8+ | Flying\nOther artifacts you control have hexproof and indestructible.",
+   "color_identity": [
+    "R",
+    "U",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "2",
+     "finish": "foil",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.7417087315918697,
+    "inclusion": 0.824,
+    "num_decks": 16433
+   }
+  },
+  {
+   "name": "Irrigated Farmland",
+   "oracle_id": "406eabe2-df62-49e2-bb39-c0227509d875",
+   "type": "Land — Plains Island",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "({T}: Add {W} or {U}.)\nThis land enters tapped.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+   "color_identity": [
+    "U",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "162",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.2088351726502727,
+    "inclusion": 0.3451,
+    "num_decks": 6967
+   }
+  },
+  {
+   "name": "Island",
+   "oracle_id": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+   "type": "Basic Land — Island",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "({T}: Add {U}.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": true,
+   "copies": 11,
+   "by_language": {
+    "en": 42,
+    "es": 11
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 2,
+    "fire-lord-azula": 7,
+    "free": 44
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "303",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 8,
+     "deck": "free"
+    },
+    {
+     "set": "EOE",
+     "number": "269",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    },
+    {
+     "set": "EOE",
+     "number": "270",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": -0.00016007521507577227,
+    "inclusion": 0.9561,
+    "num_decks": 19305
+   }
+  },
+  {
+   "name": "Jasmine Dragon Tea Shop",
+   "oracle_id": "d9a24444-289f-473f-9985-8df275257555",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast an Ally spell or activate an ability of an Ally source.\n{5}, {T}: Create a 1/1 white Ally creature token.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "270",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Jhoira, Weatherlight Captain",
+   "oracle_id": "c803b788-4213-4fab-b841-7e5bbf66088e",
+   "type": "Legendary Creature — Human Artificer",
+   "cmc": 4.0,
+   "mana_cost": "{2}{U}{R}",
+   "oracle_text": "Whenever you cast a historic spell, draw a card. (Artifacts, legendaries, and Sagas are historic.)",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "118",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.5424584320432648,
+    "inclusion": 0.6748,
+    "num_decks": 13625
+   }
+  },
+  {
+   "name": "Kappa Cannoneer",
+   "oracle_id": "7fffbe7f-ad78-4bb6-a611-c37e495c6ee0",
+   "type": "Artifact Creature — Turtle Warrior",
+   "cmc": 6.0,
+   "mana_cost": "{5}{U}",
+   "oracle_text": "Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)\nWard {4}\nWhenever this creature or another artifact you control enters, put a +1/+1 counter on this creature. It can't be blocked this turn.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "74",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.44474100239644,
+    "inclusion": 0.5265,
+    "num_decks": 10630
+   }
+  },
+  {
+   "name": "Karn's Bastion",
+   "oracle_id": "9fb8cd81-403a-4988-8f1c-b8eccf8abd9c",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{4}, {T}: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "163",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Lands",
+    "synergy": 0.5934981474120529,
+    "inclusion": 0.734,
+    "num_decks": 14820
+   }
+  },
+  {
+   "name": "Katara, Bending Prodigy",
+   "oracle_id": "55adde23-c818-40fe-9bba-123de93568a5",
+   "type": "Legendary Creature — Human Warrior Ally",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "At the beginning of your end step, if Katara is tapped, put a +1/+1 counter on her.\nWaterbend {6}: Draw a card. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1,
+    "es": 1
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "59",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Keen-Eyed Raven",
+   "oracle_id": "e42450c7-a9de-412f-b439-76f2f9b6031b",
+   "type": "Creature — Bird",
+   "cmc": 3.0,
+   "mana_cost": "{2}{W}",
+   "oracle_text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhen this creature enters, put a +1/+1 counter on another target creature you control.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 3,
+   "by_language": {
+    "es": 3
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "279",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 3,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Knowledge Seeker",
+   "oracle_id": "bdc2d980-ca14-4040-a9a1-786d724dc65c",
+   "type": "Creature — Fox Spirit",
+   "cmc": 2.0,
+   "mana_cost": "{1}{U}",
+   "oracle_text": "Vigilance\nWhenever you draw your second card each turn, put a +1/+1 counter on this creature.\nWhen this creature dies, create a Clue token. (It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "60",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Kyoshi Battle Fan",
+   "oracle_id": "849e54f9-7662-4186-859c-e4f52afbccac",
+   "type": "Artifact — Equipment",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "When this Equipment enters, create a 1/1 white Ally creature token, then attach this Equipment to it.\nEquipped creature gets +1/+0.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 3,
+    "es": 1
+   },
+   "held_by": {
+    "free": 4
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "257",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Kyoshi Warriors",
+   "oracle_id": "b29abb09-75ea-431c-ab60-f2940d002e83",
+   "type": "Creature — Human Warrior Ally",
+   "cmc": 4.0,
+   "mana_cost": "{3}{W}",
+   "oracle_text": "When this creature enters, create a 1/1 white Ally creature token.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "26",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Labyrinth Adversary",
+   "oracle_id": "00a9bdd0-8a39-4489-bd42-2ac92e550781",
+   "type": "Creature — Minotaur",
+   "cmc": 4.0,
+   "mana_cost": "{3}{R}",
+   "oracle_text": "Trample (This creature can deal excess combat damage to the player it's attacking.)\nWhenever you attack, you may pay {1}{R}. When you do, target creature can't block this turn.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 3,
+   "by_language": {
+    "es": 3
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "290",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 3,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Lithoform Engine",
+   "oracle_id": "0bf299da-1854-4153-baea-3cee2eb01ee8",
+   "type": "Legendary Artifact",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "{2}, {T}: Copy target activated or triggered ability you control. You may choose new targets for the copy.\n{3}, {T}: Copy target instant or sorcery spell you control. You may choose new targets for the copy.\n{4}, {T}: Copy target permanent spell you control. (The copy becomes a token.)",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ZNR",
+     "number": "245",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Lonely Sandbar",
+   "oracle_id": "765863c8-1be0-4bb1-9e9c-db7701cffde3",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\n{T}: Add {U}.\nCycling {U} ({U}, Discard this card: Draw a card.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "166",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Lands",
+    "synergy": 0.13804184616883491,
+    "inclusion": 0.1777,
+    "num_decks": 3587
+   }
+  },
+  {
+   "name": "Long-Range Sensor",
+   "oracle_id": "358297cd-4a9f-48e2-aaa5-131b0849f8dc",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "Whenever you attack a player, put a charge counter on this artifact.\n{1}, Remove two charge counters from this artifact: Discover 4. Activate only as a sorcery. (Exile cards from the top of your library until you exile a nonland card with mana value 4 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "11",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.4431664859447822,
+    "inclusion": 0.5171,
+    "num_decks": 10298
+   }
+  },
+  {
+   "name": "Lux Artillery",
+   "oracle_id": "cbd76b22-d04e-48e7-bcab-c7f5466d67d8",
+   "type": "Artifact",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "Whenever you cast an artifact creature spell, it gains sunburst. (It enters with a +1/+1 counter on it for each color of mana spent to cast it.)\nAt the beginning of your end step, if there are thirty or more counters among artifacts and creatures you control, this artifact deals 10 damage to each opponent.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "140",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.5250778696945975,
+    "inclusion": 0.5926,
+    "num_decks": 11966
+   }
+  },
+  {
+   "name": "Lux Cannon",
+   "oracle_id": "ebdf26a4-77ee-4635-8d52-926bdca623f7",
+   "type": "Artifact",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "{T}: Put a charge counter on this artifact.\n{T}, Remove three charge counters from this artifact: Destroy target permanent.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "141",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.5250149527579996,
+    "inclusion": 0.59,
+    "num_decks": 11912
+   }
+  },
+  {
+   "name": "Master Piandao",
+   "oracle_id": "e294d9d2-df91-4410-85d3-8ffb13fb2285",
+   "type": "Legendary Creature — Human Warrior Ally",
+   "cmc": 5.0,
+   "mana_cost": "{4}{W}",
+   "oracle_text": "First strike\nWhenever Master Piandao attacks, look at the top four cards of your library. You may reveal an Ally, Equipment, or Lesson card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "28",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Meteor Sword",
+   "oracle_id": "181965fb-e685-4b1f-9bd6-3a33bed933b2",
+   "type": "Artifact — Equipment",
+   "cmc": 7.0,
+   "mana_cost": "{7}",
+   "oracle_text": "When this Equipment enters, destroy target permanent.\nEquipped creature gets +3/+3.\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "258",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Mind Stone",
+   "oracle_id": "c97361b5-af16-4a7b-af85-a429dbaf4ad2",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{T}: Add {C}.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "BLC",
+     "number": "280",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Mindless Automaton",
+   "oracle_id": "e7441107-57b1-4e88-a9d8-3eb7c338ef07",
+   "type": "Artifact Creature — Construct",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "This creature enters with two +1/+1 counters on it.\n{1}, Discard a card: Put a +1/+1 counter on this creature.\nRemove two +1/+1 counters from this creature: Draw a card.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "142",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.3334652405655138,
+    "inclusion": 0.3652,
+    "num_decks": 7374
+   }
+  },
+  {
+   "name": "Misthios's Fury",
+   "oracle_id": "e99c088e-1326-4844-b932-fb51802656f5",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Misthios's Fury deals 3 damage to target creature. If you control an Equipment, Misthios's Fury also deals 2 damage to that creature's controller.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 3,
+   "by_language": {
+    "es": 3
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "291",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 3,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Momo, Playful Pet",
+   "oracle_id": "85ee8ab6-8db5-45d7-85ae-64838771146a",
+   "type": "Legendary Creature — Lemur Bat Ally",
+   "cmc": 1.0,
+   "mana_cost": "{W}",
+   "oracle_text": "Flying, vigilance\nWhen Momo leaves the battlefield, choose one —\n• Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")\n• Put a +1/+1 counter on target creature you control.\n• Scry 2.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "30",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Mongoose Lizard",
+   "oracle_id": "a9bae56c-9666-42e8-94ec-03b0a964b142",
+   "type": "Creature — Mongoose Lizard",
+   "cmc": 6.0,
+   "mana_cost": "{4}{R}{R}",
+   "oracle_text": "Menace (This creature can't be blocked except by two or more creatures.)\nWhen this creature enters, it deals 1 damage to any target.\nMountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "148",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Mountain",
+   "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+   "type": "Basic Land — Mountain",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "({T}: Add {R}.)",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": true,
+   "copies": 15,
+   "by_language": {
+    "en": 41,
+    "es": 15
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 5,
+    "free": 45,
+    "fire-lord-azula": 5,
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "305",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 11,
+     "deck": "free"
+    },
+    {
+     "set": "EOE",
+     "number": "273",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    },
+    {
+     "set": "EOE",
+     "number": "274",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
+    {
+     "set": "TLA",
+     "number": "285",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": -0.0267765800474149,
+    "inclusion": 0.9169,
+    "num_decks": 18514
+   }
+  },
+  {
+   "name": "Moxite Refinery",
+   "oracle_id": "3fe9367b-def1-4820-9e23-92ce3d7a4afc",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{2}, {T}, Remove X counters from an artifact or creature you control: Choose one. Activate only as a sorcery.\n• Put X charge counters on target artifact.\n• Put X +1/+1 counters on target creature.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "17",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.40741601293922547,
+    "inclusion": 0.4779,
+    "num_decks": 9516
+   }
+  },
+  {
+   "name": "Mystic Monastery",
+   "oracle_id": "834b8f71-9a45-42ae-9e99-e749fa6fb45e",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\n{T}: Add {U}, {R}, or {W}.",
+   "color_identity": [
+    "R",
+    "U",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "170",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.0578508286364543,
+    "inclusion": 0.632,
+    "num_decks": 12761
+   }
+  },
+  {
+   "name": "Narset's Reversal",
+   "oracle_id": "d55f6c70-321f-4fb4-bd33-0850ae1a7c36",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{U}{U}",
+   "oracle_text": "Copy target instant or sorcery spell, then return it to its owner's hand. You may choose new targets for the copy.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "WAR",
+     "number": "62",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Negate",
+   "oracle_id": "3407fe41-fdd3-4119-8f70-4bc4590a379f",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{U}",
+   "oracle_text": "Counter target noncreature spell.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "OGW",
+     "number": "59",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": -0.07469333616543596,
+    "inclusion": 0.0753,
+    "num_decks": 1520
+   }
+  },
+  {
+   "name": "North Pole Patrol",
+   "oracle_id": "a1230e78-0bfa-489e-a1b9-3c227bceb6fb",
+   "type": "Creature — Human Soldier Ally",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "{T}: Untap another target permanent you control.\nWaterbend {3}, {T}: Tap target creature an opponent controls. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "65",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Organic Extinction",
+   "oracle_id": "d9e24d7c-0907-45c1-b5d3-9fb16a929868",
+   "type": "Sorcery",
+   "cmc": 10.0,
+   "mana_cost": "{8}{W}{W}",
+   "oracle_text": "Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)\nDestroy all nonartifact creatures.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "66",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Sorceries",
+    "synergy": 0.5320874700194684,
+    "inclusion": 0.6279,
+    "num_decks": 12677
+   }
+  },
+  {
+   "name": "Ovalchase Dragster",
+   "oracle_id": "345de988-4d26-4400-8202-225968db370f",
+   "type": "Artifact — Vehicle",
+   "cmc": 4.0,
+   "mana_cost": "{4}",
+   "oracle_text": "Trample, haste\nCrew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "KLD",
+     "number": "225",
+     "finish": "foil",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
+    {
+     "set": "KLD",
+     "number": "225",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Path of Ancestry",
+   "oracle_id": "b473e293-59e3-4e04-acf2-622604aeb25f",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "77",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Path to Exile",
+   "oracle_id": "d683d985-9888-4d21-8b5f-69e69ce4a03b",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{W}",
+   "oracle_text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "30",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": -0.25727097842332236,
+    "inclusion": 0.2345,
+    "num_decks": 4735
+   }
+  },
+  {
+   "name": "Patrolling Peacemaker",
+   "oracle_id": "aa44171d-1c76-40a7-82fc-5ef2abbca647",
+   "type": "Artifact Creature — Robot Soldier",
+   "cmc": 3.0,
+   "mana_cost": "{2}{W}",
+   "oracle_text": "This creature enters with two +1/+1 counters on it.\nWhenever an opponent commits a crime, proliferate. (They commit a crime if they target an opponent, anything an opponent controls, and/or cards in an opponent's graveyard. To proliferate, you choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "5",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.6218835103873901,
+    "inclusion": 0.7586,
+    "num_decks": 15106
+   }
+  },
+  {
+   "name": "Pentad Prism",
+   "oracle_id": "72e8d67a-41e6-4074-bcbd-b54ead995237",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "Sunburst (This artifact enters with a charge counter on it for each color of mana spent to cast it.)\nRemove a charge counter from this artifact: Add one mana of any color.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "56",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.6228381541244731,
+    "inclusion": 0.6866,
+    "num_decks": 13864
+   }
+  },
+  {
+   "name": "Phyrexian Metamorph",
+   "oracle_id": "340bbe8b-e987-4c3e-ab4e-9dee63e57d4f",
+   "type": "Artifact Creature — Phyrexian Shapeshifter",
+   "cmc": 4.0,
+   "mana_cost": "{3}{U/P}",
+   "oracle_text": "({U/P} can be paid with either {U} or 2 life.)\nYou may have this creature enter as a copy of any artifact or creature on the battlefield, except it's an artifact in addition to its other types.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "75",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.4865256310642583,
+    "inclusion": 0.5765,
+    "num_decks": 11640
+   }
+  },
+  {
+   "name": "Plains",
+   "oracle_id": "bc71ebf6-2056-41f7-be35-b2e5c34afa99",
+   "type": "Basic Land — Plains",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "({T}: Add {W}.)",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": true,
+   "copies": 14,
+   "by_language": {
+    "en": 48,
+    "es": 14
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 5,
+    "free": 56,
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "302",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 11,
+     "deck": "free"
+    },
+    {
+     "set": "EOE",
+     "number": "267",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    },
+    {
+     "set": "EOE",
+     "number": "268",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": -0.011528157290632945,
+    "inclusion": 0.9374,
+    "num_decks": 18928
+   }
+  },
+  {
+   "name": "Planar Cleansing",
+   "oracle_id": "a98c2d81-4add-4292-bbdd-e1b69ff936d4",
+   "type": "Sorcery",
+   "cmc": 6.0,
+   "mana_cost": "{3}{W}{W}{W}",
+   "oracle_text": "Destroy all nonland permanents.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "M20",
+     "number": "33",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Planar Outburst",
+   "oracle_id": "ff0d05b9-0c9c-4217-abd2-7e7757a0c4c9",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "mana_cost": "{3}{W}{W}",
+   "oracle_text": "Destroy all nonland creatures.\nAwaken 4—{5}{W}{W}{W} (If you cast this spell for {5}{W}{W}{W}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "NCC",
+     "number": "209",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ]
+  },
+  {
+   "name": "Planetarium of Wan Shi Tong",
+   "oracle_id": "f89d093d-c815-4df7-a348-2005aa227586",
+   "type": "Legendary Artifact",
+   "cmc": 6.0,
+   "mana_cost": "{6}",
+   "oracle_text": "{1}, {T}: Scry 2.\nWhenever you scry or surveil, look at the top card of your library. You may cast that card without paying its mana cost. Do this only once each turn. (Look at the card after you scry or surveil.)",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "259",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Pull from Tomorrow",
+   "oracle_id": "b1a23235-3076-475c-a68a-db29cf2a9dba",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{X}{U}{U}",
+   "oracle_text": "Draw X cards, then discard a card.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "76",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.16688665149590398,
+    "inclusion": 0.2066,
+    "num_decks": 4171
+   }
+  },
+  {
+   "name": "Rabaroo Troop",
+   "oracle_id": "48252207-d345-455c-b655-c2027664e6a6",
+   "type": "Creature — Rabbit Kangaroo",
+   "cmc": 5.0,
+   "mana_cost": "{3}{W}{W}",
+   "oracle_text": "Landfall — Whenever a land you control enters, this creature gains flying until end of turn and you gain 1 life.\nPlainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 4,
+    "es": 1
+   },
+   "held_by": {
+    "free": 5
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "32",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Radiant Summit",
+   "oracle_id": "5dd0cc44-4647-4857-ad3b-22494099d08a",
+   "type": "Land — Mountain Plains",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "({T}: Add {R} or {W}.)\nThis land enters tapped unless you control two or more basic lands.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "80",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.3600935930022216,
+    "inclusion": 0.4947,
+    "num_decks": 9851
+   }
+  },
+  {
+   "name": "Raven Clan War-Axe",
+   "oracle_id": "d306de95-a80e-4e85-b7d2-36c6ea769b15",
+   "type": "Artifact — Equipment",
+   "cmc": 3.0,
+   "mana_cost": "{1}{R}{W}",
+   "oracle_text": "When this Equipment enters, you may search your library and/or graveyard for a card named Eivor, Battle-Ready, reveal it, and put it into your hand. If you search your library this way, shuffle.\nEquipped creature gets +2/+0 and has trample.\nEquip {2}",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "297",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Razortide Bridge",
+   "oracle_id": "6cb37ac1-dd11-4a8c-bca5-ef44d828059f",
+   "type": "Artifact Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\nIndestructible\n{T}: Add {W} or {U}.",
+   "color_identity": [
+    "U",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "171",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.4777328365337552,
+    "inclusion": 0.6059,
+    "num_decks": 12234
+   }
+  },
+  {
+   "name": "Reckless Fireweaver",
+   "oracle_id": "180e1a7e-890d-477c-80a5-da8a5f2857b3",
+   "type": "Creature — Human Artificer",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "Whenever an artifact you control enters, this creature deals 1 damage to each opponent.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "DRC",
+     "number": "106",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Resourceful Defense",
+   "oracle_id": "83e78565-e61f-4bbc-b834-f47941f7e3ec",
+   "type": "Enchantment",
+   "cmc": 3.0,
+   "mana_cost": "{2}{W}",
+   "oracle_text": "Whenever a permanent you control leaves the battlefield, if it had counters on it, put those counters on target permanent you control.\n{4}{W}: Move any number of counters from target permanent you control onto a second target permanent you control.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "67",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Enchantments",
+    "synergy": 0.5198662455049636,
+    "inclusion": 0.598,
+    "num_decks": 12074
+   }
+  },
+  {
+   "name": "Ripples of Potential",
+   "oracle_id": "45bcebd0-5e93-4433-b92f-b4c161d04bd6",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{U}",
+   "oracle_text": "Proliferate, then choose any number of permanents you control that had a counter put on them this way. Those permanents phase out. (To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there. Treat phased-out permanents and anything attached to them as though they don't exist until their controller's next turn.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "77",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.629864890428213,
+    "inclusion": 0.7484,
+    "num_decks": 15111
+   }
+  },
+  {
+   "name": "Rowdy Snowballers",
+   "oracle_id": "74224cce-c2ce-4456-8a97-3abbbb199385",
+   "type": "Creature — Human Peasant Ally",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "When this creature enters, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 6,
+    "es": 1
+   },
+   "held_by": {
+    "free": 7
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "68",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Rugged Prairie",
+   "oracle_id": "8e7641e1-e814-4d5a-9cb3-71ad2f4ceee8",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{R/W}, {T}: Add {R}{R}, {R}{W}, or {W}{W}.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1,
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "FIC",
+     "number": "417",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    },
+    {
+     "set": "SOC",
+     "number": "401",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.2690184469493626,
+    "inclusion": 0.5116,
+    "num_decks": 10330
+   }
+  },
+  {
+   "name": "Rustvale Bridge",
+   "oracle_id": "a3faf70d-c034-4692-9e92-1922029e3852",
+   "type": "Artifact Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\nIndestructible\n{T}: Add {R} or {W}.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1,
+    "es": 1
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "175",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.4447735059174902,
+    "inclusion": 0.5667,
+    "num_decks": 11442
+   }
+  },
+  {
+   "name": "Sandbenders' Storm",
+   "oracle_id": "dfc8b8de-be1d-4f7f-bb21-4761a0e7db4e",
+   "type": "Instant",
+   "cmc": 4.0,
+   "mana_cost": "{3}{W}",
+   "oracle_text": "Choose one —\n• Destroy target creature with power 4 or greater.\n• Earthbend 3. (Target land you control becomes a 0/0 creature with haste that's still a land. Put three +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 4,
+    "es": 1
+   },
+   "held_by": {
+    "free": 5
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "34",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Seat of the Synod",
+   "oracle_id": "39451b4d-cd7a-40da-b457-cb51b609173f",
+   "type": "Artifact Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {U}.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "176",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Lands",
+    "synergy": 0.6370083118585164,
+    "inclusion": 0.7815,
+    "num_decks": 15780
+   }
+  },
+  {
+   "name": "Secluded Steppe",
+   "oracle_id": "8dec6fcf-1254-4b1b-ba23-7a3e492a7241",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\n{T}: Add {W}.\nCycling {W} ({W}, Discard this card: Draw a card.)",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "177",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Lands",
+    "synergy": 0.13143113837230297,
+    "inclusion": 0.169,
+    "num_decks": 3413
+   }
+  },
+  {
+   "name": "Settlement Blacksmith",
+   "oracle_id": "f98d0f8a-c8b5-4fb8-b598-e70ffab3c0ff",
+   "type": "Creature — Human Artificer",
+   "cmc": 3.0,
+   "mana_cost": "{2}{W}",
+   "oracle_text": "When this creature enters, if you control an Equipment, draw a card.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 3,
+   "by_language": {
+    "es": 3
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "280",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 3,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Shivan Reef",
+   "oracle_id": "0fe16212-66c3-4e45-a641-7391e9b2e304",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {R}. This land deals 1 damage to you.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1,
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1,
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "83",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.2054044132985136,
+    "inclusion": 0.6273,
+    "num_decks": 12665
+   }
+  },
+  {
+   "name": "Silverbluff Bridge",
+   "oracle_id": "081bfd50-a436-463b-9d2c-5bc8a32b387c",
+   "type": "Artifact Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\nIndestructible\n{T}: Add {U} or {R}.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "180",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.46717867879246977,
+    "inclusion": 0.5938,
+    "num_decks": 11990
+   }
+  },
+  {
+   "name": "Skycloud Expanse",
+   "oracle_id": "76f335d0-7f71-4b1a-b60d-73de954cbe2c",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{1}, {T}: Add {W}{U}.",
+   "color_identity": [
+    "U",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "181",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.21497717540052733,
+    "inclusion": 0.4325,
+    "num_decks": 8733
+   }
+  },
+  {
+   "name": "Sol Ring",
+   "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "mana_cost": "{1}",
+   "oracle_text": "{T}: Add {C}{C}.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1,
+    "en": 3
+   },
+   "held_by": {
+    "free": 1,
+    "toph-the-first-metalbender": 1,
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "57",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.03092091911293382,
+    "inclusion": 0.916,
+    "num_decks": 18495
+   }
+  },
+  {
+   "name": "Solar Array",
+   "oracle_id": "e8e2f273-5e74-4f16-8d49-2e86e9c9f2dc",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "{T}: Add one mana of any color. When you next cast an artifact spell this turn, that spell gains sunburst. (If it's a creature, it enters with a +1/+1 counter on it for each color of mana spent to cast it. Otherwise, it enters with that many charge counters on it.)",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "18",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.5239752964844531,
+    "inclusion": 0.6097,
+    "num_decks": 12141
+   }
+  },
+  {
+   "name": "Solve the Equation",
+   "oracle_id": "f02682f0-26c0-4032-9df3-273b6a45d0a8",
+   "type": "Sorcery",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "Search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "STX",
+     "number": "54",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Soul-Guide Lantern",
+   "oracle_id": "1b5e6560-ff2e-4475-96cb-63f64c8a86db",
+   "type": "Artifact",
+   "cmc": 1.0,
+   "mana_cost": "{1}",
+   "oracle_text": "When this artifact enters, exile target card from a graveyard.\n{T}, Sacrifice this artifact: Exile each opponent's graveyard.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "toph-the-first-metalbender": 1,
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "DRC",
+     "number": "139",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    },
+    {
+     "set": "EOC",
+     "number": "143",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.14006388587589885,
+    "inclusion": 0.1664,
+    "num_decks": 3360
+   }
+  },
+  {
+   "name": "Spartan Veteran",
+   "oracle_id": "b255d1ec-49ac-49a2-9af8-21915bbcd224",
+   "type": "Creature — Human Soldier",
+   "cmc": 1.0,
+   "mana_cost": "{R}",
+   "oracle_text": "During your turn, this creature has first strike. (It deals combat damage before creatures without first strike.)\n{2}: This creature gets +1/+0 until end of turn.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "292",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Spire of Industry",
+   "oracle_id": "55a519b4-61cb-448a-875b-4d6dbe00580f",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add one mana of any color. Activate only if you control an artifact.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "183",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.4811600812659562,
+    "inclusion": 0.6169,
+    "num_decks": 12456
+   }
+  },
+  {
+   "name": "Starfall Invocation",
+   "oracle_id": "7024532b-f99b-43a7-b0ed-5b3e7ec7592b",
+   "type": "Sorcery",
+   "cmc": 5.0,
+   "mana_cost": "{3}{W}{W}",
+   "oracle_text": "Gift a card (You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects.)\nDestroy all creatures. If the gift was promised, return a creature card put into your graveyard this way to the battlefield under your control.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "BLB",
+     "number": "34",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Steel Overseer",
+   "oracle_id": "986ae327-f433-4c58-93dc-afc544b9bfcb",
+   "type": "Artifact Creature — Construct",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{T}: Put a +1/+1 counter on each artifact creature you control.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "144",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.5742602869945944,
+    "inclusion": 0.6796,
+    "num_decks": 13722
+   }
+  },
+  {
+   "name": "Stone Quarry",
+   "oracle_id": "90bccf66-58ec-445d-ac96-c6013054a1b4",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\n{T}: Add {R} or {W}.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 3,
+   "by_language": {
+    "es": 3
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "300",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 3,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Strionic Resonator",
+   "oracle_id": "cf751552-156f-4f81-ac94-9814dce099f9",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{2}, {T}: Copy target triggered ability you control. You may choose new targets for the copy. (A triggered ability uses the words \"when,\" \"whenever,\" or \"at.\")",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1
+   },
+   "printings": [
+    {
+     "set": "MOC",
+     "number": "384",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Sulfur Falls",
+   "oracle_id": "6a6c5e17-6465-4a1f-9d63-8a3ce2edc522",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped unless you control an Island or a Mountain.\n{T}: Add {U} or {R}.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "ezio-auditore-da-firenze": 1,
+    "fire-lord-azula": 1,
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "84",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.1316375427982449,
+    "inclusion": 0.6833,
+    "num_decks": 13796
+   }
+  },
+  {
+   "name": "Surge Conductor",
+   "oracle_id": "dc11d9dc-7d18-45dc-955b-d0ba71fc0db8",
+   "type": "Artifact Creature — Robot",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "Whenever another nontoken artifact you control enters, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "19",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.6827666387097303,
+    "inclusion": 0.7964,
+    "num_decks": 15858
+   }
+  },
+  {
+   "name": "Swan Song",
+   "oracle_id": "8ddfc283-c9b4-41a5-af88-cf0068e986cc",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{U}",
+   "oracle_text": "Counter target enchantment, instant, or sorcery spell. Its controller creates a 2/2 blue Bird creature token with flying.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "46",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.4375977047782842,
+    "inclusion": 0.6315,
+    "num_decks": 12751
+   }
+  },
+  {
+   "name": "Swords to Plowshares",
+   "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52",
+   "type": "Instant",
+   "cmc": 1.0,
+   "mana_cost": "{W}",
+   "oracle_text": "Exile target creature. Its controller gains life equal to its power.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "free": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "45",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
+    {
+     "set": "FRC",
+     "number": "37",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "toph-the-first-metalbender"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.10232936835081974,
+    "inclusion": 0.7864,
+    "num_decks": 15878
+   }
+  },
+  {
+   "name": "Tekuthal, Inquiry Dominus",
+   "oracle_id": "4716ab91-30e6-4c63-8389-a9db8f9414d8",
+   "type": "Legendary Creature — Phyrexian Horror",
+   "cmc": 4.0,
+   "mana_cost": "{2}{U}{U}",
+   "oracle_text": "Flying\nIf you would proliferate, proliferate twice instead.\n{1}{U/P}{U/P}, Remove three counters from among other artifacts, creatures, and planeswalkers you control: Put an indestructible counter on Tekuthal. ({U/P} can be paid with either {U} or 2 life.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "78",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.7525981056652941,
+    "inclusion": 0.8476,
+    "num_decks": 17113
+   }
+  },
+  {
+   "name": "Temple of Enlightenment",
+   "oracle_id": "89f43e27-790b-4ca1-8ba7-0882b31e0783",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {W} or {U}.",
+   "color_identity": [
+    "U",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 4,
+   "by_language": {
+    "es": 4
+   },
+   "held_by": {
+    "free": 4
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "186",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 4,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.11934268930355685,
+    "inclusion": 0.3622,
+    "num_decks": 7314
+   }
+  },
+  {
+   "name": "Temple of Epiphany",
+   "oracle_id": "79f94050-d850-41ca-b1db-5ae0cf743f0a",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {U} or {R}.",
+   "color_identity": [
+    "R",
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "SOC",
+     "number": "412",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.10853098907783504,
+    "inclusion": 0.3516,
+    "num_decks": 7099
+   }
+  },
+  {
+   "name": "Temple of Triumph",
+   "oracle_id": "6f0d94d9-64bb-4175-83bc-301e8f79f54f",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {R} or {W}.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "SOC",
+     "number": "417",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.09029820977927966,
+    "inclusion": 0.3107,
+    "num_decks": 6274
+   }
+  },
+  {
+   "name": "Teo, Spirited Glider",
+   "oracle_id": "ea74940f-01de-4804-92ed-b273fddf6d62",
+   "type": "Legendary Creature — Human Pilot Ally",
+   "cmc": 4.0,
+   "mana_cost": "{3}{U}",
+   "oracle_text": "Flying\nWhenever one or more creatures you control with flying attack, draw a card, then discard a card. When you discard a nonland card this way, put a +1/+1 counter on target creature you control.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "74",
+     "finish": "foil",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Terramorphic Expanse",
+   "oracle_id": "1bd3e453-aa21-4ee6-95c2-d6d920ee8e7a",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 3,
+    "es": 1
+   },
+   "held_by": {
+    "free": 4
+   },
+   "printings": [
+    {
+     "set": "SOS",
+     "number": "265",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Tezzeret's Gambit",
+   "oracle_id": "b33d2b77-f068-4fdc-a1a8-0353a35e3973",
+   "type": "Sorcery",
+   "cmc": 4.0,
+   "mana_cost": "{3}{U/P}",
+   "oracle_text": "({U/P} can be paid with either {U} or 2 life.)\nDraw two cards, then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "47",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.5693227030557578,
+    "inclusion": 0.6841,
+    "num_decks": 13812
+   }
+  },
+  {
+   "name": "The Mycosynth Gardens",
+   "oracle_id": "03f5c566-825c-4c46-9c01-a2f9b1e70a13",
+   "type": "Land — Sphere",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color.\n{X}, {T}: This land becomes a copy of target nontoken artifact you control with mana value X.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "168",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Lands",
+    "synergy": 0.5129009724914958,
+    "inclusion": 0.5832,
+    "num_decks": 11776
+   }
+  },
+  {
+   "name": "Thirst for Knowledge",
+   "oracle_id": "939e6f71-185e-41f2-9d54-72cce06f1dce",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "Draw three cards. Then discard two cards unless you discard an artifact card.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "48",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Instants",
+    "synergy": 0.2650249302313963,
+    "inclusion": 0.3175,
+    "num_decks": 6410
+   }
+  },
+  {
+   "name": "Thought Monitor",
+   "oracle_id": "9deded8b-cec4-4ede-a50b-131404d456d4",
+   "type": "Artifact Creature — Construct",
+   "cmc": 7.0,
+   "mana_cost": "{6}{U}",
+   "oracle_text": "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)\nFlying\nWhen this creature enters, draw two cards.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "79",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.34175965842810463,
+    "inclusion": 0.4173,
+    "num_decks": 8426
+   }
+  },
+  {
+   "name": "Threefold Thunderhulk",
+   "oracle_id": "b8020a8b-557b-465d-865d-b59fecd7abc1",
+   "type": "Artifact Creature — Gnome",
+   "cmc": 7.0,
+   "mana_cost": "{7}",
+   "oracle_text": "This creature enters with three +1/+1 counters on it.\nWhenever this creature enters or attacks, create a number of 1/1 colorless Gnome artifact creature tokens equal to its power.\n{2}, Sacrifice another artifact: Put a +1/+1 counter on this creature.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "145",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.25290239883441057,
+    "inclusion": 0.2967,
+    "num_decks": 5990
+   }
+  },
+  {
+   "name": "Thrill of Possibility",
+   "oracle_id": "1cb0610b-a731-42c2-b93f-0a29f63cebf4",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{R}",
+   "oracle_text": "As an additional cost to cast this spell, discard a card.\nDraw two cards.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "FDN",
+     "number": "210",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Thrummingbird",
+   "oracle_id": "eac94269-4baa-4b8e-a0fd-d6b227d1cde3",
+   "type": "Creature — Phyrexian Bird Horror",
+   "cmc": 2.0,
+   "mana_cost": "{1}{U}",
+   "oracle_text": "Flying\nWhenever this creature deals combat damage to a player, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "80",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Creatures",
+    "synergy": 0.43042786685290635,
+    "inclusion": 0.5281,
+    "num_decks": 10662
+   }
+  },
+  {
+   "name": "Titan Forge",
+   "oracle_id": "3b02dfca-bcaa-4e22-b143-401ed250d016",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "{3}, {T}: Put a charge counter on this artifact.\n{T}, Remove three charge counters from this artifact: Create a 9/9 colorless Golem artifact creature token.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "146",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Utility Artifacts",
+    "synergy": 0.21263495640078495,
+    "inclusion": 0.2454,
+    "num_decks": 4954
+   }
+  },
+  {
+   "name": "Torrential Gearhulk",
+   "oracle_id": "a6395447-677d-4c39-8eda-2d57e527c94e",
+   "type": "Artifact Creature — Construct",
+   "cmc": 6.0,
+   "mana_cost": "{4}{U}{U}",
+   "oracle_text": "Flash\nWhen this creature enters, you may cast target instant card from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "fire-lord-azula": 1
+   },
+   "printings": [
+    {
+     "set": "CMM",
+     "number": "128",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "fire-lord-azula"
+    }
+   ]
+  },
+  {
+   "name": "Towering Viewpoint",
+   "oracle_id": "46c404c3-636a-4945-a61c-62f013a9c50f",
+   "type": "Artifact Creature — Wall",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "Defender, reach\nLeap of Faith — {3}: Target creature gains flying until end of turn.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 3,
+   "by_language": {
+    "en": 1,
+    "es": 3
+   },
+   "held_by": {
+    "free": 4
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "77",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 3,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Tranquil Cove",
+   "oracle_id": "5d641bf6-0f93-4189-8dc1-ec7ea446dade",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "This land enters tapped.\nWhen this land enters, you gain 1 life.\n{T}: Add {W} or {U}.",
+   "color_identity": [
+    "U",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 3,
+   "by_language": {
+    "es": 3
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "MOM",
+     "number": "275",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 3,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Tranquilize",
+   "oracle_id": "1133633a-b717-42cb-b477-4e18584d876f",
+   "type": "Sorcery",
+   "cmc": 2.0,
+   "mana_cost": "{1}{U}",
+   "oracle_text": "Tap target creature an opponent controls and put three stun counters on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 3,
+   "by_language": {
+    "es": 3
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "ACR",
+     "number": "284",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 3,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Universal Surveillance",
+   "oracle_id": "c5a5c17d-d1e4-4d23-9d2b-1c2febdcb0e7",
+   "type": "Sorcery",
+   "cmc": 3.0,
+   "mana_cost": "{X}{U}{U}{U}",
+   "oracle_text": "Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)\nDraw X cards.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "81",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Sorceries",
+    "synergy": 0.2586198518884749,
+    "inclusion": 0.2915,
+    "num_decks": 5886
+   }
+  },
+  {
+   "name": "Uthros Research Craft",
+   "oracle_id": "e1c9783a-1d1b-40d7-872e-0ca11b229ce6",
+   "type": "Artifact — Spacecraft",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 12+.)\n3+ | Whenever you cast an artifact spell, draw a card. Put a charge counter on this Spacecraft.\n12+ | Flying\nThis Spacecraft gets +1/+0 for each artifact you control.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "7",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Top Cards",
+    "synergy": 0.6267383998674129,
+    "inclusion": 0.747,
+    "num_decks": 14876
+   }
+  },
+  {
+   "name": "Verge Rangers",
+   "oracle_id": "aece819e-3678-48bc-9677-d06ebfa58b4e",
+   "type": "Creature — Human Scout Ranger",
+   "cmc": 3.0,
+   "mana_cost": "{2}{W}",
+   "oracle_text": "First strike\nYou may look at the top card of your library any time.\nAs long as an opponent controls more lands than you, you may play lands from the top of your library. (You can play a land this way only if you have an available land play remaining.)",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "DSC",
+     "number": "108",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Vibrant Cityscape",
+   "oracle_id": "6a7f3e1f-6798-4644-b64c-7765f81f0938",
+   "type": "Land",
+   "cmc": 0.0,
+   "mana_cost": "",
+   "oracle_text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "SPM",
+     "number": "188",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 2,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Wake the Past",
+   "oracle_id": "34143cfa-aa48-481c-af42-1240af174b80",
+   "type": "Sorcery",
+   "cmc": 7.0,
+   "mana_cost": "{5}{R}{W}",
+   "oracle_text": "Return all artifact cards from your graveyard to the battlefield. They gain haste until end of turn.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "EOC",
+     "number": "128",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Sorceries",
+    "synergy": 0.40820838751782706,
+    "inclusion": 0.5086,
+    "num_decks": 10270
+   }
+  },
+  {
+   "name": "Wandering Musicians",
+   "oracle_id": "7166bf81-05c2-457d-a0bb-a175175b8e79",
+   "type": "Creature — Human Bard Ally",
+   "cmc": 4.0,
+   "mana_cost": "{3}{R/W}",
+   "oracle_text": "Whenever this creature attacks, creatures you control get +1/+0 until end of turn.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 2,
+   "by_language": {
+    "es": 2,
+    "en": 5
+   },
+   "held_by": {
+    "free": 7
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "250",
+     "finish": "foil",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
+    {
+     "set": "TLA",
+     "number": "250",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Waterbending Lesson",
+   "oracle_id": "3d28886c-46bf-4d2e-a257-cb9016cc3573",
+   "type": "Sorcery — Lesson",
+   "cmc": 4.0,
+   "mana_cost": "{3}{U}",
+   "oracle_text": "Draw three cards. Then discard a card unless you waterbend {2}. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 3,
+    "es": 1
+   },
+   "held_by": {
+    "free": 4
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "80",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Watery Grasp",
+   "oracle_id": "520b2799-66bd-40bf-9bc0-9cd3aed321f5",
+   "type": "Enchantment — Aura",
+   "cmc": 1.0,
+   "mana_cost": "{U}",
+   "oracle_text": "Enchant creature\nEnchanted creature doesn't untap during its controller's untap step.\nWaterbend {5}: Enchanted creature's owner shuffles it into their library. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 2,
+    "es": 1
+   },
+   "held_by": {
+    "free": 3
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "82",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Zuko, Exiled Prince",
+   "oracle_id": "3231ce2e-d4f8-44fc-872d-aeafa59aed4b",
+   "type": "Legendary Creature — Human Noble",
+   "cmc": 4.0,
+   "mana_cost": "{3}{R}",
+   "oracle_text": "Firebending 3 (Whenever this creature attacks, add {R}{R}{R}. This mana lasts until end of combat.)\n{3}: Exile the top card of your library. You may play that card this turn.",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1,
+    "es": 1
+   },
+   "held_by": {
+    "free": 2
+   },
+   "printings": [
+    {
+     "set": "TLA",
+     "number": "163",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  }
+ ]
+}

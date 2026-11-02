@@ -9,6 +9,8 @@ know about them.
 |---|---|---|---|---|---|---|
 | Eagle Vision | ACR 17, normal, near mint | English | Ezio | Lent from his Standard deck | 2026-10-31 | To buy at the next purchase |
 | Ezio Auditore da Firenze | ACR 25, normal (the printing of the proxy; the owner may choose another) | English | Ezio (commander) | The deck plays a proxy | 2026-10-31 | To buy at the next purchase |
+| Bayek of Siwa | ACR, the owner's Standard copy (printing to read when he takes it out) | English | Ezio | Automatic loan (in stock at Game of Magic Singles, about 915 CLP on 2026-10-31) | 2026-11-02 | To buy at the next purchase |
+| Layla Hassan | ACR, the owner's Standard copy (printing to read when he takes it out) | English | Ezio | Automatic loan (in stock at Game of Magic Singles, about 915 CLP on 2026-10-31) | 2026-11-02 | To buy at the next purchase |
 
 ## Rule for every purchase (owner, 2026-10-31)
 When a purchase is planned at a store, check that store's live stock of every card in this table. Each card in stock is

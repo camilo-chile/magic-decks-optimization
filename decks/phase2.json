@@ -44,14 +44,41 @@
      "proxy": true,
      "restock": true,
      "since": "2026-10-31"
+    },
+    {
+     "name": "Bayek of Siwa",
+     "language": "en",
+     "quantity": 1,
+     "set": "ACR",
+     "number": "",
+     "from": "Standard decks (binder Assassin's Creed)",
+     "restock": true,
+     "loan_class": "auto",
+     "replacement_clp": 915,
+     "since": "2026-11-02",
+     "note": "Automatic loan used by the Phase 2 Ezio build (in stock at Game of Magic Singles, under 5,000 CLP)."
+    },
+    {
+     "name": "Layla Hassan",
+     "language": "en",
+     "quantity": 1,
+     "set": "ACR",
+     "number": "",
+     "from": "Standard decks (binder Assassin's Creed)",
+     "restock": true,
+     "loan_class": "auto",
+     "replacement_clp": 915,
+     "since": "2026-11-02",
+     "note": "Automatic loan used by the Phase 2 Ezio build (in stock at Game of Magic Singles, under 5,000 CLP)."
     }
    ]
   },
   {
    "slug": "spanish-deck",
-   "name": "Spanish deck (commander to be chosen)",
+   "name": "Kilo, Apogee Mind (Spanish deck)",
    "languages": "es",
-   "list": "decks/phase2/spanish-deck.txt"
+   "list": "decks/phase2/spanish-deck.txt",
+   "commander": "Kilo, Apogee Mind"
   }
  ],
  "note_borrowed": "Owner, 2026-10-31: one English Eagle Vision from his Standard decks is lent to Ezio, to be replaced; the proxy Ezio commander is listed so the real card is bought. Restock rule: decks/phase2/restock.md.",
@@ -232,7 +259,11 @@
    "Game of Magic Singles"
   ],
   "purchase_budget_clp": 10000,
-  "budget_note": "Owner, 2026-10-31: up to 10,000 CLP in total to buy cards for the optimization of the four decks, only in the stores of this iteration. It is the budget of this run and has nothing to do with the loans."
+  "budget_note": "Owner, 2026-10-31: up to 10,000 CLP in total to buy cards for the optimization of the four decks, only in the stores of this iteration. It is the budget of this run and has nothing to do with the loans.",
+  "deck_caps_clp": {
+   "spanish-deck": 5000
+  },
+  "deck_caps_note": "Owner 2026-11-02: the Spanish deck may use up to 5,000 CLP of the 10,000; the bilingual decks share the rest, ranked by impact."
  },
  "loan_rules": "decks/phase2/loans.md: a loan goes to one deck only; it is allowed only if a store of the current iteration (iteration.stores) has it in stock so it can be replaced; the replacement must cost under 5,000 CLP, and a dearer card only if it is indispensable, with a written justification and its price for the owner to decide.",
  "pending_owned": [

@@ -111,6 +111,15 @@ def test_edhrec_numbers_are_added_to_the_pool_cards_that_have_them():
     assert all("edhrec" not in e for e in entries if e["name"] != "Sol Ring")
 
 
+def test_legendary_vehicles_and_spacecraft_with_power_can_be_commanders():
+    ship = oracle("Flag Ship", "o-ship", "URW", "Legendary Artifact — Spacecraft")
+    ship["power"], ship["toughness"] = "5", "5"
+    assert bp.can_be_commander(ship)
+    assert not bp.can_be_commander(oracle("Plain Ship", "o-plain", "U", "Legendary Artifact — Spacecraft"))  # no P/T
+    assert not bp.can_be_commander(oracle("Rare Rock", "o-rock", "", "Legendary Artifact"))
+    assert bp.can_be_commander(oracle("Red Hero", "o-redhero", "R", "Legendary Creature — Human"))
+
+
 def test_commander_of_reads_the_planned_list():
     with tempfile.TemporaryDirectory() as tmp:
         root = Path(tmp)

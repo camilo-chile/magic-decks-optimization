@@ -138,8 +138,14 @@ def annotate_edhrec(entries, edhrec_cards):
 
 
 def can_be_commander(card):
+    """A legendary creature, a legendary Vehicle or Spacecraft with power and toughness (Scryfall `is:commander`, checked
+    2026-11-02 on Inspirit, Flagship Vessel), or a card that says it can be your commander."""
     type_line = card.get("type_line") or ""
-    return ("Legendary" in type_line and "Creature" in type_line) or "can be your commander" in face_text(card, "oracle_text")
+    if "Legendary" in type_line and "Creature" in type_line:
+        return True
+    if "Legendary" in type_line and ("Vehicle" in type_line or "Spacecraft" in type_line) and card.get("power") is not None:
+        return True
+    return "can be your commander" in face_text(card, "oracle_text")
 
 
 def legends(owned, by_oid):

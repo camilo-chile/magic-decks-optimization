@@ -85,6 +85,23 @@ def test_a_proxy_commander_needs_no_copy_and_other_proxies_do_not_count():
     assert mod.allocate([marked], INV)["decks"]["e"]["proxy_commanders"] == ["New Commander"]  # the config marks the deck
 
 
+def test_a_borrowed_card_is_covered_by_the_loan_and_takes_no_collection_copy():
+    lender = deck("e", "both", {"o-counter": ("Counterspell", 1)})
+    lender["borrowed"] = {"o-counter": ("en", 1)}
+    res = mod.allocate([lender, deck("a", "both", {"o-counter": ("Counterspell", 1)})], INV)
+    assert res["decks"]["e"]["missing"] == [] and picks(res, "e", "Counterspell")[0]["binder"] == "loan from the Standard decks"
+    assert res["decks"]["a"]["missing"] == []  # the one collection copy is still free for the other deck
+
+
+def test_an_owed_card_counts_as_one_more_copy():
+    decks = [deck("a", "both", {"o-counter": ("Counterspell", 1)}), deck("b", "both", {"o-counter": ("Counterspell", 1)})]
+    owed = [("o-counter", "Counterspell", {"language": "es", "set": "msc", "number": "9", "binder": "owed (not arrived yet)",
+                                           "quantity": 1})]
+    res = mod.allocate(decks, INV, owed)
+    assert res["decks"]["a"]["missing"] == [] and res["decks"]["b"]["missing"] == []
+    assert picks(res, "b", "Counterspell")[0]["binder"] == "owed (not arrived yet)"
+
+
 def test_read_deck_resolves_names_and_reports_unknown_cards_and_missing_files():
     index = la.build_index([{"name": "Sol Ring", "oracle_id": "o-sol"}, {"name": "Ezio", "oracle_id": "o-ezio"}])
     with tempfile.TemporaryDirectory() as tmp:

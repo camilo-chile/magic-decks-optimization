@@ -1,5 +1,18 @@
 [
  {
+  "name": "Inspirit, Flagship Vessel",
+  "oracle_id": "554df866-3dbb-4811-8573-6033481591aa",
+  "color_identity": "RUW",
+  "type": "Legendary Artifact — Spacecraft",
+  "copies": 1,
+  "spanish_copies": 1,
+  "pool_es": 191,
+  "pool_any": 495,
+  "held_by": {
+   "free": 1
+  }
+ },
+ {
   "name": "Kilo, Apogee Mind",
   "oracle_id": "7a884166-de5a-43ba-8855-4999f39f2059",
   "color_identity": "RUW",
@@ -272,6 +285,19 @@
   "pool_any": 203,
   "held_by": {
    "free": 1
+  }
+ },
+ {
+  "name": "Adrestia",
+  "oracle_id": "94779ca4-c202-4163-9c77-1036921a34bc",
+  "color_identity": "C",
+  "type": "Legendary Artifact — Vehicle",
+  "copies": 4,
+  "spanish_copies": 1,
+  "pool_es": 53,
+  "pool_any": 103,
+  "held_by": {
+   "free": 4
   }
  },
  {

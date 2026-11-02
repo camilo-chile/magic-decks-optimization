@@ -15,7 +15,9 @@ exists (owner rule 2026-10-21); a deck with languages "es" takes Spanish copies 
 first (the Spanish-only deck keeps its Spanish copies), then the others in the order of the config. Among the copies of
 the allowed language the better condition goes first, then the non-foil one. A commander that is a proxy (inventory
 `commander_ok`, or a deck marked `proxy_commander` in the config, as Ezio's since the Standard cards are not scanned)
-needs no copy. Basic lands come from the same pool, by name. Nothing is hidden: a card the collection
+needs no copy. Basic lands come from the same pool, by name. A card the deck borrows (config `borrowed`: a loan from his
+Standard decks, rules in decks/phase2/loans.md) is covered by the loan and takes no collection copy; a card owed to him
+(config `pending_owned`) counts as one more copy of the collection until it arrives. Nothing is hidden: a card the collection
 cannot give is listed as missing and a card used by two decks is listed as shared.
 """
 import json
@@ -81,12 +83,15 @@ def take(entry, qty, languages):
     return picks, got
 
 
-def allocate(decks, inventory):
-    """Assign copies to the decks. `decks` is [{"slug", "languages", "cards": {oid: (name, qty)}, "commanders": [oid]}].
+def allocate(decks, inventory, owed=()):
+    """Assign copies to the decks. `decks` is [{"slug", "languages", "cards": {oid: (name, qty)}, "commanders": [oid],
+    "borrowed": {oid: (language, qty)}}]; `owed` is [(oid, name, printing dict)] added to the collection.
 
     Returns {"decks": {slug: {...}}, "shared": [{"name", "decks"}]}; each deck has "cards" (name, qty, picks),
     "missing" (name, needed, given, language_note) and "proxy_commanders"."""
     supply = supply_by_oid(inventory)
+    for oid, name, printing in owed:
+        supply.setdefault(oid, {"name": name, "pool": []})["pool"].append(dict(printing, left=int(printing.get("quantity", 1))))
     order = sorted(range(len(decks)), key=lambda i: (decks[i]["languages"] == "both", i))  # restricted decks first
     result, users = {}, defaultdict(list)
     for i in order:
@@ -95,7 +100,13 @@ def allocate(decks, inventory):
         out = {"languages": deck["languages"], "cards": [], "missing": [], "proxy_commanders": []}
         for oid, (name, qty) in sorted(deck["cards"].items(), key=lambda kv: kv[1][0].casefold()):
             entry = supply.get(oid, {"name": name, "pool": []})
-            picks, got = take(entry, qty, languages)
+            loan_lang, loaned = deck.get("borrowed", {}).get(oid, ("", 0))
+            loaned = min(loaned, qty)
+            picks, got = take(entry, qty - loaned, languages)
+            if loaned:
+                picks.append(({"language": loan_lang, "binder": "loan from the Standard decks", "set": "", "number": "",
+                               "foil": "", "condition": ""}, loaned))
+                got += loaned
             if got < qty and oid in deck["commanders"] and (entry.get("commander_ok") or deck.get("proxy_commander")):
                 out["proxy_commanders"].append(name)
                 got = qty
@@ -120,7 +131,7 @@ def read_deck(spec, index, root=ROOT):
     """Read one deck of the config into the shape `allocate` takes; returns (deck, problems)."""
     path = root / spec["list"]
     deck = {"slug": spec["slug"], "languages": spec.get("languages", "both"), "cards": {}, "commanders": [],
-            "proxy_commander": bool(spec.get("proxy_commander"))}
+            "proxy_commander": bool(spec.get("proxy_commander")), "borrowed": {}}
     problems = []
     if not path.exists():
         return None, [f"{spec['slug']}: no list yet ({spec['list']})"]
@@ -137,7 +148,25 @@ def read_deck(spec, index, root=ROOT):
             deck["cards"][oid] = (name, have + entry["qty"])
             if role == "commander":
                 deck["commanders"].append(oid)
+    for loan in spec.get("borrowed", []):
+        card = index.get(la.normalize(loan["name"]))
+        if loan.get("proxy") or card is None:
+            continue  # a proxy commander is handled as a proxy; an unknown name is reported by build_pools
+        lang, have = deck["borrowed"].get(card["oracle_id"], (loan.get("language", "en"), 0))
+        deck["borrowed"][card["oracle_id"]] = (lang, have + int(loan.get("quantity", 1)))
     return deck, problems
+
+
+def owed_copies(config, index):
+    """[(oracle id, name, printing)] for the cards owed to the owner (config `pending_owned`)."""
+    out = []
+    for item in config.get("pending_owned", []):
+        card = index.get(la.normalize(item["name"]))
+        if card is not None:
+            out.append((card["oracle_id"], card["name"], {"language": item.get("language", "en"), "set": item.get("set", ""),
+                        "number": item.get("number", ""), "foil": item.get("finish", "normal"), "condition": "near_mint",
+                        "binder": "owed (not arrived yet)", "quantity": int(item.get("quantity", 1))}))
+    return out
 
 
 def pull_list_markdown(config, assignment, sizes, problems, today):
@@ -203,7 +232,7 @@ def main():
     for slug, size in sizes.items():
         if size != 100:
             problems.append(f"{slug}: the list has {size} cards, not 100")
-    assignment = allocate(decks, inventory)
+    assignment = allocate(decks, inventory, owed_copies(config, index))
     today = date.today().isoformat()
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
     OUT_JSON.write_text(json.dumps(dict(assignment, problems=problems), indent=1, ensure_ascii=False), encoding="utf-8")

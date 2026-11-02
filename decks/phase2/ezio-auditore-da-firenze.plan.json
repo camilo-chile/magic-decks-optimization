@@ -1,0 +1,384 @@
+{
+ "plan": "Assassin strike force: cheap evasive Assassins and Ezio connect from turn 2 or 3, Equipment (flying, haste, hexproof, trample, vigilance) and unblockable Assassins carry Ezio past any board, every hit turns Assassin spells into {B}{B} casts and draws cards (Ezio, Blade of Vengeance, Coastal Piracy, Eagle Vision), team damage (Arno, Bayek, Rally, pings to each opponent) pushes all three opponents to 10, and Ezio's trigger removes them one per hit while attack taxes and vigilant or deathtouch bodies hold the crack-back.",
+ "backup": "Without Ezio on the table the same evasive Assassins keep attacking for damage with Arno's +2/+0 and Bayek's double strike, and the repeatable pings to each opponent (Shao Jun, Vindictive Warden, Kaya) finish players already low from combat.",
+ "archetype": "combat_attackers",
+ "secondary": "alternate_kill",
+ "secondary_role": "plan",
+ "commander_dependence": "attack_engine",
+ "commander_mv": 2,
+ "win_routes": {
+  "Ezio eliminations": {
+   "cards": [
+    "Ezio Auditore da Firenze"
+   ],
+   "axis": "combat",
+   "vs_three": "Ezio's trigger removes ONE player per connecting hit when that player is at 10 or less and {W}{U}{B}{R}{G} is paid; team damage from the other routes' cards puts all three opponents at 10, so the route needs three hits on three turns (Secret Tunnel, flying Equipment and Swiftfoot Boots keep Ezio connecting); it is the shortcut for the last 10 life of each player, not the whole kill."
+  },
+  "Assassin team beatdown": {
+   "cards": [
+    "Arno Dorian",
+    "Bayek of Siwa",
+    "Rally the Peasants"
+   ],
+   "axis": "combat",
+   "vs_three": "Five or six evasive Assassins split their attacks over the three opponents each turn; Arno adds +2/+0 to every attacking Assassin, Bayek gives the legendary and artifact attackers double strike, Rally adds +2/+0 to the whole team twice (flashback): one resolution raises the damage to every opponent at once."
+  },
+  "Pings to each opponent": {
+   "cards": [
+    "Shao Jun",
+    "Vindictive Warden",
+    "Kaya, Ghost Assassin"
+   ],
+   "axis": "noncombat",
+   "vs_three": "Each card damages or drains EVERY opponent and repeats: Shao Jun 1 to each per two untapped artifacts (Equipment and rocks), Vindictive Warden 1 to each per {3}, Kaya -1 drains 2 from each; it closes a table that combat has already put low, without passing any blocker."
+  }
+ },
+ "functions": {
+  "attackers": {
+   "cards": [
+    "Ezio Auditore da Firenze",
+    "Assassin Initiate",
+    "Hookblade Veteran",
+    "Aven Heartstabber",
+    "Desmond Miles",
+    "Brotherhood Spy",
+    "Winter Soldier, Icy Assassin",
+    "Shao Jun",
+    "Ratonhnhaké꞉ton",
+    "Jacob Frye",
+    "Lydia Frye",
+    "Adéwalé, Breaker of Chains",
+    "Arno Dorian",
+    "Queen Marchesa",
+    "Etrata, the Silencer",
+    "Layla Hassan",
+    "Ezio, Blade of Vengeance",
+    "Bayek of Siwa"
+   ],
+   "needed_by": "early"
+  },
+  "through_wide_board": {
+   "cards": [
+    "Assassin Initiate",
+    "Hookblade Veteran",
+    "Aven Heartstabber",
+    "Brotherhood Spy",
+    "Shao Jun",
+    "Ratonhnhaké꞉ton",
+    "Etrata, the Silencer",
+    "Hookblade",
+    "Mechanical Glider",
+    "Glider Staff",
+    "Haunted Cloak",
+    "Assassin Gauntlet",
+    "Mephitic Vapors",
+    "Secret Tunnel"
+   ],
+   "needed_by": "early"
+  },
+  "through_big_creatures": {
+   "cards": [
+    "Swords to Plowshares",
+    "Infernal Grasp",
+    "Terminate",
+    "Assassin's Trophy",
+    "Mortify",
+    "Utter End",
+    "Bitter Triumph",
+    "Haytham Kenway",
+    "Royal Assassin",
+    "Hidden Blade",
+    "Lydia Frye",
+    "Etrata, the Silencer",
+    "Ezio, Blade of Vengeance",
+    "Arno Dorian",
+    "Etrata, Deadly Fugitive",
+    "Assassin Initiate"
+   ],
+   "needed_by": "early"
+  },
+  "condition_enablers": {
+   "cards": [
+    "Ezio Auditore da Firenze",
+    "Arno Dorian",
+    "Bayek of Siwa",
+    "Rally the Peasants",
+    "Shao Jun",
+    "Vindictive Warden",
+    "Kaya, Ghost Assassin"
+   ],
+   "needed_by": "late"
+  },
+  "team_finishers": {
+   "cards": [
+    "Arno Dorian",
+    "Bayek of Siwa",
+    "Rally the Peasants",
+    "Shao Jun",
+    "Vindictive Warden",
+    "Kaya, Ghost Assassin"
+   ],
+   "needed_by": "late"
+  }
+ },
+ "support": {
+  "haste": [
+   "Swiftfoot Boots",
+   "Haunted Cloak",
+   "Hidden Footblade",
+   "Boros Guildmage",
+   "Queen Marchesa"
+  ],
+  "team_evasion": [
+   "Assassin Gauntlet",
+   "Secret Tunnel",
+   "Mephitic Vapors",
+   "Bleeding Effect"
+  ],
+  "defense_while_tapped": [
+   "Propaganda",
+   "Ghostly Prison",
+   "Haunted Cloak",
+   "Winter Soldier, Icy Assassin",
+   "Royal Assassin",
+   "Gold-Forged Thopteryx",
+   "Thorn of the Black Rose",
+   "Etrata, Deadly Fugitive",
+   "Loyal Inventor",
+   "Bleeding Effect"
+  ],
+  "combat_draw": [
+   "Ezio, Blade of Vengeance",
+   "Coastal Piracy",
+   "Eagle Vision",
+   "Jacob Frye",
+   "Layla Hassan",
+   "Etrata, Deadly Fugitive",
+   "Theater of Horrors"
+  ],
+  "wipe_insurance": [
+   "Restart Sequence",
+   "The Revelations of Ezio",
+   "Layla Hassan",
+   "Swan Song",
+   "Haystack"
+  ],
+  "payment_enablers": [
+   "Chromatic Lantern",
+   "Arcane Signet",
+   "Commander's Sphere",
+   "Bender's Waterskin",
+   "Command Tower",
+   "Exotic Orchard",
+   "Path of Ancestry",
+   "Spire of Industry",
+   "Abstergo Entertainment"
+  ],
+  "assassin_members (typal note, not a profile line)": [
+   "Assassin Initiate",
+   "Hookblade Veteran",
+   "Aven Heartstabber",
+   "Desmond Miles",
+   "Brotherhood Spy",
+   "Evie Frye",
+   "Winter Soldier, Icy Assassin",
+   "Shao Jun",
+   "Ratonhnhaké꞉ton",
+   "Jacob Frye",
+   "Lydia Frye",
+   "Adéwalé, Breaker of Chains",
+   "Etrata, Deadly Fugitive",
+   "Royal Assassin",
+   "Arno Dorian",
+   "Thorn of the Black Rose",
+   "Queen Marchesa",
+   "Etrata, the Silencer",
+   "Layla Hassan",
+   "Ezio, Blade of Vengeance",
+   "Bayek of Siwa"
+  ]
+ },
+ "tutors": {
+  "Loyal Inventor": [
+   "through_wide_board",
+   "through_big_creatures"
+  ]
+ },
+ "tags": {
+  "Sol Ring": "ramp",
+  "Arcane Signet": "ramp",
+  "Rakdos Signet": "ramp",
+  "Chromatic Lantern": "ramp",
+  "Commander's Sphere": "ramp",
+  "Bender's Waterskin": "ramp",
+  "Deathcap Cultivator": "ramp",
+  "Swiftfoot Boots": "protection",
+  "Haunted Cloak": "engine",
+  "Hidden Footblade": "engine",
+  "Hookblade": "engine",
+  "Mechanical Glider": "engine",
+  "Glider Staff": "engine",
+  "Hidden Blade": "engine",
+  "Assassin Gauntlet": "engine",
+  "Assassin Initiate": "engine",
+  "Hookblade Veteran": "engine",
+  "Aven Heartstabber": "engine",
+  "Desmond Miles": "engine",
+  "Brotherhood Spy": "engine",
+  "Evie Frye": "draw",
+  "Winter Soldier, Icy Assassin": "engine",
+  "Gold-Forged Thopteryx": "protection",
+  "Boros Guildmage": "engine",
+  "Shao Jun": [
+   "payoff",
+   "engine"
+  ],
+  "Ratonhnhaké꞉ton": "engine",
+  "Jacob Frye": [
+   "engine",
+   "draw"
+  ],
+  "Lydia Frye": "engine",
+  "Adéwalé, Breaker of Chains": [
+   "engine",
+   "draw"
+  ],
+  "Etrata, Deadly Fugitive": [
+   "engine",
+   "draw"
+  ],
+  "Royal Assassin": "removal",
+  "Loyal Inventor": "tutor",
+  "Vindictive Warden": "payoff",
+  "Arno Dorian": "payoff",
+  "Thorn of the Black Rose": "draw",
+  "Queen Marchesa": [
+   "engine",
+   "draw"
+  ],
+  "Etrata, the Silencer": "engine",
+  "Haytham Kenway": "removal",
+  "Layla Hassan": [
+   "engine",
+   "draw"
+  ],
+  "Ezio, Blade of Vengeance": [
+   "engine",
+   "draw"
+  ],
+  "Bayek of Siwa": "payoff",
+  "Swords to Plowshares": "removal",
+  "Infernal Grasp": "removal",
+  "Terminate": "removal",
+  "Assassin's Trophy": "removal",
+  "Mortify": "removal",
+  "Utter End": "removal",
+  "Bitter Triumph": "removal",
+  "Mephitic Vapors": "wipe",
+  "Haystack": "protection",
+  "Swan Song": "protection",
+  "Enter the Avatar State": "protection",
+  "Get Out": "protection",
+  "Bleeding Effect": "engine",
+  "Eagle Vision": "draw",
+  "Coastal Piracy": "draw",
+  "Kaya, Ghost Assassin": [
+   "payoff",
+   "draw"
+  ],
+  "Theater of Horrors": "draw",
+  "Propaganda": "engine",
+  "Ghostly Prison": "engine",
+  "Restart Sequence": "backup",
+  "The Revelations of Ezio": "backup",
+  "Rally the Peasants": "payoff",
+  "Command Tower": "land",
+  "Exotic Orchard": "land",
+  "Path of Ancestry": "land",
+  "Spire of Industry": "land",
+  "Brotherhood Headquarters": "land",
+  "Abstergo Entertainment": "land",
+  "Secret Tunnel": "land",
+  "Concealed Courtyard": "land",
+  "Isolated Chapel": "land",
+  "Drowned Catacomb": "land",
+  "Sunken Hollow": "land",
+  "Dragonskull Summit": "land",
+  "Smoldering Marsh": "land",
+  "Woodland Cemetery": "land",
+  "Clifftop Retreat": "land",
+  "Sulfur Falls": "land",
+  "Hinterland Harbor": "land",
+  "Prairie Stream": "land",
+  "Glacial Fortress": "land",
+  "Radiant Summit": "land",
+  "Jungle Shrine": "land",
+  "Murky Sewer": "land",
+  "Mystic Monastery": "land"
+ },
+ "bad_when_drawn": {
+  "Restart Sequence": "early",
+  "Rally the Peasants": "early",
+  "Bleeding Effect": "early",
+  "Bayek of Siwa": "early",
+  "Ezio, Blade of Vengeance": "early",
+  "Assassin Initiate": "late",
+  "Hookblade Veteran": "late",
+  "Aven Heartstabber": "late",
+  "Sol Ring": "never",
+  "Arcane Signet": "never",
+  "Rakdos Signet": "never",
+  "Deathcap Cultivator": "never",
+  "Chromatic Lantern": "never",
+  "Commander's Sphere": "never",
+  "Bender's Waterskin": "never",
+  "Mephitic Vapors": "never",
+  "Swiftfoot Boots": "never",
+  "Haunted Cloak": "never",
+  "Hidden Footblade": "never",
+  "Hookblade": "never",
+  "Mechanical Glider": "never",
+  "Glider Staff": "never",
+  "Hidden Blade": "never",
+  "Assassin Gauntlet": "never",
+  "Desmond Miles": "never",
+  "Brotherhood Spy": "never",
+  "Evie Frye": "never",
+  "Winter Soldier, Icy Assassin": "never",
+  "Gold-Forged Thopteryx": "never",
+  "Boros Guildmage": "never",
+  "Shao Jun": "never",
+  "Ratonhnhaké꞉ton": "never",
+  "Jacob Frye": "never",
+  "Lydia Frye": "never",
+  "Adéwalé, Breaker of Chains": "never",
+  "Etrata, Deadly Fugitive": "never",
+  "Royal Assassin": "never",
+  "Loyal Inventor": "never",
+  "Vindictive Warden": "never",
+  "Arno Dorian": "never",
+  "Thorn of the Black Rose": "never",
+  "Queen Marchesa": "never",
+  "Etrata, the Silencer": "never",
+  "Haytham Kenway": "never",
+  "Layla Hassan": "never",
+  "Swords to Plowshares": "never",
+  "Infernal Grasp": "never",
+  "Terminate": "never",
+  "Assassin's Trophy": "never",
+  "Mortify": "never",
+  "Utter End": "never",
+  "Bitter Triumph": "never",
+  "Haystack": "never",
+  "Swan Song": "never",
+  "Enter the Avatar State": "never",
+  "Get Out": "never",
+  "Eagle Vision": "never",
+  "Coastal Piracy": "never",
+  "Kaya, Ghost Assassin": "never",
+  "Theater of Horrors": "never",
+  "Propaganda": "never",
+  "Ghostly Prison": "never",
+  "The Revelations of Ezio": "never"
+ }
+}

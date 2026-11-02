@@ -28,8 +28,9 @@ in `.claude/skills/commander-deckbuilding/`: detail lives in `references/`, mach
    behind the players who spent nothing (notes/04 S2); a kill that removes one player per trigger needs three resolutions
    (inference and [owner signal], notes/05 section 3).
 6. **Bracket 3 is a rules check, never a power cap.** Stay inside the bracket's rules (step 12) and nothing else: how
-   strong the deck is, and what bracket or power number a site or a bot labels it with, never limits a choice. A power score (Commander Salt) measures ideal draws; it only breaks ties
-   between lists that already pass the consistency gate and the review. Never trade consistency for points.
+   strong the deck is, and what bracket or power number a site or a bot labels it with, never limits a choice. A power score (Commander Salt) measures ideal draws; it is
+   the second objective: once a list passes the consistency gate and the review, raise its score with swaps that keep both
+   passing. Never trade consistency for points.
 
 ## 0. Inputs and outputs
 
@@ -414,7 +415,7 @@ Read `references/tools.md`.
   only. Use them as **priors**: to find candidates for a function and as a last check for omissions. A high-synergy card
   still has to pass step 9; a staple with near-zero synergy is fine when it does a needed job. Never write "high
   inclusion" or "high synergy" as the reason for a pick or a cut.
-- **Commander Salt** power is a tie-break between lists that pass the gate and the review (principle 6).
+- **Commander Salt** power is the second objective: measured on every list that passes the gate and the review, then raised by swaps that keep both passing; it never overrides consistency (principle 6).
 - **Scryfall oracle tags** (`otag:`) cross-check your function tags (community-made, imperfect). **Commander Spellbook**
   finds combos in the list; check each against Bracket 3 and the organic-combo rule.
 

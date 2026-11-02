@@ -73,10 +73,14 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
 - Consistency first (owner, 2026-10-30, after two heavy losses with Ezio at Salt 7.7 against a friend's deck that Salt rates far
   lower): a list needs ONE declared plan with enough pieces of every function the plan relies on (recursion, evasion, ways past
   big or wide boards, enablers), not a mix of many plans with one to three support cards each. Salt measures the potential of
-  ideal draws, so it is only a tie-break among lists that pass the consistency gate in
+  ideal draws, so it never overrides the consistency gate in
   `docs/proposals/phase2-collection-optimization.md` (checked by `scripts/plan_density.py`, reviewed by Opus in
   `docs/research/phase2-gate-review-20261031.md`). Every deck-building prompt carries this gate and the paragraph for the
   builders from section (f) of that review.
+- Both measures optimize (owner, 2026-11-02: "no es una o la otra, son ambas necesarias"): consistency first, then Commander
+  Salt power as the SECOND objective, never dropped. Every list that passes the gate and the review is uploaded to Moxfield
+  (exact printings) and measured on Salt; Salt's breakdown and Upgrades tab then drive swaps that raise its power while the
+  list still passes the gate and the review. Report each deck's Salt power and bracket with the links.
 - Deckbuilding expertise first (owner, 2026-10-31: "the most important part of the project", token cost no object): the
   ratios follow each deck's strategy, not a generic template (Toph lives on landfall and needs far more ramp and repeated land
   drops; Azula casts instants and needs the most draw; Ezio and Azula win by attacking and need haste, team evasion,

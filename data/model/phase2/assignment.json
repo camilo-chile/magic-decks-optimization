@@ -1,0 +1,6143 @@
+{
+ "decks": {
+  "spanish-deck": {
+   "languages": "es",
+   "cards": [
+    {
+     "name": "Adarkar Wastes",
+     "oracle_id": "d5ad26cc-2bdb-46b7-b8bf-dd099d5fa09b",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "147",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Airbending Lesson",
+     "oracle_id": "e101b744-9175-4aa5-bf80-d6944359e538",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "tla",
+       "number": "8",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Ancient Den",
+     "oracle_id": "02f16726-f2f6-4943-b71a-93f8e26251d3",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "148",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Arcane Signet",
+     "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "53",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Astral Cornucopia",
+     "oracle_id": "1bc42024-52da-4d93-8b47-544f0a4a72a1",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "soc",
+       "number": "342",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Battlefield Forge",
+     "oracle_id": "6b75b94e-83b7-457e-ac41-7ca90b5a59aa",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "58",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Brute Suit",
+     "oracle_id": "bc64e396-7fa1-4a4e-a528-352737714a9c",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "neo",
+       "number": "241",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Buried Ruin",
+     "oracle_id": "3644f316-f9a3-46c9-9b1e-747f86cf4ead",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "150",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Cascade Bluffs",
+     "oracle_id": "f1603384-4361-49c9-98aa-7785fc3504c4",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "soc",
+       "number": "364",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Chaos Warp",
+     "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "49",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Chrome Host Seedshark",
+     "oracle_id": "837c5d0e-0a33-4f9d-ae25-68a687bdf640",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "68",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Clifftop Retreat",
+     "oracle_id": "d7faa3c8-46cf-46b2-bfa4-89000307cf18",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "frc",
+       "number": "67",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Commander's Sphere",
+     "oracle_id": "0b67c4e2-f88b-4e01-85a1-9d5f5b8db13b",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "ecc",
+       "number": "139",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Coretapper",
+     "oracle_id": "66e37011-f3d2-41ed-8e09-7bba9464e8c3",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "132",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Crystalline Crawler",
+     "oracle_id": "5ea3e672-ae14-49a4-badb-f713497dd126",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "133",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Cyberdrive Awakener",
+     "oracle_id": "126a5d0b-e7d6-458e-87af-47d845678014",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "69",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Darksteel Reactor",
+     "oracle_id": "bc483bab-14fb-498d-9310-9c070766c7ae",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "134",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Deepglow Skate",
+     "oracle_id": "debce64a-18bd-42f5-9e85-158c2242e9e9",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "70",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Depthshaker Titan",
+     "oracle_id": "23bf0648-7097-41df-a539-1d36ac42cf9c",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "9",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Detained by Legionnaires",
+     "oracle_id": "d59488b5-1118-4276-b862-11e860c7c32a",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "acr",
+       "number": "277",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Dispatch",
+     "oracle_id": "133c99c0-3652-410f-8100-68015a47af9f",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "64",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Empowered Autogenerator",
+     "oracle_id": "6832f9e2-294a-44a2-8af9-eb16ccfdfc36",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "135",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Emry, Lurker of the Loch",
+     "oracle_id": "da3e7d3d-2ca0-40c3-9602-fca37c92f507",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "71",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Enthusiastic Mechanaut",
+     "oracle_id": "c9722086-23e8-43dc-8a8c-541ff6962318",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "114",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Etched Oracle",
+     "oracle_id": "7ecfa47e-1165-46a6-884c-290b1c14d020",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "136",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Etherium Sculptor",
+     "oracle_id": "96b87445-6362-4a17-91b2-cbf203fd03fd",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "72",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Everflowing Chalice",
+     "oracle_id": "0a79237e-0811-4a8a-bd4d-db3ca91bff22",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "137",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Exotic Orchard",
+     "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "frc",
+       "number": "70",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Experimental Augury",
+     "oracle_id": "2ee08dcd-5558-45be-b619-8a550f3865ad",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "73",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Firebending Lesson",
+     "oracle_id": "a9282f91-638e-414b-8b3d-9a99e30aec96",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "tla",
+       "number": "138",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Fumigate",
+     "oracle_id": "b17ea905-0696-4e58-b564-557e87236e27",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "65",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Glacial Fortress",
+     "oracle_id": "027dd013-baa7-4111-b3c9-f4d1414e9c45",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "frc",
+       "number": "73",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Golem Foundry",
+     "oracle_id": "8e96c09f-c064-4dd8-85ee-0f48d86ab670",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "138",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Great Furnace",
+     "oracle_id": "f4819061-b0b5-48ab-af7b-6525c3d2eab7",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "161",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Hangarback Walker",
+     "oracle_id": "dde55256-5259-44e7-a267-fca45a7f0d04",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "soc",
+       "number": "348",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Insight Engine",
+     "oracle_id": "83409a22-10de-4d51-90a3-e0579ca8cbea",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "6",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Inspiring Overseer",
+     "oracle_id": "d646e42b-5635-4798-b633-29c093b66a55",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "fdn",
+       "number": "496",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Inspirit, Flagship Vessel",
+     "oracle_id": "554df866-3dbb-4811-8573-6033481591aa",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "2",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Island",
+     "oracle_id": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+     "qty": 7,
+     "given": 7,
+     "picks": [
+      {
+       "language": "es",
+       "set": "acr",
+       "number": "303",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 7
+      }
+     ]
+    },
+    {
+     "name": "Jhoira, Weatherlight Captain",
+     "oracle_id": "c803b788-4213-4fab-b841-7e5bbf66088e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "118",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Kappa Cannoneer",
+     "oracle_id": "7fffbe7f-ad78-4bb6-a611-c37e495c6ee0",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "74",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Karn's Bastion",
+     "oracle_id": "9fb8cd81-403a-4988-8f1c-b8eccf8abd9c",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "163",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Kilo, Apogee Mind",
+     "oracle_id": "7a884166-de5a-43ba-8855-4999f39f2059",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "3",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Long-Range Sensor",
+     "oracle_id": "358297cd-4a9f-48e2-aaa5-131b0849f8dc",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "11",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Lux Artillery",
+     "oracle_id": "cbd76b22-d04e-48e7-bcab-c7f5466d67d8",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "140",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Lux Cannon",
+     "oracle_id": "ebdf26a4-77ee-4635-8d52-926bdca623f7",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "141",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Mindless Automaton",
+     "oracle_id": "e7441107-57b1-4e88-a9d8-3eb7c338ef07",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "142",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Mountain",
+     "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+     "qty": 4,
+     "given": 4,
+     "picks": [
+      {
+       "language": "es",
+       "set": "acr",
+       "number": "305",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 4
+      }
+     ]
+    },
+    {
+     "name": "Mystic Monastery",
+     "oracle_id": "834b8f71-9a45-42ae-9e99-e749fa6fb45e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "170",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "North Pole Patrol",
+     "oracle_id": "a1230e78-0bfa-489e-a1b9-3c227bceb6fb",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "tla",
+       "number": "65",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Organic Extinction",
+     "oracle_id": "d9e24d7c-0907-45c1-b5d3-9fb16a929868",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "66",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Ovalchase Dragster",
+     "oracle_id": "345de988-4d26-4400-8202-225968db370f",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "kld",
+       "number": "225",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Patrolling Peacemaker",
+     "oracle_id": "aa44171d-1c76-40a7-82fc-5ef2abbca647",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "5",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Pentad Prism",
+     "oracle_id": "72e8d67a-41e6-4074-bcbd-b54ead995237",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "56",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Phyrexian Metamorph",
+     "oracle_id": "340bbe8b-e987-4c3e-ab4e-9dee63e57d4f",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "75",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Plains",
+     "oracle_id": "bc71ebf6-2056-41f7-be35-b2e5c34afa99",
+     "qty": 4,
+     "given": 4,
+     "picks": [
+      {
+       "language": "es",
+       "set": "acr",
+       "number": "302",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 4
+      }
+     ]
+    },
+    {
+     "name": "Pull from Tomorrow",
+     "oracle_id": "b1a23235-3076-475c-a68a-db29cf2a9dba",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "76",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Radiant Summit",
+     "oracle_id": "5dd0cc44-4647-4857-ad3b-22494099d08a",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "frc",
+       "number": "80",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Razortide Bridge",
+     "oracle_id": "6cb37ac1-dd11-4a8c-bca5-ef44d828059f",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "171",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Reckless Fireweaver",
+     "oracle_id": "180e1a7e-890d-477c-80a5-da8a5f2857b3",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "drc",
+       "number": "106",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Ripples of Potential",
+     "oracle_id": "45bcebd0-5e93-4433-b92f-b4c161d04bd6",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "77",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Rugged Prairie",
+     "oracle_id": "8e7641e1-e814-4d5a-9cb3-71ad2f4ceee8",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "fic",
+       "number": "417",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Rustvale Bridge",
+     "oracle_id": "a3faf70d-c034-4692-9e92-1922029e3852",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "175",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Sandbenders' Storm",
+     "oracle_id": "dfc8b8de-be1d-4f7f-bb21-4761a0e7db4e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "tla",
+       "number": "34",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Seat of the Synod",
+     "oracle_id": "39451b4d-cd7a-40da-b457-cb51b609173f",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "176",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Shivan Reef",
+     "oracle_id": "0fe16212-66c3-4e45-a641-7391e9b2e304",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "frc",
+       "number": "83",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Silverbluff Bridge",
+     "oracle_id": "081bfd50-a436-463b-9d2c-5bc8a32b387c",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "180",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Skycloud Expanse",
+     "oracle_id": "76f335d0-7f71-4b1a-b60d-73de954cbe2c",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "181",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Sol Ring",
+     "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "57",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Solar Array",
+     "oracle_id": "e8e2f273-5e74-4f16-8d49-2e86e9c9f2dc",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "18",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Soul-Guide Lantern",
+     "oracle_id": "1b5e6560-ff2e-4475-96cb-63f64c8a86db",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "drc",
+       "number": "139",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Spire of Industry",
+     "oracle_id": "55a519b4-61cb-448a-875b-4d6dbe00580f",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "183",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Steel Overseer",
+     "oracle_id": "986ae327-f433-4c58-93dc-afc544b9bfcb",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "144",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Sulfur Falls",
+     "oracle_id": "6a6c5e17-6465-4a1f-9d63-8a3ce2edc522",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "frc",
+       "number": "84",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Surge Conductor",
+     "oracle_id": "dc11d9dc-7d18-45dc-955b-d0ba71fc0db8",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "19",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Swan Song",
+     "oracle_id": "8ddfc283-c9b4-41a5-af88-cf0068e986cc",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "46",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Swords to Plowshares",
+     "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "45",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Tekuthal, Inquiry Dominus",
+     "oracle_id": "4716ab91-30e6-4c63-8389-a9db8f9414d8",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "78",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Tezzeret's Gambit",
+     "oracle_id": "b33d2b77-f068-4fdc-a1a8-0353a35e3973",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "47",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "The Mycosynth Gardens",
+     "oracle_id": "03f5c566-825c-4c46-9c01-a2f9b1e70a13",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "168",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Thirst for Knowledge",
+     "oracle_id": "939e6f71-185e-41f2-9d54-72cce06f1dce",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "48",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Thought Monitor",
+     "oracle_id": "9deded8b-cec4-4ede-a50b-131404d456d4",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "79",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Threefold Thunderhulk",
+     "oracle_id": "b8020a8b-557b-465d-865d-b59fecd7abc1",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "145",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Thrummingbird",
+     "oracle_id": "eac94269-4baa-4b8e-a0fd-d6b227d1cde3",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "80",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Titan Forge",
+     "oracle_id": "3b02dfca-bcaa-4e22-b143-401ed250d016",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "146",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Universal Surveillance",
+     "oracle_id": "c5a5c17d-d1e4-4d23-9d2b-1c2febdcb0e7",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "81",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Uthros Research Craft",
+     "oracle_id": "e1c9783a-1d1b-40d7-872e-0ca11b229ce6",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "7",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Waterbending Lesson",
+     "oracle_id": "3d28886c-46bf-4d2e-a257-cb9016cc3573",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "tla",
+       "number": "80",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    }
+   ],
+   "missing": [],
+   "proxy_commanders": []
+  },
+  "toph-the-first-metalbender": {
+   "languages": "both",
+   "cards": [
+    {
+     "name": "Annie Joins Up",
+     "oracle_id": "4c3ad545-b375-44a7-a24e-58baacc4e4b6",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "otj",
+       "number": "191",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Arbaaz Mir",
+     "oracle_id": "a383ef16-1af8-4b3a-956c-c10a93768617",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "acr",
+       "number": "46",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Arcane Signet",
+     "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "fic",
+       "number": "335",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Ashaya, Soul of the Wild",
+     "oracle_id": "162572f2-1757-42e9-bd97-e6bd9a762c0e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "sld",
+       "number": "2014",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Ba Sing Se",
+     "oracle_id": "de1ae205-ca5b-4d26-8194-ca85f1406e53",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "266",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Battlefield Forge",
+     "oracle_id": "6b75b94e-83b7-457e-ac41-7ca90b5a59aa",
+     "qty": 1,
+     "given": 0,
+     "picks": []
+    },
+    {
+     "name": "Beast Within",
+     "oracle_id": "7735eeba-693b-47e2-bd51-414379cf1016",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "soc",
+       "number": "263",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Bender's Waterskin",
+     "oracle_id": "3bc46467-323f-4cbf-9d0a-f3d2ae3c3a34",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "255",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Brightglass Gearhulk",
+     "oracle_id": "0c7019a7-3cca-481a-9af0-abedb89c15ad",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "dft",
+       "number": "191",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Bumi, Unleashed",
+     "oracle_id": "1fef13d8-5da2-46a6-91ed-7a31bd46e538",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "211",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Burnished Hart",
+     "oracle_id": "893fed41-c144-433f-af88-bc7d419b7fb3",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "fdn",
+       "number": "250",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Cabaretti Courtyard",
+     "oracle_id": "65424bea-fd53-4f85-9757-0b91a6d40ba4",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "eoc",
+       "number": "151",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Chord of Calling",
+     "oracle_id": "6789a170-f2c5-4fc0-8a45-2b2361e67410",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "2xm",
+       "number": "158",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Chromatic Lantern",
+     "oracle_id": "539f5396-d99a-417d-a84c-dff7930b5900",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "54",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Clifftop Retreat",
+     "oracle_id": "d7faa3c8-46cf-46b2-bfa4-89000307cf18",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "frc",
+       "number": "67",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Collective Resistance",
+     "oracle_id": "bffdfe7b-f17a-41b6-a460-80280fe497d4",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "mh3",
+       "number": "147",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Command Tower",
+     "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "cmm",
+       "number": "659",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Crop Rotation",
+     "oracle_id": "28b46183-c62f-47b1-9fee-3ba148202cab",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "dmr",
+       "number": "154",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Cycle of Renewal",
+     "oracle_id": "77eda626-5cef-496d-b291-cfa1ee6fc1fb",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "170",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Druid Class",
+     "oracle_id": "dcbcbf42-4654-487a-acad-21f2606d229b",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "afr",
+       "number": "180",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Earthbender Ascension",
+     "oracle_id": "f8966fd5-2926-4ba0-b7d6-cfea40cd4e05",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "175",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Evolving Wilds",
+     "oracle_id": "a75445d3-1303-4bb5-89ad-26ea93fecd48",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "eoc",
+       "number": "158",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Exotic Orchard",
+     "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "frc",
+       "number": "70",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Explore",
+     "oracle_id": "b8f566ea-8283-4afa-9ac8-737e26419283",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tle",
+       "number": "259",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Fateful Absence",
+     "oracle_id": "35bba442-1aec-4d33-b502-4c580d61644b",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "mid",
+       "number": "18",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Forest",
+     "oracle_id": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
+     "qty": 11,
+     "given": 11,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "109",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 4
+      },
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "110",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 6
+      },
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "286",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Fortified Village",
+     "oracle_id": "56f1a16a-9f41-41fb-b580-c200bca27cd6",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "tdc",
+       "number": "366",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Furycalm Snarl",
+     "oracle_id": "651dea9c-2375-4e44-8e65-ba8e40f0c0ef",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "stx",
+       "number": "266",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Game Trail",
+     "oracle_id": "00de57d2-7cb6-4337-9bc6-f6711e4dfabf",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "blc",
+       "number": "306",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Garruk's Uprising",
+     "oracle_id": "3127ae9b-a7a7-43ec-89d7-688f8445b33d",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "ecc",
+       "number": "109",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Goblin Bombardment",
+     "oracle_id": "edad60c6-80de-4033-af1b-a703ac332983",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "mh2",
+       "number": "279",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Great Divide Guide",
+     "oracle_id": "79e69a91-d580-47fb-be76-1e32c50d2fa0",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "181",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Hardlight Containment",
+     "oracle_id": "8054092a-1940-4f4b-991d-81f4d384cdb1",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "eoe",
+       "number": "20",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Harrow",
+     "oracle_id": "705509e9-a034-4a5a-9c65-66f58748b8a2",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "eoc",
+       "number": "98",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Haystack",
+     "oracle_id": "d64d69bd-1815-4647-90bc-767fad5c7da7",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "5",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Heaped Harvest",
+     "oracle_id": "bbfc5011-a9b7-442d-a443-974a5a64de46",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "blb",
+       "number": "175",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Ichor Wellspring",
+     "oracle_id": "5b5ef43b-13fd-4461-8d2d-18be65e9a790",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "c21",
+       "number": "245",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Lotus Cobra",
+     "oracle_id": "8ad91f64-ccab-4edc-bd54-b2ee9267d614",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "blc",
+       "number": "229",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Mountain",
+     "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+     "qty": 5,
+     "given": 5,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "107",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 5
+      }
+     ]
+    },
+    {
+     "name": "Origin of Metalbending",
+     "oracle_id": "177113f8-1188-4e5e-8ad7-34a7bb8ca7f1",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "187",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Path to Exile",
+     "oracle_id": "d683d985-9888-4d21-8b5f-69e69ce4a03b",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "frc",
+       "number": "30",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Plains",
+     "oracle_id": "bc71ebf6-2056-41f7-be35-b2e5c34afa99",
+     "qty": 5,
+     "given": 5,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "101",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 3
+      },
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "102",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 2
+      }
+     ]
+    },
+    {
+     "name": "Planar Outburst",
+     "oracle_id": "ff0d05b9-0c9c-4217-abd2-7e7757a0c4c9",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "ncc",
+       "number": "209",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Ragost, Deft Gastronaut",
+     "oracle_id": "76f5445a-5193-4794-8593-b44f961334b6",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "eoe",
+       "number": "224",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Rampaging Baloths",
+     "oracle_id": "2d3e6549-6cc6-434f-a189-ba3b55e64c34",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "eoc",
+       "number": "104",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Rampant Growth",
+     "oracle_id": "8539f295-5d58-4436-a73a-b9277c4c7795",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tdc",
+       "number": "265",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Redirect Lightning",
+     "oracle_id": "c62b5c22-e058-436f-9575-a01cb2112829",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "343",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Rocky Rebuke",
+     "oracle_id": "fd85db70-8616-42df-9dac-bad7923f88d7",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "193",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Rogue's Passage",
+     "oracle_id": "f29dc596-2121-4421-8463-15f6c2e8b9b3",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "soc",
+       "number": "400",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Roiling Regrowth",
+     "oracle_id": "65d63518-3261-40b5-87b8-19c152b29ee3",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "eoc",
+       "number": "105",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Rootbound Crag",
+     "oracle_id": "9516c4c1-d72d-434f-97e1-6a862434a169",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "fic",
+       "number": "416",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Rugged Prairie",
+     "oracle_id": "8e7641e1-e814-4d5a-9cb3-71ad2f4ceee8",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "soc",
+       "number": "401",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Sabotender",
+     "oracle_id": "65385311-1158-4e94-892a-683997706ca8",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "fin",
+       "number": "153",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Sakura-Tribe Elder",
+     "oracle_id": "e3afc704-220f-498f-9eaa-0821b17dc24c",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tdc",
+       "number": "266",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Sandbenders' Storm",
+     "oracle_id": "dfc8b8de-be1d-4f7f-bb21-4761a0e7db4e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "34",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Secret Tunnel",
+     "oracle_id": "632e2979-d88a-482e-9bb8-57b683c5310f",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "278",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Seismic Tutelage",
+     "oracle_id": "7ece47b1-0b4b-40ac-a90f-4573a8e3b8bd",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tle",
+       "number": "254",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Shared Roots",
+     "oracle_id": "9e0fd3bf-f47a-4f06-8ff1-73f6bf5d1e03",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "196",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Sol Ring",
+     "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "21",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Solemn Simulacrum",
+     "oracle_id": "00c0543c-2a1f-4425-8283-4062d74a1637",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tdc",
+       "number": "325",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Soul-Guide Lantern",
+     "oracle_id": "1b5e6560-ff2e-4475-96cb-63f64c8a86db",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "143",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Springheart Nantuko",
+     "oracle_id": "8a3ad2ef-8bcb-40c0-85de-f03328c2b644",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "mh3",
+       "number": "341",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Stocking the Pantry",
+     "oracle_id": "068b370f-a358-4244-8050-6c81680c55c7",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "blb",
+       "number": "194",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Stroke of Midnight",
+     "oracle_id": "9a107e48-3d50-4941-95b1-10f2b29a4245",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "35",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Sunpetal Grove",
+     "oracle_id": "402ec768-76fb-474e-ae74-babc90d833c4",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "fic",
+       "number": "432",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Swords to Plowshares",
+     "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "frc",
+       "number": "37",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Talisman of Impulse",
+     "oracle_id": "f2ccc9e8-8e92-4f8c-8728-8c748630e0dd",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tdc",
+       "number": "332",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Tannuk, Memorial Ensign",
+     "oracle_id": "76cb1912-3791-44b8-b594-b92dab21bafc",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "eoe",
+       "number": "233",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Terramorphic Expanse",
+     "oracle_id": "1bd3e453-aa21-4ee6-95c2-d6d920ee8e7a",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "drc",
+       "number": "179",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Terrasymbiosis",
+     "oracle_id": "4ac94586-3ac7-4ade-af31-ad0d0e3ffc4a",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "eoe",
+       "number": "210",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "The Earth King",
+     "oracle_id": "d5770b0f-4493-42e9-a2d7-0e74a28da4ba",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "172",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Tireless Provisioner",
+     "oracle_id": "ab8d5f5c-1976-4f77-8ed2-8d28ee666741",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "blc",
+       "number": "243",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Tireless Tracker",
+     "oracle_id": "e6555cca-e608-4c87-b835-9cd47fd1f543",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "eoc",
+       "number": "110",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Titania, Protector of Argoth",
+     "oracle_id": "d0ade00d-a496-441d-9b7e-7dc033d3292c",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "eoc",
+       "number": "111",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Toph, Hardheaded Teacher",
+     "oracle_id": "8c1c0117-6fc0-43c5-a4c8-6472de6503d9",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "246",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Toph, the Blind Bandit",
+     "oracle_id": "2ce20f43-9357-448f-bb40-7315feb08433",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "198",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Toph, the First Metalbender",
+     "oracle_id": "fbfef028-b10c-4ade-9503-d9af5b0c211b",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "247",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "True Ancestry",
+     "oracle_id": "26c2dd96-07e7-4294-9431-96d5aeff3761",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "199",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Valakut Exploration",
+     "oracle_id": "d6861319-ae16-4e6c-af87-a264f667d694",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "znr",
+       "number": "175",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Vibrant Cityscape",
+     "oracle_id": "6a7f3e1f-6798-4644-b64c-7765f81f0938",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "spm",
+       "number": "188",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Wayfarer's Bauble",
+     "oracle_id": "31f15274-301b-47c5-ba19-0ced04520878",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tdc",
+       "number": "335",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Zuran Orb",
+     "oracle_id": "08cb8a30-9cb4-4517-bee5-8848aa60d1a2",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "ice",
+       "number": "350",
+       "foil": "normal",
+       "condition": "poor",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    }
+   ],
+   "missing": [
+    {
+     "name": "Battlefield Forge",
+     "needed": 1,
+     "given": 0,
+     "note": ""
+    }
+   ],
+   "proxy_commanders": []
+  },
+  "fire-lord-azula": {
+   "languages": "both",
+   "cards": [
+    {
+     "name": "Abandon Attachments",
+     "oracle_id": "82333385-631f-4abf-b159-bb367f1c6fd9",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "205",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Abrade",
+     "oracle_id": "f9db72dc-9a5b-48a4-a86e-7464d9a2166a",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "blc",
+       "number": "191",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Amphibian Downpour",
+     "oracle_id": "a4280cea-386b-450d-a7e9-29c7aa58ce5a",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "mh3",
+       "number": "51",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Arcane Signet",
+     "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tle",
+       "number": "315",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Archmage Emeritus",
+     "oracle_id": "8305d576-21d8-4ce7-8eda-a7cd9793aca5",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "stx",
+       "number": "377",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Azula, On the Hunt",
+     "oracle_id": "89f96032-5cba-404d-82b0-38d2be963e4b",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "85",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Bender's Waterskin",
+     "oracle_id": "3bc46467-323f-4cbf-9d0a-f3d2ae3c3a34",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "255",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Big Score",
+     "oracle_id": "a5cbd257-c836-493e-bb1a-76242619dea2",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "fic",
+       "number": "290",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Black Market Connections",
+     "oracle_id": "d2664f28-49e1-46f8-a863-b217e961a57c",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "87",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Brainstorm",
+     "oracle_id": "36cd2364-d113-47d1-b2c4-b088d9eb88dd",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "a25",
+       "number": "46",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Cascade Bluffs",
+     "oracle_id": "f1603384-4361-49c9-98aa-7785fc3504c4",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "soc",
+       "number": "364",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Champion's Helm",
+     "oracle_id": "c01aafb8-3da5-4eb1-8731-2a223e747d63",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "cmm",
+       "number": "375",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Chaos Warp",
+     "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "mbc",
+       "number": "72",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Choked Estuary",
+     "oracle_id": "d473b507-8c33-4118-bc10-b0a268776074",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "mkc",
+       "number": "254",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Comet Storm",
+     "oracle_id": "9c2b262b-53c0-41a1-8f1a-0c336453d4bf",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "cmr",
+       "number": "411",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Command Tower",
+     "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "59",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Darkwater Catacombs",
+     "oracle_id": "4869a530-757f-4364-8d8e-4dc8001f433c",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "tdc",
+       "number": "355",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Day of Black Sun",
+     "oracle_id": "dc857129-533c-41d1-8e8b-1c0443030d69",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "94",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Deflecting Swat",
+     "oracle_id": "ae120613-97d6-4393-b39d-c3e6c076f5d6",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tle",
+       "number": "311",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Dimir Locket",
+     "oracle_id": "3ae4b679-2e3c-4f60-bcf4-b279917cdc54",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "grn",
+       "number": "234",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Dimir Signet",
+     "oracle_id": "7d881c57-0bd9-4c57-aa4a-b10808b86143",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "56",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Dragonskull Summit",
+     "oracle_id": "63398c02-6fb1-481d-9d9f-81063532fbc0",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "dsc",
+       "number": "271",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Drowned Catacomb",
+     "oracle_id": "819fc966-434e-470f-91e9-a38df974ad17",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "69",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Dualcaster Mage",
+     "oracle_id": "8eb7c0a5-6190-40de-b473-2d1daa3bbe28",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "c21",
+       "number": "165",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Electro, Assaulting Battery",
+     "oracle_id": "3db16fb8-5650-4568-b975-42ad3d44ebcd",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "spm",
+       "number": "76",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Electrodominance",
+     "oracle_id": "4a59d86e-405d-4c70-b2a5-c64f5cecfd9e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "otp",
+       "number": "23",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Exotic Orchard",
+     "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "frc",
+       "number": "70",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Expedite",
+     "oracle_id": "3501a839-eef5-44e4-8637-b5754780454e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "cmr",
+       "number": "413",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Fact or Fiction",
+     "oracle_id": "437b2dab-15e0-4b9a-a204-58622d37a3b3",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "cmr",
+       "number": "634",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Fire Lord Azula",
+     "oracle_id": "2631130e-63e2-43a3-914a-648e76722203",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "220",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Fire Nation Palace",
+     "oracle_id": "f2000fb8-39c6-4ad6-a020-5245faaa1eba",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "268",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Foreboding Ruins",
+     "oracle_id": "5c87e2fa-77f1-4978-b25f-f14d227301d1",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "dsc",
+       "number": "277",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Frantic Search",
+     "oracle_id": "16e015b2-f8a3-4b1a-80be-58a8f5fb5e8c",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tdc",
+       "number": "153",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Frostboil Snarl",
+     "oracle_id": "7137aae6-260d-41de-8b4e-42a8cf752697",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "who",
+       "number": "282",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Frostcliff Siege",
+     "oracle_id": "e7af31ff-fa1b-4225-b3bc-fde80ac72d0a",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tdm",
+       "number": "187",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Glamdring, Foe-hammer // Gleam of Death",
+     "oracle_id": "2802069f-201e-43a7-b5d3-43a95951a2ec",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "hob",
+       "number": "174",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Go for the Throat",
+     "oracle_id": "2f092562-9e17-43cd-aeb8-d0567f99363e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "91",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Goblin Electromancer",
+     "oracle_id": "81f06f84-1580-43c0-89d5-08d34541a519",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "rvr",
+       "number": "186",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Haunted Cloak",
+     "oracle_id": "74fc88d5-19c3-4516-9a06-e9573d659caa",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "cmm",
+       "number": "389",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Helm of the Host",
+     "oracle_id": "83b43aba-bf9c-4da2-967d-9daa632e97d2",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "blc",
+       "number": "276",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Hero's Downfall",
+     "oracle_id": "03df6a57-37c9-46d3-83b3-4a6240100714",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "ths",
+       "number": "90",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Hidden Footblade",
+     "oracle_id": "daed1b38-510b-4698-95c3-05c09f5fabe9",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "34",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Horizon Stone",
+     "oracle_id": "add46292-470e-47fa-a261-4884d02e65fe",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "cmr",
+       "number": "315",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Imprisoned in the Moon",
+     "oracle_id": "339a7418-9a29-4eae-a3c2-ea590d175936",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "inr",
+       "number": "69",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Insight Engine",
+     "oracle_id": "83409a22-10de-4d51-90a3-e0579ca8cbea",
+     "qty": 1,
+     "given": 0,
+     "picks": []
+    },
+    {
+     "name": "Island",
+     "oracle_id": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+     "qty": 7,
+     "given": 7,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "103",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 4
+      },
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "104",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 3
+      }
+     ]
+    },
+    {
+     "name": "Izzet Signet",
+     "oracle_id": "2fda4fe7-8b0c-489c-a000-6d358e614e34",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "58",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Lightning Strike",
+     "oracle_id": "f34b9bc4-7bfe-47fd-ba23-4eeeb46026eb",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "146",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Lion Vulture",
+     "oracle_id": "169d24f3-a308-4a2e-ae25-85dae448994e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tle",
+       "number": "232",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Loyal Inventor",
+     "oracle_id": "eff22b28-88b8-4251-937f-4c06b6ca7bd2",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "21",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Mind Stone",
+     "oracle_id": "c97361b5-af16-4a7b-af85-a429dbaf4ad2",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "blc",
+       "number": "280",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Mountain",
+     "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+     "qty": 5,
+     "given": 5,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "108",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 5
+      }
+     ]
+    },
+    {
+     "name": "Mystical Teachings",
+     "oracle_id": "81d72511-88b4-45ec-a5a9-e722caf55577",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "fdn",
+       "number": "594",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Narset's Reversal",
+     "oracle_id": "d55f6c70-321f-4fb4-bd33-0850ae1a7c36",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "war",
+       "number": "62",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Negate",
+     "oracle_id": "3407fe41-fdd3-4119-8f70-4bc4590a379f",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "ogw",
+       "number": "59",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Nightscape Familiar",
+     "oracle_id": "57296ea3-3c0d-49b7-bc08-0d0d8414e9ad",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "dmr",
+       "number": "94",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Octopus Form",
+     "oracle_id": "6fec368d-374d-4318-861b-ff478ba51a3c",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "66",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Ozai, the Phoenix King",
+     "oracle_id": "7472af8e-2e93-43b2-bc32-a3741f6d7502",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "235",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Propaganda",
+     "oracle_id": "ea9709b6-4c37-4d5a-b04d-cd4c42e4f9dd",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "85",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Pull from Tomorrow",
+     "oracle_id": "b1a23235-3076-475c-a68a-db29cf2a9dba",
+     "qty": 1,
+     "given": 0,
+     "picks": []
+    },
+    {
+     "name": "Ritual of Soot",
+     "oracle_id": "29e9cf1c-a6bd-4bee-9000-ac1b4e19d6b0",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "grn",
+       "number": "84",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Rogue's Passage",
+     "oracle_id": "f29dc596-2121-4421-8463-15f6c2e8b9b3",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "cmm",
+       "number": "426",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Shadowblood Ridge",
+     "oracle_id": "15687ee3-3cdb-4a8f-a726-46b73bceb792",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "dsc",
+       "number": "296",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Shivan Reef",
+     "oracle_id": "0fe16212-66c3-4e45-a641-7391e9b2e304",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "83",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Smoldering Marsh",
+     "oracle_id": "390f1b56-264e-4336-83be-dc1fe79bfdcf",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "ltc",
+       "number": "332",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Snap",
+     "oracle_id": "ac914d98-221e-426c-8a50-342896b15f9e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "woc",
+       "number": "110",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Sol Ring",
+     "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "otc",
+       "number": "267",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Soul-Guide Lantern",
+     "oracle_id": "1b5e6560-ff2e-4475-96cb-63f64c8a86db",
+     "qty": 1,
+     "given": 0,
+     "picks": []
+    },
+    {
+     "name": "Storm-Kiln Artist",
+     "oracle_id": "a145ff8c-5812-4bcb-bd16-9839dc25121d",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "soc",
+       "number": "255",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Stormcatch Mentor",
+     "oracle_id": "b2252471-01ca-4d58-aa99-4ab0aa5eae12",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "soc",
+       "number": "331",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Sulfur Falls",
+     "oracle_id": "6a6c5e17-6465-4a1f-9d63-8a3ce2edc522",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "84",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Sulfurous Springs",
+     "oracle_id": "f5c38c01-4a40-469f-91a0-7479daf4e8e7",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "frc",
+       "number": "85",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Sunken Hollow",
+     "oracle_id": "cd2c90ac-2b04-461c-92f3-939871b6b6a3",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tmc",
+       "number": "76",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Sunken Ruins",
+     "oracle_id": "e6415ffb-8b7a-41c3-bedf-0d4112b7b795",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "86",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Swamp",
+     "oracle_id": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
+     "qty": 5,
+     "given": 5,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "105",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 3
+      },
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "106",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 2
+      }
+     ]
+    },
+    {
+     "name": "Swan Song",
+     "oracle_id": "8ddfc283-c9b4-41a5-af88-cf0068e986cc",
+     "qty": 1,
+     "given": 0,
+     "picks": []
+    },
+    {
+     "name": "Swiftfoot Boots",
+     "oracle_id": "c8b143ad-43ec-4e0d-a440-e348daa31391",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tdc",
+       "number": "328",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Terminate",
+     "oracle_id": "6257c2fd-005f-41e3-8a72-af76df1eb134",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "98",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "The Last Agni Kai",
+     "oracle_id": "fd1998c0-c18e-4310-82de-b6320be5fe10",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "144",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Thermo-Alchemist",
+     "oracle_id": "228fbae1-423e-461d-b8c3-55786938a3cb",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "inr",
+       "number": "174",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Thirst for Knowledge",
+     "oracle_id": "939e6f71-185e-41f2-9d54-72cce06f1dce",
+     "qty": 1,
+     "given": 0,
+     "picks": []
+    },
+    {
+     "name": "Thrill of Possibility",
+     "oracle_id": "1cb0610b-a731-42c2-b93f-0a29f63cebf4",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "fdn",
+       "number": "210",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Torrential Gearhulk",
+     "oracle_id": "a6395447-677d-4c39-8eda-2d57e527c94e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "cmm",
+       "number": "128",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Underground River",
+     "oracle_id": "857febd9-cdd7-4f8e-a852-d88084b0cfbc",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "87",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Undying Malice",
+     "oracle_id": "8b061702-1bc3-45aa-a758-446b25034801",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "fdn",
+       "number": "528",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Unleash Fury",
+     "oracle_id": "4eaa100c-f1ef-4a2b-9370-5dad7f3a95f2",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "m21",
+       "number": "170",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    }
+   ],
+   "missing": [
+    {
+     "name": "Insight Engine",
+     "needed": 1,
+     "given": 0,
+     "note": ""
+    },
+    {
+     "name": "Pull from Tomorrow",
+     "needed": 1,
+     "given": 0,
+     "note": ""
+    },
+    {
+     "name": "Soul-Guide Lantern",
+     "needed": 1,
+     "given": 0,
+     "note": ""
+    },
+    {
+     "name": "Swan Song",
+     "needed": 1,
+     "given": 0,
+     "note": ""
+    },
+    {
+     "name": "Thirst for Knowledge",
+     "needed": 1,
+     "given": 0,
+     "note": ""
+    }
+   ],
+   "proxy_commanders": []
+  },
+  "ezio-auditore-da-firenze": {
+   "languages": "both",
+   "cards": [
+    {
+     "name": "Abstergo Entertainment",
+     "oracle_id": "d06a8026-1657-4404-8dff-64e44f1a14f8",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "79",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Adéwalé, Breaker of Chains",
+     "oracle_id": "e30d9e08-cf88-4e2d-95e1-7144d8fea5c7",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "136",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Arcane Signet",
+     "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tle",
+       "number": "315",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Arno Dorian",
+     "oracle_id": "ae90daea-6644-4235-bca6-b94ee9925f63",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "139",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Assassin Gauntlet",
+     "oracle_id": "85d06533-3c0b-46a8-8fdb-379db9ae7e2e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "acr",
+       "number": "12",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Assassin Initiate",
+     "oracle_id": "23be5c68-6530-474d-b677-551da4745b3c",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "22",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Assassin's Trophy",
+     "oracle_id": "ac10d218-f9a6-4058-9cda-a15ca1b0b7b5",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "95",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Aven Heartstabber",
+     "oracle_id": "fee73267-b0ef-4f43-a0bd-7728691d6f17",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "snc",
+       "number": "166",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Bayek of Siwa",
+     "oracle_id": "b0322e2e-e9f9-4fe2-a7a5-3e49665ad177",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "",
+       "number": "",
+       "foil": "",
+       "condition": "",
+       "binder": "loan from the Standard decks",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Bender's Waterskin",
+     "oracle_id": "3bc46467-323f-4cbf-9d0a-f3d2ae3c3a34",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "255",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Bitter Triumph",
+     "oracle_id": "776341cb-d2ec-423f-9250-92dc8bd8d503",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tdc",
+       "number": "173",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Bleeding Effect",
+     "oracle_id": "689c9a49-d0f5-494a-9fa2-948cd5517e74",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "51",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Boros Guildmage",
+     "oracle_id": "266c2f49-82eb-48e9-a7ea-e0da787fa40e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "rvr",
+       "number": "168",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Brotherhood Headquarters",
+     "oracle_id": "0d3a06d5-5bb9-4733-a55b-9e2c75de6b6e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "acr",
+       "number": "80",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Brotherhood Spy",
+     "oracle_id": "26d800b2-b312-4400-8357-615301971086",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "acr",
+       "number": "282",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Chromatic Lantern",
+     "oracle_id": "539f5396-d99a-417d-a84c-dff7930b5900",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "54",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Clifftop Retreat",
+     "oracle_id": "d7faa3c8-46cf-46b2-bfa4-89000307cf18",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "frc",
+       "number": "67",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Coastal Piracy",
+     "oracle_id": "8a05ec32-7b0c-4f23-a4f7-413301c2a70a",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "84",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Command Tower",
+     "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "pip",
+       "number": "259",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Commander's Sphere",
+     "oracle_id": "0b67c4e2-f88b-4e01-85a1-9d5f5b8db13b",
+     "qty": 1,
+     "given": 0,
+     "picks": []
+    },
+    {
+     "name": "Concealed Courtyard",
+     "oracle_id": "2d899466-b1eb-4901-b626-1f2fb09b786d",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "kld",
+       "number": "245",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Deathcap Cultivator",
+     "oracle_id": "26e555f1-e0ed-4b84-8783-1c0c968f462d",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "dsc",
+       "number": "175",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Desmond Miles",
+     "oracle_id": "654d84bb-f801-4d03-898c-78952f1c5a73",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "130",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Dragonskull Summit",
+     "oracle_id": "63398c02-6fb1-481d-9d9f-81063532fbc0",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "msc",
+       "number": "238",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Drowned Catacomb",
+     "oracle_id": "819fc966-434e-470f-91e9-a38df974ad17",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "69",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Eagle Vision",
+     "oracle_id": "f96f1b4c-f06a-4374-8d8f-aaa06c6108c3",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "",
+       "number": "",
+       "foil": "",
+       "condition": "",
+       "binder": "loan from the Standard decks",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Enter the Avatar State",
+     "oracle_id": "4e552be1-0702-4e18-822f-98611f8a8e70",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "18",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Etrata, Deadly Fugitive",
+     "oracle_id": "87957d09-7e22-40fe-8770-ff66d1934a38",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "mkm",
+       "number": "359",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Etrata, the Silencer",
+     "oracle_id": "2ee87667-ec9d-4ced-b7e6-df3fd18b0ed6",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "grn",
+       "number": "170",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Evie Frye",
+     "oracle_id": "248cafe8-cc37-4cf3-8239-ac10e55ced13",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "acr",
+       "number": "19",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Exotic Orchard",
+     "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "frc",
+       "number": "70",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Ezio Auditore da Firenze",
+     "oracle_id": "3017ac79-37f1-4cc1-8efd-4add027618a2",
+     "qty": 1,
+     "given": 1,
+     "picks": []
+    },
+    {
+     "name": "Ezio, Blade of Vengeance",
+     "oracle_id": "2127a245-d664-45cb-8ed1-0024de1a10df",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "acr",
+       "number": "275",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Forest",
+     "oracle_id": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "286",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Get Out",
+     "oracle_id": "b2f3c27e-b646-4449-901a-8b809cdfa84e",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "dsk",
+       "number": "60",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Ghostly Prison",
+     "oracle_id": "e828b189-0e8f-43b8-b909-4c23e742e028",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "soc",
+       "number": "146",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Glacial Fortress",
+     "oracle_id": "027dd013-baa7-4111-b3c9-f4d1414e9c45",
+     "qty": 1,
+     "given": 0,
+     "picks": []
+    },
+    {
+     "name": "Glider Staff",
+     "oracle_id": "823006a8-098c-457a-8546-77ae2457c459",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "22",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Gold-Forged Thopteryx",
+     "oracle_id": "c27e2d6f-498c-42d8-aa1a-ac6402bf3f9a",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "mat",
+       "number": "31",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Haunted Cloak",
+     "oracle_id": "74fc88d5-19c3-4516-9a06-e9573d659caa",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "cmm",
+       "number": "389",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Haystack",
+     "oracle_id": "d64d69bd-1815-4647-90bc-767fad5c7da7",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "5",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Haytham Kenway",
+     "oracle_id": "ee6a9bac-cf5b-4edd-8cb2-874d8dd0e62a",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "57",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Hidden Blade",
+     "oracle_id": "37ec9b95-8c9a-4dd5-9ff2-3d6527984126",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "73",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Hidden Footblade",
+     "oracle_id": "daed1b38-510b-4698-95c3-05c09f5fabe9",
+     "qty": 1,
+     "given": 0,
+     "picks": []
+    },
+    {
+     "name": "Hinterland Harbor",
+     "oracle_id": "fb5a3403-7f0b-406c-8c4f-d693be010ca6",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "dsc",
+       "number": "284",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Hookblade",
+     "oracle_id": "8df6c4e2-8b62-4c64-a1d2-f17ae9d02bac",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "acr",
+       "number": "6",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Hookblade Veteran",
+     "oracle_id": "bad2385b-6981-46fa-a012-d3992c3bc118",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "acr",
+       "number": "283",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Infernal Grasp",
+     "oracle_id": "94f0a572-e91c-4b56-a5d1-6cbbeabd210d",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "soc",
+       "number": "216",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Island",
+     "oracle_id": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "104",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Isolated Chapel",
+     "oracle_id": "7e5d9efe-48a9-434b-bb09-056e0e09cc9a",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "frc",
+       "number": "74",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Jacob Frye",
+     "oracle_id": "31af65c3-602b-4ac9-a25f-dccb88f8f751",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "27",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Jungle Shrine",
+     "oracle_id": "2e69537c-c898-4e13-a72d-ce3957a90304",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "ecc",
+       "number": "154",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Kaya, Ghost Assassin",
+     "oracle_id": "5e4c81b9-a31e-45e6-983f-30f11b8a05c0",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "sld",
+       "number": "247",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Layla Hassan",
+     "oracle_id": "e27feb69-3120-4e8d-8ee6-0f87b58e2ae3",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "",
+       "number": "",
+       "foil": "",
+       "condition": "",
+       "binder": "loan from the Standard decks",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Loyal Inventor",
+     "oracle_id": "eff22b28-88b8-4251-937f-4c06b6ca7bd2",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "21",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Lydia Frye",
+     "oracle_id": "0315f5e7-2867-428e-8e43-66dda0db57a0",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "60",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Mechanical Glider",
+     "oracle_id": "d53d1805-c4ec-4b42-a226-3cd78cd2be84",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tle",
+       "number": "256",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Mephitic Vapors",
+     "oracle_id": "5731ecb5-6ddc-4452-990c-b69986367f25",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "rvr",
+       "number": "85",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Mortify",
+     "oracle_id": "faa01ed1-ccfa-4e58-951f-cd81f9068027",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "96",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Mountain",
+     "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "eoe",
+       "number": "265",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Murky Sewer",
+     "oracle_id": "c2cdefeb-3176-4faf-be54-a62d31f777a5",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "dsk",
+       "number": "263",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Mystic Monastery",
+     "oracle_id": "834b8f71-9a45-42ae-9e99-e749fa6fb45e",
+     "qty": 1,
+     "given": 0,
+     "picks": []
+    },
+    {
+     "name": "Path of Ancestry",
+     "oracle_id": "b473e293-59e3-4e04-acf2-622604aeb25f",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "cmm",
+       "number": "423",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Plains",
+     "oracle_id": "bc71ebf6-2056-41f7-be35-b2e5c34afa99",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "102",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Prairie Stream",
+     "oracle_id": "5330e24a-8568-446e-840a-594cd08bd1bc",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "79",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Propaganda",
+     "oracle_id": "ea9709b6-4c37-4d5a-b04d-cd4c42e4f9dd",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "who",
+       "number": "219",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Queen Marchesa",
+     "oracle_id": "d7ac4be1-dcca-49b6-8ddb-d1b0e6cf2dcf",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "otc",
+       "number": "239",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Radiant Summit",
+     "oracle_id": "5dd0cc44-4647-4857-ad3b-22494099d08a",
+     "qty": 1,
+     "given": 0,
+     "picks": []
+    },
+    {
+     "name": "Rakdos Signet",
+     "oracle_id": "3adb7681-977f-4a32-9ec8-51481b958268",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "60",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Rally the Peasants",
+     "oracle_id": "3f0a0a15-613a-4864-9309-a340dc4cf94d",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "inr",
+       "number": "37",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Ratonhnhaké꞉ton",
+     "oracle_id": "a37f8381-83a4-4b6b-8176-c90f6a61da74",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "62",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Restart Sequence",
+     "oracle_id": "c415bfdd-3d42-4f94-9f93-7e310becbc8b",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "acr",
+       "number": "30",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Royal Assassin",
+     "oracle_id": "9ed6f28f-a3db-48c5-9ab0-b90a7fba5f57",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "93",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Secret Tunnel",
+     "oracle_id": "632e2979-d88a-482e-9bb8-57b683c5310f",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "278",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Shao Jun",
+     "oracle_id": "126aab4d-df6e-4840-8cdc-49e890b1557f",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "151",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Smoldering Marsh",
+     "oracle_id": "390f1b56-264e-4336-83be-dc1fe79bfdcf",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "MSC",
+       "number": "",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "owed (not arrived yet)",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Sol Ring",
+     "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tle",
+       "number": "316",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Spire of Industry",
+     "oracle_id": "55a519b4-61cb-448a-875b-4d6dbe00580f",
+     "qty": 1,
+     "given": 0,
+     "picks": []
+    },
+    {
+     "name": "Sulfur Falls",
+     "oracle_id": "6a6c5e17-6465-4a1f-9d63-8a3ce2edc522",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "84",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Sunken Hollow",
+     "oracle_id": "cd2c90ac-2b04-461c-92f3-939871b6b6a3",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tmc",
+       "number": "76",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Swamp",
+     "oracle_id": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
+     "qty": 9,
+     "given": 9,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "106",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 2
+      },
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "284",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 7
+      }
+     ]
+    },
+    {
+     "name": "Swan Song",
+     "oracle_id": "8ddfc283-c9b4-41a5-af88-cf0068e986cc",
+     "qty": 1,
+     "given": 0,
+     "picks": []
+    },
+    {
+     "name": "Swiftfoot Boots",
+     "oracle_id": "c8b143ad-43ec-4e0d-a440-e348daa31391",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tle",
+       "number": "317",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Swords to Plowshares",
+     "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52",
+     "qty": 1,
+     "given": 0,
+     "picks": []
+    },
+    {
+     "name": "Terminate",
+     "oracle_id": "6257c2fd-005f-41e3-8a72-af76df1eb134",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "98",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "The Revelations of Ezio",
+     "oracle_id": "c7fe1f05-f412-4991-98bd-f6a4b8b62501",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "acr",
+       "number": "31",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Theater of Horrors",
+     "oracle_id": "b391a4ce-52ce-4a8c-bbe5-6053951ee1d4",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "dsc",
+       "number": "236",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Thorn of the Black Rose",
+     "oracle_id": "a7894a81-8c0a-4015-8bc1-2698cf5306d1",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "cmm",
+       "number": "190",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Utter End",
+     "oracle_id": "cba94732-1f1f-4ffd-9aba-45db990043fa",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "dsc",
+       "number": "91",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Vindictive Warden",
+     "oracle_id": "43b339ec-4d7d-41ac-a5ab-96c6a6de00e2",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "249",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Winter Soldier, Icy Assassin",
+     "oracle_id": "6f4c94b6-f829-4646-a574-083997b78dfb",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "msh",
+       "number": "239",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Woodland Cemetery",
+     "oracle_id": "c9fe1383-1331-4a58-a45a-3320250221a9",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "ecc",
+       "number": "176",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    }
+   ],
+   "missing": [
+    {
+     "name": "Commander's Sphere",
+     "needed": 1,
+     "given": 0,
+     "note": ""
+    },
+    {
+     "name": "Glacial Fortress",
+     "needed": 1,
+     "given": 0,
+     "note": ""
+    },
+    {
+     "name": "Hidden Footblade",
+     "needed": 1,
+     "given": 0,
+     "note": ""
+    },
+    {
+     "name": "Mystic Monastery",
+     "needed": 1,
+     "given": 0,
+     "note": ""
+    },
+    {
+     "name": "Radiant Summit",
+     "needed": 1,
+     "given": 0,
+     "note": ""
+    },
+    {
+     "name": "Spire of Industry",
+     "needed": 1,
+     "given": 0,
+     "note": ""
+    },
+    {
+     "name": "Swan Song",
+     "needed": 1,
+     "given": 0,
+     "note": ""
+    },
+    {
+     "name": "Swords to Plowshares",
+     "needed": 1,
+     "given": 0,
+     "note": ""
+    }
+   ],
+   "proxy_commanders": [
+    "Ezio Auditore da Firenze"
+   ]
+  }
+ },
+ "shared": [
+  {
+   "name": "Arcane Signet",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "fire-lord-azula",
+    "spanish-deck",
+    "toph-the-first-metalbender"
+   ]
+  },
+  {
+   "name": "Bender's Waterskin",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "fire-lord-azula",
+    "toph-the-first-metalbender"
+   ]
+  },
+  {
+   "name": "Cascade Bluffs",
+   "decks": [
+    "fire-lord-azula",
+    "spanish-deck"
+   ]
+  },
+  {
+   "name": "Chaos Warp",
+   "decks": [
+    "fire-lord-azula",
+    "spanish-deck"
+   ]
+  },
+  {
+   "name": "Chromatic Lantern",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "toph-the-first-metalbender"
+   ]
+  },
+  {
+   "name": "Clifftop Retreat",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "spanish-deck",
+    "toph-the-first-metalbender"
+   ]
+  },
+  {
+   "name": "Command Tower",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "fire-lord-azula",
+    "toph-the-first-metalbender"
+   ]
+  },
+  {
+   "name": "Dragonskull Summit",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "fire-lord-azula"
+   ]
+  },
+  {
+   "name": "Drowned Catacomb",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "fire-lord-azula"
+   ]
+  },
+  {
+   "name": "Exotic Orchard",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "fire-lord-azula",
+    "spanish-deck",
+    "toph-the-first-metalbender"
+   ]
+  },
+  {
+   "name": "Haunted Cloak",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "fire-lord-azula"
+   ]
+  },
+  {
+   "name": "Haystack",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "toph-the-first-metalbender"
+   ]
+  },
+  {
+   "name": "Loyal Inventor",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "fire-lord-azula"
+   ]
+  },
+  {
+   "name": "Propaganda",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "fire-lord-azula"
+   ]
+  },
+  {
+   "name": "Rogue's Passage",
+   "decks": [
+    "fire-lord-azula",
+    "toph-the-first-metalbender"
+   ]
+  },
+  {
+   "name": "Rugged Prairie",
+   "decks": [
+    "spanish-deck",
+    "toph-the-first-metalbender"
+   ]
+  },
+  {
+   "name": "Sandbenders' Storm",
+   "decks": [
+    "spanish-deck",
+    "toph-the-first-metalbender"
+   ]
+  },
+  {
+   "name": "Secret Tunnel",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "toph-the-first-metalbender"
+   ]
+  },
+  {
+   "name": "Shivan Reef",
+   "decks": [
+    "fire-lord-azula",
+    "spanish-deck"
+   ]
+  },
+  {
+   "name": "Smoldering Marsh",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "fire-lord-azula"
+   ]
+  },
+  {
+   "name": "Sol Ring",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "fire-lord-azula",
+    "spanish-deck",
+    "toph-the-first-metalbender"
+   ]
+  },
+  {
+   "name": "Soul-Guide Lantern",
+   "decks": [
+    "spanish-deck",
+    "toph-the-first-metalbender"
+   ]
+  },
+  {
+   "name": "Sulfur Falls",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "fire-lord-azula",
+    "spanish-deck"
+   ]
+  },
+  {
+   "name": "Sunken Hollow",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "fire-lord-azula"
+   ]
+  },
+  {
+   "name": "Swiftfoot Boots",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "fire-lord-azula"
+   ]
+  },
+  {
+   "name": "Swords to Plowshares",
+   "decks": [
+    "spanish-deck",
+    "toph-the-first-metalbender"
+   ]
+  },
+  {
+   "name": "Terminate",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "fire-lord-azula"
+   ]
+  }
+ ],
+ "problems": []
+}

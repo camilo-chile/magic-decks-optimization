@@ -1,0 +1,311 @@
+{
+ "plan": "Fire Lord Azula attacks every turn (haste and hexproof from equipment, counterspells and redirects behind her); while she attacks she copies every instant and flash spell cast with her firebending mana and the cost reducers, so each draw, removal and burn spell is a two-for-one, Horizon Stone, Electro and Ozai keep the leftover window mana, and she closes against all three opponents with copied multi-target X burn (Comet Storm, Electrodominance) and with combat by herself, Helm of the Host copies of her and Ozai.",
+ "backup": "When Azula is answered or the board stalls, the same pieces close without her: Thermo-Alchemist pings every opponent on each instant, Comet Storm and Electrodominance are cast uncopied with the mana Horizon Stone stores, Archmage Emeritus, Storm-Kiln Artist and Black Market Connections keep the hand and the mana full, and Ozai attacks with haste.",
+ "archetype": "spellslinger",
+ "secondary": "combat_attackers",
+ "secondary_role": "modifier",
+ "commander_dependence": "attack_engine",
+ "commander_mv": 4,
+ "win_routes": {
+  "copied burn to each opponent": {
+   "cards": [
+    "Comet Storm",
+    "Electrodominance",
+    "Thermo-Alchemist"
+   ],
+   "axis": "noncombat",
+   "vs_three": "Comet Storm multikicked twice names all three opponents and Azula copies it (2X to each); Horizon Stone stores colorless mana between turns so X reaches 8 to 12; Electrodominance copied adds 2X to one player plus two free spells; Thermo-Alchemist pings all three every time an instant or sorcery is cast. None of it needs combat damage through blockers."
+  },
+  "Azula and her copies in combat": {
+   "cards": [
+    "Fire Lord Azula",
+    "Ozai, the Phoenix King",
+    "Helm of the Host",
+    "Unleash Fury"
+   ],
+   "axis": "combat",
+   "vs_three": "Helm of the Host makes a hasty nonlegendary Azula every combat, so two or three Azulas attack different opponents and each copies every spell; Ozai (7/7 trample, haste, flying and indestructible with six floating mana) hits a second player; Unleash Fury copied quadruples an unblocked Azula (16 or more commander damage) to remove the last one; copied burn finishes players left low."
+  }
+ },
+ "functions": {
+  "spell_density": {
+   "cards": [
+    "Fact or Fiction",
+    "Pull from Tomorrow",
+    "Big Score",
+    "Thrill of Possibility",
+    "Thirst for Knowledge",
+    "Abandon Attachments",
+    "Dualcaster Mage",
+    "Torrential Gearhulk",
+    "Octopus Form",
+    "Deflecting Swat",
+    "Narset's Reversal",
+    "Swan Song",
+    "Negate",
+    "Undying Malice",
+    "Terminate",
+    "Hero's Downfall",
+    "Go for the Throat",
+    "Chaos Warp",
+    "Abrade",
+    "Lightning Strike",
+    "Snap",
+    "Amphibian Downpour",
+    "The Last Agni Kai",
+    "Comet Storm",
+    "Electrodominance",
+    "Unleash Fury",
+    "Hidden Footblade",
+    "Expedite",
+    "Mystical Teachings",
+    "Frantic Search",
+    "Brainstorm"
+   ],
+   "needed_by": "early"
+  },
+  "spell_payoffs": {
+   "cards": [
+    "Fire Lord Azula",
+    "Archmage Emeritus",
+    "Storm-Kiln Artist",
+    "Dualcaster Mage",
+    "Electro, Assaulting Battery",
+    "Torrential Gearhulk",
+    "Helm of the Host",
+    "Narset's Reversal"
+   ],
+   "needed_by": "late"
+  },
+  "through_wide_board": {
+   "cards": [
+    "Comet Storm",
+    "Electrodominance",
+    "Thermo-Alchemist",
+    "Day of Black Sun",
+    "Ritual of Soot",
+    "Rogue's Passage",
+    "Haunted Cloak",
+    "Frostcliff Siege",
+    "Ozai, the Phoenix King",
+    "Electro, Assaulting Battery"
+   ],
+   "needed_by": "early"
+  },
+  "through_big_creatures": {
+   "cards": [
+    "Terminate",
+    "Hero's Downfall",
+    "Go for the Throat",
+    "Chaos Warp",
+    "Imprisoned in the Moon",
+    "Amphibian Downpour",
+    "Snap",
+    "Lightning Strike",
+    "Electrodominance",
+    "Comet Storm",
+    "Rogue's Passage",
+    "Day of Black Sun"
+   ],
+   "needed_by": "early"
+  },
+  "window_mana": {
+   "cards": [
+    "Horizon Stone",
+    "Electro, Assaulting Battery",
+    "Ozai, the Phoenix King",
+    "The Last Agni Kai",
+    "Storm-Kiln Artist",
+    "Azula, On the Hunt",
+    "Big Score",
+    "Frantic Search",
+    "Snap",
+    "Fire Nation Palace"
+   ],
+   "needed_by": "late"
+  }
+ },
+ "support": {
+  "haste": [
+   "Swiftfoot Boots",
+   "Haunted Cloak",
+   "Hidden Footblade",
+   "Frostcliff Siege",
+   "Expedite"
+  ],
+  "team_evasion": [
+   "Rogue's Passage",
+   "Haunted Cloak",
+   "Frostcliff Siege",
+   "Ozai, the Phoenix King"
+  ],
+  "defense_while_tapped": [
+   "Propaganda",
+   "Haunted Cloak",
+   "Loyal Inventor",
+   "Thermo-Alchemist",
+   "Lion Vulture",
+   "Octopus Form",
+   "Bender's Waterskin"
+  ],
+  "combat_draw": [
+   "Archmage Emeritus",
+   "Lion Vulture",
+   "Azula, On the Hunt",
+   "Frostcliff Siege"
+  ],
+  "wipe_insurance": [
+   "Undying Malice",
+   "Swan Song",
+   "Negate"
+  ],
+  "attackers": [
+   "Azula, On the Hunt",
+   "Ozai, the Phoenix King",
+   "Electro, Assaulting Battery"
+  ],
+  "cost_reducers": [
+   "Goblin Electromancer",
+   "Stormcatch Mentor",
+   "Nightscape Familiar",
+   "Glamdring, Foe-hammer // Gleam of Death"
+  ]
+ },
+ "tutors": {
+  "Mystical Teachings": [
+   "spell_payoffs",
+   "through_wide_board",
+   "through_big_creatures"
+  ],
+  "Loyal Inventor": [
+   "spell_payoffs",
+   "window_mana"
+  ]
+ },
+ "tags": {
+  "Sol Ring": "ramp",
+  "Arcane Signet": "ramp",
+  "Izzet Signet": "ramp",
+  "Dimir Signet": "ramp",
+  "Mind Stone": "ramp",
+  "Dimir Locket": "ramp",
+  "Bender's Waterskin": "ramp",
+  "Goblin Electromancer": "ramp",
+  "Stormcatch Mentor": "ramp",
+  "Nightscape Familiar": "ramp",
+  "Archmage Emeritus": [
+   "draw",
+   "payoff"
+  ],
+  "Black Market Connections": [
+   "draw",
+   "ramp"
+  ],
+  "Fact or Fiction": "draw",
+  "Pull from Tomorrow": "draw",
+  "Big Score": "draw",
+  "Thrill of Possibility": "draw",
+  "Thirst for Knowledge": "draw",
+  "Abandon Attachments": "draw",
+  "Lion Vulture": "draw",
+  "Glamdring, Foe-hammer // Gleam of Death": [
+   "draw",
+   "ramp"
+  ],
+  "Azula, On the Hunt": [
+   "draw",
+   "engine"
+  ],
+  "Insight Engine": "draw",
+  "Storm-Kiln Artist": "payoff",
+  "Dualcaster Mage": "payoff",
+  "Electro, Assaulting Battery": [
+   "payoff",
+   "engine"
+  ],
+  "Torrential Gearhulk": "payoff",
+  "Helm of the Host": "payoff",
+  "Horizon Stone": "engine",
+  "Swiftfoot Boots": "protection",
+  "Champion's Helm": "protection",
+  "Octopus Form": "protection",
+  "Deflecting Swat": "protection",
+  "Narset's Reversal": [
+   "protection",
+   "removal"
+  ],
+  "Swan Song": [
+   "protection",
+   "removal"
+  ],
+  "Negate": [
+   "protection",
+   "removal"
+  ],
+  "Undying Malice": "protection",
+  "Terminate": "removal",
+  "Hero's Downfall": "removal",
+  "Go for the Throat": "removal",
+  "Chaos Warp": "removal",
+  "Imprisoned in the Moon": "removal",
+  "Abrade": "removal",
+  "Lightning Strike": "removal",
+  "Snap": "removal",
+  "Amphibian Downpour": "removal",
+  "The Last Agni Kai": [
+   "removal",
+   "engine"
+  ],
+  "Day of Black Sun": "wipe",
+  "Ritual of Soot": "wipe",
+  "Comet Storm": "payoff",
+  "Electrodominance": "payoff",
+  "Ozai, the Phoenix King": [
+   "backup",
+   "engine"
+  ],
+  "Unleash Fury": "payoff",
+  "Thermo-Alchemist": "backup",
+  "Propaganda": "protection",
+  "Haunted Cloak": "engine",
+  "Frostcliff Siege": [
+   "engine",
+   "draw"
+  ],
+  "Hidden Footblade": "engine",
+  "Expedite": "engine",
+  "Mystical Teachings": "tutor",
+  "Loyal Inventor": "tutor",
+  "Frantic Search": "engine",
+  "Soul-Guide Lantern": "removal",
+  "Brainstorm": "engine",
+  "Cascade Bluffs": "land",
+  "Choked Estuary": "land",
+  "Command Tower": "land",
+  "Darkwater Catacombs": "land",
+  "Dragonskull Summit": "land",
+  "Drowned Catacomb": "land",
+  "Exotic Orchard": "land",
+  "Fire Nation Palace": "land",
+  "Foreboding Ruins": "land",
+  "Frostboil Snarl": "land",
+  "Rogue's Passage": "land",
+  "Shadowblood Ridge": "land",
+  "Shivan Reef": "land",
+  "Smoldering Marsh": "land",
+  "Sulfur Falls": "land",
+  "Sulfurous Springs": "land",
+  "Sunken Hollow": "land",
+  "Sunken Ruins": "land",
+  "Underground River": "land"
+ },
+ "bad_when_drawn": {
+  "Ozai, the Phoenix King": "early",
+  "Torrential Gearhulk": "early",
+  "Helm of the Host": "early",
+  "Horizon Stone": "early",
+  "Unleash Fury": "early",
+  "The Last Agni Kai": "late",
+  "Abrade": "late"
+ }
+}
