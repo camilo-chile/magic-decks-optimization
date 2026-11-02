@@ -80,7 +80,9 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
 - Both measures optimize (owner, 2026-11-02: "no es una o la otra, son ambas necesarias"): consistency first, then Commander
   Salt power as the SECOND objective, never dropped. Every list that passes the gate and the review is uploaded to Moxfield
   (exact printings) and measured on Salt; Salt's breakdown and Upgrades tab then drive swaps that raise its power while the
-  list still passes the gate and the review. Report each deck's Salt power and bracket with the links.
+  list still passes the gate and the review. Report each deck's Salt power and bracket with the links. The weight is not
+  50-50: consistency and strategy matter more, but builders keep Salt in view so a strong consistent list does not drop
+  significantly on Salt and force a new build round; their replacement lists are the first source of Salt-raising swaps.
 - Deckbuilding expertise first (owner, 2026-10-31: "the most important part of the project", token cost no object): the
   ratios follow each deck's strategy, not a generic template (Toph lives on landfall and needs far more ramp and repeated land
   drops; Azula casts instants and needs the most draw; Ezio and Azula win by attacking and need haste, team evasion,
@@ -214,6 +216,12 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
   competitive experience, re-opening earlier choices when a card is too expensive or out of stock) is
   done by Opus 5.5 at high effort (`model: opus`, `effort: high` on the Agent tool). Ask before
   launching it, with the cost estimate, as for any agent. The optimizer (`scripts/optimize_budget.py`) only maximizes the total power within the budget over measured lists, pricing each combination of three lists jointly: an owned card that two decks play is bought again for the second deck (one physical copy per deck; Entomb alone was 22,400 CLP, found 2026-10-19), so never add the costs of lists priced alone.
+- Serial steps (owner, 2026-11-02, standing rule): multi-deck work is planned as global steps (1.x, 2.x, 3.x...) with one
+  row per deck, and run strictly in series: one agent at a time, deck by deck inside a step, never two agents in parallel,
+  so a cut by a usage limit leaves only one agent to resume. Claude STOPS and reports before starting every global step
+  (before 1.1, before 2.1, before 3.1...) and waits for the owner's OK; inside an approved step it chains the decks one
+  after the other, announcing each launch. The plan is shown as one table: step, deck, who (model), estimated weekly %,
+  cumulative %.
 - Execution (owner, 2026-10-18 and 2026-10-31, replaces the earlier read-only boundary): Claude runs the scripts, the
   offline tests (`python tests/<file>.py`; pytest is not installed) and the network reads the work needs itself, writes
   project data where the pipeline puts it, and says so in its reply; it tells the owner before installing a package.

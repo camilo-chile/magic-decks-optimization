@@ -6,67 +6,177 @@
   "commander_mv": 4,
   "win_routes": {
     "landfall burn": {
-      "cards": ["Tannuk, Memorial Ensign", "Sabotender", "Valakut Exploration", "Arbaaz Mir"],
+      "cards": [
+        "Tannuk, Memorial Ensign",
+        "Sabotender",
+        "Valakut Exploration",
+        "Arbaaz Mir",
+        "Fire Nation Archers"
+      ],
       "axis": "noncombat",
-      "vs_three": "Every land entry (Arbaaz: every artifact or legendary entry) deals 1 damage to EACH opponent per pinger, and Valakut Exploration deals end-step damage to each opponent equal to the unplayed exiled cards; with two pingers and 3 entries a turn that is 6 to every opponent each turn (Annie Joins Up doubles Tannuk and Arbaaz), so all three opponents fall together, never one at a time."
+      "vs_three": "Every land entry deals 1 damage to EACH opponent per pinger (Arbaaz: every artifact or legendary entry), Valakut Exploration deals end-step damage to each opponent, and Fire Nation Archers turns spare mana into 2 to each opponent per {5} (10 to 15 mana by turns 7 to 8: 4 to 6 to everyone a turn). Realistic board: one pinger (46 % by turn 7, 54 % with Chord) at 3 entries a turn = 3 to each opponent a turn, plus Archers late; two pingers at once is the best case (9.5 % by turn 7). All three opponents fall together."
     },
     "artifact burst": {
-      "cards": ["Ragost, Deft Gastronaut", "Goblin Bombardment"],
+      "cards": [
+        "Ragost, Deft Gastronaut",
+        "Goblin Bombardment"
+      ],
       "axis": "noncombat",
       "vs_three": "Ragost turns every artifact (Treasures, Clues, Foods, rocks, the artifact-lands Toph makes) into 3 damage to EACH opponent and untaps at every end step after any lifegain (Zuran Orb at instant speed, Druid Class, Arbaaz Mir), so it fires up to four times per turn cycle, 12 to each opponent; Goblin Bombardment converts land creatures and tokens into the last points on whoever is left."
     },
     "land army": {
-      "cards": ["The Earth King", "Rampaging Baloths", "Seismic Tutelage", "Bumi, Unleashed", "Titania, Protector of Argoth", "Toph, the Blind Bandit"],
+      "cards": [
+        "The Earth King",
+        "Rampaging Baloths",
+        "Seismic Tutelage",
+        "Bumi, Unleashed",
+        "Titania, Protector of Argoth",
+        "Toph, the Blind Bandit"
+      ],
       "axis": "combat",
       "vs_three": "Attacks with several power-4+ creatures make The Earth King fetch that many basics (more Baloths beasts and pings), Garruk's Uprising and Earthbender Ascension give trample over chump blockers, Bumi's connection untaps every land for a second combat of land creatures; attackers are split to finish the weakest players while the pings hit all three, and the earthbent attackers return to play when they die."
+    },
+    "infinite landfall": {
+      "cards": [
+        "Springheart Nantuko",
+        "Lotus Cobra",
+        "Tireless Provisioner",
+        "Ashaya, Soul of the Wild"
+      ],
+      "axis": "noncombat",
+      "vs_three": "Three-card loops made of on-plan cards (Spellbook 3470-5702-6871, 3875-5702-6871, 539-1315-7037, 539-5147-7037): Toph + Springheart Nantuko bestowed on her end-step earthbent land + Lotus Cobra or Tireless Provisioner = infinite landfall (each copy is an untapped land that pays the next {1}{G}); Ashaya + Toph, the Blind Bandit + Zuran Orb or Goblin Bombardment = the Bandit is a land, earthbends herself on entry and returns when sacrificed: infinite landfall. With any pinger out (Tannuk, Sabotender, Arbaaz, Valakut) or Bombardment, every opponent takes unlimited damage at once."
     }
   },
   "functions": {
     "land_entries": {
       "cards": [
         "Toph, the First Metalbender",
-        "Rampant Growth", "Shared Roots", "Sakura-Tribe Elder", "Wayfarer's Bauble", "Harrow", "Cycle of Renewal",
-        "Roiling Regrowth", "Heaped Harvest", "Druid Class", "Explore", "Crop Rotation", "Burnished Hart",
-        "Solemn Simulacrum", "The Earth King", "Titania, Protector of Argoth", "Earthbender Ascension", "Zuran Orb",
-        "Ashaya, Soul of the Wild", "Evolving Wilds", "Terramorphic Expanse", "Vibrant Cityscape", "Cabaretti Courtyard",
+        "Rampant Growth",
+        "Shared Roots",
+        "Sakura-Tribe Elder",
+        "Wayfarer's Bauble",
+        "Harrow",
+        "Cycle of Renewal",
+        "Roiling Regrowth",
+        "Heaped Harvest",
+        "Druid Class",
+        "Explore",
+        "Crop Rotation",
+        "Burnished Hart",
+        "Solemn Simulacrum",
+        "The Earth King",
+        "Titania, Protector of Argoth",
+        "Earthbender Ascension",
+        "Zuran Orb",
+        "Ashaya, Soul of the Wild",
+        "Evolving Wilds",
+        "Terramorphic Expanse",
+        "Vibrant Cityscape",
+        "Cabaretti Courtyard",
         "Toph, Hardheaded Teacher"
       ],
       "needed_by": "early"
     },
     "landfall_payoffs": {
       "cards": [
-        "Tannuk, Memorial Ensign", "Sabotender", "Valakut Exploration", "Tireless Tracker", "Tireless Provisioner",
-        "Lotus Cobra", "Earthbender Ascension", "Springheart Nantuko", "Rampaging Baloths", "Druid Class",
-        "Titania, Protector of Argoth"
+        "Tannuk, Memorial Ensign",
+        "Sabotender",
+        "Valakut Exploration",
+        "Tireless Tracker",
+        "Tireless Provisioner",
+        "Lotus Cobra",
+        "Earthbender Ascension",
+        "Springheart Nantuko",
+        "Rampaging Baloths",
+        "Druid Class",
+        "Titania, Protector of Argoth",
+        "Arbaaz Mir"
       ],
       "needed_by": "early"
     },
     "through_wide_board": {
       "cards": [
-        "Tannuk, Memorial Ensign", "Sabotender", "Valakut Exploration", "Arbaaz Mir", "Ragost, Deft Gastronaut",
-        "Goblin Bombardment", "Planar Outburst", "Garruk's Uprising", "Earthbender Ascension", "Rampaging Baloths",
-        "Bumi, Unleashed", "Rogue's Passage", "Secret Tunnel"
+        "Tannuk, Memorial Ensign",
+        "Sabotender",
+        "Valakut Exploration",
+        "Arbaaz Mir",
+        "Ragost, Deft Gastronaut",
+        "Goblin Bombardment",
+        "Planar Outburst",
+        "Garruk's Uprising",
+        "Earthbender Ascension",
+        "Rampaging Baloths",
+        "Bumi, Unleashed",
+        "Rogue's Passage",
+        "Secret Tunnel",
+        "Fire Nation Archers"
       ],
       "needed_by": "early"
     },
     "through_big_creatures": {
       "cards": [
-        "Swords to Plowshares", "Path to Exile", "Beast Within", "Fateful Absence", "Stroke of Midnight", "Rocky Rebuke",
-        "Hardlight Containment", "Sandbenders' Storm", "Annie Joins Up", "Planar Outburst", "Tannuk, Memorial Ensign",
-        "Sabotender", "Ragost, Deft Gastronaut", "Rogue's Passage", "Secret Tunnel"
+        "Swords to Plowshares",
+        "Path to Exile",
+        "Beast Within",
+        "Fateful Absence",
+        "Stroke of Midnight",
+        "Hardlight Containment",
+        "Sandbenders' Storm",
+        "Annie Joins Up",
+        "Planar Outburst",
+        "Tannuk, Memorial Ensign",
+        "Sabotender",
+        "Ragost, Deft Gastronaut",
+        "Rogue's Passage",
+        "Secret Tunnel",
+        "Fire Nation Archers"
       ],
       "needed_by": "early"
     }
   },
   "support": {
-    "extra_land_drops": ["Druid Class", "Explore", "The Earth King", "Ashaya, Soul of the Wild", "Zuran Orb", "Goblin Bombardment", "Ba Sing Se"],
-    "land_recursion": ["Titania, Protector of Argoth", "True Ancestry", "Zuran Orb", "Goblin Bombardment"],
-    "mana_sinks": ["Ba Sing Se", "Rogue's Passage", "Secret Tunnel", "Stocking the Pantry", "Tireless Tracker", "Springheart Nantuko", "Ragost, Deft Gastronaut"],
-    "wipe_insurance": ["Haystack", "Ba Sing Se", "Rampaging Baloths", "Titania, Protector of Argoth", "Springheart Nantuko"]
+    "extra_land_drops": [
+      "Druid Class",
+      "Explore",
+      "The Earth King",
+      "Ashaya, Soul of the Wild",
+      "Zuran Orb",
+      "Goblin Bombardment",
+      "Ba Sing Se"
+    ],
+    "land_recursion": [
+      "Titania, Protector of Argoth",
+      "True Ancestry",
+      "Zuran Orb",
+      "Goblin Bombardment"
+    ],
+    "mana_sinks": [
+      "Ba Sing Se",
+      "Rogue's Passage",
+      "Secret Tunnel",
+      "Stocking the Pantry",
+      "Tireless Tracker",
+      "Springheart Nantuko",
+      "Ragost, Deft Gastronaut"
+    ],
+    "wipe_insurance": [
+      "Haystack",
+      "Hakoda, Selfless Commander",
+      "Collective Resistance",
+      "Ba Sing Se"
+    ]
   },
   "tutors": {
-    "Chord of Calling": ["land_entries", "landfall_payoffs", "through_wide_board", "through_big_creatures"],
-    "Brightglass Gearhulk": ["land_entries", "through_big_creatures"]
+    "Chord of Calling": [
+      "land_entries",
+      "landfall_payoffs",
+      "through_wide_board",
+      "through_big_creatures"
+    ],
+    "Brightglass Gearhulk": [
+      "land_entries",
+      "through_big_creatures"
+    ]
   },
   "tags": {
     "Sol Ring": "ramp",
@@ -77,38 +187,71 @@
     "Rampant Growth": "ramp",
     "Shared Roots": "ramp",
     "Sakura-Tribe Elder": "ramp",
-    "Lotus Cobra": ["ramp", "payoff"],
+    "Lotus Cobra": [
+      "ramp",
+      "payoff"
+    ],
     "Great Divide Guide": "ramp",
     "Wayfarer's Bauble": "ramp",
     "Harrow": "ramp",
     "Cycle of Renewal": "ramp",
     "Roiling Regrowth": "ramp",
     "Heaped Harvest": "ramp",
-    "Druid Class": ["ramp", "payoff"],
+    "Druid Class": [
+      "ramp",
+      "payoff"
+    ],
     "Explore": "ramp",
     "Crop Rotation": "engine",
     "Zuran Orb": "engine",
-    "Burnished Hart": ["engine", "ramp"],
-    "Solemn Simulacrum": ["engine", "draw"],
+    "Burnished Hart": [
+      "engine",
+      "ramp"
+    ],
+    "Solemn Simulacrum": [
+      "engine",
+      "draw"
+    ],
     "The Earth King": "engine",
-    "Titania, Protector of Argoth": ["engine", "payoff"],
+    "Titania, Protector of Argoth": [
+      "engine",
+      "payoff"
+    ],
     "Ashaya, Soul of the Wild": "engine",
     "Toph, the Blind Bandit": "payoff",
     "Toph, Hardheaded Teacher": "engine",
     "Bumi, Unleashed": "payoff",
-    "Tannuk, Memorial Ensign": ["payoff", "draw"],
+    "Tannuk, Memorial Ensign": [
+      "payoff",
+      "draw"
+    ],
     "Sabotender": "payoff",
-    "Valakut Exploration": ["payoff", "draw"],
-    "Tireless Tracker": ["payoff", "draw"],
-    "Tireless Provisioner": ["payoff", "ramp"],
+    "Valakut Exploration": [
+      "payoff",
+      "draw"
+    ],
+    "Tireless Tracker": [
+      "payoff",
+      "draw"
+    ],
+    "Tireless Provisioner": [
+      "payoff",
+      "ramp"
+    ],
     "Springheart Nantuko": "payoff",
-    "Earthbender Ascension": ["payoff", "ramp"],
+    "Earthbender Ascension": [
+      "payoff",
+      "ramp"
+    ],
     "Rampaging Baloths": "payoff",
     "Seismic Tutelage": "payoff",
     "Arbaaz Mir": "payoff",
     "Ragost, Deft Gastronaut": "payoff",
     "Goblin Bombardment": "payoff",
-    "Annie Joins Up": ["payoff", "removal"],
+    "Annie Joins Up": [
+      "payoff",
+      "removal"
+    ],
     "Terrasymbiosis": "draw",
     "Ichor Wellspring": "draw",
     "Stocking the Pantry": "draw",
@@ -119,17 +262,24 @@
     "Beast Within": "removal",
     "Fateful Absence": "removal",
     "Stroke of Midnight": "removal",
-    "Rocky Rebuke": "removal",
     "Hardlight Containment": "removal",
     "Sandbenders' Storm": "removal",
-    "Soul-Guide Lantern": "removal",
+    "Soul-Guide Lantern": "orphan",
     "Haystack": "protection",
-    "Collective Resistance": ["protection", "removal"],
-    "Origin of Metalbending": ["protection", "removal"],
-    "Redirect Lightning": "protection",
+    "Collective Resistance": [
+      "protection",
+      "removal"
+    ],
+    "Origin of Metalbending": [
+      "protection",
+      "removal"
+    ],
     "Planar Outburst": "wipe",
     "Chord of Calling": "tutor",
-    "Brightglass Gearhulk": ["tutor", "draw"],
+    "Brightglass Gearhulk": [
+      "tutor",
+      "draw"
+    ],
     "Command Tower": "land",
     "Exotic Orchard": "land",
     "Ba Sing Se": "land",
@@ -146,14 +296,16 @@
     "Evolving Wilds": "land",
     "Terramorphic Expanse": "land",
     "Vibrant Cityscape": "land",
-    "Cabaretti Courtyard": "land"
+    "Cabaretti Courtyard": "land",
+    "Fire Nation Archers": "payoff",
+    "Hakoda, Selfless Commander": "protection"
   },
   "bad_when_drawn": {
     "Sol Ring": "never",
     "Arcane Signet": "never",
     "Talisman of Impulse": "never",
-    "Chromatic Lantern": "never",
-    "Bender's Waterskin": "never",
+    "Chromatic Lantern": "late",
+    "Bender's Waterskin": "late",
     "Rampant Growth": "never",
     "Shared Roots": "never",
     "Sakura-Tribe Elder": "never",
@@ -199,16 +351,16 @@
     "Beast Within": "never",
     "Fateful Absence": "never",
     "Stroke of Midnight": "never",
-    "Rocky Rebuke": "early",
     "Hardlight Containment": "never",
     "Sandbenders' Storm": "never",
     "Soul-Guide Lantern": "never",
     "Haystack": "never",
     "Collective Resistance": "never",
     "Origin of Metalbending": "never",
-    "Redirect Lightning": "never",
     "Planar Outburst": "early",
     "Chord of Calling": "early",
-    "Brightglass Gearhulk": "early"
+    "Brightglass Gearhulk": "early",
+    "Fire Nation Archers": "never",
+    "Hakoda, Selfless Commander": "never"
   }
 }

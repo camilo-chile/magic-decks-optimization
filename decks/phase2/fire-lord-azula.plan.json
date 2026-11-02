@@ -1,5 +1,5 @@
 {
- "plan": "Fire Lord Azula attacks every turn (haste and hexproof from equipment, counterspells and redirects behind her); while she attacks she copies every instant and flash spell cast with her firebending mana and the cost reducers, so each draw, removal and burn spell is a two-for-one, Horizon Stone, Electro and Ozai keep the leftover window mana, and she closes against all three opponents with copied multi-target X burn (Comet Storm, Electrodominance) and with combat by herself, Helm of the Host copies of her and Ozai.",
+ "plan": "Fire Lord Azula attacks every turn (haste and hexproof from equipment, counterspells and redirects behind her); while she attacks she copies every instant and flash spell cast with her firebending mana and the cost reducers, so each draw, removal and burn spell is a two-for-one, Horizon Stone, Electro and Ozai keep the leftover window mana, and she closes against all three opponents with copied multi-target X burn (Comet Storm, Electrodominance) and with combat by herself, Helm of the Host copies of her, extra combats (Overpowering Attack, Godo) and Ozai; copied pump tricks make blocking her a losing trade.",
  "backup": "When Azula is answered or the board stalls, the same pieces close without her: Thermo-Alchemist pings every opponent on each instant, Comet Storm and Electrodominance are cast uncopied with the mana Horizon Stone stores, Archmage Emeritus, Storm-Kiln Artist and Black Market Connections keep the hand and the mana full, and Ozai attacks with haste.",
  "archetype": "spellslinger",
  "secondary": "combat_attackers",
@@ -14,17 +14,19 @@
     "Thermo-Alchemist"
    ],
    "axis": "noncombat",
-   "vs_three": "Comet Storm multikicked twice names all three opponents and Azula copies it (2X to each); Horizon Stone stores colorless mana between turns so X reaches 8 to 12; Electrodominance copied adds 2X to one player plus two free spells; Thermo-Alchemist pings all three every time an instant or sorcery is cast. None of it needs combat damage through blockers."
+   "vs_three": "Comet Storm multikicked twice names all three opponents and Azula copies it (2X to each); Horizon Stone stores colorless mana between turns so X reaches 8 to 12; Mystical Teachings and Solve the Equation fetch it (access 4 cards, 60 % by turn 13); Electrodominance copied adds 2X to one or two players plus two free spells; Thermo-Alchemist pings all three on every instant. Recast by Gearhulk an X spell has X=0: never do that. None of it needs combat damage through blockers."
   },
   "Azula and her copies in combat": {
    "cards": [
     "Fire Lord Azula",
     "Ozai, the Phoenix King",
     "Helm of the Host",
-    "Unleash Fury"
+    "Unleash Fury",
+    "Godo, Bandit Warlord",
+    "Overpowering Attack"
    ],
    "axis": "combat",
-   "vs_three": "Helm of the Host makes a hasty nonlegendary Azula every combat, so two or three Azulas attack different opponents and each copies every spell; Ozai (7/7 trample, haste, flying and indestructible with six floating mana) hits a second player; Unleash Fury copied quadruples an unblocked Azula (16 or more commander damage) to remove the last one; copied burn finishes players left low."
+   "vs_three": "Overpowering Attack (freerunning {2}{R} once Azula has dealt combat damage) and Godo give extra combats, each a new firebending and a new round of copies; Helm of the Host makes a hasty nonlegendary Azula every combat, so two or three Azulas attack different opponents and each copies every spell; late, Helm on Godo gives unlimited combats (allowed late line); Ozai (7/7 trample, haste, flying and indestructible with six floating mana) hits another player; copied Unleash Fury on an unblocked or trampling Azula is 16 commander damage (24 with Champion's Helm); copied burn finishes players left low."
   }
  },
  "functions": {
@@ -34,14 +36,11 @@
     "Pull from Tomorrow",
     "Big Score",
     "Thrill of Possibility",
-    "Thirst for Knowledge",
-    "Abandon Attachments",
     "Dualcaster Mage",
     "Torrential Gearhulk",
     "Octopus Form",
     "Deflecting Swat",
     "Narset's Reversal",
-    "Swan Song",
     "Negate",
     "Undying Malice",
     "Terminate",
@@ -52,15 +51,17 @@
     "Lightning Strike",
     "Snap",
     "Amphibian Downpour",
-    "The Last Agni Kai",
     "Comet Storm",
     "Electrodominance",
     "Unleash Fury",
     "Hidden Footblade",
-    "Expedite",
     "Mystical Teachings",
     "Frantic Search",
-    "Brainstorm"
+    "Fists of Flame",
+    "Blazing Crescendo",
+    "Cunning Maneuver",
+    "Abandon Attachments",
+    "Run Amok"
    ],
    "needed_by": "early"
   },
@@ -88,7 +89,8 @@
     "Haunted Cloak",
     "Frostcliff Siege",
     "Ozai, the Phoenix King",
-    "Electro, Assaulting Battery"
+    "Electro, Assaulting Battery",
+    "Malcolm, the Eyes"
    ],
    "needed_by": "early"
   },
@@ -98,14 +100,16 @@
     "Hero's Downfall",
     "Go for the Throat",
     "Chaos Warp",
-    "Imprisoned in the Moon",
     "Amphibian Downpour",
     "Snap",
     "Lightning Strike",
     "Electrodominance",
     "Comet Storm",
     "Rogue's Passage",
-    "Day of Black Sun"
+    "Fists of Flame",
+    "Run Amok",
+    "Blazing Crescendo",
+    "Cunning Maneuver"
    ],
    "needed_by": "early"
   },
@@ -114,7 +118,7 @@
     "Horizon Stone",
     "Electro, Assaulting Battery",
     "Ozai, the Phoenix King",
-    "The Last Agni Kai",
+    "Zuko, Exiled Prince",
     "Storm-Kiln Artist",
     "Azula, On the Hunt",
     "Big Score",
@@ -130,39 +134,44 @@
    "Swiftfoot Boots",
    "Haunted Cloak",
    "Hidden Footblade",
-   "Frostcliff Siege",
-   "Expedite"
+   "Frostcliff Siege"
   ],
   "team_evasion": [
    "Rogue's Passage",
    "Haunted Cloak",
    "Frostcliff Siege",
-   "Ozai, the Phoenix King"
+   "Ozai, the Phoenix King",
+   "Fists of Flame",
+   "Run Amok",
+   "Malcolm, the Eyes"
   ],
   "defense_while_tapped": [
    "Propaganda",
    "Haunted Cloak",
-   "Loyal Inventor",
    "Thermo-Alchemist",
-   "Lion Vulture",
    "Octopus Form",
    "Bender's Waterskin"
   ],
   "combat_draw": [
    "Archmage Emeritus",
-   "Lion Vulture",
    "Azula, On the Hunt",
-   "Frostcliff Siege"
+   "Frostcliff Siege",
+   "Fists of Flame",
+   "Blazing Crescendo",
+   "Cunning Maneuver",
+   "Zuko, Exiled Prince"
   ],
   "wipe_insurance": [
    "Undying Malice",
-   "Swan Song",
    "Negate"
   ],
   "attackers": [
    "Azula, On the Hunt",
    "Ozai, the Phoenix King",
-   "Electro, Assaulting Battery"
+   "Electro, Assaulting Battery",
+   "Godo, Bandit Warlord",
+   "Zuko, Exiled Prince",
+   "Malcolm, the Eyes"
   ],
   "cost_reducers": [
    "Goblin Electromancer",
@@ -177,9 +186,13 @@
    "through_wide_board",
    "through_big_creatures"
   ],
-  "Loyal Inventor": [
+  "Solve the Equation": [
    "spell_payoffs",
-   "window_mana"
+   "through_wide_board",
+   "through_big_creatures"
+  ],
+  "Godo, Bandit Warlord": [
+   "spell_payoffs"
   ]
  },
  "tags": {
@@ -205,18 +218,11 @@
   "Pull from Tomorrow": "draw",
   "Big Score": "draw",
   "Thrill of Possibility": "draw",
-  "Thirst for Knowledge": "draw",
-  "Abandon Attachments": "draw",
-  "Lion Vulture": "draw",
-  "Glamdring, Foe-hammer // Gleam of Death": [
-   "draw",
-   "ramp"
-  ],
+  "Glamdring, Foe-hammer // Gleam of Death": "draw",
   "Azula, On the Hunt": [
    "draw",
    "engine"
   ],
-  "Insight Engine": "draw",
   "Storm-Kiln Artist": "payoff",
   "Dualcaster Mage": "payoff",
   "Electro, Assaulting Battery": [
@@ -234,10 +240,6 @@
    "protection",
    "removal"
   ],
-  "Swan Song": [
-   "protection",
-   "removal"
-  ],
   "Negate": [
    "protection",
    "removal"
@@ -247,15 +249,10 @@
   "Hero's Downfall": "removal",
   "Go for the Throat": "removal",
   "Chaos Warp": "removal",
-  "Imprisoned in the Moon": "removal",
   "Abrade": "removal",
   "Lightning Strike": "removal",
   "Snap": "removal",
   "Amphibian Downpour": "removal",
-  "The Last Agni Kai": [
-   "removal",
-   "engine"
-  ],
   "Day of Black Sun": "wipe",
   "Ritual of Soot": "wipe",
   "Comet Storm": "payoff",
@@ -273,12 +270,8 @@
    "draw"
   ],
   "Hidden Footblade": "engine",
-  "Expedite": "engine",
   "Mystical Teachings": "tutor",
-  "Loyal Inventor": "tutor",
   "Frantic Search": "engine",
-  "Soul-Guide Lantern": "removal",
-  "Brainstorm": "engine",
   "Cascade Bluffs": "land",
   "Choked Estuary": "land",
   "Command Tower": "land",
@@ -297,7 +290,33 @@
   "Sulfurous Springs": "land",
   "Sunken Hollow": "land",
   "Sunken Ruins": "land",
-  "Underground River": "land"
+  "Underground River": "land",
+  "Godo, Bandit Warlord": [
+   "tutor",
+   "payoff"
+  ],
+  "Overpowering Attack": "payoff",
+  "Fists of Flame": [
+   "payoff",
+   "draw"
+  ],
+  "Blazing Crescendo": [
+   "payoff",
+   "draw"
+  ],
+  "Cunning Maneuver": [
+   "payoff",
+   "draw"
+  ],
+  "Zuko, Exiled Prince": [
+   "draw",
+   "engine"
+  ],
+  "Waterbending Lesson": "draw",
+  "Solve the Equation": "tutor",
+  "Abandon Attachments": "draw",
+  "Run Amok": "payoff",
+  "Malcolm, the Eyes": "draw"
  },
  "bad_when_drawn": {
   "Ozai, the Phoenix King": "early",
@@ -305,7 +324,8 @@
   "Helm of the Host": "early",
   "Horizon Stone": "early",
   "Unleash Fury": "early",
-  "The Last Agni Kai": "late",
-  "Abrade": "late"
+  "Abrade": "late",
+  "Godo, Bandit Warlord": "early",
+  "Overpowering Attack": "early"
  }
 }

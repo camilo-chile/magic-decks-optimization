@@ -7,7 +7,7 @@ Target Bracket 3; floor found 1; 100 cards, 100 recognized.
 - Mass land denial: none
 - Reversible cards (never allowed): none
 
-## Spellbook: 0 variants inside the list, 0 flagged, 48 one card away
+## Spellbook: 0 variants inside the list, 0 flagged, 47 one card away
 
 
 ## Rejections

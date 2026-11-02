@@ -1,4 +1,11 @@
-# Toph, the First Metalbender: Phase 2 build notes (2026-11-02)
+# Toph, the First Metalbender: Phase 2 build notes (2026-11-02, round 3)
+
+Round 3 applies the adversarial review `decks/reports/review-toph-the-first-metalbender.md` (verdict PASS): the three
+three-card infinite lines are declared (R8, R9, route "infinite landfall"), Rocky Rebuke became Fire Nation Archers,
+Redirect Lightning became Hakoda, Selfless Commander (both free copies in no other deck, checked against
+`data/model/phase2/assignment.json` and the pool), Planar Outburst is no longer called one-sided, the padding of the plan
+file is fixed (Arbaaz in landfall_payoffs, Soul-Guide Lantern tagged `orphan` as graveyard hate, wipe_insurance lists what
+protects the route). Gate PASS 0 warnings; bracket PASS (floor 3, 1 Game Changer).
 
 Builder: Opus 5.5 high, upgrade mode (SKILL step 0b) from `decks/scanned/toph-the-first-metalbender.txt` (Phase 1 list he
 plays today) and his original list `data/raw/Toph.txt`. Pool: `data/model/phase2/pool-toph-the-first-metalbender.json`
@@ -32,9 +39,11 @@ Rules points (load-bearing):
 | R2 | An earthbent land that dies (sacrifice included) returns tapped and that return is a land entry. | Confirmed (earthbend rulings 2025-10-02: "When it dies or is exiled, return it to the battlefield tapped"; it enters, so landfall triggers). Returns only once per earthbend (new object). | The re-entry engines (Zuran Orb, Goblin Bombardment, Crop Rotation, Harrow-type sacrifices). |
 | R3 | Earthbend may target an artifact (it is a land under Toph) or an already earthbent land (counters stack, base 0/0 again). | Confirmed by the rulings ("You may target a land that is already a creature"). | Nothing big; pilot note only. |
 | R4 | Chromatic Lantern and Great Divide Guide give "{T}: Add one mana of any color" to LANDS, so every artifact-land taps for mana under Toph. | Granted ability, not the intrinsic one the reminder text denies; consistent with the reminder. Not checked against a specific ruling. | Some ramp from the 14 artifacts; the list does not count it. |
-| R5 | Planar Outburst ("destroy all nonland creatures") spares my earthbent lands, my artifact creatures under Toph and, with Ashaya, all my nontoken creatures. | Follows from the type change; not checked against a ruling. | The wipe would become symmetric for my creatures. |
+| R5 | Planar Outburst ("destroy all nonland creatures") spares my lands, earthbent lands and artifact creatures under Toph (Hart, Solemn, Gearhulk); it KILLS Toph and every nonartifact creature (all creature pingers, Ragost, The Earth King) unless Ashaya is out, which makes my nontoken creatures lands. | Follows from the type change; not checked against a ruling. | Only the Ashaya case; the wipe is NOT one-sided otherwise (review M-1). |
 | R6 | Annie Joins Up makes the end-step earthbend, Tannuk, The Earth King, Titania, Arbaaz and Bumi triggers trigger twice; Tannuk's second resolution in a turn draws. | Annie's rulings confirm "triggers an additional time"; Tannuk's "second time this ability has resolved this turn" counts each instance (reading of the Oracle text, no Tannuk ruling exists). | Some damage and draw. |
-| R7 | Bumi, Unleashed + Ashaya is a two-card infinite combat (Bumi is a land creature under Ashaya, so he attacks in each extra combat). | Spellbook variant, classed late by `check_phase2_bracket.py` (floor 3). | See section 9 and open question 1. |
+| R7 | Bumi, Unleashed + Ashaya is a two-card infinite combat (Bumi is a land creature under Ashaya, so he attacks in each extra combat). | Spellbook variant, classed late by `check_phase2_bracket.py` (floor 3); accepted (owner rule: every legal combo is welcome). | none |
+| R8 | Toph + Springheart Nantuko + Lotus Cobra (or Tireless Provisioner): Nantuko bestowed on the land Toph earthbent; each landfall pay {1}{G} for a token copy of that land. The copy copies only the printed land (type change and counters are not copiable), so it is a plain land that enters untapped, triggers landfall again and taps for the next payment together with Cobra's mana (or Provisioner's Treasure): infinite landfall. | Spellbook 3470-5702-6871 and 3875-5702-6871 (status OK); copiable-values point confirmed by the review. | The fourth route only. |
+| R9 | Ashaya + Toph, the Blind Bandit + Zuran Orb (or Goblin Bombardment): under Ashaya the Bandit is a Forest land, so her entry earthbend may target herself; sacrificed, she returns (earthbend), enters again and earthbends herself: infinite landfall and life (Orb) or damage (Bombardment). | Spellbook 539-1315-7037 and 539-5147-7037 (status OK). | The fourth route only. |
 
 ## 2. Plan and backup
 
@@ -42,7 +51,14 @@ Rules points (load-bearing):
   fetch lands, Druid Class and Explore, The Earth King, and with Toph every nontoken artifact), re-enter Toph's earthbent
   lands through Zuran Orb, Goblin Bombardment and the land-sacrifice ramp, and turn each entry into 1 damage to EACH
   opponent (Tannuk, Sabotender, Arbaaz Mir, Valakut Exploration) while Terrasymbiosis, Tireless Tracker and Tannuk refill
-  the hand; Ragost's 3-damage-to-each-opponent sacrifices end it.
+  the hand; Ragost's 3-damage-to-each-opponent sacrifices and Fire Nation Archers (2 to each opponent per {5}) end it.
+- **Combo top end (route "infinite landfall", all legal at Bracket 3 and accepted by the owner's standing rule):** (R8)
+  Toph + Springheart Nantuko bestowed on her earthbent land + Lotus Cobra or Tireless Provisioner = infinite landfall,
+  possible from turn 5; (R9) Ashaya + Toph, the Blind Bandit + Zuran Orb or Goblin Bombardment = infinite landfall and
+  life or damage; (R7) Bumi + Ashaya = infinite combats and mana. Each piece is on plan by itself. With a pinger or
+  Valakut out, every opponent dies at once. Odds (review): R8 8 % by turn 7, 15 % by turn 13 (Chord fetching a missing
+  piece); R9 5 % by turn 13; R7 7 % by turn 9. Pilot rules: when Nantuko is in hand, point Toph's end-step earthbend at
+  an untapped basic Forest; cast the pinger first, then go off; Chord fetches the missing half.
 - **Backup:** the same entries build a land army (earthbent lands, Rampaging Baloths beasts, Titania elementals, The Earth
   King's bear): power-4+ attacks make The Earth King fetch more lands, Garruk's Uprising and Earthbender Ascension give
   trample, Seismic Tutelage doubles counters, Bumi untaps every land for an extra combat. It reuses the fuel and the
@@ -63,18 +79,18 @@ around turn 7.
 | Function | Tier | Min | Target | Actual | Needed by | Reason |
 |---|---|---|---|---|---|---|
 | land_entries | gate | 12 | 16 | 25 + Toph (+2 tutors) | early | The fuel. Owner L2: "absurd" entries, several a turn. 21 cards put lands onto the battlefield by themselves (Rampant Growth, Shared Roots, STE, Wayfarer's Bauble, Harrow, Cycle of Renewal, Roiling Regrowth, Heaped Harvest, Druid Class, Explore, Crop Rotation, Burnished Hart, Solemn, The Earth King, Titania, Earthbender Ascension, Ashaya, 4 fetch lands); Zuran Orb and Toph, Hardheaded Teacher count as re-entry pairs [J, mana-and-ramp.md 3]. Toph adds the 14 artifacts (commander-conditional, not counted). 98 % to see one by 12 cards. |
-| landfall_payoffs | gate | 10 | 12 | 12 (11 + Chord) | early | Commander is not a payoff, so early 10. Tannuk, Sabotender, Valakut Exploration, Tireless Tracker, Tireless Provisioner, Lotus Cobra, Earthbender Ascension, Springheart Nantuko, Rampaging Baloths, Druid Class, Titania (land-to-graveyard payoff, a lands-matter trigger, not landfall: 10 without her). 81 % by turn 5. |
-| through_wide_board | gate | 10 | 12 | 14 | early | Noncombat damage to each opponent (Tannuk, Sabotender, Arbaaz, Valakut, Ragost, Bombardment), one-sided wipe (Planar Outburst), team trample (Garruk's Uprising), trample (Ascension, Baloths, Bumi), unblockable (Rogue's Passage, Secret Tunnel). Bombardment's ping is single-target but repeatable. |
-| through_big_creatures | gate | 10 | 12 | 17 | early | 8 spot removal + Annie + Planar Outburst + unblockable lands + noncombat closers that ignore blockers. |
+| landfall_payoffs | gate | 10 | 12 | 13 (12 + Chord) | early | Commander is not a payoff, so early 10. Tannuk, Sabotender, Valakut Exploration, Tireless Tracker, Tireless Provisioner, Lotus Cobra, Earthbender Ascension, Springheart Nantuko, Rampaging Baloths, Arbaaz Mir (pays on every artifact or legend entry, which under Toph are land entries); Druid Class (1 life a landfall, weak) and Titania (land-to-graveyard, a lands-matter trigger, not landfall) are listed with that caveat: about 11 honest pieces with Chord (review M-2). 83 % by turn 5. |
+| through_wide_board | gate | 10 | 12 | 15 | early | Noncombat damage to each opponent (Tannuk, Sabotender, Arbaaz, Valakut, Ragost, Fire Nation Archers, Bombardment), a wipe that clears their chump board (Planar Outburst, symmetric for my nonartifact creatures unless Ashaya is out), team trample (Garruk's Uprising), trample (Ascension, Baloths, Bumi), unblockable (Rogue's Passage, Secret Tunnel). Bombardment's ping is single-target but repeatable. |
+| through_big_creatures | gate | 10 | 12 | 17 | early | 7 spot removal + Annie + Planar Outburst + unblockable lands + noncombat closers that ignore blockers (Tannuk, Sabotender, Ragost, Fire Nation Archers). |
 | extra_land_drops | support (inside land_entries) | 5 | 7 | 7 listed, about 5.0 weighted | early | Druid Class (1), The Earth King (1, needs a power-4+ attack, met with its own bear), Ashaya (1: every nontoken creature cast is an entry), Explore (0.5, one-shot), Zuran Orb, Goblin Bombardment, Ba Sing Se (0.5 each: one re-entry a turn when an earthbent land exists). The pool has no other repeatable extra-land-drop card; purchase proposal 1 fixes it. |
 | land_recursion | support (inside land_entries) | 3 | 5 | 4 | late | Titania (returns a land), True Ancestry, Zuran Orb and Goblin Bombardment (an earthbent land comes back). |
 | mana_sinks | support | 3 | 4 | 7 | late | Ba Sing Se, Rogue's Passage, Secret Tunnel, Stocking the Pantry, Tireless Tracker, Springheart Nantuko, Ragost. |
-| wipe_insurance | support | 2 | 3 | 5 | late | Haystack (phasing), Ba Sing Se and Toph rebuild land creatures, Baloths, Titania and Springheart rebuild from entries; lands survive creature wipes and earthbent lands return. |
+| wipe_insurance | support | 2 | 3 | 4 | late | What protects the ROUTE, not only bodies (review I-3): Haystack (phases one pinger or Toph out), Hakoda (sacrifice at instant speed: +0/+5 and indestructible for the whole team, blanks destroy and damage wipes), Collective Resistance (one creature), Ba Sing Se (rebuilds land creatures). Valakut Exploration is the one pinger that is not a creature. |
 | ramp (base) | base | 20 (18 + 2 for MV 4) | 22 | 20 | cast by turn 3 | 17 primary + Earthbender Ascension, Tireless Provisioner, Burnished Hart (cast turn 3; its two lands arrive turn 4 or 5, written so). Every one is castable by turn 3; 91 % to see one by turn 3. Land ramp preferred (12 of 20), the 5 rocks are also entries with Toph. |
 | draw (base) | base | 10 | 12 | 10 | early | Terrasymbiosis, Ichor Wellspring, Stocking the Pantry, Garruk's Uprising, True Ancestry primary; Tannuk, Valakut, Tracker (plan-tied draw met most turns), Solemn, Brightglass (two cards) second. 74 % by turn 5. |
-| removal (base, spot) | base | 6 | 8 | 8 spot + 4 second | early | Swords, Path, Beast Within, Fateful Absence, Stroke of Midnight, Rocky Rebuke, Hardlight Containment, Sandbenders' Storm. Second tags: Annie (5 damage), Origin of Metalbending and Collective Resistance (artifact/enchantment modes), Soul-Guide Lantern (graveyard hate, tagged removal because no graveyard tag exists; it is not a spot answer). |
-| wipe (base) | base | 1 | 2 | 1 | late | Planar Outburst, one-sided for this deck (R5). A second symmetric wipe would kill the pingers; landfall average is 1 (notes/13 E1). |
-| protection (base, commander) | base | 3 (enabler) | 4 | 4 | early | Haystack (phasing: removal and exile wipes), Collective Resistance (hexproof + indestructible), Origin of Metalbending (indestructible), Redirect Lightning (moves a targeted removal). |
+| removal (base, spot) | base | 6 | 8 | 7 spot + 3 second | early | Swords, Path, Beast Within, Fateful Absence, Stroke of Midnight, Hardlight Containment, Sandbenders' Storm. Second tags: Annie (5 damage), Origin of Metalbending and Collective Resistance (artifact/enchantment modes). Soul-Guide Lantern is graveyard hate, tagged `orphan` because the tag set has no graveyard-hate tag (review M-2). |
+| wipe (base) | base | 1 | 2 | 1 | late | Planar Outburst: a reset when behind; it kills Toph and my nonartifact creatures unless Ashaya is out (R5). Landfall average is 1 (notes/13 E1). |
+| protection (base, commander) | base | 3 (enabler) | 4 | 4 | early | Haystack (phasing: removal and exile wipes), Collective Resistance (hexproof + indestructible), Origin of Metalbending (indestructible), Hakoda (team indestructible and +0/+5 at instant speed: saves Toph from destroy and damage, and the pingers from a wipe). |
 | graveyard hate | floor 1 | 1 | 1 | 1 | late | Soul-Guide Lantern. |
 | tutors | B3 median 4 | | | 2 | | Chord of Calling (creatures: Earth King, Tannuk, Baloths, Titania, Cobra), Brightglass Gearhulk (Zuran Orb, Wayfarer's Bauble, Hardlight, Stocking, Sol Ring). |
 
@@ -98,12 +114,12 @@ Ramp (20)
 - Sol Ring: turn 1 to 2; with Toph also an entry. Never bad (late it still is an entry).
 - Arcane Signet: turn 2 rock for the turn-3 Toph. Never bad.
 - Talisman of Impulse: turn 2, makes R or G. Never bad.
-- Chromatic Lantern: turn 3; with Toph every artifact-land taps for any color (R4). Never bad.
-- Bender's Waterskin: untaps on each opponent's untap step: hold mana for Chord, Harrow, Redirect on their turns. Never bad.
+- Chromatic Lantern: turn 3; with Toph every artifact-land taps for any color (R4). Bad late (a 3-MV rock drawn on turn 8).
+- Bender's Waterskin: untaps on each opponent's untap step: hold mana for Chord or Harrow on their turns. Bad late (a 3-MV rock, lesson L5).
 - Rampant Growth: turn 2, fetch the missing color. Never bad (an entry late).
 - Shared Roots: turn 2, as Rampant Growth; it is a Lesson (Toph, Hardheaded Teacher puts 2 counters). Never bad.
 - Sakura-Tribe Elder: turn 2, chump-block then sacrifice for a basic. Never bad.
-- Lotus Cobra: turn 2; each entry is one mana of any color: chain Harrow or a fetch into a big turn. Never bad.
+- Lotus Cobra: turn 2; each entry is one mana of any color: chain Harrow or a fetch into a big turn. COMBO piece (R8): with Toph and Springheart Nantuko bestowed on an earthbent land, Cobra pays every copy: infinite landfall. Never bad.
 - Great Divide Guide: turn 2 fixer; under Toph every artifact and land taps for any color. Never bad.
 - Wayfarer's Bauble: turn 1, crack turn 2 or at an opponent's end step; with Toph two entries. Never bad.
 - Harrow: instant; sacrifice an earthbent land (it returns) for three entries and two untapped lands. Never bad.
@@ -117,13 +133,13 @@ Ramp (20)
 
 Land entries and re-entry engines (11)
 - Crop Rotation (Game Changer): instant, 1 mana; sacrifice an earthbent land (it returns) to fetch Ba Sing Se, Secret Tunnel or the missing color untapped; also dodges land removal. Never bad.
-- Zuran Orb: sacrifice earthbent lands (they return: re-entry), fetch lands after cracking, Heaped Harvest or Ichor Wellspring under Toph; each gives 2 life (Ragost untaps) and, with Titania, a 5/3. Bad early (no earthbent land yet).
+- Zuran Orb: sacrifice earthbent lands (they return: re-entry), fetch lands after cracking, Heaped Harvest or Ichor Wellspring under Toph; each gives 2 life (Ragost untaps) and, with Titania, a 5/3. COMBO piece (R9): with Ashaya and Toph, the Blind Bandit, sacrifice the Bandit over and over (infinite landfall and life). Bad early (no earthbent land yet).
 - Solemn Simulacrum: turn 4; a basic, a chump blocker, a card when it dies; with Toph two entries. Never bad.
 - The Earth King (proven role-player): cast turn 4 to 5; attack with the bear plus any power-4+ land creature and fetch that many basics every combat. Protect it with Haystack. Never bad.
 - Titania, Protector of Argoth: returns a fetch land; then every fetch, Harrow-type spell or Zuran Orb sacrifice makes a 5/3. Bad early (5 MV).
-- Ashaya, Soul of the Wild: every nontoken creature you cast becomes a land entry and taps for G; Planar Outburst then spares all your creatures. Bad early.
+- Ashaya, Soul of the Wild: every nontoken creature you cast becomes a land entry and taps for G; while she is out Planar Outburst spares all your creatures. COMBO hub: with Bumi (R7) infinite combats; with Toph, the Blind Bandit plus Zuran Orb or Goblin Bombardment (R9) infinite landfall. Cast her before the Bandit or Bumi. Bad early.
 - Toph, Hardheaded Teacher: each spell earthbends 1 (Lessons 2): pair with Bombardment or Zuran Orb for one entry per spell; its entry regrows Harrow or a removal spell. Never bad.
-- Toph, the Blind Bandit (route closer): earthbend 2 on entry; her power is every counter on your lands, so she is the power-4+ attacker for The Earth King. Never bad.
+- Toph, the Blind Bandit (route closer): earthbend 2 on entry; her power is every counter on your lands, so she is the power-4+ attacker for The Earth King. With Ashaya out she is a land: point her own entry earthbend at herself, then sacrifice her to Zuran Orb or Goblin Bombardment and repeat (R9). Never bad.
 - Bumi, Unleashed (route closer): earthbend 4 makes a 4/4 haste land that triggers The Earth King the same turn; trample; when he connects all lands untap and land creatures attack again. Bad early.
 
 Landfall and entry payoffs (13)
@@ -131,14 +147,14 @@ Landfall and entry payoffs (13)
 - Sabotender: turn 2; 1 damage to each opponent per entry; reach blocker. Never bad.
 - Valakut Exploration: turn 3; each entry exiles a card you may play; what you do not play deals damage to each opponent at your end step. Never bad.
 - Tireless Tracker: turn 3; a Clue per entry; crack Clues on opponents' turns (each counter draws with Terrasymbiosis). Never bad.
-- Tireless Provisioner: turn 3; Treasure for mana, Food when Ragost needs fodder or a lifegain. Never bad.
-- Springheart Nantuko: bestow on Sabotender or Tireless Tracker (nonlegendary) to copy it each entry; cast alone it makes a 1/1 per entry (Bombardment fodder). Never bad.
+- Tireless Provisioner: turn 3; Treasure for mana, Food when Ragost needs fodder or a lifegain. COMBO piece (R8): with Toph and a bestowed Springheart Nantuko, take a Treasure each landfall to pay the next copy. Never bad.
+- Springheart Nantuko: the KEY combo piece (R8). When Toph earthbends at your end step, aim her at an untapped basic Forest while Nantuko is in hand; next turn, with Lotus Cobra or Tireless Provisioner out and a pinger or Valakut already on the table, bestow Nantuko ({1}{G}) on that land creature: each landfall pay {1}{G} for an untapped copy of the land, which triggers the next landfall: infinite entries, every opponent dies to the pinger. Without the second piece, still bestow it on an earthbent land (each paid copy is one more land entry) or cast it alone for a 1/1 per entry (Bombardment fodder). Never bestow it on a legendary creature (the copy dies to the legend rule). Never bad.
 - Earthbender Ascension: turn 3; a basic and a 2/2 land at once; after four entries each entry gives +1 counter and trample. Never bad.
 - Rampaging Baloths: a 4/4 per entry; the beasts are power-4 attackers for The Earth King and draw with Garruk's Uprising. Bad early.
-- Seismic Tutelage (proven role-player): put it on a creature that is NOT one of Toph's returning land creatures and that attacks: The Earth King's bear, Toph the Blind Bandit, Tireless Tracker with clue counters, a Baloths beast; it doubles the counters each attack. Bad early (needs that creature).
+- Seismic Tutelage (proven role-player): put it on a creature that is NOT one of Toph's returning land creatures and that attacks: Brightglass Gearhulk (first strike and trample keep it alive and connecting), Bumi (trample), The Earth King's bear, Toph the Blind Bandit, Tireless Tracker with clue counters, a Baloths beast; it doubles the counters each attack. It kills one opponent per attack (third route), not the table. Bad early (needs that creature).
 - Arbaaz Mir: each nontoken artifact or legendary that enters pings each opponent and gains 1 life (Ragost untaps). Never bad.
 - Ragost, Deft Gastronaut: every artifact is a Food: {1}, tap, sacrifice one for 3 damage to each opponent; untaps at every end step after any lifegain, up to four shots a turn cycle. Sacrifice tokens first, earthbent artifacts (they return). Never bad.
-- Goblin Bombardment: sacrifice earthbent land creatures at the end step after Toph earthbends (they return: one more entry), beasts and tokens before a wipe; finishes the last player. Never bad.
+- Goblin Bombardment: sacrifice earthbent land creatures at the end step after Toph earthbends (they return: one more entry), beasts and tokens before a wipe; finishes the last player. COMBO piece (R9): with Ashaya and Toph, the Blind Bandit, sacrifice the Bandit endlessly: unlimited damage to any targets. Never bad.
 - Annie Joins Up: 5 damage to the biggest creature; then the end-step earthbend, Tannuk, The Earth King, Titania and Arbaaz trigger twice. Never bad.
 
 Draw (5 primary; 5 more as second tags above)
@@ -154,22 +170,22 @@ Removal (8 spot) and graveyard hate
 - Beast Within: any permanent (artifact or enchantment engines included). Never bad.
 - Fateful Absence: instant creature or planeswalker answer. Never bad.
 - Stroke of Midnight: any nonland permanent. Never bad.
-- Rocky Rebuke: a big land creature bites their best blocker. Bad early (no big creature yet).
-- Hardlight Containment: 1-mana exile; enchant a rock nobody targets. Never bad (14 artifacts).
+- Fire Nation Archers: cast turn 4 as a 3/4 reach blocker (survives pings); from turn 7 every spare {5} is 2 damage to EACH opponent and a 2/2: the mana sink that turns the ramp into the clock. Chord target (X=4). Never bad.
+- Hardlight Containment: 1-mana exile; enchant a rock nobody targets, never one you will earthbend or sacrifice to Ragost or Zuran Orb (the creature comes back). Never bad (14 artifacts).
 - Sandbenders' Storm: destroy a power-4+ creature, or at an opponent's end step earthbend 3. Never bad.
-- Soul-Guide Lantern: exile a reanimation target, or the whole yards; else cash it for a card; an entry with Toph. Never bad.
+- Soul-Guide Lantern (graveyard hate, tag `orphan`): exile a reanimation target, or the whole yards; else cash it for a card; an entry with Toph. Never bad.
 
 Protection (4)
 - Haystack: phase out Toph, The Earth King or a pinger in response to removal or an exile wipe. Never bad.
 - Collective Resistance: hexproof and indestructible on Toph, or kill an artifact or enchantment (escalate for both). Never bad.
 - Origin of Metalbending: indestructible plus a counter (a Terrasymbiosis draw), or destroy an artifact or enchantment. Never bad.
-- Redirect Lightning: move a removal spell from Toph to their creature. Never bad.
+- Hakoda, Selfless Commander: 4-MV 3/5 vigilance blocker; look at the top card and cast Allies from it (The Earth King, both Tophs, Bumi, Great Divide Guide); when a wipe or a damage sweep is cast, sacrifice it in response: your team gets +0/+5 and indestructible, pingers and Toph survive. An Ally, so Great Divide Guide makes it tap for mana. Never bad.
 
 Wipe (1)
-- Planar Outburst: clears their creatures; your lands, earthbent lands and artifact creatures (and every creature under Ashaya) stay; awaken at 8 mana. Bad early.
+- Planar Outburst: a reset when you are behind on board, NOT one-sided: it kills Toph and every nonartifact creature of yours (pingers, Ragost, The Earth King) unless Ashaya is out; your lands, earthbent lands and artifact creatures (Hart, Solemn, Gearhulk) stay. Best cast with Ashaya on the battlefield, or with Hakoda ready to sacrifice. Awaken at 8 mana. Bad early.
 
 Tutors (2)
-- Chord of Calling: instant; convoke with land creatures; fetch The Earth King (X=4), Tannuk (3) or Baloths (6) at an opponent's end step. Bad early.
+- Chord of Calling: instant; convoke with land creatures. Which piece: the missing combo half (Springheart Nantuko X=2, Lotus Cobra X=2, Tireless Provisioner X=3, Toph the Blind Bandit X=3 with Ashaya out), else a pinger (Tannuk X=3, Sabotender X=2), else The Earth King or Fire Nation Archers (X=4); cast it at an opponent's end step. Bad early.
 - Brightglass Gearhulk: Zuran Orb plus Wayfarer's Bauble or Stocking the Pantry; a 5/5 first-strike trampler; an entry with Toph. Bad early (GGWW).
 
 Lands (38)
@@ -199,10 +215,12 @@ winning games. Counts are after the whole change.
 | Seismic Sense | selection for a land or creature | n/a (not draw) | Selection, not draw; slot to Stocking the Pantry (repeatable draw with earthbend). |
 | Liquimetal Coating | turns a permanent into an artifact for artifact removal | removal 8 (6) | Two-card mini-combo with Haywire Mite (L7); slot to Titania, Protector of Argoth. |
 | Haywire Mite | noncreature artifact/enchantment answer | artifact/enchantment answers 4 (Beast Within, Stroke, Origin, Collective) | Covered; slot to Rampaging Baloths. |
-| Hunter's Bow | bite equipment | removal 8 (6) | Rocky Rebuke does the job at instant speed; slot to Seismic Tutelage (proven). |
+| Hunter's Bow | bite equipment | removal 7 spot (6) | Needs my big creature; slot to Seismic Tutelage (proven). |
 | Inscription of Abundance | fight / counters / life | removal 8 (6) | Surplus removal (8 spot remain); slot to Cabaretti Courtyard (fetch land, two entries). |
 | Nutrient Block | artifact cantrip, Food | draw 10 (10) | Low impact; slot to Evolving Wilds (fetch land, two entries). |
 | The Stasis Coffin | player protection for one turn cycle | protection 4 (3) | Protects the player, not the commander; slot to fetch lands. |
+| Rocky Rebuke (round 3) | spot removal that needs my big creature (bad early) | removal 7 spot (6); through_big_creatures 17 (10) | Fire Nation Archers: a mana sink that damages each opponent with no tap (review I-2: the main route's clock was thin). |
+| Redirect Lightning (round 3) | commander protection (moves a targeted removal) | protection 4 (3) | Hakoda, Selfless Commander: team indestructible at instant speed protects Toph AND the creature pingers from wipes (review I-3). |
 | Rumble Arena | colorless land with filter | lands 38 (38) | Colorless; replaced by Battlefield Forge (untapped R/W). |
 | 2 Forest | basics | basics 21 | Replaced by the four fetch lands and Secret Tunnel (net lands 35 to 38). |
 
@@ -235,7 +253,7 @@ adds most is judgment [J].
 | Swords to Plowshares | 2 ES | Toph, free | Toph, Ezio, Spanish | Spanish deck if white (it can only use ES) | Fateful Absence is already in; then Sandbenders' covers |
 | Path to Exile | 1 ES | Toph | Toph, Ezio, Spanish | Toph or Spanish (lead decides) | Inscription of Abundance (EN, free) |
 | Fateful Absence | 2 ES | Ezio, Toph | Ezio, Toph, Spanish | Ezio and Toph hold them | Inscription of Abundance |
-| Planar Outburst | 1 ES | Toph | Toph, Ezio, Spanish | Toph (one-sided under Toph, R5) | none in the pool is one-sided; What Must Be Done (symmetric) |
+| Planar Outburst | 1 ES | Toph | Toph, Ezio, Spanish | Toph (spares her lands and artifact creatures; one-sided only with Ashaya, R5) | What Must Be Done (symmetric) |
 | Battlefield Forge | 1 ES | free | Toph, Ezio, Spanish (RW) | Spanish deck if RW | Rumble Arena (EN) |
 | Arbaaz Mir | 1 ES | Toph | Toph, Ezio, Spanish (candidate commander) | Spanish deck if it is its commander; otherwise Toph | Titania, Nature's Force (ES) or Omnath, Locus of Rage (EN) as the replacement payoff; the landfall-burn route keeps Tannuk, Sabotender, Valakut |
 | Burnished Hart | 1 ES | free | any deck (colorless) | Toph (three entries) | Viewpoint Synchronization (EN, free) |
@@ -255,9 +273,14 @@ price, and rank 1 alone is the one that matters most. The list above is complete
 Price hints are from the browser reading of 2026-10-17 (`data/prices/browser-gameofmagic-*.psv`), stale: live stock and
 price are the lead's check.
 
+Owner update 2026-11-02: Toph, Azula and Ezio share 5,000 CLP at Game of Magic Singles (the Spanish deck has its own
+5,000); a second store is allowed only for Hidden Footblade and Overpowering Attack, which do not concern Toph. Power wish
+first (owner: name a purchase that clearly raises power).
+
 | Rank | Card | Need it fills | Price hint | Plays instead of |
 |---|---|---|---|---|
-| 1 | Exploration | The only weak support line: repeatable extra land drops (about 5.0 weighted, only Druid Class is a true repeatable). {G}: one extra land every turn from turn 1. | no reading | Explore |
+| 1 | Eladamri's Call | Power and Salt: an instant creature tutor ({G}{W}) for the combo halves (Springheart Nantuko, Lotus Cobra, Tireless Provisioner, Toph the Blind Bandit) and the pingers; with Chord it doubles the tutors that reach the R8 line and answers Salt's "no tutors for the combo" ceiling seen in Phase 1. | no reading | Sandbenders' Storm (spot removal stays at 6 = min) |
+| 2 | Exploration | The only weak support line: repeatable extra land drops (about 5.0 weighted, only Druid Class is a true repeatable). {G}: one extra land every turn from turn 1. | no reading | Explore |
 | 2 | Cultivate | Land ramp that is two entries' worth and works without Toph (the profile prefers land ramp to rocks). | 1,120 CLP NM EN | Bender's Waterskin |
 | 3 | Farseek | 2-MV land ramp (Mountain or Plains) instead of a rock; one more entry. | 1,760 CLP NM EN | Talisman of Impulse |
 
@@ -268,9 +291,9 @@ curated Toph loop (hazard `toph-emeria-omen-loop`, harmless without Emeria Sheph
 
 - Gate warnings: none. Bracket review items: two.
   - Bumi, Unleashed + Ashaya (Spellbook, two-card infinite combats, flagged late, floor 3). Both cards are here for their
-    own jobs (Ashaya: entries from creatures; Bumi: earthbend 4 and trample); it needs 10 mana across two specific cards
-    (about 2 % to hold both by turn 6, more with Chord of Calling at 8 mana), so it does not "tend to happen" in the first
-    six turns. Kept; the owner decides (open question 1).
+    own jobs; it needs 10 mana across two specific cards, so it does not "tend to happen" in the first six turns. Accepted.
+  - The three-card lines R8 and R9 (Spellbook, inside the list, not flagged): three-card lines are not barred by any
+    bracket rule; the owner's standing rule accepts every legal combo. Declared in the plan file as the fourth route.
   - Hazard `toph-loop-hubs` (Toph, Hardheaded Teacher): its loops need a bounce land, a 0-MV artifact cast again and an
     outlet; the list has no bounce land, so none can assemble. Checked by hand.
 - Dead or conditional clauses: Toph, Hardheaded Teacher's Lesson bonus (5 Lessons, a bonus only); Garruk's Uprising's draw
@@ -280,18 +303,25 @@ curated Toph loop (hazard `toph-emeria-omen-loop`, harmless without Emeria Sheph
   (bear, Toph the Blind Bandit, Tracker, beasts); Hardlight Containment needs an artifact (14 in the list).
 - Commander-conditional pieces (enabler, weight 0.5): the 14 artifacts as entries, the end-step re-entry, Terrasymbiosis's
   2 a turn. None is counted in a gate function.
-- After a creature wipe the pingers die (Tannuk, Sabotender, Arbaaz, Ragost); the lands, the earthbent lands and Valakut
-  stay. Rebuild: Toph re-earthbends, Chord and True Ancestry find a pinger, Haystack saves one in response.
+- After a creature wipe the creature pingers die (Tannuk, Sabotender, Arbaaz, Ragost, Archers); the lands, the earthbent
+  lands and Valakut stay. Answers: Hakoda sacrificed in response (team indestructible, +0/+5: destroy and damage wipes),
+  Haystack (one creature, exile wipes too), Collective Resistance (one creature); deploy pingers one or two at a time,
+  Valakut first; with Ashaya out, aim Toph's end-step earthbend at a pinger (it is a land) so it returns if it dies.
+  Rebuild: Chord and True Ancestry find a pinger.
+- Pilot notes from the review: from turn 8 fetch basics for the card that needs them most (21 basics for about 22
+  basic-fetching effects plus The Earth King); library-search hate (Stranglehold-type) is the worst single hate card:
+  Beast Within or Stroke of Midnight it.
 
 ## 10. The two reference boards
 
 - **Board 1, eight 1/1 chump blockers that sacrifice:** the main route ignores them: every entry pings each opponent
-  (Tannuk, Sabotender, Arbaaz), Valakut's end-step damage, Ragost's 3 to each opponent per artifact; Planar Outburst clears
-  them and keeps the land creatures. The land army has team trample (Garruk's Uprising, Ascension) and unblockable lands
+  (Tannuk, Sabotender, Arbaaz), Valakut's end-step damage, Ragost's 3 and Archers' 2 to each opponent; Planar Outburst clears
+  them and keeps the land creatures (my nonartifact creatures die too unless Ashaya is out). Their sacrifice-pings kill my
+  toughness-2 pingers: hold Hakoda. The land army has team trample (Garruk's Uprising, Ascension) and unblockable lands
   (Secret Tunnel, Rogue's Passage). Their sacrifice outlets cost the deck little: earthbent attackers return.
 - **Board 2, two creatures bigger than yours:** 8 spot answers (Swords, Path, Beast Within, Fateful Absence, Stroke, Hardlight,
-  Sandbenders' for power 4+, Rocky Rebuke) plus Annie's 5 damage; the pings and Ragost ignore them; land creatures block and
-  come back; Haystack and Planar Outburst for the board that gets out of hand.
+  Sandbenders' for power 4+) plus Annie's 5 damage; the pings, Ragost and Fire Nation Archers ignore them; land creatures
+  and the 3/4 reach Archers block (earthbent lands come back); Hakoda's +0/+5 survives a big attack; Planar Outburst resets.
 
 ## 11. Mana
 
@@ -309,13 +339,16 @@ curated Toph loop (hazard `toph-emeria-omen-loop`, harmless without Emeria Sheph
 
 ## 12. Open questions for the owner
 
-1. Bumi, Unleashed + Ashaya is a two-card infinite (combats and mana), classed late by the bracket check. Keep both, or
-   cut one (Ashaya would be replaced by Viewpoint Synchronization)?
-2. Hardened Scales left out. Do you want it back to grow Seismic Tutelage and Terrasymbiosis faster? It would take
-   Explore's slot.
-3. Seismic Tutelage: confirm the target rule I wrote (the bear, Toph the Blind Bandit, Tracker, beasts; never an
-   earthbent land that returns).
-4. Earth Kingdom General cut for Sandbenders' Storm (more answer to big creatures). OK?
-5. Top end: would you rather play Omnath, Locus of Rage or Titania, Nature's Force (both owned) instead of Explore or
-   Bender's Waterskin, for a harder finish at the cost of curve?
-6. 38 lands (landfall band 38 to 40). Prefer 39 (a Forest for Explore)?
+Answered by the owner and applied (review header): Bumi + Ashaya kept (all legal combos accepted), Hardened Scales out,
+the Seismic Tutelage target rule, Earth Kingdom General out for Sandbenders' Storm, no Omnath or Titania, Nature's Force,
+38 lands. Open: none. Purchase wish (section 8): Eladamri's Call first, for power and Salt.
+
+## 13. Salt (second objective)
+
+Phase 1 Toph measured 7.1 free / 7.4 at purchase on Salt; its ceiling was "combo wincons with no tutors". This list
+declares four Spellbook infinites (R7, R8 x2, R9 x2) made of on-plan cards and keeps the tutors that reach them (Chord,
+Brightglass for Zuran Orb), the one Game Changer (Crop Rotation) and an untapped-heavy mana base (4 fetch lands are the only
+tapped-by-design lands). Round 3 adds a closer (Archers) and wipe protection (Hakoda) without dropping any function.
+Expected to hold 7.0 or more; the lead measures it. Do not cut without a new review (they carry Salt's combo reading):
+Crop Rotation, Chord of Calling, Lotus Cobra, Tireless Provisioner, Springheart Nantuko, Ashaya, Bumi, Toph the Blind
+Bandit, Zuran Orb, Goblin Bombardment. The best Salt-raising buy is Eladamri's Call (section 8).

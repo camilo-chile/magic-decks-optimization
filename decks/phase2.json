@@ -12,7 +12,23 @@
    "slug": "fire-lord-azula",
    "name": "Azula",
    "languages": "both",
-   "list": "decks/phase2/fire-lord-azula.txt"
+   "list": "decks/phase2/fire-lord-azula.txt",
+   "borrowed": [
+    {
+     "name": "Overpowering Attack",
+     "language": "en",
+     "quantity": 1,
+     "set": "ACR",
+     "number": "",
+     "from": "Standard decks (binder Assassin's Creed)",
+     "restock": true,
+     "loan_class": "evaluate",
+     "replacement_clp": null,
+     "in_stock": false,
+     "since": "2026-11-02",
+     "note": "Loan to evaluate, accepted by the owner on 2026-11-02; no stock at Game of Magic Singles, the replacement waits for a restock."
+    }
+   ]
   },
   {
    "slug": "ezio-auditore-da-firenze",
@@ -70,6 +86,62 @@
      "replacement_clp": 915,
      "since": "2026-11-02",
      "note": "Automatic loan used by the Phase 2 Ezio build (in stock at Game of Magic Singles, under 5,000 CLP)."
+    },
+    {
+     "name": "Cover of Darkness",
+     "language": "en",
+     "quantity": 1,
+     "set": "ACR",
+     "number": "",
+     "from": "Standard decks (binder Assassin's Creed)",
+     "restock": true,
+     "loan_class": "evaluate",
+     "replacement_clp": 10360,
+     "in_stock": true,
+     "since": "2026-11-02",
+     "note": "Loan to evaluate, accepted by the owner on 2026-11-02."
+    },
+    {
+     "name": "Unstoppable Slasher",
+     "language": "en",
+     "quantity": 1,
+     "set": "ACR",
+     "number": "",
+     "from": "Standard decks (binder Assassin's Creed)",
+     "restock": true,
+     "loan_class": "evaluate",
+     "replacement_clp": 5560,
+     "in_stock": true,
+     "since": "2026-11-02",
+     "note": "Loan to evaluate, accepted by the owner on 2026-11-02."
+    },
+    {
+     "name": "Achilles Davenport",
+     "language": "en",
+     "quantity": 1,
+     "set": "ACR",
+     "number": "",
+     "from": "Standard decks (binder Assassin's Creed)",
+     "restock": true,
+     "loan_class": "evaluate",
+     "replacement_clp": 8680,
+     "in_stock": true,
+     "since": "2026-11-02",
+     "note": "Loan to evaluate, accepted by the owner on 2026-11-02."
+    },
+    {
+     "name": "Hidden Footblade",
+     "language": "en",
+     "quantity": 1,
+     "set": "ACR",
+     "number": "",
+     "from": "Standard decks (binder Assassin's Creed)",
+     "restock": true,
+     "loan_class": "evaluate",
+     "replacement_clp": null,
+     "in_stock": false,
+     "since": "2026-11-02",
+     "note": "Loan to evaluate (no stock at Game of Magic Singles), accepted by the owner on 2026-11-02; his free copy goes to Azula."
     }
    ]
   },
@@ -263,7 +335,14 @@
   "deck_caps_clp": {
    "spanish-deck": 5000
   },
-  "deck_caps_note": "Owner 2026-11-02: the Spanish deck may use up to 5,000 CLP of the 10,000; the bilingual decks share the rest, ranked by impact."
+  "deck_caps_note": "Owner 2026-11-02: the Spanish deck may use up to 5,000 CLP of the 10,000; the bilingual decks share the rest, ranked by impact.",
+  "salt_floors": {
+   "spanish-deck": "at least the Salt power of the Counter Intelligence precon + 0.1",
+   "fire-lord-azula": "7.5 or more (it may drop from 8.4)",
+   "toph-the-first-metalbender": "7.0 or more",
+   "ezio-auditore-da-firenze": "7.0 or more"
+  },
+  "second_store_note": "Owner 2026-11-02: look for ONE second store that has the out-of-stock loan replacements (Hidden Footblade, Overpowering Attack); if one has them, also buy there the wanted cards Game of Magic Singles lacks (for example Freed from the Real and Relic of Legends in Spanish); otherwise move the unused budget to the other decks. Not yet searched."
  },
  "loan_rules": "decks/phase2/loans.md: a loan goes to one deck only; it is allowed only if a store of the current iteration (iteration.stores) has it in stock so it can be replaced; the replacement must cost under 5,000 CLP, and a dearer card only if it is indispensable, with a written justification and its price for the owner to decide.",
  "pending_owned": [

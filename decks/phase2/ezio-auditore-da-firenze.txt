@@ -7,34 +7,34 @@
 1 Rakdos Signet
 1 Aven Heartstabber
 1 Chromatic Lantern
-1 Commander's Sphere
+1 Boros Locket
 1 Bender's Waterskin
 1 Deathcap Cultivator
 1 Swiftfoot Boots
 1 Haunted Cloak
-1 Hidden Footblade
+1 Boros Guildmage
 1 Hookblade
-1 Mechanical Glider
+1 Cover of Darkness
 1 Glider Staff
 1 Hidden Blade
 1 Assassin Gauntlet
 1 Assassin Initiate
-1 Hookblade Veteran
+1 Angelic Intervention
 1 Desmond Miles
 1 Brotherhood Spy
 1 Evie Frye
 1 Winter Soldier, Icy Assassin
 1 Gold-Forged Thopteryx
-1 Boros Guildmage
+1 Unstoppable Slasher
 1 Shao Jun
 1 Ratonhnhaké꞉ton
 1 Jacob Frye
 1 Lydia Frye
-1 Adéwalé, Breaker of Chains
+1 Achilles Davenport
 1 Etrata, Deadly Fugitive
 1 Royal Assassin
 1 Loyal Inventor
-1 Vindictive Warden
+1 Hidden Footblade
 1 Arno Dorian
 1 Thorn of the Black Rose
 1 Queen Marchesa
@@ -49,12 +49,12 @@
 1 Assassin's Trophy
 1 Mortify
 1 Utter End
-1 Bitter Triumph
+1 Kolaghan's Command
 1 Mephitic Vapors
 1 Haystack
-1 Swan Song
+1 Octopus Form
 1 Enter the Avatar State
-1 Bleeding Effect
+1 Lion Vulture
 1 Get Out
 1 Eagle Vision
 1 Coastal Piracy
@@ -68,7 +68,6 @@
 1 Command Tower
 1 Exotic Orchard
 1 Path of Ancestry
-1 Spire of Industry
 1 Brotherhood Headquarters
 1 Abstergo Entertainment
 1 Secret Tunnel
@@ -83,13 +82,12 @@
 1 Sulfur Falls
 1 Hinterland Harbor
 1 Prairie Stream
-1 Glacial Fortress
-1 Radiant Summit
+1 Abandoned Campground
+1 Raucous Carnival
 1 Jungle Shrine
-1 Murky Sewer
-1 Mystic Monastery
-9 Swamp
-1 Island
+1 Rumble Arena
+10 Swamp
+2 Island
 1 Plains
 1 Mountain
 1 Forest
