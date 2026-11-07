@@ -244,3 +244,76 @@ still passes the gate (land_entries 21, landfall_payoffs about 11 with Arbaaz an
 I-1 (declare and document the infinite lines; rewrite the Nantuko line), and consider the two swaps of I-2 and I-3
 (Rocky Rebuke to Fire Nation Archers, Redirect Lightning to Hakoda), which add a closer and wipe insurance without taking
 any function under its minimum.
+
+## Round 3 re-review (2026-11-07)
+
+Scope: commit 21674e6 against 30de44d (`decks/phase2/toph-the-first-metalbender.*`). List change: Rocky Rebuke to Fire
+Nation Archers, Redirect Lightning to Hakoda, Selfless Commander; plan file and build notes rewritten. Owner's standing
+rules of 2026-11-07 applied: card choices free, only Bracket 3 rules and the deck's copy and budget rules bind, every legal
+combo accepted, Salt second with Toph at 7.0 or more.
+
+### Checks rerun
+- `plan_density.py`: PASS, 0 failures, 0 warnings. land_entries 26, landfall_payoffs 13, through_wide_board 15,
+  through_big_creatures 17; bad when drawn 10 early + 2 late = 12 (at the warning line, not over).
+- `check_phase2_bracket.py`: PASS, floor 3, 1 Game Changer (Crop Rotation), Bumi + Ashaya the only flagged line (late).
+- `assignment.json`: Fire Nation Archers (TLE 237, EN) and Hakoda (TLA 23, EN) are given to Toph only, no other deck holds
+  them; Rocky Rebuke and Redirect Lightning are released; problems 0, missing 0.
+
+### Recount from Oracle text (changes only)
+| Function | Round 2 | Round 3 | Note |
+|---|---|---|---|
+| Spot removal | 8 (6 unconditional) | 7 (6 unconditional + Sandbenders' Storm, power 4+ only) | min 6 met |
+| Commander protection | 4 | 4: Haystack, Collective Resistance, Origin of Metalbending, Hakoda | Against targeted EXILE (Swords, Path) only Haystack and Collective Resistance's hexproof remain; Hakoda covers destroy and damage. Enough for an enabler (3 to 4) |
+| Wipe insurance for the route | 1 to 2 | 3: Hakoda (team), Haystack, Collective Resistance (+ Valakut as the non-creature pinger) | I-3 closed |
+| Landfall payoffs | about 11 honest | 12 + Chord, Arbaaz moved in | honest now |
+| Ramp, draw | 18 + 2, about 9 weighted | unchanged | M-3 still minor |
+| Closers | main route 4 | main route 5 (Archers), 4 routes, 15 unique closers | I-2 closed |
+
+Round-2 items: I-1, I-2, I-3, M-1, M-2, M-4, M-5, M-6, M-7 closed in the files. Open: M-3 (draw at its floor, minor) and
+M-8 (no live price; the lead's stock step).
+
+### Findings
+
+**R3-1 (IMPORTANT, my own round-2 error carried into the notes): Chord of Calling cannot fetch Springheart Nantuko for the
+R8 combo.** Chord puts the creature onto the battlefield; Nantuko only attaches when CAST for its bestow cost, so a
+Chord-fetched Nantuko is an unattached 1/1 that makes Insects, not land copies. The build notes' Chord line ("the missing
+combo half (Springheart Nantuko X=2, ...)") and the R8 odds (8 % by turn 7, 15 % by turn 13, from my round-2 simulation
+that let Chord find Nantuko) are wrong. Recomputed (300,000 runs; Chord finds only Cobra or Provisioner): **5.0 % by turn
+7, 6.4 % by turn 9, 9.7 % by turn 13**. Fix: Chord's guide line reads "for R8 fetch Lotus Cobra (X=2) or Tireless
+Provisioner (X=3), never Nantuko; for R9 fetch Ashaya (X=5) or the Bandit (X=3)"; correct the odds in section 2 and the
+route. Sourced (Oracle text of Springheart Nantuko and Chord of Calling).
+
+**R3-2 (IMPORTANT, purchase choice): Eladamri's Call is the right power buy, if the live price fits.**
+- Value: an instant creature tutor that puts the card in HAND, so it is the only tutor in the list that can find Nantuko
+  for R8. Simulation: R8 by turn 7 goes from 5.0 % to 10.6 %, by turn 13 from 9.7 % to 19.6 %; it also finds Ashaya, the
+  Bandit, Bumi, any pinger, Ragost, Fire Nation Archers or The Earth King. It answers the Phase 1 Salt cap ("combo wincons
+  with no tutors").
+- Price risk: the only Game of Magic hint (2026-10-17 reading) is a NM FOIL at 25,080 CLP; no non-foil was read. After the
+  other reviewers' picks (Azula Soul-Guide Lantern about 742, Ezio Golgari Signet about 570 and Battlefield Forge about
+  915) about 2,770 CLP is left for Toph before Arcane Denial. Buy it only if a non-foil copy is at or under that remainder.
+- Swap: cut **Bender's Waterskin** (3-MV rock, now tagged bad late; ramp by the plan's count 20 to 19, profile min 18)
+  rather than Sandbenders' Storm (that would take spot removal to the minimum 6). [J]
+- Fallback if Eladamri's Call does not fit, in power per CLP (old hints, live check by the lead): **Wood Elves** (about
+  570 CLP: 3-MV creature that puts a Forest onto the battlefield UNTAPPED; land entry, Ashaya body, convoke and Bombardment
+  fodder) for Bender's Waterskin; then **Farseek** (about 1,760) or **Cultivate** (about 1,120) for Chromatic Lantern only if
+  money remains. Exploration has no reading at Game of Magic. Too expensive in the hints: Three Visits 7,960, Azusa 12,480,
+  Dryad of the Ilysian Grove 9,880, Worldly Tutor 39,400.
+
+**R3-3 (MINOR): the "infinite landfall" route names Arbaaz Mir as a closer for R8.** The R8 copies are tokens and not
+historic, so Arbaaz never triggers; he does close R9 (the Bandit is a nontoken legendary entering each loop). Closers for
+R8: Sabotender, Tannuk, Valakut Exploration, Fire Nation Archers when the loop also makes mana (Cobra AND Provisioner),
+Rampaging Baloths (army), Earthbender Ascension (one huge trampler). Fix the `vs_three` wording.
+
+**R3-4 (MINOR): the Nantuko pilot rule asks for an "untapped" basic Forest.** Tapped status is not copiable: every copy
+enters untapped whatever the original's state. Any earthbent land that taps for {G} works; a basic Forest is best. Wording
+only.
+
+### Salt
+No change lowers Salt: Archers adds a closer and a sink, Hakoda replaces a narrow protection spell, every combo piece and
+tutor stays. Eladamri's Call is the one buy likely to raise it (tutor for the combo pieces). Do not cut the combo pieces
+listed in build notes section 13.
+
+### Verdict round 3
+**PASS (ship to Salt).** No Bracket 3 rule broken, gate passes, the round-2 findings are closed. Before the guide is
+written, fix R3-1 (Chord line and R8 odds) and the R3-3 and R3-4 wording. Purchase: Eladamri's Call for Bender's Waterskin
+if a non-foil copy fits the roughly 2,770 CLP left; otherwise Wood Elves for Bender's Waterskin.

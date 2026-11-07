@@ -1,0 +1,63 @@
+# Phase 2 shopping list (step 3, 2026-11-07): the cards whose live stock and price are read in every store of the
+# iteration. One English card name per line; `#` starts a comment. scripts/read_store_prices.py reads ONLY this file
+# when it exists (the Phase 1 targets are closed), and the browser lookup gets the same names.
+# Section A: deck upgrades (10,000 CLP: 5,000 for Kilo, 5,000 for Toph, Azula and Ezio). Section B: separate, priced
+# line by line for the owner (loan replacements, the real Ezio, full-art basics, stock cards).
+
+# ===== A. Toph (review round 3: Eladamri's Call first; fallbacks)
+Eladamri's Call
+Wood Elves
+Farseek
+Cultivate
+# ===== A. Azula
+Soul-Guide Lantern
+Swan Song
+Arcane Denial
+Dimir Locket
+Talisman of Creativity
+Talisman of Dominance
+Talisman of Indulgence
+# ===== A. Ezio
+Golgari Signet
+Battlefield Forge
+Llanowar Wastes
+Mind Stone
+Rogue's Passage
+Command Tower
+# ===== A. Kilo (Spanish copies only)
+Talisman of Conviction
+Prophetic Prism
+Volt Charge
+Swiftfoot Boots
+Freed from the Real
+Relic of Legends
+# ===== B. Loans to put back and the real commander (decks/phase2/restock.md)
+Eagle Vision
+Ezio Auditore da Firenze
+Bayek of Siwa
+Layla Hassan
+Cover of Darkness
+Unstoppable Slasher
+Achilles Davenport
+Hidden Footblade
+Overpowering Attack
+# ===== B. Full-art basics (3 Mountains short of 10 free; the reader skips basics, the browser lookup reads them)
+Mountain
+# ===== B. Stock cards several decks want
+Swords to Plowshares
+Arcane Signet
+Fellwar Stone
+Commander's Sphere
+Pull from Tomorrow
+Insight Engine
+Thirst for Knowledge
+Exotic Orchard
+Myriad Landscape
+Lightning Greaves
+Chaos Warp
+Beast Within
+Generous Gift
+Spire of Industry
+Glacial Fortress
+Mystic Monastery
+Radiant Summit

@@ -3,6 +3,16 @@
 Decisions the owner took on the builders' questions, plus the lead's resolution of the scarce copies, for the reviewers and
 the next build round. Newest first.
 
+## 2026-11-07
+
+| Deck | Question | Decision |
+|---|---|---|
+| Kilo, Ezio | Command Tower (no Spanish copy in stock) | Buy an English copy for Ezio (bilingual) and move Ezio's Spanish copy to Kilo. |
+| All | Cards "in stock" | Besides the deck purchases, buy cheap copies of cards several decks want (multi-deck staples), to keep in the collection, as he did with Evolving Wilds, Terramorphic Expanse and Path of Ancestry. Claude recommends the list. |
+| All | Full-art basic lands | Keep at least 10 FREE full-art basics of each color (not in any deck) after the four decks take theirs; buy the difference. Preference, not a requirement: Edge of Eternities (EOE) full-art basics; otherwise all the bought basics from one same set. |
+| All | Reino Eldrazi | Added as store 10 (Shopify, readable by script). |
+| All | Budgets | The 10,000 CLP are ONLY for deck upgrades. Everything else (loan replacements, the real Ezio, full-art basics, stock cards, tokens, Swiftfoot Boots extra) is separate, priced line by line, and the owner evaluates each line. |
+
 ## 2026-11-02 (fourth round)
 
 | Deck | Question | Decision |
@@ -27,7 +37,7 @@ the next build round. Newest first.
 |---|---|---|
 | All | Commander Salt | Two objectives, NOT 50-50: consistency and strategy first, Salt power second. Builders keep Salt in mind so that an excellent consistent list does not drop significantly on Salt (that would force a new build round); the builders' replacement lists are the first source of Salt-raising swaps that keep the gate passing. Buying cards should help both. |
 | All | Purchases | Every purchase of this iteration, for all four decks, comes from ONE store: Game of Magic Singles. |
-| Ezio | Loans to evaluate | All accepted: Cover of Darkness (replaces Mechanical Glider), Unstoppable Slasher (replaces Boros Guildmage), Achilles Davenport (replaces Adéwalé). Declared in decks/phase2.json `borrowed` and restock.md. |
+| Ezio | Loans to evaluate | All accepted: Cover of Darkness, Unstoppable Slasher, Achilles Davenport. Declared in decks/phase2.json `borrowed` and restock.md. (Correction 2026-11-07: the cards each loan would replace were the builder's proposals, never the owner's; the owner leaves every card choice to the builders, free, within the Bracket 3 rules.) |
 | Ezio | Coastal Piracy | It drew "a lot" for him in Ezio games: a proven role-player for Ezio. |
 | Ezio | Propaganda + Ghostly Prison | Both stay (he likes attack taxes). |
 | Azula | Overpowering Attack | Loan accepted (no store stock: the replacement waits for a restock). |

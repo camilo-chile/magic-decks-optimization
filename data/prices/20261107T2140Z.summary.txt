@@ -1,0 +1,62 @@
+Stores
+  magic4ever: {'cards_searched': 49, 'offers': 488}
+  cardnexus: {'cards_searched': 49, 'offers': 572}
+  lacomarca: {'products_read': 15118, 'products_count_reported': 17389, 'offers': 73, 'truncated': False}
+  piedrabruja: {'products_read': 2226, 'products_count_reported': 2565, 'offers': 3, 'truncated': False}
+  afkstore: {'products_read': 3211, 'products_count_reported': 3211, 'offers': 18, 'truncated': False}
+  reinoeldrazi: {'products_read': 10204, 'products_count_reported': 10321, 'offers': 113, 'truncated': False}
+
+Cards requested: 49; with at least one available offer: 42; with none: 7
+
+Cards with no available offer (English or Spanish, NM or LP):
+  Achilles Davenport
+  Eladamri's Call
+  Ezio Auditore da Firenze
+  Freed from the Real
+  Insight Engine
+  Layla Hassan
+  Overpowering Attack
+
+Cheapest available offer per card (any finish):
+  Arcane Denial: 3950 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Arcane Signet: 790 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Battlefield Forge: 500 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Bayek of Siwa: 1700 CLP at lacomarca (en, NM, foil, match exact)
+  Beast Within: 1190 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Chaos Warp: 790 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Command Tower: 690 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Commander's Sphere: 200 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Cover of Darkness: 7816 CLP at reinoeldrazi (es, NM, nonfoil, match exact)
+  Cultivate: 1090 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Dimir Locket: 200 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Eagle Vision: 425 CLP at reinoeldrazi (en, LP, nonfoil, match exact)
+  Exotic Orchard: 500 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Farseek: 1490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Fellwar Stone: 1790 CLP at cardnexus (es, NM, nonfoil, match exact)
+  Generous Gift: 1850 CLP at lacomarca (en, NM, nonfoil, match exact)
+  Glacial Fortress: 500 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Golgari Signet: 690 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Hidden Footblade: 350 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Lightning Greaves: 7990 CLP at cardnexus (en, NM, foil, match exact)
+  Llanowar Wastes: 1400 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Mind Stone: 590 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Myriad Landscape: 590 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Mystic Monastery: 300 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Prophetic Prism: 200 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Pull from Tomorrow: 490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Radiant Summit: 490 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Relic of Legends: 2600 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Rogue's Passage: 5950 CLP at lacomarca (en, NM, foil, match exact)
+  Soul-Guide Lantern: 490 CLP at cardnexus (es, NM, nonfoil, match exact)
+  Spire of Industry: 590 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Swan Song: 16990 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Swiftfoot Boots: 3590 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Swords to Plowshares: 2400 CLP at magic4ever (en, NM, nonfoil, match exact)
+  Talisman of Conviction: 790 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Talisman of Creativity: 3350 CLP at lacomarca (es, NM, nonfoil, match exact)
+  Talisman of Dominance: 10990 CLP at cardnexus (en, NM, foil, match exact)
+  Talisman of Indulgence: 2690 CLP at cardnexus (en, NM, nonfoil, match exact)
+  Thirst for Knowledge: 300 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Unstoppable Slasher: 5990 CLP at reinoeldrazi (en, NM, foil, match exact)
+  Volt Charge: 350 CLP at magic4ever (es, NM, nonfoil, match exact)
+  Wood Elves: 200 CLP at magic4ever (es, NM, nonfoil, match exact)

@@ -222,3 +222,102 @@ free swaps that raise consistency and likely Salt together: Bleeding Effect -> L
 Intervention, Bitter Triumph -> Kolaghan's Command; and the guide notes for the tapped lands, Command Bridge and Coastal
 Piracy. Owner decisions: the haste loan (Hidden Footblade, evaluate class) or a haste purchase; kill colors versus tempo in
 the mana base (Command Bridge -> Swamp, an untapped dual instead of Rogue's Passage).
+
+## Round 3 re-review (2026-11-04)
+
+Scope: the round-3 list committed as 21674e6. Against the round-2 list I reviewed, six swaps: Bleeding Effect -> Lion Vulture,
+Hookblade Veteran -> Angelic Intervention, Bitter Triumph -> Kolaghan's Command, Vindictive Warden -> Hidden Footblade
+(loan), Command Bridge -> Swamp, Murky Sewer -> Island (checked by a line diff, 99 + commander). Scripts rerun on
+2026-11-04: `plan_density.py` PASS (0 failures; warnings team_evasion 4 of 6, ramp 7 of 10; team_finishers 6 of 6);
+`check_phase2_bracket.py` PASS (floor 1, 0 Game Changers, 0 review items); live Scryfall `is:gamechanger` search: 53 cards,
+none in the list.
+
+### Recount from Oracle text (round 3)
+
+| Function | Round 2 | Round 3 (mine) | Evidence |
+|---|---|---|---|
+| Haste reaching a recast Ezio | 3 granters + Inventor (41 % by T5) | 4 granters + Inventor = 5 pieces: 48 % by T5, 54 % by T7; 5 with Marchesa's own | Swiftfoot Boots, Haunted Cloak, Hidden Footblade ({R}, flash), Boros Guildmage; Loyal Inventor fetches the three Equipment |
+| Team evasion (support) | 5 (about 3) | 4 = the profile floor; one repeatable team card (Cover of Darkness) | Cover, Secret Tunnel, Assassin Gauntlet (one swing), Mephitic Vapors (one sweep) |
+| Passes for EZIO himself on Board 1 | 9 (70 % by T5) | 10 (74 % by T5) | + Angelic Intervention (protection from red: red goblins cannot block him) |
+| Commander protection | 6 | 7 (61 % by T5) | + Angelic Intervention |
+| Net draw | about 8.5 | about 9.5 | + Lion Vulture (2/2 flier; draws every end step an opponent lost life, which this deck causes most turns) |
+| Spot removal | 9 | 9; unconditional creature kills 6 + Haytham + Royal Assassin | Kolaghan's Command kills only toughness 2 or less, but adds the third artifact answer and a recursion mode |
+| Through two bigger creatures | 17 | 16 real (the plan lists 17) | Hidden Footblade's first strike +1/+0 does not beat a bigger blocker; it is a haste card |
+| Team finishers / non-combat route | 7 / 3 cards | 6 (at the minimum) / 2 cards (Shao Jun, Kaya): 26 % by T7, 36 % by T13 | Vindictive Warden cut |
+| Mana, my simulation (40,000 games) | 3 untapped mana on T3 64 to 67 %; about 1.2 tapped lands by T4 | 71 % (78 % if all untapped); about 1.0 tapped lands by T4; Ezio on T2 72 % (unchanged) | 15 basics now: Sulfur Falls 6 enablers, Hinterland 5, Clifftop still 4 |
+| WUBRG at once (my optimistic run) | 63 % by T8 | 60 % by T8 (builder's conservative 51 %) | Green lands: 7 + 2 filters; Chromatic Lantern and Loyal Inventor carry it |
+
+Copies and loans: every new card is a free English copy in `assignment.json` (Lion Vulture TLE 232, Angelic Intervention MOM 5,
+Kolaghan's Command M3C 268, Swamp TLA/ACR, Island ACR 104); 100 cards, no missing, no problems. Hidden Footblade is the
+Standard-binder copy (`loan from the Standard decks`), accepted by the owner on 2026-11-02 (fourth round), in `borrowed`
+(8 entries: Eagle Vision, the proxy Ezio, Bayek, Layla, Cover of Darkness, Unstoppable Slasher, Achilles, Hidden Footblade)
+and in `restock.md`. Azula plays the free Footblade copy: two physical copies, so "one loan card in one deck" holds.
+
+### Round-2 items: status
+
+| Item | Status |
+|---|---|
+| I1 mana tempo | Partly closed: 3 mana on T3 up to 71 %; Clifftop Retreat (4 enablers) and Jungle Shrine are the tapped lands left to fix by purchase (R3-3) |
+| I2 haste | Closed in the list (5); the build text is stale (R3-4) |
+| I3 draw | Mostly closed (about 9.5) |
+| I4 team evasion | Mitigated (Ezio passes 10, protection 7); still one repeatable team card, at the floor 4 the pool allows |
+| I5 non-combat route | Worse: 2 cards (R3-2); accepted as a top-off, written as such in the plan |
+| I6 Salt | Swaps applied; the list is still unmeasured |
+| M1 condition_enablers | Closed (declared early, 21 pieces) |
+| M2 tags | Evie fixed; the attack taxes stay `engine` with a written reason (no defense tag in the schema): accepted |
+| M3, M4 build text | Open (R3-4) |
+| M5 Vapors | Closed (bad late) |
+
+### Findings (round 3)
+
+No BLOCKING finding.
+
+**R3-1 IMPORTANT (owner confirms). Boros Guildmage and Unstoppable Slasher are both in, against the literal owner decision.**
+The 2026-11-02 decision says "Unstoppable Slasher (replaces Boros Guildmage)". Guildmage came back in round 2 in the slot of
+the free Hidden Footblade (given to Azula), and now that the loaned Footblade is back, the builder cut Vindictive Warden instead
+of Guildmage. The build notes record this as history, not as a departure from a decision. On the merits keeping both is right
+[J, owner lesson L3]: haste 5 with four granters for a recast Ezio, against 4 (the floor) and three granters; Warden's {3} per
+1 damage was the weakest route card. Concrete swap only if the owner holds to the literal decision: Boros Guildmage -> Vindictive
+Warden (haste 4, team_finishers 7, non-combat route 3 cards). Recommendation: keep the list, and write the reason in the build
+notes for the owner to confirm.
+
+**R3-2 IMPORTANT. Team finishers sit exactly at the minimum (6), and the non-combat route is two cards.**
+Arno, Achilles, Bayek, Rally, Shao Jun, Kaya: 55 % by T5, 75 % by T13; one miscount or one future cut fails the gate.
+Shao Jun + Kaya: 36 % to see either by T13. Concrete swap if margin is wanted: Restart Sequence -> Vindictive Warden
+(team_finishers 7, route 3 cards; wipe_insurance 6 -> 5, min 2; Restart Sequence is marked bad early) [J]. Otherwise leave
+it, and cut none of the six without a replacement.
+
+**R3-3 IMPORTANT. The purchase wishes are not in the best order for this deck.** Price hints from the Game of Magic Singles
+readings of 2026-10-17 to 19 (`data/prices/browser-gameofmagic-*.psv`), stale; live stock before buying. Ranked by impact
+per CLP for Ezio:
+1. **Golgari Signet** (about 570 CLP) for Boros Locket: a turn-2 rock instead of a turn-3 one in a deck with 22 three-drops,
+   and it makes {B}{G}: green is the kill's thinnest color (7 green lands) and black pays freerunning. Better here than
+   Mind Stone (742, colorless).
+2. **Battlefield Forge** (about 915) for Clifftop Retreat: same colors, untapped every turn; Clifftop has 4 enablers and stays
+   tapped most early turns. Helps tempo and Salt's Manabase Quality.
+3. **Arcane Denial** (about 2,840) for Get Out: the only hard answer to a wrath; worth it, but the most CLP per point.
+4. **Llanowar Wastes** (about 1,600) for Jungle Shrine: an untapped green source; next if money remains.
+5. Mind Stone (742) and Rogue's Passage (742) last: colorless; Secret Tunnel already gives unblockable.
+
+Envelope (5,000 CLP for Toph, Azula and Ezio): with Azula buying only Soul-Guide Lantern (about 742), items 1 to 3 cost about
+4,325 and the total about 5,067: slightly over, with nothing for Toph (whose rank 1, Eladamri's Call, has no reading). Ezio's
+fair share is items 1 and 2 (about 1,485), plus Arcane Denial only if Toph's wishes fit in what is left. The lead decides.
+
+**R3-4 MINOR. Stale build text.** Section 11 still says "4 battle lands", "13 basics", "Check lands mostly untapped
+(9 Swamps)"; section 5 keeps "Expedite (next haste add)" and section 12 Q2 "Haste sits at the minimum (4)... Expedite for
+Octopus Form" (Expedite is Azula's; haste is 5); the profile table shows commander protection "Actual 6" (it is 7),
+wipe_insurance 5 (the plan has 6, with Kolaghan's Command), payment_enablers 9 (it is 8); section 12 Q1 still asks for Arcane
+Denial and Mind Stone; the Coastal Piracy guide still says "turn 4 or 5" ({U}{U}: about 50 % by T4). Fix: edit the text; no
+list change.
+
+**R3-5 MINOR. Hidden Footblade is listed in through_big_creatures.** Its first strike and +1/+0 do not get past a bigger
+creature; through_big_creatures is 16 without it (still above 10). Fix: remove it from that function in the plan file.
+
+**R3-6 Salt.** The round-3 swaps should raise Salt (an instant 2-for-1, a protection spell, a draw engine, fewer tapped
+lands); measure the list now. Further Salt-raising buys that keep the gate are R3-3 items 1, 2 and 4 (untapped mana).
+
+### Verdict (round 3)
+
+**PASS (ship to Salt).** The list fixes the round-2 IMPORTANT items it could fix from the collection. Still open: the owner's
+confirmation of Guildmage plus Slasher (R3-1), the thin margin of the late finishers (R3-2), the order of the purchase wishes
+(R3-3) and stale text (R3-4, R3-5).

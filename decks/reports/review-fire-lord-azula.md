@@ -237,3 +237,107 @@ To do in the same round (not blocking): I1 Solve the Equation back; I2 Salt meas
 swaps listed); I3 split `window_mana`; fix the notes' Godo floor (I4), Unleash Fury arithmetic (M2), Gearhulk X note (I1) and the
 Run Amok fallback in the pull list (M7). The plan itself is right: Azula's window, 31 window spells, 8 protection pieces and about
 16 block punishers make a coherent deck; it runs out of cards before it runs out of plan.
+
+## Round 3 re-review (2026-11-04)
+
+Scope: the round-3 list committed in 21674e6 (`git diff 30de44d 21674e6 -- decks/phase2/fire-lord-azula.*`). Against the round-2
+list reviewed above, six cards changed: Expedite to Zuko, Exiled Prince; The Last Agni Kai to Waterbending Lesson; Redirect
+Lightning to Malcolm, the Eyes; Loyal Inventor to Solve the Equation; Imprisoned in the Moon to Abandon Attachments; Soul-Guide
+Lantern to Run Amok (stand-in until bought); one Island to Mountain (6 Island, 6 Mountain, 5 Swamp). 100 cards.
+Rerun by the reviewer: `plan_density.py` PASS (0 failures; warnings: attackers 6 of 12, ramp 11 of 12);
+`check_phase2_bracket.py` PASS (floor 3, 0 Game Changers, Godo + Helm of the Host "two-card combo, late").
+
+### Recount from Oracle text
+
+| Function | Round 2 | Round 3 (reviewer) | Builder | Min | Status |
+|---|---|---|---|---|---|
+| Window spells (instants + flash) | 31 | **30** (26 instants + Amphibian Downpour, Dualcaster Mage, Hidden Footblade, Torrential Gearhulk; script check) | 30 | 30 | At the minimum: any instant that leaves for a non-instant fails the gate |
+| Net draw, weighted | about 9 | **about 12.25**: full Archmage, BMC, Fact or Fiction, Pull, Gleam of Death, Waterbending Lesson (6); 0.75 Zuko, Malcolm, Azula OtH; half Big Score, Thrill, Abandon Attachments, Frostcliff (Jeskai), Dimir Locket, Fists of Flame, Blazing Crescendo, Cunning Maneuver | about 12.5 | 12 | Met (target 18 not met). Five repeatable engines now (Archmage, BMC, Zuko, Malcolm, Azula OtH) |
+| Spot removal | 10 | **8**: Terminate, Hero's Downfall, Go for the Throat, Chaos Warp, Abrade, Lightning Strike, Snap, Amphibian Downpour (+ Negate, Narset's Reversal) | 8 + 2 | 8 | At the minimum |
+| Commander protection | 8 | **7**: Swiftfoot Boots, Champion's Helm, Octopus Form, Deflecting Swat, Narset's Reversal, Negate, Undying Malice | 7 | 6 (attack engine 6 to 8) | Met |
+| Haste for Azula | 4.5 | **4**: Swiftfoot Boots, Haunted Cloak, Hidden Footblade, Frostcliff Siege (Temur); all repeatable | 4 | 4 | At the minimum; reason now correct (the pool has no other haste giver) |
+| Defense while tapped | 4.5 | **about 4**: Propaganda, Haunted Cloak, Thermo-Alchemist, Nightscape Familiar ({1}{B} regenerating blocker, not listed by the builder), Octopus Form (half). Bender's Waterskin is ramp, not defense | 5 listed | 4 | Met once Nightscape replaces Waterskin in the support list |
+| Answers to commanders | 3 | 2 (Amphibian Downpour, Chaos Warp) | 2 | 2 | Met |
+| Route 1 access (Comet Storm) | 2 pieces | 4 (Comet Storm, Mystical Teachings, Solve the Equation, Electrodominance as a weak stand-in): 51 % by turn 9, 60 % by turn 13 | same | | Improved |
+| Colored land sources | U19 B18 R17 | U18 B18 R18 | same | | M6 closed |
+
+Average mana value 2.78 (63 nonland cards, X at 0).
+
+New cards, physical copies (`assignment.json`: problems none, missing none): Zuko (EN TLA 163), Malcolm (EN OTJ 219),
+Waterbending Lesson (EN TLA 80; the Spanish copy is the Spanish deck's), Abandon Attachments (EN TLA 205), Run Amok (EN TLE 258),
+the 6th Mountain (EN). All free English copies. Solve the Equation is the only owned copy (Spanish STX 54), allowed in a
+bilingual deck. No new card is in another deck.
+
+New tags in the plan file: Zuko `draw, engine`; Malcolm `draw`; Waterbending Lesson `draw`; Abandon Attachments `draw`; Solve
+`tutor`; Run Amok `payoff`; Fists of Flame, Blazing Crescendo and Cunning Maneuver now `payoff` first and `draw` second (the
+B1 tagging issue is fixed). Solve is listed as a tutor for `spell_payoffs`, but among the payoffs it can fetch only Narset's
+Reversal (Dualcaster and Gearhulk are creatures); its entries for both reference boards are real. The gate is not affected.
+
+### Status of the round-2 findings
+
+| Item | Status | Evidence |
+|---|---|---|
+| B1 draw | **Closed** | About 12.25 weighted; tricks retagged |
+| I1 Comet Storm route | **Closed** | Solve the Equation in; Gearhulk X = 0 warning in the route text |
+| I2 Salt | **Open** (the lead's step) | Not measured; owner floor 7.5. Change since round 2: +1 tutor, +4 draw; -2 answers, -1 protection |
+| I3 window_mana | Closed | Redefined as one verb (mana usable inside the window); keepers reported apart (3) |
+| I4 Godo floor | Closed | Turn-4 floor and about 5 % by turn 6 written in R11 |
+| M1 haste reason | Closed | |
+| M2 Unleash Fury arithmetic | Closed | 16, or 24 with Champion's Helm |
+| M3 Day of Black Sun against Board 2 | Closed | Removed from `through_big_creatures` |
+| M4 own wipes | Closed | The Ritual of Soot guide row lists the losses |
+| M5 Loyal Inventor | Closed | Cut |
+| M6 red sources | Closed | 18 / 18 / 18 |
+| M7 Lantern stand-in | Closed, but see R3-1 | Run Amok is in the list and assigned |
+| M8 purchase readings | Open | See R3-3 |
+| M9 tag inflation | Partly open | Waterskin still counted as defense (R3-2); Lantern and Glamdring fixed |
+| M10 answers against closers | Closed | 12 answers against about 11 damage closers |
+
+### Findings
+
+No blocking item.
+
+**R3-1 (IMPORTANT): three planned swaps would fail the gate, because window spells sit at exactly 30.**
+- Lantern back in: the notes say Run Amok plays "until the Lantern is bought". Run Amok is an instant and the Lantern an
+  artifact: 30 to 29, spell_density FAILS. Swap when the Lantern arrives: **Soul-Guide Lantern for Dimir Locket** (the 3-mana rock
+  that competes with Azula's turn; ramp 11 to 10, still the archetype's base floor of 10; the warning stays). Run Amok stays.
+- Open question 1, "Mechanical Glider for Abandon Attachments": the Glider is an artifact without flash, so 29 (FAIL), and draw
+  falls to about 11.75. If the Glider is ever needed: **Mechanical Glider for Bender's Waterskin** (ramp 11 to 10).
+- The two Salt fallbacks together ("Fatal Push for Abandon Attachments" and "Mana Leak for Cunning Maneuver") keep 30 window
+  spells but drop draw to about 11.25, under 12. Use one: best single swap [J] **Fatal Push for Cunning Maneuver** (removal 9,
+  draw about 11.75, blocks punished 16 to 15; revolt is easy with the deck's Clues and Treasures). A second Salt swap must not
+  touch a draw piece: **Mana Leak for Snap** keeps draw and density but takes removal back to 8 (with Fatal Push in).
+
+**R3-2 (MINOR): defense while tapped is counted with the wrong card.** Bender's Waterskin is ramp. Plan file only:
+`defense_while_tapped` drop Waterskin, add **Nightscape Familiar** (regenerating blocker). The count stays at the min (about 4).
+
+**R3-3 (IMPORTANT, purchases for the shared 5,000 CLP).** Price hints at Game of Magic Singles (browser reading 2026-10-17,
+stale; live stock is the lead's check): Soul-Guide Lantern 742 (EN EOC or ES WOE); Arcane Denial 2,840 (OTC); no normal
+printing of Talisman of Dominance, Creativity or Indulgence (only a 12,840 foil Creativity and a 39,640 Secret Lair
+Indulgence); Swan Song not read. The share is already over-asked: Toph's wishes are about 2,900; Ezio asks Arcane Denial 2,840
+and Mind Stone 742; Azula's Lantern is 742. Judgment:
+- **Buy for Azula: Soul-Guide Lantern only** (owner decision; the deck's only graveyard answer; 742). Swap: Lantern for Dimir
+  Locket (R3-1).
+- **Withdraw Arcane Denial from Azula's wishes.** Ezio ranks it first with the bigger need (no wrath answer at all); Azula has
+  Negate, Narset's Reversal and Undying Malice against wipes. Two copies (5,680) do not fit the share.
+- **Withdraw the Talisman.** No normal printing at the store, and ramp 11 is only a warning.
+- **Swan Song only with money left after Toph's and Ezio's first items**, and only at a live price under about 1,500 CLP. It is
+  the best second buy for Azula: one mana, it counters removal, sorcery wipes and the enchantments that tax or lock her window
+  (the deck's only answer to an enchantment in play is Chaos Warp). Swap: **Swan Song for Run Amok** (instant for instant,
+  density 30; protection 7 to 8; team evasion 7 to 6, still the min; blocks punished 16 to 15).
+
+**R3-4 (MINOR): one answer to an enchantment in play (Chaos Warp)**, besides Negate on the stack. Already true in round 2
+(Imprisoned in the Moon never hit enchantments). Swan Song (R3-3) is the fix that fits; no free owned card adds it without
+breaking a minimum.
+
+### Owner context
+
+- Combos: none new; Godo + Helm of the Host still classed late by the script; accepted as a standing owner decision.
+- Power: the strongest consistent version so far (draw, route access and color balance improved; nothing under a minimum).
+  Salt's 7.5 floor is unverified until the lead measures it; if the score falls under 8, use the single swap in R3-1.
+
+### Verdict: PASS (ship to Salt)
+
+Conditions that keep it a pass: never replace a window spell with a non-instant while density is at 30 (the Lantern goes in for
+Dimir Locket, not for Run Amok); fix the defense tag (R3-2); trim the purchase wishes to the Lantern, plus Swan Song only if the
+shared money allows (R3-3).

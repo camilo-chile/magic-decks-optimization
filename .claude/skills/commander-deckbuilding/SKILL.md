@@ -1,6 +1,6 @@
 ---
 name: commander-deckbuilding
-description: Expert method to build, upgrade, cut or review a 100-card Commander deck for casual 3 to 4 player pods at Bracket 3. Use it to read a commander and derive its profile (one plan, the functions it needs with a count and a reason for each, land count, curve, win routes, interaction mix), to choose and cut cards, to judge a list's consistency, and to write or attack the plan file that scripts/plan_density.py checks.
+description: Expert method to build, upgrade, cut or review a 100-card Commander deck for 3 to 4 player pods, inside the Bracket 3 rules while aiming at Bracket 3 power OR HIGHER (Bracket 4 and 5 cards welcome). Use it to read a commander and derive its profile (one plan, the functions it needs with a count and a reason for each, land count, curve, win routes, interaction mix), to choose and cut cards, to judge a list's consistency, and to write or attack the plan file that scripts/plan_density.py checks.
 ---
 
 # Commander deckbuilding method
@@ -31,6 +31,14 @@ in `.claude/skills/commander-deckbuilding/`: detail lives in `references/`, mach
    strong the deck is, and what bracket or power number a site or a bot labels it with, never limits a choice. A power score (Commander Salt) measures ideal draws; it is
    the second objective: once a list passes the consistency gate and the review, raise its score with swaps that keep both
    passing. Never trade consistency for points.
+7. **Aim at Bracket 3 power OR HIGHER, inside the Bracket 3 rules** (owner, 2026-11-07); the "or higher" is the point. Build like an expert of competitive
+   Commander (cEDH) would if asked for the strongest list that obeys those rules: the Bracket 3 medians and EDHREC averages quoted below
+   describe typical casual decks, so use them as floors and sanity checks, never as targets. Where the plan allows, take
+   the competitive option: fill the three Game Changer slots with the best ones the deck can get, run tutors toward the
+   win lines, prefer cheap efficient interaction and protection, keep the curve low, and favour fast mana that is not a
+   Game Changer. Actively consider the cards of Bracket 4 and Bracket 5 (cEDH)
+   lists for every slot: they are welcome whenever the deck still breaks no Bracket 3 rule, and leaving out a stronger legal
+   card needs a reason.
 
 ## 0. Inputs and outputs
 

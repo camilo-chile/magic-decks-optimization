@@ -16,6 +16,7 @@ given him good experiences and are the default choice.
 | 7 | Oasis Games | oasisgames.cl | https://www.oasisgames.cl/collections/mtg-singles-instock | Shopify; Chilexpress, Correos, Starken; price at checkout | unknown | 2026-10-16 (recon) |
 | 8 | Piedra Bruja | piedrabruja.cl | https://piedrabruja.cl/collections/single-mtg | Shopify; shipping price at checkout (assumed 5,000 CLP, outside the budget) | unknown | 2026-10-16 (recon); added by the owner, he knows the store |
 | 9 | AFK Store | afkstore.cl | https://www.afkstore.cl/collections/singles-mtg | Shopify; shipping price at checkout (assumed 5,000 CLP, outside the budget) | unknown | 2026-10-16 (recon); added by the owner, he knows the store |
+| 10 | Reino Eldrazi | reino-eldrazi.cl | https://reino-eldrazi.cl/ | Shopify (collection `todo-magic`, 10,321 products); public `products.json` answered 200 to a script with per-variant `available`, no 429 on 3 quick pages; shipping price at checkout (assumed 5,000 CLP, outside the budget) | unknown | 2026-11-07 (recon); added by the owner |
 
 ## Store selection rule (owner's criterion, left to the optimizer)
 - Shipping is outside the budget (owner, 2026-10-16): assumed 5,000 CLP per store, reported

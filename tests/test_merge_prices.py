@@ -111,7 +111,7 @@ def test_a_short_browser_file_adds_cards_to_the_earlier_file_of_a_store():
 
 def test_script_reads_the_api_and_catalog_stores_but_not_the_browser_ones():
     enabled = sorted(s["id"] for s in mod.rsp.STORES if s["enabled"])
-    assert enabled == ["afkstore", "cardnexus", "lacomarca", "magic4ever", "piedrabruja"]
+    assert enabled == ["afkstore", "cardnexus", "lacomarca", "magic4ever", "piedrabruja", "reinoeldrazi"]
 
 
 if __name__ == "__main__":

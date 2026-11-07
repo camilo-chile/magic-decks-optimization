@@ -62,7 +62,10 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
   land denial, no chained extra turns, no early two-card infinite combo (`scripts/check_phase2_bracket.py`). It is never a
   power cap: the bracket or power label that Commander Salt, a bot or a site gives a deck (Azula was read as Bracket 4) is
   irrelevant, a higher one (Bracket 5, competitive) is welcome, and no card is cut or combo held back because of it. Only a
-  broken rule counts.
+  broken rule counts. Power target (owner, 2026-11-07): Bracket 3 power OR HIGHER inside the Bracket 3 rules, with Bracket 4 and 5 (cEDH) cards
+  actively considered for every slot, built as an
+  expert of competitive Commander (cEDH) would (fill the three Game Changer slots, tutors toward the win lines, cheap interaction, low curve);
+  Bracket 3 averages are floors, never targets (skill principle 7).
 - The fourth deck: Claude chooses its commander from the Spanish collection. His Spanish "Counter Intelligence" precon is the
   base, but another commander may be better; the choice is judgment work (Opus 5.5 high) over a deterministic table of the
   owned legendary creatures and the cards they would take.
@@ -194,20 +197,22 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
   prefer independent verification, the strongest model the model policy allows (Opus 5.5 high) and more
   researchers over speed or token savings. Multi-agent workflows are welcome; state the plan and ask before
   launching unless the user already said to proceed.
-- Model policy (owner decision, 2026-10-25; supersedes every earlier model or effort choice): always the 5.5
-  models, only these three pairs, enforced on every Agent call by `.claude/hooks/check-agent-model.sh`
-  (test table `evals/agent_model_cases.tsv`) and set for the main session in the user's `~/.claude/settings.json`:
+- Model policy (owner decisions 2026-10-25 and 2026-11-07, which replaced Sonnet xhigh with Opus medium and Haiku max
+  with Haiku xhigh; supersedes every earlier model or effort choice): always the 5.5 models, only these three pairs,
+  enforced on every Agent call by `.claude/hooks/check-agent-model.sh` (test table `evals/agent_model_cases.tsv`) and set
+  for the main session in the user's `~/.claude/settings.json`:
 
   | Work | Model @ effort |
   |---|---|
   | The hardest, most delicate or "we cannot fail" work: deck-building judgment, adversarial review, final review of a purchase order, anything that costs money or cannot be undone | **Opus 5.5 @ high** (`model: opus`, `effort: high`) |
-  | Planning, orchestrating, general chat, code, dashboard (the main session) | **Sonnet 5.5 @ xhigh** (`model: sonnet`, `effort: xhigh`) |
-  | Repetitive or light work: stock and price reading, browser reading, Salt measurements, cleanup audits, commit messages | **Haiku 5.5 @ max** (`model: haiku`, `effort: max`; `max` can only be set in an agent definition or on the Agent call, never in settings files) |
+  | Medium work: planning, orchestrating, general chat, code, dashboard (the main session) | **Opus 5.5 @ medium** (`model: opus`, `effort: medium`) |
+  | Simple, repetitive or light work: stock and price reading, browser reading, Salt measurements, cleanup audits, commit messages | **Haiku 5.5 @ xhigh** (`model: haiku`, `effort: xhigh`) |
+  | Special: driving the browser (store reading, Moxfield, Commander Salt), owner 2026-11-07, on trial | **Haiku 5.5 @ medium**, only through the browser agent `stock-verifier` (the hook allows this pair for it only); if it fails twice on a task, Haiku 5.5 @ xhigh |
   | Deterministic work | No model: a script in `scripts/` |
 
-  Never Opus xhigh or max, Sonnet below xhigh, Haiku below max, Fable, ultracode, agent teams or `/fast`. Always pass
-  both `model` and `effort` when launching an agent. After two failures of one model on a task, go up one rung (Haiku,
-  then Sonnet, then Opus). **Announce rule:** before launching any task that differs from the one in progress (a new
+  Never Sonnet, Opus xhigh, max or low, Haiku at any level other than xhigh, Fable, ultracode, agent teams or `/fast`.
+  Always pass both `model` and `effort` when launching an agent. After two failures of one model on a task, go up one
+  rung (Haiku xhigh, then Opus medium, then Opus high). **Announce rule:** before launching any task that differs from the one in progress (a new
   agent, a subtask of another kind, a phase change), write one line `→ Model @ effort: <X> (reason)` and only then launch
   it; if the work stays in the main session, say so. The announcement is part of the "ask before launching" estimate.
 - Deck-building model (owner decision, 2026-10-18; effort lowered to high on 2026-10-25 by the model policy above): the
@@ -306,8 +311,8 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
 | `evals/` | The hook test tables (`hook_cases.tsv` with `run_hook_cases.sh` for git; `agent_model_cases.tsv` with `run_agent_model_cases.sh` for the model policy) and the test plan (`README.md`) |
 | `decks/candidates/<slug>/` | Real public lists copied from Commander Salt deck pages (candidate end states), `README.md` with their site scores and Layer A results, `meta-staples-bracket3.md` (Upgrades picks), `extra-targets.txt` (names to price for a deck with no candidate list yet, such as `ezio-auditore-da-firenze`), `gate-report.json` from `scripts/check_candidates.py` |
 | `.claude/skills/` | `rate-deck`, `check-stock`, `build-deck` (all user-invoked) |
-| `.claude/agents/` | `stock-verifier` (Haiku 5.5, `effort: max`) |
-| `.claude/hooks/` | `block-git-writes.sh` (PreToolUse: git read-only, `add`/`commit` only with the owner's authorization), `authorize-commit.sh` (UserPromptSubmit: writes the one-shot authorization when his message says "autorizo commit") and `check-agent-model.sh` (PreToolUse on `Agent`: only opus+high, sonnet+xhigh, haiku+max) |
+| `.claude/agents/` | `stock-verifier` (Haiku 5.5, `effort: medium`, the browser pair), `deck-builder`, `deck-reviewer`, `blind-deck-reviewer` (Opus 5.5, `effort: high`) |
+| `.claude/hooks/` | `block-git-writes.sh` (PreToolUse: git read-only, `add`/`commit` only with the owner's authorization), `authorize-commit.sh` (UserPromptSubmit: writes the one-shot authorization when his message says "autorizo commit") and `check-agent-model.sh` (PreToolUse on `Agent`: only opus+high, opus+medium, haiku+xhigh) |
 | `.githooks/pre-commit` | Blocks commits made with a non-personal git email |
 
 ## Known facts and pitfalls

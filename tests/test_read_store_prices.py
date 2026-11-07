@@ -193,6 +193,16 @@ def test_extra_targets_of_a_deck_without_a_candidate_list_are_read():
     assert sorted(got.values()) == ["Bayek of Siwa", "Mari, the Killing Quill"]  # a basic land is never a target
 
 
+def test_shopping_list_targets_read_names_skip_comments_and_basics():
+    import tempfile
+    with tempfile.TemporaryDirectory() as tmp:
+        path = Path(tmp) / "shopping-list.txt"
+        assert mod.shopping_list_targets(path) == {}  # no file: the Phase 1 targets stay
+        path.write_text("# header\nSol Ring\n\nMountain\nArcane Denial  # for Ezio\nSol Ring\n", encoding="utf-8")
+        got = mod.shopping_list_targets(path)
+        assert sorted(got.values()) == ["Arcane Denial", "Sol Ring"]
+
+
 def test_new_names_are_the_targets_the_newest_run_did_not_request():
     import json
     import tempfile

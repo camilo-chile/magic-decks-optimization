@@ -53,6 +53,7 @@ history). Power is now measured with Commander Salt
 | D20 | Target bracket per deck; all three are 3 | **Kept** |
 | D21 | Commander Salt is the yardstick, used by hand in the browser, no email, no scripting (2026-10-13) | **New** |
 | D22 | Model policy (2026-10-25): only Opus 5.5 high, Sonnet 5.5 xhigh and Haiku 5.5 max; Opus high for the critical work (deck-building judgment, adversarial review, final review before paying), Sonnet xhigh for planning, orchestration and chat, Haiku max for repetitive work (stock, prices, Salt reading, cleanup); the model is announced before each different task; enforced by `.claude/hooks/check-agent-model.sh`. Supersedes the Opus xhigh rule of 2026-10-18 | **New** |
+| D23 | Model policy pairs changed (owner, 2026-11-07): Sonnet 5.5 xhigh replaced by Opus 5.5 medium for medium work (main session, planning, code), Haiku 5.5 max replaced by Haiku 5.5 xhigh for simple work; Opus 5.5 high unchanged | **Current**; supersedes the pairs of D22 and the `max` effort of D9 |
 
 ## Open items
 | ID | Question | When |

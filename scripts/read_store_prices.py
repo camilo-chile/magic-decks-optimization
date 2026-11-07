@@ -61,6 +61,8 @@ STORES = [
      "base": "https://piedrabruja.cl", "collection": "single-mtg", "enabled": True},
     {"id": "afkstore", "pref": 9, "name": "AFK Store", "kind": "shopify",
      "base": "https://www.afkstore.cl", "collection": "singles-mtg", "enabled": True},
+    {"id": "reinoeldrazi", "pref": 10, "name": "Reino Eldrazi", "kind": "shopify",
+     "base": "https://reino-eldrazi.cl", "collection": "todo-magic", "enabled": True},
 ]
 # Read in the owner's browser (the Shopify stores answer HTTP 429 to this client, see
 # docs/research/phase7-handoff-2026-10-17.md): never requested by this script.
@@ -129,6 +131,22 @@ def ladder_names(text):
         match = re.match(r"^\d+\s+(.+)$", line)
         if match:
             names.append(match.group(1).strip())
+    return names
+
+
+SHOPPING_LIST = ROOT / "decks" / "phase2" / "shopping-list.txt"
+
+
+def shopping_list_targets(path=SHOPPING_LIST):
+    """Phase 2: normalized front-face name -> display name of the shopping list (one name per line, `#` comments),
+    minus basic lands; empty when the file does not exist."""
+    names = {}
+    if path.exists():
+        for line in path.read_text(encoding="utf-8-sig").splitlines():
+            raw = line.split("#")[0].strip()
+            key = la.normalize(raw.split(" // ")[0]) if raw else ""
+            if key and key not in BASICS:
+                names.setdefault(key, raw.split(" // ")[0].strip())
     return names
 
 
@@ -542,7 +560,11 @@ def main():
     except ImportError:
         print("The 'requests' package is missing in this environment. Run once:\n  pip install requests")
         sys.exit(2)
-    targets = targets_from_repo()
+    # Phase 2: the shopping list replaces the Phase 1 targets, and every name is read again (live stock check)
+    targets = shopping_list_targets()
+    live = bool(targets)
+    if not live:
+        targets = targets_from_repo()
     if not targets:
         print("No cards found under decks/candidates/ or decks/locked.txt.")
         sys.exit(2)
@@ -552,7 +574,8 @@ def main():
     progress.log(f"{len(targets)} cards to price; stores: "
                  + ", ".join(s["name"] for s in STORES if s["enabled"]))
     active = [s for s in STORES if s["enabled"]]
-    fresh = new_names(targets)  # one search per card stores look up only the names not priced yet
+    # one search per card stores look up only the names not priced yet, except for a live shopping-list check
+    fresh = dict(targets) if live else new_names(targets)
     progress.log(f"{len(fresh)} of them are new since the newest run")
     offers, store_stats = read_all_stores(requests, active, targets, fresh, progress)
     # a one-card-at-a-time store that failed did not look up the new names: the next run must try them again

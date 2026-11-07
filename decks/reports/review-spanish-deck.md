@@ -271,3 +271,131 @@ now. Recommended purchases, Spanish and in stock today: Swiftfoot Boots 3,280 (e
 Talisman of Conviction 1,500 (inside the cap, for Inspiring Overseer); Command Tower only if a Spanish copy is in stock at
 purchase time (for The Mycosynth Gardens). Then the plan-file fixes M-1 and M-3, and a plan sentence that admits the combat
 route closes most games (I-3). After the swaps the list should be re-run through `plan_density.py` and measured on Salt.
+
+## Round 3 re-review (2026-11-07)
+
+Scope: the round-3 list committed as 21674e6 (`git diff 30de44d 21674e6 -- decks/phase2/spanish-deck.*`); the working tree
+matches the commit. Compared with the list reviewed in round 2, three slots of the 99 changed: Golem Foundry → Barrels of
+Blasting Jelly, Detained by Legionnaires → Chromatic Star, The Mycosynth Gardens → a fifth Mountain. The plan file got fixes
+M-1 and M-3, and the plan sentence was rewritten. Applied: the owner's standing rules of 2026-11-07. Card choices are free; the
+only binding limits are the Bracket 3 rules and the deck's rules (100 % Spanish copies, owned or bought within 5,000 CLP at Game
+of Magic Singles, plus the Swiftfoot Boots extra).
+
+### Scripts (rerun 2026-11-07)
+- `python scripts/check_phase2_bracket.py decks/phase2/spanish-deck.txt`: **PASS**. Floor 1, 0 Game Changers, no extra turns, no
+  mass land denial, 0 Spellbook combos inside the list.
+- `python scripts/plan_density.py`: **PASS**, 0 failures and 2 warnings:
+  - `counter_doublers` reaches 10 only with Kilo (9 without it).
+  - Ramp is 9 of 10.
+
+  Base counts: ramp 9, draw 13, removal 9 (Soul-Guide Lantern included), wipe 2, protection 4. Cards bad when drawn: 10 early
+  and 2 late. Both scripts rewrote their reports with identical content (no diff).
+
+### Recount from Oracle text
+
+| Function | Round 2 | Round 3 | Notes |
+|---|---|---|---|
+| Ramp (timed, by turn 2) | ~5 | ~5 | Unchanged. Barrels ("{1}: Add one mana of any color", once a turn) and Chromatic Star ("{1}, {T}, sacrifice: one mana of any color") convert mana instead of adding it, so they are correctly not tagged ramp. |
+| Color fixing for Kilo | The Mycosynth Gardens (a converter that uses up another land's mana) | Barrels and Chromatic Star (converters that use up no land), plus a fifth Mountain | See the simulation below. |
+| Proliferate | 10 with Kilo, 8 alone (North Pole Patrol filed by mistake) | 10 with Kilo, 9 alone | M-1 fixed: North Pole Patrol now sits only in `kilo_tap_outlets`. The 9 alone include Tekuthal, which only doubles another proliferate. |
+| Kilo tap outlets | 10 + Kilo | 10 + Kilo | Unchanged (Katara is now listed). |
+| Commander protection | ~3.25 weighted | ~3.25 weighted | Unchanged until the Boots are bought. |
+| Draw | 13 | 13 | Chromatic Star's card replaces itself, so it is not counted. |
+| Spot removal | 8 | 8 | Detained out, Barrels in ("{5}, {T}, sacrifice: 5 damage to target creature": slow, about 6 mana in total). Answers that keep an opposing commander off the table: Chaos Warp, Tranquilize (its stun counters are kept up by proliferate), Dispatch with metalcraft, Lux Cannon. That is still 2 or more (skill step 6). |
+| Counter sources / payoffs | 24 / 16 | 23 / 15 | Golem Foundry out; both stay far above their minimums (12 / 6). |
+| Lands | 37 | 37 | Sources that need no other land: U 16, W 13, R 14. Always-tapped lands: still 5. |
+
+**Kilo castable on curve.** Same Monte Carlo as finding I-1, 6,000 trials. Barrels, Chromatic Star and Prophetic Prism are
+modeled as one free color conversion from turn 2.
+
+| List | Turn 3: all games / with 3+ lands | Turn 4 (3+ lands) | Turn 5 (3+ lands) |
+|---|---|---|---|
+| Round 2 list | 64.5 % / 76.4 % | 85.2 % | 88.8 % |
+| Round 3 list (now) | 68.4 % / **82.0 %** | 88.1 % | 91.2 % |
+| + Talisman of Conviction (for Inspiring Overseer) | 70.3 % / 83.4 % | 89.1 % | 92.2 % |
+| + Talisman and Command Tower (builder's plan; the Tower is not buyable, see R3-1) | 73.2 % / 85.6 % | 91.0 % | 93.5 % |
+| + Talisman, Prophetic Prism (for Etherium Sculptor) and Volt Charge (reviewer's plan, all in stock) | 72.0 % / **85.2 %** | 90.8 % | 93.2 % |
+
+The builder's 83 % and 85.5 % are reproduced. A Plains instead of the fifth Mountain gives the same rate (82.0 %): white and red
+now fail about equally often, so the basic split is fine.
+
+### Copies and language
+`data/model/phase2/assignment.json` matches the list exactly (100 of 100, no differences). The new cards are Barrels of Blasting
+Jelly (TLA 254, ES), Chromatic Star (TSR 263, ES) and 5 Mountains (ACR 305, ES), all from the Spanish binder. No other deck
+takes them; the other decks' Mountains are English. The build notes still say these two cards are "not in assignment.json";
+they are (cosmetic, see R3-3).
+
+### Round 2 items
+
+| Item | Status |
+|---|---|
+| B-1: the purchases could not be bought | Closed: Freed from the Real and Relic of Legends moved to an optional path, and the ranking was redone. But 2 of the 3 new items inside the cap cannot be bought either (R3-1). |
+| I-1: Kilo on turn 3 | Improved from 76 % to 82 % with owned cards, and to 85 % with the in-stock purchases. Accepted. |
+| I-2: timed ramp about 5 | Open until the Talisman is bought (it is in stock). |
+| I-3: the noncombat route rests on two cards | Closed in the text: the plan and backup now say so, and the combat route is co-primary. No tutor can be bought: Fabricate is in stock in Spanish only as a 9,800 foil, and Whir of Invention is out of stock. |
+| I-4: commander protection | Open until the Boots are bought. **In stock today:** 3,280, The Brothers' War Retro Artifacts schematic, NM ES. |
+| M-1: North Pole Patrol in `counter_doublers` | Fixed. |
+| M-2: small flyers counted in `through_wide_board` | Accepted as is (no change was asked). |
+| M-3: `bad_when_drawn` under-marked | Fixed (Katara and Astral Cornucopia early, Etherium Sculptor late). |
+| M-4: Command Tower should replace The Mycosynth Gardens | Done in substance (the Gardens are out). |
+
+### Findings
+
+**R3-1 (IMPORTANT, purchases). Two of the three purchases inside the cap cannot be bought.**
+- Live read on 2026-11-07 (each product's `.js` variant data, the `available` flag per variant):
+  - **Command Tower:** 39 products read, 0 unread, **no Spanish variant in stock**. Only English copies (Edge of Eternities
+    Commander, 1,200) and foils are in stock.
+  - **A second Spanish two-mana rock:** **none in stock** among Talisman of Creativity, Talisman of Progress, Izzet, Boros and
+    Azorius Signet, Fellwar Stone and Mind Stone (7 to 10 products each, all read). Caveat: the store's search returns at most
+    10 products per name, so a Signet printing beyond those 10 could be missed.
+- Verified buyable: Talisman of Conviction, 1,500 (Tarkir: Dragonstorm Commander, NM ES), and Swiftfoot Boots, 3,280 (the
+  extra).
+- **Swaps (all Spanish copies, in stock today):**
+  - Rank 2 becomes **Prophetic Prism**, 400 (Phyrexia: All Will Be One, NM ES), in for **Etherium Sculptor**.
+    - The Prism is a two-mana artifact that draws a card and turns one mana into any color every turn.
+    - It fixes Kilo on turn 3: 85.2 % with the Talisman, the same as the builder's plan with Command Tower.
+    - It triggers Surge Conductor, Reckless Fireweaver, Jhoira and Uthros, and counts for metalcraft.
+    - The Sculptor does nothing for Kilo's {U}{R}{W} and is bad late.
+    - Ramp tags stay at 9 (the Sculptor was tagged ramp); the timed ramp is the same in practice.
+  - Rank 3 becomes **Volt Charge**, 400 (Phyrexia: All Will Be One, NM ES), in for **Firebending Lesson**.
+    - It is an instant: 3 damage to any target (creature, planeswalker or player), then proliferate.
+    - It closes the `counter_doublers` warning (10 pieces without Kilo, 11 with), keeps spot removal at 8, and proliferates
+      on a turn when Kilo has been removed.
+    - Firebending's only edge was its 5 damage when kicked; Sandbenders' Storm, Chaos Warp and Dispatch still kill a big
+      creature.
+- **Budget:** Talisman 1,500 + Prism 400 + Volt Charge 400 = **2,300 inside the 5,000 cap**; the Boots (3,280) sit outside it.
+  - 2,700 stay unspent. About 40 Spanish candidates were read: rocks, untappers (Voltaic Key, Manifold Key), proliferate cards
+    (Contagion Clasp, Viral Drake, Courage in Crisis, Inexorable Tide, Flux Channeler) and tutors. None is in stock in Spanish
+    at this store except Unwinding Clock, at 24,440.
+  - The owner can hold the 2,700 or redirect it.
+- Re-verify all stock within 24 hours of buying. Sourced (live store data) plus [J] (the swap choices).
+
+**R3-2 (MINOR, plan file). Barrels of Blasting Jelly and Chromatic Star are tagged `engine`.**
+- Neither places, multiplies or converts counters: both are color fixers, and Barrels is also slow removal.
+- Fix: tag Barrels `removal` first (it sits in `through_big_creatures`) and give Chromatic Star a utility tag inside
+  `artifact_density`, its only function.
+- No count changes and the gate stays PASS. [J], skill step 14 ("tag by the job the card is in the deck for").
+
+**R3-3 (MINOR, build notes).**
+- The build notes say Barrels and Chromatic Star are absent from `assignment.json`; they are there.
+- The purchase table should be rewritten with R3-1: Command Tower and the second rock out, Prophetic Prism and Volt Charge in.
+
+**Commander Salt (second objective).**
+- No round-3 change should lower Salt: Golem Foundry and Detained were among the weakest cards, and better mana raises Manabase
+  Quality.
+- The R3-1 swaps add a cheap instant that removes and proliferates and a cheap fixer that draws, both on plan; the Boots add
+  protection.
+- The floor "precon + 0.1" can only be checked when the list is measured in step 3. Nothing here puts it at risk: the list
+  keeps the precon's engine and finishers and adds upgrades such as Sol Ring, Swan Song, Insight Engine and Tekuthal.
+
+### Verdict (round 3)
+**FIX, for the purchases only.** The 100-card list passes as is: the gate, the bracket check, the Spanish copies and the
+assignment all check out, and every list finding from round 2 is fixed or accepted.
+
+The purchase list must change:
+- Out: Command Tower and the unnamed second rock (neither can be bought in Spanish).
+- In: Prophetic Prism (for Etherium Sculptor) and Volt Charge (for Firebending Lesson).
+- Kept: Talisman of Conviction (for Inspiring Overseer) and Swiftfoot Boots (the extra, for Ovalchase Dragster).
+
+After the swaps, rerun `plan_density.py` (expected: the `counter_doublers` warning gone; ramp 9 of 10 stays as a tag warning)
+and measure the list on Salt.

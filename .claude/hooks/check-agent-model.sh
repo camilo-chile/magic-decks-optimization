@@ -1,15 +1,17 @@
 #!/bin/sh
-# PreToolUse hook (Agent): the model policy (owner decision, 2026-10-25).
+# PreToolUse hook (Agent): the model policy (owner decisions 2026-10-25 and 2026-11-07).
 #
 # Only three model + effort pairs are allowed on an Agent call:
 #   opus + high      the hardest, most delicate or "we cannot fail" work
-#   sonnet + xhigh   planning, orchestration, general chat, code
-#   haiku + max      repetitive and light work
-# Anything else is blocked (exit code 2 sends the message back to Claude): Opus xhigh or max, Sonnet or Haiku
-# at another level, Fable, other model versions, a model without its effort, or an effort without a model.
+#   opus + medium    planning, orchestration, general chat, code (medium work)
+#   haiku + xhigh    repetitive and light work
+# plus one special pair for driving the browser (owner, 2026-11-07, on trial): haiku + medium, only for the
+# browser agents listed in BROWSER_AGENTS.
+# Anything else is blocked (exit code 2 sends the message back to Claude): Opus xhigh, max or low, Sonnet,
+# Haiku at another level, Fable, other model versions, a model without its effort, or an effort without a model.
 #
 # A call that sets neither model nor effort is allowed only when
-#   - it is a `fork` (inherits the session, which settings.json pins to Sonnet xhigh or Opus high), or
+#   - it is a `fork` (inherits the session, which settings.json pins to Opus medium), or
 #   - its subagent_type names a definition (`.claude/agents/<name>.md` in the project, or in the user folder)
 #     whose frontmatter pins `model:` and `effort:` to one of the three pairs (for example `stock-verifier`).
 # Built-in types (Explore, Plan, general-purpose) and plugin agents therefore need explicit parameters.
@@ -25,7 +27,7 @@ export PATH
 set -f
 
 block() {
-  echo "Blocked by project rule: model policy ($1). Allowed pairs: opus+high, sonnet+xhigh, haiku+max; set both model and effort on the Agent call." >&2
+  echo "Blocked by project rule: model policy ($1). Allowed pairs: opus+high, opus+medium, haiku+xhigh (haiku+medium only for the browser agent stock-verifier); set both model and effort on the Agent call." >&2
   exit 2
 }
 
@@ -57,18 +59,20 @@ frontmatter() {
 family() {
   case "$1" in
     opus|claude-opus-5-5) echo opus ;;
-    sonnet|claude-sonnet-5-5) echo sonnet ;;
     haiku|claude-haiku-5-5) echo haiku ;;
     *) echo "" ;;
   esac
 }
 
-required_effort() {
-  case "$1" in
-    opus) echo high ;;
-    sonnet) echo xhigh ;;
-    haiku) echo max ;;
+BROWSER_AGENTS=" stock-verifier "
+
+# Whether an effort is allowed for a model family ($3: the subagent type, for the browser pair).
+allowed_pair() {
+  case "$1:$2" in
+    opus:high|opus:medium|haiku:xhigh) return 0 ;;
+    haiku:medium) case "$BROWSER_AGENTS" in *" $3 "*) return 0 ;; esac ;;
   esac
+  return 1
 }
 
 lower() { printf '%s' "$1" | tr 'A-Z' 'a-z'; }
@@ -86,7 +90,7 @@ if [ -z "$model" ] && [ -z "$effort" ]; then
         m="$(lower "$(frontmatter "$file" model)")"
         e="$(lower "$(frontmatter "$file" effort)")"
         fam="$(family "$m")"
-        if [ -n "$fam" ] && [ "$e" = "$(required_effort "$fam")" ]; then
+        if [ -n "$fam" ] && allowed_pair "$fam" "$e" "$stype"; then
           exit 0
         fi
         block "the definition of agent '$stype' must pin model and effort to an allowed pair"
@@ -98,6 +102,5 @@ fi
 
 fam="$(family "$model")"
 [ -n "$fam" ] || block "model '${model:-none}' is not allowed"
-req="$(required_effort "$fam")"
-[ "$effort" = "$req" ] || block "$fam must run at effort $req, got '${effort:-none}'"
+allowed_pair "$fam" "$effort" "$stype" || block "$fam cannot run at effort '${effort:-none}'"
 exit 0

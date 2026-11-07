@@ -16,7 +16,7 @@ stand-alone value in 3 to 4 player pods next to the Commander Salt power (see `d
 | 4 | Choose the fourth commander and its base list from the Spanish collection (precon first) | Claude | Opus 5.5 high (judgment) | pending step 3 |
 | 5 | Build the four lists: the Spanish deck first (it is the restricted one), then the others from what is left, one physical copy per deck; judge synergy, curve, interaction, card flow, protection and the plan for 3 to 4 players, not only combos | Claude | Opus 5.5 high, one agent per deck, checked with `scripts/assign_copies.py` | pending step 4 |
 | 6 | Bracket 3 gate: Layer A, Game Changers, no reversible cards | Claude | `scripts/check_list.py`, `scripts/ladder.py` | ready |
-| 7 | Commander Salt score of each list (Moxfield, one deck at a time, human pace) | Claude | Haiku 5.5 max in the browser, `rate-deck` skill | pending step 5 |
+| 7 | Commander Salt score of each list (Moxfield, one deck at a time, human pace) | Claude | Haiku 5.5 xhigh in the browser, `rate-deck` skill | pending step 5 |
 | 8 | Pull list by binder and deck, and the tokens each deck makes against the tokens he owns (exact tokens) | Claude | `scripts/assign_copies.py` (updated and tested) | ready |
 | 9 | Dashboard: lists, statistics, the guide of each deck (how to use each card, written by Opus), images; English on his word | Claude | Opus 5.5 high for the guides, scripts for the rest | pending step 7 |
 | 10 | Close: README, memory, one commit on his word | Claude | | pending |
