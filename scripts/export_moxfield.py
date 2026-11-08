@@ -42,7 +42,7 @@ def card_lines(card):
     """Moxfield lines of one assigned card: one line per printing, the rest by name."""
     lines, given = [], 0
     for pick in card.get("picks", []):
-        if not pick.get("set"):  # a loan from the Standard decks has no scanned printing: written by name
+        if not pick.get("set") or not pick.get("number"):  # a loan or an owed card has no scanned printing: by name
             continue
         qty = pick.get("qty", 1)
         given += qty

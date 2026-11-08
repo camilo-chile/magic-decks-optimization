@@ -24,6 +24,10 @@ the next build round. Newest first.
 | Toph | Over-cap Game Changers | Worldly Tutor 32,400 and Natural Order 20,990: too expensive, dropped. |
 | All | Stores (2026-11-08) | Rivendel El Concilio replaces Tienda La Comarca: Game of Magic Singles + PayToWin + Rivendel El Concilio. |
 | All | Arcane Denial | Not expensive: extend a cap for it if it adds power. |
+| All | Arcane Denial (2026-11-08) | Out: it is in none of the three stores of the iteration, and no 4th store. |
+| All | Over-cap buys (2026-11-08) | Pre-approved: every over-cap proposal under about 3,000 CLP in the iteration's stores (Swords to Plowshares for Kilo, Talisman of Creativity, Rogue's Passage and Battlefield Forge named). Do not ask again. |
+| Kilo, Ezio | Swords to Plowshares (2026-11-08) | Ezio (bilingual) takes a bought English copy; Ezio's Spanish copy (FRC 37) goes to Kilo. |
+| All | Standard decks' replacements (2026-11-08) | Any printing, version or language is fine (they could even be proxies); never ask about them. Bayek and Layla Showcase and a Spanish Achilles are fine. |
 | All | Budgets | The 10,000 CLP are ONLY for deck upgrades. Everything else (loan replacements, the real Ezio, full-art basics, stock cards, tokens, Swiftfoot Boots extra) is separate, priced line by line, and the owner evaluates each line. |
 
 ## 2026-11-02 (fourth round)

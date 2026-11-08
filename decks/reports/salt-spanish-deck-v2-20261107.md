@@ -78,3 +78,66 @@ Note: Command Tower is already in deck 2 and is not in deck 1.
 - The page "Field report" text on both results is a user review. It was not used as evidence.
 - No text on the Moxfield or Commander Salt pages was addressed to an AI.
 - Two decks named "New Phase2 Kilo 2026-11-07" and "New Phase2 Ezio v2 2026-11-07" already existed in the owner's Moxfield account. They were not touched.
+
+## After purchases v3 (2026-11-08)
+
+Source file: `decks/phase2/moxfield/spanish-deck-after-purchases.txt` (90 lines: the `// Commander` line, Kilo, 88 card lines; 100 cards in total).
+
+- Moxfield deck: https://moxfield.com/decks/DYL1a7XlWEGiVA5YdmVEhg (name "Phase2 Kilo after purchases 2026-11-08 v3", Commander / EDH, Unlisted, Paste in List, Override with preferred printings OFF, checked before Create).
+- Commander Salt result: https://commandersalt.com/details/deck/d67a917b4f505b548de1996af1c3dfa5
+
+### Import check
+
+- Commander: Kilo, Apogee Mind, set by the `// Commander` section. Mainboard 99, total 100.
+- Per type: 19 creatures, 6 sorceries, 12 instants, 23 artifacts, 2 enchantments, 37 lands (15 basic, 22 nonbasic).
+- Checked against the file with the Moxfield deck data: all 88 distinct rows (quantity, name, set, collector number) match, quantities sum to 100.
+- Foil: `*F*` on Inspirit, Flagship Vessel is kept. `*F*` on Kilo is not kept: the commander row reads non-foil in Moxfield.
+- Muddle the Mixture has no set code in the file. Moxfield chose The List (`plst`, RAV-60). Not a substitution of a printing the file named.
+- No import error notice and no dropped line.
+
+### Scores
+
+| Item | v3: after purchases (2026-11-08) |
+|---|---|
+| Power | 4.6 (Casual); Commander tier T4; floor 4.0 met |
+| Bracket | 2 (Core); WotC 2, Commander Salt 2, in sync |
+| Bracket criteria | 0 Game Changers, no mass land denial, no extra turns, no two-card infinite, no early infinite (all "core safe") |
+| Salt | 54.6 (C-), label Combo Assassin |
+| Rage meter | 18.2 % ("chef's kiss") |
+| Consistency pillar | 237 / 100 |
+| Efficiency pillar | 149 / 100 |
+| Interaction pillar | 139 / 140 (99 %) |
+| Win Conditions pillar | 100 / 200 (50 %) |
+| Combos | 1 line: Crystalline Crawler + Lux Artillery + Meticulous Excavation (infinite ETB / flicker; infinite mana, mill, spell casts, ETB triggers); combo score 14; 3 pieces; 0 mana |
+| Manabase | 94 / 300 (fixing 99, quality 83, curve 101); 37 lands, 5 enter tapped; tapped-land penalty -0.31 |
+| Synergy | 427.7 (A), Star, Distributed; coverage 100 %; commander 75 % |
+| Flavor profile | Combo / Control |
+| Report card | Saltiness C-, Interaction C, Wincons C-, Synergy A |
+| Import errors | None |
+
+Salt sources: board wipes 14.0, group slug 5.0, infinite combos 3.0, counterspells 0.6. Top three offenders: Fumigate 7.0, Organic Extinction 7.0, Lux Artillery 5.0; dropping them cuts 34.8 %.
+
+### Score drivers
+
+- Power: "Adjustments nudged the score slightly above its base."
+  - Pushed up: "Concentrated synergy shell", major; "Cohesive synergy focus", notable.
+  - Pulled down: "Fragile win condition", major; "Control without a finisher", major; other penalties, minor.
+  - Structural ceiling, minor: combos look incidental (-0.06).
+- Manabase: pushed up by fast and untapped lands (major) and utility land value (minor); pulled down by tapped lands (major).
+
+### Suggestions (page)
+
+- Power: the control shell can hold the game but has no reliable way to close it; tutor support is light; the 2 board wipes are too thin to reset a board.
+- Manabase: no fetch lands in a 3-colour deck; no modal double-faced lands; swap some of the 5 tapped lands for untapped ones; add more utility lands (only 1 now).
+- Salt: soften the group-slug damage (Lux Artillery); rework the Crystalline Crawler + Lux Artillery + Meticulous Excavation line (5 % of the salt); spread the salt sources; tell the pod before game one about the group-slug card and the infinite combo.
+
+### Comparison with v2 deck 2
+
+v3 vs v2 deck 2: power 4.6 vs 3.8 (+0.8), Win Conditions 100 vs 91 (+9), Interaction 139 vs 107 (+32), combos 1 vs none; Salt 54.6 vs 58.2 and Efficiency 149 vs 143.
+
+### Notes
+
+- The result page prints no version string; its footer shows meta data 9.28.2026, as in v2.
+- The Commander Salt Upgrades tab was not read (it needs a category pick).
+- The "Field report" text on the page is a user review and was not used as evidence.
+- Pages were read in the owner's signed-in Chrome, in a new tab. No sign-in and no registration. Commander Salt received only the Moxfield URL.

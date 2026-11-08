@@ -7,14 +7,13 @@
 1 Arcane Signet (EOC) 53
 1 Astral Cornucopia (SOC) 342
 1 Barrels of Blasting Jelly (TLA) 254
-1 Generous Gift
+1 Battlefield Forge (BRO) 257
 1 Buried Ruin (EOC) 150
 1 Cascade Bluffs (SOC) 364
-1 Chain Reaction (ECC) 92
 1 Chaos Warp (EOC) 49
-1 Chromatic Star (TSR) 263
 1 Chrome Host Seedshark (EOC) 68
 1 Clifftop Retreat (FRC) 67
+1 Command Tower (PIP) 259
 1 Commander's Sphere (ECC) 139
 1 Coretapper (EOC) 132
 1 Crystalline Crawler (EOC) 133
@@ -26,17 +25,14 @@
 1 Emry, Lurker of the Loch (EOC) 71
 1 Enthusiastic Mechanaut (EOC) 114
 1 Etched Oracle (EOC) 136
-1 Prophetic Prism
 1 Everflowing Chalice (EOC) 137
 1 Exotic Orchard (FRC) 70
 1 Experimental Augury (EOC) 73
-1 Volt Charge
 1 Fumigate (EOC) 65
+1 Generous Gift (WOC) 68
 1 Glacial Fortress (FRC) 73
 1 Great Furnace (EOC) 161
-1 Hangarback Walker (SOC) 348
 1 Insight Engine (EOC) 6
-1 Talisman of Conviction
 1 Inspirit, Flagship Vessel (EOC) 2 *F*
 7 Island (ACR) 303
 1 Jhoira, Weatherlight Captain (EOC) 118
@@ -46,21 +42,22 @@
 1 Long-Range Sensor (EOC) 11
 1 Lux Artillery (EOC) 140
 1 Lux Cannon (EOC) 141
+1 Meticulous Excavation (BRO) 16
 4 Mountain (ACR) 305
-1 Command Tower
 1 Moxite Refinery (EOC) 17
+1 Muddle the Mixture
 1 Mystic Monastery (EOC) 170
 1 North Pole Patrol (TLA) 65
 1 Organic Extinction (EOC) 66
-1 Swiftfoot Boots
-1 Path of Ancestry (FRC) 77
 1 Patrolling Peacemaker (EOC) 5
 1 Pentad Prism (EOC) 56
 1 Phyrexian Metamorph (EOC) 75
 4 Plains (ACR) 302
+1 Prophetic Prism (ONE) 238
 1 Radiant Summit (FRC) 80
 1 Razortide Bridge (EOC) 171
 1 Reckless Fireweaver (DRC) 106
+1 Relic of Legends (DMU) 236
 1 Resourceful Defense (EOC) 67
 1 Ripples of Potential (EOC) 77
 1 Rugged Prairie (FIC) 417
@@ -78,13 +75,16 @@
 1 Sulfur Falls (FRC) 84
 1 Surge Conductor (EOC) 19
 1 Swan Song (EOC) 46
+1 Swiftfoot Boots (C14) 275
+1 Swords to Plowshares (FRC) 37
+1 Talisman of Conviction (TDC) 329
 1 Tekuthal, Inquiry Dominus (EOC) 78
 1 Tezzeret's Gambit (EOC) 47
 1 Thirst for Knowledge (EOC) 48
 1 Thought Monitor (EOC) 79
-1 Thrummingbird (EOC) 80
 1 Titan Forge (EOC) 146
 1 Tranquilize (ACR) 284
 1 Universal Surveillance (EOC) 81
 1 Uthros Research Craft (EOC) 7
+1 Volt Charge (ONE) 155
 1 Waterbending Lesson (TLA) 80

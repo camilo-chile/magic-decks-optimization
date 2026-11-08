@@ -8,17 +8,16 @@
 1 Ba Sing Se (TLA) 266
 1 Battlefield Forge (EOC) 58
 1 Beast Within (SOC) 263
-1 Wood Elves
 1 Brightglass Gearhulk (DFT) 191 *F*
 1 Bumi, Unleashed (TLA) 211
 1 Burnished Hart (FDN) 250
 1 Cabaretti Courtyard (EOC) 151
 1 Chord of Calling (2XM) 158
-1 Cultivate
 1 Clifftop Retreat (FRC) 67
 1 Collective Resistance (MH3) 147
 1 Command Tower (CMM) 659
 1 Crop Rotation (DMR) 154
+1 Cultivate (C17) 147
 1 Cycle of Renewal (TLA) 170
 1 Drannith Magistrate (TLE) 2
 1 Druid Class (AFR) 180
@@ -26,13 +25,13 @@
 1 Evolving Wilds (EOC) 158
 1 Exotic Orchard (FRC) 70
 1 Explore (TLE) 259
-1 Fateful Absence (MID) 18 *F*
 4 Forest (ACR) 109
-6 Forest (ACR) 110
+5 Forest (ACR) 110
 1 Forest (TLA) 286
 1 Fortified Village (TDC) 366
 1 Furycalm Snarl (STX) 266 *F*
 1 Game Trail (BLC) 306
+1 Generous Gift (CMM) 624
 1 Goblin Bombardment (MH2) 279
 1 Great Divide Guide (TLA) 181
 1 Hakoda, Selfless Commander (TLA) 23
@@ -43,6 +42,7 @@
 1 Ichor Wellspring (C21) 245
 1 Lotus Cobra (BLC) 229
 5 Mountain (ACR) 107
+1 Myriad Landscape (KHC) 115
 1 Origin of Metalbending (TLA) 187
 1 Path to Exile (FRC) 30
 3 Plains (ACR) 101
@@ -84,4 +84,5 @@
 1 Vibrant Cityscape (SPM) 188
 1 Water Tribe Rallier (TLA) 42
 1 Wayfarer's Bauble (TDC) 335
+1 Wood Elves (HOB) 142
 1 Zuran Orb (ICE) 350

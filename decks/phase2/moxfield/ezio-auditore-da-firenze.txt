@@ -76,7 +76,7 @@
 1 Rumble Arena (TLA) 277
 1 Secret Tunnel (TLA) 278
 1 Shao Jun (ACR) 151
-1 Smoldering Marsh (MSC) 
+1 Smoldering Marsh
 1 Sol Ring (TLE) 316
 1 Sulfur Falls (FRC) 84
 1 Sunken Hollow (TMC) 76

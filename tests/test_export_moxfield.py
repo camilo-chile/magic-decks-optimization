@@ -16,6 +16,7 @@ def test_commander_first_printings_finishes_and_name_only_rest():
         {"name": "Ezio Auditore da Firenze", "qty": 1, "picks": []},
         {"name": "Swamp", "qty": 2, "picks": [{"set": "acr", "number": "105", "foil": "normal", "qty": 1}]},
         {"name": "Eagle Vision", "qty": 1, "picks": [{"set": "", "number": "", "foil": "", "qty": 1}]},
+        {"name": "Smoldering Marsh", "qty": 1, "picks": [{"set": "msc", "number": "", "foil": "normal", "qty": 1}]},
     ]}
     text = mod.export("x", deck, assigned)
     assert text.splitlines()[:2] == ["// Commander", "1 Ezio Auditore da Firenze"]
@@ -23,6 +24,7 @@ def test_commander_first_printings_finishes_and_name_only_rest():
     assert "1 Swamp (ACR) 105" in text and "\n1 Swamp\n" in text
     assert "// Main" not in text
     assert "\n1 Eagle Vision\n" in text and "()" not in text  # a loan has no printing: by name only
+    assert "\n1 Smoldering Marsh\n" in text and "(MSC) \n" not in text  # an owed card has no number: by name only
 
 
 if __name__ == "__main__":

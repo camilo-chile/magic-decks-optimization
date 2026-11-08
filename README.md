@@ -75,12 +75,12 @@ pip install -r requirements.txt
 
 ## Working with Claude Code
 Project rules live in [CLAUDE.md](CLAUDE.md). Skills (user-invoked): `rate-deck`,
-`check-stock`, `build-deck`. Subagents: `stock-verifier` (Haiku 5.5, xhigh effort), `deck-builder`, `deck-reviewer`, `blind-deck-reviewer` (Opus 5.5, high).
+`check-stock`, `build-deck`. Subagents: `stock-verifier` and `browser-runner` (Haiku 5.5, medium effort, the browser pair), `deck-builder`, `deck-reviewer`, `blind-deck-reviewer` (Opus 5.5, high).
 
 Model policy (owner, 2026-10-25, pairs changed 2026-11-07): Opus 5.5 high for the critical work, Opus 5.5 medium for
 planning, orchestration and chat, Haiku 5.5 xhigh for repetitive work; the hook `.claude/hooks/check-agent-model.sh` rejects any other pair on an Agent
 call. Test it with `sh evals/run_agent_model_cases.sh .claude/hooks/check-agent-model.sh evals/agent_model_cases.tsv`
-(52 cases, expect `0 failures`). Research behind the policy, with the discarded Gemini and Qwen setups and the OpenAI
+(57 cases, expect `0 failures`). Research behind the policy, with the discarded Gemini and Qwen setups and the OpenAI
 Codex evaluation: `C:\Users\Usuario\Documents\Projects\claude-model-orchestration-research` (outside this repository).
 
 ## Git hygiene

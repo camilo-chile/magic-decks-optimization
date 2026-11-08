@@ -7,7 +7,6 @@
 1 Arcane Signet (TLE) 315
 1 Archmage Emeritus (STX) 377 *F*
 1 Azula, On the Hunt (TLA) 85
-1 Bender's Waterskin (TLA) 255
 1 Big Score (FIC) 290
 1 Black Market Connections (ACR) 87
 1 Brainstorm (A25) 46
@@ -21,7 +20,6 @@
 1 Darkwater Catacombs (TDC) 355
 1 Day of Black Sun (TLA) 94
 1 Deflecting Swat (TLE) 311
-1 Soul-Guide Lantern
 1 Dimir Signet (FRC) 56
 1 Dragonskull Summit (DSC) 271
 1 Drowned Catacomb (FRC) 69
@@ -50,12 +48,12 @@
 2 Island (ACR) 104
 1 Izzet Signet (FRC) 58
 1 Lightning Strike (TLA) 146
-1 Narset, Parter of Veils
 1 Mind Stone (BLC) 280
 5 Mountain (ACR) 108
 1 Mountain (EOE) 265
 1 Mystical Teachings (FDN) 594
 1 Narset's Reversal (WAR) 62
+1 Narset, Parter of Veils
 1 Negate (OGW) 59
 1 Nightscape Familiar (DMR) 94
 1 Octopus Form (TLA) 66
@@ -72,6 +70,7 @@
 1 Snap (WOC) 110
 1 Sol Ring (OTC) 267
 1 Solve the Equation (STX) 54
+1 Soul-Guide Lantern (WOE) 251
 1 Storm-Kiln Artist (SOC) 255
 1 Stormcatch Mentor (SOC) 331
 1 Sulfur Falls (FRC) 84
@@ -81,6 +80,7 @@
 3 Swamp (ACR) 105
 2 Swamp (ACR) 106
 1 Swiftfoot Boots (TDC) 328
+1 Talisman of Creativity (TDC) 330
 1 Terminate (ACR) 98
 1 Thermo-Alchemist (INR) 174
 1 Thrill of Possibility (FDN) 210

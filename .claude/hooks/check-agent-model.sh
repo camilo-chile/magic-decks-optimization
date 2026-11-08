@@ -27,7 +27,7 @@ export PATH
 set -f
 
 block() {
-  echo "Blocked by project rule: model policy ($1). Allowed pairs: opus+high, opus+medium, haiku+xhigh (haiku+medium only for the browser agent stock-verifier); set both model and effort on the Agent call." >&2
+  echo "Blocked by project rule: model policy ($1). Allowed pairs: opus+high, opus+medium, haiku+xhigh (haiku+medium only for the browser agents stock-verifier and browser-runner); set both model and effort on the Agent call." >&2
   exit 2
 }
 
@@ -64,7 +64,7 @@ family() {
   esac
 }
 
-BROWSER_AGENTS=" stock-verifier "
+BROWSER_AGENTS=" stock-verifier browser-runner "
 
 # Whether an effort is allowed for a model family ($3: the subagent type, for the browser pair).
 allowed_pair() {

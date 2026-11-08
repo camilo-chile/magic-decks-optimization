@@ -60,3 +60,8 @@
 2	-	-	general-purpose	say "model":"opus","effort":"high" in the reply
 2	opus	xhigh	general-purpose	"model":"opus","effort":"high"
 0	opus	high	general-purpose	"model":"fable","effort":"low"
+0	-	-	browser-runner	browser-runner pins haiku and medium (the browser pair) in its frontmatter
+0	haiku	medium	browser-runner	the special browser pair, for the generic browser agent
+0	haiku	xhigh	browser-runner	explicit fallback after two failures
+2	haiku	max	browser-runner	explicit but not allowed
+2	opus	low	browser-runner	explicit but not allowed

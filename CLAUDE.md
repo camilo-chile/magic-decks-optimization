@@ -207,7 +207,7 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
   | The hardest, most delicate or "we cannot fail" work: deck-building judgment, adversarial review, final review of a purchase order, anything that costs money or cannot be undone | **Opus 5.5 @ high** (`model: opus`, `effort: high`) |
   | Medium work: planning, orchestrating, general chat, code, dashboard (the main session) | **Opus 5.5 @ medium** (`model: opus`, `effort: medium`) |
   | Simple, repetitive or light work: stock and price reading, browser reading, Salt measurements, cleanup audits, commit messages | **Haiku 5.5 @ xhigh** (`model: haiku`, `effort: xhigh`) |
-  | Special: driving the browser (store reading, Moxfield, Commander Salt), owner 2026-11-07, on trial | **Haiku 5.5 @ medium**, only through the browser agent `stock-verifier` (the hook allows this pair for it only); if it fails twice on a task, Haiku 5.5 @ xhigh |
+  | Special: driving the browser (store reading, Moxfield, Commander Salt), owner 2026-11-07, on trial | **Haiku 5.5 @ medium**, only through the browser agents `stock-verifier` (store stock, read-only) and `browser-runner` (any browser task: Moxfield, Commander Salt, store pages that need clicks; added 2026-11-08); the hook allows this pair for them only; if it fails twice on a task, Haiku 5.5 @ xhigh |
   | Deterministic work | No model: a script in `scripts/` |
 
   Never Sonnet, Opus xhigh, max or low, Haiku at any level other than xhigh, Fable, ultracode, agent teams or `/fast`.
@@ -311,7 +311,7 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
 | `evals/` | The hook test tables (`hook_cases.tsv` with `run_hook_cases.sh` for git; `agent_model_cases.tsv` with `run_agent_model_cases.sh` for the model policy) and the test plan (`README.md`) |
 | `decks/candidates/<slug>/` | Real public lists copied from Commander Salt deck pages (candidate end states), `README.md` with their site scores and Layer A results, `meta-staples-bracket3.md` (Upgrades picks), `extra-targets.txt` (names to price for a deck with no candidate list yet, such as `ezio-auditore-da-firenze`), `gate-report.json` from `scripts/check_candidates.py` |
 | `.claude/skills/` | `rate-deck`, `check-stock`, `build-deck` (all user-invoked) |
-| `.claude/agents/` | `stock-verifier` (Haiku 5.5, `effort: medium`, the browser pair), `deck-builder`, `deck-reviewer`, `blind-deck-reviewer` (Opus 5.5, `effort: high`) |
+| `.claude/agents/` | `stock-verifier` and `browser-runner` (Haiku 5.5, `effort: medium`, the browser pair), `deck-builder`, `deck-reviewer`, `blind-deck-reviewer` (Opus 5.5, `effort: high`) |
 | `.claude/hooks/` | `block-git-writes.sh` (PreToolUse: git read-only, `add`/`commit` only with the owner's authorization), `authorize-commit.sh` (UserPromptSubmit: writes the one-shot authorization when his message says "autorizo commit") and `check-agent-model.sh` (PreToolUse on `Agent`: only opus+high, opus+medium, haiku+xhigh) |
 | `.githooks/pre-commit` | Blocks commits made with a non-personal git email |
 
