@@ -93,3 +93,26 @@ Combo score (deck 1): 84. Deck 2 combo score was not captured.
 - Untrusted page text: the Salt pages carry user field reports. None addressed an AI. No instructions were followed from page content.
 - Model: this browser run was done in a Haiku 5.5 agent session. The project routes browser work through the stock-verifier agent (Haiku 5.5 @ medium). Flagged for the owner.
 - Nothing else was touched: no other Moxfield deck, no account setting, no sign-in, no deletion. The owner's Game of Magic Singles tab was not used.
+
+## After purchases v3 (2026-11-08)
+
+- Source file: `decks/phase2/moxfield/toph-the-first-metalbender-after-purchases.txt` (pasted as is, "Override with preferred printings" OFF).
+- Moxfield: https://moxfield.com/decks/e9acG_oOzEKspu1-qxNd-A (name "Phase2 Toph after purchases 2026-11-08 v3", Commander, Unlisted).
+- Commander Salt: https://commandersalt.com/details/deck/83275dd65006ec4ebee8923afa8c9190
+- Import check: commander Toph, the First Metalbender; mainboard 99 (Creatures 22, Sorceries 8, Instants 12, Artifacts 9, Enchantments 10, Lands 38); total 100. No import error. Set codes per row were not checked on the Moxfield text view.
+
+| Measure | After purchases v3 |
+|---|---|
+| Power | 7.0 (Optimized); field report text says 7.1 |
+| Bracket (Salt / WotC spec) | 3 (Upgraded) / 3, in sync |
+| Salt | 84.7, C (Combo Assassin) |
+| Commander tier | T4 |
+| Pillars | Consistency 293 / 100; Efficiency 293 / 100; Interaction 147 / 140; Win conditions 1171 / 200 |
+| Report card | Saltiness C 84.7; Interaction C+ 147; Wincons A+ 995.3; Synergy A+ 601.8 |
+| Manabase | Score 84 / 300; Fixing 99, Quality 53, Curve 102; 38 lands (20 basic, 18 nonbasic, 4 fetch); 34 untapped vs 4 tapped; tapped-land penalty -0.27 |
+| Combos | 6 combos, 3 independent game-winning lines, redundancy 0.60x. Ashaya + Bumi (2 cards, infinite combat); The Stasis Coffin + Toph, the First Metalbender (2 cards, opponents locked); Ashaya + Goblin Bombardment + Toph, the Blind Bandit; Ashaya + Toph, the Blind Bandit + Zuran Orb; Lotus Cobra + Springheart Nantuko + Toph, the First Metalbender (infinite landfall). Combo score 84 |
+| Bracket criteria | Game Changers 2 (B3); two-card infinite combos 2 (B3); mass land denial 0; extra turns 0; early-game infinites 0 |
+
+- Drivers: pushed up by Tournament-grade execution (minor). Pulled down by Structural ceiling (major, wincon combos with no tutors to assemble them, -0.34), Other penalties (major), Too slow for its pieces (capped, major). 1 mechanical anti-pattern flagged (minor); score capped.
+- Suggestions (page, 3): the one board wipe is too thin; counterspell coverage essentially absent; no graveyard interaction detected. Manabase suggestions (3): premium duals, modal DFCs, more utility lands. Bracket: cutting the 2 Game Changers would read bracket 2; mass land denial, an early infinite, or 4+ Game Changers would read bracket 4.
+- Comparison with the previous after-purchases score (7.0): same power (7.0, floor met); Salt 84.7 against 85.4 in the earlier after-purchases run (down 0.7; this is a new Commander Salt measurement of a new Moxfield copy of the same file).

@@ -13,11 +13,12 @@
 1 Bayek of Siwa
 1 Bender's Waterskin (TLA) 255
 1 Boros Guildmage (RVR) 168
+1 Boros Locket (C21) 236
 1 Brotherhood Headquarters (ACR) 80
 1 Brotherhood Spy (ACR) 282
 1 Chromatic Lantern (FRC) 54
 1 Coastal Piracy (ACR) 84
-1 Command Tower (CMR) 350
+1 Command Tower (C17) 242
 1 Concealed Courtyard (KLD) 245
 1 Cover of Darkness
 1 Desmond Miles (ACR) 130
@@ -42,6 +43,7 @@
 1 Haytham Kenway (ACR) 57
 1 Hidden Footblade
 1 Hinterland Harbor (DSC) 284
+1 Hookblade (ACR) 6
 1 Infernal Grasp (SOC) 216
 2 Island (ACR) 104
 1 Isolated Chapel (FRC) 74
@@ -57,7 +59,6 @@
 1 Mana Leak (8ED) 89
 1 Mephitic Vapors (RVR) 85
 1 Merciless Harlequin (ACR) 287
-1 Mind Stone (ZNC) 114
 1 Mortify (ACR) 96
 1 Mountain (TLA) 285
 1 Path of Ancestry (CMM) 423 *F*
@@ -77,7 +78,6 @@
 1 Shao Jun (ACR) 151
 1 Smoldering Marsh (MSC) 266
 1 Sol Ring (TLE) 316
-1 Soul-Guide Lantern (WOE) 251
 1 Sulfur Falls (FRC) 84
 1 Sunken Hollow (TMC) 76
 2 Swamp (ACR) 106

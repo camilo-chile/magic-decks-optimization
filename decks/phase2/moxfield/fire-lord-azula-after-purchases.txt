@@ -7,6 +7,7 @@
 1 Arcane Signet (TLE) 315
 1 Archmage Emeritus (STX) 377 *F*
 1 Azula, On the Hunt (TLA) 85
+1 Bender's Waterskin (TLA) 255
 1 Big Score (FIC) 290
 1 Black Market Connections (ACR) 87
 1 Brainstorm (A25) 46
@@ -70,7 +71,7 @@
 1 Snap (WOC) 110
 1 Sol Ring (OTC) 267
 1 Solve the Equation (STX) 54
-1 Soul-Guide Lantern (WOE) 251
+1 Soul-Guide Lantern (EOC) 143
 1 Storm-Kiln Artist (SOC) 255
 1 Stormcatch Mentor (SOC) 331
 1 Sulfur Falls (FRC) 84
@@ -80,7 +81,6 @@
 3 Swamp (ACR) 105
 2 Swamp (ACR) 106
 1 Swiftfoot Boots (TDC) 328
-1 Talisman of Creativity (TDC) 330
 1 Terminate (ACR) 98
 1 Thermo-Alchemist (INR) 174
 1 Thrill of Possibility (FDN) 210

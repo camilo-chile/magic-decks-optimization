@@ -22,12 +22,17 @@ Sources (reading time, UTC):
 
 | Deck | Inside the cap | Approved over-cap | Deck total | Swaps (in for out) | Salt (now, then expected) |
 |---|---|---|---|---|---|
-| Fire Lord Azula | 2,182 | 2,100 | **4,282** | Narset, Parter of Veils for Malcolm, the Eyes; Soul-Guide Lantern for Dimir Locket; *Talisman of Creativity for Bender's Waterskin* | 7.2, then 7.3 measured with the first two; the Talisman about +0.1 [J] |
-| Toph, the First Metalbender | 1,470 | 2,940 | **4,410** | Wood Elves for Bender's Waterskin; Cultivate for Chromatic Lantern; *Myriad Landscape for a Forest; Generous Gift for Fateful Absence* | 7.0, then 7.0 measured with the first two; over-cap about +0.1 [J] |
-| Ezio Auditore da Firenze | 1,312 | 4,417 | **5,729** | Golgari Signet for Deathcap Cultivator; Mind Stone for Boros Locket; *Battlefield Forge for Clifftop Retreat; Rogue's Passage for Rumble Arena; Llanowar Wastes for Jungle Shrine; Soul-Guide Lantern for Hookblade*; Swords to Plowshares English DRC for his Spanish FRC copy (same card); Command Tower English for his Spanish copy (same card, section B) | 6.6, then about 6.8 to 6.9 [J], not measured |
-| Shared cap (Azula, Toph, Ezio) | **4,964 of 5,000** | 9,457 | 14,421 | | |
-| Kilo, Apogee Mind (Spanish only) | **6,800 of 7,000** | 8,100 | **14,900** | Meticulous Excavation for Chromatic Star; Volt Charge for Firebending Lesson; Prophetic Prism for Etherium Sculptor; Generous Gift for Brute Suit; Talisman of Conviction for Inspiring Overseer; Relic of Legends for Hangarback Walker; *Swords to Plowshares (Ezio's Spanish FRC 37) for Thrummingbird; Muddle the Mixture for Chain Reaction; Battlefield Forge for Path of Ancestry*; Swiftfoot Boots for Ovalchase Dragster and Command Tower (Ezio's Spanish copy) for a Mountain (both section B) | 3.8, then **4.0 or more expected [J], not measured** (the Spellbook combo Meticulous Excavation + Lux Artillery + Crystalline Crawler, 1034-1350-2060, which Salt credits). Measure before buying, against the 4.0 floor |
-| **All four** | **11,764** | **17,557** | **29,321** | | |
+| Fire Lord Azula | 1,440 | 0 | **1,440** | Narset, Parter of Veils for Malcolm, the Eyes; Soul-Guide Lantern (his OWNED free Spanish EOC 143, review fix) for Dimir Locket. Talisman of Creativity DROPPED (owner, 2026-11-08): Bender's Waterskin stays | 7.2, then 7.3 measured (v2, exactly this list) |
+| Toph, the First Metalbender | 2,970 | 1,440 | **4,410** | Wood Elves for Bender's Waterskin; Cultivate for Chromatic Lantern; Generous Gift for Fateful Absence (moved inside the shared cap after the DROPs); *Myriad Landscape for a Forest* | 7.0, then 7.0 measured (v2 with the first two, v3 with all four) |
+| Ezio Auditore da Firenze | 570 | 3,675 | **4,245** | Golgari Signet for Deathcap Cultivator; Mind Stone and Soul-Guide Lantern DROPPED (owner, 2026-11-08): Boros Locket and Hookblade stay; *Battlefield Forge for Clifftop Retreat; Rogue's Passage for Rumble Arena; Llanowar Wastes for Jungle Shrine*; Swords to Plowshares English DRC for his Spanish FRC copy (same card); Command Tower bought Spanish C17 for his Spanish PIP copy (same card, section B) | 6.6, then **6.7 measured** (v3, with Mind Stone and the Lantern; not re-measured without them) |
+| Shared cap (Azula, Toph, Ezio) | **4,980 of 5,000** | 5,115 | 10,095 | | |
+| Kilo, Apogee Mind (Spanish only) | **6,800 of 7,000** | 8,100 | **14,900** | Meticulous Excavation for Chromatic Star; Volt Charge for Firebending Lesson; Prophetic Prism for Etherium Sculptor; Generous Gift for Brute Suit; Talisman of Conviction for Inspiring Overseer; Relic of Legends for Hangarback Walker; *Swords to Plowshares (Ezio's Spanish FRC 37) for Thrummingbird; Muddle the Mixture for Chain Reaction; Battlefield Forge for Path of Ancestry*; Swiftfoot Boots for Ovalchase Dragster and Command Tower (Ezio's Spanish copy) for a Mountain (both section B) | 3.8, then **4.6 measured** (v3, 2026-11-08; the Spellbook combo Meticulous Excavation + Lux Artillery + Crystalline Crawler, 1034-1350-2060), floor 4.5 met |
+| **All four** | **11,780** | **13,215** | **24,995** | | |
+
+Review of 2026-11-08 (`decks/reports/purchase-review-20261108.md`): factual fixes applied here (owned Soul-Guide Lantern for
+Azula, Spanish Command Tower and Spanish full-art Mountains at the same price, the Elephant token line, stale Salt figures and
+statements). Owner, 2026-11-08: the three DROPs (Talisman of Creativity, Mind Stone, Ezio's Soul-Guide Lantern) and the Chaos
+Warp stock line are APPLIED (a card with no real gain is not bought).
 
 *Italics* = approved over-cap. [J] = my judgment; expert estimates ran 0.3 to 2.1 points high in Phase 1, so only measured
 scores count. Kilo's Swords costs nothing in Kilo's own list (it is Ezio's Spanish copy), but the English copy Ezio buys
@@ -48,8 +53,9 @@ inside the list.
 - **Ezio, Llanowar Wastes for Jungle Shrine** (the builder's pairing). A tapped land becomes an untapped one, with {B}{G}
   for freerunning and the kill's thinnest color. Red and white lose one source each. Battlefield Forge (in for Clifftop
   Retreat, same colors), Command Tower, Exotic Orchard, Path of Ancestry and Chromatic Lantern still cover them.
-- **Ezio, three land swaps**: the deck stays at 36 lands with fewer tapped lands. The colorless Rogue's Passage replaces the
-  colorless Rumble Arena, so the color count does not change.
+- **Ezio, three land swaps**: the deck stays at 36 lands with fewer tapped lands. Correction (review): Rumble Arena is NOT
+  colorless for the kill: `{1}, {T}: Add one mana of any color`, a payment_enablers piece (8 to 7). After the three land
+  swaps and Boros Locket out, the lands make W 11, U 12, B 12, R 10, G 7 (were 13, 13, 12, 12, 8).
 - **Kilo, Muddle the Mixture for Chain Reaction** (the builder named Chain Reaction three times as the cut for a counter).
   The wipes drop from 3 to 2 (Fumigate, Organic Extinction), which is still the gate's base minimum of 2. Kilo gains a
   2-mana counter for the combo turn (Swan Song is its only other one), and the transmute finds MV-2 cards such as Talisman
@@ -62,7 +68,8 @@ inside the list.
 - **Kilo, Relic of Legends for Hangarback Walker** (step 7.1 choice, unchanged). It spends the money that the unbuyable
   Voltaic Construct frees and fills the slot the builder reserved for it. It also clears the ramp WARN (9 of 10) and adds
   an instant Kilo tap. No combo is lost, and the functions that lose Hangarback keep wide margins: counter_sources 21 of
-  12, counter_payoffs 15 of 6, through_wide_board 15 of 10.
+  12, counter_payoffs 15 of 6. Correction (review): after ALL Kilo swaps through_wide_board is 12 of 10 (Hangarback,
+  Thrummingbird, Inspiring Overseer and Chain Reaction all leave it), wipes 2 of 2, counter_doublers 9 + Kilo of 10.
 - **Toph, Myriad Landscape for one Forest (ACR 110).** Myriad fetches two basics of one type, normally two Forests: one card
   brings three land entries, and 10 Forests stay for it to find. A Plains or a Mountain would have cost a white or red
   source.
@@ -93,14 +100,14 @@ Section labels: **A-cap** upgrade inside a cap; **A-over** approved over-cap; **
 | # | Card | Deck (out) | Lang | Printing, variant | CLP | Read | Section | Fallback |
 |---|---|---|---|---|---|---|---|---|
 | 1 | Narset, Parter of Veils | Azula (Malcolm, the Eyes) | EN | not read (OC: EN nonfoil) | 1,440 | 2026-11-07, OC (**verify first**) | A-cap | No copy under 13,000 in the three stores (RIV: one Spanish prerelease foil). If gone, Malcolm stays |
-| 2 | Soul-Guide Lantern | Azula (Dimir Locket) | ES (same price as EN; Spanish wins) | WOE 251, NM | 742 | 2026-11-07 | A-cap | P2W 1,560 EN (THB) |
+| ~~2~~ | ~~Soul-Guide Lantern~~ | Azula (Dimir Locket) | | **Removed by the review**: he owns a FREE Spanish copy (EOC 143, Spanish Cards binder; Toph left it in step 6, no deck holds it). Azula takes it | 0 | | | |
 | 3 | Wood Elves | Toph (Bender's Waterskin) | EN | HOB 142, NM | 570 | 2026-11-07 | A-cap | P2W 900 LP (7ED) |
 | 4 | Golgari Signet | Ezio (Deathcap Cultivator) | EN | BLC 272, NM | 570 | 2026-11-07 | A-cap | P2W 900 LP |
-| 5 | Mind Stone | Ezio (Boros Locket) | EN | ZNC 114, NM | 742 | 2026-11-07 | A-cap | P2W 900 LP |
+| ~~5~~ | ~~Mind Stone~~ | Ezio (Boros Locket) | | **Dropped** (owner, 2026-11-08: no real gain; Boros Locket stays) | 0 | | | |
 | 6 | Talisman of Conviction | Kilo (Inspiring Overseer) | **ES** | TDC 329, NM Español | 1,500 | 2026-11-07 | A-cap | None in Spanish: Inspiring Overseer stays |
 | 7 | Battlefield Forge | Ezio (Clifftop Retreat) | EN | M3C 321, NM | 915 | 2026-11-07 | A-over | P2W 2,400 LP |
 | 8 | Llanowar Wastes | Ezio (Jungle Shrine) | EN | C20 286, LP | 1,320 | 2026-11-07 | A-over | P2W 2,400 LP |
-| 9 | Soul-Guide Lantern (2nd copy) | Ezio (Hookblade) | ES (same price as EN) | WOE 251, NM | 742 | 2026-11-07 | A-over | P2W 1,560 EN. GoM must have 2 copies across its EN and ES variants (with line 2); check at 7.4 |
+| ~~9~~ | ~~Soul-Guide Lantern~~ | Ezio (Hookblade) | | **Dropped** (owner, 2026-11-08: graveyard hate already covered by Abstergo Entertainment; Hookblade stays) | 0 | | | |
 | 10 | Swords to Plowshares | Ezio (his Spanish FRC 37 moves to Kilo, for Thrummingbird); charged to Kilo's over-cap | EN | DRC 37, NM | 2,500 | 2026-11-07 | A-over | P2W 2,600 EN NM (BBD) |
 | 11 | Eagle Vision | Loan to Ezio | EN | ACR, NM | 742 | 2026-11-07 | B-loan | P2W 1,560 |
 | 12 | Bayek of Siwa | Loan to Ezio | EN | ACR Showcase, NM | 2,320 | 2026-11-07 | B-loan | P2W 2,600 |
@@ -110,7 +117,7 @@ Section labels: **A-cap** upgrade inside a cap; **A-over** approved over-cap; **
 | 16 | Commander's Sphere | Stock (Ezio gave his to Kilo) | EN | DMC, NM | 570 | 2026-11-07 | B-stock (recommended) | P2W 900 LP |
 | 17 | Glacial Fortress | Stock (Ezio gave his to Kilo) | EN | DRC, NM | 915 | 2026-11-07 | B-stock (recommended) | P2W 2,400 LP |
 | 18 | Radiant Summit | Stock (Ezio gave his to Kilo) | EN | EOC, NM | 915 | 2026-11-07 | B-stock (recommended) | none |
-| 19 | Chaos Warp | Stock (red in all four decks) | EN | CM2, NM | 915 | 2026-11-07 | B-stock (recommended) | P2W 2,400 LP ES |
+| ~~19~~ | ~~Chaos Warp~~ | Stock | | **Removed** (owner, 2026-11-08: he owns 2 free copies, SOC 239 EN and FIC 291 ES) | 0 | | | |
 | 20 | Exotic Orchard | Stock (multicolor staple) | EN | AFC, NM | 915 | 2026-11-07 | B-stock (recommended) | P2W 2,400 LP |
 | 21 | Spire of Industry | Stock | EN | MKC, NM | 1,420 | 2026-11-07 | B-stock (optional) | P2W 2,400 LP |
 | 22 | Smoldering Marsh | Owed by the store (counts as owned, `pending_owned`) | ES | MSC, NM | 0 | `decks/phase2.json` | owed | Ask for it at payment; scan it on arrival and clear `pending_owned` |
@@ -121,19 +128,19 @@ Section labels: **A-cap** upgrade inside a cap; **A-over** approved over-cap; **
 |---|---|---|---|---|---|---|---|---|
 | 1 | Cultivate | Toph (Chromatic Lantern) | EN | C17 147, LP | 900 | 2026-11-07 | A-cap | GoM 1,200 NM |
 | 2 | Generous Gift | Kilo (Brute Suit) | **ES** | WOC 68, NM Spanish | 2,100 | 2026-11-07 | A-cap | None in Spanish: Brute Suit stays |
-| 3 | Talisman of Creativity | Azula (Bender's Waterskin) | EN | TDC 330, NM | 2,100 | 2026-11-07 | A-over | None under 3,000 in the three stores: Waterskin stays |
+| ~~3~~ | ~~Talisman of Creativity~~ | Azula (Bender's Waterskin) | | **Dropped** (owner, 2026-11-08: no real gain; Waterskin stays) | 0 | | | |
 | 4 | Rogue's Passage | Ezio (Rumble Arena) | EN | CMM 426, LP | 1,440 | 2026-11-07 | A-over | none in GoM or RIV: Rumble Arena stays |
 | 5 | Myriad Landscape | Toph (one Forest ACR 110) | EN | KHC 115, LP | 1,440 | 2026-11-07 | A-over | none: the Forest stays |
-| 6 | Generous Gift | Toph (Fateful Absence) | EN | CMM 624 borderless, NM | 1,500 | 2026-11-07 | A-over | GoM 2,000 NM (MOC) |
+| 6 | Generous Gift | Toph (Fateful Absence) | EN | CMM 624 borderless, NM | 1,500 | 2026-11-07 | A-cap (inside the shared cap after the DROPs) | GoM 2,000 NM (MOC) |
 | 7 | Muddle the Mixture | Kilo (Chain Reaction) | **ES** | printing not read | 3,000 | 2026-11-07, OC (**verify**) | A-over | none in Spanish in GoM or RIV: Chain Reaction stays |
 | 8 | Battlefield Forge | Kilo (Path of Ancestry) | **ES** | BRO 257, NM Spanish | 2,600 | 2026-11-07 | A-over | none in Spanish: Path stays |
 | 9 | Cover of Darkness | Loan to Ezio | EN | ACR, NM | 10,500 | 2026-11-07 | B-loan | GoM 10,760 LP foil |
 | 10 | Hidden Footblade | Loan to Ezio | EN | ACR 34, LP | 1,440 | 2026-11-07 | B-loan | P2W 1,560 NM foil |
 | 11 | Overpowering Attack | Loan to Azula | EN | ACR 37, LP foil (the cheapest) | 1,440 | 2026-11-07 | B-loan | P2W 1,560 NM |
 | 12 | Swiftfoot Boots | Kilo (Ovalchase Dragster), owner's extra | **ES** | C14 275, LP Spanish | 2,200 | 2026-11-07 | B-extra | GoM 3,280 ES |
-| 13 | Command Tower | Ezio (English copy; his Spanish PIP 259 goes to Kilo for a Mountain) | EN | CMR 350, LP | 900 | 2026-11-07 | B-extra | GoM 1,200 EN |
-| 14 | Mountain, full art, x3 | Free full-art basics (3 short of 10) | EN | DSK 275 full art, LP, all three the same printing | 2,700 (3 x 900) | 2026-11-07 | B-basics | NM at 975 each; or 3 BFZ full art NM at 975 (one set). No Edge of Eternities full-art Mountain was read in the three stores |
-| 15 | Elephant token (3/3 green) x2 | For the two Generous Gifts (Toph, Kilo); not in his Tokens binder | any | Scryfall Elephant 3/3 green | price to read | not read | B-token | "Sin stock" if no store has it |
+| 13 | Command Tower | Ezio (his Spanish PIP 259 goes to Kilo for a Mountain) | **ES** (review fix: same price as EN CMR 350, Spanish wins; the builder's own pick) | C17 242, LP Spanish | 900 | 2026-11-07 | B-extra | P2W 900 EN CMR 350 LP; GoM 1,200 EN |
+| 14 | Mountain, full art, x3 | Free full-art basics (3 short of 10) | **ES** (review fix: same price as the EN DSK, Spanish wins) | BFZ 268 full art, LP Spanish, all three the same printing | 2,700 (3 x 900) | 2026-11-07 | B-basics | If fewer than 3 Spanish BFZ 268: 3 x DSK 275 full art EN LP at 900 (one printing). No Edge of Eternities full-art Mountain was read in the three stores |
+| 15 | Elephant token (3/3 green) x2 | For the two Generous Gifts (Toph, Kilo); not in his collection's tokens | any | Elephant // Wurm double-sided token, Double Masters tokens (Elephant face = Scryfall T2XM 14, 3/3 green, no abilities: matches the Generous Gift token TMSC 28) | about 4,400 (2 x 2,200, search "from" price read 2026-11-08; variant price and quantity NOT read: HTTP 429) | 2026-11-08, search only | B-token | "Sin stock" if not 2 in stock. GoM's Elephant // Treasure (TDM tokens) is a 5/5 Elephant: wrong token |
 | 16 | Arcane Signet | Stock (staple of all four decks) | EN | NEC, NM | 975 | 2026-11-07 | B-stock (recommended) | GoM 1,000 ES |
 | 17 | Beast Within | Stock | EN | LCC, LP | 1,440 | 2026-11-07 | B-stock (optional) | none |
 | 18 | Fellwar Stone | Stock | EN | ECC, NM | 1,560 | 2026-11-07 | B-stock (optional) | none |
@@ -157,33 +164,35 @@ Tokens (Scryfall `all_parts`, read 2026-11-08, for every card in this plan): onl
 Elephant for the controller of the destroyed permanent). His Tokens binder has none. No other bought card makes tokens or
 emblems.
 
-No spare Swords to Plowshares is recommended: Kilo and Ezio each have a copy now, and Toph and Azula play none.
+No spare Swords to Plowshares is recommended: Kilo, Ezio and Toph (his Spanish EOC 45) each have a copy; Azula plays none.
+(Review correction: Toph does play one.)
 
 ## 3. Totals (CLP)
 
 | Block | GoM | P2W | RIV | Total |
 |---|---|---|---|---|
-| A inside cap, shared 5,000 (Azula 2,182, Toph 1,470, Ezio 1,312) | 4,064 | 900 | 0 | **4,964** |
+| A inside cap, shared 5,000 (Azula 1,440, Toph 2,970, Ezio 570) | 2,580 | 2,400 | 0 | **4,980** |
 | A inside cap, Kilo 7,000 | 1,500 | 2,100 | 3,200 | **6,800** |
-| A approved over-cap, Azula | 0 | 2,100 | 0 | **2,100** |
-| A approved over-cap, Toph | 0 | 2,940 | 0 | **2,940** |
-| A approved over-cap, Ezio | 2,977 | 1,440 | 0 | **4,417** |
+| A approved over-cap, Azula | 0 | 0 | 0 | **0** |
+| A approved over-cap, Toph (Myriad Landscape) | 0 | 1,440 | 0 | **1,440** |
+| A approved over-cap, Ezio (Battlefield Forge, Llanowar Wastes, Rogue's Passage) | 2,235 | 1,440 | 0 | **3,675** |
 | A approved over-cap, Kilo (Swords for Ezio's swap, Muddle, Forge) | 2,500 | 5,600 | 0 | **8,100** |
-| **Section A** | 11,041 | 15,080 | 3,200 | **29,321** |
+| **Section A** | 8,815 | 12,980 | 3,200 | **24,995** |
 | B loans (8) | 18,217 | 13,380 | 0 | 31,597 |
-| B extras (Swiftfoot Boots ES, Command Tower EN) | 0 | 3,100 | 0 | 3,100 |
+| B extras (Swiftfoot Boots ES, Command Tower ES) | 0 | 3,100 | 0 | 3,100 |
 | B basics (3 full-art Mountains) | 0 | 2,700 | 0 | 2,700 |
-| B stock, recommended (8) | 4,230 | 975 | 900 | 6,105 |
-| B tokens (2 Elephants) | | to read | | to read |
+| B stock, recommended (7; Chaos Warp removed) | 3,315 | 975 | 900 | 5,190 |
+| B tokens (2 Elephants; not in the totals until the variant price is read) | | about 4,400 | | about 4,400 |
 | Owed (Smoldering Marsh) | 0 | | | 0 |
-| **Section B** | 22,447 | 20,155 | 900 | **43,502** |
-| **Cards** | **33,488** | **35,235** | **4,100** | **72,823** |
+| **Section B** | 21,532 | 20,155 | 900 | **42,587** |
+| **Cards** | **30,347** | **33,135** | **4,100** | **67,582** |
 | Shipping (assumed 5,000 per store, outside every budget) | 5,000 | 5,000 | 5,000 | **15,000** |
-| **Grand total** | **38,488** | **40,235** | **9,100** | **87,823** |
+| **Grand total** | **35,347** | **38,135** | **9,100** | **82,582** |
+| Grand total with the 2 Elephant tokens at the search price | 35,347 | 42,535 | 9,100 | about 86,982 |
 | B stock, optional (4, not in the totals): Spire of Industry, Beast Within, Fellwar Stone, Pull from Tomorrow | 1,420 | 5,400 | 0 | 6,820 |
 
 Section B by type: loans 31,597 (Cover of Darkness and Achilles Davenport are 61 % of it); extras 3,100; basics 2,700;
-recommended stock 6,105; tokens to read.
+recommended stock 5,190; tokens about 4,400 (search price, to read).
 
 ## 4. Lines once planned at Tienda La Comarca (replaced by Rivendel El Concilio on 2026-11-08)
 
@@ -203,13 +212,15 @@ recommended stock 6,105; tokens to read.
 - Every line: all readings are, or will be, over 24 hours old when he buys (RIV's turns 24 hours old at 2026-11-09 03:56 UTC).
 - First, the lines from the unsaved OC read: Narset (GoM) and Muddle the Mixture ES (P2W).
 - Lines with one source and no fallback card: Meticulous Excavation, Talisman of Conviction ES, Generous Gift ES, Muddle ES,
-  Battlefield Forge ES, Rogue's Passage, Myriad Landscape, Talisman of Creativity, Achilles Davenport. If one fails, its
+  Battlefield Forge ES, Rogue's Passage, Myriad Landscape, Achilles Davenport. If one fails, its
   stand-in stays in the list (column "Fallback").
-- Quantities: 2 Soul-Guide Lanterns at GoM; 3 copies of one full-art Mountain printing at P2W; 2 Elephant tokens.
+- Quantities: no Soul-Guide Lantern to buy (Azula takes his owned copy; Ezio's was dropped); 3 copies of one full-art Mountain printing
+  at P2W (Spanish BFZ 268 first); 2 Elephant // Wurm tokens at P2W (variant price and quantity unread).
+- Muddle the Mixture: pre-approval is "under about 3,000"; if the live price is over 3,000, ask the owner.
 - Smoldering Marsh: confirm GoM includes it in this order.
 
 ## 6. Open questions for the owner
-1. Stock cards: buy the 8 recommended (6,105)? Any of the 4 optional (6,820)?
+1. Stock cards: the owner approved the recommended ones; Chaos Warp removed (7 left, 5,190). Any of the 4 optional (6,820)?
 
 ## 7. After-purchase lists (Moxfield paste format)
 

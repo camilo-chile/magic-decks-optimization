@@ -200,3 +200,26 @@ Power 6.6 in both. Bracket 3 in both. Salt 60.3 to 60.7 (the list changed, and t
 
 - Upgrades tab (not re-read today; the 2026-11-07 list above stays as the last read).
 - Live stock, Layer A (`scripts/check_list.py`, `scripts/layer_a.py`), consistency gate (`scripts/plan_density.py`), reversible cards.
+
+## After purchases v3 (2026-11-08)
+
+- Source file: `decks/phase2/moxfield/ezio-auditore-da-firenze-after-purchases.txt`, pasted as is, "Override with preferred printings" OFF.
+- Moxfield: https://moxfield.com/decks/9CDmjxHgb0ajpJ4OmQR0dw (name "Phase2 Ezio after purchases 2026-11-08 v3", Commander, Unlisted).
+- Commander Salt: https://commandersalt.com/details/deck/79bdb2ab8054133fbacf1381eade50e2
+- Import check: commander Ezio Auditore da Firenze; mainboard 99 (Planeswalkers 1, Creatures 25, Sorceries 5, Instants 13, Artifacts 14, Enchantments 5, Lands 36); total 100. No import error reported by Moxfield. Basics total 15 (Forest 1, Island 2, Mountain 1, Plains 1, Swamp 10), which matches Salt's "15 BASIC". The 8 `Swamp (TLA) 284` and 2 `Swamp (ACR) 106` lines are shown by Moxfield as one Swamp row, so the printing of those 10 copies could not be read from the text view and may be the ACR printing, as in the 2026-11-08 after-purchases import above. Not corrected here; the owner decides.
+
+| Measure | After purchases v3 |
+|---|---|
+| Power | 6.7 (Focused Casual); field report text says 6.8 |
+| Bracket (Salt / WotC spec) | 3 (Upgraded) / 3, in sync |
+| Salt | 61.2, C- (Attack Thorn) |
+| Commander tier | T4 |
+| Pillars | Consistency 218 / 100; Efficiency 167 / 100; Interaction 189 / 140; Win conditions 386 / 200 |
+| Report card | Saltiness C- 61.2; Interaction B- 189; Wincons A- 247; Synergy B+ 345.3 |
+| Manabase | Score 89 / 300; Fixing 98, Quality 79, Curve 89; 36 lands; 6 tapped lands, tapped-land penalty -0.30; 8 rainbow sources |
+| Combos | 1 line: Ezio Auditore da Firenze + Magister Sphinx, infinite life loss, 2 cards, 0 mana, score 25, redundancy 0.50x |
+| Bracket criteria | Game Changers 0; two-card infinite combos 1 (B3); mass land denial 0; extra turns 0; early-game infinites 0 |
+
+- Drivers (manabase tab): pushed up by Fast and untapped lands (major), Utility land value (notable); pulled down by Tapped lands (major). Power tab drivers were not printed in the text read.
+- Suggestions (power tab, 2): the 2 board wipes are too thin to reset a board; counterspell coverage is light. Manabase suggestions (5): no fetch lands in a 5-colour deck; no fast-mana lands; no modal DFCs; swap some of the 6 tapped lands; one more not read in full. Bracket: 0 to 4 or more Game Changers, mass land denial, an early infinite, or more fast mana would push to bracket 4.
+- Comparison with the previous score (6.6): power up 0.1 to 6.7, above the 6.5 floor. Salt 61.2 against 60.7 in the after-purchases section above (up 0.5), and against 60.3 before purchases.

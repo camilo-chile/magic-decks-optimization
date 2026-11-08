@@ -104,3 +104,25 @@ The page reads three independent game-winning lines with little redundancy; the 
 - Page text contained no text addressed to an AI. The Commander Salt field report and the changelog were read as data only.
 - The Moxfield address https://www.moxfield.com/decks/mine returned 404; the deck list is at /decks/personal, which is the one used.
 - The browser work ran in the main session on Haiku 5.5; no agent was launched.
+
+## After purchases v3 (2026-11-08)
+
+- Source file: `decks/phase2/moxfield/fire-lord-azula-after-purchases.txt` (pasted as is, "Override with preferred printings" OFF).
+- Moxfield: https://moxfield.com/decks/bvMgaEu1okOqZCah21BRMw (name "Phase2 Azula after purchases 2026-11-08 v3", Commander, Unlisted).
+- Commander Salt: https://commandersalt.com/details/deck/638569b0f2d0678d964e6d124eb065a7
+- Import check: commander Fire Lord Azula; mainboard 99 (Planeswalkers 1, Creatures 13, Sorceries 5, Instants 26, Artifacts 14, Enchantments 4, Lands 36); total 100. No import error. Set codes per row were not checked on the Moxfield text view.
+
+| Measure | After purchases v3 |
+|---|---|
+| Power | 7.3 (Optimized); field report text says 7.4 |
+| Bracket (Salt / WotC spec) | 3 (Upgraded) / 3, in sync |
+| Salt | 72.8, C- (Combo Assassin) |
+| Commander tier | T4 |
+| Pillars | Consistency 235 / 100; Efficiency 388 / 100; Interaction 230 / 140; Win conditions 483 / 200 |
+| Report card | Saltiness C- 72.8; Interaction B 230; Wincons A+ 410.6; Synergy B- 228.0 |
+| Manabase | Score 95 / 300; Fixing 99, Quality 91, Curve 94; 36 lands; 34 untapped vs 2 tapped; tapped-land penalty -0.06 |
+| Combos | 4 combos, 3 independent lines: Godo + Helm of the Host (2 cards); Dualcaster Mage + Fire Lord Azula + Snap; Fire Lord Azula + Frantic Search + Narset's Reversal; Fire Lord Azula + Narset's Reversal + Storm-Kiln Artist |
+
+- Drivers: pushed up by Tournament-grade execution (minor), Fast and untapped lands (major), Utility land value (minor). Pulled down by Structural ceiling, wincon combos with no tutors (-0.45, major), Other penalties (major), Win conditions without consistency (minor), Tapped lands (minor).
+- Suggestions (page, 2): tutors to assemble the wincon combos; a board wipe too thin to reset the board. Manabase suggestions (3): fetch lands, modal DFCs, more utility lands. Bracket suggestions: cut the 1 Game Changer to read bracket 2; tutors and rocks would push toward 4.
+- Comparison with the previous after-purchases score (7.3): same power; Salt 72.8 unchanged; Efficiency up from 380 to 388; Interaction and Consistency unchanged.
