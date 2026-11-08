@@ -1,0 +1,773 @@
+[
+ {
+  "store": "Game of Magic Singles",
+  "card": "Narset, Parter of Veils",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 1440,
+  "unit_planned": 1440,
+  "printing": "not read (OC: EN nonfoil)",
+  "use": "Azula (Malcolm, the Eyes)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Game of Magic Singles",
+  "card": "Wood Elves",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 570,
+  "unit_planned": 570,
+  "printing": "HOB 142, NM",
+  "use": "Toph (Bender's Waterskin)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Game of Magic Singles",
+  "card": "Golgari Signet",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 570,
+  "unit_planned": 570,
+  "printing": "BLC 272, NM",
+  "use": "Ezio (Deathcap Cultivator)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Game of Magic Singles",
+  "card": "Talisman of Conviction",
+  "qty": 1,
+  "language": "es",
+  "planned_clp": 1500,
+  "unit_planned": 1500,
+  "printing": "TDC 329, NM Español",
+  "use": "Kilo (Inspiring Overseer)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Game of Magic Singles",
+  "card": "Battlefield Forge",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 915,
+  "unit_planned": 915,
+  "printing": "M3C 321, NM",
+  "use": "Ezio (Clifftop Retreat)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Game of Magic Singles",
+  "card": "Llanowar Wastes",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 1320,
+  "unit_planned": 1320,
+  "printing": "C20 286, LP",
+  "use": "Ezio (Jungle Shrine)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Game of Magic Singles",
+  "card": "Swords to Plowshares",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 2500,
+  "unit_planned": 2500,
+  "printing": "DRC 37, NM",
+  "use": "Ezio (his Spanish FRC 37 moves to Kilo, for Thrummingbird); charged to Kilo's over-cap",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Game of Magic Singles",
+  "card": "Eagle Vision",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 742,
+  "unit_planned": 742,
+  "printing": "ACR, NM",
+  "use": "Loan to Ezio",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Game of Magic Singles",
+  "card": "Bayek of Siwa",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 2320,
+  "unit_planned": 2320,
+  "printing": "ACR Showcase, NM",
+  "use": "Loan to Ezio",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Game of Magic Singles",
+  "card": "Layla Hassan",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 915,
+  "unit_planned": 915,
+  "printing": "ACR Showcase, NM",
+  "use": "Loan to Ezio",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Game of Magic Singles",
+  "card": "Unstoppable Slasher",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 5560,
+  "unit_planned": 5560,
+  "printing": "DSK 294, NM",
+  "use": "Loan to Ezio",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Game of Magic Singles",
+  "card": "Achilles Davenport",
+  "qty": 1,
+  "language": "es",
+  "planned_clp": 8680,
+  "unit_planned": 8680,
+  "printing": "ACR 294, NM",
+  "use": "Loan to Ezio",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Game of Magic Singles",
+  "card": "Commander's Sphere",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 570,
+  "unit_planned": 570,
+  "printing": "DMC, NM",
+  "use": "Stock (Ezio gave his to Kilo)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Game of Magic Singles",
+  "card": "Glacial Fortress",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 915,
+  "unit_planned": 915,
+  "printing": "DRC, NM",
+  "use": "Stock (Ezio gave his to Kilo)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Game of Magic Singles",
+  "card": "Radiant Summit",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 915,
+  "unit_planned": 915,
+  "printing": "EOC, NM",
+  "use": "Stock (Ezio gave his to Kilo)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Game of Magic Singles",
+  "card": "Exotic Orchard",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 915,
+  "unit_planned": 915,
+  "printing": "AFC, NM",
+  "use": "Stock (multicolor staple)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Game of Magic Singles",
+  "card": "Spire of Industry",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 1420,
+  "unit_planned": 1420,
+  "printing": "MKC, NM",
+  "use": "Stock",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Cultivate",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 900,
+  "unit_planned": 900,
+  "printing": "C17 147, LP",
+  "use": "Toph (Chromatic Lantern)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Generous Gift",
+  "qty": 1,
+  "language": "es",
+  "planned_clp": 2100,
+  "unit_planned": 2100,
+  "printing": "WOC 68, NM Spanish",
+  "use": "Kilo (Brute Suit)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Rogue's Passage",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 1440,
+  "unit_planned": 1440,
+  "printing": "CMM 426, LP",
+  "use": "Ezio (Rumble Arena)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Myriad Landscape",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 1440,
+  "unit_planned": 1440,
+  "printing": "KHC 115, LP",
+  "use": "Toph (one Forest ACR 110)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Generous Gift",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 1500,
+  "unit_planned": 1500,
+  "printing": "CMM 624 borderless, NM",
+  "use": "Toph (Fateful Absence)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Muddle the Mixture",
+  "qty": 1,
+  "language": "es",
+  "planned_clp": 3000,
+  "unit_planned": 3000,
+  "printing": "printing not read",
+  "use": "Kilo (Chain Reaction)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Battlefield Forge",
+  "qty": 1,
+  "language": "es",
+  "planned_clp": 2600,
+  "unit_planned": 2600,
+  "printing": "BRO 257, NM Spanish",
+  "use": "Kilo (Path of Ancestry)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Cover of Darkness",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 10500,
+  "unit_planned": 10500,
+  "printing": "ACR, NM",
+  "use": "Loan to Ezio",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Hidden Footblade",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 1440,
+  "unit_planned": 1440,
+  "printing": "ACR 34, LP",
+  "use": "Loan to Ezio",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Overpowering Attack",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 1440,
+  "unit_planned": 1440,
+  "printing": "ACR 37, LP foil (the cheapest)",
+  "use": "Loan to Azula",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Swiftfoot Boots",
+  "qty": 1,
+  "language": "es",
+  "planned_clp": 2200,
+  "unit_planned": 2200,
+  "printing": "C14 275, LP Spanish",
+  "use": "Kilo (Ovalchase Dragster), owner's extra",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Command Tower",
+  "qty": 1,
+  "language": "es",
+  "planned_clp": 900,
+  "unit_planned": 900,
+  "printing": "C17 242, LP Spanish",
+  "use": "Ezio (his Spanish PIP 259 goes to Kilo for a Mountain)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Mountain",
+  "qty": 3,
+  "language": "es",
+  "planned_clp": 2700,
+  "unit_planned": 900,
+  "printing": "BFZ 268 full art, LP Spanish, all three the same printing",
+  "use": "Free full-art basics (3 short of 10)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Elephant token",
+  "qty": 2,
+  "language": "any",
+  "planned_clp": 4400,
+  "unit_planned": 2200,
+  "printing": "Elephant // Wurm double-sided token, Double Masters tokens (Elephant face = Scryfall T2XM 14, 3/3 green, no abilities: matches the Generous Gift token TMSC 28)",
+  "use": "For the two Generous Gifts (Toph, Kilo); not in his collection's tokens",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Arcane Signet",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 975,
+  "unit_planned": 975,
+  "printing": "NEC, NM",
+  "use": "Stock (staple of all four decks)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Beast Within",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 1440,
+  "unit_planned": 1440,
+  "printing": "LCC, LP",
+  "use": "Stock",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Fellwar Stone",
+  "qty": 1,
+  "language": "en",
+  "planned_clp": 1560,
+  "unit_planned": 1560,
+  "printing": "ECC, NM",
+  "use": "Stock",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "PayToWin",
+  "card": "Pull from Tomorrow",
+  "qty": 1,
+  "language": "es",
+  "planned_clp": 2400,
+  "unit_planned": 2400,
+  "printing": "AKH, LP",
+  "use": "Stock (Kilo gave his to Azula)",
+  "variants": [],
+  "status": "read_in_browser",
+  "best": null
+ },
+ {
+  "store": "Rivendel El Concilio",
+  "card": "Meticulous Excavation",
+  "qty": 1,
+  "language": "es",
+  "planned_clp": 300,
+  "unit_planned": 300,
+  "printing": "BRO 16, 16 in stock",
+  "use": "Kilo (Chromatic Star)",
+  "variants": [
+   {
+    "title": "Meticulous Excavation #016",
+    "variant": "ingles",
+    "language": "en",
+    "price_clp": 300,
+    "quantity": 2,
+    "url": "https://www.rivendelelconcilio.cl/meticulous-excavation-016"
+   },
+   {
+    "title": "Meticulous Excavation #016",
+    "variant": "Español",
+    "language": "es",
+    "price_clp": 300,
+    "quantity": 16,
+    "url": "https://www.rivendelelconcilio.cl/meticulous-excavation-016"
+   },
+   {
+    "title": "Meticulous Excavation #016",
+    "variant": "Ingles Foil",
+    "language": "en",
+    "price_clp": 500,
+    "quantity": 1,
+    "url": "https://www.rivendelelconcilio.cl/meticulous-excavation-016"
+   }
+  ],
+  "status": "ok",
+  "best": {
+   "title": "Meticulous Excavation #016",
+   "variant": "Español",
+   "language": "es",
+   "price_clp": 300,
+   "quantity": 16,
+   "url": "https://www.rivendelelconcilio.cl/meticulous-excavation-016"
+  },
+  "checked_utc": "2026-11-08T18:26Z"
+ },
+ {
+  "store": "Rivendel El Concilio",
+  "card": "Volt Charge",
+  "qty": 1,
+  "language": "es",
+  "planned_clp": 200,
+  "unit_planned": 200,
+  "printing": "ONE 155, 14 in stock",
+  "use": "Kilo (Firebending Lesson)",
+  "variants": [
+   {
+    "title": "Volt Charge #155",
+    "variant": "ingles",
+    "language": "en",
+    "price_clp": 200,
+    "quantity": 2,
+    "url": "https://www.rivendelelconcilio.cl/volt-charge-155"
+   },
+   {
+    "title": "Volt Charge #155",
+    "variant": "Español",
+    "language": "es",
+    "price_clp": 200,
+    "quantity": 14,
+    "url": "https://www.rivendelelconcilio.cl/volt-charge-155"
+   },
+   {
+    "title": "Volt Charge #155",
+    "variant": "Ingles Foil",
+    "language": "en",
+    "price_clp": 300,
+    "quantity": 1,
+    "url": "https://www.rivendelelconcilio.cl/volt-charge-155"
+   }
+  ],
+  "status": "ok",
+  "best": {
+   "title": "Volt Charge #155",
+   "variant": "Español",
+   "language": "es",
+   "price_clp": 200,
+   "quantity": 14,
+   "url": "https://www.rivendelelconcilio.cl/volt-charge-155"
+  },
+  "checked_utc": "2026-11-08T18:26Z"
+ },
+ {
+  "store": "Rivendel El Concilio",
+  "card": "Prophetic Prism",
+  "qty": 1,
+  "language": "es",
+  "planned_clp": 200,
+  "unit_planned": 200,
+  "printing": "ONE 238, 6 in stock",
+  "use": "Kilo (Etherium Sculptor)",
+  "variants": [
+   {
+    "title": "Prophetic Prism #334",
+    "variant": "ingles",
+    "language": "en",
+    "price_clp": 300,
+    "quantity": 3,
+    "url": "https://www.rivendelelconcilio.cl/prophetic-prism-334"
+   },
+   {
+    "title": "Prophetic Prism #334",
+    "variant": "Español",
+    "language": "es",
+    "price_clp": 300,
+    "quantity": 1,
+    "url": "https://www.rivendelelconcilio.cl/prophetic-prism-334"
+   },
+   {
+    "title": "Prophetic Prism #234",
+    "variant": "ingles",
+    "language": "en",
+    "price_clp": 300,
+    "quantity": 4,
+    "url": "https://www.rivendelelconcilio.cl/prophetic-prism-234"
+   },
+   {
+    "title": "Prophetic Prism #234",
+    "variant": "Español",
+    "language": "es",
+    "price_clp": 300,
+    "quantity": 9,
+    "url": "https://www.rivendelelconcilio.cl/prophetic-prism-234"
+   },
+   {
+    "title": "Prophetic Prism #249",
+    "variant": "ingles",
+    "language": "en",
+    "price_clp": 200,
+    "quantity": 3,
+    "url": "https://www.rivendelelconcilio.cl/prophetic-prism-249"
+   },
+   {
+    "title": "Prophetic Prism #249",
+    "variant": "Español",
+    "language": "es",
+    "price_clp": 200,
+    "quantity": 3,
+    "url": "https://www.rivendelelconcilio.cl/prophetic-prism-249"
+   },
+   {
+    "title": "Prophetic Prism #249",
+    "variant": "Ingles Foil",
+    "language": "en",
+    "price_clp": 300,
+    "quantity": 1,
+    "url": "https://www.rivendelelconcilio.cl/prophetic-prism-249"
+   },
+   {
+    "title": "Prophetic Prism #238",
+    "variant": "ingles",
+    "language": "en",
+    "price_clp": 200,
+    "quantity": 6,
+    "url": "https://www.rivendelelconcilio.cl/prophetic-prism-238"
+   },
+   {
+    "title": "Prophetic Prism #238",
+    "variant": "Español",
+    "language": "es",
+    "price_clp": 200,
+    "quantity": 6,
+    "url": "https://www.rivendelelconcilio.cl/prophetic-prism-238"
+   },
+   {
+    "title": "Prophetic Prism #238",
+    "variant": "Ingles Foil",
+    "language": "en",
+    "price_clp": 300,
+    "quantity": 1,
+    "url": "https://www.rivendelelconcilio.cl/prophetic-prism-238"
+   }
+  ],
+  "status": "ok",
+  "best": {
+   "title": "Prophetic Prism #249",
+   "variant": "Español",
+   "language": "es",
+   "price_clp": 200,
+   "quantity": 3,
+   "url": "https://www.rivendelelconcilio.cl/prophetic-prism-249"
+  },
+  "checked_utc": "2026-11-08T18:26Z"
+ },
+ {
+  "store": "Rivendel El Concilio",
+  "card": "Relic of Legends",
+  "qty": 1,
+  "language": "es",
+  "planned_clp": 2500,
+  "unit_planned": 2500,
+  "printing": "DMU 236, 3 in stock",
+  "use": "Kilo (Hangarback Walker)",
+  "variants": [
+   {
+    "title": "Relic of Legends #236",
+    "variant": "ingles",
+    "language": "en",
+    "price_clp": 2500,
+    "quantity": 11,
+    "url": "https://www.rivendelelconcilio.cl/relic-of-legends-236"
+   },
+   {
+    "title": "Relic of Legends #236",
+    "variant": "Español",
+    "language": "es",
+    "price_clp": 2500,
+    "quantity": 3,
+    "url": "https://www.rivendelelconcilio.cl/relic-of-legends-236"
+   }
+  ],
+  "status": "ok",
+  "best": {
+   "title": "Relic of Legends #236",
+   "variant": "Español",
+   "language": "es",
+   "price_clp": 2500,
+   "quantity": 3,
+   "url": "https://www.rivendelelconcilio.cl/relic-of-legends-236"
+  },
+  "checked_utc": "2026-11-08T18:26Z"
+ },
+ {
+  "store": "Rivendel El Concilio",
+  "card": "Thirst for Knowledge",
+  "qty": 1,
+  "language": "es",
+  "planned_clp": 300,
+  "unit_planned": 300,
+  "printing": "CMR 103, 2 in stock",
+  "use": "Stock (Kilo has the Spanish copy; Azula wanted one)",
+  "variants": [
+   {
+    "title": "Thirst for Knowledge #079",
+    "variant": "esp",
+    "language": "en",
+    "price_clp": 400,
+    "quantity": 9,
+    "url": "https://www.rivendelelconcilio.cl/thirst-for-knowledge-079"
+   },
+   {
+    "title": "Thirst for Knowledge #103",
+    "variant": "Español",
+    "language": "es",
+    "price_clp": 300,
+    "quantity": 2,
+    "url": "https://www.rivendelelconcilio.cl/thirst-for-knowledge-103"
+   },
+   {
+    "title": "Thirst for Knowledge #103",
+    "variant": "Ingles Foil",
+    "language": "en",
+    "price_clp": 400,
+    "quantity": 1,
+    "url": "https://www.rivendelelconcilio.cl/thirst-for-knowledge-103"
+   }
+  ],
+  "status": "ok",
+  "best": {
+   "title": "Thirst for Knowledge #103",
+   "variant": "Español",
+   "language": "es",
+   "price_clp": 300,
+   "quantity": 2,
+   "url": "https://www.rivendelelconcilio.cl/thirst-for-knowledge-103"
+  },
+  "checked_utc": "2026-11-08T18:26Z"
+ },
+ {
+  "store": "Rivendel El Concilio",
+  "card": "Mystic Monastery",
+  "qty": 1,
+  "language": "es",
+  "planned_clp": 600,
+  "unit_planned": 600,
+  "printing": "TDM 262, 3 in stock",
+  "use": "Stock (Ezio gave his to Kilo)",
+  "variants": [
+   {
+    "title": "Mystic Monastery #262",
+    "variant": "ingles",
+    "language": "en",
+    "price_clp": 600,
+    "quantity": 1,
+    "url": "https://www.rivendelelconcilio.cl/mystic-monastery-262"
+   },
+   {
+    "title": "Mystic Monastery #262",
+    "variant": "Español",
+    "language": "es",
+    "price_clp": 600,
+    "quantity": 3,
+    "url": "https://www.rivendelelconcilio.cl/mystic-monastery-262"
+   }
+  ],
+  "status": "ok",
+  "best": {
+   "title": "Mystic Monastery #262",
+   "variant": "Español",
+   "language": "es",
+   "price_clp": 600,
+   "quantity": 3,
+   "url": "https://www.rivendelelconcilio.cl/mystic-monastery-262"
+  },
+  "checked_utc": "2026-11-08T18:26Z"
+ }
+]

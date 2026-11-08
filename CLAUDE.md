@@ -232,10 +232,9 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
   project data where the pipeline puts it, and says so in its reply; it tells the owner before installing a package.
   WebFetch summaries are spot checks, never evidence: evidence comes from the API data or the page itself.
 - Scripts the user runs: runnable from the VS Code "Run Python File" button with no
-  arguments (defaults in the script), and they write their result to a file. Any script
-  estimated to run longer than 5 minutes must also show its progress with an ETA and keep a
-  separate progress log file next to the result file (optimizers, store
-  readers, simulations).
+  arguments (defaults in the script), and they write their result to a file. EVERY script (owner, 2026-11-08; before,
+  only those over 5 minutes) shows its progress with an ETA on the console (flushed at once, never held back by a pipe)
+  and keeps a separate progress log file with timestamps next to the result file.
 - The conda env lives in conda's default envs directory; the repo only holds
   `requirements.txt`. Never create a venv.
 - Git is read-only for Claude: status, diff, log, show, ls-files, check-ignore, var. Never

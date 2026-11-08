@@ -223,3 +223,33 @@ Power 6.6 in both. Bracket 3 in both. Salt 60.3 to 60.7 (the list changed, and t
 - Drivers (manabase tab): pushed up by Fast and untapped lands (major), Utility land value (notable); pulled down by Tapped lands (major). Power tab drivers were not printed in the text read.
 - Suggestions (power tab, 2): the 2 board wipes are too thin to reset a board; counterspell coverage is light. Manabase suggestions (5): no fetch lands in a 5-colour deck; no fast-mana lands; no modal DFCs; swap some of the 6 tapped lands; one more not read in full. Bracket: 0 to 4 or more Game Changers, mass land denial, an early infinite, or more fast mana would push to bracket 4.
 - Comparison with the previous score (6.6): power up 0.1 to 6.7, above the 6.5 floor. Salt 61.2 against 60.7 in the after-purchases section above (up 0.5), and against 60.3 before purchases.
+
+## After purchases v4 (2026-11-08, after the final review dropped Mind Stone and the second Soul-Guide Lantern)
+
+- Source file: `decks/phase2/moxfield/ezio-auditore-da-firenze-after-purchases.txt`, pasted as is, "Override with preferred printings" OFF.
+- Moxfield: https://moxfield.com/decks/9b6UNOJqPEa4aiP77QFYtw (name "Phase2 Ezio after purchases 2026-11-08 v4", Commander, Unlisted).
+- Commander Salt: https://commandersalt.com/details/deck/89ead91f27f35b06d01a7ae406055f5c
+- Import check: commander Ezio Auditore da Firenze; Moxfield shows "100 main deck / 0 sideboard" (the commander counts in the 100, so the mainboard is 99). Category totals: Planeswalkers 1, Creatures 25, Sorceries 5, Instants 13, Artifacts 14, Enchantments 5, Lands 36, Commander 1 (sum 100). No import error reported by Moxfield. The Moxfield text view shows one `Swamp` row for the 8 `Swamp (TLA) 284` and 2 `Swamp (ACR) 106` lines, so the printing of those 10 copies was not confirmed in this run (same as v3). Not corrected here; the owner decides.
+
+| Measure | After purchases v4 |
+|---|---|
+| Power | 6.7 (Focused Casual), commander tier T4 |
+| Bracket | 3 (Upgraded) as shown on the result page. The WotC / Salt split was not read separately in this run |
+| Salt | 61.3, C- (Attack Thorn; 20.4 % of the salt scale, moderate) |
+| Scoring version | Not printed on the result page in this run |
+| Pillars | Consistency 219 / 100; Efficiency 161 / 100; Interaction 177 / 140; Win conditions 400 / 200 |
+| Report card | Saltiness C- 61.3; Interaction C+ 177; Wincons A 255; Synergy B+ 361.0. Flavor profile Midrange/Combo |
+| Manabase | Score 89 / 300 (30 %); Fixing 98, Quality 79, Curve 89; 36 lands (vs 37 expected); 6 tapped lands, tapped-land penalty -0.30 (relief x0.50, speed x1.00); 43 sources; 8 rainbow sources; 0 fast-mana lands; Sol Ring among 7 rocks |
+| Combos | 1 line: Ezio Auditore da Firenze + Magister Sphinx, infinite life loss, 2 cards, 0 mana, score 25, redundancy 0.50x, "Fragile backups", "Single wincon line", friction: requires paying extra mana x1 |
+| Bracket criteria | Game Changers 0 (not listed by the page in this run; the earlier sections read 0); two-card infinite combos 1 (B3 "upgraded") |
+
+- Power tab suggestions (3): the 2 board wipes are too thin to reset a board once the deck falls behind; counterspell coverage is light; no graveyard interaction detected.
+- Manabase suggestions (5): no fetch lands in a 5-colour deck; no fast-mana lands; no modal DFCs; swap some of the 6 tapped lands; only 6 ramp cards for an average MV of 2.92.
+- Power card deltas (signed as shown, unit not labelled): Bayek of Siwa +11.5, Chromatic Lantern +7.5, Kolaghan's Command +4.9, Arno Dorian +4.2, Achilles Davenport +4.2, What Must Be Done +3.9, Reckless Handling +3.2, Restart Sequence +1.9, Ezio Auditore da Firenze +1.7, Loyal Inventor +1.5, Path of Ancestry +0.7.
+- Salt tab (total 61.3): Board wipes 14.0 (23 %): Mephitic Vapors 7.0, What Must Be Done 7.0. Discard 6.0 (10 %): Kolaghan's Command 3.0. "Uh... you can't do that" 6.0: Ghostly Prison 3.0, Propaganda 3.0. Infinite combos 3.0 (5 %): Ezio + Magister Sphinx. Counterspells 0.6. Community salt ratings carry 50 % of the salt.
+- Drop top 3 (Mephitic Vapors, What Must Be Done, Kolaghan's Command): -27.7 % (17.0 salt).
+- Salt's own warnings: stax layered over the combo ("far saltier together"), salt from five directions.
+
+### Comparison with v3 (power 6.7)
+
+- Power 6.7 in both (no change). Salt 61.3 against 61.2 (up 0.1). Bracket 3 in both.
