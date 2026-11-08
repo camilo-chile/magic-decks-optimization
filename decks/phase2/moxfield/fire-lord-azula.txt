@@ -1,0 +1,91 @@
+// Commander
+1 Fire Lord Azula (TLA) 220
+
+1 Abandon Attachments (TLA) 205
+1 Abrade (BLC) 191
+1 Amphibian Downpour (MH3) 51 *F*
+1 Arcane Signet (TLE) 315
+1 Archmage Emeritus (STX) 377 *F*
+1 Azula, On the Hunt (TLA) 85
+1 Bender's Waterskin (TLA) 255
+1 Big Score (FIC) 290
+1 Black Market Connections (ACR) 87
+1 Blazing Crescendo (ONE) 123
+1 Cascade Bluffs (SOC) 364
+1 Champion's Helm (CMM) 375
+1 Chaos Warp (MBC) 72
+1 Choked Estuary (MKC) 254
+1 Comet Storm (CMR) 411
+1 Command Tower (EOC) 59
+1 Cunning Maneuver (TLA) 130
+1 Darkwater Catacombs (TDC) 355
+1 Day of Black Sun (TLA) 94
+1 Deflecting Swat (TLE) 311
+1 Dimir Locket (GRN) 234
+1 Dimir Signet (FRC) 56
+1 Dragonskull Summit (DSC) 271
+1 Drowned Catacomb (FRC) 69
+1 Dualcaster Mage (C21) 165
+1 Electro, Assaulting Battery (SPM) 76
+1 Electrodominance (OTP) 23
+1 Exotic Orchard (FRC) 70
+1 Fact or Fiction (CMR) 634 *F*
+1 Fatal Push (ACR) 90
+1 Fire Nation Palace (TLA) 268
+1 Fists of Flame (CMM) 223 *F*
+1 Foreboding Ruins (DSC) 277
+1 Frantic Search (TDC) 153
+1 Frostboil Snarl (WHO) 282
+1 Frostcliff Siege (TDM) 187
+1 Glamdring, Foe-hammer // Gleam of Death (HOB) 174 *F*
+1 Go for the Throat (ACR) 91
+1 Goblin Electromancer (RVR) 186 *F*
+1 Godo, Bandit Warlord (CMM) 227
+1 Haunted Cloak (CMM) 389
+1 Helm of the Host (BLC) 276
+1 Hero's Downfall (THS) 90
+1 Hidden Footblade (ACR) 34 *F*
+1 Horizon Stone (CMR) 315
+4 Island (ACR) 103
+2 Island (ACR) 104
+1 Izzet Signet (FRC) 58
+1 Lightning Strike (TLA) 146
+1 Malcolm, the Eyes (OTJ) 219 *F*
+1 Mind Stone (BLC) 280
+5 Mountain (ACR) 108
+1 Mountain (EOE) 265
+1 Mystical Teachings (FDN) 594
+1 Narset's Reversal (WAR) 62
+1 Negate (OGW) 59
+1 Nightscape Familiar (DMR) 94
+1 Octopus Form (TLA) 66
+1 Overpowering Attack
+1 Ozai, the Phoenix King (TLA) 235
+1 Propaganda (ACR) 85
+1 Pull from Tomorrow (EOC) 76
+1 Ritual of Soot (GRN) 84
+1 Rogue's Passage (CMM) 426 *F*
+1 Shadowblood Ridge (DSC) 296
+1 Shivan Reef (FRC) 83
+1 Smoldering Marsh (LTC) 332
+1 Snap (WOC) 110
+1 Sol Ring (OTC) 267
+1 Solve the Equation (STX) 54
+1 Storm-Kiln Artist (SOC) 255
+1 Stormcatch Mentor (SOC) 331
+1 Sulfur Falls (FRC) 84
+1 Sulfurous Springs (FRC) 85
+1 Sunken Hollow (TMC) 76
+1 Sunken Ruins (FRC) 86
+3 Swamp (ACR) 105
+2 Swamp (ACR) 106
+1 Swiftfoot Boots (TDC) 328
+1 Terminate (ACR) 98
+1 Thermo-Alchemist (INR) 174
+1 Thrill of Possibility (FDN) 210
+1 Torrential Gearhulk (CMM) 128
+1 Underground River (FRC) 87
+1 Undying Malice (FDN) 528
+1 Unleash Fury (M21) 170
+1 Waterbending Lesson (TLA) 80
+1 Zuko, Exiled Prince (TLA) 163

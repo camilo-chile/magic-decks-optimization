@@ -13,6 +13,8 @@ the next build round. Newest first.
 | All | Reino Eldrazi | Added as store 10 (Shopify, readable by script). |
 | All | Stores | Game of Magic Singles + PayToWin + Tienda La Comarca (option A+B of the store panorama). |
 | Ezio | Real commander | Wait for the normal printing to be restocked (PayToWin had only the borderless at 28,800 on 2026-11-07). |
+| Kilo | Purchases inside the 5,000 cap | Volt Charge 400, Prophetic Prism 400, Talisman of Conviction 1,500 (verify Spanish), Relic of Legends 2,600 (Tienda La Comarca) = 4,900; Command Tower goes to the separate stock section and to Kilo. |
+| All | Over-budget buys (standing rule) | For every deck and every budget, always show the price and the expected gain of the strong buys that do NOT fit the cap (Game Changers, tutors such as Eladamri's Call): the owner may extend a cap when the gain is high. |
 | All | Budgets | The 10,000 CLP are ONLY for deck upgrades. Everything else (loan replacements, the real Ezio, full-art basics, stock cards, tokens, Swiftfoot Boots extra) is separate, priced line by line, and the owner evaluates each line. |
 
 ## 2026-11-02 (fourth round)
