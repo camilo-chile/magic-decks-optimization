@@ -20,7 +20,7 @@ Pieces count the commander (guaranteed) and the tutors that can fetch for the fu
 | Function | Needed by | Required | Pieces | Without commander | P(1+ in 7 cards) | P(1+ in 12 cards) | P(1+ in 16 cards) | P(1+ in 20 cards) |
 |---|---|---|---|---|---|---|---|---|
 | spell_density | early (judged at 12 cards) | 30 | 30 | 30 | 93% | 99% | 100% | 100% |
-| spell_payoffs | late (judged at 20 cards) | 6 | 11 | 10 (commander guaranteed) | 54% | 74% | 84% | 91% |
+| spell_payoffs | late (judged at 20 cards) | 6 | 10 | 9 (commander guaranteed) | 50% | 70% | 81% | 88% |
 | through_wide_board | early (judged at 12 cards) | 10 | 13 | 13 | 64% | 83% | 91% | 96% |
 | through_big_creatures | early (judged at 12 cards) | 10 | 16 | 16 | 72% | 90% | 95% | 98% |
 | window_mana | late (judged at 20 cards) | 6 | 10 | 10 | 54% | 74% | 84% | 91% |
@@ -32,14 +32,14 @@ Pieces count the commander (guaranteed) and the tutors that can fetch for the fu
 | cost_reducers | 4 | 2 | yes |
 | attackers | 6 | 12 | yes |
 | haste | 4 | 4 | yes |
-| team_evasion | 7 | 6 | yes |
+| team_evasion | 6 | 6 | yes |
 | defense_while_tapped | 5 | 4 | yes |
 | combat_draw | 7 | 4 | yes |
 | wipe_insurance | 2 | 2 | yes |
 
 ## Tags
 
-Plan cards (engine, payoff, backup): 20 of 63 non-land cards (32%). Plan cards in no function and no route: 0.
+Plan cards (engine, payoff, backup): 19 of 63 non-land cards (30%). Plan cards in no function and no route: 0.
 
 | Tag | Cards (primary tag) |
 |---|---|
@@ -47,18 +47,18 @@ Plan cards (engine, payoff, backup): 20 of 63 non-land cards (32%). Plan cards i
 | draw | 12 |
 | engine | 5 |
 | land | 36 |
-| payoff | 13 |
+| payoff | 12 |
 | protection | 8 |
 | ramp | 10 |
-| removal | 8 |
+| removal | 9 |
 | tutor | 3 |
 | wipe | 2 |
 
-Base functions, counting second tags too: ramp 11, draw 16, removal 10, wipe 2, protection 8.
+Base functions, counting second tags too: ramp 11, draw 16, removal 11, wipe 2, protection 8.
 
 ## Win routes
 
 - copied burn to each opponent (noncombat): comet storm, electrodominance, thermo-alchemist. Against three opponents: Comet Storm multikicked twice names all three opponents and Azula copies it (2X to each); Horizon Stone stores colorless mana between turns so X reaches 8 to 12; Mystical Teachings and Solve the Equation fetch it (access 4 cards, 60 % by turn 13); Electrodominance copied adds 2X to one or two players plus two free spells; Thermo-Alchemist pings all three on every instant. Recast by Gearhulk an X spell has X=0: never do that. None of it needs combat damage through blockers.
 - Azula and her copies in combat (combat): fire lord azula, godo, bandit warlord, helm of the host, overpowering attack, ozai, the phoenix king, unleash fury. Against three opponents: Overpowering Attack (freerunning {2}{R} once Azula has dealt combat damage) and Godo give extra combats, each a new firebending and a new round of copies; Helm of the Host makes a hasty nonlegendary Azula every combat, so two or three Azulas attack different opponents and each copies every spell; late, Helm on Godo gives unlimited combats (allowed late line); Ozai (7/7 trample, haste, flying and indestructible with six floating mana) hits another player; copied Unleash Fury on an unblocked or trampling Azula is 16 commander damage (24 with Champion's Helm); copied burn finishes players left low.
 
-Cards bad when drawn (early and late only): {'early': 7, 'late': 1}
+Cards bad when drawn (early and late only): {'early': 7, 'late': 2}

@@ -62,7 +62,7 @@
 1 Theater of Horrors
 1 Propaganda
 1 Ghostly Prison
-1 Restart Sequence
+1 Vindictive Warden
 1 The Revelations of Ezio
 1 Rally the Peasants
 1 Command Tower

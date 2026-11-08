@@ -1,9 +1,15 @@
-# Fire Lord Azula: Phase 2 build notes (round 3, 2026-11-02)
+# Fire Lord Azula: Phase 2 build notes (step 4, 2026-11-07)
 
 Upgrade of the Phase 1 list he plays today (`decks/scanned/fire-lord-azula.txt`, Salt 8.4), checked against his original list
 (`data/raw/Azula.txt`). Pool: `data/model/phase2/pool-fire-lord-azula.json`. Language policy `both`. Every card checked against
 `data/model/phase2/assignment.json`: all new cards are free copies; Pull from Tomorrow and Hidden Footblade are Azula's;
-Overpowering Attack is an accepted loan; Soul-Guide Lantern is a purchase and Run Amok stands in for it in the physical list.
+Overpowering Attack is an accepted loan; Soul-Guide Lantern and Thirst for Knowledge are purchases that enter only when bought
+(Lantern for Dimir Locket, Thirst for Abandon Attachments; section 8).
+- Step 4 (2026-11-07) applies the round-3 re-review (PASS, section "Round 3 re-review" of the review file) and the owner's new
+  power target (Bracket 3 power or higher inside the Bracket 3 rules, built like a competitive expert; SKILL principle 7):
+  competitive pass in section 3b; one owned swap (Run Amok out, Fatal Push in); plan-file fixes R3-2 (Nightscape Familiar, not
+  Bender's Waterskin, in defense while tapped) and the Solve the Equation tutor entry; purchases re-ranked from the live
+  readings of 2026-11-07. `scripts/assign_copies.py`: 100 of 100 copies, problems none.
 - Round 3 applies the adversarial review `decks/reports/review-fire-lord-azula.md` (verdict FIX, blocking item B1: real draw
   about 9 of 12) and the owner context of 2026-11-02 (maximize power; Salt second objective, stay at 7.5 or more).
 - Gate: `decks/reports/consistency-fire-lord-azula.md` PASS (0 failures, 2 WARNs with reasons in section 9).
@@ -67,26 +73,26 @@ Rules points to verify:
 |---|---|---|---|---|---|
 | Lands | band | 36 | 36 | 36 | Overlap of the two bands; X spells, Horizon Stone, equips and three colors for a 4-MV gold commander. 6 Island, 6 Mountain, 5 Swamp (one Island moved to Mountain: red has 33 pips, review M6). |
 | Ramp (by turn 3) | base | 12 | 12 | 11 (WARN) | Section 9. Sol Ring, Arcane/Izzet/Dimir Signet, Mind Stone, Dimir Locket, Bender's Waterskin, Goblin Electromancer, Stormcatch Mentor, Nightscape Familiar + Black Market Connections. Glamdring no longer counted (review M9). |
-| Draw (nets cards) | base | 12 | 18 | 16 tags; about 12.5 weighted alone, about 15 while Azula attacks | Full: Archmage Emeritus, Black Market Connections, Fact or Fiction, Pull from Tomorrow, Gleam of Death, Waterbending Lesson (draw 3; tap artifacts to waterbend), Zuko, Exiled Prince ({3}: a card a turn, paid by firebending in the window). 0.75: Azula On the Hunt, Malcolm (a Clue on the second spell each turn; Azula's turns meet it). Half alone, a full card when copied: Big Score, Thrill, Abandon Attachments, Frostcliff Siege (Jeskai), Dimir Locket (late). Tricks with draw as SECOND tag, half each when copied: Fists of Flame, Blazing Crescendo, Cunning Maneuver. 90 % to see a draw piece by turn 5; 71 % two by turn 7; five repeatable engines (Archmage, BMC, Zuko, Malcolm, Azula OtH) 51 % by turn 6. |
-| Spot removal | base | 8 | 10 | 8 + 2 counters (second tag) | Terminate, Hero's Downfall, Go for the Throat, Chaos Warp, Abrade, Lightning Strike, Snap, Amphibian Downpour; Narset's Reversal, Negate. Copied in the window, each answers two permanents. X burn doubles as removal. |
+| Draw (nets cards) | base | 12 | 18 | 16 tags; about 12.25 weighted alone (12.5 once Thirst is bought), about 15 while Azula attacks | Full: Archmage Emeritus, Black Market Connections, Fact or Fiction, Pull from Tomorrow, Gleam of Death, Waterbending Lesson (draw 3; tap artifacts to waterbend), Zuko, Exiled Prince ({3}: a card a turn, paid by firebending in the window). 0.75: Azula On the Hunt, Malcolm (a Clue on the second spell each turn; Azula's turns meet it). Half alone, a full card when copied: Big Score, Thrill, Abandon Attachments, Frostcliff Siege (Jeskai), Dimir Locket (late). Tricks with draw as SECOND tag, half each when copied: Fists of Flame, Blazing Crescendo, Cunning Maneuver. 90 % to see a draw piece by turn 5; 71 % two by turn 7; five repeatable engines (Archmage, BMC, Zuko, Malcolm, Azula OtH) 51 % by turn 6. |
+| Spot removal | base | 8 | 10 | 9 + 2 counters (second tag) | Fatal Push (step 4; revolt on most turns: Treasures, Clues, Mind Stone), Terminate, Hero's Downfall, Go for the Throat, Chaos Warp, Abrade, Lightning Strike, Snap, Amphibian Downpour; Narset's Reversal, Negate. The only answer to an enchantment already in play is Chaos Warp (review R3-4). Copied in the window, each answers two permanents. X burn doubles as removal. |
 | Wipes | base | 2 | 3 | 2 | Day of Black Sun (X=0 kills tokens) and Ritual of Soot; both spare Azula. Ritual also kills Thermo, Electro, Dualcaster, Electromancer, Stormcatch, Nightscape, Malcolm: a reset, cast only when they are absent or worth losing (review M4). |
 | Commander protection | base (attack_engine) | 6 | 8 | 7 | Swiftfoot Boots, Champion's Helm, Octopus Form (hexproof); Deflecting Swat, Narset's Reversal (redirect or return); Negate (counter); Undying Malice (death return). 61 % by turn 5. Redirect Lightning went for draw (section 5). |
 | spell_density | gate | 30 | 36 | 30 | Instants and flash only: 26 instants + Dualcaster, Gearhulk, Amphibian Downpour, Hidden Footblade. At the minimum: the slots went to draw that works without Azula (Zuko, Malcolm, Waterbending Lesson, Solve). 3+ by turn 5 about 75 %. |
 | spell_payoffs | gate (commander payoff, late 6) | 6 | 8 | 8 + 3 tutors | Azula, Archmage, Storm-Kiln, Dualcaster, Electro, Gearhulk, Helm, Narset's Reversal; tutors Teachings, Solve, Godo. |
 | through_wide_board | gate | 10 | 12 | 11 + 2 tutors | Comet Storm, Electrodominance, Thermo-Alchemist, Day of Black Sun, Ritual of Soot, Rogue's Passage, Haunted Cloak, Frostcliff Siege, Ozai, Electro, Malcolm (fliers). |
-| through_big_creatures | gate | 10 | 12 | 14 + 2 tutors | Terminate, Hero's Downfall, Go for the Throat, Chaos Warp, Amphibian Downpour, Snap, Lightning Strike, Electrodominance, Comet Storm, Rogue's Passage; pump after blocks: Fists of Flame, Run Amok, Blazing Crescendo, Cunning Maneuver. Day of Black Sun removed from this line (review M3: X high enough kills Azula). |
+| through_big_creatures | gate | 10 | 12 | 14 + 2 tutors | Terminate, Hero's Downfall, Go for the Throat, Chaos Warp, Amphibian Downpour, Snap, Lightning Strike, Electrodominance, Comet Storm, Rogue's Passage; Fatal Push; pump after blocks: Fists of Flame, Blazing Crescendo, Cunning Maneuver. Day of Black Sun removed from this line (review M3: X high enough kills Azula). |
 | window_mana (declared, bridge) | declared late | 6 | 8 | 10 | One verb: more mana usable INSIDE Azula's window. Adds in combat: Fire Nation Palace, Azula OtH, Zuko (firebending), Ozai (firebending 4), Electro ({R} per cast), Storm-Kiln and Big Score (treasure), Frantic Search and Snap (untap lands, twice copied). Brings stored mana in: Horizon Stone (R2: lands tapped in the last opponent's end step). Of these, keepers that also save the leftover after combat: Horizon Stone, Electro, Ozai (3; review I3). |
-| Make blocks bad (owner) | judgment | 8 | 10 | 16 | Cast after blocks, copied: Fists of Flame (trample, +1/+0 per card drawn), Run Amok (+3/+3 trample, +6/+6 copied), Blazing Crescendo and Cunning Maneuver (+6/+2 copied), Unleash Fury, Octopus Form; removal on the blocker (Terminate, Hero's Downfall, Go for the Throat, Lightning Strike, Snap, Chaos Warp, Abrade, Amphibian Downpour, each copied onto a second creature); static: Champion's Helm 6/6, Haunted Cloak trample, Hidden Footblade first strike, Rogue's Passage. |
+| Make blocks bad (owner) | judgment | 8 | 10 | 16 (Run Amok out, Fatal Push in) | Cast after blocks, copied: Fists of Flame (trample, +1/+0 per card drawn), Blazing Crescendo and Cunning Maneuver (+6/+2 copied), Unleash Fury, Octopus Form; removal on the blocker (Fatal Push, Terminate, Hero's Downfall, Go for the Throat, Lightning Strike, Snap, Chaos Warp, Abrade, Amphibian Downpour, each copied onto a second creature); static: Champion's Helm 6/6, Haunted Cloak trample, Hidden Footblade first strike, Rogue's Passage. |
 | haste | support | 4 | 6 | 4 | Swiftfoot Boots, Haunted Cloak, Hidden Footblade, Frostcliff Siege (Temur). The promotion test says promote (attack-only, MV 4); the pool has no other haste giver for her (only steal effects), so the line stays support and protection sits near target (review M1: reason corrected). Equipment stays after she dies, so the recast is hasty for the equip cost. 41 % to see one by turn 5; the first cast needs none. |
-| team_evasion | support | 6 | 8 | 7 | Rogue's Passage, Haunted Cloak, Frostcliff Siege, Ozai, Fists of Flame, Run Amok, Malcolm. |
-| defense_while_tapped | support | 4 | 6 | 5 listed, about 4 weighted | Propaganda, Haunted Cloak (vigilance), Thermo-Alchemist (0/3 defender), Octopus Form (one-shot untap), Bender's Waterskin (instant mana on their turns). |
+| team_evasion | support | 6 | 8 | 6 | Rogue's Passage, Haunted Cloak, Frostcliff Siege, Ozai, Fists of Flame, Malcolm. |
+| defense_while_tapped | support | 4 | 6 | 5 listed, about 4.5 weighted | Propaganda, Haunted Cloak (vigilance), Thermo-Alchemist (0/3 defender), Nightscape Familiar (regenerating blocker), Octopus Form (one-shot untap). Bender's Waterskin is ramp (review R3-2). |
 | combat_draw | support | 4 | 6 | 7 | Archmage, Azula OtH, Frostcliff (Jeskai), Zuko, Fists, Blazing Crescendo, Cunning Maneuver. |
 | wipe_insurance | support | 2 | 3 | 2 | Undying Malice, Negate; equipment, Helm, BMC, Horizon Stone, Propaganda survive wipes. |
 | attackers | support (modifier) | 12 | 16 | 6 (WARN) | Section 9. |
 | cost_reducers | support | 2 | 4 | 4 | Goblin Electromancer, Stormcatch Mentor, Nightscape Familiar, Glamdring. |
-| Graveyard hate | floor | 1 | 1 | 0 now, 1 after the purchase | Soul-Guide Lantern to buy (lead's ruling); Run Amok plays meanwhile. |
+| Graveyard hate | floor | 1 | 1 | 0 now, 1 after the purchase | Soul-Guide Lantern to buy (lead's ruling); it replaces Dimir Locket on arrival (artifact for artifact: window spells stay 30, review R3-1). |
 | Answers to commanders | floor | 2 | 3 | 2 | Amphibian Downpour (neutralize, no tax reset), Chaos Warp. Imprisoned in the Moon cut (section 5). |
-| Tutors | info | | | 3 | Mystical Teachings (instant or flash), Solve the Equation (instant or sorcery: Comet Storm, Overpowering Attack), Godo (Helm). |
+| Tutors | info | | | 3 | Mystical Teachings (instant or flash), Solve the Equation (instant or sorcery: Comet Storm, Overpowering Attack, the reference-board answers; in the plan file only for the two reference boards), Godo (Helm). |
 
 Fit check (each card once): ramp 10 + draw 12 + removal 8 + wipes 2 + protection 6 + payoffs outside those 5 + route closers
 outside payoffs 5 + haste/defense pieces in no other line 3 + tutors 3 + Horizon Stone 1 = 55 of 63; 36 + 55 = 91 of 99.
@@ -98,8 +104,33 @@ Round 3 cut two answers (The Last Agni Kai, Imprisoned in the Moon) and added no
 Salt (second objective; Phase 1 list 8.4, owner floor 7.5). Round 3 moves toward what Salt rewards: a third tutor back (Solve),
 four net-draw cards (Zuko, Malcolm, Waterbending Lesson, Abandon), the late Godo + Helm combo, an extra-combat spell; it lost two
 cheap answers and one protection spell. Expected neutral to slightly lower than 8.4 and well above 7.5; to be measured on
-Moxfield/Salt with exact printings. First Salt-raising swaps if the measure disappoints, all owned and gate-safe: Fatal Push for
-Abandon Attachments (density stays 30, removal 9, draw about 12) and Mana Leak for Cunning Maneuver.
+Moxfield/Salt with exact printings. Step 4 already took the cheap-interaction swap (Fatal Push for Run Amok: draw untouched,
+window spells 30). If the measure still lands under 8, the one further owned swap is Mana Leak for Snap (review R3-1: keeps draw
+and window spells; removal stays 9 counting Fatal Push).
+
+## 3b. Competitive pass (owner, 2026-11-07: Bracket 3 power or higher inside the rules)
+
+Slot by slot, the question was what a competitive (cEDH) builder would play here, legally, from what he owns or can buy.
+- **Game Changers (0 of 3).** Live Scryfall `is:gamechanger` inside Grixis on 2026-11-07: 36 cards. He owns none for Azula (Crop
+  Rotation and Drannith Magistrate are Toph's and off-color). Best fits for a commander that copies every spell cast in her
+  combat: Notion Thief (flash: cast in the window it is copied; turns the table's extra draws into mine), Narset, Parter of Veils
+  (stops opponents' extra draws; her -2 digs for the noncreature spells, 60 % of the list), Mystical Tutor (instant, copied: two
+  tutors toward Comet Storm or Overpowering Attack), Fierce Guardianship (free counter while Azula is out), Gifts Ungiven,
+  Rhystic Study, Cyclonic Rift. None is in the 2026-11-07 readings of the three stores: section 8 lists the best three as
+  "price to read" wishes, each with the card it replaces. Notion Thief and Narset are the cheapest (about 1 to 2 USD).
+- **Fast mana that is not a Game Changer.** Sol Ring and four 2-mana rocks are in; the owned pool has no better rock. Talisman of
+  Creativity (PayToWin 2,100 NM English) is over Azula's share: a wish.
+- **Cheap interaction.** Fatal Push in (step 4). Owned and left out, with reason: Mana Leak (soft late; the one further Salt
+  swap), Infernal Grasp and Kolaghan's Command (Ezio's copies), Murder ({1}{B}{B} where Go for the Throat costs 2), Swan Song
+  (Kilo's), It'll Quench Ya (soft counter).
+- **Tutors toward the win lines.** Mystical Teachings and Solve the Equation reach Comet Storm, Electrodominance, Overpowering
+  Attack and the answers; Godo reaches Helm. A fourth tutor needs a purchase (Mystical Tutor).
+- **Low curve.** Average MV 2.76 (X at 0) with 33 cards at MV 2 or less; the cards at MV 5 to 6 (Godo, Ozai, Gearhulk,
+  Overpowering Attack at full cost, Horizon Stone) are the late plan, each justified in section 4.
+- **Kept although a competitive builder might cut them, with reason:** Propaganda and Horizon Stone (the owner's proven
+  role-players); Fists of Flame, Blazing Crescendo, Cunning Maneuver (the owner's blocking problem: opponents block when they
+  think he cannot pump; each also draws when copied); Thermo-Alchemist (the non-combat route and a blocker); Godo (the owner's
+  accepted late combo).
 
 ## 4. The list by function (how to use each card; when it is bad to draw)
 
@@ -113,7 +144,7 @@ the copied trick wins the fight, and the "in between" opponent stops blocking on
 - Izzet Signet: turn 2; {U}{R} for the double pips. Weak late.
 - Dimir Signet: turn 2; {U}{B} for Hero's Downfall and Day of Black Sun. Weak late.
 - Mind Stone: turn 2; late, crack it for a card.
-- Dimir Locket: turn 3 when no 2-drop rock came; late, sacrifice for two cards. Bad on a turn Azula is castable.
+- Dimir Locket: turn 3 when no 2-drop rock came; late, sacrifice for two cards. Bad on a turn Azula is castable. Leaves for Soul-Guide Lantern when it is bought.
 - Bender's Waterskin: turn 3; untaps on each opponent's turn: instant mana for counters and Pull.
 - Goblin Electromancer: turn 2; instants in the window cost 1 less. Dies to pings.
 - Stormcatch Mentor: turn 2; same discount, hasty prowess body.
@@ -126,18 +157,17 @@ the copied trick wins the fight, and the "in between" opponent stops blocking on
 - Pull from Tomorrow: end of the last opponent's turn with all lands (Horizon Stone keeps the rest); copied in the window, 2X cards. Never recast for free (X = 0). Bad on turns 2 to 3.
 - Big Score: in the window the copy draws two and makes two Treasures without a discard.
 - Thrill of Possibility: in the window, discard one, draw four. Alone a loot.
-- Abandon Attachments: cheap rummage; copied, one more card. Bin extra lands.
+- Abandon Attachments: cheap rummage; copied, one more card. Bin extra lands. Leaves for Thirst for Knowledge when it is bought.
 - Waterbending Lesson: main phase, tap rocks and creatures to waterbend {2}: draw three, keep all. A refill after a wipe.
 - Zuko, Exiled Prince: attack with Azula: his firebending 3 and her 2 pay {3} once or twice: exile the top card and play it now; an instant played that way is copied. Out of combat a mana sink for Horizon Stone's stored mana. 4/3 body; bad into bigger untapped blockers (keep him home then and use the ability).
 - Malcolm, the Eyes: turn 2 flier with haste; a Clue on your second spell each turn (your own turns and theirs); crack Clues with stored mana. Flies over Board 1.
 - Glamdring // Gleam of Death: Gleam first (mill six, take every instant and sorcery), Glamdring later on Azula: her spells cost up to 4 less (6 with Champion's Helm).
 - Azula, On the Hunt: second attacker with firebending 2 and a Clue each attack. Bad into bigger untapped creatures.
 
-**Combat tricks (4; draw as second tag on three)**
+**Combat tricks (3; draw as second tag)**
 - Fists of Flame: after blocks: draw (two copied) and trample with +1/+0 per card drawn this turn, twice: the blocker dies and the rest tramples over. Alone a cantrip.
 - Blazing Crescendo: after blocks: +6/+2 copied and a card per copy to play until your next turn.
 - Cunning Maneuver: after blocks: +6/+2 copied and a Clue per copy.
-- Run Amok: on an attacking Azula after blocks: +6/+6 and trample copied. Stand-in for Soul-Guide Lantern until it is bought.
 
 **Spell payoffs and engines (8 incl. Horizon Stone)**
 - Storm-Kiln Artist: two Treasures per spell in the window. Fragile early.
@@ -158,7 +188,8 @@ the copied trick wins the fight, and the "in between" opponent stops blocking on
 - Negate: counters removal spells and wipes; hold {1}{U} after a big attack.
 - Undying Malice: in response to destroy or a wipe: she returns with a counter, no tax.
 
-**Removal (8)**
+**Removal (9)**
+- Fatal Push: {B} at instant speed on a blocker or an early threat; sacrifice a Treasure or Clue first for revolt (mana value 4). Weak late against big bodies.
 - Terminate, Hero's Downfall, Go for the Throat: kill the blocker after blocks; the copy kills a second creature.
 - Chaos Warp: any permanent, the commander answer; copied, two.
 - Abrade: 3 damage or kill an artifact. Weak late against big bodies.
@@ -227,7 +258,12 @@ Round 3 (review B1, I1, M3, M6, M7, M9; owner: maximize power, Salt at 7.5 or mo
 | Soul-Guide Lantern (to buy) | graveyard hate | 0 until bought (1) | Run Amok (stand-in) | Not owned: the physical deck plays Run Amok until the Lantern is bought and scanned (review M7). |
 | 7th Island | blue source | blue 18 | 6th Mountain | Red has 33 pips against blue 22 (review M6); red sources 18. |
 
-Original-list cards reconsidered: Zuko, Exiled Prince, Malcolm and Run Amok are back; still out: Coastal Piracy (needs combat
+Step 4 (2026-11-07, re-review and competitive pass):
+| Card out | Function it served | Count after (min) | Replacement | Reason |
+|---|---|---|---|---|
+| Run Amok | combat trick, team evasion (trample) | team_evasion 6 (6); window spells 30 (30); draw unchanged | Fatal Push | Cheap instant interaction (competitive standard; review R3-1's Salt swap). Run Amok was only the Lantern's stand-in, and the review moves the Lantern's arrival slot to Dimir Locket. Chosen over Cunning Maneuver (the review's suggestion) because Cunning Maneuver draws when copied and Run Amok does not: draw stays about 12.25. Fatal Push on a blocker is itself a block punisher. |
+
+Original-list cards reconsidered: Zuko, Exiled Prince, Malcolm and Run Amok came back (Run Amok left again in step 4); still out: Coastal Piracy (needs combat
 damage to a player), Fire Nation Attacks (5-mana tokens: a creature plan), It'll Quench Ya (soft counter), Zuko's Exile (5 mana),
 Firebender Ascension (copies attack triggers: only Azula's firebending, 4 counters needed), Combustion Man, Koh, Cruel
 Administrator (creature plan), Royal Assassin (sorcery-speed tapper), Labyrinth Adversary (4-drop, one blocker per attack),
@@ -237,7 +273,7 @@ Commander's Sphere (Kilo's).
 
 - **Overpowering Attack**: accepted (2026-11-02), declared in `decks/phase2.json` `borrowed`; no stock at Game of Magic Singles,
   the replacement waits for a restock (`decks/phase2/restock.md`). The owner allows a second store only for Hidden Footblade
-  and Overpowering Attack: if one has it, buying it returns the loan.
+  and Overpowering Attack: PayToWin reads it at 1,560 CLP NM English (1,440 LP foil) on 2026-11-07; buying it returns the loan.
 - Propaganda and Hidden Footblade are his own free copies.
 
 ## 7. Scarce copies (lead's ruling of 2026-11-02, applied)
@@ -245,31 +281,38 @@ Commander's Sphere (Kilo's).
 | Card | Ruling | Effect on Azula |
 |---|---|---|
 | Swan Song, Insight Engine, Thirst for Knowledge | Kilo | Out since round 2. |
-| Soul-Guide Lantern | Toph and Kilo keep the owned copies; one is bought for Azula | Purchase rank 1; Run Amok meanwhile. |
+| Soul-Guide Lantern | Toph and Kilo keep the owned copies; one is bought for Azula | Purchase rank 1; replaces Dimir Locket on arrival. |
+| Thirst for Knowledge | Kilo keeps the owned copy | Purchase rank 2 (Spanish 500 at GoM); replaces Abandon Attachments on arrival. |
+| Run Amok | Freed by step 4 | Available to other decks. |
 | Pull from Tomorrow, Hidden Footblade | Azula | In. |
 | Command Tower | Toph, Azula, Ezio (Azula gets the Spanish EOC copy per the assignment) | In. |
 | Expedite | Freed by round 3 | Available to Ezio. |
 | Loyal Inventor, Redirect Lightning, Imprisoned in the Moon, The Last Agni Kai | Freed by round 3 | Available to other decks. |
 
-## 8. Purchase wishes (Game of Magic Singles; Toph, Azula and Ezio share 5,000 CLP; the lead verifies live stock)
+## 8. Purchase wishes (live readings of 2026-11-07; stores: Game of Magic Singles, PayToWin, Tienda La Comarca)
 
-Ranked by impact on Azula's consistency and power. Each row names what plays until it arrives.
+Toph, Azula and Ezio share 5,000 CLP; after Toph's and Ezio's first wishes about 1,100 is left for Azula. The lead verifies live
+stock before any order and arbitrates. Nothing below is in the list until it is bought and scanned.
 
-| Rank | Card | Need and power effect | Price hint | Fallback (plays meanwhile) |
+| Rank | Card | Store, price (2026-11-07) | Need and power per CLP | Slot it takes (fallback: that card stays) |
 |---|---|---|---|---|
-| 1 | Soul-Guide Lantern | The deck's only graveyard answer (lead's ruling) | No GoM reading; usually among the cheapest | Run Amok |
-| 2 | Arcane Denial | Cheap counter for ANY spell (creature removal, wipes, the sorcery-speed lock effects that shut her window): protection 7 to 8 and cheap interaction, a Salt driver | 2,840 CLP NM (GoM reading 2026-10-17, old) | Cunning Maneuver |
-| 3 | Swan Song | One-mana counter for removal and sorcery wipes: protection and wipe insurance | No GoM reading | Abandon Attachments |
-| 4 | Talisman of Dominance (or Indulgence, Creativity), normal printing | The 12th ramp piece at MV 2: clears the ramp WARN and raises Salt's mana score | Only reading is a 12,840 CLP borderless foil (above the share): buy only a normal printing under about 1,500 CLP | Dimir Locket stays; the Talisman replaces Abandon Attachments |
+| 1 | Soul-Guide Lantern | Game of Magic Singles 742 (EN or ES NM, WOE); La Comarca 700 (EN NM) | The deck's only graveyard answer (lead's ruling). GoM keeps the order in one store. | Dimir Locket (artifact for artifact; ramp 11 to 10, the archetype's base floor) |
+| 2 | Thirst for Knowledge | Game of Magic Singles 500 (ES NM, NEO; the cheaper copy) | An instant draw-three with 15 artifacts to discard: draw about 12.25 to 12.5, window spells stay 30. 500 CLP for a full draw piece in the deck the owner says needs the most draw. With rank 1: 1,242, about 140 over the share; the lead decides. | Abandon Attachments (instant for instant) |
+| restock | Overpowering Attack | PayToWin 1,560 (EN NM) or 1,440 (EN LP foil) | Returns the loan to his Standard deck (a second store is allowed only for this and Hidden Footblade); outside the 5,000 share unless the lead says so. | none (the loan stays until bought) |
+| wish | Notion Thief (Game Changer) | Price to read (not in the readings; about 1.8 USD) | Flash: copied in the window; steals opponents' extra draws. The best Game Changer for Azula per CLP. | Malcolm, the Eyes (window spells 31) |
+| wish | Narset, Parter of Veils (Game Changer) | Price to read (about 1.3 USD) | Locks opponents to one draw a turn; -2 digs for the noncreature spells. | Azula, On the Hunt |
+| wish | Mystical Tutor (Game Changer) | Price to read (about 18 USD) | Instant tutor (copied: two) toward Comet Storm or Overpowering Attack. | Blazing Crescendo (instant for instant) |
+| wish | Talisman of Creativity | PayToWin 2,100 (EN NM); La Comarca 3,350 (ES NM) | The 12th ramp piece at MV 2; over the share. | Bender's Waterskin |
 
-A purchase that would clearly raise power beyond these: none in the share; Lightning Greaves-type haste with shroud would block
-her own Octopus Form and Champion's Helm targeting, so it is not proposed.
+Withdrawn, with reason: Arcane Denial (Ezio ranks it first; La Comarca 3,950 Spanish, GoM none); Swan Song (only foils at 79,000
+CLP and up); Talisman of Dominance and Indulgence (Secret Lair or foil only, 17,400 CLP and up).
 
 ## 9. WARN reasons and dead clauses
 
 - **Ramp 11 of 12**: ten pieces castable by turn 3 plus Black Market Connections; the window itself pays for the instants
   (firebending {R}{R}, Zuko, Azula OtH, Palace, treasures), and Horizon Stone doubles land mana from midgame. The twelfth slot went
-  to draw, the owner's first need for this deck. Purchase 4 restores 12.
+  to draw, the owner's first need for this deck. The Lantern takes Dimir Locket's slot when bought (ramp 10, the archetype's
+  base floor); the Talisman wish would restore 11.
 - **attackers 6 of 12** (support line of the modifier): Azula's trigger needs one attacker, herself. Beside her: Azula OtH, Ozai,
   Electro, Godo, Zuko, Malcolm, plus a Helm token of Azula every combat. Twelve creatures would replace window spells.
 - Dead clauses: Glamdring's discount needs an equipped creature (Azula); Frostcliff Siege's modes are exclusive; BMC's
@@ -280,11 +323,11 @@ her own Octopus Form and Champion's Helm targeting, so it is not proposed.
 ## 10. Reference boards
 
 - **Board 1: eight sacrificeable 1/1s.** Day of Black Sun X=0 or Ritual of Soot clears them; Comet Storm copied hits all three
-  players; Thermo-Alchemist pings past them; Malcolm and Electro fly; Rogue's Passage, Haunted Cloak, Frostcliff, Fists of Flame
-  or Run Amok trample put Azula's damage through a chump. Chumps do not stop the copies. Risk: pingers kill the 2-toughness
+  players; Thermo-Alchemist pings past them; Malcolm and Electro fly; Rogue's Passage, Haunted Cloak, Frostcliff or Fists of Flame
+  trample put Azula's damage through a chump. Chumps do not stop the copies. Risk: pingers kill the 2-toughness
   engines.
-- **Board 2: two creatures bigger than Azula.** If one blocks: a copied trick (Run Amok +6/+6 trample, Blazing Crescendo or
-  Cunning Maneuver +6/+2, Fists of Flame) wins the fight, or Terminate on the blocker and its copy on the second. Amphibian
+- **Board 2: two creatures bigger than Azula.** If one blocks: a copied trick (Blazing Crescendo or Cunning Maneuver +6/+2,
+  Fists of Flame trample) wins the fight, or Fatal Push or Terminate on the blocker and its copy on the second. Amphibian
   Downpour neutralizes; Snap copied bounces both; Electrodominance and Comet Storm for X; Champion's Helm 6/6; Rogue's Passage skips
   them.
 - **One sweeper turn:** equipment, Helm, Horizon Stone, BMC, Propaganda, Glamdring survive; Azula returns with Undying Malice or
@@ -298,15 +341,16 @@ her own Octopus Form and Champion's Helm targeting, so it is not proposed.
   pip of each: 17 per color: met. Pips: red 33, blue 22, black 14; red double pips are paid mostly by firebending in the window.
 - Tapped lands: none always tapped. Conditional: Smoldering Marsh, Sunken Hollow, Fire Nation Palace, three check lands, three
   reveal lands; four filter lands need one mana of input.
-- Curve (X at 0): MV1 4, MV2 29, MV3 15, MV4 10, MV5 2, MV6 3; average 2.78.
+- Curve (X at 0): MV1 5, MV2 28, MV3 15, MV4 10, MV5 2, MV6 3; average 2.76.
 - Odds (99 cards, no mulligan): 2 to 4 lands in 7 cards 74 % per look, about 93 % with the free redo; 4 lands by turn 4 62 %;
   a draw piece by turn 5 90 %; a protection piece by turn 5 61 %; a haste piece by turn 5 41 %.
 
 ## 12. Open questions for the owner
 
-Answered: Godo + Helm (in, late, R11); Overpowering Attack (loan in); Lion Vulture (out); blocks (16 punishers, section 3).
+Answered: Godo + Helm (in, late, R11); Overpowering Attack (loan in); Lion Vulture (out); blocks (16 punishers, section 3);
+power target (section 3b).
 1. After a few games: does the blocking opponent still kill Azula in combat? If yes, Mechanical Glider (flying, owned) goes in for
-   Abandon Attachments.
-2. Salt measure of this list (exact printings): if it lands under 8, the first swaps are Fatal Push for Abandon Attachments and
-   Mana Leak for Cunning Maneuver (section 3).
-3. Purchases 2 to 4 (section 8): which fit in the shared 5,000 CLP after the Lantern?
+   Bender's Waterskin (artifact for artifact: window spells stay 30; review R3-1).
+2. Salt measure of this list (exact printings): if it lands under 8, the one further swap is Mana Leak for Snap (section 3).
+3. Purchases (section 8): Lantern plus Thirst for Knowledge are 1,242 CLP, about 140 over Azula's share; and whether a Game
+   Changer (Notion Thief first) is worth reading prices for.

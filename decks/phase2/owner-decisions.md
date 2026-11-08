@@ -11,6 +11,8 @@ the next build round. Newest first.
 | All | Cards "in stock" | Besides the deck purchases, buy cheap copies of cards several decks want (multi-deck staples), to keep in the collection, as he did with Evolving Wilds, Terramorphic Expanse and Path of Ancestry. Claude recommends the list. |
 | All | Full-art basic lands | Keep at least 10 FREE full-art basics of each color (not in any deck) after the four decks take theirs; buy the difference. Preference, not a requirement: Edge of Eternities (EOE) full-art basics; otherwise all the bought basics from one same set. |
 | All | Reino Eldrazi | Added as store 10 (Shopify, readable by script). |
+| All | Stores | Game of Magic Singles + PayToWin + Tienda La Comarca (option A+B of the store panorama). |
+| Ezio | Real commander | Wait for the normal printing to be restocked (PayToWin had only the borderless at 28,800 on 2026-11-07). |
 | All | Budgets | The 10,000 CLP are ONLY for deck upgrades. Everything else (loan replacements, the real Ezio, full-art basics, stock cards, tokens, Swiftfoot Boots extra) is separate, priced line by line, and the owner evaluates each line. |
 
 ## 2026-11-02 (fourth round)

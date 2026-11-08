@@ -1813,6 +1813,23 @@
      ]
     },
     {
+     "name": "Drannith Magistrate",
+     "oracle_id": "aadd10d0-6dd0-4bdc-8d93-ff08e29a5863",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tle",
+       "number": "2",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
      "name": "Druid Class",
      "oracle_id": "dcbcbf42-4654-487a-acad-21f2606d229b",
      "qty": 1,
@@ -2427,23 +2444,6 @@
        "language": "en",
        "set": "tdc",
        "number": "266",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "English Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
-     "name": "Sandbenders' Storm",
-     "oracle_id": "dfc8b8de-be1d-4f7f-bb21-4761a0e7db4e",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "en",
-       "set": "tla",
-       "number": "34",
        "foil": "normal",
        "condition": "near_mint",
        "binder": "English Cards",
@@ -3411,6 +3411,23 @@
      ]
     },
     {
+     "name": "Fatal Push",
+     "oracle_id": "16437a83-be52-44cd-a768-a767c9347eb2",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "90",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
      "name": "Fire Lord Azula",
      "oracle_id": "2631130e-63e2-43a3-914a-648e76722203",
      "qty": 1,
@@ -3983,23 +4000,6 @@
        "set": "cmm",
        "number": "426",
        "foil": "foil",
-       "condition": "near_mint",
-       "binder": "English Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
-     "name": "Run Amok",
-     "oracle_id": "d463de75-8d3c-4077-a2cc-c304a63acc69",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "en",
-       "set": "tle",
-       "number": "258",
-       "foil": "normal",
        "condition": "near_mint",
        "binder": "English Cards",
        "qty": 1
@@ -5594,23 +5594,6 @@
      ]
     },
     {
-     "name": "Restart Sequence",
-     "oracle_id": "c415bfdd-3d42-4f94-9f93-7e310becbc8b",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "es",
-       "set": "acr",
-       "number": "30",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "Spanish Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
      "name": "Royal Assassin",
      "oracle_id": "9ed6f28f-a3db-48c5-9ab0-b90a7fba5f57",
      "qty": 1,
@@ -5909,6 +5892,23 @@
      ]
     },
     {
+     "name": "Vindictive Warden",
+     "oracle_id": "43b339ec-4d7d-41ac-a5ab-96c6a6de00e2",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "249",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
      "name": "Winter Soldier, Icy Assassin",
      "oracle_id": "6f4c94b6-f829-4646-a574-083997b78dfb",
      "qty": 1,
@@ -6078,13 +6078,6 @@
   },
   {
    "name": "Rugged Prairie",
-   "decks": [
-    "spanish-deck",
-    "toph-the-first-metalbender"
-   ]
-  },
-  {
-   "name": "Sandbenders' Storm",
    "decks": [
     "spanish-deck",
     "toph-the-first-metalbender"

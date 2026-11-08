@@ -37,17 +37,17 @@ Pieces count the commander (guaranteed) and the tutors that can fetch for the fu
 
 ## Tags
 
-Plan cards (engine, payoff, backup): 33 of 62 non-land cards (53%). Plan cards in no function and no route: 0.
+Plan cards (engine, payoff, backup): 32 of 62 non-land cards (52%). Plan cards in no function and no route: 0.
 
 | Tag | Cards (primary tag) |
 |---|---|
 | draw | 8 |
-| engine | 26 |
+| engine | 25 |
 | land | 37 |
 | payoff | 7 |
 | protection | 2 |
 | ramp | 9 |
-| removal | 8 |
+| removal | 9 |
 | wipe | 2 |
 
 Base functions, counting second tags too: ramp 9, draw 13, removal 9, wipe 2, protection 4.

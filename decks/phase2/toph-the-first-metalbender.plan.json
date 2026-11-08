@@ -44,7 +44,7 @@
         "Ashaya, Soul of the Wild"
       ],
       "axis": "noncombat",
-      "vs_three": "Three-card loops made of on-plan cards (Spellbook 3470-5702-6871, 3875-5702-6871, 539-1315-7037, 539-5147-7037): Toph + Springheart Nantuko bestowed on her end-step earthbent land + Lotus Cobra or Tireless Provisioner = infinite landfall (each copy is an untapped land that pays the next {1}{G}); Ashaya + Toph, the Blind Bandit + Zuran Orb or Goblin Bombardment = the Bandit is a land, earthbends herself on entry and returns when sacrificed: infinite landfall. With any pinger out (Tannuk, Sabotender, Arbaaz, Valakut) or Bombardment, every opponent takes unlimited damage at once."
+      "vs_three": "Three-card loops made of on-plan cards (Spellbook 3470-5702-6871, 3875-5702-6871, 539-1315-7037, 539-5147-7037): R8 Toph + Springheart Nantuko CAST for bestow on her end-step earthbent land + Lotus Cobra or Tireless Provisioner = infinite landfall (each copy is a land that enters untapped and pays the next {1}{G}); closers: Sabotender, Tannuk, Valakut Exploration (whole library to each opponent at end step), Fire Nation Archers when the loop also nets mana (Cobra and Provisioner both out); Arbaaz does NOT trigger (the copies are tokens). R9 Ashaya + Toph, the Blind Bandit + Zuran Orb or Goblin Bombardment = the Bandit is a land, earthbends herself on entry and returns when sacrificed: infinite landfall, and Arbaaz triggers too (a nontoken legend enters each loop); Bombardment alone kills the table. Every opponent dies at once."
     }
   },
   "functions": {
@@ -121,7 +121,6 @@
         "Fateful Absence",
         "Stroke of Midnight",
         "Hardlight Containment",
-        "Sandbenders' Storm",
         "Annie Joins Up",
         "Planar Outburst",
         "Tannuk, Memorial Ensign",
@@ -263,7 +262,6 @@
     "Fateful Absence": "removal",
     "Stroke of Midnight": "removal",
     "Hardlight Containment": "removal",
-    "Sandbenders' Storm": "removal",
     "Soul-Guide Lantern": "orphan",
     "Haystack": "protection",
     "Collective Resistance": [
@@ -298,7 +296,8 @@
     "Vibrant Cityscape": "land",
     "Cabaretti Courtyard": "land",
     "Fire Nation Archers": "payoff",
-    "Hakoda, Selfless Commander": "protection"
+    "Hakoda, Selfless Commander": "protection",
+    "Drannith Magistrate": "orphan"
   },
   "bad_when_drawn": {
     "Sol Ring": "never",
@@ -352,7 +351,6 @@
     "Fateful Absence": "never",
     "Stroke of Midnight": "never",
     "Hardlight Containment": "never",
-    "Sandbenders' Storm": "never",
     "Soul-Guide Lantern": "never",
     "Haystack": "never",
     "Collective Resistance": "never",
@@ -361,6 +359,7 @@
     "Chord of Calling": "early",
     "Brightglass Gearhulk": "early",
     "Fire Nation Archers": "never",
-    "Hakoda, Selfless Commander": "never"
+    "Hakoda, Selfless Commander": "never",
+    "Drannith Magistrate": "never"
   }
 }

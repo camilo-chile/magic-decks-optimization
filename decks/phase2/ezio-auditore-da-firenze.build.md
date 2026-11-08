@@ -1,4 +1,55 @@
-# Ezio Auditore da Firenze: Phase 2 build notes (2026-11-02, round 3)
+# Ezio Auditore da Firenze: Phase 2 build notes (2026-11-07, step 4)
+
+**Step 4** (round-3 re-review R3-1 to R3-6 in `decks/reports/review-ezio-auditore-da-firenze.md`, verdict PASS; owner rule
+2026-11-07: Bracket 3 power or higher inside the Bracket 3 rules, built as a competitive expert would). Checks rerun
+2026-11-07: `plan_density.py` PASS (0 failures; warnings team_evasion 4 of 6, ramp 7 of 10), `check_phase2_bracket.py` PASS
+(floor 1, 0 Game Changers), `assign_copies.py` 100 of 100 covered, 0 missing, 0 problems.
+
+| Change | Reason |
+|---|---|
+| Restart Sequence -> Vindictive Warden (free English copy) | R3-2: team_finishers 6 -> 7 (margin over the minimum), the non-combat route back to 3 cards (Shao Jun, Warden, Kaya: 41 % by T7 instead of 26 %). Restart Sequence was bad early (empty yard) and wipe insurance stays at 5 (Revelations III, Layla, Get Out, Haystack, Kolaghan's Command; min 2) |
+| Boros Guildmage AND Unstoppable Slasher both stay | R3-1, settled by the owner 2026-11-07: Slasher never had to replace Guildmage. Both on merit: Guildmage is one of 4 haste granters for a recast Ezio, Slasher the fastest way to the 10-life threshold |
+| Hidden Footblade removed from through_big_creatures in the plan file | R3-5: its first strike +1/+0 does not beat a bigger blocker; it is a haste card. through_big_creatures is 16, above 10 |
+| Build text | R3-4 fixed below: haste 5, 3 battle lands, 15 basics, protection 7, wipe insurance 5, payment enablers 8, Coastal Piracy timing |
+
+Counts after step 4: haste 5 (Swiftfoot Boots, Haunted Cloak, Hidden Footblade, Boros Guildmage, Queen Marchesa self; 4
+granters reach a recast Ezio, plus Loyal Inventor); evasion: through_wide_board 17 pieces, 10 that pass Ezio himself, team
+evasion 4 (one repeatable team card, Cover of Darkness; the pool has no other); commander protection 7; team finishers 7;
+lands 36 with about 7 entering tapped on turns 1 to 4.
+
+### Competitive-expert pass (principle 7)
+
+- **Game Changers: 0 used, 3 slots open.** Live Scryfall `is:gamechanger` search 2026-11-07: 53 cards. The two owned ones
+  (Crop Rotation, Drannith Magistrate) are Toph's and off-plan here. Wished, all "price to read" (none is in the 2026-11-07
+  readings; USD hints from Scryfall put each far above the about 2,300 CLP left for Ezio):
+  1. **Teferi's Protection**, replaces Get Out: the only team-wide answer to a wrath and to a lethal crack-back.
+  2. **Smothering Tithe**, replaces Boros Locket: ramp and treasure for the {W}{U}{B}{R}{G} payment.
+  3. **Fierce Guardianship** (free counter while Ezio is out), replaces Octopus Form.
+  Then Enlightened Tutor (Cover of Darkness, Swiftfoot Boots, Chromatic Lantern) and Vampiric or Demonic Tutor if a slot opens.
+  Cheap Game Changers (Notion Thief, Narset) were considered and left out: they do not serve an attack plan.
+- **Fast mana that is not a Game Changer:** Sol Ring, Arcane Signet, Rakdos Signet in; Golgari Signet and Mind Stone are the
+  purchase wishes below. Mana Vault, Grim Monolith and Chrome Mox are Game Changers and out of reach.
+- **Cheap interaction:** 1- and 2-mana answers: Swords, Infernal Grasp, Terminate, Assassin's Trophy, Kolaghan's Command,
+  Octopus Form, Angelic Intervention, Enter the Avatar State. Fatal Push and Mana Leak (free) were weighed against Rally
+  the Peasants and Octopus Form and left out: the finishers and protection are at or near their minimums.
+- **Tutors:** only Loyal Inventor (any artifact). Owned tutors that were cut (Entomb, Mystical Teachings, Reckless Handling)
+  do not reach the win lines of this plan; the Game Changer tutors above would.
+
+### Purchases (Game of Magic Singles, PayToWin, Tienda La Comarca; readings of 2026-11-07; about 2,300 CLP for Ezio)
+
+Ranked by impact; the list plays the fallback until the card arrives:
+| # | Card | Store, price | Replaces (fallback in the list) | Why |
+|---|---|---|---|---|
+| 1 | Golgari Signet | Game of Magic Singles, 570 (NM EN) | Boros Locket | Turn-2 rock instead of a turn-3 one; {B}{G}: black pays freerunning, green is the kill's thinnest color |
+| 2 | Battlefield Forge | Game of Magic Singles, 915 (NM EN) | Clifftop Retreat | Untapped red and white every turn (Clifftop has 4 enablers); tempo and Salt's Manabase Quality |
+| 3 | Mind Stone | Game of Magic Singles, 742 (NM EN) | Deathcap Cultivator | A turn-2 rock that needs no green; draws late |
+Total 2,227 CLP, one store. Next if money appears: Arcane Denial (Tienda La Comarca 3,950) for Get Out; Llanowar Wastes
+(Game of Magic Singles 1,320 LP) for Jungle Shrine; Rogue's Passage (PayToWin 1,440) for Rumble Arena. The English Command
+Tower bought for Ezio (PayToWin 900) is charged to Kilo; until it arrives Ezio keeps the Spanish copy the assignment gives it.
+
+Earlier rounds below.
+
+## Round 3 header (2026-11-02)
 
 **Round 3** (adversarial review `decks/reports/review-ezio-auditore-da-firenze.md`, verdict PASS with changes; owner
 decisions 2026-11-02; every new card is a free English copy in `data/model/phase2/assignment.json`, 0 decks using it):
@@ -103,13 +154,13 @@ mulligan, no extra draw (conservative).
 | team_evasion | support | 6 (floor 4) | 8 | 4 (about 3 weighted; Bleeding Effect left in round 3) | **WARN.** Cover of Darkness (fear for 22 Assassins and Ezio, repeatable) is now in; the rest of the pool has no more real team evasion: Gauntlet (one-shot, one opponent), Secret Tunnel (two creatures), Mephitic Vapors (one-shot), Bleeding Effect (flying only with a flier in the graveyard). Board 1 is also carried by 15 individual pieces |
 | defense_while_tapped | support | 4 | 6 | 9 | Propaganda, Ghostly Prison, vigilance (Cloak, Winter Soldier, Loyal Inventor), Royal Assassin, deathtouch blockers (Thorn, Etrata DF), Thopteryx |
 | combat_draw | support | 4 | 6 | 7 | Ezio Blade, Coastal Piracy, Eagle Vision, Jacob, Layla, Etrata DF, Theater of Horrors |
-| wipe_insurance | support | 2 | 3 | 5 | Restart Sequence, Revelations III, Layla, Get Out, Haystack; Equipment survive creature wipes and re-haste the rebuild |
-| payment_enablers | support | 6 | 8 | 9 | Lantern, Arcane Signet, Waterskin, Command Tower, Orchard, Path, Rumble Arena, Abstergo (8) |
+| wipe_insurance | support | 2 | 3 | 5 | Revelations III, Layla, Get Out, Haystack, Kolaghan's Command (Restart Sequence left in step 4); Equipment survive creature wipes and re-haste the rebuild |
+| payment_enablers | support | 6 | 8 | 8 | Lantern, Arcane Signet, Waterskin, Command Tower, Orchard, Path, Rumble Arena, Abstergo (8) |
 | ramp (base) | base | 10 | 12 | 7 | **WARN.** Reason: commander costs 2; avg MV 2.71; every Assassin hit makes the 4 and 5 drops cost {B}{B} (Ezio Blade, Bayek, Arno, Layla, Etrata S, Marchesa), so mana is spent on equip costs and the kill, not on big spells. The pool's 2-mana rocks are taken by Toph and Azula; the 3-mana rocks here are also payment fixers. 36 lands + 7 rocks = 43 sources. Mind Stone proposed (section 8) |
 | draw (base) | base | 10 | 12 | 11 tags, about 9.5 weighted (Lion Vulture in; Evie's loot not counted; Jacob, monarch cards, Kaya, Etrata DF, Boros Locket at half) | Etrata DF (cloak bodies), Queen Marchesa and Thorn (monarch is often stolen) and Kaya (-2 once) count half |
 | removal (base, spot) | base | 6 | 8 | 9 | 7 spells + Haytham + Royal Assassin. Answers (10 with the wipe) stay under the closers (17 attackers + 6 finishers) |
 | wipe (base) | base | 1 | 2 | 1 | Mephitic Vapors: kills tokens and 1-toughness bodies; a symmetric wrath would kill the plan |
-| commander protection | base (attack engine) | 6 | 8 | 6 | Swiftfoot Boots, Gold-Forged Thopteryx (ward 2 on every legend), Haystack, Octopus Form (Swan Song went to Kilo), Enter the Avatar State, Get Out, Angelic Intervention (7). 55 % by 12 cards; layered: hexproof and ward vs targeted, phasing vs exile and wipes, bounce vs anything; no counter to a wrath now (Arcane Denial proposed). Kaya's 0 is not counted |
+| commander protection | base (attack engine) | 6 | 8 | 7 | Swiftfoot Boots, Gold-Forged Thopteryx (ward 2 on every legend), Haystack, Octopus Form (Swan Song went to Kilo), Enter the Avatar State, Get Out, Angelic Intervention (7). 55 % by 12 cards; layered: hexproof and ward vs targeted, phasing vs exile and wipes, bounce vs anything; no counter to a wrath now (Arcane Denial proposed). Kaya's 0 is not counted |
 | graveyard hate | base | 1 | | 1 | Abstergo Entertainment (exile all graveyards; also returns a legend) |
 | tutors | | | | 1 | Loyal Inventor: any artifact (flying Equipment, Hidden Blade, Gauntlet, Boots, Lantern) |
 
@@ -187,7 +238,7 @@ Mana written as `{2}{U}`. "FR" = freerunning (cast after an Assassin or commande
 
 **Card flow**
 - Eagle Vision: FR {1}{U} after the first hit: three cards for two mana; never pay 5 unless the hand is empty.
-- Coastal Piracy: turn 4 or 5 with three attackers out: one card per connecting creature.
+- Coastal Piracy (proven role-player): cast it when {U}{U} is up (about 50 % by turn 4; Arcane Signet or Chromatic Lantern first) with three attackers out: one card per connecting creature.
 - Kaya, Ghost Assassin: -1 drains 2 from each opponent (closer); -2 trades a card with each opponent; 0 only to blink a creature you need back (it returns sick).
 - Theater of Horrors: once you hit every turn it is a second hand; {3}{R} ping turns it on when combat failed.
 - Thorn of the Black Rose: monarch draw; play it when deathtouch and taxes can defend the crown.
@@ -204,7 +255,8 @@ Mana written as `{2}{U}`. "FR" = freerunning (cast after an Assassin or commande
 - Angelic Intervention: in response to removal on Ezio, or on the kill turn: protection from the blockers' color (red goblins) makes him unblockable by them; never on Unstoppable Slasher (its counter stops the return).
 
 **Recursion**
-- Restart Sequence: FR {1}{B}: return Ezio Blade, Arno or Haytham after removal; bad early (empty yard).
+- (Restart Sequence left in step 4 for Vindictive Warden.)
+- Vindictive Warden: menace body that can block; spend spare mana at the end of an opponent's turn: {3} = 1 damage to each opponent; firebending adds {R} toward it in combat.
 - The Revelations of Ezio: I kills a tapped creature after their attack, II pumps your Assassin swing, III returns an Assassin.
 
 **Ramp and fixing**
@@ -269,7 +321,7 @@ Round 2 cuts (owner decisions and lead's copy resolution, 2026-11-02):
 
 Considered and left out: Hullcarver (1/1 deathtouch, chumped by goblins; no slot), Rooftop Assassin, Merciless Harlequin,
 Hunter's Bow (needs {G} early), Champion's Helm (Azula's), Tome of Legends, Fire Nation Archers, Kitesail, Aya of
-Alexandria, Vincent, Massacre Girl, What Must Be Done, Expedite (next haste add).
+Alexandria, Vincent, Massacre Girl, What Must Be Done; Expedite is Azula's (haste is 5 since the Hidden Footblade loan).
 
 ## 6. Loans
 
@@ -335,8 +387,10 @@ Second store (owner, 2026-11-02): only the replacement copy of the lent Hidden F
   turns 3 to 4 (Karsten 2CC about 26); U and W are under the turn-2 targets for 2-drops (19): the blue and white 2-drops
   are often cast on turn 3.
 - Tapped lands (round 3): 2 always (Path, Jungle Shrine) + 2 until a player is at 13 (Abandoned Campground, Raucous
-  Carnival) + 4 battle lands tapped until two
-  basics (13 basics). Check lands mostly untapped (9 Swamps).
+  Carnival) + 3 battle lands (Sunken Hollow, Smoldering Marsh, Prairie Stream) tapped until two basics (15 basics: 10 Swamp,
+  2 Island, Plains, Mountain, Forest). Check lands: Isolated Chapel, Drowned Catacomb, Dragonskull, Woodland Cemetery
+  mostly untapped (10 Swamps); Sulfur Falls (6 enablers) and Hinterland Harbor (5) often; Clifftop Retreat (4) often tapped
+  (Battlefield Forge proposed).
 - Curve (non-land 63): MV1 6, MV2 20, MV3 22, MV4 12, MV5 3; average 2.78. Turn 2 and 3 plays: 26 cards at MV 1 to 2.
 - Keepable hand (2 to 4 lands in 7): 74 % per look, 93 % with the free mulligan.
 - Kill payment {W}{U}{B}{R}{G} held in combat (simulation, 20,000 games, conservative: Brotherhood HQ, Abstergo and Sol Ring
@@ -347,5 +401,6 @@ Second store (owner, 2026-11-02): only the replacement copy of the lent Hidden F
 
 ## 12. Open questions for the owner
 
-1. Purchases: Arcane Denial and Mind Stone (about 3,600 CLP together) are Ezio's best use of the shared budget; approve?
-2. Haste sits at the minimum (4). If games show Ezio recast without haste, the next swap is Expedite for Octopus Form.
+1. Purchases: Golgari Signet, Battlefield Forge and Mind Stone (2,227 CLP at Game of Magic Singles); approve?
+2. Game Changers: if a Teferi's Protection, Smothering Tithe or Fierce Guardianship can be had (gift, trade, a later
+   budget), they go in for Get Out, Boros Locket and Octopus Form.

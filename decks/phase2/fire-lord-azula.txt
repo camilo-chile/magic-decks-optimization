@@ -31,6 +31,7 @@
 1 Electrodominance
 1 Exotic Orchard
 1 Fact or Fiction
+1 Fatal Push
 1 Fire Nation Palace
 1 Fists of Flame
 1 Foreboding Ruins
@@ -61,7 +62,6 @@
 1 Pull from Tomorrow
 1 Ritual of Soot
 1 Rogue's Passage
-1 Run Amok
 1 Shadowblood Ridge
 1 Shivan Reef
 1 Smoldering Marsh

@@ -1,4 +1,4 @@
-# Kilo, Apogee Mind: the Spanish deck (Phase 2 build, 2026-11-02, round 3)
+# Kilo, Apogee Mind: the Spanish deck (Phase 2 build, 2026-11-07, step 4)
 
 Opus 5.5 high, `commander-deckbuilding` skill. New deck, 100 % Spanish copies (basics included), built from
 `data/model/phase2/pool-spanish-deck.json` (191 entries). Base: the Spanish "Counter Intelligence" precon (Edge of Eternities
@@ -20,15 +20,40 @@ Commander, EOC): 58 of the 76 EOC entries in the pool are in the list; the 18 le
 - Salt: the second objective. Owner floor: Kilo must score at least the Salt power of the Spanish Counter Intelligence precon
   + 0.1 (measured in step 3). Every round-3 swap should raise or keep Salt: better mana (Manabase Quality), two cheap artifacts
   in place of a 3-mana engine and an Aura, and the purchases add a rock, an untapped tri-color land and commander protection.
+- Step 4 (2026-11-07; round-3 re-review in `decks/reports/review-spanish-deck.md`, owner decisions of 2026-11-07, the new power
+  target of SKILL.md principle 7). The 100-card list is unchanged: no unused owned Spanish card beats the weakest slots, so
+  every upgrade is a purchase swap (section 8), and the list keeps the owned stand-ins so it plays today and
+  `assign_copies.py` stays clean (it has no notion of planned purchases). Applied: R3-1 (purchases re-ranked over three stores:
+  Game of Magic Singles, PayToWin, Tienda La Comarca; Prophetic Prism and Volt Charge in), R3-2 (Barrels of Blasting Jelly now
+  tagged `removal` first; Chromatic Star keeps `engine` because its job in the deck is cheap artifact fuel for Surge
+  Conductor, Fireweaver, Jhoira and Uthros, and the plan schema has no utility tag), R3-3 (the copy text below is corrected).
+- **Competitive pass (principle 7).** Every slot was re-checked against Bracket 4 and 5 options the deck can actually get:
+  - **Game Changers: 0 used, 3 slots open.** The owned Spanish pool has none (live Scryfall `is:gamechanger`, 53 cards,
+    2026-11-07). In Kilo's colors the best fits are: Narset, Parter of Veils (Kilo proliferates its loyalty, so its −2 digs for
+    Lux Artillery or Darksteel Reactor every turn, and it shuts off opponents' extra draws), Teferi's Protection, Enlightened
+    Tutor (finds Lux, Reactor or Inspirit), Gifts Ungiven (a tutor toward route 1), Smothering Tithe, Rhystic Study, Cyclonic
+    Rift. Live read 2026-11-07: **Narset has no Spanish copy in stock** in the three stores (PayToWin and Game of Magic
+    Singles: English only, every Spanish variant unavailable; La Comarca: English NM 1,850); Gifts Ungiven in Spanish is at
+    PayToWin for 9,100 (HP) or 10,000 (MP), over the cap; the rest cost roughly 15,000 to 60,000 CLP. So all three slots stay
+    open this iteration; Narset in Spanish is the first wish for the next one, then Teferi's Protection and Enlightened Tutor.
+  - **Tutors toward the win lines:** none ownable in Spanish this iteration (Fabricate only as a 9,800 Spanish foil, Whir of
+    Invention out of stock, Gifts over the cap). Long-Range Sensor's Discover 4 remains route 1's only extra access.
+  - **Cheap interaction and low curve:** Volt Charge (1 mana cheaper than kicked Firebending, instant, removal plus
+    proliferate) and Prophetic Prism (fixing plus a card) are the buyable upgrades; the curve already averages 3.15 with 7
+    one-drops and 11 two-drops.
+  - **Fast mana that is not a Game Changer:** Sol Ring is in; Mana Crypt is banned; the remaining fast rocks (Mana Vault,
+    Grim Monolith, Chrome Mox) are Game Changers and far over the cap.
 
-**Checks on this list** (2026-11-02): `python scripts/plan_density.py` **PASS**, 2 WARN (ramp 9 of 10; counter_doublers
-reaches 10 only with Kilo; reasons in section 9). `python scripts/check_phase2_bracket.py decks/phase2/spanish-deck.txt`
-**PASS** (floor 1, 0 Game Changers, no extra turns, no mass land denial, 0 Spellbook combos inside). The optional upgrade
-list (section 8, all purchases plus Freed and Relic) was checked with the same script in the scratchpad: **PASS**, floor 1,
-one combo (Kilo + Freed from the Real + Relic of Legends, "Infinite proliferate"). The pool and every purchase candidate were
-checked against the LIVE Scryfall `is:gamechanger` search (53 cards, 2026-11-02): none is a Game Changer. Copies: every card
-has a free Spanish copy; Barrels of Blasting Jelly (TLA 254) and Chromatic Star (TSR 263) are in no other deck's list and
-not in `data/model/phase2/assignment.json`; Kilo uses 5 of 15 Spanish Mountains.
+**Checks on this list** (2026-11-07): `python scripts/plan_density.py` **PASS**, 2 WARN (ramp 9 of 10; counter_doublers
+reaches 10 only with Kilo; both reasons in section 9, and Volt Charge clears the second). `python scripts/check_phase2_bracket.py
+decks/phase2/spanish-deck.txt` **PASS** (floor 1, 0 Game Changers, no extra turns, no mass land denial, 0 Spellbook combos
+inside). `python scripts/assign_copies.py`: spanish-deck 100 of 100 copies covered, 0 missing, 0 problems (the four decks all
+100 of 100); the 12 "shared" names involving Kilo (Sol Ring, Arcane Signet, Exotic Orchard, Sulfur Falls, Clifftop Retreat,
+Rugged Prairie, Shivan Reef, Cascade Bluffs, Chaos Warp, Path of Ancestry, Waterbending Lesson, Soul-Guide Lantern) each have
+separate physical copies. Barrels of Blasting Jelly (TLA 254, ES), Chromatic Star (TSR 263, ES) and the 5 Mountains (ACR 305,
+ES) are assigned to Kilo in `data/model/phase2/assignment.json` (the round-3 note said otherwise; corrected). The optional
+upgrade list of round 3 (with Freed from the Real and Relic of Legends) passed the same bracket script in the scratchpad (floor
+1, one combo: Kilo + Freed from the Real + Relic of Legends, "Infinite proliferate"); Freed is still not buyable in Spanish.
 
 ## 1. Commander reading and rules points to verify
 
@@ -111,7 +136,7 @@ Odds are "at least one by 12 cards seen" (turn 5) for early, "by 20 cards" (turn
 | through_big_creatures | gate, early | 10 | 12 | **16** (90 %) | Spot answers: Tranquilize (three stun counters Kilo keeps topping up), Dispatch, Chaos Warp, Airbending Lesson, Sandbenders' Storm, Firebending Lesson kicked, Barrels of Blasting Jelly ({5}: 5 damage), Lux Cannon (repeatable); North Pole Patrol taps; the two noncombat finishers, Cyberdrive flying, Kappa unblockable, Titan Forge 9/9s, two wipes. |
 | evasion | support | 4 | 6 | 9 | Inside through_wide_board. |
 | wipe_insurance | support | 2 | 3 | 7 | Inspirit 8+, Darksteel Reactor (indestructible), Hangarback, Emry, Swan Song, Ripples, Buried Ruin; plus 3 indestructible Bridges; every noncreature artifact survives creature wipes with its counters. |
-| Ramp | base | 10 | 12 | **9 tags (WARN); about 5 timed** | Timed (review I-2): castable by turn 2 and helping Kilo: Sol Ring, Arcane Signet, Chalice, Prism; Sculptor and Mechanaut at half (they discount artifacts, not Kilo). Cornucopia, Sphere, Solar Array are turn-4 plays. Fixing (not counted as ramp): Barrels of Blasting Jelly, Chromatic Star, Spire, Orchard. Fix: purchase 1 (Talisman). |
+| Ramp | base | 10 | 12 | **9 tags (WARN); about 5 timed** | Timed (review I-2): castable by turn 2 and helping Kilo: Sol Ring, Arcane Signet, Chalice, Prism; Sculptor and Mechanaut at half (they discount artifacts, not Kilo). Cornucopia, Sphere, Solar Array are turn-4 plays. Fixing (not counted as ramp): Barrels of Blasting Jelly, Chromatic Star, Spire, Orchard. Fix: purchase 4 (Talisman of Conviction; fallback Relic of Legends). |
 | Draw (nets cards) | base | 10 | 12 | **13** | Insight Engine, Uthros, Sensor (half), Etched Oracle, Automaton, Gambit, Thirst, Katara (repeatable, half), Universal Surveillance, Waterbending Lesson, Thought Monitor, Jhoira, Inspiring Overseer. |
 | Removal (spot) | base | 6 | 8 | **8** + Soul-Guide Lantern (graveyard answer, tagged removal) | Tranquilize, Dispatch, Chaos Warp, Airbending Lesson, Firebending Lesson, Sandbenders' Storm, Barrels (late), Lux Cannon. Answers to opposing commanders: Chaos Warp (tuck), Tranquilize (stun kept up by proliferate), Dispatch (exile), Lux Cannon. |
 | Wipes | base | 2 (hybrid takes the higher) | 2 | **2** | Fumigate, Organic Extinction; both near one-sided here (noncreature artifacts survive; Organic spares artifact creatures; Inspirit 8+ makes Fumigate one-sided). |
@@ -149,7 +174,7 @@ Mulligan a seven that cannot make all three colors by turn 4 (review I-1).
 - Astral Cornucopia: X=1 on turn 4 after Kilo (X=2 on turn 6); grows into a many-mana fountain for Universal Surveillance, Insight Engine and Katara. Bad early (never instead of Kilo).
 - Commander's Sphere: turn 3 or 4 fixing; sacrifice it for a card in response to artifact removal or when mana no longer matters.
 - Solar Array: turn 3 or 4; tap it for the next artifact spell so that spell gets sunburst (more counters on Etched Oracle, Crawler, Hangarback; charge counters on rocks, which Lux Artillery counts).
-- Etherium Sculptor: turn 2; 37 artifact spells cost 1 less (not Kilo); later a station or crew body. Bad late.
+- Etherium Sculptor: turn 2; 37 artifact spells cost 1 less (not Kilo); later a station or crew body. Bad late. Stand-in for Prophetic Prism (purchase 2).
 - Enthusiastic Mechanaut: turn 2; same discount and a 2/2 flyer that chips and blocks flyers.
 - Barrels of Blasting Jelly: turn 1 or 2; from then on {1} turns one mana into the color Kilo is missing (once a turn, no loss), so it is a fixer for turn 3; an artifact entry for Surge Conductor and Fireweaver; late, {5} and sacrifice it for 5 damage to a creature.
 - Chromatic Star: turn 1 or 2; pay {1} and sacrifice it for the missing color on Kilo's turn, and draw a card when it goes to the graveyard from the battlefield (a cheap artifact entry and exit for Surge Conductor, Fireweaver, Jhoira and Uthros). Bad never: it replaces itself.
@@ -196,14 +221,14 @@ Mulligan a seven that cannot make all three colors by turn 4 (review I-1).
 - Waterbending Lesson: draw three; pay waterbend {2} by tapping Kilo (proliferate) and an artifact to keep every card.
 - Thought Monitor: affinity makes it 2 to 4 mana for a 2/2 flyer and two cards. Bad early.
 - Jhoira, Weatherlight Captain: turn 4; every artifact or legendary spell draws; cast it before a chain of cheap artifacts.
-- Inspiring Overseer: turn 3; a card and a 2/1 flyer (station fuel, chump blocker against Board 2). Stand-in for the Talisman.
+- Inspiring Overseer: turn 3; a card and a 2/1 flyer (station fuel, chump blocker against Board 2). Stand-in for Talisman of Conviction (purchase 4).
 
 **Removal (7 spot + Lux Cannon + graveyard)**
 - Tranquilize: on the biggest Board 2 creature or an opposing commander: three stun counters, and every Kilo trigger adds another, so it never untaps while Kilo lives. Sorcery: cast it before the attack.
 - Dispatch: from turn 3 (three artifacts) it exiles for one mana; before that it taps an attacker.
 - Chaos Warp: any permanent, commanders included (tuck); the answer to enchantments.
 - Airbending Lesson: instant: exile a nonland permanent and draw; or exile your own Kilo in response to removal and recast it for {2} with haste.
-- Firebending Lesson: 2 damage to a utility creature early; kicked, 5 damage late.
+- Firebending Lesson: 2 damage to a utility creature early; kicked, 5 damage late. Stand-in for Volt Charge (purchase 1).
 - Sandbenders' Storm: instant: destroy a creature with power 4 or more (Board 2); or earthbend 3 for a land with counters that proliferate grows and that returns when it dies.
 - Soul-Guide Lantern: on entering exile a reanimation target; later sacrifice it to exile each opponent's graveyard, or for a card.
 
@@ -219,7 +244,7 @@ Mulligan a seven that cannot make all three colors by turn 4 (review I-1).
 - Phyrexian Metamorph: copy Lux Artillery (a second 10 to each opponent), Insight Engine, Autogenerator or Surge Conductor, or an opponent's best artifact or creature; pay 2 life if blue is short.
 - North Pole Patrol: untap Kilo after its attack or station and tap it again (crew, waterbend) for a second proliferate; its waterbend {3} (tap Kilo to pay) taps an attacker on an opponent's turn or a blocker on yours.
 - Brute Suit: crew 1 with Kilo at the last opponent's end step: Kilo blocked all round and still proliferates; a 4/3 vigilance body.
-- Ovalchase Dragster: crew 1 with Kilo (proliferate); a 6/1 trample haste attacker when a lane is open; flies with Cyberdrive. Bad against pingers. Stand-in for Swiftfoot Boots.
+- Ovalchase Dragster: crew 1 with Kilo (proliferate); a 6/1 trample haste attacker when a lane is open; flies with Cyberdrive. Bad against pingers. Stand-in for Swiftfoot Boots (extra).
 
 **Lands (37)**
 - Untapped duals: Adarkar Wastes, Shivan Reef (pain lands); Sulfur Falls, Glacial Fortress, Clifftop Retreat (check lands: play after a basic); Radiant Summit (untapped with two basics); Rugged Prairie, Cascade Bluffs, Skycloud Expanse (filters: need another colored mana, so count them as colorless until then).
@@ -227,7 +252,7 @@ Mulligan a seven that cannot make all three colors by turn 4 (review I-1).
 - Utility colorless: Karn's Bastion ({4},T proliferate, also on opponents' turns), Buried Ruin (return Lux or Reactor).
 - Artifact lands: Ancient Den, Great Furnace, Seat of the Synod (untapped; metalcraft, improvise, Surge Conductor); Silverbluff, Razortide, Rustvale Bridge (tapped, indestructible artifacts).
 - Mystic Monastery, Path of Ancestry: tapped tri-color lands; play them on turn 1 or a turn with spare mana.
-- Basics: 7 Island, 4 Plains, 5 Mountain (all Spanish; the fifth Mountain is the stand-in for Command Tower).
+- Basics: 7 Island, 4 Plains, 5 Mountain (all Spanish; the fifth Mountain is the stand-in for Command Tower, purchase 3).
 
 ## 5. Cut log
 
@@ -250,7 +275,7 @@ and the main non-precon cards considered.
 | Alibou, Ancient Witness (EOC) | haste for artifact creatures, single-target damage | through_big 16 (10) | 5 MV, single target; Depthshaker gives the same haste. |
 | Angel of the Ruins (EOC) | artifact/enchantment removal, 7 MV | removal 8 (6) | Chaos Warp and Lux Cannon do it cheaper. |
 | Cloud Key (EOC) | cost reducer | ramp 9 (10, WARN) | A turn-3-to-4 play like Sphere, with less output. |
-| Command Tower (EOC) | land | lands 37 | All three copies are in Toph, Azula and Ezio; conditional purchase 2. |
+| Command Tower (EOC) | land | lands 37 | All three copies are in Toph, Azula and Ezio; purchase 3 (PayToWin copy for Ezio, his Spanish copy to Kilo). |
 | Temple of Enlightenment, Irrigated Farmland, Lonely Sandbar, Secluded Steppe, Evolving Wilds (EOC) | tapped lands | lands 37 | Already 5 tapped lands; untapped lands and basics preferred. |
 | Chain Reaction, Planar Cleansing | wipes | wipes 2 (2) | Hit my own board. |
 | Rowdy Snowballers | stun | through_big 16 (10) | One stun counter; Tranquilize gives three. |
@@ -272,58 +297,63 @@ None. The loan candidates are English cards of his Standard decks; a 100 % Spani
 | Soul-Guide Lantern | 2: one in Toph, one free | Azula | **Toph and Kilo**; Azula's is a separate purchase | kept |
 | Commander's Sphere, Spire of Industry, Glacial Fortress, Mystic Monastery, Radiant Summit | 1 each | Ezio | **Kilo** | kept |
 | Swords to Plowshares / Pull from Tomorrow / Battlefield Forge | | Ezio / Azula / Toph | the other deck | replaced (Tranquilize, Katara, Path of Ancestry) |
-| Command Tower | 3, in Toph, Azula and Ezio | | those three | Kilo buys one if a Spanish copy is in stock |
+| Command Tower | 3, in Toph, Azula and Ezio | | those three | owner 2026-11-07: a PayToWin copy (900, counted in Kilo's cap) goes to Ezio and Ezio's Spanish copy moves to Kilo when it arrives; the list keeps the fifth Mountain until then |
 
 Round-3 additions (Barrels of Blasting Jelly, Chromatic Star, a fifth Spanish Mountain) are wanted by no other deck. No
 conflict: Sol Ring, Arcane Signet, Exotic Orchard, Sulfur Falls, Clifftop Retreat, Rugged Prairie, Shivan Reef, Cascade
 Bluffs, Chaos Warp, Sandbenders' Storm, Path of Ancestry (separate physical copies in the assignment).
 
-## 8. Purchases (Game of Magic Singles, Spanish copies; Kilo's own cap 5,000 CLP; Boots outside it)
+## 8. Purchases (stores of 2026-11-07: Game of Magic Singles, PayToWin, Tienda La Comarca; Spanish copies; Kilo's cap 5,000 CLP; Boots outside it)
 
-Live stock and prices as read by the reviewer on 2026-11-02 (product `.js` variant data, `decks/reports/review-spanish-deck.md`
-section 3b); re-verify within 24 hours of buying. The list holds each purchase's owned stand-in, so it is playable today.
+Sources: `data/prices/browser-gameofmagic-20261107-wishlist.psv`, `data/prices/browser-paytowin-20261107-wishlist.psv`, the
+La Comarca rows of `data/prices/20261107T2140Z.json`, the reviewer's live reads of 2026-11-07 (`decks/reports/review-spanish-deck.md`,
+round 3) and my own product-page reads of Narset and Gifts Ungiven (2026-11-07). Re-verify stock within 24 hours of buying.
+The list keeps each stand-in until the card arrives; then swap as below. Ranked by power per CLP (consistency first, likely
+Salt power second):
 
-| Rank | Card (Spanish) | Stock and price (2026-11-02) | Need | Replaces (stand-in now in the list) | Fallback |
+| Rank | Card (Spanish) | Store, price (2026-11-07) | Need it fills | Replaces (stand-in now in the list) | Fallback |
 |---|---|---|---|---|---|
-| extra (outside the cap, owner-approved) | Swiftfoot Boots | **in stock**, 3,280 (The Brothers' War Retro Artifacts, schematic, NM ES) | Commander protection 4 to 5 tags (about 3.25 to 4.25 weighted); hexproof, equip {1} does not tap Kilo | Ovalchase Dragster (tap outlets 11 to 10, min 6) | none in stock (Pemmin's Aura out of stock); keep Dragster |
-| 1 | Talisman of Conviction | **in stock**, 1,500 (Tarkir: Dragonstorm Commander, NM ES) | Turn-2 rock that makes R or W, Kilo's two short colors; ramp 9 to 10 (WARN closed; about 6 timed) | Inspiring Overseer (draw 13 to 12, min 10) | another Spanish 2-mana rock in stock at buying time (Talisman of Progress or Creativity, a Boros, Azorius or Izzet Signet, Fellwar Stone, Mind Stone), stock not read; else keep Inspiring Overseer |
-| 2 | Command Tower | **not confirmed**: Spanish AFC (570), ZNC (1,000) and DFC (1,000) unavailable; English copies in stock (not allowed for this deck); about 25 printings unread (HTTP 429) | Untapped tri-color land | the fifth Mountain | keep the Mountain |
-| 3 | A second Spanish 2-mana rock (same candidates as rank 1's fallback) | stock not read | Timed ramp about 6 to 7; Kilo on turn 3 more often | Etherium Sculptor (bad late, discounts artifacts only) | keep Sculptor |
+| 1 | Volt Charge | Game of Magic Singles, **400** (Phyrexia: All Will Be One, NM ES) | Instant: 3 damage to any target, then proliferate. Clears the `counter_doublers` WARN (10 pieces without Kilo, 11 with); spot removal stays 8; proliferates on a turn Kilo is off the table | Firebending Lesson | keep Firebending Lesson |
+| 2 | Prophetic Prism | Game of Magic Singles, **400** (ONE, NM ES); also PayToWin 900 (Rise of the Eldrazi, LP ES) | Two-mana artifact: one free color conversion every turn plus a card; triggers Surge Conductor, Fireweaver, Jhoira, Uthros. Kilo on turn 3 (3+ lands): 82.6 % → 84.1 % | Etherium Sculptor (discounts artifacts only, bad late) | the PayToWin copy; else keep the Sculptor |
+| 3 | Command Tower | PayToWin, **900** (Commander 2017, LP; the 2026-11-07 reading labels the variant Spanish) | Untapped land of all three colors: Kilo on turn 3 with ranks 1 to 4: 86.4 % (85.3 % without it) | the fifth Mountain | keep the Mountain. Owner's plan: this copy goes to Ezio (bought as English), and Ezio's Spanish Command Tower moves to Kilo when it arrives; if the PayToWin copy is Spanish, it can go straight to Kilo and Ezio keeps his. Either way 900 counts against Kilo's cap. |
+| 4 | Talisman of Conviction | Game of Magic Singles, **1,500** (Tarkir: Dragonstorm Commander, NM ES in the wishlist reading; the browser lookup the same day saw only English at 1,200): **verify Spanish at purchase** | Turn-2 rock that makes R or W, Kilo's short colors; timed ramp about 5 → 6; Kilo on turn 3: +1.2 points | Inspiring Overseer (draw 13 → 12) | Relic of Legends, Tienda La Comarca, **2,600** (Dominaria United, NM ES): a 3-mana rock that also taps Kilo for mana at instant speed (a proliferate on an opponent's turn every round); then ranks 1 to 4 cost 4,300 |
+| extra (outside the cap, owner-approved) | Swiftfoot Boots | PayToWin, **2,200** (Commander 2014, LP ES); Game of Magic Singles 3,280 (NM ES) | Commander protection 4 → 5 tags (about 3.25 → 4.25 weighted); hexproof; equip {1} does not tap Kilo | Ovalchase Dragster (tap outlets 11 → 10 with Kilo, min 6) | the Game of Magic Singles copy |
 
-**Inside the 5,000 cap:** Talisman 1,500 + Command Tower 570 to 1,000 = 2,070 to 2,500; about 2,500 left for rank 3 if a
-Spanish rock is in stock (prices of 700 to 1,500 are usual for these), or for the next iteration's tutor (Fabricate 9,800
-Spanish foil, Whir of Invention out of stock: both over the cap now). **Outside:** Swiftfoot Boots 3,280. Kilo on turn 3
-(simulation, section 11): 82.9 % now, 84.2 % with the Talisman, 85.5 % with the Talisman and Command Tower.
+**Totals.** Inside the cap: 400 + 400 + 900 + 1,500 = **3,200 CLP** (4,300 with the Relic fallback). Outside: Boots 2,200.
+Stores used: Game of Magic Singles (Volt Charge, Prophetic Prism, Talisman) and PayToWin (Command Tower, Boots); La Comarca only
+for the Relic fallback. **1,800 of the cap stay unspent:** Relic (2,600) does not fit next to the Talisman, Narset has no
+Spanish copy, Gifts Ungiven costs 9,100 or more in Spanish. Hold it, or buy Relic instead of the Talisman if the owner prefers
+late power (a second Kilo trigger every round) to turn-3 fixing; the Talisman ranks higher because Kilo on turn 3 is the
+engine's bottleneck (section 11).
 
-**Out this iteration (review B-1):** Relic of Legends (no copy in any of 7 products), Freed from the Real (no Spanish copy;
-cheapest printing 5,200 English Damaged, unavailable; only a 28,800 English foil in stock), Springleaf Drum and Pemmin's Aura
-(no stock).
+**After all buys** (checked: the list with Volt Charge, Prophetic Prism, Command Tower, Talisman and Boots passes
+`check_phase2_bracket.py` in the scratchpad, floor 1, 0 Game Changers, 0 combos): counter_doublers 11 with Kilo, 10 without
+(WARN gone); ramp tags stay 9 (Sculptor out, Talisman in; the tag WARN stays, timed ramp about 6); draw 12; removal 9 tags;
+commander protection 5 tags; tap outlets 10 with Kilo; Kilo on turn 3 about 86 % with 3+ lands.
 
-**Optional upgrade path (only if a second store is added, owner 2026-11-02: it must stock Hidden Footblade and Overpowering
-Attack; then Freed from the Real and Relic of Legends are bought there in Spanish).**
-- Relic of Legends replaces Brute Suit (a better tap outlet: it taps Kilo for mana at instant speed, and it is a rock).
-- Freed from the Real replaces Firebending Lesson (removal 8 to 7, min 6). Alone with Kilo: `{U}: tap` and `{U}: untap` give an
-  extra proliferate for {U}{U} at instant speed, as often as mana allows.
-- The line (late, three cards with the commander, Bracket 3 legal, owner's rule welcomes it): tap Kilo for Relic's second
-  ability (one blue mana; Kilo proliferates), pay that {U} to Freed's untap, repeat: infinite proliferate at instant speed. With
-  Pentad Prism or Crystalline Crawler holding a counter, each loop also nets mana. It wins with a card the deck already plays:
-  Darksteel Reactor with a counter (20 counters: the game is won), Etched Oracle plus the infinite mana from Prism or Crawler
-  ("target player draws three" on each opponent until they draw from an empty library), Lux Artillery (30 counters at once,
-  10 to each opponent per end step), or an infinite-size unblockable Kappa Cannoneer. Do not grow Insight Engine past your own
-  library.
-- Checked in the scratchpad: the list with Boots, Talisman, Command Tower, Relic and Freed passes `check_phase2_bracket.py`
-  (floor 1, 0 Game Changers; Spellbook: one combo, Kilo + Freed from the Real + Relic of Legends, "Infinite proliferate").
-- After the path: tap outlets 11, ramp 11 tags, protection 5, removal 7 spot.
+**Game Changer wishes for the next iteration (none buyable in Spanish now, see the competitive pass at the top):** Narset,
+Parter of Veils (in for Mindless Automaton), Teferi's Protection (for Ripples of Potential or Swan Song), Enlightened Tutor (a
+tutor for Lux Artillery, Darksteel Reactor or Inspirit). Non-Game-Changer tutors: Fabricate, Whir of Invention.
+
+**Optional upgrade path (Freed from the Real + Relic of Legends).** Relic of Legends is now buyable in Spanish (La Comarca,
+2,600); Freed from the Real still has no Spanish copy in the three stores, so the infinite line waits. When both exist:
+Relic for Brute Suit, Freed for Chromatic Star (by then Prophetic Prism and the Talisman cover its fixing). The line: tap Kilo for Relic's second ability (one blue
+mana; Kilo proliferates), pay that {U} to Freed's untap, repeat: infinite proliferate at instant speed (three cards with the
+commander, late, Bracket 3 legal; Spellbook variant 4222-4549-6702, checked in round 3). It wins with Darksteel Reactor (20
+counters), Etched Oracle plus the infinite mana from Pentad Prism or Crystalline Crawler (opponents draw from an empty
+library), Lux Artillery, or an infinite unblockable Kappa Cannoneer.
 
 ## 9. WARN reasons and dead clauses
 
 - **Ramp 9 of 10 (WARN), about 5 timed.** The Spanish pool has no further turn-1-to-2 rock (Mind Stone's Spanish copy is in
   Azula). Mitigation: Chalice, Prism and Cornucopia gain mana with every proliferate and Coretapper charges them; Crawler and
-  Autogenerator add late mana; Barrels and Chromatic Star fix colors (not counted as ramp). Fix: purchase 1 (Talisman of
-  Conviction, in stock), then rank 3.
+  Autogenerator add late mana; Barrels and Chromatic Star fix colors (not counted as ramp). Fix: purchase 4 (Talisman of
+  Conviction; fallback Relic of Legends). The tag count stays 9 after the buys because Etherium Sculptor (tagged ramp) leaves
+  for Prophetic Prism; timed ramp rises to about 6.
 - **counter_doublers reaches 10 only with Kilo (WARN).** Correct after removing North Pole Patrol (review M-1): it untaps Kilo,
-  it does not proliferate. The pool has no other proliferate card; Kilo is the guaranteed piece, and the 9 others (about 6.5
-  weighted) are above the profile's support min 4. No purchase cut takes a card from this function.
+  it does not proliferate. The owned pool has no other proliferate card; Kilo is the guaranteed piece, and the 9 others (about
+  6.5 weighted) are above the profile's support min 4. Purchase 1 (Volt Charge, 400) clears it: 10 without Kilo. No purchase
+  cut takes a card from this function.
 - Commander protection meets the floor by tags (4) but is about 3.25 weighted; Swiftfoot Boots (extra) brings it to 5.
 - Bad when drawn: 10 early (Thunderhulk, Depthshaker, Cyberdrive, Organic Extinction, Deepglow Skate, Lux Artillery, Kappa,
   Thought Monitor, Katara, Astral Cornucopia), 2 late (Thrummingbird, Etherium Sculptor): 12, at the warning line.
@@ -361,8 +391,12 @@ Attack; then Freed from the Real and Relic of Legends are bought there in Spanis
   | Mycosynth → Mountain | 66.6 % / 79.5 % | 89.6 % |
   | + Golem Foundry → Barrels | 68.4 % / 81.3 % | 90.9 % |
   | **+ Detained → Chromatic Star (this list)** | **69.8 % / 82.9 %** | **91.8 %** |
-  | + Talisman of Conviction (purchase 1) | 72.2 % / 84.2 % | about 92 % |
-  | + Command Tower for the fifth Mountain (purchase 2) | 73.0 % / 85.5 % | about 92 % |
+  | + Talisman of Conviction (round 3 model) | 72.2 % / 84.2 % | about 92 % |
+  | + Command Tower for the fifth Mountain (round 3 model) | 73.0 % / 85.5 % | about 92 % |
+  | Step 4 re-run (5,000 games, Prophetic Prism as a 2-mana converter): this list | 69.5 % / 82.6 % | |
+  | + Prophetic Prism and Volt Charge (purchases 1 and 2) | 70.8 % / 84.1 % | |
+  | + Talisman of Conviction (purchase 4) | 72.9 % / 85.3 % | |
+  | + Command Tower for the fifth Mountain (purchase 3): all buys | 73.8 % / **86.4 %** | |
 
   Tested and rejected (within noise or a worse trade): Exotic Orchard → Plains (82.2 %), Rustvale Bridge → Plains (82.0 %),
   Path of Ancestry → Mountain (80.4 %), Skycloud Expanse → Plains (80.7 %), Buried Ruin → Plains (84.0 %, costs route 1's
@@ -379,7 +413,8 @@ Attack; then Freed from the Real and Relic of Legends are bought there in Spanis
 
 ## 12. Open questions for the owner
 
-Answered in rounds 2 and 3 (scarce copies, Freed from the Real, Boots as an extra, one store, the Salt floor, the second-store
-condition). Still open:
-1. Rank 3 (a second Spanish 2-mana rock): should the lead read the Spanish stock of Talisman of Progress and Creativity, the
-   three Signets, Fellwar Stone and Mind Stone at Game of Magic Singles, to spend the rest of Kilo's 5,000?
+Answered through step 4 (scarce copies, the stores, Command Tower, the cap, Boots as an extra, the power target). Still open:
+1. 1,800 CLP of the cap stay unspent with ranks 1 to 4: hold them, or take Relic of Legends (2,600) instead of the Talisman
+   (late power instead of turn-3 fixing)?
+2. Game Changers: none is buyable in Spanish today. Should the next iteration's store reads include Narset, Parter of Veils,
+   Teferi's Protection and Enlightened Tutor in Spanish?

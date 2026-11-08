@@ -1,6 +1,6 @@
 {
  "plan": "Assassin strike force: cheap evasive Assassins and Ezio connect from turn 2 or 3, Equipment (flying, haste, hexproof, trample, vigilance) and unblockable Assassins carry Ezio past any board, every hit turns Assassin spells into {B}{B} casts and draws cards (Ezio, Blade of Vengeance, Coastal Piracy, Eagle Vision), team damage (Arno, Achilles, Bayek, Rally, Unstoppable Slasher halving a life total, pings to each opponent) pushes all three opponents to 10, and Ezio's trigger removes them one per hit while attack taxes and vigilant or deathtouch bodies hold the crack-back.",
- "backup": "Without Ezio on the table the same evasive Assassins keep attacking for damage with Arno's +2/+0 and Bayek's double strike, and the repeatable pings to each opponent (Shao Jun, Kaya) finish players already low from combat.",
+ "backup": "Without Ezio on the table the same evasive Assassins keep attacking for damage with Arno's +2/+0 and Bayek's double strike, and the repeatable pings to each opponent (Shao Jun, Vindictive Warden, Kaya) finish players already low from combat.",
  "archetype": "combat_attackers",
  "secondary": "alternate_kill",
  "secondary_role": "plan",
@@ -27,10 +27,11 @@
   "Pings to each opponent": {
    "cards": [
     "Shao Jun",
+    "Vindictive Warden",
     "Kaya, Ghost Assassin"
    ],
    "axis": "noncombat",
-   "vs_three": "Both hit EVERY opponent and repeat: Shao Jun 1 to each per two untapped artifacts (Equipment and rocks), Kaya -1 drains 2 from each (5 loyalty); a top-off that closes a table combat already put low, without passing any blocker. The deck is all-in on combat otherwise."
+   "vs_three": "Each card hits EVERY opponent and repeats: Shao Jun 1 to each per two untapped artifacts (Equipment and rocks), Vindictive Warden 1 to each per {3} (spare mana at end of turn), Kaya -1 drains 2 from each (5 loyalty); a top-off that closes a table combat already put low, without passing any blocker. Otherwise the deck is all-in on combat."
   }
  },
  "functions": {
@@ -96,8 +97,7 @@
     "Arno Dorian",
     "Etrata, Deadly Fugitive",
     "Assassin Initiate",
-    "Unstoppable Slasher",
-    "Hidden Footblade"
+    "Unstoppable Slasher"
    ],
    "needed_by": "early"
   },
@@ -123,7 +123,8 @@
     "Ratonhnhaké꞉ton",
     "Shao Jun",
     "Unstoppable Slasher",
-    "Winter Soldier, Icy Assassin"
+    "Winter Soldier, Icy Assassin",
+    "Vindictive Warden"
    ],
    "needed_by": "early"
   },
@@ -134,7 +135,8 @@
     "Rally the Peasants",
     "Shao Jun",
     "Kaya, Ghost Assassin",
-    "Achilles Davenport"
+    "Achilles Davenport",
+    "Vindictive Warden"
    ],
    "needed_by": "late"
   }
@@ -174,7 +176,6 @@
    "Theater of Horrors"
   ],
   "wipe_insurance": [
-   "Restart Sequence",
    "The Revelations of Ezio",
    "Layla Hassan",
    "Haystack",
@@ -293,7 +294,6 @@
   "Theater of Horrors": "draw",
   "Propaganda": "engine",
   "Ghostly Prison": "engine",
-  "Restart Sequence": "backup",
   "The Revelations of Ezio": "backup",
   "Rally the Peasants": "payoff",
   "Command Tower": "land",
@@ -329,10 +329,10 @@
   ],
   "Angelic Intervention": "protection",
   "Kolaghan's Command": "removal",
-  "Hidden Footblade": "engine"
+  "Hidden Footblade": "engine",
+  "Vindictive Warden": "payoff"
  },
  "bad_when_drawn": {
-  "Restart Sequence": "early",
   "Rally the Peasants": "early",
   "Bayek of Siwa": "early",
   "Ezio, Blade of Vengeance": "early",
@@ -394,6 +394,7 @@
   "Lion Vulture": "never",
   "Angelic Intervention": "never",
   "Kolaghan's Command": "never",
-  "Hidden Footblade": "never"
+  "Hidden Footblade": "never",
+  "Vindictive Warden": "never"
  }
 }

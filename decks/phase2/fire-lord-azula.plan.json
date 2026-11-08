@@ -61,7 +61,7 @@
     "Blazing Crescendo",
     "Cunning Maneuver",
     "Abandon Attachments",
-    "Run Amok"
+    "Fatal Push"
    ],
    "needed_by": "early"
   },
@@ -107,7 +107,7 @@
     "Comet Storm",
     "Rogue's Passage",
     "Fists of Flame",
-    "Run Amok",
+    "Fatal Push",
     "Blazing Crescendo",
     "Cunning Maneuver"
    ],
@@ -142,7 +142,6 @@
    "Frostcliff Siege",
    "Ozai, the Phoenix King",
    "Fists of Flame",
-   "Run Amok",
    "Malcolm, the Eyes"
   ],
   "defense_while_tapped": [
@@ -150,7 +149,7 @@
    "Haunted Cloak",
    "Thermo-Alchemist",
    "Octopus Form",
-   "Bender's Waterskin"
+   "Nightscape Familiar"
   ],
   "combat_draw": [
    "Archmage Emeritus",
@@ -158,8 +157,8 @@
    "Frostcliff Siege",
    "Fists of Flame",
    "Blazing Crescendo",
-   "Cunning Maneuver",
-   "Zuko, Exiled Prince"
+   "Zuko, Exiled Prince",
+   "Cunning Maneuver"
   ],
   "wipe_insurance": [
    "Undying Malice",
@@ -187,7 +186,6 @@
    "through_big_creatures"
   ],
   "Solve the Equation": [
-   "spell_payoffs",
    "through_wide_board",
    "through_big_creatures"
   ],
@@ -304,10 +302,6 @@
    "payoff",
    "draw"
   ],
-  "Cunning Maneuver": [
-   "payoff",
-   "draw"
-  ],
   "Zuko, Exiled Prince": [
    "draw",
    "engine"
@@ -315,8 +309,12 @@
   "Waterbending Lesson": "draw",
   "Solve the Equation": "tutor",
   "Abandon Attachments": "draw",
-  "Run Amok": "payoff",
-  "Malcolm, the Eyes": "draw"
+  "Malcolm, the Eyes": "draw",
+  "Fatal Push": "removal",
+  "Cunning Maneuver": [
+   "payoff",
+   "draw"
+  ]
  },
  "bad_when_drawn": {
   "Ozai, the Phoenix King": "early",
@@ -326,6 +324,7 @@
   "Unleash Fury": "early",
   "Abrade": "late",
   "Godo, Bandit Warlord": "early",
-  "Overpowering Attack": "early"
+  "Overpowering Attack": "early",
+  "Fatal Push": "late"
  }
 }
