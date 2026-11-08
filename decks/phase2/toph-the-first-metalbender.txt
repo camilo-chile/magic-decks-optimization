@@ -24,7 +24,7 @@
 1 Burnished Hart
 1 Solemn Simulacrum
 1 The Earth King
-1 Titania, Protector of Argoth
+1 Reckless Handling
 1 Ashaya, Soul of the Wild
 1 Toph, the Blind Bandit
 1 Toph, Hardheaded Teacher
@@ -39,20 +39,20 @@
 1 Earthbender Ascension
 1 Rampaging Baloths
 1 Seismic Tutelage
-1 Arbaaz Mir
+1 Aang's Iceberg
 1 Ragost, Deft Gastronaut
 1 Goblin Bombardment
 1 Annie Joins Up
 1 Terrasymbiosis
 1 Ichor Wellspring
 1 Stocking the Pantry
-1 Garruk's Uprising
+1 Water Tribe Rallier
 1 Swords to Plowshares
 1 Path to Exile
 1 Beast Within
 1 Fateful Absence
 1 Stroke of Midnight
-1 Fire Nation Archers
+1 Seismic Sense
 1 Hardlight Containment
 1 Haystack
 1 Collective Resistance
@@ -62,7 +62,7 @@
 1 Chord of Calling
 1 Brightglass Gearhulk
 1 True Ancestry
-1 Soul-Guide Lantern
+1 The Stasis Coffin
 1 Command Tower
 1 Exotic Orchard
 1 Ba Sing Se

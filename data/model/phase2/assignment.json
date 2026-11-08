@@ -157,6 +157,23 @@
      ]
     },
     {
+     "name": "Chain Reaction",
+     "oracle_id": "086b2564-9114-4ba2-94fd-b490f98f38a7",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "ecc",
+       "number": "92",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
      "name": "Chaos Warp",
      "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
      "qty": 1,
@@ -319,23 +336,6 @@
        "language": "es",
        "set": "eoc",
        "number": "70",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "Spanish Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
-     "name": "Depthshaker Titan",
-     "oracle_id": "23bf0648-7097-41df-a539-1d36ac42cf9c",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "es",
-       "set": "eoc",
-       "number": "9",
        "foil": "normal",
        "condition": "near_mint",
        "binder": "Spanish Cards",
@@ -786,23 +786,6 @@
      ]
     },
     {
-     "name": "Mindless Automaton",
-     "oracle_id": "e7441107-57b1-4e88-a9d8-3eb7c338ef07",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "es",
-       "set": "eoc",
-       "number": "142",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "Spanish Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
      "name": "Mountain",
      "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
      "qty": 5,
@@ -816,6 +799,23 @@
        "condition": "near_mint",
        "binder": "Spanish Cards",
        "qty": 5
+      }
+     ]
+    },
+    {
+     "name": "Moxite Refinery",
+     "oracle_id": "3fe9367b-def1-4820-9e23-92ce3d7a4afc",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "17",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
       }
      ]
     },
@@ -1016,6 +1016,23 @@
        "language": "es",
        "set": "drc",
        "number": "106",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Resourceful Defense",
+     "oracle_id": "83e78565-e61f-4bbc-b834-f47941f7e3ec",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "eoc",
+       "number": "67",
        "foil": "normal",
        "condition": "near_mint",
        "binder": "Spanish Cards",
@@ -1364,23 +1381,6 @@
      ]
     },
     {
-     "name": "Threefold Thunderhulk",
-     "oracle_id": "b8020a8b-557b-465d-865d-b59fecd7abc1",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "es",
-       "set": "eoc",
-       "number": "145",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "Spanish Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
      "name": "Thrummingbird",
      "oracle_id": "eac94269-4baa-4b8e-a0fd-d6b227d1cde3",
      "qty": 1,
@@ -1490,6 +1490,23 @@
    "languages": "both",
    "cards": [
     {
+     "name": "Aang's Iceberg",
+     "oracle_id": "646f9ad8-9d18-4b42-954a-e21a62e9f0e8",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "5",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
      "name": "Annie Joins Up",
      "oracle_id": "4c3ad545-b375-44a7-a24e-58baacc4e4b6",
      "qty": 1,
@@ -1502,23 +1519,6 @@
        "foil": "normal",
        "condition": "near_mint",
        "binder": "English Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
-     "name": "Arbaaz Mir",
-     "oracle_id": "a383ef16-1af8-4b3a-956c-c10a93768617",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "es",
-       "set": "acr",
-       "number": "46",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "Spanish Cards",
        "qty": 1
       }
      ]
@@ -1932,23 +1932,6 @@
      ]
     },
     {
-     "name": "Fire Nation Archers",
-     "oracle_id": "2e735849-1930-4f43-86b4-da660ade15bc",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "en",
-       "set": "tle",
-       "number": "237",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "English Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
      "name": "Forest",
      "oracle_id": "b34bb2dc-c1af-4d77-b0b3-a0fb342a5fc6",
      "qty": 11,
@@ -2027,23 +2010,6 @@
        "language": "en",
        "set": "blc",
        "number": "306",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "English Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
-     "name": "Garruk's Uprising",
-     "oracle_id": "3127ae9b-a7a7-43ec-89d7-688f8445b33d",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "en",
-       "set": "ecc",
-       "number": "109",
        "foil": "normal",
        "condition": "near_mint",
        "binder": "English Cards",
@@ -2350,6 +2316,23 @@
      ]
     },
     {
+     "name": "Reckless Handling",
+     "oracle_id": "f1ea7dc5-01cb-4780-947c-08ea9324c52f",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "mat",
+       "number": "19",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
      "name": "Rogue's Passage",
      "oracle_id": "f29dc596-2121-4421-8463-15f6c2e8b9b3",
      "qty": 1,
@@ -2469,6 +2452,23 @@
      ]
     },
     {
+     "name": "Seismic Sense",
+     "oracle_id": "9d586c74-b1dd-4fcb-a24a-c703d250fa63",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "195",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
      "name": "Seismic Tutelage",
      "oracle_id": "7ece47b1-0b4b-40ac-a90f-4573a8e3b8bd",
      "qty": 1,
@@ -2532,23 +2532,6 @@
        "foil": "normal",
        "condition": "near_mint",
        "binder": "English Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
-     "name": "Soul-Guide Lantern",
-     "oracle_id": "1b5e6560-ff2e-4475-96cb-63f64c8a86db",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "es",
-       "set": "eoc",
-       "number": "143",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "Spanish Cards",
        "qty": 1
       }
      ]
@@ -2724,6 +2707,23 @@
      ]
     },
     {
+     "name": "The Stasis Coffin",
+     "oracle_id": "a46bfaf5-e631-4603-850a-f0074395b2f5",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "bro",
+       "number": "245",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
      "name": "Tireless Provisioner",
      "oracle_id": "ab8d5f5c-1976-4f77-8ed2-8d28ee666741",
      "qty": 1,
@@ -2750,23 +2750,6 @@
        "language": "en",
        "set": "eoc",
        "number": "110",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "English Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
-     "name": "Titania, Protector of Argoth",
-     "oracle_id": "d0ade00d-a496-441d-9b7e-7dc033d3292c",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "en",
-       "set": "eoc",
-       "number": "111",
        "foil": "normal",
        "condition": "near_mint",
        "binder": "English Cards",
@@ -2872,6 +2855,23 @@
        "foil": "normal",
        "condition": "near_mint",
        "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Water Tribe Rallier",
+     "oracle_id": "64acb083-a0a3-46ec-9c93-b2ac36878703",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "42",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
        "qty": 1
       }
      ]
@@ -3071,15 +3071,15 @@
      ]
     },
     {
-     "name": "Blazing Crescendo",
-     "oracle_id": "6344c96a-efa5-4125-8219-d333228391cf",
+     "name": "Brainstorm",
+     "oracle_id": "36cd2364-d113-47d1-b2c4-b088d9eb88dd",
      "qty": 1,
      "given": 1,
      "picks": [
       {
        "language": "en",
-       "set": "one",
-       "number": "123",
+       "set": "a25",
+       "number": "46",
        "foil": "normal",
        "condition": "near_mint",
        "binder": "English Cards",
@@ -3905,6 +3905,23 @@
      ]
     },
     {
+     "name": "Opt",
+     "oracle_id": "713332c1-5bd8-400f-bfff-c1ca0697a043",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "fdn",
+       "number": "512",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
      "name": "Overpowering Attack",
      "oracle_id": "e31235f0-1f25-4158-b46e-cacde2f58b7e",
      "qty": 1,
@@ -4356,23 +4373,6 @@
      ]
     },
     {
-     "name": "Unleash Fury",
-     "oracle_id": "4eaa100c-f1ef-4a2b-9370-5dad7f3a95f2",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "en",
-       "set": "m21",
-       "number": "170",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "English Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
      "name": "Waterbending Lesson",
      "oracle_id": "3d28886c-46bf-4d2e-a257-cb9016cc3573",
      "qty": 1,
@@ -4533,23 +4533,6 @@
      ]
     },
     {
-     "name": "Assassin Initiate",
-     "oracle_id": "23be5c68-6530-474d-b677-551da4745b3c",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "en",
-       "set": "acr",
-       "number": "22",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "English Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
      "name": "Assassin's Trophy",
      "oracle_id": "ac10d218-f9a6-4058-9cda-a15ca1b0b7b5",
      "qty": 1,
@@ -4559,23 +4542,6 @@
        "language": "en",
        "set": "acr",
        "number": "95",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "English Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
-     "name": "Aven Heartstabber",
-     "oracle_id": "fee73267-b0ef-4f43-a0bd-7728691d6f17",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "en",
-       "set": "snc",
-       "number": "166",
        "foil": "normal",
        "condition": "near_mint",
        "binder": "English Cards",
@@ -4890,6 +4856,23 @@
      ]
     },
     {
+     "name": "Entomb",
+     "oracle_id": "299fc083-0834-4064-8344-f895aff68867",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "dmr",
+       "number": "82",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
      "name": "Etrata, Deadly Fugitive",
      "oracle_id": "87957d09-7e22-40fe-8770-ff66d1934a38",
      "qty": 1,
@@ -5110,23 +5093,6 @@
        "language": "en",
        "set": "acr",
        "number": "57",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "English Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
-     "name": "Hidden Blade",
-     "oracle_id": "37ec9b95-8c9a-4dd5-9ff2-3d6527984126",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "en",
-       "set": "acr",
-       "number": "73",
        "foil": "normal",
        "condition": "near_mint",
        "binder": "English Cards",
@@ -5373,6 +5339,40 @@
      ]
     },
     {
+     "name": "Magister Sphinx",
+     "oracle_id": "1d86ae29-4705-4bbc-8922-9b4e031df5b1",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "2x2",
+       "number": "247",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Mana Leak",
+     "oracle_id": "c61fe162-2202-4e56-9ba0-393547f9875f",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "8ed",
+       "number": "89",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
      "name": "Mephitic Vapors",
      "oracle_id": "5731ecb5-6ddc-4452-990c-b69986367f25",
      "qty": 1,
@@ -5385,6 +5385,23 @@
        "foil": "normal",
        "condition": "near_mint",
        "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Merciless Harlequin",
+     "oracle_id": "10e0ccdf-9a31-402a-9fbf-f501ce63fa52",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "acr",
+       "number": "287",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
        "qty": 1
       }
      ]
@@ -5416,23 +5433,6 @@
        "language": "en",
        "set": "tla",
        "number": "285",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "English Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
-     "name": "Octopus Form",
-     "oracle_id": "6fec368d-374d-4318-861b-ff478ba51a3c",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "en",
-       "set": "tla",
-       "number": "66",
        "foil": "normal",
        "condition": "near_mint",
        "binder": "English Cards",
@@ -5594,15 +5594,49 @@
      ]
     },
     {
-     "name": "Royal Assassin",
-     "oracle_id": "9ed6f28f-a3db-48c5-9ab0-b90a7fba5f57",
+     "name": "Reckless Handling",
+     "oracle_id": "f1ea7dc5-01cb-4780-947c-08ea9324c52f",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "mat",
+       "number": "19",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Restart Sequence",
+     "oracle_id": "c415bfdd-3d42-4f94-9f93-7e310becbc8b",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "acr",
+       "number": "30",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Roshan, Hidden Magister",
+     "oracle_id": "f60b21c1-d192-4a02-9b1f-a08e9e08a84a",
      "qty": 1,
      "given": 1,
      "picks": [
       {
        "language": "en",
        "set": "acr",
-       "number": "93",
+       "number": "32",
        "foil": "normal",
        "condition": "near_mint",
        "binder": "English Cards",
@@ -5824,23 +5858,6 @@
      ]
     },
     {
-     "name": "Theater of Horrors",
-     "oracle_id": "b391a4ce-52ce-4a8c-bbe5-6053951ee1d4",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "es",
-       "set": "dsc",
-       "number": "236",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "Spanish Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
      "name": "Thorn of the Black Rose",
      "oracle_id": "a7894a81-8c0a-4015-8bc1-2698cf5306d1",
      "qty": 1,
@@ -5892,32 +5909,15 @@
      ]
     },
     {
-     "name": "Vindictive Warden",
-     "oracle_id": "43b339ec-4d7d-41ac-a5ab-96c6a6de00e2",
+     "name": "What Must Be Done",
+     "oracle_id": "bd0df0a8-c2ec-4d1f-9ada-cc91f7a20e1a",
      "qty": 1,
      "given": 1,
      "picks": [
       {
        "language": "en",
-       "set": "tla",
-       "number": "249",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "English Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
-     "name": "Winter Soldier, Icy Assassin",
-     "oracle_id": "6f4c94b6-f829-4646-a574-083997b78dfb",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "en",
-       "set": "msh",
-       "number": "239",
+       "set": "acr",
+       "number": "11",
        "foil": "normal",
        "condition": "near_mint",
        "binder": "English Cards",
@@ -6049,13 +6049,6 @@
    ]
   },
   {
-   "name": "Octopus Form",
-   "decks": [
-    "ezio-auditore-da-firenze",
-    "fire-lord-azula"
-   ]
-  },
-  {
    "name": "Path of Ancestry",
    "decks": [
     "ezio-auditore-da-firenze",
@@ -6067,6 +6060,13 @@
    "decks": [
     "ezio-auditore-da-firenze",
     "fire-lord-azula"
+   ]
+  },
+  {
+   "name": "Reckless Handling",
+   "decks": [
+    "ezio-auditore-da-firenze",
+    "toph-the-first-metalbender"
    ]
   },
   {
@@ -6109,13 +6109,6 @@
    "decks": [
     "ezio-auditore-da-firenze",
     "fire-lord-azula",
-    "spanish-deck",
-    "toph-the-first-metalbender"
-   ]
-  },
-  {
-   "name": "Soul-Guide Lantern",
-   "decks": [
     "spanish-deck",
     "toph-the-first-metalbender"
    ]

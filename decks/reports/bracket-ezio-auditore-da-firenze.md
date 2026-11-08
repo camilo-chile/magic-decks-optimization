@@ -1,14 +1,15 @@
 # Bracket check: ezio-auditore-da-firenze (PASS)
 
-Target Bracket 3; floor found 1; 100 cards, 100 recognized.
+Target Bracket 3; floor found 3; 100 cards, 100 recognized.
 
 - Game Changers (0): none
 - Extra-turn cards (0): none
 - Mass land denial: none
 - Reversible cards (never allowed): none
 
-## Spellbook: 0 variants inside the list, 0 flagged, 14 one card away
+## Spellbook: 1 variants inside the list, 1 flagged, 17 one card away
 
+- floor 3 [commander plus one card, late] ['Ezio Auditore da Firenze', 'Magister Sphinx'] (tag E)
 
 ## Rejections
 

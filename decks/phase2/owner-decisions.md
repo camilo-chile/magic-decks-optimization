@@ -15,6 +15,15 @@ the next build round. Newest first.
 | Ezio | Real commander | Wait for the normal printing to be restocked (PayToWin had only the borderless at 28,800 on 2026-11-07). |
 | Kilo | Purchases inside the 5,000 cap | Volt Charge 400, Prophetic Prism 400, Talisman of Conviction 1,500 (verify Spanish), Relic of Legends 2,600 (Tienda La Comarca) = 4,900; Command Tower goes to the separate stock section and to Kilo. |
 | All | Over-budget buys (standing rule) | For every deck and every budget, always show the price and the expected gain of the strong buys that do NOT fit the cap (Game Changers, tutors such as Eladamri's Call): the owner may extend a cap when the gain is high. |
+| All | Salt floors (replace the earlier ones) | Azula 7.0, Toph 6.5, Ezio 6.0, Kilo 4.5. Salt is secondary: it may drop when the fixes remove what keeps a deck from winning. Standard: consistent, robust and as powerful as possible, as the greatest Commander champion of all time would build it with the same budgets and goals. |
+| Ezio | Salt floor | 6.5 (like Toph), after the step-6 score of 6.6. |
+| Kilo | Cap extended | Up to 7,000 so Kilo buys BOTH Generous Gift (PayToWin 2,100) and Relic of Legends (La Comarca 2,600) with Volt Charge, Prophetic Prism and Talisman of Conviction. |
+| All | Searches for over-cap cards | By script only (no model tokens). |
+| Kilo | Salt floor | 4.0 (owner, 2026-11-08), after the step-6 score of 3.8. |
+| Kilo | Missing combo pieces | Search Meticulous Excavation and Voltaic Construct (Spanish) on scry.cl; a third or fourth store only if it adds much value (prefer at most 3 stores); otherwise wait for a restock and accept Kilo at 3.8 for now. |
+| Toph | Over-cap Game Changers | Worldly Tutor 32,400 and Natural Order 20,990: too expensive, dropped. |
+| All | Stores (2026-11-08) | Rivendel El Concilio replaces Tienda La Comarca: Game of Magic Singles + PayToWin + Rivendel El Concilio. |
+| All | Arcane Denial | Not expensive: extend a cap for it if it adds power. |
 | All | Budgets | The 10,000 CLP are ONLY for deck upgrades. Everything else (loan replacements, the real Ezio, full-art basics, stock cards, tokens, Swiftfoot Boots extra) is separate, priced line by line, and the owner evaluates each line. |
 
 ## 2026-11-02 (fourth round)

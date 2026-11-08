@@ -1,4 +1,67 @@
-# Ezio Auditore da Firenze: Phase 2 build notes (2026-11-07, step 4)
+# Ezio Auditore da Firenze: Phase 2 build notes (2026-11-07, step 6)
+
+**Step 6.** The step-4 list scored 5.4 on Commander Salt (`decks/reports/salt-ezio-auditore-da-firenze-20261107.md`): Win
+conditions 81/200, "Casual stall shell, no clear win path" (no combos, fast mana 12, tutors 8), one wipe, few counters, light
+draw. Owner standard (2026-11-07): consistent, robust and as powerful as possible, a clear fast win path; Salt floor 6.0.
+Checks rerun 2026-11-07: `plan_density.py` PASS (0 failures; warnings team_evasion 4 of 6, ramp 7 of 10), `check_phase2_bracket.py`
+PASS (floor 3: Ezio + Magister Sphinx, a commander-plus-one-card kill, late; 0 Game Changers; no infinite), `assign_copies.py`
+100 of 100, 0 missing, 0 problems. Every new card is a free copy (Restart Sequence and Merciless Harlequin are Spanish-only).
+
+**The win path now (one plan, a compact kill on top):** Magister Sphinx sets one opponent to 10; Ezio connects (Equipment,
+Cover of Darkness, Secret Tunnel, Angelic Intervention) and pays {W}{U}{B}{R}{G}: that player is out. The Sphinx comes back for
+the next opponent (Kaya's 0 blinks it to my next upkeep, What Must Be Done's Release Juno, Restart Sequence, Layla returns it
+to hand, Kolaghan's Command returns it), while the team damage (Arno, Achilles, Bayek, Rally, Unstoppable Slasher, Shao Jun,
+Kaya) brings the others to 10 by itself. Finders: Loyal Inventor and Reckless Handling (artifact tutors; the Sphinx is an
+artifact), Entomb (to the yard, then Restart Sequence for {1}{B} after a hit, What Must Be Done or Layla). With Roshan out
+every creature is an Assassin, so the Sphinx (and Lion Vulture, Haytham, Thopteryx, Inventor) cost {B}{B} after a hit.
+Each piece works alone: the Sphinx is a 5/5 flier that resets the leader; Roshan a 4/4 that makes every spell cheaper;
+Reckless Handling finds Boots or Lantern and pings each opponent for 2 when it bins an artifact; Entomb feeds Layla, Jacob and
+the reanimators; What Must Be Done is the second wipe.
+
+| Out | In | Reason |
+|---|---|---|
+| Aven Heartstabber | Magister Sphinx | The kill setter: one card turns an opponent's life into 10 |
+| Assassin Initiate | Roshan, Hidden Magister | Freerunning {B}{B} for every creature, the Sphinx included; a 4/4 body; Brotherhood HQ mana for all |
+| Vindictive Warden | Reckless Handling | Tutor for the Sphinx, Boots, Lantern or an Equipment; team_finishers back to 6 (the minimum: the Sphinx line is the closer now) |
+| Theater of Horrors | Entomb | 1-mana tutor into the reanimators and Layla |
+| Royal Assassin | Restart Sequence | Reanimates the Sphinx, Ezio Blade or Bayek for {1}{B} after a hit |
+| Hidden Blade | What Must Be Done | Second wipe (Salt: one wipe too thin) or Sphinx recursion; a reset when Board 2 runs away |
+| Octopus Form | Mana Leak | A counter that also stops a wrath early (Salt: counterspell coverage light); still commander protection |
+| Winter Soldier, Icy Assassin | Merciless Harlequin | A 2-for-1 Assassin (body + card) for {B}{B} or {1}{B} after a hit (draw) |
+
+Counts: tutors 3 (Loyal Inventor, Reckless Handling, Entomb) + Evie fetching Jacob; draw 11 tags, about 9.5 weighted;
+spot answers 9 (Mana Leak included), wipes 2; commander protection 7; haste 5; through_wide_board 17 (10 pass Ezio himself);
+attackers 19; average MV 2.94; toughness 2 or less among attackers 6 of 20 with Ezio (Evie, Harlequin, Jacob, Lydia, Lion Vulture).
+
+Salt estimate (mine, to be measured): 6.0 to 6.5. Gains: a detected combo (Ezio + Sphinx), tutor score up (3 tutors), two
+wipes, a counter; costs: average MV up 0.2, the 7-drop.
+
+### Purchases inside Ezio's about 2,300 CLP (readings of 2026-11-07)
+| # | Card | Store, price | Replaces | Gain |
+|---|---|---|---|---|
+| 1 | Golgari Signet | Game of Magic Singles, 570 | Deathcap Cultivator | Turn-2 rock, {B}{G} for freerunning and the kill |
+| 2 | Mind Stone | Game of Magic Singles, 742 | Boros Locket | Turn-2 rock instead of a turn-3 one |
+| 3 | Battlefield Forge | Game of Magic Singles, 915 | Clifftop Retreat | Untapped red and white |
+Total 2,227 CLP, one store.
+
+### Strong buys over the cap (owner rule 2026-11-07: price and expected gain, he may extend the cap)
+| Card | Price | Replaces | Expected gain [J] |
+|---|---|---|---|
+| Arcane Denial | Tienda La Comarca 3,950 | Get Out | A 2-mana hard counter for wraths and removal; +0.1 to 0.2 Salt |
+| Bloodletter of Aclazotz | price to read | Rally the Peasants | Doubles every opponent's life loss on my turn: 40 to 10 in one or two swings; a team finisher and a combo with Unstoppable Slasher; the biggest single gain, +0.3 to 0.5 |
+| Wound Reflection | price to read | Rally the Peasants | Each opponent loses again what they lost this turn: the team finisher the deck lacks; combo with the Sphinx and with Slasher |
+| Sorin Markov | price to read | Glider Staff | A second "life becomes 10" piece with Ezio (Spellbook combo); a second kill line, +0.2 to 0.3 |
+| Brotherhood Regalia | price to read | Hookblade | Ezio unblockable every turn: the kill connects through any board |
+| Mox Amber | price to read | Boros Locket | Free mana with 20 legends: fast mana score up |
+| Enlightened Tutor (Game Changer) | price to read | Get Out | Finds the Sphinx, Boots, Lantern or Cover; +0.2 to 0.4 |
+| Demonic or Vampiric Tutor (Game Changers) | price to read | Rally the Peasants | Any piece of the kill on demand; +0.3 each |
+| Teferi's Protection (Game Changer) | price to read | Get Out | Team-wide wrath answer |
+| Smothering Tithe (Game Changer) | price to read | Boros Locket | Treasure for the five-color payment |
+| Lightning Greaves | PayToWin 9,900 | Haystack | A second hexproof + haste Equipment |
+
+Earlier rounds below.
+
+## Step 4 header (2026-11-07)
 
 **Step 4** (round-3 re-review R3-1 to R3-6 in `decks/reports/review-ezio-auditore-da-firenze.md`, verdict PASS; owner rule
 2026-11-07: Bracket 3 power or higher inside the Bracket 3 rules, built as a competitive expert would). Checks rerun

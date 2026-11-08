@@ -24,10 +24,10 @@
 1 Empowered Autogenerator
 1 Lux Cannon
 1 Etched Oracle
-1 Mindless Automaton
+1 Moxite Refinery
 1 Patrolling Peacemaker
 1 Kappa Cannoneer
-1 Threefold Thunderhulk
+1 Chain Reaction
 1 Chrome Host Seedshark
 1 Surge Conductor
 1 Thrummingbird
@@ -39,7 +39,7 @@
 1 Lux Artillery
 1 Darksteel Reactor
 1 Cyberdrive Awakener
-1 Depthshaker Titan
+1 Resourceful Defense
 1 Reckless Fireweaver
 1 Thirst for Knowledge
 1 Katara, Bending Prodigy

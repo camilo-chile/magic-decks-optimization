@@ -9,12 +9,10 @@
       "cards": [
         "Tannuk, Memorial Ensign",
         "Sabotender",
-        "Valakut Exploration",
-        "Arbaaz Mir",
-        "Fire Nation Archers"
+        "Valakut Exploration"
       ],
       "axis": "noncombat",
-      "vs_three": "Every land entry deals 1 damage to EACH opponent per pinger (Arbaaz: every artifact or legendary entry), Valakut Exploration deals end-step damage to each opponent, and Fire Nation Archers turns spare mana into 2 to each opponent per {5} (10 to 15 mana by turns 7 to 8: 4 to 6 to everyone a turn). Realistic board: one pinger (46 % by turn 7, 54 % with Chord) at 3 entries a turn = 3 to each opponent a turn, plus Archers late; two pingers at once is the best case (9.5 % by turn 7). All three opponents fall together."
+      "vs_three": "Every land entry deals 1 damage to EACH opponent per pinger (Tannuk, Sabotender) and Valakut Exploration deals end-step damage to each opponent; one pinger at 3 entries a turn is 3 to every opponent a turn, two at once double it. The tutors now reach the pingers too (Chord X=2-3, Seismic Sense, Water Tribe Rallier). All three opponents fall together; this route also turns the infinite-landfall loops into a table kill."
     },
     "artifact burst": {
       "cards": [
@@ -30,7 +28,6 @@
         "Rampaging Baloths",
         "Seismic Tutelage",
         "Bumi, Unleashed",
-        "Titania, Protector of Argoth",
         "Toph, the Blind Bandit"
       ],
       "axis": "combat",
@@ -44,7 +41,7 @@
         "Ashaya, Soul of the Wild"
       ],
       "axis": "noncombat",
-      "vs_three": "Three-card loops made of on-plan cards (Spellbook 3470-5702-6871, 3875-5702-6871, 539-1315-7037, 539-5147-7037): R8 Toph + Springheart Nantuko CAST for bestow on her end-step earthbent land + Lotus Cobra or Tireless Provisioner = infinite landfall (each copy is a land that enters untapped and pays the next {1}{G}); closers: Sabotender, Tannuk, Valakut Exploration (whole library to each opponent at end step), Fire Nation Archers when the loop also nets mana (Cobra and Provisioner both out); Arbaaz does NOT trigger (the copies are tokens). R9 Ashaya + Toph, the Blind Bandit + Zuran Orb or Goblin Bombardment = the Bandit is a land, earthbends herself on entry and returns when sacrificed: infinite landfall, and Arbaaz triggers too (a nontoken legend enters each loop); Bombardment alone kills the table. Every opponent dies at once."
+      "vs_three": "Three-card loops made of on-plan cards (Spellbook 3470-5702-6871, 3875-5702-6871, 539-1315-7037, 539-5147-7037): R8 Toph + Springheart Nantuko (found by Seismic Sense or Water Tribe Rallier, never by Chord) CAST for bestow on her end-step earthbent land + Lotus Cobra or Tireless Provisioner = infinite landfall (each copy is a land that enters untapped and pays the next {1}{G}); closers: Sabotender, Tannuk, Valakut Exploration (whole library to each opponent at end step), Rampaging Baloths (unlimited 4/4s). R9 Ashaya + Toph, the Blind Bandit + Zuran Orb (Reckless Handling, Brightglass Gearhulk find it) or Goblin Bombardment = the Bandit is a land, earthbends herself on entry and returns when sacrificed: infinite landfall; Bombardment alone kills the table. Every opponent dies at once."
     }
   },
   "functions": {
@@ -65,7 +62,6 @@
         "Burnished Hart",
         "Solemn Simulacrum",
         "The Earth King",
-        "Titania, Protector of Argoth",
         "Earthbender Ascension",
         "Zuran Orb",
         "Ashaya, Soul of the Wild",
@@ -88,9 +84,7 @@
         "Earthbender Ascension",
         "Springheart Nantuko",
         "Rampaging Baloths",
-        "Druid Class",
-        "Titania, Protector of Argoth",
-        "Arbaaz Mir"
+        "Druid Class"
       ],
       "needed_by": "early"
     },
@@ -99,17 +93,14 @@
         "Tannuk, Memorial Ensign",
         "Sabotender",
         "Valakut Exploration",
-        "Arbaaz Mir",
         "Ragost, Deft Gastronaut",
         "Goblin Bombardment",
         "Planar Outburst",
-        "Garruk's Uprising",
         "Earthbender Ascension",
         "Rampaging Baloths",
         "Bumi, Unleashed",
         "Rogue's Passage",
-        "Secret Tunnel",
-        "Fire Nation Archers"
+        "Secret Tunnel"
       ],
       "needed_by": "early"
     },
@@ -128,7 +119,7 @@
         "Ragost, Deft Gastronaut",
         "Rogue's Passage",
         "Secret Tunnel",
-        "Fire Nation Archers"
+        "Aang's Iceberg"
       ],
       "needed_by": "early"
     }
@@ -144,7 +135,6 @@
       "Ba Sing Se"
     ],
     "land_recursion": [
-      "Titania, Protector of Argoth",
       "True Ancestry",
       "Zuran Orb",
       "Goblin Bombardment"
@@ -156,7 +146,8 @@
       "Stocking the Pantry",
       "Tireless Tracker",
       "Springheart Nantuko",
-      "Ragost, Deft Gastronaut"
+      "Ragost, Deft Gastronaut",
+      "Water Tribe Rallier"
     ],
     "wipe_insurance": [
       "Haystack",
@@ -175,6 +166,16 @@
     "Brightglass Gearhulk": [
       "land_entries",
       "through_big_creatures"
+    ],
+    "Seismic Sense": [
+      "landfall_payoffs",
+      "land_entries"
+    ],
+    "Reckless Handling": [
+      "land_entries"
+    ],
+    "Water Tribe Rallier": [
+      "landfall_payoffs"
     ]
   },
   "tags": {
@@ -212,10 +213,6 @@
       "draw"
     ],
     "The Earth King": "engine",
-    "Titania, Protector of Argoth": [
-      "engine",
-      "payoff"
-    ],
     "Ashaya, Soul of the Wild": "engine",
     "Toph, the Blind Bandit": "payoff",
     "Toph, Hardheaded Teacher": "engine",
@@ -244,7 +241,6 @@
     ],
     "Rampaging Baloths": "payoff",
     "Seismic Tutelage": "payoff",
-    "Arbaaz Mir": "payoff",
     "Ragost, Deft Gastronaut": "payoff",
     "Goblin Bombardment": "payoff",
     "Annie Joins Up": [
@@ -254,7 +250,6 @@
     "Terrasymbiosis": "draw",
     "Ichor Wellspring": "draw",
     "Stocking the Pantry": "draw",
-    "Garruk's Uprising": "draw",
     "True Ancestry": "draw",
     "Swords to Plowshares": "removal",
     "Path to Exile": "removal",
@@ -262,7 +257,6 @@
     "Fateful Absence": "removal",
     "Stroke of Midnight": "removal",
     "Hardlight Containment": "removal",
-    "Soul-Guide Lantern": "orphan",
     "Haystack": "protection",
     "Collective Resistance": [
       "protection",
@@ -295,9 +289,16 @@
     "Terramorphic Expanse": "land",
     "Vibrant Cityscape": "land",
     "Cabaretti Courtyard": "land",
-    "Fire Nation Archers": "payoff",
     "Hakoda, Selfless Commander": "protection",
-    "Drannith Magistrate": "orphan"
+    "Drannith Magistrate": "orphan",
+    "Seismic Sense": "tutor",
+    "Reckless Handling": "tutor",
+    "Aang's Iceberg": "removal",
+    "The Stasis Coffin": "protection",
+    "Water Tribe Rallier": [
+      "draw",
+      "tutor"
+    ]
   },
   "bad_when_drawn": {
     "Sol Ring": "never",
@@ -322,7 +323,6 @@
     "Burnished Hart": "never",
     "Solemn Simulacrum": "never",
     "The Earth King": "never",
-    "Titania, Protector of Argoth": "early",
     "Ashaya, Soul of the Wild": "early",
     "Toph, the Blind Bandit": "never",
     "Toph, Hardheaded Teacher": "never",
@@ -336,14 +336,12 @@
     "Earthbender Ascension": "never",
     "Rampaging Baloths": "early",
     "Seismic Tutelage": "early",
-    "Arbaaz Mir": "never",
     "Ragost, Deft Gastronaut": "never",
     "Goblin Bombardment": "never",
     "Annie Joins Up": "never",
     "Terrasymbiosis": "never",
     "Ichor Wellspring": "never",
     "Stocking the Pantry": "never",
-    "Garruk's Uprising": "never",
     "True Ancestry": "early",
     "Swords to Plowshares": "never",
     "Path to Exile": "never",
@@ -351,15 +349,18 @@
     "Fateful Absence": "never",
     "Stroke of Midnight": "never",
     "Hardlight Containment": "never",
-    "Soul-Guide Lantern": "never",
     "Haystack": "never",
     "Collective Resistance": "never",
     "Origin of Metalbending": "never",
     "Planar Outburst": "early",
     "Chord of Calling": "early",
     "Brightglass Gearhulk": "early",
-    "Fire Nation Archers": "never",
     "Hakoda, Selfless Commander": "never",
-    "Drannith Magistrate": "never"
+    "Drannith Magistrate": "never",
+    "Seismic Sense": "never",
+    "Reckless Handling": "never",
+    "Aang's Iceberg": "never",
+    "The Stasis Coffin": "never",
+    "Water Tribe Rallier": "early"
   }
 }

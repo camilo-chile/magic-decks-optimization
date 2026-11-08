@@ -10,23 +10,32 @@
   "copied burn to each opponent": {
    "cards": [
     "Comet Storm",
-    "Electrodominance",
-    "Thermo-Alchemist"
+    "Electrodominance"
    ],
    "axis": "noncombat",
-   "vs_three": "Comet Storm multikicked twice names all three opponents and Azula copies it (2X to each); Horizon Stone stores colorless mana between turns so X reaches 8 to 12; Mystical Teachings and Solve the Equation fetch it (access 4 cards, 60 % by turn 13); Electrodominance copied adds 2X to one or two players plus two free spells; Thermo-Alchemist pings all three on every instant. Recast by Gearhulk an X spell has X=0: never do that. None of it needs combat damage through blockers."
+   "vs_three": "Comet Storm multikicked twice names all three opponents and Azula copies it (2X to each); Horizon Stone stores colorless mana between turns so X reaches 8 to 12, and the loops of the third route make X as large as needed; Mystical Teachings and Solve the Equation fetch it; Electrodominance copied adds 2X to one or two players plus two free spells. Recast for free an X spell has X=0: never do that. None of it needs combat damage through blockers."
   },
   "Azula and her copies in combat": {
    "cards": [
     "Fire Lord Azula",
     "Ozai, the Phoenix King",
     "Helm of the Host",
-    "Unleash Fury",
     "Godo, Bandit Warlord",
     "Overpowering Attack"
    ],
    "axis": "combat",
-   "vs_three": "Overpowering Attack (freerunning {2}{R} once Azula has dealt combat damage) and Godo give extra combats, each a new firebending and a new round of copies; Helm of the Host makes a hasty nonlegendary Azula every combat, so two or three Azulas attack different opponents and each copies every spell; late, Helm on Godo gives unlimited combats (allowed late line); Ozai (7/7 trample, haste, flying and indestructible with six floating mana) hits another player; copied Unleash Fury on an unblocked or trampling Azula is 16 commander damage (24 with Champion's Helm); copied burn finishes players left low."
+   "vs_three": "Overpowering Attack (freerunning {2}{R} once Azula has dealt combat damage) and Godo give extra combats, each a new firebending and a new round of copies; Helm of the Host makes a hasty nonlegendary Azula every combat, so two or three Azulas attack different opponents; Godo with Helm gives unlimited combats WITHOUT Azula (two-card late line, the route's redundancy when she is answered); Ozai (7/7 trample, haste, flying and indestructible with six floating mana) hits another player; copied pump tricks and removal after blocks make blocking a losing trade."
+  },
+  "Azula loops for unbounded mana": {
+   "cards": [
+    "Narset's Reversal",
+    "Frantic Search",
+    "Dualcaster Mage",
+    "Snap",
+    "Thermo-Alchemist"
+   ],
+   "axis": "noncombat",
+   "vs_three": "While Azula attacks: (a) Dualcaster Mage plus Snap: Snap stays on the stack, each Dualcaster cast is copied, both bodies copy Snap, four lands untap for a 3-mana spell: unbounded mana and Dualcaster tokens; (b) Frantic Search plus Narset's Reversal (the Reversal's copy returns the Reversal itself, its copy returns Frantic Search): +1 mana per loop, +3 with the two reducers, about a dozen loops before the library runs low (never loop with Archmage Emeritus out: it decks you). Thermo-Alchemist untaps on each cast of loop (b) and pings all three opponents twice per loop; the unbounded mana of (a) goes into Comet Storm with X and kicks for all three. Mystical Teachings and Solve the Equation fetch every loop piece."
   }
  },
  "functions": {
@@ -53,12 +62,12 @@
     "Amphibian Downpour",
     "Comet Storm",
     "Electrodominance",
-    "Unleash Fury",
+    "Opt",
     "Hidden Footblade",
     "Mystical Teachings",
     "Frantic Search",
     "Fists of Flame",
-    "Blazing Crescendo",
+    "Brainstorm",
     "Cunning Maneuver",
     "Abandon Attachments",
     "Fatal Push"
@@ -108,7 +117,6 @@
     "Rogue's Passage",
     "Fists of Flame",
     "Fatal Push",
-    "Blazing Crescendo",
     "Cunning Maneuver"
    ],
    "needed_by": "early"
@@ -156,7 +164,6 @@
    "Azula, On the Hunt",
    "Frostcliff Siege",
    "Fists of Flame",
-   "Blazing Crescendo",
    "Zuko, Exiled Prince",
    "Cunning Maneuver"
   ],
@@ -259,7 +266,6 @@
    "backup",
    "engine"
   ],
-  "Unleash Fury": "payoff",
   "Thermo-Alchemist": "backup",
   "Propaganda": "protection",
   "Haunted Cloak": "engine",
@@ -298,10 +304,6 @@
    "payoff",
    "draw"
   ],
-  "Blazing Crescendo": [
-   "payoff",
-   "draw"
-  ],
   "Zuko, Exiled Prince": [
    "draw",
    "engine"
@@ -314,14 +316,15 @@
   "Cunning Maneuver": [
    "payoff",
    "draw"
-  ]
+  ],
+  "Brainstorm": "engine",
+  "Opt": "engine"
  },
  "bad_when_drawn": {
   "Ozai, the Phoenix King": "early",
   "Torrential Gearhulk": "early",
   "Helm of the Host": "early",
   "Horizon Stone": "early",
-  "Unleash Fury": "early",
   "Abrade": "late",
   "Godo, Bandit Warlord": "early",
   "Overpowering Attack": "early",

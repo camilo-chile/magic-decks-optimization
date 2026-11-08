@@ -11,7 +11,7 @@
 1 Bender's Waterskin
 1 Big Score
 1 Black Market Connections
-1 Blazing Crescendo
+1 Brainstorm
 1 Cascade Bluffs
 1 Champion's Helm
 1 Chaos Warp
@@ -56,6 +56,7 @@
 1 Negate
 1 Nightscape Familiar
 1 Octopus Form
+1 Opt
 1 Overpowering Attack
 1 Ozai, the Phoenix King
 1 Propaganda
@@ -81,7 +82,6 @@
 1 Torrential Gearhulk
 1 Underground River
 1 Undying Malice
-1 Unleash Fury
 1 Waterbending Lesson
 1 Zuko, Exiled Prince
 6 Island

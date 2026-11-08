@@ -1,0 +1,93 @@
+// Commander
+1 Ezio Auditore da Firenze
+
+1 Abandoned Campground (DSK) 255
+1 Abstergo Entertainment (ACR) 79
+1 Achilles Davenport
+1 Angelic Intervention (MOM) 5
+1 Arcane Signet (TLE) 315
+1 Arno Dorian (ACR) 139
+1 Assassin Gauntlet (ACR) 12
+1 Assassin's Trophy (ACR) 95
+1 Bayek of Siwa
+1 Bender's Waterskin (TLA) 255
+1 Boros Guildmage (RVR) 168
+1 Mind Stone
+1 Brotherhood Headquarters (ACR) 80
+1 Brotherhood Spy (ACR) 282
+1 Chromatic Lantern (FRC) 54
+1 Battlefield Forge
+1 Coastal Piracy (ACR) 84
+1 Command Tower (PIP) 259
+1 Concealed Courtyard (KLD) 245
+1 Cover of Darkness
+1 Golgari Signet
+1 Desmond Miles (ACR) 130
+1 Dragonskull Summit (MSC) 238
+1 Drowned Catacomb (FRC) 69
+1 Eagle Vision
+1 Enter the Avatar State (TLA) 18 *F*
+1 Entomb (DMR) 82
+1 Etrata, Deadly Fugitive (MKM) 359
+1 Etrata, the Silencer (GRN) 170
+1 Evie Frye (ACR) 19
+1 Exotic Orchard (FRC) 70
+1 Ezio, Blade of Vengeance (ACR) 275 *F*
+1 Forest (TLA) 286
+1 Get Out (DSK) 60 *F*
+1 Ghostly Prison (SOC) 146
+1 Glider Staff (TLA) 22
+1 Gold-Forged Thopteryx (MAT) 31
+1 Haunted Cloak (CMM) 389
+1 Haystack (ACR) 5 *F*
+1 Haytham Kenway (ACR) 57
+1 Hidden Footblade
+1 Hinterland Harbor (DSC) 284
+1 Hookblade (ACR) 6
+1 Infernal Grasp (SOC) 216
+2 Island (ACR) 104
+1 Isolated Chapel (FRC) 74
+1 Jacob Frye (ACR) 27
+1 Jungle Shrine (ECC) 154
+1 Kaya, Ghost Assassin (SLD) 247 *F*
+1 Kolaghan's Command (M3C) 268
+1 Layla Hassan
+1 Lion Vulture (TLE) 232
+1 Loyal Inventor (ACR) 21
+1 Lydia Frye (ACR) 60
+1 Magister Sphinx (2X2) 247
+1 Mana Leak (8ED) 89
+1 Mephitic Vapors (RVR) 85
+1 Merciless Harlequin (ACR) 287
+1 Mortify (ACR) 96
+1 Mountain (TLA) 285
+1 Path of Ancestry (CMM) 423 *F*
+1 Plains (ACR) 102
+1 Prairie Stream (FRC) 79
+1 Propaganda (WHO) 219
+1 Queen Marchesa (OTC) 239
+1 Rakdos Signet (FRC) 60
+1 Rally the Peasants (INR) 37
+1 Ratonhnhaké꞉ton (ACR) 62
+1 Raucous Carnival (DSK) 266
+1 Reckless Handling (MAT) 19
+1 Restart Sequence (ACR) 30
+1 Roshan, Hidden Magister (ACR) 32
+1 Rumble Arena (TLA) 277
+1 Secret Tunnel (TLA) 278
+1 Shao Jun (ACR) 151
+1 Smoldering Marsh (MSC) 
+1 Sol Ring (TLE) 316
+1 Sulfur Falls (FRC) 84
+1 Sunken Hollow (TMC) 76
+2 Swamp (ACR) 106
+8 Swamp (TLA) 284
+1 Swiftfoot Boots (TLE) 317
+1 Swords to Plowshares (FRC) 37
+1 Terminate (ACR) 98
+1 The Revelations of Ezio (ACR) 31
+1 Thorn of the Black Rose (CMM) 190
+1 Unstoppable Slasher
+1 Utter End (DSC) 91
+1 What Must Be Done (ACR) 11
+1 Woodland Cemetery (ECC) 176

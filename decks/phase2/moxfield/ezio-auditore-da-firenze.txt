@@ -8,9 +8,7 @@
 1 Arcane Signet (TLE) 315
 1 Arno Dorian (ACR) 139
 1 Assassin Gauntlet (ACR) 12
-1 Assassin Initiate (ACR) 22
 1 Assassin's Trophy (ACR) 95
-1 Aven Heartstabber (SNC) 166
 1 Bayek of Siwa
 1 Bender's Waterskin (TLA) 255
 1 Boros Guildmage (RVR) 168
@@ -29,6 +27,7 @@
 1 Drowned Catacomb (FRC) 69
 1 Eagle Vision
 1 Enter the Avatar State (TLA) 18 *F*
+1 Entomb (DMR) 82
 1 Etrata, Deadly Fugitive (MKM) 359
 1 Etrata, the Silencer (GRN) 170
 1 Evie Frye (ACR) 19
@@ -42,7 +41,6 @@
 1 Haunted Cloak (CMM) 389
 1 Haystack (ACR) 5 *F*
 1 Haytham Kenway (ACR) 57
-1 Hidden Blade (ACR) 73
 1 Hidden Footblade
 1 Hinterland Harbor (DSC) 284
 1 Hookblade (ACR) 6
@@ -57,10 +55,12 @@
 1 Lion Vulture (TLE) 232
 1 Loyal Inventor (ACR) 21
 1 Lydia Frye (ACR) 60
+1 Magister Sphinx (2X2) 247
+1 Mana Leak (8ED) 89
 1 Mephitic Vapors (RVR) 85
+1 Merciless Harlequin (ACR) 287
 1 Mortify (ACR) 96
 1 Mountain (TLA) 285
-1 Octopus Form (TLA) 66
 1 Path of Ancestry (CMM) 423 *F*
 1 Plains (ACR) 102
 1 Prairie Stream (FRC) 79
@@ -70,7 +70,9 @@
 1 Rally the Peasants (INR) 37
 1 Ratonhnhaké꞉ton (ACR) 62
 1 Raucous Carnival (DSK) 266
-1 Royal Assassin (ACR) 93
+1 Reckless Handling (MAT) 19
+1 Restart Sequence (ACR) 30
+1 Roshan, Hidden Magister (ACR) 32
 1 Rumble Arena (TLA) 277
 1 Secret Tunnel (TLA) 278
 1 Shao Jun (ACR) 151
@@ -84,10 +86,8 @@
 1 Swords to Plowshares (FRC) 37
 1 Terminate (ACR) 98
 1 The Revelations of Ezio (ACR) 31
-1 Theater of Horrors (DSC) 236
 1 Thorn of the Black Rose (CMM) 190
 1 Unstoppable Slasher
 1 Utter End (DSC) 91
-1 Vindictive Warden (TLA) 249
-1 Winter Soldier, Icy Assassin (MSH) 239
+1 What Must Be Done (ACR) 11
 1 Woodland Cemetery (ECC) 176

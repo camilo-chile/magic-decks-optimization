@@ -10,7 +10,7 @@
 1 Bender's Waterskin (TLA) 255
 1 Big Score (FIC) 290
 1 Black Market Connections (ACR) 87
-1 Blazing Crescendo (ONE) 123
+1 Brainstorm (A25) 46
 1 Cascade Bluffs (SOC) 364
 1 Champion's Helm (CMM) 375
 1 Chaos Warp (MBC) 72
@@ -59,6 +59,7 @@
 1 Negate (OGW) 59
 1 Nightscape Familiar (DMR) 94
 1 Octopus Form (TLA) 66
+1 Opt (FDN) 512
 1 Overpowering Attack
 1 Ozai, the Phoenix King (TLA) 235
 1 Propaganda (ACR) 85
@@ -86,6 +87,5 @@
 1 Torrential Gearhulk (CMM) 128
 1 Underground River (FRC) 87
 1 Undying Malice (FDN) 528
-1 Unleash Fury (M21) 170
 1 Waterbending Lesson (TLA) 80
 1 Zuko, Exiled Prince (TLA) 163

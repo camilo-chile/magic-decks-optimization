@@ -1,6 +1,6 @@
 {
- "plan": "Assassin strike force: cheap evasive Assassins and Ezio connect from turn 2 or 3, Equipment (flying, haste, hexproof, trample, vigilance) and unblockable Assassins carry Ezio past any board, every hit turns Assassin spells into {B}{B} casts and draws cards (Ezio, Blade of Vengeance, Coastal Piracy, Eagle Vision), team damage (Arno, Achilles, Bayek, Rally, Unstoppable Slasher halving a life total, pings to each opponent) pushes all three opponents to 10, and Ezio's trigger removes them one per hit while attack taxes and vigilant or deathtouch bodies hold the crack-back.",
- "backup": "Without Ezio on the table the same evasive Assassins keep attacking for damage with Arno's +2/+0 and Bayek's double strike, and the repeatable pings to each opponent (Shao Jun, Vindictive Warden, Kaya) finish players already low from combat.",
+ "plan": "Assassin strike force with a compact kill: cheap evasive Assassins and Ezio connect from turn 2 or 3, Equipment and unblockable Assassins carry Ezio past any board, every hit makes Assassins (all creatures with Roshan) cost {B}{B} and draws cards; Magister Sphinx, found by Loyal Inventor, Reckless Handling or Entomb and re-used by Kaya, What Must Be Done and Restart Sequence, sets one opponent to 10 and Ezio's trigger removes that player, while team damage (Arno, Achilles, Bayek, Rally, Unstoppable Slasher, pings) drops the rest and attack taxes plus deathtouch bodies hold the crack-back.",
+ "backup": "Without Ezio the same evasive Assassins keep attacking with Arno, Achilles and Bayek, Magister Sphinx turns one opponent's 40 into 10 for the team, and Shao Jun and Kaya ping every opponent.",
  "archetype": "combat_attackers",
  "secondary": "alternate_kill",
  "secondary_role": "plan",
@@ -9,10 +9,11 @@
  "win_routes": {
   "Ezio eliminations": {
    "cards": [
-    "Ezio Auditore da Firenze"
+    "Ezio Auditore da Firenze",
+    "Magister Sphinx"
    ],
    "axis": "combat",
-   "vs_three": "Ezio's trigger removes ONE player per connecting hit when that player is at 10 or less and {W}{U}{B}{R}{G} is paid; team damage from the other routes' cards puts all three opponents at 10, so the route needs three hits on three turns (Secret Tunnel, flying Equipment and Swiftfoot Boots keep Ezio connecting); it is the shortcut for the last 10 life of each player, not the whole kill."
+   "vs_three": "Magister Sphinx sets one opponent to 10, Ezio connects and {W}{U}{B}{R}{G} removes that player; the Sphinx is re-used for the next opponent (Kaya's 0 blinks it back at my upkeep, What Must Be Done returns it, Restart Sequence and Layla bring it back), and team damage puts the others at 10 anyway: one player per Ezio hit, three hits on three turns. Found by Loyal Inventor, Reckless Handling and Entomb; costs {B}{B} after a hit with Roshan out."
   },
   "Assassin team beatdown": {
    "cards": [
@@ -27,22 +28,18 @@
   "Pings to each opponent": {
    "cards": [
     "Shao Jun",
-    "Vindictive Warden",
     "Kaya, Ghost Assassin"
    ],
    "axis": "noncombat",
-   "vs_three": "Each card hits EVERY opponent and repeats: Shao Jun 1 to each per two untapped artifacts (Equipment and rocks), Vindictive Warden 1 to each per {3} (spare mana at end of turn), Kaya -1 drains 2 from each (5 loyalty); a top-off that closes a table combat already put low, without passing any blocker. Otherwise the deck is all-in on combat."
+   "vs_three": "Both hit EVERY opponent and repeat: Shao Jun 1 to each per two untapped artifacts (Equipment and rocks), Kaya -1 drains 2 from each (5 loyalty); a top-off that closes a table combat already put low, without passing any blocker."
   }
  },
  "functions": {
   "attackers": {
    "cards": [
     "Ezio Auditore da Firenze",
-    "Assassin Initiate",
-    "Aven Heartstabber",
     "Desmond Miles",
     "Brotherhood Spy",
-    "Winter Soldier, Icy Assassin",
     "Shao Jun",
     "Ratonhnhaké꞉ton",
     "Jacob Frye",
@@ -55,14 +52,15 @@
     "Bayek of Siwa",
     "Unstoppable Slasher",
     "Achilles Davenport",
-    "Lion Vulture"
+    "Lion Vulture",
+    "Roshan, Hidden Magister",
+    "Merciless Harlequin",
+    "Magister Sphinx"
    ],
    "needed_by": "early"
   },
   "through_wide_board": {
    "cards": [
-    "Assassin Initiate",
-    "Aven Heartstabber",
     "Brotherhood Spy",
     "Shao Jun",
     "Ratonhnhaké꞉ton",
@@ -76,7 +74,8 @@
     "Secret Tunnel",
     "Lion Vulture",
     "Angelic Intervention",
-    "Evie Frye"
+    "Evie Frye",
+    "Magister Sphinx"
    ],
    "needed_by": "early"
   },
@@ -89,15 +88,14 @@
     "Mortify",
     "Utter End",
     "Haytham Kenway",
-    "Royal Assassin",
-    "Hidden Blade",
     "Lydia Frye",
     "Etrata, the Silencer",
     "Ezio, Blade of Vengeance",
     "Arno Dorian",
     "Etrata, Deadly Fugitive",
-    "Assassin Initiate",
-    "Unstoppable Slasher"
+    "Unstoppable Slasher",
+    "Magister Sphinx",
+    "What Must Be Done"
    ],
    "needed_by": "early"
   },
@@ -105,8 +103,6 @@
    "cards": [
     "Achilles Davenport",
     "Arno Dorian",
-    "Assassin Initiate",
-    "Aven Heartstabber",
     "Bayek of Siwa",
     "Brotherhood Spy",
     "Desmond Miles",
@@ -123,8 +119,9 @@
     "Ratonhnhaké꞉ton",
     "Shao Jun",
     "Unstoppable Slasher",
-    "Winter Soldier, Icy Assassin",
-    "Vindictive Warden"
+    "Magister Sphinx",
+    "Roshan, Hidden Magister",
+    "Merciless Harlequin"
    ],
    "needed_by": "early"
   },
@@ -135,8 +132,7 @@
     "Rally the Peasants",
     "Shao Jun",
     "Kaya, Ghost Assassin",
-    "Achilles Davenport",
-    "Vindictive Warden"
+    "Achilles Davenport"
    ],
    "needed_by": "late"
   }
@@ -159,8 +155,6 @@
    "Propaganda",
    "Ghostly Prison",
    "Haunted Cloak",
-   "Winter Soldier, Icy Assassin",
-   "Royal Assassin",
    "Gold-Forged Thopteryx",
    "Thorn of the Black Rose",
    "Etrata, Deadly Fugitive",
@@ -172,15 +166,16 @@
    "Eagle Vision",
    "Jacob Frye",
    "Layla Hassan",
-   "Etrata, Deadly Fugitive",
-   "Theater of Horrors"
+   "Etrata, Deadly Fugitive"
   ],
   "wipe_insurance": [
    "The Revelations of Ezio",
    "Layla Hassan",
    "Haystack",
    "Get Out",
-   "Kolaghan's Command"
+   "Kolaghan's Command",
+   "Restart Sequence",
+   "What Must Be Done"
   ],
   "payment_enablers": [
    "Chromatic Lantern",
@@ -193,18 +188,14 @@
    "Rumble Arena"
   ],
   "assassin_members (typal note, not a profile line)": [
-   "Assassin Initiate",
-   "Aven Heartstabber",
    "Desmond Miles",
    "Brotherhood Spy",
    "Evie Frye",
-   "Winter Soldier, Icy Assassin",
    "Shao Jun",
    "Ratonhnhaké꞉ton",
    "Jacob Frye",
    "Lydia Frye",
    "Etrata, Deadly Fugitive",
-   "Royal Assassin",
    "Arno Dorian",
    "Thorn of the Black Rose",
    "Queen Marchesa",
@@ -213,13 +204,24 @@
    "Ezio, Blade of Vengeance",
    "Bayek of Siwa",
    "Unstoppable Slasher",
-   "Achilles Davenport"
+   "Achilles Davenport",
+   "Roshan, Hidden Magister",
+   "Merciless Harlequin"
   ]
  },
  "tutors": {
   "Loyal Inventor": [
    "through_wide_board",
-   "through_big_creatures"
+   "through_big_creatures",
+   "condition_enablers"
+  ],
+  "Reckless Handling": [
+   "through_wide_board",
+   "through_big_creatures",
+   "condition_enablers"
+  ],
+  "Entomb": [
+   "condition_enablers"
   ]
  },
  "tags": {
@@ -233,14 +235,10 @@
   "Haunted Cloak": "engine",
   "Hookblade": "engine",
   "Glider Staff": "engine",
-  "Hidden Blade": "engine",
   "Assassin Gauntlet": "engine",
-  "Assassin Initiate": "engine",
-  "Aven Heartstabber": "engine",
   "Desmond Miles": "engine",
   "Brotherhood Spy": "engine",
   "Evie Frye": "engine",
-  "Winter Soldier, Icy Assassin": "engine",
   "Gold-Forged Thopteryx": "protection",
   "Shao Jun": [
    "payoff",
@@ -256,7 +254,6 @@
    "engine",
    "draw"
   ],
-  "Royal Assassin": "removal",
   "Loyal Inventor": "tutor",
   "Arno Dorian": "payoff",
   "Thorn of the Black Rose": "draw",
@@ -291,7 +288,6 @@
    "payoff",
    "draw"
   ],
-  "Theater of Horrors": "draw",
   "Propaganda": "engine",
   "Ghostly Prison": "engine",
   "The Revelations of Ezio": "backup",
@@ -317,7 +313,6 @@
   "Cover of Darkness": "engine",
   "Unstoppable Slasher": "engine",
   "Achilles Davenport": "payoff",
-  "Octopus Form": "protection",
   "Boros Guildmage": "engine",
   "Boros Locket": "ramp",
   "Abandoned Campground": "land",
@@ -330,14 +325,28 @@
   "Angelic Intervention": "protection",
   "Kolaghan's Command": "removal",
   "Hidden Footblade": "engine",
-  "Vindictive Warden": "payoff"
+  "Magister Sphinx": "payoff",
+  "Roshan, Hidden Magister": "engine",
+  "Reckless Handling": "tutor",
+  "Entomb": "tutor",
+  "Restart Sequence": "backup",
+  "What Must Be Done": [
+   "wipe",
+   "backup"
+  ],
+  "Mana Leak": [
+   "protection",
+   "removal"
+  ],
+  "Merciless Harlequin": [
+   "engine",
+   "draw"
+  ]
  },
  "bad_when_drawn": {
   "Rally the Peasants": "early",
   "Bayek of Siwa": "early",
   "Ezio, Blade of Vengeance": "early",
-  "Assassin Initiate": "late",
-  "Aven Heartstabber": "late",
   "Sol Ring": "never",
   "Arcane Signet": "never",
   "Rakdos Signet": "never",
@@ -349,19 +358,16 @@
   "Haunted Cloak": "never",
   "Hookblade": "never",
   "Glider Staff": "never",
-  "Hidden Blade": "never",
   "Assassin Gauntlet": "never",
   "Desmond Miles": "never",
   "Brotherhood Spy": "never",
   "Evie Frye": "never",
-  "Winter Soldier, Icy Assassin": "never",
   "Gold-Forged Thopteryx": "never",
   "Shao Jun": "never",
   "Ratonhnhaké꞉ton": "never",
   "Jacob Frye": "never",
   "Lydia Frye": "never",
   "Etrata, Deadly Fugitive": "never",
-  "Royal Assassin": "never",
   "Loyal Inventor": "never",
   "Arno Dorian": "never",
   "Thorn of the Black Rose": "never",
@@ -381,20 +387,25 @@
   "Eagle Vision": "never",
   "Coastal Piracy": "never",
   "Kaya, Ghost Assassin": "never",
-  "Theater of Horrors": "never",
   "Propaganda": "never",
   "Ghostly Prison": "never",
   "The Revelations of Ezio": "never",
   "Cover of Darkness": "never",
   "Unstoppable Slasher": "never",
   "Achilles Davenport": "never",
-  "Octopus Form": "never",
   "Boros Guildmage": "never",
   "Boros Locket": "never",
   "Lion Vulture": "never",
   "Angelic Intervention": "never",
   "Kolaghan's Command": "never",
   "Hidden Footblade": "never",
-  "Vindictive Warden": "never"
+  "Magister Sphinx": "early",
+  "Roshan, Hidden Magister": "never",
+  "Reckless Handling": "never",
+  "Entomb": "early",
+  "Restart Sequence": "early",
+  "What Must Be Done": "never",
+  "Mana Leak": "late",
+  "Merciless Harlequin": "never"
  }
 }

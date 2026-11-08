@@ -5,7 +5,7 @@
 1 Sol Ring
 1 Arcane Signet
 1 Rakdos Signet
-1 Aven Heartstabber
+1 Magister Sphinx
 1 Chromatic Lantern
 1 Boros Locket
 1 Bender's Waterskin
@@ -16,14 +16,14 @@
 1 Hookblade
 1 Cover of Darkness
 1 Glider Staff
-1 Hidden Blade
+1 What Must Be Done
 1 Assassin Gauntlet
-1 Assassin Initiate
+1 Roshan, Hidden Magister
 1 Angelic Intervention
 1 Desmond Miles
 1 Brotherhood Spy
 1 Evie Frye
-1 Winter Soldier, Icy Assassin
+1 Merciless Harlequin
 1 Gold-Forged Thopteryx
 1 Unstoppable Slasher
 1 Shao Jun
@@ -32,7 +32,7 @@
 1 Lydia Frye
 1 Achilles Davenport
 1 Etrata, Deadly Fugitive
-1 Royal Assassin
+1 Restart Sequence
 1 Loyal Inventor
 1 Hidden Footblade
 1 Arno Dorian
@@ -52,17 +52,17 @@
 1 Kolaghan's Command
 1 Mephitic Vapors
 1 Haystack
-1 Octopus Form
+1 Mana Leak
 1 Enter the Avatar State
 1 Lion Vulture
 1 Get Out
 1 Eagle Vision
 1 Coastal Piracy
 1 Kaya, Ghost Assassin
-1 Theater of Horrors
+1 Entomb
 1 Propaganda
 1 Ghostly Prison
-1 Vindictive Warden
+1 Reckless Handling
 1 The Revelations of Ezio
 1 Rally the Peasants
 1 Command Tower

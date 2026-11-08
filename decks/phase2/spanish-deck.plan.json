@@ -1,30 +1,37 @@
 {
- "plan": "Kilo becomes tapped every turn (a haste attack, or at home by station, crew, waterbend and improvise) and proliferates the charge and +1/+1 counters that about 23 rocks, engines and artifact creatures place; those counters become mana, cards and threats, and the deck closes through whichever route it draws: without combat through Lux Artillery (10 to EACH opponent every end step at 30 counters) or Darksteel Reactor (20 charge counters), two cards with no tutor in the Spanish pool (one of them by turn 9 in about 30 % of games, about 40 % counting Long-Range Sensor, plus Emry, Buried Ruin and Phyrexian Metamorph to recover or copy them), or with the co-primary combat route below, which closes most games.",
- "backup": "Co-primary, same pieces: the countered artifact board attacks: Cyberdrive Awakener turns every noncreature artifact into a 4/4 flyer for the turn, Depthshaker Titan gives the artifact creatures trample and haste, and Titan Forge 9/9s and Threefold Thunderhulk Gnomes spread the damage over three opponents (all six closers of both routes: about 66 % by turn 9).",
+ "plan": "Kilo becomes tapped every turn (a haste attack, or at home by station, crew, waterbend and improvise) and proliferates the charge and +1/+1 counters that about 22 rocks, engines and artifact creatures place; those counters become mana and cards, and the deck closes with Darksteel Reactor: Kilo, Coretapper and Inspirit grow it, and Resourceful Defense or Moxite Refinery funnel the board's counters onto it to reach 20 (an alternate win against the whole table). Lux Artillery (10 to each opponent per end step at 30 counters) is the second noncombat route. The finishers have no tutor in the Spanish pool: Long-Range Sensor's Discover 4, Experimental Augury and the draw engines dig for them, and Emry, Buried Ruin and Phyrexian Metamorph recover or copy them.",
+ "backup": "The same countered artifact board attacks: Cyberdrive Awakener turns every noncreature artifact into a 4/4 flyer for the turn, with Titan Forge 9/9s and an unblockable Kappa Cannoneer.",
  "archetype": "plus_one_counters",
  "secondary": "artifacts",
  "secondary_role": "plan",
  "commander_dependence": "enabler",
  "commander_mv": 3,
  "win_routes": {
-  "counter burn and the Reactor": {
+  "Darksteel Reactor funnel": {
+   "cards": [
+    "Darksteel Reactor",
+    "Resourceful Defense",
+    "Moxite Refinery"
+   ],
+   "axis": "alternate",
+   "vs_three": "Darksteel Reactor wins the game against all three opponents at 20 charge counters. Kilo proliferates it every turn (doubled by Tekuthal, doubled at once by Deepglow Skate), Coretapper and Inspirit add charge counters, and the two funnels finish it: Resourceful Defense ({4}{W}, any time) moves every counter of one permanent onto the Reactor (Inspirit's 8+ charge counters, Uthros, Empowered Autogenerator, Titan Forge, Lux Cannon, the rocks), and Moxite Refinery (sorcery) turns X counters of any kind, +1/+1 included, into X charge counters on it. Resourceful Defense also moves the counters of any permanent that dies onto the Reactor. With 25 to 40 counters on the board by turns 7 to 9, one or two funnel activations win. The Reactor is indestructible."
+  },
+  "Lux Artillery burn": {
    "cards": [
     "Lux Artillery",
-    "Darksteel Reactor",
     "Reckless Fireweaver"
    ],
    "axis": "noncombat",
-   "vs_three": "Lux Artillery deals 10 to EACH opponent at every end step once the board holds 30 counters (four end steps kill a full table at 40 life, fewer after combat or Fireweaver chip damage); Darksteel Reactor wins against all three at 20 charge counters (one per upkeep plus every proliferate, doubled by Tekuthal; Deepglow Skate doubles it at once); Reckless Fireweaver hits each opponent for 1 per artifact entry (Thunderhulk Gnomes, Hangarback Thopters, Golem tokens). None needs combat damage; Buried Ruin, Emry and Phyrexian Metamorph (a copy of Lux Artillery is a second 10 to each) back the two finishers."
+   "vs_three": "Lux Artillery deals 10 to EACH opponent at every end step once 30 counters sit on my artifacts and creatures; Reckless Fireweaver pings each opponent for every artifact entry; Phyrexian Metamorph copying Lux doubles it to 20 each."
   },
   "artifact alpha strike": {
    "cards": [
     "Cyberdrive Awakener",
-    "Depthshaker Titan",
-    "Threefold Thunderhulk",
-    "Titan Forge"
+    "Titan Forge",
+    "Kappa Cannoneer"
    ],
    "axis": "combat",
-   "vs_three": "Team-wide: Cyberdrive makes every noncreature artifact (8 to 15 rocks and engines by the late game) a 4/4 flyer this turn and gives every artifact creature flying, enough flying damage to split over the three opponents; Depthshaker gives every artifact creature trample, haste and melee (+3/+3 when all three opponents are attacked); Thunderhulk makes Gnomes on entering and on each attack, and Titan Forge makes a 9/9 every time three counters build. Damage is split so each opponent falls in two swings, with Lux Artillery finishing the ones left low."
+   "vs_three": "Cyberdrive Awakener makes every noncreature artifact a 4/4 flyer for the turn (8 to 15 of them late) and gives artifact creatures flying, enough damage to split over three opponents; Titan Forge adds 9/9s; Kappa Cannoneer is unblockable after each artifact entry."
   }
  },
  "functions": {
@@ -47,13 +54,12 @@
     "Empowered Autogenerator",
     "Lux Cannon",
     "Etched Oracle",
-    "Mindless Automaton",
     "Patrolling Peacemaker",
     "Kappa Cannoneer",
-    "Threefold Thunderhulk",
     "Chrome Host Seedshark",
     "Darksteel Reactor",
-    "Lux Artillery"
+    "Lux Artillery",
+    "Moxite Refinery"
    ]
   },
   "counter_payoffs": {
@@ -66,14 +72,15 @@
     "Etched Oracle",
     "Lux Cannon",
     "Empowered Autogenerator",
-    "Mindless Automaton",
     "Hangarback Walker",
     "Long-Range Sensor",
     "Crystalline Crawler",
     "Astral Cornucopia",
     "Everflowing Chalice",
     "Pentad Prism",
-    "Phyrexian Metamorph"
+    "Phyrexian Metamorph",
+    "Resourceful Defense",
+    "Moxite Refinery"
    ]
   },
   "counter_doublers": {
@@ -134,15 +141,12 @@
     "Empowered Autogenerator",
     "Lux Cannon",
     "Etched Oracle",
-    "Mindless Automaton",
     "Patrolling Peacemaker",
     "Kappa Cannoneer",
-    "Threefold Thunderhulk",
     "Surge Conductor",
     "Lux Artillery",
     "Darksteel Reactor",
     "Cyberdrive Awakener",
-    "Depthshaker Titan",
     "Thought Monitor",
     "Phyrexian Metamorph",
     "Brute Suit",
@@ -153,7 +157,8 @@
     "Seat of the Synod",
     "Silverbluff Bridge",
     "Razortide Bridge",
-    "Rustvale Bridge"
+    "Rustvale Bridge",
+    "Moxite Refinery"
    ]
   },
   "artifact_payoffs": {
@@ -171,7 +176,6 @@
     "Emry, Lurker of the Loch",
     "Inspirit, Flagship Vessel",
     "Steel Overseer",
-    "Depthshaker Titan",
     "Dispatch",
     "Universal Surveillance",
     "Organic Extinction",
@@ -186,7 +190,6 @@
     "Darksteel Reactor",
     "Reckless Fireweaver",
     "Cyberdrive Awakener",
-    "Depthshaker Titan",
     "Organic Extinction",
     "Fumigate",
     "Hangarback Walker",
@@ -197,7 +200,8 @@
     "Inspiring Overseer",
     "Enthusiastic Mechanaut",
     "Chrome Host Seedshark",
-    "Inspirit, Flagship Vessel"
+    "Inspirit, Flagship Vessel",
+    "Chain Reaction"
    ]
   },
   "through_big_creatures": {
@@ -241,7 +245,8 @@
    "Emry, Lurker of the Loch",
    "Swan Song",
    "Ripples of Potential",
-   "Buried Ruin"
+   "Buried Ruin",
+   "Resourceful Defense"
   ]
  },
  "tutors": {},
@@ -290,13 +295,8 @@
    "engine",
    "draw"
   ],
-  "Mindless Automaton": [
-   "engine",
-   "draw"
-  ],
   "Patrolling Peacemaker": "engine",
   "Kappa Cannoneer": "engine",
-  "Threefold Thunderhulk": "payoff",
   "Chrome Host Seedshark": "engine",
   "Surge Conductor": "engine",
   "Thrummingbird": "engine",
@@ -314,7 +314,6 @@
   "Lux Artillery": "payoff",
   "Darksteel Reactor": "payoff",
   "Cyberdrive Awakener": "payoff",
-  "Depthshaker Titan": "payoff",
   "Reckless Fireweaver": "payoff",
   "Thirst for Knowledge": "draw",
   "Katara, Bending Prodigy": [
@@ -364,7 +363,10 @@
   "Mystic Monastery": "land",
   "Silverbluff Bridge": "land",
   "Razortide Bridge": "land",
-  "Rustvale Bridge": "land"
+  "Rustvale Bridge": "land",
+  "Chain Reaction": "wipe",
+  "Resourceful Defense": "payoff",
+  "Moxite Refinery": "payoff"
  },
  "bad_when_drawn": {
   "Sol Ring": "never",
@@ -389,10 +391,8 @@
   "Empowered Autogenerator": "never",
   "Lux Cannon": "never",
   "Etched Oracle": "never",
-  "Mindless Automaton": "never",
   "Patrolling Peacemaker": "never",
   "Kappa Cannoneer": "early",
-  "Threefold Thunderhulk": "early",
   "Chrome Host Seedshark": "never",
   "Surge Conductor": "never",
   "Thrummingbird": "late",
@@ -404,7 +404,6 @@
   "Lux Artillery": "early",
   "Darksteel Reactor": "never",
   "Cyberdrive Awakener": "early",
-  "Depthshaker Titan": "early",
   "Reckless Fireweaver": "never",
   "Thirst for Knowledge": "never",
   "Katara, Bending Prodigy": "early",
@@ -428,6 +427,9 @@
   "North Pole Patrol": "never",
   "Brute Suit": "never",
   "Ovalchase Dragster": "never",
-  "Soul-Guide Lantern": "never"
+  "Soul-Guide Lantern": "never",
+  "Chain Reaction": "never",
+  "Resourceful Defense": "never",
+  "Moxite Refinery": "never"
  }
 }

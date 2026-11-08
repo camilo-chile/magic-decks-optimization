@@ -22,7 +22,7 @@ Pieces count the commander (guaranteed) and the tutors that can fetch for the fu
 | spell_density | early (judged at 12 cards) | 30 | 30 | 30 | 93% | 99% | 100% | 100% |
 | spell_payoffs | late (judged at 20 cards) | 6 | 10 | 9 (commander guaranteed) | 50% | 70% | 81% | 88% |
 | through_wide_board | early (judged at 12 cards) | 10 | 13 | 13 | 64% | 83% | 91% | 96% |
-| through_big_creatures | early (judged at 12 cards) | 10 | 16 | 16 | 72% | 90% | 95% | 98% |
+| through_big_creatures | early (judged at 12 cards) | 10 | 15 | 15 | 70% | 88% | 94% | 97% |
 | window_mana | late (judged at 20 cards) | 6 | 10 | 10 | 54% | 74% | 84% | 91% |
 
 ## Support lines
@@ -34,7 +34,7 @@ Pieces count the commander (guaranteed) and the tutors that can fetch for the fu
 | haste | 4 | 4 | yes |
 | team_evasion | 6 | 6 | yes |
 | defense_while_tapped | 5 | 4 | yes |
-| combat_draw | 7 | 4 | yes |
+| combat_draw | 6 | 4 | yes |
 | wipe_insurance | 2 | 2 | yes |
 
 ## Tags
@@ -45,20 +45,21 @@ Plan cards (engine, payoff, backup): 19 of 63 non-land cards (30%). Plan cards i
 |---|---|
 | backup | 2 |
 | draw | 12 |
-| engine | 5 |
+| engine | 7 |
 | land | 36 |
-| payoff | 12 |
+| payoff | 10 |
 | protection | 8 |
 | ramp | 10 |
 | removal | 9 |
 | tutor | 3 |
 | wipe | 2 |
 
-Base functions, counting second tags too: ramp 11, draw 16, removal 11, wipe 2, protection 8.
+Base functions, counting second tags too: ramp 11, draw 15, removal 11, wipe 2, protection 8.
 
 ## Win routes
 
-- copied burn to each opponent (noncombat): comet storm, electrodominance, thermo-alchemist. Against three opponents: Comet Storm multikicked twice names all three opponents and Azula copies it (2X to each); Horizon Stone stores colorless mana between turns so X reaches 8 to 12; Mystical Teachings and Solve the Equation fetch it (access 4 cards, 60 % by turn 13); Electrodominance copied adds 2X to one or two players plus two free spells; Thermo-Alchemist pings all three on every instant. Recast by Gearhulk an X spell has X=0: never do that. None of it needs combat damage through blockers.
-- Azula and her copies in combat (combat): fire lord azula, godo, bandit warlord, helm of the host, overpowering attack, ozai, the phoenix king, unleash fury. Against three opponents: Overpowering Attack (freerunning {2}{R} once Azula has dealt combat damage) and Godo give extra combats, each a new firebending and a new round of copies; Helm of the Host makes a hasty nonlegendary Azula every combat, so two or three Azulas attack different opponents and each copies every spell; late, Helm on Godo gives unlimited combats (allowed late line); Ozai (7/7 trample, haste, flying and indestructible with six floating mana) hits another player; copied Unleash Fury on an unblocked or trampling Azula is 16 commander damage (24 with Champion's Helm); copied burn finishes players left low.
+- copied burn to each opponent (noncombat): comet storm, electrodominance. Against three opponents: Comet Storm multikicked twice names all three opponents and Azula copies it (2X to each); Horizon Stone stores colorless mana between turns so X reaches 8 to 12, and the loops of the third route make X as large as needed; Mystical Teachings and Solve the Equation fetch it; Electrodominance copied adds 2X to one or two players plus two free spells. Recast for free an X spell has X=0: never do that. None of it needs combat damage through blockers.
+- Azula and her copies in combat (combat): fire lord azula, godo, bandit warlord, helm of the host, overpowering attack, ozai, the phoenix king. Against three opponents: Overpowering Attack (freerunning {2}{R} once Azula has dealt combat damage) and Godo give extra combats, each a new firebending and a new round of copies; Helm of the Host makes a hasty nonlegendary Azula every combat, so two or three Azulas attack different opponents; Godo with Helm gives unlimited combats WITHOUT Azula (two-card late line, the route's redundancy when she is answered); Ozai (7/7 trample, haste, flying and indestructible with six floating mana) hits another player; copied pump tricks and removal after blocks make blocking a losing trade.
+- Azula loops for unbounded mana (noncombat): dualcaster mage, frantic search, narset's reversal, snap, thermo-alchemist. Against three opponents: While Azula attacks: (a) Dualcaster Mage plus Snap: Snap stays on the stack, each Dualcaster cast is copied, both bodies copy Snap, four lands untap for a 3-mana spell: unbounded mana and Dualcaster tokens; (b) Frantic Search plus Narset's Reversal (the Reversal's copy returns the Reversal itself, its copy returns Frantic Search): +1 mana per loop, +3 with the two reducers, about a dozen loops before the library runs low (never loop with Archmage Emeritus out: it decks you). Thermo-Alchemist untaps on each cast of loop (b) and pings all three opponents twice per loop; the unbounded mana of (a) goes into Comet Storm with X and kicks for all three. Mystical Teachings and Solve the Equation fetch every loop piece.
 
-Cards bad when drawn (early and late only): {'early': 7, 'late': 2}
+Cards bad when drawn (early and late only): {'early': 6, 'late': 2}

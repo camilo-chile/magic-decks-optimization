@@ -1,8 +1,8 @@
 // Commander
 1 Toph, the First Metalbender (TLA) 247
 
+1 Aang's Iceberg (TLA) 5
 1 Annie Joins Up (OTJ) 191
-1 Arbaaz Mir (ACR) 46
 1 Arcane Signet (FIC) 335
 1 Ashaya, Soul of the Wild (SLD) 2014
 1 Ba Sing Se (TLA) 266
@@ -27,14 +27,12 @@
 1 Exotic Orchard (FRC) 70
 1 Explore (TLE) 259
 1 Fateful Absence (MID) 18 *F*
-1 Fire Nation Archers (TLE) 237
 4 Forest (ACR) 109
 6 Forest (ACR) 110
 1 Forest (TLA) 286
 1 Fortified Village (TDC) 366
 1 Furycalm Snarl (STX) 266 *F*
 1 Game Trail (BLC) 306
-1 Garruk's Uprising (ECC) 109
 1 Goblin Bombardment (MH2) 279
 1 Great Divide Guide (TLA) 181
 1 Hakoda, Selfless Commander (TLA) 23
@@ -53,6 +51,7 @@
 1 Ragost, Deft Gastronaut (EOE) 224
 1 Rampaging Baloths (EOC) 104
 1 Rampant Growth (TDC) 265
+1 Reckless Handling (MAT) 19
 1 Rogue's Passage (SOC) 400
 1 Roiling Regrowth (EOC) 105
 1 Rootbound Crag (FIC) 416
@@ -60,11 +59,11 @@
 1 Sabotender (FIN) 153
 1 Sakura-Tribe Elder (TDC) 266
 1 Secret Tunnel (TLA) 278
+1 Seismic Sense (TLA) 195
 1 Seismic Tutelage (TLE) 254
 1 Shared Roots (TLA) 196
 1 Sol Ring (FRC) 21
 1 Solemn Simulacrum (TDC) 325
-1 Soul-Guide Lantern (EOC) 143
 1 Springheart Nantuko (MH3) 341
 1 Stocking the Pantry (BLB) 194 *F*
 1 Stroke of Midnight (FRC) 35
@@ -75,13 +74,14 @@
 1 Terramorphic Expanse (DRC) 179
 1 Terrasymbiosis (EOE) 210
 1 The Earth King (TLA) 172
+1 The Stasis Coffin (BRO) 245
 1 Tireless Provisioner (BLC) 243
 1 Tireless Tracker (EOC) 110
-1 Titania, Protector of Argoth (EOC) 111
 1 Toph, Hardheaded Teacher (TLA) 246
 1 Toph, the Blind Bandit (TLA) 198
 1 True Ancestry (TLA) 199 *F*
 1 Valakut Exploration (ZNR) 175
 1 Vibrant Cityscape (SPM) 188
+1 Water Tribe Rallier (TLA) 42
 1 Wayfarer's Bauble (TDC) 335
 1 Zuran Orb (ICE) 350
