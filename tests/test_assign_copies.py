@@ -102,6 +102,19 @@ def test_an_owed_card_counts_as_one_more_copy():
     assert picks(res, "b", "Counterspell")[0]["binder"] == "owed (not arrived yet)"
 
 
+def test_a_pinned_copy_stays_in_the_deck_that_holds_it_and_a_missing_pin_is_reported():
+    inv = {"cards": [card("Sol Ring", "o-sol", printing("en", set_="aaa"), printing("es", set_="bbb"),
+                          printing("en", foil="foil", set_="ccc"))]}
+    first = deck("first", "both", {"o-sol": ("Sol Ring", 1)})
+    second = dict(deck("second", "both", {"o-sol": ("Sol Ring", 2)}),
+                  pinned={"o-sol": [{"name": "Sol Ring", "set": "aaa", "number": "1", "language": "en", "qty": 1},
+                                    {"name": "Sol Ring", "set": "zzz", "number": "1", "language": "en", "qty": 1}]})
+    res = mod.allocate([first, second], inv)
+    assert [p["set"] for p in picks(res, "first", "Sol Ring")] == ["ccc"]  # the English non-foil copy is pinned elsewhere
+    assert [p["set"] for p in picks(res, "second", "Sol Ring")] == ["aaa", "bbb"]  # the pin first, then the usual order
+    assert len(res["pin_problems"]) == 1 and "ZZZ" in res["pin_problems"][0]
+
+
 def test_read_deck_resolves_names_and_reports_unknown_cards_and_missing_files():
     index = la.build_index([{"name": "Sol Ring", "oracle_id": "o-sol"}, {"name": "Ezio", "oracle_id": "o-ezio"}])
     with tempfile.TemporaryDirectory() as tmp:

@@ -30,8 +30,15 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
   or taking it from the loan candidates, and if neither is possible, replaces it. `scripts/assign_copies.py` reports the
   conflicts; the decision is judgment work with a written reason per card.
 - Owed cards (owner, 2026-10-31): cards owed to him count as owned for the builders until they arrive, declared in
-  `decks/phase2.json` `pending_owned` (today Smoldering Marsh, MSC, Spanish: Game of Magic Singles sent Canyon Slough instead
-  and gives it at the next purchase there); the entry is removed when the card arrives and is scanned.
+  `decks/phase2.json` `pending_owned` (empty since 2026-11-14: Smoldering Marsh arrived and was scanned); the entry is
+  removed when the card arrives and is scanned.
+- Collection frozen (owner, 2026-11-14): the purchase of 2026-11-09 arrived (export
+  `data/collection/ManaBox_Collection_2026-11-13_purchase.csv`, stage `purchase`) and is the last change: no more purchases,
+  no exchanges, no loans (`loan_candidates.closed`), the Ezio commander stays a proxy. The four decks are built exactly as
+  `decks/phase2/<slug>.txt` (Kilo 99 cards: Talisman of Conviction came in English); the physical copies are pinned in
+  `decks/phase2.json` `pinned` and listed in the newest `decks/reports/pull-list-*.md`. The next phase, when he asks, optimizes
+  the four decks from the collection only and says per deck which cards leave and which come in from the collection;
+  Moxfield, Commander Salt and the dashboard are not updated before that.
 - No other purchases, shipping or budget in this iteration. Everything in "Hard constraints" about budget, stores,
   stock, purchases, same printing in one store, full-art basics to buy, optional tokens to buy and the reserved binder is
   superseded; what stays: Bracket 3 / Layer A, Commander Salt as the measure, no reversible cards, the language rule when
@@ -39,9 +46,8 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
   owns, the model policy, the commit rules and the prior-art rule.
 - Collection layout: he wipes the collection and the decks and rescans EVERYTHING (basic lands and tokens included) into two
   binders, Spanish and English. The Standard cards (binder "Assassin's Creed") are not scanned and are used only as loans
-  under the loan rules (candidates in `decks/phase2/loans.md`; today Eagle Vision is lent to Ezio, declared in
-  `decks/phase2.json` `borrowed` and listed in `decks/phase2/restock.md` to be replaced). The proxy Ezio commander is in the
-  restock list too, so the real card is bought. The commander
+  under the loan rules (candidates in `decks/phase2/loans.md`; closed since 2026-11-14, every loan was replaced and went
+  back). The proxy Ezio commander stays a proxy (`decks/phase2/restock.md`). The commander
   of the Ezio deck is a proxy, declared in `decks/phase2.json` (`proxy_commander`). The decks are plain decklists NOT
   registered in ManaBox, so nothing counts twice (ManaBox guide: a registered deck moves the cards out of the binders).
   `scripts/build_inventory.py` reads the export (language per row, tokens apart, scan errors reported) and

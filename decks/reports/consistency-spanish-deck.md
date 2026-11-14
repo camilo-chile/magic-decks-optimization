@@ -18,14 +18,14 @@ Pieces count the commander (guaranteed) and the tutors that can fetch for the fu
 
 | Function | Needed by | Required | Pieces | Without commander | P(1+ in 7 cards) | P(1+ in 12 cards) | P(1+ in 16 cards) | P(1+ in 20 cards) |
 |---|---|---|---|---|---|---|---|---|
-| counter_sources | early (judged at 12 cards) | 12 | 21 | 21 | 82% | 95% | 98% | 100% |
-| counter_payoffs | late (judged at 20 cards) | 6 | 15 | 15 | 70% | 88% | 94% | 97% |
+| counter_sources | early (judged at 12 cards) | 12 | 21 | 21 | 83% | 95% | 99% | 100% |
+| counter_payoffs | late (judged at 20 cards) | 6 | 15 | 15 | 70% | 88% | 95% | 98% |
 | counter_doublers | early (judged at 12 cards) | 10 | 15 | 14 (commander guaranteed) | 67% | 86% | 93% | 97% |
 | kilo_tap_outlets | late (judged at 20 cards) | 6 | 9 | 8 (commander guaranteed) | 46% | 66% | 77% | 85% |
-| artifact_density | early (judged at 12 cards) | 20 | 35 | 34 (commander guaranteed) | 95% | 100% | 100% | 100% |
-| artifact_payoffs | early (judged at 12 cards) | 10 | 17 | 17 | 74% | 91% | 96% | 99% |
-| through_wide_board | early (judged at 12 cards) | 10 | 11 | 11 | 57% | 78% | 87% | 93% |
-| through_big_creatures | early (judged at 12 cards) | 10 | 15 | 15 | 70% | 88% | 94% | 97% |
+| artifact_density | early (judged at 12 cards) | 20 | 34 | 33 (commander guaranteed) | 95% | 100% | 100% | 100% |
+| artifact_payoffs | early (judged at 12 cards) | 10 | 17 | 17 | 75% | 91% | 96% | 99% |
+| through_wide_board | early (judged at 12 cards) | 10 | 11 | 11 | 58% | 78% | 88% | 93% |
+| through_big_creatures | early (judged at 12 cards) | 10 | 15 | 15 | 70% | 88% | 95% | 98% |
 
 ## Support lines
 
@@ -36,7 +36,7 @@ Pieces count the commander (guaranteed) and the tutors that can fetch for the fu
 
 ## Tags
 
-Plan cards (engine, payoff, backup): 30 of 62 non-land cards (48%). Plan cards in no function and no route: 0.
+Plan cards (engine, payoff, backup): 30 of 61 non-land cards (49%). Plan cards in no function and no route: 0.
 
 | Tag | Cards (primary tag) |
 |---|---|
@@ -45,12 +45,12 @@ Plan cards (engine, payoff, backup): 30 of 62 non-land cards (48%). Plan cards i
 | land | 37 |
 | payoff | 10 |
 | protection | 1 |
-| ramp | 10 |
+| ramp | 9 |
 | removal | 11 |
 | tutor | 2 |
 | wipe | 2 |
 
-Base functions, counting second tags too: ramp 11, draw 16, removal 13, wipe 2, protection 7.
+Base functions, counting second tags too: ramp 10, draw 16, removal 13, wipe 2, protection 7.
 
 ## Win routes
 

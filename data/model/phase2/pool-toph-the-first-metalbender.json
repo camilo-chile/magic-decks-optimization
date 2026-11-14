@@ -992,13 +992,13 @@
    "color_identity": [],
    "game_changer": false,
    "basic": false,
-   "copies": 4,
+   "copies": 5,
    "by_language": {
     "es": 1,
-    "en": 3
+    "en": 4
    },
    "held_by": {
-    "free": 1,
+    "free": 2,
     "ezio-auditore-da-firenze": 1,
     "fire-lord-azula": 1,
     "toph-the-first-metalbender": 1
@@ -1009,6 +1009,15 @@
      "number": "53",
      "finish": "normal",
      "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
+    {
+     "set": "FIC",
+     "number": "334",
+     "finish": "normal",
+     "language": "en",
      "condition": "near_mint",
      "quantity": 1,
      "deck": "free"
@@ -1257,22 +1266,17 @@
     "en": 1
    },
    "held_by": {
-    "loan candidate": 1
+    "free": 1
    },
    "printings": [
     {
-     "set": "",
-     "number": "",
-     "finish": "normal",
+     "set": "ACR",
+     "number": "48",
+     "finish": "foil",
      "language": "en",
-     "condition": "",
+     "condition": "near_mint",
      "quantity": 1,
-     "deck": "loan candidate",
-     "from": "Standard decks (loan candidate)",
-     "restock": true,
-     "replacement_clp": 1960,
-     "in_stock": true,
-     "loan_class": "auto"
+     "deck": "free"
     }
    ]
   },
@@ -1433,12 +1437,13 @@
    ],
    "game_changer": false,
    "basic": false,
-   "copies": 1,
+   "copies": 2,
    "by_language": {
-    "es": 1
+    "es": 1,
+    "en": 1
    },
    "held_by": {
-    "free": 1
+    "free": 2
    },
    "printings": [
     {
@@ -1446,6 +1451,15 @@
      "number": "58",
      "finish": "normal",
      "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
+    {
+     "set": "FRC",
+     "number": "65",
+     "finish": "normal",
+     "language": "en",
      "condition": "near_mint",
      "quantity": 1,
      "deck": "free"
@@ -1507,22 +1521,17 @@
     "en": 1
    },
    "held_by": {
-    "loan candidate": 1
+    "free": 1
    },
    "printings": [
     {
-     "set": "",
-     "number": "",
+     "set": "ACR",
+     "number": "142",
      "finish": "normal",
      "language": "en",
-     "condition": "",
+     "condition": "near_mint",
      "quantity": 1,
-     "deck": "loan candidate",
-     "from": "Standard decks (loan candidate)",
-     "restock": true,
-     "replacement_clp": 915,
-     "in_stock": true,
-     "loan_class": "auto"
+     "deck": "free"
     }
    ]
   },
@@ -2358,43 +2367,6 @@
    }
   },
   {
-   "name": "Bureau Headmaster",
-   "oracle_id": "c022b5df-1d85-44c0-94a1-d01b345b845b",
-   "type": "Creature — Human Assassin",
-   "cmc": 2.0,
-   "mana_cost": "{R}{W}",
-   "oracle_text": "Equipment spells you cast cost {1} less to cast.\nEquip abilities you activate cost {1} less to activate.",
-   "color_identity": [
-    "R",
-    "W"
-   ],
-   "game_changer": false,
-   "basic": false,
-   "copies": 1,
-   "by_language": {
-    "en": 1
-   },
-   "held_by": {
-    "loan candidate": 1
-   },
-   "printings": [
-    {
-     "set": "",
-     "number": "",
-     "finish": "normal",
-     "language": "en",
-     "condition": "",
-     "quantity": 1,
-     "deck": "loan candidate",
-     "from": "Standard decks (loan candidate)",
-     "restock": true,
-     "replacement_clp": null,
-     "in_stock": false,
-     "loan_class": "evaluate"
-    }
-   ]
-  },
-  {
    "name": "Buried Ruin",
    "oracle_id": "3644f316-f9a3-46c9-9b1e-747f86cf4ead",
    "type": "Land",
@@ -3179,13 +3151,14 @@
    "color_identity": [],
    "game_changer": false,
    "basic": false,
-   "copies": 3,
+   "copies": 5,
    "by_language": {
-    "en": 1,
-    "es": 2
+    "en": 2,
+    "es": 3
    },
    "held_by": {
     "fire-lord-azula": 1,
+    "free": 2,
     "ezio-auditore-da-firenze": 1,
     "toph-the-first-metalbender": 1
    },
@@ -3200,6 +3173,15 @@
      "deck": "fire-lord-azula"
     },
     {
+     "set": "CMR",
+     "number": "350",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
+    {
      "set": "EOC",
      "number": "59",
      "finish": "normal",
@@ -3207,6 +3189,15 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "M3C",
+     "number": "331",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
     },
     {
      "set": "PIP",
@@ -3266,14 +3257,24 @@
    "color_identity": [],
    "game_changer": false,
    "basic": false,
-   "copies": 1,
+   "copies": 2,
    "by_language": {
+    "en": 1,
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "free": 2
    },
    "printings": [
+    {
+     "set": "ECC",
+     "number": "139",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
     {
      "set": "ECC",
      "number": "139",
@@ -4433,43 +4434,6 @@
    ]
   },
   {
-   "name": "Eivor, Battle-Ready",
-   "oracle_id": "1b4a07bd-5345-4520-bd05-b5173e08135c",
-   "type": "Legendary Creature — Human Assassin Warrior",
-   "cmc": 5.0,
-   "mana_cost": "{3}{R}{W}",
-   "oracle_text": "Vigilance (Attacking doesn't cause this creature to tap.)\nHaste (This creature can attack as soon as it comes under your control.)\nWhenever Eivor attacks, it deals damage equal to the number of Equipment you control to each opponent.",
-   "color_identity": [
-    "R",
-    "W"
-   ],
-   "game_changer": false,
-   "basic": false,
-   "copies": 1,
-   "by_language": {
-    "en": 1
-   },
-   "held_by": {
-    "loan candidate": 1
-   },
-   "printings": [
-    {
-     "set": "",
-     "number": "",
-     "finish": "normal",
-     "language": "en",
-     "condition": "",
-     "quantity": 1,
-     "deck": "loan candidate",
-     "from": "Standard decks (loan candidate)",
-     "restock": true,
-     "replacement_clp": null,
-     "in_stock": false,
-     "loan_class": "evaluate"
-    }
-   ]
-  },
-  {
    "name": "Eivor, Wolf-Kissed",
    "oracle_id": "cb8289e9-1e59-41f1-a994-6e34d2da2da2",
    "type": "Legendary Creature — Human Assassin Warrior",
@@ -4733,42 +4697,6 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "free"
-    }
-   ]
-  },
-  {
-   "name": "Enchanter's Bane",
-   "oracle_id": "1f0548f8-5dec-44b5-b5a9-e55fa4366e08",
-   "type": "Enchantment",
-   "cmc": 2.0,
-   "mana_cost": "{1}{R}",
-   "oracle_text": "At the beginning of your end step, target enchantment deals damage equal to its mana value to its controller unless that player sacrifices it.",
-   "color_identity": [
-    "R"
-   ],
-   "game_changer": false,
-   "basic": false,
-   "copies": 1,
-   "by_language": {
-    "en": 1
-   },
-   "held_by": {
-    "loan candidate": 1
-   },
-   "printings": [
-    {
-     "set": "",
-     "number": "",
-     "finish": "normal",
-     "language": "en",
-     "condition": "",
-     "quantity": 1,
-     "deck": "loan candidate",
-     "from": "Standard decks (loan candidate)",
-     "restock": true,
-     "replacement_clp": null,
-     "in_stock": false,
-     "loan_class": "evaluate"
     }
    ]
   },
@@ -5061,15 +4989,15 @@
    "color_identity": [],
    "game_changer": false,
    "basic": false,
-   "copies": 5,
+   "copies": 6,
    "by_language": {
-    "es": 5
+    "es": 6
    },
    "held_by": {
     "ezio-auditore-da-firenze": 1,
     "fire-lord-azula": 1,
     "toph-the-first-metalbender": 1,
-    "free": 2
+    "free": 3
    },
    "printings": [
     {
@@ -5106,6 +5034,15 @@
      "language": "es",
      "condition": "near_mint",
      "quantity": 2,
+     "deck": "free"
+    },
+    {
+     "set": "FRC",
+     "number": "70",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
      "deck": "free"
     }
    ],
@@ -5446,6 +5383,41 @@
      "deck": "free"
     }
    ]
+  },
+  {
+   "name": "Fellwar Stone",
+   "oracle_id": "95560508-7ac9-4be9-8a3f-3c7d5b52807b",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "FRC",
+     "number": "57",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.019807640192049253,
+    "inclusion": 0.1214,
+    "num_decks": 4235
+   }
   },
   {
    "name": "Fertilid's Favor",
@@ -7656,13 +7628,12 @@
    "color_identity": [],
    "game_changer": false,
    "basic": false,
-   "copies": 3,
+   "copies": 2,
    "by_language": {
-    "en": 3
+    "en": 2
    },
    "held_by": {
-    "free": 2,
-    "loan candidate": 1
+    "free": 2
    },
    "printings": [
     {
@@ -7673,20 +7644,6 @@
      "condition": "near_mint",
      "quantity": 2,
      "deck": "free"
-    },
-    {
-     "set": "",
-     "number": "",
-     "finish": "normal",
-     "language": "en",
-     "condition": "",
-     "quantity": 1,
-     "deck": "loan candidate",
-     "from": "Standard decks (loan candidate)",
-     "restock": true,
-     "replacement_clp": 742,
-     "in_stock": true,
-     "loan_class": "auto"
     }
    ]
   },
@@ -7707,10 +7664,18 @@
     "en": 2
    },
    "held_by": {
-    "free": 1,
-    "loan candidate": 1
+    "free": 2
    },
    "printings": [
+    {
+     "set": "ACR",
+     "number": "216",
+     "finish": "etched",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
     {
      "set": "ACR",
      "number": "34",
@@ -7719,20 +7684,6 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "free"
-    },
-    {
-     "set": "",
-     "number": "",
-     "finish": "normal",
-     "language": "en",
-     "condition": "",
-     "quantity": 1,
-     "deck": "loan candidate",
-     "from": "Standard decks (loan candidate)",
-     "restock": true,
-     "replacement_clp": null,
-     "in_stock": false,
-     "loan_class": "evaluate"
     }
    ]
   },
@@ -8685,43 +8636,6 @@
    ]
   },
   {
-   "name": "Kassandra, Eagle Bearer",
-   "oracle_id": "745b9a2c-bcd7-4db9-8cd0-d38be2ef6270",
-   "type": "Legendary Creature — Human Assassin Warrior",
-   "cmc": 3.0,
-   "mana_cost": "{1}{R}{W}",
-   "oracle_text": "Haste\nWhen Kassandra enters, search your graveyard, hand, and library for a card named The Spear of Leonidas, put it onto the battlefield, then shuffle.\nWhenever a creature you control with a legendary Equipment attached to it deals combat damage to a player, draw a card.",
-   "color_identity": [
-    "R",
-    "W"
-   ],
-   "game_changer": false,
-   "basic": false,
-   "copies": 1,
-   "by_language": {
-    "en": 1
-   },
-   "held_by": {
-    "loan candidate": 1
-   },
-   "printings": [
-    {
-     "set": "",
-     "number": "",
-     "finish": "normal",
-     "language": "en",
-     "condition": "",
-     "quantity": 1,
-     "deck": "loan candidate",
-     "from": "Standard decks (loan candidate)",
-     "restock": true,
-     "replacement_clp": null,
-     "in_stock": false,
-     "loan_class": "evaluate"
-    }
-   ]
-  },
-  {
    "name": "Katara, Heroic Healer",
    "oracle_id": "703032eb-98b3-4ecf-8b92-4f4f1551c5d7",
    "type": "Legendary Creature — Human Warrior Ally",
@@ -9214,22 +9128,17 @@
     "en": 1
    },
    "held_by": {
-    "loan candidate": 1
+    "free": 1
    },
    "printings": [
     {
-     "set": "",
-     "number": "",
+     "set": "ACR",
+     "number": "127",
      "finish": "normal",
      "language": "en",
-     "condition": "",
+     "condition": "near_mint",
      "quantity": 1,
-     "deck": "loan candidate",
-     "from": "Standard decks (loan candidate)",
-     "restock": true,
-     "replacement_clp": 915,
-     "in_stock": true,
-     "loan_class": "auto"
+     "deck": "free"
     }
    ]
   },
@@ -9630,6 +9539,37 @@
    ]
   },
   {
+   "name": "Make a Stand",
+   "oracle_id": "531f78d5-5004-4b02-99c7-b390cb342fd9",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{2}{W}",
+   "oracle_text": "Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy them.)",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "CMR",
+     "number": "32",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
    "name": "Masked Vandal",
    "oracle_id": "210940f1-3c11-4877-bbfc-2429c03f98ee",
    "type": "Creature — Shapeshifter",
@@ -9822,6 +9762,37 @@
    ]
   },
   {
+   "name": "Meticulous Excavation",
+   "oracle_id": "6dff1d15-604f-4eea-9b7a-0c0ba6afbbac",
+   "type": "Enchantment",
+   "cmc": 1.0,
+   "mana_cost": "{W}",
+   "oracle_text": "{2}{W}: Return target permanent you control to its owner's hand. If it has unearth, instead exile it, then return that card to its owner's hand. Activate only during your turn.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "BRO",
+     "number": "16",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
    "name": "Mind Stone",
    "oracle_id": "c97361b5-af16-4a7b-af85-a429dbaf4ad2",
    "type": "Artifact",
@@ -9992,40 +9963,6 @@
      "condition": "near_mint",
      "quantity": 3,
      "deck": "free"
-    }
-   ]
-  },
-  {
-   "name": "Mjölnir, Storm Hammer",
-   "oracle_id": "f497e9a5-0ad3-4aec-8422-14be8e0dba4c",
-   "type": "Legendary Artifact — Equipment",
-   "cmc": 4.0,
-   "mana_cost": "{4}",
-   "oracle_text": "When Mjölnir enters, attach it to target legendary creature you control.\nWhenever equipped creature attacks, tap target creature defending player controls and put a stun counter on it. Then Mjölnir deals damage to each opponent equal to the number of tapped creatures that opponent controls.\nEquip {4}",
-   "color_identity": [],
-   "game_changer": false,
-   "basic": false,
-   "copies": 1,
-   "by_language": {
-    "en": 1
-   },
-   "held_by": {
-    "loan candidate": 1
-   },
-   "printings": [
-    {
-     "set": "",
-     "number": "",
-     "finish": "normal",
-     "language": "en",
-     "condition": "",
-     "quantity": 1,
-     "deck": "loan candidate",
-     "from": "Standard decks (loan candidate)",
-     "restock": true,
-     "replacement_clp": 29600,
-     "in_stock": true,
-     "loan_class": "evaluate"
     }
    ]
   },
@@ -10325,18 +10262,27 @@
    ],
    "game_changer": false,
    "basic": true,
-   "copies": 56,
+   "copies": 60,
    "by_language": {
-    "en": 41,
-    "es": 15
+    "en": 44,
+    "es": 16
    },
    "held_by": {
+    "free": 49,
     "toph-the-first-metalbender": 5,
-    "free": 45,
     "fire-lord-azula": 5,
     "ezio-auditore-da-firenze": 1
    },
    "printings": [
+    {
+     "set": "ACR",
+     "number": "107",
+     "finish": "foil",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 3,
+     "deck": "free"
+    },
     {
      "set": "ACR",
      "number": "107",
@@ -10353,6 +10299,15 @@
      "language": "en",
      "condition": "near_mint",
      "quantity": 2,
+     "deck": "free"
+    },
+    {
+     "set": "ACR",
+     "number": "107",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
      "deck": "free"
     },
     {
@@ -10969,42 +10924,6 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "free"
-    }
-   ]
-  },
-  {
-   "name": "Overpowering Attack",
-   "oracle_id": "e31235f0-1f25-4158-b46e-cacde2f58b7e",
-   "type": "Sorcery",
-   "cmc": 5.0,
-   "mana_cost": "{3}{R}{R}",
-   "oracle_text": "Freerunning {2}{R} (You may cast this spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.)\nUntap all creatures you control that attacked this turn. If it's your main phase, there is an additional combat phase after this phase, followed by an additional main phase.",
-   "color_identity": [
-    "R"
-   ],
-   "game_changer": false,
-   "basic": false,
-   "copies": 1,
-   "by_language": {
-    "en": 1
-   },
-   "held_by": {
-    "loan candidate": 1
-   },
-   "printings": [
-    {
-     "set": "",
-     "number": "",
-     "finish": "normal",
-     "language": "en",
-     "condition": "",
-     "quantity": 1,
-     "deck": "loan candidate",
-     "from": "Standard decks (loan candidate)",
-     "restock": true,
-     "replacement_clp": null,
-     "in_stock": false,
-     "loan_class": "evaluate"
     }
    ]
   },
@@ -11662,14 +11581,24 @@
    ],
    "game_changer": false,
    "basic": false,
-   "copies": 1,
+   "copies": 2,
    "by_language": {
+    "en": 1,
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "free": 2
    },
    "printings": [
+    {
+     "set": "FRC",
+     "number": "80",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
     {
      "set": "FRC",
      "number": "80",
@@ -12249,6 +12178,35 @@
    }
   },
   {
+   "name": "Relic of Legends",
+   "oracle_id": "4d9554de-c005-41ab-a941-39328ebff9de",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "{T}: Add one mana of any color.\nTap an untapped legendary creature you control: Add one mana of any color.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "DMU",
+     "number": "236",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
    "name": "Resourceful Defense",
    "oracle_id": "83e78565-e61f-4bbc-b834-f47941f7e3ec",
    "type": "Enchantment",
@@ -12313,6 +12271,37 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
+    }
+   ]
+  },
+  {
+   "name": "Return to Nature",
+   "oracle_id": "777b8ec4-a783-4297-96b7-4f200d0eb734",
+   "type": "Instant",
+   "cmc": 2.0,
+   "mana_cost": "{1}{G}",
+   "oracle_text": "Choose one —\n• Destroy target artifact.\n• Destroy target enchantment.\n• Exile target card from a graveyard.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "THB",
+     "number": "197",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
     }
    ]
   },
@@ -13241,13 +13230,12 @@
    ],
    "game_changer": false,
    "basic": false,
-   "copies": 2,
+   "copies": 1,
    "by_language": {
-    "en": 2
+    "en": 1
    },
    "held_by": {
-    "free": 1,
-    "loan candidate": 1
+    "free": 1
    },
    "printings": [
     {
@@ -13258,20 +13246,6 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "free"
-    },
-    {
-     "set": "",
-     "number": "",
-     "finish": "normal",
-     "language": "en",
-     "condition": "",
-     "quantity": 1,
-     "deck": "loan candidate",
-     "from": "Standard decks (loan candidate)",
-     "restock": true,
-     "replacement_clp": null,
-     "in_stock": false,
-     "loan_class": "evaluate"
     }
    ]
   },
@@ -13928,42 +13902,6 @@
    ]
   },
   {
-   "name": "Split Up",
-   "oracle_id": "2e82520a-9da3-49ae-b5c8-37e7ac8853fe",
-   "type": "Sorcery",
-   "cmc": 3.0,
-   "mana_cost": "{1}{W}{W}",
-   "oracle_text": "Choose one —\n• Destroy all tapped creatures.\n• Destroy all untapped creatures.",
-   "color_identity": [
-    "W"
-   ],
-   "game_changer": false,
-   "basic": false,
-   "copies": 1,
-   "by_language": {
-    "en": 1
-   },
-   "held_by": {
-    "loan candidate": 1
-   },
-   "printings": [
-    {
-     "set": "",
-     "number": "",
-     "finish": "normal",
-     "language": "en",
-     "condition": "",
-     "quantity": 1,
-     "deck": "loan candidate",
-     "from": "Standard decks (loan candidate)",
-     "restock": true,
-     "replacement_clp": null,
-     "in_stock": false,
-     "loan_class": "evaluate"
-    }
-   ]
-  },
-  {
    "name": "Springheart Nantuko",
    "oracle_id": "8a3ad2ef-8bcb-40c0-85de-f03328c2b644",
    "type": "Enchantment Creature — Insect Monk",
@@ -14560,15 +14498,24 @@
    ],
    "game_changer": false,
    "basic": false,
-   "copies": 2,
+   "copies": 3,
    "by_language": {
-    "es": 2
+    "es": 3
    },
    "held_by": {
-    "free": 1,
+    "free": 2,
     "toph-the-first-metalbender": 1
    },
    "printings": [
+    {
+     "set": "BLC",
+     "number": "109",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
     {
      "set": "EOC",
      "number": "45",
@@ -14593,6 +14540,44 @@
     "synergy": -0.0012346206482093391,
     "inclusion": 0.5763,
     "num_decks": 20107
+   }
+  },
+  {
+   "name": "Talisman of Conviction",
+   "oracle_id": "6c326439-5620-4ec6-a56a-fe9c3d5d2a46",
+   "type": "Artifact",
+   "cmc": 2.0,
+   "mana_cost": "{2}",
+   "oracle_text": "{T}: Add {C}.\n{T}: Add {R} or {W}. This artifact deals 1 damage to you.",
+   "color_identity": [
+    "R",
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "TDC",
+     "number": "329",
+     "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.029272542843562607,
+    "inclusion": 0.1148,
+    "num_decks": 4006
    }
   },
   {
@@ -15113,42 +15098,6 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "free"
-    }
-   ]
-  },
-  {
-   "name": "The Spear of Leonidas",
-   "oracle_id": "dac3a263-cc02-446a-88ec-882a21096b6c",
-   "type": "Legendary Artifact — Equipment",
-   "cmc": 3.0,
-   "mana_cost": "{2}{R}",
-   "oracle_text": "Whenever equipped creature attacks, choose one —\n• Bull Rush — It gains double strike until end of turn.\n• Summon — Create Phobos, a legendary 3/2 red Horse creature token.\n• Revelation — Discard two cards, then draw two cards.\nEquip {2}",
-   "color_identity": [
-    "R"
-   ],
-   "game_changer": false,
-   "basic": false,
-   "copies": 1,
-   "by_language": {
-    "en": 1
-   },
-   "held_by": {
-    "loan candidate": 1
-   },
-   "printings": [
-    {
-     "set": "",
-     "number": "",
-     "finish": "normal",
-     "language": "en",
-     "condition": "",
-     "quantity": 1,
-     "deck": "loan candidate",
-     "from": "Standard decks (loan candidate)",
-     "restock": true,
-     "replacement_clp": null,
-     "in_stock": false,
-     "loan_class": "evaluate"
     }
    ]
   },
@@ -16484,13 +16433,12 @@
    ],
    "game_changer": false,
    "basic": false,
-   "copies": 3,
+   "copies": 2,
    "by_language": {
-    "en": 3
+    "en": 2
    },
    "held_by": {
-    "free": 2,
-    "loan candidate": 1
+    "free": 2
    },
    "printings": [
     {
@@ -16501,30 +16449,16 @@
      "condition": "near_mint",
      "quantity": 2,
      "deck": "free"
-    },
-    {
-     "set": "",
-     "number": "",
-     "finish": "normal",
-     "language": "en",
-     "condition": "",
-     "quantity": 1,
-     "deck": "loan candidate",
-     "from": "Standard decks (loan candidate)",
-     "restock": true,
-     "replacement_clp": 742,
-     "in_stock": true,
-     "loan_class": "auto"
     }
    ]
   },
   {
-   "name": "Vincent, Vengeful Atoner",
-   "oracle_id": "b8961205-87fa-4cce-aba9-84fa2f91a67f",
-   "type": "Legendary Creature — Assassin",
+   "name": "Volt Charge",
+   "oracle_id": "c57907d1-c5a1-45c7-80a8-38fedf86dd19",
+   "type": "Instant",
    "cmc": 3.0,
    "mana_cost": "{2}{R}",
-   "oracle_text": "Menace\nWhenever one or more creatures you control deal combat damage to a player, put a +1/+1 counter on Vincent.\nChaos — Whenever Vincent deals combat damage to an opponent, it deals that much damage to each other opponent if Vincent's power is 7 or greater.",
+   "oracle_text": "Volt Charge deals 3 damage to any target. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
    "color_identity": [
     "R"
    ],
@@ -16532,25 +16466,20 @@
    "basic": false,
    "copies": 1,
    "by_language": {
-    "en": 1
+    "es": 1
    },
    "held_by": {
-    "loan candidate": 1
+    "free": 1
    },
    "printings": [
     {
-     "set": "",
-     "number": "",
+     "set": "ONE",
+     "number": "155",
      "finish": "normal",
-     "language": "en",
-     "condition": "",
+     "language": "es",
+     "condition": "near_mint",
      "quantity": 1,
-     "deck": "loan candidate",
-     "from": "Standard decks (loan candidate)",
-     "restock": true,
-     "replacement_clp": 2440,
-     "in_stock": true,
-     "loan_class": "auto"
+     "deck": "free"
     }
    ]
   },
@@ -16991,6 +16920,37 @@
      "set": "TLE",
      "number": "276",
      "finish": "normal",
+     "language": "en",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Wood Elves",
+   "oracle_id": "8973bd99-20f8-4867-90ef-50392147ee1b",
+   "type": "Creature — Elf Scout",
+   "cmc": 3.0,
+   "mana_cost": "{2}{G}",
+   "oracle_text": "When this creature enters, search your library for a Forest card, put that card onto the battlefield, then shuffle.",
+   "color_identity": [
+    "G"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "en": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "HOB",
+     "number": "142",
+     "finish": "foil",
      "language": "en",
      "condition": "near_mint",
      "quantity": 1,

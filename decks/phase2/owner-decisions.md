@@ -3,6 +3,18 @@
 Decisions the owner took on the builders' questions, plus the lead's resolution of the scarce copies, for the reviewers and
 the next build round. Newest first.
 
+## 2026-11-14 (purchase received, collection frozen)
+
+| Deck | Question | Decision |
+|---|---|---|
+| All | Purchase of 2026-11-09 | All 45 cards arrived and were scanned (export `data/collection/ManaBox_Collection_2026-11-13_purchase.csv`, 1,706 rows' copies, 0 removed against 2026-11-01). Two came in another language and are kept, not exchanged. |
+| All | Collection | FROZEN as scanned on 2026-11-13: no more purchases, no exchanges. `decks/phase2.json` `collection_frozen`. |
+| All | Built decks | Built exactly as the lists of 2026-11-09 (`decks/phase2/<slug>.txt`, the pull list of that day, now in version control, and the purchase order), except Kilo. `decks/phase2.json` `pinned` keeps the physical copies; `scripts/assign_copies.py` writes `decks/reports/pull-list-2026-11-14.md`. |
+| Kilo | Talisman of Conviction | Arrived in English; Kilo plays Spanish only, so it was left out and Kilo plays 99 cards until the next optimization. The English copy is free in the collection. |
+| Azula | Spell Pierce | Ordered in Spanish, arrived in English (SOA 23); Azula is bilingual and plays it. Swords to Plowshares for Ezio arrived in Spanish (BLC 109), as the owner ordered it. |
+| Ezio | Loans | Every loan replacement arrived, so the lent copies went back to the Standard decks; only the proxy Ezio commander remains, and it stays a proxy. Loan candidates are closed (`loan_candidates.closed`). |
+| All | Next phase | A new optimization of the four decks from the collection only, without purchases, run when the owner asks: for each deck, which cards leave it and which come in from the collection. Moxfield, Commander Salt and the dashboard Artifact are NOT updated until then. |
+
 ## 2026-11-07
 
 | Deck | Question | Decision |

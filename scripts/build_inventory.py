@@ -40,7 +40,9 @@ ROOT = Path(__file__).resolve().parent.parent
 COLLECTION_DIR = ROOT / "data" / "collection"
 
 
-STAGES = ("ezio", "azula", "toph", "rest")  # owner 2026-10-30: the decks are scanned one at a time, each export is cumulative
+# owner 2026-10-30: the decks are scanned one at a time, each export is cumulative; "purchase" (2026-11-13) adds the cards
+# bought on 2026-11-09, the last change to the collection (owner, 2026-11-14: frozen, no more purchases)
+STAGES = ("ezio", "azula", "toph", "rest", "purchase")
 STAGE_FILE_RE = re.compile(r"^ManaBox_Collection_(\d{4}-\d{2}-\d{2})(?:_([a-z]+))?\.csv$")
 
 

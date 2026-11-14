@@ -92,6 +92,7 @@ def allocate(decks, inventory, owed=()):
     supply = supply_by_oid(inventory)
     for oid, name, printing in owed:
         supply.setdefault(oid, {"name": name, "pool": []})["pool"].append(dict(printing, left=int(printing.get("quantity", 1))))
+    pinned, pin_problems = take_pinned(decks, supply)
     order = sorted(range(len(decks)), key=lambda i: (decks[i]["languages"] == "both", i))  # restricted decks first
     result, users = {}, defaultdict(list)
     for i in order:
@@ -102,7 +103,9 @@ def allocate(decks, inventory, owed=()):
             entry = supply.get(oid, {"name": name, "pool": []})
             loan_lang, loaned = deck.get("borrowed", {}).get(oid, ("", 0))
             loaned = min(loaned, qty)
-            picks, got = take(entry, qty - loaned, languages)
+            held = pinned.get(i, {}).get(oid, [])
+            picks, got = take(entry, qty - loaned - sum(n for _, n in held), languages)
+            picks, got = held + picks, got + sum(n for _, n in held)
             if loaned:
                 picks.append(({"language": loan_lang, "binder": "loan from the Standard decks", "set": "", "number": "",
                                "foil": "", "condition": ""}, loaned))
@@ -124,7 +127,32 @@ def allocate(decks, inventory, owed=()):
         result[deck["slug"]] = out
     shared = [{"name": supply.get(oid, {}).get("name") or oid, "decks": sorted(set(slugs))}
               for oid, slugs in users.items() if len(set(slugs)) > 1 and not is_basic(supply.get(oid, {}).get("name", ""))]
-    return {"decks": result, "shared": sorted(shared, key=lambda s: s["name"].casefold())}
+    return {"decks": result, "shared": sorted(shared, key=lambda s: s["name"].casefold()), "pin_problems": pin_problems}
+
+
+def take_pinned(decks, supply):
+    """Serve the pinned copies first (config `pinned`: the physical copy a built deck already holds, owner 2026-11-14), so
+    the language and condition order never moves a copy out of the deck that holds it. Returns ({deck index: {oid:
+    [(printing, n)]}}, problems); a pin the collection cannot match is a problem, never guessed at."""
+    out, problems = {}, []
+    for i, deck in enumerate(decks):
+        for oid, pins in deck.get("pinned", {}).items():
+            pool = supply.get(oid, {"pool": []})["pool"]
+            for pin in pins:
+                want = int(pin.get("qty", 1))
+                for printing in pool:
+                    if want and printing["left"] > 0 and (
+                            str(printing.get("set", "")).lower(), str(printing.get("number", "")), printing["language"],
+                            printing.get("foil", "normal") or "normal") == (
+                            pin["set"].lower(), str(pin["number"]), pin["language"], pin.get("foil", "normal")):
+                        n = min(want, printing["left"])
+                        printing["left"] -= n
+                        want -= n
+                        out.setdefault(i, {}).setdefault(oid, []).append((printing, n))
+                if want:
+                    problems.append(f"{deck['slug']}: pinned {pin['name']} {pin['set'].upper()} {pin['number']} "
+                                    f"{pin['language']} {pin.get('foil', 'normal')}: {want} copy(ies) not in the collection")
+    return out, problems
 
 
 def read_deck(spec, index, root=ROOT):
@@ -154,6 +182,13 @@ def read_deck(spec, index, root=ROOT):
             continue  # a proxy commander is handled as a proxy; an unknown name is reported by build_pools
         lang, have = deck["borrowed"].get(card["oracle_id"], (loan.get("language", "en"), 0))
         deck["borrowed"][card["oracle_id"]] = (lang, have + int(loan.get("quantity", 1)))
+    deck["pinned"] = {}
+    for pin in spec.get("pinned", []):
+        card = index.get(la.normalize(pin["name"]))
+        if card is None or card["oracle_id"] not in deck["cards"]:
+            problems.append(f"{spec['slug']}: pinned card {pin['name']!r} is not in the list")
+            continue
+        deck["pinned"].setdefault(card["oracle_id"], []).append(pin)
     return deck, problems
 
 
@@ -233,6 +268,7 @@ def main():
         if size != 100:
             problems.append(f"{slug}: the list has {size} cards, not 100")
     assignment = allocate(decks, inventory, owed_copies(config, index))
+    problems += assignment.pop("pin_problems")
     today = date.today().isoformat()
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
     OUT_JSON.write_text(json.dumps(dict(assignment, problems=problems), indent=1, ensure_ascii=False), encoding="utf-8")

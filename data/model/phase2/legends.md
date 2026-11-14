@@ -4,85 +4,85 @@ Sorted by the size of the pool a Spanish-only deck would have. Only candidates w
 
 | Commander | Identity | Spanish copies | Pool, Spanish only | Pool, any language | Held by now |
 |---|---|---|---|---|---|
-| Inspirit, Flagship Vessel | RUW | 1 | 191 | 495 | free 1 |
-| Kilo, Apogee Mind | RUW | 1 | 191 | 495 | free 1 |
-| Eivor, Wolf-Kissed | GRW | 1 | 151 | 472 | free 1 |
-| Adéwalé, Breaker of Chains | BU | 1 | 141 | 359 | ezio-auditore-da-firenze 1, free 2 |
-| Ezio, Blade of Vengeance | BU | 1 | 141 | 359 | ezio-auditore-da-firenze 1 |
-| Jhoira, Weatherlight Captain | RU | 1 | 134 | 343 | free 1 |
-| Arixmethes, Slumbering Isle | GU | 2 | 126 | 323 | free 2 |
-| Alibou, Ancient Witness | RW | 1 | 123 | 340 | free 1 |
-| Arbaaz Mir | RW | 1 | 123 | 340 | toph-the-first-metalbender 1 |
-| Ezio, Brash Novice | RW | 1 | 123 | 340 | free 5 |
-| Emry, Lurker of the Loch | U | 1 | 101 | 218 | free 1 |
-| Evie Frye | U | 1 | 101 | 218 | ezio-auditore-da-firenze 1 |
-| Katara, Bending Prodigy | U | 1 | 101 | 218 | free 2 |
-| Tekuthal, Inquiry Dominus | U | 1 | 101 | 218 | free 1 |
-| Teo, Spirited Glider | U | 1 | 101 | 218 | free 3 |
-| Aang, the Last Airbender | W | 1 | 85 | 203 | free 3 |
-| Master Piandao | W | 1 | 85 | 203 | free 3 |
-| Momo, Playful Pet | W | 1 | 85 | 203 | free 1 |
-| Koh, the Face Stealer | B | 1 | 80 | 209 | free 1 |
-| Lo and Li, Twin Tutors | B | 1 | 80 | 209 | fire-lord-azula 1, free 1 |
-| Zuko, Exiled Prince | R | 1 | 77 | 207 | free 2 |
-| Titania, Nature's Force | G | 1 | 75 | 203 | free 1 |
-| Adrestia | C | 1 | 53 | 103 | free 4 |
-| Ratonhnhaké꞉ton | BUW | 0 | 187 | 492 | free 1 |
-| Fire Lord Azula | BRU | 0 | 179 | 504 | fire-lord-azula 1, free 1 |
-| Iroh, Grand Lotus | GRU | 0 | 161 | 464 | free 1 |
-| Fire Lord Zuko | BRW | 0 | 160 | 482 | free 1 |
-| Queen Marchesa | BRW | 0 | 160 | 482 | ezio-auditore-da-firenze 1 |
-| Havi, the All-Father | GRW | 0 | 152 | 472 | free 1 |
-| Sigurd, Jarl of Ravensthorpe | GRW | 0 | 152 | 472 | free 1 |
-| Toph, the First Metalbender | GRW | 0 | 152 | 472 | toph-the-first-metalbender 1 |
-| Etrata, Deadly Fugitive | BU | 0 | 142 | 359 | ezio-auditore-da-firenze 1 |
-| Etrata, the Silencer | BU | 0 | 142 | 359 | ezio-auditore-da-firenze 1 |
-| Hama, the Bloodbender | BU | 0 | 142 | 359 | free 1 |
-| Haytham Kenway | UW | 0 | 142 | 334 | ezio-auditore-da-firenze 1 |
-| Lydia Frye | BU | 0 | 142 | 359 | ezio-auditore-da-firenze 1, free 1 |
-| Sokka, Lateral Strategist | UW | 0 | 142 | 334 | free 2 |
-| Sokrates, Athenian Teacher | UW | 0 | 142 | 334 | free 1 |
-| Vega, the Watcher | UW | 0 | 142 | 334 | free 2 |
-| Lilah, Undefeated Slickshot | RU | 0 | 135 | 343 | free 1 |
-| Malcolm, the Eyes | RU | 0 | 135 | 343 | free 1 |
-| Professor Zei, Anthropologist | RU | 0 | 135 | 343 | free 1 |
-| Shao Jun | RU | 0 | 135 | 343 | free 3 |
-| Sokka, Bold Boomeranger | RU | 0 | 135 | 343 | free 1 |
-| Ezuri, Claw of Progress | GU | 0 | 127 | 323 | free 1 |
-| Iroh, Tea Master | RW | 0 | 124 | 340 | free 1 |
-| Jet, Freedom Fighter | RW | 0 | 124 | 340 | free 1 |
-| Ragost, Deft Gastronaut | RW | 0 | 124 | 340 | toph-the-first-metalbender 1 |
-| Sami, Ship's Engineer | RW | 0 | 124 | 340 | free 1 |
-| Hei Bai, Spirit of Balance | BW | 0 | 118 | 324 | free 1 |
-| Shay Cormac | BW | 0 | 118 | 324 | free 4 |
-| Winter Soldier, Icy Assassin | BW | 0 | 118 | 324 | ezio-auditore-da-firenze 1 |
-| Ghalta and Mavren | GW | 0 | 112 | 314 | free 1 |
-| Suki, Kyoshi Warrior | GW | 0 | 112 | 314 | free 2 |
-| Arno Dorian | BR | 0 | 109 | 332 | ezio-auditore-da-firenze 1, free 2 |
-| Aveline de Grandpré | BG | 0 | 109 | 324 | free 2 |
-| Cleopatra, Exiled Pharaoh | BG | 0 | 109 | 324 | free 1 |
-| Long Feng, Grand Secretariat | BG | 0 | 109 | 324 | free 3 |
-| Ozai, the Phoenix King | BR | 0 | 109 | 332 | fire-lord-azula 1 |
-| Rakdos, the Muscle | BR | 0 | 109 | 332 | free 1 |
-| Zhao, Ruthless Admiral | BR | 0 | 109 | 332 | free 1 |
-| Zuko, Conflicted | BR | 0 | 109 | 332 | free 1 |
-| Gran-Gran | U | 0 | 102 | 218 | free 2 |
-| Inga Rune-Eyes | U | 0 | 102 | 218 | free 1 |
-| Leonardo da Vinci | U | 0 | 102 | 218 | free 1 |
-| Master Pakku | U | 0 | 102 | 218 | free 2 |
-| Orvar, the All-Form | U | 0 | 102 | 218 | free 1 |
-| The Terror of Serpent's Pass | U | 0 | 102 | 218 | free 1 |
-| Ty Lee, Chi Blocker | U | 0 | 102 | 218 | free 1 |
-| Venser, Shaper Savant | U | 0 | 102 | 218 | ezio-auditore-da-firenze 1 |
-| Yue, the Moon Spirit | U | 0 | 102 | 218 | free 1 |
-| Bumi, Unleashed | GR | 0 | 101 | 322 | free 1, toph-the-first-metalbender 1 |
-| Omnath, Locus of Rage | GR | 0 | 101 | 322 | free 1 |
-| Tannuk, Memorial Ensign | GR | 0 | 101 | 322 | toph-the-first-metalbender 1 |
-| Toph, Hardheaded Teacher | GR | 0 | 101 | 322 | toph-the-first-metalbender 1 |
-| Uncle Iroh | GR | 0 | 101 | 322 | free 2 |
-| Aang, Air Nomad | W | 0 | 86 | 203 | free 1 |
-| Appa, Aang's Companion | W | 0 | 86 | 203 | free 2 |
-| Appa, Loyal Sky Bison | W | 0 | 86 | 203 | free 2 |
-| Appa, Steadfast Guardian | W | 0 | 86 | 203 | free 1 |
+| Inspirit, Flagship Vessel | RUW | 1 | 197 | 511 | free 1 |
+| Kilo, Apogee Mind | RUW | 1 | 197 | 511 | free 1 |
+| Eivor, Wolf-Kissed | GRW | 1 | 156 | 483 | free 1 |
+| Adéwalé, Breaker of Chains | BU | 1 | 145 | 372 | ezio-auditore-da-firenze 1, free 2 |
+| Ezio, Blade of Vengeance | BU | 1 | 145 | 372 | ezio-auditore-da-firenze 1 |
+| Jhoira, Weatherlight Captain | RU | 1 | 138 | 352 | free 1 |
+| Arixmethes, Slumbering Isle | GU | 2 | 130 | 333 | free 2 |
+| Alibou, Ancient Witness | RW | 1 | 127 | 349 | free 1 |
+| Arbaaz Mir | RW | 1 | 127 | 349 | toph-the-first-metalbender 1 |
+| Ezio, Brash Novice | RW | 1 | 127 | 349 | free 5 |
+| Emry, Lurker of the Loch | U | 1 | 104 | 226 | free 1 |
+| Evie Frye | U | 1 | 104 | 226 | ezio-auditore-da-firenze 1 |
+| Katara, Bending Prodigy | U | 1 | 104 | 226 | free 2 |
+| Tekuthal, Inquiry Dominus | U | 1 | 104 | 226 | free 1 |
+| Teo, Spirited Glider | U | 1 | 104 | 226 | free 3 |
+| Aang, the Last Airbender | W | 1 | 88 | 208 | free 3 |
+| Master Piandao | W | 1 | 88 | 208 | free 3 |
+| Momo, Playful Pet | W | 1 | 88 | 208 | free 1 |
+| Koh, the Face Stealer | B | 1 | 82 | 214 | free 1 |
+| Lo and Li, Twin Tutors | B | 1 | 82 | 214 | fire-lord-azula 1, free 1 |
+| Zuko, Exiled Prince | R | 1 | 79 | 210 | free 2 |
+| Titania, Nature's Force | G | 1 | 77 | 207 | free 1 |
+| Adrestia | C | 1 | 54 | 105 | free 4 |
+| Ratonhnhaké꞉ton | BUW | 0 | 194 | 510 | free 1 |
+| Fire Lord Azula | BRU | 0 | 185 | 518 | fire-lord-azula 1, free 1 |
+| Altaïr Ibn-La'Ahad | BRW | 0 | 167 | 496 | free 1 |
+| Fire Lord Zuko | BRW | 0 | 167 | 496 | free 1 |
+| Queen Marchesa | BRW | 0 | 167 | 496 | ezio-auditore-da-firenze 1 |
+| Iroh, Grand Lotus | GRU | 0 | 166 | 475 | free 1 |
+| Havi, the All-Father | GRW | 0 | 157 | 483 | free 1 |
+| Sigurd, Jarl of Ravensthorpe | GRW | 0 | 157 | 483 | free 1 |
+| Toph, the First Metalbender | GRW | 0 | 157 | 483 | toph-the-first-metalbender 1 |
+| Haytham Kenway | UW | 0 | 147 | 346 | ezio-auditore-da-firenze 1 |
+| Sokka, Lateral Strategist | UW | 0 | 147 | 346 | free 2 |
+| Sokrates, Athenian Teacher | UW | 0 | 147 | 346 | free 1 |
+| Vega, the Watcher | UW | 0 | 147 | 346 | free 2 |
+| Basim Ibn Ishaq | BU | 0 | 146 | 372 | free 1 |
+| Etrata, Deadly Fugitive | BU | 0 | 146 | 372 | ezio-auditore-da-firenze 1 |
+| Etrata, the Silencer | BU | 0 | 146 | 372 | ezio-auditore-da-firenze 1 |
+| Hama, the Bloodbender | BU | 0 | 146 | 372 | free 1 |
+| Lydia Frye | BU | 0 | 146 | 372 | ezio-auditore-da-firenze 1, free 1 |
+| Ramses, Assassin Lord | BU | 0 | 146 | 372 | free 1 |
+| Lilah, Undefeated Slickshot | RU | 0 | 139 | 352 | free 1 |
+| Malcolm, the Eyes | RU | 0 | 139 | 352 | free 1 |
+| Professor Zei, Anthropologist | RU | 0 | 139 | 352 | free 1 |
+| Shao Jun | RU | 0 | 139 | 352 | free 3 |
+| Sokka, Bold Boomeranger | RU | 0 | 139 | 352 | free 1 |
+| Ezuri, Claw of Progress | GU | 0 | 131 | 333 | free 1 |
+| Aya of Alexandria | RW | 0 | 128 | 349 | free 1 |
+| Bayek of Siwa | RW | 0 | 128 | 349 | free 1 |
+| Iroh, Tea Master | RW | 0 | 128 | 349 | free 1 |
+| Jet, Freedom Fighter | RW | 0 | 128 | 349 | free 1 |
+| Ragost, Deft Gastronaut | RW | 0 | 128 | 349 | toph-the-first-metalbender 1 |
+| Sami, Ship's Engineer | RW | 0 | 128 | 349 | free 1 |
+| Hei Bai, Spirit of Balance | BW | 0 | 123 | 333 | free 1 |
+| Shay Cormac | BW | 0 | 123 | 333 | free 4 |
+| Winter Soldier, Icy Assassin | BW | 0 | 123 | 333 | ezio-auditore-da-firenze 1 |
+| Ghalta and Mavren | GW | 0 | 116 | 321 | free 1 |
+| Suki, Kyoshi Warrior | GW | 0 | 116 | 321 | free 2 |
+| Arno Dorian | BR | 0 | 113 | 338 | ezio-auditore-da-firenze 1, free 2 |
+| Ozai, the Phoenix King | BR | 0 | 113 | 338 | fire-lord-azula 1 |
+| Rakdos, the Muscle | BR | 0 | 113 | 338 | free 1 |
+| Zhao, Ruthless Admiral | BR | 0 | 113 | 338 | free 1 |
+| Zuko, Conflicted | BR | 0 | 113 | 338 | free 1 |
+| Aveline de Grandpré | BG | 0 | 112 | 332 | free 2 |
+| Cleopatra, Exiled Pharaoh | BG | 0 | 112 | 332 | free 1 |
+| Long Feng, Grand Secretariat | BG | 0 | 112 | 332 | free 3 |
+| Gran-Gran | U | 0 | 105 | 226 | free 2 |
+| Inga Rune-Eyes | U | 0 | 105 | 226 | free 1 |
+| Leonardo da Vinci | U | 0 | 105 | 226 | free 1 |
+| Master Pakku | U | 0 | 105 | 226 | free 2 |
+| Orvar, the All-Form | U | 0 | 105 | 226 | free 1 |
+| The Terror of Serpent's Pass | U | 0 | 105 | 226 | free 1 |
+| Ty Lee, Chi Blocker | U | 0 | 105 | 226 | free 1 |
+| Venser, Shaper Savant | U | 0 | 105 | 226 | ezio-auditore-da-firenze 1 |
+| Yue, the Moon Spirit | U | 0 | 105 | 226 | free 1 |
+| Bumi, Unleashed | GR | 0 | 104 | 327 | free 1, toph-the-first-metalbender 1 |
+| Omnath, Locus of Rage | GR | 0 | 104 | 327 | free 1 |
+| Tannuk, Memorial Ensign | GR | 0 | 104 | 327 | toph-the-first-metalbender 1 |
+| Toph, Hardheaded Teacher | GR | 0 | 104 | 327 | toph-the-first-metalbender 1 |
 
-33 more candidates are in legends.json.
+39 more candidates are in legends.json.

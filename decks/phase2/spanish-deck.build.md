@@ -5,6 +5,10 @@ rebuilt FROM SCRATCH under `docs/proposals/final-rebuild-brief-20261108.md`. 100
 `data/model/phase2/pool-spanish-deck.json`, priority 4: Ezio, Azula and Toph are final and keep their copies (section 8).
 The previous version (step 6, Salt 4.6 after purchases) stays in version control.
 
+**As built (2026-11-14): 99 cards.** Talisman of Conviction arrived in English and Kilo plays Spanish only, so it was left
+out and the slot is empty (the list file has 99 cards); the collection is frozen, and the next collection-only optimization
+fills it. The notes below still describe it where they name it.
+
 **Fix round (2026-11-09, review `decks/reports/final-review-spanish-deck-20261108.md`, verdict FIX):** Brute Suit ->
 Strionic Resonator, Katara -> Lithoform Engine, Fumigate -> Starfall Invocation (all owned Spanish, played by no final
 deck); notes corrected (one untapper: Kilo taps at most twice a round; Cyberdrive paid from lands; the Excavation loop needs

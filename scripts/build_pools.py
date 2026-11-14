@@ -214,6 +214,8 @@ def main():
         candidates = [{"name": c["name"], "clp": c["clp"], "in_stock": c["in_stock"], "loan_class": c["loan_class"],
                        "candidate": True, "from": "Standard decks (loan candidate)", "restock": True}
                       for c in (config.get("loan_candidates") or {}).get("cards", []) if la.normalize(c["name"]) not in taken]
+        if (config.get("loan_candidates") or {}).get("closed"):
+            candidates = []  # owner 2026-11-14: no more purchases, so no loan can be replaced: the pools hold owned cards only
         owed = list(config.get("pending_owned") or [])  # owed to him, counted as owned until it arrives and is scanned
         deck_owned, missing = with_borrowed(owned, list(deck.get("borrowed", [])) + candidates + owed, index)
         if missing:

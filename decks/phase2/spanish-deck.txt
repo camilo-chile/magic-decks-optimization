@@ -4,7 +4,6 @@
 // Main
 1 Sol Ring
 1 Arcane Signet
-1 Talisman of Conviction
 1 Everflowing Chalice
 1 Pentad Prism
 1 Relic of Legends

@@ -390,10 +390,10 @@
    "copies": 1,
    "by_language": {
     "es": 1,
-    "en": 3
+    "en": 4
    },
    "held_by": {
-    "free": 1,
+    "free": 2,
     "ezio-auditore-da-firenze": 1,
     "fire-lord-azula": 1,
     "toph-the-first-metalbender": 1
@@ -599,10 +599,11 @@
    "basic": false,
    "copies": 1,
    "by_language": {
-    "es": 1
+    "es": 1,
+    "en": 1
    },
    "held_by": {
-    "free": 1
+    "free": 2
    },
    "printings": [
     {
@@ -1303,13 +1304,14 @@
    "color_identity": [],
    "game_changer": false,
    "basic": false,
-   "copies": 2,
+   "copies": 3,
    "by_language": {
-    "en": 1,
-    "es": 2
+    "en": 2,
+    "es": 3
    },
    "held_by": {
     "fire-lord-azula": 1,
+    "free": 2,
     "ezio-auditore-da-firenze": 1,
     "toph-the-first-metalbender": 1
    },
@@ -1322,6 +1324,15 @@
      "condition": "near_mint",
      "quantity": 1,
      "deck": "ezio-auditore-da-firenze"
+    },
+    {
+     "set": "M3C",
+     "number": "331",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
     },
     {
      "set": "PIP",
@@ -1352,10 +1363,11 @@
    "basic": false,
    "copies": 1,
    "by_language": {
+    "en": 1,
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "free": 2
    },
    "printings": [
     {
@@ -1399,6 +1411,43 @@
      "deck": "fire-lord-azula"
     }
    ]
+  },
+  {
+   "name": "Contentious Plan",
+   "oracle_id": "2fc6de19-9d04-422b-90bc-eee2f9f8c84c",
+   "type": "Sorcery",
+   "cmc": 2.0,
+   "mana_cost": "{1}{U}",
+   "oracle_text": "Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)\nDraw a card.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "WAR",
+     "number": "46",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Sorceries",
+    "synergy": 0.0817425687857295,
+    "inclusion": 0.1131,
+    "num_decks": 2283
+   }
   },
   {
    "name": "Coretapper",
@@ -2282,15 +2331,15 @@
    "color_identity": [],
    "game_changer": false,
    "basic": false,
-   "copies": 5,
+   "copies": 6,
    "by_language": {
-    "es": 5
+    "es": 6
    },
    "held_by": {
     "ezio-auditore-da-firenze": 1,
     "fire-lord-azula": 1,
     "toph-the-first-metalbender": 1,
-    "free": 2
+    "free": 3
    },
    "printings": [
     {
@@ -2327,6 +2376,15 @@
      "language": "es",
      "condition": "near_mint",
      "quantity": 2,
+     "deck": "free"
+    },
+    {
+     "set": "FRC",
+     "number": "70",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
      "deck": "free"
     }
    ],
@@ -2695,10 +2753,11 @@
    "basic": false,
    "copies": 1,
    "by_language": {
+    "en": 1,
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "free": 2
    },
    "printings": [
     {
@@ -3785,6 +3844,37 @@
    }
   },
   {
+   "name": "Make a Stand",
+   "oracle_id": "531f78d5-5004-4b02-99c7-b390cb342fd9",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{2}{W}",
+   "oracle_text": "Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy them.)",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "CMR",
+     "number": "32",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
    "name": "Master Piandao",
    "oracle_id": "e294d9d2-df91-4410-85d3-8ffb13fb2285",
    "type": "Legendary Creature — Human Warrior Ally",
@@ -3837,6 +3927,37 @@
     {
      "set": "TLA",
      "number": "258",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Meticulous Excavation",
+   "oracle_id": "6dff1d15-604f-4eea-9b7a-0c0ba6afbbac",
+   "type": "Enchantment",
+   "cmc": 1.0,
+   "mana_cost": "{W}",
+   "oracle_text": "{2}{W}: Return target permanent you control to its owner's hand. If it has unearth, instead exile it, then return that card to its owner's hand. Activate only during your turn.",
+   "color_identity": [
+    "W"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "BRO",
+     "number": "16",
      "finish": "normal",
      "language": "es",
      "condition": "near_mint",
@@ -4015,18 +4136,27 @@
    ],
    "game_changer": false,
    "basic": true,
-   "copies": 15,
+   "copies": 16,
    "by_language": {
-    "en": 41,
-    "es": 15
+    "en": 44,
+    "es": 16
    },
    "held_by": {
+    "free": 49,
     "toph-the-first-metalbender": 5,
-    "free": 45,
     "fire-lord-azula": 5,
     "ezio-auditore-da-firenze": 1
    },
    "printings": [
+    {
+     "set": "ACR",
+     "number": "107",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
     {
      "set": "ACR",
      "number": "305",
@@ -4120,14 +4250,23 @@
    ],
    "game_changer": false,
    "basic": false,
-   "copies": 1,
+   "copies": 2,
    "by_language": {
-    "es": 1
+    "es": 2
    },
    "held_by": {
-    "free": 1
+    "free": 2
    },
    "printings": [
+    {
+     "set": "EOC",
+     "number": "170",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
     {
      "set": "EOC",
      "number": "170",
@@ -4188,14 +4327,24 @@
    ],
    "game_changer": false,
    "basic": false,
-   "copies": 1,
+   "copies": 2,
    "by_language": {
-    "es": 1
+    "es": 2
    },
    "held_by": {
+    "free": 1,
     "fire-lord-azula": 1
    },
    "printings": [
+    {
+     "set": "MOM",
+     "number": "68",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
     {
      "set": "OGW",
      "number": "59",
@@ -4729,10 +4878,11 @@
    "basic": false,
    "copies": 1,
    "by_language": {
+    "en": 1,
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "free": 2
    },
    "printings": [
     {
@@ -4852,6 +5002,41 @@
      "deck": "free"
     }
    ]
+  },
+  {
+   "name": "Relic of Legends",
+   "oracle_id": "4d9554de-c005-41ab-a941-39328ebff9de",
+   "type": "Artifact",
+   "cmc": 3.0,
+   "mana_cost": "{3}",
+   "oracle_text": "{T}: Add one mana of any color.\nTap an untapped legendary creature you control: Add one mana of any color.",
+   "color_identity": [],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "DMU",
+     "number": "236",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ],
+   "edhrec": {
+    "list": "Mana Artifacts",
+    "synergy": 0.40189612688002163,
+    "inclusion": 0.4639,
+    "num_decks": 9367
+   }
   },
   {
    "name": "Resourceful Defense",
@@ -5767,15 +5952,24 @@
    ],
    "game_changer": false,
    "basic": false,
-   "copies": 2,
+   "copies": 3,
    "by_language": {
-    "es": 2
+    "es": 3
    },
    "held_by": {
-    "free": 1,
+    "free": 2,
     "toph-the-first-metalbender": 1
    },
    "printings": [
+    {
+     "set": "BLC",
+     "number": "109",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
     {
      "set": "EOC",
      "number": "45",
@@ -6099,17 +6293,26 @@
    ],
    "game_changer": false,
    "basic": false,
-   "copies": 1,
+   "copies": 2,
    "by_language": {
-    "es": 1
+    "es": 2
    },
    "held_by": {
-    "free": 1
+    "free": 2
    },
    "printings": [
     {
      "set": "EOC",
      "number": "48",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    },
+    {
+     "set": "NEO",
+     "number": "85",
      "finish": "normal",
      "language": "es",
      "condition": "near_mint",
@@ -6424,6 +6627,37 @@
    ]
   },
   {
+   "name": "Trophy Mage",
+   "oracle_id": "08afc0d7-192f-4ab6-b6a0-c4265cf5e225",
+   "type": "Creature — Human Wizard",
+   "cmc": 3.0,
+   "mana_cost": "{2}{U}",
+   "oracle_text": "When this creature enters, you may search your library for an artifact card with mana value 3, reveal it, put it into your hand, then shuffle.",
+   "color_identity": [
+    "U"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "DDU",
+     "number": "42",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
+     "deck": "free"
+    }
+   ]
+  },
+  {
    "name": "Universal Surveillance",
    "oracle_id": "c5a5c17d-d1e4-4d23-9d2b-1c2febdcb0e7",
    "type": "Sorcery",
@@ -6553,6 +6787,37 @@
      "language": "es",
      "condition": "near_mint",
      "quantity": 2,
+     "deck": "free"
+    }
+   ]
+  },
+  {
+   "name": "Volt Charge",
+   "oracle_id": "c57907d1-c5a1-45c7-80a8-38fedf86dd19",
+   "type": "Instant",
+   "cmc": 3.0,
+   "mana_cost": "{2}{R}",
+   "oracle_text": "Volt Charge deals 3 damage to any target. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+   "color_identity": [
+    "R"
+   ],
+   "game_changer": false,
+   "basic": false,
+   "copies": 1,
+   "by_language": {
+    "es": 1
+   },
+   "held_by": {
+    "free": 1
+   },
+   "printings": [
+    {
+     "set": "ONE",
+     "number": "155",
+     "finish": "normal",
+     "language": "es",
+     "condition": "near_mint",
+     "quantity": 1,
      "deck": "free"
     }
    ]

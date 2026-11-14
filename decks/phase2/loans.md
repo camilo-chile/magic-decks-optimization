@@ -3,6 +3,10 @@
 Cards of his Standard decks (binder "Assassin's Creed", not scanned) that a Commander deck may borrow (owner, 2026-10-31). A loan
 becomes a row of `decks/phase2/restock.md` and a `borrowed` entry of the deck in `decks/phase2.json`.
 
+**Closed (owner, 2026-11-14):** every loan was replaced by the purchase of 2026-11-09 and went back to the Standard decks.
+With no more purchases a loan can no longer be replaced, so no deck borrows a card (`loan_candidates.closed` in
+`decks/phase2.json`; `scripts/build_pools.py` leaves the candidates out of the pools).
+
 ## Rules (they hold in every iteration)
 1. A loan card goes to ONE deck only, never to two or more decks.
 2. Two classes, read from the stores of the CURRENT iteration (`decks/phase2.json` `iteration.stores`) when the loans are

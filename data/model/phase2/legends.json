@@ -6,8 +6,8 @@
   "type": "Legendary Artifact — Spacecraft",
   "copies": 1,
   "spanish_copies": 1,
-  "pool_es": 191,
-  "pool_any": 495,
+  "pool_es": 197,
+  "pool_any": 511,
   "held_by": {
    "free": 1
   }
@@ -19,8 +19,8 @@
   "type": "Legendary Artifact Creature — Robot Artificer",
   "copies": 1,
   "spanish_copies": 1,
-  "pool_es": 191,
-  "pool_any": 495,
+  "pool_es": 197,
+  "pool_any": 511,
   "held_by": {
    "free": 1
   }
@@ -32,8 +32,8 @@
   "type": "Legendary Creature — Human Assassin Warrior",
   "copies": 1,
   "spanish_copies": 1,
-  "pool_es": 151,
-  "pool_any": 472,
+  "pool_es": 156,
+  "pool_any": 483,
   "held_by": {
    "free": 1
   }
@@ -45,8 +45,8 @@
   "type": "Legendary Creature — Human Assassin Pirate",
   "copies": 3,
   "spanish_copies": 1,
-  "pool_es": 141,
-  "pool_any": 359,
+  "pool_es": 145,
+  "pool_any": 372,
   "held_by": {
    "ezio-auditore-da-firenze": 1,
    "free": 2
@@ -59,8 +59,8 @@
   "type": "Legendary Creature — Human Assassin",
   "copies": 1,
   "spanish_copies": 1,
-  "pool_es": 141,
-  "pool_any": 359,
+  "pool_es": 145,
+  "pool_any": 372,
   "held_by": {
    "ezio-auditore-da-firenze": 1
   }
@@ -72,8 +72,8 @@
   "type": "Legendary Creature — Human Artificer",
   "copies": 1,
   "spanish_copies": 1,
-  "pool_es": 134,
-  "pool_any": 343,
+  "pool_es": 138,
+  "pool_any": 352,
   "held_by": {
    "free": 1
   }
@@ -85,8 +85,8 @@
   "type": "Legendary Creature — Kraken",
   "copies": 2,
   "spanish_copies": 2,
-  "pool_es": 126,
-  "pool_any": 323,
+  "pool_es": 130,
+  "pool_any": 333,
   "held_by": {
    "free": 2
   }
@@ -98,8 +98,8 @@
   "type": "Legendary Artifact Creature — Golem",
   "copies": 1,
   "spanish_copies": 1,
-  "pool_es": 123,
-  "pool_any": 340,
+  "pool_es": 127,
+  "pool_any": 349,
   "held_by": {
    "free": 1
   }
@@ -111,8 +111,8 @@
   "type": "Legendary Creature — Human Assassin",
   "copies": 1,
   "spanish_copies": 1,
-  "pool_es": 123,
-  "pool_any": 340,
+  "pool_es": 127,
+  "pool_any": 349,
   "held_by": {
    "toph-the-first-metalbender": 1
   }
@@ -124,8 +124,8 @@
   "type": "Legendary Creature — Human",
   "copies": 5,
   "spanish_copies": 1,
-  "pool_es": 123,
-  "pool_any": 340,
+  "pool_es": 127,
+  "pool_any": 349,
   "held_by": {
    "free": 5
   }
@@ -137,8 +137,8 @@
   "type": "Legendary Creature — Merfolk Wizard",
   "copies": 1,
   "spanish_copies": 1,
-  "pool_es": 101,
-  "pool_any": 218,
+  "pool_es": 104,
+  "pool_any": 226,
   "held_by": {
    "free": 1
   }
@@ -150,8 +150,8 @@
   "type": "Legendary Creature — Human Assassin",
   "copies": 1,
   "spanish_copies": 1,
-  "pool_es": 101,
-  "pool_any": 218,
+  "pool_es": 104,
+  "pool_any": 226,
   "held_by": {
    "ezio-auditore-da-firenze": 1
   }
@@ -163,8 +163,8 @@
   "type": "Legendary Creature — Human Warrior Ally",
   "copies": 2,
   "spanish_copies": 1,
-  "pool_es": 101,
-  "pool_any": 218,
+  "pool_es": 104,
+  "pool_any": 226,
   "held_by": {
    "free": 2
   }
@@ -176,8 +176,8 @@
   "type": "Legendary Creature — Phyrexian Horror",
   "copies": 1,
   "spanish_copies": 1,
-  "pool_es": 101,
-  "pool_any": 218,
+  "pool_es": 104,
+  "pool_any": 226,
   "held_by": {
    "free": 1
   }
@@ -189,8 +189,8 @@
   "type": "Legendary Creature — Human Pilot Ally",
   "copies": 3,
   "spanish_copies": 1,
-  "pool_es": 101,
-  "pool_any": 218,
+  "pool_es": 104,
+  "pool_any": 226,
   "held_by": {
    "free": 3
   }
@@ -202,8 +202,8 @@
   "type": "Legendary Creature — Human Avatar Ally",
   "copies": 3,
   "spanish_copies": 1,
-  "pool_es": 85,
-  "pool_any": 203,
+  "pool_es": 88,
+  "pool_any": 208,
   "held_by": {
    "free": 3
   }
@@ -215,8 +215,8 @@
   "type": "Legendary Creature — Human Warrior Ally",
   "copies": 3,
   "spanish_copies": 1,
-  "pool_es": 85,
-  "pool_any": 203,
+  "pool_es": 88,
+  "pool_any": 208,
   "held_by": {
    "free": 3
   }
@@ -228,8 +228,8 @@
   "type": "Legendary Creature — Lemur Bat Ally",
   "copies": 1,
   "spanish_copies": 1,
-  "pool_es": 85,
-  "pool_any": 203,
+  "pool_es": 88,
+  "pool_any": 208,
   "held_by": {
    "free": 1
   }
@@ -241,8 +241,8 @@
   "type": "Legendary Creature — Shapeshifter Spirit",
   "copies": 1,
   "spanish_copies": 1,
-  "pool_es": 80,
-  "pool_any": 209,
+  "pool_es": 82,
+  "pool_any": 214,
   "held_by": {
    "free": 1
   }
@@ -254,8 +254,8 @@
   "type": "Legendary Creature — Human Advisor",
   "copies": 2,
   "spanish_copies": 1,
-  "pool_es": 80,
-  "pool_any": 209,
+  "pool_es": 82,
+  "pool_any": 214,
   "held_by": {
    "fire-lord-azula": 1,
    "free": 1
@@ -268,8 +268,8 @@
   "type": "Legendary Creature — Human Noble",
   "copies": 2,
   "spanish_copies": 1,
-  "pool_es": 77,
-  "pool_any": 207,
+  "pool_es": 79,
+  "pool_any": 210,
   "held_by": {
    "free": 2
   }
@@ -281,8 +281,8 @@
   "type": "Legendary Creature — Elemental",
   "copies": 1,
   "spanish_copies": 1,
-  "pool_es": 75,
-  "pool_any": 203,
+  "pool_es": 77,
+  "pool_any": 207,
   "held_by": {
    "free": 1
   }
@@ -294,8 +294,8 @@
   "type": "Legendary Artifact — Vehicle",
   "copies": 4,
   "spanish_copies": 1,
-  "pool_es": 53,
-  "pool_any": 103,
+  "pool_es": 54,
+  "pool_any": 105,
   "held_by": {
    "free": 4
   }
@@ -307,8 +307,8 @@
   "type": "Legendary Creature — Human Assassin",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 187,
-  "pool_any": 492,
+  "pool_es": 194,
+  "pool_any": 510,
   "held_by": {
    "free": 1
   }
@@ -320,22 +320,22 @@
   "type": "Legendary Creature — Human Noble",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 179,
-  "pool_any": 504,
+  "pool_es": 185,
+  "pool_any": 518,
   "held_by": {
    "fire-lord-azula": 1,
    "free": 1
   }
  },
  {
-  "name": "Iroh, Grand Lotus",
-  "oracle_id": "ee8e6ef3-eb96-48bd-8619-8a9112b3d4f0",
-  "color_identity": "GRU",
-  "type": "Legendary Creature — Human Noble Ally",
+  "name": "Altaïr Ibn-La'Ahad",
+  "oracle_id": "43dc4b0c-e437-4abc-a3fb-48bd3098de88",
+  "color_identity": "BRW",
+  "type": "Legendary Creature — Human Assassin",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 161,
-  "pool_any": 464,
+  "pool_es": 167,
+  "pool_any": 496,
   "held_by": {
    "free": 1
   }
@@ -347,8 +347,8 @@
   "type": "Legendary Creature — Human Noble Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 160,
-  "pool_any": 482,
+  "pool_es": 167,
+  "pool_any": 496,
   "held_by": {
    "free": 1
   }
@@ -360,10 +360,23 @@
   "type": "Legendary Creature — Human Assassin",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 160,
-  "pool_any": 482,
+  "pool_es": 167,
+  "pool_any": 496,
   "held_by": {
    "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Iroh, Grand Lotus",
+  "oracle_id": "ee8e6ef3-eb96-48bd-8619-8a9112b3d4f0",
+  "color_identity": "GRU",
+  "type": "Legendary Creature — Human Noble Ally",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 166,
+  "pool_any": 475,
+  "held_by": {
+   "free": 1
   }
  },
  {
@@ -373,8 +386,8 @@
   "type": "Legendary Creature — God Warrior",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 152,
-  "pool_any": 472,
+  "pool_es": 157,
+  "pool_any": 483,
   "held_by": {
    "free": 1
   }
@@ -386,8 +399,8 @@
   "type": "Legendary Creature — Human Warrior",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 152,
-  "pool_any": 472,
+  "pool_es": 157,
+  "pool_any": 483,
   "held_by": {
    "free": 1
   }
@@ -399,49 +412,10 @@
   "type": "Legendary Creature — Human Warrior Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 152,
-  "pool_any": 472,
+  "pool_es": 157,
+  "pool_any": 483,
   "held_by": {
    "toph-the-first-metalbender": 1
-  }
- },
- {
-  "name": "Etrata, Deadly Fugitive",
-  "oracle_id": "87957d09-7e22-40fe-8770-ff66d1934a38",
-  "color_identity": "BU",
-  "type": "Legendary Creature — Vampire Assassin",
-  "copies": 1,
-  "spanish_copies": 0,
-  "pool_es": 142,
-  "pool_any": 359,
-  "held_by": {
-   "ezio-auditore-da-firenze": 1
-  }
- },
- {
-  "name": "Etrata, the Silencer",
-  "oracle_id": "2ee87667-ec9d-4ced-b7e6-df3fd18b0ed6",
-  "color_identity": "BU",
-  "type": "Legendary Creature — Vampire Assassin",
-  "copies": 1,
-  "spanish_copies": 0,
-  "pool_es": 142,
-  "pool_any": 359,
-  "held_by": {
-   "ezio-auditore-da-firenze": 1
-  }
- },
- {
-  "name": "Hama, the Bloodbender",
-  "oracle_id": "ef80e174-78e8-412d-a6fe-89c7af746669",
-  "color_identity": "BU",
-  "type": "Legendary Creature — Human Warlock",
-  "copies": 1,
-  "spanish_copies": 0,
-  "pool_es": 142,
-  "pool_any": 359,
-  "held_by": {
-   "free": 1
   }
  },
  {
@@ -451,24 +425,10 @@
   "type": "Legendary Creature — Human Knight",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 142,
-  "pool_any": 334,
+  "pool_es": 147,
+  "pool_any": 346,
   "held_by": {
    "ezio-auditore-da-firenze": 1
-  }
- },
- {
-  "name": "Lydia Frye",
-  "oracle_id": "0315f5e7-2867-428e-8e43-66dda0db57a0",
-  "color_identity": "BU",
-  "type": "Legendary Creature — Human Assassin",
-  "copies": 2,
-  "spanish_copies": 0,
-  "pool_es": 142,
-  "pool_any": 359,
-  "held_by": {
-   "ezio-auditore-da-firenze": 1,
-   "free": 1
   }
  },
  {
@@ -478,8 +438,8 @@
   "type": "Legendary Creature — Human Warrior Ally",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 142,
-  "pool_any": 334,
+  "pool_es": 147,
+  "pool_any": 346,
   "held_by": {
    "free": 2
   }
@@ -491,8 +451,8 @@
   "type": "Legendary Creature — Human Advisor",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 142,
-  "pool_any": 334,
+  "pool_es": 147,
+  "pool_any": 346,
   "held_by": {
    "free": 1
   }
@@ -504,10 +464,89 @@
   "type": "Legendary Creature — Bird Spirit",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 142,
-  "pool_any": 334,
+  "pool_es": 147,
+  "pool_any": 346,
   "held_by": {
    "free": 2
+  }
+ },
+ {
+  "name": "Basim Ibn Ishaq",
+  "oracle_id": "8a70bde5-c514-4dcf-919a-48bdd1c17768",
+  "color_identity": "BU",
+  "type": "Legendary Creature — Human Assassin",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 146,
+  "pool_any": 372,
+  "held_by": {
+   "free": 1
+  }
+ },
+ {
+  "name": "Etrata, Deadly Fugitive",
+  "oracle_id": "87957d09-7e22-40fe-8770-ff66d1934a38",
+  "color_identity": "BU",
+  "type": "Legendary Creature — Vampire Assassin",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 146,
+  "pool_any": 372,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Etrata, the Silencer",
+  "oracle_id": "2ee87667-ec9d-4ced-b7e6-df3fd18b0ed6",
+  "color_identity": "BU",
+  "type": "Legendary Creature — Vampire Assassin",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 146,
+  "pool_any": 372,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1
+  }
+ },
+ {
+  "name": "Hama, the Bloodbender",
+  "oracle_id": "ef80e174-78e8-412d-a6fe-89c7af746669",
+  "color_identity": "BU",
+  "type": "Legendary Creature — Human Warlock",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 146,
+  "pool_any": 372,
+  "held_by": {
+   "free": 1
+  }
+ },
+ {
+  "name": "Lydia Frye",
+  "oracle_id": "0315f5e7-2867-428e-8e43-66dda0db57a0",
+  "color_identity": "BU",
+  "type": "Legendary Creature — Human Assassin",
+  "copies": 2,
+  "spanish_copies": 0,
+  "pool_es": 146,
+  "pool_any": 372,
+  "held_by": {
+   "ezio-auditore-da-firenze": 1,
+   "free": 1
+  }
+ },
+ {
+  "name": "Ramses, Assassin Lord",
+  "oracle_id": "170182ed-af1d-442a-8868-d74a96e17f03",
+  "color_identity": "BU",
+  "type": "Legendary Creature — Human Assassin",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 146,
+  "pool_any": 372,
+  "held_by": {
+   "free": 1
   }
  },
  {
@@ -517,8 +556,8 @@
   "type": "Legendary Creature — Human Rogue",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 135,
-  "pool_any": 343,
+  "pool_es": 139,
+  "pool_any": 352,
   "held_by": {
    "free": 1
   }
@@ -530,8 +569,8 @@
   "type": "Legendary Creature — Siren Pirate",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 135,
-  "pool_any": 343,
+  "pool_es": 139,
+  "pool_any": 352,
   "held_by": {
    "free": 1
   }
@@ -543,8 +582,8 @@
   "type": "Legendary Creature — Human Advisor Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 135,
-  "pool_any": 343,
+  "pool_es": 139,
+  "pool_any": 352,
   "held_by": {
    "free": 1
   }
@@ -556,8 +595,8 @@
   "type": "Legendary Creature — Human Assassin",
   "copies": 3,
   "spanish_copies": 0,
-  "pool_es": 135,
-  "pool_any": 343,
+  "pool_es": 139,
+  "pool_any": 352,
   "held_by": {
    "free": 3
   }
@@ -569,8 +608,8 @@
   "type": "Legendary Creature — Human Warrior Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 135,
-  "pool_any": 343,
+  "pool_es": 139,
+  "pool_any": 352,
   "held_by": {
    "free": 1
   }
@@ -582,8 +621,34 @@
   "type": "Legendary Creature — Phyrexian Elf Warrior",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 127,
-  "pool_any": 323,
+  "pool_es": 131,
+  "pool_any": 333,
+  "held_by": {
+   "free": 1
+  }
+ },
+ {
+  "name": "Aya of Alexandria",
+  "oracle_id": "27b690f2-d7ce-43b6-8e8b-98a8ffe487bb",
+  "color_identity": "RW",
+  "type": "Legendary Creature — Human Assassin",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 128,
+  "pool_any": 349,
+  "held_by": {
+   "free": 1
+  }
+ },
+ {
+  "name": "Bayek of Siwa",
+  "oracle_id": "b0322e2e-e9f9-4fe2-a7a5-3e49665ad177",
+  "color_identity": "RW",
+  "type": "Legendary Creature — Human Assassin",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 128,
+  "pool_any": 349,
   "held_by": {
    "free": 1
   }
@@ -595,8 +660,8 @@
   "type": "Legendary Creature — Human Citizen Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 124,
-  "pool_any": 340,
+  "pool_es": 128,
+  "pool_any": 349,
   "held_by": {
    "free": 1
   }
@@ -608,8 +673,8 @@
   "type": "Legendary Creature — Human Rebel Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 124,
-  "pool_any": 340,
+  "pool_es": 128,
+  "pool_any": 349,
   "held_by": {
    "free": 1
   }
@@ -621,8 +686,8 @@
   "type": "Legendary Creature — Lobster Citizen",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 124,
-  "pool_any": 340,
+  "pool_es": 128,
+  "pool_any": 349,
   "held_by": {
    "toph-the-first-metalbender": 1
   }
@@ -634,8 +699,8 @@
   "type": "Legendary Creature — Human Artificer",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 124,
-  "pool_any": 340,
+  "pool_es": 128,
+  "pool_any": 349,
   "held_by": {
    "free": 1
   }
@@ -647,8 +712,8 @@
   "type": "Legendary Creature — Bear Spirit",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 118,
-  "pool_any": 324,
+  "pool_es": 123,
+  "pool_any": 333,
   "held_by": {
    "free": 1
   }
@@ -660,8 +725,8 @@
   "type": "Legendary Creature — Human Knight Rogue",
   "copies": 4,
   "spanish_copies": 0,
-  "pool_es": 118,
-  "pool_any": 324,
+  "pool_es": 123,
+  "pool_any": 333,
   "held_by": {
    "free": 4
   }
@@ -673,8 +738,8 @@
   "type": "Legendary Creature — Human Assassin Villain",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 118,
-  "pool_any": 324,
+  "pool_es": 123,
+  "pool_any": 333,
   "held_by": {
    "ezio-auditore-da-firenze": 1
   }
@@ -686,8 +751,8 @@
   "type": "Legendary Creature — Dinosaur Vampire",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 112,
-  "pool_any": 314,
+  "pool_es": 116,
+  "pool_any": 321,
   "held_by": {
    "free": 1
   }
@@ -699,8 +764,8 @@
   "type": "Legendary Creature — Human Warrior Ally",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 112,
-  "pool_any": 314,
+  "pool_es": 116,
+  "pool_any": 321,
   "held_by": {
    "free": 2
   }
@@ -712,50 +777,11 @@
   "type": "Legendary Creature — Human Assassin",
   "copies": 3,
   "spanish_copies": 0,
-  "pool_es": 109,
-  "pool_any": 332,
+  "pool_es": 113,
+  "pool_any": 338,
   "held_by": {
    "ezio-auditore-da-firenze": 1,
    "free": 2
-  }
- },
- {
-  "name": "Aveline de Grandpré",
-  "oracle_id": "5c8c4d53-f364-40da-989b-cfe1e3f79b7d",
-  "color_identity": "BG",
-  "type": "Legendary Creature — Human Assassin",
-  "copies": 2,
-  "spanish_copies": 0,
-  "pool_es": 109,
-  "pool_any": 324,
-  "held_by": {
-   "free": 2
-  }
- },
- {
-  "name": "Cleopatra, Exiled Pharaoh",
-  "oracle_id": "e7a80464-1522-48d7-bf82-f9894f5c3ae0",
-  "color_identity": "BG",
-  "type": "Legendary Creature — Human Noble",
-  "copies": 1,
-  "spanish_copies": 0,
-  "pool_es": 109,
-  "pool_any": 324,
-  "held_by": {
-   "free": 1
-  }
- },
- {
-  "name": "Long Feng, Grand Secretariat",
-  "oracle_id": "9bf9fe83-b0df-4ef8-ac54-c0d223d4e410",
-  "color_identity": "BG",
-  "type": "Legendary Creature — Human Advisor",
-  "copies": 3,
-  "spanish_copies": 0,
-  "pool_es": 109,
-  "pool_any": 324,
-  "held_by": {
-   "free": 3
   }
  },
  {
@@ -765,8 +791,8 @@
   "type": "Legendary Creature — Human Noble",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 109,
-  "pool_any": 332,
+  "pool_es": 113,
+  "pool_any": 338,
   "held_by": {
    "fire-lord-azula": 1
   }
@@ -778,8 +804,8 @@
   "type": "Legendary Creature — Demon Mercenary",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 109,
-  "pool_any": 332,
+  "pool_es": 113,
+  "pool_any": 338,
   "held_by": {
    "free": 1
   }
@@ -791,8 +817,8 @@
   "type": "Legendary Creature — Human Soldier",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 109,
-  "pool_any": 332,
+  "pool_es": 113,
+  "pool_any": 338,
   "held_by": {
    "free": 1
   }
@@ -804,10 +830,49 @@
   "type": "Legendary Creature — Human Rogue",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 109,
+  "pool_es": 113,
+  "pool_any": 338,
+  "held_by": {
+   "free": 1
+  }
+ },
+ {
+  "name": "Aveline de Grandpré",
+  "oracle_id": "5c8c4d53-f364-40da-989b-cfe1e3f79b7d",
+  "color_identity": "BG",
+  "type": "Legendary Creature — Human Assassin",
+  "copies": 2,
+  "spanish_copies": 0,
+  "pool_es": 112,
+  "pool_any": 332,
+  "held_by": {
+   "free": 2
+  }
+ },
+ {
+  "name": "Cleopatra, Exiled Pharaoh",
+  "oracle_id": "e7a80464-1522-48d7-bf82-f9894f5c3ae0",
+  "color_identity": "BG",
+  "type": "Legendary Creature — Human Noble",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 112,
   "pool_any": 332,
   "held_by": {
    "free": 1
+  }
+ },
+ {
+  "name": "Long Feng, Grand Secretariat",
+  "oracle_id": "9bf9fe83-b0df-4ef8-ac54-c0d223d4e410",
+  "color_identity": "BG",
+  "type": "Legendary Creature — Human Advisor",
+  "copies": 3,
+  "spanish_copies": 0,
+  "pool_es": 112,
+  "pool_any": 332,
+  "held_by": {
+   "free": 3
   }
  },
  {
@@ -817,8 +882,8 @@
   "type": "Legendary Creature — Human Peasant Ally",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 102,
-  "pool_any": 218,
+  "pool_es": 105,
+  "pool_any": 226,
   "held_by": {
    "free": 2
   }
@@ -830,8 +895,8 @@
   "type": "Legendary Creature — Human Wizard",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 102,
-  "pool_any": 218,
+  "pool_es": 105,
+  "pool_any": 226,
   "held_by": {
    "free": 1
   }
@@ -843,8 +908,8 @@
   "type": "Legendary Creature — Human Artificer",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 102,
-  "pool_any": 218,
+  "pool_es": 105,
+  "pool_any": 226,
   "held_by": {
    "free": 1
   }
@@ -856,8 +921,8 @@
   "type": "Legendary Creature — Human Advisor Ally",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 102,
-  "pool_any": 218,
+  "pool_es": 105,
+  "pool_any": 226,
   "held_by": {
    "free": 2
   }
@@ -869,8 +934,8 @@
   "type": "Legendary Creature — Shapeshifter",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 102,
-  "pool_any": 218,
+  "pool_es": 105,
+  "pool_any": 226,
   "held_by": {
    "free": 1
   }
@@ -882,8 +947,8 @@
   "type": "Legendary Creature — Serpent",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 102,
-  "pool_any": 218,
+  "pool_es": 105,
+  "pool_any": 226,
   "held_by": {
    "free": 1
   }
@@ -895,8 +960,8 @@
   "type": "Legendary Creature — Human Performer Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 102,
-  "pool_any": 218,
+  "pool_es": 105,
+  "pool_any": 226,
   "held_by": {
    "free": 1
   }
@@ -908,8 +973,8 @@
   "type": "Legendary Creature — Human Wizard",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 102,
-  "pool_any": 218,
+  "pool_es": 105,
+  "pool_any": 226,
   "held_by": {
    "ezio-auditore-da-firenze": 1
   }
@@ -921,8 +986,8 @@
   "type": "Legendary Creature — Spirit Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 102,
-  "pool_any": 218,
+  "pool_es": 105,
+  "pool_any": 226,
   "held_by": {
    "free": 1
   }
@@ -934,8 +999,8 @@
   "type": "Legendary Creature — Human Noble Ally",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 101,
-  "pool_any": 322,
+  "pool_es": 104,
+  "pool_any": 327,
   "held_by": {
    "toph-the-first-metalbender": 1,
    "free": 1
@@ -948,8 +1013,8 @@
   "type": "Legendary Creature — Elemental",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 101,
-  "pool_any": 322,
+  "pool_es": 104,
+  "pool_any": 327,
   "held_by": {
    "free": 1
   }
@@ -961,8 +1026,8 @@
   "type": "Legendary Creature — Kavu Pilot",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 101,
-  "pool_any": 322,
+  "pool_es": 104,
+  "pool_any": 327,
   "held_by": {
    "toph-the-first-metalbender": 1
   }
@@ -974,8 +1039,8 @@
   "type": "Legendary Creature — Human Warrior Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 101,
-  "pool_any": 322,
+  "pool_es": 104,
+  "pool_any": 327,
   "held_by": {
    "toph-the-first-metalbender": 1
   }
@@ -987,8 +1052,8 @@
   "type": "Legendary Creature — Human Noble Ally",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 101,
-  "pool_any": 322,
+  "pool_es": 104,
+  "pool_any": 327,
   "held_by": {
    "free": 2
   }
@@ -1000,8 +1065,8 @@
   "type": "Legendary Creature — Human Avatar Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 86,
-  "pool_any": 203,
+  "pool_es": 89,
+  "pool_any": 208,
   "held_by": {
    "free": 1
   }
@@ -1013,8 +1078,8 @@
   "type": "Legendary Creature — Bison Ally",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 86,
-  "pool_any": 203,
+  "pool_es": 89,
+  "pool_any": 208,
   "held_by": {
    "free": 2
   }
@@ -1026,8 +1091,8 @@
   "type": "Legendary Creature — Bison Ally",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 86,
-  "pool_any": 203,
+  "pool_es": 89,
+  "pool_any": 208,
   "held_by": {
    "free": 2
   }
@@ -1039,8 +1104,8 @@
   "type": "Legendary Creature — Bison Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 86,
-  "pool_any": 203,
+  "pool_es": 89,
+  "pool_any": 208,
   "held_by": {
    "free": 1
   }
@@ -1052,8 +1117,8 @@
   "type": "Legendary Creature — Human Warrior Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 86,
-  "pool_any": 203,
+  "pool_es": 89,
+  "pool_any": 208,
   "held_by": {
    "free": 1
   }
@@ -1065,8 +1130,21 @@
   "type": "Legendary Creature — Human Warrior Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 86,
-  "pool_any": 203,
+  "pool_es": 89,
+  "pool_any": 208,
+  "held_by": {
+   "free": 1
+  }
+ },
+ {
+  "name": "Layla Hassan",
+  "oracle_id": "e27feb69-3120-4e8d-8ee6-0f87b58e2ae3",
+  "color_identity": "W",
+  "type": "Legendary Creature — Human Assassin",
+  "copies": 1,
+  "spanish_copies": 0,
+  "pool_es": 89,
+  "pool_any": 208,
   "held_by": {
    "free": 1
   }
@@ -1078,8 +1156,8 @@
   "type": "Legendary Creature — Lemur Bat Ally",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 86,
-  "pool_any": 203,
+  "pool_es": 89,
+  "pool_any": 208,
   "held_by": {
    "free": 2
   }
@@ -1091,8 +1169,8 @@
   "type": "Legendary Creature — Lemur Bat Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 86,
-  "pool_any": 203,
+  "pool_es": 89,
+  "pool_any": 208,
   "held_by": {
    "free": 1
   }
@@ -1104,8 +1182,8 @@
   "type": "Legendary Creature — Bird Scout",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 86,
-  "pool_any": 203,
+  "pool_es": 89,
+  "pool_any": 208,
   "held_by": {
    "free": 1
   }
@@ -1117,8 +1195,8 @@
   "type": "Legendary Creature — Human Warrior Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 86,
-  "pool_any": 203,
+  "pool_es": 89,
+  "pool_any": 208,
   "held_by": {
    "free": 1
   }
@@ -1130,8 +1208,8 @@
   "type": "Legendary Creature — Human Noble",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 81,
-  "pool_any": 209,
+  "pool_es": 83,
+  "pool_any": 214,
   "held_by": {
    "free": 2
   }
@@ -1143,8 +1221,8 @@
   "type": "Legendary Creature — Human Assassin",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 81,
-  "pool_any": 209,
+  "pool_es": 83,
+  "pool_any": 214,
   "held_by": {
    "free": 1,
    "ezio-auditore-da-firenze": 1
@@ -1157,8 +1235,8 @@
   "type": "Legendary Creature — Human Assassin",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 81,
-  "pool_any": 209,
+  "pool_es": 83,
+  "pool_any": 214,
   "held_by": {
    "ezio-auditore-da-firenze": 1,
    "free": 1
@@ -1171,8 +1249,8 @@
   "type": "Legendary Creature — Human Mercenary",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 81,
-  "pool_any": 209,
+  "pool_es": 83,
+  "pool_any": 214,
   "held_by": {
    "free": 2
   }
@@ -1184,8 +1262,8 @@
   "type": "Legendary Creature — Human Assassin",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 81,
-  "pool_any": 209,
+  "pool_es": 83,
+  "pool_any": 214,
   "held_by": {
    "ezio-auditore-da-firenze": 1
   }
@@ -1197,8 +1275,8 @@
   "type": "Legendary Creature — Human Berserker",
   "copies": 3,
   "spanish_copies": 0,
-  "pool_es": 78,
-  "pool_any": 207,
+  "pool_es": 80,
+  "pool_any": 210,
   "held_by": {
    "free": 3
   }
@@ -1210,8 +1288,8 @@
   "type": "Legendary Creature — Human Assassin",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 78,
-  "pool_any": 207,
+  "pool_es": 80,
+  "pool_any": 210,
   "held_by": {
    "free": 2
   }
@@ -1223,8 +1301,8 @@
   "type": "Legendary Creature — Human Villain",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 78,
-  "pool_any": 207,
+  "pool_es": 80,
+  "pool_any": 210,
   "held_by": {
    "fire-lord-azula": 1
   }
@@ -1236,8 +1314,8 @@
   "type": "Legendary Creature — Human Barbarian",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 78,
-  "pool_any": 207,
+  "pool_es": 80,
+  "pool_any": 210,
   "held_by": {
    "fire-lord-azula": 1
   }
@@ -1249,8 +1327,8 @@
   "type": "Legendary Creature — Human Noble Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 78,
-  "pool_any": 207,
+  "pool_es": 80,
+  "pool_any": 210,
   "held_by": {
    "free": 1
   }
@@ -1262,8 +1340,8 @@
   "type": "Legendary Creature — Human Noble",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 78,
-  "pool_any": 207,
+  "pool_es": 80,
+  "pool_any": 210,
   "held_by": {
    "free": 1
   }
@@ -1275,8 +1353,8 @@
   "type": "Legendary Creature — Minotaur Warrior",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 78,
-  "pool_any": 207,
+  "pool_es": 80,
+  "pool_any": 210,
   "held_by": {
    "free": 1
   }
@@ -1288,8 +1366,8 @@
   "type": "Legendary Creature — Dragon",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 78,
-  "pool_any": 207,
+  "pool_es": 80,
+  "pool_any": 210,
   "held_by": {
    "free": 1
   }
@@ -1301,8 +1379,8 @@
   "type": "Legendary Creature — Human Performer",
   "copies": 3,
   "spanish_copies": 0,
-  "pool_es": 78,
-  "pool_any": 207,
+  "pool_es": 80,
+  "pool_any": 210,
   "held_by": {
    "free": 3
   }
@@ -1314,8 +1392,8 @@
   "type": "Legendary Creature — Human Soldier",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 78,
-  "pool_any": 207,
+  "pool_es": 80,
+  "pool_any": 210,
   "held_by": {
    "free": 1
   }
@@ -1327,8 +1405,8 @@
   "type": "Legendary Creature — Human Noble",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 78,
-  "pool_any": 207,
+  "pool_es": 80,
+  "pool_any": 210,
   "held_by": {
    "free": 1
   }
@@ -1340,8 +1418,8 @@
   "type": "Legendary Creature — Insect Beast",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 76,
-  "pool_any": 203,
+  "pool_es": 78,
+  "pool_any": 207,
   "held_by": {
    "free": 2
   }
@@ -1353,8 +1431,8 @@
   "type": "Legendary Creature — Elemental",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 76,
-  "pool_any": 203,
+  "pool_es": 78,
+  "pool_any": 207,
   "held_by": {
    "toph-the-first-metalbender": 1
   }
@@ -1366,8 +1444,8 @@
   "type": "Legendary Creature — Human Noble Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 76,
-  "pool_any": 203,
+  "pool_es": 78,
+  "pool_any": 207,
   "held_by": {
    "free": 1
   }
@@ -1379,8 +1457,8 @@
   "type": "Legendary Creature — Human Noble Ally",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 76,
-  "pool_any": 203,
+  "pool_es": 78,
+  "pool_any": 207,
   "held_by": {
    "free": 2
   }
@@ -1392,8 +1470,8 @@
   "type": "Legendary Creature — Ape Goat",
   "copies": 3,
   "spanish_copies": 0,
-  "pool_es": 76,
-  "pool_any": 203,
+  "pool_es": 78,
+  "pool_any": 207,
   "held_by": {
    "free": 3
   }
@@ -1405,8 +1483,8 @@
   "type": "Legendary Creature — Human Peasant Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 76,
-  "pool_any": 203,
+  "pool_es": 78,
+  "pool_any": 207,
   "held_by": {
    "toph-the-first-metalbender": 1
   }
@@ -1418,8 +1496,8 @@
   "type": "Legendary Creature — Human Warrior Performer",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 76,
-  "pool_any": 203,
+  "pool_es": 78,
+  "pool_any": 207,
   "held_by": {
    "free": 1
   }
@@ -1431,8 +1509,8 @@
   "type": "Legendary Creature — Human Noble Ally",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 76,
-  "pool_any": 203,
+  "pool_es": 78,
+  "pool_any": 207,
   "held_by": {
    "free": 1
   }
@@ -1444,8 +1522,8 @@
   "type": "Legendary Creature — Elemental",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 76,
-  "pool_any": 203,
+  "pool_es": 78,
+  "pool_any": 207,
   "held_by": {
    "free": 1
   }
@@ -1457,8 +1535,8 @@
   "type": "Legendary Creature — Human Warrior Ally",
   "copies": 2,
   "spanish_copies": 0,
-  "pool_es": 76,
-  "pool_any": 203,
+  "pool_es": 78,
+  "pool_any": 207,
   "held_by": {
    "toph-the-first-metalbender": 1,
    "free": 1
@@ -1471,8 +1549,8 @@
   "type": "Legendary Creature — God Artificer",
   "copies": 1,
   "spanish_copies": 0,
-  "pool_es": 54,
-  "pool_any": 103,
+  "pool_es": 55,
+  "pool_any": 105,
   "held_by": {
    "free": 1
   }

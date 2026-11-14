@@ -1,6 +1,6 @@
-# Bracket check: spanish-deck (PASS)
+# Bracket check: spanish-deck (FAIL)
 
-Target Bracket 3; floor found 1; 100 cards, 100 recognized.
+Target Bracket 3; floor found 1; 99 cards, 99 recognized.
 
 - Game Changers (0): none
 - Extra-turn cards (0): none
@@ -12,7 +12,7 @@ Target Bracket 3; floor found 1; 100 cards, 100 recognized.
 
 ## Rejections
 
-- none
+- deck has 99 cards, expected 100
 
 ## Notes to read
 

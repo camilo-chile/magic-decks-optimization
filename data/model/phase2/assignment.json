@@ -245,8 +245,18 @@
      "name": "Contentious Plan",
      "oracle_id": "2fc6de19-9d04-422b-90bc-eee2f9f8c84c",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "war",
+       "number": "46",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Coretapper",
@@ -703,8 +713,18 @@
      "name": "Meticulous Excavation",
      "oracle_id": "6dff1d15-604f-4eea-9b7a-0c0ba6afbbac",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "bro",
+       "number": "16",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Mountain",
@@ -914,8 +934,18 @@
      "name": "Relic of Legends",
      "oracle_id": "4d9554de-c005-41ab-a941-39328ebff9de",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "dmu",
+       "number": "236",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Resourceful Defense",
@@ -1173,13 +1203,6 @@
      ]
     },
     {
-     "name": "Talisman of Conviction",
-     "oracle_id": "6c326439-5620-4ec6-a56a-fe9c3d5d2a46",
-     "qty": 1,
-     "given": 0,
-     "picks": []
-    },
-    {
      "name": "Tekuthal, Inquiry Dominus",
      "oracle_id": "4716ab91-30e6-4c63-8389-a9db8f9414d8",
      "qty": 1,
@@ -1302,8 +1325,18 @@
      "name": "Trophy Mage",
      "oracle_id": "08afc0d7-192f-4ab6-b6a0-c4265cf5e225",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "ddu",
+       "number": "42",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Universal Surveillance",
@@ -1343,8 +1376,18 @@
      "name": "Volt Charge",
      "oracle_id": "c57907d1-c5a1-45c7-80a8-38fedf86dd19",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "one",
+       "number": "155",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Waterbending Lesson",
@@ -1364,44 +1407,7 @@
      ]
     }
    ],
-   "missing": [
-    {
-     "name": "Contentious Plan",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Meticulous Excavation",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Relic of Legends",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Talisman of Conviction",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Trophy Mage",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Volt Charge",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    }
-   ],
+   "missing": [],
    "proxy_commanders": []
   },
   "toph-the-first-metalbender": {
@@ -2100,8 +2106,18 @@
      "name": "Make a Stand",
      "oracle_id": "531f78d5-5004-4b02-99c7-b390cb342fd9",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "cmr",
+       "number": "32",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Mishra's Bauble",
@@ -2269,8 +2285,18 @@
      "name": "Return to Nature",
      "oracle_id": "777b8ec4-a783-4297-96b7-4f200d0eb734",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "thb",
+       "number": "197",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Roiling Regrowth",
@@ -2752,8 +2778,18 @@
      "name": "Wood Elves",
      "oracle_id": "8973bd99-20f8-4867-90ef-50392147ee1b",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "hob",
+       "number": "142",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Wrenn and Realmbreaker",
@@ -2790,26 +2826,7 @@
      ]
     }
    ],
-   "missing": [
-    {
-     "name": "Make a Stand",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Return to Nature",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Wood Elves",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    }
-   ],
+   "missing": [],
    "proxy_commanders": []
   },
   "fire-lord-azula": {
@@ -3704,15 +3721,35 @@
      "name": "Narset, Parter of Veils",
      "oracle_id": "ab26fbe2-e808-48b9-8d0d-3fbb6c3d554f",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "cmm",
+       "number": "853",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Negate",
      "oracle_id": "3407fe41-fdd3-4119-8f70-4bc4590a379f",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "mom",
+       "number": "68",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Nightscape Familiar",
@@ -3888,8 +3925,18 @@
      "name": "Shred Memory",
      "oracle_id": "16cae855-d93a-445d-9cac-dbc5a7c18cb1",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "rav",
+       "number": "105",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Smoldering Marsh",
@@ -3963,8 +4010,18 @@
      "name": "Spell Pierce",
      "oracle_id": "d64b0848-0193-4025-ba62-63ecd8fb9f50",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "soa",
+       "number": "23",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Storm-Kiln Artist",
@@ -4166,8 +4223,18 @@
      "name": "Thirst for Knowledge",
      "oracle_id": "939e6f71-185e-41f2-9d54-72cce06f1dce",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "neo",
+       "number": "85",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Thrill of Possibility",
@@ -4190,8 +4257,18 @@
      "name": "Turnabout",
      "oracle_id": "715d0777-4d36-463b-9102-6bb6bb00b7e9",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "dmr",
+       "number": "70",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Underground River",
@@ -4245,44 +4322,7 @@
      ]
     }
    ],
-   "missing": [
-    {
-     "name": "Narset, Parter of Veils",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Negate",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Shred Memory",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Spell Pierce",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Thirst for Knowledge",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Turnabout",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    }
-   ],
+   "missing": [],
    "proxy_commanders": []
   },
   "ezio-auditore-da-firenze": {
@@ -4326,8 +4366,18 @@
      "name": "Altaïr Ibn-La'Ahad",
      "oracle_id": "43dc4b0c-e437-4abc-a3fb-48bd3098de88",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "45",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Arcane Signet",
@@ -4401,22 +4451,52 @@
      "name": "Aya of Alexandria",
      "oracle_id": "27b690f2-d7ce-43b6-8e8b-98a8ffe487bb",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "48",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Basim Ibn Ishaq",
      "oracle_id": "8a70bde5-c514-4dcf-919a-48bdd1c17768",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "acr",
+       "number": "49",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Battlefield Forge",
      "oracle_id": "6b75b94e-83b7-457e-ac41-7ca90b5a59aa",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "65",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Bayek of Siwa",
@@ -4426,11 +4506,11 @@
      "picks": [
       {
        "language": "en",
-       "set": "",
-       "number": "",
-       "foil": "",
-       "condition": "",
-       "binder": "loan from the Standard decks",
+       "set": "acr",
+       "number": "142",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
        "qty": 1
       }
      ]
@@ -4609,8 +4689,18 @@
      "name": "Command Tower",
      "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "cmr",
+       "number": "350",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Concealed Courtyard",
@@ -4650,8 +4740,18 @@
      "name": "Diabolic Tutor",
      "oracle_id": "14589b6b-1814-46f9-a364-83cc15dacac2",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "pw24",
+       "number": "13",
+       "foil": "foil",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Dragonskull Summit",
@@ -4695,11 +4795,11 @@
      "picks": [
       {
        "language": "en",
-       "set": "",
-       "number": "",
-       "foil": "",
-       "condition": "",
-       "binder": "loan from the Standard decks",
+       "set": "acr",
+       "number": "17",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
        "qty": 1
       }
      ]
@@ -4834,8 +4934,18 @@
      "name": "Fellwar Stone",
      "oracle_id": "95560508-7ac9-4be9-8a3f-3c7d5b52807b",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "frc",
+       "number": "57",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Forest",
@@ -4892,8 +5002,18 @@
      "name": "Golgari Signet",
      "oracle_id": "1cf51f50-24e4-48d0-95b3-1dad3ffa4bf5",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "dsc",
+       "number": "246",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Hakoda, Selfless Commander",
@@ -4954,11 +5074,11 @@
      "picks": [
       {
        "language": "en",
-       "set": "",
-       "number": "",
-       "foil": "",
-       "condition": "",
-       "binder": "loan from the Standard decks",
+       "set": "acr",
+       "number": "216",
+       "foil": "etched",
+       "condition": "near_mint",
+       "binder": "English Cards",
        "qty": 1
       }
      ]
@@ -5124,11 +5244,11 @@
      "picks": [
       {
        "language": "en",
-       "set": "",
-       "number": "",
-       "foil": "",
-       "condition": "",
-       "binder": "loan from the Standard decks",
+       "set": "acr",
+       "number": "127",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
        "qty": 1
       }
      ]
@@ -5273,8 +5393,18 @@
      "name": "Orzhov Signet",
      "oracle_id": "de3dcb5d-775a-479f-99f5-d1883ed9b1b5",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "drc",
+       "number": "134",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Path of Ancestry",
@@ -5399,8 +5529,18 @@
      "name": "Ramses, Assassin Lord",
      "oracle_id": "170182ed-af1d-442a-8868-d74a96e17f03",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "dmc",
+       "number": "39",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Ratonhnhaké꞉ton",
@@ -5495,11 +5635,11 @@
      "picks": [
       {
        "language": "es",
-       "set": "MSC",
-       "number": "",
+       "set": "msc",
+       "number": "266",
        "foil": "normal",
        "condition": "near_mint",
-       "binder": "owed (not arrived yet)",
+       "binder": "Spanish Cards",
        "qty": 1
       }
      ]
@@ -5602,15 +5742,35 @@
      "name": "Swords to Plowshares",
      "oracle_id": "b1544f21-7e98-461b-aed5-e748b0168c52",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "blc",
+       "number": "109",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Talisman of Progress",
      "oracle_id": "00e35322-1a9a-41e3-9ce1-359c8eaa3bc7",
      "qty": 1,
-     "given": 0,
-     "picks": []
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "fic",
+       "number": "367",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
     },
     {
      "name": "Terminate",
@@ -5637,11 +5797,11 @@
      "picks": [
       {
        "language": "en",
-       "set": "",
-       "number": "",
-       "foil": "",
-       "condition": "",
-       "binder": "loan from the Standard decks",
+       "set": "dsk",
+       "number": "119",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
        "qty": 1
       }
      ]
@@ -5664,80 +5824,7 @@
      ]
     }
    ],
-   "missing": [
-    {
-     "name": "Altaïr Ibn-La'Ahad",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Aya of Alexandria",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Basim Ibn Ishaq",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Battlefield Forge",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Command Tower",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Diabolic Tutor",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Fellwar Stone",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Golgari Signet",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Orzhov Signet",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Ramses, Assassin Lord",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Swords to Plowshares",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    },
-    {
-     "name": "Talisman of Progress",
-     "needed": 1,
-     "given": 0,
-     "note": ""
-    }
-   ],
+   "missing": [],
    "proxy_commanders": [
     "Ezio Auditore da Firenze"
    ]
@@ -5750,6 +5837,13 @@
     "ezio-auditore-da-firenze",
     "fire-lord-azula",
     "spanish-deck",
+    "toph-the-first-metalbender"
+   ]
+  },
+  {
+   "name": "Battlefield Forge",
+   "decks": [
+    "ezio-auditore-da-firenze",
     "toph-the-first-metalbender"
    ]
   },
@@ -5787,6 +5881,7 @@
   {
    "name": "Command Tower",
    "decks": [
+    "ezio-auditore-da-firenze",
     "fire-lord-azula",
     "spanish-deck",
     "toph-the-first-metalbender"
@@ -5849,6 +5944,13 @@
    "decks": [
     "ezio-auditore-da-firenze",
     "fire-lord-azula"
+   ]
+  },
+  {
+   "name": "Negate",
+   "decks": [
+    "fire-lord-azula",
+    "spanish-deck"
    ]
   },
   {
@@ -5927,6 +6029,7 @@
   {
    "name": "Swords to Plowshares",
    "decks": [
+    "ezio-auditore-da-firenze",
     "spanish-deck",
     "toph-the-first-metalbender"
    ]
@@ -5939,6 +6042,13 @@
    ]
   },
   {
+   "name": "Thirst for Knowledge",
+   "decks": [
+    "fire-lord-azula",
+    "spanish-deck"
+   ]
+  },
+  {
    "name": "Waterbending Lesson",
    "decks": [
     "fire-lord-azula",
@@ -5946,5 +6056,7 @@
    ]
   }
  ],
- "problems": []
+ "problems": [
+  "spanish-deck: the list has 99 cards, not 100"
+ ]
 }
