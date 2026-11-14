@@ -40,6 +40,32 @@ in `.claude/skills/commander-deckbuilding/`: detail lives in `references/`, mach
    lists for every slot: they are welcome whenever the deck still breaks no Bracket 3 rule, and leaving out a stronger legal
    card needs a reason.
 
+## Champion standard (2026-11-08)
+
+Every build and review also applies `docs/research/commander-deckbuilding/champion-addendum-20261108.md` (rules R4 to R39,
+sourced, with a checklist of what a world-class multiplayer and high-power builder applies) and, for a known commander, its
+primer `docs/research/commander-deckbuilding/commanders/<slug>-primers-20261108.md` (strongest known lines, engines, ratios
+of Bracket 4 and cEDH lists, must-haves with pool status, traps, lines that break Bracket 3). These raise the bar; they never
+relax the Bracket 3 rules (step 12), the consistency gate (a floor), the language rules or the ban on reversible cards. Key
+steps, in order (addendum section 3):
+1. Read the primer, then **choose the win before the cards**: score each route on cards, mana on the win turn, tutor access,
+   pieces useful alone and failure points; no failure point (commander dead, wipe, counter, graveyard exile, artifact or
+   enchantment removal) may be shared by every route (R26, R28).
+2. Add the champion lines to the profile: 10+ cards that reach the primary route (pieces plus tutors, R18); a **win-turn
+   shield** of 3+ pieces at MV 2 or less or free (R24); 8+ spot answers with 5+ at MV 2 or less and 5+ instant, none above 3
+   mana unless it hits several permanents (R19); counters sized by role (R20); table-scaling draw (R16); 4+ rebuild pieces
+   for board decks (R32).
+3. Mana: lands + lasting ramp 46+ with lands at least two thirds (R8); at most 3 always-tapped lands (R10); non-Game-Changer
+   fast mana first (R9).
+4. Decide the three Game Changer slots by marginal wins for this plan (R34), then consider the non-GC high-power cards for
+   every slot (R36).
+5. Puzzle check of every card (alone, on the turn drawn, with which cards here), commander-centric count of 12 or fewer
+   blank-without-commander cards for engine commanders (R5), development before card advantage (R17), efficiency in the
+   last slots (R35).
+6. Test pass written in the build notes: 20 opening hands with the keep checklist (R33, target 85 %+ keeps with the free
+   mulligan), 5 goldfish games and 3 disrupted ones (R38), and the five-opponent gauntlet (R39), plus both reference boards
+   (step 7). Then the final cut pass on the 10 weakest cards (addendum section 3, step 10).
+
 ## 0. Inputs and outputs
 
 Inputs: the commander's exact Oracle text and rulings (Scryfall API), the card pool (what may be played), any lists the

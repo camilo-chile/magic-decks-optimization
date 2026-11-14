@@ -1,0 +1,201 @@
+{
+ "fetched_utc": "2026-11-09T10:16Z",
+ "store": "Rivendel El Concilio",
+ "cards": {
+  "Thirst for Knowledge": {
+   "es": {
+    "title": "Thirst for Knowledge #103",
+    "variant": "Español",
+    "language": "es",
+    "price_clp": 300,
+    "quantity": 2,
+    "url": "https://www.rivendelelconcilio.cl/thirst-for-knowledge-103"
+   },
+   "en": {
+    "title": "Thirst for Knowledge #079",
+    "variant": "esp",
+    "language": "en",
+    "price_clp": 400,
+    "quantity": 9,
+    "url": "https://www.rivendelelconcilio.cl/thirst-for-knowledge-079"
+   }
+  },
+  "Make a Stand": {
+   "es": {
+    "title": "Make a Stand #032",
+    "variant": "Español",
+    "language": "es",
+    "price_clp": 300,
+    "quantity": 2,
+    "url": "https://www.rivendelelconcilio.cl/make-a-stand-032"
+   },
+   "en": null
+  },
+  "Return to Nature": {
+   "es": {
+    "title": "Return to Nature #197",
+    "variant": "español no foil",
+    "language": "es",
+    "price_clp": 150,
+    "quantity": 7,
+    "url": "https://www.rivendelelconcilio.cl/return-to-nature-197"
+   },
+   "en": {
+    "title": "Return to Nature #195",
+    "variant": "ingles",
+    "language": "en",
+    "price_clp": 300,
+    "quantity": 4,
+    "url": "https://www.rivendelelconcilio.cl/return-to-nature-195"
+   }
+  },
+  "Negate": {
+   "es": {
+    "title": "Negate #071",
+    "variant": "español no foil",
+    "language": "es",
+    "price_clp": 300,
+    "quantity": 4,
+    "url": "https://www.rivendelelconcilio.cl/negate-071"
+   },
+   "en": {
+    "title": "Negate #069",
+    "variant": "ingles",
+    "language": "en",
+    "price_clp": 300,
+    "quantity": 4,
+    "url": "https://www.rivendelelconcilio.cl/negate-069"
+   }
+  },
+  "Volt Charge": {
+   "es": {
+    "title": "Volt Charge #155",
+    "variant": "Español",
+    "language": "es",
+    "price_clp": 200,
+    "quantity": 14,
+    "url": "https://www.rivendelelconcilio.cl/volt-charge-155"
+   },
+   "en": {
+    "title": "Volt Charge #155",
+    "variant": "ingles",
+    "language": "en",
+    "price_clp": 200,
+    "quantity": 2,
+    "url": "https://www.rivendelelconcilio.cl/volt-charge-155"
+   }
+  },
+  "Contentious Plan": {
+   "es": {
+    "title": "Contentious Plan #046",
+    "variant": "español no foil",
+    "language": "es",
+    "price_clp": 300,
+    "quantity": 1,
+    "url": "https://www.rivendelelconcilio.cl/contentious-plan-046"
+   },
+   "en": null
+  },
+  "Meticulous Excavation": {
+   "es": {
+    "title": "Meticulous Excavation #016",
+    "variant": "Español",
+    "language": "es",
+    "price_clp": 300,
+    "quantity": 16,
+    "url": "https://www.rivendelelconcilio.cl/meticulous-excavation-016"
+   },
+   "en": {
+    "title": "Meticulous Excavation #016",
+    "variant": "ingles",
+    "language": "en",
+    "price_clp": 300,
+    "quantity": 2,
+    "url": "https://www.rivendelelconcilio.cl/meticulous-excavation-016"
+   }
+  },
+  "Relic of Legends": {
+   "es": {
+    "title": "Relic of Legends #236",
+    "variant": "Español",
+    "language": "es",
+    "price_clp": 2500,
+    "quantity": 3,
+    "url": "https://www.rivendelelconcilio.cl/relic-of-legends-236"
+   },
+   "en": {
+    "title": "Relic of Legends #236",
+    "variant": "ingles",
+    "language": "en",
+    "price_clp": 2500,
+    "quantity": 11,
+    "url": "https://www.rivendelelconcilio.cl/relic-of-legends-236"
+   }
+  },
+  "Mystic Monastery": {
+   "es": {
+    "title": "Mystic Monastery #262",
+    "variant": "Español",
+    "language": "es",
+    "price_clp": 600,
+    "quantity": 3,
+    "url": "https://www.rivendelelconcilio.cl/mystic-monastery-262"
+   },
+   "en": {
+    "title": "Mystic Monastery #262",
+    "variant": "ingles",
+    "language": "en",
+    "price_clp": 600,
+    "quantity": 1,
+    "url": "https://www.rivendelelconcilio.cl/mystic-monastery-262"
+   }
+  },
+  "Prologue to Phyresis": {
+   "es": null,
+   "en": null
+  },
+  "Counterspell": {
+   "es": null,
+   "en": null
+  },
+  "Flux Channeler": {
+   "es": null,
+   "en": null
+  },
+  "Tribute Mage": {
+   "es": null,
+   "en": null
+  },
+  "Trophy Mage": {
+   "es": null,
+   "en": null
+  },
+  "Shred Memory": {
+   "es": null,
+   "en": null
+  },
+  "Turnabout": {
+   "es": null,
+   "en": null
+  },
+  "Spell Pierce": {
+   "es": null,
+   "en": {
+    "title": "Spell Pierce #350",
+    "variant": "Ingles FOIL",
+    "language": "en",
+    "price_clp": 2000,
+    "quantity": 3,
+    "url": "https://www.rivendelelconcilio.cl/spell-pierce-350"
+   }
+  },
+  "Talisman of Conviction": {
+   "es": null,
+   "en": null
+  },
+  "Command Tower": {
+   "es": null,
+   "en": null
+  }
+ }
+}

@@ -23,7 +23,7 @@ void (async () => {
   const wl = window.__wl;
   const names = window.name.split('|').filter(Boolean);
   wl.total = names.length;
-  const bad = /heavily|damaged|moderately|japan|japon|franc|french|german|alem|ital|portug|korean|coreano|chinese|chino|russian|ruso|phyrexian/i;
+  const bad = /damaged|japan|japon|franc|french|german|alem|ital|portug|korean|coreano|chinese|chino|russian|ruso|phyrexian/i;
   const skipT = /\bart (card|series)\b|\((japanese|japon[eé]s|french|german|italian|portuguese|korean|chinese|russian)\)|\bjapanese\b/i;
   const FIN = new Set(['regular', 'foil', 'borderless', 'showcase', 'extended', 'etched', 'retro', 'full', 'art',
     'promo', 'surge', 'serialized', 'normal', 'non-foil', 'nonfoil']);

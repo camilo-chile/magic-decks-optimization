@@ -29,6 +29,10 @@ the next build round. Newest first.
 | Kilo, Ezio | Swords to Plowshares (2026-11-08) | Ezio (bilingual) takes a bought English copy; Ezio's Spanish copy (FRC 37) goes to Kilo. |
 | All | Standard decks' replacements (2026-11-08) | Any printing, version or language is fine (they could even be proxies); never ask about them. Bayek and Layla Showcase and a Spanish Achilles are fine. |
 | All | Salt floors raised (2026-11-08) | Azula 7.0, Toph 7.0, Ezio 6.5 (7.0 wished, power and consistency first), Kilo 4.5. Floors must be met but stay secondary: a deck below its floor may stay as built if Claude argues it is as powerful as possible and Salt underrates it; the owner grants the exception. |
+| All | Final rebuild (2026-11-08) | The LAST iteration before buying: rebuild the four decks from scratch as the greatest Commander champion would, with all the project's knowledge and the internet; priority Ezio, Azula, Toph, then Kilo. Brief: docs/proposals/final-rebuild-brief-20261108.md. |
+| All | Card condition (2026-11-08) | Anything better than Damaged is fine (NM, LP, MP, HP). Ramses and Diabolic Tutor: buy the variant under 3,000 in any such condition. |
+| All | Budget (2026-11-08, corrected) | UNCHANGED: 10,000 shared by Ezio, Azula and Toph; Kilo 20,000 all-in at most; extensions only when the power is worth it, only cards under 3,000 and only in the three stores. HARD CAP: the whole purchase (4 decks, loan replacements, variants, stock cards, basics, tokens, shipping) at most 100,000 CLP; aim well below. Claude had misread "un gran presupuesto" as no cap; the owner corrected it. |
+| Kilo | Budget (2026-11-08) | At most 20,000 CLP all-in (cards, loans, tokens, extras), first said 10,000 and raised to 20,000 the same day so Kilo does not lose what it had. |
 | All | Budgets | The 10,000 CLP are ONLY for deck upgrades. Everything else (loan replacements, the real Ezio, full-art basics, stock cards, tokens, Swiftfoot Boots extra) is separate, priced line by line, and the owner evaluates each line. |
 
 ## 2026-11-02 (fourth round)

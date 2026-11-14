@@ -1,0 +1,10 @@
+07:14:00  reading the Scryfall oracle cache
+07:14:03  reading the owned tokens (Scryfall, one card per token row)
+07:14:19  deck 1/4: Azula  ETA ?
+07:14:21  deck 2/4: Toph  ETA 1m02s
+07:14:24  deck 3/4: Ezio  ETA 0m23s
+07:14:25  deck 4/4: Kilo  ETA 0m08s
+07:14:26  15 tokens, 3 missing -> decks/reports/tokens-20261109.md
+07:14:26    MISSING: Assassin 1/1 B | {'Ezio': ['Aya of Alexandria', 'Ratonhnhaké꞉ton']}
+07:14:26    MISSING: Assassin 1/1 B | {'Ezio': ['Queen Marchesa']}
+07:14:26    MISSING: Bird 2/2 U | {'Azula': ['Swan Song']}

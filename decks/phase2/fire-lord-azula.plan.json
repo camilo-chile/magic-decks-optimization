@@ -1,76 +1,82 @@
 {
- "plan": "Fire Lord Azula attacks every turn (haste and hexproof from equipment, counterspells and redirects behind her); while she attacks she copies every instant and flash spell cast with her firebending mana and the cost reducers, so each draw, removal and burn spell is a two-for-one, Horizon Stone, Electro and Ozai keep the leftover window mana, and she closes against all three opponents with copied multi-target X burn (Comet Storm, Electrodominance) and with combat by herself, Helm of the Host copies of her, extra combats (Overpowering Attack, Godo) and Ozai; copied pump tricks make blocking her a losing trade.",
- "backup": "When Azula is answered or the board stalls, the same pieces close without her: Thermo-Alchemist pings every opponent on each instant, Comet Storm and Electrodominance are cast uncopied with the mana Horizon Stone stores, Archmage Emeritus, Storm-Kiln Artist and Black Market Connections keep the hand and the mana full, and Ozai attacks with haste.",
+ "plan": "Fire Lord Azula attacks every turn from turn 4 (haste and hexproof from equipment, a shield of one- and two-mana counters and free redirects held behind her); while she attacks she copies every instant and flash spell, so draw, removal and dig are two-for-ones, and the win comes in one protected combat: a three-card loop with her (Narset's Reversal with Turnabout, Frantic Search or Storm-Kiln Artist; Snap with Dualcaster Mage) makes unbounded mana or casts (the Frantic Search loop is library-bound: mana and dig, not a kill alone), which a multikicked, copied Comet Storm or Thermo-Alchemist pings turn into lethal damage to each opponent.",
+ "backup": "Without a loop the same window cards win fairly: Turnabout, Snap, Frantic Search, Big Score and Storm-Kiln Artist fuel a copied Comet Storm or Electrodominance (2X to each opponent); with Azula answered, Godo fetches Helm of the Host for unlimited combats, Ozai attacks with haste, and Comet Storm is cast uncopied with the mana Horizon Stone and Turnabout bank.",
  "archetype": "spellslinger",
  "secondary": "combat_attackers",
  "secondary_role": "modifier",
  "commander_dependence": "attack_engine",
  "commander_mv": 4,
  "win_routes": {
-  "copied burn to each opponent": {
+  "Azula three-card loops": {
+   "cards": [
+    "Narset's Reversal",
+    "Frantic Search",
+    "Turnabout",
+    "Dualcaster Mage",
+    "Snap",
+    "Thermo-Alchemist",
+    "Storm-Kiln Artist"
+   ],
+   "axis": "noncombat",
+   "vs_three": "While Azula attacks (she need not connect): Narset's Reversal with Turnabout (unbounded mana), with Frantic Search (library-bound, about +1 mana and four cards seen a loop, at most about 26 Thermo pings: NOT a kill alone, it digs and funds Comet Storm) or with Storm-Kiln Artist (unbounded Treasures); or Snap with Dualcaster Mage (unbounded untapped lands and Dualcaster tokens). Thermo-Alchemist untaps on every cast and pings EACH opponent per cast; unbounded mana goes into Comet Storm kicked twice and copied, X lethal to all three at once. Mystical Teachings (copied in combat: two pieces) and Solve the Equation find every piece, Shred Memory transmutes for the Reversal or Snap; Narset, Parter of Veils, Gleam of Death, Brainstorm and Thirst for Knowledge dig. Never loop Frantic Search with Archmage Emeritus out (mandatory draws)."
+  },
+  "Copied X burn to each opponent": {
    "cards": [
     "Comet Storm",
     "Electrodominance"
    ],
    "axis": "noncombat",
-   "vs_three": "Comet Storm multikicked twice names all three opponents and Azula copies it (2X to each); Horizon Stone stores colorless mana between turns so X reaches 8 to 12, and the loops of the third route make X as large as needed; Mystical Teachings and Solve the Equation fetch it; Electrodominance copied adds 2X to one or two players plus two free spells. Recast for free an X spell has X=0: never do that. None of it needs combat damage through blockers."
+   "vs_three": "Comet Storm kicked twice names all three opponents; Azula copies it, 2X to each. Turnabout copied in combat untaps every land twice, Horizon Stone and Electro keep mana from earlier steps and turns: X of 8 to 12 by turn 7. Without Azula it is cast once with banked mana. Electrodominance copied adds 2X to one or two players and casts two free spells. No combat damage needed."
   },
-  "Azula and her copies in combat": {
+  "Azula, Helm and Godo in combat": {
    "cards": [
     "Fire Lord Azula",
-    "Ozai, the Phoenix King",
     "Helm of the Host",
     "Godo, Bandit Warlord",
-    "Overpowering Attack"
+    "Ozai, the Phoenix King"
    ],
    "axis": "combat",
-   "vs_three": "Overpowering Attack (freerunning {2}{R} once Azula has dealt combat damage) and Godo give extra combats, each a new firebending and a new round of copies; Helm of the Host makes a hasty nonlegendary Azula every combat, so two or three Azulas attack different opponents; Godo with Helm gives unlimited combats WITHOUT Azula (two-card late line, the route's redundancy when she is answered); Ozai (7/7 trample, haste, flying and indestructible with six floating mana) hits another player; copied pump tricks and removal after blocks make blocking a losing trade."
-  },
-  "Azula loops for unbounded mana": {
-   "cards": [
-    "Narset's Reversal",
-    "Frantic Search",
-    "Dualcaster Mage",
-    "Snap",
-    "Thermo-Alchemist"
-   ],
-   "axis": "noncombat",
-   "vs_three": "While Azula attacks: (a) Dualcaster Mage plus Snap: Snap stays on the stack, each Dualcaster cast is copied, both bodies copy Snap, four lands untap for a 3-mana spell: unbounded mana and Dualcaster tokens; (b) Frantic Search plus Narset's Reversal (the Reversal's copy returns the Reversal itself, its copy returns Frantic Search): +1 mana per loop, +3 with the two reducers, about a dozen loops before the library runs low (never loop with Archmage Emeritus out: it decks you). Thermo-Alchemist untaps on each cast of loop (b) and pings all three opponents twice per loop; the unbounded mana of (a) goes into Comet Storm with X and kicks for all three. Mystical Teachings and Solve the Equation fetch every loop piece."
+   "vs_three": "Helm of the Host on Azula makes a hasty Azula every combat (each spell copied twice, attacks spread across opponents); Godo puts Helm onto the battlefield and, with Helm equipped, gives unlimited combats with growing hasty Godo tokens WITHOUT Azula (late two-card line, the route that survives her removal); Ozai hits another player with 7 trample, indestructible with six floating mana. Copied Fists of Flame and removal after blocks make blocking a losing trade; Rogue's Passage makes her unblockable."
   }
  },
  "functions": {
   "spell_density": {
    "cards": [
-    "Fact or Fiction",
-    "Pull from Tomorrow",
-    "Big Score",
-    "Thrill of Possibility",
-    "Dualcaster Mage",
-    "Torrential Gearhulk",
-    "Octopus Form",
-    "Deflecting Swat",
-    "Narset's Reversal",
-    "Negate",
-    "Undying Malice",
-    "Terminate",
-    "Hero's Downfall",
-    "Go for the Throat",
-    "Chaos Warp",
-    "Abrade",
-    "Lightning Strike",
     "Snap",
-    "Amphibian Downpour",
+    "Narset's Reversal",
+    "Frantic Search",
+    "Turnabout",
+    "Dualcaster Mage",
     "Comet Storm",
     "Electrodominance",
-    "Opt",
-    "Hidden Footblade",
     "Mystical Teachings",
-    "Frantic Search",
-    "Fists of Flame",
     "Brainstorm",
-    "Cunning Maneuver",
+    "Thirst for Knowledge",
+    "Big Score",
+    "Thrill of Possibility",
+    "Fact or Fiction",
+    "Pull from Tomorrow",
     "Abandon Attachments",
-    "Fatal Push"
+    "Fists of Flame",
+    "Expedite",
+    "Shred Memory",
+    "Fatal Push",
+    "Firebending Lesson",
+    "Terminate",
+    "Go for the Throat",
+    "Hero's Downfall",
+    "Abrade",
+    "Chaos Warp",
+    "Failed Fording",
+    "Spell Pierce",
+    "Swan Song",
+    "Negate",
+    "Octopus Form",
+    "Deflecting Swat",
+    "Redirect Lightning",
+    "Undying Malice",
+    "Amphibian Downpour",
+    "Hidden Footblade"
    ],
    "needed_by": "early"
   },
@@ -81,9 +87,9 @@
     "Storm-Kiln Artist",
     "Dualcaster Mage",
     "Electro, Assaulting Battery",
-    "Torrential Gearhulk",
     "Helm of the Host",
-    "Narset's Reversal"
+    "Narset's Reversal",
+    "Thermo-Alchemist"
    ],
    "needed_by": "late"
   },
@@ -96,10 +102,9 @@
     "Ritual of Soot",
     "Rogue's Passage",
     "Haunted Cloak",
-    "Frostcliff Siege",
-    "Ozai, the Phoenix King",
+    "Fists of Flame",
     "Electro, Assaulting Battery",
-    "Malcolm, the Eyes"
+    "Ozai, the Phoenix King"
    ],
    "needed_by": "early"
   },
@@ -111,13 +116,13 @@
     "Chaos Warp",
     "Amphibian Downpour",
     "Snap",
-    "Lightning Strike",
+    "Failed Fording",
     "Electrodominance",
     "Comet Storm",
     "Rogue's Passage",
     "Fists of Flame",
-    "Fatal Push",
-    "Cunning Maneuver"
+    "Firebending Lesson",
+    "Champion's Helm"
    ],
    "needed_by": "early"
   },
@@ -126,12 +131,11 @@
     "Horizon Stone",
     "Electro, Assaulting Battery",
     "Ozai, the Phoenix King",
-    "Zuko, Exiled Prince",
     "Storm-Kiln Artist",
-    "Azula, On the Hunt",
     "Big Score",
     "Frantic Search",
     "Snap",
+    "Turnabout",
     "Fire Nation Palace"
    ],
    "needed_by": "late"
@@ -142,42 +146,39 @@
    "Swiftfoot Boots",
    "Haunted Cloak",
    "Hidden Footblade",
-   "Frostcliff Siege"
+   "Expedite"
   ],
   "team_evasion": [
    "Rogue's Passage",
    "Haunted Cloak",
-   "Frostcliff Siege",
-   "Ozai, the Phoenix King",
    "Fists of Flame",
-   "Malcolm, the Eyes"
+   "Ozai, the Phoenix King",
+   "Electro, Assaulting Battery"
   ],
   "defense_while_tapped": [
    "Propaganda",
    "Haunted Cloak",
    "Thermo-Alchemist",
-   "Octopus Form",
-   "Nightscape Familiar"
+   "Nightscape Familiar",
+   "Octopus Form"
   ],
   "combat_draw": [
    "Archmage Emeritus",
-   "Azula, On the Hunt",
-   "Frostcliff Siege",
    "Fists of Flame",
-   "Zuko, Exiled Prince",
-   "Cunning Maneuver"
+   "Expedite",
+   "Thrill of Possibility",
+   "Big Score"
   ],
   "wipe_insurance": [
    "Undying Malice",
-   "Negate"
+   "Negate",
+   "Swan Song"
   ],
   "attackers": [
-   "Azula, On the Hunt",
    "Ozai, the Phoenix King",
-   "Electro, Assaulting Battery",
    "Godo, Bandit Warlord",
-   "Zuko, Exiled Prince",
-   "Malcolm, the Eyes"
+   "Electro, Assaulting Battery",
+   "Stormcatch Mentor"
   ],
   "cost_reducers": [
    "Goblin Electromancer",
@@ -190,58 +191,99 @@
   "Mystical Teachings": [
    "spell_payoffs",
    "through_wide_board",
-   "through_big_creatures"
+   "through_big_creatures",
+   "window_mana"
   ],
   "Solve the Equation": [
    "through_wide_board",
-   "through_big_creatures"
+   "through_big_creatures",
+   "window_mana"
   ],
   "Godo, Bandit Warlord": [
    "spell_payoffs"
+  ],
+  "Shred Memory": [
+   "spell_payoffs",
+   "through_big_creatures",
+   "window_mana"
   ]
  },
  "tags": {
   "Sol Ring": "ramp",
   "Arcane Signet": "ramp",
+  "Everflowing Chalice": "ramp",
   "Izzet Signet": "ramp",
   "Dimir Signet": "ramp",
   "Mind Stone": "ramp",
-  "Dimir Locket": "ramp",
   "Bender's Waterskin": "ramp",
   "Goblin Electromancer": "ramp",
   "Stormcatch Mentor": "ramp",
   "Nightscape Familiar": "ramp",
+  "Snap": [
+   "engine",
+   "removal"
+  ],
+  "Narset's Reversal": [
+   "payoff",
+   "protection",
+   "removal"
+  ],
+  "Frantic Search": "engine",
+  "Turnabout": "engine",
+  "Dualcaster Mage": "payoff",
+  "Storm-Kiln Artist": "payoff",
   "Archmage Emeritus": [
    "draw",
    "payoff"
   ],
-  "Black Market Connections": [
-   "draw",
-   "ramp"
-  ],
-  "Fact or Fiction": "draw",
-  "Pull from Tomorrow": "draw",
-  "Big Score": "draw",
-  "Thrill of Possibility": "draw",
-  "Glamdring, Foe-hammer // Gleam of Death": "draw",
-  "Azula, On the Hunt": [
-   "draw",
-   "engine"
-  ],
-  "Storm-Kiln Artist": "payoff",
-  "Dualcaster Mage": "payoff",
+  "Thermo-Alchemist": "payoff",
   "Electro, Assaulting Battery": [
    "payoff",
    "engine"
   ],
-  "Torrential Gearhulk": "payoff",
-  "Helm of the Host": "payoff",
   "Horizon Stone": "engine",
-  "Swiftfoot Boots": "protection",
-  "Champion's Helm": "protection",
-  "Octopus Form": "protection",
-  "Deflecting Swat": "protection",
-  "Narset's Reversal": [
+  "Comet Storm": "payoff",
+  "Electrodominance": "payoff",
+  "Helm of the Host": "payoff",
+  "Godo, Bandit Warlord": [
+   "tutor",
+   "payoff"
+  ],
+  "Ozai, the Phoenix King": [
+   "backup",
+   "engine"
+  ],
+  "Mystical Teachings": "tutor",
+  "Solve the Equation": "tutor",
+  "Narset, Parter of Veils": "draw",
+  "Brainstorm": "engine",
+  "Thirst for Knowledge": "draw",
+  "Glamdring, Foe-hammer // Gleam of Death": "draw",
+  "Big Score": "draw",
+  "Thrill of Possibility": "draw",
+  "Fact or Fiction": "draw",
+  "Pull from Tomorrow": "draw",
+  "Abandon Attachments": "draw",
+  "Waterbending Lesson": "draw",
+  "Fists of Flame": [
+   "payoff",
+   "draw"
+  ],
+  "Expedite": "draw",
+  "Fatal Push": "removal",
+  "Firebending Lesson": "removal",
+  "Terminate": "removal",
+  "Go for the Throat": "removal",
+  "Hero's Downfall": "removal",
+  "Abrade": "removal",
+  "Chaos Warp": "removal",
+  "Failed Fording": "removal",
+  "Amphibian Downpour": "removal",
+  "Spell Pierce": [
+   "protection",
+   "removal"
+  ],
+  "Swan Song": [
    "protection",
    "removal"
   ],
@@ -249,44 +291,32 @@
    "protection",
    "removal"
   ],
+  "Swiftfoot Boots": "protection",
+  "Champion's Helm": "protection",
+  "Haunted Cloak": "protection",
+  "Hidden Footblade": "protection",
+  "Octopus Form": "protection",
+  "Deflecting Swat": "protection",
+  "Redirect Lightning": "protection",
   "Undying Malice": "protection",
-  "Terminate": "removal",
-  "Hero's Downfall": "removal",
-  "Go for the Throat": "removal",
-  "Chaos Warp": "removal",
-  "Abrade": "removal",
-  "Lightning Strike": "removal",
-  "Snap": "removal",
-  "Amphibian Downpour": "removal",
   "Day of Black Sun": "wipe",
   "Ritual of Soot": "wipe",
-  "Comet Storm": "payoff",
-  "Electrodominance": "payoff",
-  "Ozai, the Phoenix King": [
-   "backup",
-   "engine"
-  ],
-  "Thermo-Alchemist": "backup",
   "Propaganda": "protection",
-  "Haunted Cloak": "engine",
-  "Frostcliff Siege": [
-   "engine",
-   "draw"
+  "Shred Memory": [
+   "removal",
+   "tutor"
   ],
-  "Hidden Footblade": "engine",
-  "Mystical Teachings": "tutor",
-  "Frantic Search": "engine",
+  "Command Tower": "land",
+  "Exotic Orchard": "land",
+  "Fire Nation Palace": "land",
+  "Rogue's Passage": "land",
   "Cascade Bluffs": "land",
   "Choked Estuary": "land",
-  "Command Tower": "land",
   "Darkwater Catacombs": "land",
   "Dragonskull Summit": "land",
   "Drowned Catacomb": "land",
-  "Exotic Orchard": "land",
-  "Fire Nation Palace": "land",
   "Foreboding Ruins": "land",
   "Frostboil Snarl": "land",
-  "Rogue's Passage": "land",
   "Shadowblood Ridge": "land",
   "Shivan Reef": "land",
   "Smoldering Marsh": "land",
@@ -294,40 +324,21 @@
   "Sulfurous Springs": "land",
   "Sunken Hollow": "land",
   "Sunken Ruins": "land",
-  "Underground River": "land",
-  "Godo, Bandit Warlord": [
-   "tutor",
-   "payoff"
-  ],
-  "Overpowering Attack": "payoff",
-  "Fists of Flame": [
-   "payoff",
-   "draw"
-  ],
-  "Zuko, Exiled Prince": [
-   "draw",
-   "engine"
-  ],
-  "Waterbending Lesson": "draw",
-  "Solve the Equation": "tutor",
-  "Abandon Attachments": "draw",
-  "Malcolm, the Eyes": "draw",
-  "Fatal Push": "removal",
-  "Cunning Maneuver": [
-   "payoff",
-   "draw"
-  ],
-  "Brainstorm": "engine",
-  "Opt": "engine"
+  "Underground River": "land"
  },
  "bad_when_drawn": {
   "Ozai, the Phoenix King": "early",
-  "Torrential Gearhulk": "early",
   "Helm of the Host": "early",
   "Horizon Stone": "early",
-  "Abrade": "late",
   "Godo, Bandit Warlord": "early",
-  "Overpowering Attack": "early",
-  "Fatal Push": "late"
+  "Turnabout": "early",
+  "Pull from Tomorrow": "early",
+  "Fatal Push": "late",
+  "Spell Pierce": "late",
+  "Firebending Lesson": "late",
+  "Sol Ring": "never",
+  "Snap": "never",
+  "Narset's Reversal": "never",
+  "Deflecting Swat": "never"
  }
 }

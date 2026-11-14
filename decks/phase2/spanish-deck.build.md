@@ -1,464 +1,464 @@
-# Kilo, Apogee Mind: the Spanish deck (Phase 2 build, 2026-11-08, step 6 second pass)
+# Kilo, Apogee Mind: the Spanish deck (final rebuild, step 7.7, 2026-11-09)
 
-Opus 5.5 high, `commander-deckbuilding` skill. New deck, 100 % Spanish copies (basics included), built from
-`data/model/phase2/pool-spanish-deck.json` (191 entries). Base: the Spanish "Counter Intelligence" precon (Edge of Eternities
-Commander, EOC): 58 of the 76 EOC entries in the pool are in the list; the 18 left out are in the cut log. Starting analysis:
-`docs/research/phase2-spanish-commander-20261101.md` sections 2.1, 2.6 and 3b; the profile below was re-derived.
+Opus 5.5 high, champion build procedure (`docs/research/commander-deckbuilding/champion-addendum-20261108.md` section 3),
+rebuilt FROM SCRATCH under `docs/proposals/final-rebuild-brief-20261108.md`. 100 % Spanish copies (basics included), pool
+`data/model/phase2/pool-spanish-deck.json`, priority 4: Ezio, Azula and Toph are final and keep their copies (section 8).
+The previous version (step 6, Salt 4.6 after purchases) stays in version control.
 
-**History.**
-- Round 2 (`decks/phase2/owner-decisions.md`, second round): Kilo gave up Swords to Plowshares (to Ezio), Pull from Tomorrow
-  (to Azula) and Battlefield Forge (to Toph), replaced by Tranquilize, Katara, Bending Prodigy and Path of Ancestry; Kilo
-  keeps Swan Song, Insight Engine, Thirst for Knowledge, Soul-Guide Lantern, Commander's Sphere, Spire of Industry, Glacial
-  Fortress, Mystic Monastery and Radiant Summit.
-- Round 3 (adversarial review `decks/reports/review-spanish-deck.md`: PASS for the list, FIX for the purchases; owner
-  decisions of 2026-11-02): Relic of Legends and Freed from the Real have no Spanish stock at Game of Magic Singles, so their
-  line moves to an optional upgrade path (section 8); the purchases are re-ranked with the live stock the reviewer read.
-  Mana improved with owned Spanish cards (I-1): The Mycosynth Gardens → a fifth Mountain, Golem Foundry → Barrels of Blasting
-  Jelly, Detained by Legionnaires → Chromatic Star. Plan-file fixes M-1 (North Pole Patrol out of `counter_doublers`) and M-3
-  (Katara and Astral Cornucopia bad early, Etherium Sculptor bad late). The plan sentence now says that the noncombat route
-  rests on two cards with no tutor and that the combat route is co-primary (I-3).
-- Salt: the second objective. Owner floor: Kilo must score at least the Salt power of the Spanish Counter Intelligence precon
-  + 0.1 (measured in step 3). Every round-3 swap should raise or keep Salt: better mana (Manabase Quality), two cheap artifacts
-  in place of a 3-mana engine and an Aura, and the purchases add a rock, an untapped tri-color land and commander protection.
-- Step 4 (2026-11-07; round-3 re-review in `decks/reports/review-spanish-deck.md`, owner decisions of 2026-11-07, the new power
-  target of SKILL.md principle 7). The 100-card list is unchanged: no unused owned Spanish card beats the weakest slots, so
-  every upgrade is a purchase swap (section 8), and the list keeps the owned stand-ins so it plays today and
-  `assign_copies.py` stays clean (it has no notion of planned purchases). Applied: R3-1 (purchases re-ranked over three stores:
-  Game of Magic Singles, PayToWin, Tienda La Comarca; Prophetic Prism and Volt Charge in), R3-2 (Barrels of Blasting Jelly now
-  tagged `removal` first; Chromatic Star keeps `engine` because its job in the deck is cheap artifact fuel for Surge
-  Conductor, Fireweaver, Jhoira and Uthros, and the plan schema has no utility tag), R3-3 (the copy text below is corrected).
-- **Competitive pass (principle 7).** Every slot was re-checked against Bracket 4 and 5 options the deck can actually get:
-  - **Game Changers: 0 used, 3 slots open.** The owned Spanish pool has none (live Scryfall `is:gamechanger`, 53 cards,
-    2026-11-07). In Kilo's colors the best fits are: Narset, Parter of Veils (Kilo proliferates its loyalty, so its −2 digs for
-    Lux Artillery or Darksteel Reactor every turn, and it shuts off opponents' extra draws), Teferi's Protection, Enlightened
-    Tutor (finds Lux, Reactor or Inspirit), Gifts Ungiven (a tutor toward route 1), Smothering Tithe, Rhystic Study, Cyclonic
-    Rift. Live read 2026-11-07: **Narset has no Spanish copy in stock** in the three stores (PayToWin and Game of Magic
-    Singles: English only, every Spanish variant unavailable; La Comarca: English NM 1,850); Gifts Ungiven in Spanish is at
-    PayToWin for 9,100 (HP) or 10,000 (MP), over the cap; the rest cost roughly 15,000 to 60,000 CLP. So all three slots stay
-    open this iteration; Narset in Spanish is the first wish for the next one, then Teferi's Protection and Enlightened Tutor.
-  - **Tutors toward the win lines:** none ownable in Spanish this iteration (Fabricate only as a 9,800 Spanish foil, Whir of
-    Invention out of stock, Gifts over the cap). Long-Range Sensor's Discover 4 remains route 1's only extra access.
-  - **Cheap interaction and low curve:** Volt Charge (1 mana cheaper than kicked Firebending, instant, removal plus
-    proliferate) and Prophetic Prism (fixing plus a card) are the buyable upgrades; the curve already averages 3.15 with 7
-    one-drops and 11 two-drops.
-  - **Fast mana that is not a Game Changer:** Sol Ring is in; Mana Crypt is banned; the remaining fast rocks (Mana Vault,
-    Grim Monolith, Chrome Mox) are Game Changers and far over the cap.
+**Fix round (2026-11-09, review `decks/reports/final-review-spanish-deck-20261108.md`, verdict FIX):** Brute Suit ->
+Strionic Resonator, Katara -> Lithoform Engine, Fumigate -> Starfall Invocation (all owned Spanish, played by no final
+deck); notes corrected (one untapper: Kilo taps at most twice a round; Cyberdrive paid from lands; the Excavation loop needs
+Surge Conductor as its fourth piece); Prologue kept as a to-read buy with the plan change written (section 6); Command
+Tower bought Spanish for Kilo directly; checklist items 18, 21, 31, 40 answered (section 5).
 
-- **Step 6 (2026-11-07, after Commander Salt: 3.9, Bracket 2; precon 3.8; `decks/reports/salt-spanish-deck-20261107.md`).** Salt's diagnosis was "control without a finisher", no tutors, 2 wipes, light counterspells, 6 tapped lands. Owner standard: consistent, robust and as powerful as possible, with a clear way to close; Salt floor 4.5. Changes:
-  - **Closer:** Darksteel Reactor becomes a fast, compact win instead of a 7-turn clock: Resourceful Defense (in for Depthshaker Titan) moves every counter of one permanent onto it at instant speed, and Moxite Refinery (in for Mindless Automaton) turns any counters into charge counters on it. Both were precon cards I had cut; with Kilo proliferating 5 to 10 permanents a turn, the Reactor reaches 20 one to two turns after it lands.
-  - **Interaction:** Chain Reaction (in for Threefold Thunderhulk) is the third wipe (the answer to Board 1's chump wall); the purchases add Volt Charge and Generous Gift.
-  - **Tapped lands:** kept. Replacing a Bridge with a basic costs Kilo 1 to 2 points on turn 3 (simulation); the fix is Battlefield Forge (over the cap) and Command Tower.
-  - **Infinite line:** Spellbook lists Kilo + Aura of Dominion + Pentad Prism or Crystalline Crawler (both owned): the best closer for this deck, but Aura of Dominion and Sinking Feeling (the Relic partner) have no Spanish copy in stock in the three stores, so it is the first over-cap wish (section 8).
+**Checks (2026-11-09, after the fix round):**
+- `python scripts/check_phase2_bracket.py decks/phase2/spanish-deck.txt`: **PASS**, floor 1, 0 Game Changers, no extra turns,
+  no mass land denial, no reversible card; Spellbook: 1 variant inside the list, 0 flagged.
+- `scripts/plan_density.py` (run on this plan only, `run_plan`): **PASS**, 0 failures, 1 WARN (section 3, reason given).
+- 100 cards (1 + 99), all Spanish copies; 37 lands, 62 nonland, average MV 2.89.
 
-- **Step 6, second pass (2026-11-08; `decks/reports/salt-spanish-deck-v2-20261107.md`).** The funnel list scored 3.8 on Salt owned and after purchases (Win conditions 91/200, "control without a finisher", combos: none): Salt does not see the Reactor funnel. New Salt floor 4.0, cap 7,000 CLP. A search of the local Spellbook cache found two lines completed by one cheap Spanish card each, reusing cards already in the list: **Meticulous Excavation + Lux Artillery + Crystalline Crawler** (infinite mana and artifact entries; Reckless Fireweaver or Surge Conductor turns it into a win) and **Voltaic Construct + Cyberdrive Awakener + a rock** (infinite mana on the Cyberdrive turn). They replace Relic of Legends in the cap (section 8). The 100-card list file is unchanged (owned stand-ins); no owned Spanish card adds a combo or more interaction. Filigree Sages was rejected (an early two-card infinite, floor 4).
+## 0. Key findings of the rebuild
 
-**Checks on this list** (2026-11-07): `python scripts/plan_density.py` **PASS** (step 6), 2 WARN (ramp 9 of 10; counter_doublers
-reaches 10 only with Kilo; both reasons in section 9, and Volt Charge clears the second); base counts ramp 9, draw 12, removal 9, wipe 3, protection 4. `python scripts/check_phase2_bracket.py
-decks/phase2/spanish-deck.txt` **PASS** (floor 1, 0 Game Changers, no extra turns, no mass land denial, 0 Spellbook combos
-inside). `python scripts/assign_copies.py`: spanish-deck 100 of 100 copies covered, 0 missing, 0 problems (the four decks all
-100 of 100); the 12 "shared" names involving Kilo (Sol Ring, Arcane Signet, Exotic Orchard, Sulfur Falls, Clifftop Retreat,
-Rugged Prairie, Shivan Reef, Cascade Bluffs, Chaos Warp, Path of Ancestry, Waterbending Lesson, Soul-Guide Lantern) each have
-separate physical copies. Barrels of Blasting Jelly (TLA 254, ES), Chromatic Star (TSR 263, ES) and the 5 Mountains (ACR 305,
-ES) are assigned to Kilo in `data/model/phase2/assignment.json` (the round-3 note said otherwise; corrected). The optional
-upgrade list of round 3 (with Freed from the Real and Relic of Legends) passed the same bracket script in the scratchpad (floor
-1, one combo: Kilo + Freed from the Real + Relic of Legends, "Infinite proliferate"); Freed is still not buyable in Spanish.
+1. **The step-6 "combo" does not work in Kilo's colors.** Commander Spellbook's Crawler + Lux Artillery + Meticulous
+   Excavation line (variant 1034-1350-2060, the combo Salt credited at 4.6) needs Crystalline Crawler cast with FOUR colors
+   (8 counters for a {2}{W} + {4} loop). Kilo's identity is three colors, and mana outside it becomes colorless, so Crawler
+   enters with 6 counters and the loop loses one mana per turn. It works only with **Surge Conductor** on the battlefield
+   (its proliferate on Crawler's entry makes 7) and gains a mana with Tekuthal. The line is kept as a four-card late loop,
+   described honestly.
+2. **No infinite-proliferate line is buyable in Spanish under 3,000.** Freed from the Real (no Spanish copy in the stores),
+   Pemmin's Aura (7.3 USD), Paradise Mantle (8.3 USD) and Aura of Dominion (no stock) are out. I found a cheaper Spellbook
+   line, **Kilo + Sinking Feeling + Relic of Legends** (variant 1491-4549-6702; Kilo needs one +1/+1 counter, which Inspirit,
+   Steel Overseer or Lux Artillery give), with Sinking Feeling at 0.20 USD. Live read: Game of Magic lists its only printing
+   (Shadowmoor) sold out, Rivendel has none, and scry.cl shows no offer in any Chilean store. So it is NOT in the list; it is
+   the first card to add the day a Spanish copy appears (section 6).
+3. **The fair engine gets a fast table-wide finisher**: Prologue to Phyresis puts one poison counter on each opponent, and
+   this deck proliferates 3 to 6 times a turn cycle, so all three opponents die to poison together.
+4. **Budget falls from 22,300 to about 15,600 all-in**, with no token to buy: Generous Gift (2,100 + a 4,300 Elephant token),
+   Muddle the Mixture (3,100, over the 3,000 line), Swiftfoot Boots, Battlefield Forge and Prophetic Prism are dropped.
 
-## 1. Commander reading and rules points to verify
+## 1. Profile
 
-Oracle (Scryfall, 2026-11-02): Kilo, Apogee Mind {U}{R}{W}, Legendary Artifact Creature, Robot Artificer, 3/3, Haste.
-"Whenever Kilo becomes tapped, proliferate."
+**Commander reading.** Kilo {U}{R}{W}, 3/3 legendary artifact creature, haste: "Whenever Kilo becomes tapped, proliferate."
+- Rewards: Kilo becoming tapped by ANY means (attack, crew, station, waterbend, improvise, Relic of Legends' "tap an untapped
+  legendary creature"). Fuel: permanents (and players) that already carry counters. Window: any time Kilo can be tapped,
+  including opponents' end steps.
+- How it wins: it does not; it multiplies counters. Dependence: **enabler** (the 99 has 11 other proliferate sources and
+  three finishers that work without him, at about half speed). MV 3 with haste: cheap to recast (5, 7).
+- Dead clauses: none. Rules points (rulings checked in the step-6 notes, unchanged): tapping for station or crew triggers it
+  (Kilo ruling 2025-07-25); waterbend may tap summoning-sick artifacts and creatures (Waterbending Lesson ruling); proliferate
+  may choose players (poison) and opposing permanents (stun counters), never forced. New point: Relic of Legends' second
+  ability taps Kilo as a cost, so it "becomes tapped" (Spellbook 1491-4549-6702 uses exactly this; no card ruling read).
 
-| Question | Answer |
+**Plan (one sentence).** Kilo is tapped once or twice per round (Relic, waterbend, North Pole Patrol's untap: his only
+untapper), Strionic Resonator and Lithoform Engine copy his trigger, and he proliferates the counters that about 20
+rocks, engines and creatures place; Surge Conductor, Flux Channeler, Tekuthal and eight proliferate spells multiply the same
+counters into mana, cards and threats, and the first noncombat finisher reached closes against the whole table.
+
+**Backup.** The same countered artifact board attacks: Cyberdrive Awakener (every noncreature artifact a 4/4, artifact
+creatures fly) and Titan Forge 9/9s, after Lux Artillery and Fireweaver have softened the table.
+
+**Speed (goldfish, section 5).** Kilo on turn 3 in most games with 3+ lands (the step-6 mana simulation gave 86 % for a similar base with the same
+buys; not re-run for this base, which trades three tapped Bridges for basics); engine online turns 4 to 5; first
+lethal threat to the table turns 7 to 9 (Prologue plus proliferate, Reactor funnel); a real kill turns 8 to 11.
+
+**Win routes, scored (R26) and failure points (R28).**
+
+| Route | Closers (cards) | Mana on the win turn | Access | Alone? | Fails to |
+|---|---|---|---|---|---|
+| Darksteel Reactor funnel (alternate win) | Reactor + Resourceful Defense / Moxite Refinery / Deepglow Skate | 0 to 5 | Reactor 1 card + Long-Range Sensor (discover 4), Emry, Buried Ruin | Reactor grows alone (upkeep) | exile or bounce of the Reactor (indestructible to destroy), artifact counterspell |
+| Poison (alternate) | Prologue to Phyresis | 2 (instant), then proliferates | 1 card + Experimental Augury, Long-Range Sensor | Prologue cantrips | a counterspell on Prologue; nothing after it resolves (counters on players) |
+| Lux Artillery burn | Lux Artillery, Reckless Fireweaver, Meticulous Excavation (loop) | 0 (end step) | Lux 1 card + Metamorph copy, Sensor, Emry | Lux counts every counter | artifact removal, a long clock (10 per turn) |
+| Artifact alpha strike (combat) | Cyberdrive Awakener, Titan Forge | 6 | 2 cards | Titan Forge makes 9/9 blockers | a wipe in response, fog, flyers |
+
+No failure point is shared by all routes: commander dead (Reactor upkeep, Lux and poison through Surge Conductor, Flux and
+spells still work); a wipe (Reactor indestructible, poison counters stay on players, noncreature artifacts survive creature
+wipes); a counterspell (four separate closers); graveyard exile (no route uses the graveyard; Emry and Buried Ruin are
+extras); artifact removal (poison is an instant on players); enchantment removal (only Resourceful Defense). At least one
+route works with Kilo dead (all three noncombat ones).
+
+**How it beats three opponents.** Every closer hits the table at once: 20 charge counters win the game, poison grows on
+all three opponents with each proliferate, Lux deals 10 to each opponent. No single-target kill.
+
+**What it fears.** Artifact wipes (Vandalblast, Bane of Progress): engines and mana go together. Answers: Negate,
+Counterspell, Ripples of Potential (phase out the countered permanents), Inspirit at 8+ (indestructible artifacts), the
+Reactor (indestructible) and poison already on players. Fast combo that wins on turns 5 to 6: section 4. Graveyard decks:
+one Soul-Guide Lantern.
+
+## 2. The puzzle: each card's role, how to use it, and its main synergies
+
+**Mana (11).** Lands + lasting ramp = 37 + 9 = 46 (R8), lands 80 %.
+- Sol Ring: turn 1; Kilo on turn 2. Never bad.
+- Arcane Signet: turn 2; fixes all three colors for Kilo.
+- Talisman of Conviction (buy): turn 2 R/W rock; pairs with the blue-heavy lands.
+- Everflowing Chalice: kick once on turn 2; every proliferate adds a mana a turn; Coretapper target. Never cast for 0.
+- Pentad Prism: turn 2 with two colors; spend counters on a big turn, keep one so proliferate refills it.
+- Relic of Legends (buy): turn 3 to 4 rock; at an opponent's end step tap Kilo (or Tekuthal, Jhoira, Emry) for mana:
+  an extra proliferate each round at instant speed while Kilo stayed home as a blocker. With North Pole Patrol: two.
+- Commander's Sphere: turn 3 to 4 fixer; sacrifice it for a card in response to artifact removal.
+- Astral Cornucopia: X=1 on turn 4 after Kilo, X=2 later; grows one mana per proliferate. Bad early.
+- Crystalline Crawler: cast with three colors (six counters with Lux); taps for a counter every turn; burst mana; the loop
+  piece with Excavation.
+- Barrels of Blasting Jelly: turn 1 fixer ({1}: any color once a turn); late {5}: 5 damage to a creature.
+- Chromatic Star: turn 1 fixer that replaces itself; a cheap artifact entry for Surge Conductor, Fireweaver, Jhoira, Uthros.
+
+**Counter engines (12).**
+- Inspirit, Flagship Vessel: turn 4; station it with a spare creature (or Kilo: proliferate first); each combat +1/+1 on Kilo
+  or two charge counters on the Reactor or Lux Cannon; at 8+ every other artifact, Kilo included, is hexproof and
+  indestructible. Trophy Mage target.
+- Uthros Research Craft: station to 3+; a card per artifact spell. Trophy Mage target.
+- Insight Engine: activate at an opponent's end step after proliferates: draws 2, 4, 6. Trophy Mage target.
+- Coretapper: a charge counter each turn on Chalice/Prism early, Reactor/Lux Cannon/Sensor later; sacrifice in response to
+  removal for two. Tribute Mage target.
+- Steel Overseer: +1/+1 on every artifact creature each turn (Kilo, Crawler, Oracle, Peacemaker). Tribute Mage target.
+- Surge Conductor: every nontoken artifact entry proliferates (rocks, artifact lands, Star, Barrels): cast it before a chain
+  of cheap artifacts; the piece that makes the Excavation loop work.
+- Tekuthal, Inquiry Dominus: doubles every proliferate (poison +2 per Kilo tap); a 3/5 flying blocker; indestructible counter
+  before a wipe.
+- Flux Channeler (buy, to read): every noncreature spell proliferates (about 40 of them); with Prologue each rock is a
+  poison counter on every opponent.
+- Long-Range Sensor: attacks or Coretapper/Inspirit charge it; discover 4 at sorcery speed: the extra access to Reactor,
+  Lux and Prologue.
+- Etched Oracle: three counters (six with Lux); proliferate refills it to draw three again.
+- Patrolling Peacemaker: proliferates whenever an opponent targets another player's things: several times a round in a pod.
+- Chrome Host Seedshark: every noncreature spell makes an Incubator with that many counters (Lux counts them; transform for
+  {2} into a body that crews or stations). 2/4 flying blocker.
+
+**Kilo tap and untap outlets, and trigger copiers (3 + Relic, station, improvise).**
+- North Pole Patrol: untap Kilo after his first tap, then tap him again (Relic, crew, waterbend): a second proliferate; or
+  waterbend {3} (tap Kilo to pay) to tap an attacker on an opponent's turn.
+- Strionic Resonator (owned, fix round): {2},T: copy Kilo's proliferate at instant speed (a third proliferate per round),
+  Lux Artillery's end-step trigger (20 to each opponent), Deepglow Skate's trigger (the Reactor x4), Surge Conductor, the
+  Reactor's upkeep, Jhoira or Uthros draws. Tribute Mage target.
+- Lithoform Engine (owned, fix round): {2},T copies Kilo's or Lux's trigger; {3},T copies Prologue (one more poison each and a
+  card), Thirst or Universal Surveillance; {4},T copies the Reactor, Lux or Deepglow as they are cast. Trophy Mage cannot
+  find it (MV 4).
+
+**Finishers and funnels (9).**
+- Darksteel Reactor: cast turns 4 to 6; fed by upkeep, every proliferate, Coretapper and Inspirit; 20 wins. Hold Negate,
+  Counterspell or Ripples for the exile or bounce aimed at it.
+- Lux Artillery: cast when about 15 counters are out, or before Kilo's recast (Kilo enters with three +1/+1 counters);
+  30 counters: 10 to each opponent per end step.
+- Prologue to Phyresis (buy, to read): cast at an opponent's end step once Kilo or Surge Conductor is out, ideally with
+  Tekuthal: 1 poison each, then 2 to 4 more per turn cycle. Cantrip; never hold it past turn 6.
+- Reckless Fireweaver: 1 to each opponent per artifact entry; with the Excavation loop, infinite.
+- Cyberdrive Awakener: the kill turn of the backup; pay its 6 mana from LANDS (rocks tapped for mana cannot attack), in the
+  main phase with 8+ untapped noncreature artifacts.
+- Deepglow Skate: double the Reactor (10 to 20 wins), Lux's count, Insight Engine and the rocks. Bad early.
+- Titan Forge: {3},T on spare turns; three counters make a 9/9 that blocks Board 2 and attacks.
+- Resourceful Defense: {4}{W} at an opponent's end step moves Inspirit's or Crawler's counters onto the Reactor; when removal
+  hits a countered permanent, its counters move to the Reactor.
+- Moxite Refinery: sorcery-speed funnel ({2}, X counters into X charge counters on the Reactor or +1/+1 on Kilo).
+- Meticulous Excavation (buy): with Lux + Crawler + Surge Conductor, the infinite entry/proliferate loop; otherwise return a
+  Trophy or Tribute Mage, Thought Monitor or Deepglow Skate to reuse it, or save Kilo from removal on my turn (no tax).
+
+**Proliferate and card flow (11).**
+- Tezzeret's Gambit: draw two and proliferate; pay 2 life for the {U/P} when short.
+- Experimental Augury: at an opponent's end step dig three for a finisher, proliferate.
+- Contentious Plan (buy): two mana, proliferate and draw.
+- Volt Charge (buy): instant 3 damage and proliferate (counted with removal).
+- Thirst for Knowledge: instant draw three; discard a spare artifact (or Lux/Reactor for Emry and Buried Ruin).
+- Waterbending Lesson: draw three; waterbend {2} by tapping Kilo (proliferate) and an artifact.
+- Universal Surveillance: improvise with Kilo (proliferate) and rocks; X of 4 to 6 late.
+- Jhoira, Weatherlight Captain: a card per artifact or legendary spell; cast before a chain of cheap artifacts.
+- Thought Monitor: affinity makes it 1 to 3 mana: two cards and a 2/2 flyer.
+- Trophy Mage (buy, to read): finds Relic of Legends (extra Kilo tap), Insight Engine, Surge Conductor, Inspirit or Uthros.
+- Tribute Mage (buy, to read): finds Pentad Prism or Talisman early, Steel Overseer, Coretapper or Moxite Refinery later.
+
+**Interaction (14).**
+- Swords to Plowshares (Ezio's Spanish copy): any big creature or commander, instant, 1 mana.
+- Dispatch: metalcraft from turn 3: exile for {W}.
+- Fateful Absence: instant creature or planeswalker removal (its Clue goes to the opponent: owned token).
+- Chaos Warp: anything, commanders included (tuck); the answer to enchantments.
+- Airbending Lesson: instant exile of a nonland permanent and a card; or save my own Kilo and recast him for {2}.
+- Volt Charge: see above.
+- Tranquilize: three stun counters that Kilo keeps topping up; for a commander or the biggest blocker.
+- Lux Cannon: tap each turn; with proliferate it destroys any permanent every second turn.
+- Counterspell (buy, to read) and Negate (buy): keep {U}{U} or {1}{U} up on the turn I go for the win or against a wipe.
+- Organic Extinction: improvise with Kilo and artifacts; kills only nonartifact creatures (almost one-sided).
+- Starfall Invocation (owned, fix round; replaces Fumigate): when behind on board; promise the gift and get back my best
+  destroyed creature (Surge Conductor, Tekuthal or Steel Overseer); noncreature artifacts and their counters survive; recast
+  Kilo for 5 with haste.
+- Ripples of Potential: in response to a wipe or removal: proliferate, then phase out everything that got a counter.
+- Soul-Guide Lantern: the graveyard answer; otherwise a card.
+
+**Recursion and copy (2).** Emry (recast Lux, Reactor, Relic or Kilo from the graveyard; affinity makes it 0 to 1 mana);
+Phyrexian Metamorph (a second Lux Artillery, Insight Engine or Surge Conductor, or the opponent's best artifact).
+
+**Lands (37).** Command Tower (bought Spanish at PayToWin), untapped duals Adarkar Wastes, Shivan Reef, Sulfur Falls, Glacial
+Fortress, Clifftop Retreat, Radiant Summit; filters Rugged Prairie, Cascade Bluffs; Exotic Orchard, Spire of Industry;
+artifact lands Seat of the Synod, Ancient Den, Great Furnace (metalcraft, improvise, Surge Conductor); Karn's Bastion
+(proliferate sink, also on opponents' turns), Buried Ruin (return the Reactor or Lux), Mystic Monastery (the only
+always-tapped land); 9 Island, 6 Plains, 5 Mountain.
+
+**Synergy count (R4).** 47 of 62 nonland cards sit in two or more declared functions or routes, or carry two base tags
+(counted from the plan file). **Commander-centric count (R5):** cards nearly blank without Kilo: North Pole
+Patrol's untap mode and Relic's second ability: 2 of 62 (limit 12).
+
+## 3. Curve and ratios
+
+| MV | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7+ |
+|---|---|---|---|---|---|---|---|---|
+| Cards | 2 | 7 | 15 | 23 | 10 | 2 | 1 | 2 |
+
+Average MV 2.89 (Thought Monitor and Organic Extinction cost far less with affinity and improvise). Types: 33 artifacts,
+20 creatures, 12 instants, 7 sorceries, 2 enchantments, 37 lands.
+
+| Function | Min | Count | Reason |
+|---|---|---|---|
+| Lands | band 36 to 38 | 37 | Three colors, MV-3 gold commander, many 3- and 4-drops and mana sinks (Insight Engine, Titan Forge, Strionic, Lithoform, Bastion) |
+| Lands + lasting ramp (R8) | 46 | 46 | 9 rocks; Coretapper and proliferate grow Chalice, Prism and Cornucopia |
+| Always-tapped lands (R10) | at most 3 | 1 | The three Bridges left; check lands enter untapped with 20 basics |
+| counter_sources (gate) | 12 | 21 | Kilo only multiplies, so the 99 must place counters |
+| counter_doublers (promoted to gate) | 10 | 15 (14 without Kilo) | The plan grows by proliferate; the commander guarantees one per turn |
+| counter_payoffs (gate, late) | 6 | 15 | Rocks, draw engines, finishers |
+| kilo_tap_outlets (custom, late) | 6 | 9 | Kilo triggers without attacking into big boards, at instant speed |
+| artifact_density / payoffs | 20 / 10 | 34 / 17 | Metalcraft, improvise, affinity, Surge Conductor, Inspirit |
+| Through a wide board / big creatures | 10 / 10 | 11 / 15 | Three noncombat closers, flyers, one-sided wipe; ten answers |
+| Draw (second tags) | 10 | 16 | Spends one card a turn, gains two to three from turn 5 |
+| Spot answers (R19) | 8, 5 at MV<=2, 5 instants | 12; 6 at MV<=2; 8 instants | Swords, Dispatch, Fateful, Tranquilize, Counterspell, Negate at MV<=2 |
+| Counterspells (R20) | 2 to 4 (engine deck) | 2 + Ripples | The deck taps out for artifacts; counters protect the win turn |
+| Wipes (R21) | 1 to 2 | 2 | Organic Extinction one-sided; Starfall Invocation returns my best creature and leaves noncreature artifacts |
+| Commander protection (enabler) | 3 to 4 | 5 | Airbending Lesson, Ripples, Inspirit 8+, Counterspell, Negate |
+| Win-turn shield (R24) | 3 at MV<=2 | 3 | Counterspell, Negate, Ripples (plus Airbending at 3) |
+| Rebuild pieces (R32) | 4 | 6 | Kilo with haste, Emry, Buried Ruin, Resourceful Defense, Ripples, the indestructible Reactor |
+| Tutors (R18) | | 2 + Sensor | Trophy and Tribute Mage find engines; the finishers rely on redundancy (6 closers) and dig |
+| Graveyard hate | 1 | 1 | Soul-Guide Lantern |
+
+**WARN reason.** "Poison route rests on a single card": true, and accepted. Prologue costs one card and ends the game
+through every other proliferate; it is an instant (cast it at an end step into open mana only after the counter is gone),
+the counters stay on players once it resolves, and three other closers do not need it. Access: Experimental Augury, Long-Range
+Sensor, Thirst, Waterbending Lesson, Universal Surveillance, Insight Engine. No second poison seeder under 3,000 in Spanish
+was found that is not a dead card alone.
+
+## 4. Interaction plan and protection plan
+
+- **Answers kept for**: commanders and engines that beat me (Swords, Chaos Warp, Airbending); combo pieces at instant speed
+  (Swords, Dispatch, Fateful, Volt Charge, Chaos Warp, Airbending: six answers castable on an opponent's turn that stop a
+  creature combo or lethal attack); artifacts and enchantments (Chaos Warp, Airbending, Lux Cannon; Negate on the spell).
+- **Stack**: Counterspell and Negate protect the Reactor turn or stop a wipe; Negate is also the answer to an opposing combo
+  spell (Thassa's Oracle lines are creatures: Counterspell).
+- **Protection of Kilo (enabler, 3 to 4)**: Airbending Lesson (exile and recast for {2}), Ripples (needs a counter on Kilo:
+  Inspirit or Steel Overseer gives one), Inspirit at 8+, the two counters. Kilo is cheap to recast; protect the engines and
+  the Reactor first.
+- **Win-turn shield (R24)**: keep {U}{U} for Counterspell or {1}{U} for Negate or Ripples on the turn the Reactor reaches
+  20, Prologue resolves, or Cyberdrive attacks. Bait with Volt Charge or a draw spell first.
+- **Threat posture (R30)**: Kilo stays home and taps at instant speed (Relic, North Pole Patrol's waterbend), so the deck shows little
+  until the closer; never cast the Reactor or Lux the turn before you can protect it.
+
+## 5. Mulligan, play pattern and test pass
+
+**Keep checklist (R33).** Keep 2 to 4 lands (3+ when there is no 1- or 2-mana rock) with a play by turn 3 and a plan piece.
+Ship 0 to 1 landers, 6+ landers, no play before turn 4, and hands that cannot make all three colors by turn 4. Keep almost
+any land-good hand with: Sol Ring, Arcane Signet, Talisman, Pentad Prism, Surge Conductor, Inspirit, Insight Engine.
+
+**20 seeded hands** (scratch script, list above, seeds 1 to 20): 12 keeps on the first seven, 16 with the free mulligan.
+20,000-hand sample: 56.1 % keep, **80.8 % with the free mulligan** under the house rule above (it also ships 5-landers); under R33's own ship list (5-landers kept) the reviewer's
+recount gives **85.3 %**, on target. House rule: 2-land hands only with a
+1-2 mana rock). Under R33's 85 % target; the shortfall is 2-land hands with a fixer (Barrels, Chromatic Star) and a
+2-drop, which a pilot keeps in practice. A 38th land or a fourth cheap rock moved it only to 82-83 % in the same test, so the
+list stays at 37 lands.
+
+**Goldfish (seeds 101 to 105, 7 + T cards).**
+- G1: Kilo turn 3; only Chalice for counters; Waterbending Lesson turn 4; no closer by turn 10 (Deepglow without a target):
+  a flood game, kill after turn 10.
+- G2: Kilo turn 3 (Barrels fixes white); Seedshark turn 4, Thought Monitor turn 5, Reactor turn 6; Reactor at 20 around
+  turn 10, turn 9 with Moxite Refinery.
+- G3: Pentad Prism turn 2, Kilo turn 3, Etched Oracle turn 4: card advantage, no closer seen by turn 10 (kill turn 11+).
+- G4: no white source until turn 10: Kilo stuck. Prologue turn 4, Tekuthal turn 5, poison grows only through Augury (+2):
+  the hand should have been shipped by the color rule (two colors).
+- G5: one land: ship.
+- Summary: Kilo on turn 3 in 3 of 4 keeps; the plan is online by turns 4 to 5; the first lethal threat comes turns 7 to 9
+  when a closer is drawn. Weakness: finisher access (6 closers + dig), not mana.
+
+**Disrupted goldfish (R38).**
+- (a) Kilo removed the first time he taps: recast for 5 next turn with haste and tap at once; Surge Conductor, Flux,
+  Tekuthal and the spells keep 1 to 3 proliferates a turn meanwhile. One turn lost.
+- (b) Creature wipe on turn 6: noncreature artifacts and their counters stay (Reactor, Insight Engine, Lux, rocks); Ripples
+  first if held; Kilo back for 5 with haste. Threatens again in one turn. An artifact wipe costs 2 to 3 turns.
+- (c) First win attempt countered (the Reactor): Emry or Buried Ruin brings it back, or switch to Prologue or Lux. Two turns.
+
+**Play pattern.** Turns 1 to 5: rock or fixer turn 1 to 2, Kilo turn 3, then an engine a turn (Surge Conductor, Insight
+Engine, Inspirit, Coretapper); tap Kilo at home unless the lane is empty. Turns 6 to 9: Prologue at an end step, the Reactor
+or Lux, hold two mana for Negate or Counterspell; Kilo taps at most twice a round (Relic and North Pole Patrol's untap); Strionic and Lithoform copy the trigger for a
+third and fourth proliferate. Late: Deepglow
+Skate on the Reactor (copied by Strionic: x4), Cyberdrive alpha cast from land mana, Excavation loop (needs Surge
+Conductor as its fourth piece). Commit what wins in two turns; keep one threat in hand when two
+opponents can wipe.
+
+**Gauntlet (R39).**
+1. Fast combo (turns 5 to 7): Counterspell, Negate, Swords, Dispatch, Fateful Absence, Volt Charge, Chaos Warp at instant
+   speed; Soul-Guide Lantern against graveyard combos. Weak to a turn-4 win through two counters.
+2. Stax and taxes: cheap threats (Kilo 3, rocks 1 to 2); Chaos Warp, Airbending and Lux Cannon for the artifact or
+   enchantment; poison and the Reactor ignore attack taxes.
+3. Go-wide tokens (Board 1): never attack into it; Organic Extinction, Starfall Invocation, Lux, Reactor, poison, flyers.
+4. Big creatures (Board 2): eight spot answers plus Lux Cannon, Tranquilize kept by proliferate, North Pole Patrol taps one,
+   Tekuthal and Titan Forge block; the noncombat closers ignore them.
+5. Control with counters and wipes: instant-speed threats (Prologue, Relic taps, Resourceful Defense, Insight Engine at end
+   step), four different closers, rebuild pieces; Negate and Counterspell back up the key turn.
+
+**Final cut pass (10 weakest nonland), redone in the fix round against the FINAL Ezio, Azula and Toph lists (item 40).** The
+first pass used the pool's stale `held_by` (2026-11-02) and missed three free Spanish cards no final deck plays. Swaps made:
+Brute Suit -> Strionic Resonator, Katara -> Lithoform Engine, Fumigate -> Starfall Invocation. Remaining weakest: Commander's
+Sphere, Chromatic Star, Astral Cornucopia, Titan Forge, Meticulous Excavation, Thought Monitor, Deepglow Skate. Best unplayed
+candidates and why they lose here: Sinking Feeling (no stock), Swiftfoot Boots (2,100 for hexproof on a cheap commander),
+Energy Refractor (300, no mana gain), Kappa Cannoneer (6-mana single-target threat), Hangarback Walker (needs a Thopter token
+not owned), Keen-Eyed Raven (kept for the day Sinking Feeling appears), Brute Suit and Katara (now out). No further swap won.
+
+**Politics (item 31).** Fateful Absence's Clue and Starfall's gift card go to the opponent who is NOT the current leader (a
+small deal that buys a turn). Patrolling Peacemaker is a visible deterrent: say so when an opponent targets another player.
+Chaos Warp, Swords and Tranquilize are offered as table answers to the archenemy's threat before they are spent on mine.
+Kilo stays untapped at home as a 3/3 blocker until the end step, so the deck rarely looks like the archenemy before the win
+turn; never cast the Reactor or Prologue the turn before the shield (Negate, Counterspell, Ripples) is up.
+
+**Checklist items left from the review.**
+- 18 (tutors to the finisher): not fixable within the rules today. No tutor reaching an MV-4 artifact or Prologue is owned in
+  Spanish or read under 3,000 (Fabricate 5.76 USD, Whir of Invention 5.43 USD, Muddle 3,100 and MV 2 only, Mystical
+  Teachings unread). Mitigation: six closers, Strionic and Lithoform copying the closers, Long-Range Sensor, Augury. The lead's
+  browser read of Fabricate and Whir at GoM and PTW (review F9) is the one open path.
+- 21 (asymmetric wipes): fixed. Organic Extinction (nonartifact creatures only) and Starfall Invocation (my best creature
+  back) replace the symmetric Fumigate.
+- 31 (politics): fixed in the guide above (no list change, no cost).
+- 40 (cut process): fixed; the cut pass was redone above with the fresh pool.
+
+## 6. BUY
+
+Stores: Game of Magic Singles (GoM), PayToWin (PTW), Rivendel El Concilio (Riv). Spanish only, any condition better than
+Damaged, every card under 3,000. Rivendel prices were read live by script on 2026-11-08/09; GoM and PTW prices come from
+the 2026-11-08 order reads (`data/prices/browser-*-20261108-order.psv`); "to read" rows have no store reading (GoM and PTW
+answered HTTP 429 to scripts on 2026-11-09) and carry a Scryfall USD hint. The lead checks live stock before buying.
+
+| # | Card | Store | Price (CLP) | Lang | Gain | Plays until it arrives |
+|---|---|---|---|---|---|---|
+| 1 | Negate | Riv | 300 (4 in stock) | ES | Win-turn shield and wipe answer; Azula holds the owned copy | Firebending Lesson |
+| 2 | Volt Charge | Riv | 200 (14) | ES | Instant answer + proliferate | Misthios's Fury |
+| 3 | Contentious Plan | Riv | 300 (1) | ES | 2-mana proliferate + card | Divination |
+| 4 | Meticulous Excavation | Riv | 300 (16) | ES | Lux + Crawler + Surge Conductor loop; ETB reuse; Salt-visible combo | Golem Foundry |
+| 5 | Relic of Legends | Riv | 2,500 (3) | ES | Rock + instant Kilo tap: one more proliferate per round | Ovalchase Dragster |
+| 6 | Talisman of Conviction | GoM | 1,500 (read 2026-11-08) | ES | Turn-2 rock, Kilo on turn 3 | Etherium Sculptor |
+| 7 | Command Tower | PTW | 900 (read 2026-11-08, C17 LP Spanish) | ES | Untapped any-color land; bought Spanish for Kilo directly, Ezio keeps its own copy (review F6) | a 7th Plains |
+| 8 | Swords to Plowshares (English, for Ezio; Ezio's Spanish copy comes to Kilo) | GoM | 2,500 (read 2026-11-08) | EN | Best 1-mana instant answer | Detained by Legionnaires |
+| 9 | Prologue to Phyresis | PTW or GoM | to read: NO stock evidence (0.52 USD; GoM's only ONE listing 342 CLP was sold out; none at Riv) | ES | The poison route: all three opponents at once | Kappa Cannoneer |
+| 10 | Counterspell | GoM or PTW | to read (2.23 USD, about 2,500) | ES | Hard counter for the win turn | Sandbenders' Storm |
+| 11 | Flux Channeler | GoM or PTW | to read (2.59 USD, about 2,600; skip if 3,000 or more) | ES | Proliferate on every noncreature spell | Thrummingbird |
+| 12 | Tribute Mage | GoM or PTW | to read (1.01 USD, about 1,000) | ES | Tutor: Prism/Talisman early, Overseer/Coretapper/Moxite later | Enthusiastic Mechanaut |
+| 13 | Trophy Mage | GoM or PTW | to read (0.57 USD, about 600) | ES | Tutor: Relic, Insight Engine, Surge Conductor, Inspirit | Inspiring Overseer |
+
+Ranked by gain per CLP: 1, 2, 3, 9, 13, 6, 7, 12, 4, 5, 8, 10, 11. Rivendel evidence saved in
+`data/prices/rivendel-kilo-20261109.psv` (Contentious Plan has one copy: first line of the Rivendel cart).
+
+**If no Spanish Prologue to Phyresis exists in the three stores:** Kappa Cannoneer keeps the slot, the plan file drops the
+"Poison through proliferate" route (three routes remain: Reactor funnel, Lux Artillery burn, artifact alpha strike; the gate
+still needs two disjoint ones), the plan sentence loses the poison finisher, Lithoform's {3} mode copies Thirst or Universal
+Surveillance instead, and the real-power estimate falls by about 0.2 (no table-wide clock that ignores life totals). The
+lead makes this change with the order, not before, so the list plays the card if it is found. Every stand-in is an owned free Spanish copy, so the list
+plays today. Thirst for Knowledge is NOT a Kilo buy: Kilo keeps its owned copy and Azula takes the copy bought at Rivendel
+(Azula notes, section 8).
+
+**Fix round (2026-11-09):** Strionic Resonator, Lithoform Engine and Starfall Invocation are owned Spanish copies: 0 CLP.
+Command Tower is bought Spanish for Kilo directly (review F6), same 900; Ezio needs no Command Tower buy.
+
+**Dropped from the old order (22,300):** Generous Gift 2,100 + Elephant token 4,300 (Volt Charge, Swords, Chaos Warp and
+Airbending do the job), Muddle the Mixture 3,100 (over the 3,000 line; it could not reach the MV-3 pieces anyway), Battlefield
+Forge 2,600 (Toph keeps the owned Spanish copy; a basic does most of the job), Swiftfoot Boots 2,100, Prophetic Prism 200.
+
+**Watch list (add when a Spanish copy under 3,000 appears):** Sinking Feeling (with Relic of Legends: infinite proliferate,
+0.20 USD; cut Commander's Sphere), Pemmin's Aura / Freed from the Real (same line), Walking Ballista, Narset, Parter of
+Veils (a Game Changer worth its slot; Spanish only at 13,000).
+
+**Game Changer slots (R34): 0 of 3 used.** No Game Changer is owned in Spanish, and the cheapest ones in Kilo's colors cost
+more than 3,000 in Spanish (live Scryfall `is:gamechanger id<=wur`, 33 cards on 2026-11-08: Narset 0.92 USD but Spanish only
+at 13,000; Gifts Ungiven, Farewell, Underworld Breach 4 to 5 USD; Drannith 9.85; the rest 15 USD and up). Gain if the cap
+allowed: Narset (digs four cards a turn with proliferated loyalty and stops opposing extra draws) first, then Enlightened
+Tutor, Teferi's Protection.
+
+**R36 non-GC high-power cards considered:** Swords (in), Counterspell (in), Swan Song (Azula holds the only copy), Mana Drain,
+Force of Negation, Fierce-type free spells, Esper Sentinel, Mystic Remora (all over 3,000 in Spanish), Path to Exile (Toph
+holds the only copy), Walking Ballista (5.47 USD), Freed from the Real (no Spanish copy), Fellwar Stone and Mind Stone (no
+Spanish stock read), Lotus Petal and Mox Amber (price; Mox Amber has only 6 legends).
+
+## 7. Loans and their replacements
+
+None. The loan candidates are English cards of his Standard decks; a 100 % Spanish deck cannot play them. The two English
+card bought for Ezio (English Swords) is not a loan: it frees Ezio's Spanish copy and is booked to Kilo.
+
+## 8. Scarce copies
+
+Read against the FINAL Ezio, Azula and Toph lists (2026-11-09), with a dry run of `scripts/assign_copies.py`'s allocation in
+the order Ezio, Azula, Toph (nothing written).
+
+| Card | Spanish copies | Held by | Kilo |
+|---|---|---|---|
+| Swords to Plowshares | 2 | Toph 1, Ezio 1 | Ezio plays a bought English copy (2,500, booked here); Ezio's Spanish copy comes to Kilo |
+| Command Tower | 2 (+1 EN) | Azula EN, Toph ES, Ezio ES | Kilo buys its own Spanish copy at PayToWin (900); no card moves |
+| Strionic Resonator, Lithoform Engine, Starfall Invocation | 1 ES each | no final deck plays them (the pool's `held_by` of 2026-11-02 is stale) | in Kilo (fix round) |
+| Path to Exile | 1 | Toph | **Gives way.** Kilo plays Swords and Fateful Absence instead |
+| Arbaaz Mir | 1 | Toph | **Gives way.** Reckless Fireweaver does the per-artifact ping |
+| Planar Outburst | 1 | Toph | **Gives way.** Starfall Invocation and Organic Extinction |
+| Fateful Absence | 2 | Toph 1 | The second copy is free: in Kilo |
+| Battlefield Forge | 1 | Toph (Ezio buys its own) | **Gives way**; a basic instead (no buy) |
+| Swan Song, Negate, Mind Stone, Thirst for Knowledge | 1 each | Azula | Swan Song and Mind Stone given way; Negate bought (300); Thirst: Kilo keeps the owned copy, Azula takes the bought one |
+| Chaos Warp | 2 | Toph 1 | One free: in Kilo |
+| Clifftop Retreat, Rugged Prairie, Exotic Orchard | 3 / 2 / 5 | Ezio, Toph | 1 / 1 / 2 free: in Kilo |
+| Sol Ring, Arcane Signet, Everflowing Chalice, Sulfur Falls, Shivan Reef, Cascade Bluffs | 1 each | the other decks play English copies | in Kilo |
+| Basics | 11 Island, 14 Plains, 15 Mountain (ES) | the other decks take English basics first | 9 / 6 / 5 in Kilo |
+
+No claim on another deck's copy is made.
+
+## 9. Comparison with the current list and the iteration-1 list
+
+**Against the current list after purchases** (`moxfield/spanish-deck-after-purchases.txt`, Salt 4.6, real power 4.8-5.3):
+
+| Out | Why | In | Why |
+|---|---|---|---|
+| Swan Song | Azula took the only copy | Counterspell (buy) | Hard counter for the win turn |
+| Generous Gift | 2,100 + a 4,300 Elephant token | Fateful Absence (free copy) | 2-mana instant answer, owned |
+| Muddle the Mixture | 3,100, over the 3,000 line; cannot reach the MV-3 pieces | Trophy Mage (buy) | Finds Relic, Insight Engine, Surge Conductor, Inspirit |
+| Swiftfoot Boots | 2,100 to protect a 3-mana commander | Negate (buy, 300) | Protects the win turn and stops wipes |
+| Sandbenders' Storm | 4-mana answer | Prologue to Phyresis (buy) | The poison route |
+| Kappa Cannoneer | 6-mana single-target threat | Flux Channeler (buy) | Proliferate on every noncreature spell |
+| Empowered Autogenerator | Slow 4-mana rock that enters tapped | Tribute Mage (buy) | Finds Prism, Talisman, Overseer, Coretapper or Moxite |
+| Solar Array | 3-mana rock competing with Kilo | Contentious Plan (buy) | 2-mana proliferate and card |
+| Enthusiastic Mechanaut | Discount, 2/2 flyer | Strionic Resonator (fix round) | Copies Kilo's, Lux's and Deepglow's triggers |
+| Katara (fix round) | {6} waterbend for one card | Lithoform Engine | Copies triggers and spells (Prologue, Lux, Reactor) |
+| Fumigate (fix round) | Symmetric; kills my engines | Starfall Invocation | Same wipe; the gift returns my best creature |
+| Prophetic Prism | Filter only | Chromatic Star | 1-mana fixer that replaces itself |
+| Battlefield Forge, Silverbluff, Razortide, Rustvale Bridge, Skycloud Expanse | Forge stays with Toph; three always-tapped Bridges (R10); a filter | 5 basics (Island +2, Plains +2, Mountain +1) | Always-tapped lands 4 to 1; untapped colors on turns 1 to 3 |
+
+In short: the list keeps the step-6 engine (Inspirit, Uthros, Insight Engine, Surge Conductor, Tekuthal, Reactor, Lux,
+funnels) and changes the edges: +2 tutors, +2 proliferate sources (Flux Channeler, Contentious Plan), +1 route (poison), +1 counterspell net (Swan
+Song went to Azula; Counterspell and Negate in), 3 fewer always-tapped lands, the Elephant token gone, and the honest note on the
+Excavation loop.
+
+**Against iteration 1** (the Counter Intelligence precon, Salt 3.8, real power 4.0-4.5): the precon's 11 tapped lands and 6
+cards at MV 7+ are gone (1 and 2 here), Kilo replaces Inspirit as commander (Inspirit is in the 99), the noncombat finishers
+replace a combat-only plan, interaction rises from 9 tag-counted to 12 spot answers with 6 at MV 2 or less.
+
+## 10. Real-power estimate
+
+| List | Salt | Real power (1-10) |
+|---|---|---|
+| Precon (iteration 1) | 3.8 | 4.0-4.5 |
+| Current after purchases | 4.6 | 4.8-5.3 |
+| **This list (all buys arrive)** | not measured (expect 4.5-5.0: Salt still sees one combo, more interaction, fewer tapped lands) | **5.6-6.1** after the fix round (5.4-5.9 before it), confidence medium-low |
+| This list with the to-read buys replaced by their stand-ins | | 5.3-5.7 |
+
+Why higher: a third table-wide finisher that is fast (poison), two more proliferate engines, one more Kilo tap per round
+(Relic + North Pole Patrol), cheaper instant interaction and a real win-turn shield, two tutors, cleaner mana. Why not more:
+no infinite line is buyable in Spanish, no Game Changer, the finishers have no direct tutor. The biggest upgrade left is
+Sinking Feeling (an infinite with Relic of Legends) the day a Spanish copy is in stock.
+
+## 11. Total spend (Kilo's envelope: 18,000; hard cap 20,000)
+
+| Item | CLP |
 |---|---|
-| Rewards | Kilo becoming tapped, by ANY means: attacking (haste, so the turn it lands), station, crew, improvise, convoke, a waterbend cost, any later re-tap after an untap. Each tap is one proliferate. |
-| Fuel | Permanents that already carry counters (charge on rocks and engines, +1/+1 on artifact creatures, stun on opposing creatures). Kilo adds nothing to a permanent without a counter, so the 99 must PLACE counters (sources) and then CONVERT them (payoffs). Second fuel: tap events, one per untap cycle unless untappers. |
-| Window | Any time it becomes tapped: my combat (attack), my main phase (station, sorcery speed), any time I have priority (crew, waterbend, improvise). Crew and waterbend let Kilo stay untapped as a blocker through the opponents' turns and tap at the last end step. |
-| How it wins | It does not. It multiplies counters that become mana (Chalice, Prism, Cornucopia, Autogenerator, Crawler), cards (Insight Engine, Etched Oracle, Sensor), threats (Titan Forge, Hangarback, Kappa) and two finishers that need no combat: Darksteel Reactor (wins at 20; Resourceful Defense and Moxite Refinery funnel counters onto it) and Lux Artillery (10 to EACH opponent per end step at 30 counters). |
-| How it dies | Any creature or artifact removal (3/3 body), creature and artifact wipes, blockers if it attacks. It never has to attack. |
-| Dependence | **Enabler, close to engine** (the reviewer reads it between the two). Without Kilo the 99 has 8 cards that proliferate by themselves (4 one-shots), so counter growth drops from "+1 on every countered permanent per tap" to "+1 per source". Cheap recast (5, then 7) with haste softens it. Protection floor 3 (enabler), aimed at 4 to 5: 4 tags now, 5 with Swiftfoot Boots. |
-| Cost | MV 3, three colors: wants a 2-mana rock or three colored lands on turn 3; recast is cheap. |
-| Dead clauses | None on Kilo. |
+| Rivendel: Negate 300, Volt Charge 200, Contentious Plan 300, Meticulous Excavation 300, Relic of Legends 2,500 | 3,600 |
+| Game of Magic: Talisman of Conviction 1,500; Swords EN for Ezio 2,500 | 4,000 |
+| PayToWin: Command Tower (Spanish, for Kilo) 900 | 900 |
+| **Confirmed subtotal** | **8,500** |
+| To read (hints): Prologue ~400, Trophy Mage ~600, Tribute Mage ~1,000, Counterspell ~2,500, Flux Channeler ~2,600 | ~7,100 |
+| Loans | 0 |
+| Tokens (Golem 9/9, Incubator, Clue all owned; no Elephant, no Bird) | 0 |
+| **All-in** | **about 15,600** (2,400 under the envelope; 22,300 before) |
 
-**Rules points to verify**
-1. Tapping Kilo to station triggers it, and the proliferate resolves before the station ability. **Confirmed** (Kilo ruling
-   2025-07-25). So the first station of a Spacecraft gets no proliferate (it has no counter yet); every later one does.
-2. Tapping Kilo for crew, improvise, convoke or a waterbend cost triggers it. Waterbend: **confirmed** that any untapped
-   artifact or creature may be tapped to pay, summoning sick or not (Waterbending Lesson rulings 2025-10-02). Crew, improvise:
-   follows the general rule that a permanent tapped to pay a cost "becomes tapped"; **no card ruling read**. If wrong, the
-   tap-outlet line (section 3) shrinks to station and waterbend; attacking still works.
-3. Proliferate may choose any permanent or player with counters, including opponents', or none. **Confirmed** (Kilo rulings).
-   Use: never grow opponents' counters except stun counters (Tranquilize).
-4. Lux Artillery counts counters of any kind among MY artifacts and creatures (charge on rocks and Spacecraft, +1/+1,
-   Incubator counters); it checks as the end step begins and again on resolution. **Confirmed** (Oracle; ruling 2023-02-04).
-5. Airbending my own Kilo in response to removal: the owner may cast it from exile for {2} (Airbending Lesson ruling
-   2025-10-02). Commander tax counts only casts from the command zone (CR 903.8, **recalled, not re-read**). If wrong, the
-   save still works but costs the tax.
-6. Inspirit at 8+: "other artifacts you control have hexproof and indestructible" covers Kilo (an artifact). **Oracle text.**
-7. Cyberdrive Awakener's animated noncreature artifacts may attack that turn if they have been under my control since the
-   turn began (summoning-sickness rule CR 302.6, **not checked against a ruling**; Scryfall lists none). If wrong, the combat
-   route loses the animated rocks and keeps the flying artifact creatures.
-8. Proliferate grows only permanents that already have that counter: never cast Everflowing Chalice for 0, never spend the
-   last counter of Pentad Prism or Astral Cornucopia unless the mana wins the game. **Oracle text of proliferate.**
-9. Lux Artillery gives artifact creature spells sunburst: Kilo recast from the command zone with three colors enters with
-   three +1/+1 counters (and Ripples can then phase it out). **Oracle text.**
-10. Barrels of Blasting Jelly's "{1}: Add one mana of any color" converts one mana into any color once a turn without losing
-    mana, so three lands of two colors plus Barrels cast Kilo. **Oracle text.**
-11. Optional path only (section 8): tapping Kilo for the cost of Relic of Legends' second ability makes it "become tapped";
-    that ability does not tap Relic, so with Freed from the Real's `{U}: untap` it loops. Commander Spellbook lists Kilo +
-    Freed from the Real + Relic of Legends as "Infinite proliferate" (variant 4222-4549-6702). **Oracle text and Spellbook; no
-    card ruling read.**
-
-## 2. Plan and backup
-
-- **Plan.** Kilo becomes tapped every turn (a haste attack, or at home by station, crew, waterbend and improvise) and
-  proliferates the counters that about 23 rocks, engines and artifact creatures place; those counters become mana, cards and
-  threats. The deck closes through whichever route it draws. The noncombat route is Lux Artillery (10 to each opponent every
-  end step at 30 counters) or Darksteel Reactor (20 charge counters): **two cards with no tutor in the Spanish pool** (one of
-  them by turn 9 in about 30 % of games, about 40 % counting Long-Range Sensor's Discover 4, which can hit either; Emry, Buried
-  Ruin and Phyrexian Metamorph recover or copy them once drawn). The combat route below is co-primary and closes most games.
-- **Main closer (step 6): the Darksteel Reactor funnel.** Darksteel Reactor (indestructible) gains a charge counter each upkeep, one per Kilo
-  trigger (two with Tekuthal), two per combat from Inspirit and one per Coretapper tap; Resourceful Defense ({4}{W}, instant
-  speed) moves every counter of one permanent onto it, and Moxite Refinery (sorcery) converts X counters of any kind into X charge
-  counters on it. Typical win: Reactor on turn 5 or 6, 20 counters by turn 7 or 8. Lux Artillery (30 counters, 10 to each
-  opponent per end step) is the second noncombat route.
-- **Backup (same pieces).** The countered artifact board attacks: Cyberdrive Awakener (every noncreature artifact a
-  4/4 flyer this turn, every artifact creature flying), Titan Forge 9/9s and an unblockable Kappa Cannoneer; Uthros at 12+ adds evasive damage. All six closers of both routes: about 66 % to
-  see one by turn 9, 75 % by turn 13 (no extra draw; the draw engines raise it).
-- **No tutor available.** The Spanish pool has no artifact tutor (checked: no Fabricate, Whir of Invention, Trophy Mage-type
-  card). Fabricate (Spanish, 9,800) and Whir of Invention (no stock) exceed or miss this iteration; they are the first
-  candidates for the next one (section 8).
-- **Archetype.** Hybrid: `plus_one_counters` primary (Kilo's proliferate cue; counted for all counter kinds), `artifacts`
-  secondary with role `plan`, because every counter lives on an artifact and the deck reads the artifact count (metalcraft,
-  improvise, affinity, Surge Conductor, Inspirit's protection, Cyberdrive).
-
-## 3. Profile table
-
-Odds are "at least one by 12 cards seen" (turn 5) for early, "by 20 cards" (turn 13) for late, without Kilo unless said
-(consistency report). Weighted counts follow `meta.weights` (one-shot in a support line 0.5, conditional 0.5).
-
-| Function | Tier | Min | Target | Actual | Reason |
-|---|---|---|---|---|---|
-| counter_sources | gate, early | 12 | 18 | **23** (97 %) | Kilo only multiplies, so the 99 must place counters; repeatable sources first (Coretapper, Steel Overseer, Insight Engine, Inspirit, Uthros, Crawler, Autogenerator, Lux Cannon, Titan Forge, Sensor, Seedshark, Kappa, Hangarback, Reactor), then enter-with-counters pieces. Every source is also a rock, draw engine, removal or body. Kilo is NOT a source. |
-| counter_payoffs | gate, late | 6 | 8 | **15** (97 %) | Each payoff grows with proliferate (mana rocks, draw engines, token makers, removal, finishers). |
-| counter_doublers (proliferate) | support promoted to gate, early | 10 (class) | 12 | **10** with Kilo, 9 without (WARN) | Promoted because the plan's growth is proliferate; Kilo guarantees it every turn it lives. North Pole Patrol removed (it untaps Kilo, it does not proliferate: review M-1). Pieces: Kilo, Surge Conductor, Thrummingbird, Patrolling Peacemaker, Karn's Bastion, Tekuthal (doubles), Tezzeret's Gambit, Experimental Augury, Ripples, Deepglow Skate. The pool has no other proliferate card. Weighted without Kilo about 6.5 (4 repeatable, Tekuthal, 4 one-shots at half): above the profile's support min 4, under its target 7. |
-| kilo_tap_outlets | custom, late | 6 | 8 | **11** with Kilo, 10 without (91 %) | [J] Lets Kilo trigger without attacking into big blockers, at instant speed, and twice a round with North Pole Patrol. Weighted: repeatable Inspirit, Uthros, Brute Suit, Ovalchase Dragster, North Pole Patrol, Katara = 6, one-shots Waterbending Lesson, Kappa, Universal Surveillance, Organic Extinction = 2, total 8 plus Kilo's own attack. |
-| artifact_density | gate, early | 20 | 25 | **44** with Kilo (37 artifact spells + 6 artifact lands) | Metalcraft (Dispatch) from turn 3, improvise and affinity costs, Inspirit protection, Cyberdrive animation, Surge Conductor triggers (Barrels and Chromatic Star are cheap entries). |
-| artifact_payoffs | gate, early | 10 | 12 | **17** (91 %) | Surge Conductor, Fireweaver, Uthros, Jhoira, Kappa, Cyberdrive, Thought Monitor, 2 cost reducers, Emry, Inspirit, Steel Overseer, Dispatch, Universal Surveillance, Organic Extinction, Lux Artillery, Seedshark. |
-| through_wide_board | gate, early | 10 | 12 | **16** (90 %) | Team level 7: Lux Artillery, Reactor, Fireweaver (scales), Cyberdrive, Chain Reaction, Organic Extinction, Fumigate. Flyers and unblockables 9 (Hangarback Thopters, Kappa, Thrummingbird, Tekuthal, Thought Monitor, Inspiring Overseer, Mechanaut, Seedshark, Inspirit at 8+): they count, but none closes alone (review M-2). |
-| through_big_creatures | gate, early | 10 | 12 | **16** (90 %) | Spot answers: Tranquilize (three stun counters Kilo keeps topping up), Dispatch, Chaos Warp, Airbending Lesson, Sandbenders' Storm, Firebending Lesson kicked, Barrels of Blasting Jelly ({5}: 5 damage), Lux Cannon (repeatable); North Pole Patrol taps; the two noncombat finishers, Cyberdrive flying, Kappa unblockable, Titan Forge 9/9s, two wipes. |
-| evasion | support | 4 | 6 | 9 | Inside through_wide_board. |
-| wipe_insurance | support | 2 | 3 | 7 | Inspirit 8+, Darksteel Reactor (indestructible), Hangarback, Emry, Swan Song, Ripples, Buried Ruin; plus 3 indestructible Bridges; every noncreature artifact survives creature wipes with its counters. |
-| Ramp | base | 10 | 12 | **9 tags (WARN); about 5 timed** | Timed (review I-2): castable by turn 2 and helping Kilo: Sol Ring, Arcane Signet, Chalice, Prism; Sculptor and Mechanaut at half (they discount artifacts, not Kilo). Cornucopia, Sphere, Solar Array are turn-4 plays. Fixing (not counted as ramp): Barrels of Blasting Jelly, Chromatic Star, Spire, Orchard. Fix: purchase 4 (Talisman of Conviction; fallback Relic of Legends). |
-| Draw (nets cards) | base | 10 | 12 | **12** | Insight Engine, Uthros, Sensor (half), Etched Oracle, Gambit, Thirst, Katara (repeatable, half), Universal Surveillance, Waterbending Lesson, Thought Monitor, Jhoira, Inspiring Overseer. |
-| Removal (spot) | base | 6 | 8 | **8** + Soul-Guide Lantern (graveyard answer, tagged removal) | Tranquilize, Dispatch, Chaos Warp, Airbending Lesson, Firebending Lesson, Sandbenders' Storm, Barrels (late), Lux Cannon. Answers to opposing commanders: Chaos Warp (tuck), Tranquilize (stun kept up by proliferate), Dispatch (exile), Lux Cannon. |
-| Wipes | base | 2 (hybrid takes the higher) | 2 | **2** | Fumigate, Organic Extinction; both near one-sided here (noncreature artifacts survive; Organic spares artifact creatures; Inspirit 8+ makes Fumigate one-sided). |
-| Commander protection | base, enabler | 3 | 4 | **4 tags, about 3.25 weighted** | Swan Song 1 (spells only), Airbending Lesson 1 (exile and recast for {2}), Ripples 0.75 (needs a counter on Kilo), Inspirit 0.5 (needs 8). Swiftfoot Boots (extra purchase) makes 5 tags, about 4.25. |
-| Graveyard hate | base | 1 | 1 | 1 | Soul-Guide Lantern. |
-| Lands | band 36 to 37 | | | **37** | Rule of thumb 31 + 3 colors + MV 3 = 37; timed ramp about 5, so the top of the band. |
-| Curve | avg MV band 2.6 to 3.1 | | | **3.15** | MV 0: 3, 1: 7, 2: 11, 3: 19, 4: 14, 5: 2, 6: 2, 7+: 4. Thought Monitor (affinity) and Organic Extinction (improvise) cost less in practice. |
-| Creatures | 15 to 28 | | | 26 in the 99 | Plus 2 Vehicles and 2 Spacecraft. |
-
-**Card-flow budget (turns 4 to 8).** Spend: about one card a turn. Gain: natural draw 1, plus Insight Engine (1, 2, 3... per
-activation, faster with proliferate), Uthros and Jhoira (1 per artifact spell), Sensor (1 per 2 counters), Katara (1 per
-round), Oracle bursts; Chromatic Star replaces itself. Holds.
-
-**Counter rate.** Turn 4: 2 to 4 countered permanents, a Kilo trigger adds 2 to 4 counters, sources add 2 to 3. Turn 6: 5 to
-7 countered permanents, about 7 to 10 new counters a turn. Lux Artillery's 30 counters arrive around turns 8 to 10 [J, not
-simulated]; Darksteel Reactor alone needs about 7 turns after it lands, 3 to 4 with Tekuthal or Deepglow Skate.
-
-**Dead clauses named.** Thrummingbird's proliferate needs combat damage (weak late); Airbending Lesson lets the opponent
-recast the permanent for {2} (best on tokens or expensive permanents); Chain Reaction hits my own creatures too (cast it when
-the opponents' boards are wider than mine); Barrels' damage clause costs {5} (a late use). No vehicle, equipment or partner
-clause lacks its cards (2 vehicles crewed by Kilo; Swiftfoot Boots, if bought, is the only equipment and equips Kilo).
-
-## 4. The list by function: how to use each card
-
-**Commander.** Kilo, Apogee Mind: cast on turn 3 (turn 2 off Sol Ring); attack with haste only into an empty or small
-board; otherwise tap it at home (station Inspirit or Uthros, crew Brute Suit or Ovalchase Dragster at the last opponent's
-end step, pay waterbend or improvise with it). Every tap is a proliferate: choose only your permanents (and opposing stuns).
-Mulligan a seven that cannot make all three colors by turn 4 (review I-1).
-
-**Ramp and fixing (9 + 2)**
-- Sol Ring: turn 1; makes a turn-2 Kilo possible; later pays Insight Engine, Titan Forge, Karn's Bastion. Never bad.
-- Arcane Signet: turn 2; fixes all three colors for Kilo on turn 3.
-- Everflowing Chalice: turn 2 with one kick, never for 0; each proliferate adds a counter, so it is +1 colorless mana a turn. Late, kick it two or three times as an artifact entry for Surge Conductor and Fireweaver.
-- Pentad Prism: turn 2 with two colors; spend counters for a big turn but keep one so proliferate and Coretapper refill it.
-- Astral Cornucopia: X=1 on turn 4 after Kilo (X=2 on turn 6); grows into a many-mana fountain for Universal Surveillance, Insight Engine and Katara. Bad early (never instead of Kilo).
-- Commander's Sphere: turn 3 or 4 fixing; sacrifice it for a card in response to artifact removal or when mana no longer matters.
-- Solar Array: turn 3 or 4; tap it for the next artifact spell so that spell gets sunburst (more counters on Etched Oracle, Crawler, Hangarback; charge counters on rocks, which Lux Artillery counts).
-- Etherium Sculptor: turn 2; 37 artifact spells cost 1 less (not Kilo); later a station or crew body. Bad late. Stand-in for Prophetic Prism (purchase 2).
-- Enthusiastic Mechanaut: turn 2; same discount and a 2/2 flyer that chips and blocks flyers.
-- Barrels of Blasting Jelly: turn 1 or 2; from then on {1} turns one mana into the color Kilo is missing (once a turn, no loss), so it is a fixer for turn 3; an artifact entry for Surge Conductor and Fireweaver; late, {5} and sacrifice it for 5 damage to a creature.
-- Chromatic Star: turn 1 or 2; pay {1} and sacrifice it for the missing color on Kilo's turn, and draw a card when it goes to the graveyard from the battlefield (a cheap artifact entry and exit for Surge Conductor, Fireweaver, Jhoira and Uthros). Bad never: it replaces itself.
-
-**Counter engines and sources**
-- Coretapper: turn 2; each turn a charge counter on the best target (Prism or Chalice early for mana; Reactor, Titan Forge, Lux Cannon, Sensor later); sacrifice it in response to removal for two counters.
-- Steel Overseer: turn 2 or 3; tap it every turn for +1/+1 on every artifact creature, Kilo included (that enables Ripples on Kilo). Keep it home; dies to pings.
-- Hangarback Walker: X=1 on turn 2, or large late; pump it with {1},T; proliferate grows it; let it die into flying Thopters (Board 1, Fireweaver pings).
-- Insight Engine: turn 3 or 4; activate at an opponent's end step after Kilo grew it on your turn: it draws 2, 4, 6. The main draw engine; protect it.
-- Uthros Research Craft: turn 3 or 4; station it with Kilo (proliferate first, then 3 counters) to reach 3+ at once; a card per artifact spell; 12+ is a big flyer.
-- Inspirit, Flagship Vessel: turn 4 or 5; station it with Kilo every turn (proliferate, then +3) to 8 in about two turns; each combat put two charge counters on Reactor, Titan Forge or Lux Cannon, or a +1/+1 on Kilo; at 8+ every other artifact, Kilo included, has hexproof and indestructible. The best card of the 99. Bad only before turn 4.
-- Long-Range Sensor: turn 3 to 5; Kilo's attack gives a counter and the proliferate another; Coretapper and Inspirit feed it without attacks; Discover 4 at sorcery speed can hit Lux Artillery or the Reactor (the route's only extra access).
-- Crystalline Crawler: cast with three colors (three counters, six with Lux); tap it every turn for a counter; remove counters for any color in a big turn.
-- Empowered Autogenerator: turn 4 or 5 (enters tapped); every tap adds a counter then that much mana; with proliferate it gives 5 to 10 mana by turn 8 for X spells, Titan Forge and Karn's Bastion.
-- Etched Oracle: cast with three colors; one proliferate makes it "draw three"; refill and repeat.
-- Moxite Refinery: from turn 2 it is a converter; on the closing turn pay {2} and tap it to move X counters from Crystalline Crawler, Hangarback, Etched Oracle, an Incubator or a spent rock onto Darksteel Reactor as charge counters (sorcery speed). Early it can also move charge counters onto Pentad Prism or Lux Cannon.
-- Patrolling Peacemaker: a 2/2 with counters that proliferates whenever an opponent targets another player or their stuff, which happens every round in a 4-player pod.
-- Kappa Cannoneer: improvise it by tapping Kilo (proliferate) and rocks; ward 4; every artifact entry grows it and makes it unblockable, a clock that Board 2 cannot block.
-- Chrome Host Seedshark: turn 3; every noncreature spell makes an Incubator with X +1/+1 counters (Lux counts them, proliferate grows them; pay {2} to make an artifact creature for Cyberdrive or station). 2/4 flying blocker.
-- Lux Cannon (removal): tap each turn for a counter; with Kilo it fires every second turn: destroy any permanent.
-
-**Proliferate (7 + Karn's Bastion, Patrolling Peacemaker)**
-- Surge Conductor: turn 3; every nontoken artifact entering (rocks, artifact lands, Barrels, Star) proliferates. Play it before a chain of cheap artifacts.
-- Thrummingbird: turn 2 while boards are empty; proliferates when it connects. Bad late.
-- Tekuthal, Inquiry Dominus: doubles every proliferate (Kilo's trigger counts twice); a 3/5 flying blocker; remove three counters to give it an indestructible counter before a wipe.
-- Tezzeret's Gambit: draw two and proliferate; pay 2 life for {U/P} if blue is short; best when Kilo is off the table or to push the Reactor.
-- Experimental Augury: at an opponent's end step: dig three for a finisher and proliferate.
-- Ripples of Potential: hold it for removal or a wipe: proliferate, then phase out everything that got a counter (Kilo with a +1/+1, Insight Engine, Lux Artillery, Reactor).
-- Deepglow Skate: late; doubles every kind of counter on chosen permanents: Reactor 10 to 20 wins, Lux Artillery's count jumps. Bad early.
-
-**Finishers (win routes)**
-- Lux Artillery: cast when about 15 counters are out, or earlier so artifact creature spells (Kilo recast too) get sunburst; at 30 counters it deals 10 to each opponent every end step. Bad early.
-- Darksteel Reactor: cast turns 4 to 6; indestructible; feed it with Coretapper, Inspirit and proliferate; 20 wins. Hold Swan Song or Ripples for the exile or bounce aimed at it.
-- Reckless Fireweaver: turn 2 or 3; 1 to each opponent per artifact entry (rocks, Barrels, Star, Thopters, Gnomes, Incubators); chip damage that makes Lux's 10 lethal a turn earlier.
-- Cyberdrive Awakener: cast in the main phase of the kill turn; every noncreature artifact you had since the turn began becomes a 4/4 flyer and attacks with the flying artifact creatures. Bad early.
-- Resourceful Defense: cast it once Darksteel Reactor or Lux Artillery is on the table; {4}{W} at an opponent's end step moves every counter of one permanent (Inspirit, Uthros, Autogenerator, Titan Forge, a rock) onto the Reactor; when removal or a wipe hits a countered permanent, its counters move onto the Reactor or another engine. The deck's main closing piece next to the Reactor.
-- Titan Forge: activate {3},T on spare turns; proliferate fills it; three counters make a 9/9 that blocks Board 2 and attacks.
-
-**Card draw (7 + the draw engines above)**
-- Thirst for Knowledge: instant; discard one artifact (a spare rock late, or Lux/Reactor for Emry and Buried Ruin).
-- Katara, Bending Prodigy: at an opponent's end step pay waterbend {6} by tapping Kilo (proliferate) and the artifacts you did not use: a card each round at instant speed; if Katara is tapped at your end step she grows. Bad early (few artifacts to tap).
-- Universal Surveillance: improvise with Kilo (proliferate), rocks and artifact lands; X of 4 to 6 on turn 6 or later.
-- Waterbending Lesson: draw three; pay waterbend {2} by tapping Kilo (proliferate) and an artifact to keep every card.
-- Thought Monitor: affinity makes it 2 to 4 mana for a 2/2 flyer and two cards. Bad early.
-- Jhoira, Weatherlight Captain: turn 4; every artifact or legendary spell draws; cast it before a chain of cheap artifacts.
-- Inspiring Overseer: turn 3; a card and a 2/1 flyer (station fuel, chump blocker against Board 2). Stand-in for Talisman of Conviction (purchase 4).
-
-**Removal (7 spot + Lux Cannon + graveyard)**
-- Tranquilize: on the biggest Board 2 creature or an opposing commander: three stun counters, and every Kilo trigger adds another, so it never untaps while Kilo lives. Sorcery: cast it before the attack.
-- Dispatch: from turn 3 (three artifacts) it exiles for one mana; before that it taps an attacker.
-- Chaos Warp: any permanent, commanders included (tuck); the answer to enchantments.
-- Airbending Lesson: instant: exile a nonland permanent and draw; or exile your own Kilo in response to removal and recast it for {2} with haste.
-- Firebending Lesson: 2 damage to a utility creature early; kicked, 5 damage late. Stand-in for Volt Charge (purchase 1).
-- Sandbenders' Storm: instant: destroy a creature with power 4 or more (Board 2); or earthbend 3 for a land with counters that proliferate grows and that returns when it dies.
-- Soul-Guide Lantern: on entering exile a reanimation target; later sacrifice it to exile each opponent's graveyard, or for a card.
-
-**Wipes (2)**
-- Fumigate: when behind on board; your noncreature artifacts keep their counters; with Inspirit at 8+ your artifact creatures are indestructible, so it is one-sided. Recast Kilo after.
-- Organic Extinction: improvise with Kilo and artifacts (often 4 to 6 mana from hand); kills only nonartifact creatures, so almost all of yours survive. Bad early.
-
-**Protection (1 + Airbending Lesson, Ripples, Inspirit)**
-- Swan Song: keep {U} up for the removal or wipe spell aimed at Kilo, Insight Engine, Lux Artillery or the Reactor.
-
-**Utility (5)**
-- Emry, Lurker of the Loch: affinity makes it 0 to 1 mana; mill four, then tap each turn to recast an artifact from the graveyard (Lux, Reactor, a rock after removal; Kilo too if you left it there, with no tax).
-- Phyrexian Metamorph: copy Lux Artillery (a second 10 to each opponent), Insight Engine, Autogenerator or Surge Conductor, or an opponent's best artifact or creature; pay 2 life if blue is short.
-- North Pole Patrol: untap Kilo after its attack or station and tap it again (crew, waterbend) for a second proliferate; its waterbend {3} (tap Kilo to pay) taps an attacker on an opponent's turn or a blocker on yours.
-- Brute Suit: crew 1 with Kilo at the last opponent's end step: Kilo blocked all round and still proliferates; a 4/3 vigilance body.
-- Ovalchase Dragster: crew 1 with Kilo (proliferate); a 6/1 trample haste attacker when a lane is open; flies with Cyberdrive. Bad against pingers. Stand-in for Swiftfoot Boots (extra).
-
-**Lands (37)**
-- Untapped duals: Adarkar Wastes, Shivan Reef (pain lands); Sulfur Falls, Glacial Fortress, Clifftop Retreat (check lands: play after a basic); Radiant Summit (untapped with two basics); Rugged Prairie, Cascade Bluffs, Skycloud Expanse (filters: need another colored mana, so count them as colorless until then).
-- Any color: Exotic Orchard (depends on opponents), Spire of Industry (with an artifact, 1 life).
-- Utility colorless: Karn's Bastion ({4},T proliferate, also on opponents' turns), Buried Ruin (return Lux or Reactor).
-- Artifact lands: Ancient Den, Great Furnace, Seat of the Synod (untapped; metalcraft, improvise, Surge Conductor); Silverbluff, Razortide, Rustvale Bridge (tapped, indestructible artifacts).
-- Mystic Monastery, Path of Ancestry: tapped tri-color lands; play them on turn 1 or a turn with spare mana.
-- Basics: 7 Island, 4 Plains, 5 Mountain (all Spanish; the fifth Mountain is the stand-in for Command Tower, purchase 3).
-
-## 5. Cut log
-
-New deck: no current list and no proven role-player for this commander (lesson L6 names cards of the other decks). The
-precon is the starting point; these are the EOC cards in the pool that are NOT in the list, the cards cut in rounds 2 and 3,
-and the main non-precon cards considered.
-
-| Card | Function it served | Count after the cut (min) | Replacement and reason |
-|---|---|---|---|
-| Golem Foundry (EOC, round 3) | counter source, artifact payoff | sources 23 (12), artifact payoffs 18 (10) | Barrels of Blasting Jelly: the mana fix Kilo needs on turn 3 (simulation in section 11), plus late removal; Foundry was the weakest engine and its Freed-line role is gone this iteration. |
-| Detained by Legionnaires (round 3) | spot removal, commander answer | removal 8 (6), through_big 16 (10) | Chromatic Star (fixing and a card); Detained falls to bounce and sacrifice; commander answers left: Chaos Warp, Tranquilize, Dispatch, Lux Cannon. |
-| The Mycosynth Gardens (EOC, round 3) | any-color land for {1} | lands 37 | A fifth Mountain: red is a short color, and the Mountain also turns on Clifftop Retreat, Sulfur Falls and Radiant Summit (review M-4). |
-| Swords to Plowshares (round 2) | spot removal | removal 8 (6) | Given to Ezio; Tranquilize. |
-| Pull from Tomorrow (round 2) | draw | draw 13 (10) | Given to Azula; Katara, Bending Prodigy. |
-| Battlefield Forge (round 2) | untapped R/W land | lands 37 | Given to Toph; Path of Ancestry. |
-| Wake the Past (EOC) | wipe insurance (7 MV) | wipe_insurance 7 (2) | Emry, Buried Ruin, Inspirit cover it. First card back if artifact wipes show up in the pod. |
-| Threefold Thunderhulk (step 6) | combat closer, counter source | sources 22 (12) | 7 MV, bad early; Chain Reaction (third wipe) takes the slot; the combat route keeps Cyberdrive, Titan Forge and Kappa. |
-| Depthshaker Titan (step 6) | combat closer (trample, haste) | through_wide 16 (10) | 7 MV, bad early; Resourceful Defense (Reactor funnel) takes the slot. |
-| Mindless Automaton (step 6) | counter source, draw | draw 12 (10) | Slow; Moxite Refinery (Reactor funnel) takes the slot. |
-| Gavel of the Righteous (EOC) | counter source, equipment | sources 23 (12) | Little value on Kilo. |
-| Alibou, Ancient Witness (EOC) | haste for artifact creatures, single-target damage | through_big 16 (10) | 5 MV, single target; Cyberdrive covers that board haste. |
-| Angel of the Ruins (EOC) | artifact/enchantment removal, 7 MV | removal 8 (6) | Chaos Warp and Lux Cannon do it cheaper. |
-| Cloud Key (EOC) | cost reducer | ramp 9 (10, WARN) | A turn-3-to-4 play like Sphere, with less output. |
-| Command Tower (EOC) | land | lands 37 | All three copies are in Toph, Azula and Ezio; purchase 3 (PayToWin copy for Ezio, his Spanish copy to Kilo). |
-| Temple of Enlightenment, Irrigated Farmland, Lonely Sandbar, Secluded Steppe, Evolving Wilds (EOC) | tapped lands | lands 37 | Already 5 tapped lands; untapped lands and basics preferred. |
-| Planar Cleansing | wipe | wipes 3 (2) | Destroys my own artifacts. |
-| Rowdy Snowballers | stun | through_big 16 (10) | One stun counter; Tranquilize gives three. |
-| Divination, Geyser Leaper, Forecasting Fortune Teller | draw | draw 13 (10) | Weaker than the 13 kept. |
-| Cat-Owl, Flexible Waterbender, Adrestia, Astral Wingspan | Kilo tap outlets | 11 (6) | Brute Suit, Dragster, Patrol and Katara do it cheaper. |
-| Burnished Hart | land ramp at turn 4+ | ramp 9 | Too slow. |
-| Equipment and Assassin cards (Hookblade, Cobbled Wings, Glider Staff, Headsplitter, Brotherhood Spy...) | evasion, other plans | evasion 9 (4) | A second package (L1, L7). |
-| Buried Ruin → Plains (tested, not done) | | | +1 point of turn-3 Kilo (inside the noise), but Buried Ruin is one of the two recovery pieces of the noncombat route. Kept. |
-
-## 6. Loans
-
-None. The loan candidates are English cards of his Standard decks; a 100 % Spanish deck cannot play them.
-
-## 7. Scarce copies (resolved by the lead, round 2)
-
-| Card | Copies (ES) | Other deck | Goes to | Kilo's list |
-|---|---|---|---|---|
-| Swan Song, Insight Engine, Thirst for Knowledge | 1 each | Azula (and Ezio for Swan Song) | **Kilo** | kept |
-| Soul-Guide Lantern | 2: one in Toph, one free | Azula | **Toph and Kilo**; Azula's is a separate purchase | kept |
-| Commander's Sphere, Spire of Industry, Glacial Fortress, Mystic Monastery, Radiant Summit | 1 each | Ezio | **Kilo** | kept |
-| Swords to Plowshares / Pull from Tomorrow / Battlefield Forge | | Ezio / Azula / Toph | the other deck | replaced (Tranquilize, Katara, Path of Ancestry) |
-| Command Tower | 3, in Toph, Azula and Ezio | | those three | owner 2026-11-07: a PayToWin copy (900, counted in Kilo's cap) goes to Ezio and Ezio's Spanish copy moves to Kilo when it arrives; the list keeps the fifth Mountain until then |
-
-Round-3 additions (Barrels of Blasting Jelly, Chromatic Star, a fifth Spanish Mountain) are wanted by no other deck. No
-conflict: Sol Ring, Arcane Signet, Exotic Orchard, Sulfur Falls, Clifftop Retreat, Rugged Prairie, Shivan Reef, Cascade
-Bluffs, Chaos Warp, Sandbenders' Storm, Path of Ancestry (separate physical copies in the assignment).
-
-## 8. Purchases (stores: Game of Magic Singles, PayToWin, Tienda La Comarca; Spanish copies; Kilo's cap 7,000 CLP)
-
-Sources: the live readings of 2026-11-07 (`data/prices/browser-gameofmagic-20261107-wishlist.psv`,
-`data/prices/browser-paytowin-20261107-wishlist.psv`, the La Comarca rows of `data/prices/20261107T2140Z.json`) and the lead's
-script reads of over-cap cards (2026-11-07, nine stores). A card outside those reads is **price to read**: the lead reads it
-by script; its USD price (Scryfall, 2026-11-07) is a hint only. Re-verify stock within 24 hours of buying. The list file keeps
-each stand-in until the card arrives (`assign_copies.py` has no notion of purchases).
-
-### Why the closer changes (step 6, second pass)
-Commander Salt scored the Reactor funnel list 3.8 owned and 3.8 after purchases ("control without a finisher", combos: none):
-Salt credits combos it finds in Commander Spellbook, not counter funnels. I searched the local Spellbook cache
-(`data/cache/spellbook_variants_slim.jsonl.gz`) for every variant inside {U}{R}{W} whose cards are owned Spanish copies plus
-the planned buys, with one card missing. Two lines are completed by ONE cheap Spanish card and reuse cards the deck already plays:
-
-| Line | Pieces (owned in **bold**) | Spellbook | What it does |
-|---|---|---|---|
-| **A, the main closer** | Meticulous Excavation + **Lux Artillery** + **Crystalline Crawler** | 1034-1350-2060, "Infinite artifact ETB, infinite colored mana" | With Lux Artillery out, Crawler cast with four colors enters with 8 counters (converge 4 + sunburst 4); remove them for 8 mana of any color, pay {2}{W} to return Crawler with Excavation, recast it for 4: +1 mana per loop, infinite mana and infinite artifact entries during your turn. **Win:** each entry makes **Reckless Fireweaver** deal 1 to each opponent (infinite damage to the whole table); or **Surge Conductor** proliferates on each entry (infinite proliferate: **Darksteel Reactor** wins); or the infinite mana goes into **Etched Oracle** (each opponent draws out). Late, three cards plus a payoff the deck already plays. |
-| B, the second line | Voltaic Construct + **Cyberdrive Awakener** + **Empowered Autogenerator** / **Astral Cornucopia** / **Everflowing Chalice** | 198-1978-2734, 1978-2593-2734, 1978-2734-4563 | On the Cyberdrive turn the rocks are artifact creatures, so Voltaic Construct ({2}: untap target artifact creature) untaps a rock that taps for 3 or more: infinite mana; it also untaps the animated Lux Cannon (destroy every opposing permanent), Insight Engine (draw) or Titan Forge (9/9s). Late (Cyberdrive costs 6). |
-
-Both pass the bracket check (scratchpad run of the full post-purchase list: PASS, floor 1, 0 Game Changers, Spellbook: 4
-variants inside the list, none flagged). Rejected: **Filigree Sages** (Spellbook pairs it with Astral Cornucopia or Empowered
-Autogenerator as a TWO-card infinite: the bracket check gives floor 4, an early two-card infinite, so it breaks a Bracket 3
-rule). Not buyable in Spanish: Aura of Dominion (none in nine stores), Freed from the Real, Pemmin's Aura, Sinking Feeling, so
-Relic of Legends completes no combo.
-
-### Inside the cap (re-ranked; the owner's approved 7,000 list had Relic of Legends instead of ranks 1 and 5)
-
-| Rank | Card (Spanish) | Store, price | Need it fills | Replaces (stand-in now) | Fallback |
-|---|---|---|---|---|---|
-| 1 | **Meticulous Excavation** | price to read (0.18 USD; Spanish printing: The Brothers' War) | Completes line A with owned Lux Artillery and Crystalline Crawler: the closer Salt can see; also returns a threatened permanent to hand in response to removal (my turn only) | Chromatic Star | Relic of Legends (La Comarca 2,600): no combo, but ramp and an instant Kilo tap |
-| 2 | Volt Charge | Game of Magic Singles, 400 (ONE, NM ES) | Instant removal plus proliferate; clears the `counter_doublers` WARN | Firebending Lesson | keep Firebending |
-| 3 | Generous Gift | PayToWin, 2,100 (WOC, NM ES) | Instant answer to any permanent (interaction is Salt's lowest pillar) | Brute Suit | keep Brute Suit |
-| 4 | Prophetic Prism | Game of Magic Singles, 400 (ONE, NM ES); PayToWin 900 (ROE, LP ES) | Fixing every turn plus a card | Etherium Sculptor | the PayToWin copy |
-| 5 | **Voltaic Construct** | price to read (2.50 USD; Spanish printing: Darksteel) | Completes line B with owned Cyberdrive Awakener and rocks | Hangarback Walker | Muddle the Mixture (PayToWin 3,000, ES): a counterspell whose transmute finds an MV-2 card (Pentad Prism, Moxite Refinery, Volt Charge), if the cap allows; else keep Hangarback Walker |
-| 6 | Talisman of Conviction | Game of Magic Singles, 1,500 (TDC; verify Spanish at purchase) | Turn-2 R/W rock; Kilo on turn 3 | Inspiring Overseer | keep Inspiring Overseer |
-
-**Total inside the cap:** 400 + 2,100 + 400 + 1,500 = 4,400 CLP verified, plus Meticulous Excavation and Voltaic Construct at
-their read prices (hints: about 200 and 2,400 CLP), about **7,000**. If the reads come in higher, drop rank 6 (the Talisman)
-before rank 5. **Why Relic of Legends leaves the cap:** its four Kilo combos all need an Aura (Freed from the Real, Pemmin's
-Aura, Sinking Feeling) that no chosen store has in Spanish; alone it is a 3-mana rock. Excavation and Voltaic Construct turn
-cards the deck already plays into two Spellbook combos for about the same money.
-
-**Separate lines (outside the cap):** Command Tower (PayToWin 900, C17 LP ES; owner's plan: that copy to Ezio, Ezio's Spanish
-copy to Kilo) for the fifth Mountain; Swiftfoot Boots (PayToWin 2,200, C14 LP ES) for Ovalchase Dragster.
-
-**The post-purchase list** = this list with Meticulous Excavation for Chromatic Star, Volt Charge for Firebending Lesson,
-Generous Gift for Brute Suit, Prophetic Prism for Etherium Sculptor, Voltaic Construct for Hangarback Walker, Talisman of
-Conviction for Inspiring Overseer, Swiftfoot Boots for Ovalchase Dragster and Command Tower for the fifth Mountain. Checked in
-the scratchpad (`kb-both.txt`): 100 cards; bracket PASS, floor 1, 0 Game Changers; Spellbook 4 combos inside, 0 flagged.
-**Measure this version on Commander Salt.**
-
-### Strong buys that do NOT fit the cap (price and expected gain)
-
-| Card (Spanish) | Price | Expected gain | Would replace |
-|---|---|---|---|
-| Eternity Vessel | price to read (15 USD; Spanish: Zendikar) | Spellbook "win the game" with **Darksteel Reactor** + **Resourceful Defense** (1870-4153-4873): the Vessel enters with charge counters equal to your life (30 to 40), Resourceful Defense (or Moxite Refinery) moves them onto the Reactor: instant win. Alone it also puts Lux Artillery over 30 counters at once. A third Salt-visible combo, all other pieces owned | Titan Forge |
-| Dawnsire, Sunstar Dreadnought | price to read (12 USD; Spanish: Edge of Eternities) | Spellbook "win the game" with Darksteel Reactor + Resourceful Defense (4153-4873-6758); a Spacecraft Kilo stations | Deepglow Skate |
-| Muddle the Mixture | PayToWin 3,000 (ES); La Comarca 3,350 | Counterspell plus a tutor for MV-2 cards (Pentad Prism, Moxite Refinery, Volt Charge); raises interaction | Hangarback Walker (if Voltaic Construct is not bought) or Chain Reaction |
-| Relic of Legends | La Comarca 2,600 (DMU, NM ES) | Ramp and an instant Kilo tap; a combo only with an Aura none of the stores has in Spanish | Brute Suit |
-| Arcane Denial | La Comarca 3,950 (WOC, NM ES) | A 2-mana hard counter to protect the combo turn | Chain Reaction |
-| Counterspell | only CardNexus, 4,090 ES (not a chosen store) | Same | Chain Reaction |
-| Battlefield Forge | PayToWin 2,600 (BRO, NM ES) | Untapped R/W land; one fewer tapped land | Path of Ancestry |
-| Tezzeret the Seeker | La Comarca 34,800 (Spanish foil only) | Untaps Kilo, −X puts the Reactor or Lux onto the battlefield | Titan Forge |
-| Enlightened Tutor (Game Changer) | 40,990 or more | Finds Meticulous Excavation, Lux, Crawler or the Reactor for {W}: the tutor line A lacks | Thrummingbird |
-| Teferi's Protection (Game Changer) | 47,990 or more | Protects the combo turn from any answer or wipe | Ripples of Potential |
-| Narset, Parter of Veils / Aura of Dominion | no Spanish copy in any store read | Narset: digs for the combo pieces each turn; Aura of Dominion: Kilo + Pentad Prism or Crawler, a second infinite | |
-
-**If the cap grows:** Eternity Vessel first (a third combo whose other pieces are all in the list), then Muddle the Mixture
-and Arcane Denial (protect the combo turn), then Battlefield Forge.
-
-**Optional upgrade path (Freed from the Real + Relic of Legends)** stays a note: Freed has no Spanish copy in the stores.
-
-## 9. WARN reasons and dead clauses
-
-- **Ramp 9 of 10 (WARN), about 5 timed.** The Spanish pool has no further turn-1-to-2 rock (Mind Stone's Spanish copy is in
-  Azula). Mitigation: Chalice, Prism and Cornucopia gain mana with every proliferate and Coretapper charges them; Crawler and
-  Autogenerator add late mana; Barrels and Chromatic Star fix colors (not counted as ramp). Fix: purchase 4 (Talisman of
-  Conviction; fallback Relic of Legends). The tag count stays 9 after the buys because Etherium Sculptor (tagged ramp) leaves
-  for Prophetic Prism; timed ramp rises to about 6.
-- **counter_doublers reaches 10 only with Kilo (WARN).** Correct after removing North Pole Patrol (review M-1): it untaps Kilo,
-  it does not proliferate. The owned pool has no other proliferate card; Kilo is the guaranteed piece, and the 9 others (about
-  6.5 weighted) are above the profile's support min 4. Purchase 1 (Volt Charge, 400) clears it: 10 without Kilo. No purchase
-  cut takes a card from this function.
-- Commander protection meets the floor by tags (4) but is about 3.25 weighted; Swiftfoot Boots (extra) brings it to 5.
-- Bad when drawn: 8 early (Cyberdrive, Organic Extinction, Deepglow Skate, Lux Artillery, Kappa,
-  Thought Monitor, Katara, Astral Cornucopia), 2 late (Thrummingbird, Etherium Sculptor): 12, at the warning line.
-- Dead clauses: section 3.
-
-## 10. The two reference boards
-
-- **Board 1, eight or more 1/1 chump blockers that can be sacrificed.** Kilo never needs to attack into them: station, crew
-  and waterbend keep the proliferate going. Win through: Lux Artillery (10 to each opponent per end step, no combat), Darksteel
-  Reactor, Fireweaver chip damage; Cyberdrive Awakener turns the rocks into 4/4 flyers over the goblins; Organic Extinction
-  and Fumigate clear them. The nine small flyers count but none closes alone. Risk: pingers kill Coretapper, Steel Overseer,
-  Thrummingbird and Sculptor; the important engines are noncreature artifacts (Insight Engine, Lux, Reactor, Titan Forge,
-  Autogenerator, Lux Cannon).
-- **Board 2, two or more creatures bigger than ours.** Do not attack with Kilo; tap it at home. Answers: 7 spot removal plus
-  Lux Cannon every second turn and Barrels late; Tranquilize keeps one tapped for good while Kilo lives; North Pole Patrol taps
-  one each round; Titan Forge 9/9s and Tekuthal 3/5 block; Kappa Cannoneer is unblockable after each artifact entry; the route
-  1 finishers ignore blockers. The real cost here is speed if neither noncombat finisher shows up.
-- **One sweeper turn.** A creature wipe leaves every noncreature artifact and its counters: recast Kilo for 5 with haste and
-  proliferate at once. An artifact wipe: Inspirit at 8+, the Reactor and the Bridges are indestructible; Swan Song counters a
-  sorcery wipe; Ripples phases out the countered permanents; Emry and Buried Ruin rebuild.
-- **Toughness.** Closers ignore toughness (the Reactor, Lux Artillery) or are big (Cyberdrive 4/4 and 4/4 rocks, Titan 9/9s); about 12 of the 26
-  creatures have toughness 2 or less, all engines kept at home, covered by Steel Overseer, proliferate on +1/+1 counters and
-  Inspirit's indestructibility.
-
-## 11. Mana
-
-- **Simulation** (scratchpad `sim_kilo.py`, 4,000 games per point, 7 + T cards, no mulligan, best land order, check lands and
-  Radiant Summit by condition, filters and Skycloud consuming another land's mana, Spire with an artifact, Exotic Orchard right
-  in half the games, Sol Ring turn 1, 2-mana rocks turn 2, Barrels and Chromatic Star converting one mana). Kilo castable on
-  turn 3, all games / games with 3+ lands:
-
-  | List | Turn 3 | Turn 4 (4+ lands) |
-  |---|---|---|
-  | Round 2 list | 64.8 % / 77.4 % (the reviewer's model: 76.4 %) | 90.5 % |
-  | Mycosynth → Mountain | 66.6 % / 79.5 % | 89.6 % |
-  | + Golem Foundry → Barrels | 68.4 % / 81.3 % | 90.9 % |
-  | **+ Detained → Chromatic Star (this list)** | **69.8 % / 82.9 %** | **91.8 %** |
-  | + Talisman of Conviction (round 3 model) | 72.2 % / 84.2 % | about 92 % |
-  | + Command Tower for the fifth Mountain (round 3 model) | 73.0 % / 85.5 % | about 92 % |
-  | Step 4 re-run (5,000 games, Prophetic Prism as a 2-mana converter): this list | 69.5 % / 82.6 % | |
-  | + Prophetic Prism and Volt Charge (purchases 1 and 2) | 70.8 % / 84.1 % | |
-  | + Talisman of Conviction (purchase 4) | 72.9 % / 85.3 % | |
-  | + Command Tower for the fifth Mountain (purchase 3): all buys | 73.8 % / **86.4 %** | |
-
-  Tested and rejected (within noise or a worse trade): Exotic Orchard → Plains (82.2 %), Rustvale Bridge → Plains (82.0 %),
-  Path of Ancestry → Mountain (80.4 %), Skycloud Expanse → Plains (80.7 %), Buried Ruin → Plains (84.0 %, costs route 1's
-  recursion). Karsten's target for a gold three-drop (about 92 % on turn 3) is out of reach of the Spanish pool: no more
-  untapped tri-color or R/W sources are owned. The deck reaches about 92 % on turn 4. Guide: mulligan a hand that cannot make
-  all three colors by turn 4.
-- **Unconditional land sources:** U 16, W 13, R 14 (filters, Skycloud, Spire and Orchard counted apart; review I-1); plus
-  Arcane Signet and Pentad Prism (any), Barrels and Chromatic Star (convert one mana), Commander's Sphere and Solar Array
-  (turn 4).
-- **Tapped lands:** 5 always (Mystic Monastery, Path of Ancestry, three Bridges); check lands and Radiant Summit usually
-  untapped from turn 2 (16 basics).
-- **Curve:** section 3. Turn 2 plays: 11 two-drops plus Chalice and Hangarback; turn 3: Kilo first.
-- **Keepable hand:** 37 lands give 2 to 4 lands in 7 about 75 % per look, about 93 % with the free first mulligan.
-
-## 12. Open questions for the owner
-
-Answered through step 6. Still open:
-1. Inside the 7,000 cap I replaced Relic of Legends (2,600, no Spanish combo partner in the stores) with Meticulous Excavation
-   and Voltaic Construct (two Spellbook combos with cards already in the list). Accept? Their Spanish prices are to be read.
-2. Eternity Vessel (price to read, about 15 USD) would add a third, instant-win combo (with Darksteel Reactor and Resourceful
-   Defense, both in the list). Extend the cap for it?
+If a to-read card costs more than its hint, drop in this order: Flux Channeler, Counterspell, Tribute Mage (each has an owned
+stand-in). Shipping is counted in the brief's shared line, not here.

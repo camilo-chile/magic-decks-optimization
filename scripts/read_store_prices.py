@@ -91,7 +91,7 @@ FINISH_WORDS = {"regular", "foil", "borderless", "showcase", "extended", "etched
                 "art", "promo", "surge", "serialized", "normal", "non-foil", "nonfoil"}
 ART_CARD_RE = re.compile(r"\bart (card|series)\b", re.I)  # art cards are not the playable card
 ACCEPTED_LANGUAGES = {"en", "es"}
-ACCEPTED_CONDITIONS = {"NM", "LP"}
+ACCEPTED_CONDITIONS = {"NM", "LP", "MP", "HP"}  # owner, 2026-11-08: anything better than Damaged
 
 
 # ---------------------------------------------------------------- card list

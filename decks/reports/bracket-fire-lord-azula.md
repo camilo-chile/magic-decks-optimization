@@ -2,12 +2,12 @@
 
 Target Bracket 3; floor found 3; 100 cards, 100 recognized.
 
-- Game Changers (0): none
+- Game Changers (1): Narset, Parter of Veils
 - Extra-turn cards (0): none
 - Mass land denial: none
 - Reversible cards (never allowed): none
 
-## Spellbook: 4 variants inside the list, 1 flagged, 121 one card away
+## Spellbook: 5 variants inside the list, 1 flagged, 128 one card away
 
 - floor 3 [two-card combo, late] ['Godo, Bandit Warlord', 'Helm of the Host'] (tag S)
 

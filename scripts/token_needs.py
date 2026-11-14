@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Phase 2: the exact tokens and emblems the four decks make, against the tokens the owner has.
 
-Run it with the "Run Python File" button (no arguments). For every card of decks/phase2/moxfield/<slug>-after-purchases.txt
+Run it with the "Run Python File" button (no arguments). For every card of decks/phase2/<slug>.txt (the final lists, buys included)
 (the lists he will play after the purchase) it takes the Scryfall oracle data (data/cache/oracle-cards-*.jsonl.gz, `all_parts`:
 components `token`, and `combo_piece` whose type line is an Emblem) and reads each token's own Scryfall card (name, type line,
 power/toughness, colors, rules text). The tokens he owns are the rows of the newest data/collection/ManaBox_Collection_*.csv
@@ -54,7 +54,7 @@ def spec(face):
 
 def deck_names(slug):
     names = []
-    text = (ROOT / "decks" / "phase2" / "moxfield" / f"{slug}-after-purchases.txt").read_text(encoding="utf-8")
+    text = (ROOT / "decks" / "phase2" / f"{slug}.txt").read_text(encoding="utf-8")
     for line in text.splitlines():
         m = re.match(r"(\d+)\s+(.+?)(\s+\([A-Za-z0-9]+\).*)?$", line.strip())
         if m:
@@ -126,7 +126,7 @@ def main():
     out_json = ROOT / "data" / "model" / "phase2" / "tokens.json"
     out_json.write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
     md = [f"# Tokens and emblems of the four decks after purchases ({date.today().isoformat()})", "",
-          f"Lists: decks/phase2/moxfield/<slug>-after-purchases.txt. Owned tokens: token-set rows of `{csv_name}`, matched by "
+          f"Lists: decks/phase2/<slug>.txt (the final lists, buys included). Owned tokens: token-set rows of `{csv_name}`, matched by "
           "name, type line, P/T, colors and rules text (Scryfall).", "",
           "| Token | Type | P/T | Colors | Owned | Made by |", "|---|---|---|---|---|---|"]
     for r in rows:

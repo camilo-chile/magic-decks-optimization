@@ -362,3 +362,12 @@ numbers and every profile not sampled in E1.
 Not done (reviewer work, listed in `references/plan-file.md`): G5 tag-versus-Scryfall-tags check, the claim that a route's
 `axis` is honest, the half-of-the-secondary-serves-the-primary rule, and the half weights of `meta.weights`.
 
+
+## 7. Champion standard (2026-11-08)
+
+Step 0 of the final rebuild checked the skill against 41 items a world-class multiplayer and high-power builder applies:
+18 covered, 16 thin, 7 missing. The checklist, the sourced rules R4 to R39 for the thin and missing items, and the champion
+build procedure are in `champion-addendum-20261108.md`; per-commander findings are in
+`commanders/<slug>-primers-20261108.md`. SKILL.md gained the section "Champion standard (2026-11-08)", which points to both;
+no other part of the skill changed. New evidence type: Playgroup.gg win-rate lifts for tutors, counterspells and wipes
+(addendum G7 to G9), the first outcome data the skill cites for card types.

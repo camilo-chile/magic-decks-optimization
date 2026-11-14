@@ -1,6 +1,6 @@
 {
- "plan": "Kilo becomes tapped every turn (a haste attack, or at home by station, crew, waterbend and improvise) and proliferates the charge and +1/+1 counters that about 22 rocks, engines and artifact creatures place; those counters become mana and cards, and the deck closes with Darksteel Reactor: Kilo, Coretapper and Inspirit grow it, and Resourceful Defense or Moxite Refinery funnel the board's counters onto it to reach 20 (an alternate win against the whole table). Lux Artillery (10 to each opponent per end step at 30 counters) is the second noncombat route. The finishers have no tutor in the Spanish pool: Long-Range Sensor's Discover 4, Experimental Augury and the draw engines dig for them, and Emry, Buried Ruin and Phyrexian Metamorph recover or copy them.",
- "backup": "The same countered artifact board attacks: Cyberdrive Awakener turns every noncreature artifact into a 4/4 flyer for the turn, with Titan Forge 9/9s and an unblockable Kappa Cannoneer.",
+ "plan": "Kilo is tapped once or twice per round (a haste attack when the lane is open, otherwise at home and at instant speed through Relic of Legends and North Pole Patrol's waterbend, plus station and improvise; North Pole Patrol, his only untapper, gives the second tap) and Strionic Resonator and Lithoform Engine copy his trigger, so he proliferates three to four times a round the charge, +1/+1, poison and stun counters that about 20 rocks, engines and creatures place; Surge Conductor, Thrummingbird, Tekuthal and the proliferate spells multiply the same counters into mana, cards and threats. The deck closes with whichever noncombat finisher it reaches first: Darksteel Reactor (an alternate win against the whole table, funnelled by Resourceful Defense, Moxite Refinery and Deepglow Skate), Kappa Cannoneer if bought (one poison counter on each opponent that every later proliferate grows to 10) or Lux Artillery (10 to each opponent every end step, 20 with its trigger copied).",
+ "backup": "The same countered artifact board attacks: Cyberdrive Awakener turns every noncreature artifact into a 4/4 flyer for the turn and Titan Forge adds 9/9 Golems; Lux Artillery's end-step damage and Fireweaver pings soften the table first.",
  "archetype": "plus_one_counters",
  "secondary": "artifacts",
  "secondary_role": "plan",
@@ -11,27 +11,28 @@
    "cards": [
     "Darksteel Reactor",
     "Resourceful Defense",
-    "Moxite Refinery"
+    "Moxite Refinery",
+    "Deepglow Skate"
    ],
    "axis": "alternate",
-   "vs_three": "Darksteel Reactor wins the game against all three opponents at 20 charge counters. Kilo proliferates it every turn (doubled by Tekuthal, doubled at once by Deepglow Skate), Coretapper and Inspirit add charge counters, and the two funnels finish it: Resourceful Defense ({4}{W}, any time) moves every counter of one permanent onto the Reactor (Inspirit's 8+ charge counters, Uthros, Empowered Autogenerator, Titan Forge, Lux Cannon, the rocks), and Moxite Refinery (sorcery) turns X counters of any kind, +1/+1 included, into X charge counters on it. Resourceful Defense also moves the counters of any permanent that dies onto the Reactor. With 25 to 40 counters on the board by turns 7 to 9, one or two funnel activations win. The Reactor is indestructible."
+   "vs_three": "The Reactor wins the game against all three opponents at 20 charge counters. It gains one each upkeep and one per proliferate (Kilo, Surge Conductor, Thrummingbird, the proliferate spells; doubled by Tekuthal; copied by Strionic Resonator and Lithoform Engine); Coretapper and Inspirit add charge counters; the funnels finish it: Resourceful Defense moves every counter of one permanent onto it at instant speed (and the counters of any permanent of mine that leaves), Moxite Refinery converts X counters of any kind into X charge counters, Deepglow Skate doubles it (10 becomes 20). It is indestructible, so destroy-wipes do not stop it."
   },
   "Lux Artillery burn": {
    "cards": [
     "Lux Artillery",
-    "Reckless Fireweaver"
+    "Reckless Fireweaver",
+    "Meticulous Excavation"
    ],
    "axis": "noncombat",
-   "vs_three": "Lux Artillery deals 10 to EACH opponent at every end step once 30 counters sit on my artifacts and creatures; Reckless Fireweaver pings each opponent for every artifact entry; Phyrexian Metamorph copying Lux doubles it to 20 each."
+   "vs_three": "Lux Artillery deals 10 to EACH opponent at every end step once 30 counters sit on my artifacts and creatures; Fireweaver pings each opponent per artifact entry; Strionic Resonator or Lithoform Engine copying the end-step trigger, or Phyrexian Metamorph copying Lux, doubles it (two end steps kill a 40-life table). With Lux, Crystalline Crawler (six counters in three colors) and Surge Conductor on the battlefield (its proliferate on the entry makes seven counters, exactly the {2}{W} plus {4} the loop costs; Tekuthal makes it net +1 mana), Meticulous Excavation loops Crawler for infinite artifact entries and proliferates on my turn: Fireweaver kills the table, or the Reactor and the poison counters reach their totals."
   },
-  "artifact alpha strike": {
+  "Artifact alpha strike": {
    "cards": [
     "Cyberdrive Awakener",
-    "Titan Forge",
-    "Kappa Cannoneer"
+    "Titan Forge"
    ],
    "axis": "combat",
-   "vs_three": "Cyberdrive Awakener makes every noncreature artifact a 4/4 flyer for the turn (8 to 15 of them late) and gives artifact creatures flying, enough damage to split over three opponents; Titan Forge adds 9/9s; Kappa Cannoneer is unblockable after each artifact entry."
+   "vs_three": "Cast with land mana (rocks tapped for mana cannot attack), Cyberdrive makes every untapped noncreature artifact (8 to 14 late) a 4/4 and every artifact creature a flyer for the turn: 30 to 50 flying damage split over the table after Lux and Fireweaver have softened it; Titan Forge adds 9/9s that also hold off big creatures."
   }
  },
  "functions": {
@@ -41,46 +42,44 @@
     "Everflowing Chalice",
     "Pentad Prism",
     "Astral Cornucopia",
-    "Solar Array",
+    "Crystalline Crawler",
     "Coretapper",
     "Steel Overseer",
-    "Hangarback Walker",
     "Insight Engine",
     "Uthros Research Craft",
     "Inspirit, Flagship Vessel",
     "Long-Range Sensor",
-    "Titan Forge",
-    "Crystalline Crawler",
-    "Empowered Autogenerator",
-    "Lux Cannon",
     "Etched Oracle",
     "Patrolling Peacemaker",
-    "Kappa Cannoneer",
     "Chrome Host Seedshark",
+    "Titan Forge",
+    "Lux Cannon",
     "Darksteel Reactor",
     "Lux Artillery",
-    "Moxite Refinery"
+    "Kappa Cannoneer",
+    "Tranquilize",
+    "Enthusiastic Mechanaut",
+    "Trophy Mage"
    ]
   },
   "counter_payoffs": {
    "needed_by": "late",
    "cards": [
-    "Lux Artillery",
     "Darksteel Reactor",
-    "Titan Forge",
+    "Lux Artillery",
+    "Kappa Cannoneer",
     "Insight Engine",
     "Etched Oracle",
+    "Titan Forge",
     "Lux Cannon",
-    "Empowered Autogenerator",
-    "Hangarback Walker",
-    "Long-Range Sensor",
     "Crystalline Crawler",
-    "Astral Cornucopia",
     "Everflowing Chalice",
     "Pentad Prism",
-    "Phyrexian Metamorph",
+    "Astral Cornucopia",
+    "Long-Range Sensor",
     "Resourceful Defense",
-    "Moxite Refinery"
+    "Moxite Refinery",
+    "Deepglow Skate"
    ]
   },
   "counter_doublers": {
@@ -89,29 +88,31 @@
     "Kilo, Apogee Mind",
     "Surge Conductor",
     "Thrummingbird",
-    "Patrolling Peacemaker",
     "Tekuthal, Inquiry Dominus",
+    "Patrolling Peacemaker",
     "Karn's Bastion",
     "Tezzeret's Gambit",
     "Experimental Augury",
+    "Contentious Plan",
+    "Volt Charge",
     "Ripples of Potential",
-    "Deepglow Skate"
+    "Deepglow Skate",
+    "Strionic Resonator",
+    "Lithoform Engine"
    ]
   },
   "kilo_tap_outlets": {
    "needed_by": "late",
    "cards": [
     "Kilo, Apogee Mind",
+    "Relic of Legends",
+    "North Pole Patrol",
     "Inspirit, Flagship Vessel",
     "Uthros Research Craft",
-    "Brute Suit",
-    "Ovalchase Dragster",
-    "North Pole Patrol",
     "Waterbending Lesson",
-    "Kappa Cannoneer",
     "Universal Surveillance",
     "Organic Extinction",
-    "Katara, Bending Prodigy"
+    "Trophy Mage"
    ]
   },
   "artifact_density": {
@@ -120,45 +121,38 @@
     "Kilo, Apogee Mind",
     "Sol Ring",
     "Arcane Signet",
+    "Talisman of Conviction",
     "Everflowing Chalice",
     "Pentad Prism",
-    "Astral Cornucopia",
+    "Relic of Legends",
     "Commander's Sphere",
-    "Solar Array",
-    "Etherium Sculptor",
-    "Enthusiastic Mechanaut",
-    "Coretapper",
-    "Steel Overseer",
-    "Hangarback Walker",
-    "Insight Engine",
-    "Uthros Research Craft",
-    "Inspirit, Flagship Vessel",
-    "Long-Range Sensor",
+    "Astral Cornucopia",
+    "Crystalline Crawler",
     "Barrels of Blasting Jelly",
     "Chromatic Star",
-    "Titan Forge",
-    "Crystalline Crawler",
-    "Empowered Autogenerator",
-    "Lux Cannon",
+    "Inspirit, Flagship Vessel",
+    "Uthros Research Craft",
+    "Insight Engine",
+    "Coretapper",
+    "Steel Overseer",
+    "Surge Conductor",
+    "Long-Range Sensor",
     "Etched Oracle",
     "Patrolling Peacemaker",
-    "Kappa Cannoneer",
-    "Surge Conductor",
-    "Lux Artillery",
     "Darksteel Reactor",
+    "Lux Artillery",
     "Cyberdrive Awakener",
+    "Titan Forge",
+    "Moxite Refinery",
     "Thought Monitor",
-    "Phyrexian Metamorph",
-    "Brute Suit",
-    "Ovalchase Dragster",
+    "Lux Cannon",
+    "Strionic Resonator",
+    "Lithoform Engine",
     "Soul-Guide Lantern",
-    "Ancient Den",
-    "Great Furnace",
+    "Phyrexian Metamorph",
     "Seat of the Synod",
-    "Silverbluff Bridge",
-    "Razortide Bridge",
-    "Rustvale Bridge",
-    "Moxite Refinery"
+    "Ancient Den",
+    "Great Furnace"
    ]
   },
   "artifact_payoffs": {
@@ -168,183 +162,236 @@
     "Reckless Fireweaver",
     "Uthros Research Craft",
     "Jhoira, Weatherlight Captain",
-    "Kappa Cannoneer",
-    "Cyberdrive Awakener",
     "Thought Monitor",
-    "Etherium Sculptor",
-    "Enthusiastic Mechanaut",
     "Emry, Lurker of the Loch",
     "Inspirit, Flagship Vessel",
     "Steel Overseer",
     "Dispatch",
     "Universal Surveillance",
     "Organic Extinction",
+    "Cyberdrive Awakener",
     "Lux Artillery",
-    "Chrome Host Seedshark"
+    "Trophy Mage",
+    "Enthusiastic Mechanaut",
+    "Buried Ruin",
+    "Spire of Industry"
    ]
   },
   "through_wide_board": {
    "needed_by": "early",
    "cards": [
-    "Lux Artillery",
     "Darksteel Reactor",
+    "Kappa Cannoneer",
+    "Lux Artillery",
     "Reckless Fireweaver",
     "Cyberdrive Awakener",
     "Organic Extinction",
-    "Fumigate",
-    "Hangarback Walker",
-    "Kappa Cannoneer",
-    "Thrummingbird",
+    "Starfall Invocation",
     "Tekuthal, Inquiry Dominus",
-    "Thought Monitor",
-    "Inspiring Overseer",
-    "Enthusiastic Mechanaut",
     "Chrome Host Seedshark",
-    "Inspirit, Flagship Vessel",
-    "Chain Reaction"
+    "Thought Monitor",
+    "Inspirit, Flagship Vessel"
    ]
   },
   "through_big_creatures": {
    "needed_by": "early",
    "cards": [
-    "Tranquilize",
+    "Swords to Plowshares",
     "Dispatch",
+    "Fateful Absence",
     "Chaos Warp",
     "Airbending Lesson",
-    "Sandbenders' Storm",
-    "Barrels of Blasting Jelly",
-    "Firebending Lesson",
+    "Volt Charge",
+    "Tranquilize",
     "Lux Cannon",
-    "North Pole Patrol",
-    "Lux Artillery",
-    "Darksteel Reactor",
-    "Cyberdrive Awakener",
-    "Kappa Cannoneer",
+    "Barrels of Blasting Jelly",
     "Titan Forge",
-    "Fumigate",
-    "Organic Extinction"
+    "Organic Extinction",
+    "Starfall Invocation",
+    "Darksteel Reactor",
+    "Kappa Cannoneer",
+    "Lux Artillery"
    ]
   }
  },
  "support": {
   "evasion": [
-   "Thrummingbird",
    "Tekuthal, Inquiry Dominus",
-   "Thought Monitor",
-   "Inspiring Overseer",
-   "Enthusiastic Mechanaut",
    "Chrome Host Seedshark",
+   "Thought Monitor",
+   "Inspirit, Flagship Vessel",
    "Cyberdrive Awakener",
-   "Kappa Cannoneer",
-   "Hangarback Walker"
+   "Uthros Research Craft"
   ],
   "wipe_insurance": [
    "Inspirit, Flagship Vessel",
    "Darksteel Reactor",
-   "Hangarback Walker",
-   "Emry, Lurker of the Loch",
-   "Swan Song",
+   "Resourceful Defense",
    "Ripples of Potential",
+   "Emry, Lurker of the Loch",
    "Buried Ruin",
-   "Resourceful Defense"
+   "Negate",
+   "Sandbenders' Storm"
   ]
  },
- "tutors": {},
+ "tutors": {
+  "Trophy Mage": [
+   "counter_sources",
+   "kilo_tap_outlets",
+   "artifact_payoffs"
+  ],
+  "Enthusiastic Mechanaut": [
+   "counter_sources",
+   "artifact_payoffs",
+   "counter_doublers"
+  ]
+ },
  "tags": {
   "Sol Ring": "ramp",
   "Arcane Signet": "ramp",
-  "Everflowing Chalice": "ramp",
-  "Pentad Prism": "ramp",
-  "Astral Cornucopia": "ramp",
-  "Commander's Sphere": "ramp",
-  "Solar Array": "ramp",
-  "Etherium Sculptor": "ramp",
-  "Enthusiastic Mechanaut": "ramp",
-  "Coretapper": "engine",
-  "Steel Overseer": "engine",
-  "Hangarback Walker": "engine",
-  "Insight Engine": [
-   "engine",
+  "Talisman of Conviction": "ramp",
+  "Everflowing Chalice": [
+   "ramp",
+   "engine"
+  ],
+  "Pentad Prism": [
+   "ramp",
+   "engine"
+  ],
+  "Relic of Legends": [
+   "ramp",
+   "engine"
+  ],
+  "Commander's Sphere": [
+   "ramp",
    "draw"
   ],
-  "Uthros Research Craft": [
+  "Astral Cornucopia": [
+   "ramp",
+   "engine"
+  ],
+  "Crystalline Crawler": [
    "engine",
+   "ramp"
+  ],
+  "Barrels of Blasting Jelly": [
+   "ramp",
+   "removal"
+  ],
+  "Chromatic Star": [
+   "ramp",
    "draw"
   ],
   "Inspirit, Flagship Vessel": [
    "engine",
    "protection"
   ],
-  "Long-Range Sensor": [
+  "Uthros Research Craft": [
    "engine",
    "draw"
   ],
-  "Barrels of Blasting Jelly": [
-   "removal",
-   "engine"
+  "Insight Engine": [
+   "engine",
+   "draw"
   ],
-  "Chromatic Star": "engine",
-  "Titan Forge": "payoff",
-  "Crystalline Crawler": "engine",
-  "Empowered Autogenerator": "engine",
-  "Lux Cannon": [
-   "removal",
-   "engine"
+  "Coretapper": "engine",
+  "Steel Overseer": "engine",
+  "Surge Conductor": "engine",
+  "Tekuthal, Inquiry Dominus": "engine",
+  "Thrummingbird": "engine",
+  "Long-Range Sensor": [
+   "engine",
+   "draw"
   ],
   "Etched Oracle": [
    "engine",
    "draw"
   ],
   "Patrolling Peacemaker": "engine",
-  "Kappa Cannoneer": "engine",
   "Chrome Host Seedshark": "engine",
-  "Surge Conductor": "engine",
-  "Thrummingbird": "engine",
-  "Tekuthal, Inquiry Dominus": "engine",
+  "North Pole Patrol": [
+   "engine",
+   "removal"
+  ],
+  "Darksteel Reactor": "payoff",
+  "Lux Artillery": "payoff",
+  "Kappa Cannoneer": [
+   "payoff",
+   "draw"
+  ],
+  "Reckless Fireweaver": "payoff",
+  "Cyberdrive Awakener": "payoff",
+  "Deepglow Skate": "payoff",
+  "Titan Forge": "payoff",
+  "Resourceful Defense": [
+   "payoff",
+   "protection"
+  ],
+  "Moxite Refinery": "payoff",
+  "Meticulous Excavation": [
+   "payoff",
+   "protection"
+  ],
   "Tezzeret's Gambit": [
    "draw",
    "engine"
   ],
-  "Experimental Augury": "engine",
-  "Ripples of Potential": [
-   "protection",
-   "engine"
+  "Experimental Augury": [
+   "engine",
+   "draw"
   ],
-  "Deepglow Skate": "engine",
-  "Lux Artillery": "payoff",
-  "Darksteel Reactor": "payoff",
-  "Cyberdrive Awakener": "payoff",
-  "Reckless Fireweaver": "payoff",
+  "Contentious Plan": [
+   "engine",
+   "draw"
+  ],
   "Thirst for Knowledge": "draw",
-  "Katara, Bending Prodigy": [
-   "draw",
-   "engine"
-  ],
-  "Universal Surveillance": "draw",
   "Waterbending Lesson": "draw",
-  "Thought Monitor": "draw",
+  "Universal Surveillance": "draw",
   "Jhoira, Weatherlight Captain": "draw",
-  "Inspiring Overseer": "draw",
-  "Tranquilize": "removal",
+  "Thought Monitor": "draw",
+  "Trophy Mage": "tutor",
+  "Enthusiastic Mechanaut": "tutor",
+  "Swords to Plowshares": "removal",
   "Dispatch": "removal",
+  "Fateful Absence": "removal",
   "Chaos Warp": "removal",
   "Airbending Lesson": [
    "removal",
    "protection"
   ],
-  "Firebending Lesson": "removal",
-  "Sandbenders' Storm": "removal",
-  "Fumigate": "wipe",
+  "Volt Charge": [
+   "removal",
+   "engine"
+  ],
+  "Tranquilize": "removal",
+  "Lux Cannon": [
+   "removal",
+   "engine"
+  ],
+  "Sandbenders' Storm": [
+   "removal",
+   "protection"
+  ],
+  "Negate": [
+   "removal",
+   "protection"
+  ],
   "Organic Extinction": "wipe",
-  "Swan Song": "protection",
+  "Starfall Invocation": "wipe",
+  "Strionic Resonator": "engine",
+  "Lithoform Engine": [
+   "engine",
+   "draw"
+  ],
+  "Ripples of Potential": [
+   "protection",
+   "engine"
+  ],
+  "Soul-Guide Lantern": "removal",
   "Emry, Lurker of the Loch": "engine",
   "Phyrexian Metamorph": "engine",
-  "North Pole Patrol": "engine",
-  "Brute Suit": "engine",
-  "Ovalchase Dragster": "engine",
-  "Soul-Guide Lantern": "removal",
+  "Command Tower": "land",
   "Adarkar Wastes": "land",
-  "Path of Ancestry": "land",
   "Shivan Reef": "land",
   "Sulfur Falls": "land",
   "Glacial Fortress": "land",
@@ -352,84 +399,77 @@
   "Radiant Summit": "land",
   "Rugged Prairie": "land",
   "Cascade Bluffs": "land",
-  "Skycloud Expanse": "land",
   "Exotic Orchard": "land",
   "Spire of Industry": "land",
-  "Karn's Bastion": "land",
-  "Buried Ruin": "land",
+  "Seat of the Synod": "land",
   "Ancient Den": "land",
   "Great Furnace": "land",
-  "Seat of the Synod": "land",
+  "Karn's Bastion": "land",
   "Mystic Monastery": "land",
-  "Silverbluff Bridge": "land",
-  "Razortide Bridge": "land",
-  "Rustvale Bridge": "land",
-  "Chain Reaction": "wipe",
-  "Resourceful Defense": "payoff",
-  "Moxite Refinery": "payoff"
+  "Buried Ruin": "land"
  },
  "bad_when_drawn": {
   "Sol Ring": "never",
   "Arcane Signet": "never",
+  "Talisman of Conviction": "never",
   "Everflowing Chalice": "never",
   "Pentad Prism": "never",
-  "Astral Cornucopia": "early",
+  "Relic of Legends": "never",
   "Commander's Sphere": "never",
-  "Solar Array": "never",
-  "Etherium Sculptor": "late",
-  "Enthusiastic Mechanaut": "never",
+  "Astral Cornucopia": "early",
+  "Crystalline Crawler": "never",
+  "Barrels of Blasting Jelly": "never",
+  "Chromatic Star": "late",
+  "Inspirit, Flagship Vessel": "never",
+  "Uthros Research Craft": "never",
+  "Insight Engine": "never",
   "Coretapper": "never",
   "Steel Overseer": "never",
-  "Hangarback Walker": "never",
-  "Insight Engine": "never",
-  "Uthros Research Craft": "never",
-  "Inspirit, Flagship Vessel": "never",
+  "Surge Conductor": "never",
+  "Tekuthal, Inquiry Dominus": "never",
+  "Thrummingbird": "never",
   "Long-Range Sensor": "never",
-  "Barrels of Blasting Jelly": "never",
-  "Titan Forge": "never",
-  "Crystalline Crawler": "never",
-  "Empowered Autogenerator": "never",
-  "Lux Cannon": "never",
   "Etched Oracle": "never",
   "Patrolling Peacemaker": "never",
-  "Kappa Cannoneer": "early",
   "Chrome Host Seedshark": "never",
-  "Surge Conductor": "never",
-  "Thrummingbird": "late",
-  "Tekuthal, Inquiry Dominus": "never",
+  "North Pole Patrol": "never",
+  "Darksteel Reactor": "never",
+  "Lux Artillery": "early",
+  "Kappa Cannoneer": "never",
+  "Reckless Fireweaver": "never",
+  "Cyberdrive Awakener": "early",
+  "Deepglow Skate": "early",
+  "Titan Forge": "never",
+  "Resourceful Defense": "never",
+  "Moxite Refinery": "never",
+  "Meticulous Excavation": "never",
   "Tezzeret's Gambit": "never",
   "Experimental Augury": "never",
-  "Ripples of Potential": "never",
-  "Deepglow Skate": "early",
-  "Lux Artillery": "early",
-  "Darksteel Reactor": "never",
-  "Cyberdrive Awakener": "early",
-  "Reckless Fireweaver": "never",
+  "Contentious Plan": "never",
   "Thirst for Knowledge": "never",
-  "Katara, Bending Prodigy": "early",
-  "Universal Surveillance": "never",
   "Waterbending Lesson": "never",
-  "Thought Monitor": "early",
+  "Universal Surveillance": "early",
   "Jhoira, Weatherlight Captain": "never",
-  "Inspiring Overseer": "never",
-  "Tranquilize": "never",
+  "Thought Monitor": "early",
+  "Trophy Mage": "never",
+  "Enthusiastic Mechanaut": "never",
+  "Swords to Plowshares": "never",
   "Dispatch": "never",
+  "Fateful Absence": "never",
   "Chaos Warp": "never",
   "Airbending Lesson": "never",
-  "Firebending Lesson": "never",
+  "Volt Charge": "never",
+  "Tranquilize": "never",
+  "Lux Cannon": "never",
   "Sandbenders' Storm": "never",
-  "Chromatic Star": "never",
-  "Fumigate": "never",
+  "Negate": "never",
   "Organic Extinction": "early",
-  "Swan Song": "never",
-  "Emry, Lurker of the Loch": "never",
-  "Phyrexian Metamorph": "never",
-  "North Pole Patrol": "never",
-  "Brute Suit": "never",
-  "Ovalchase Dragster": "never",
+  "Starfall Invocation": "never",
+  "Strionic Resonator": "never",
+  "Lithoform Engine": "never",
+  "Ripples of Potential": "never",
   "Soul-Guide Lantern": "never",
-  "Chain Reaction": "never",
-  "Resourceful Defense": "never",
-  "Moxite Refinery": "never"
+  "Emry, Lurker of the Loch": "never",
+  "Phyrexian Metamorph": "never"
  }
 }

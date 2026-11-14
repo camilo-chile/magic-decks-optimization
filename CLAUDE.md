@@ -177,7 +177,7 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
 - Free tools only: no paid apps or subscriptions; an exception needs the user's explicit
   approval. The budget covers only checkout totals for cards, never apps, sleeves or
   accessories.
-- Purchases: English or Spanish printings only, the cheaper one preferred; at the same price
+- Purchases: any condition better than Damaged (NM, LP, MP, HP; owner, 2026-11-08). English or Spanish printings only, the cheaper one preferred; at the same price
   the Spanish copy wins (owner, 2026-10-17); never other languages. The collection is mixed Spanish/English, so scanners must read Spanish cards.
 - Language when building a deck (owner, 2026-10-21; buying keeps the rule above, Spanish wins at the same price): when
   a card is owned in both English and Spanish, the deck takes the ENGLISH copy. Exception: a deck built 100 % in Spanish

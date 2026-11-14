@@ -45,7 +45,7 @@ STORES = {
 }
 SPANISH = re.compile(r"espa[nñ]ol|spanish|\bes\b|\(es\)", re.I)
 OTHER_LANG = re.compile(r"japon|japan|ital|german|alem|french|franc|portug|chin|korea|russ", re.I)
-BAD_CONDITION = re.compile(r"\b(hp|heavily|damaged|dmg|mp|moderately|poor)\b", re.I)
+BAD_CONDITION = re.compile(r"\b(damaged|dmg|poor)\b", re.I)  # owner, 2026-11-08: anything better than Damaged is fine
 
 
 def normalize(text):
