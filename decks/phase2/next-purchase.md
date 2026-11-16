@@ -1,6 +1,7 @@
 # Pending purchases for the next iteration (2026-11-16)
 
-Nothing is bought now (collection frozen). This is the list the next iteration starts from, with its own budget and stores
+Nothing is bought now (collection frozen). Everything below waits for the next iteration, which will include purchases and
+is well in the future (owner, 2026-11-16). This is the list the next iteration starts from, with its own budget and stores
 (`decks/phase2.json` `iteration`), live stock checks and the purchase rules of CLAUDE.md. Language: the bilingual decks take
 English, Kilo takes Spanish only.
 
@@ -13,13 +14,32 @@ English, Kilo takes Spanish only.
 
 No other loan is open: the purchase of 2026-11-09 replaced every earlier loan (`loans.md`).
 
-## 2. Missing tokens (`decks/reports/tokens-20261116.md`)
+## 2. Tokens (`decks/reports/tokens-20261116.md`)
 
-| Token | Made by |
-|---|---|
-| Assassin 1/1 black | Ezio: Queen Marchesa |
-| Bird 2/2 blue | Azula: Swan Song |
-| Thopter 1/1 colorless artifact | Kilo: Hangarback Walker |
+Rule (owner, 2026-11-16): each deck keeps its own token copies: at least 2 of a token when one game can make several of
+it, 1 when it can make only one. Owned copies are shared out before buying.
+
+| Token | Deck: copies (why) | Needed | Owned | To buy |
+|---|---|---|---|---|
+| Bird 2/2 blue, flying | Azula 2 (Swan Song, copied while Azula attacks) | 2 | 0 | 2 |
+| Copy | Azula 2 (Helm of the Host each combat), Ezio 2 (Altaïr each attack), Toph 2 (Springheart Nantuko each landfall) | 6 | 3 | 3 |
+| Treasure | Azula 2 (Storm-Kiln Artist, Big Score), Ezio 2 (Black Market Connections), Toph 2 (Tireless Provisioner) | 6 | 2 | 4 |
+| Assassin 1/1 black, deathtouch and haste | Ezio 2 (Queen Marchesa each upkeep) | 2 | 0 | 2 |
+| Assassin 1/1 black, menace | Ezio 2 (Aya of Alexandria, Ratonhnhaké꞉ton) | 2 | 1 | 1 |
+| Shapeshifter 3/2 changeling | Ezio 2 (Black Market Connections each turn) | 2 | 1 | 1 |
+| Bear 4/4 green | Toph 2 (The Earth King; Springheart Nantuko can copy it) | 2 | 1 | 1 |
+| Food | Toph 2 (Tireless Provisioner) | 2 | 1 | 1 |
+| Insect 1/1 green | Toph 2 (Springheart Nantuko) | 2 | 1 | 1 |
+| Soldier 2/2 red | Toph 2 (Fire Nation Archers, repeatable) | 2 | 1 | 1 |
+| Thopter 1/1 colorless artifact, flying | Kilo 2 (Hangarback Walker, one per counter) | 2 | 0 | 2 |
+| Golem 9/9 colorless artifact | Kilo 2 (Titan Forge, repeatable) | 2 | 1 | 1 |
+| Clue | Toph 2 (Tireless Tracker), Kilo 1 (Fateful Absence) | 3 | 6 | 0 |
+| Incubator | Kilo 2 (Chrome Host Seedshark) | 2 | 3 | 0 |
+| Beast 3/3 green | Toph 1 (Beast Within) | 1 | 1 | 0 |
+| Human 1/1 white | Toph 1 (Stroke of Midnight) | 1 | 1 | 0 |
+| Wrenn and Realmbreaker emblem | Toph 1 | 1 | 1 | 0 |
+
+To buy: 20 tokens. Each must be the exact token of its card (name, type, P/T, colors, abilities), as always.
 
 ## 3. Full-art basics
 
