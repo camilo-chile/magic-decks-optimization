@@ -1,5 +1,5 @@
 {
- "plan": "Assassin tempo that ends the table: Ezio lands on turn 2 and cheap evasive Assassins (Hookblade Veteran, Basim, Brotherhood Spy, Ratonhnhaketon, Shao Jun, a flying or unblockable Ezio) connect from turn 3, so every Assassin costs {B}{B} for the rest of the turn and the hits draw cards (Ezio Blade of Vengeance, Coastal Piracy, Basim, Etrata, Waterbender Ascension, Eagle Vision); lords, double strike, a 7/6 trampler and the initiative (Ravenloft Adventurer) push one player after another to 10 or less, where Ezio's {W}{U}{B}{R}{G} trigger removes them, and with Ramses on the battlefield the FIRST elimination wins the whole game, while Arbaaz Mir and Shao Jun damage every opponent without combat and Propaganda, Royal Assassin, deathtouch and vigilance hold the crack-back.",
+ "plan": "Assassin tempo that ends the table: Ezio lands on turn 2 and cheap evasive Assassins (Hookblade Veteran, Basim, Brotherhood Spy, Ratonhnhaketon, Shao Jun, a flying or unblockable Ezio) connect from turn 3, so every Assassin costs {B}{B} for the rest of the turn and the hits draw cards (Ezio Blade of Vengeance, Coastal Piracy, Basim, Etrata, Waterbender Ascension, Eagle Vision); lords, double strike, Magister Sphinx (any player to 10) and the initiative (Ravenloft Adventurer) push one player after another to 10 or less, where Ezio's {W}{U}{B}{R}{G} trigger removes them, and with Ramses on the battlefield the FIRST elimination wins the whole game, while Arbaaz Mir and Shao Jun damage every opponent without combat and Propaganda, Royal Assassin, deathtouch and vigilance hold the crack-back.",
  "backup": "Without Ezio or Ramses the same Assassins keep connecting (freerunning works from any Assassin hit) under Arno, Bayek and Rally the Peasants and kill by plain damage, with Arbaaz Mir and Shao Jun adding damage that ignores blockers, and Ghostly Prison and Propaganda holding the counterattack; Restart Sequence, Layla, Jacob, Altair and The Revelations of Ezio rebuild after a wipe.",
  "archetype": "combat_attackers",
  "secondary": "alternate_kill",
@@ -10,20 +10,20 @@
   "Ezio's elimination, made a table win by Ramses": {
    "cards": [
     "Ramses, Assassin Lord",
-    "Unstoppable Slasher"
+    "Unstoppable Slasher",
+    "Magister Sphinx"
    ],
    "axis": "combat",
-   "vs_three": "With Ramses on the battlefield, any opponent who loses the game after an Assassin attacked them that turn makes me win at once (ruling 2022-09-09: any cause of loss counts), so ONE elimination beats all three: Ezio connects with a player at 10 or less and {W}{U}{B}{R}{G} removes them, or plain combat damage does. Unstoppable Slasher halves a player's life on a hit, and with Ezio in the same combat a player at 26 or less is removed (Slasher's trigger resolves first). On the kill turn every opponent is attacked by at least one Assassin. Without Ramses the route repeats once per opponent. Ramses is found by Diabolic Tutor, by Entomb plus Restart Sequence, Layla, Jacob, Altair or The Revelations of Ezio."
+   "vs_three": "With Ramses on the battlefield, any opponent who loses the game after an Assassin attacked them that turn makes me win at once (ruling 2022-09-09: any cause of loss counts), so ONE elimination beats all three: Ezio connects with a player at 10 or less and {W}{U}{B}{R}{G} removes them, or plain combat damage does. Magister Sphinx sets a player's life to 10 when it enters (a 5/5 flier that then connects), Unstoppable Slasher halves a player's life on a hit, and with Ezio in the same combat a player at 26 or less is removed (Slasher's trigger resolves first). On the kill turn every opponent is attacked by at least one Assassin. Without Ramses the route repeats once per opponent. Ramses is found by Diabolic Tutor, by Entomb plus Restart Sequence, Layla, Jacob, Altair or The Revelations of Ezio."
   },
   "Assassin team beatdown": {
    "cards": [
     "Arno Dorian",
     "Bayek of Siwa",
-    "Rally the Peasants",
-    "Eivor, Wolf-Kissed"
+    "Rally the Peasants"
    ],
    "axis": "combat",
-   "vs_three": "Five or six Assassins split their attacks over the three opponents each turn: Arno gives every other Assassin +2/+0, Bayek gives the legendary attackers double strike on my turn, Rally the Peasants adds +2/+0 to the whole team at instant speed and again with flashback, Eivor is a 7/6 trampler for {B}{B}. Each of these raises the damage on all three players at once, and each kill by damage is also a Ramses win."
+   "vs_three": "Five or six Assassins split their attacks over the three opponents each turn: Arno gives every other Assassin +2/+0, Bayek gives the legendary attackers double strike on my turn, Rally the Peasants adds +2/+0 to the whole team at instant speed and again with flashback. Each of these raises the damage on all three players at once, and each kill by damage is also a Ramses win."
   },
   "Noncombat damage to each opponent": {
    "cards": [
@@ -57,7 +57,7 @@
     "Layla Hassan",
     "Ezio, Blade of Vengeance",
     "Bayek of Siwa",
-    "Eivor, Wolf-Kissed",
+    "Magister Sphinx",
     "Ravenloft Adventurer"
    ]
   },
@@ -77,7 +77,7 @@
     "Waterbender Ascension",
     "Evie Frye",
     "Arbaaz Mir",
-    "Eivor, Wolf-Kissed",
+    "Magister Sphinx",
     "Haunted Cloak"
    ]
   },
@@ -114,7 +114,7 @@
     "Altaïr Ibn-La'Ahad",
     "Queen Marchesa",
     "Unstoppable Slasher",
-    "Eivor, Wolf-Kissed",
+    "Magister Sphinx",
     "Basim Ibn Ishaq",
     "Desmond Miles",
     "Brotherhood Spy",
@@ -257,7 +257,6 @@
    "engine"
   ],
   "Bayek of Siwa": "payoff",
-  "Eivor, Wolf-Kissed": "payoff",
   "Coastal Piracy": "draw",
   "Propaganda": "engine",
   "Waterbender Ascension": [
@@ -316,7 +315,8 @@
   "Woodland Chasm": "land",
   "Ravenloft Adventurer": "engine",
   "Ghostly Prison": "protection",
-  "Secret Tunnel": "land"
+  "Secret Tunnel": "land",
+  "Magister Sphinx": "payoff"
  },
  "bad_when_drawn": {
   "Sol Ring": "never",
@@ -353,7 +353,6 @@
   "Hakoda, Selfless Commander": "never",
   "Ezio, Blade of Vengeance": "early",
   "Bayek of Siwa": "early",
-  "Eivor, Wolf-Kissed": "early",
   "Coastal Piracy": "never",
   "Propaganda": "never",
   "Waterbender Ascension": "never",
@@ -382,6 +381,7 @@
   "Mephitic Vapors": "late",
   "Ravenloft Adventurer": "never",
   "Ghostly Prison": "never",
-  "Secret Tunnel": "never"
+  "Secret Tunnel": "never",
+  "Magister Sphinx": "early"
  }
 }

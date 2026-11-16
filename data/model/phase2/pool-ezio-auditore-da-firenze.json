@@ -8401,10 +8401,10 @@
     "es": 1
    },
    "held_by": {
-    "ezio-auditore-da-firenze": 1
+    "free": 1
    },
    "free_by_language": {
-    "es": 0
+    "es": 1
    },
    "printings": [
     {
@@ -18077,10 +18077,10 @@
     "en": 1
    },
    "held_by": {
-    "free": 1
+    "ezio-auditore-da-firenze": 1
    },
    "free_by_language": {
-    "en": 1
+    "en": 0
    },
    "printings": [
     {

@@ -142,3 +142,26 @@ Notes:
 - Ezio and Kilo show bracket 2 on Salt; Toph and Azula show bracket 3.
 - Decks now on Moxfield: 13 ("Showing 13 out of 13 results"): Base - Azula, Base - Toph, Iter 1 - Azula, Iter 1 - Ezio, Iter 1 - Toph, Iter 2 - Azula, Iter 2 - Ezio, Iter 2 - Kilo, Iter 2 - Toph, Iter 3 - Azula, Iter 3 - Ezio, Iter 3 - Kilo, Iter 3 - Toph.
 - Not checked: exact printings of individual cards after import (the import notices were read on each page only as shown).
+
+## Base - Kilo and the Ezio test (2026-11-15)
+
+| Moxfield name | Moxfield URL | Salt URL | Power | Bracket | SALT |
+|---|---|---|---|---|---|
+| Base - Kilo (official Counter Intelligence precon, Kilo as commander) | https://moxfield.com/decks/jQcOyJW82kiUw91IrovezA | https://www.commandersalt.com/details/deck/87466c6fad86cb290aa6be2f31753f9d | 3.8 | 2 | 54.8 |
+| test - Ezio Sphinx (Iter 3 with Magister Sphinx for Eivor) | https://moxfield.com/decks/Y-ENOs6rCk2A2fqUXHHxBA | https://www.commandersalt.com/details/deck/42cc7a5d04c50b86dbbb747ffd20c758 | 6.5 | 3 | 49.7 |
+
+Details: `decks/reports/salt-diagnosis-20261115.md`. The test deck was deleted after the owner accepted the swap (section below); Moxfield holds the 14 final decks.
+
+## Iter 3 - Ezio updated (2026-11-15)
+
+Browser task by Claude (Haiku 5.5 @ medium) in the owner's signed-in Chrome, with the owner's approval of this change and of one deletion. No purchase, no sign-in, no account setting changed, no other deck touched.
+
+- Change on Moxfield (https://moxfield.com/decks/eMsSn5gTXU2l-rqZj5BD3w, visibility still Unlisted, name unchanged): removed "1 Eivor, Wolf-Kissed (ACR) 54"; added "1 Magister Sphinx (2X2) 247" (Double Masters 2022, non-foil). Done via the Bulk Edit text and saved. Bulk Edit reopened after the save shows "1 Magister Sphinx (2X2) 247" and no Eivor line.
+- Moxfield card count: 100 main deck / 0 sideboard (Commander (1): Ezio Auditore da Firenze; 99 main). Eivor absent; Magister Sphinx present once.
+- Commander Salt URL (the expected one, unchanged): https://www.commandersalt.com/details/deck/ebd776602efc5d7b80cf772f9e20684c
+- Salt power 6.5 ("Focused Casual"), tier T4, bracket 3 (Upgraded), SALT 49.7 ("Attack Thorn"). Before the change this page read power 4.6, bracket 2, SALT 46.4 (section "Iteration 3" above).
+- Salt pillars (score / reference): Consistency 207 / 100 (casual baseline 207%); Efficiency 193 / 100; Interaction 173 / 140; Win conditions 366 / 200. Salt sub-scores: Wincons A- 241.8, Synergy B+ 351.5, Interaction C+ 173, Saltiness C- 49.7.
+- Combos (Salt Combos tab): 1 combo line, the top one "Ezio Auditore da Firenze + Magister Sphinx", infinite life loss, 2 cards, score 25, mana 0. Salt: "1 combo with 1 independent game-winning line and little redundancy"; risk "No easy line to run".
+- Deletion: "test - Ezio Sphinx" (https://moxfield.com/decks/Y-ENOs6rCk2A2fqUXHHxBA). Its page title and Moxfield's confirm dialog both read "test - Ezio Sphinx"; confirmed with "Permanently Delete". Result: deleted (the page redirected to Your Decks; the name no longer appears there). Failed: none.
+- Deck list count after the deletion: "Showing 14 out of 14 results" on Your Decks. Names (14): Base - Azula, Base - Kilo, Base - Toph, Iter 1 - Azula, Iter 1 - Ezio, Iter 1 - Toph, Iter 2 - Azula, Iter 2 - Ezio, Iter 2 - Kilo, Iter 2 - Toph, Iter 3 - Azula, Iter 3 - Ezio, Iter 3 - Kilo, Iter 3 - Toph.
+- Note: the Salt page of the deleted test deck (https://www.commandersalt.com/details/deck/42cc7a5d04c50b86dbbb747ffd20c758) remains on Salt; Salt has no delete control for visitors (section (d)).

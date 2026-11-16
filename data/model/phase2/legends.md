@@ -6,7 +6,7 @@ Sorted by the size of the pool a Spanish-only deck would have. Only candidates w
 |---|---|---|---|---|---|
 | Inspirit, Flagship Vessel | RUW | 1 | 197 | 511 | spanish-deck 1 |
 | Kilo, Apogee Mind | RUW | 1 | 197 | 511 | spanish-deck 1 |
-| Eivor, Wolf-Kissed | GRW | 1 | 156 | 483 | ezio-auditore-da-firenze 1 |
+| Eivor, Wolf-Kissed | GRW | 1 | 156 | 483 | free 1 |
 | Adéwalé, Breaker of Chains | BU | 1 | 145 | 372 | free 3 |
 | Ezio, Blade of Vengeance | BU | 1 | 145 | 372 | ezio-auditore-da-firenze 1 |
 | Jhoira, Weatherlight Captain | RU | 1 | 138 | 352 | spanish-deck 1 |

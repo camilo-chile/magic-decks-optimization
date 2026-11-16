@@ -1,5 +1,7 @@
 # Ezio Auditore da Firenze: collection-only optimization (Phase 2 step 11.1, iteration 3, 2026-11-15)
 
+**Owner swap (2026-11-15, after the Salt diagnosis `decks/reports/salt-diagnosis-20261115.md`).** Eivor, Wolf-Kissed out, Magister Sphinx in (EN, 2X2 247, the free copy). Iter 3 read 4.6 on Commander Salt with no combo line (structural ceiling "no clear win path"); with Sphinx it reads 6.5, bracket 3, the floor. Real power near equal: Sphinx is a second life setter for route 1 and a flier, Eivor was a {B}{B} trampler through freerunning. Plan file updated (route 1 gains Sphinx; route 2 keeps Arno, Bayek, Rally); bracket PASS, gate PASS (2 warnings), 100 copies covered. Eivor goes back to the Spanish binder.
+
 **Fix round (step 11.3, 2026-11-15, the lead on Opus 5.5 high; review `decks/reports/collection-review-ezio-auditore-da-firenze-20261115.md`, verdict FIX).** Applied ranks 1 and 2:
 
 | Out | In | Reason |

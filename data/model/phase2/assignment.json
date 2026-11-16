@@ -4805,23 +4805,6 @@
      ]
     },
     {
-     "name": "Eivor, Wolf-Kissed",
-     "oracle_id": "cb8289e9-1e59-41f1-a994-6e34d2da2da2",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "es",
-       "set": "acr",
-       "number": "54",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "Spanish Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
      "name": "Enter the Avatar State",
      "oracle_id": "4e552be1-0702-4e18-822f-98611f8a8e70",
      "qty": 1,
@@ -5263,6 +5246,23 @@
        "language": "en",
        "set": "acr",
        "number": "127",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Magister Sphinx",
+     "oracle_id": "1d86ae29-4705-4bbc-8922-9b4e031df5b1",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "2x2",
+       "number": "247",
        "foil": "normal",
        "condition": "near_mint",
        "binder": "English Cards",
