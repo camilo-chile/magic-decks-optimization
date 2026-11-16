@@ -13,7 +13,7 @@ Archetype: spellslinger + combat_attackers (modifier)
 - support line attackers: 5 pieces, the spellslinger profile asks 12; write the reason in the profile table or promote the line to a declared function
 - support line haste: 3 pieces, the spellslinger profile asks 4; write the reason in the profile table or promote the line to a declared function
 - support line team_evasion: 4 pieces, the spellslinger profile asks 6; write the reason in the profile table or promote the line to a declared function
-- base: 10 ramp cards, the spellslinger profile asks for 12 or more
+- base: 11 ramp cards, the spellslinger profile asks for 12 or more
 - base: 11 draw cards, the spellslinger profile asks for 12 or more
 
 ## Functions
@@ -22,10 +22,10 @@ Pieces count the commander (guaranteed) and the tutors that can fetch for the fu
 
 | Function | Needed by | Required | Pieces | Without commander | P(1+ in 7 cards) | P(1+ in 12 cards) | P(1+ in 16 cards) | P(1+ in 20 cards) |
 |---|---|---|---|---|---|---|---|---|
-| spell_density | early (judged at 12 cards) | 30 | 33 | 33 | 95% | 99% | 100% | 100% |
+| spell_density | early (judged at 12 cards) | 30 | 32 | 32 | 94% | 99% | 100% | 100% |
 | spell_payoffs | late (judged at 20 cards) | 6 | 11 | 10 (commander guaranteed) | 54% | 74% | 84% | 91% |
 | through_wide_board | early (judged at 12 cards) | 10 | 14 | 14 | 67% | 86% | 93% | 97% |
-| through_big_creatures | early (judged at 12 cards) | 10 | 18 | 18 | 77% | 92% | 97% | 99% |
+| through_big_creatures | early (judged at 12 cards) | 10 | 17 | 17 | 74% | 91% | 96% | 99% |
 | window_mana | late (judged at 20 cards) | 6 | 13 | 13 | 64% | 83% | 91% | 96% |
 
 ## Support lines
@@ -36,7 +36,7 @@ Pieces count the commander (guaranteed) and the tutors that can fetch for the fu
 | attackers | 5 | 12 | yes |
 | haste | 3 | 4 | yes |
 | team_evasion | 4 | 6 | yes |
-| defense_while_tapped | 5 | 4 | yes |
+| defense_while_tapped | 4 | 4 | yes |
 | combat_draw | 5 | 4 | yes |
 | wipe_insurance | 4 | 2 | yes |
 
@@ -51,13 +51,13 @@ Plan cards (engine, payoff, backup): 16 of 63 non-land cards (25%). Plan cards i
 | engine | 5 |
 | land | 36 |
 | payoff | 10 |
-| protection | 11 |
-| ramp | 10 |
+| protection | 10 |
+| ramp | 11 |
 | removal | 9 |
 | tutor | 4 |
 | wipe | 2 |
 
-Base functions, counting second tags too: ramp 10, draw 11, removal 16, wipe 2, protection 14.
+Base functions, counting second tags too: ramp 11, draw 11, removal 16, wipe 2, protection 13.
 
 ## Win routes
 

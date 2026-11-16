@@ -1,0 +1,84 @@
+// Commander
+1 Fire Lord Azula (TLA) 220
+
+// Main
+1 Abrade (BLC) 191
+1 Abstergo Entertainment (ACR) 79
+1 Aether Gale (SOC) 186
+1 Amphibian Downpour (MH3) 51
+1 Arcane Signet (TLE) 315
+1 Archmage Emeritus (STX) 377 *F*
+1 Artful Takedown (GRN) 151
+1 Assassin Gauntlet (ACR) 12
+1 Azula Always Lies (TLA) 84
+1 Azula, On the Hunt (TLA) 85
+1 Bender's Waterskin (TLA) 255
+1 Big Score (FIC) 290
+1 Cascade Bluffs (SOC) 364
+1 Chaos Warp (SOC) 239
+1 Choked Estuary (MKC) 254
+1 Coastal Piracy (ACR) 84
+1 Combustion Man (TLA) 127
+1 Comet Storm (CMR) 411
+1 Command Tower (CMM) 659
+1 Commander's Sphere (ECC) 139
+1 Cruel Administrator (TLA) 213
+1 Cunning Maneuver (TLA) 130
+1 Day of Black Sun (TLA) 94
+1 Dimir Signet (FRC) 56
+1 Dragonfly Swarm (TLA) 215
+1 Electro, Assaulting Battery (SPM) 76
+1 Electrodominance (OTP) 23
+1 Evolving Wilds (EOC) 158
+1 Fire Nation Attacks (TLA) 133
+1 Fire Nation Palace (TLA) 268
+1 Fire Nation Sentinels (TLE) 230
+1 Fire Sages (TLA) 136
+1 Firebender Ascension (TLA) 137
+1 Fists of Flame (CMM) 223
+1 Foreboding Ruins (DSC) 277
+1 Frostcliff Siege (TDM) 187
+1 Goblin Electromancer (OTC) 228
+1 Hero's Downfall (THS) 90
+1 Hidden Footblade (ACR) 34
+1 Horizon Stone (CMR) 315
+1 Imprisoned in the Moon (INR) 69
+4 Island (ACR) 103
+5 Island (ACR) 104
+1 It'll Quench Ya! (TLA) 58
+1 Izzet Signet (FRC) 58
+1 Koh, the Face Stealer (TLA) 107
+1 Labyrinth Adversary (ACR) 290
+1 Lion Vulture (TLE) 232
+1 Malcolm, the Eyes (OTJ) 219
+1 Most Valuable Slayer (DSK) 144
+4 Mountain (ACR) 108
+4 Mountain (TLA) 290
+1 North Pole Patrol (TLA) 65
+1 Octopus Form (TLA) 66
+1 Ozai, the Phoenix King (TLA) 235
+1 Path of Ancestry (FRC) 77
+1 Propaganda (ACR) 85
+1 Redirect Lightning (TLA) 343
+1 Rogue's Passage (SOC) 400
+1 Royal Assassin (ACR) 306 *F*
+1 Run Amok (TLE) 258
+1 Snap (WOC) 110
+1 Sol Ring (TLE) 316
+1 Solstice Revelations (TLA) 153
+1 Swamp (ACR) 106
+3 Swamp (ACR) 105
+5 Swamp (TLA) 289
+1 Swiftfoot Boots (TLE) 317
+1 Terminate (ACR) 98
+1 Terramorphic Expanse (DRC) 179
+1 Thermo-Alchemist (INR) 174
+1 Thrill of Possibility (FDN) 210
+1 Torrential Gearhulk (CMM) 128
+1 Undying Malice (FDN) 528
+1 Unexplained Disappearance (GRN) 56
+1 Unleash Fury (M21) 170
+1 Vibrant Cityscape (SPM) 188
+1 Waterbender Ascension (TLA) 79
+1 Zuko's Exile (TLA) 3
+1 Zuko, Exiled Prince (TLA) 163

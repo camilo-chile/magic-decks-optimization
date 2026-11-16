@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""Phase 8 step 5: statistics of the measured lists (ManaBox-style charts and Commander Salt insights) for the dashboard.
+"""Statistics of the 14 Moxfield decks (base list and iterations 1 to 3) for the dashboard: ManaBox-style charts and
+Commander Salt numbers.
 
-Run it with the "Run Python File" button (no arguments, no network). It reads every list of `decks/measured/<deck>/*.txt`
-(the exact 100-card lists scored on Commander Salt, hash-checked against `decks/proposals/measured.json`), the card facts of
-the newest Scryfall bulk in `data/cache/` and the Salt numbers of `measured.json`, and writes row files into
-`data/model/dashboard/`:
+Run it with the "Run Python File" button (no arguments, no network). It reads `decks/history/history.json` (one entry per
+deck and stage: list file, Moxfield and Commander Salt links, Salt power, bracket, SALT and pillars when read) and the lists
+in `decks/history/`, the card facts of the newest Scryfall bulk in `data/cache/`, the Salt floors of `decks/phase2.json`,
+and writes row files into `data/model/dashboard/`:
 
-  liststats.json   one row per list: cost, power, Salt, Manabase Quality, average mana value, lands, tapped lands, roles
-                   (ramp, draw, removal, counterspells, sweepers, tutors, protection), Salt's ceiling and pillars
+  decks.json       one row per deck: commander, its current list (iteration 3) with links, Salt numbers and floor
+  liststats.json   one row per list: stage, links, power, bracket, SALT, pillars, average mana value, lands, tapped lands,
+                   roles (ramp, draw, removal, counterspells, sweepers, tutors, protection)
   mv.json          mana value curve by color group (nonland cards, the commander included, as ManaBox shows it)
   pips.json        colored mana symbols in the mana costs, per color
   production.json  cards that make each color, lands apart from the rest (restricted to the commander's colors)
@@ -31,16 +33,16 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-MEASURED_JSON = ROOT / "decks" / "proposals" / "measured.json"
-LISTS_DIR = ROOT / "decks" / "measured"
+HISTORY = ROOT / "decks" / "history" / "history.json"
+CONFIG = ROOT / "decks" / "phase2.json"
 CACHE = ROOT / "data" / "cache"
 OUT_DIR = ROOT / "data" / "model" / "dashboard"
 COLORS = ["W", "U", "B", "R", "G"]
 COLOR_NAME = {"W": "White", "U": "Blue", "B": "Black", "R": "Red", "G": "Green", "C": "Colorless", "M": "Multicolor"}
-SHORT = {"ezio-auditore-da-firenze": "ezio", "fire-lord-azula": "azula", "toph-the-first-metalbender": "toph",
-         "alexios-deimos-of-kosmos": "alexios"}
-DECK_NAME = {"ezio": "Ezio", "azula": "Azula", "toph": "Toph", "alexios": "Alexios"}
-VARIANT_NAME = {"bcore": "black-core"}
+SLUG = {"ezio": "ezio-auditore-da-firenze", "azula": "fire-lord-azula", "toph": "toph-the-first-metalbender", "kilo": "spanish-deck"}
+DECK_NAME = {"ezio": "Ezio", "azula": "Azula", "toph": "Toph", "kilo": "Kilo"}
+STAGE_NAME = {"base": "Base", "iter1": "Iter 1", "iter2": "Iter 2", "iter3": "Iter 3"}
+PRINTING = re.compile(r"\s+\([A-Za-z0-9]+\)\s+\S+(\s+\*[A-Z]\*)?$")  # a ManaBox or Moxfield " (SET) 123 *F*" suffix
 TYPES = ["Creature", "Instant", "Sorcery", "Enchantment", "Artifact", "Planeswalker", "Land", "Battle"]
 TURNS = [3, 5, 7]
 DROP_TURNS = list(range(1, 9))
@@ -51,7 +53,7 @@ SKIP_LAYOUTS = {"art_series", "token", "double_faced_token", "emblem", "vanguard
 
 
 def front(name):
-    return name.split(" // ")[0].strip()
+    return name.split(" // ")[0].split(" / ")[0].strip()  # Moxfield exports a split card with one slash
 
 
 def parse_list(text):
@@ -67,7 +69,7 @@ def parse_list(text):
         match = re.match(r"^(\d+)\s+(.+?)\s*$", line)
         if not match:
             continue
-        qty, name = int(match.group(1)), front(match.group(2))
+        qty, name = int(match.group(1)), front(PRINTING.sub("", match.group(2)))
         (commanders if section == "commander" else entries).append(name if section == "commander" else (qty, name))
     return commanders, entries
 
@@ -239,13 +241,10 @@ def compute(commanders, entries, cards, seed=7):
             "drops": drops, "oncurve": oncurve, "oncurve_pct": oncurve_pct}
 
 
-def rows_for(deck_short, label, stats, meta):
-    step = int(label.rsplit("step", 1)[1].split("-")[0])
-    parts = label.split("-")
-    variant = parts[1] if len(parts) == 3 else ""  # 'round4-bcore-step26' is a variant list of the deck
-    round_no = int(parts[0].replace("round", ""))
-    list_id = f"{deck_short}{'-' + variant if variant else ''}-r{round_no}-{step}"
-    deck = DECK_NAME[deck_short] + (f" {VARIANT_NAME.get(variant, variant)}" if variant else "")
+def rows_for(meta, stats):
+    deck_short, stage = meta["deck"], meta["stage"]
+    list_id = f"{deck_short}-{stage}"
+    deck = DECK_NAME[deck_short]
     out = {"mv": [], "pips": [], "production": [], "types": [], "subtypes": [], "odds": [], "drops": [], "oncurve": []}
     for (bucket, group), count in sorted(stats["curve"].items()):
         out["mv"].append({"id": f"{list_id}-{bucket}-{group}", "list_id": list_id, "deck": deck, "mv": bucket,
@@ -275,50 +274,71 @@ def rows_for(deck_short, label, stats, meta):
     for item in stats["oncurve"]:
         out["oncurve"].append({"id": f"{list_id}-mv{item['mv']}", "list_id": list_id, "deck": deck, "mv": item["mv"],
                                "spells": item["spells"], "chance_pct": round(100 * item["chance"], 1)})
-    pillars = meta.get("salt_pillars") or {}
-    row = {"id": list_id, "deck": deck, "list": f"R{round_no} step {step}", "label": label, "wotc_bracket": meta.get("wotc_bracket"), "bracket": meta.get("bracket"),
-           "cost_clp": meta["cost_clp"], "power": meta["power"], "salt": meta.get("salt"),
-           "manabase_pct": meta.get("manabase_quality_pct"), "avg_mv": stats["avg_mv"], "lands": stats["lands"],
-           "oncurve_pct": stats["oncurve_pct"],
+    pillars = meta.get("pillars") or {}
+    row = {"id": list_id, "deck": deck, "stage": stage, "list": STAGE_NAME[stage], "order": list(STAGE_NAME).index(stage),
+           "bracket": meta.get("bracket"), "power": meta["power"], "salt": meta.get("salt"),
+           "moxfield": meta.get("moxfield"), "salt_url": meta.get("salt_url"), "measured": meta.get("measured"),
+           "avg_mv": stats["avg_mv"], "lands": stats["lands"], "oncurve_pct": stats["oncurve_pct"],
            "nonland": stats["nonland"], "tapped_lands": stats["tapped"]["tapped"],
            "conditional_lands": stats["tapped"]["conditional"], "colors": len(stats["identity"]),
-           "ceiling_pts": meta.get("salt_ceiling_pts"), "ceiling": meta.get("salt_ceiling"),
            "consistency": pillars.get("consistency"), "efficiency": pillars.get("efficiency"),
            "interaction": pillars.get("interaction"), "wincons": pillars.get("wincons"), **stats["roles"]}
     return list_id, row, out
 
 
+def find_floors(config):
+    """The salt_floors block wherever decks/phase2.json keeps it."""
+    stack = [config]
+    while stack:
+        node = stack.pop()
+        if isinstance(node, dict):
+            if "salt_floors" in node:
+                return node["salt_floors"]
+            stack += list(node.values())
+    return {}
+
+
 def main():
-    measured = json.loads(MEASURED_JSON.read_text(encoding="utf-8"))["lists"]
-    parsed = {}
-    names = set()
-    for path in sorted(LISTS_DIR.glob("*/*.txt")):
-        commanders, entries = parse_list(path.read_text(encoding="utf-8"))
-        parsed[(path.parent.name, path.stem)] = (commanders, entries)
+    history = json.loads(HISTORY.read_text(encoding="utf-8"))["decks"]
+    floors = find_floors(json.loads(CONFIG.read_text(encoding="utf-8")))
+    parsed, names = {}, set()
+    for meta in history:
+        commanders, entries = parse_list((ROOT / meta["list"]).read_text(encoding="utf-8"))
+        parsed[(meta["deck"], meta["stage"])] = (commanders, entries)
         names |= set(commanders) | {n for _, n in entries}
+    print(f"{len(history)} lists, {len(names)} card names; reading the Scryfall bulk", flush=True)
     cards = load_cards(names)
     missing = sorted(n for n in names if n.lower() not in cards)
     if missing:
         print(f"Cards not found in the Scryfall bulk ({len(missing)}): {missing[:10]}")
-    liststats, files = [], {k: [] for k in ("mv", "pips", "production", "types", "subtypes", "odds", "drops", "oncurve")}
-    for (slug, label), (commanders, entries) in sorted(parsed.items()):
-        meta = measured.get(f"{slug}/{label}")
-        if meta is None or meta.get("power") is None:
-            print(f"No measured entry for {slug}/{label}: skipped")
-            continue
-        if any(n.lower() not in cards for n in commanders) or any(n.lower() not in cards for _, n in entries):
-            print(f"{slug}/{label}: skipped (cards missing)")
+    liststats, decks = [], []
+    files = {k: [] for k in ("mv", "pips", "production", "types", "subtypes", "odds", "drops", "oncurve")}
+    for done, meta in enumerate(history, 1):
+        commanders, entries = parsed[(meta["deck"], meta["stage"])]
+        count = len(commanders) + sum(q for q, _ in entries)
+        if count != 100 or any(n.lower() not in cards for n in commanders) or any(n.lower() not in cards for _, n in entries):
+            print(f"{meta['deck']} {meta['stage']}: skipped ({count} cards or cards missing)")
             continue
         stats = compute(commanders, entries, cards)
-        _, row, out = rows_for(SHORT[slug], label, stats, meta)
+        list_id, row, out = rows_for(meta, stats)
         liststats.append(row)
         for key in files:
             files[key] += out[key]
+        if meta["stage"] == "iter3":
+            match = re.match(r"([\d.]+)", floors.get(SLUG[meta["deck"]], ""))
+            decks.append({"id": meta["deck"], "deck": DECK_NAME[meta["deck"]], "commander": commanders[0],
+                          "colors": "".join(stats["identity"]), "list_id": list_id, "power": meta["power"],
+                          "bracket": meta.get("bracket"), "salt": meta.get("salt"),
+                          "floor": float(match.group(1)) if match else None,
+                          "moxfield": meta.get("moxfield"), "salt_url": meta.get("salt_url")})
+        print(f"[{done}/{len(history)}] {list_id}: power {meta['power']}, {stats['lands']} lands, average mana value "
+              f"{stats['avg_mv']}", flush=True)
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     files["liststats"] = liststats
+    files["decks"] = decks
     for name, rows in files.items():
         (OUT_DIR / f"{name}.json").write_text(json.dumps({"rows": rows}, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
-        print(f"{name}.json: {len(rows)} rows")
+        print(f"{name}.json: {len(rows)} rows", flush=True)
     print(f"Wrote {OUT_DIR.relative_to(ROOT)}")
 
 

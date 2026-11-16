@@ -59,3 +59,18 @@ The next iteration must give each one a written verdict:
   Embodiment of Insight, Horrid Vigor.
 - Ezio: Lion Vulture, Senu, Keen-Eyed Protector.
 - Any white deck: Exorcise.
+
+## Cards that fell between decks in iteration 3 (owner question, 2026-11-15)
+
+The serial order (Azula, Ezio, Toph, Kilo) with each deck frozen after its build left good free copies in no deck. The next
+iteration re-offers every card a later deck freed to the earlier decks, and checks `free_by_language` before writing "taken
+by another deck" as a reason.
+- Kolaghan's Command (1 EN, free): Azula left it "for Ezio" (build notes, "Not claimed, on purpose"); Ezio then cut it for a
+  36th land, which became Secret Tunnel. An instant with two modes (2 damage, discard, raise dead, artifact kill) that Azula
+  copies while attacking.
+- Chromatic Lantern (2 EN; Ezio holds one, one free): Azula's cut log gives "Ezio's, or 3-mana rocks"; the first half was
+  wrong (a second copy is free) and Azula's gate warns ramp 10 against the 12 its profile asks.
+- Octopus Form (2 EN, both free; owner, 2026-11-15: "excellent protection"): Azula cut it for Chromatic Lantern on
+  2026-11-15. The lead's own reading: the weakest call of that pair; the next iteration weighs Octopus Form back in Azula
+  for a basic land (35 lands with 12 mana rocks and ramp). Ezio left it out (protection at 8, blue not always up in five
+  colors); Kilo cannot play it (no Spanish copy).

@@ -1,2436 +1,900 @@
 {
  "rows": [
   {
-   "id": "alexios-r2-19-mv0",
-   "list_id": "alexios-r2-19",
-   "deck": "Alexios",
-   "mv": "0",
-   "spells": 1,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "alexios-r2-19-mv1",
-   "list_id": "alexios-r2-19",
-   "deck": "Alexios",
-   "mv": "1",
-   "spells": 11,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "alexios-r2-19-mv2",
-   "list_id": "alexios-r2-19",
-   "deck": "Alexios",
-   "mv": "2",
-   "spells": 18,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "alexios-r2-19-mv3",
-   "list_id": "alexios-r2-19",
-   "deck": "Alexios",
-   "mv": "3",
-   "spells": 15,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "alexios-r2-19-mv4",
-   "list_id": "alexios-r2-19",
-   "deck": "Alexios",
-   "mv": "4",
-   "spells": 9,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "alexios-r2-19-mv5",
-   "list_id": "alexios-r2-19",
-   "deck": "Alexios",
-   "mv": "5",
-   "spells": 5,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "alexios-r2-19-mv6",
-   "list_id": "alexios-r2-19",
-   "deck": "Alexios",
-   "mv": "6",
-   "spells": 2,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "alexios-r2-19-mv7+",
-   "list_id": "alexios-r2-19",
-   "deck": "Alexios",
-   "mv": "7+",
-   "spells": 4,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "alexios-r2-39-mv0",
-   "list_id": "alexios-r2-39",
-   "deck": "Alexios",
+   "id": "azula-base-mv0",
+   "list_id": "azula-base",
+   "deck": "Azula",
    "mv": "0",
    "spells": 0,
    "chance_pct": 100.0
   },
   {
-   "id": "alexios-r2-39-mv1",
-   "list_id": "alexios-r2-39",
-   "deck": "Alexios",
-   "mv": "1",
-   "spells": 11,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "alexios-r2-39-mv2",
-   "list_id": "alexios-r2-39",
-   "deck": "Alexios",
-   "mv": "2",
-   "spells": 18,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "alexios-r2-39-mv3",
-   "list_id": "alexios-r2-39",
-   "deck": "Alexios",
-   "mv": "3",
-   "spells": 15,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "alexios-r2-39-mv4",
-   "list_id": "alexios-r2-39",
-   "deck": "Alexios",
-   "mv": "4",
-   "spells": 9,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "alexios-r2-39-mv5",
-   "list_id": "alexios-r2-39",
-   "deck": "Alexios",
-   "mv": "5",
-   "spells": 6,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "alexios-r2-39-mv6",
-   "list_id": "alexios-r2-39",
-   "deck": "Alexios",
-   "mv": "6",
-   "spells": 3,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "alexios-r2-39-mv7+",
-   "list_id": "alexios-r2-39",
-   "deck": "Alexios",
-   "mv": "7+",
-   "spells": 3,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "alexios-r2-48-mv0",
-   "list_id": "alexios-r2-48",
-   "deck": "Alexios",
-   "mv": "0",
-   "spells": 0,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "alexios-r2-48-mv1",
-   "list_id": "alexios-r2-48",
-   "deck": "Alexios",
-   "mv": "1",
-   "spells": 10,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "alexios-r2-48-mv2",
-   "list_id": "alexios-r2-48",
-   "deck": "Alexios",
-   "mv": "2",
-   "spells": 21,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "alexios-r2-48-mv3",
-   "list_id": "alexios-r2-48",
-   "deck": "Alexios",
-   "mv": "3",
-   "spells": 16,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "alexios-r2-48-mv4",
-   "list_id": "alexios-r2-48",
-   "deck": "Alexios",
-   "mv": "4",
-   "spells": 7,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "alexios-r2-48-mv5",
-   "list_id": "alexios-r2-48",
-   "deck": "Alexios",
-   "mv": "5",
-   "spells": 6,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "alexios-r2-48-mv6",
-   "list_id": "alexios-r2-48",
-   "deck": "Alexios",
-   "mv": "6",
-   "spells": 3,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "alexios-r2-48-mv7+",
-   "list_id": "alexios-r2-48",
-   "deck": "Alexios",
-   "mv": "7+",
-   "spells": 2,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-r3-24-mv0",
-   "list_id": "ezio-r3-24",
-   "deck": "Ezio",
-   "mv": "0",
-   "spells": 0,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-r3-24-mv1",
-   "list_id": "ezio-r3-24",
-   "deck": "Ezio",
+   "id": "azula-base-mv1",
+   "list_id": "azula-base",
+   "deck": "Azula",
    "mv": "1",
    "spells": 5,
-   "chance_pct": 95.8
+   "chance_pct": 96.7
   },
   {
-   "id": "ezio-r3-24-mv2",
-   "list_id": "ezio-r3-24",
-   "deck": "Ezio",
-   "mv": "2",
-   "spells": 16,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-r3-24-mv3",
-   "list_id": "ezio-r3-24",
-   "deck": "Ezio",
-   "mv": "3",
-   "spells": 22,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-r3-24-mv4",
-   "list_id": "ezio-r3-24",
-   "deck": "Ezio",
-   "mv": "4",
-   "spells": 16,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-r3-24-mv5",
-   "list_id": "ezio-r3-24",
-   "deck": "Ezio",
-   "mv": "5",
-   "spells": 5,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-r3-24-mv6",
-   "list_id": "ezio-r3-24",
-   "deck": "Ezio",
-   "mv": "6",
-   "spells": 1,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-r3-24-mv7+",
-   "list_id": "ezio-r3-24",
-   "deck": "Ezio",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-r3-39-mv0",
-   "list_id": "ezio-r3-39",
-   "deck": "Ezio",
-   "mv": "0",
-   "spells": 0,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-r3-39-mv1",
-   "list_id": "ezio-r3-39",
-   "deck": "Ezio",
-   "mv": "1",
-   "spells": 4,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "ezio-r3-39-mv2",
-   "list_id": "ezio-r3-39",
-   "deck": "Ezio",
-   "mv": "2",
-   "spells": 16,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-r3-39-mv3",
-   "list_id": "ezio-r3-39",
-   "deck": "Ezio",
-   "mv": "3",
-   "spells": 23,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-r3-39-mv4",
-   "list_id": "ezio-r3-39",
-   "deck": "Ezio",
-   "mv": "4",
-   "spells": 16,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-r3-39-mv5",
-   "list_id": "ezio-r3-39",
-   "deck": "Ezio",
-   "mv": "5",
-   "spells": 5,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-r3-39-mv6",
-   "list_id": "ezio-r3-39",
-   "deck": "Ezio",
-   "mv": "6",
-   "spells": 1,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-r3-39-mv7+",
-   "list_id": "ezio-r3-39",
-   "deck": "Ezio",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-r3-43-mv0",
-   "list_id": "ezio-r3-43",
-   "deck": "Ezio",
-   "mv": "0",
-   "spells": 0,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-r3-43-mv1",
-   "list_id": "ezio-r3-43",
-   "deck": "Ezio",
-   "mv": "1",
-   "spells": 3,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "ezio-r3-43-mv2",
-   "list_id": "ezio-r3-43",
-   "deck": "Ezio",
-   "mv": "2",
-   "spells": 18,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-r3-43-mv3",
-   "list_id": "ezio-r3-43",
-   "deck": "Ezio",
-   "mv": "3",
-   "spells": 22,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-r3-43-mv4",
-   "list_id": "ezio-r3-43",
-   "deck": "Ezio",
-   "mv": "4",
-   "spells": 15,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-r3-43-mv5",
-   "list_id": "ezio-r3-43",
-   "deck": "Ezio",
-   "mv": "5",
-   "spells": 6,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-r3-43-mv6",
-   "list_id": "ezio-r3-43",
-   "deck": "Ezio",
-   "mv": "6",
-   "spells": 1,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-r3-43-mv7+",
-   "list_id": "ezio-r3-43",
-   "deck": "Ezio",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-r3-46-mv0",
-   "list_id": "ezio-r3-46",
-   "deck": "Ezio",
-   "mv": "0",
-   "spells": 0,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-r3-46-mv1",
-   "list_id": "ezio-r3-46",
-   "deck": "Ezio",
-   "mv": "1",
-   "spells": 3,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "ezio-r3-46-mv2",
-   "list_id": "ezio-r3-46",
-   "deck": "Ezio",
-   "mv": "2",
-   "spells": 18,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-r3-46-mv3",
-   "list_id": "ezio-r3-46",
-   "deck": "Ezio",
-   "mv": "3",
-   "spells": 22,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-r3-46-mv4",
-   "list_id": "ezio-r3-46",
-   "deck": "Ezio",
-   "mv": "4",
-   "spells": 15,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-r3-46-mv5",
-   "list_id": "ezio-r3-46",
-   "deck": "Ezio",
-   "mv": "5",
-   "spells": 6,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-r3-46-mv6",
-   "list_id": "ezio-r3-46",
-   "deck": "Ezio",
-   "mv": "6",
-   "spells": 1,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-r3-46-mv7+",
-   "list_id": "ezio-r3-46",
-   "deck": "Ezio",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-r3-50-mv0",
-   "list_id": "ezio-r3-50",
-   "deck": "Ezio",
-   "mv": "0",
-   "spells": 0,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-r3-50-mv1",
-   "list_id": "ezio-r3-50",
-   "deck": "Ezio",
-   "mv": "1",
-   "spells": 4,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "ezio-r3-50-mv2",
-   "list_id": "ezio-r3-50",
-   "deck": "Ezio",
-   "mv": "2",
-   "spells": 19,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-r3-50-mv3",
-   "list_id": "ezio-r3-50",
-   "deck": "Ezio",
-   "mv": "3",
-   "spells": 21,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-r3-50-mv4",
-   "list_id": "ezio-r3-50",
-   "deck": "Ezio",
-   "mv": "4",
-   "spells": 15,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-r3-50-mv5",
-   "list_id": "ezio-r3-50",
-   "deck": "Ezio",
-   "mv": "5",
-   "spells": 5,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-r3-50-mv6",
-   "list_id": "ezio-r3-50",
-   "deck": "Ezio",
-   "mv": "6",
-   "spells": 1,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-r3-50-mv7+",
-   "list_id": "ezio-r3-50",
-   "deck": "Ezio",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-bcore-r4-0-mv0",
-   "list_id": "ezio-bcore-r4-0",
-   "deck": "Ezio black-core",
-   "mv": "0",
-   "spells": 1,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-bcore-r4-0-mv1",
-   "list_id": "ezio-bcore-r4-0",
-   "deck": "Ezio black-core",
-   "mv": "1",
-   "spells": 12,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "ezio-bcore-r4-0-mv2",
-   "list_id": "ezio-bcore-r4-0",
-   "deck": "Ezio black-core",
-   "mv": "2",
-   "spells": 18,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-bcore-r4-0-mv3",
-   "list_id": "ezio-bcore-r4-0",
-   "deck": "Ezio black-core",
-   "mv": "3",
-   "spells": 19,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-bcore-r4-0-mv4",
-   "list_id": "ezio-bcore-r4-0",
-   "deck": "Ezio black-core",
-   "mv": "4",
-   "spells": 9,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-bcore-r4-0-mv5",
-   "list_id": "ezio-bcore-r4-0",
-   "deck": "Ezio black-core",
-   "mv": "5",
-   "spells": 4,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-bcore-r4-0-mv6",
-   "list_id": "ezio-bcore-r4-0",
-   "deck": "Ezio black-core",
-   "mv": "6",
-   "spells": 1,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-bcore-r4-0-mv7+",
-   "list_id": "ezio-bcore-r4-0",
-   "deck": "Ezio black-core",
-   "mv": "7+",
-   "spells": 1,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-bcore-r4-18-mv0",
-   "list_id": "ezio-bcore-r4-18",
-   "deck": "Ezio black-core",
-   "mv": "0",
-   "spells": 1,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-bcore-r4-18-mv1",
-   "list_id": "ezio-bcore-r4-18",
-   "deck": "Ezio black-core",
-   "mv": "1",
-   "spells": 7,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "ezio-bcore-r4-18-mv2",
-   "list_id": "ezio-bcore-r4-18",
-   "deck": "Ezio black-core",
-   "mv": "2",
-   "spells": 18,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-bcore-r4-18-mv3",
-   "list_id": "ezio-bcore-r4-18",
-   "deck": "Ezio black-core",
-   "mv": "3",
-   "spells": 21,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-bcore-r4-18-mv4",
-   "list_id": "ezio-bcore-r4-18",
-   "deck": "Ezio black-core",
-   "mv": "4",
-   "spells": 12,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-bcore-r4-18-mv5",
-   "list_id": "ezio-bcore-r4-18",
-   "deck": "Ezio black-core",
-   "mv": "5",
-   "spells": 4,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-bcore-r4-18-mv6",
-   "list_id": "ezio-bcore-r4-18",
-   "deck": "Ezio black-core",
-   "mv": "6",
-   "spells": 1,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-bcore-r4-18-mv7+",
-   "list_id": "ezio-bcore-r4-18",
-   "deck": "Ezio black-core",
-   "mv": "7+",
-   "spells": 1,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-bcore-r4-26-mv0",
-   "list_id": "ezio-bcore-r4-26",
-   "deck": "Ezio black-core",
-   "mv": "0",
-   "spells": 1,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-bcore-r4-26-mv1",
-   "list_id": "ezio-bcore-r4-26",
-   "deck": "Ezio black-core",
-   "mv": "1",
-   "spells": 7,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "ezio-bcore-r4-26-mv2",
-   "list_id": "ezio-bcore-r4-26",
-   "deck": "Ezio black-core",
-   "mv": "2",
-   "spells": 20,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-bcore-r4-26-mv3",
-   "list_id": "ezio-bcore-r4-26",
-   "deck": "Ezio black-core",
-   "mv": "3",
-   "spells": 20,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-bcore-r4-26-mv4",
-   "list_id": "ezio-bcore-r4-26",
-   "deck": "Ezio black-core",
-   "mv": "4",
-   "spells": 12,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-bcore-r4-26-mv5",
-   "list_id": "ezio-bcore-r4-26",
-   "deck": "Ezio black-core",
-   "mv": "5",
-   "spells": 3,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-bcore-r4-26-mv6",
-   "list_id": "ezio-bcore-r4-26",
-   "deck": "Ezio black-core",
-   "mv": "6",
-   "spells": 1,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-bcore-r4-26-mv7+",
-   "list_id": "ezio-bcore-r4-26",
-   "deck": "Ezio black-core",
-   "mv": "7+",
-   "spells": 1,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-r4-0-mv0",
-   "list_id": "ezio-r4-0",
-   "deck": "Ezio",
-   "mv": "0",
-   "spells": 1,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-r4-0-mv1",
-   "list_id": "ezio-r4-0",
-   "deck": "Ezio",
-   "mv": "1",
-   "spells": 9,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "ezio-r4-0-mv2",
-   "list_id": "ezio-r4-0",
-   "deck": "Ezio",
-   "mv": "2",
-   "spells": 22,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-r4-0-mv3",
-   "list_id": "ezio-r4-0",
-   "deck": "Ezio",
-   "mv": "3",
-   "spells": 21,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-r4-0-mv4",
-   "list_id": "ezio-r4-0",
-   "deck": "Ezio",
-   "mv": "4",
-   "spells": 9,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-r4-0-mv5",
-   "list_id": "ezio-r4-0",
-   "deck": "Ezio",
-   "mv": "5",
-   "spells": 2,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-r4-0-mv6",
-   "list_id": "ezio-r4-0",
-   "deck": "Ezio",
-   "mv": "6",
-   "spells": 1,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-r4-0-mv7+",
-   "list_id": "ezio-r4-0",
-   "deck": "Ezio",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-r4-14-mv0",
-   "list_id": "ezio-r4-14",
-   "deck": "Ezio",
-   "mv": "0",
-   "spells": 1,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-r4-14-mv1",
-   "list_id": "ezio-r4-14",
-   "deck": "Ezio",
-   "mv": "1",
-   "spells": 9,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "ezio-r4-14-mv2",
-   "list_id": "ezio-r4-14",
-   "deck": "Ezio",
-   "mv": "2",
-   "spells": 21,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-r4-14-mv3",
-   "list_id": "ezio-r4-14",
-   "deck": "Ezio",
-   "mv": "3",
-   "spells": 19,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-r4-14-mv4",
-   "list_id": "ezio-r4-14",
-   "deck": "Ezio",
-   "mv": "4",
-   "spells": 12,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-r4-14-mv5",
-   "list_id": "ezio-r4-14",
-   "deck": "Ezio",
-   "mv": "5",
-   "spells": 2,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-r4-14-mv6",
-   "list_id": "ezio-r4-14",
-   "deck": "Ezio",
-   "mv": "6",
-   "spells": 1,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-r4-14-mv7+",
-   "list_id": "ezio-r4-14",
-   "deck": "Ezio",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-r4-31-mv0",
-   "list_id": "ezio-r4-31",
-   "deck": "Ezio",
-   "mv": "0",
-   "spells": 1,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-r4-31-mv1",
-   "list_id": "ezio-r4-31",
-   "deck": "Ezio",
-   "mv": "1",
-   "spells": 9,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "ezio-r4-31-mv2",
-   "list_id": "ezio-r4-31",
-   "deck": "Ezio",
-   "mv": "2",
-   "spells": 19,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-r4-31-mv3",
-   "list_id": "ezio-r4-31",
-   "deck": "Ezio",
-   "mv": "3",
-   "spells": 19,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-r4-31-mv4",
-   "list_id": "ezio-r4-31",
-   "deck": "Ezio",
-   "mv": "4",
-   "spells": 14,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-r4-31-mv5",
-   "list_id": "ezio-r4-31",
-   "deck": "Ezio",
-   "mv": "5",
-   "spells": 2,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-r4-31-mv6",
-   "list_id": "ezio-r4-31",
-   "deck": "Ezio",
-   "mv": "6",
-   "spells": 1,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-r4-31-mv7+",
-   "list_id": "ezio-r4-31",
-   "deck": "Ezio",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-r4-33-mv0",
-   "list_id": "ezio-r4-33",
-   "deck": "Ezio",
-   "mv": "0",
-   "spells": 1,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-r4-33-mv1",
-   "list_id": "ezio-r4-33",
-   "deck": "Ezio",
-   "mv": "1",
-   "spells": 9,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "ezio-r4-33-mv2",
-   "list_id": "ezio-r4-33",
-   "deck": "Ezio",
-   "mv": "2",
-   "spells": 20,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-r4-33-mv3",
-   "list_id": "ezio-r4-33",
-   "deck": "Ezio",
-   "mv": "3",
-   "spells": 17,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-r4-33-mv4",
-   "list_id": "ezio-r4-33",
-   "deck": "Ezio",
-   "mv": "4",
-   "spells": 15,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-r4-33-mv5",
-   "list_id": "ezio-r4-33",
-   "deck": "Ezio",
-   "mv": "5",
-   "spells": 2,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-r4-33-mv6",
-   "list_id": "ezio-r4-33",
-   "deck": "Ezio",
-   "mv": "6",
-   "spells": 1,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-r4-33-mv7+",
-   "list_id": "ezio-r4-33",
-   "deck": "Ezio",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-r4-39-mv0",
-   "list_id": "ezio-r4-39",
-   "deck": "Ezio",
-   "mv": "0",
-   "spells": 2,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-r4-39-mv1",
-   "list_id": "ezio-r4-39",
-   "deck": "Ezio",
-   "mv": "1",
-   "spells": 7,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "ezio-r4-39-mv2",
-   "list_id": "ezio-r4-39",
-   "deck": "Ezio",
-   "mv": "2",
-   "spells": 19,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-r4-39-mv3",
-   "list_id": "ezio-r4-39",
-   "deck": "Ezio",
-   "mv": "3",
-   "spells": 18,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-r4-39-mv4",
-   "list_id": "ezio-r4-39",
-   "deck": "Ezio",
-   "mv": "4",
-   "spells": 15,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-r4-39-mv5",
-   "list_id": "ezio-r4-39",
-   "deck": "Ezio",
-   "mv": "5",
-   "spells": 3,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-r4-39-mv6",
-   "list_id": "ezio-r4-39",
-   "deck": "Ezio",
-   "mv": "6",
-   "spells": 1,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-r4-39-mv7+",
-   "list_id": "ezio-r4-39",
-   "deck": "Ezio",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-r4-43-mv0",
-   "list_id": "ezio-r4-43",
-   "deck": "Ezio",
-   "mv": "0",
-   "spells": 2,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-r4-43-mv1",
-   "list_id": "ezio-r4-43",
-   "deck": "Ezio",
-   "mv": "1",
-   "spells": 7,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "ezio-r4-43-mv2",
-   "list_id": "ezio-r4-43",
-   "deck": "Ezio",
-   "mv": "2",
-   "spells": 21,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-r4-43-mv3",
-   "list_id": "ezio-r4-43",
-   "deck": "Ezio",
-   "mv": "3",
-   "spells": 16,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-r4-43-mv4",
-   "list_id": "ezio-r4-43",
-   "deck": "Ezio",
-   "mv": "4",
-   "spells": 14,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-r4-43-mv5",
-   "list_id": "ezio-r4-43",
-   "deck": "Ezio",
-   "mv": "5",
-   "spells": 4,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-r4-43-mv6",
-   "list_id": "ezio-r4-43",
-   "deck": "Ezio",
-   "mv": "6",
-   "spells": 1,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-r4-43-mv7+",
-   "list_id": "ezio-r4-43",
-   "deck": "Ezio",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-r4-50-mv0",
-   "list_id": "ezio-r4-50",
-   "deck": "Ezio",
-   "mv": "0",
-   "spells": 2,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-r4-50-mv1",
-   "list_id": "ezio-r4-50",
-   "deck": "Ezio",
-   "mv": "1",
-   "spells": 6,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "ezio-r4-50-mv2",
-   "list_id": "ezio-r4-50",
-   "deck": "Ezio",
-   "mv": "2",
-   "spells": 23,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-r4-50-mv3",
-   "list_id": "ezio-r4-50",
-   "deck": "Ezio",
-   "mv": "3",
-   "spells": 14,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-r4-50-mv4",
-   "list_id": "ezio-r4-50",
-   "deck": "Ezio",
-   "mv": "4",
-   "spells": 14,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-r4-50-mv5",
-   "list_id": "ezio-r4-50",
-   "deck": "Ezio",
-   "mv": "5",
-   "spells": 4,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-r4-50-mv6",
-   "list_id": "ezio-r4-50",
-   "deck": "Ezio",
-   "mv": "6",
-   "spells": 2,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-r4-50-mv7+",
-   "list_id": "ezio-r4-50",
-   "deck": "Ezio",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-r4-54-mv0",
-   "list_id": "ezio-r4-54",
-   "deck": "Ezio",
-   "mv": "0",
-   "spells": 2,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-r4-54-mv1",
-   "list_id": "ezio-r4-54",
-   "deck": "Ezio",
-   "mv": "1",
-   "spells": 6,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "ezio-r4-54-mv2",
-   "list_id": "ezio-r4-54",
-   "deck": "Ezio",
-   "mv": "2",
-   "spells": 23,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-r4-54-mv3",
-   "list_id": "ezio-r4-54",
-   "deck": "Ezio",
-   "mv": "3",
-   "spells": 14,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-r4-54-mv4",
-   "list_id": "ezio-r4-54",
-   "deck": "Ezio",
-   "mv": "4",
-   "spells": 14,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-r4-54-mv5",
-   "list_id": "ezio-r4-54",
-   "deck": "Ezio",
-   "mv": "5",
-   "spells": 4,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-r4-54-mv6",
-   "list_id": "ezio-r4-54",
-   "deck": "Ezio",
-   "mv": "6",
-   "spells": 2,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-r4-54-mv7+",
-   "list_id": "ezio-r4-54",
-   "deck": "Ezio",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "ezio-r5-40-mv0",
-   "list_id": "ezio-r5-40",
-   "deck": "Ezio",
-   "mv": "0",
-   "spells": 2,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "ezio-r5-40-mv1",
-   "list_id": "ezio-r5-40",
-   "deck": "Ezio",
-   "mv": "1",
-   "spells": 6,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "ezio-r5-40-mv2",
-   "list_id": "ezio-r5-40",
-   "deck": "Ezio",
-   "mv": "2",
-   "spells": 19,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "ezio-r5-40-mv3",
-   "list_id": "ezio-r5-40",
-   "deck": "Ezio",
-   "mv": "3",
-   "spells": 18,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "ezio-r5-40-mv4",
-   "list_id": "ezio-r5-40",
-   "deck": "Ezio",
-   "mv": "4",
-   "spells": 15,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "ezio-r5-40-mv5",
-   "list_id": "ezio-r5-40",
-   "deck": "Ezio",
-   "mv": "5",
-   "spells": 3,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "ezio-r5-40-mv6",
-   "list_id": "ezio-r5-40",
-   "deck": "Ezio",
-   "mv": "6",
-   "spells": 1,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "ezio-r5-40-mv7+",
-   "list_id": "ezio-r5-40",
-   "deck": "Ezio",
-   "mv": "7+",
-   "spells": 1,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "azula-r3-23-mv0",
-   "list_id": "azula-r3-23",
-   "deck": "Azula",
-   "mv": "0",
-   "spells": 0,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "azula-r3-23-mv1",
-   "list_id": "azula-r3-23",
-   "deck": "Azula",
-   "mv": "1",
-   "spells": 11,
-   "chance_pct": 96.3
-  },
-  {
-   "id": "azula-r3-23-mv2",
-   "list_id": "azula-r3-23",
-   "deck": "Azula",
-   "mv": "2",
-   "spells": 27,
-   "chance_pct": 86.1
-  },
-  {
-   "id": "azula-r3-23-mv3",
-   "list_id": "azula-r3-23",
-   "deck": "Azula",
-   "mv": "3",
-   "spells": 13,
-   "chance_pct": 70.4
-  },
-  {
-   "id": "azula-r3-23-mv4",
-   "list_id": "azula-r3-23",
-   "deck": "Azula",
-   "mv": "4",
-   "spells": 8,
-   "chance_pct": 52.7
-  },
-  {
-   "id": "azula-r3-23-mv5",
-   "list_id": "azula-r3-23",
-   "deck": "Azula",
-   "mv": "5",
-   "spells": 2,
-   "chance_pct": 36.2
-  },
-  {
-   "id": "azula-r3-23-mv6",
-   "list_id": "azula-r3-23",
-   "deck": "Azula",
-   "mv": "6",
-   "spells": 2,
-   "chance_pct": 23.1
-  },
-  {
-   "id": "azula-r3-23-mv7+",
-   "list_id": "azula-r3-23",
-   "deck": "Azula",
-   "mv": "7+",
-   "spells": 1,
-   "chance_pct": 13.7
-  },
-  {
-   "id": "azula-r3-34-mv0",
-   "list_id": "azula-r3-34",
-   "deck": "Azula",
-   "mv": "0",
-   "spells": 0,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "azula-r3-34-mv1",
-   "list_id": "azula-r3-34",
-   "deck": "Azula",
-   "mv": "1",
-   "spells": 11,
-   "chance_pct": 96.3
-  },
-  {
-   "id": "azula-r3-34-mv2",
-   "list_id": "azula-r3-34",
-   "deck": "Azula",
-   "mv": "2",
-   "spells": 27,
-   "chance_pct": 86.1
-  },
-  {
-   "id": "azula-r3-34-mv3",
-   "list_id": "azula-r3-34",
-   "deck": "Azula",
-   "mv": "3",
-   "spells": 12,
-   "chance_pct": 70.4
-  },
-  {
-   "id": "azula-r3-34-mv4",
-   "list_id": "azula-r3-34",
-   "deck": "Azula",
-   "mv": "4",
-   "spells": 8,
-   "chance_pct": 52.7
-  },
-  {
-   "id": "azula-r3-34-mv5",
-   "list_id": "azula-r3-34",
-   "deck": "Azula",
-   "mv": "5",
-   "spells": 3,
-   "chance_pct": 36.2
-  },
-  {
-   "id": "azula-r3-34-mv6",
-   "list_id": "azula-r3-34",
-   "deck": "Azula",
-   "mv": "6",
-   "spells": 2,
-   "chance_pct": 23.1
-  },
-  {
-   "id": "azula-r3-34-mv7+",
-   "list_id": "azula-r3-34",
-   "deck": "Azula",
-   "mv": "7+",
-   "spells": 1,
-   "chance_pct": 13.7
-  },
-  {
-   "id": "azula-r3-39-mv0",
-   "list_id": "azula-r3-39",
-   "deck": "Azula",
-   "mv": "0",
-   "spells": 0,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "azula-r3-39-mv1",
-   "list_id": "azula-r3-39",
-   "deck": "Azula",
-   "mv": "1",
-   "spells": 9,
-   "chance_pct": 96.3
-  },
-  {
-   "id": "azula-r3-39-mv2",
-   "list_id": "azula-r3-39",
-   "deck": "Azula",
-   "mv": "2",
-   "spells": 26,
-   "chance_pct": 86.1
-  },
-  {
-   "id": "azula-r3-39-mv3",
-   "list_id": "azula-r3-39",
-   "deck": "Azula",
-   "mv": "3",
-   "spells": 15,
-   "chance_pct": 70.4
-  },
-  {
-   "id": "azula-r3-39-mv4",
-   "list_id": "azula-r3-39",
-   "deck": "Azula",
-   "mv": "4",
-   "spells": 9,
-   "chance_pct": 52.7
-  },
-  {
-   "id": "azula-r3-39-mv5",
-   "list_id": "azula-r3-39",
-   "deck": "Azula",
-   "mv": "5",
-   "spells": 3,
-   "chance_pct": 36.2
-  },
-  {
-   "id": "azula-r3-39-mv6",
-   "list_id": "azula-r3-39",
-   "deck": "Azula",
-   "mv": "6",
-   "spells": 2,
-   "chance_pct": 23.1
-  },
-  {
-   "id": "azula-r3-39-mv7+",
-   "list_id": "azula-r3-39",
-   "deck": "Azula",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 13.7
-  },
-  {
-   "id": "azula-r3-44-mv0",
-   "list_id": "azula-r3-44",
-   "deck": "Azula",
-   "mv": "0",
-   "spells": 0,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "azula-r3-44-mv1",
-   "list_id": "azula-r3-44",
-   "deck": "Azula",
-   "mv": "1",
-   "spells": 8,
-   "chance_pct": 96.3
-  },
-  {
-   "id": "azula-r3-44-mv2",
-   "list_id": "azula-r3-44",
-   "deck": "Azula",
-   "mv": "2",
-   "spells": 27,
-   "chance_pct": 86.1
-  },
-  {
-   "id": "azula-r3-44-mv3",
-   "list_id": "azula-r3-44",
-   "deck": "Azula",
-   "mv": "3",
-   "spells": 15,
-   "chance_pct": 70.4
-  },
-  {
-   "id": "azula-r3-44-mv4",
-   "list_id": "azula-r3-44",
-   "deck": "Azula",
-   "mv": "4",
-   "spells": 9,
-   "chance_pct": 52.7
-  },
-  {
-   "id": "azula-r3-44-mv5",
-   "list_id": "azula-r3-44",
-   "deck": "Azula",
-   "mv": "5",
-   "spells": 3,
-   "chance_pct": 36.2
-  },
-  {
-   "id": "azula-r3-44-mv6",
-   "list_id": "azula-r3-44",
-   "deck": "Azula",
-   "mv": "6",
-   "spells": 2,
-   "chance_pct": 23.1
-  },
-  {
-   "id": "azula-r3-44-mv7+",
-   "list_id": "azula-r3-44",
-   "deck": "Azula",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 13.7
-  },
-  {
-   "id": "azula-r3-53-mv0",
-   "list_id": "azula-r3-53",
-   "deck": "Azula",
-   "mv": "0",
-   "spells": 0,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "azula-r3-53-mv1",
-   "list_id": "azula-r3-53",
-   "deck": "Azula",
-   "mv": "1",
-   "spells": 9,
-   "chance_pct": 96.3
-  },
-  {
-   "id": "azula-r3-53-mv2",
-   "list_id": "azula-r3-53",
+   "id": "azula-base-mv2",
+   "list_id": "azula-base",
    "deck": "Azula",
    "mv": "2",
    "spells": 24,
-   "chance_pct": 86.1
+   "chance_pct": 87.4
   },
   {
-   "id": "azula-r3-53-mv3",
-   "list_id": "azula-r3-53",
-   "deck": "Azula",
-   "mv": "3",
-   "spells": 15,
-   "chance_pct": 70.4
-  },
-  {
-   "id": "azula-r3-53-mv4",
-   "list_id": "azula-r3-53",
-   "deck": "Azula",
-   "mv": "4",
-   "spells": 11,
-   "chance_pct": 52.7
-  },
-  {
-   "id": "azula-r3-53-mv5",
-   "list_id": "azula-r3-53",
-   "deck": "Azula",
-   "mv": "5",
-   "spells": 3,
-   "chance_pct": 36.2
-  },
-  {
-   "id": "azula-r3-53-mv6",
-   "list_id": "azula-r3-53",
-   "deck": "Azula",
-   "mv": "6",
-   "spells": 2,
-   "chance_pct": 23.1
-  },
-  {
-   "id": "azula-r3-53-mv7+",
-   "list_id": "azula-r3-53",
-   "deck": "Azula",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 13.7
-  },
-  {
-   "id": "azula-r4-0-mv0",
-   "list_id": "azula-r4-0",
-   "deck": "Azula",
-   "mv": "0",
-   "spells": 0,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "azula-r4-0-mv1",
-   "list_id": "azula-r4-0",
-   "deck": "Azula",
-   "mv": "1",
-   "spells": 13,
-   "chance_pct": 96.3
-  },
-  {
-   "id": "azula-r4-0-mv2",
-   "list_id": "azula-r4-0",
-   "deck": "Azula",
-   "mv": "2",
-   "spells": 26,
-   "chance_pct": 86.1
-  },
-  {
-   "id": "azula-r4-0-mv3",
-   "list_id": "azula-r4-0",
-   "deck": "Azula",
-   "mv": "3",
-   "spells": 15,
-   "chance_pct": 70.4
-  },
-  {
-   "id": "azula-r4-0-mv4",
-   "list_id": "azula-r4-0",
-   "deck": "Azula",
-   "mv": "4",
-   "spells": 5,
-   "chance_pct": 52.7
-  },
-  {
-   "id": "azula-r4-0-mv5",
-   "list_id": "azula-r4-0",
-   "deck": "Azula",
-   "mv": "5",
-   "spells": 3,
-   "chance_pct": 36.2
-  },
-  {
-   "id": "azula-r4-0-mv6",
-   "list_id": "azula-r4-0",
-   "deck": "Azula",
-   "mv": "6",
-   "spells": 2,
-   "chance_pct": 23.1
-  },
-  {
-   "id": "azula-r4-0-mv7+",
-   "list_id": "azula-r4-0",
-   "deck": "Azula",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 13.7
-  },
-  {
-   "id": "azula-r4-15-mv0",
-   "list_id": "azula-r4-15",
-   "deck": "Azula",
-   "mv": "0",
-   "spells": 0,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "azula-r4-15-mv1",
-   "list_id": "azula-r4-15",
-   "deck": "Azula",
-   "mv": "1",
-   "spells": 12,
-   "chance_pct": 96.3
-  },
-  {
-   "id": "azula-r4-15-mv2",
-   "list_id": "azula-r4-15",
-   "deck": "Azula",
-   "mv": "2",
-   "spells": 26,
-   "chance_pct": 86.1
-  },
-  {
-   "id": "azula-r4-15-mv3",
-   "list_id": "azula-r4-15",
-   "deck": "Azula",
-   "mv": "3",
-   "spells": 15,
-   "chance_pct": 70.4
-  },
-  {
-   "id": "azula-r4-15-mv4",
-   "list_id": "azula-r4-15",
-   "deck": "Azula",
-   "mv": "4",
-   "spells": 6,
-   "chance_pct": 52.7
-  },
-  {
-   "id": "azula-r4-15-mv5",
-   "list_id": "azula-r4-15",
-   "deck": "Azula",
-   "mv": "5",
-   "spells": 3,
-   "chance_pct": 36.2
-  },
-  {
-   "id": "azula-r4-15-mv6",
-   "list_id": "azula-r4-15",
-   "deck": "Azula",
-   "mv": "6",
-   "spells": 2,
-   "chance_pct": 23.1
-  },
-  {
-   "id": "azula-r4-15-mv7+",
-   "list_id": "azula-r4-15",
-   "deck": "Azula",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 13.7
-  },
-  {
-   "id": "azula-r4-18-mv0",
-   "list_id": "azula-r4-18",
-   "deck": "Azula",
-   "mv": "0",
-   "spells": 0,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "azula-r4-18-mv1",
-   "list_id": "azula-r4-18",
-   "deck": "Azula",
-   "mv": "1",
-   "spells": 12,
-   "chance_pct": 96.3
-  },
-  {
-   "id": "azula-r4-18-mv2",
-   "list_id": "azula-r4-18",
-   "deck": "Azula",
-   "mv": "2",
-   "spells": 26,
-   "chance_pct": 86.1
-  },
-  {
-   "id": "azula-r4-18-mv3",
-   "list_id": "azula-r4-18",
-   "deck": "Azula",
-   "mv": "3",
-   "spells": 15,
-   "chance_pct": 70.4
-  },
-  {
-   "id": "azula-r4-18-mv4",
-   "list_id": "azula-r4-18",
-   "deck": "Azula",
-   "mv": "4",
-   "spells": 6,
-   "chance_pct": 52.7
-  },
-  {
-   "id": "azula-r4-18-mv5",
-   "list_id": "azula-r4-18",
-   "deck": "Azula",
-   "mv": "5",
-   "spells": 3,
-   "chance_pct": 36.2
-  },
-  {
-   "id": "azula-r4-18-mv6",
-   "list_id": "azula-r4-18",
-   "deck": "Azula",
-   "mv": "6",
-   "spells": 2,
-   "chance_pct": 23.1
-  },
-  {
-   "id": "azula-r4-18-mv7+",
-   "list_id": "azula-r4-18",
-   "deck": "Azula",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 13.7
-  },
-  {
-   "id": "azula-r4-24-mv0",
-   "list_id": "azula-r4-24",
-   "deck": "Azula",
-   "mv": "0",
-   "spells": 0,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "azula-r4-24-mv1",
-   "list_id": "azula-r4-24",
-   "deck": "Azula",
-   "mv": "1",
-   "spells": 11,
-   "chance_pct": 96.3
-  },
-  {
-   "id": "azula-r4-24-mv2",
-   "list_id": "azula-r4-24",
-   "deck": "Azula",
-   "mv": "2",
-   "spells": 26,
-   "chance_pct": 86.1
-  },
-  {
-   "id": "azula-r4-24-mv3",
-   "list_id": "azula-r4-24",
+   "id": "azula-base-mv3",
+   "list_id": "azula-base",
    "deck": "Azula",
    "mv": "3",
    "spells": 14,
-   "chance_pct": 70.4
+   "chance_pct": 72.7
   },
   {
-   "id": "azula-r4-24-mv4",
-   "list_id": "azula-r4-24",
+   "id": "azula-base-mv4",
+   "list_id": "azula-base",
    "deck": "Azula",
    "mv": "4",
-   "spells": 8,
-   "chance_pct": 52.7
+   "spells": 10,
+   "chance_pct": 55.5
   },
   {
-   "id": "azula-r4-24-mv5",
-   "list_id": "azula-r4-24",
+   "id": "azula-base-mv5",
+   "list_id": "azula-base",
    "deck": "Azula",
    "mv": "5",
-   "spells": 3,
-   "chance_pct": 36.2
+   "spells": 7,
+   "chance_pct": 39.1
   },
   {
-   "id": "azula-r4-24-mv6",
-   "list_id": "azula-r4-24",
+   "id": "azula-base-mv6",
+   "list_id": "azula-base",
    "deck": "Azula",
    "mv": "6",
-   "spells": 2,
-   "chance_pct": 23.1
+   "spells": 3,
+   "chance_pct": 25.6
   },
   {
-   "id": "azula-r4-24-mv7+",
-   "list_id": "azula-r4-24",
+   "id": "azula-base-mv7+",
+   "list_id": "azula-base",
    "deck": "Azula",
    "mv": "7+",
    "spells": 0,
-   "chance_pct": 13.7
+   "chance_pct": 15.6
   },
   {
-   "id": "azula-r4-27-mv0",
-   "list_id": "azula-r4-27",
+   "id": "azula-iter1-mv0",
+   "list_id": "azula-iter1",
    "deck": "Azula",
    "mv": "0",
    "spells": 0,
    "chance_pct": 100.0
   },
   {
-   "id": "azula-r4-27-mv1",
-   "list_id": "azula-r4-27",
+   "id": "azula-iter1-mv1",
+   "list_id": "azula-iter1",
    "deck": "Azula",
    "mv": "1",
    "spells": 11,
    "chance_pct": 96.3
   },
   {
-   "id": "azula-r4-27-mv2",
-   "list_id": "azula-r4-27",
+   "id": "azula-iter1-mv2",
+   "list_id": "azula-iter1",
    "deck": "Azula",
    "mv": "2",
    "spells": 25,
    "chance_pct": 86.1
   },
   {
-   "id": "azula-r4-27-mv3",
-   "list_id": "azula-r4-27",
+   "id": "azula-iter1-mv3",
+   "list_id": "azula-iter1",
    "deck": "Azula",
    "mv": "3",
    "spells": 14,
    "chance_pct": 70.4
   },
   {
-   "id": "azula-r4-27-mv4",
-   "list_id": "azula-r4-27",
+   "id": "azula-iter1-mv4",
+   "list_id": "azula-iter1",
    "deck": "Azula",
    "mv": "4",
    "spells": 8,
    "chance_pct": 52.7
   },
   {
-   "id": "azula-r4-27-mv5",
-   "list_id": "azula-r4-27",
+   "id": "azula-iter1-mv5",
+   "list_id": "azula-iter1",
    "deck": "Azula",
    "mv": "5",
    "spells": 3,
    "chance_pct": 36.2
   },
   {
-   "id": "azula-r4-27-mv6",
-   "list_id": "azula-r4-27",
+   "id": "azula-iter1-mv6",
+   "list_id": "azula-iter1",
    "deck": "Azula",
    "mv": "6",
    "spells": 3,
    "chance_pct": 23.1
   },
   {
-   "id": "azula-r4-27-mv7+",
-   "list_id": "azula-r4-27",
+   "id": "azula-iter1-mv7+",
+   "list_id": "azula-iter1",
    "deck": "Azula",
    "mv": "7+",
    "spells": 0,
    "chance_pct": 13.7
   },
   {
-   "id": "azula-r4-35-mv0",
-   "list_id": "azula-r4-35",
+   "id": "azula-iter2-mv0",
+   "list_id": "azula-iter2",
    "deck": "Azula",
    "mv": "0",
-   "spells": 0,
+   "spells": 1,
    "chance_pct": 100.0
   },
   {
-   "id": "azula-r4-35-mv1",
-   "list_id": "azula-r4-35",
-   "deck": "Azula",
-   "mv": "1",
-   "spells": 10,
-   "chance_pct": 96.3
-  },
-  {
-   "id": "azula-r4-35-mv2",
-   "list_id": "azula-r4-35",
-   "deck": "Azula",
-   "mv": "2",
-   "spells": 22,
-   "chance_pct": 86.1
-  },
-  {
-   "id": "azula-r4-35-mv3",
-   "list_id": "azula-r4-35",
-   "deck": "Azula",
-   "mv": "3",
-   "spells": 14,
-   "chance_pct": 70.4
-  },
-  {
-   "id": "azula-r4-35-mv4",
-   "list_id": "azula-r4-35",
-   "deck": "Azula",
-   "mv": "4",
-   "spells": 12,
-   "chance_pct": 52.7
-  },
-  {
-   "id": "azula-r4-35-mv5",
-   "list_id": "azula-r4-35",
-   "deck": "Azula",
-   "mv": "5",
-   "spells": 3,
-   "chance_pct": 36.2
-  },
-  {
-   "id": "azula-r4-35-mv6",
-   "list_id": "azula-r4-35",
-   "deck": "Azula",
-   "mv": "6",
-   "spells": 3,
-   "chance_pct": 23.1
-  },
-  {
-   "id": "azula-r4-35-mv7+",
-   "list_id": "azula-r4-35",
-   "deck": "Azula",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 13.7
-  },
-  {
-   "id": "azula-r4-40-mv0",
-   "list_id": "azula-r4-40",
-   "deck": "Azula",
-   "mv": "0",
-   "spells": 0,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "azula-r4-40-mv1",
-   "list_id": "azula-r4-40",
+   "id": "azula-iter2-mv1",
+   "list_id": "azula-iter2",
    "deck": "Azula",
    "mv": "1",
    "spells": 11,
    "chance_pct": 96.3
   },
   {
-   "id": "azula-r4-40-mv2",
-   "list_id": "azula-r4-40",
+   "id": "azula-iter2-mv2",
+   "list_id": "azula-iter2",
    "deck": "Azula",
    "mv": "2",
-   "spells": 20,
+   "spells": 25,
    "chance_pct": 86.1
   },
   {
-   "id": "azula-r4-40-mv3",
-   "list_id": "azula-r4-40",
+   "id": "azula-iter2-mv3",
+   "list_id": "azula-iter2",
    "deck": "Azula",
    "mv": "3",
-   "spells": 13,
+   "spells": 14,
    "chance_pct": 70.4
   },
   {
-   "id": "azula-r4-40-mv4",
-   "list_id": "azula-r4-40",
+   "id": "azula-iter2-mv4",
+   "list_id": "azula-iter2",
    "deck": "Azula",
    "mv": "4",
-   "spells": 13,
+   "spells": 10,
    "chance_pct": 52.7
   },
   {
-   "id": "azula-r4-40-mv5",
-   "list_id": "azula-r4-40",
+   "id": "azula-iter2-mv5",
+   "list_id": "azula-iter2",
    "deck": "Azula",
    "mv": "5",
-   "spells": 3,
+   "spells": 1,
    "chance_pct": 36.2
   },
   {
-   "id": "azula-r4-40-mv6",
-   "list_id": "azula-r4-40",
+   "id": "azula-iter2-mv6",
+   "list_id": "azula-iter2",
    "deck": "Azula",
+   "mv": "6",
+   "spells": 2,
+   "chance_pct": 23.1
+  },
+  {
+   "id": "azula-iter2-mv7+",
+   "list_id": "azula-iter2",
+   "deck": "Azula",
+   "mv": "7+",
+   "spells": 0,
+   "chance_pct": 13.7
+  },
+  {
+   "id": "azula-iter3-mv0",
+   "list_id": "azula-iter3",
+   "deck": "Azula",
+   "mv": "0",
+   "spells": 1,
+   "chance_pct": 100.0
+  },
+  {
+   "id": "azula-iter3-mv1",
+   "list_id": "azula-iter3",
+   "deck": "Azula",
+   "mv": "1",
+   "spells": 7,
+   "chance_pct": 96.3
+  },
+  {
+   "id": "azula-iter3-mv2",
+   "list_id": "azula-iter3",
+   "deck": "Azula",
+   "mv": "2",
+   "spells": 26,
+   "chance_pct": 86.1
+  },
+  {
+   "id": "azula-iter3-mv3",
+   "list_id": "azula-iter3",
+   "deck": "Azula",
+   "mv": "3",
+   "spells": 16,
+   "chance_pct": 70.4
+  },
+  {
+   "id": "azula-iter3-mv4",
+   "list_id": "azula-iter3",
+   "deck": "Azula",
+   "mv": "4",
+   "spells": 9,
+   "chance_pct": 52.7
+  },
+  {
+   "id": "azula-iter3-mv5",
+   "list_id": "azula-iter3",
+   "deck": "Azula",
+   "mv": "5",
+   "spells": 2,
+   "chance_pct": 36.2
+  },
+  {
+   "id": "azula-iter3-mv6",
+   "list_id": "azula-iter3",
+   "deck": "Azula",
+   "mv": "6",
+   "spells": 3,
+   "chance_pct": 23.1
+  },
+  {
+   "id": "azula-iter3-mv7+",
+   "list_id": "azula-iter3",
+   "deck": "Azula",
+   "mv": "7+",
+   "spells": 0,
+   "chance_pct": 13.7
+  },
+  {
+   "id": "toph-base-mv0",
+   "list_id": "toph-base",
+   "deck": "Toph",
+   "mv": "0",
+   "spells": 0,
+   "chance_pct": 100.0
+  },
+  {
+   "id": "toph-base-mv1",
+   "list_id": "toph-base",
+   "deck": "Toph",
+   "mv": "1",
+   "spells": 11,
+   "chance_pct": 96.3
+  },
+  {
+   "id": "toph-base-mv2",
+   "list_id": "toph-base",
+   "deck": "Toph",
+   "mv": "2",
+   "spells": 10,
+   "chance_pct": 86.1
+  },
+  {
+   "id": "toph-base-mv3",
+   "list_id": "toph-base",
+   "deck": "Toph",
+   "mv": "3",
+   "spells": 15,
+   "chance_pct": 70.4
+  },
+  {
+   "id": "toph-base-mv4",
+   "list_id": "toph-base",
+   "deck": "Toph",
+   "mv": "4",
+   "spells": 12,
+   "chance_pct": 52.7
+  },
+  {
+   "id": "toph-base-mv5",
+   "list_id": "toph-base",
+   "deck": "Toph",
+   "mv": "5",
+   "spells": 9,
+   "chance_pct": 36.2
+  },
+  {
+   "id": "toph-base-mv6",
+   "list_id": "toph-base",
+   "deck": "Toph",
    "mv": "6",
    "spells": 4,
    "chance_pct": 23.1
   },
   {
-   "id": "azula-r4-40-mv7+",
-   "list_id": "azula-r4-40",
-   "deck": "Azula",
+   "id": "toph-base-mv7+",
+   "list_id": "toph-base",
+   "deck": "Toph",
    "mv": "7+",
-   "spells": 0,
+   "spells": 3,
    "chance_pct": 13.7
   },
   {
-   "id": "azula-r4-44-mv0",
-   "list_id": "azula-r4-44",
-   "deck": "Azula",
+   "id": "toph-iter1-mv0",
+   "list_id": "toph-iter1",
+   "deck": "Toph",
    "mv": "0",
-   "spells": 0,
+   "spells": 2,
    "chance_pct": 100.0
   },
   {
-   "id": "azula-r4-44-mv1",
-   "list_id": "azula-r4-44",
-   "deck": "Azula",
+   "id": "toph-iter1-mv1",
+   "list_id": "toph-iter1",
+   "deck": "Toph",
+   "mv": "1",
+   "spells": 12,
+   "chance_pct": 95.8
+  },
+  {
+   "id": "toph-iter1-mv2",
+   "list_id": "toph-iter1",
+   "deck": "Toph",
+   "mv": "2",
+   "spells": 25,
+   "chance_pct": 84.7
+  },
+  {
+   "id": "toph-iter1-mv3",
+   "list_id": "toph-iter1",
+   "deck": "Toph",
+   "mv": "3",
+   "spells": 18,
+   "chance_pct": 68.1
+  },
+  {
+   "id": "toph-iter1-mv4",
+   "list_id": "toph-iter1",
+   "deck": "Toph",
+   "mv": "4",
+   "spells": 5,
+   "chance_pct": 49.8
+  },
+  {
+   "id": "toph-iter1-mv5",
+   "list_id": "toph-iter1",
+   "deck": "Toph",
+   "mv": "5",
+   "spells": 3,
+   "chance_pct": 33.4
+  },
+  {
+   "id": "toph-iter1-mv6",
+   "list_id": "toph-iter1",
+   "deck": "Toph",
+   "mv": "6",
+   "spells": 0,
+   "chance_pct": 20.7
+  },
+  {
+   "id": "toph-iter1-mv7+",
+   "list_id": "toph-iter1",
+   "deck": "Toph",
+   "mv": "7+",
+   "spells": 0,
+   "chance_pct": 11.9
+  },
+  {
+   "id": "toph-iter2-mv0",
+   "list_id": "toph-iter2",
+   "deck": "Toph",
+   "mv": "0",
+   "spells": 3,
+   "chance_pct": 100.0
+  },
+  {
+   "id": "toph-iter2-mv1",
+   "list_id": "toph-iter2",
+   "deck": "Toph",
+   "mv": "1",
+   "spells": 9,
+   "chance_pct": 97.1
+  },
+  {
+   "id": "toph-iter2-mv2",
+   "list_id": "toph-iter2",
+   "deck": "Toph",
+   "mv": "2",
+   "spells": 23,
+   "chance_pct": 88.6
+  },
+  {
+   "id": "toph-iter2-mv3",
+   "list_id": "toph-iter2",
+   "deck": "Toph",
+   "mv": "3",
+   "spells": 18,
+   "chance_pct": 74.8
+  },
+  {
+   "id": "toph-iter2-mv4",
+   "list_id": "toph-iter2",
+   "deck": "Toph",
+   "mv": "4",
+   "spells": 6,
+   "chance_pct": 58.3
+  },
+  {
+   "id": "toph-iter2-mv5",
+   "list_id": "toph-iter2",
+   "deck": "Toph",
+   "mv": "5",
+   "spells": 3,
+   "chance_pct": 42.0
+  },
+  {
+   "id": "toph-iter2-mv6",
+   "list_id": "toph-iter2",
+   "deck": "Toph",
+   "mv": "6",
+   "spells": 0,
+   "chance_pct": 28.2
+  },
+  {
+   "id": "toph-iter2-mv7+",
+   "list_id": "toph-iter2",
+   "deck": "Toph",
+   "mv": "7+",
+   "spells": 0,
+   "chance_pct": 17.7
+  },
+  {
+   "id": "toph-iter3-mv0",
+   "list_id": "toph-iter3",
+   "deck": "Toph",
+   "mv": "0",
+   "spells": 2,
+   "chance_pct": 100.0
+  },
+  {
+   "id": "toph-iter3-mv1",
+   "list_id": "toph-iter3",
+   "deck": "Toph",
    "mv": "1",
    "spells": 11,
-   "chance_pct": 96.3
+   "chance_pct": 97.1
   },
   {
-   "id": "azula-r4-44-mv2",
-   "list_id": "azula-r4-44",
-   "deck": "Azula",
+   "id": "toph-iter3-mv2",
+   "list_id": "toph-iter3",
+   "deck": "Toph",
+   "mv": "2",
+   "spells": 20,
+   "chance_pct": 88.6
+  },
+  {
+   "id": "toph-iter3-mv3",
+   "list_id": "toph-iter3",
+   "deck": "Toph",
+   "mv": "3",
+   "spells": 18,
+   "chance_pct": 74.8
+  },
+  {
+   "id": "toph-iter3-mv4",
+   "list_id": "toph-iter3",
+   "deck": "Toph",
+   "mv": "4",
+   "spells": 8,
+   "chance_pct": 58.3
+  },
+  {
+   "id": "toph-iter3-mv5",
+   "list_id": "toph-iter3",
+   "deck": "Toph",
+   "mv": "5",
+   "spells": 3,
+   "chance_pct": 42.0
+  },
+  {
+   "id": "toph-iter3-mv6",
+   "list_id": "toph-iter3",
+   "deck": "Toph",
+   "mv": "6",
+   "spells": 0,
+   "chance_pct": 28.2
+  },
+  {
+   "id": "toph-iter3-mv7+",
+   "list_id": "toph-iter3",
+   "deck": "Toph",
+   "mv": "7+",
+   "spells": 0,
+   "chance_pct": 17.7
+  },
+  {
+   "id": "ezio-iter1-mv0",
+   "list_id": "ezio-iter1",
+   "deck": "Ezio",
+   "mv": "0",
+   "spells": 2,
+   "chance_pct": 100.0
+  },
+  {
+   "id": "ezio-iter1-mv1",
+   "list_id": "ezio-iter1",
+   "deck": "Ezio",
+   "mv": "1",
+   "spells": 6,
+   "chance_pct": 95.8
+  },
+  {
+   "id": "ezio-iter1-mv2",
+   "list_id": "ezio-iter1",
+   "deck": "Ezio",
    "mv": "2",
    "spells": 19,
-   "chance_pct": 86.1
+   "chance_pct": 84.7
   },
   {
-   "id": "azula-r4-44-mv3",
-   "list_id": "azula-r4-44",
-   "deck": "Azula",
+   "id": "ezio-iter1-mv3",
+   "list_id": "ezio-iter1",
+   "deck": "Ezio",
    "mv": "3",
+   "spells": 18,
+   "chance_pct": 68.1
+  },
+  {
+   "id": "ezio-iter1-mv4",
+   "list_id": "ezio-iter1",
+   "deck": "Ezio",
+   "mv": "4",
    "spells": 15,
-   "chance_pct": 70.4
-  },
-  {
-   "id": "azula-r4-44-mv4",
-   "list_id": "azula-r4-44",
-   "deck": "Azula",
-   "mv": "4",
-   "spells": 13,
-   "chance_pct": 52.7
-  },
-  {
-   "id": "azula-r4-44-mv5",
-   "list_id": "azula-r4-44",
-   "deck": "Azula",
-   "mv": "5",
-   "spells": 3,
-   "chance_pct": 36.2
-  },
-  {
-   "id": "azula-r4-44-mv6",
-   "list_id": "azula-r4-44",
-   "deck": "Azula",
-   "mv": "6",
-   "spells": 3,
-   "chance_pct": 23.1
-  },
-  {
-   "id": "azula-r4-44-mv7+",
-   "list_id": "azula-r4-44",
-   "deck": "Azula",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 13.7
-  },
-  {
-   "id": "toph-r2-0-mv0",
-   "list_id": "toph-r2-0",
-   "deck": "Toph",
-   "mv": "0",
-   "spells": 1,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "toph-r2-0-mv1",
-   "list_id": "toph-r2-0",
-   "deck": "Toph",
-   "mv": "1",
-   "spells": 13,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "toph-r2-0-mv2",
-   "list_id": "toph-r2-0",
-   "deck": "Toph",
-   "mv": "2",
-   "spells": 21,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "toph-r2-0-mv3",
-   "list_id": "toph-r2-0",
-   "deck": "Toph",
-   "mv": "3",
-   "spells": 17,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "toph-r2-0-mv4",
-   "list_id": "toph-r2-0",
-   "deck": "Toph",
-   "mv": "4",
-   "spells": 6,
    "chance_pct": 49.8
   },
   {
-   "id": "toph-r2-0-mv5",
-   "list_id": "toph-r2-0",
-   "deck": "Toph",
+   "id": "ezio-iter1-mv5",
+   "list_id": "ezio-iter1",
+   "deck": "Ezio",
    "mv": "5",
-   "spells": 6,
+   "spells": 3,
    "chance_pct": 33.4
   },
   {
-   "id": "toph-r2-0-mv6",
-   "list_id": "toph-r2-0",
-   "deck": "Toph",
+   "id": "ezio-iter1-mv6",
+   "list_id": "ezio-iter1",
+   "deck": "Ezio",
    "mv": "6",
    "spells": 1,
    "chance_pct": 20.7
   },
   {
-   "id": "toph-r2-0-mv7+",
-   "list_id": "toph-r2-0",
-   "deck": "Toph",
+   "id": "ezio-iter1-mv7+",
+   "list_id": "ezio-iter1",
+   "deck": "Ezio",
    "mv": "7+",
-   "spells": 0,
+   "spells": 1,
    "chance_pct": 11.9
   },
   {
-   "id": "toph-r3-11-mv0",
-   "list_id": "toph-r3-11",
-   "deck": "Toph",
+   "id": "ezio-iter2-mv0",
+   "list_id": "ezio-iter2",
+   "deck": "Ezio",
    "mv": "0",
-   "spells": 2,
+   "spells": 0,
    "chance_pct": 100.0
   },
   {
-   "id": "toph-r3-11-mv1",
-   "list_id": "toph-r3-11",
-   "deck": "Toph",
+   "id": "ezio-iter2-mv1",
+   "list_id": "ezio-iter2",
+   "deck": "Ezio",
    "mv": "1",
-   "spells": 12,
+   "spells": 7,
    "chance_pct": 95.8
   },
   {
-   "id": "toph-r3-11-mv2",
-   "list_id": "toph-r3-11",
-   "deck": "Toph",
-   "mv": "2",
-   "spells": 25,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "toph-r3-11-mv3",
-   "list_id": "toph-r3-11",
-   "deck": "Toph",
-   "mv": "3",
-   "spells": 18,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "toph-r3-11-mv4",
-   "list_id": "toph-r3-11",
-   "deck": "Toph",
-   "mv": "4",
-   "spells": 5,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "toph-r3-11-mv5",
-   "list_id": "toph-r3-11",
-   "deck": "Toph",
-   "mv": "5",
-   "spells": 3,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "toph-r3-11-mv6",
-   "list_id": "toph-r3-11",
-   "deck": "Toph",
-   "mv": "6",
-   "spells": 0,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "toph-r3-11-mv7+",
-   "list_id": "toph-r3-11",
-   "deck": "Toph",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "toph-r3-21-mv0",
-   "list_id": "toph-r3-21",
-   "deck": "Toph",
-   "mv": "0",
-   "spells": 2,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "toph-r3-21-mv1",
-   "list_id": "toph-r3-21",
-   "deck": "Toph",
-   "mv": "1",
-   "spells": 12,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "toph-r3-21-mv2",
-   "list_id": "toph-r3-21",
-   "deck": "Toph",
-   "mv": "2",
-   "spells": 25,
-   "chance_pct": 84.7
-  },
-  {
-   "id": "toph-r3-21-mv3",
-   "list_id": "toph-r3-21",
-   "deck": "Toph",
-   "mv": "3",
-   "spells": 18,
-   "chance_pct": 68.1
-  },
-  {
-   "id": "toph-r3-21-mv4",
-   "list_id": "toph-r3-21",
-   "deck": "Toph",
-   "mv": "4",
-   "spells": 5,
-   "chance_pct": 49.8
-  },
-  {
-   "id": "toph-r3-21-mv5",
-   "list_id": "toph-r3-21",
-   "deck": "Toph",
-   "mv": "5",
-   "spells": 3,
-   "chance_pct": 33.4
-  },
-  {
-   "id": "toph-r3-21-mv6",
-   "list_id": "toph-r3-21",
-   "deck": "Toph",
-   "mv": "6",
-   "spells": 0,
-   "chance_pct": 20.7
-  },
-  {
-   "id": "toph-r3-21-mv7+",
-   "list_id": "toph-r3-21",
-   "deck": "Toph",
-   "mv": "7+",
-   "spells": 0,
-   "chance_pct": 11.9
-  },
-  {
-   "id": "toph-r3-30-mv0",
-   "list_id": "toph-r3-30",
-   "deck": "Toph",
-   "mv": "0",
-   "spells": 2,
-   "chance_pct": 100.0
-  },
-  {
-   "id": "toph-r3-30-mv1",
-   "list_id": "toph-r3-30",
-   "deck": "Toph",
-   "mv": "1",
-   "spells": 13,
-   "chance_pct": 95.8
-  },
-  {
-   "id": "toph-r3-30-mv2",
-   "list_id": "toph-r3-30",
-   "deck": "Toph",
+   "id": "ezio-iter2-mv2",
+   "list_id": "ezio-iter2",
+   "deck": "Ezio",
    "mv": "2",
    "spells": 22,
    "chance_pct": 84.7
   },
   {
-   "id": "toph-r3-30-mv3",
-   "list_id": "toph-r3-30",
-   "deck": "Toph",
+   "id": "ezio-iter2-mv3",
+   "list_id": "ezio-iter2",
+   "deck": "Ezio",
    "mv": "3",
-   "spells": 20,
+   "spells": 19,
    "chance_pct": 68.1
   },
   {
-   "id": "toph-r3-30-mv4",
-   "list_id": "toph-r3-30",
-   "deck": "Toph",
+   "id": "ezio-iter2-mv4",
+   "list_id": "ezio-iter2",
+   "deck": "Ezio",
    "mv": "4",
-   "spells": 5,
+   "spells": 13,
    "chance_pct": 49.8
   },
   {
-   "id": "toph-r3-30-mv5",
-   "list_id": "toph-r3-30",
-   "deck": "Toph",
+   "id": "ezio-iter2-mv5",
+   "list_id": "ezio-iter2",
+   "deck": "Ezio",
    "mv": "5",
    "spells": 3,
    "chance_pct": 33.4
   },
   {
-   "id": "toph-r3-30-mv6",
-   "list_id": "toph-r3-30",
-   "deck": "Toph",
+   "id": "ezio-iter2-mv6",
+   "list_id": "ezio-iter2",
+   "deck": "Ezio",
    "mv": "6",
    "spells": 0,
    "chance_pct": 20.7
   },
   {
-   "id": "toph-r3-30-mv7+",
-   "list_id": "toph-r3-30",
-   "deck": "Toph",
+   "id": "ezio-iter2-mv7+",
+   "list_id": "ezio-iter2",
+   "deck": "Ezio",
    "mv": "7+",
-   "spells": 0,
+   "spells": 1,
    "chance_pct": 11.9
   },
   {
-   "id": "toph-r3-32-mv0",
-   "list_id": "toph-r3-32",
-   "deck": "Toph",
+   "id": "ezio-iter3-mv0",
+   "list_id": "ezio-iter3",
+   "deck": "Ezio",
+   "mv": "0",
+   "spells": 0,
+   "chance_pct": 100.0
+  },
+  {
+   "id": "ezio-iter3-mv1",
+   "list_id": "ezio-iter3",
+   "deck": "Ezio",
+   "mv": "1",
+   "spells": 7,
+   "chance_pct": 96.3
+  },
+  {
+   "id": "ezio-iter3-mv2",
+   "list_id": "ezio-iter3",
+   "deck": "Ezio",
+   "mv": "2",
+   "spells": 22,
+   "chance_pct": 86.1
+  },
+  {
+   "id": "ezio-iter3-mv3",
+   "list_id": "ezio-iter3",
+   "deck": "Ezio",
+   "mv": "3",
+   "spells": 19,
+   "chance_pct": 70.4
+  },
+  {
+   "id": "ezio-iter3-mv4",
+   "list_id": "ezio-iter3",
+   "deck": "Ezio",
+   "mv": "4",
+   "spells": 12,
+   "chance_pct": 52.7
+  },
+  {
+   "id": "ezio-iter3-mv5",
+   "list_id": "ezio-iter3",
+   "deck": "Ezio",
+   "mv": "5",
+   "spells": 3,
+   "chance_pct": 36.2
+  },
+  {
+   "id": "ezio-iter3-mv6",
+   "list_id": "ezio-iter3",
+   "deck": "Ezio",
+   "mv": "6",
+   "spells": 0,
+   "chance_pct": 23.1
+  },
+  {
+   "id": "ezio-iter3-mv7+",
+   "list_id": "ezio-iter3",
+   "deck": "Ezio",
+   "mv": "7+",
+   "spells": 1,
+   "chance_pct": 13.7
+  },
+  {
+   "id": "kilo-base-mv0",
+   "list_id": "kilo-base",
+   "deck": "Kilo",
+   "mv": "0",
+   "spells": 3,
+   "chance_pct": 100.0
+  },
+  {
+   "id": "kilo-base-mv1",
+   "list_id": "kilo-base",
+   "deck": "Kilo",
+   "mv": "1",
+   "spells": 5,
+   "chance_pct": 97.7
+  },
+  {
+   "id": "kilo-base-mv2",
+   "list_id": "kilo-base",
+   "deck": "Kilo",
+   "mv": "2",
+   "spells": 12,
+   "chance_pct": 90.7
+  },
+  {
+   "id": "kilo-base-mv3",
+   "list_id": "kilo-base",
+   "deck": "Kilo",
+   "mv": "3",
+   "spells": 17,
+   "chance_pct": 78.8
+  },
+  {
+   "id": "kilo-base-mv4",
+   "list_id": "kilo-base",
+   "deck": "Kilo",
+   "mv": "4",
+   "spells": 12,
+   "chance_pct": 63.6
+  },
+  {
+   "id": "kilo-base-mv5",
+   "list_id": "kilo-base",
+   "deck": "Kilo",
+   "mv": "5",
+   "spells": 3,
+   "chance_pct": 47.9
+  },
+  {
+   "id": "kilo-base-mv6",
+   "list_id": "kilo-base",
+   "deck": "Kilo",
+   "mv": "6",
+   "spells": 2,
+   "chance_pct": 33.7
+  },
+  {
+   "id": "kilo-base-mv7+",
+   "list_id": "kilo-base",
+   "deck": "Kilo",
+   "mv": "7+",
+   "spells": 6,
+   "chance_pct": 22.3
+  },
+  {
+   "id": "kilo-iter2-mv0",
+   "list_id": "kilo-iter2",
+   "deck": "Kilo",
    "mv": "0",
    "spells": 2,
    "chance_pct": 100.0
   },
   {
-   "id": "toph-r3-32-mv1",
-   "list_id": "toph-r3-32",
-   "deck": "Toph",
+   "id": "kilo-iter2-mv1",
+   "list_id": "kilo-iter2",
+   "deck": "Kilo",
    "mv": "1",
-   "spells": 13,
-   "chance_pct": 95.8
+   "spells": 7,
+   "chance_pct": 96.7
   },
   {
-   "id": "toph-r3-32-mv2",
-   "list_id": "toph-r3-32",
-   "deck": "Toph",
+   "id": "kilo-iter2-mv2",
+   "list_id": "kilo-iter2",
+   "deck": "Kilo",
    "mv": "2",
-   "spells": 21,
-   "chance_pct": 84.7
+   "spells": 16,
+   "chance_pct": 87.4
   },
   {
-   "id": "toph-r3-32-mv3",
-   "list_id": "toph-r3-32",
-   "deck": "Toph",
+   "id": "kilo-iter2-mv3",
+   "list_id": "kilo-iter2",
+   "deck": "Kilo",
+   "mv": "3",
+   "spells": 22,
+   "chance_pct": 72.7
+  },
+  {
+   "id": "kilo-iter2-mv4",
+   "list_id": "kilo-iter2",
+   "deck": "Kilo",
+   "mv": "4",
+   "spells": 11,
+   "chance_pct": 55.5
+  },
+  {
+   "id": "kilo-iter2-mv5",
+   "list_id": "kilo-iter2",
+   "deck": "Kilo",
+   "mv": "5",
+   "spells": 2,
+   "chance_pct": 39.1
+  },
+  {
+   "id": "kilo-iter2-mv6",
+   "list_id": "kilo-iter2",
+   "deck": "Kilo",
+   "mv": "6",
+   "spells": 1,
+   "chance_pct": 25.6
+  },
+  {
+   "id": "kilo-iter2-mv7+",
+   "list_id": "kilo-iter2",
+   "deck": "Kilo",
+   "mv": "7+",
+   "spells": 2,
+   "chance_pct": 15.6
+  },
+  {
+   "id": "kilo-iter3-mv0",
+   "list_id": "kilo-iter3",
+   "deck": "Kilo",
+   "mv": "0",
+   "spells": 3,
+   "chance_pct": 100.0
+  },
+  {
+   "id": "kilo-iter3-mv1",
+   "list_id": "kilo-iter3",
+   "deck": "Kilo",
+   "mv": "1",
+   "spells": 7,
+   "chance_pct": 96.7
+  },
+  {
+   "id": "kilo-iter3-mv2",
+   "list_id": "kilo-iter3",
+   "deck": "Kilo",
+   "mv": "2",
+   "spells": 13,
+   "chance_pct": 87.4
+  },
+  {
+   "id": "kilo-iter3-mv3",
+   "list_id": "kilo-iter3",
+   "deck": "Kilo",
    "mv": "3",
    "spells": 21,
-   "chance_pct": 68.1
+   "chance_pct": 72.7
   },
   {
-   "id": "toph-r3-32-mv4",
-   "list_id": "toph-r3-32",
-   "deck": "Toph",
+   "id": "kilo-iter3-mv4",
+   "list_id": "kilo-iter3",
+   "deck": "Kilo",
    "mv": "4",
-   "spells": 5,
-   "chance_pct": 49.8
+   "spells": 12,
+   "chance_pct": 55.5
   },
   {
-   "id": "toph-r3-32-mv5",
-   "list_id": "toph-r3-32",
-   "deck": "Toph",
+   "id": "kilo-iter3-mv5",
+   "list_id": "kilo-iter3",
+   "deck": "Kilo",
    "mv": "5",
    "spells": 3,
-   "chance_pct": 33.4
+   "chance_pct": 39.1
   },
   {
-   "id": "toph-r3-32-mv6",
-   "list_id": "toph-r3-32",
-   "deck": "Toph",
+   "id": "kilo-iter3-mv6",
+   "list_id": "kilo-iter3",
+   "deck": "Kilo",
    "mv": "6",
-   "spells": 0,
-   "chance_pct": 20.7
+   "spells": 2,
+   "chance_pct": 25.6
   },
   {
-   "id": "toph-r3-32-mv7+",
-   "list_id": "toph-r3-32",
-   "deck": "Toph",
+   "id": "kilo-iter3-mv7+",
+   "list_id": "kilo-iter3",
+   "deck": "Kilo",
    "mv": "7+",
-   "spells": 0,
-   "chance_pct": 11.9
+   "spells": 2,
+   "chance_pct": 15.6
   }
  ]
 }

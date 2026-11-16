@@ -1,0 +1,195 @@
+{
+ "note": "The 14 decks kept on Moxfield (owner, 2026-11-15): base list, iteration 1 (first purchase), iteration 2 (decks bought 2026-11-09) and iteration 3 (collection-only optimization), each with its Commander Salt reading of 2026-11-15 (deck pages, not the leaderboard). Iter 3 Ezio includes Magister Sphinx for Eivor; Iter 3 Azula includes Kolaghan's Command and Chromatic Lantern (both 2026-11-15). Pillars only where they were read (decks/reports/salt-diagnosis-20261115.md). Floors: decks/phase2.json salt_floors.",
+ "decks": [
+  {
+   "deck": "azula",
+   "stage": "base",
+   "list": "decks/history/azula-base.txt",
+   "moxfield": "https://moxfield.com/decks/sDsdVt3HG0iI0zi0THvaSA",
+   "salt_url": "https://www.commandersalt.com/details/deck/b2b652820d0679a1d2713a477fed2023",
+   "power": 3.9,
+   "bracket": "2",
+   "salt": 36.9,
+   "measured": "2026-11-15"
+  },
+  {
+   "deck": "azula",
+   "stage": "iter1",
+   "list": "decks/history/azula-iter1.txt",
+   "moxfield": "https://moxfield.com/decks/OdrRwIeKmki4c-mqVhBlJg",
+   "salt_url": "https://www.commandersalt.com/details/deck/c9b45a94f555b7ccffaf100b233d5d57",
+   "power": 8.2,
+   "bracket": "4",
+   "salt": 70.6,
+   "measured": "2026-11-15"
+  },
+  {
+   "deck": "azula",
+   "stage": "iter2",
+   "list": "decks/history/azula-iter2.txt",
+   "moxfield": "https://moxfield.com/decks/p-RFxuXq0UebtGDPTqJqTQ",
+   "salt_url": "https://www.commandersalt.com/details/deck/fe6ce478b7bb39118efb12830c1eda61",
+   "power": 6.9,
+   "bracket": "3",
+   "salt": 74.1,
+   "measured": "2026-11-15"
+  },
+  {
+   "deck": "azula",
+   "stage": "iter3",
+   "list": "decks/history/azula-iter3.txt",
+   "moxfield": "https://moxfield.com/decks/rzCJyehK1kukBHQW9czFGg",
+   "salt_url": "https://www.commandersalt.com/details/deck/8cf1c282bcec8149aea93cf07ffb9141",
+   "power": 6.9,
+   "bracket": "3",
+   "salt": 76.4,
+   "measured": "2026-11-15",
+   "pillars": {
+    "consistency": 197,
+    "efficiency": 394,
+    "interaction": 316,
+    "wincons": 332
+   }
+  },
+  {
+   "deck": "toph",
+   "stage": "base",
+   "list": "decks/history/toph-base.txt",
+   "moxfield": "https://moxfield.com/decks/x2velZ9UMkyVgzyhCZ9rXw",
+   "salt_url": "https://www.commandersalt.com/details/deck/57eb4a9c05ba878d33f816e7d7ebf902",
+   "power": 4.9,
+   "bracket": "3",
+   "salt": 112.8,
+   "measured": "2026-11-15"
+  },
+  {
+   "deck": "toph",
+   "stage": "iter1",
+   "list": "decks/history/toph-iter1.txt",
+   "moxfield": "https://moxfield.com/decks/A4U2t6Lw8UqIHCfv0C9qWg",
+   "salt_url": "https://www.commandersalt.com/details/deck/a7868bf303e132aa43996bd51cd160e9",
+   "power": 5.9,
+   "bracket": "3",
+   "salt": 92.0,
+   "measured": "2026-11-15"
+  },
+  {
+   "deck": "toph",
+   "stage": "iter2",
+   "list": "decks/history/toph-iter2.txt",
+   "moxfield": "https://moxfield.com/decks/_mkwAgNf7EOSVnZPh31hKw",
+   "salt_url": "https://www.commandersalt.com/details/deck/3049f387f650efc14753d00958ddb9c5",
+   "power": 6.9,
+   "bracket": "3",
+   "salt": 81.0,
+   "measured": "2026-11-15"
+  },
+  {
+   "deck": "toph",
+   "stage": "iter3",
+   "list": "decks/history/toph-iter3.txt",
+   "moxfield": "https://moxfield.com/decks/JPkCZ4VayUqbUK_b8DaHzQ",
+   "salt_url": "https://www.commandersalt.com/details/deck/e2e5146e3c454e174bbc10cea9c9df0b",
+   "power": 7.2,
+   "bracket": "3",
+   "salt": 95.5,
+   "measured": "2026-11-15"
+  },
+  {
+   "deck": "ezio",
+   "stage": "iter1",
+   "list": "decks/history/ezio-iter1.txt",
+   "moxfield": "https://moxfield.com/decks/nKMlzQxYYkKfWmgJW_SrWA",
+   "salt_url": "https://www.commandersalt.com/details/deck/fe62034bd0798e6185ba98d0decf423e",
+   "power": 7.7,
+   "bracket": "4",
+   "salt": 67.0,
+   "measured": "2026-11-15"
+  },
+  {
+   "deck": "ezio",
+   "stage": "iter2",
+   "list": "decks/history/ezio-iter2.txt",
+   "moxfield": "https://moxfield.com/decks/oaPa8CbdOEy_m6WzGx6rrg",
+   "salt_url": "https://www.commandersalt.com/details/deck/90acfcdd1c09573ce19587f64a738a59",
+   "power": 6.5,
+   "bracket": "3",
+   "salt": 50.9,
+   "measured": "2026-11-15",
+   "pillars": {
+    "consistency": 234,
+    "efficiency": 191,
+    "interaction": 139,
+    "wincons": 424
+   }
+  },
+  {
+   "deck": "ezio",
+   "stage": "iter3",
+   "list": "decks/history/ezio-iter3.txt",
+   "moxfield": "https://moxfield.com/decks/eMsSn5gTXU2l-rqZj5BD3w",
+   "salt_url": "https://www.commandersalt.com/details/deck/ebd776602efc5d7b80cf772f9e20684c",
+   "power": 6.5,
+   "bracket": "3",
+   "salt": 49.7,
+   "measured": "2026-11-15",
+   "pillars": {
+    "consistency": 207,
+    "efficiency": 193,
+    "interaction": 173,
+    "wincons": 366
+   }
+  },
+  {
+   "deck": "kilo",
+   "stage": "base",
+   "list": "decks/history/kilo-base.txt",
+   "moxfield": "https://moxfield.com/decks/jQcOyJW82kiUw91IrovezA",
+   "salt_url": "https://www.commandersalt.com/details/deck/87466c6fad86cb290aa6be2f31753f9d",
+   "power": 3.8,
+   "bracket": "2",
+   "salt": 54.8,
+   "measured": "2026-11-15",
+   "pillars": {
+    "consistency": 223,
+    "efficiency": 146,
+    "interaction": 93,
+    "wincons": 108
+   }
+  },
+  {
+   "deck": "kilo",
+   "stage": "iter2",
+   "list": "decks/history/kilo-iter2.txt",
+   "moxfield": "https://moxfield.com/decks/zwh-kx5ulk-dE9oEkwtzFQ",
+   "salt_url": "https://www.commandersalt.com/details/deck/78e3b2fbef1a0606792d99a6a1f313fb",
+   "power": 4.2,
+   "bracket": "2",
+   "salt": 65.5,
+   "measured": "2026-11-15",
+   "pillars": {
+    "consistency": 237,
+    "efficiency": 135,
+    "interaction": 125,
+    "wincons": 109
+   }
+  },
+  {
+   "deck": "kilo",
+   "stage": "iter3",
+   "list": "decks/history/kilo-iter3.txt",
+   "moxfield": "https://moxfield.com/decks/SlMGft_C_kCt_RDVVqnsaw",
+   "salt_url": "https://www.commandersalt.com/details/deck/973fdea7c99e71dcb0ea70d205495052",
+   "power": 3.7,
+   "bracket": "2",
+   "salt": 58.8,
+   "measured": "2026-11-15",
+   "pillars": {
+    "consistency": 234,
+    "efficiency": 137,
+    "interaction": 108,
+    "wincons": 125
+   }
+  }
+ ]
+}

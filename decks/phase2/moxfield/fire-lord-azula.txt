@@ -28,7 +28,7 @@
 1 Exotic Orchard (FRC) 70
 1 Expedite (CMR) 413
 1 Fact or Fiction (CMR) 634 *F*
-1 Failed Fording (OTJ) 47
+1 Kolaghan's Command (M3C) 268
 1 Fire Nation Palace (TLA) 268
 1 Foreboding Ruins (DSC) 277
 1 Frantic Search (TDC) 153
@@ -56,7 +56,7 @@
 1 Narset, Parter of Veils (CMM) 853
 1 Negate (MOM) 68
 1 Nightscape Familiar (DMR) 94
-1 Octopus Form (TLA) 66
+1 Chromatic Lantern (FRC) 54
 1 Ozai, the Phoenix King (TLA) 235
 1 Propaganda (ACR) 85
 1 Pull from Tomorrow (EOC) 76

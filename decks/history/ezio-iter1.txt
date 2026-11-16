@@ -1,0 +1,95 @@
+// Commander
+1 Ezio Auditore da Firenze (ACR) 25
+
+// Main
+1 Abstergo Entertainment (ACR) 79
+1 Adéwalé, Breaker of Chains (ACR) 44
+1 Arcane Signet (SCD) 257
+1 Arno Dorian (ACR) 47
+1 Assassin Gauntlet (ACR) 12
+1 Assassin's Trophy (MKM) 187
+1 Bitter Triumph (TDC) 173
+1 Brainstorm (EMA) 40
+1 Brotherhood Headquarters (ACR) 80
+1 Chaos Warp (PLST) C17-131
+1 Chromatic Lantern (FRC) 54
+1 Clifftop Retreat (EOC) 155
+1 Coastal Piracy (PLST) MMQ-68
+1 Command Tower (ELD) 333
+1 Concealed Courtyard (POTJ) 268p
+1 Deadeye Navigator (AVR) 47
+1 Deathcap Cultivator (SOI) 202
+1 Desmond Miles (ACR) 24
+1 Dimir Locket (GRN) 234
+1 Dragonskull Summit (TDC) 357
+1 Drowned Catacomb (FRC) 69
+1 Dualcaster Mage (E01) 46
+1 Ember Island Production (TLA) 48
+1 Entomb (DMR) 82
+1 Etrata, Deadly Fugitive (MKM) 200
+1 Etrata, the Silencer (GRN) 170
+1 Everflowing Chalice (2XM) 254
+1 Evie Frye (ACR) 19
+1 Exotic Orchard (C21) 288
+1 Ezio, Blade of Vengeance (ACR) 275 *F*
+1 Faithless Looting (CM2) 96
+1 Fatal Push (ACR) 90
+1 Fateful Absence (FDC) 30
+1 Forest (J25) 95
+1 Fortified Village (MIC) 174
+1 Frostboil Snarl (STX) 265
+1 Game Trail (AFC) 240
+1 Haytham Kenway (ACR) 57
+1 Hinterland Harbor (DOM) 240
+1 Infernal Grasp (DSC) 143
+1 Intruder Alarm (TLE) 15
+2 Island (J25) 86
+1 Isolated Chapel (DOM) 241
+1 Jacob Frye (ACR) 27
+1 Kaya, Ghost Assassin (SLD) 247
+1 Kolaghan's Command (PLST) DTK-224
+1 Lithoform Engine (ZNR) 245
+1 Loyal Inventor (ACR) 21
+1 Lydia Frye (ACR) 60
+1 Magister Sphinx (ARC) 89
+1 Mana Leak (PS11) 42
+1 Mishra's Bauble (MB2) 97
+1 Mortify (PLST) C18-186
+1 Mountain (J25) 90
+1 Murder (PLST) M20-109
+1 Mystical Teachings (PLST) MM3-44
+1 Nekrataal (DDM) 62
+1 Plains (J25) 81
+1 Prairie Stream (C19) 265
+1 Queen Marchesa (PLST) CN2-78
+1 Rakdos Signet (MM3) 225
+1 Rampant Growth (PLST) DDS-48
+1 Ravenloft Adventurer (CLB) 142
+1 Reckless Handling (MAT) 19
+1 Restart Sequence (ACR) 30
+1 Return the Favor (OTJ) 142
+1 Roshan, Hidden Magister (ACR) 32
+1 Royal Assassin (ACR) 93
+1 Rumble Arena (TLA) 277
+1 Secret Tunnel (TLA) 278
+1 Seismic Sense (TLA) 195
+1 Smoldering Marsh (WHO) 307
+1 Sol Ring (PLST) C18-222
+1 Starfall Invocation (BLB) 34
+1 Strionic Resonator (C19) 224
+1 Stroke of Midnight (FRC) 35
+1 Sulfur Falls (EOC) 184
+1 Sunken Hollow (C19) 278
+1 Survivors' Encampment (HOU) 184
+8 Swamp (J25) 89
+1 Swiftfoot Boots (C13) 263
+1 Terminate (PLST) CMA-195
+1 The Revelations of Ezio (ACR) 31
+1 Theater of Horrors (RNA) 213
+1 Thorn of the Black Rose (CMR) 154
+1 Tome of Legends (FIC) 369
+1 Utter End (C16) 226
+1 Venser, Shaper Savant (MM3) 55
+1 White Lotus Hideout (TLA) 281
+1 Winter Soldier, Icy Assassin (MSH) 239
+1 Woodland Cemetery (PIP) 316

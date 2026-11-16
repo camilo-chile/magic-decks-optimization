@@ -1,5 +1,7 @@
 # Fire Lord Azula: collection-only optimization (Phase 2 step 10.1, 2026-11-14)
 
+**Owner swaps (2026-11-15, two free copies that fell between decks; `decks/phase2/owner-card-review-20261114.md`).** Failed Fording out, Kolaghan's Command in (EN, M3C 268): a two-mode instant (artifact kill or 2 damage, plus discard or a creature back from the graveyard), four modes when copied while Azula attacks; a bounce was the weakest answer. Octopus Form out, Chromatic Lantern in (EN, FRC 54): ramp 10 to 11 and the black of Kolaghan's; protection 11 to 10, defense_while_tapped 5 to 4 (min 4). Bracket PASS (1 Game Changer), gate PASS (5 warnings, ramp now 11 of 12), 100 copies covered.
+
 **Fix round (step 10.3, 2026-11-15, the lead on Opus 5.5 high; review `decks/reports/collection-review-fire-lord-azula-20261114.md`, verdict FIX).** Applied ranks 1 to 4 and the plan-file corrections:
 
 | Out | In | Reason |

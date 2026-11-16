@@ -165,3 +165,23 @@ Browser task by Claude (Haiku 5.5 @ medium) in the owner's signed-in Chrome, wit
 - Deletion: "test - Ezio Sphinx" (https://moxfield.com/decks/Y-ENOs6rCk2A2fqUXHHxBA). Its page title and Moxfield's confirm dialog both read "test - Ezio Sphinx"; confirmed with "Permanently Delete". Result: deleted (the page redirected to Your Decks; the name no longer appears there). Failed: none.
 - Deck list count after the deletion: "Showing 14 out of 14 results" on Your Decks. Names (14): Base - Azula, Base - Kilo, Base - Toph, Iter 1 - Azula, Iter 1 - Ezio, Iter 1 - Toph, Iter 2 - Azula, Iter 2 - Ezio, Iter 2 - Kilo, Iter 2 - Toph, Iter 3 - Azula, Iter 3 - Ezio, Iter 3 - Kilo, Iter 3 - Toph.
 - Note: the Salt page of the deleted test deck (https://www.commandersalt.com/details/deck/42cc7a5d04c50b86dbbb747ffd20c758) remains on Salt; Salt has no delete control for visitors (section (d)).
+
+## Iter 3 - Azula updated (2026-11-15)
+
+Browser task by Claude (Haiku 5.5 @ medium) in the owner's signed-in Chrome, with the owner's approval of this change. No purchase, no sign-in, no account setting changed, no deletion, no rename, no other deck touched. Visibility and name unchanged.
+
+- Change on Moxfield (https://moxfield.com/decks/rzCJyehK1kukBHQW9czFGg), Bulk Edit, saved: removed "1 Failed Fording (OTJ) 47" and "1 Octopus Form (TLA) 66"; added "1 Kolaghan's Command (M3C) 268" and "1 Chromatic Lantern (FRC) 54", both non-foil.
+- Moxfield count after saving: "100 main deck / 0 sideboard"; Commander (1): Fire Lord Azula; Failed Fording 0 and Octopus Form 0 on the deck page; Kolaghan's Command 1 and Chromatic Lantern 1 on the deck page. Re-read of the Bulk Edit text: 99 main-deck quantities (sum 99), all non-basic lines equal to `decks/phase2/moxfield/fire-lord-azula.txt`. Moxfield's bulk text merges basics under one printing per name (7 Island, 6 Mountain, 4 Swamp), so basic printings read differently from the file; the non-basic lines match exactly. Glamdring's line shows "/" instead of "//" (formatting only).
+- Commander Salt URL (the expected one, submitted again from the Moxfield URL): https://www.commandersalt.com/details/deck/8cf1c282bcec8149aea93cf07ffb9141. The page shows the update: Chromatic Lantern (power +7.5) and Kolaghan's Command (+3.6) are in the card list.
+- Salt numbers read on 2026-11-15:
+  - Power 6.9 / 10 ("Focused Casual"), was 6.9 before: unchanged.
+  - Bracket 3 ("Upgraded"), unchanged.
+  - SALT 76.4 (Saltiness C), was 73.5: up 2.9.
+  - Commander tier T4.
+  - Four pillars (score / reference): Consistency 197 / 100 (casual baseline 197%); Efficiency 394 / 100; Interaction 316 / 140; Win conditions 332 / 200.
+  - Report card: Interaction A- 316; Wincons A 275.2; Synergy B- 256.1; Saltiness C 76.4.
+  - Combos: 3 lines, 5 wincons, 6 total; top line "Two-card line"; redundancy 0.60x.
+  - Manabase quality 96 (3-color, 36 lands: 17 basic, 19 nonbasic); fixing 100.
+  - Score drivers: "Structural score ceiling, Major": wincon combos with no tutors to assemble them (-0.55). Suggestions on the page: no board wipes detected; no graveyard interaction detected.
+  - Pillar-read interaction and card-count figures: Creatures 13, Artifacts 16, Enchantments 4, Instants 28, Sorceries 4, Planeswalkers 1; ramp 8; tutors 8.3 avg quality; 33 instants.
+- Failed: none.

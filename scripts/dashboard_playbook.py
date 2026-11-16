@@ -1,67 +1,55 @@
-"""Build the `playbook` dataset of the dashboard from the hand-written deck guides.
+"""Build the `playbook` dataset of the dashboard: the deck pages of the four current decks.
 
-Reads data/model/dashboard/playbook-<deck>.json (per deck: `sections`, the plan of play, and `cards`, one row per card
-with its role and how to play it, each text keyed by language) and the `combo` rows of guide.json (the Commander Salt top
-combos with their steps), and writes data/model/dashboard/playbook.json, a flat table of rows
-  {id, deck, kind, lang, order, name, role, qty, title, meta, text}
-with kind = section | card | combo. The dashboard page shows only the languages that exist in the rows.
+Reads `data/model/dashboard/cards-<deck>.json` (written by scripts/dashboard_cards.py: the 100 cards with the printed name of
+the owner's copy, role, mana cost and type line) and, when it exists, the hand-written guide
+`data/model/dashboard/guide-<deck>.json`:
 
-Also checks that every deck guide covers exactly 100 cards (nonbasic rows plus the quantities of the basic-land rows) and
-that every card of the final list has a row. Run from the VS Code "Run Python File" button; no arguments.
+  {"sections": [{"title": ..., "text": ...}],            the plan of play, in order
+   "combos":   [{"title": ..., "meta": ..., "text": ...}], Commander Salt combos, steps one per line
+   "cards":    {"<English card name>": "how to use it in this deck"}}
+
+A guide must cover every card of the list (English names, basics included) and nothing else, or the script stops: a
+stale guide never reaches the page. Without a guide a card row shows its mana cost and type line, and the page says the
+guide is pending. Writes `data/model/dashboard/playbook.json`. No network, no arguments.
 """
 import json
-import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DIR = ROOT / "data" / "model" / "dashboard"
-DECKS = {
-    "Toph": ("playbook-toph.json", "decks/measured/toph-the-first-metalbender/round3-step21.txt"),
-    "Azula": ("playbook-azula.json", "decks/measured/fire-lord-azula/round4-step27.txt"),
-    "Ezio": ("playbook-ezio.json", "decks/measured/ezio-auditore-da-firenze/round5-step40.txt"),
-}
-ROLES = {"commander", "engine", "mana", "draw", "tutor", "win", "removal", "defense", "land"}
-BASIC = {"Plains", "Island", "Swamp", "Mountain", "Forest"}
-
-
-def list_cards(path):
-    out = {}
-    for line in (ROOT / path).read_text(encoding="utf-8").splitlines():
-        m = re.match(r"^(\d+)\s+(.+?)\s*$", line.strip())
-        if m:
-            out[m.group(2)] = int(m.group(1))
-    return out
+DECKS = {"toph": "Toph", "azula": "Azula", "ezio": "Ezio", "kilo": "Kilo"}
+PENDING = ("Guía en preparación", "La guía de juego de esta lista (plan, combos y cómo usar cada carta) se escribe en el "
+           "próximo paso. Por ahora cada carta muestra su costo y su tipo.")
 
 
 def main():
     rows = []
-    for deck, (fname, list_path) in DECKS.items():
-        guide = json.loads((DIR / fname).read_text(encoding="utf-8"))
-        assert guide["deck"] == deck, (fname, guide["deck"])
-        final = list_cards(list_path)
-        have = {}
-        for i, c in enumerate(guide["cards"], 1):
-            assert c["role"] in ROLES, (deck, c["name"], c["role"])
-            have[c["name"]] = c.get("qty", 1)
-            for lang, text in c["play"].items():
-                rows.append({"id": f"{deck.lower()}-card-{i}-{lang}", "deck": deck, "kind": "card", "lang": lang, "order": i,
-                             "name": c["name"], "role": c["role"], "qty": c.get("qty", 1), "title": "", "meta": "", "text": text})
-        missing = sorted(set(final) - set(have))
-        extra = sorted(set(have) - set(final))
-        total = sum(have.values())
-        assert not missing and not extra and total == 100 and all(have[n] == final[n] for n in final), (deck, missing, extra, total)
-        for s in guide["sections"]:
-            for lang, text in s["text"].items():
-                rows.append({"id": f"{deck.lower()}-{s['id']}-{lang}", "deck": deck, "kind": "section", "lang": lang, "order": s["order"],
-                             "name": "", "role": "", "qty": "", "title": s["title"][lang], "meta": "", "text": text})
-        print(deck, "ok:", len(guide["cards"]), "rows,", total, "cards,", len(guide["sections"]), "sections")
-    for r in json.loads((DIR / "guide.json").read_text(encoding="utf-8"))["rows"]:
-        if r.get("kind") == "combo":
-            rows.append({"id": r["id"], "deck": r["deck"], "kind": "combo", "lang": r["lang"], "order": r["order"], "name": "", "role": "",
-                         "qty": "", "title": r["title"], "meta": r["meta"], "text": r["text"]})
-    (DIR / "playbook.json").write_text(json.dumps({"rows": rows}, ensure_ascii=False, indent=1), encoding="utf-8")
-    print("playbook.json:", len(rows), "rows")
+    for key, deck in DECKS.items():
+        cards = json.loads((DIR / f"cards-{key}.json").read_text(encoding="utf-8"))["rows"]
+        guide_path = DIR / f"guide-{key}.json"
+        guide = json.loads(guide_path.read_text(encoding="utf-8")) if guide_path.exists() else None
+        if guide:
+            names = {c["name_en"] for c in cards}
+            extra, missing = set(guide["cards"]) - names, names - set(guide["cards"])
+            if extra or missing:
+                sys.exit(f"{guide_path.name} does not match the list: missing {sorted(missing)[:8]}, extra {sorted(extra)[:8]}")
+        sections = guide["sections"] if guide else [{"title": PENDING[0], "text": PENDING[1]}]
+        for i, s in enumerate(sections, 1):
+            rows.append({"id": f"{key}-section-{i}-es", "deck": deck, "kind": "section", "lang": "es", "order": i, "name": "",
+                         "role": "", "qty": None, "title": s["title"], "meta": "", "text": s["text"]})
+        for i, c in enumerate((guide or {}).get("combos", []), 1):
+            rows.append({"id": f"{key}-combo-{i}-es", "deck": deck, "kind": "combo", "lang": "es", "order": i, "name": "",
+                         "role": "", "qty": None, "title": c["title"], "meta": c.get("meta", ""), "text": c["text"]})
+        for c in cards:
+            facts = " · ".join(x for x in (c["mana_cost"], c["type_line"]) if x)
+            text = guide["cards"][c["name_en"]] if guide else facts
+            rows.append({"id": f"{key}-card-{c['order']}-es", "deck": deck, "kind": "card", "lang": "es", "order": c["order"],
+                         "name": c["name"], "role": c["role"], "qty": c["qty"], "title": "",
+                         "meta": facts + (" · " + c["set"] + " " + str(c["number"]) if c.get("set") else ""), "text": text})
+        print(f"{deck}: {sum(c['qty'] for c in cards)} cards, guide {'yes' if guide else 'pending'}", flush=True)
+    (DIR / "playbook.json").write_text(json.dumps({"rows": rows}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"playbook.json: {len(rows)} rows")
 
 
 if __name__ == "__main__":

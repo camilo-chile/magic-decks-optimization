@@ -1,0 +1,85 @@
+// Commander
+1 Toph, the First Metalbender
+
+// Main
+1 Sol Ring
+1 Arcane Signet
+1 Talisman of Impulse
+1 Wayfarer's Bauble
+1 Everflowing Chalice
+1 Rampant Growth
+1 Shared Roots
+1 Sakura-Tribe Elder
+1 Lotus Cobra
+1 Great Divide Guide
+1 Explore
+1 Druid Class
+1 Crop Rotation
+1 Harrow
+1 Cycle of Renewal
+1 Roiling Regrowth
+1 Heaped Harvest
+1 Wood Elves
+1 Tireless Provisioner
+1 Earthbender Ascension
+1 Wrenn and Realmbreaker
+1 Sabotender
+1 Arbaaz Mir
+1 Ragost, Deft Gastronaut
+1 Goblin Bombardment
+1 Springheart Nantuko
+1 Tannuk, Memorial Ensign
+1 Valakut Exploration
+1 Tireless Tracker
+1 Zuran Orb
+1 Terrasymbiosis
+1 Mishra's Bauble
+1 Ichor Wellspring
+1 Brightglass Gearhulk
+1 Water Tribe Rallier
+1 Seismic Sense
+1 Chord of Calling
+1 Toph, Hardheaded Teacher
+1 The Earth King
+1 Toph, the Blind Bandit
+1 Seismic Tutelage
+1 Bumi, Unleashed
+1 Ashaya, Soul of the Wild
+1 Annie Joins Up
+1 Swords to Plowshares
+1 Path to Exile
+1 Fateful Absence
+1 Make a Stand
+1 Hardlight Containment
+1 Haywire Mite
+1 Collective Resistance
+1 Origin of Metalbending
+1 Return to Nature
+1 Beast Within
+1 Chaos Warp
+1 Stroke of Midnight
+1 Drannith Magistrate
+1 Planar Outburst
+1 Redirect Lightning
+1 Haystack
+1 Legion Guildmage
+1 Command Tower
+1 Exotic Orchard
+1 Ba Sing Se
+1 Rootbound Crag
+1 Sunpetal Grove
+1 Clifftop Retreat
+1 Game Trail
+1 Fortified Village
+1 Furycalm Snarl
+1 Rugged Prairie
+1 Battlefield Forge
+1 Secret Tunnel
+1 Gruul Turf
+1 Evolving Wilds
+1 Terramorphic Expanse
+1 Vibrant Cityscape
+1 Cabaretti Courtyard
+10 Forest
+5 Mountain
+6 Plains

@@ -1,0 +1,89 @@
+// Commander
+1 Toph, the First Metalbender (TLA) 247
+
+// Main
+1 Aang, Air Nomad (TLE) 265
+1 Airbender's Reversal (TLA) 7
+1 Annie Joins Up (OTJ) 191
+1 Appa, Steadfast Guardian (TLA) 10
+1 Arbaaz Mir (ACR) 46
+1 Ashaya, Soul of the Wild (SLD) 2014
+1 Avatar Destiny (TLA) 165
+1 Awakening of Vitu-Ghazi (WAR) 152
+1 Ba Sing Se (TLA) 266
+1 Badgermole (TLA) 166
+1 Banefire (M19) 130
+1 Barrels of Blasting Jelly (TLA) 254
+1 Bitter Work (TLA) 210
+1 Blasphemous Act (ECC) 89
+1 Blossoming Tortoise (WOE) 163
+1 Bumi, Eclectic Earthbender (TLE) 248
+1 Bumi, Unleashed (TLA) 211
+1 Cabaretti Courtyard (EOC) 151
+1 Collective Resistance (MH3) 147
+1 Command Tower (PIP) 259
+1 Crop Rotation (DMR) 154
+1 Cycle of Renewal (TLA) 170
+1 Darksteel Citadel (C21) 285
+1 Deflecting Swat (TLE) 311
+1 Druid Class (AFR) 180
+1 Earthbender Ascension (TLA) 175
+1 Elemental Teachings (TLA) 178
+1 Evolving Wilds (BLC) 302
+4 Forest (ACR) 110
+4 Forest (TLA) 291
+1 Hardened Scales (FIC) 307
+1 Harrow (EOC) 98
+1 Haywire Mite (SOC) 349
+1 Heaped Harvest (BLB) 175
+1 Horrid Vigor (DSK) 184
+1 Hour of Revelation (ZNC) 17
+1 Ichor Wellspring (C21) 245
+1 Inscription of Abundance (DSC) 186
+1 Jungle Shrine (ECC) 154
+1 Karn's Sylex (DMU) 234
+1 Meteor Sword (TLA) 258
+1 Mindslaver (SOM) 176
+1 Moraug, Fury of Akoum (EOC) 89
+4 Mountain (ACR) 107
+2 Mountain (TLA) 290
+1 Mycosynth Wellspring (C21) 252
+1 Nutrient Block (EOE) 243
+1 Omnath, Locus of Rage (ECC) 129
+1 Origin of Metalbending (TLA) 187
+1 Path to Exile (FRC) 30
+3 Plains (ACR) 101
+3 Plains (TLA) 287
+1 Planar Outburst (NCC) 209
+1 Redirect Lightning (TLA) 343
+1 Rockalanche (TLA) 192
+1 Rogue's Passage (SOC) 400
+1 Roiling Regrowth (EOC) 105
+1 Rootbound Crag (FIC) 416
+1 Rustvale Bridge (EOC) 175
+1 Sandbenders' Storm (TLA) 34
+1 Secret Tunnel (TLA) 278
+1 Seismic Tutelage (TLE) 254
+1 Slagwoods Bridge (DRC) 171
+1 Solemn Simulacrum (TDC) 325
+1 Stocking the Pantry (BLB) 194
+1 Sunpetal Grove (FIC) 432
+1 Swords to Plowshares (FRC) 37
+1 Tannuk, Memorial Ensign (EOE) 233
+1 Terramorphic Expanse (DRC) 179
+1 Terrasymbiosis (EOE) 210
+1 The Boulder, Ready to Rumble (TLA) 168
+1 The Cave of Two Lovers (TLA) 126
+1 The Earth King (TLA) 172
+1 The Stasis Coffin (BRO) 245
+1 Thornglint Bridge (MH2) 258
+1 Tireless Tracker (EOC) 110
+1 Titania, Nature's Force (DSC) 202
+1 Titania, Protector of Argoth (EOC) 111
+1 Toph, Hardheaded Teacher (TLA) 246
+1 Toph, the Blind Bandit (TLA) 198
+1 True Ancestry (TLA) 199
+1 Urza's Cave (MH3) 234
+1 Vibrant Cityscape (SPM) 188
+1 Wayfarer's Bauble (TDC) 335
+1 Wrenn and Realmbreaker (MOM) 217

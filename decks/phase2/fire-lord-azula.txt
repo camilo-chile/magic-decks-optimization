@@ -48,7 +48,7 @@
 1 Imprisoned in the Moon
 1 Abrade
 1 Chaos Warp
-1 Failed Fording
+1 Kolaghan's Command
 1 Spell Pierce
 1 Swan Song
 1 Negate
@@ -56,7 +56,7 @@
 1 Champion's Helm
 1 Frostcliff Siege
 1 Hidden Footblade
-1 Octopus Form
+1 Chromatic Lantern
 1 Deflecting Swat
 1 Redirect Lightning
 1 Mana Leak

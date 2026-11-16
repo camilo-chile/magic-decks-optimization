@@ -26,6 +26,7 @@ the next build round. Newest first.
 | Azula, Toph | Salt floors (2026-11-15) | Lowered from 7.0 to 6.5 for both (`decks/phase2.json` `salt_floors`). Ezio stays 6.5, Kilo 4.5. Salt stays secondary: what is really more powerful decides. |
 | Ezio | Magister Sphinx for Eivor (2026-11-15) | Accepted after the Salt diagnosis: Iter 3 read 4.6 without the Ezio + Sphinx line, 6.5 with it, real power near equal. Ezio stays frozen with this one change. |
 | Kilo | Exception to the 4.5 floor (2026-11-15) | Accepted as built (Iter 3, Salt 3.7). Salt does not track this deck: the precon with Kilo reads 3.8 against a real-power gap of about 1.5 points; the remaining complaints (no finisher, no tutors) are the Spanish collection's ceiling. |
+| Azula | Kolaghan's Command and Chromatic Lantern (2026-11-15) | Accepted: Kolaghan's Command for Failed Fording, Chromatic Lantern for Octopus Form (free English copies left in no deck by the serial order). Azula stays frozen with these two changes. |
 | Azula, Toph, Ezio | Frozen (2026-11-15) | The owner rebuilt the three decks with the iteration-3 changes; they are FROZEN. Kilo may NOT take any copy from them, even where it adds more in Kilo: Swan Song stays in Azula, Kilo keeps Titan Forge. |
 
 ## 2026-11-07

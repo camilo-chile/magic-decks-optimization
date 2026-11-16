@@ -65,12 +65,11 @@
     "Go for the Throat",
     "Abrade",
     "Chaos Warp",
-    "Failed Fording",
+    "Kolaghan's Command",
     "Spell Pierce",
     "Swan Song",
     "Negate",
     "Mana Leak",
-    "Octopus Form",
     "Deflecting Swat",
     "Redirect Lightning",
     "Amphibian Downpour",
@@ -117,7 +116,6 @@
     "Amphibian Downpour",
     "Imprisoned in the Moon",
     "Snap",
-    "Failed Fording",
     "Aether Gale",
     "Turnabout",
     "Electrodominance",
@@ -160,7 +158,6 @@
    "Propaganda",
    "Thermo-Alchemist",
    "Nightscape Familiar",
-   "Octopus Form",
    "Torrential Gearhulk"
   ],
   "combat_draw": [
@@ -279,7 +276,6 @@
   "Go for the Throat": "removal",
   "Abrade": "removal",
   "Chaos Warp": "removal",
-  "Failed Fording": "removal",
   "Amphibian Downpour": "removal",
   "Imprisoned in the Moon": "removal",
   "Spell Pierce": [
@@ -301,7 +297,6 @@
   "Swiftfoot Boots": "protection",
   "Champion's Helm": "protection",
   "Hidden Footblade": "protection",
-  "Octopus Form": "protection",
   "Deflecting Swat": "protection",
   "Redirect Lightning": "protection",
   "Day of Black Sun": "wipe",
@@ -334,7 +329,9 @@
   "Venser, Shaper Savant": [
    "removal",
    "protection"
-  ]
+  ],
+  "Kolaghan's Command": "removal",
+  "Chromatic Lantern": "ramp"
  },
  "bad_when_drawn": {
   "Ozai, the Phoenix King": "early",
@@ -356,7 +353,6 @@
   "Terminate": "never",
   "Go for the Throat": "never",
   "Chaos Warp": "never",
-  "Failed Fording": "never",
   "Swan Song": "never",
   "Negate": "never",
   "Big Score": "never",
@@ -364,6 +360,7 @@
   "Thirst for Knowledge": "never",
   "Mystical Teachings": "never",
   "Return the Favor": "never",
-  "Venser, Shaper Savant": "never"
+  "Venser, Shaper Savant": "never",
+  "Kolaghan's Command": "never"
  }
 }

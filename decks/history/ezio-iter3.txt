@@ -1,0 +1,92 @@
+// Commander
+1 Ezio Auditore da Firenze
+
+// Main
+1 Abstergo Entertainment (ACR) 79
+1 Altaïr Ibn-La'Ahad (ACR) 45
+1 Arbaaz Mir (ACR) 46
+1 Arcane Signet (TLE) 315
+1 Arno Dorian (ACR) 139
+1 Assassin Gauntlet (ACR) 12
+1 Assassin's Trophy (ACR) 95
+1 Aya of Alexandria (ACR) 48 *F*
+1 Basim Ibn Ishaq (ACR) 49
+1 Battlefield Forge (FRC) 65
+1 Bayek of Siwa (ACR) 142
+1 Bender's Waterskin (TLA) 255
+1 Black Market Connections (ACR) 87
+1 Brotherhood Headquarters (ACR) 80
+1 Brotherhood Spy (ACR) 282
+1 Chromatic Lantern (FRC) 54
+1 Coastal Piracy (ACR) 84
+1 Command Tower (CMR) 350 *F*
+1 Commander's Sphere (ECC) 139
+1 Concealed Courtyard (KLD) 245
+1 Desmond Miles (ACR) 130
+1 Diabolic Tutor (PW24) 13 *F*
+1 Dragonskull Summit (MSC) 238
+1 Drowned Catacomb (FRC) 69
+1 Eagle Vision (ACR) 17
+1 Magister Sphinx (2X2) 247
+1 Enter the Avatar State (TLA) 18 *F*
+1 Entomb (DMR) 82
+1 Etrata, Deadly Fugitive (MKM) 359
+1 Etrata, the Silencer (GRN) 170
+1 Evie Frye (ACR) 19
+1 Exotic Orchard (FRC) 70
+1 Ezio, Blade of Vengeance (ACR) 275 *F*
+1 Fellwar Stone (FRC) 57
+1 Forest (TLA) 286
+1 Get Out (DSK) 60 *F*
+1 Ghostly Prison (SOC) 146
+1 Glacial Fortress (FIC) 400
+1 Gold-Forged Thopteryx (MAT) 31
+1 Golgari Signet (DSC) 246
+1 Hakoda, Selfless Commander (TLA) 23
+1 Haunted Cloak (CMM) 389
+1 Haystack (ACR) 5 *F*
+1 Hidden Footblade (ACR) 216 *E*
+1 Hinterland Harbor (DSC) 284
+1 Hookblade Veteran (ACR) 283
+1 Imp's Mischief (OTP) 15
+1 Infernal Grasp (SOC) 216
+3 Island (ACR) 104
+1 Isolated Chapel (FRC) 74
+1 Jacob Frye (ACR) 27
+1 Layla Hassan (ACR) 127
+1 Mana Leak (8ED) 89
+1 Mechanical Glider (TLE) 256
+1 Mephitic Vapors (RVR) 85
+1 Mortify (ACR) 96
+1 Mountain (TLA) 285
+1 Orzhov Signet (DRC) 134
+1 Path of Ancestry (CMM) 423 *F*
+3 Plains (ACR) 102
+1 Prairie Stream (FRC) 79
+1 Propaganda (WHO) 219
+1 Queen Marchesa (OTC) 239
+1 Rakdos Signet (FRC) 60
+1 Rally the Peasants (INR) 37
+1 Ramses, Assassin Lord (DMC) 39
+1 Ratonhnhaké꞉ton (ACR) 62
+1 Ravenloft Adventurer (CLB) 142
+1 Restart Sequence (ACR) 30
+1 Royal Assassin (ACR) 93
+1 Secret Tunnel (TLA) 278
+1 Shao Jun (ACR) 151
+1 Smoldering Marsh (MSC) 266
+1 Sol Ring (TLE) 316
+1 Sulfur Falls (FRC) 84
+1 Sunken Hollow (TMC) 76
+2 Swamp (ACR) 106
+7 Swamp (TLA) 284
+1 Swiftfoot Boots (TLE) 317
+1 Swords to Plowshares (BLC) 109
+1 Talisman of Progress (FIC) 367
+1 Terminate (ACR) 98
+1 The Revelations of Ezio (ACR) 31
+1 Unstoppable Slasher (DSK) 119
+1 Utter End (DSC) 91
+1 Waterbender Ascension (TLA) 79
+1 Woodland Cemetery (ECC) 176
+1 Woodland Chasm (KHM) 274 *F*
