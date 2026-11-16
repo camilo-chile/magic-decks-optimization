@@ -47,3 +47,13 @@
 22:58:20    MISSING: Assassin 1/1 B | {'Ezio': ['Queen Marchesa']}
 22:58:20    MISSING: Bird 2/2 U | {'Azula': ['Swan Song']}
 22:58:20    MISSING: Thopter 1/1 C | {'Kilo': ['Hangarback Walker']}
+06:42:37  reading the Scryfall oracle cache
+06:42:40  reading the owned tokens (Scryfall, one card per token row)
+06:42:53  deck 1/4: Azula  ETA ?
+06:42:54  deck 2/4: Toph  ETA 0m51s
+06:42:57  deck 3/4: Ezio  ETA 0m20s
+06:42:58  deck 4/4: Kilo  ETA 0m06s
+06:42:59  17 tokens, 3 missing -> decks/reports/tokens-20261116.md
+06:42:59    MISSING: Assassin 1/1 B | {'Ezio': ['Queen Marchesa']}
+06:42:59    MISSING: Bird 2/2 U | {'Azula': ['Swan Song']}
+06:42:59    MISSING: Thopter 1/1 C | {'Kilo': ['Hangarback Walker']}
