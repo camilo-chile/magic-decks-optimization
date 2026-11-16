@@ -14,6 +14,16 @@ the next build round. Newest first.
 | Azula | Spell Pierce | Ordered in Spanish, arrived in English (SOA 23); Azula is bilingual and plays it. Swords to Plowshares for Ezio arrived in Spanish (BLC 109), as the owner ordered it. |
 | Ezio | Loans | Every loan replacement arrived, so the lent copies went back to the Standard decks; only the proxy Ezio commander remains, and it stays a proxy. Loan candidates are closed (`loan_candidates.closed`). |
 | All | Next phase | A new optimization of the four decks from the collection only, without purchases, run when the owner asks: for each deck, which cards leave it and which come in from the collection. Moxfield, Commander Salt and the dashboard Artifact are NOT updated until then. |
+| All | Model for deck optimization | Fable 5.2 is allowed ONLY with his explicit OK in chat ("autorizo fable [effort]", recorded for 24 hours by the hooks). First use: Azula's collection-only optimization at Fable 5.2 high, builder, independent reviewer and one fix round, in series. The goal is the strongest deck, never a fair comparison: no handicap on the model. |
+| All | Copies from other decks | Free copies first; a copy held by a deck not yet re-optimized may be claimed with a written reason and what that deck loses; copies of decks already optimized in the step are not available. |
+| All | Multiple copies | The whole collection: a card with spare copies stays an option for every deck optimized later; strong staples go into every deck that can play them (309 non-basic cards with 2+ copies). |
+| All | Card review | `decks/phase2/owner-card-review-20261114.md`: every card he flagged gets a written verdict in each optimization (Torrential Gearhulk and Frostcliff Siege first). Brief: `docs/proposals/collection-optimization-brief-20261114.md`. |
+| All | Scarce copies (2026-11-14, later) | A card stays in the deck where it adds the most value; a later deck may contest a copy of an optimized deck with a written comparison; the lead decides and the loser takes its fallback (replaces "copies of optimized decks are not available"). |
+| Azula | Return the Favor (2026-11-14) | Keep it unless IRREFUTABLY outside Bracket 3. Spellbook 11-5940 (with Narset's Reversal) only makes infinite magecraft triggers and needs a third card: reviewed, floor 3 (`data/bracket-reviewed.json`). |
+| All | Models (2026-11-14, after Azula's build: Fable 41 % of its weekly bar, 21 % of the weekly bar, about one 5 h window) | Fable 5.2 high only BUILDS the decks; the reviews (Opus 5.5 high) and the fix rounds (the main session) run on Opus. |
+| All | Iteration names (2026-11-14) | Iteration 1 = the first purchase; iteration 2 = the decks bought on 2026-11-09; iteration 3 = this collection-only optimization (Fable builds). |
+| All | Fable authorization (2026-11-15) | No expiry: once recorded, Fable may be used at the authorized effort, but ONLY on the owner's explicit OK for each launch; without it, Claude asks. Never a launch on a guess. |
+| Azula, Toph, Ezio | Frozen (2026-11-15) | The owner rebuilt the three decks with the iteration-3 changes; they are FROZEN. Kilo may NOT take any copy from them, even where it adds more in Kilo: Swan Song stays in Azula, Kilo keeps Titan Forge. |
 
 ## 2026-11-07
 

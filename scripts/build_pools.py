@@ -73,7 +73,8 @@ def with_borrowed(owned, borrowed, index):
     Loans come from the owner's Standard decks, which are not scanned (owner, 2026-10-31: Eagle Vision for Ezio, to be
     replaced at the next purchase); they join the pool of the deck that borrows them and no other."""
     out = {oid: {"copies": v["copies"], "by_language": Counter(v["by_language"]), "by_deck": Counter(v["by_deck"]),
-                 "printings": list(v["printings"])} for oid, v in owned.items()}
+                 "printings": list(v["printings"]), "free_by_language": dict(v.get("free_by_language") or {})}
+           for oid, v in owned.items()}
     unknown = []
     for loan in borrowed or []:
         if loan.get("proxy"):
@@ -99,6 +100,29 @@ def with_borrowed(owned, borrowed, index):
     return out, unknown
 
 
+ASSIGNMENT_PATH = ROOT / "data" / "model" / "phase2" / "assignment.json"
+
+
+def apply_current_holders(owned, assignment):
+    """Replace the stage-scan `by_deck` (where each copy sat when the decks were scanned, October 2026) with the decks
+    as built now (scripts/assign_copies.py, pinned copies included), so "held_by" says where every copy is TODAY and
+    "free_by_language" which copies no deck holds (owner, 2026-11-14: a card with spare copies stays an option for
+    every deck optimized later)."""
+    held, held_lang = defaultdict(Counter), defaultdict(Counter)
+    for slug, deck in assignment.get("decks", {}).items():
+        for card in deck.get("cards", []):
+            for pick in card.get("picks", []):
+                held[card["oracle_id"]][slug] += pick["qty"]
+                held_lang[card["oracle_id"]][pick["language"]] += pick["qty"]
+    for oid, have in owned.items():
+        by_deck = Counter(held.get(oid, {}))
+        free = have["copies"] - sum(by_deck.values())
+        if free > 0:
+            by_deck["free"] = free
+        have["by_deck"] = by_deck
+        have["free_by_language"] = {lang: max(n - held_lang[oid][lang], 0) for lang, n in have["by_language"].items()}
+
+
 def usable(card):
     """Legal in Commander and not a card that must be turned over."""
     return (card.get("legalities") or {}).get("commander") == "legal" and not cl.needs_flipping(card)
@@ -119,6 +143,7 @@ def pool(identity, owned, by_oid, language=None, exclude=()):
                     "color_identity": sorted(card.get("color_identity") or []),
                     "game_changer": bool(card.get("game_changer")), "basic": am.is_basic(card["name"]),
                     "copies": copies, "by_language": dict(have["by_language"]), "held_by": dict(have["by_deck"]),
+                    "free_by_language": dict(have.get("free_by_language") or {}),
                     "printings": [p for p in have["printings"] if not language or p["language"] == language]})
     out.sort(key=lambda c: c["name"])
     return out
@@ -201,6 +226,8 @@ def main():
     by_oid = {c.get("oracle_id"): c for c in cards}
     records = json.loads(OWNED_PATH.read_text(encoding="utf-8"))["cards"]
     owned, unknown = owned_cards(records, index)
+    if ASSIGNMENT_PATH.exists():
+        apply_current_holders(owned, json.loads(ASSIGNMENT_PATH.read_text(encoding="utf-8")))
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     for deck in config["decks"]:

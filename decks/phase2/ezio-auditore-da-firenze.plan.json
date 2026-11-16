@@ -1,69 +1,68 @@
 {
- "plan": "Assassin evasion tempo with a table-ending kill: cheap evasive Assassins and Ezio connect from turn 2 or 3 (Hookblade Veteran, Brotherhood Spy, Basim, Ratonhnhaké꞉ton, flying Equipment), every hit makes Assassin spells cost {B}{B} and draws cards (Basim, Ezio Blade, Coastal Piracy, Etrata, Lion Vulture), and Ramses turns the first elimination into a win of the whole game: Ezio's {W}{U}{B}{R}{G} trigger on a player at 10 or less (Magister Sphinx, Unstoppable Slasher and team damage put them there), or damage focused on one player, while Shao Jun and Kaya hit every opponent without combat and an attack tax, deathtouch and vigilance hold the crack-back.",
- "backup": "Without Ezio or Ramses the same evasive Assassins keep connecting under Arno and Bayek with Rally the Peasants, and Shao Jun and Kaya turn the Equipment, the rocks and loyalty into damage to each opponent every turn.",
+ "plan": "Assassin tempo that ends the table: Ezio lands on turn 2 and cheap evasive Assassins (Hookblade Veteran, Basim, Brotherhood Spy, Ratonhnhaketon, Shao Jun, a flying or unblockable Ezio) connect from turn 3, so every Assassin costs {B}{B} for the rest of the turn and the hits draw cards (Ezio Blade of Vengeance, Coastal Piracy, Basim, Etrata, Waterbender Ascension, Eagle Vision); lords, double strike, a 7/6 trampler and the initiative (Ravenloft Adventurer) push one player after another to 10 or less, where Ezio's {W}{U}{B}{R}{G} trigger removes them, and with Ramses on the battlefield the FIRST elimination wins the whole game, while Arbaaz Mir and Shao Jun damage every opponent without combat and Propaganda, Royal Assassin, deathtouch and vigilance hold the crack-back.",
+ "backup": "Without Ezio or Ramses the same Assassins keep connecting (freerunning works from any Assassin hit) under Arno, Bayek and Rally the Peasants and kill by plain damage, with Arbaaz Mir and Shao Jun adding damage that ignores blockers, and Ghostly Prison and Propaganda holding the counterattack; Restart Sequence, Layla, Jacob, Altair and The Revelations of Ezio rebuild after a wipe.",
  "archetype": "combat_attackers",
  "secondary": "alternate_kill",
  "secondary_role": "plan",
  "commander_dependence": "attack_engine",
  "commander_mv": 2,
  "win_routes": {
-  "Ezio eliminations, made a table win by Ramses": {
+  "Ezio's elimination, made a table win by Ramses": {
    "cards": [
     "Ramses, Assassin Lord",
-    "Magister Sphinx",
     "Unstoppable Slasher"
    ],
    "axis": "combat",
-   "vs_three": "With Ramses on the battlefield, any opponent who loses after an Assassin attacked them that turn makes me win the game, so ONE elimination ends all three opponents (attack every opponent with at least one Assassin on the kill turn): Ezio connects with a player at 10 or less and {W}{U}{B}{R}{G} removes them; Magister Sphinx sets a player to 10, Unstoppable Slasher halves a player's life in the same combat (its trigger resolves before Ezio's check), team damage does the rest. Without Ramses each elimination removes one player and the route repeats. Ramses is found by Diabolic Tutor and Adewale and returned by Entomb plus Restart Sequence, Layla, Jacob or Altair."
+   "vs_three": "With Ramses on the battlefield, any opponent who loses the game after an Assassin attacked them that turn makes me win at once (ruling 2022-09-09: any cause of loss counts), so ONE elimination beats all three: Ezio connects with a player at 10 or less and {W}{U}{B}{R}{G} removes them, or plain combat damage does. Unstoppable Slasher halves a player's life on a hit, and with Ezio in the same combat a player at 26 or less is removed (Slasher's trigger resolves first). On the kill turn every opponent is attacked by at least one Assassin. Without Ramses the route repeats once per opponent. Ramses is found by Diabolic Tutor, by Entomb plus Restart Sequence, Layla, Jacob, Altair or The Revelations of Ezio."
   },
   "Assassin team beatdown": {
    "cards": [
     "Arno Dorian",
     "Bayek of Siwa",
-    "Rally the Peasants"
+    "Rally the Peasants",
+    "Eivor, Wolf-Kissed"
    ],
    "axis": "combat",
-   "vs_three": "Five or six evasive Assassins split their attacks over the three opponents every turn; Arno adds +2/+0 to every other Assassin, Bayek gives the legendary attackers double strike on my turn, and Rally the Peasants adds +2/+0 to the whole team at instant speed, twice with flashback: each resolution raises the damage to every opponent at once."
+   "vs_three": "Five or six Assassins split their attacks over the three opponents each turn: Arno gives every other Assassin +2/+0, Bayek gives the legendary attackers double strike on my turn, Rally the Peasants adds +2/+0 to the whole team at instant speed and again with flashback, Eivor is a 7/6 trampler for {B}{B}. Each of these raises the damage on all three players at once, and each kill by damage is also a Ramses win."
   },
   "Noncombat damage to each opponent": {
    "cards": [
-    "Kaya, Ghost Assassin",
+    "Arbaaz Mir",
     "Shao Jun"
    ],
    "axis": "noncombat",
-   "vs_three": "Both deal damage or life loss to EACH opponent without passing a blocker: Shao Jun taps two untapped artifacts (the seven Equipment keep working while tapped) for 1 damage to each opponent, again and again in one turn (four Equipment and two rocks give 3 to each opponent per turn); Kaya's -1 drains 2 from each opponent. Eivor, Battle-Ready (Equipment count to each opponent per attack) replaces Kaya when the owner accepts its loan or a copy under 5,000 is read."
+   "vs_three": "Both hit EACH opponent without passing a blocker: Arbaaz Mir deals 1 to each opponent whenever a nontoken historic permanent enters under my control (40 of the 99 cards are legendary, artifacts or the Saga, and each recast of Ezio counts), and Shao Jun deals 1 to each opponent for every two untapped artifacts I tap (17 artifacts; tapped Equipment keeps working). Together they bring all three players toward 10 at the same time, where Ezio's trigger or one attack finishes each of them."
   }
  },
  "functions": {
   "attackers": {
+   "needed_by": "early",
    "cards": [
     "Ezio Auditore da Firenze",
     "Hookblade Veteran",
     "Basim Ibn Ishaq",
     "Desmond Miles",
     "Brotherhood Spy",
-    "Shao Jun",
-    "Ratonhnhaké꞉ton",
-    "Unstoppable Slasher",
-    "Altaïr Ibn-La'Ahad",
+    "Arbaaz Mir",
     "Jacob Frye",
+    "Unstoppable Slasher",
+    "Ratonhnhaké꞉ton",
+    "Shao Jun",
+    "Altaïr Ibn-La'Ahad",
     "Ramses, Assassin Lord",
     "Arno Dorian",
     "Queen Marchesa",
     "Etrata, the Silencer",
     "Aya of Alexandria",
     "Layla Hassan",
-    "Roshan, Hidden Magister",
     "Ezio, Blade of Vengeance",
     "Bayek of Siwa",
-    "Magister Sphinx",
-    "Gold-Forged Thopteryx",
-    "Adéwalé, Breaker of Chains",
-    "Lion Vulture"
-   ],
-   "needed_by": "early"
+    "Eivor, Wolf-Kissed",
+    "Ravenloft Adventurer"
+   ]
   },
   "through_wide_board": {
+   "needed_by": "early",
    "cards": [
     "Hookblade Veteran",
     "Basim Ibn Ishaq",
@@ -71,70 +70,67 @@
     "Shao Jun",
     "Ratonhnhaké꞉ton",
     "Etrata, the Silencer",
-    "Gold-Forged Thopteryx",
-    "Magister Sphinx",
-    "Kaya, Ghost Assassin",
     "Mechanical Glider",
+    "Enter the Avatar State",
     "Assassin Gauntlet",
     "Mephitic Vapors",
-    "Enter the Avatar State",
-    "Secret Tunnel",
-    "Hookblade",
-    "Cobbled Wings",
-    "Lion Vulture"
-   ],
-   "needed_by": "early"
+    "Waterbender Ascension",
+    "Evie Frye",
+    "Arbaaz Mir",
+    "Eivor, Wolf-Kissed",
+    "Haunted Cloak"
+   ]
   },
   "through_big_creatures": {
+   "needed_by": "early",
    "cards": [
     "Swords to Plowshares",
     "Infernal Grasp",
-    "Bitter Triumph",
     "Assassin's Trophy",
     "Terminate",
+    "Mortify",
+    "Utter End",
+    "Royal Assassin",
+    "Etrata, the Silencer",
     "Ramses, Assassin Lord",
     "Arno Dorian",
     "Queen Marchesa",
-    "Etrata, the Silencer",
     "Unstoppable Slasher",
     "Ezio, Blade of Vengeance",
-    "Feed the Swarm",
-    "Chaos Warp"
-   ],
-   "needed_by": "early"
+    "The Revelations of Ezio"
+   ]
   },
   "condition_enablers": {
+   "needed_by": "early",
    "cards": [
     "Ezio Auditore da Firenze",
+    "Arbaaz Mir",
+    "Shao Jun",
+    "Arno Dorian",
+    "Bayek of Siwa",
+    "Ramses, Assassin Lord",
+    "Rally the Peasants",
+    "Aya of Alexandria",
+    "Altaïr Ibn-La'Ahad",
+    "Queen Marchesa",
+    "Unstoppable Slasher",
+    "Eivor, Wolf-Kissed",
     "Basim Ibn Ishaq",
     "Desmond Miles",
     "Brotherhood Spy",
-    "Shao Jun",
-    "Ratonhnhaké꞉ton",
-    "Unstoppable Slasher",
-    "Ramses, Assassin Lord",
-    "Arno Dorian",
-    "Queen Marchesa",
-    "Aya of Alexandria",
-    "Ezio, Blade of Vengeance",
-    "Bayek of Siwa",
-    "Kaya, Ghost Assassin",
-    "Magister Sphinx",
-    "Etrata, the Silencer",
-    "Rally the Peasants"
-   ],
-   "needed_by": "early"
+    "Ratonhnhaké꞉ton"
+   ]
   },
   "team_finishers": {
+   "needed_by": "late",
    "cards": [
     "Ramses, Assassin Lord",
-    "Kaya, Ghost Assassin",
-    "Shao Jun",
     "Arno Dorian",
     "Bayek of Siwa",
-    "Rally the Peasants"
-   ],
-   "needed_by": "late"
+    "Rally the Peasants",
+    "Shao Jun",
+    "Arbaaz Mir"
+   ]
   }
  },
  "support": {
@@ -146,36 +142,39 @@
   ],
   "team_evasion": [
    "Assassin Gauntlet",
-   "Secret Tunnel",
-   "Mephitic Vapors"
+   "Mephitic Vapors",
+   "Waterbender Ascension",
+   "Secret Tunnel"
   ],
   "defense_while_tapped": [
    "Propaganda",
-   "Haunted Cloak",
-   "Loyal Inventor",
-   "Gold-Forged Thopteryx",
+   "Royal Assassin",
    "Etrata, Deadly Fugitive",
-   "Ramses, Assassin Lord",
-   "Hakoda, Selfless Commander"
+   "Hakoda, Selfless Commander",
+   "Haunted Cloak",
+   "Gold-Forged Thopteryx",
+   "Ghostly Prison"
   ],
   "combat_draw": [
    "Ezio, Blade of Vengeance",
    "Coastal Piracy",
    "Etrata, Deadly Fugitive",
-   "Jacob Frye",
+   "Waterbender Ascension",
    "Eagle Vision",
-   "Assassin Gauntlet",
-   "Lion Vulture"
+   "Jacob Frye",
+   "Assassin Gauntlet"
   ],
   "wipe_insurance": [
+   "Hakoda, Selfless Commander",
+   "Haystack",
    "Get Out",
+   "Mana Leak",
    "Restart Sequence",
    "Layla Hassan",
    "Jacob Frye",
    "Altaïr Ibn-La'Ahad",
    "Unstoppable Slasher",
-   "Hakoda, Selfless Commander",
-   "Haystack"
+   "The Revelations of Ezio"
   ],
   "payment_enablers": [
    "Command Tower",
@@ -185,16 +184,12 @@
    "Fellwar Stone",
    "Chromatic Lantern",
    "Bender's Waterskin",
+   "Commander's Sphere",
    "Black Market Connections",
    "Abstergo Entertainment"
   ]
  },
  "tutors": {
-  "Loyal Inventor": [
-   "through_wide_board",
-   "through_big_creatures",
-   "condition_enablers"
-  ],
   "Diabolic Tutor": [
    "attackers",
    "through_wide_board",
@@ -216,9 +211,10 @@
   "Orzhov Signet": "ramp",
   "Chromatic Lantern": "ramp",
   "Bender's Waterskin": "ramp",
+  "Commander's Sphere": "ramp",
   "Black Market Connections": [
-   "ramp",
-   "draw"
+   "draw",
+   "ramp"
   ],
   "Hookblade Veteran": "engine",
   "Basim Ibn Ishaq": [
@@ -227,18 +223,19 @@
   ],
   "Desmond Miles": "engine",
   "Brotherhood Spy": "engine",
-  "Gold-Forged Thopteryx": "protection",
-  "Shao Jun": "payoff",
-  "Ratonhnhaké꞉ton": "engine",
-  "Etrata, Deadly Fugitive": [
-   "draw",
-   "engine"
+  "Evie Frye": [
+   "engine",
+   "draw"
   ],
+  "Arbaaz Mir": "payoff",
+  "Gold-Forged Thopteryx": "protection",
+  "Jacob Frye": "engine",
   "Unstoppable Slasher": "payoff",
+  "Royal Assassin": "removal",
+  "Ratonhnhaké꞉ton": "engine",
+  "Shao Jun": "payoff",
   "Altaïr Ibn-La'Ahad": "engine",
-  "Loyal Inventor": "tutor",
-  "Merciless Harlequin": "draw",
-  "Jacob Frye": [
+  "Etrata, Deadly Fugitive": [
    "engine",
    "draw"
   ],
@@ -249,48 +246,60 @@
    "draw"
   ],
   "Etrata, the Silencer": [
-   "payoff",
+   "engine",
    "removal"
   ],
   "Aya of Alexandria": "engine",
-  "Layla Hassan": [
-   "engine",
-   "draw"
-  ],
-  "Roshan, Hidden Magister": "engine",
+  "Layla Hassan": "engine",
+  "Hakoda, Selfless Commander": "protection",
   "Ezio, Blade of Vengeance": [
    "draw",
    "engine"
   ],
   "Bayek of Siwa": "payoff",
-  "Magister Sphinx": "payoff",
+  "Eivor, Wolf-Kissed": "payoff",
+  "Coastal Piracy": "draw",
+  "Propaganda": "engine",
+  "Waterbender Ascension": [
+   "draw",
+   "engine"
+  ],
+  "The Revelations of Ezio": [
+   "backup",
+   "removal"
+  ],
   "Swiftfoot Boots": "protection",
   "Hidden Footblade": "engine",
   "Haunted Cloak": "engine",
   "Assassin Gauntlet": "engine",
   "Mechanical Glider": "engine",
-  "Coastal Piracy": "draw",
-  "Propaganda": "engine",
+  "Haystack": "protection",
   "Swords to Plowshares": "removal",
   "Infernal Grasp": "removal",
-  "Bitter Triumph": "removal",
   "Assassin's Trophy": "removal",
   "Terminate": "removal",
-  "Kolaghan's Command": "removal",
+  "Mortify": "removal",
+  "Utter End": "removal",
+  "Mana Leak": [
+   "removal",
+   "protection"
+  ],
   "Get Out": [
    "protection",
    "removal"
   ],
-  "Mephitic Vapors": "wipe",
   "Enter the Avatar State": "protection",
+  "Imp's Mischief": "protection",
+  "Rally the Peasants": "payoff",
   "Entomb": "tutor",
   "Restart Sequence": "backup",
   "Eagle Vision": "draw",
+  "Diabolic Tutor": "tutor",
+  "Mephitic Vapors": "wipe",
   "Command Tower": "land",
   "Exotic Orchard": "land",
   "Path of Ancestry": "land",
   "Brotherhood Headquarters": "land",
-  "Secret Tunnel": "land",
   "Abstergo Entertainment": "land",
   "Concealed Courtyard": "land",
   "Isolated Chapel": "land",
@@ -303,28 +312,11 @@
   "Sulfur Falls": "land",
   "Hinterland Harbor": "land",
   "Prairie Stream": "land",
-  "Clifftop Retreat": "land",
-  "Lion Vulture": [
-   "draw",
-   "engine"
-  ],
-  "Haystack": "protection",
-  "Hookblade": "engine",
-  "Chaos Warp": "removal",
-  "Hakoda, Selfless Commander": "protection",
-  "Mana Leak": [
-   "removal",
-   "protection"
-  ],
-  "Feed the Swarm": "removal",
-  "Rally the Peasants": "payoff",
-  "Adéwalé, Breaker of Chains": "engine",
-  "Kaya, Ghost Assassin": [
-   "payoff",
-   "draw"
-  ],
-  "Diabolic Tutor": "tutor",
-  "Cobbled Wings": "engine"
+  "Glacial Fortress": "land",
+  "Woodland Chasm": "land",
+  "Ravenloft Adventurer": "engine",
+  "Ghostly Prison": "protection",
+  "Secret Tunnel": "land"
  },
  "bad_when_drawn": {
   "Sol Ring": "never",
@@ -336,60 +328,60 @@
   "Orzhov Signet": "never",
   "Chromatic Lantern": "never",
   "Bender's Waterskin": "never",
+  "Commander's Sphere": "never",
   "Black Market Connections": "never",
   "Hookblade Veteran": "late",
   "Basim Ibn Ishaq": "never",
   "Desmond Miles": "never",
   "Brotherhood Spy": "never",
+  "Evie Frye": "never",
+  "Arbaaz Mir": "never",
   "Gold-Forged Thopteryx": "never",
-  "Shao Jun": "never",
-  "Ratonhnhaké꞉ton": "never",
-  "Etrata, Deadly Fugitive": "never",
-  "Unstoppable Slasher": "never",
-  "Altaïr Ibn-La'Ahad": "never",
-  "Loyal Inventor": "never",
-  "Merciless Harlequin": "never",
   "Jacob Frye": "never",
+  "Unstoppable Slasher": "never",
+  "Royal Assassin": "never",
+  "Ratonhnhaké꞉ton": "never",
+  "Shao Jun": "never",
+  "Altaïr Ibn-La'Ahad": "early",
+  "Etrata, Deadly Fugitive": "never",
   "Ramses, Assassin Lord": "never",
   "Arno Dorian": "never",
   "Queen Marchesa": "never",
   "Etrata, the Silencer": "never",
   "Aya of Alexandria": "never",
   "Layla Hassan": "never",
-  "Roshan, Hidden Magister": "never",
+  "Hakoda, Selfless Commander": "never",
   "Ezio, Blade of Vengeance": "early",
-  "Bayek of Siwa": "never",
-  "Magister Sphinx": "early",
+  "Bayek of Siwa": "early",
+  "Eivor, Wolf-Kissed": "early",
+  "Coastal Piracy": "never",
+  "Propaganda": "never",
+  "Waterbender Ascension": "never",
+  "The Revelations of Ezio": "never",
   "Swiftfoot Boots": "never",
   "Hidden Footblade": "never",
   "Haunted Cloak": "never",
   "Assassin Gauntlet": "never",
   "Mechanical Glider": "never",
-  "Coastal Piracy": "never",
-  "Propaganda": "never",
+  "Haystack": "never",
   "Swords to Plowshares": "never",
   "Infernal Grasp": "never",
-  "Bitter Triumph": "never",
   "Assassin's Trophy": "never",
   "Terminate": "never",
-  "Kolaghan's Command": "never",
+  "Mortify": "never",
+  "Utter End": "never",
+  "Mana Leak": "late",
   "Get Out": "never",
-  "Mephitic Vapors": "late",
   "Enter the Avatar State": "never",
-  "Entomb": "never",
+  "Imp's Mischief": "never",
+  "Rally the Peasants": "early",
+  "Entomb": "early",
   "Restart Sequence": "early",
   "Eagle Vision": "early",
-  "Lion Vulture": "never",
-  "Haystack": "never",
-  "Hookblade": "never",
-  "Chaos Warp": "never",
-  "Hakoda, Selfless Commander": "never",
-  "Mana Leak": "late",
-  "Feed the Swarm": "never",
-  "Rally the Peasants": "early",
-  "Adéwalé, Breaker of Chains": "never",
-  "Kaya, Ghost Assassin": "never",
   "Diabolic Tutor": "never",
-  "Cobbled Wings": "never"
+  "Mephitic Vapors": "late",
+  "Ravenloft Adventurer": "never",
+  "Ghostly Prison": "never",
+  "Secret Tunnel": "never"
  }
 }

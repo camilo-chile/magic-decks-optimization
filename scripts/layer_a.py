@@ -194,6 +194,19 @@ TWO_CARD_BORDERLINE_MANA_VALUE = 8
 EXTRA_TURN_LOW_QUANTITY = 3  # "low quantities" (Wizards, Brackets 2-3), read as at most 3 cards
 INFINITE_RE = re.compile("infinite", re.I)  # also matches "Near-infinite"
 TAG_FLOOR = {"R": 4, "P": 3, "C": 2, "O": 2}  # Spellbook bracket tags used as a cross-check
+# Spellbook variants the owner reviewed by hand (owner, 2026-11-14: a combo is cut only when it is IRREFUTABLY outside
+# Bracket 3): {variant id: reason}. Such a variant gets floor 3 with its written reason instead of the automatic floor.
+REVIEWED_PATH = ROOT / "data" / "bracket-reviewed.json"
+
+
+def load_reviewed(path=REVIEWED_PATH):
+    """{Spellbook variant id: the owner's written reason}, or {} when the file is missing."""
+    if not Path(path).exists():
+        return {}
+    return {str(r["id"]): r["reason"] for r in json.loads(Path(path).read_text(encoding="utf-8")).get("variants", [])}
+
+
+REVIEWED = load_reviewed()
 
 FEATURE_CONTROL_ALL = {
     "You control your opponents on each of their turns",
@@ -314,6 +327,8 @@ def judge_variant(variant, commander_oids, cmc_by_oid=None):
                 floor, kind = 3, "%s, borderline early (mana to assemble %d; check by hand)" % (who, mana)
             else:
                 floor, kind = 3, "%s, late" % who
+    if floor > 3 and str(variant.get("id")) in REVIEWED:
+        floor, kind = 3, "reviewed by the owner (was: %s): %s" % (kind, REVIEWED[str(variant.get("id"))])
     if floor == 1 and kind is None and soft:
         kind = "review: lock, skipped turns or control of opponents"
     tag = variant.get("bracket_tag")

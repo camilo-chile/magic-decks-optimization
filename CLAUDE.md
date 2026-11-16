@@ -217,6 +217,10 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
   | Deterministic work | No model: a script in `scripts/` |
 
   Never Sonnet, Opus xhigh, max or low, Haiku at any level other than xhigh, Fable, ultracode, agent teams or `/fast`.
+  Exception (owner, 2026-11-14): Fable 5.2 ONLY with his explicit OK in chat, the phrase "autorizo fable" (optionally
+  with the effort: medium, high, xhigh, max; high by default), which the UserPromptSubmit hook records with no expiry
+  and `check-agent-model.sh` checks. Every Fable launch still needs his EXPLICIT OK for that run (ask when it is
+  missing; never launch Fable on a guess); first use: the collection-only optimization of Azula at Fable 5.2 high.
   Always pass both `model` and `effort` when launching an agent. After two failures of one model on a task, go up one
   rung (Haiku xhigh, then Opus medium, then Opus high). **Announce rule:** before launching any task that differs from the one in progress (a new
   agent, a subtask of another kind, a phase change), write one line `→ Model @ effort: <X> (reason)` and only then launch

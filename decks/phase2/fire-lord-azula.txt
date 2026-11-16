@@ -37,15 +37,15 @@
 1 Thrill of Possibility
 1 Fact or Fiction
 1 Pull from Tomorrow
-1 Abandon Attachments
-1 Waterbending Lesson
-1 Fists of Flame
+1 Venser, Shaper Savant
+1 Torrential Gearhulk
+1 Return the Favor
 1 Expedite
-1 Fatal Push
-1 Firebending Lesson
+1 Heartless Act
+1 Tome of Legends
 1 Terminate
 1 Go for the Throat
-1 Hero's Downfall
+1 Imprisoned in the Moon
 1 Abrade
 1 Chaos Warp
 1 Failed Fording
@@ -54,15 +54,15 @@
 1 Negate
 1 Swiftfoot Boots
 1 Champion's Helm
-1 Haunted Cloak
+1 Frostcliff Siege
 1 Hidden Footblade
 1 Octopus Form
 1 Deflecting Swat
 1 Redirect Lightning
-1 Undying Malice
+1 Mana Leak
 1 Amphibian Downpour
 1 Day of Black Sun
-1 Ritual of Soot
+1 Aether Gale
 1 Propaganda
 1 Shred Memory
 1 Command Tower
@@ -84,6 +84,6 @@
 1 Sunken Hollow
 1 Sunken Ruins
 1 Underground River
-6 Island
+7 Island
 6 Mountain
-5 Swamp
+4 Swamp

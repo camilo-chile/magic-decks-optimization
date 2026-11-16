@@ -9,7 +9,7 @@
   "pool_es": 197,
   "pool_any": 511,
   "held_by": {
-   "free": 1
+   "spanish-deck": 1
   }
  },
  {
@@ -22,7 +22,7 @@
   "pool_es": 197,
   "pool_any": 511,
   "held_by": {
-   "free": 1
+   "spanish-deck": 1
   }
  },
  {
@@ -35,7 +35,7 @@
   "pool_es": 156,
   "pool_any": 483,
   "held_by": {
-   "free": 1
+   "ezio-auditore-da-firenze": 1
   }
  },
  {
@@ -48,8 +48,7 @@
   "pool_es": 145,
   "pool_any": 372,
   "held_by": {
-   "ezio-auditore-da-firenze": 1,
-   "free": 2
+   "free": 3
   }
  },
  {
@@ -75,7 +74,7 @@
   "pool_es": 138,
   "pool_any": 352,
   "held_by": {
-   "free": 1
+   "spanish-deck": 1
   }
  },
  {
@@ -101,7 +100,7 @@
   "pool_es": 127,
   "pool_any": 349,
   "held_by": {
-   "free": 1
+   "spanish-deck": 1
   }
  },
  {
@@ -114,7 +113,8 @@
   "pool_es": 127,
   "pool_any": 349,
   "held_by": {
-   "toph-the-first-metalbender": 1
+   "toph-the-first-metalbender": 1,
+   "ezio-auditore-da-firenze": 1
   }
  },
  {
@@ -140,7 +140,7 @@
   "pool_es": 104,
   "pool_any": 226,
   "held_by": {
-   "free": 1
+   "spanish-deck": 1
   }
  },
  {
@@ -179,7 +179,7 @@
   "pool_es": 104,
   "pool_any": 226,
   "held_by": {
-   "free": 1
+   "spanish-deck": 1
   }
  },
  {
@@ -257,8 +257,7 @@
   "pool_es": 82,
   "pool_any": 214,
   "held_by": {
-   "fire-lord-azula": 1,
-   "free": 1
+   "free": 2
   }
  },
  {
@@ -310,7 +309,7 @@
   "pool_es": 194,
   "pool_any": 510,
   "held_by": {
-   "free": 1
+   "ezio-auditore-da-firenze": 1
   }
  },
  {
@@ -337,7 +336,7 @@
   "pool_es": 167,
   "pool_any": 496,
   "held_by": {
-   "free": 1
+   "ezio-auditore-da-firenze": 1
   }
  },
  {
@@ -428,7 +427,7 @@
   "pool_es": 147,
   "pool_any": 346,
   "held_by": {
-   "ezio-auditore-da-firenze": 1
+   "free": 1
   }
  },
  {
@@ -480,7 +479,7 @@
   "pool_es": 146,
   "pool_any": 372,
   "held_by": {
-   "free": 1
+   "ezio-auditore-da-firenze": 1
   }
  },
  {
@@ -532,8 +531,7 @@
   "pool_es": 146,
   "pool_any": 372,
   "held_by": {
-   "ezio-auditore-da-firenze": 1,
-   "free": 1
+   "free": 2
   }
  },
  {
@@ -546,7 +544,7 @@
   "pool_es": 146,
   "pool_any": 372,
   "held_by": {
-   "free": 1
+   "ezio-auditore-da-firenze": 1
   }
  },
  {
@@ -598,7 +596,8 @@
   "pool_es": 139,
   "pool_any": 352,
   "held_by": {
-   "free": 3
+   "ezio-auditore-da-firenze": 1,
+   "free": 2
   }
  },
  {
@@ -637,7 +636,7 @@
   "pool_es": 128,
   "pool_any": 349,
   "held_by": {
-   "free": 1
+   "ezio-auditore-da-firenze": 1
   }
  },
  {
@@ -650,7 +649,7 @@
   "pool_es": 128,
   "pool_any": 349,
   "held_by": {
-   "free": 1
+   "ezio-auditore-da-firenze": 1
   }
  },
  {
@@ -741,7 +740,7 @@
   "pool_es": 123,
   "pool_any": 333,
   "held_by": {
-   "ezio-auditore-da-firenze": 1
+   "free": 1
   }
  },
  {
@@ -976,7 +975,7 @@
   "pool_es": 105,
   "pool_any": 226,
   "held_by": {
-   "ezio-auditore-da-firenze": 1
+   "fire-lord-azula": 1
   }
  },
  {
@@ -1120,7 +1119,7 @@
   "pool_es": 89,
   "pool_any": 208,
   "held_by": {
-   "free": 1
+   "ezio-auditore-da-firenze": 1
   }
  },
  {
@@ -1146,7 +1145,7 @@
   "pool_es": 89,
   "pool_any": 208,
   "held_by": {
-   "free": 1
+   "ezio-auditore-da-firenze": 1
   }
  },
  {
@@ -1224,8 +1223,8 @@
   "pool_es": 83,
   "pool_any": 214,
   "held_by": {
-   "free": 1,
-   "ezio-auditore-da-firenze": 1
+   "ezio-auditore-da-firenze": 1,
+   "free": 1
   }
  },
  {
@@ -1265,7 +1264,7 @@
   "pool_es": 83,
   "pool_any": 214,
   "held_by": {
-   "ezio-auditore-da-firenze": 1
+   "free": 1
   }
  },
  {
@@ -1486,7 +1485,7 @@
   "pool_es": 78,
   "pool_any": 207,
   "held_by": {
-   "toph-the-first-metalbender": 1
+   "free": 1
   }
  },
  {
@@ -1512,7 +1511,7 @@
   "pool_es": 78,
   "pool_any": 207,
   "held_by": {
-   "free": 1
+   "toph-the-first-metalbender": 1
   }
  },
  {

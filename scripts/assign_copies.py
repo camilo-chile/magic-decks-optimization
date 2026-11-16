@@ -138,8 +138,10 @@ def take_pinned(decks, supply):
     for i, deck in enumerate(decks):
         for oid, pins in deck.get("pinned", {}).items():
             pool = supply.get(oid, {"pool": []})["pool"]
+            room = deck["cards"].get(oid, ("", 0))[1]  # never pin more copies than the list plays (a cut card frees its pin)
             for pin in pins:
-                want = int(pin.get("qty", 1))
+                want = min(int(pin.get("qty", 1)), room)
+                room -= want
                 for printing in pool:
                     if want and printing["left"] > 0 and (
                             str(printing.get("set", "")).lower(), str(printing.get("number", "")), printing["language"],

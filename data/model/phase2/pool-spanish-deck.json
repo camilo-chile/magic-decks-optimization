@@ -26,6 +26,10 @@
    "held_by": {
     "free": 4
    },
+   "free_by_language": {
+    "en": 3,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -58,6 +62,10 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "en": 2,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -88,7 +96,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -126,6 +137,10 @@
    "held_by": {
     "free": 4
    },
+   "free_by_language": {
+    "en": 3,
+    "es": 1
+   },
    "printings": [
     {
      "set": "ACR",
@@ -157,6 +172,9 @@
    "held_by": {
     "fire-lord-azula": 1
    },
+   "free_by_language": {
+    "es": 0
+   },
    "printings": [
     {
      "set": "SOC",
@@ -187,7 +205,12 @@
     "es": 1
    },
    "held_by": {
-    "free": 4
+    "spanish-deck": 1,
+    "free": 3
+   },
+   "free_by_language": {
+    "en": 3,
+    "es": 0
    },
    "printings": [
     {
@@ -221,6 +244,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -251,7 +277,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -288,7 +317,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -327,6 +359,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "EOC",
@@ -363,7 +398,11 @@
     "es": 1
    },
    "held_by": {
-    "toph-the-first-metalbender": 1
+    "toph-the-first-metalbender": 1,
+    "ezio-auditore-da-firenze": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -393,10 +432,15 @@
     "en": 4
    },
    "held_by": {
-    "free": 2,
-    "ezio-auditore-da-firenze": 1,
+    "spanish-deck": 1,
+    "toph-the-first-metalbender": 1,
     "fire-lord-azula": 1,
-    "toph-the-first-metalbender": 1
+    "ezio-auditore-da-firenze": 1,
+    "free": 1
+   },
+   "free_by_language": {
+    "es": 0,
+    "en": 1
    },
    "printings": [
     {
@@ -435,6 +479,9 @@
    "held_by": {
     "free": 2
    },
+   "free_by_language": {
+    "es": 2
+   },
    "printings": [
     {
      "set": "ACR",
@@ -466,6 +513,9 @@
    "held_by": {
     "ezio-auditore-da-firenze": 1,
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -503,7 +553,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -542,6 +595,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "MOM",
@@ -570,7 +626,12 @@
     "es": 1
    },
    "held_by": {
-    "free": 4
+    "spanish-deck": 1,
+    "free": 3
+   },
+   "free_by_language": {
+    "en": 3,
+    "es": 0
    },
    "printings": [
     {
@@ -603,7 +664,12 @@
     "en": 1
    },
    "held_by": {
-    "free": 2
+    "toph-the-first-metalbender": 1,
+    "ezio-auditore-da-firenze": 1
+   },
+   "free_by_language": {
+    "es": 0,
+    "en": 0
    },
    "printings": [
     {
@@ -642,6 +708,9 @@
    "held_by": {
     "free": 2
    },
+   "free_by_language": {
+    "es": 2
+   },
    "printings": [
     {
      "set": "ACR",
@@ -674,6 +743,10 @@
    "held_by": {
     "free": 4
    },
+   "free_by_language": {
+    "en": 3,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -703,6 +776,9 @@
    "held_by": {
     "ezio-auditore-da-firenze": 1,
     "free": 3
+   },
+   "free_by_language": {
+    "es": 3
    },
    "printings": [
     {
@@ -742,7 +818,11 @@
     "es": 3
    },
    "held_by": {
-    "free": 3
+    "ezio-auditore-da-firenze": 1,
+    "free": 2
+   },
+   "free_by_language": {
+    "es": 2
    },
    "printings": [
     {
@@ -772,6 +852,9 @@
    },
    "held_by": {
     "free": 2
+   },
+   "free_by_language": {
+    "es": 2
    },
    "printings": [
     {
@@ -805,6 +888,10 @@
    "held_by": {
     "free": 2
    },
+   "free_by_language": {
+    "en": 1,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -834,6 +921,10 @@
    },
    "held_by": {
     "free": 2
+   },
+   "free_by_language": {
+    "en": 1,
+    "es": 1
    },
    "printings": [
     {
@@ -870,6 +961,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "FDN",
@@ -901,8 +995,12 @@
     "es": 1
    },
    "held_by": {
-    "fire-lord-azula": 1,
-    "free": 1
+    "spanish-deck": 1,
+    "fire-lord-azula": 1
+   },
+   "free_by_language": {
+    "en": 0,
+    "es": 0
    },
    "printings": [
     {
@@ -943,6 +1041,10 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "en": 2,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -973,6 +1075,9 @@
    },
    "held_by": {
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -1010,9 +1115,14 @@
     "en": 2
    },
    "held_by": {
-    "free": 2,
-    "ezio-auditore-da-firenze": 1,
-    "fire-lord-azula": 1
+    "spanish-deck": 1,
+    "toph-the-first-metalbender": 1,
+    "fire-lord-azula": 1,
+    "free": 1
+   },
+   "free_by_language": {
+    "es": 1,
+    "en": 0
    },
    "printings": [
     {
@@ -1056,7 +1166,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -1087,7 +1200,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -1125,9 +1241,12 @@
     "es": 3
    },
    "held_by": {
-    "ezio-auditore-da-firenze": 1,
+    "spanish-deck": 1,
     "toph-the-first-metalbender": 1,
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -1182,6 +1301,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "EOC",
@@ -1221,6 +1343,10 @@
     "ezio-auditore-da-firenze": 1,
     "free": 2
    },
+   "free_by_language": {
+    "en": 0,
+    "es": 2
+   },
    "printings": [
     {
      "set": "ACR",
@@ -1250,6 +1376,10 @@
    },
    "held_by": {
     "free": 2
+   },
+   "free_by_language": {
+    "en": 1,
+    "es": 1
    },
    "printings": [
     {
@@ -1282,6 +1412,9 @@
    "held_by": {
     "free": 2
    },
+   "free_by_language": {
+    "es": 2
+   },
    "printings": [
     {
      "set": "MOM",
@@ -1310,10 +1443,15 @@
     "es": 3
    },
    "held_by": {
+    "spanish-deck": 1,
+    "toph-the-first-metalbender": 1,
     "fire-lord-azula": 1,
-    "free": 2,
     "ezio-auditore-da-firenze": 1,
-    "toph-the-first-metalbender": 1
+    "free": 1
+   },
+   "free_by_language": {
+    "en": 0,
+    "es": 1
    },
    "printings": [
     {
@@ -1367,7 +1505,12 @@
     "es": 1
    },
    "held_by": {
-    "free": 2
+    "spanish-deck": 1,
+    "ezio-auditore-da-firenze": 1
+   },
+   "free_by_language": {
+    "en": 0,
+    "es": 0
    },
    "printings": [
     {
@@ -1398,7 +1541,10 @@
     "es": 1
    },
    "held_by": {
-    "fire-lord-azula": 1
+    "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -1430,6 +1576,9 @@
    },
    "held_by": {
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -1464,7 +1613,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -1504,6 +1656,10 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "en": 2,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -1531,7 +1687,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -1571,6 +1730,10 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "en": 2,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -1600,7 +1763,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -1635,7 +1801,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -1672,7 +1841,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -1710,6 +1882,9 @@
    },
    "held_by": {
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -1749,6 +1924,10 @@
    "held_by": {
     "free": 4
    },
+   "free_by_language": {
+    "en": 3,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -1780,6 +1959,9 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "es": 3
+   },
    "printings": [
     {
      "set": "ACR",
@@ -1809,7 +1991,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -1849,6 +2034,10 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "en": 1,
+    "es": 2
+   },
    "printings": [
     {
      "set": "M19",
@@ -1881,6 +2070,10 @@
    },
    "held_by": {
     "free": 3
+   },
+   "free_by_language": {
+    "en": 1,
+    "es": 2
    },
    "printings": [
     {
@@ -1920,6 +2113,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "BRR",
@@ -1951,6 +2147,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "OGW",
@@ -1978,7 +2177,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -2015,7 +2217,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -2054,6 +2259,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "DSK",
@@ -2084,7 +2292,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -2123,6 +2334,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "ACR",
@@ -2150,7 +2364,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -2189,6 +2406,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "EOC",
@@ -2223,9 +2443,13 @@
     "es": 1
    },
    "held_by": {
-    "ezio-auditore-da-firenze": 1,
-    "toph-the-first-metalbender": 1,
+    "spanish-deck": 1,
+    "fire-lord-azula": 1,
     "free": 1
+   },
+   "free_by_language": {
+    "en": 1,
+    "es": 0
    },
    "printings": [
     {
@@ -2264,6 +2488,9 @@
    "held_by": {
     "ezio-auditore-da-firenze": 1
    },
+   "free_by_language": {
+    "es": 0
+   },
    "printings": [
     {
      "set": "ACR",
@@ -2292,7 +2519,12 @@
     "en": 3
    },
    "held_by": {
-    "free": 5
+    "toph-the-first-metalbender": 1,
+    "free": 4
+   },
+   "free_by_language": {
+    "es": 2,
+    "en": 2
    },
    "printings": [
     {
@@ -2336,10 +2568,14 @@
     "es": 6
    },
    "held_by": {
-    "ezio-auditore-da-firenze": 1,
-    "fire-lord-azula": 1,
+    "spanish-deck": 1,
     "toph-the-first-metalbender": 1,
-    "free": 3
+    "fire-lord-azula": 1,
+    "ezio-auditore-da-firenze": 1,
+    "free": 2
+   },
+   "free_by_language": {
+    "es": 2
    },
    "printings": [
     {
@@ -2412,7 +2648,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -2453,6 +2692,10 @@
    "held_by": {
     "free": 5
    },
+   "free_by_language": {
+    "en": 4,
+    "es": 1
+   },
    "printings": [
     {
      "set": "ACR",
@@ -2482,8 +2725,11 @@
     "es": 2
    },
    "held_by": {
-    "ezio-auditore-da-firenze": 1,
+    "spanish-deck": 1,
     "toph-the-first-metalbender": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -2526,6 +2772,10 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "en": 2,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -2557,6 +2807,10 @@
    },
    "held_by": {
     "free": 3
+   },
+   "free_by_language": {
+    "en": 2,
+    "es": 1
    },
    "printings": [
     {
@@ -2590,6 +2844,10 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "en": 2,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -2622,6 +2880,10 @@
    "held_by": {
     "free": 4
    },
+   "free_by_language": {
+    "en": 3,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -2652,6 +2914,9 @@
    },
    "held_by": {
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -2687,6 +2952,9 @@
    },
    "held_by": {
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -2726,6 +2994,10 @@
    "held_by": {
     "free": 4
    },
+   "free_by_language": {
+    "en": 3,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -2757,7 +3029,12 @@
     "es": 1
    },
    "held_by": {
-    "free": 2
+    "spanish-deck": 1,
+    "ezio-auditore-da-firenze": 1
+   },
+   "free_by_language": {
+    "en": 0,
+    "es": 0
    },
    "printings": [
     {
@@ -2797,6 +3074,10 @@
    "held_by": {
     "free": 4
    },
+   "free_by_language": {
+    "en": 3,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -2829,6 +3110,10 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "en": 2,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -2860,6 +3145,9 @@
    },
    "held_by": {
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -2897,8 +3185,12 @@
     "es": 1
    },
    "held_by": {
-    "fire-lord-azula": 1,
-    "toph-the-first-metalbender": 1
+    "toph-the-first-metalbender": 1,
+    "free": 1
+   },
+   "free_by_language": {
+    "en": 0,
+    "es": 1
    },
    "printings": [
     {
@@ -2928,6 +3220,9 @@
    },
    "held_by": {
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -2964,7 +3259,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -2999,7 +3297,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -3038,6 +3339,9 @@
    "held_by": {
     "free": 2
    },
+   "free_by_language": {
+    "es": 2
+   },
    "printings": [
     {
      "set": "ACR",
@@ -3066,6 +3370,9 @@
    },
    "held_by": {
     "fire-lord-azula": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -3098,6 +3405,9 @@
    "held_by": {
     "free": 2
    },
+   "free_by_language": {
+    "es": 2
+   },
    "printings": [
     {
      "set": "ACR",
@@ -3127,7 +3437,11 @@
     "es": 2
    },
    "held_by": {
-    "free": 2
+    "ezio-auditore-da-firenze": 1,
+    "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -3158,7 +3472,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -3197,6 +3514,9 @@
    "held_by": {
     "free": 2
    },
+   "free_by_language": {
+    "es": 2
+   },
    "printings": [
     {
      "set": "FDN",
@@ -3228,7 +3548,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -3268,6 +3591,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "EOC",
@@ -3304,9 +3630,14 @@
     "es": 11
    },
    "held_by": {
-    "ezio-auditore-da-firenze": 2,
+    "spanish-deck": 8,
     "fire-lord-azula": 7,
-    "free": 44
+    "ezio-auditore-da-firenze": 3,
+    "free": 35
+   },
+   "free_by_language": {
+    "en": 32,
+    "es": 3
    },
    "printings": [
     {
@@ -3361,6 +3692,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -3391,7 +3725,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -3428,7 +3765,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -3463,7 +3803,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -3503,6 +3846,10 @@
    "held_by": {
     "free": 2
    },
+   "free_by_language": {
+    "en": 1,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -3533,6 +3880,9 @@
    },
    "held_by": {
     "free": 3
+   },
+   "free_by_language": {
+    "es": 3
    },
    "printings": [
     {
@@ -3565,6 +3915,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -3594,6 +3947,10 @@
    },
    "held_by": {
     "free": 4
+   },
+   "free_by_language": {
+    "en": 3,
+    "es": 1
    },
    "printings": [
     {
@@ -3627,6 +3984,10 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "en": 2,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -3658,6 +4019,9 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "es": 3
+   },
    "printings": [
     {
      "set": "ACR",
@@ -3685,7 +4049,10 @@
     "es": 1
    },
    "held_by": {
-    "ezio-auditore-da-firenze": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -3717,6 +4084,9 @@
    },
    "held_by": {
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -3753,7 +4123,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -3788,7 +4161,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -3823,7 +4199,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -3860,7 +4239,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "toph-the-first-metalbender": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -3894,6 +4276,10 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "en": 2,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -3922,6 +4308,9 @@
    },
    "held_by": {
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -3952,7 +4341,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -3983,6 +4375,9 @@
    "held_by": {
     "fire-lord-azula": 1
    },
+   "free_by_language": {
+    "es": 0
+   },
    "printings": [
     {
      "set": "BLC",
@@ -4011,6 +4406,9 @@
    },
    "held_by": {
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -4049,6 +4447,9 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "es": 3
+   },
    "printings": [
     {
      "set": "ACR",
@@ -4079,6 +4480,9 @@
    },
    "held_by": {
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -4112,6 +4516,10 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "en": 2,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -4142,10 +4550,15 @@
     "es": 16
    },
    "held_by": {
-    "free": 49,
+    "spanish-deck": 4,
     "toph-the-first-metalbender": 5,
-    "fire-lord-azula": 5,
-    "ezio-auditore-da-firenze": 1
+    "fire-lord-azula": 6,
+    "ezio-auditore-da-firenze": 1,
+    "free": 44
+   },
+   "free_by_language": {
+    "en": 32,
+    "es": 12
    },
    "printings": [
     {
@@ -4216,7 +4629,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -4255,7 +4671,11 @@
     "es": 2
    },
    "held_by": {
-    "free": 2
+    "spanish-deck": 1,
+    "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -4303,6 +4723,9 @@
    "held_by": {
     "fire-lord-azula": 1
    },
+   "free_by_language": {
+    "es": 0
+   },
    "printings": [
     {
      "set": "WAR",
@@ -4332,8 +4755,11 @@
     "es": 2
    },
    "held_by": {
-    "free": 1,
+    "spanish-deck": 1,
     "fire-lord-azula": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -4380,7 +4806,12 @@
     "es": 1
    },
    "held_by": {
-    "free": 3
+    "spanish-deck": 1,
+    "free": 2
+   },
+   "free_by_language": {
+    "en": 2,
+    "es": 0
    },
    "printings": [
     {
@@ -4411,7 +4842,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -4447,6 +4881,9 @@
    },
    "held_by": {
     "free": 2
+   },
+   "free_by_language": {
+    "es": 2
    },
    "printings": [
     {
@@ -4485,7 +4922,13 @@
     "es": 1
    },
    "held_by": {
-    "free": 3
+    "spanish-deck": 1,
+    "ezio-auditore-da-firenze": 1,
+    "free": 1
+   },
+   "free_by_language": {
+    "en": 1,
+    "es": 0
    },
    "printings": [
     {
@@ -4517,6 +4960,9 @@
    },
    "held_by": {
     "toph-the-first-metalbender": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -4553,7 +4999,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -4588,7 +5037,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -4625,7 +5077,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -4663,9 +5118,14 @@
     "es": 14
    },
    "held_by": {
-    "toph-the-first-metalbender": 5,
-    "free": 56,
-    "ezio-auditore-da-firenze": 1
+    "spanish-deck": 6,
+    "toph-the-first-metalbender": 6,
+    "ezio-auditore-da-firenze": 3,
+    "free": 47
+   },
+   "free_by_language": {
+    "en": 39,
+    "es": 8
    },
    "printings": [
     {
@@ -4722,6 +5182,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "M20",
@@ -4753,6 +5216,9 @@
    "held_by": {
     "toph-the-first-metalbender": 1
    },
+   "free_by_language": {
+    "es": 0
+   },
    "printings": [
     {
      "set": "NCC",
@@ -4781,6 +5247,9 @@
    },
    "held_by": {
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -4811,7 +5280,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "fire-lord-azula": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -4851,6 +5323,10 @@
    "held_by": {
     "free": 5
    },
+   "free_by_language": {
+    "en": 4,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -4882,7 +5358,12 @@
     "es": 1
    },
    "held_by": {
-    "free": 2
+    "spanish-deck": 1,
+    "free": 1
+   },
+   "free_by_language": {
+    "en": 1,
+    "es": 0
    },
    "printings": [
     {
@@ -4922,6 +5403,9 @@
    "held_by": {
     "free": 2
    },
+   "free_by_language": {
+    "es": 2
+   },
    "printings": [
     {
      "set": "ACR",
@@ -4953,6 +5437,9 @@
    },
    "held_by": {
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -4989,7 +5476,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -5018,7 +5508,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -5055,7 +5548,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -5092,7 +5588,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -5132,6 +5631,10 @@
    "held_by": {
     "free": 7
    },
+   "free_by_language": {
+    "en": 6,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -5162,8 +5665,11 @@
     "es": 2
    },
    "held_by": {
-    "toph-the-first-metalbender": 1,
-    "free": 1
+    "spanish-deck": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -5211,7 +5717,12 @@
     "es": 1
    },
    "held_by": {
-    "free": 2
+    "spanish-deck": 1,
+    "free": 1
+   },
+   "free_by_language": {
+    "en": 1,
+    "es": 0
    },
    "printings": [
     {
@@ -5251,6 +5762,10 @@
    "held_by": {
     "free": 5
    },
+   "free_by_language": {
+    "en": 4,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -5280,7 +5795,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -5319,6 +5837,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "EOC",
@@ -5356,6 +5877,9 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "es": 3
+   },
    "printings": [
     {
      "set": "ACR",
@@ -5387,8 +5911,12 @@
     "es": 1
    },
    "held_by": {
-    "fire-lord-azula": 1,
-    "free": 1
+    "spanish-deck": 1,
+    "fire-lord-azula": 1
+   },
+   "free_by_language": {
+    "en": 0,
+    "es": 0
    },
    "printings": [
     {
@@ -5428,6 +5956,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "EOC",
@@ -5466,6 +5997,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "EOC",
@@ -5500,10 +6034,14 @@
     "en": 3
    },
    "held_by": {
-    "free": 1,
+    "spanish-deck": 1,
     "toph-the-first-metalbender": 1,
-    "ezio-auditore-da-firenze": 1,
-    "fire-lord-azula": 1
+    "fire-lord-azula": 1,
+    "ezio-auditore-da-firenze": 1
+   },
+   "free_by_language": {
+    "es": 0,
+    "en": 0
    },
    "printings": [
     {
@@ -5538,7 +6076,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -5577,6 +6118,9 @@
    "held_by": {
     "fire-lord-azula": 1
    },
+   "free_by_language": {
+    "es": 0
+   },
    "printings": [
     {
      "set": "STX",
@@ -5604,8 +6148,11 @@
     "es": 2
    },
    "held_by": {
-    "toph-the-first-metalbender": 1,
-    "free": 1
+    "spanish-deck": 1,
+    "toph-the-first-metalbender": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -5653,6 +6200,9 @@
    "held_by": {
     "free": 2
    },
+   "free_by_language": {
+    "es": 2
+   },
    "printings": [
     {
      "set": "ACR",
@@ -5680,7 +6230,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -5717,7 +6270,10 @@
     "es": 1
    },
    "held_by": {
-    "ezio-auditore-da-firenze": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -5746,7 +6302,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -5786,6 +6345,9 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "es": 3
+   },
    "printings": [
     {
      "set": "ACR",
@@ -5813,7 +6375,10 @@
     "es": 1
    },
    "held_by": {
-    "ezio-auditore-da-firenze": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -5846,9 +6411,13 @@
     "es": 1
    },
    "held_by": {
-    "ezio-auditore-da-firenze": 1,
+    "spanish-deck": 1,
     "fire-lord-azula": 1,
-    "free": 1
+    "ezio-auditore-da-firenze": 1
+   },
+   "free_by_language": {
+    "en": 0,
+    "es": 0
    },
    "printings": [
     {
@@ -5883,7 +6452,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -5920,7 +6492,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "fire-lord-azula": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -5957,8 +6532,12 @@
     "es": 3
    },
    "held_by": {
-    "free": 2,
-    "toph-the-first-metalbender": 1
+    "spanish-deck": 1,
+    "toph-the-first-metalbender": 1,
+    "ezio-auditore-da-firenze": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -6013,7 +6592,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -6053,6 +6635,9 @@
    "held_by": {
     "free": 4
    },
+   "free_by_language": {
+    "es": 4
+   },
    "printings": [
     {
      "set": "EOC",
@@ -6090,6 +6675,9 @@
    },
    "held_by": {
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -6129,6 +6717,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "SOC",
@@ -6167,6 +6758,10 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "en": 2,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -6195,7 +6790,12 @@
     "es": 1
    },
    "held_by": {
-    "free": 4
+    "toph-the-first-metalbender": 1,
+    "free": 3
+   },
+   "free_by_language": {
+    "en": 2,
+    "es": 1
    },
    "printings": [
     {
@@ -6226,7 +6826,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -6261,7 +6864,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -6298,7 +6904,11 @@
     "es": 2
    },
    "held_by": {
-    "free": 2
+    "spanish-deck": 1,
+    "fire-lord-azula": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -6344,7 +6954,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -6381,6 +6994,9 @@
    "held_by": {
     "free": 1
    },
+   "free_by_language": {
+    "es": 1
+   },
    "printings": [
     {
      "set": "EOC",
@@ -6416,7 +7032,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "fire-lord-azula": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -6448,6 +7067,9 @@
    },
    "held_by": {
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -6482,7 +7104,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -6521,6 +7146,9 @@
    "held_by": {
     "fire-lord-azula": 1
    },
+   "free_by_language": {
+    "es": 0
+   },
    "printings": [
     {
      "set": "CMM",
@@ -6550,6 +7178,10 @@
    },
    "held_by": {
     "free": 4
+   },
+   "free_by_language": {
+    "en": 1,
+    "es": 3
    },
    "printings": [
     {
@@ -6583,6 +7215,9 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "es": 3
+   },
    "printings": [
     {
      "set": "MOM",
@@ -6612,7 +7247,11 @@
     "es": 3
    },
    "held_by": {
-    "free": 3
+    "spanish-deck": 1,
+    "free": 2
+   },
+   "free_by_language": {
+    "es": 2
    },
    "printings": [
     {
@@ -6643,7 +7282,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -6674,7 +7316,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -6711,7 +7356,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -6750,6 +7398,9 @@
    "held_by": {
     "free": 2
    },
+   "free_by_language": {
+    "es": 2
+   },
    "printings": [
     {
      "set": "DSC",
@@ -6777,7 +7428,11 @@
     "es": 2
    },
    "held_by": {
-    "free": 2
+    "toph-the-first-metalbender": 1,
+    "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -6808,7 +7463,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "spanish-deck": 1
+   },
+   "free_by_language": {
+    "es": 0
    },
    "printings": [
     {
@@ -6841,6 +7499,9 @@
    },
    "held_by": {
     "free": 1
+   },
+   "free_by_language": {
+    "es": 1
    },
    "printings": [
     {
@@ -6881,6 +7542,10 @@
    "held_by": {
     "free": 7
    },
+   "free_by_language": {
+    "es": 2,
+    "en": 5
+   },
    "printings": [
     {
      "set": "TLA",
@@ -6920,7 +7585,12 @@
     "es": 1
    },
    "held_by": {
-    "free": 4
+    "spanish-deck": 1,
+    "free": 3
+   },
+   "free_by_language": {
+    "en": 3,
+    "es": 0
    },
    "printings": [
     {
@@ -6954,6 +7624,10 @@
    "held_by": {
     "free": 3
    },
+   "free_by_language": {
+    "en": 2,
+    "es": 1
+   },
    "printings": [
     {
      "set": "TLA",
@@ -6985,6 +7659,10 @@
    },
    "held_by": {
     "free": 2
+   },
+   "free_by_language": {
+    "en": 1,
+    "es": 1
    },
    "printings": [
     {

@@ -463,6 +463,21 @@ def test_foil_marker_without_a_set_and_non_creature_commander():
     assert any("commander is not" in x for x in r["reasons"])
 
 
+def test_a_variant_the_owner_reviewed_drops_to_floor_3_with_its_reason():
+    variant = {"id": "v-1", "features": ["Infinite magecraft triggers"], "_oids": {"a", "b"}, "requires": [],
+               "mana_value_needed": 5}
+    saved = dict(mod.REVIEWED)
+    try:
+        mod.REVIEWED.clear()
+        assert mod.judge_variant(variant, set())["floor"] == 4  # early two-card infinite by the automatic rule
+        mod.REVIEWED["v-1"] = "needs a third card"
+        judged = mod.judge_variant(variant, set())
+        assert judged["floor"] == 3 and "reviewed by the owner" in judged["kind"] and "third card" in judged["kind"]
+    finally:
+        mod.REVIEWED.clear()
+        mod.REVIEWED.update(saved)
+
+
 if __name__ == "__main__":
     for name, fn in list(globals().items()):
         if name.startswith("test_") and callable(fn):

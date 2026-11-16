@@ -7,6 +7,10 @@
 #   haiku + xhigh    repetitive and light work
 # plus one special pair for driving the browser (owner, 2026-11-07, on trial): haiku + medium, only for the
 # browser agents listed in BROWSER_AGENTS.
+# plus Fable 5.2 (owner, 2026-11-14), ONLY with his explicit OK: his message "autorizo fable [effort]" makes the
+# UserPromptSubmit hook write `.claude/fable-authorization` ("<UTC time> <effort>"); fable is allowed at that effort
+# with no expiry (owner, 2026-11-15) and blocked without the file. The hook only records that Fable is enabled: Claude
+# still launches Fable ONLY on the owner's explicit OK for that run, never on a guess (CLAUDE.md model policy).
 # Anything else is blocked (exit code 2 sends the message back to Claude): Opus xhigh, max or low, Sonnet,
 # Haiku at another level, Fable, other model versions, a model without its effort, or an effort without a model.
 #
@@ -27,7 +31,7 @@ export PATH
 set -f
 
 block() {
-  echo "Blocked by project rule: model policy ($1). Allowed pairs: opus+high, opus+medium, haiku+xhigh (haiku+medium only for the browser agents stock-verifier and browser-runner); set both model and effort on the Agent call." >&2
+  echo "Blocked by project rule: model policy ($1). Allowed pairs: opus+high, opus+medium, haiku+xhigh (haiku+medium only for the browser agents stock-verifier and browser-runner; fable only at the effort the owner authorized with 'autorizo fable', and only on his explicit OK for the run); set both model and effort on the Agent call." >&2
   exit 2
 }
 
@@ -60,17 +64,26 @@ family() {
   case "$1" in
     opus|claude-opus-5-5) echo opus ;;
     haiku|claude-haiku-5-5) echo haiku ;;
+    fable|claude-fable-5-2) echo fable ;;
     *) echo "" ;;
   esac
 }
 
 BROWSER_AGENTS=" stock-verifier browser-runner "
+FABLE_TOKEN="${FABLE_TOKEN_FILE:-${CLAUDE_PROJECT_DIR:-.}/.claude/fable-authorization}"
+
+# Whether the owner's Fable authorization is on record for this effort (no expiry, owner 2026-11-15).
+fable_authorized() {
+  [ -f "$FABLE_TOKEN" ] || return 1
+  [ "$(awk '{print tolower($2); exit}' "$FABLE_TOKEN")" = "$1" ]
+}
 
 # Whether an effort is allowed for a model family ($3: the subagent type, for the browser pair).
 allowed_pair() {
   case "$1:$2" in
     opus:high|opus:medium|haiku:xhigh) return 0 ;;
     haiku:medium) case "$BROWSER_AGENTS" in *" $3 "*) return 0 ;; esac ;;
+    fable:*) fable_authorized "$2" && return 0 ;;
   esac
   return 1
 }

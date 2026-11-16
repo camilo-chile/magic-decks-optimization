@@ -9,7 +9,9 @@
       "Bash(git push *)",
       "PowerShell(git push *)",
       "Write(.claude/commit-authorization)",
-      "Edit(.claude/commit-authorization)"
+      "Edit(.claude/commit-authorization)",
+      "Write(.claude/fable-authorization)",
+      "Edit(.claude/fable-authorization)"
     ]
   },
   "hooks": {

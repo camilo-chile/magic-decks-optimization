@@ -115,6 +115,15 @@ def test_a_pinned_copy_stays_in_the_deck_that_holds_it_and_a_missing_pin_is_repo
     assert len(res["pin_problems"]) == 1 and "ZZZ" in res["pin_problems"][0]
 
 
+def test_a_pin_larger_than_the_list_is_capped_and_never_gives_negative_copies():
+    inv = {"cards": [card("Island", "o-island", printing("en", 6, set_="aaa"))]}
+    d = dict(deck("k", "both", {"o-island": ("Island", 4)}),
+             pinned={"o-island": [{"name": "Island", "set": "aaa", "number": "1", "language": "en", "qty": 5}]})
+    res = mod.allocate([d], inv)
+    assert [(p["set"], p["qty"]) for p in picks(res, "k", "Island")] == [("aaa", 4)]
+    assert res["pin_problems"] == []
+
+
 def test_read_deck_resolves_names_and_reports_unknown_cards_and_missing_files():
     index = la.build_index([{"name": "Sol Ring", "oracle_id": "o-sol"}, {"name": "Ezio", "oracle_id": "o-ezio"}])
     with tempfile.TemporaryDirectory() as tmp:

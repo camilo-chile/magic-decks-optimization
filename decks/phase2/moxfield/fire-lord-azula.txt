@@ -1,8 +1,8 @@
 // Commander
 1 Fire Lord Azula (TLA) 220
 
-1 Abandon Attachments (TLA) 205
 1 Abrade (BLC) 191
+1 Aether Gale (SOC) 186
 1 Amphibian Downpour (MH3) 51 *F*
 1 Arcane Signet (TLE) 315
 1 Archmage Emeritus (STX) 377 *F*
@@ -29,48 +29,48 @@
 1 Expedite (CMR) 413
 1 Fact or Fiction (CMR) 634 *F*
 1 Failed Fording (OTJ) 47
-1 Fatal Push (ACR) 90
 1 Fire Nation Palace (TLA) 268
-1 Firebending Lesson (TLA) 138
-1 Fists of Flame (CMM) 223 *F*
 1 Foreboding Ruins (DSC) 277
 1 Frantic Search (TDC) 153
 1 Frostboil Snarl (WHO) 282
+1 Frostcliff Siege (TDM) 187
 1 Glamdring, Foe-hammer // Gleam of Death (HOB) 174 *F*
 1 Go for the Throat (ACR) 91
 1 Goblin Electromancer (RVR) 186 *F*
 1 Godo, Bandit Warlord (CMM) 227
-1 Haunted Cloak (CMM) 389
+1 Heartless Act (TLA) 103
 1 Helm of the Host (BLC) 276
-1 Hero's Downfall (THS) 90
 1 Hidden Footblade (ACR) 34 *F*
 1 Horizon Stone (CMR) 315
+1 Imprisoned in the Moon (INR) 69
 4 Island (ACR) 103
 2 Island (ACR) 104
+1 Island (TLA) 283
 1 Izzet Signet (FRC) 58
+1 Mana Leak (8ED) 89
 1 Mind Stone (BLC) 280
 5 Mountain (ACR) 108
 1 Mountain (EOE) 265
 1 Mystical Teachings (FDN) 594
 1 Narset's Reversal (WAR) 62
-1 Narset, Parter of Veils
-1 Negate
+1 Narset, Parter of Veils (CMM) 853
+1 Negate (MOM) 68
 1 Nightscape Familiar (DMR) 94
 1 Octopus Form (TLA) 66
 1 Ozai, the Phoenix King (TLA) 235
 1 Propaganda (ACR) 85
 1 Pull from Tomorrow (EOC) 76
 1 Redirect Lightning (TLA) 343 *F*
-1 Ritual of Soot (GRN) 84
+1 Return the Favor (SOA) 47
 1 Rogue's Passage (SOC) 400
 1 Shadowblood Ridge (DSC) 296
 1 Shivan Reef (FRC) 83
-1 Shred Memory
+1 Shred Memory (RAV) 105
 1 Smoldering Marsh (LTC) 332
 1 Snap (WOC) 110
 1 Sol Ring (OTC) 267
 1 Solve the Equation (STX) 54
-1 Spell Pierce
+1 Spell Pierce (SOA) 23
 1 Storm-Kiln Artist (SOC) 255
 1 Stormcatch Mentor (SOC) 331
 1 Sulfur Falls (FRC) 84
@@ -78,14 +78,15 @@
 1 Sunken Hollow (TMC) 76
 1 Sunken Ruins (FRC) 86
 3 Swamp (ACR) 105
-2 Swamp (ACR) 106
+1 Swamp (ACR) 106
 1 Swan Song (EOC) 46
 1 Swiftfoot Boots (TDC) 328
 1 Terminate (ACR) 98
 1 Thermo-Alchemist (INR) 174
-1 Thirst for Knowledge
+1 Thirst for Knowledge (NEO) 85
 1 Thrill of Possibility (FDN) 210
-1 Turnabout
+1 Tome of Legends (MKC) 246
+1 Torrential Gearhulk (CMM) 128
+1 Turnabout (DMR) 70 *F*
 1 Underground River (FRC) 87
-1 Undying Malice (FDN) 528
-1 Waterbending Lesson (TLA) 80
+1 Venser, Shaper Savant (2X2) 66

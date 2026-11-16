@@ -1,6 +1,6 @@
 {
-  "plan": "Put two to four lands onto the battlefield every turn from turn 3 (cheap land ramp, four fetch lands, Druid Class, Explore and The Earth King, and with Toph every nontoken artifact cast, Mishra's Bauble, cheap rocks and 0-1 mana artifacts above all), re-enter Toph's earthbent lands through Zuran Orb, Goblin Bombardment and the instant land-sacrifice ramp, and turn every land entry into 1 damage to EACH opponent with Sabotender, Tannuk and Valakut Exploration, and every artifact or legend entering into 1 more with Arbaaz Mir, while Terrasymbiosis, Tireless Tracker and Tannuk refill the hand; Ragost, Goblin Bombardment and Legion Guildmage turn the spare artifacts and mana into the last points, and an infinite-landfall loop (Springheart Nantuko with Lotus Cobra or Tireless Provisioner, or Toph, Hardheaded Teacher with Gruul Turf and Zuran Orb) ends it at once when it assembles.",
-  "backup": "The same entries build a land army that survives a creature wipe (earthbent lands return when they die): The Earth King's bear and every power-4+ land creature fetch more basics when they attack, Earthbender Ascension and Bumi give trample, Seismic Tutelage doubles the counters of an unblockable earthbent Secret Tunnel, and Bumi untaps every land for an extra combat.",
+  "plan": "Put two to four lands onto the battlefield every turn from turn 3 (twelve ramp pieces of mana value 2 or less, land ramp that fetches basics, three fetch lands, Urza's Cave, Druid Class, Explore and The Earth King; with Toph out every nontoken artifact cast is a land entering, and the land she earthbends each end step comes back when a sacrifice outlet or its own ability kills it), and turn every land entry into 1 damage to EACH opponent with Sabotender, Tannuk and Valakut Exploration and every artifact or legend entering into 1 more with Arbaaz Mir, while Valakut, Tireless Tracker, Terrasymbiosis, Stocking the Pantry and Tannuk refill the hand; Ragost, Goblin Bombardment and Fire Nation Archers turn spare artifacts and mana into the last points, The Stasis Coffin (earthbent by Toph, {2} a turn) keeps the table from damaging or targeting me while the drain runs, and an infinite-landfall loop (Springheart Nantuko with Lotus Cobra or Tireless Provisioner; Toph, Hardheaded Teacher with Gruul Turf and Zuran Orb; Ashaya with Toph, the Blind Bandit) ends the game at once when it assembles.",
+  "backup": "The same earthbends build a land army that survives creature wipes (earthbent lands return when they die): Hardened Scales adds a counter to every earthbend, The Earth King fetches a basic for every power-4+ attacker, Earthbender Ascension and Bumi give trample, Seismic Tutelage doubles the counters of an unblockable earthbent Secret Tunnel every attack, and Bumi untaps every land for a second combat.",
   "archetype": "landfall_lands",
   "commander_dependence": "enabler",
   "commander_mv": 4,
@@ -13,16 +13,17 @@
         "Arbaaz Mir"
       ],
       "axis": "noncombat",
-      "vs_three": "Every land entry is 1 damage to EACH opponent per pinger (Sabotender, Tannuk), every nontoken artifact or legend entering (not fetched basics or returning lands) is 1 more to each opponent from Arbaaz Mir, so with Toph a cheap artifact triggers both Arbaaz and the landfall pingers, and Valakut Exploration deals its end-step damage to each opponent. Two pingers at three entries a turn are 6 to every opponent a turn, so the table of 120 life falls together from turn 6 to 8; Chord (X=2-3), Seismic Sense and Water Tribe Rallier find the creature pingers."
+      "vs_three": "Every land entry is 1 damage to EACH opponent per landfall pinger (Sabotender, Tannuk); every nontoken artifact or legend entering (not fetched basics or returning basic lands) is 1 more to each opponent from Arbaaz Mir, so with Toph a cheap artifact, or an earthbent artifact that returns (The Stasis Coffin every turn), triggers both; Valakut Exploration deals its end-step damage to each opponent. Two pingers at three entries a turn are 6 to every opponent a turn, so the 120 life of the table falls together; Chord of Calling (X=2-3) and Seismic Sense find the creature pingers."
     },
-    "artifact burst": {
+    "artifact and mana burst": {
       "cards": [
         "Ragost, Deft Gastronaut",
         "Goblin Bombardment",
+        "Fire Nation Archers",
         "Legion Guildmage"
       ],
       "axis": "noncombat",
-      "vs_three": "Ragost turns every artifact (Treasures, Clues, rocks, the artifact-lands Toph makes; earthbent artifacts come back) into 3 damage to EACH opponent and untaps at every end step after any lifegain (Arbaaz, Druid Class, Zuran Orb at instant speed), so it fires on every player's end step; Legion Guildmage turns the late surplus mana into 3 to each opponent per turn cycle; Goblin Bombardment converts land creatures (they return) and chump blockers into the last points on whoever is left."
+      "vs_three": "Ragost turns every artifact (Treasures, Clues, rocks, the artifact-lands Toph makes; earthbent artifacts come back) into 3 damage to EACH opponent and untaps at every end step after any lifegain (Arbaaz, Druid Class, Zuran Orb at instant speed), so it fires on each player's turn; Fire Nation Archers spends the deck's surplus mana with no tap, {5} for 2 to EACH opponent and a 2/2, as many times a turn as the mana allows and on the turn it is cast; Goblin Bombardment converts land creatures (they return) and tokens into the last points on whoever is left."
     },
     "infinite landfall": {
       "cards": [
@@ -34,7 +35,7 @@
         "Ashaya, Soul of the Wild"
       ],
       "axis": "noncombat",
-      "vs_three": "Organic loops of on-plan cards (Spellbook 3470-5702-6871, 3875-5702-6871, 573-1315-6871-7115, 539-1315-7037, 539-5147-7037): (A) Springheart Nantuko CAST for bestow on a land Toph earthbent (a basic Forest) plus Lotus Cobra or Tireless Provisioner: every copy is an untapped land that pays the next copy: infinite landfall; (B) Toph + Toph, Hardheaded Teacher + Gruul Turf + Zuran Orb: sacrifice the earthbent Turf, it returns and bounces the Orb (a land under Toph), recast the Orb for 0, the cast trigger earthbends the Turf again: infinite landfall, casts and life; (C) Ashaya + Toph, the Blind Bandit + Zuran Orb or Goblin Bombardment. With any pinger, Valakut (the whole library to each opponent at end step), Arbaaz (loop B) or Bombardment, every opponent dies at once."
+      "vs_three": "Organic loops of on-plan cards (Spellbook 3470-5702-6871, 3875-5702-6871, 573-1315-6871-7115, 539-1315-7037, 539-5147-7037): (A) Springheart Nantuko CAST for bestow on a land Toph earthbent (a basic Forest) plus Lotus Cobra or Tireless Provisioner: every copy is an untapped land that pays for the next copy: infinite landfall; (B) Toph + Toph, Hardheaded Teacher + Gruul Turf + Zuran Orb: sacrifice the earthbent Turf, it returns and bounces the Orb (a land under Toph), recast the Orb for 0, the cast trigger earthbends the Turf again: infinite landfall, casts and life (Urza's Cave and Crop Rotation fetch the Turf, Brightglass Gearhulk the Orb); (C) Ashaya + Toph, the Blind Bandit + Zuran Orb or Goblin Bombardment. With any landfall pinger, Valakut (the whole library to each opponent at the end step), Arbaaz (loop B) or Bombardment (loop C), every opponent dies at once."
     },
     "land army": {
       "cards": [
@@ -44,7 +45,7 @@
         "Toph, the Blind Bandit"
       ],
       "axis": "combat",
-      "vs_three": "Power-4+ attackers (the 4/4 bear, Bumi and his 4/4 land, the Bandit, Ashaya, earthbent lands grown by Toph every end step) make The Earth King fetch that many basics, each a ping to every opponent; Earthbender Ascension and Bumi give trample, Secret Tunnel is unblockable and carries Seismic Tutelage (counters double each attack, Terrasymbiosis draws that many); Bumi untaps every land for a second combat of land creatures. Attackers split to finish the weakest players while the pings hit all three; earthbent attackers return when they die."
+      "vs_three": "Power-4+ attackers (the 4/4 bear, Bumi and his 4/4 land, the Bandit, Ashaya, Brightglass Gearhulk, lands Toph earthbends every end step, one counter bigger each time with Hardened Scales) make The Earth King fetch that many basics, each a ping to every opponent; Earthbender Ascension and Bumi give trample, Secret Tunnel is unblockable and carries Seismic Tutelage (its counters double every attack, Terrasymbiosis draws that many); Bumi untaps every land for a second combat of land creatures. The attackers split to finish the weakest players while the pings hit all three; earthbent attackers return when they die, and The Stasis Coffin covers the crack-back."
     }
   },
   "functions": {
@@ -57,21 +58,22 @@
         "Wayfarer's Bauble",
         "Harrow",
         "Cycle of Renewal",
-        "Roiling Regrowth",
         "Heaped Harvest",
         "Druid Class",
-        "Explore",
         "Crop Rotation",
         "Wood Elves",
         "The Earth King",
         "Earthbender Ascension",
-        "Zuran Orb",
         "Ashaya, Soul of the Wild",
-        "Toph, Hardheaded Teacher",
         "Evolving Wilds",
         "Terramorphic Expanse",
         "Vibrant Cityscape",
-        "Cabaretti Courtyard"
+        "Urza's Cave",
+        "Gruul Turf",
+        "Zuran Orb",
+        "Mishra's Bauble",
+        "Soul-Guide Lantern",
+        "Solemn Simulacrum"
       ],
       "needed_by": "early"
     },
@@ -87,8 +89,7 @@
         "Springheart Nantuko",
         "Druid Class",
         "Chord of Calling",
-        "Seismic Sense",
-        "Water Tribe Rallier"
+        "Seismic Sense"
       ],
       "needed_by": "early"
     },
@@ -100,7 +101,7 @@
         "Arbaaz Mir",
         "Ragost, Deft Gastronaut",
         "Goblin Bombardment",
-        "Legion Guildmage",
+        "Fire Nation Archers",
         "Planar Outburst",
         "Earthbender Ascension",
         "Bumi, Unleashed",
@@ -113,7 +114,6 @@
         "Swords to Plowshares",
         "Path to Exile",
         "Fateful Absence",
-        "Hardlight Containment",
         "Beast Within",
         "Chaos Warp",
         "Stroke of Midnight",
@@ -121,9 +121,10 @@
         "Planar Outburst",
         "Sabotender",
         "Tannuk, Memorial Ensign",
+        "Valakut Exploration",
         "Arbaaz Mir",
         "Ragost, Deft Gastronaut",
-        "Legion Guildmage",
+        "Fire Nation Archers",
         "Secret Tunnel"
       ],
       "needed_by": "early"
@@ -132,12 +133,13 @@
   "support": {
     "extra_land_drops": [
       "Druid Class",
-      "Explore",
       "The Earth King",
       "Ashaya, Soul of the Wild",
+      "Urza's Cave",
+      "Heaped Harvest",
+      "Wayfarer's Bauble",
       "Zuran Orb",
       "Goblin Bombardment",
-      "Ba Sing Se",
       "Gruul Turf"
     ],
     "land_recursion": [
@@ -147,18 +149,19 @@
       "Wrenn and Realmbreaker"
     ],
     "mana_sinks": [
+      "Fire Nation Archers",
       "Ba Sing Se",
-      "Secret Tunnel",
+      "Urza's Cave",
+      "The Stasis Coffin",
+      "Stocking the Pantry",
       "Tireless Tracker",
-      "Springheart Nantuko",
       "Ragost, Deft Gastronaut",
-      "Water Tribe Rallier",
-      "Legion Guildmage",
-      "Druid Class"
+      "Druid Class",
+      "Secret Tunnel",
+      "Legion Guildmage"
     ],
     "wipe_insurance": [
       "Make a Stand",
-      "Haystack",
       "Goblin Bombardment",
       "Valakut Exploration"
     ]
@@ -167,6 +170,7 @@
     "Chord of Calling": [
       "landfall_payoffs",
       "through_wide_board",
+      "through_big_creatures",
       "land_entries"
     ],
     "Seismic Sense": [
@@ -174,11 +178,10 @@
       "through_wide_board",
       "land_entries"
     ],
-    "Water Tribe Rallier": [
-      "landfall_payoffs",
-      "through_wide_board"
-    ],
     "Crop Rotation": [
+      "land_entries"
+    ],
+    "Urza's Cave": [
       "land_entries"
     ],
     "Brightglass Gearhulk": [
@@ -189,8 +192,8 @@
     "Sol Ring": "ramp",
     "Arcane Signet": "ramp",
     "Talisman of Impulse": "ramp",
+    "Talisman of Conviction": "ramp",
     "Wayfarer's Bauble": "ramp",
-    "Everflowing Chalice": "ramp",
     "Rampant Growth": "ramp",
     "Shared Roots": "ramp",
     "Sakura-Tribe Elder": "ramp",
@@ -199,21 +202,13 @@
       "ramp"
     ],
     "Great Divide Guide": "ramp",
-    "Explore": [
-      "ramp",
-      "draw"
-    ],
     "Druid Class": [
       "ramp",
       "payoff"
     ],
-    "Crop Rotation": [
-      "ramp",
-      "tutor"
-    ],
+    "Crop Rotation": "tutor",
     "Harrow": "ramp",
     "Cycle of Renewal": "ramp",
-    "Roiling Regrowth": "ramp",
     "Heaped Harvest": "ramp",
     "Wood Elves": "ramp",
     "Tireless Provisioner": [
@@ -232,7 +227,7 @@
     "Arbaaz Mir": "payoff",
     "Ragost, Deft Gastronaut": "payoff",
     "Goblin Bombardment": "payoff",
-    "Legion Guildmage": "payoff",
+    "Fire Nation Archers": "payoff",
     "Springheart Nantuko": "payoff",
     "Tannuk, Memorial Ensign": [
       "payoff",
@@ -248,8 +243,15 @@
     ],
     "Zuran Orb": "engine",
     "Terrasymbiosis": "draw",
+    "Stocking the Pantry": "draw",
+    "Hardened Scales": "backup",
+    "Mishra's Bauble": [
+      "engine",
+      "draw"
+    ],
+    "Soul-Guide Lantern": "engine",
     "Ichor Wellspring": "draw",
-    "Water Tribe Rallier": [
+    "Brightglass Gearhulk": [
       "tutor",
       "draw"
     ],
@@ -268,24 +270,17 @@
     "Swords to Plowshares": "removal",
     "Path to Exile": "removal",
     "Fateful Absence": "removal",
-    "Hardlight Containment": "removal",
     "Haywire Mite": "removal",
-    "Collective Resistance": [
-      "protection",
-      "removal"
-    ],
-    "Origin of Metalbending": [
-      "protection",
-      "removal"
-    ],
-    "Return to Nature": "removal",
     "Beast Within": "removal",
     "Chaos Warp": "removal",
     "Stroke of Midnight": "removal",
+    "Collective Resistance": "protection",
+    "Origin of Metalbending": "protection",
+    "Redirect Lightning": "protection",
+    "Make a Stand": "protection",
+    "The Stasis Coffin": "protection",
     "Drannith Magistrate": "orphan",
     "Planar Outburst": "wipe",
-    "Make a Stand": "protection",
-    "Haystack": "protection",
     "Command Tower": "land",
     "Exotic Orchard": "land",
     "Ba Sing Se": "land",
@@ -298,17 +293,19 @@
     "Rugged Prairie": "land",
     "Battlefield Forge": "land",
     "Secret Tunnel": "land",
+    "Urza's Cave": [
+      "land",
+      "tutor"
+    ],
     "Gruul Turf": "land",
     "Evolving Wilds": "land",
     "Terramorphic Expanse": "land",
     "Vibrant Cityscape": "land",
-    "Cabaretti Courtyard": "land",
-    "Brightglass Gearhulk": [
-      "tutor",
+    "Legion Guildmage": "payoff",
+    "Solemn Simulacrum": [
+      "ramp",
       "draw"
-    ],
-    "Mishra's Bauble": "draw",
-    "Redirect Lightning": "protection"
+    ]
   },
   "bad_when_drawn": {
     "Ashaya, Soul of the Wild": "early",
@@ -317,19 +314,26 @@
     "Planar Outburst": "early",
     "Chord of Calling": "early",
     "Annie Joins Up": "early",
-    "Legion Guildmage": "never",
+    "Brightglass Gearhulk": "early",
+    "Fire Nation Archers": "early",
+    "The Stasis Coffin": "early",
+    "Hardened Scales": "early",
+    "Stocking the Pantry": "early",
+    "Make a Stand": "early",
     "Zuran Orb": "never",
     "Shared Roots": "never",
     "Rampant Growth": "never",
     "Wayfarer's Bauble": "never",
     "Sol Ring": "never",
-    "Everflowing Chalice": "never",
+    "Talisman of Conviction": "never",
     "Drannith Magistrate": "never",
-    "Water Tribe Rallier": "never",
     "Toph, Hardheaded Teacher": "never",
     "The Earth King": "never",
     "Gruul Turf": "never",
     "Mishra's Bauble": "never",
-    "Brightglass Gearhulk": "early"
+    "Soul-Guide Lantern": "never",
+    "Urza's Cave": "never",
+    "Legion Guildmage": "never",
+    "Solemn Simulacrum": "never"
   }
 }

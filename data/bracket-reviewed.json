@@ -1,0 +1,11 @@
+{
+ "note": "Commander Spellbook variants the owner reviewed by hand. Owner rule (2026-11-14): a combo is cut only when it is IRREFUTABLY outside the Bracket 3 rules; when in doubt the card stays, because the goal is the strongest legal deck. scripts/layer_a.py gives a listed variant floor 3 with its reason instead of the automatic floor. Add a row only with a written reason from the Oracle texts and the variant's own result.",
+ "variants": [
+  {
+   "id": "11-5940",
+   "cards": ["Narset's Reversal", "Return the Favor"],
+   "decided": "2026-11-14, owner",
+   "reason": "Spellbook's only result is 'Infinite magecraft triggers' and it needs another instant or sorcery on the stack: the two cards alone neither win nor lock, so the loop matters only with a third card (a magecraft payoff such as Archmage Emeritus). Not an early two-card infinite combo; in doubt, the owner keeps the card."
+  }
+ ]
+}

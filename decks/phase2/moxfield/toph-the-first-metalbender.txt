@@ -2,7 +2,7 @@
 1 Toph, the First Metalbender (TLA) 247
 
 1 Annie Joins Up (OTJ) 191
-1 Arbaaz Mir (ACR) 46
+1 Arbaaz Mir
 1 Arcane Signet (FIC) 335
 1 Ashaya, Soul of the Wild (SLD) 2014
 1 Ba Sing Se (TLA) 266
@@ -10,7 +10,6 @@
 1 Beast Within (SOC) 263
 1 Brightglass Gearhulk (DFT) 191 *F*
 1 Bumi, Unleashed (TLA) 211
-1 Cabaretti Courtyard (EOC) 151
 1 Chaos Warp (MBC) 72
 1 Chord of Calling (2XM) 158
 1 Clifftop Retreat (FRC) 67
@@ -21,11 +20,10 @@
 1 Drannith Magistrate (TLE) 2
 1 Druid Class (AFR) 180
 1 Earthbender Ascension (TLA) 175
-1 Everflowing Chalice (EOC) 137
 1 Evolving Wilds (EOC) 158
 1 Exotic Orchard (FRC) 70
-1 Explore (TLE) 259
 1 Fateful Absence (PW22) 2 *F*
+1 Fire Nation Archers (TLE) 237
 4 Forest (ACR) 109
 6 Forest (ACR) 110
 1 Fortified Village (TDC) 366
@@ -34,15 +32,14 @@
 1 Goblin Bombardment (MH2) 279
 1 Great Divide Guide (TLA) 181
 1 Gruul Turf (ECC) 152
-1 Hardlight Containment (EOE) 20
+1 Hardened Scales (FIC) 307
 1 Harrow (EOC) 98
-1 Haystack (ACR) 5 *F*
 1 Haywire Mite (BRO) 199
 1 Heaped Harvest (BLB) 175
 1 Ichor Wellspring (C21) 245
 1 Legion Guildmage (GRN) 187
 1 Lotus Cobra (BLC) 229
-1 Make a Stand
+1 Make a Stand (CMR) 32
 1 Mishra's Bauble (2XM) 274
 5 Mountain (ACR) 107
 1 Origin of Metalbending (TLA) 187
@@ -53,8 +50,6 @@
 1 Ragost, Deft Gastronaut (EOE) 224
 1 Rampant Growth (TDC) 265
 1 Redirect Lightning (TLA) 343
-1 Return to Nature
-1 Roiling Regrowth (EOC) 105
 1 Rootbound Crag (FIC) 416
 1 Rugged Prairie (SOC) 401
 1 Sabotender (FIN) 153
@@ -64,23 +59,28 @@
 1 Seismic Tutelage (TLE) 254
 1 Shared Roots (TLA) 196
 1 Sol Ring (FRC) 21
+1 Solemn Simulacrum (TDC) 325
+1 Soul-Guide Lantern (EOC) 143
 1 Springheart Nantuko (MH3) 341
+1 Stocking the Pantry (BLB) 194 *F*
 1 Stroke of Midnight (FRC) 35
 1 Sunpetal Grove (FIC) 432
 1 Swords to Plowshares (FRC) 37
+1 Talisman of Conviction (TDC) 329
 1 Talisman of Impulse (TDC) 332
 1 Tannuk, Memorial Ensign (EOE) 233 *F*
 1 Terramorphic Expanse (DRC) 179
 1 Terrasymbiosis (EOE) 210
 1 The Earth King (TLA) 172
+1 The Stasis Coffin (BRO) 245
 1 Tireless Provisioner (BLC) 243
 1 Tireless Tracker (EOC) 110
 1 Toph, Hardheaded Teacher (TLA) 246
 1 Toph, the Blind Bandit (TLA) 198
+1 Urza's Cave (MH3) 234
 1 Valakut Exploration (ZNR) 175
 1 Vibrant Cityscape (SPM) 188
-1 Water Tribe Rallier (TLA) 42
 1 Wayfarer's Bauble (TDC) 335
-1 Wood Elves
+1 Wood Elves (HOB) 142 *F*
 1 Wrenn and Realmbreaker (MOM) 217
 1 Zuran Orb (ICE) 350

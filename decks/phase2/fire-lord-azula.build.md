@@ -1,453 +1,499 @@
-# Fire Lord Azula: final rebuild (Phase 2 step 7.7, 2026-11-08)
+# Fire Lord Azula: collection-only optimization (Phase 2 step 10.1, 2026-11-14)
 
-Rebuilt FROM SCRATCH under `docs/proposals/final-rebuild-brief-20261108.md` (corrected budget), the skill
-`.claude/skills/commander-deckbuilding/SKILL.md` with its champion standard, `champion-addendum-20261108.md` and the primers
-`commanders/fire-lord-azula.md` and `fire-lord-azula-primers-20261108.md`. Priority 2: Ezio's final list keeps its copies.
-Language: bilingual, the English copy whenever one is owned (section 8 lists the Spanish-only copies).
+**Fix round (step 10.3, 2026-11-15, the lead on Opus 5.5 high; review `decks/reports/collection-review-fire-lord-azula-20261114.md`, verdict FIX).** Applied ranks 1 to 4 and the plan-file corrections:
 
-**Fix round (2026-11-08)** after the independent review `decks/reports/final-review-fire-lord-azula-20261108.md` (FIX):
-F1 Soul-Guide Lantern out, Shred Memory in (buy, to read); F2 Fellwar Stone out, Everflowing Chalice in (owned, saves 1,560);
-F3 Cunning Maneuver out, Expedite in (owned; haste WARN closed); the checklist items NOT APPLIED: tutors (F1 makes three
-real tutors to the loops), politics (section 4), goldfish (five games now played turn by turn, section 5), Game Changers
-(budget-blocked, unchanged); notes N2 (prices), N3 (Day of Black Sun), N6 (politics), N7 (Frantic loop is not a kill) and the
-iteration-1 tutor claim (section 9) corrected.
+| Out | In | Reason |
+|---|---|---|
+| Hero's Downfall | Return the Favor (EN SOA 47, free) | Owner's decision: kept unless irrefutably outside Bracket 3; Spellbook 11-5940 reviewed (`data/bracket-reviewed.json`). Seventh loop piece, redirects removal and edicts, forks Comet Storm. |
+| Black Market Connections (back to Ezio) | Tome of Legends (EN MKC 246, free) | The copy adds more in Ezio (fixing, an Assassin a turn); the owner's rule puts a scarce copy where it adds the most. Tome is a draw engine that works without Azula. |
+| Abandon Attachments | Venser, Shaper Savant (EN 2X2 66, free) | A rummage for a flash answer to any spell, creature spells and commanders included; two bounces in the window. |
+| 1 Swamp | 1 Mountain | Red double pips outnumber black after Return the Favor. |
 
-Checks (run 2026-11-08):
-- `python scripts/check_phase2_bracket.py decks/phase2/fire-lord-azula.txt`: **PASS** (floor 3, 1 Game Changer: Narset,
-  Parter of Veils; 0 extra turns, 0 mass land denial, 0 reversible cards; Spellbook: 5 variants inside the list, one flagged
-  and classed late: Godo + Helm of the Host).
-- `python scripts/plan_density.py`: **PASS**, 0 failures, 3 WARNs (reasons in section 3.3). Report:
-  `decks/reports/consistency-fire-lord-azula.md`.
-- 100 cards (commander + 99), counted by script; every non-bought card is an owned copy free after Ezio (section 8).
+Plan file: Helm of the Host and Narset's Reversal leave `spell_payoffs`; Frostcliff Siege counts once (draw, Jeskai, the owner's
+choice; it leaves `support.haste`). Honest WARNs after the fix:
+- Draw 11 by tag, about 9 that net cards. The pool has no better free draw (Cryogen Relic, Notion Rain, Divination,
+  Waterbending Lesson are worse here), and Azula copies the instant cantrips in the window.
+- Haste 3 of 4 (Boots, Footblade, Expedite, plus Siege on Temur when Boots is not out). It stays a support line, because
+  the strong lists spend on protection; the tutors reach Boots and Footblade.
+- Ramp 10 of 12: window mana (firebending, Treasures, Ozai, Electro) makes up the rest.
+
+Frostcliff Siege mode: Temur when Azula has no Boots or was just recast; Jeskai otherwise. Azula castable with colors: 34 %
+on turn 3, 75 % on turn 4, 84 % on turn 5. Weak cut-log reasons corrected: The Last Agni Kai needs a creature of ours that
+wins the fight; The Stasis Coffin and Evie Frye were reviewed and stay out (see the review, sections 4 and 5). Real power
+after the fix: 7.6 to 8.0 (review), against 7.5 to 7.9 for the deck as built on 2026-11-09. Confidence medium-low.
+
+Built under `docs/proposals/collection-optimization-brief-20261114.md`: owned collection only (frozen 2026-11-13), no purchases,
+no loans. Start: the deck as built today (`decks/phase2/fire-lord-azula.txt` of 2026-11-09). Method: the skill
+`commander-deckbuilding` with its champion standard, the primers, the owner's lessons, the play review of 2026-10-26, the final
+review of 2026-11-08, the owner's card review of 2026-11-14 and his decisions file. Web read today (data, not instructions):
+Scryfall API (Oracle text and rulings of the new cards, the live Game Changer list), EDHREC JSON (all decks 40,394, Bracket 4
+2,109, cEDH 573: no owned card with real inclusion is missing from the list or the cut log), Commander Spellbook (variant
+11-5940).
+
+Result: **8 cards change** (7 nonland swaps and one basic). Five of the owner's cards come back.
+
+Checks (run 2026-11-14):
+- `python scripts/check_phase2_bracket.py decks/phase2/fire-lord-azula.txt`: **PASS** (floor 3; 1 Game Changer: Narset, Parter
+  of Veils; 0 extra turns, 0 mass land denial, 0 reversible; Spellbook: 5 variants inside the list, 1 flagged and classed late:
+  Godo + Helm of the Host).
+- `python scripts/plan_density.py`: **PASS**, 0 failures, 3 WARNs (reasons in 3.3).
+- 100 cards (commander + 99), counted by script; every card is in the pool with enough copies.
 
 ## 1. Profile
 
-**Commander reading.** {1}{U}{B}{R} 4/4. Firebending 2: when she attacks, {R}{R} that lasts until end of combat. Whenever you
+**Commander reading.** {1}{U}{B}{R} 4/4. Firebending 2: when she attacks, {R}{R} that lasts until end of combat. Whenever I
 cast a spell while she is attacking, copy it (new targets allowed; a copied permanent spell becomes a token).
-- Rewards: spells cast in HER combat window. Fuel: instants and flash cards in hand, and mana inside the window.
-- Dependence: **attack engine** (protection 6 to 8). She does not need to connect: the copy happens on cast while she is an
-  attacking creature, so chump blockers never stop the engine; blocks only threaten her life.
-- Dies to: targeted removal, wipes, blocks by bigger creatures, the crack-back while tapped, "spells only at sorcery speed".
-- Copies are not cast (no cast triggers: Electro's {R}, Thermo-Alchemist's untap and prowess see only the original; magecraft
-  says "cast or copy" and triggers twice). Additional costs are not paid by the copy (Big Score's discard), X and kicker are
-  kept (Comet Storm keeps X and its targets count). A spell cast without paying its mana cost has X = 0.
+- Rewards: spells cast in HER combat. Fuel: instants and flash cards in hand, and mana inside that window.
+- Dependence: **attack engine**. She need not connect: the copy happens on cast, so chump blockers never stop the engine;
+  blocks only threaten her life. Owner's signal (decisions file): one opponent always lets her through, one blocks, one
+  depends on whether he fears a trick; the deck must make blocks bad for them.
+- Dies to: targeted removal, wipes, blocks by bigger creatures, the crack-back while tapped, "sorcery speed only" effects.
+- Copies are not cast (no cast triggers; magecraft says "cast or copy" and sees both). A copy skips additional costs and keeps X.
 
 Rules points to verify:
 | # | Point | Status | What falls if wrong |
 |---|---|---|---|
-| R1 | Horizon Stone keeps firebending mana (firebending ruling 2025-10-02: the mana lasts until end of combat; Horizon Stone ruling 2020-11-10: unspent mana becomes colorless instead of being lost). | Confirmed by both rulings (no joint ruling). | Horizon Stone as banker. |
-| R2 | Copies keep X and multikicker choices; copies skip additional costs. | Confirmed (Azula rulings). | Comet Storm 2X, Big Score. |
-| R3 | Turnabout copied while she attacks: the copy resolves first (untap all lands), you tap them again with priority, then the original untaps them all again. Mana stays in the pool until the step ends. | Rules reasoning (rule 500.4 mana empties between steps). | Mana burst size. |
-| R4 | Reversal + Turnabout loop: cast Turnabout, then Narset's Reversal targeting it; Azula's copy of the Reversal targets the original Reversal (returns it to hand and copies it), the resulting copy returns and copies Turnabout... each cycle nets lands untapped minus {U}{U} and Turnabout's {2}{U}{U}. Commander Spellbook lists Azula + Reversal + Turnabout (tag S). | Spellbook variant; not checked in a ruling. | Loop (a). |
-| R5 | Reversal + Frantic Search and Reversal + Storm-Kiln, Snap + Dualcaster with Azula attacking. | Spellbook variants (all three listed; Frantic is library-bound). | Loops (b) to (d). |
-| R6 | Godo + Helm of the Host: unlimited combats, late (11 mana over two main phases). | Script: "two-card combo, late" (floor turn 4, typical 7 to 9). | Combat route without Azula. |
-| R7 | Day of Black Sun X=0 destroys tokens CREATED with no mana cost (mana value 0); token COPIES of creatures keep the copied mana value and need a bigger X (review N3). | Rules knowledge (copiable values include mana cost). | Board 1 answer. |
-| R8 | Deflecting Swat is free while I control a commander. | Oracle. | Free shield. |
-| R9 | Spell Pierce and Swan Song stop a sorcery wipe or removal spell; Narset's Reversal returns the spell aimed at Azula. | Oracle. | Win-turn shield. |
+| R1 | Horizon Stone keeps firebending mana as colorless; Ozai keeps it as red; Electro keeps red mana. | Rulings of firebending (2025-10-02) and of Horizon Stone read apart; no joint ruling. | The three bankers. |
+| R2 | Copies keep X and kicker; they skip additional costs (Big Score's discard). | Azula rulings. | Comet Storm 2X, Big Score. |
+| R3 | Torrential Gearhulk cast while she attacks is copied: a token Gearhulk and the card, two triggers. Each trigger CASTS an instant from the graveyard, so Azula copies that instant too. | Oracle ("cast"); Gearhulk rulings 2016-09-20 read today; Azula ruling on permanent copies. | Gearhulk's value: 2 bodies + 4 instants instead of 1 + 1. |
+| R4 | Gearhulk casts X spells with X = 0 and still pays additional costs (Big Score's discard). | Gearhulk rulings, read today. | Never bin Comet Storm, Electrodominance or Pull from Tomorrow as Gearhulk targets. |
+| R5 | Reversal loops: Azula's copy of the Reversal must target the ORIGINAL Reversal; the copy it makes then copies and returns the other spell. | Spellbook variants; traced in the review of 2026-11-08. | Route A. |
+| R6 | Turnabout: the choice (artifact, creature or land) is made on resolution, so the copy may choose differently. | Azula ruling ("choices made on resolution are made again"). | Red mana from the Signets inside the loop. |
+| R7 | Shred Memory's transmute finds any card of mana value 2. X is 0 outside the stack, so Comet Storm, Electrodominance, Pull from Tomorrow and Day of Black Sun are mana value 2 in the library. | Comprehensive Rules 202.3e from memory; Scryfall gives `cmc` 2.0 for them. | Shred Memory as a tutor for the burn route. |
+| R8 | Godo + Helm of the Host: each Helm token is a new Godo, its first attack adds a combat. | Spellbook variant; the bracket script classes it late. | Route C without Azula. |
+| R9 | Imprisoned in the Moon on a commander: no zone change, so its owner cannot move it to the command zone. | Oracle. | The lasting commander answer. |
+| R10 | Frostcliff Siege, Jeskai: one trigger per player dealt combat damage. | Ruling 2025-04-04, read today. | Its draw rate. |
 
-**Plan (one sentence).** Azula attacks every turn from turn 4 with haste and hexproof from equipment and a shield of 1- and
-2-mana counters behind her; in her window every instant is a two-for-one, and the win comes in ONE protected combat: a
-three-card loop with her (Narset's Reversal + Turnabout, Frantic Search or Storm-Kiln Artist; Snap + Dualcaster Mage) makes
-unbounded mana or casts, turned into Thermo-Alchemist pings at all three opponents or a twice-kicked, copied Comet Storm.
+**Plan.** Azula attacks every turn from turn 4, with haste and hexproof ready and five cheap counters and two free redirects
+behind her. In her window every instant is doubled. The win comes in ONE protected combat: a three-card loop with her
+(Narset's Reversal with Turnabout, Frantic Search or Storm-Kiln Artist; Snap with Dualcaster Mage) makes unbounded mana or
+casts, and a multikicked, copied Comet Storm or Thermo-Alchemist turns it into lethal damage to each opponent.
 
-**Backup (same pieces).** Without a loop, Turnabout, Snap, Frantic Search, Big Score and Storm-Kiln fuel a copied Comet Storm
-or Electrodominance (2X to each opponent, two turns of it kills the table); with Azula answered, Godo fetches Helm of the Host
-for unlimited combats, Ozai attacks with haste, and Comet Storm is cast once with mana banked by Horizon Stone and Turnabout.
+**Backup (same pieces).** With no loop, Turnabout, Frantic Search, Big Score, Storm-Kiln Artist and banked mana (Horizon
+Stone, Ozai, Electro, Treasures) pay for a copied Comet Storm or Electrodominance. With Azula answered, Godo fetches Helm of
+the Host for unlimited combats, and Comet Storm is cast once with the banked mana.
 
-**Speed.** Azula lands turn 3 (Sol Ring, Everflowing Chalice, Signets) or 4; first copied combat turn 4 to 5; first lethal threat to
-the table turn 6 to 8 (loop) or 7 to 9 (fair copied burn). Goldfish in section 5.
+**Speed.** Azula lands on turn 3 in about half the games and by turn 4 in 88 % (simulation, colors ignored). First copied
+combat turn 4 to 5. First lethal threat to the table: turn 5 to 7 with a loop, turn 7 to 9 fairly (goldfish, section 5).
 
-**Win routes, scored (R26, R28).**
-| Route | Cards (incl. Azula) | Mana on the win turn | Access (pieces + tutors + dig) | Pieces useful alone | Single failure points |
+**Win routes, scored.**
+| Route | Cards (with Azula) | Mana on the win turn | Access | Pieces useful alone | Single failure points |
 |---|---|---|---|---|---|
-| A. Loops: Reversal + Turnabout / Frantic / Storm-Kiln; Snap + Dualcaster | 3 | 6 to 8 (firebending pays 2) | 6 pieces + Teachings (copied: 2 pieces) + Solve + Narset, Gleam, Brainstorm, Thirst dig | all six (removal, draw, mana, treasure, counter-copy) | Azula removed; a counter on the key spell (shield answers it) |
-| B. Copied X burn | 2 (Azula + Comet Storm or Electrodominance) | 10+ for lethal-ish | 2 + Teachings + Solve | both (removal early) | a counter (shield); without Azula half damage |
-| C. Combat: Helm on Azula; Godo + Helm; Ozai | 2 to 3 | 9 to 11 over two turns | Godo fetches Helm | Helm on Azula alone doubles copies | wipe; Godo line does NOT need Azula |
-No failure point is shared by all three: Route C (Godo + Helm) and B (uncopied Comet Storm) work with Azula dead; A and B do
-not use the graveyard; artifact removal hits only C.
+| A. Loops | 3 | 6 to 8 (firebending pays 2) | 6 pieces + Mystical Teachings (copied: BOTH missing pieces) + Solve the Equation + Shred Memory + Gearhulk (recasts a used piece) + dig | all six | Azula removed; a counter on the key spell |
+| B. Copied X burn | 2 | 10+ | Comet Storm, Electrodominance + the same three tutors | both (removal early) | a counter; half damage without Azula |
+| C. Godo + Helm; Helm on Azula; Ozai | 1 to 2 | 11 over two turns | Godo fetches Helm | Helm on Azula doubles the copies | a wipe, artifact removal; does NOT need Azula |
 
-**How it beats three opponents.** Every route hits all three at once (Comet Storm kicked twice and copied, Thermo-Alchemist
-pings each opponent, Helm/Godo combats spread attackers). It wins in one turn from banked resources, not by attrition.
+No failure point is shared by all three. Only Gearhulk's recasts use the graveyard.
 
-**What it fears.** Fast combo before turn 6 (answers: Swan Song, Spell Pierce, Negate, Narset's Reversal, Deflecting Swat on a
-targeted spell, instant creature removal); "can't cast spells during combat/only sorcery speed" stax; a wipe after she is
-equipped (Undying Malice, Swan Song/Negate/Spell Pierce on the wipe); a pinger killing the 1-2 toughness engines.
+**Access to the loops** (simulation, 60,000 shuffles, Mystical Teachings counted as two pieces because the window copies it):
+28 % by turn 6, 33 % by turn 8, 39 % by turn 10 with no draw spell at all; 39 %, 52 % and 64 % when the draw spells show 4, 7
+and 10 more cards [J for those extras]. A finisher or a tutor for one: 49 % by turn 6 with no draw.
 
-## 2. The puzzle: every card by function, how to use it, main synergies
+**How it beats three opponents.** Every route hits all three at once: Comet Storm with two kicks, Thermo-Alchemist's ping to
+each opponent, unlimited combats. It wins in one turn from banked resources, not by attrition.
 
-Commander: **Fire Lord Azula**. Cast turn 3 to 4; equip Boots or Cloak before attacking; attack every turn; cast instants in
-the declare-blockers step, after blocks. Never present a lethal threat one turn before you can protect it (R30).
+**What it fears.**
+- A fast combo before turn 6: five counters, Narset's Reversal, instant removal.
+- "Sorcery speed only" and "one spell a turn" effects: Chaos Warp, Failed Fording, Aether Gale first.
+- A wipe after she is equipped: the counters; Boots and Frostcliff Siege stay, so she is recast with haste.
+- Graveyard exile: it only blanks Gearhulk's recasts and Teachings' flashback.
+- Pingers that kill the 1 and 2 toughness engines.
 
-**Ramp (7 rocks + 3 reducers).** Development first (R17): every one is a turn-1 to turn-2 play.
-- Sol Ring: turn 1; Azula on turn 3 with any 2-drop rock. Bad late.
-- Arcane Signet: turn 2, fixes the third color. Bad late.
-- Everflowing Chalice: turn 2 for one counter (colorless); late, cast for two or three counters to pay X and equips. Never bad.
-- Izzet Signet, Dimir Signet: turn 2; filter into {U}{R}/{U}{B} double pips. Bad late.
-- Mind Stone: turn 2; late, crack for a card.
-- Bender's Waterskin: turn 3 if no 2-drop rock; untaps on every opponent's turn: counters and Pull from Tomorrow at instant speed.
-- Goblin Electromancer, Stormcatch Mentor: turn 2; every instant in the window costs 1 less (loops get cheaper: Reversal {U}{U} cannot be reduced, Turnabout and Frantic can). Die to pingers.
-- Nightscape Familiar: turn 2; blue and red spells cost 1 less (Azula, Dualcaster, Godo too); regenerates to block.
+## 2. The puzzle: every card by function
 
-**Loop pieces (5).** Each is a good card alone; hold them until the protected combat.
-- Snap: free bounce of a blocker or commander (untaps two lands, four copied); with Dualcaster Mage the Snap loop.
-- Narset's Reversal: the hub. Alone, return a removal spell aimed at Azula and keep a copy, or steal an opponent's draw/burn; in her window with Turnabout, Frantic Search or Storm-Kiln it loops.
-- Frantic Search: free in the window (untap 3, six copied) and loots. With the Reversal it loops, but the loop is library-bound (about +1 mana and four cards a cycle, at most about 13 cycles and 26 Thermo pings): it is NOT a kill alone; use it to dig and to fund Comet Storm (review N7). Never loop it with Archmage out.
-- Turnabout (BUY): copied in combat untaps all lands twice (8 lands = 16 extra mana for Comet Storm); with the Reversal, unbounded mana. Out of combat, untap your lands at an opponent's end step for Pull or Fact or Fiction, or tap their creatures before your attack. Bad early (4 mana with no window).
-- Dualcaster Mage: flash in the window, copies the best instant (three copies with Azula); out of combat, copy an opponent's removal or tutor; with Snap, the loop.
+Commander: **Fire Lord Azula**. Cast turn 3 to 4; attack every turn; cast instants in the declare-blockers step, after blocks.
+Never present a lethal threat one turn before you can protect it.
 
-**Spell payoffs and engines (5).**
-- Storm-Kiln Artist: two Treasures per spell in the window (cast + copy); loop with the Reversal; Treasures fund Comet Storm.
-- Archmage Emeritus: two cards per instant in her window. Cast with protection up.
-- Thermo-Alchemist: turn 2 defender; untaps on every instant cast and pings each opponent: the loop finisher, and 3 to 6 damage a turn cycle alone.
-- Electro, Assaulting Battery: {R} per instant cast; keeps red mana between steps; leaving, burns a player for X.
-- Horizon Stone (proven role-player): keeps firebending, Turnabout and end-step mana as colorless for X, equips and Godo.
+**Ramp (7 rocks + 3 reducers).** All turn-1 to turn-3 plays.
+- Sol Ring: turn 1; Azula on turn 3 with any second mana piece. Bad late.
+- Arcane Signet, Izzet Signet, Dimir Signet: turn 2; all three make blue. Inside a Turnabout loop, untap artifacts once so
+  the Izzet Signet makes the red for Comet Storm.
+- Everflowing Chalice: turn 2 for one counter; late, two or three counters for X spells.
+- Mind Stone: turn 2; late, crack it for a card.
+- Bender's Waterskin: turn 3 with no 2-drop rock; mana on every opponent's turn for a counter or Mystical Teachings.
+- Goblin Electromancer, Stormcatch Mentor: turn 2; every instant costs 1 less; with either one the Reversal + Snap loop
+  nets mana.
+- Nightscape Familiar: turn 2; Azula costs 3; blue and red spells cost 1 less; regenerates to block.
 
-**Finishers (2) and combat route (3).**
-- Comet Storm: two kicks name all three opponents; copied, 2X each. Early, X=2 to 3 kills blockers.
-- Electrodominance: X to any target and a free spell from hand (cast a sorcery or Godo at instant speed in the window: copied).
-- Helm of the Host: equip Azula: a hasty Azula token every combat (every spell copied twice). Godo fetches it. Bad early.
-- Godo, Bandit Warlord: turn 6+; Helm onto the battlefield; with Helm on Godo, unlimited combats without Azula. Bad early.
-- Ozai, the Phoenix King: hasty 7/7 trample, firebending 4, keeps mana as red; second must-answer threat. Bad early.
+**Loop pieces (5).** Each is good alone; hold them for the protected combat.
+- Narset's Reversal: the hub. Alone: return a removal spell aimed at Azula and keep a copy, or steal a draw spell. On a spell
+  Gearhulk cast, it returns that card to hand instead of exile.
+- Turnabout: copied, it untaps every land twice (8 lands: 16 more mana). With the Reversal: unbounded mana from 4 lands.
+  Main phase: tap one player's blockers. Bad early.
+- Frantic Search: free in the window (six lands untapped) and loots four. With the Reversal it digs four new cards and nets
+  one mana a cycle: it finds Turnabout or Comet Storm; it is not a kill alone. Never loop it with Archmage out.
+- Snap: free bounce of a blocker (four lands untapped). With Dualcaster Mage: the Snap loop. With the Reversal and a reducer,
+  Electro or Thermo-Alchemist: a third loop.
+- Dualcaster Mage: flash in the window, three copies of the best instant; out of combat, copy an opponent's tutor or removal.
 
-**Tutors and dig (7).**
-- Mystical Teachings: in her window it is copied: TWO instants or flash cards (both missing loop pieces, or a piece + Spell Pierce). Otherwise at an opponent's end step.
-- Solve the Equation: main phase: the missing loop piece, Comet Storm, or the answer you lack.
-- Narset, Parter of Veils (BUY, Game Changer 1 of 3): turn 3; -2 twice digs eight cards for noncreature spells (every loop piece, both tutors, both finishers are noncreature); her static shuts off the table's extra draws.
-- Glamdring // Gleam of Death: Gleam first (mill six, take every instant and sorcery: often a loop piece); Glamdring on Azula later: her spells cost up to 4 less.
-- Shred Memory (BUY): main phase, transmute ({1}{B}{B}, sorcery speed) for a mana-value-2 card: Narset's Reversal (the hub of three loops) or Snap; or, at instant speed, exile up to four cards from one graveyard (copied: two graveyards) against reanimation, Breach and flashback. The deck's graveyard hate.
-- Brainstorm: end of an opponent's turn to dig for a piece; in the window it is copied (six cards seen).
-- Thirst for Knowledge (BUY, stock line): draw three at an opponent's end step (discard an artifact you no longer need); copied in the window, six.
+**Engines and payoffs (7).**
+- Storm-Kiln Artist: two Treasures per instant in the window; loops with the Reversal.
+- Archmage Emeritus: two cards per instant in the window. Cast it with a counter up.
+- Thermo-Alchemist: turn 2 blocker; one damage to each opponent per untap and per instant I cast, on any turn. The loop outlet.
+- Electro, Assaulting Battery: {R} per instant cast and red mana kept between turns; when he dies, X to a player.
+- Horizon Stone (proven role-player): banks firebending, Turnabout and end-step mana for X spells, equips and Godo.
+- **Black Market Connections (IN, from Ezio):** turn 3 when Azula is not castable. Take the card and the Treasure every turn
+  (3 life) while life is above 25, then the Treasure only. Treasures wait for the window. The 3/2 token only as a blocker.
+- Glamdring // Gleam of Death: Gleam first (mill six, take every instant and sorcery). Glamdring on Azula: her instants cost
+  4 less (Big Score {R}, Turnabout {U}{U}, Teachings {U}), which makes every Reversal loop positive.
 
-**Draw (8 more, incl. Expedite).** Azula empties her hand fastest of his decks: refill every turn cycle.
-- Big Score: in the window the copy draws two and makes two Treasures with no discard: discard 1, draw 4, 4 Treasures.
-- Thrill of Possibility: in the window, discard one, draw four. Alone a loot.
-- Fact or Fiction: end of the last opponent's turn, or copied in the window.
-- Pull from Tomorrow: end of the last opponent's turn with all lands (Turnabout first doubles it); copied, 2X cards. Bad early.
-- Abandon Attachments: cheap rummage; copied, one more pair. Bin extra lands.
-- Waterbending Lesson: main phase, tap rocks to waterbend {2}: draw three, keep all. The refill after a wipe.
-- Fists of Flame: after blocks: two cards drawn copied, and trample with +1/+0 per card drawn, twice: the blocker dies, the rest tramples over.
-- Expedite: {R} cantrip; copied in the window it draws two; out of combat it gives a recast Azula, Godo or Ozai haste.
+**Finishers and second route (6).**
+- Comet Storm: two kicks name all three opponents; copied, 2X each. Early, X = 2 to 3 kills blockers.
+- Electrodominance: X to any target and a free spell from hand in the window, copied: Gearhulk or Godo at X = 6, Aether Gale
+  at X = 5 (twelve permanents bounced).
+- **Torrential Gearhulk (IN):** cast it in the window with two instants in the graveyard: a token Gearhulk and the card, each
+  recasts an instant for free, and Azula copies both. Best targets: Turnabout and Frantic Search (the Gearhulk is free and
+  nets mana), Mystical Teachings (two more tutors), Fact or Fiction, Big Score (discard needed). On an opponent's turn: a 5/6
+  blocker that recasts a counter or a removal spell. Mystical Teachings finds it. Bad early.
+- Helm of the Host: on Azula, a hasty Azula every combat (every spell copied twice). Godo fetches it. Bad early.
+- Godo, Bandit Warlord: turn 6+; Helm onto the battlefield; Helm on Godo: unlimited combats. Bad early.
+- Ozai, the Phoenix King: cast before combat, he attacks at once and refunds {R}{R}{R}{R}; with Azula, six red mana per
+  combat; he keeps all unspent mana as red. Bad early.
 
-**Spot removal (8 + the loop pieces Snap and the Reversal).** All instant (Amphibian Downpour has flash). In the window each answers two permanents.
-- Fatal Push: {B} on an early threat or a blocker; sacrifice a Treasure/Clue first for revolt. Bad late.
-- Firebending Lesson: {R} 2 damage (5 kicked) at instant speed: pingers, mana dorks, a blocker. Bad late unkicked.
-- Terminate, Go for the Throat, Hero's Downfall: kill the blocker after blocks; the copy kills a second creature. Downfall also hits planeswalkers.
-- Abrade: 3 damage or destroy an artifact (stax pieces, combo artifacts).
-- Chaos Warp: any permanent (the enchantment answer), commanders included.
-- Failed Fording: {1}{U} bounce any nonland permanent (an enchantment, a stax piece, a token) or a blocker; copied, two.
-- Amphibian Downpour: flash in the window; storm plus the copy turn several creatures (or a commander) into vanilla 1/1 Frogs.
+**Tutors and dig (5).**
+- Mystical Teachings: in the window it is copied: Narset's Reversal AND Turnabout, the whole loop for the next combat. Or a
+  piece and a counter, or Gearhulk. Flashback from the graveyard is copied too.
+- Solve the Equation: main phase: the missing loop piece or Comet Storm.
+- Shred Memory: transmute for a mana-value-2 card: the Reversal, Snap, Comet Storm or Electrodominance (R7), or Boots. At
+  instant speed: exile four cards of a graveyard (copied: two graveyards). The deck's graveyard hate.
+- Narset, Parter of Veils (Game Changer): turn 3; two activations dig eight cards for noncreature spells; opponents draw one
+  card a turn.
+- Brainstorm: end of an opponent's turn, or copied in the window (six cards seen). Put back cards a shuffle will remove.
 
-**Counters and the win-turn shield (R24).** Shield pieces at MV 2 or less or free: Spell Pierce, Swan Song, Negate, Narset's
-Reversal, Deflecting Swat (free), Octopus Form, Redirect Lightning. Sequence: on the win turn, keep {U} for Spell Pierce/Swan
-Song and Deflecting Swat in hand; cast the loop's cheapest piece first to draw out a counter; hold the Reversal last.
-- Spell Pierce (BUY): {U}: stops a removal spell or wipe aimed at Azula early, and the answer to your loop on the win turn.
-- Swan Song: {U}: counters an instant, sorcery or enchantment (wipe, removal, combo spell, stax enchantment).
-- Negate: {1}{U}: any noncreature spell; hold it after a big attack.
+**Draw (8).**
+- Big Score: in the window: discard 1, draw 4, 4 Treasures.
+- Thrill of Possibility: in the window: discard 1, draw 4. Discard an instant Gearhulk wants.
+- Thirst for Knowledge: draw three at an end step, six in the window; discard a spare rock or equipment.
+- Fact or Fiction: end of the last opponent's turn, or copied (two piles of the best cards).
+- Pull from Tomorrow: end step with all lands; copied, 2X cards. Bad early.
+- Abandon Attachments: {R}{R} of firebending pays it: discard two dead cards, draw four.
+- Expedite: {R}; copied it draws two; out of combat it gives a recast Azula, Godo or Gearhulk haste.
+- **Frostcliff Siege (IN):** turn 3 with no rock. Temur when Azula is not out or was just killed: she has haste with no
+  equip cost (Azula on turn 4 attacks on turn 4), +1/+0 and trample. Jeskai when she is out with Boots: a card every turn
+  she hits the opponent who does not block.
 
-**Commander protection and haste (8).**
-- Swiftfoot Boots: hexproof and haste; recast is hasty for {1}.
-- Champion's Helm: hexproof on a legend, +2/+2 (6/6 Azula wins most blocks).
-- Haunted Cloak: vigilance (she still blocks after attacking), trample, haste.
-- Hidden Footblade: {R} flash after blocks for first strike; haste on a recast.
-- Octopus Form: hexproof in response, +1/+1 in a fight, or untap her as a blocker.
-- Deflecting Swat: free while she is out: send the removal to their creature.
-- Redirect Lightning: redirect a single-target removal spell (Lesson).
-- Undying Malice: in response to destroy or a wipe she returns with a counter, no tax.
+**Spot removal (9, plus Snap and the Reversal).** In the window each instant answers two permanents.
+- **Heartless Act (IN):** two mana, kills almost any creature.
+- Terminate, Go for the Throat: kill the blocker after blocks; the copy kills a second one.
+- Hero's Downfall: creature or planeswalker.
+- Abrade: 3 damage or an artifact.
+- Chaos Warp: any permanent; the instant answer to an enchantment or a land.
+- Failed Fording: bounce any nonland permanent; copied, two.
+- Amphibian Downpour: flash in the window: storm and the copy turn several creatures or commanders into 1/1 Frogs.
+- **Imprisoned in the Moon (IN):** main phase, on the commander the table fears most (it stays on the battlefield as a land),
+  or on a planeswalker or a utility land. Never copied.
 
-**Wipes (2).**
-- Day of Black Sun: X=0 for {B}{B} kills every token (Board 1); X=3 spares Azula and the 4-drops. Sorcery: never copied.
-- Ritual of Soot: everything at MV 3 or less: the reset against a go-wide or dork-heavy table; it also kills your reducers, Thermo, Electro and Dualcaster (Narset, a planeswalker, and Azula survive). Cast when they are absent or worth losing.
+**Counters (4, five with the Reversal).**
+- Spell Pierce, Swan Song: {U} each: the wipe, the removal on Azula, the counter aimed at my loop.
+- Negate: any noncreature spell.
+- **Mana Leak (IN):** the only cheap counter here that stops a creature spell (a commander, a finisher). Best on turns 2 to 6
+  and whenever a player taps out. Late, use it on my own turn against a tapped-out player.
+
+**Protection and haste (6).**
+- Swiftfoot Boots: hexproof and haste; a recast Azula attacks at once for {1}.
+- Champion's Helm: hexproof and 6/6: she wins most blocks.
+- Hidden Footblade: {R}, flash: after blocks, first strike kills the blocker before it deals damage; haste on a recast.
+- Octopus Form: hexproof in response, +1/+1 in a block, or untap her as a blocker.
+- Deflecting Swat: free while she is out: send the removal to their creature, or a counter to another spell.
+- Redirect Lightning: the same for {R} and 2 mana or 5 life.
+
+**Mass answers (2).**
+- Day of Black Sun: X = 0 for {B}{B} kills every token; X = 3 spares Azula. Never copied.
+- **Aether Gale (IN):** main phase before the attack: six permanents back to hand, none of mine (tokens are gone for good):
+  blockers before Godo's combats or a Siege hit, or the stax pieces before a loop turn. Needs six targets. Bad early.
 
 **Utility (1).**
-- Propaganda (proven role-player): turn 3; each attacker costs {2}: they hit the others while Azula is tapped.
+- Propaganda (proven role-player): turn 3; attackers hit the other players while Azula is tapped.
 
-**Lands (36).** 6 Island, 6 Mountain, 5 Swamp; Command Tower, Exotic Orchard; check/reveal lands (Drowned Catacomb, Dragonskull
-Summit, Sulfur Falls, Choked Estuary, Foreboding Ruins, Frostboil Snarl); Smoldering Marsh and Sunken Hollow (untapped with two
-basics); pain lands (Shivan Reef, Sulfurous Springs, Underground River); filter lands (Cascade Bluffs, Sunken Ruins, Darkwater
-Catacombs, Shadowblood Ridge); Fire Nation Palace (firebending 4 on the big turn); Rogue's Passage (Azula unblockable for {4}).
+**Lands (36).** 7 Island, 5 Mountain, 5 Swamp; Command Tower, Exotic Orchard; Drowned Catacomb, Dragonskull Summit, Sulfur
+Falls; Choked Estuary, Foreboding Ruins, Frostboil Snarl; Smoldering Marsh, Sunken Hollow; Shivan Reef, Sulfurous Springs,
+Underground River; Cascade Bluffs, Sunken Ruins, Darkwater Catacombs, Shadowblood Ridge; Fire Nation Palace (firebending 4 on
+the big turn); Rogue's Passage (Azula unblockable for {4}: a Siege card, or a safe attack).
 
-Multi-role count (R4): 31 of 63 nonland cards count in two or more profile functions (every window instant is spell_density
-plus its job). Commander-centric count (R5): cards that do nothing useful without Azula: Turnabout's combo use only (it still
-untaps lands), Fists of Flame (still a trick on Ozai/Godo), Hidden Footblade: 3 or fewer, under 12.
+Dead clauses: Failed Fording's Desert line (no Deserts); Black Market Connections' changeling types (no typal card).
+Commander-centric count: cards weak without Azula: Deflecting Swat (3 mana then), Hidden Footblade, Octopus Form, Champion's
+Helm, Fire Nation Palace's ability: 5, under 12.
 
-## 3. Curve, ratios and the reasons
+## 3. Curve and ratios
 
-| MV (X = 0) | 0-1 | 2 | 3 | 4 | 5 | 6 |
-|---|---|---|---|---|---|---|
-| Cards | 11 | 26 | 14 | 9 | 1 | 2 |
+| MV (X = 0) | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|---|
+| Cards | 1 | 8 | 26 | 16 | 7 | 2 | 3 |
 
-Average MV 2.51 (nonland, X at 0) against 2.71 for the current list and 2.60 for iteration 1. Only three cards at 5+: Horizon
-Stone (proven role-player), Godo and Ozai (each wins a game or a route by itself).
+Average 2.60 (today's deck 2.48). 35 cards at MV 2 or less. Five cards at 5+: Horizon Stone (proven), Aether Gale, Godo, Ozai,
+Gearhulk; each wins a game, answers six permanents or refills. Types: 30 instants, 4 flash permanents, 3 sorceries (+ Gleam),
+11 creatures, 13 artifacts, 5 enchantments, 1 planeswalker.
 
-### 3.1 Profile table (spellslinger + combat_attackers as modifier)
+### 3.1 Profile table (spellslinger, with combat_attackers as modifier)
 | Function | Tier | Min | Target | Actual | Reason |
 |---|---|---|---|---|---|
-| Lands | band | 36 | 36 | 36 | Overlap of the two bands; X spells and Horizon Stone sink every land; 3 colors for a 4-MV gold commander. R8: lands + lasting ramp 36 + 7 rocks = 43 (+3 reducers = 46). |
-| Ramp (turn 1 to 3) | base | 12 | 12 | 10 (WARN) | 3.3. |
-| Draw (nets cards) | base | 12 | 18 | 12 by tag (Archmage, Narset, Gleam, Big Score, Thrill, Thirst, FoF, Pull, Abandon, Waterbending Lesson, Fists, Expedite at half), and about 16 effective in her window (Big Score, Thrill, Thirst, Fists, Expedite, Abandon double; Brainstorm copied). | Azula spends cards fastest (owner L2). |
-| Spot answers (incl. counters) | base | 8 | 10 | 14 (11 at MV 2 or less, 13 instant + 1 flash) | R19. Fatal Push, Firebending Lesson, Spell Pierce, Swan Song, Terminate, Go for the Throat, Abrade, Failed Fording, Snap, Negate, Narset's Reversal, Hero's Downfall, Chaos Warp, Amphibian Downpour. Artifact answers: Abrade, Chaos Warp, Failed Fording; enchantment answers: Chaos Warp, Failed Fording, Swan Song (spell). |
-| Wipes | base | 2 | 3 | 2 | Day of Black Sun (X controlled), Ritual of Soot. |
-| Commander protection | attack engine | 6 | 8 | 8 + 3 counters | Boots, Champion's Helm, Haunted Cloak, Octopus Form (hexproof layers); Deflecting Swat, Redirect Lightning, Narset's Reversal (redirect/return); Undying Malice (destroy/wipe); plus Spell Pierce, Swan Song, Negate. 61 % to see two by turn 5 [J, 11 pieces]. |
-| spell_density | gate early | 30 | 36 | 35 | Instants and flash only (the window). 100 % to see 3+ by turn 5. |
-| spell_payoffs | gate late | 6 | 8 | 8 + tutors (10) | Azula, Archmage, Storm-Kiln, Dualcaster, Electro, Helm, Narset's Reversal, Thermo-Alchemist; Teachings, Godo. |
-| through_wide_board | gate early | 10 | 12 | 10 + 2 tutors | Comet Storm, Electrodominance, Thermo-Alchemist, Day of Black Sun, Ritual of Soot, Rogue's Passage, Haunted Cloak, Fists of Flame, Electro (flier), Ozai (trample). Chumps never stop the copies. |
-| through_big_creatures | gate early | 10 | 12 | 13 + 3 tutors | Removal after blocks (copied: two blockers), Snap, Failed Fording, Amphibian Downpour, Comet Storm, Electrodominance, Firebending Lesson kicked, Fists of Flame, Champion's Helm 6/6, Rogue's Passage. |
-| window_mana | declared late | 6 | 8 | 9 + 2 tutors | Horizon Stone, Electro, Ozai (keepers); Storm-Kiln, Big Score (Treasures); Frantic Search, Snap, Turnabout (untaps); Fire Nation Palace. |
-| Route access (R18) | champion | 10 | 12 | 14 | Six loop pieces + Mystical Teachings + Solve + Shred Memory + Narset + Gleam + Brainstorm + Thirst + the two finishers' tutors. |
-| Win-turn shield (R24) | champion | 3 | 5 | 7 | Section 4. |
-| haste | support | 4 | 6 | 4 | Swiftfoot Boots, Haunted Cloak, Hidden Footblade (equipment: stay after she dies), Expedite (one-shot, also a copied cantrip). |
-| team_evasion | support | 6 | 8 | 5 (WARN) | 3.3. |
-| defense_while_tapped | support | 4 | 6 | 5 | Propaganda, Haunted Cloak (vigilance), Thermo-Alchemist (defender), Nightscape Familiar (regenerate), Octopus Form (untap). |
-| combat_draw | support | 4 | 6 | 5 | Archmage, Fists, Expedite, Thrill, Big Score. |
-| wipe_insurance | support | 2 | 3 | 3 | Undying Malice, Negate, Swan Song; equipment, Helm and Horizon Stone survive creature wipes. |
-| attackers | support (modifier) | 12 | 16 | 4 (WARN) | 3.3. |
+| Lands | band | 36 | 36 | 36 | Overlap of the two bands; X spells, Horizon Stone and the Turnabout loop use every land. Lands + lasting ramp: 36 + 7 rocks + 3 reducers = 46. |
+| Ramp | base | 12 | 12 | 10 + Black Market Connections (WARN) | 3.3. |
+| Draw | base | 12 | 18 | 12 by tag | Four are engines now (Archmage, Black Market Connections, Frostcliff Siege, Narset) against two today; Gearhulk recasts a draw spell on top. |
+| Spot answers (with counters) | base | 8 | 10 | 15, and 16 by tag with Shred Memory | 11 at MV 2 or less; 14 instant or flash. |
+| Mass answers | base | 2 | 3 | 2 | Day of Black Sun; Aether Gale (one-sided, six targets). |
+| Commander protection | attack engine | 6 | 8 | 6 + 4 counters + the Reversal | Hexproof: Boots, Champion's Helm, Octopus Form. Redirect: Swat, Redirect Lightning, the Reversal. Counters: Pierce, Swan Song, Negate, Mana Leak. |
+| spell_density | gate early | 30 | 36 | 34 | Instants and flash only. |
+| spell_payoffs | gate late | 6 | 8 | 9 + 3 tutors | Azula, Archmage, Storm-Kiln, Dualcaster, Gearhulk, Electro, Helm, the Reversal, Thermo. 8 without Azula. |
+| through_wide_board | gate early | 10 | 12 | 11 + 3 tutors | Section 5, Board 1. Electro (one small flier) is the weakest count. |
+| through_big_creatures | gate early | 10 | 12 | 15 + 3 tutors | Section 5, Board 2. |
+| window_mana | declared late | 6 | 8 | 11 + 3 tutors | Bankers: Horizon Stone, Electro, Ozai. Treasures: Storm-Kiln, Big Score, Black Market Connections. Untaps: Frantic Search, Snap, Turnabout. Fire Nation Palace; Glamdring's discount. |
+| Route access | champion | 10 | 12 | 13 | Six loop pieces, two finishers, Teachings, Solve, Shred Memory, Godo, Gearhulk; plus dig. |
+| Win-turn shield | champion | 3 | 5 | 8 | Section 4. |
+| haste | support | 4 | 6 | 4 | Boots, Frostcliff Siege, Hidden Footblade, Expedite. |
+| team_evasion | support | 6 | 8 | 4 (WARN) | 3.3. |
+| defense_while_tapped | support | 4 | 6 | 5 | Propaganda, Thermo-Alchemist, Nightscape Familiar, Octopus Form, Gearhulk (flash 5/6). |
+| combat_draw | support | 4 | 6 | 5 | Archmage, Frostcliff Siege, Expedite, Thrill, Big Score. |
+| wipe_insurance | support | 2 | 3 | 4 | Negate, Swan Song, Mana Leak, Spell Pierce. |
+| attackers | support (modifier) | 12 | 16 | 5 (WARN) | 3.3. |
 | cost_reducers | support | 2 | 4 | 4 | Electromancer, Stormcatch, Nightscape, Glamdring. |
-| Graveyard hate | floor | 1 | 1 | 1 | Shred Memory (instant; copied in the window: two graveyards). |
-| Answers to commanders | floor | 2 | 3 | 4 | Chaos Warp, Amphibian Downpour (no tax reset), Failed Fording and Snap (tempo). |
-| Rebuild after a wipe (R32) | champion | 4 | | 5 | Azula recast with haste from equipment left behind, Undying Malice, Waterbending Lesson, Pull from Tomorrow, Godo (fetches Helm). |
+| Graveyard hate | floor | 1 | 1 | 1 | Shred Memory. |
+| Answers to commanders | floor | 2 | 3 | 3 lasting + 3 tempo | Imprisoned in the Moon, Amphibian Downpour, Chaos Warp; Snap, Failed Fording, Aether Gale. |
+| Rebuild after a wipe | champion | 4 | | 6 | Azula recast with haste (Boots and Siege stay), Gearhulk, Black Market Connections, Pull from Tomorrow, Fact or Fiction, Godo. |
 
-Fit check (each card once, primary function): ramp 10 + draw and dig 15 + spot answers 14 + wipes 2 + protection 8 +
-loop pieces and engines 8 (Frantic, Turnabout, Dualcaster, Storm-Kiln, Archmage counted in draw, Thermo, Electro, Horizon
-Stone) + finishers and combat route 5 + tutors 3 (Teachings, Solve, Shred Memory, which is also the graveyard hate) + Propaganda = 63 nonland; 36 + 63 = 99.
+Fit check: ramp 10 + loop pieces 5 + engines 7 + finishers 6 + tutors and dig 5 + draw 8 + removal 9 + counters 4 +
+protection 6 + mass answers 2 + Propaganda = 63; 36 + 63 = 99.
 
-Answers against closers (red flag check): 14 spot answers + 2 wipes against 13 closers (Azula, Comet Storm, Electrodominance,
-Thermo, Ozai, Godo, Helm, Storm-Kiln, Dualcaster, Snap, Reversal, Frantic, Turnabout). Answers lead by three because in this
-deck every instant answer is also window fuel (it is copied, a two-for-one, and it untaps Thermo and makes Treasures); the
-closers are a compact three-card engine, not a pile of answers without a finish.
+Answers against closers: 13 spot answers and 2 mass answers against 14 closers (Azula, Comet Storm, Electrodominance,
+Gearhulk, Thermo, Ozai, Godo, Helm, Storm-Kiln, Dualcaster, Snap, the Reversal, Frantic Search, Turnabout). One more answer
+than closers: here every instant answer is also window fuel.
 
 ### 3.2 Colors
-Lands: blue 18 (6 Island + 12), black 18 (5 Swamp + 13), red 17 (6 Mountain + 11) + rocks (Arcane Signet,
-Waterskin any color; Everflowing Chalice colorless; Izzet Signet U/R; Dimir Signet U/B). Karsten for a 4-drop gold commander with one pip of each: 17 per
-color: met. Red has the most pips (Comet Storm, Electrodominance, Dualcaster, Electro, Ozai {R}{R}); firebending pays {R}{R}
-in the window. Tapped lands: none always tapped (R10); conditional: check/reveal lands, Smoldering Marsh, Sunken Hollow,
-Fire Nation Palace (untapped with a basic).
+Lands: blue 19, black 18, red 17; Rogue's Passage is colorless. Rocks add blue 4 (Arcane, Izzet, Dimir, Waterskin), black 3,
+red 3. One Mountain became an Island: the new cards are blue ({U}{U} on Gearhulk and Aether Gale; Mana Leak, Imprisoned in
+the Moon, Frostcliff Siege), firebending already pays {R}{R} in every window, and goldfish game 5 stalled on a second blue
+source. No land always enters tapped.
 
 ### 3.3 WARN reasons (none passed by relabeling)
-- **Ramp 10 of 12.** Seven rocks at MV 1 to 3 and three cost reducers, all castable by turn 2 or 3. The two missing pieces are
-  replaced by mana that only this commander makes, in the window where the deck spends it: firebending {R}{R}, Turnabout
-  (copied: all lands twice), Snap and Frantic Search untaps, Big Score and Storm-Kiln Treasures, Fire Nation Palace; Horizon
-  Stone banks the rest. A twelfth rock would cut a window card (spell_density 35) or an answer. Everflowing Chalice (owned)
-  is the tenth; the review found Fellwar Stone worth only +0.01 over it for 1,560. Lands + lasting ramp 46 (R8) holds with the reducers.
-- **Team evasion 5 of 6.** Azula's engine triggers on attacking, not on connecting: chump blockers cannot stop the copies, so
-  the line matters only for combat damage, which is the third route. Rogue's Passage, Haunted Cloak, Fists of Flame, Electro
-  (flier) and Ozai (trample) cover it; the noncombat routes do the rest.
-- **Attackers 4 of 12** (support line of the modifier). Her trigger needs one attacker, herself; Helm of the Host adds a hasty
-  Azula every combat. Twelve creatures would replace window instants (the iteration-1 review saw sorceries and permanents
-  never copied).
+- **Ramp 11 of 12.** Seven rocks and three reducers, all castable by turn 3; the eleventh is Black Market Connections' second
+  tag (a Treasure every turn from turn 4). The missing piece is mana only this commander makes: firebending, Turnabout,
+  Snap, Frantic Search, Big Score, Storm-Kiln. A third 3-mana rock (Commander's Sphere is free) would compete with Azula on
+  turn 3 and replace a window card.
+- **Team evasion 4 of 6.** Frostcliff Siege (team trample), Aether Gale and Turnabout (blockers removed or tapped), Rogue's
+  Passage. Azula's engine triggers on attacking, not on connecting, so the line matters only for the combat route and for
+  Siege's card. Ozai and Electro are evasive attackers, not counted.
+- **Attackers 5 of 12.** One attacker is the whole engine; twelve creatures would replace window instants.
 
-## 4. Interaction plan and protection plan
+## 4. Interaction and protection
 
-- **Interaction:** 14 spot answers, 11 at MV 2 or less, all instant or flash (R19: at least 8, 5 at MV 2 or less, 5 instant).
-  Three or more castable on an opponent's turn that stop a creature combo or a lethal attack: Fatal Push, Terminate, Go for
-  the Throat, Hero's Downfall, Snap, Failed Fording, Firebending Lesson, Chaos Warp. Stack: Spell Pierce, Swan Song, Negate,
-  Narset's Reversal (4 counters, R20: blue midrange/combo 4 to 6, chosen to protect its own win), plus Deflecting Swat and
-  Redirect Lightning. Use removal on the few blockers that matter and on combo pieces, never on value creatures.
-- **Protection of Azula:** layers: hexproof (Boots, Champion's Helm, Octopus Form), redirects (Swat free, Redirect Lightning,
-  the Reversal), counters (Pierce, Swan Song, Negate), recursion (Undying Malice), recast with equipment haste. Equip before
-  attacking; attack with {U} up when possible.
-- **Win-turn shield (R24): 7 pieces at MV 2 or less or free:** Spell Pierce, Swan Song, Negate, Narset's Reversal, Deflecting
-  Swat, Octopus Form, Redirect Lightning. Sequence: equip hexproof first; attack; cast the cheapest loop piece first (bait);
-  keep {U} for Pierce/Swan Song and Swat in hand; cast the Reversal last; if Teachings is in hand, cast it in the window and
-  take a loop piece AND a shield piece with the two copies.
-- **Politics (review N6):** Swan Song gives the caster's opponent a 2/2 flier: aim it at the spell of the table's leader, and the
-  Bird then pressures him too; Deflecting Swat and Redirect Lightning send a removal spell at the leader's best creature, which
-  turns the attacker's own table against him; Propaganda pushes attacks toward the other players while Azula is tapped;
-  Narset's static hurts the draw engines of the strongest player first. Do not take an early lead you cannot protect (R30).
-- **Against wipes:** do not commit more than Azula and one engine before a win turn when two or more opponents can wipe;
-  equipment, Horizon Stone and Propaganda survive; Undying Malice and the three counters cover the wipe turn.
+**Interaction (15 spot answers, 2 mass answers).**
+- At MV 2 or less (11): Heartless Act, Terminate, Go for the Throat, Abrade, Failed Fording, Snap, Spell Pierce, Swan Song,
+  Negate, Mana Leak, Narset's Reversal.
+- On an opponent's turn against a creature combo or a lethal attack: Heartless Act, Terminate, Go for the Throat, Hero's
+  Downfall, Snap, Failed Fording, Abrade, Chaos Warp, Mana Leak, and Gearhulk recasting any of them.
+- By permanent type:
+  - artifacts: Abrade, Chaos Warp, Failed Fording, Aether Gale;
+  - enchantments: Chaos Warp, Failed Fording, Aether Gale, and Swan Song, Negate or Mana Leak on the stack;
+  - planeswalkers: Hero's Downfall, Imprisoned in the Moon, Chaos Warp;
+  - lands: Imprisoned in the Moon, Chaos Warp;
+  - graveyards: Shred Memory;
+  - commanders: Imprisoned in the Moon and Amphibian Downpour (no zone change), then Chaos Warp.
+- Use removal on the blockers that matter and on combo pieces, never on value creatures.
 
-## 5. Mulligan and play pattern
+**Protection of Azula, in layers.** Hexproof (Boots, Champion's Helm, Octopus Form), redirects (Swat free, Redirect Lightning,
+the Reversal), counters (Pierce, Swan Song, Negate, Mana Leak), recast with haste (Boots, Siege on Temur, Footblade, Expedite).
+Nothing returns her from a resolved wipe without the tax (Undying Malice left for Mana Leak, which stops the wipe and more).
 
-**Keep checklist (R33):** 2 to 4 lands (3+ when the hand has no 1-2 mana rock or reducer) AND a play by turn 2 or 3 AND a plan
-piece or a way to find one. "Keep almost any land-good hand with": Sol Ring, Everflowing Chalice, Arcane Signet, Mystical Teachings,
-Narset, Archmage Emeritus. Ship 0-1 landers, 6+ landers, hands of only answers.
+**Win-turn shield, 8 pieces at MV 2 or less or free:** Spell Pierce, Swan Song, Negate, Mana Leak, Narset's Reversal,
+Deflecting Swat, Octopus Form, Redirect Lightning. Sequence: hexproof equipment on first; attack; cast the cheapest loop
+piece first as bait; keep {U} and Swat; the Reversal last. A redirect aimed at a counterspell makes it target the redirect
+itself, so it fizzles.
 
-**20 seeded hands (seed 20261108, scratch `az/sim` method):** kept 10 of 20 on the first seven (hands 2, 3, 7, 9, 10, 11, 12,
-13, 15, 16); seven ships were 0-1 landers, three were 2-landers with no cheap rock (4, 5, 19, and 14 with only Waterskin).
-Monte Carlo over 40,000 hands with the same rule: 66 % keep on the first seven, **89 % with the free mulligan** (target 85 %+).
+**Making blocks bad** (owner's signal): removal after blocks, copied; Hidden Footblade after blocks (first strike);
+Champion's Helm 6/6; Octopus Form; Siege on Temur (5 power, trample); Aether Gale or Turnabout before the attack. Attack the
+opponent who does not block.
 
-**Turns 1 to 5:** turn 1 land, Sol Ring; turn 2 a 2-drop rock or reducer, Thermo-Alchemist, or hold Spell Pierce/Swan Song;
-turn 3 Azula (with Sol Ring or a turn-2 rock) or Narset/Propaganda; turn 4 equip and attack: copy draw (Big Score, Thrill),
-removal on blockers and Brainstorm; turn 5 Archmage or Storm-Kiln with a shield up, or the first copied Teachings.
-**Turns 6 to 9:** the win turn when the loop is in hand and the shield is up; otherwise copied Comet Storm for 2X to each
-opponent (X 5 to 8), Helm of the Host on Azula, Godo if she is answered. **Late:** Turnabout + Horizon Stone for a single huge
-Comet Storm; Godo + Helm; Pull from Tomorrow at end steps.
+**Politics.** Swan Song gives its target's controller a 2/2 flier: aim it at the leader. Swat and Redirect Lightning send a
+removal spell at the leader's best creature. Propaganda pushes attacks elsewhere. Narset hurts the strongest draw engine
+first. Aether Gale: say what you will not bounce.
 
-**Goldfish, five games played turn by turn (seed 1108, first five shuffles with 3 to 4 lands in the opening seven; no
-opponents; draw from turn 1) [R38]:**
-| Game | Opening seven | Azula cast | First copied combat | What happened to turn 9 |
+**Against wipes.** Commit Azula and one engine, no more, when two opponents can wipe. Equipment, Siege, Black Market
+Connections, Horizon Stone and Propaganda survive. Hold Gearhulk for their end step.
+
+## 5. Mulligan, play pattern and tests
+
+**Keep:** 2 to 4 lands (3+ with no 1- or 2-mana rock or reducer), a play by turn 3, and a plan piece or a way to find one
+(Azula counts). Keep almost any land-good hand with: Sol Ring, a Signet, Mystical Teachings, Narset, Archmage, Black Market
+Connections. Ship 0-1 landers, 6+ landers, answers-only hands, hands with no blue source.
+
+**20 seeded hands (seed 1114, dealt before the Mountain-to-Island swap):** kept 12 on the first seven. Ships: five 1-landers
+(hands 2, 7, 9, 13, 18) and three 2-landers with no cheap mana (5, 10, 15). Monte Carlo, 40,000 hands, same rule: 65.5 % keep
+on the first seven, **88.1 % with the free mulligan** (target 85 %).
+
+**Turns 1 to 5.** Turn 1 land, Sol Ring. Turn 2 a rock or reducer, or Thermo-Alchemist. Turn 3 Azula (with a rock), else
+Black Market Connections, Frostcliff Siege (Temur), Narset or Propaganda. Turn 4 Azula, or attack: Teachings copied is the
+best window play, then Big Score, Thrill or Thirst. Turn 5 Archmage or Storm-Kiln with a counter up.
+**Turns 6 to 9.** The win turn when the loop is in hand and the shield is up. Otherwise Gearhulk in the window, a copied
+Comet Storm, Helm on Azula, Godo if she is answered.
+**Late.** Turnabout plus the banked mana for one huge Comet Storm; Godo + Helm; Pull from Tomorrow at end steps.
+
+**Goldfish, five games played turn by turn (the first five kept hands with 3 to 4 lands; no opponents):**
+| Game | Opening seven | Azula | What happened |
+|---|---|---|---|
+| 1 | Izzet Signet, Waterskin, Redirect Lightning, Hero's Downfall, 3 lands | T3 | T4 attack: Mystical Teachings (drawn T3) copied: Reversal and Turnabout. T5, five lands: the loop; Teachings' flashback, copied, finds Comet Storm; a Turnabout resolution untaps the Signet for red. **Kill T5** (the ceiling). |
+| 2 | Thirst, Electro, Boots, 4 lands | T4 (no red source on T3) | T3 end step Thirst. T5: Boots on, Gearhulk in the window, copied; one trigger recasts Thirst, copied: six cards (Godo among them), two 5/6. One red source all game: Electro and Ozai are discarded. T6 Godo fetches Helm, T7 Helm on Godo: **kill T7**. |
+| 3 | Boots, Imprisoned in the Moon, Fact or Fiction, 4 lands | T4 | Thermo T2, Boots T3. T5 Fact or Fiction copied (I assume the piles give Narset). T6 Narset's first dig finds two lands and two creatures: nothing, and Archmage and Dualcaster go to the bottom. No loop piece seen. T7 Godo (drawn), T8 Helm on Godo: **kill T8**, by the route that ignores Azula. Without Godo: Thermo's pings only, threat T10+. |
+| 4 | Big Score, Thirst, Dimir Signet, Deflecting Swat, 3 lands | T3 | T4: Glamdring on Azula, then Big Score for {R} and Thirst for {U}, both copied: ten cards and four Treasures. T5 Black Market Connections. No finisher in the top 29 cards: **threat T8 to 9**. |
+| 5 | Chalice, Solve the Equation, Swan Song, Go for the Throat, 3 lands | T4 | One blue source all game. Solve finds Comet Storm (the mana is red); Shred Memory finds Electrodominance. T6 Horizon Stone. T7 Comet Storm X = 8, copied: 16 to each opponent. **Kill T9 to 10.** |
+
+Summary: Azula T3 twice, T4 three times; first copied combat T4 to 5; kills on T5 (loop), T7 and T8 (Godo + Helm, both
+times with no loop piece in sight), T9-10 (copied burn), and one game with a threat on T8-9. Loops are the ceiling, copied
+value and Godo the floor. A goldfish has no blockers and no removal: Godo's two kills are the least robust. Five games rank
+nothing.
+
+**Disrupted:**
+- (a) Game 3, Azula killed in response to the Boots equip on T5: recast T6 for 6, first attack T7: two windows lost. In game
+  4 the same removal is redirected by Deflecting Swat for free.
+- (b) Game 2, a wipe in the turn cycle after T5 (I am tapped out for Gearhulk): it resolves; Azula and both Gearhulks die,
+  Boots stays. T6 Godo, T7 Helm on Godo threatens the table again one turn later than planned. A wipe one turn later meets
+  Mana Leak with two mana open.
+- (c) Game 1, the T5 Turnabout countered: Redirect Lightning makes the counter fizzle. With no shield, the pieces come back
+  through Gearhulk or Teachings' flashback, about two turns later.
+
+**Reference boards.**
+- Board 1, eight 1/1 chump blockers: they never stop the copies. Day of Black Sun at X = 0 kills every token for {B}{B} and
+  none of mine. Thermo-Alchemist, copied Comet Storm and the loops ignore blockers. Aether Gale removes six tokens, or the
+  maker and its engine. Godo's unlimited combats outlast them. Propaganda taxes the swarm: eight attackers cost 16.
+- Board 2, two or more bigger creatures: attack another player; instant removal after blocks kills two (copied); Snap and
+  Failed Fording bounce two; Aether Gale clears six before the attack; Imprisoned in the Moon and Amphibian Downpour last;
+  Champion's Helm makes her 6/6; the noncombat routes do not care.
+
+**Gauntlet.**
+1. Fast combo: Swan Song, Spell Pierce, Negate, Mana Leak (creature combos too), the Reversal; eight instant creature
+   answers; Shred Memory against the graveyard; Gearhulk recasts any of them; Narset's static.
+2. Stax and taxes: cheap threats (Azula 4, Thermo 2); Abrade, Chaos Warp, Failed Fording, Aether Gale. Weak point: "sorcery
+   speed only".
+3. Go-wide: Board 1.
+4. Big creatures: Board 2.
+5. Control: Narset, spread threats (Azula, Ozai, Godo, Gearhulk at their end step, Black Market Connections), instant draw
+   at end steps, the shield on the win turn.
+
+## 6. The owner's cards (review of 2026-11-14)
+
+| Card | Verdict | Reason |
+|---|---|---|
+| **Torrential Gearhulk** | **IN** (for Waterbending Lesson) | In the window it is two 5/6 bodies and four instants (R3). With Turnabout or Frantic Search in the graveyard it is free and makes mana. It is the deck's only recursion: a countered or used loop piece comes back. On an opponent's turn it is a counter or a kill on a blocker. Mystical Teachings finds it. The earlier cut ("6 mana") ignored that both the body and its instant are copied. Limit: X spells come back at X = 0. |
+| **Frostcliff Siege** | **IN** (for Haunted Cloak) | Better haste than the Cloak: no equip cost (Azula on turn 4 attacks on turn 4 with four lands; the Cloak needs a fifth mana and another one after each recast) and it survives a creature wipe. Jeskai is a card each turn against the opponent who never blocks (his decisions file). Lost: the Cloak's vigilance; defense while tapped still has five pieces. |
+| **Aether Gale** | **IN** (for Ritual of Soot) | The second mass answer. Ritual of Soot kills six of my own creatures (the three reducers, Thermo, Electro, Dualcaster), overlaps with Day of Black Sun against tokens and does nothing against big creatures. Aether Gale touches nothing of mine, takes any permanent type (stax pieces before a loop turn, blockers before Godo's combats), and kills tokens for good. Cost: 5 mana, sorcery, six targets needed. |
+| **Imprisoned in the Moon** | **IN** (for Firebending Lesson) | A second lasting answer to a commander, beside Amphibian Downpour: kill spells and Chaos Warp only send it to the command zone. Also the only answer to a utility land and a third to planeswalkers. Firebending Lesson (2 damage) did not kill a 3/3. |
+| **Mana Leak** | **IN** (for Undying Malice; the free second copy) | The only cheap counter in the pool that stops a creature spell: Spell Pierce, Swan Song and Negate all miss commanders and creature finishers. It is a hard counter whenever a player taps out, which is how his pod plays. Undying Malice answered only "destroy" and brought her back tapped; a counter stops the wipe itself. Late it is soft: guide note in section 2. |
+| **Mystical Teachings** | **IN** (stays) | Copied in the window it finds both halves of a loop (goldfish game 1), or Gearhulk. The second copy stays in the binder for Ezio. |
+| **Return the Favor** | **OUT for now: blocked by the bracket script, not by merit** | With Narset's Reversal in the list the script says FAIL: Spellbook variant 11-5940 (Reversal + Return the Favor, "infinite magecraft triggers") is stored with 5 mana, so the project rule reads it as an early two-card infinite. Its real line casts Return the Favor twice, the Reversal and another instant (9+ mana) and does nothing without a magecraft creature. The Reversal is the hub of three loops and stays. On merit it is IN: firebending pays its {R}{R}, it redirects removal or forks Comet Storm (four copies with Azula), and with Storm-Kiln Artist it is one more three-card loop. **Lead's decision** (section 7). Its jobs today: redirect: Deflecting Swat and Redirect Lightning; fork: Dualcaster Mage. |
+| **Waterbending Lesson** | **OUT** | His question: yes, the waterbend is usually payable (13 artifacts, six of them equipment that tap for free), but that is not the problem. It is a 4-mana sorcery: Azula never copies it, and its mana leaves the window. Fact or Fiction, Thirst for Knowledge and Pull from Tomorrow draw at instant speed and are doubled; Gearhulk takes the slot. |
+| Tome of Legends | OUT here, left for Ezio | It would be good here (a card a turn for {1}). The collection has one copy and he asked for it in Ezio; Azula claims Black Market Connections from Ezio instead, which does that job better here. If the lead returns that card to Ezio, the Tome takes its slot. |
+| Commander's Sphere | OUT | A third 3-mana rock competes with Azula on turn 3. Of the 3-mana rocks, Bender's Waterskin does more here: mana on each opponent's turn for instants. |
+| The Stasis Coffin | OUT (Toph's) | It protects the player for one turn; this deck's need is the commander. Propaganda covers the crack-back every turn. One copy, and it is his top Toph card. |
+| Royal Assassin | OUT | A 1/1 that needs a turn and never helps the window; the instant removal does its job twice per card in her combat, and Propaganda is the deterrent. |
+| Deadeye Navigator | OUT | Six mana and a second creature that must survive; it would blink Gearhulk or Dualcaster, but only after 12 mana in permanents. |
+| Merciless Harlequin, Evie Frye, Jacob Frye, Lydia Frye, The Revelations of Ezio | OUT | Assassin cards: freerunning needs combat damage by an Assassin or the commander, the Fryes need each other, the saga returns Assassins. No Assassin in this deck. |
+| Mortify, Utter End, Hardened Scales, Inscription of Abundance, Alibou | not in Azula's colors | |
+
+## 7. Copies
+
+**Claimed from another deck (1).**
+| Card | Copies | Holder today | Reason | What that deck loses |
 |---|---|---|---|---|
-| 1 | Snap, Sol Ring, Glamdring, Thermo-Alchemist, 3 lands | T3 (Sol Ring) | T4: Fact or Fiction copied (two piles) | Narset T5 digs; Thermo pings 2 a turn cycle; Snap waits for Dualcaster/tutor; table threat by copied burn about T8 |
-| 2 | Spell Pierce, Thermo, Comet Storm, Nightscape Familiar, 3 lands | T4 (Nightscape discount, Pierce up) | T5: Dualcaster flashed in, Comet Storm copied three times (X 2, two kicks): 6 to each opponent | Second Comet Storm turn impossible without a tutor; kill about T8-9 with Thermo and combat |
-| 3 | Champion's Helm, Izzet Signet, Narset, Ritual of Soot, 3 lands | T4 | T5: hexproof 6/6, copies Abrade and Failed Fording | No finisher or loop seen by T9 despite two Narset digs: a slow game won only by combat with Helm; the weakest of the five |
-| 4 | Expedite, Propaganda, Octopus Form, Thirst, 3 lands | T4 | T5: Thirst copied (six cards), Snap and Fists of Flame found | Electromancer and Sol Ring T5-6; table threat about T8 |
-| 5 | Firebending Lesson, Thirst, Narset, Abrade, 3 lands (two enter tapped) | T4 | T5: Terminate and Negate held; Thermo pings | Horizon Stone T6 banks mana; Day of Black Sun for a board; threat about T9 |
-Summary: Azula on T3 once, T4 four times; first copied combat T4 to 5; no loop assembled by T9 in these five (two of them
-saw a loop piece without its partner); the first table-wide threat came on T8 to 9 from copied burn and Thermo-Alchemist.
-The loops are the ceiling, the copied fair game is the floor. Raw odds over 40,000 shuffles (draw spells NOT counted, so
-conservative): all pieces of a loop seen or tutorable 17 % by turn 6, 22 % by turn 8, 27 % by turn 10 (current list
-15/20/24 %, iteration 1 15/19/24 %), slightly more with Shred Memory as a third tutor; a finisher or a tutor 42 % by turn 6.
-**Disrupted (on games 1, 2 and 4):** (a) game 1, Azula killed on her first attack T4: recast T6 for 6 mana with no equipment
-yet, she attacks T7: the plan slips two turns; (b) game 2, wipe on T6: Spell Pierce held and countered it (the opponent at
-three open mana could not pay 2); (c) game 4, the first Thirst copy countered: the hand still held Snap and Fists, the next
-combat retried, one turn lost.
+| Black Market Connections | 1 (EN, ACR 87; scanned in the Azula deck) | Ezio | Azula spends cards fastest and had two draw engines; this one needs no combat damage. Its Treasures are window mana and raise Storm-Kiln. It was in the Azula list he won with (round4-step27) and left only by build order. | Ezio loses a Treasure for its payment, a card and a changeling Assassin each turn. It keeps Coastal Piracy, Ezio Blade of Vengeance, Lion Vulture, Basim, Eagle Vision and nine rocks. Azula leaves it the two free cards he asked for there (Tome of Legends, Commander's Sphere) and does not touch Ezio's Mana Leak (Azula takes the free second copy). |
 
-**Gauntlet (R39):**
-1. Fast combo (turns 5 to 7): Swan Song, Spell Pierce, Negate, Narset's Reversal on the stack; Fatal Push, Terminate,
-   Firebending Lesson, Snap on creature combos at instant speed; Shred Memory against graveyard combos; Narset's static
-   blanks draw-based engines.
-2. Stax and taxes: cheap threats (Azula at 4, Thermo at 2); Abrade, Chaos Warp, Failed Fording, Swan Song (enchantment spell)
-   against the pieces. Weak point: "spells only at sorcery speed" (answer it with Chaos Warp/Failed Fording first).
-3. Go-wide tokens (Board 1): Day of Black Sun X=0, Ritual of Soot, Thermo-Alchemist, copied Comet Storm; chumps never stop the
-   copies; Propaganda taxes the swarm.
-4. Big creatures (Board 2): copied removal after blocks kills two, Snap and Failed Fording bounce two, Amphibian Downpour,
-   Champion's Helm 6/6, Fists of Flame wins the block, Rogue's Passage.
-5. Control (counters and wipes): Narset's static and her dig, threats spread (Azula, Ozai, Godo, Thermo), instant-speed draw at
-   end steps, the shield counters on the win turn, rebuild in section 3.1.
+Fallback if the lead rules for Ezio: Tome of Legends (free) takes the slot here.
 
-## 6. BUY (owner, 2026-11-08: each card under 3,000 CLP, three stores, Azula all-in 6,000)
+**Not claimed, on purpose:** Fellwar Stone, Rakdos Signet, Diabolic Tutor, Kolaghan's Command, Infernal Grasp (Ezio);
+Strionic Resonator, Lithoform Engine (Kilo). Each gains about as much here as its deck loses. Venser, Shaper Savant (free):
+considered as a sixth counter and left out (cut log).
 
-Ranked by gain per CLP (the review's ranking, gain in real-power points [J]). The lead verifies live stock before buying.
-"To read" prices come from suggest.json on 2026-11-08 (product JSON answered HTTP 429): the "from" figure can be a sold-out or
-played variant, so the ceiling is budgeted; any copy better than Damaged is acceptable (owner's condition rule, 2026-11-08).
-| # | Card | Store | Price (CLP) | Language | Gain | Plays until it arrives |
-|---|---|---|---|---|---|---|
-| 1 | Thirst for Knowledge | Rivendel El Concilio | 300 (read 2026-11-08, 2 in stock) | ES | +0.03: instant draw three, six copied; the order's "stock" copy becomes Azula's, Kilo keeps its own | Lightning Strike (owned) |
-| 2 | Narset, Parter of Veils (Game Changer 1 of 3) | Game of Magic Singles | 1,440 (read live 2026-11-08) | EN | +0.10: two -2 digs for noncreature spells (every loop piece, tutor and finisher); static stops the table's extra draws | Zuko, Exiled Prince (owned) |
-| 3 | Shred Memory | Game of Magic Singles (from 680) or PayToWin (from 1,100, Ravnica: City of Guilds) | 1,100 ceiling (to read) | EN or ES | +0.06: third real tutor to the loops (transmute for the Reversal or Snap) and the graveyard hate | Soul-Guide Lantern (owned, free ES copy) |
-| 4 | Spell Pierce | Game of Magic Singles (Double Masters, NM EN) | 570 (read live 2026-11-08) | EN | +0.03: {U} shield for the win turn and Azula's first turns | Mana Leak (owned, free) |
-| 5 | Turnabout | Game of Magic Singles (from 445) or PayToWin (from 960; DMR, RVR retro) | 1,560 ceiling (to read; GoM's DMR retro is sold out) | EN | +0.07: a fourth Reversal partner (Azula + Reversal + Turnabout, unbounded mana) and alone a copied double untap of all lands for Comet Storm | Opt (owned) |
-| | **Total buys** | | **4,970** | | | |
+**Cards whose copies run short** (one copy per deck that wants it today; no conflict opened by this list):
+- with Kilo (Spanish copies): Swan Song (1), Negate (2), Thirst for Knowledge (2), Cascade Bluffs, Shivan Reef, Sulfur Falls,
+  Everflowing Chalice, Chaos Warp, Command Tower, Exotic Orchard, Sol Ring, Arcane Signet;
+- with Ezio: Propaganda (2), Swiftfoot Boots (2), Hidden Footblade (2), Terminate (2), Bender's Waterskin (3), Drowned
+  Catacomb, Dragonskull Summit, Sunken Hollow, Smoldering Marsh, Sulfur Falls;
+- with Toph: Redirect Lightning (2), Everflowing Chalice, Chaos Warp, Sol Ring.
+- Single copies only Azula plays: every loop piece, Comet Storm, Electrodominance, Gearhulk, Frostcliff Siege, Imprisoned in
+  the Moon, Aether Gale, Heartless Act, Horizon Stone.
 
-Cut order if the global target needs room (review): Spell Pierce (Mana Leak plays, -570) → Turnabout (Opt plays, -1,560) →
-Shred Memory (Soul-Guide Lantern plays) → Thirst (stock line) → Narset last.
+**Freed for the later decks:** Haunted Cloak, Fatal Push (three free now), Firebending Lesson, Fists of Flame, Undying
+Malice, Ritual of Soot, Waterbending Lesson (three free; Kilo keeps its own).
 
-Rejected (over 3,000 each or no stock in the three stores, suggest.json 2026-11-08): Fellwar Stone (1,560: the review found
-+0.01 over the owned Everflowing Chalice), Crackle with Power (7,200+; the best finisher: 6 mana copied = 30 to each
-opponent), Dark Ritual (2,500+), Seething Song (4,650+), Pyretic and Desperate Ritual (4,700+), Merchant Scroll (3,800),
-Lim-Dûl's Vault (3,900), Mystic Remora (9,300), Pyroblast (8,100+), Deadly Rollick (18,900+); Notion Thief, Valley Floodcaller,
-Arcane Denial: no stock. Counterspell (PayToWin 1,700 to 3,400) and Muddle the Mixture (1,700 to 8,100): next in if the
-envelope grows, with Lightning Bolt (PayToWin from 900).
+**Language, where it is not English** (no English copy owned or free): Torrential Gearhulk (CMM 128) and Aether Gale
+(SOC 186), both new; and as today: Mind Stone, Nightscape Familiar, Narset's Reversal, Helm of the Host, Solve the Equation,
+Thirst for Knowledge, Thrill of Possibility, Pull from Tomorrow, Swan Song, Negate, Shred Memory, Command Tower (PIP 259,
+pinned), Exotic Orchard, Choked Estuary, Darkwater Catacombs, Sulfurous Springs. Everything else is English.
 
-**Game Changers (checklist item 34, not applied for budget):** 1 of 3. No Game Changer is owned for Azula and none other is in
-stock under 3,000 in the three stores (Mystical Tutor 21,600 and up; Rhystic Study, Fierce Guardianship, Jeska's Will,
-Underworld Breach, Cyclonic Rift all far above). The two free slots stay open; nothing in the list blocks them.
+**For the lead.**
+1. The Black Market Connections claim above.
+2. Return the Favor: if variant 11-5940 is reclassified (real cost 9+ mana, needs a third card), it comes in for Hero's
+   Downfall. Until then the bracket script fails with it by design, so I did not test that list. The plan file would tag it
+   payoff and protection and add it to spell_density, spell_payoffs and the burn route. With Azula attacking, the script's
+   own hazard list already knows its self-copy loop as floor 3.
+3. Tokens: Black Market Connections moves here with its Shapeshifter token (he owns 1); it, Big Score and Storm-Kiln make
+   more Treasures than the 2 he owns.
 
-## 7. Loans and replacements
+## 8. Changes against the deck as built today
 
-- **Overpowering Attack: returned, no replacement.** The loan is dropped and its replacement (PayToWin 1,440, line 10 of the
-  final order) is NOT bought: a 5-mana sorcery that needs Azula to connect first; Turnabout buys a bigger second window of mana.
-  For the lead: remove Azula's `borrowed` entry in `decks/phase2.json`, the restock row and order line 10 (shared files, not
-  edited here).
-- No other loan. Propaganda and Hidden Footblade are the owner's own scanned copies (Ezio plays the loan Hidden Footblade
-  and buys its replacement).
-
-## 8. Scarce copies and languages
-
-| Card | Copies (language) | Held by | Azula's claim |
-|---|---|---|---|
-| Swan Song | 1 (ES) | Kilo's current list | **Claim.** The only 1-mana counter in the pool that stops a wipe or the removal aimed at Azula; English copies cost 79,000+. Kilo loses one counter (review N1: with Swan Song and Negate both in Azula, Kilo is left with one Spanish counter). If the lead rules for Kilo, the fallback here is Azula's Negate → It'll Quench Ya! (owned EN), keeping Swan Song. |
-| Thirst for Knowledge | 1 owned (ES) + 1 bought (stock line, Rivendel 300, ES) | Kilo keeps the owned copy | Azula takes the bought one: no conflict. |
-| Everflowing Chalice | 3 (2 EN, 1 ES) | Kilo 1 | Azula takes an English copy: no conflict. |
-| Black Market Connections | 1 (EN) | Ezio (final) | Not claimed: Ezio keeps it; replaced by Everflowing Chalice (ramp) and Thirst (draw). |
-| Mystical Teachings, Swiftfoot Boots, Haunted Cloak, Propaganda, Terminate, Chaos Warp, Drowned Catacomb, Dragonskull Summit, Sunken Hollow, Sulfur Falls | 2+ | Ezio holds one | Azula takes the other (English). |
-| Command Tower, Exotic Orchard, Sol Ring, Arcane Signet, Rogue's Passage, Shivan Reef, Cascade Bluffs | enough | Toph / Kilo / Ezio | Azula takes the English copy where Kilo needs the Spanish one (Shivan Reef, Cascade Bluffs, Sulfur Falls, Chaos Warp: EN for Azula). Command Tower: the English copy if free, else Spanish. |
-| Smoldering Marsh | EN (LTC) + ES (owed) | Ezio takes the owed Spanish copy | Azula plays the English LTC copy. |
-
-Soul-Guide Lantern is no longer claimed (Shred Memory replaces it). Spanish-only copies Azula plays (no English owned):
-Choked Estuary, Darkwater Catacombs, Sulfurous Springs, Exotic Orchard, Helm of the Host, Mind Stone, Narset's Reversal,
-Negate, Nightscape Familiar, Pull from Tomorrow, Solve the Equation, Swan Song, Thrill of Possibility, Thirst for Knowledge
-(bought); Shred Memory may be either language.
-
-## 9. Comparison with the current list and iteration 1
-
-Against the current list after purchases (`decks/phase2/moxfield/fire-lord-azula-after-purchases.txt`, Salt 7.3):
-| Out | Why | In | Why |
-|---|---|---|---|
-| Overpowering Attack (loan) | 5-mana sorcery, needs a connect; returned, no replacement | Turnabout | Fourth Reversal partner; copied double untap of all lands |
-| Black Market Connections | Ezio's (scarce copy, Ezio final) | Everflowing Chalice | Turn-2 ramp, scales late |
-| Torrential Gearhulk | 6 mana (R35), recasts X spells at X = 0 | Thirst for Knowledge | Instant draw three, six copied |
-| Zuko, Exiled Prince | 4-mana creature, a slow impulse sink | Spell Pierce | 1-mana win-turn shield |
-| Azula, On the Hunt | 4-mana second attacker, loses life, dies in blocks | Swan Song | 1-mana counter for wipes and removal |
-| Frostcliff Siege | 3-mana enchantment, one mode at a time | Firebending Lesson | 1-mana instant removal |
-| Lightning Strike | 2 mana for 3 damage | Failed Fording | 2-mana instant bounce of ANY nonland permanent |
-| Opt | Cantrip | Redirect Lightning | Redirect: shield and protection |
-| Cunning Maneuver | Trick whose Clues cost {2} more each | Expedite | {R} cantrip (two cards copied), haste for a recast |
-| Soul-Guide Lantern | Graveyard hate only | Shred Memory | Graveyard hate AND a transmute tutor for the Reversal or Snap |
-
-Against iteration 1 (`decks/measured/fire-lord-azula/round4-step27.txt`, Salt 8.4): out Entomb, Lo and Li, Loyal Inventor,
-Reckless Handling, Ember Island Production, Goblin Bombardment, Banefire, Aether Gale, The Last Agni Kai, Imprisoned in the
-Moon, Heartless Act, Ultimate Price, Mana Leak, Lightning Strike, Consider, Ponder, Opt, Torrential Gearhulk, Frostcliff
-Siege, Black Market Connections; in Turnabout, Narset, Everflowing Chalice, Spell Pierce, Swan Song, Thirst, Shred Memory,
-Expedite, Firebending Lesson, Failed Fording, Thermo-Alchemist, Horizon Stone, Propaganda, Haunted Cloak, Hidden Footblade,
-Pull from Tomorrow, Thrill, Abandon Attachments, Waterbending Lesson, Fists of Flame.
-
-**Iteration 1's four tutors (corrected after the review).** None of the four could fetch a LOOP piece: the six pieces are
-instants (Snap, Reversal, Frantic Search, Turnabout) and creatures that are neither Lesson nor Noble nor artifact (Dualcaster,
-Storm-Kiln); Lo and Li fetch only Lessons and Nobles (Octopus Form, Redirect Lightning, Ozai), Loyal Inventor and Reckless
-Handling only artifacts, Entomb only bins a card. But they were not useless for winning: Loyal Inventor and Reckless Handling
-reached Helm of the Host (the Godo + Helm line and Helm on Azula), and Entomb could bin Mystical Teachings for its 7-mana
-flashback. So the earlier sentence "never reached a win line" was wrong; "never fetched a loop piece" is right, and the
-simulation agrees: iteration 1's loop access (15/19/24 % by turns 6/8/10) equals the current list's (15/20/24 %) although it
-had four more tutors. Godo already fetches Helm, so those four do not come back. What this list adds instead is a third REAL
-tutor to the loops, Shred Memory (transmute for the Reversal, the hub of three lines, or Snap), next to Mystical Teachings
-(copied in combat: two pieces) and Solve the Equation, plus a sixth loop piece (Turnabout), copied instant dig (Narset, Gleam,
-Brainstorm, Thirst, Thrill, Big Score) and a shield so the assembled loop resolves.
-
-**Cheap removal came back:** 15 spot answers (11 at MV 2 or less, all instant or flash, counting Shred Memory's graveyard
-mode apart) against about 10 cheap instant answers in the current list and 14 in iteration 1, with four counters instead of
-two (Spell Pierce, Swan Song, Negate, the Reversal) and two or more answers each to enchantments and artifacts.
-
-## 10. Real-power estimate (1-10 scale: 4 precon, 6 upgraded, 7-8 high power, 9-10 cEDH)
-
-**7.5 to 7.9, confidence medium-low** [J; the review's figure after F1 to F3; project estimates have run 0.3 to 2.1 high].
-Against the current list (7.2-7.7): +0.2 to +0.3 from a lower curve, 35 window cards instead of 30, a fifth combo line, a
-third real tutor to the loops, a 7-piece win-turn shield, cheap instant removal restored and haste at 4. It loses Black
-Market Connections (Ezio's) and two value creatures. The goldfish shows the floor honestly: without a loop the deck kills on
-turn 8 to 9. Commander Salt expected 7.3 to 7.7 (floor 7.0); to be measured by the lead.
-
-## 11. Total spend of the deck (all-in)
-
-| Item | CLP |
+**OUT (back to a binder).**
+| Card | Reason |
 |---|---|
-| Thirst for Knowledge (moved from the stock line, read) | 300 |
-| Narset, Parter of Veils (read) | 1,440 |
-| Shred Memory (ceiling, to read) | 1,100 |
-| Spell Pierce (read live, Game of Magic) | 570 |
-| Turnabout (ceiling, to read) | 1,560 |
-| Loan replacements (Overpowering Attack returned, no replacement) | 0 |
-| Tokens (decks/reports/tokens-20261108.md): Treasure (Big Score, Storm-Kiln) owned; the 2/2 blue flying Bird that Swan Song gives an opponent is not owned and was "Sin stock" in the three stores (it moves with the card from Kilo); Dualcaster, Helm and Godo copies need no printed token. Re-run `scripts/token_needs.py` on the final lists. | 0 |
-| **All-in** | **4,970 of 6,000** (1,030 margin; the two "to read" prices are budgeted at their ceilings) |
+| Waterbending Lesson (EN) | Sorcery, never copied; its mana leaves the window. |
+| Haunted Cloak (EN) | Haste for 4 mana in all; Frostcliff Siege gives it with no equip cost. |
+| Ritual of Soot (EN) | Kills six of my creatures, nothing above mana value 3; overlaps with Day of Black Sun. |
+| Firebending Lesson (EN) | 2 damage misses most commanders. |
+| Fatal Push (EN) | Mana value 2 or less without revolt, and revolt is rare here (Treasures only). |
+| Undying Malice (EN) | Only against "destroy"; she returns tapped and out of combat. |
+| Fists of Flame (EN) | A cantrip trick; the weakest draw slot. |
+| 1 Mountain | Blue sources 18 to 19. |
 
-Against the order before the rebuild: Azula 2,880 → 4,970 (+2,090); the stock section falls by 300 (Thirst moves to Azula),
-so the grand total moves by +1,790 (91,792 → about 93,582 before the other decks' rebuilds), under the 100,000 cap.
+**IN.**
+| Card | From | Reason |
+|---|---|---|
+| Torrential Gearhulk (ES, CMM 128) | Spanish binder | Section 6. |
+| Frostcliff Siege (EN, TDM 187) | English binder | Section 6. |
+| Aether Gale (ES, SOC 186) | Spanish binder | Section 6. |
+| Imprisoned in the Moon (EN, INR 69) | English binder | Section 6. |
+| Mana Leak (EN, 8ED 89) | English binder (the free second copy) | Section 6. |
+| Heartless Act (EN, TLA 103) | English binder | Two mana for almost any creature, where Fatal Push needed revolt. |
+| Black Market Connections (EN, ACR 87) | **Ezio's deck** | A card and a Treasure every turn; section 7. |
+| 1 Island | English binder | Blue for the new cards. |
 
-## Cut log (cards considered, with the reason)
+**Cut log (considered and left out).**
+| Card | Job | Count after | Why not |
+|---|---|---|---|
+| Return the Favor | redirect, fork | shield 8 | Bracket script FAIL with the Reversal (section 6). |
+| Venser, Shaper Savant | flash bounce of a spell or permanent | counters 5 | Four mana; Failed Fording and five counters cover it. First in if a counter leaves. |
+| Lightning Strike | burn | spot 15 | Paid by firebending, but 3 damage is the least needed answer. |
+| Tome of Legends | constant draw | draw 12 | Left for Ezio (section 6). |
+| Entomb, Reckless Handling, Loyal Inventor, Lo and Li | tutors | tutors 3 + Godo | Entomb only feeds Gearhulk or a 6-mana flashback; the others find artifacts or Lessons, no loop piece. |
+| The Last Agni Kai | fight, keeps red mana | bankers 3 | Azula takes the damage, twice when copied. |
+| Zuko, Exiled Prince; Azula, On the Hunt | second firebender | attackers 5 | Four-mana creatures that die in blocks; Ozai does the job with haste. |
+| Opt, Consider, Ponder | cantrips | density 34 | Not draw; Expedite and Abandon Attachments net a card when copied. |
+| Blasphemous Act, Inundate, Ritual of Soot | wipes | mass answers 2 | Kill or bounce my own engine, or cost 6. |
+| Fellwar Stone, Commander's Sphere, Chromatic Lantern | rocks | ramp 10 + 1 | Ezio's, or 3-mana rocks. |
+| Firebender Ascension, Unleash Fury, Fire Nation Attacks | EDHREC-listed Azula cards | | The Ascension needs four attack triggers and then copies only firebending; Unleash Fury wants combat damage; Fire Nation Attacks is 5 mana for four 2/2s. |
 
-| Card | Function | Count after | Replacement | Reason |
-|---|---|---|---|---|
-| Overpowering Attack | extra combat | combat route 4 closers | Turnabout | Sorcery that needs Azula to connect; a 1,440 replacement buy. |
-| Torrential Gearhulk | payoff | payoffs 8 (6) | Thirst for Knowledge | MV 6 (R35); its free recast sets X to 0 for the finishers. |
-| Zuko, Exiled Prince; Azula, On the Hunt | window mana, draw | window_mana 9 (6) | Spell Pierce, Swan Song | Two 4-drops that die in blocks; the shield is the missing champion function. |
-| Frostcliff Siege | haste, evasion | haste 4 (4) | Firebending Lesson | One mode at a time; cheap answers restored instead. |
-| Lightning Strike | removal | spot 15 (8) | Failed Fording | Failed Fording answers any nonland permanent. |
-| Opt, Mana Leak | cantrip, soft counter | density 35 (30) | Redirect Lightning; 36th land | Opt is not draw; Mana Leak is soft late; the land restores the band. |
-| Black Market Connections | draw/ramp | draw 12 (12) | Everflowing Chalice | Ezio's final list holds the only copy. |
-| Fellwar Stone (fix F2) | ramp | ramp 10 | Everflowing Chalice | Owned card doing nearly the same job; saves 1,560. |
-| Cunning Maneuver (fix F3) | trick, Clues | through_big_creatures 13 + 3 tutors (10) | Expedite | Weakest window card; Expedite closes the haste line. |
-| Soul-Guide Lantern (fix F1) | graveyard hate | graveyard hate 1 (1) | Shred Memory | Same floor plus a tutor to the loop hub. |
-| Entomb, Lo and Li, Loyal Inventor, Reckless Handling | tutors | real tutors to the loops 3 | (section 9) | Fetch no loop piece; Helm is already fetched by Godo. |
-| Malcolm, Ember Island Production, Goblin Bombardment, Banefire, The Last Agni Kai, Heartless Act, Ultimate Price, Imprisoned in the Moon, Lightning Axe, It'll Quench Ya!, Dimir Locket | various | | | Mini-combo, sorcery speed, narrower than the chosen answer, or slower; Heartless Act is the next removal in. |
+Proven role-players: Horizon Stone and Propaganda stay.
 
-Proven role-players: Horizon Stone and Propaganda IN.
+## 9. Real power (1-10: 4 precon, 6 upgraded, 7-8 high power, 9-10 cEDH)
 
-## Self-review (step 15)
+| List | Estimate | Basis |
+|---|---|---|
+| Deck as built today | 7.5 to 7.9 | The final review of 2026-11-08. |
+| **This list** | **7.6 to 8.1, most likely 7.8 to 7.9** | About +0.2. |
 
-1. Plan in one sentence: yes; 0 orphans. 2. Every gate function at or above min; no early plan-critical function under 10.
-3. Fuel: copied draw keeps the hand at 4+ through turns 4 to 8 (spends about 2 cards a combat, draws 3 to 5 in it).
-4. 36 lands, 17 to 18 sources per color, turn-2 and turn-3 plays in most keeps. 5. Attack engine, 8 protection + 3 counters,
-layered against removal and wipes. 6. Boards: sections 4 and 5. 7. Three routes, disjoint closers, two noncombat, each hits
-three opponents; the Frantic loop is listed as dig and mana, not as a kill. 8. Haste 4, evasion 5 (WARN with reason),
-defense 5; toughness: Azula 4 (6 with Champion's Helm), the 2-toughness engines are kept home. 9. Bracket 3: 1 Game Changer
-(live list via the script), no extra turns, no land denial, Godo + Helm late. 10. Cut log above; rules points R1 to R9 with
-status. Checklist: 40 of 41 items applied after the fix round; item 34 (Game Changer slots) stays at 1 of 3 for budget.
+Confidence: medium-low: no games played, and the project's estimates have run high.
+
+Where the gain comes from:
+- Gearhulk: the best card of his own games, now doubled by Azula, and the first recursion for the loop pieces.
+- Two more draw engines (Black Market Connections, Frostcliff Siege): the fair game stops running out of cards.
+- Haste without an equip cost; a counter for creature spells; two lasting commander answers; a one-sided mass answer.
+
+What it costs:
+- Three 1-mana instants (Fatal Push, Firebending Lesson, Undying Malice); average mana value 2.48 to 2.60.
+- 34 window cards against 35; the Cloak's vigilance.
+- No answer left that kills many small NON-token creatures at once.
+- Raw loop access is unchanged (same six pieces and three tutors): the gain is in the games without a loop and in getting
+  a stopped loop back.
+
+Commander Salt was not measured (not part of this step); expected near today's 7.3 to 7.7.
+
+Self-review: one plan, 0 orphans; every gate function above its minimum without the commander; two noncombat routes and one
+combat route with disjoint closers, each against three opponents; Bracket 3 rules pass with 1 of 3 Game Changers (no other
+Game Changer is owned in these colors: live Scryfall list, 36 in Grixis identity, checked today); rules points R1 to R10
+carry their status.

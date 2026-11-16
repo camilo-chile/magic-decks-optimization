@@ -8,10 +8,12 @@
 1 Pentad Prism
 1 Relic of Legends
 1 Commander's Sphere
+1 Solar Array
 1 Astral Cornucopia
 1 Crystalline Crawler
 1 Barrels of Blasting Jelly
 1 Chromatic Star
+1 Enthusiastic Mechanaut
 1 Inspirit, Flagship Vessel
 1 Uthros Research Craft
 1 Insight Engine
@@ -19,7 +21,7 @@
 1 Steel Overseer
 1 Surge Conductor
 1 Tekuthal, Inquiry Dominus
-1 Thrummingbird
+1 Hangarback Walker
 1 Long-Range Sensor
 1 Etched Oracle
 1 Patrolling Peacemaker
@@ -27,26 +29,27 @@
 1 North Pole Patrol
 1 Strionic Resonator
 1 Lithoform Engine
+1 Phyrexian Metamorph
 1 Darksteel Reactor
 1 Lux Artillery
 1 Kappa Cannoneer
 1 Reckless Fireweaver
 1 Cyberdrive Awakener
+1 Alibou, Ancient Witness
 1 Deepglow Skate
-1 Titan Forge
 1 Resourceful Defense
 1 Moxite Refinery
 1 Meticulous Excavation
 1 Tezzeret's Gambit
 1 Experimental Augury
-1 Contentious Plan
+1 Empowered Autogenerator
 1 Thirst for Knowledge
 1 Waterbending Lesson
 1 Universal Surveillance
 1 Jhoira, Weatherlight Captain
 1 Thought Monitor
 1 Trophy Mage
-1 Enthusiastic Mechanaut
+1 Emry, Lurker of the Loch
 1 Swords to Plowshares
 1 Dispatch
 1 Fateful Absence
@@ -55,14 +58,12 @@
 1 Volt Charge
 1 Tranquilize
 1 Lux Cannon
-1 Sandbenders' Storm
+1 Titan Forge
 1 Negate
+1 Ripples of Potential
 1 Organic Extinction
 1 Starfall Invocation
-1 Ripples of Potential
 1 Soul-Guide Lantern
-1 Emry, Lurker of the Loch
-1 Phyrexian Metamorph
 1 Command Tower
 1 Adarkar Wastes
 1 Shivan Reef
@@ -77,9 +78,11 @@
 1 Seat of the Synod
 1 Ancient Den
 1 Great Furnace
+1 Rustvale Bridge
 1 Karn's Bastion
+1 The Mycosynth Gardens
 1 Mystic Monastery
-1 Buried Ruin
-9 Island
+1 Path of Ancestry
+8 Island
 6 Plains
-5 Mountain
+4 Mountain

@@ -1,484 +1,584 @@
-# Ezio Auditore da Firenze: final rebuild from scratch, budget-adjusted (Phase 2 step 7.7, 2026-11-08)
+# Ezio Auditore da Firenze: collection-only optimization (Phase 2 step 11.1, iteration 3, 2026-11-15)
 
-Builder: champion rebuild under `docs/proposals/final-rebuild-brief-20261108.md` (CORRECTED budget section), the skill
-`.claude/skills/commander-deckbuilding/SKILL.md` (Champion standard), `docs/research/commander-deckbuilding/champion-addendum-20261108.md`
-(R4 to R39) and the primers `commanders/ezio-auditore-da-firenze*.md`. Bilingual deck (English copy when owned in both), proxy
-commander. Files: `ezio-auditore-da-firenze.txt` (the 100 cards to PLAY, buys included), `.plan.json`, this file.
+**Fix round (step 11.3, 2026-11-15, the lead on Opus 5.5 high; review `decks/reports/collection-review-ezio-auditore-da-firenze-20261115.md`, verdict FIX).** Applied ranks 1 and 2:
 
-**Budget frame (owner, corrected 2026-11-08):** Ezio's envelope is **34,000 CLP all-in** (upgrades + loan replacements + tokens
-+ extras); every bought card under 3,000 CLP from Game of Magic Singles, PayToWin or Rivendel; loan replacements follow the loan
-rules (automatic under 5,000, to evaluate at 5,000 or more). A first version of this rebuild assumed "no cap" (217,547 CLP with
-Cyclonic Rift, Teferi's Protection, Mari, Lightning Greaves, Brotherhood Regalia, Diabolic Intent, Counterspell); that version is
-void and every one of those cards is out. **This list (after the review's fix round): 29,707 CLP all-in (section 11), 4,293 under the envelope.**
+| Out | In | Reason |
+|---|---|---|
+| Adéwalé, Breaker of Chains | Ravenloft Adventurer (ES, the only copy, Spanish binder) | The initiative is an engine that pays more with three opponents (a land, counters, 5 life loss, a Treasure, a card); every opposing creature death becomes a hit counter, so Etrata, the Silencer's "three hit counters" clause becomes a real kill; a 3/4 Assassin for 4. Adéwalé's Vehicle clause was dead (no Vehicles). |
+| Combustion Man | Ghostly Prison (EN, English binder) | A must-have in the primer: only 3 deterrents stayed up while the board is tapped (32 % to have one by turn 5); now 4 (41 %). |
 
-**Fix round (review `decks/reports/final-review-ezio-auditore-da-firenze-20261108.md`, verdict FIX, applied 2026-11-08):**
-F1 Eivor, Battle-Ready out, Kaya, Ghost Assassin in, until the owner accepts Eivor's 5,400 replacement (`loans.md` rule 3); Eivor
-is a pending loan proposal and comes back in Kaya's slot when accepted, or on its own if a copy under 5,000 is read live.
-F2 Ramses fallback corrected: Rooftop Assassin failed the gate; the exact fallback is in section 6. F3 Reckless Handling out,
-Diabolic Tutor in (any card, so Ramses). F4 Rogue's Passage out, ninth Swamp in (saves 1,440). F5 Kitesail out, Cobbled Wings
-(owned, equip {1}) in. F6 Etrata the Silencer is no longer a route closer: she shuffles herself away after each hit, so the
-third-hit-counter kill is not a line without Mari; she is removal on an unblockable body. F7 guide: on the kill turn attack
-EVERY opponent with at least one Assassin, so Ramses covers whoever falls. All fixes applied; none kept back.
+Rank 3 applied on the owner's word (2026-11-15, "whatever makes the deck strongest"; he found Secret Tunnel ideal for Ezio): the tenth Swamp out, Secret Tunnel in (a free copy; two Assassins unblockable each turn; {B}{B} on turn 3 from 78 % to 75 %).
 
-**Checks (run 2026-11-08 on this list):**
-- `python scripts/check_phase2_bracket.py decks/phase2/ezio-auditore-da-firenze.txt`: **PASS** (floor 3, target 3; Game Changers
-  0, checked against the live Scryfall `is:gamechanger` list of 53 cards; no extra turns, no land denial, no reversible card;
-  Spellbook finds one line, Ezio + Magister Sphinx, "commander plus one card, late").
-- `python scripts/plan_density.py`: **PASS**, 0 failures, 2 warnings, reasons in section 3: team_evasion 3 of 6; 35 lands against
-  the 36-38 band. Report `decks/reports/consistency-ezio-auditore-da-firenze.md`.
-- 100 cards (1 commander + 99), counted by script; average MV of the 64 nonland cards 2.797; 29 cards at MV 2 or less.
-- Tree of Perdition was rejected in drafting (Ezio + Tree is flagged "early", floor 4, by the bracket script).
+Lead's decisions: Arbaaz Mir stays claimed from Toph (here one of two closers that skip combat; Toph has six other pingers).
+Drannith Magistrate is not claimed (no Game Changer role here; revisit if Toph drops it). The Magister Sphinx line stays
+out (real power cost near zero; if Commander Salt falls under 6.5, Sphinx comes back for Eivor).
+
+Honest counts (review corrections, no card change): team evasion 2 of 6 real (the pool has no team-evasion card), haste 3
+plus Queen Marchesa's, tapped lands 5 by R10 (no free untapped dual left), draw 9 by tag. Five colors ready on turn 7 in
+about 66 % of games. Real power after the fix: 7.2 to 7.7 (builder), against 7.0 to 7.5 for the deck as built on
+2026-11-09. Confidence medium-low.
+
+Builder notes under `docs/proposals/collection-optimization-brief-20261114.md`: the collection is frozen, so there are no
+purchases, no loans and no purchase proposals. Bilingual deck (English copy when both languages are free), proxy commander.
+Files: `ezio-auditore-da-firenze.txt` (100 cards), `.plan.json`, this file. Start point: the deck as built on 2026-11-09.
+
+**Result in one paragraph.** 14 cards change. The plan stays (Assassin tempo, Ezio's kill, Ramses as the table win), and the
+changes fix what the reading and a mana simulation showed: too few black sources for {B}{B} on turn 3, a five-color payment
+that is payable in only about half the games by turn 7, single-color removal against a pod commander with protection from
+monocolored, a noncombat route that rested on a 4-mana planeswalker, and too few big Assassins to make freerunning pay. Six of
+the ten cards the owner missed in Ezio come back (Royal Assassin, Mortify, Utter End, The Revelations of Ezio, Commander's
+Sphere, Evie Frye with Jacob), and Merciless Harlequin leaves.
+
+**Checks (run 2026-11-15 on this list).**
+- `python scripts/check_phase2_bracket.py decks/phase2/ezio-auditore-da-firenze.txt`: **PASS** (floor 1, target 3, Game
+  Changers 0, no extra turns, no land denial, no reversible card, Spellbook 0 variants inside the list). The live Scryfall
+  search `is:gamechanger` (53 cards, read 2026-11-15) names no card of the list.
+- `python scripts/plan_density.py`: **PASS**, 0 failures, 1 warning (team_evasion 3 of 6; reason in 3.3).
+- 100 cards (1 + 99), counted by script: 36 lands, 63 nonland cards, average mana value 2.794, 28 cards at MV 2 or less.
 
 ---
 
-## 1. The profile
+## 1. Profile
 
-### Commander reading (Oracle and rulings)
-Ezio Auditore da Firenze, {1}{B}, 3/2 menace Human Assassin, identity WUBRG. (1) Assassin spells I cast have freerunning {B}{B}:
-once an Assassin or a commander of mine deals combat damage to a player, any Assassin spell costs {B}{B} for the rest of the turn.
-(2) When Ezio deals combat damage to a player at 10 life or less, I may pay {W}{U}{B}{R}{G}; that player loses.
-- Fuel: attacks that connect early and every turn; window: my combat, then the second main phase (Assassins cast after the hit).
-- Dependence: **attack engine** for the kill; freerunning works from ANY Assassin hit, so the cost reduction survives Ezio's death.
-  Protection class 6 to 10.
-- Cost 2: tax is cheap (4, then 6); haste after a recast comes from Swiftfoot Boots, Hidden Footblade, Haunted Cloak.
-- Dead clauses: none. The kill removes one player per trigger: Ramses or repetition makes it a table win.
+### Commander reading (Oracle and rulings, Scryfall API, re-read 2026-11-15)
+Ezio Auditore da Firenze, {1}{B}, 3/2 menace, Human Assassin, identity WUBRG. (1) Assassin spells I cast have freerunning
+{B}{B}: once an Assassin or my commander has dealt combat damage to a player this turn, they cost {B}{B}. (2) When Ezio deals
+combat damage to a player who then has 10 or less life, I may pay {W}{U}{B}{R}{G}; that player loses the game.
+- **Rewards:** combat damage to a player, by any Assassin (cost reduction) and by Ezio himself (the kill).
+- **Fuel:** attackers that connect every turn from turn 3. **Window:** my combat, then my second main phase.
+- **Kill:** one player per trigger, and only with five colors at once. Ramses turns it into a table win.
+- **Dies to:** spot removal (he is the visible threat), wipes, a wall of chump blockers, attack taxes.
+- **Dependence:** attack engine for the kill; the cost reduction survives his death (any Assassin hit). Protection class 6 to 10.
+- **Cost:** 2, so the tax is light (4, then 6). The real mana problem is color: {B}{B} on turn 3 and {W}{U}{B}{R}{G} late.
+- **What freerunning does to the mana:** the 24 Assassin creatures carry 45 colored pips (W 8, U 11, B 15, R 10, G 1), all
+  paid as {B}{B} after a hit. The other 39 spells carry W 8, U 10, B 13, R 2, G 1. The deck is black with a blue and white
+  splash; red and green are there for the payment, Terminate, Hidden Footblade and Assassin's Trophy.
 
-**Rules points to verify**
+### Rules points to verify
 | Point | Status | What falls if wrong |
 |---|---|---|
-| Ezio's life check happens when the trigger resolves, after all combat damage | Ezio ruling 2024-07-05, verified (study S2) | Slasher + Ezio same-combat kill |
-| Freerunning lasts the rest of the turn after the hit | Ezio and Restart Sequence rulings, verified | Second-main-phase pattern |
-| Slasher's and Ezio's triggers fire on the same damage; I order Slasher's to resolve first | Basic trigger ordering; not ruling-checked | Slasher + Ezio at 21-25 life |
-| Ramses wins when the losing player "was attacked this turn by an Assassin you controlled": true for Ezio's trigger and combat damage; for Kaya's drain or Shao Jun's pings only if an Assassin attacked that player that turn | Oracle reading; no Ramses ruling read | Route 1 as a TABLE win (each elimination still removes one player) |
-| Shao Jun taps artifacts as a cost; a tapped Equipment keeps working | Rules for tapped permanents, well known | Route 3 |
-| Etrata shuffles herself into the library after each hit, so a three-counter kill needs counters from elsewhere (not in this list) | Oracle; Etrata rulings 2018-10-05 | Etrata is removal, not a closer |
-| Brotherhood Headquarters cannot pay Ezio's {W}{U}{B}{R}{G} | Card text; play review 2026-10-26 | Payment math |
-| Jacob Frye's copy of a freerunning card can be cast for the freerunning cost | Derived, unverified by a ruling (play review) | One draw line |
-| Hakoda's sacrifice gives indestructible at instant speed (no mana) | Oracle (an activated ability with no timing limit) | Wipe insurance |
+| Ezio's life check happens when his trigger resolves, after all combat damage | Ruling 2024-07-05, verified | Slasher + Ezio same-combat kill |
+| Freerunning stays on for the rest of the turn | Ruling 2024-07-05, verified | Second-main-phase pattern |
+| Ramses wins on ANY cause of loss if an Assassin of mine attacked that player this turn | Ruling 2022-09-09, verified | Route 1 as a table win |
+| A creature that ENTERS attacking did not "attack"; attacking a planeswalker does not count | Rulings 2022-09-09, verified | Altaïr's token copies never satisfy Ramses: declare a real Assassin attacker at every opponent |
+| I order Slasher's trigger before Ezio's (a player at 26 or less dies to both connecting unpumped) | Trigger-ordering rule; not ruling-checked | The 26-life line (the 10-life kill stays) |
+| Jacob Frye's copy may be cast for {B}{B} | Derived: the ruling says the copy's costs are paid; no ruling on alternative costs | Jacob recasts at full cost |
+| Evie's unblockable is a reflexive trigger with its target chosen on the discard | Ruling 2024-07-05, verified | None |
+| Waterbend may tap summoning-sick creatures and any artifact; a rock tapped for mana cannot be tapped again | Rulings 2025-10-02, verified | Waterbender Ascension costs real mana |
+| Arbaaz Mir counts nontoken permanents only (copies from Jacob and Altaïr are tokens); a legendary land entering counts | Oracle text | Ping count |
+| Brotherhood Headquarters cannot pay {W}{U}{B}{R}{G} (a payment during a trigger is neither a spell nor an activated ability) | Card text; play review 2026-10-26 | Payment math (the simulation already excludes it) |
+| Imp's Mischief can point a counterspell at itself | Ruling 2004-10-04, verified | It protects against removal only |
+| Royal Assassin kills an attacker during an opponent's combat ({T} ability, needs one turn on the battlefield) | Oracle text | It kills only on my turn |
+| The Revelations of Ezio, chapter II, puts a counter on every attacking Assassin, Slasher included (it then no longer returns) | Oracle text | Keep Slasher home that turn |
+| Combustion Man: the opponent chooses damage or destruction | Oracle text | Never counted as guaranteed damage |
 
 ### Plan (one sentence)
-Assassin evasion tempo with a table-ending kill: cheap evasive Assassins and Ezio connect from turn 2 or 3, every hit makes
-Assassin spells cost {B}{B} and draws cards, and Ramses turns the FIRST elimination (Ezio's {W}{U}{B}{R}{G} trigger, Etrata's
-or damage focused on one player) into a win of the whole game, while Shao Jun and Kaya damage every opponent without combat.
+Ezio on turn 2, cheap evasive Assassins connect from turn 3 so every Assassin costs {B}{B} and the hits draw cards; lords,
+double strike, a 7/6 trampler and Combustion Man push one player after another to 10 or less, where Ezio's {W}{U}{B}{R}{G}
+trigger removes them; with Ramses on the battlefield the first elimination wins the game; Arbaaz Mir and Shao Jun damage every
+opponent without combat; an attack tax, Royal Assassin, deathtouch and vigilance hold the crack-back.
 
 ### Backup (same pieces)
-Without Ezio or Ramses the same evasive Assassins keep connecting under Arno and Bayek with Rally the Peasants, and Shao
-Jun and Kaya turn the Equipment, the rocks and loyalty into damage to each opponent every turn.
+Without Ezio or Ramses the same Assassins keep connecting under Arno, Bayek and Rally the Peasants and kill by plain damage;
+Arbaaz Mir, Shao Jun and Combustion Man add damage that ignores blockers; five recursion cards rebuild after a wipe.
 
-### Speed (goldfish, section 10)
-Ezio turn 2 in most hands; first hit and first freerunning turn 3; first elimination turn 7 (6-8). With Ramses out that
-elimination is the game; without him the table falls turn 9-10.
+### Speed (goldfish, section 5)
+Ezio on turn 2 in 95.5 % of games, first hit turn 3, {B}{B} ready on turn 3 in 80 %. First elimination turn 7 (median of five
+games: 6, 6, 7, 10, 10). With Ramses on the battlefield that elimination is the game: two of the five games won on turn 6.
 
 ### Win lines (chosen before the cards, R26 and R28)
-| Route | Closers | Win turn | Mana | Access (10+, R18) | Each piece alone | Fails to |
-|---|---|---|---|---|---|---|
-| 1. Ezio eliminations, made a table win by Ramses | Ramses, Magister Sphinx, Unstoppable Slasher | Ezio + Ramses + a setter or enough damage (3 cards with the commander) | 5 for the payment | To Ramses: Ramses, Diabolic Tutor, Adéwalé (about 7 % per dig), Entomb + Restart/Layla/Jacob/Altaïr; to a setter: Sphinx, Slasher, Loyal Inventor (Sphinx) = about 8 cards, under R18's 10 (the brief's money limit; Demonic or Vampiric would fix it) | Ramses a 4/4 deathtouch lord; Slasher a deathtouch halver that returns; Sphinx a 5/5 flier | Ezio or Ramses removed (damage still kills one player), a counter (recursion) |
-| 2. Assassin team beatdown | Arno Dorian, Bayek of Siwa, Rally the Peasants | 4-6 attackers + one multiplier | the turn's mana | 3 closers + 24 attackers | Arno a deathtouch lord, Bayek a double striker, Rally an instant +2/+0 twice | a wipe (Hakoda, Get Out, rebuild) |
-| 3. Damage to each opponent without combat | Kaya, Ghost Assassin (Eivor when its loan is accepted), Shao Jun | Shao Jun + 2 untapped artifacts per point; Kaya -1 for 2 each | 3 / 4 | 2 closers + Diabolic Tutor + 7 Equipment + 9 rocks | Shao Jun a 3/3 that flies on my turn; Kaya blinks a creature or makes each opponent discard | a creature wipe (Kaya survives it), artifact wipe (rare) |
+| Route | Closers | Needs | Reached by | Each piece alone | Fails to |
+|---|---|---|---|---|---|
+| 1. Ezio's elimination, made a table win by Ramses | Ramses, Unstoppable Slasher | Ezio + a connect + a player at 10 or less (26 with Slasher) + five colors; or any kill by damage with Ramses out | Ramses: itself, Diabolic Tutor, Entomb with one of six recursion cards, Adéwalé's dig (6.5 %), Eivor's mill | Ramses a 4/4 deathtouch lord; Slasher a deathtouch body that returns once | Ezio or Ramses removed (damage still kills), a counter (recursion), no fifth color (damage route) |
+| 2. Assassin team beatdown | Arno, Bayek, Rally the Peasants, Eivor Wolf-Kissed, Combustion Man | Four to six attackers and one multiplier | 5 closers + 22 attackers | Arno a deathtouch lord, Bayek a double striker, Rally an instant, Eivor a 7/6 trampler, Combustion Man removal or burn on each attack | A wipe (Hakoda, Mana Leak, Get Out, rebuild) |
+| 3. Noncombat damage to each opponent | Arbaaz Mir, Shao Jun | 40 historic cards; 17 artifacts | Diabolic Tutor | Arbaaz a 2-mana Assassin; Shao Jun a 3/3 that flies on my turn | A creature wipe; both are small bodies |
 
-No failure point is shared by all three: Ezio dead leaves routes 2 and 3; a wipe is met by Hakoda, Get Out
-and the rebuild pieces; a counter on Ramses leaves routes 2 and 3; only route 1's recursion uses the graveyard.
+No failure point is shared by all three: Ezio dead leaves routes 2 and 3; a wipe is met by Hakoda, two counters and the
+rebuild; a counter on Ramses leaves routes 2 and 3; only the recursion of route 1 uses the graveyard; artifact removal costs
+route 3 some darts only.
 
 ### How it beats three opponents
-Ramses: any of the deck's single-player eliminations ends the game for all three. Without him, route 2 spreads 15-30 evasive
-damage a turn over the table and route 3 hits every opponent at once (Shao Jun 1 per two artifacts, several times a turn; Kaya 2 per
--1; Eivor, once accepted, 7 per attack with seven Equipment). On the kill turn attack every opponent with at least one Assassin.
+Ramses makes one elimination a win. Without him the team spreads 15 to 30 damage a turn, Arbaaz and Shao Jun lower all three
+at once, and Ezio's trigger then removes a player per turn for five mana instead of ten damage. On the kill turn attack EVERY
+opponent with at least one Assassin that was declared as an attacker.
 
 ### What it fears
-Wipes on turns 5-7 (63 % that one appears by turn 8, skill S-6); flying or reach deathtouch blockers; black and artifact chump
-boards (no Cover of Darkness now); attack taxes; fast combo before turn 6. Answers: Hakoda, Get Out, Mana Leak, ward (Thopteryx)
-and hexproof (Boots, Enter the Avatar State), ten spot answers, Mephitic Vapors, the noncombat route.
+A wipe on turns 5 to 7 (63 % that the table has seen one by turn 8); removal on Ezio before a second Assassin is out; a
+missing fifth color (section 3.2); attack taxes; a fast combo. Answers are in section 4.
 
 ---
 
-## 2. The puzzle: every card, its job and its main partners
+## 2. The puzzle: every card, how to use it here
 
 ### Commander
-- **Ezio Auditore da Firenze**: turn 2; attack from turn 3 with menace, later with Hookblade or Cobbled Wings for flying; pay {W}{U}{B}{R}{G} on a player at 10 or less. Partners: Ramses, Slasher, Sphinx, Boots.
+- **Ezio Auditore da Firenze.** Turn 2, always. Attack from turn 3; cast Assassins after the hit. Give him flying (Glider,
+  Enter the Avatar State), unblockable (Evie, Waterbender Ascension) or trample (Cloak) for the kill. Partners: Ramses, Slasher.
 
-### Connectors: cheap evasive Assassins that switch freerunning on (6)
-- **Hookblade Veteran**: turn 1; flies on turn 2 so a 4-5 MV Assassin costs {B}{B} on turn 2-3. Bad late (1/2).
-- **Basim Ibn Ishaq** (loan): every historic spell (legend, artifact, Equipment) draws and makes Basim unblockable; cast a rock or
-  Equipment before combat.
-- **Brotherhood Spy**: unblockable 2/3 on my turn while I control a legendary Assassin (Ezio counts).
-- **Desmond Miles**: menace 2-drop that grows with every Assassin on board and in the yard; surveil feeds Jacob and Altaïr.
-- **Ratonhnhaké꞉ton**: hexproof and unblockable until its first hit; each hit makes an Assassin token and returns an Equipment.
-- **Gold-Forged Thopteryx**: ward {2} on every legend I control (20, Ezio and Ramses included); flier that blocks fliers.
+### Connectors: cheap Assassins that switch freerunning on (6)
+- **Hookblade Veteran.** Turn 1. It flies on turn 2, so a 4- or 5-drop can come down for {B}{B} on turn 2. Bad late (1/2).
+- **Basim Ibn Ishaq.** Cast any historic spell before combat (38 others in the list, and Ezio): a card, and Basim is unblockable.
+- **Brotherhood Spy.** A 2/3 unblockable on my turn while a legendary Assassin is out (20 in the list, plus Ezio).
+- **Desmond Miles.** Menace, grows with each Assassin on the battlefield and in the graveyard (23 others); its surveil
+  stocks the graveyard for Jacob, Altaïr and The Revelations.
+- **Ratonhnhaké꞉ton.** Hexproof and unblockable until its first hit: a sure connect, and a 1/1 menace Assassin token. Its
+  Equipment return is rarely live (5 Equipment, and only from the graveyard).
+- **Etrata, the Silencer.** Unblockable removal: each hit exiles that player's best creature, then she shuffles away. Attack
+  a player with no creatures to keep her. Her three-counter kill is a dead clause here (no blink, no copier).
 
-### Engines: card flow on hits (10)
-- **Ezio, Blade of Vengeance**: a card per Assassin hit; 5/5 deathtouch wall. Freerunning target turn 3-4.
-- **Etrata, Deadly Fugitive**: each Assassin hit cloaks the opponent's top card as my 2/2 ward creature; 1/4 deathtouch blocker.
-- **Coastal Piracy**: a card per creature hit on an opponent; turn 4, before the big attacks.
-- **Black Market Connections**: Treasure (payment colors), card or a 3/2 changeling (an Assassin) each first main phase.
-- **Lion Vulture**: flier that draws and grows at every end step in which an opponent lost life (nearly every turn).
-- **Jacob Frye**: on each Assassin hit, recast a copy of an Assassin or freerunning card from my yard (Eagle Vision for {1}{U},
-  Restart Sequence, a dead Ramses for {B}{B}).
-- **Merciless Harlequin**: body + card for {1}{B} after a hit.
-- **Queen Marchesa**: haste deathtouch 3/3 and the monarch; drop it when the board can defend the crown.
-- **Eagle Vision** (loan): draw three for {1}{U} after a hit (owner's proven role-player).
-- **Layla Hassan** (loan): on entry and every Assassin hit, a historic card (Ramses, Sphinx, an Equipment) from yard to hand.
+### Engines: cards from hits (11)
+- **Ezio, Blade of Vengeance.** A card per Assassin hit and a 5/5 deathtouch wall. The best {B}{B} play on turn 3 or 4.
+- **Coastal Piracy.** The owner's proven draw: a card per creature that connects. Turn 4 or 5, before the wide attacks.
+- **Black Market Connections.** Every first main phase: a Treasure (the fifth color), a card, or a 3/2 changeling (an Assassin).
+- **Waterbender Ascension** (new). Turn 2 or 3. From the fourth hit, every hit draws. Its waterbend {4} (tap rocks, Equipment
+  or summoning-sick creatures) makes Ezio unblockable on the kill turn.
+- **Evie Frye** (new). Enters, puts Jacob in hand. {1}, tap: loot; discarding a creature card makes Ezio unblockable and
+  feeds Jacob, Altaïr, Desmond and The Revelations. Keep her home: she is a 2/1.
+- **Jacob Frye.** Fetches Evie. Each Assassin hit recasts a copy of an Assassin, Eagle Vision or Restart Sequence from the
+  graveyard (25 targets). Bad with an empty graveyard.
+- **Etrata, Deadly Fugitive.** Each Assassin hit cloaks the top card of that player's library as my 2/2 with ward {2}; a
+  1/4 deathtouch blocker that stays home.
+- **Queen Marchesa.** Haste, deathtouch, the monarch. Cast her when Propaganda or deathtouch blockers can keep the crown.
+- **Layla Hassan.** On entering and on each Assassin hit, a historic card back to hand: a dead legend, an Equipment, the Saga.
+- **Adéwalé, Breaker of Chains.** {B}{B} after a hit: a 4/1 and the best Assassin of the top six (81 % to hit, 23 other
+  Assassins). Dead clause, named: Vehicles (none in the list).
+- **Eagle Vision.** Draw three for {1}{U} after a hit (the owner's proven role-player). Bad before the first hit.
 
-### Payoffs, closers and diggers (12)
-- **Ramses, Assassin Lord** (buy): one elimination wins the game; lord +1/+1; deathtouch. Cast it the turn BEFORE the kill,
-  behind Thopteryx's ward.
-- **Arno Dorian**: +2/+0 to every other Assassin, deathtouch; disguise as a 2/2 ward body for 3 into open removal.
-- **Bayek of Siwa** (loan): legendary attackers have double strike on my turn.
-- **Rally the Peasants**: instant +2/+0 to the team, flashback for a second swing; also a combat trick against blocks.
-- **Aya of Alexandria** (loan): menace lifelink; each historic creature hit makes an Assassin token.
-- **Unstoppable Slasher** (loan): halves a player's life on a hit and returns once when it dies; with Ezio on the same player at
-  25 or less: halve, then Ezio's check.
-- **Etrata, the Silencer** (removal, not a closer): unblockable; each hit exiles that player's best creature, then she shuffles into my library; the third counter makes
-  them lose. Attack a player with no creatures to keep her.
-- **Magister Sphinx**: sets one opponent to 10; Roshan makes it {B}{B} after a hit.
-- **Kaya, Ghost Assassin** (holds Eivor's slot until its loan is accepted): -1 drains 2 from each opponent (route 3); 0 blinks
-  Ezio or Ramses out of a removal spell's way until my upkeep (sorcery speed, so before passing); -2 a card for me, one less for each
-  opponent. Eivor, Battle-Ready (loan, pending): haste, vigilance, Equipment count to each opponent per attack.
-- **Shao Jun**: flier on my turn; tap two artifacts (Equipment keep working) for 1 to each opponent, repeatedly.
-- **Altaïr Ibn-La'Ahad** (buy): each attack brings back attacking copies of Assassins from my yard.
-- **Adéwalé, Breaker of Chains**: reveal six, take an Assassin (23 in the list): a 2-for-1 for {B}{B} after a hit that digs for
-  Ramses. Its Vehicle clause is dead (no Vehicles), named here.
-- **Roshan, Hidden Magister**: every creature is an Assassin: Sphinx, Thopteryx, Lion Vulture, Inventor and Hakoda cost {B}{B}
-  after a hit and take the lord buffs.
+### Payoffs and closers (11)
+- **Ramses, Assassin Lord.** One elimination wins the game. Cast him the turn BEFORE the kill, behind ward or Boots.
+- **Unstoppable Slasher.** Halves a player's life on a hit; with Ezio on the same player at 26 or less, both connect and the
+  player is gone. Returns once when it dies. Keep it home on chapter II of The Revelations.
+- **Arno Dorian.** +2/+0 to every other Assassin; deathtouch. Face down for {3} with ward {2} into open removal.
+- **Bayek of Siwa.** Historic attackers (20 other legendary creatures, Thopteryx and Ezio) have double strike on my turn: double damage,
+  double hit triggers.
+- **Rally the Peasants.** Instant +2/+0 for the team, again with flashback. Hold it for the alpha or a bad block.
+- **Eivor, Wolf-Kissed** (new). A 7/6 trampler for {B}{B}; tramples over a chump. Each hit mills seven: a land onto the
+  battlefield and Assassins into the graveyard for Jacob, Altaïr, Restart Sequence and Layla. Dead before the first hit
+  (six mana in three colors); its Saga clause is nearly dead (one Saga).
+- **Combustion Man** (new). A 4/6 for {B}{B}. Each attack: name any opponent's best permanent; they lose it or take his power
+  in damage. Aim at the player nearest 10.
+- **Arbaaz Mir** (new, from Toph). Turn 2 to 4. Every legend, artifact and Saga that enters is 1 damage to EACH opponent and
+  1 life. Sequence the cheap artifacts after him.
+- **Shao Jun.** Flies on my turn; tap two untapped artifacts for 1 to each opponent, as often as I can. Tapped Equipment
+  still works, so tap Equipment first and only the rocks whose mana is not needed.
+- **Aya of Alexandria.** Menace, lifelink; each legendary creature that connects makes a 1/1 menace Assassin.
+- **Altaïr Ibn-La'Ahad.** Each attack brings back attacking copies of the Assassins in my graveyard. The copies never count
+  for Ramses (they enter attacking). Bad with an empty graveyard.
 
-### Equipment and attack enablers (8)
-- **Swiftfoot Boots**: hexproof + haste on Ezio or Ramses.
-- **Hidden Footblade** (loan): flash, haste for a fresh attacker, first strike in a combat.
-- **Haunted Cloak**: vigilance, trample, haste: a lord or Ramses attacks and still blocks.
-- **Hookblade**, **Cobbled Wings** (equip {1}), **Mechanical Glider**: flying for Ezio or a connector (Glider costs 1 and attaches itself).
-- **Assassin Gauntlet**: taps one opponent's whole board before combat (the elimination target); loots on hits.
-- **Propaganda**: attack tax that protects the tapped board (a proven role-player in his Azula list).
+### Attack enablers (5)
+- **Swiftfoot Boots.** Hexproof and haste on Ezio or Ramses; equip {1}.
+- **Hidden Footblade.** Flash: haste for a recast Ezio, first strike in a combat.
+- **Haunted Cloak.** Haste, vigilance, trample: Ezio attacks, tramples over a chump and still blocks.
+- **Mechanical Glider.** One mana, attaches itself: Ezio or a connector flies.
+- **Assassin Gauntlet.** Taps one opponent's whole board before combat (the kill target, or Royal Assassin's victim); loots.
 
-### Interaction (11)
-- **Swords to Plowshares**: 1-mana instant exile.
-- **Infernal Grasp**, **Bitter Triumph**, **Terminate**: 2-mana instant kills.
-- **Assassin's Trophy**: any permanent; **Chaos Warp**: any permanent, instant; **Kolaghan's Command**: artifact + regrowth or 2
-  damage; **Feed the Swarm**: creature or enchantment (sorcery).
-- **Mana Leak**, **Get Out**: early counter / the win-turn counter; Get Out also returns Ezio and Ramses to hand in response to a
-  wipe or removal.
-- **Mephitic Vapors**: -1/-1 to all: kills a board of 1/1 chump blockers while my Assassins survive.
+### Defense while tapped (2 + bodies)
+- **Propaganda.** Turn 3 or 4 when two opponents have boards (a proven role-player).
+- **Royal Assassin** (new). Kills a tapped creature each turn: an attacker in their combat, or anything that attacked since
+  its controller's last untap. Nobody attacks into it; it also takes a removal spell that would have hit Ezio.
 
-### Protection (3, plus Boots, Thopteryx, Get Out)
-- **Hakoda, Selfless Commander**: a 3/5 vigilance blocker; sacrifice it (no mana, instant speed) for team indestructible against
-  a wipe or a combat.
-- **Haystack**: {2}: phase out Ezio or Ramses in response to removal or a wipe, every turn.
-- **Enter the Avatar State**: 1-mana hexproof plus flying on the kill turn.
+### Interaction (9 + the Saga)
+- **Swords to Plowshares**, **Infernal Grasp**, **Terminate**: the cheap instant kills.
+- **Assassin's Trophy**: any permanent. **Mortify** (new): creature or enchantment, two colors. **Utter End** (new): exile
+  any nonland permanent, two colors. With Terminate these four hit a commander with protection from monocolored.
+- **Mana Leak**, **Get Out**: hold them for the wipe or the combo piece; Get Out also returns Ezio and Ramses to hand.
+- **Mephitic Vapors**: -1/-1 to all, against the 1/1 chump board. It kills my Evie, Royal Assassin and Adéwalé too.
+- **The Revelations of Ezio** (new). I: kill a creature that attacked last round. II: a counter on each attacking Assassin.
+  III: an Assassin back from the graveyard. Layla returns the Saga itself.
 
-### Tutors and recursion (4)
-- **Loyal Inventor**: an artifact to hand: Sphinx, Boots, an Equipment. Vigilance blocker.
-- **Diabolic Tutor** (buy): any card to hand for 4 (Ramses first; Sphinx or an answer when Ramses is out). Was: Reckless Handling: an artifact to hand; random discard; 2 to each opponent if it bins an
-  artifact. Bad late.
-- **Entomb**: instant; Ramses or Sphinx to the yard for Restart, Layla, Jacob or Altaïr.
-- **Restart Sequence**: {1}{B} after a hit: Ramses, Sphinx or Ezio Blade back.
+### Protection (5, plus Boots)
+- **Gold-Forged Thopteryx.** Ward {2} on Ezio, Ramses and 20 more legends; a flying lifelink blocker.
+- **Hakoda, Selfless Commander.** A 3/5 vigilance blocker; sacrifice it (no mana) for team indestructible. Dead clause, named:
+  Ally spells from the library (no other Ally).
+- **Haystack.** {2}: phase Ezio or Ramses out of removal or a wipe, every turn.
+- **Enter the Avatar State.** One mana: hexproof against removal, or flying for the kill.
+- **Imp's Mischief** (new). Two mana in the main color: the removal spell aimed at Ezio hits their creature, or a
+  counterspell targets the Mischief. Costs life equal to the spell's mana value.
+- (Boots above; Mana Leak and Get Out double as protection.)
 
-### Mana (9 rocks + 35 lands)
-- **Sol Ring**, **Arcane Signet**, **Fellwar Stone** (buy), **Talisman of Progress** (buy), **Golgari Signet**, **Rakdos
-  Signet**, **Orzhov Signet** (buy): turn 1-2 mana and fixing; **Chromatic Lantern** (every land taps for any color: the payment),
-  **Bender's Waterskin** (any color, untaps each opponent's turn).
-- Lands: Command Tower, Exotic Orchard, Path of Ancestry, Brotherhood Headquarters, Secret Tunnel, Abstergo
-  Entertainment (filter and graveyard hate), Concealed Courtyard, Isolated Chapel, Drowned Catacomb, Sunken Hollow, Dragonskull
-  Summit, Smoldering Marsh, Woodland Cemetery, Battlefield Forge, Sulfur Falls, Hinterland Harbor, Prairie Stream, Clifftop
-  Retreat; 9 Swamp, 3 Island, 3 Plains, 1 Mountain, 1 Forest.
+### Tutors and recursion (3)
+- **Diabolic Tutor.** Ramses first; then Slasher, Chromatic Lantern for the payment, or the answer.
+- **Entomb.** Ramses into the graveyard when Restart Sequence, Layla, Jacob, Altaïr or The Revelations is at hand.
+- **Restart Sequence.** {1}{B} after a hit: Ramses, Ezio Blade or Eivor back.
+
+### Mana (10 rocks + 36 lands)
+- **Sol Ring**; **Arcane Signet**, **Fellwar Stone**, **Talisman of Progress**, **Orzhov Signet**, **Golgari Signet**,
+  **Rakdos Signet** (turn 3 or 4, after Ezio; each is also a Basim trigger, an Arbaaz ping and a dart for Shao Jun).
+- **Chromatic Lantern** (every land pays the five colors), **Commander's Sphere** (new; any color, a card when it is no longer
+  needed), **Bender's Waterskin** (any color; one mana on each opponent's turn for a one-mana instant after tapping out).
+- **Lands:** Command Tower, Exotic Orchard, Path of Ancestry, Brotherhood Headquarters (pays {B}{B}, never the kill), Abstergo
+  Entertainment (filter and graveyard hate on demand), Concealed Courtyard, Isolated Chapel, Drowned Catacomb, Sunken Hollow,
+  Dragonskull Summit, Smoldering Marsh, Woodland Cemetery, Woodland Chasm (new), Battlefield Forge, Sulfur Falls, Hinterland
+  Harbor, Prairie Stream, Glacial Fortress (new); 10 Swamp, 3 Island, 3 Plains, 1 Mountain, 1 Forest.
 
 ---
 
-## 3. Curve, functions and ratios
+## 3. Curve and ratios
 
 | MV | Count | Cards |
 |---|---|---|
 | 1 | 7 | Sol Ring, Hookblade Veteran, Hidden Footblade, Mechanical Glider, Swords, Enter the Avatar State, Entomb |
-| 2 | 21 | 5 rocks, Basim, Desmond, Spy, Thopteryx, Boots, Haystack, Hookblade, Cobbled Wings, Feed the Swarm, Grasp, Bitter Triumph, Trophy, Terminate, Mana Leak, Get Out |
-| 3 | 19 | Lantern, Waterskin, BMC, Shao Jun, Ratonhnhaké꞉ton, Etrata DF, Slasher, Altaïr, Inventor, Harlequin, Jacob, Adéwalé, Haunted Cloak, Gauntlet, Rally, Propaganda, K-Command, Chaos Warp, Vapors |
-| 4 | 13 | Diabolic Tutor, Kaya, Ramses, Arno, Queen, Etrata S, Aya, Layla, Roshan, Lion Vulture, Hakoda, Coastal Piracy, Restart Sequence (Assassins {B}{B} after a hit) |
-| 5 | 3 | Ezio Blade, Bayek, Eagle Vision ({B}{B} / {1}{U} after a hit) |
-| 7 | 1 | Magister Sphinx |
+| 2 | 21 | 6 rocks, Basim, Desmond, Spy, Evie, Arbaaz, Thopteryx, Boots, Haystack, Waterbender Ascension, Grasp, Trophy, Terminate, Mana Leak, Get Out, Imp's Mischief |
+| 3 | 19 | Lantern, Waterskin, Sphere, Jacob, Slasher, Royal Assassin, Ratonhnhaké꞉ton, Shao Jun, Altaïr, Etrata DF, Adéwalé, BMC, Propaganda, Revelations, Cloak, Gauntlet, Mortify, Rally, Vapors |
+| 4 | 11 | Ramses, Arno, Queen, Etrata S, Aya, Layla, Hakoda, Coastal Piracy, Utter End, Restart Sequence, Diabolic Tutor |
+| 5 | 4 | Ezio Blade, Bayek, Combustion Man, Eagle Vision |
+| 6 | 1 | Eivor, Wolf-Kissed |
 
-27 creatures (22 Assassins; Roshan makes the other 5 Assassins); 19 artifacts, 7 Equipment, 20 legends. Toughness 2 or less:
-7 of 27 creatures with Ezio (26 %, under a third).
+26 creatures (24 Assassins, plus Thopteryx and Hakoda), 17 artifacts, 5 Equipment, 22 legendary cards, 40 historic cards.
+Ten Assassins cost 4 or more: the cards freerunning really discounts (8 before). Toughness 2 or less: 8 of 27 creatures with
+Ezio (30 %, under a third).
 
-### Function profile (combat_attackers + alternate_kill as plan)
-| Function | Tier | Min | Target | Actual | Needed by | Reason |
+### 3.1 Profile table (combat_attackers with alternate_kill as second plan)
+| Function | Tier | Min | Target | Actual | Needed by | Reason for THIS deck |
 |---|---|---|---|---|---|---|
-| attackers | gate | 12 | 16 | 24 (23 without Ezio) | early | 22 Assassins plus fliers; the fuel |
-| through_wide_board | gate | 10 | 12 | 19 | early | 9 evasive or flying creatures, 3 flying Equipment, Gauntlet, Vapors, Tunnel, Enter the Avatar State, Kaya's drain, Diabolic Tutor |
-| through_big_creatures | gate | 10 | 12 | 15 | early | 7 spot answers + deathtouch (Ramses, Arno, Queen, Slasher, Ezio Blade) + Etrata's exile + Diabolic Tutor |
-| condition_enablers | gate | 10 | 12 | 20 | early | Damage sources and multipliers toward 10; Sphinx sets one |
-| team_finishers | gate | 6 | 8 | 7 | late | Ramses (game), Kaya, Shao Jun, Arno, Bayek, Rally, Diabolic Tutor |
-| haste | support | 4 | 6 | 4 | early | Boots, Footblade, Haunted Cloak, Queen. Not promoted: freerunning works from any Assassin hit, so a turn without Ezio is not a dead turn |
-| team_evasion | support | 6 | 8 | **3** (WARN) | early | Gauntlet, Secret Tunnel, Vapors. Reason below |
-| defense_while_tapped | support | 4 | 6 | 7 | early | Propaganda, Haunted Cloak (vigilance), Inventor, Thopteryx, Etrata DF, Ramses, Hakoda |
-| combat_draw | support | 4 | 6 | 7 | early | Ezio Blade, Coastal Piracy, Etrata DF, Jacob, Eagle Vision, Gauntlet, Lion Vulture |
-| wipe_insurance | support | 2 | 3 | 8 | late | Hakoda, Haystack, Get Out, Restart, Layla, Jacob, Altaïr, Slasher |
-| payment_enablers | support | 6 | 8 | 9 | early | Tower, Orchard, Path of Ancestry, Arcane Signet, Fellwar, Lantern, Waterskin, BMC Treasure, Abstergo |
+| attackers | gate | 12 | 16 | 21 + Ezio + tutor | early | The fuel: 96 % to hold one by turn 5 without Ezio |
+| through_wide_board | gate | 10 | 12 | 16 + tutor (about 14 weighted) | early | 6 fliers or unblockables, Glider, Evie, Ascension, Gauntlet, Vapors, trample (Eivor, Cloak), noncombat (Arbaaz, Combustion Man); half weight for the one-shots |
+| through_big_creatures | gate | 10 | 12 | 15 + tutor | early | 6 instant answers, Royal Assassin, Etrata, 5 deathtouch attackers, Combustion Man, the Saga |
+| condition_enablers | gate | 10 | 12 | 16 + Ezio + 2 tutors (about 13 weighted) | early | 8 team-wide (Arbaaz, Shao Jun, Arno, Bayek, Ramses, Rally, Aya, Altaïr), the rest single-target at half |
+| team_finishers | gate | 6 | 8 | 6 + Diabolic Tutor | late | Ramses, Arno, Bayek, Rally, Shao Jun, Arbaaz. At the minimum: the pool has no overrun or extra combat left |
+| haste | support | 4 | 6 | 4 | early | Boots, Footblade, Cloak, Queen. Not promoted: freerunning works from any Assassin hit, so a turn without Ezio is not dead |
+| team_evasion | support | 6 | 8 | **3 (WARN)** | early | Gauntlet, Vapors, Ascension. Reason in 3.3 |
+| defense_while_tapped | support | 4 | 6 | 6 | early | Propaganda, Royal Assassin, Etrata DF, Hakoda, Cloak, Thopteryx |
+| combat_draw | support | 4 | 6 | 7 | early | Ezio Blade, Coastal, Etrata DF, Ascension, Eagle Vision, Jacob, Gauntlet |
+| wipe_insurance | support | 2 | 3 | 10 | late | Hakoda, Haystack, Get Out, Mana Leak; rebuild: Restart, Layla, Jacob, Altaïr, Slasher, the Saga |
+| payment_enablers | support | 6 | 8 | 10 | early | Tower, Orchard, Path, Arcane Signet, Fellwar, Lantern, Waterskin, Sphere, BMC, Abstergo |
 
-**WARN team_evasion 3 of 6 (reason):** the only owned team-evasion card was Cover of Darkness, a loan whose replacement costs
-10,600 (31 % of the envelope); the stores have no other team-evasion card under 3,000. Board 1 is still carried by 20
-through_wide_board pieces: nine creatures that fly or are unblockable, three flying Equipment, Gauntlet (one opponent's whole board
-tapped), Mephitic Vapors (kills every 1/1), Secret Tunnel, and the noncombat route (Shao Jun, Kaya) that
-never meets a blocker. Cover of Darkness is the first card to add when money frees up (section 6).
+Fit check, each card once: 36 lands + 10 rocks + 26 creatures + 5 enchantments + 6 other artifacts + 16 instants and
+sorceries = 99. Every gate minimum is met inside those slots; no function needed a card that serves nothing else.
 
-**WARN 35 lands (reason):** the lean-low rule holds: average MV 2.797 (< 2.8) with 29 cards at MV 2 or less and 9 rocks;
-freerunning makes every 4-5 MV Assassin cost {B}{B} after turn 3. Bracket 4 average lists of this commander run 33 lands (primer
-E1). P(2-4 lands in 7) 73 %, 93 % with the free mulligan.
+Base floors by tag (gate): ramp 11 (min 10), draw 10 (10), spot removal 12 (6), wipes 1 (1), protection 8 (6).
+- **Ramp, honest timing:** turn 2 is Ezio's, so only Sol Ring is cast earlier; the six 2-mana rocks come on turns 3 and 4
+  next to a {B}{B} Assassin, the three 3-mana rocks on turn 4 or later. They are counted because they pay the five-color
+  kill, and each is also a historic spell (Basim, Arbaaz) and a dart (Shao Jun). Karsten's model gives a 2-mana commander
+  no rocks at all; the payment is why this deck keeps ten.
+- **Draw, honest weight:** 10 by tag, about 9 at full weight (Evie nets one card once; Queen's monarch and the Ascension
+  are conditional). Jacob and Layla are recursion and are not counted. Selection on top: Evie's loot, Desmond's surveil.
+- **Answers:** 8 spot answers plus Royal Assassin, Etrata, Combustion Man and the Saga against 27 closing cards.
 
-### Ratios
-| Item | Count | Why for THIS deck |
+### 3.2 Mana (the study: notes/02, notes/13, references mana-and-ramp and probability)
+**Lands and rocks.** 36 lands (was 35) and 10 rocks: 46 sources, lands 78 % (R8: 46 or more, lands two thirds or more). The
+band is 36 to 38; 36 because the average MV is 2.79, 28 cards cost 2 or less and freerunning pays for the top end. Karsten's
+formula (31.42 + 3.13 x 2.79 - 0.28 x 13 cheap rocks and draw) gives 36.5.
+
+**Colored sources** (raw; Karsten weight in brackets: rocks 0.75, Orchard 0.75, Fellwar 0.5):
+| Color | Lands | Rocks | Total (weighted) | Pips, all | Pips outside the Assassins | Karsten row and need | Verdict |
+|---|---|---|---|---|---|---|---|
+| B | 22 | 8 | 30 (27.5) | 28 | 13 | Ezio {1}{B}: 19. {B}{B} on turn 3: 28 | Met for Ezio, at the line for {B}{B} |
+| U | 12 | 6 | 18 (16.0) | 21 | 10 | Mana Leak {1}{U}: 19. Coastal Piracy {2}{U}{U}: 26 | Short: blue is a mid-game color here |
+| W | 11 | 7 | 18 (15.8) | 16 | 8 | Swords {W}, Thopteryx: 19 on curve; 16 from turn 4 | Met from turn 4 |
+| R | 8 | 6 | 14 (12.0) | 12 | 2 | Terminate, Footblade: 15 to 16 late | A splash, with the payment |
+| G | 7 | 6 | 13 (11.0) | 2 | 1 | Assassin's Trophy; payment only: 12 to 15 | A splash, the scarcest payment color |
+
+**Untapped lands (R10).** Always tapped: Path of Ancestry and Woodland Chasm (2 of the 3 allowed). Conditional: three
+battle lands (two basics needed; 18 basics), six check lands (their types sit on 10 Swamps and the typed duals), Concealed
+Courtyard (untapped turns 1 to 3). No colorless land except Abstergo (filter and the only graveyard hate) and Headquarters
+(black for every Assassin). Secret Tunnel left for a colored land.
+
+**Odds, computed** (scratch simulation, 40,000 games, real enter-tapped rules, free mulligan, greedy land choice, Orchard
+and Fellwar giving each color 80 % of the time, Headquarters never paying the kill; second figure = one extra card on 60 %
+of the turns from turn 4, for the draw engines):
+| Event | Deck as built today (35 lands) | This list |
 |---|---|---|
-| Lands + lasting ramp (R8) | 35 + 9 = 44 (+ BMC Treasure) | Two under 46, accepted for freerunning; lands 80 % of sources |
-| Ramp | 10 (9 rocks + BMC) | Profile min 10 met; 7 at MV 2 or less |
-| Draw | 11 counted | Hit-based draw counts full: the deck connects with unblockables every turn |
-| Spot answers | 10 (+ Etrata S) | R19: 8 at MV 2 or less, 9 instants; artifacts: Trophy, Chaos Warp, K-Command; enchantments: Trophy, Chaos Warp, Feed the Swarm, Get Out |
-| Wipes | 1 (Mephitic Vapors, one-sided) | A creature deck does not run symmetric wipes |
-| Commander protection | 7 | Boots, Thopteryx (ward), Haystack, Hakoda, Get Out, Mana Leak, Enter the Avatar State (attack engine 6-10) |
-| Tutors | Diabolic Tutor (buy), Loyal Inventor, Entomb, Adéwalé (dig) | Diabolic Intent and the GC tutors exceed the 3,000 limit |
-| Tapped lands (R10) | 1 always (Path of Ancestry); 3 need two basics (Sunken Hollow, Smoldering Marsh, Prairie Stream) | The check lands read 8 Swamps and the typed duals |
-| Colored sources (lands + rocks) | B 27, W 19, U 18, R 16, G 13 | Pips B 27, U 21, W 15, R 12, G 1 |
+| Ezio cast on turn 2, with his color | 94.6 % | **95.5 %** |
+| Ezio cast by turn 3 | 97.9 % | **98.5 %** |
+| {B}{B} available on turn 3 | 75.7 % | **79.8 %** |
+| Ezio on turn 2 AND {B}{B} on turn 3 | 73.6 % | **77.7 %** |
+| {B}{B} by turn 4 | 91.8 % | 94.4 % |
+| Blue on turn 3 / white on turn 3 | 67 % / 70 % | 68.5 % / 68.9 % |
+| {2}{U}{U} on turn 5 (Coastal Piracy) | 58 % | 64 % / 67.5 % |
+| {W}{U}{B}{R}{G} payable on turn 6 | 43.9 % | 49.5 % / 58.6 % |
+| ... on turn 7 | 52.8 % | **58.8 % / 69.8 %** |
+| ... on turn 8 | 60.2 % | **66.1 % / 78.2 %** |
+| ... on turn 8 with 2 mana to spare | 44.7 % | 51.0 % / 70.2 % |
+| Three lands on turn 3 / four on turn 4 | 88.7 % / 71.7 % | 89.8 % / 73.8 % |
+
+Reading: Ezio is on time in 19 games of 20. The five colors are NOT there in three to four games of ten on turn 7: this is
+the deck's real limit with this collection (no fetch lands, shock lands or Triomes). What was done: one more land, a tenth
+rock that makes any color (each any-color source adds 2 to 4 points; a Signet adds less), Woodland Chasm for green, no
+colorless land. What the guide does: play for damage, treat the trigger as a bonus, fetch Chromatic Lantern with the tutor
+when the kill is the plan, keep BMC Treasures. Hands: 2 to 4 lands in seven is 74.0 %, 93.3 % with the free mulligan (exact).
+
+### 3.3 WARN reasons and dead clauses
+- **team_evasion 3 of 6.** The pool has no team-evasion card for this deck: Cover of Darkness went back to the Standard
+  binder when the loans closed, Turnabout and Aether Gale are single copies in Azula, and Bleeding Effect gives flying only
+  if a flier is already in the graveyard (4 fliers in 99). Board 1 is carried by through_wide_board at 16: six evasive
+  Assassins, three ways to make Ezio himself evasive, Gauntlet, Vapors, two tramplers and three noncombat sources. Not
+  relabelled: single-target evasion is not counted as team evasion.
+- **Dead or weak clauses, counted:** Adéwalé (Vehicles 0); Hakoda (Allies 0); Eivor (Sagas 1; lands 36); Ratonhnhaké꞉ton
+  (Equipment 5, graveyard only); Etrata the Silencer (third counter). Live counts for the rest: Basim 38 historic spells
+  and Ezio; Arbaaz 40 historic cards; Bayek 22 historic creatures; Shao Jun 17 artifacts; Spy 21 legendary Assassins;
+  Jacob 25 targets; Altaïr and the Saga 23 Assassins; Layla 40; Thopteryx 23 legends; Path of Ancestry 25 creatures sharing a type. No equipment-matters
+  card, no blink payoff, no Vehicle payoff is played.
 
 ---
 
 ## 4. Interaction plan and protection plan
 
-- **What the table holds by turn 8** (skill S-6): about 2.3 spot removal, 0.9 wipes, 0.45 counters across three opponents.
-  Protect Ezio and Ramses against spot removal first (Thopteryx ward, Boots, Haystack, Enter the Avatar State), then hold one wipe
-  answer from turn 6 (Hakoda on the board, Get Out or Mana Leak in hand).
-- **Spot answers**: (1) whatever wins next turn, (2) a flying or deathtouch blocker in the way of the kill, (3) an attack tax
-  (Trophy, Chaos Warp, Feed the Swarm). Never a small value creature: the swarm goes around it.
-- **Win-turn shield (R24, 3+ at MV 2 or free)**: Mana Leak, Get Out, Enter the Avatar State, Haystack (activation 2), Boots already
-  on Ezio. Sequence: Ramses the turn before; on the kill turn equip a flier, keep {U}{U} or {W} up, attack, pay the five colors
-  with Lantern or the any-color lands. Bait a counter with Coastal Piracy or a lord first.
-- **Archenemy (R30)**: never show a lethal board one turn before the shield is ready; Propaganda and deathtouch make the
-  crack-back expensive.
-- **Wipes (R32)**: commit what wins in two turns, keep one Assassin in hand when two opponents can wipe. Rebuild: Ezio (2),
-  Restart, Layla, Jacob, Altaïr, Slasher, Ratonhnhaké꞉ton (Equipment back), Eagle Vision; Hakoda before it, Get Out during it.
-- **Graveyard hate**: Abstergo Entertainment. **Opposing commanders**: Swords, Chaos Warp, Etrata exile or shuffle them away.
+- **What the table holds by turn 8:** about 2.3 spot removal, 0.9 wipes and 0.45 counters across three opponents. One removal
+  will hit Ezio; a wipe comes in two games of three.
+- **Spot answers (R19):** 8, all instants: Swords, Grasp, Trophy, Terminate, Mana Leak, Get Out at MV 2 or less; Mortify at
+  3; Utter End at 4. Utter End is over the 3-mana line on purpose: it is the exile answer to anything, and one of four
+  two-color answers the pod needs. Artifacts: Trophy, Utter End, Combustion Man. Enchantments: Trophy, Mortify, Utter End,
+  Get Out. Spend them on what wins next turn, on the blocker in the way of the kill, on an attack tax.
+- **Repeatable answers:** Royal Assassin, Etrata the Silencer, Combustion Man, the Saga.
+- **Opposing commanders:** Swords, Utter End and Etrata exile; Royal Assassin kills each recast that attacks. Against
+  protection from monocolored: Trophy, Terminate, Mortify, Utter End, and the two-color deathtouch creatures (Ramses, Arno,
+  Queen, Ezio Blade, Etrata DF) block and kill it; Ezio himself (black only) cannot block or damage it.
+- **Graveyard hate:** Abstergo Entertainment, on demand (it also empties my graveyard: use it last).
+- **Commander protection (8, class 6 to 10), layered:** hexproof (Boots, Enter the Avatar State), ward (Thopteryx), phasing
+  (Haystack), redirect (Imp's Mischief), counters (Mana Leak, Get Out), bounce (Get Out), indestructible (Hakoda).
+- **Win-turn shield (R24, 3 or more at MV 2 or less):** Imp's Mischief, Enter the Avatar State, Get Out, Mana Leak,
+  Haystack's activation, Boots already on Ezio; Waterskin gives one mana on their turns. Sequence: Ramses the turn before;
+  on the kill turn make Ezio evasive, keep two mana up, attack every opponent, pay the five colors.
+- **Wipes (R32):** commit what wins in two turns, keep one Assassin in hand when two opponents can wipe. Before: Hakoda.
+  During: Mana Leak, Get Out, Haystack. After: Ezio for 4, Restart Sequence, Layla, Jacob, Altaïr, Slasher, the Saga, Eagle Vision.
+- **Archenemy (R30):** always-on deterrents are Propaganda, Royal Assassin and Etrata DF; never show lethal one turn early.
+- **Game Changers (R34): 0 of 3.** The collection holds three: Drannith Magistrate and Crop Rotation (Toph) and Narset
+  (Azula). Crop Rotation and Narset do nothing here. Drannith was weighed as a claim: it is strong, but it is a lock with
+  no function in the plan that turns three players against the deck that is already the visible attacker (R30, notes/12
+  C6), and Toph plays it. Left out; the lead may overrule (it would replace Adéwalé).
+- **R36, non-Game-Changer power cards:** in: Swords, Fellwar, Sol Ring, Signets and Talisman, Imp's Mischief. Not available:
+  Deflecting Swat, Swan Song, Spell Pierce, Snap (Azula, final), Path to Exile and Redirect Lightning (Toph; not claimed, see 7).
 
 ---
 
-## 5. Mulligan and play pattern
+## 5. Mulligan, play pattern and tests
 
-**Keep:** 2-4 lands with a black source; a 1-2 MV rock or two plays at MV 3 or less; a plan piece (connector, engine, lord,
-Equipment) or a rock. Ezio is always the turn-2 play.
-**Ship:** 0-1 land; 5+ lands with no play; no black source by turn 2; interaction-only hands.
-**Keep almost any land-good hand with:** Hookblade Veteran, Basim, Brotherhood Spy, Sol Ring, Swiftfoot Boots, Ramses, Coastal
-Piracy, Black Market Connections, Adéwalé.
+**Keep:** 2 to 4 lands with a black source, and a plan piece or a rock (Ezio is always the turn-2 play). Five lands with two
+plays. **Ship:** 0 or 1 land (one land with Sol Ring and black is a keep), 6 or more lands, no black source, answers only.
+**Keep almost any land-good hand with:** Hookblade Veteran, Basim, Brotherhood Spy, Sol Ring, Ramses, Ezio Blade, Coastal
+Piracy, Black Market Connections, Arbaaz Mir, Waterbender Ascension.
 
-**Turns 1-5:** T1 land + Sol Ring, Hookblade Veteran or Mechanical Glider. T2 Ezio. T3 attack with Ezio and the connector; after
-the hit cast the best 4-5 MV Assassin for {B}{B} (Ramses first at a slow table; Arno, Etrata S or Ezio Blade otherwise). T4-5
-engines (Coastal Piracy, BMC, Lion Vulture), Thopteryx before Ramses; keep 2 mana up from turn 5.
-**Turns 6-9:** choose the elimination target (nearest to 10, or the combo player): Slasher + Ezio on that player, Sphinx, Etrata,
-Gauntlet to tap their board, Rally for the extra damage. Ramses on board turns it into the win.
-**Kill turn:** attack every opponent with at least one Assassin (Ramses only covers players an Assassin attacked).
-**Late:** Shao Jun and Kaya finish every opponent; Restart, Layla, Jacob rebuild; Eagle Vision and Coastal refill.
+**Turns 1 to 5.** T1 a tapped land, or Sol Ring, Veteran. T2 Ezio. T3 attack; after the hit the best Assassin for {B}{B}
+(Ezio Blade, Ramses at a slow table, Arno, Eivor), one spare mana for Glider or a held Swords. T4 two {B}{B} Assassins, or
+one and a rock or an engine (Coastal Piracy, BMC, Ascension). T5 Propaganda or Royal Assassin if the board is tapped out;
+keep two mana up from here.
+**Turns 6 to 9.** Pick the target (nearest to 10, or the combo player). Slasher and Ezio on the same player; Gauntlet or
+Vapors for the blockers; Rally for the last points. Ramses the turn before.
+**Late.** Arbaaz, Shao Jun and Combustion Man finish; Restart, Layla, Jacob and the Saga rebuild; Eagle Vision refills.
 
----
+**20 opening hands** (seed 20261115, checklist applied by script): 17 keep the first seven, **19 of 20 with the free
+mulligan (95 %)**. Ships: one hand with no black source, two one-landers (one stays a one-lander after the mulligan). Large
+sample, 50,000 hands, same checklist: 70.2 % keep, **91.0 % with the free mulligan**.
 
-## 6. BUY (ranked by gain per CLP, all under 3,000)
+**Goldfish, 5 kept hands (seed 11), one opponent targeted:**
+1. Swamp, Swamp, BMC, Layla, Altaïr, Restart, Swords: Ezio T2, hit T3 and Layla, T4 Altaïr and Shao Jun, T5 BMC, T6
+   Gauntlet; the target is at 6 on T6 with no white, red or green for the kill; dead to damage T7.
+2. Rally, Ratonhnhaké꞉ton, Island, Grasp, Sphere, Utter End, Swamp: two lands and no third until turn 6. Ezio T2 and
+   alone until Ezio Blade on T6; elimination about T10. The two-land keep that fails.
+3. Courtyard, Swamp, Waterskin, Avatar State, Diabolic Tutor, Ascension, Ezio Blade: Ezio T2, Ramses for {B}{B} T3, Ezio
+   Blade T4, Bayek T5; T6 double strike for 34 on a player at 16: **win on turn 6** through Ramses.
+4. Desmond, Island, Sphere, BMC, Swamp, Swamp, Restart: Ezio T2, Queen T3 and Entomb for Ramses, Restart Sequence returns
+   Ramses T4, 16 damage T5 and T6: **win on turn 6**.
+5. Swamp, Swamp, Grasp, Hakoda, Coastal, Eagle Vision, Mischief: Ezio T2, Eagle Vision T4, Coastal and Arbaaz T5, Royal
+   Assassin T6; few attackers; elimination about T10.
+Record: Ezio on turn 2 in 5 of 5, first hit turn 3 in 5 of 5, eliminations T6, T6, T7, T10, T10 (median 7).
 
-Price hints: highest variant price on the store's product search, 2026-11-08 (Shopify `price_max`, about Near Mint; product JSON
-answered HTTP 429, so the variant is **to read** live); Rivendel by script with quantity. Gain is judgment [J], estimated points
-of win rate in a 4-player pod, only to rank.
+**Disrupted.** (a) Ezio killed on his first attack (game 1): no hit, BMC on T3, Ezio again on T4 for 4, hit on T5 with two
+Assassins after it; one to two turns lost. With Veteran, Spy or Basim out, nothing is lost. (b) Wipe after my turn 5 (game
+4), no shield in hand: Ezio for 4 with Boots attacks at once on T6, Combustion Man after the hit, threat again on T8; two
+turns lost. (c) Ramses countered on T3 (game 3): Restart Sequence returns him on T5; the win moves from T6 to T7.
 
-### New buys
-| # | Card | Store (printing, stock 2026-11-08) | Price hint | Lang | Gain [J] | Gain per 10k | Plays until it arrives |
-|---|---|---|---|---|---|---|---|
-| 1 | Ramses, Assassin Lord | PayToWin, Dominaria United Commander (in stock; variants 1,600-3,500) | **2,990 cap: buy only a variant UNDER 3,000** (the NM regular showed 3,500) | EN | +6: one elimination ends the game; lord; deathtouch | 20 | Rooftop Assassin (owned) |
-| 2 | Talisman of Progress | Game of Magic, FINAL FANTASY Commander (in stock) | 1,500 | EN | +0.7: untapped W/U turn 2 | 4.7 | Dimir Locket (owned) |
-| 3 | Fellwar Stone | PayToWin, Lorwyn Eclipsed Commander (in stock) | 1,560 | EN | +0.7: 2-mana any-color rock | 4.5 | Boros Locket (owned) |
-| 4 | Orzhov Signet | Game of Magic, Tarkir Dragonstorm Commander (in stock) | 1,240 | EN | +0.5 | 4.0 | Everflowing Chalice (owned) |
-| 5 | Altaïr Ibn-La'Ahad | Game of Magic, Assassin's Creed (in stock) | 2,080 | EN | +0.7: attacking copies of dead Assassins | 3.4 | Lydia Frye (owned) |
-| 6 | Diabolic Tutor | PayToWin, four printings available (product range 1,200-7,400, per the review); **to read: buy only a variant UNDER 3,000** (2,990 cap) | 2,990 | EN or ES | +0.8: a second card that finds Ramses (doubles access to the table win) | 2.7 | Reckless Handling (owned) |
+**Reference boards.** Board 1, eight 1/1 chump blockers: Veteran, Basim, Spy, Shao Jun, Ratonhnhaké꞉ton and Etrata go over or
+past them; Glider, Avatar State, Evie and the Ascension do it for Ezio; Gauntlet taps them; Vapors kills them all; Eivor and
+a Cloaked attacker trample; Arbaaz, Shao Jun and Combustion Man ignore them. Their sacrifice outlet kills my 8 creatures of
+toughness 2 or less: Ramses' +1/+1 and Hakoda cover them. Board 2, two bigger creatures: six instant answers, Royal
+Assassin, the Saga, Etrata's exile, five deathtouch attackers, Etrata DF and Hakoda as blockers, fliers and unblockables.
 
-Ramses is NOT a loan candidate (it is not in his Standard binder, `decks/phase2/loans.md`), so it can only be a normal buy and
-must cost under 3,000. **Exact fallback (review F2):** if no Ramses under 3,000 is in stock at the live read, the slot plays
-**Fire Nation's Conquest** (owned; team +1/+0, a team finisher) while Kaya holds Eivor's slot, or **Kaya, Ghost Assassin** once
-Eivor is in; NOT Rooftop Assassin, which fails the gate (team_finishers 5 of 6). Route 1 then stays a
-one-player-per-elimination route; the gate passes either way (Ramses is one of four closers).
+**Gauntlet (R39).** (1) Fast combo: Mana Leak, Get Out, six instant kills, Trophy and Utter End for the piece, and the
+turn-7 clock aimed at that player; a protected all-spell combo is the worst case (two counters only). (2) Stax and taxes:
+28 cards at MV 2 or less; Trophy, Mortify, Utter End, Combustion Man; under a Propaganda, attack with two and let Arbaaz and
+Shao Jun work. (3) Go-wide: Board 1. (4) Big creatures: Board 2. (5) Control: ward, Boots, Haystack, Imp's Mischief and two
+counters for the engine, Hakoda for the wipe, cheap threats and five recursion cards after it; hold one threat.
 
-### Kept from the current purchase order for Ezio
-| Card | Store | Price | Note |
-|---|---|---|---|
-| Golgari Signet | Game of Magic | 570 | rock, black + green for the payment |
-| Battlefield Forge | Game of Magic | 915 | untapped R/W |
-| Dropped (review F4): Rogue's Passage | PayToWin | -1,440 | a colorless land whose 4-mana activation competes with the 5-color payment; ninth Swamp instead |
-| Assassin token 1/1 black menace (TACR 4) | Game of Magic | 570 | Ratonhnhaké꞉ton and Aya |
-| Dropped: Llanowar Wastes | Game of Magic | -1,320 | replaced by an 8th Swamp; green comes from 13 sources already |
-
-Booked to Kilo in the order, unchanged: Swords to Plowshares EN (2,500; Ezio plays it, the Spanish copy goes to Kilo) and Command
-Tower (900; Ezio's Spanish copy goes to Kilo, the bought copy to Ezio: buying the English LP at the same 900 is better).
-Tokens: Queen Marchesa's 1/1 deathtouch haste Assassin had no stock (use a marker); BMC's Shapeshifter and Treasures are owned
-(they move with BMC); Copy tokens owned.
-
-### Not bought (gain per CLP or the 3,000 rule), with what would come first if money frees up
-Cover of Darkness loan (10,600; team fear, the proven role-player: first in line), Achilles Davenport loan (8,680), Mari (7,200),
-Lightning Greaves (7,200), Brotherhood Regalia (12,200), Whispersilk Cloak (3,640), Counterspell (4,400 NM), Path to Exile (2,600
-at PayToWin: Feed the Swarm and the owned removal do the job), Diabolic Intent (21,120), every Game Changer (section 12).
+**Final cut pass (the 10 weakest, each against the best card left out).** Hookblade Veteran (Aven Heartstabber: a turn
+slower), Adéwalé (Lydia Frye, Petty Larceny: the draw floor), Mechanical Glider (Hookblade: dearer), Mephitic Vapors (Ritual
+of Soot: kills my own), Rakdos Signet (Talisman of Conviction: no black), Golgari Signet (the green of the payment), Mana
+Leak (It'll Quench Ya!: weaker), Enter the Avatar State (Undying Malice: no evasion), Altaïr (Lydia Frye), Utter End
+(Kolaghan's Command: cannot hit the protected commander). All ten stay.
 
 ---
 
-## 7. Loans and their replacements (rules `decks/phase2/loans.md`)
+## 6. The owner's cards (review of 2026-11-14)
 
-| Card | Status | Replacement | Class | Gain [J] per 10k | Decision |
-|---|---|---|---|---|---|
-| Eagle Vision | lent 2026-10-31 | Game of Magic 742 | automatic | high (draw 3 for 2) | keep |
-| Bayek of Siwa | accepted 2026-11-02 | Game of Magic 2,320 | automatic | +1.5 → 6.5 | keep |
-| Layla Hassan | accepted 2026-11-02 | Game of Magic 915 | automatic | +0.8 → 8.7 | keep |
-| Hidden Footblade | accepted 2026-11-02 | PayToWin 1,440 | evaluate (accepted) | +0.6 → 4.2 (haste now that Greaves is out) | keep |
-| Unstoppable Slasher | accepted 2026-11-02 | Game of Magic 5,560 | evaluate (accepted) | +1.5 → 2.7 (halving + Ezio kill, deathtouch, returns) | keep |
-| **Basim Ibn Ishaq** | NEW | Game of Magic 3,400 (in stock) | **automatic** | +2 → 5.9 | keep |
-| **Aya of Alexandria** | NEW | Game of Magic 915 (in stock) | **automatic** | +0.8 → 8.7 | keep |
-| **Eivor, Battle-Ready** | NEW, **pending proposal, not in the list** | PayToWin 5,400 NM (variants 3,100-5,400; Game of Magic sold out) | **to evaluate** at 5,400 (automatic if an LP under 5,000 is read; then it enters in Kaya's slot). Need: the only closer that hits all three opponents at once without combat (7 Equipment = 7 to each per attack, haste, vigilance). Fallback until accepted: Kaya, Ghost Assassin (owned; -1 drains each opponent 2) | +1.5 → 2.8 | keep |
-| Achilles Davenport | accepted 2026-11-02 | Game of Magic 8,680 | evaluate | +1.2 → 1.4 | **drop**: Arno (owned) is the stronger lord; Rally the Peasants (owned) covers the team pump; Adéwalé (owned) takes the slot and digs for Ramses |
-| Cover of Darkness | accepted 2026-11-02 | PayToWin 10,600 | evaluate | +1.5 → 1.4 | **drop** (proven role-player: the reason is for the owner to review): 31 % of the envelope for one card; fear fails against black and artifact blockers; 20 other ways through a wide board remain. To keep it, the owner would drop Eivor + Altaïr + Orzhov Signet (8,720) and go 1,880 over the envelope, or also drop Slasher |
-
-Ratonhnhaké꞉ton and Propaganda use free English copies (no loan). New `borrowed` / restock entries for the lead: Basim, Aya,
-Eivor only once accepted; Achilles and Cover of Darkness go back to his Standard decks (remove their restock rows).
-
----
-
-## 8. Scarce copies
-
-| Card | Copies | Claim | Reason and what the other deck loses |
-|---|---|---|---|
-| Black Market Connections | 1 EN, held by Azula's current list | **Ezio claims it** (priority 1; Azula not yet rebuilt) | Here it is ramp (Treasure for the payment), draw and an Assassin body every turn. Azula loses it; no copy under 3,000 in the stores |
-| Hakoda, Selfless Commander | 1 EN, in Toph's current list (pool: free) | **Ezio claims it** | Free wipe insurance on a 3/5 body; Toph not yet rebuilt; Toph's builder may want it back for its own wipe insurance (lead resolves) |
-| Chaos Warp | 4 (2 EN free, 1 EN Azula, 1 ES Kilo) | Ezio takes a free English copy | No conflict |
-| Command Tower | 3 (1 EN Azula, 2 ES Ezio and Toph) | Ezio keeps one copy | Kilo needs Spanish: Ezio's Spanish copy goes to Kilo, Ezio takes the bought copy (prefer the English LP, 900) |
-| Swords to Plowshares | 2 ES | Ezio plays the bought English copy | The Spanish copy goes to Kilo |
-| Haystack | 2 EN (Toph 1, free 1) | Ezio takes the free copy | No conflict |
-| Deflecting Swat | 1 EN, Azula | not claimed | Azula's free-spell plan needs it more |
-| Spanish-only cards played here | Brotherhood Spy, Hookblade Veteran, Hookblade, Merciless Harlequin, Restart Sequence, Assassin Gauntlet, Ezio Blade, Isolated Chapel, Woodland Cemetery, Hinterland Harbor, Clifftop Retreat (Ezio's copy), Exotic Orchard, Brotherhood Headquarters | no Kilo conflict | Clifftop and Orchard have spare Spanish copies for Kilo |
-
----
-
-## 9. Comparison with the current list (after purchases) and iteration 1
-
-Current list `decks/phase2/moxfield/ezio-auditore-da-firenze-after-purchases.txt` (Salt 6.6, real power 6.6-7.1): 19 out, 18 in,
-plus one Swamp.
-| Out | Function | In | Why |
-|---|---|---|---|
-| Cover of Darkness (loan 10,600) | team evasion | Rally the Peasants (owned) | Budget (section 7); Rally closes route 2 |
-| Achilles Davenport (loan 8,680) | lord | Adéwalé (owned) | Budget; Arno stays as lord; Adéwalé digs for Ramses |
-| Haytham Kenway | removal body | Basim (loan) | Unblockable draw engine at 2 |
-| Thorn of the Black Rose | monarch | Aya (loan) | The monarch is stolen in a pod; Aya makes Assassins from hits |
-| The Revelations of Ezio | slow saga | Ramses (buy) | The table kill |
-| Lydia Frye, Evie Frye | connectors | Hookblade Veteran, Altaïr (buy) | Turn-2 freerunning; recursion in combat |
-| Mortify, Utter End | 3-4 MV answers | Bitter Triumph, Feed the Swarm | Cheaper; Chaos Warp covers any permanent |
-| What Must Be Done | symmetric wipe / recursion | Hakoda | A board deck should not wipe its own board; Hakoda saves it |
-| Angelic Intervention | single protection | Chaos Warp | Protection count still 7; another instant answer to any permanent |
-| Ghostly Prison | attack tax | Black Market Connections | One tax is enough with deathtouch and vigilance |
-| Boros Guildmage | haste | Cobbled Wings | Haste 4 without it; flying for equip {1} |
-| Glider Staff | evasion | Mechanical Glider | 1 mana instead of 3 |
-| Boros Locket | 3-mana rock | Fellwar Stone, Talisman of Progress, Orzhov Signet (buys) | 2-mana rocks (R9) |
-| Abandoned Campground, Raucous Carnival, Llanowar Wastes | lands | Clifftop Retreat, Swamp | R10 tapped lands; budget |
-
-Iteration 1 (`decks/measured/ezio-auditore-da-firenze/round5-step40.txt`, Salt 7.7, lost two games): 45 names kept. Gone: the
-Etrata copiers, Dualcaster + Ember Island, Intruder Alarm, Deadeye, Nekrataal, Venser, Winter Soldier, Ravenloft Adventurer, the
-colorless and tapped lands. The owner's losses named the fixes: haste (5 now), ways past chump boards (20), fragile creatures
-(ward, deathtouch, Hakoda), open while tapped (Propaganda, vigilance, deathtouch), finishing more than one player (Ramses, Kaya,
-Shao Jun).
-
----
-
-## 10. Test pass (R33, R38, R39) and the reference boards
-
-**20 opening hands** (seeded shuffle, seed 20261108, section 5 checklist applied strictly by script): 11 of 20 keep the first
-seven, **19 of 20 with the free mulligan (95 %)**. Ships: six one-landers, one five-lander, two hands with lands and only
-answers (a human would keep one of them: Ezio on turn 2). Theory: 2-4 lands 73 %, 93 % with the free redo.
-
-**Goldfish (seed 7, the kept hands, one opponent targeted; run before the fix round, so games 2 and 4 show Eivor where Kaya now plays: Kaya on T4-5 adds 2 to each opponent per turn instead of Eivor's attack, about the same elimination turn):**
-1. Swamp, Swamp, Orchard, Golgari Signet, Etrata S, Haunted Cloak, Feed the Swarm: Ezio T2, first hit T3 and Etrata for {B}{B},
-   Layla T4, Thopteryx + Cloak T5; target at 9 on T7, Ezio's trigger removes them (T7).
-2. Island, Swamp, Dragonskull, Eivor, Haunted Cloak, Swords, Eagle Vision: Ezio T2, hit T3 + Lantern, Sol Ring + Eivor T4 (haste),
-   Eagle Vision for {1}{U} T5; elimination T7.
-3. Feed the Swarm, Etrata DF, Drowned Catacomb, Swamp, Hookblade, Aya, Coastal Piracy: Ezio T2, hit T3 and Aya for {B}{B} (no
-   white yet for Hookblade), Coastal T5; elimination T7.
-4. Eivor, Hinterland Harbor, Golgari Signet, Harlequin, Woodland Cemetery, Smoldering Marsh, Layla: three lands that enter
-   tapped; Ezio + Hookblade Veteran T3, first hit T4; elimination T8.
-5. Rally, Harlequin, Altaïr, Drowned Catacomb, Brotherhood Headquarters, Plains, Trophy: Ezio T2 (Headquarters pays him), hit T3 and
-   Altaïr for {B}{B}, Coastal T5; elimination T7.
-Record: Ezio on turn 2 in 4 of 5, first hit turn 3 in 4 of 5, first elimination turn 7-8 (median 7). With Ramses that is the game.
-
-**Disrupted:** (a) Ezio removed the first time he attacks: recast turn 4 with Boots (haste) while Spy/Basim keep freerunning on;
-one turn lost. (b) Wipe on turn 6: Hakoda's sacrifice or Get Out keeps the core; otherwise Ezio (4), Restart and Layla threaten
-again turn 8. (c) Ramses countered: Restart Sequence or Jacob recast it; routes 2 and 3 keep the pressure; one turn lost.
-
-**Gauntlet (R39):** (1) fast combo: Mana Leak, Get Out, seven instant creature answers, Chaos Warp, Trophy, and the turn-7 clock
-(eliminate the combo player first); a protected all-spell combo is the worst case. (2) Stax and taxes: 29 cards at MV 2 or less;
-Trophy, Chaos Warp, K-Command, Feed the Swarm answer artifacts and enchantments; under Propaganda attack with the unblockables only
-and let Shao Jun ping. (3) Go-wide: Mephitic Vapors, nine evasive creatures, flying Equipment, Gauntlet, Shao Jun and Kaya.
-(4) Big creatures: seven spot answers, deathtouch (Ramses, Arno, Queen, Slasher, Ezio Blade), unblockables, Etrata's exile.
-(5) Control: Thopteryx ward, Boots, Haystack, Mana Leak and Get Out against the answers, Hakoda against the wipe, cheap threats and
-recursion after it; hold one threat in hand.
-
-**Reference boards (gate):** Board 1, eight 1/1 chump blockers: Basim, Spy, Ratonhnhaké꞉ton, Etrata S (unblockable), Hookblade
-Veteran, Shao Jun, Thopteryx, Lion Vulture, Sphinx (fliers), Hookblade, Cobbled Wings, Glider, Enter the Avatar State, Gauntlet,
-Vapors, Secret Tunnel, Shao Jun and Kaya without combat. Board 2, two bigger creatures: Swords, Grasp, Bitter
-Triumph, Terminate, Trophy, Chaos Warp, Feed the Swarm, deathtouch attackers, unblockables, Etrata's exile.
-
-**Final cut pass (10 weakest, before the review):** Reckless Handling (later replaced by Diabolic Tutor), Mana Leak, Kitesail (later Cobbled Wings), Hookblade, Haystack, Merciless Harlequin, Mephitic Vapors,
-Hookblade Veteran, Rakdos Signet, Lion Vulture: each kept against the best affordable alternatives (Smoke Bomb 742, Thraximundar
-2,600, Unclaimed Territory 742, Anguished Unmaking 2,600, Path to Exile 2,600, Fatal Push, Murder, Royal Assassin, Lydia Frye,
-Ghostly Prison, all owned or under 3,000) because the envelope has 443 left and none wins its slot by enough to buy.
-
----
-
-## 11. Total spend of the deck against the 34,000 envelope (CLP, price hints)
-
-| Block | Lines | CLP |
+Ezio is five colors, so every card of the review gets a verdict.
+| Card | Verdict | Reason |
 |---|---|---|
-| New buys (each under 3,000) | Ramses 2,990 (cap), Diabolic Tutor 2,990 (cap, to read), Altaïr 2,080, Fellwar Stone 1,560, Talisman of Progress 1,500, Orzhov Signet 1,240 | 12,360 |
-| Kept upgrade lines from the order | Golgari Signet 570, Battlefield Forge 915 (Rogue's Passage 1,440 and Llanowar Wastes 1,320 dropped) | 1,485 |
-| Loan replacements kept | Eagle Vision 742, Bayek 2,320, Layla 915, Hidden Footblade 1,440, Unstoppable Slasher 5,560 | 10,977 |
-| New loan replacements | Basim 3,400, Aya 915 (Eivor 5,400 pending, not counted) | 4,315 |
-| Tokens | Assassin token 570 | 570 |
-| **All-in total** | | **29,707** |
-| Envelope | | 34,000 (4,293 left; with Eivor accepted at 5,400: 35,107, 1,107 over, so accept it only at an LP under 4,293 or with the lead's rebalance) |
-| Before the rebuild | | 35,072 |
-
-Upgrades (non-loan) come to 13,845: above Ezio's share of the 10,000 shared with Azula and Toph; every card is under 3,000 and the
-deck stays inside its all-in envelope, which the lead set to hold the 90,000 target. If Ramses or Diabolic Tutor is
-cheaper than its cap, the total drops. Not counted here (booked to Kilo): Swords EN 2,500, Command Tower 900.
+| Merciless Harlequin | **OUT** (he is right) | A 2/1 that draws one card. Evie Frye takes the slot: also a cheap Assassin that nets a card (Jacob), and then loots and makes Ezio unblockable every turn |
+| Evie Frye with Jacob Frye | **IN, both** | Either one fetches the other. Evie's discards feed Jacob's recasts, Altaïr, Desmond and the Saga, and her unblockable is the cheapest repeatable way to land Ezio's kill |
+| Royal Assassin | **IN** | A deterrent that also kills: it covers the open board after an attack (his lesson L3) and takes a removal spell meant for Ezio. In for Loyal Inventor |
+| Mortify | **IN** | Instant, two colors, also enchantments. In for Feed the Swarm (sorcery, one color, costs life) |
+| Utter End | **IN** | Exile, any nonland permanent, two colors. In for Chaos Warp (one color, and red is the fourth color here) |
+| The Revelations of Ezio | **IN** | A kill, a counter on each attacker and an Assassin back, for three mana; the pod always has a tapped attacker; Layla returns the Saga. In for Bitter Triumph, the ninth one-for-one answer |
+| Commander's Sphere | **IN** | An any-color rock is worth 2 to 4 points on the five-color payment (3.2); a card when it is spare. Added as the tenth rock |
+| Mana Leak | **IN** (stays) | The counter held for the wipe or the combo piece |
+| Lydia Frye | **OUT** | Her job is an evasive Assassin. Brotherhood Spy, Hookblade Veteran, Shao Jun and Etrata do it against any blocker, and her evasion fails against exactly the 1/1 board that beat him (L3, L8). Her surveil is selection, which Evie gives with an unblockable on top. First creature in if a slot opens (for Adéwalé, at the cost of the draw floor) |
+| Deadeye Navigator | **OUT** | Six real mana in a deck that pays {B}{B}: it is not an Assassin, so freerunning never discounts it. Blink partners counted: Adéwalé, Layla, Queen, Arbaaz, Ratonhnhaké꞉ton, Etrata, Slasher (7 of 26), each blink {1}{U} more. Haystack does the protection job for 2 mana from turn 2 and also dodges wipes; Layla, Jacob and Restart Sequence re-use Assassins for {B}{B} |
+| Return the Favor | **OUT** | One copy, in Azula, where every copy is doubled. Here {R}{R} is the problem: red has 14 sources (two red by turn 7 in about half the games). Imp's Mischief does the redirect from the main color |
+| Tome of Legends | **OUT, not contested** | Comparison: in both decks it is about one card a turn for {1} while the commander attacks. Ezio got Black Market Connections back from Azula, and the Tome is what Azula took for it; taking both would leave her with neither, and she spends cards faster. Ezio keeps 10 draw pieces; Waterbender Ascension is the new continuous one |
+| Waterbending Lesson | **OUT** | Four real mana at sorcery speed for three cards; Eagle Vision does it for {1}{U} |
+| Mystical Teachings | **OUT** | Four mana to find a one- or two-mana instant in a deck that taps out; Diabolic Tutor finds Ramses for the same four |
+| Torrential Gearhulk | **OUT** | Azula's only copy and her best card; six mana, and Ezio's 12 instants are mostly one- and two-mana answers |
+| Frostcliff Siege | **OUT, not contested** | Azula's only copy and her proven draw. Here Coastal Piracy, Ezio Blade and the Ascension draw on hits |
+| Aether Gale | **OUT** | Azula's only copy; five real mana. Gauntlet and Vapors open the board for three |
+| Imprisoned in the Moon | **OUT** | Azula's only copy. Swords, Utter End and Etrata exile a commander; Royal Assassin kills each recast |
+| Hardened Scales, Inscription of Abundance, The Stasis Coffin, Alibou | **OUT** | Toph's cards: no counters plan here, 13 green sources, the Coffin protects the player and not the board, one artifact creature |
 
 ---
 
-## 12. Real-power estimate (1-10: 4 precon, 6 upgraded, 7-8 high power, 9-10 cEDH)
+## 7. Copies
+
+**Claimed from another deck (1).**
+| Card | Copies | Holder today | Why it adds more here | What that deck loses |
+|---|---|---|---|---|
+| Arbaaz Mir | 1 (Spanish) | Toph (not yet optimized) | Here it is the best of only two noncombat closers, an Assassin (lords, freerunning, Ramses), and 40 of 99 cards trigger it; it lowers all three players toward Ezio's 10. In Toph it is one of seven drain closers and does not see land entries | One pinger and the short kill of its loop B; its notes name Fire Nation Archers as the fallback |
+
+**Not claimed, on purpose.** Drannith Magistrate (Toph; section 4). Path to Exile (Toph's Spanish copy; Ezio has six instant
+kills and Toph few). Make a Stand (Toph's only wipe insurance; Ezio has Hakoda). Relic of Legends (Kilo's combo piece).
+Nothing is contested with Azula.
+
+**Free copies taken** (binder): Royal Assassin (3 EN free), Combustion Man (2 EN), Mortify (4 EN), Imp's Mischief (1 EN),
+Waterbender Ascension (1 EN), Commander's Sphere (1 EN; Kilo keeps the Spanish one), Woodland Chasm (1 EN), Glacial Fortress
+(1 EN; Kilo keeps the Spanish one), a tenth Swamp (22 EN free), Evie Frye (1 ES), Eivor Wolf-Kissed (1 ES), Utter End (1 ES),
+The Revelations of Ezio (2 ES).
+
+**Cards whose copies run short** (one copy per deck that wants it; no new conflict): with Azula: Swiftfoot Boots, Hidden
+Footblade, Propaganda, Mana Leak, Terminate (2 each), Bender's Waterskin (3), Drowned Catacomb, Dragonskull Summit, Sunken
+Hollow, Smoldering Marsh (2 each), Sulfur Falls (3). With Toph: Haystack, Battlefield Forge (2 each), Swords (3, all used),
+Sol Ring (4, all used). With Kilo: Swords, Sol Ring. Single copies only Ezio plays: Black Market Connections, Diabolic
+Tutor, Infernal Grasp, Fellwar Stone, the Signets, Get Out, Hakoda and every Assassin legend.
+
+**Freed for the later decks:** Kolaghan's Command, Bitter Triumph, Chaos Warp, Feed the Swarm, Loyal Inventor, Magister
+Sphinx, Roshan, Lion Vulture, Kaya, Hookblade, Cobbled Wings, Merciless Harlequin, Secret Tunnel, Clifftop Retreat (Spanish).
+
+**Language, where it is not English** (no English copy owned or free). New: Evie Frye, Arbaaz Mir, Eivor Wolf-Kissed, Utter
+End, The Revelations of Ezio. As today: Hookblade Veteran, Brotherhood Spy, Orzhov Signet, Ezio Blade of Vengeance, Assassin
+Gauntlet, Restart Sequence, Swords to Plowshares (BLC 109, pinned), Exotic Orchard, Brotherhood Headquarters, Isolated
+Chapel, Woodland Cemetery, Hinterland Harbor. Everything else is English.
+
+**For the lead.** (1) The Arbaaz Mir claim. (2) New pins are not needed; the tenth Swamp is any free English one. (3) No new
+token: the new cards make none; Kaya leaves. (4) If Commander Salt falls under the 6.5 floor: the list no longer holds a
+Spellbook line (Ezio + Magister Sphinx left); the first swaps to try are Magister Sphinx for Adéwalé and Loyal Inventor for
+Mechanical Glider, both free again, gate re-run. (5) `plan_density.py` regenerates all four consistency reports on every run; this build changed only Ezio's files.
+
+---
+
+## 8. Changes against the deck as built today (14 out, 14 in)
+
+| OUT (to the binder) | Job it did | IN | From | Why |
+|---|---|---|---|---|
+| Merciless Harlequin | cantrip body | Evie Frye | Spanish binder | Section 6 |
+| Kaya, Ghost Assassin | noncombat closer | Arbaaz Mir | Toph's deck (Spanish) | 1 to each opponent on 40 cards, for 2 mana, on an Assassin; Kaya was a 4-mana planeswalker behind a tapped board |
+| Lion Vulture | draw engine at 4 | Waterbender Ascension | English binder | Draws on hits for 2 mana, survives creature wipes, and makes Ezio unblockable |
+| Roshan, Hidden Magister | made non-Assassins cheap | Combustion Man | English binder | With Sphinx, Inventor and Vulture gone only two creatures are not Assassins; a 4/6 that removes or burns on every attack uses {B}{B} better |
+| Magister Sphinx | life setter, 7 mana | Eivor, Wolf-Kissed | Spanish binder | Castable only through Roshan or Entomb; Slasher keeps the setter job. A 7/6 trampler for {B}{B} hits from turn 4 and fills the graveyard |
+| Loyal Inventor | artifact tutor | Royal Assassin | English binder | Its target was the Sphinx. Section 6 |
+| Feed the Swarm | removal | Mortify | English binder | Section 6 |
+| Chaos Warp | removal | Utter End | Spanish binder | Section 6 |
+| Bitter Triumph | removal | The Revelations of Ezio | Spanish binder | Section 6 |
+| Cobbled Wings | flying for Ezio | Imp's Mischief | English binder | Evie and the Ascension now make Ezio evasive; protection goes from 7 to 8 with a 2-mana black redirect |
+| Hookblade | flying for Ezio | Commander's Sphere | English binder | The weakest Equipment (2026-11-08 review); the tenth rock for the payment |
+| Kolaghan's Command | flexible answer | Swamp (tenth) | English binder | The 36th land; artifact answers stay at three |
+| Secret Tunnel | evasion land | Woodland Chasm | English binder | The colorless land cost 2.6 points of {B}{B} on turn 3; Chasm is black and green and a Swamp Forest for the check lands |
+| Clifftop Retreat | red-white land | Glacial Fortress | English binder | Blue has 10 pips outside the Assassins, red 2: blue on turn 3 +2.5 points, Coastal Piracy on turn 5 +2.8 |
+
+Function counts after the cuts: spot answers 8 (min 6), wipes 1, protection 8, draw 10, ramp 11, team finishers 6 + tutor,
+noncombat closers 2, evasion for Ezio 7 (Glider, Avatar State, Evie, Ascension, Gauntlet, Cloak, Vapors), tutors 2.
+
+**Considered and left out** (the card that keeps the slot): Lydia Frye, Deadeye Navigator, Tome of Legends, Return the Favor
+(section 6); Drannith Magistrate (section 4); Ghostly Prison (Royal Assassin: a deterrent that kills; defense is at 6);
+Haytham Kenway (a fourth 4-mana card at full price; his exile ends when he dies); Petty Larceny (Adéwalé: a body and an
+Assassin card); Rooftop Bypass and Bleeding Effect (need a board or a stocked graveyard first); Viewpoint Synchronization and
+Hunter's Bow (green at 13 sources); Sokka, Lateral Strategist (not an Assassin, 3 real mana); Hidden Blade (a trick; evasion
+was the need); Aven Heartstabber, Nekrataal, Thorn of the Black Rose, Winter Soldier (5 Equipment: the dead clause again);
+Rogue's Passage (a colorless land again); Energybending (about 2 points on the payment for a whole slot); Thriving Moor (a third tapped land for 1.8
+points); Talisman of Conviction (no black); Undying Malice, Octopus Form (protection is at 8); Auditore Ambush.
+
+---
+
+## 9. Real power (1-10: 4 precon, 6 upgraded, 7-8 high power, 9-10 cEDH)
 
 | List | Estimate | Confidence |
 |---|---|---|
-| Current list after purchases | 6.6-7.1 | medium-low |
-| **This list with Ramses and Diabolic Tutor (after the fix round)** | **7.0-7.5** | medium-low (no games, not yet on Commander Salt) |
-| This list if no Ramses under 3,000 is found (Fire Nation's Conquest in the slot) | 6.8-7.2 | medium-low |
+| Deck as built today (2026-11-09) | 7.0 to 7.5 (the 2026-11-08 review's figure) | medium-low |
+| **This list** | **7.2 to 7.7** | medium-low (no games; Salt not measured in this step) |
 
-Why up: Ramses makes one elimination a win; Basim, BMC, Lion Vulture and Coastal Piracy give cheap repeatable draw; ramp 10;
-8 answers at MV 2 or less; a real noncombat route; Hakoda and Haystack against wipes and removal. Why not higher: no Game Changers,
-no fast mana beyond Sol Ring, owned tutors only, team evasion thin without Cover of Darkness, five-color payment, the kill needs a
-combat hit. Commander Salt guess (secondary): 6.8-7.3.
-
----
-
-## 13. Game Changer slots (R34) and R36
-
-**0 used.** The three slots may only take owned or affordable cards. Owned: Drannith Magistrate and Crop Rotation; affordable
-under 3,000: Narset, Parter of Veils (the store's copy is already in Azula's order) and Braids, Cabal Minion (about 1 USD, store price not read). Drannith was tried and cut: an
-off-plan stax piece with no function in this list that draws the table's hate; Crop Rotation and Braids do nothing here; Narset
-digs only noncreature cards in a creature deck. Every Game Changer that fits the plan (Cyclonic Rift, Teferi's Protection, Fierce
-Guardianship, Demonic, Vampiric, Enlightened Tutor) costs 26,000 to 130,000. Leaving the slots empty is the budget champion's
-choice: no affordable Game Changer beats the card it would replace.
-
-Non-GC high-power cards (R36): taken: Swords, Fellwar Stone, Talismans/Signets. Not taken: Path, Counterspell, Deadly Rollick,
-Flawless Maneuver, Mox Amber, Lotus Petal, Dark Ritual, Esper Sentinel, Mystic Remora, Grand Abolisher, Deflecting Swat (Azula's),
-Swan Song (Kilo's only copy): over 3,000, held by another deck, or no better than the owned card in the slot.
+Why up, about +0.2: {B}{B} on turn 3 goes from 76 to 80 % and the kill payment from 53 to 59 % on turn 7 (same simulation);
+ten Assassins that freerunning discounts instead of eight; a noncombat source that hits all three players from turn 2;
+answers that work against the pod's protected commander; Royal Assassin and a second redirect for the turns the board is
+tapped; no 7-mana card and no card that needed Roshan. Why not higher: one real tutor for Ramses (Ramses, the tutor or
+Entomb in 37 % of games by turn 7, 53 % by turn 10 with the draw engines); the five colors missing in three games of ten on
+turn 7; team evasion at 3; no Game Changer, no fast mana beyond Sol Ring. Commander Salt may read this list slightly lower
+than today's (its one Spellbook line and an artifact tutor left); the swaps for that case are in section 7.
 
 ---
 
-## 14. Self-review (skill S-15)
-1. One-sentence plan; every engine, payoff and backup card is in a function, support line or route (gate: 0 outside).
-2. Gate functions above min; early functions 15-24 pieces.
-3. Fuel: 6 connectors at MV 1-2 plus flying Equipment; freerunning from turn 3; card flow +1 to +3 a turn from turn 4.
-4. 35 lands with the lean-low reason; sources fit the pips; plays on turns 1-3 in most hands.
-5. Attack engine, protection 7, layered (ward, hexproof, phasing, indestructible, counters, bounce).
-6. Both boards: section 10.
-7. Three disjoint routes, one noncombat, each beating three opponents.
-8. Haste 5, team evasion 3 (WARN with reason), defense 8, toughness 2 or less 26 %.
-9. Bracket 3: 0 Game Changers, no land denial, no extra turns, no early two-card infinite (script PASS).
-10. Cuts logged with function and replacement (section 9); proven role-players: Eagle Vision and Propaganda kept, Cover of
-    Darkness cut for budget with the reason for the owner (section 7); rules points listed with status.
+## 10. Knowledge used
+
+| Source | What it demands of this deck | How the list answers |
+|---|---|---|
+| **Skill, steps 1 to 3 and `archetypes.json`** (combat_attackers + alternate_kill, hybrid rule) | Read the commander; one plan; profile by fuel; both gate profiles under their names | Section 1; profile table 3.1; five gate functions and six support lines declared; fit check |
+| Skill steps 4 to 8 | Lands by band, colored sources by pip, layered protection, two boards, attack lines before safety | 36 lands, source table and simulation (3.2); 8 protection in six layers; boards in 5; haste 4, defense 6, evasion for Ezio 7 |
+| Skill steps 9 to 15, references (evaluation, role-players, card-flow, win-routes, plan-file, probability, tools) | Bridge cards judged with the commander out; proven role-players stay; dead clauses named; cuts logged; honest tags; EDHREC only a prior | Lantern, Sphere and Waterskin kept as payment bridges; Eagle Vision, Coastal Piracy and Propaganda stay; dead clauses counted (3.3); cut log (8); recursion not tagged as draw; no pick rests on inclusion |
+| **Champion addendum, items 1 to 3** (one plan, cards work alone, redundancy) | One plan with a backup on the same pieces | Section 1; 0 plan cards outside a function; no two-card package |
+| 4 multi-role (R4) | Count cards with two jobs | About 28 of 63 (Arbaaz, Shao Jun, Combustion Man, Royal Assassin, Evie, the Ascension, Cloak, the rocks as historic spells) |
+| 5 commander-centric (R5) | 12 or fewer cards blank without the commander | 0: freerunning needs any Assassin hit. 12 cards need a hit that turn (ten big Assassins, Eagle Vision, Restart) |
+| 6, 7 lands and sources | Land count from curve; Karsten's table | 3.2 |
+| 8 total sources (R8) | 46 or more, lands two thirds | 36 + 10 = 46, lands 78 % |
+| 9 fast mana (R9) | Sol Ring, Signet, Fellwar, Talismans before 3-mana rocks | All owned ones in; Mox Amber and rituals are not owned |
+| 10 tapped lands (R10) | At most 3 always tapped | 2 |
+| 11 window costs | Count the sources at the payment step, joint colors | Payment simulated: 59 to 70 % on turn 7; the guide treats the kill as a bonus |
+| 12, 13 curve, tax | Low curve; recast arithmetic | 2.79; Ezio costs 4 on the first recast, haste from four cards |
+| 14 (R14) | Bracket 4 lists run 33 lands | 36: this base is slower than fetch-and-shock bases and needs the colors |
+| 15 engines and budget | Card flow through turns 4 to 8 | Spend 1 to 2 a turn; gain 1 + engines (9 repeatable) |
+| 16 scaling draw (R16) | Two or more pieces that scale with the table | Coastal Piracy, Ezio Blade, the Ascension, Etrata DF, the monarch |
+| 17 development first (R17) | Early draw at 2 mana or engines | Basim, Evie, the Ascension at 2; Eagle Vision at {1}{U} |
+| 18 tutors (R18) | 10 access cards to the primary route | Not met, said plainly: Ramses has about 4 (itself, Diabolic Tutor, Entomb, the dig). The route is a board engine that also wins by damage; the Game Changer tutors are not owned |
+| 19 answers (R19) | 8 spot, 5 at MV 2 or less, 5 instants, 2 per permanent type | 8, 6, 8; artifacts 3, enchantments 4; one exception written (Utter End) |
+| 20 counters (R20) | 2 to 4 for a deck that taps out | Mana Leak, Get Out, plus Imp's Mischief |
+| 21 wipes (R21) | Only asymmetric | Mephitic Vapors |
+| 22, 23 | Graveyard hate; layered protection | Abstergo; section 4 |
+| 24 win-turn shield (R24) | 3 or more at MV 2 or less | 5 named |
+| 25 | Answers across types | Section 4 |
+| 26 to 28 routes | Scored routes; no shared failure point | Table in section 1 |
+| 29 to 31 threat, archenemy, politics | Deterrents; do not draw the table early | Three always-on deterrents; Drannith left out for this reason |
+| 32 wipe recovery (R32) | 4 or more rebuild pieces | 8 |
+| 33 mulligan (R33) | Checklist, 85 % keeps | 91 % (50,000 hands), 19 of 20 |
+| 34 Game Changers (R34) | Fill the slots by marginal wins | 0 of 3 with the reason per owned card (section 4) |
+| 35, 36 efficiency, power cards | Cheapest card that does the job; R36 list | 28 cards at MV 2 or less; R36 in section 4 |
+| 37 combos | Legal ones welcome | None in the list; Slasher + Ezio is a kill line, not a loop |
+| 38, 39 tests, gauntlet | Hands, goldfish, disrupted, five opponents | Section 5 |
+| 40, 41 cut log, real games first | Function-based cuts; the owner's games outrank a score | Section 8; six of his ten cards back; Salt named only as a risk |
+| **Mana study, notes/02 and notes/13** | Karsten: 42 lands minus rocks and cheap cards, no rocks for a 2-mana commander, sources per pip, gold +1, partial weights; Command Zone 38; Bracket 3 median 36; no Commander number for four or five colors | 36 lands by the formula (36.5); rocks kept for the payment only, said so; weighted sources per color; the missing five-color target was computed by simulation instead |
+| notes/01 foundations | Templates bend; one plan | Profile by fuel, not template |
+| notes/03 card flow | Draw floor 10; cantrips and recursion are not draw; tutors for the finisher | 10 by tag, 9 weighted, said; the tutor fetches Ramses |
+| notes/04 interaction | Two-for-one answers in pods; neutralize commanders; protection layers | Royal Assassin, the Saga, Etrata, Combustion Man; exile answers; six layers |
+| notes/05 and notes/12 multiplayer and combat | Single-target kills are backups; menace fails against tokens; defense for attackers; do not become the target | Ramses and three team-wide sources; evasion counted without menace; defense 6; no lock piece |
+| notes/06 combat archetypes | Haste, evasion ranking, wipe recovery | Haste 4; unblockable and flying first; Hakoda and recursion |
+| notes/07, 10 engines | Not this archetype | Only the timed-ramp rule used |
+| notes/08, 09 evaluation and EDHREC | Fit over popularity; averages are behaviour | Combustion Man (16 % of lists) and Eivor (20 %) in on fit; Lydia (62 %) out on function |
+| notes/11 community | Engines without enablers rot; griefer cards unite the table | Dead-clause counts; Drannith out |
+| **Primers** (`commanders/ezio-auditore-da-firenze*.md`) | Ramses as line 1; setters; Bracket 4 lists run 33 lands, about 10 protection, Royal Assassin 55 %, Lantern 61 %; traps: the kill alone, menace, conditional removal, slow Saga, colorless lands | Ramses central; Slasher as setter; Royal Assassin and Lantern in; no conditional removal; one colorless land less. Against the primer: the Saga is in, on the owner's games and Draftsim's own reading |
+| **Owner's lessons L1 to L10** | One plan; ratios by strategy; attackers connect, live, hurry and defend; proven cards stay; no dead clauses; two boards; Salt is not the measure; guide says how to use | Gate PASS; section 3; haste 4, protection 8, defense 6; Eagle Vision, Coastal Piracy, Propaganda in; 3.3; section 5; section 2 |
+| **Play reviews 2026-10-26** | He lost with Salt 7.7 to mini-combos, no haste, chump boards, an open board; cast Assassins after combat; Headquarters cannot pay the kill | No package; the misplay rules are in section 2 and 5 |
+| **Gate review, section (f)** | Declare short functions; name dead clauses; both boards; one noncombat route; bad-when-drawn honest | team_evasion and team_finishers reported at their real numbers; 12 cards marked bad early or late |
+| **Final review 2026-11-08** | Ramses access is thin; Hookblade and Feed the Swarm weakest; Etrata is not a closer | Access stated at 37 %; both cards replaced as it proposed (Mortify); Etrata tagged engine and removal |
+| **Iteration-1 lists** (`decks/measured/`, round 3 to 5) | Learn, not copy: Deadeye, Dualcaster, Intruder Alarm, Winter Soldier, colorless lands lost games; Royal Assassin, Lydia, Revelations, Mortify, Utter End were in them | The combos stay out; four of those five return on their own function |
+| **Owner's card review** | A verdict per card | Section 6 |
+| **Web, read 2026-11-15** | Priors and rulings | EDHREC JSON: `https://json.edhrec.com/pages/commanders/ezio-auditore-da-firenze.json`, the same path with `/upgraded.json`, `/optimized.json`, `/cedh.json`, `/assassins.json`, and `https://json.edhrec.com/pages/average-decks/ezio-auditore-da-firenze/optimized.json` and `/upgraded.json` (Royal Assassin 54 %, Arbaaz 41 %, Evie 38 % of Bracket 4 lists; Drannith 19 % of cEDH lists). Archidekt: `https://archidekt.com/api/decks/v3/?name=Ezio&commanderName=Ezio%20Auditore%20da%20Firenze&orderBy=-viewCount`, decks 10311292 and 8614155 (Bracket 4), 8330777, 11149864 (with a primer: Slasher and Ramses as the kill). Draftsim guide `https://draftsim.com/ezio-auditore-edh-deck/` (plays Arbaaz, Evie, Jacob, Royal Assassin, The Revelations; "the mana base skews heavily black"). Scryfall API: Oracle and rulings of 12 cards, and `https://api.scryfall.com/cards/search?q=is:gamechanger` (53 cards) |
+| **Gaps not closed** | | Reddit answered 403; Moxfield's search ignores the query; the EDHREC "Fire and Ice" article page gave no text this time (the 2026-10-31 study read it). No rulings exist for Slasher's ordering with Ezio or for Jacob's copy at the freerunning cost. No source gives five-color source targets: the simulation is a scratch model (greedy land choice, Orchard and Fellwar at 80 %), not a measured result |
+
+### Self-review (skill step 15)
+1. One sentence; every plan card sits in a function, a support line or a route (gate: 0 outside).
+2. Early functions hold 15 to 22 pieces; team_finishers sits at its minimum of 6 and is said so.
+3. Fuel: six connectors at MV 1 to 3 besides Ezio; nine repeatable engines.
+4. 36 lands; Ezio on turn 2 in 95.5 %; turns 2 and 3 have plays in every kept hand.
+5. Attack engine, protection 8 in six layers, wipe insurance 10.
+6. Both boards named; routes: three, disjoint, one noncombat, each with its answer to three opponents.
+7. Haste 4, team evasion 3 (WARN, reason), defense 6, toughness 2 or less 30 %.
+8. Bracket 3: 0 Game Changers (live list), no land denial, no extra turns, no infinite line.
+9. Cuts logged with function, count and replacement; proven role-players all in.
+
+### Open questions for the owner
+1. Arbaaz Mir comes from Toph: agreed?
+2. Lydia Frye and Deadeye Navigator stay out (section 6): if Lydia is wanted, she replaces Adéwalé.
+3. Drannith Magistrate was left out to keep the table off the deck: a call for his pod.

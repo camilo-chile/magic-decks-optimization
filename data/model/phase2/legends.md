@@ -4,63 +4,63 @@ Sorted by the size of the pool a Spanish-only deck would have. Only candidates w
 
 | Commander | Identity | Spanish copies | Pool, Spanish only | Pool, any language | Held by now |
 |---|---|---|---|---|---|
-| Inspirit, Flagship Vessel | RUW | 1 | 197 | 511 | free 1 |
-| Kilo, Apogee Mind | RUW | 1 | 197 | 511 | free 1 |
-| Eivor, Wolf-Kissed | GRW | 1 | 156 | 483 | free 1 |
-| Adéwalé, Breaker of Chains | BU | 1 | 145 | 372 | ezio-auditore-da-firenze 1, free 2 |
+| Inspirit, Flagship Vessel | RUW | 1 | 197 | 511 | spanish-deck 1 |
+| Kilo, Apogee Mind | RUW | 1 | 197 | 511 | spanish-deck 1 |
+| Eivor, Wolf-Kissed | GRW | 1 | 156 | 483 | ezio-auditore-da-firenze 1 |
+| Adéwalé, Breaker of Chains | BU | 1 | 145 | 372 | free 3 |
 | Ezio, Blade of Vengeance | BU | 1 | 145 | 372 | ezio-auditore-da-firenze 1 |
-| Jhoira, Weatherlight Captain | RU | 1 | 138 | 352 | free 1 |
+| Jhoira, Weatherlight Captain | RU | 1 | 138 | 352 | spanish-deck 1 |
 | Arixmethes, Slumbering Isle | GU | 2 | 130 | 333 | free 2 |
-| Alibou, Ancient Witness | RW | 1 | 127 | 349 | free 1 |
-| Arbaaz Mir | RW | 1 | 127 | 349 | toph-the-first-metalbender 1 |
+| Alibou, Ancient Witness | RW | 1 | 127 | 349 | spanish-deck 1 |
+| Arbaaz Mir | RW | 1 | 127 | 349 | ezio-auditore-da-firenze 1, toph-the-first-metalbender 1 |
 | Ezio, Brash Novice | RW | 1 | 127 | 349 | free 5 |
-| Emry, Lurker of the Loch | U | 1 | 104 | 226 | free 1 |
+| Emry, Lurker of the Loch | U | 1 | 104 | 226 | spanish-deck 1 |
 | Evie Frye | U | 1 | 104 | 226 | ezio-auditore-da-firenze 1 |
 | Katara, Bending Prodigy | U | 1 | 104 | 226 | free 2 |
-| Tekuthal, Inquiry Dominus | U | 1 | 104 | 226 | free 1 |
+| Tekuthal, Inquiry Dominus | U | 1 | 104 | 226 | spanish-deck 1 |
 | Teo, Spirited Glider | U | 1 | 104 | 226 | free 3 |
 | Aang, the Last Airbender | W | 1 | 88 | 208 | free 3 |
 | Master Piandao | W | 1 | 88 | 208 | free 3 |
 | Momo, Playful Pet | W | 1 | 88 | 208 | free 1 |
 | Koh, the Face Stealer | B | 1 | 82 | 214 | free 1 |
-| Lo and Li, Twin Tutors | B | 1 | 82 | 214 | fire-lord-azula 1, free 1 |
+| Lo and Li, Twin Tutors | B | 1 | 82 | 214 | free 2 |
 | Zuko, Exiled Prince | R | 1 | 79 | 210 | free 2 |
 | Titania, Nature's Force | G | 1 | 77 | 207 | free 1 |
 | Adrestia | C | 1 | 54 | 105 | free 4 |
-| Ratonhnhaké꞉ton | BUW | 0 | 194 | 510 | free 1 |
+| Ratonhnhaké꞉ton | BUW | 0 | 194 | 510 | ezio-auditore-da-firenze 1 |
 | Fire Lord Azula | BRU | 0 | 185 | 518 | fire-lord-azula 1, free 1 |
-| Altaïr Ibn-La'Ahad | BRW | 0 | 167 | 496 | free 1 |
+| Altaïr Ibn-La'Ahad | BRW | 0 | 167 | 496 | ezio-auditore-da-firenze 1 |
 | Fire Lord Zuko | BRW | 0 | 167 | 496 | free 1 |
 | Queen Marchesa | BRW | 0 | 167 | 496 | ezio-auditore-da-firenze 1 |
 | Iroh, Grand Lotus | GRU | 0 | 166 | 475 | free 1 |
 | Havi, the All-Father | GRW | 0 | 157 | 483 | free 1 |
 | Sigurd, Jarl of Ravensthorpe | GRW | 0 | 157 | 483 | free 1 |
 | Toph, the First Metalbender | GRW | 0 | 157 | 483 | toph-the-first-metalbender 1 |
-| Haytham Kenway | UW | 0 | 147 | 346 | ezio-auditore-da-firenze 1 |
+| Haytham Kenway | UW | 0 | 147 | 346 | free 1 |
 | Sokka, Lateral Strategist | UW | 0 | 147 | 346 | free 2 |
 | Sokrates, Athenian Teacher | UW | 0 | 147 | 346 | free 1 |
 | Vega, the Watcher | UW | 0 | 147 | 346 | free 2 |
-| Basim Ibn Ishaq | BU | 0 | 146 | 372 | free 1 |
+| Basim Ibn Ishaq | BU | 0 | 146 | 372 | ezio-auditore-da-firenze 1 |
 | Etrata, Deadly Fugitive | BU | 0 | 146 | 372 | ezio-auditore-da-firenze 1 |
 | Etrata, the Silencer | BU | 0 | 146 | 372 | ezio-auditore-da-firenze 1 |
 | Hama, the Bloodbender | BU | 0 | 146 | 372 | free 1 |
-| Lydia Frye | BU | 0 | 146 | 372 | ezio-auditore-da-firenze 1, free 1 |
-| Ramses, Assassin Lord | BU | 0 | 146 | 372 | free 1 |
+| Lydia Frye | BU | 0 | 146 | 372 | free 2 |
+| Ramses, Assassin Lord | BU | 0 | 146 | 372 | ezio-auditore-da-firenze 1 |
 | Lilah, Undefeated Slickshot | RU | 0 | 139 | 352 | free 1 |
 | Malcolm, the Eyes | RU | 0 | 139 | 352 | free 1 |
 | Professor Zei, Anthropologist | RU | 0 | 139 | 352 | free 1 |
-| Shao Jun | RU | 0 | 139 | 352 | free 3 |
+| Shao Jun | RU | 0 | 139 | 352 | ezio-auditore-da-firenze 1, free 2 |
 | Sokka, Bold Boomeranger | RU | 0 | 139 | 352 | free 1 |
 | Ezuri, Claw of Progress | GU | 0 | 131 | 333 | free 1 |
-| Aya of Alexandria | RW | 0 | 128 | 349 | free 1 |
-| Bayek of Siwa | RW | 0 | 128 | 349 | free 1 |
+| Aya of Alexandria | RW | 0 | 128 | 349 | ezio-auditore-da-firenze 1 |
+| Bayek of Siwa | RW | 0 | 128 | 349 | ezio-auditore-da-firenze 1 |
 | Iroh, Tea Master | RW | 0 | 128 | 349 | free 1 |
 | Jet, Freedom Fighter | RW | 0 | 128 | 349 | free 1 |
 | Ragost, Deft Gastronaut | RW | 0 | 128 | 349 | toph-the-first-metalbender 1 |
 | Sami, Ship's Engineer | RW | 0 | 128 | 349 | free 1 |
 | Hei Bai, Spirit of Balance | BW | 0 | 123 | 333 | free 1 |
 | Shay Cormac | BW | 0 | 123 | 333 | free 4 |
-| Winter Soldier, Icy Assassin | BW | 0 | 123 | 333 | ezio-auditore-da-firenze 1 |
+| Winter Soldier, Icy Assassin | BW | 0 | 123 | 333 | free 1 |
 | Ghalta and Mavren | GW | 0 | 116 | 321 | free 1 |
 | Suki, Kyoshi Warrior | GW | 0 | 116 | 321 | free 2 |
 | Arno Dorian | BR | 0 | 113 | 338 | ezio-auditore-da-firenze 1, free 2 |
@@ -78,7 +78,7 @@ Sorted by the size of the pool a Spanish-only deck would have. Only candidates w
 | Orvar, the All-Form | U | 0 | 105 | 226 | free 1 |
 | The Terror of Serpent's Pass | U | 0 | 105 | 226 | free 1 |
 | Ty Lee, Chi Blocker | U | 0 | 105 | 226 | free 1 |
-| Venser, Shaper Savant | U | 0 | 105 | 226 | ezio-auditore-da-firenze 1 |
+| Venser, Shaper Savant | U | 0 | 105 | 226 | fire-lord-azula 1 |
 | Yue, the Moon Spirit | U | 0 | 105 | 226 | free 1 |
 | Bumi, Unleashed | GR | 0 | 104 | 327 | free 1, toph-the-first-metalbender 1 |
 | Omnath, Locus of Rage | GR | 0 | 104 | 327 | free 1 |

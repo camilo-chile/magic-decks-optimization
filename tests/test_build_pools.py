@@ -53,6 +53,19 @@ def test_owned_cards_sum_copies_by_language_and_deck_and_skip_tokens_and_proxies
     assert "o-redhero" not in have and have["o-forest"]["copies"] == 3
 
 
+def test_current_holders_come_from_the_built_decks_and_spare_copies_stay_free():
+    from collections import Counter
+    owned = {"o-leak": {"copies": 2, "by_language": Counter({"en": 2}), "by_deck": Counter({"old-scan-deck": 2}),
+                        "printings": []},
+             "o-sphere": {"copies": 2, "by_language": Counter({"en": 1, "es": 1}), "by_deck": Counter(), "printings": []}}
+    assignment = {"decks": {"ezio": {"cards": [{"oracle_id": "o-leak", "picks": [{"language": "en", "qty": 1}]}]},
+                            "kilo": {"cards": [{"oracle_id": "o-sphere", "picks": [{"language": "es", "qty": 1}]}]}}}
+    bp.apply_current_holders(owned, assignment)
+    assert owned["o-leak"]["by_deck"] == Counter({"ezio": 1, "free": 1})
+    assert owned["o-leak"]["free_by_language"] == {"en": 1}
+    assert owned["o-sphere"]["free_by_language"] == {"en": 1, "es": 0}
+
+
 def test_a_pool_keeps_only_legal_unflipped_cards_inside_the_identity():
     have, _ = owned()
     names = [c["name"] for c in bp.pool({"U"}, have, BY_OID)]

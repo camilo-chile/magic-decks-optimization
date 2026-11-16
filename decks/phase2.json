@@ -32,6 +32,20 @@
      "foil": "normal",
      "qty": 1
     }
+   ],
+   "borrowed": [
+    {
+     "name": "Arbaaz Mir",
+     "language": "en",
+     "quantity": 1,
+     "set": "ACR",
+     "number": "",
+     "from": "Standard decks (binder Assassin's Creed)",
+     "restock": true,
+     "loan_class": "owner",
+     "since": "2026-11-15",
+     "note": "Owner, 2026-11-15: his second, English Arbaaz Mir comes from a Standard deck; Toph borrows it (Ezio holds the scanned Spanish copy). Buy a copy at the next purchase."
+    }
    ]
   },
   {
@@ -135,6 +149,39 @@
      "language": "en",
      "foil": "normal",
      "qty": 1
+    },
+    {
+     "name": "Island",
+     "set": "acr",
+     "number": "104",
+     "language": "en",
+     "foil": "normal",
+     "qty": 3
+    },
+    {
+     "name": "Swamp",
+     "set": "acr",
+     "number": "106",
+     "language": "en",
+     "foil": "normal",
+     "qty": 2
+    },
+    {
+     "name": "Swamp",
+     "set": "tla",
+     "number": "284",
+     "language": "en",
+     "foil": "normal",
+     "qty": 7
+    },
+    {
+     "name": "Arbaaz Mir",
+     "set": "acr",
+     "number": "46",
+     "language": "es",
+     "foil": "normal",
+     "qty": 1,
+     "note": "claimed from Toph in step 11 (2026-11-15); Toph's optimization replaces it"
     }
    ]
   },

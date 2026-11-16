@@ -13,6 +13,7 @@ rebuild and went back unreplaced. The history of this table is in version contro
 | Card | Printing | Language | Used by | Why | Since | Status |
 |---|---|---|---|---|---|---|
 | Ezio Auditore da Firenze | ACR 25 (the proxy's printing) | English | Ezio (commander) | The deck plays a proxy | 2026-10-31 | Stays a proxy: no more purchases (his friends allow proxy commanders) |
+| Arbaaz Mir | The owner's Standard copy (ACR) | English | Toph | Lent from his Standard deck (owner, 2026-11-15); Ezio holds the scanned Spanish copy | 2026-11-15 | To buy at the next purchase |
 
 ## Rule for every purchase (owner, 2026-10-31)
 When a purchase is planned at a store, check that store's live stock of every card in this table. Each card in stock is
