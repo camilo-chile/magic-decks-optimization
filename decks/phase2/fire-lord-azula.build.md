@@ -1,5 +1,192 @@
 # Fire Lord Azula: collection-only optimization (Phase 2 step 10.1, 2026-11-14)
 
+## Fix round (iteration 3 fix, 2026-11-21, Opus 5.5 max)
+
+Status: DONE. Three swaps; Rogue's Passage and the 36 lands stay. Bracket PASS, gate PASS (4 WARNs, one fewer than before). The
+sections below this one describe the list before this round where they differ (Spell Pierce, Go for the Throat, Abrade, Octopus
+Form OUT, "five cheap counters"): this section wins. Read: the brief, the owner's card review, the lessons, the decisions file,
+the review of 2026-11-14, the gate report, the guide, the Salt diagnosis and Azula's Salt rows, the primer, the pool (held_by
+checked against the four deck files today: 0 mismatches, so every copy taken is free and none is held by Ezio, Toph or Kilo).
+Web read today (data): Scryfall API, the live Game Changer list (53 cards; only Narset is owned in Grixis) and the Oracle text
+and rulings of Fire Lord Azula, Bitter Triumph, Theater of Horrors, Octopus Form and Kolaghan's Command.
+
+| Out | In | Language | Reason |
+|---|---|---|---|
+| Spell Pierce (EN SOA 23, back to the English binder) | Octopus Form | EN (TLA 66, English binder, 2 free) | Question 2. Protection replaces protection (13 pieces by tag against the attack-engine class 6 to 10). Spell Pierce is a soft counter (R20: early tempo only; late, three opponents keep {2} up). Octopus Form never gets worse: for {U} at instant speed Azula gains hexproof, which also stops targeted ABILITIES (counters do not), +1/+1 (+2/+2 copied: she wins the block), and it untaps her after her attack, so she blocks on the crack-back. A cheap window instant: magecraft triggers, Thermo untap, the target the Storm-Kiln and Return the Favor loops need. |
+| Go for the Throat (EN ACR 91, back to the English binder) | Bitter Triumph | EN (TDC 173, the only copy, free: Ezio cut it in iteration 3, after Azula was frozen) | Same cost and color, but it kills ANY creature (artifact creatures too) or a planeswalker. Azula's copy skips the discard or 3 life (ruling 2025-10-02). Brings back the instant planeswalker answer lost with Hero's Downfall. |
+| Abrade (EN BLC 191, back to the English binder) | Theater of Horrors | ES (DSC 236, the only copy, no English one owned; free: Ezio held it until iteration 3) | Draw is the one base function under its floor (owner L2: Azula needs the most draw; review I2: about 9 effective). Removal is the surplus function (16 by tag against a target of 10). Theater is a card every upkeep that works without Azula (lands too); I play those cards during my turn once an opponent lost life: Azula's hit on the player who never blocks, a Thermo-Alchemist ping, or its own {3}{R} ping. Its instants cast during her combat are copied (firebending mana lasts through the combat damage step, ruling). Artifacts stay answered by Kolaghan's Command and Chaos Warp (plus Venser and Aether Gale); small creatures by the rest. |
+
+**Rejected after a gate run: Octopus Form for a land (the lead's suggestion).** I first cut Rogue's Passage (better than a basic:
+it keeps the colored sources) and ran the gate: a new WARN, "35 lands, the profile asks 36 to 36". This deck's band is exactly
+36 (spellslinger 34 to 36 overlapped with the combat modifier 36 to 38), and the skill forbids cutting lands below the band to
+make room for spells unless the owner reviews it. The simulation agrees that the 36th land is real: see question 2.
+
+### Question 1: the owner's two swaps of 2026-11-15
+
+**Kolaghan's Command for Failed Fording: KEEP, and Failed Fording was the right cut.**
+- Kolaghan's Command is a two-for-one at instant speed. It brings the deck's only creature recursion (Dualcaster Mage,
+  Storm-Kiln Artist, Archmage Emeritus, Torrential Gearhulk or Venser back to hand) and, after this round, the main instant
+  artifact answer beside Chaos Warp. Its 2 damage kills mana creatures and x/2 utility creatures.
+- Correction to the note of 2026-11-15: a copy keeps the two chosen modes; only the targets change (ruling 2015-02-25, "you
+  can't choose new modes"). With Azula attacking it is the same two modes twice, not four modes.
+- Failed Fording was the weakest answer for a 4-player pod: a temporary one-for-one. Its jobs stay covered:
+  - any nonland permanent: Chaos Warp, Venser, Aether Gale;
+  - Azula saved from a wipe: Snap, Venser;
+  - tokens: Day of Black Sun, Aether Gale.
+- Enchantment answers stay at 3 (Chaos Warp, Venser, Aether Gale, plus the counters on the stack): R19 asks 2.
+
+**Chromatic Lantern for Octopus Form: the card added was right, the card cut was wrong.**
+- Lantern stays. Simulation (40,000 to 60,000 games per variant; one land a turn, rocks and Nightscape Familiar modeled; colors
+  checked; throwaway script `C:\Users\Usuario\AppData\Local\Temp\claude\dbd938bef9190e9c\1e7b0ae2-e522-4c09-97d2-40efe09a9152\scratchpad\azfix\manasim.py`,
+  not kept in the repository), against the same list without it:
+  - Azula castable by turn 4: +1.8 points (77.4 % against 75.6 %); by turn 5: +1.8;
+  - six mana by turn 6: +1.5;
+  - {U}{U} on turn 4: +2.2 points; {R}{R}: +1.6; {B}{B}: +2.4.
+- It fixes the double pips of all three colors: Turnabout, Narset's Reversal, Archmage, Venser, Gearhulk and Aether Gale in blue;
+  Comet Storm, Electrodominance, Return the Favor, Dualcaster and Electro in red; Day of Black Sun and Ozai in black. It also
+  turns Rogue's Passage into a colored source.
+- R9 prefers 2-mana rocks, but the free ones are gone: Fellwar Stone and Rakdos Signet are Ezio's, Commander's Sphere is Ezio's
+  and Kilo's, all frozen. Of the free 3-mana rocks, Lantern beats Dimir Locket and Pristine Talisman.
+- Octopus Form was the wrong card to cut. It comes back (question 2), so the net change of the two owner swaps plus this round
+  is Kolaghan's Command and Chromatic Lantern in, Failed Fording and Spell Pierce out.
+
+### Question 2: Octopus Form IN, for Spell Pierce, not for a land
+
+The lead's option (a basic land, 36 to 35) was tested and rejected for three reasons:
+1. The gate warns: this deck's land band is exactly 36. The skill's cut discipline forbids cutting lands below the band to make
+   room for spells unless the owner reviews it.
+2. The simulation (same model as question 1) shows a real cost:
+
+   | Cut | Azula by turn 4 | Six mana by turn 6 | Seven mana by turn 7 | Three mana or less on turn 4 | {U}{U}+2 on turn 4 |
+   |---|---|---|---|---|---|
+   | none (36 lands) | 77.4 % | 58.3 % | 42.5 % | 15.0 % | 70.7 % |
+   | one Island | -1.3 to -1.7 | -3.0 to -3.5 | -2.8 to -3.7 | +1.5 to +2.3 | -3.1 |
+   | Rogue's Passage | -0.3 | -3.1 | -3.1 | +1.6 | -0.6 |
+
+3. The deck's best turn scales with LANDS, not rocks: copied Turnabout untaps every land twice, and the loop needs 4 lands to
+   net mana. Godo, Gearhulk and Ozai cost 6.
+
+Protection is the surplus function: 13 pieces by tag against the attack-engine class of 6 to 10. So Octopus Form replaces the
+weakest protection piece, Spell Pierce:
+- Spell Pierce is a soft counter (R20: early tempo only). Late in a 4-player game the caster usually has {2} up.
+- Octopus Form never gets worse. For {U} at instant speed, Azula gains hexproof, which stops removal spells AND abilities (the
+  counters stop spells only). She gets +1/+1, or +2/+2 when copied, so she wins the block. It untaps her, so she blocks on the
+  crack-back.
+- It is also the cheap instant the Storm-Kiln + Reversal and Return the Favor loops need as a target.
+
+Protection after the swap, in layers:
+- hexproof: Swiftfoot Boots, Champion's Helm, Octopus Form;
+- redirects: Deflecting Swat, Redirect Lightning, Return the Favor, Narset's Reversal;
+- counters: Swan Song, Negate, Mana Leak, plus Venser.
+The win-turn shield keeps 8 pieces at MV 2 or less or free (R24 asks 3); defense_while_tapped rises from 4 to 5.
+
+### Further improvements from free copies (two swaps, table above)
+
+- **Bitter Triumph for Go for the Throat.** A straight upgrade in the same slot. Go for the Throat misses artifact creatures (the
+  owner's own Kilo deck is built on them) and planeswalkers. Bitter Triumph pays 3 life on the cast; Azula's copy pays nothing.
+- **Theater of Horrors for Abrade.** A draw engine from the removal surplus:
+  - Spot answers go from 16 to 14 by tag (target 10). The answers that cost 2 or less: Heartless Act, Terminate, Bitter Triumph,
+    Snap, Swan Song, Negate, Mana Leak, Narset's Reversal (8; R19 asks 5).
+  - Artifacts stay answered by Kolaghan's Command and Chaos Warp, plus Venser and Aether Gale (R19 asks 2).
+  - Draw goes from 11 to 12 by tag, about 10 effective. The gate's draw WARN closes; no card was relabeled.
+  - Theater works with Azula dead (a Thermo-Alchemist ping or its own {3}{R} ping meets the condition) and plays lands.
+  - It plays to the owner's pod: one opponent never blocks, so Azula's hit meets the condition after combat damage. Its instants
+    are still cast while she attacks and are copied.
+
+Considered and left out (each against the card it would replace):
+
+| Card (free) | Verdict | Reason |
+|---|---|---|
+| The Last Agni Kai (EDHREC 46 %) | OUT | Mana is not the bottleneck in the window (firebending, Treasures, untaps, three bankers). Each fight hits Azula: two 2/2s kill her. A token player sacrifices the target and it fizzles. |
+| Haunted Cloak (for Champion's Helm) | OUT | Haste, vigilance and trample against the second permanent hexproof and +2/+2. With only Boots as permanent hexproof, the Helm stays. Neutral at best. |
+| Escape Detection, Unexplained Disappearance, Failed Fording | OUT | Temporary creature bounces. Snap and Venser already bounce, Venser bounces spells too. |
+| Ty Lee, Chi Blocker | OUT | A 2/1 flash lock. A copy made in the window dies to the legend rule, and its lock ends with it. |
+| Malcolm, the Eyes; Zuko, Exiled Prince; Azula, On the Hunt; Lion Vulture | OUT | Draw engines on bodies that die in blocks or to pingers. Theater draws with no body to protect, and plays lands. The owner found Lion Vulture slow with Azula. |
+| Professor Zei | OUT | A rummage and one regrowth. Gearhulk and Teachings' flashback cover recursion. |
+| Hero's Downfall, Murder, Fatal Push, Lightning Axe | OUT | Bitter Triumph does their job cheaper or without conditions. Axe loses a card outside the window. |
+| It'll Quench Ya!, Deny Entry, Redirect | OUT | Worse than the counters and redirects in the list. |
+| Opt, Consider (ES) | OUT | Cantrips: fuel, not draw. The slot went to an engine. |
+| Cloud Key (ES), Dimir Locket | OUT | 3-mana permanents that compete with Azula on turn 3. Lantern fixes more. |
+| Cursed Recording | OUT | 20 damage to me every seventh instant or sorcery. |
+| Blasphemous Act, Chain Reaction (ES), Inundate | OUT | They kill or bounce my engines. Salt would count them as wipes, but the deck would play worse. |
+| Royal Assassin, Deadeye Navigator, Waterbending Lesson, Lo and Li, Reckless Handling, Loyal Inventor, Entomb | OUT | Reasons in section 6 below stand. |
+| Embodiment of Fury (ES; the owner's Toph question) | OUT | Its land creatures need landfall. Azula has no land plan. |
+| The cards Ezio, Toph and Kilo left free (Murder, Nekrataal, Dimir Locket, Faithless Looting, Intruder Alarm, Liquimetal Coating, Rumble Arena, White Lotus Hideout, Survivors' Encampment, Adéwalé, Lydia Frye, Roshan, Thorn of the Black Rose, Ember Island Production) | OUT | Sorceries never copied, colorless or tapped lands, or Assassin cards. Only Bitter Triumph and Theater of Horrors beat a list card. |
+
+### Rules points added (Scryfall rulings read today)
+| # | Point | Status | What falls if wrong |
+|---|---|---|---|
+| R11 | Azula's copy of Bitter Triumph pays no discard or life. | Azula ruling 2025-10-02: a copy pays no additional costs. Gearhulk casting it still pays them. | Its window value |
+| R12 | Cards cast from Theater of Horrors during Azula's combat are copied. Firebending mana lasts through the combat damage step, so they can follow her hit. | Azula rulings 2025-10-02 (the copy is made on cast; firebending mana lasts until the second main phase). Theater ruling 2019-01-25 (normal timing; lands only in a main phase with a land drop left). | Theater's window value |
+| R13 | Untapping an attacking creature (Octopus Form) does not remove it from combat, so Azula keeps copying. | Comprehensive Rules 506.4, from memory, not re-read. | Only the order of play: cast Octopus Form after the last spell of the window. |
+| R14 | A copied Kolaghan's Command keeps its two modes. | Ruling 2015-02-25. | The guide's wording |
+
+### Checks (run 2026-11-21)
+- `python scripts/check_phase2_bracket.py decks/phase2/fire-lord-azula.txt`: **PASS**. Floor 3, 1 Game Changer (Narset; live list
+  of 53, read today), 0 extra turns, 0 mass land denial, 0 reversible. Spellbook: 6 variants, 2 flagged and both floor 3 (Narset's
+  Reversal + Return the Favor, reviewed by the owner; Godo + Helm of the Host, late).
+- `python scripts/plan_density.py`: **PASS**, 0 failures, 4 WARNs (before: 5):
+  - attackers 5 of 12: modifier line; one attacker is the whole engine;
+  - haste 3 of 4: support. The strong lists spend on protection (review I3), and Siege on Temur is the fourth piece;
+  - team_evasion 4 of 6: Azula triggers on attacking, not on connecting;
+  - ramp 11 of 12: the free 2-mana rocks are gone; window mana covers the rest.
+  The reasons in section 3.3 below stand. The draw WARN closed.
+- Plan file:
+  - three tags swapped; Spell Pierce left wipe_insurance, and Snap and Venser came in (both return Azula to hand in response,
+    then she costs 4 with no tax);
+  - Octopus Form joined defense_while_tapped;
+  - Venser added to spell_density: a flash card the window copies, missing before;
+  - stale Black Market Connections text removed from the plan and route B.
+  Counts: spell_density 32, spell_payoffs 11, wide board 14, big creatures 17, window_mana 13, bad when drawn 8 early and 1 late,
+  0 orphans.
+- 100 cards. Every card is held by Azula or free (0 shortfalls). The curve: MV 0 to 6+ = 1/7/25/17/8/2/3, average 2.67 (was 2.65).
+  33 cards at MV 2 or less. 27 instants and 5 flash permanents, 32 window cards. Lands, colored sources (U 19, B 17, R 18) and the
+  keep rate (88 % with the free mulligan) are unchanged.
+
+### Boards, gauntlet and tests (what changed)
+- Board 2, big creatures: better. Bitter Triumph kills artifact creatures and planeswalkers. Octopus Form copied makes Azula 6/6
+  after blocks.
+- Board 1, chump blockers: unchanged. Day of Black Sun, Aether Gale, Thermo, Comet Storm, Godo.
+- Gauntlet:
+  - Fast combo: one 1-mana counter less (Spell Pierce). Artifact combos lose Abrade; Kolaghan's Command and Chaos Warp remain.
+  - Control: better. Theater keeps cards flowing with Azula answered.
+  - Stax: unchanged.
+- Disrupted games:
+  - (a) Azula targeted on her first attack: Octopus Form answers for {U} and cannot be paid through.
+  - (b) A wipe: 3 counters plus Snap and Venser. Theater is a seventh rebuild piece.
+  - (c) The win spell countered: the shield still has 8 pieces.
+
+### Salt (second measure; not measured in this step)
+| Swap | Expected effect | Why |
+|---|---|---|
+| Spell Pierce to Octopus Form | keep (0 to -0.05) | Salt credits counterspells in Interaction (A- 316, far above its reference); Octopus Form adds to protection, already "Dense". |
+| Go for the Throat to Bitter Triumph | keep (0 to +0.02) | The same slot with wider targets. |
+| Abrade to Theater of Horrors | keep or lower slightly (0 to -0.05) | One removal and one artifact answer fewer. Salt may not credit conditional draw. |
+| All three | about 6.8 to 6.9 (now 6.9) | The -0.55 structural ceiling (combos with no tutors to assemble them) is untouched: no free card tutors Storm-Kiln, Dualcaster or Godo. |
+
+### Real power (1-10)
+| List | Estimate |
+|---|---|
+| Before this round (2026-11-15 list, with the owner's two swaps) | 7.6 to 8.0 |
+| **After** | **7.7 to 8.1, most likely about 7.9** |
+
+- The gain: a protection piece that never goes stale, a draw engine that survives Azula, and removal that misses nothing. About
+  +0.05 to +0.1.
+- Confidence: medium-low (no games; the project's estimates have run high).
+
+### Uncertain, and for the lead
+1. Salt may read the list 0.05 lower (two interaction cards out). Real power rises; the brief puts consistency first.
+2. Theater's yield depends on an opponent losing life on my turn. In a pod where all three opponents block Azula every turn,
+   the Thermo ping or {3}{R} is the price.
+3. Not touched, as instructed: `data/model/dashboard/guide-azula.json`, `decks/phase2/moxfield/`, `decks/phase2.json`. Each
+   needs these swaps:
+   - the guide: Spell Pierce, Go for the Throat and Abrade out; Octopus Form, Bitter Triumph and Theater of Horrors in; the
+     Kolaghan's Command mode note;
+   - the pinned copies (`scripts/assign_copies.py`): Bitter Triumph EN TDC 173, Theater of Horrors ES DSC 236, Octopus Form EN
+     TLA 66.
+4. If the owner prefers 35 lands anyway, cut Rogue's Passage, not a basic, and keep Spell Pierce: the colored sources stay
+   intact (table above).
+
 **Owner swaps (2026-11-15, two free copies that fell between decks; `decks/phase2/owner-card-review-20261114.md`).** Failed Fording out, Kolaghan's Command in (EN, M3C 268): a two-mode instant (artifact kill or 2 damage, plus discard or a creature back from the graveyard), four modes when copied while Azula attacks; a bounce was the weakest answer. Octopus Form out, Chromatic Lantern in (EN, FRC 54): ramp 10 to 11 and the black of Kolaghan's; protection 11 to 10, defense_while_tapped 5 to 4 (min 4). Bracket PASS (1 Game Changer), gate PASS (5 warnings, ramp now 11 of 12), 100 copies covered.
 
 **Fix round (step 10.3, 2026-11-15, the lead on Opus 5.5 high; review `decks/reports/collection-review-fire-lord-azula-20261114.md`, verdict FIX).** Applied ranks 1 to 4 and the plan-file corrections:

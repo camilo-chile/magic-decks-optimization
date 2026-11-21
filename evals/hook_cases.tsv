@@ -205,6 +205,8 @@
 2	Bash	git rm x
 2	Bash	git checkout main
 # ===== the authorization file cannot be named by a command
+2	Bash	echo 2026 > .claude/opus-max-authorization	the Opus max authorization file cannot be written by a command
+2	Bash	rm .claude/opus-max-authorization	nor removed
 2	Bash	echo ok > .claude/commit-authorization
 2	Bash	cat .claude/commit-authorization
 2	Bash	rm .claude/commit-authorization

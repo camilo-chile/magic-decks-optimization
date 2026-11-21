@@ -221,6 +221,9 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
   with the effort: medium, high, xhigh, max; high by default), which the UserPromptSubmit hook records with no expiry
   and `check-agent-model.sh` checks. Every Fable launch still needs his EXPLICIT OK for that run (ask when it is
   missing; never launch Fable on a guess); first use: the collection-only optimization of Azula at Fable 5.2 high.
+  Exception (owner, 2026-11-21, after Fable stopped being available): Opus 5.5 at effort max ONLY with his phrase
+  "autorizo opus max" in chat, which the UserPromptSubmit hook records as a one-shot `.claude/opus-max-authorization`
+  (30 minutes, used up by ONE Agent call on opus+max); every launch needs the phrase again.
   Always pass both `model` and `effort` when launching an agent. After two failures of one model on a task, go up one
   rung (Haiku xhigh, then Opus medium, then Opus high). **Announce rule:** before launching any task that differs from the one in progress (a new
   agent, a subtask of another kind, a phase change), write one line `→ Model @ effort: <X> (reason)` and only then launch

@@ -14,7 +14,7 @@ English, Kilo takes Spanish only.
 
 No other loan is open: the purchase of 2026-11-09 replaced every earlier loan (`loans.md`).
 
-## 2. Tokens (`decks/reports/tokens-20261116.md`)
+## 2. Tokens (`decks/reports/tokens-20261121.md`)
 
 Rule (owner, 2026-11-16): each deck keeps its own token copies: at least 2 of a token when one game can make several of
 it, 1 when it can make only one. Owned copies are shared out before buying.

@@ -2,18 +2,19 @@
 1 Fire Lord Azula (TLA) 220
 
 // Main
-1 Abrade (BLC) 191
 1 Aether Gale (SOC) 186
 1 Amphibian Downpour (MH3) 51 *F*
 1 Arcane Signet (TLE) 315
 1 Archmage Emeritus (STX) 377 *F*
 1 Bender's Waterskin (TLA) 255
 1 Big Score (FIC) 290
+1 Bitter Triumph (TDC) 173
 1 Brainstorm (A25) 46
 1 Cascade Bluffs (SOC) 364
 1 Champion's Helm (CMM) 375
 1 Chaos Warp (SOC) 239
 1 Choked Estuary (MKC) 254
+1 Chromatic Lantern (FRC) 54
 1 Comet Storm (CMR) 411
 1 Command Tower (PIP) 259
 1 Darkwater Catacombs (TDC) 355
@@ -29,14 +30,12 @@
 1 Exotic Orchard (FRC) 70
 1 Expedite (CMR) 413
 1 Fact or Fiction (CMR) 634 *F*
-1 Kolaghan's Command (M3C) 268
 1 Fire Nation Palace (TLA) 268
 1 Foreboding Ruins (DSC) 277
 1 Frantic Search (TDC) 153
 1 Frostboil Snarl (WHO) 282
 1 Frostcliff Siege (TDM) 187
 1 Glamdring, Foe-hammer // Gleam of Death (HOB) 174 *F*
-1 Go for the Throat (ACR) 91
 1 Goblin Electromancer (RVR) 186 *F*
 1 Godo, Bandit Warlord (CMM) 227
 1 Heartless Act (TLA) 103
@@ -48,6 +47,7 @@
 2 Island (ACR) 104
 1 Island (TLA) 283
 1 Izzet Signet (FRC) 58
+1 Kolaghan's Command (M3C) 268
 1 Mana Leak (8ED) 89
 1 Mind Stone (BLC) 280
 5 Mountain (ACR) 108
@@ -57,7 +57,7 @@
 1 Narset, Parter of Veils (CMM) 853
 1 Negate (MOM) 68
 1 Nightscape Familiar (DMR) 94
-1 Chromatic Lantern (FRC) 54
+1 Octopus Form (TLA) 66
 1 Ozai, the Phoenix King (TLA) 235
 1 Propaganda (ACR) 85
 1 Pull from Tomorrow (EOC) 76
@@ -71,7 +71,6 @@
 1 Snap (WOC) 110
 1 Sol Ring (OTC) 267
 1 Solve the Equation (STX) 54
-1 Spell Pierce (SOA) 23
 1 Storm-Kiln Artist (SOC) 255
 1 Stormcatch Mentor (SOC) 331
 1 Sulfur Falls (FRC) 84
@@ -83,6 +82,7 @@
 1 Swan Song (EOC) 46
 1 Swiftfoot Boots (TDC) 328
 1 Terminate (ACR) 98
+1 Theater of Horrors (DSC) 236
 1 Thermo-Alchemist (INR) 174
 1 Thirst for Knowledge (NEO) 85
 1 Thrill of Possibility (FDN) 210

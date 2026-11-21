@@ -74,3 +74,5 @@ by another deck" as a reason.
   2026-11-15. The lead's own reading: the weakest call of that pair; the next iteration weighs Octopus Form back in Azula
   for a basic land (35 lands with 12 mana rocks and ramp). Ezio left it out (protection at 8, blue not always up in five
   colors); Kilo cannot play it (no Spanish copy).
+- Resolved 2026-11-21 (Azula fix round, Opus 5.5 max): Kolaghan's Command and Chromatic Lantern stay in Azula; Octopus
+  Form is back in Azula for Spell Pierce (a land cut was rejected: 36 lands is the deck's floor).

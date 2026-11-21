@@ -43,13 +43,13 @@
 1 Expedite
 1 Heartless Act
 1 Tome of Legends
+1 Theater of Horrors
 1 Terminate
-1 Go for the Throat
+1 Bitter Triumph
 1 Imprisoned in the Moon
-1 Abrade
 1 Chaos Warp
 1 Kolaghan's Command
-1 Spell Pierce
+1 Octopus Form
 1 Swan Song
 1 Negate
 1 Swiftfoot Boots

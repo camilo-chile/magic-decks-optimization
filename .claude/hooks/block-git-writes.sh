@@ -58,6 +58,7 @@ EOF
 case "$cmd" in
   *commit-authorization*) block "the commit authorization file is written only by the UserPromptSubmit hook" ;;
   *fable-authorization*) block "the Fable authorization file is written only by the UserPromptSubmit hook" ;;
+  *opus-max-authorization*) block "the Opus max authorization file is written only by the UserPromptSubmit hook" ;;
 esac
 
 # 2. Normalize: unescape JSON, turn backslashes into slashes (Windows paths), delete quotes

@@ -1,5 +1,5 @@
 {
- "plan": "Fire Lord Azula attacks every turn from turn 4 (haste from Swiftfoot Boots, Frostcliff Siege, Hidden Footblade or Expedite; hexproof equipment, free redirects and five cheap counters behind her); while she attacks she copies every instant and flash spell, so draw, removal, tutors and Torrential Gearhulk are two-for-ones, Black Market Connections and Archmage Emeritus keep the hand and the Treasures full, and the win comes in one protected combat: a three-card loop with her (Narset's Reversal with Turnabout, Frantic Search or Storm-Kiln Artist; Snap with Dualcaster Mage) makes unbounded mana or casts, which a multikicked, copied Comet Storm or Thermo-Alchemist pings turn into lethal damage to each opponent.",
+ "plan": "Fire Lord Azula attacks every turn from turn 4 (haste from Swiftfoot Boots, Frostcliff Siege, Hidden Footblade or Expedite; hexproof from Boots, Champion's Helm and Octopus Form, free redirects and four cheap counters behind her); while she attacks she copies every instant and flash spell, so draw, removal, tutors and Torrential Gearhulk are two-for-ones, and Archmage Emeritus, Tome of Legends and Theater of Horrors keep the hand full; the win comes in one protected combat: a three-card loop with her (Narset's Reversal with Turnabout, Frantic Search or Storm-Kiln Artist; Snap with Dualcaster Mage; Return the Favor with Storm-Kiln Artist) makes unbounded mana or casts, which a multikicked, copied Comet Storm or Thermo-Alchemist pings turn into lethal damage to each opponent.",
  "backup": "Without a loop the same window cards win fairly: Turnabout, Snap, Frantic Search, Big Score, Storm-Kiln Artist and banked mana (Horizon Stone, Ozai, Electro, Treasures) fuel a copied Comet Storm or Electrodominance (2X to each opponent), with Torrential Gearhulk recasting Turnabout, Frantic Search or the draw spells for free; with Azula answered, Godo fetches Helm of the Host for unlimited combats, Ozai attacks with haste, and Comet Storm is cast uncopied with the banked mana.",
  "archetype": "spellslinger",
  "secondary": "combat_attackers",
@@ -27,7 +27,7 @@
     "Electrodominance"
    ],
    "axis": "noncombat",
-   "vs_three": "Comet Storm kicked twice names all three opponents; Azula copies it, 2X to each. Turnabout copied in combat untaps every land twice; Torrential Gearhulk cast in the window is copied and its two triggers recast Turnabout and Frantic Search (or two draw spells) for free, each copied again; Horizon Stone, Ozai, Electro and Black Market Connections' Treasures bring mana from earlier turns: X of 8 to 12 by turn 7 to 8, twice if needed. Without Azula it is cast once with banked mana. Electrodominance copied adds 2X to one or two players and casts two free spells (Gearhulk, Aether Gale, Godo). No combat damage needed."
+   "vs_three": "Comet Storm kicked twice names all three opponents; Azula copies it, 2X to each. Turnabout copied in combat untaps every land twice; Torrential Gearhulk cast in the window is copied and its two triggers recast Turnabout and Frantic Search (or two draw spells) for free, each copied again; Horizon Stone, Ozai and Electro bring mana from earlier turns and Big Score and Storm-Kiln Artist leave Treasures: X of 8 to 12 by turn 7 to 8, twice if needed. Without Azula it is cast once with banked mana. Electrodominance copied adds 2X to one or two players and casts two free spells (Gearhulk, Aether Gale, Godo). No combat damage needed."
   },
   "Azula, Helm and Godo in combat": {
    "cards": [
@@ -49,6 +49,7 @@
     "Turnabout",
     "Dualcaster Mage",
     "Torrential Gearhulk",
+    "Venser, Shaper Savant",
     "Comet Storm",
     "Electrodominance",
     "Mystical Teachings",
@@ -62,11 +63,10 @@
     "Shred Memory",
     "Heartless Act",
     "Terminate",
-    "Go for the Throat",
-    "Abrade",
+    "Bitter Triumph",
     "Chaos Warp",
     "Kolaghan's Command",
-    "Spell Pierce",
+    "Octopus Form",
     "Swan Song",
     "Negate",
     "Mana Leak",
@@ -111,7 +111,7 @@
    "cards": [
     "Heartless Act",
     "Terminate",
-    "Go for the Throat",
+    "Bitter Triumph",
     "Chaos Warp",
     "Amphibian Downpour",
     "Imprisoned in the Moon",
@@ -158,7 +158,8 @@
    "Propaganda",
    "Thermo-Alchemist",
    "Nightscape Familiar",
-   "Torrential Gearhulk"
+   "Torrential Gearhulk",
+   "Octopus Form"
   ],
   "combat_draw": [
    "Archmage Emeritus",
@@ -171,7 +172,8 @@
    "Negate",
    "Swan Song",
    "Mana Leak",
-   "Spell Pierce"
+   "Snap",
+   "Venser, Shaper Savant"
   ],
   "attackers": [
    "Ozai, the Phoenix King",
@@ -273,15 +275,9 @@
   "Frostcliff Siege": "draw",
   "Heartless Act": "removal",
   "Terminate": "removal",
-  "Go for the Throat": "removal",
-  "Abrade": "removal",
   "Chaos Warp": "removal",
   "Amphibian Downpour": "removal",
   "Imprisoned in the Moon": "removal",
-  "Spell Pierce": [
-   "protection",
-   "removal"
-  ],
   "Swan Song": [
    "protection",
    "removal"
@@ -305,7 +301,6 @@
   "Command Tower": "land",
   "Exotic Orchard": "land",
   "Fire Nation Palace": "land",
-  "Rogue's Passage": "land",
   "Cascade Bluffs": "land",
   "Choked Estuary": "land",
   "Darkwater Catacombs": "land",
@@ -331,7 +326,11 @@
    "protection"
   ],
   "Kolaghan's Command": "removal",
-  "Chromatic Lantern": "ramp"
+  "Chromatic Lantern": "ramp",
+  "Bitter Triumph": "removal",
+  "Octopus Form": "protection",
+  "Theater of Horrors": "draw",
+  "Rogue's Passage": "land"
  },
  "bad_when_drawn": {
   "Ozai, the Phoenix King": "early",
@@ -342,7 +341,6 @@
   "Aether Gale": "early",
   "Turnabout": "early",
   "Pull from Tomorrow": "early",
-  "Spell Pierce": "late",
   "Mana Leak": "late",
   "Sol Ring": "never",
   "Snap": "never",
@@ -351,7 +349,6 @@
   "Brainstorm": "never",
   "Heartless Act": "never",
   "Terminate": "never",
-  "Go for the Throat": "never",
   "Chaos Warp": "never",
   "Swan Song": "never",
   "Negate": "never",
@@ -361,6 +358,9 @@
   "Mystical Teachings": "never",
   "Return the Favor": "never",
   "Venser, Shaper Savant": "never",
-  "Kolaghan's Command": "never"
+  "Kolaghan's Command": "never",
+  "Bitter Triumph": "never",
+  "Octopus Form": "never",
+  "Theater of Horrors": "never"
  }
 }

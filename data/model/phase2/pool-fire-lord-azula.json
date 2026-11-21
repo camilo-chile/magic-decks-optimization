@@ -109,10 +109,10 @@
     "en": 1
    },
    "held_by": {
-    "fire-lord-azula": 1
+    "free": 1
    },
    "free_by_language": {
-    "en": 0
+    "en": 1
    },
    "printings": [
     {
@@ -1407,10 +1407,10 @@
     "en": 1
    },
    "held_by": {
-    "free": 1
+    "fire-lord-azula": 1
    },
    "free_by_language": {
-    "en": 1
+    "en": 0
    },
    "printings": [
     {
@@ -8127,10 +8127,10 @@
     "en": 1
    },
    "held_by": {
-    "fire-lord-azula": 1
+    "free": 1
    },
    "free_by_language": {
-    "en": 0
+    "en": 1
    },
    "printings": [
     {
@@ -12961,10 +12961,11 @@
     "en": 2
    },
    "held_by": {
-    "free": 2
+    "fire-lord-azula": 1,
+    "free": 1
    },
    "free_by_language": {
-    "en": 2
+    "en": 1
    },
    "printings": [
     {
@@ -16002,10 +16003,10 @@
     "en": 1
    },
    "held_by": {
-    "fire-lord-azula": 1
+    "free": 1
    },
    "free_by_language": {
-    "en": 0
+    "en": 1
    },
    "printings": [
     {
@@ -17478,10 +17479,10 @@
     "es": 1
    },
    "held_by": {
-    "free": 1
+    "fire-lord-azula": 1
    },
    "free_by_language": {
-    "es": 1
+    "es": 0
    },
    "printings": [
     {

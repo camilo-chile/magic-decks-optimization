@@ -11,7 +11,9 @@
       "Write(.claude/commit-authorization)",
       "Edit(.claude/commit-authorization)",
       "Write(.claude/fable-authorization)",
-      "Edit(.claude/fable-authorization)"
+      "Edit(.claude/fable-authorization)",
+      "Write(.claude/opus-max-authorization)",
+      "Edit(.claude/opus-max-authorization)"
     ]
   },
   "hooks": {

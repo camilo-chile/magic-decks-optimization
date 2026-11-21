@@ -548,6 +548,19 @@
   },
   {
    "order": 43,
+   "name": "Teatro de los horrores",
+   "name_en": "Theater of Horrors",
+   "qty": 1,
+   "role": "draw",
+   "lang": "es",
+   "set": "DSC",
+   "number": "236",
+   "mana_cost": "{1}{B}{R}",
+   "type_line": "Encantamiento",
+   "commander": false
+  },
+  {
+   "order": 44,
    "name": "Terminate",
    "name_en": "Terminate",
    "qty": 1,
@@ -560,20 +573,20 @@
    "commander": false
   },
   {
-   "order": 44,
-   "name": "Go for the Throat",
-   "name_en": "Go for the Throat",
+   "order": 45,
+   "name": "Bitter Triumph",
+   "name_en": "Bitter Triumph",
    "qty": 1,
    "role": "removal",
    "lang": "en",
-   "set": "ACR",
-   "number": "91",
+   "set": "TDC",
+   "number": "173",
    "mana_cost": "{1}{B}",
    "type_line": "Instant",
    "commander": false
   },
   {
-   "order": 45,
+   "order": 46,
    "name": "Imprisoned in the Moon",
    "name_en": "Imprisoned in the Moon",
    "qty": 1,
@@ -583,19 +596,6 @@
    "number": "69",
    "mana_cost": "{2}{U}",
    "type_line": "Enchantment — Aura",
-   "commander": false
-  },
-  {
-   "order": 46,
-   "name": "Abrade",
-   "name_en": "Abrade",
-   "qty": 1,
-   "role": "removal",
-   "lang": "en",
-   "set": "BLC",
-   "number": "191",
-   "mana_cost": "{1}{R}",
-   "type_line": "Instant",
    "commander": false
   },
   {
@@ -626,15 +626,15 @@
   },
   {
    "order": 49,
-   "name": "Spell Pierce",
-   "name_en": "Spell Pierce",
+   "name": "Octopus Form",
+   "name_en": "Octopus Form",
    "qty": 1,
    "role": "defense",
    "lang": "en",
-   "set": "SOA",
-   "number": "23",
+   "set": "TLA",
+   "number": "66",
    "mana_cost": "{U}",
-   "type_line": "Instant",
+   "type_line": "Instant — Lesson",
    "commander": false
   },
   {

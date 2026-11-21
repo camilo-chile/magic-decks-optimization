@@ -1337,7 +1337,7 @@
    "qty": null,
    "title": "Cuándo bajar a Azula",
    "meta": "",
-   "text": "Bájala apenas puedas atacar pronto y protegerla. Lo ideal: Swiftfoot Boots o Frostcliff Siege en Temur ya en mesa, así ataca el mismo turno; si no, bájala con {U} abierto (Spell Pierce, Canción del cisne) o con Deflecting Swat en mano, que es gratis apenas ella está en el campo. Familiar Escapanoche la deja en {U}{B}{R}. Ante una mesa con varias remociones abiertas y nada tuyo para protegerla, espera un turno y juega un motor (Narset, Tome of Legends, Frostcliff Siege). Si la matan, relanzarla cuesta {2} más cada vez; con Boots, Siege en Temur, Hidden Footblade o Expedite ataca igual ese turno. Contra un barrido o una remoción que no puedes contrarrestar, Snap o Venser la devuelven a tu mano en respuesta: desde la mano cuesta 4, sin impuesto."
+   "text": "Bájala apenas puedas atacar pronto y protegerla. Lo ideal: Swiftfoot Boots o Frostcliff Siege en Temur ya en mesa, así ataca el mismo turno; si no, bájala con {U} abierto (Canción del cisne, Octopus Form) o con Deflecting Swat en mano, que es gratis apenas ella está en el campo. Familiar Escapanoche la deja en {U}{B}{R}. Ante una mesa con varias remociones abiertas y nada tuyo para protegerla, espera un turno y juega un motor (Narset, Tome of Legends, Frostcliff Siege). Si la matan, relanzarla cuesta {2} más cada vez; con Boots, Siege en Temur, Hidden Footblade o Expedite ataca igual ese turno. Contra un barrido o una remoción que no puedes contrarrestar, Snap o Venser la devuelven a tu mano en respuesta: desde la mano cuesta 4, sin impuesto."
   },
   {
    "id": "azula-section-5-es",
@@ -1389,7 +1389,7 @@
    "qty": null,
    "title": "De qué protegerse",
    "meta": "",
-   "text": "1) Remoción a Azula durante su ataque, el mayor riesgo: equipa Swiftfoot Boots o Champion's Helm antes de atacar, y en la pila usa Deflecting Swat (gratis), Redirect Lightning, Return the Favor (cambia el objetivo, también de habilidades) o la Inversión de Narset (devuelve la remoción a la mano de su dueño y te quedas una copia). 2) Contrahechizos sobre la pieza clave: lanza primero la pieza más barata como cebo y guarda {U} y Deflecting Swat; un Swat apuntado a un contrahechizo puede hacerlo apuntar al propio Swat, y el contrahechizo se pierde. 3) Barridos: Canción del cisne, Negar, Spell Pierce o Mana Leak; o Snap o Venser devuelven a Azula a tu mano. Boots, Frostcliff Siege y los equipos quedan: la relanzas con haste. 4) Un combo rival antes del turno 6: cuatro contrahechizos y la Inversión de Narset, Venser (devuelve a la mano un hechizo de criatura o un comandante) y la remoción instantánea. 5) Efectos de solo velocidad de conjuro o un hechizo por turno: sácalos con Chaos Warp, Abrade, Kolaghan's Command o Vendaval del éter antes del turno ganador. 6) Tu vida y tu biblioteca: tierras de dolor y Redirect Lightning pagado con vida suman, y Archmage Emeritus roba obligatoriamente en los bucles."
+   "text": "1) Remoción a Azula durante su ataque, el mayor riesgo: equipa Swiftfoot Boots o Champion's Helm antes de atacar, y en la pila usa Deflecting Swat (gratis), Redirect Lightning, Return the Favor (cambia el objetivo, también de habilidades) o la Inversión de Narset (devuelve la remoción a la mano de su dueño y te quedas una copia). 2) Contrahechizos sobre la pieza clave: lanza primero la pieza más barata como cebo y guarda {U} y Deflecting Swat; un Swat apuntado a un contrahechizo puede hacerlo apuntar al propio Swat, y el contrahechizo se pierde. 3) Barridos: Canción del cisne, Negar o Mana Leak; Octopus Form para un removal puntual; o Snap o Venser devuelven a Azula a tu mano. Boots, Frostcliff Siege y los equipos quedan: la relanzas con haste. 4) Un combo rival antes del turno 6: cuatro contrahechizos y la Inversión de Narset, Venser (devuelve a la mano un hechizo de criatura o un comandante) y la remoción instantánea. 5) Efectos de solo velocidad de conjuro o un hechizo por turno: sácalos con Chaos Warp, Kolaghan's Command o Vendaval del éter antes del turno ganador. 6) Tu vida y tu biblioteca: tierras de dolor y Redirect Lightning pagado con vida suman, y Archmage Emeritus roba obligatoriamente en los bucles."
   },
   {
    "id": "azula-section-9-es",
@@ -1402,7 +1402,7 @@
    "qty": null,
    "title": "Prioridades de remoción",
    "meta": "",
-   "text": "La remoción uno por uno rinde poco en mesa de 4: lánzala mientras Azula ataca y la copia se lleva un segundo objetivo (mismo modo, otro objetivo). Orden: 1) lo que mata o bloquea bien a Azula ese turno; 2) piezas de combo y motores de cartas rivales; 3) el comandante que más amenaza. Imprisoned in the Moon y Amphibian Downpour apagan un comandante sin mandarlo a la zona de mando; Terminate, Go for the Throat, Heartless Act y Chaos Warp solo lo devuelven ahí. Go for the Throat no mata criaturas artefacto y Heartless Act no mata criaturas con contadores: elige cuál usar según el objetivo. Abrade y Kolaghan's Command son tus respuestas a artefactos; Chaos Warp, la única instantánea contra encantamientos y tierras. No gastes remoción en criaturas de valor que no te amenazan: Snap y Venser alcanzan para el tempo."
+   "text": "La remoción uno por uno rinde poco en mesa de 4: lánzala mientras Azula ataca y la copia se lleva un segundo objetivo (mismo modo, otro objetivo). Orden: 1) lo que mata o bloquea bien a Azula ese turno; 2) piezas de combo y motores de cartas rivales; 3) el comandante que más amenaza. Imprisoned in the Moon y Amphibian Downpour apagan un comandante sin mandarlo a la zona de mando; Terminate, Bitter Triumph, Heartless Act y Chaos Warp solo lo devuelven ahí. Heartless Act no mata criaturas con contadores; Bitter Triumph mata cualquier criatura o planeswalker, y la copia de Azula no paga el costo adicional: guarda Bitter Triumph para lo que Heartless Act no alcanza. Kolaghan's Command es tu respuesta a artefactos (dos con la copia de Azula); Chaos Warp, la única instantánea contra encantamientos y tierras. No gastes remoción en criaturas de valor que no te amenazan: Snap y Venser alcanzan para el tempo."
   },
   {
    "id": "azula-section-10-es",
@@ -1623,7 +1623,7 @@
    "qty": 1,
    "title": "",
    "meta": "{3} · Artifact · TLA 255",
-   "text": "Turno 3 si no tienes roca de 2. Se endereza en el turno de cada rival: un maná de cualquier color para Mana Leak, Spell Pierce, Mystical Teachings o Venser sin bajar tus tierras."
+   "text": "Turno 3 si no tienes roca de 2. Se endereza en el turno de cada rival: un maná de cualquier color para Mana Leak, Octopus Form, Mystical Teachings o Venser sin bajar tus tierras."
   },
   {
    "id": "azula-card-9-es",
@@ -2073,6 +2073,19 @@
    "kind": "card",
    "lang": "es",
    "order": 43,
+   "name": "Teatro de los horrores",
+   "role": "draw",
+   "qty": 1,
+   "title": "",
+   "meta": "{1}{B}{R} · Encantamiento · DSC 236",
+   "text": "Teatro de los horrores es robo que sigue funcionando aunque te maten a Azula: cada mantenimiento exilia una carta, y la juegas en tu turno si un rival perdió vida (un ataque, Thermo-Alchemist o su propia habilidad de {3}{R}). Bájalo en el turno 3 o 4 y acumula cartas para el turno del combo."
+  },
+  {
+   "id": "azula-card-44-es",
+   "deck": "Azula",
+   "kind": "card",
+   "lang": "es",
+   "order": 44,
    "name": "Terminate",
    "role": "removal",
    "qty": 1,
@@ -2081,30 +2094,17 @@
    "text": "Mata cualquier criatura sin regeneración. Guárdalo para un comandante o un bloqueador grande; en la ventana mata al bloqueador y la copia a otra criatura."
   },
   {
-   "id": "azula-card-44-es",
-   "deck": "Azula",
-   "kind": "card",
-   "lang": "es",
-   "order": 44,
-   "name": "Go for the Throat",
-   "role": "removal",
-   "qty": 1,
-   "title": "",
-   "meta": "{1}{B} · Instant · ACR 91",
-   "text": "Como Terminate, pero no mata criaturas artefacto. Úsalo en la ventana después de los bloqueos; fuera de ella, sobre un motor o una pieza de combo rival."
-  },
-  {
    "id": "azula-card-45-es",
    "deck": "Azula",
    "kind": "card",
    "lang": "es",
    "order": 45,
-   "name": "Imprisoned in the Moon",
+   "name": "Bitter Triumph",
    "role": "removal",
    "qty": 1,
    "title": "",
-   "meta": "{2}{U} · Enchantment — Aura · INR 69",
-   "text": "Aura sin flash: no se copia. En tu fase principal, sobre el comandante que más teme la mesa: queda como tierra en el campo y su dueño no puede devolverlo a la zona de mando. También sirve contra un planeswalker o una tierra utilitaria."
+   "meta": "{1}{B} · Instant · TDC 173",
+   "text": "Remoción instantánea por {1}{B} contra cualquier criatura o planeswalker, artefactos incluidos. Paga 3 vidas antes que descartar una pieza del combo; con Azula atacando, la copia mata un segundo objetivo sin pagar el costo adicional."
   },
   {
    "id": "azula-card-46-es",
@@ -2112,12 +2112,12 @@
    "kind": "card",
    "lang": "es",
    "order": 46,
-   "name": "Abrade",
+   "name": "Imprisoned in the Moon",
    "role": "removal",
    "qty": 1,
    "title": "",
-   "meta": "{1}{R} · Instant · BLC 191",
-   "text": "En la ventana la copia repite el modo: dos criaturas de resistencia 3 o menos, o dos artefactos (una roca rápida, un equipo, una pieza de stax). 3 de daño no mata a la mayoría de los comandantes: úsalo en lo pequeño."
+   "meta": "{2}{U} · Enchantment — Aura · INR 69",
+   "text": "Aura sin flash: no se copia. En tu fase principal, sobre el comandante que más teme la mesa: queda como tierra en el campo y su dueño no puede devolverlo a la zona de mando. También sirve contra un planeswalker o una tierra utilitaria."
   },
   {
    "id": "azula-card-47-es",
@@ -2151,12 +2151,12 @@
    "kind": "card",
    "lang": "es",
    "order": 49,
-   "name": "Spell Pierce",
+   "name": "Octopus Form",
    "role": "defense",
    "qty": 1,
    "title": "",
-   "meta": "{U} · Instant · SOA 23",
-   "text": "{U}: contra el barrido, la remoción a Azula o el contrahechizo a tu pieza. Mejor temprano o contra un jugador girado; tarde, si el rival puede pagar {2}, no sirve."
+   "meta": "{U} · Instant — Lesson · TLA 66",
+   "text": "Tu protección más barata: tenla con {U} abierto cuando Azula ataca o cuando bajas una pieza del bucle. Responde a un removal puntual, y al enderezarla deja a Azula lista para bloquear después de atacar. Con Azula atacando, la copia protege una segunda criatura."
   },
   {
    "id": "azula-card-50-es",

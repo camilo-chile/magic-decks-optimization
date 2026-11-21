@@ -145,7 +145,7 @@
    "list_id": "azula-iter3",
    "deck": "Azula",
    "type": "Instant",
-   "count": 28
+   "count": 27
   },
   {
    "id": "azula-iter3-Sorcery",
@@ -159,7 +159,7 @@
    "list_id": "azula-iter3",
    "deck": "Azula",
    "type": "Enchantment",
-   "count": 4
+   "count": 5
   },
   {
    "id": "azula-iter3-Artifact",

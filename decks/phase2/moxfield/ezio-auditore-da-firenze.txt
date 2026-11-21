@@ -26,7 +26,6 @@
 1 Dragonskull Summit (MSC) 238
 1 Drowned Catacomb (FRC) 69
 1 Eagle Vision (ACR) 17
-1 Magister Sphinx (2X2) 247
 1 Enter the Avatar State (TLA) 18 *F*
 1 Entomb (DMR) 82
 1 Etrata, Deadly Fugitive (MKM) 359
@@ -53,6 +52,7 @@
 1 Isolated Chapel (FRC) 74
 1 Jacob Frye (ACR) 27
 1 Layla Hassan (ACR) 127
+1 Magister Sphinx (2X2) 247
 1 Mana Leak (8ED) 89
 1 Mechanical Glider (TLE) 256
 1 Mephitic Vapors (RVR) 85

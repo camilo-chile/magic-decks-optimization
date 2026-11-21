@@ -23,10 +23,12 @@ the next build round. Newest first.
 | All | Models (2026-11-14, after Azula's build: Fable 41 % of its weekly bar, 21 % of the weekly bar, about one 5 h window) | Fable 5.2 high only BUILDS the decks; the reviews (Opus 5.5 high) and the fix rounds (the main session) run on Opus. |
 | All | Iteration names (2026-11-14) | Iteration 1 = the first purchase; iteration 2 = the decks bought on 2026-11-09; iteration 3 = this collection-only optimization (Fable builds). |
 | All | Fable authorization (2026-11-15) | No expiry: once recorded, Fable may be used at the authorized effort, but ONLY on the owner's explicit OK for each launch; without it, Claude asks. Never a launch on a guess. |
+| All | Opus max (2026-11-21) | Fable is no longer available. Opus 5.5 at max is allowed only with the owner's phrase "autorizo opus max", one launch per phrase (hook-enforced one-shot authorization, 30 minutes). |
 | Azula, Toph | Salt floors (2026-11-15) | Lowered from 7.0 to 6.5 for both (`decks/phase2.json` `salt_floors`). Ezio stays 6.5, Kilo 4.5. Salt stays secondary: what is really more powerful decides. |
 | Ezio | Magister Sphinx for Eivor (2026-11-15) | Accepted after the Salt diagnosis: Iter 3 read 4.6 without the Ezio + Sphinx line, 6.5 with it, real power near equal. Ezio stays frozen with this one change. |
 | Kilo | Exception to the 4.5 floor (2026-11-15) | Accepted as built (Iter 3, Salt 3.7). Salt does not track this deck: the precon with Kilo reads 3.8 against a real-power gap of about 1.5 points; the remaining complaints (no finisher, no tutors) are the Spanish collection's ceiling. |
 | Azula | Kolaghan's Command and Chromatic Lantern (2026-11-15) | Accepted: Kolaghan's Command for Failed Fording, Chromatic Lantern for Octopus Form (free English copies left in no deck by the serial order). Azula stays frozen with these two changes. |
+| Azula | Iteration 3 fix round (2026-11-21, Opus 5.5 max) | Kolaghan's Command and Chromatic Lantern kept; Octopus Form back for Spell Pierce (not for a land: 36 is the deck's land floor); Bitter Triumph for Go for the Throat; Theater of Horrors (ES) for Abrade. Free copies only; Ezio, Toph and Kilo untouched. |
 | Azula, Toph, Ezio | Frozen (2026-11-15) | The owner rebuilt the three decks with the iteration-3 changes; they are FROZEN. Kilo may NOT take any copy from them, even where it adds more in Kilo: Swan Song stays in Azula, Kilo keeps Titan Forge. |
 
 ## 2026-11-07

@@ -2875,23 +2875,6 @@
    "languages": "both",
    "cards": [
     {
-     "name": "Abrade",
-     "oracle_id": "f9db72dc-9a5b-48a4-a86e-7464d9a2166a",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "en",
-       "set": "blc",
-       "number": "191",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "English Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
      "name": "Aether Gale",
      "oracle_id": "b21d6482-1b3a-47e6-98a5-3067f5f3818b",
      "qty": 1,
@@ -2986,6 +2969,23 @@
        "language": "en",
        "set": "fic",
        "number": "290",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Bitter Triumph",
+     "oracle_id": "776341cb-d2ec-423f-9250-92dc8bd8d503",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tdc",
+       "number": "173",
        "foil": "normal",
        "condition": "near_mint",
        "binder": "English Cards",
@@ -3470,23 +3470,6 @@
      ]
     },
     {
-     "name": "Go for the Throat",
-     "oracle_id": "2f092562-9e17-43cd-aeb8-d0567f99363e",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "en",
-       "set": "acr",
-       "number": "91",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "English Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
      "name": "Goblin Electromancer",
      "oracle_id": "81f06f84-1580-43c0-89d5-08d34541a519",
      "qty": 1,
@@ -3820,6 +3803,23 @@
      ]
     },
     {
+     "name": "Octopus Form",
+     "oracle_id": "6fec368d-374d-4318-861b-ff478ba51a3c",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "en",
+       "set": "tla",
+       "number": "66",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
      "name": "Ozai, the Phoenix King",
      "oracle_id": "7472af8e-2e93-43b2-bc32-a3741f6d7502",
      "qty": 1,
@@ -4041,23 +4041,6 @@
      ]
     },
     {
-     "name": "Spell Pierce",
-     "oracle_id": "d64b0848-0193-4025-ba62-63ecd8fb9f50",
-     "qty": 1,
-     "given": 1,
-     "picks": [
-      {
-       "language": "en",
-       "set": "soa",
-       "number": "23",
-       "foil": "normal",
-       "condition": "near_mint",
-       "binder": "English Cards",
-       "qty": 1
-      }
-     ]
-    },
-    {
      "name": "Storm-Kiln Artist",
      "oracle_id": "a145ff8c-5812-4bcb-bd16-9839dc25121d",
      "qty": 1,
@@ -4232,6 +4215,23 @@
        "foil": "normal",
        "condition": "near_mint",
        "binder": "English Cards",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "name": "Theater of Horrors",
+     "oracle_id": "b391a4ce-52ce-4a8c-bbe5-6053951ee1d4",
+     "qty": 1,
+     "given": 1,
+     "picks": [
+      {
+       "language": "es",
+       "set": "dsc",
+       "number": "236",
+       "foil": "normal",
+       "condition": "near_mint",
+       "binder": "Spanish Cards",
        "qty": 1
       }
      ]

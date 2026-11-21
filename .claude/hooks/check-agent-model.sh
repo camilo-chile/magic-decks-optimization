@@ -11,6 +11,8 @@
 # UserPromptSubmit hook write `.claude/fable-authorization` ("<UTC time> <effort>"); fable is allowed at that effort
 # with no expiry (owner, 2026-11-15) and blocked without the file. The hook only records that Fable is enabled: Claude
 # still launches Fable ONLY on the owner's explicit OK for that run, never on a guess (CLAUDE.md model policy).
+# plus Opus 5.5 at effort max (owner, 2026-11-21), ONLY with his message "autorizo opus max": the UserPromptSubmit hook
+# writes `.claude/opus-max-authorization`; one Agent call on opus+max is allowed within 30 minutes and uses it up.
 # Anything else is blocked (exit code 2 sends the message back to Claude): Opus xhigh, max or low, Sonnet,
 # Haiku at another level, Fable, other model versions, a model without its effort, or an effort without a model.
 #
@@ -31,7 +33,7 @@ export PATH
 set -f
 
 block() {
-  echo "Blocked by project rule: model policy ($1). Allowed pairs: opus+high, opus+medium, haiku+xhigh (haiku+medium only for the browser agents stock-verifier and browser-runner; fable only at the effort the owner authorized with 'autorizo fable', and only on his explicit OK for the run); set both model and effort on the Agent call." >&2
+  echo "Blocked by project rule: model policy ($1). Allowed pairs: opus+high, opus+medium, haiku+xhigh (haiku+medium only for the browser agents stock-verifier and browser-runner; fable only at the effort the owner authorized with 'autorizo fable', and only on his explicit OK for the run; opus+max only once per 'autorizo opus max'); set both model and effort on the Agent call." >&2
   exit 2
 }
 
@@ -71,6 +73,13 @@ family() {
 
 BROWSER_AGENTS=" stock-verifier browser-runner "
 FABLE_TOKEN="${FABLE_TOKEN_FILE:-${CLAUDE_PROJECT_DIR:-.}/.claude/fable-authorization}"
+OPUS_MAX_TOKEN="${OPUS_MAX_TOKEN_FILE:-${CLAUDE_PROJECT_DIR:-.}/.claude/opus-max-authorization}"
+
+# Whether the owner's one-shot Opus max authorization exists and is younger than 30 minutes.
+opus_max_authorized() {
+  [ -f "$OPUS_MAX_TOKEN" ] || return 1
+  [ -n "$(find "$OPUS_MAX_TOKEN" -mmin -30 2>/dev/null)" ]
+}
 
 # Whether the owner's Fable authorization is on record for this effort (no expiry, owner 2026-11-15).
 fable_authorized() {
@@ -84,6 +93,7 @@ allowed_pair() {
     opus:high|opus:medium|haiku:xhigh) return 0 ;;
     haiku:medium) case "$BROWSER_AGENTS" in *" $3 "*) return 0 ;; esac ;;
     fable:*) fable_authorized "$2" && return 0 ;;
+    opus:max) opus_max_authorized && rm -f "$OPUS_MAX_TOKEN" && return 0 ;;
   esac
   return 1
 }

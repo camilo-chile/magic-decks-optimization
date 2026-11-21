@@ -185,3 +185,24 @@ Browser task by Claude (Haiku 5.5 @ medium) in the owner's signed-in Chrome, wit
   - Score drivers: "Structural score ceiling, Major": wincon combos with no tutors to assemble them (-0.55). Suggestions on the page: no board wipes detected; no graveyard interaction detected.
   - Pillar-read interaction and card-count figures: Creatures 13, Artifacts 16, Enchantments 4, Instants 28, Sorceries 4, Planeswalkers 1; ramp 8; tutors 8.3 avg quality; 33 instants.
 - Failed: none.
+
+## Iter 3 - Azula fix round (2026-11-21)
+
+Browser task by Claude (Haiku 5.5 @ medium) in the owner's signed-in Chrome, approved by the owner. No purchase, no sign-in, no account setting changed, no deletion, no rename. Visibility and name unchanged. No new deck created.
+
+- Change on Moxfield (https://moxfield.com/decks/rzCJyehK1kukBHQW9czFGg), Bulk Edit, saved: removed "1 Spell Pierce (SOA) 23", "1 Go for the Throat (ACR) 91" and "1 Abrade (BLC) 191"; added "1 Octopus Form (TLA) 66", "1 Bitter Triumph (TDC) 173" and "1 Theater of Horrors (DSC) 236", all non-foil.
+- Moxfield count after saving (read from the saved deck through Moxfield's own JSON endpoint in the signed-in tab): mainboard 99 cards (sum of quantities) + Commander (1) Fire Lord Azula (tla 220) = 100 total. Spell Pierce, Go for the Throat and Abrade: 0 copies. Octopus Form, Bitter Triumph and Theater of Horrors: 1 copy each, non-foil, with the printings requested. Bulk text: 85 lines, the 3 old lines absent, the 3 new lines present once.
+- Commander Salt URL (submitted again from the Moxfield URL): https://www.commandersalt.com/details/deck/8cf1c282bcec8149aea93cf07ffb9141. The page shows the update: Bitter Triumph, Theater of Horrors and Octopus Form are in the Cards list.
+- Salt numbers read on 2026-11-21:
+  - Power 6.9 / 10 ("Focused Casual"), before 6.9: unchanged.
+  - Bracket 3 ("Upgraded"), before 3: unchanged.
+  - SALT 75.7 (Saltiness C 75.7, "Combo Assassin"), before 76.4: down 0.7.
+  - Commander tier T4.
+  - Four pillars (score / reference): Consistency 201 / 100; Efficiency 394 / 100; Interaction 289 / 140; Win conditions 347 / 200. Before: 197 / 394 / 316 / 332 (same pillar order).
+  - Report card: Interaction B+ 289; Wincons A+ 287; Synergy B 275.2; Saltiness C 75.7.
+  - Combos: 3 lines, 5 wincons, 6 total; top line "Two-card line"; redundancy 0.60x.
+  - Manabase quality 96 (3-color, 36 lands: 17 basic, 19 nonbasic); fixing 100.
+  - Score drivers: "Structural score ceiling, Major": "Score capped, wincon combos with no tutors to assemble them (-0.59)". Pushed up: "Tournament-grade execution" (minor). Pulled down: "Wincon combos with no tutors to assemble them" (major) and "Other penalties" (major). Flagged for 1 mechanical anti-pattern (minor). Suggestions on the page: no board wipes detected; no graveyard interaction detected.
+  - Card counts: Creatures 13, Artifacts 16, Enchantments 5, Instants 27 (type-hits), Sorceries 4, Planeswalkers 1; ramp 8; tutors 8.3 avg quality; 89% instant-speed.
+- Note: Salt's pillar and report-card figures moved with the swap; Salt does not show a scoring version on this page (not stamped).
+- Failed: none.

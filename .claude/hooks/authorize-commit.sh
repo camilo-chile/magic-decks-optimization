@@ -13,11 +13,15 @@
 # none is named) writes `.claude/fable-authorization` with that effort. `check-agent-model.sh` lets an Agent call run
 # on Fable 5.2 at that effort, with no expiry (owner, 2026-11-15). Fable is never allowed without it, and Claude still
 # launches Fable only on the owner's explicit OK for each run.
+#
+# Third phrase (owner, 2026-11-21): "autorizo opus max" writes `.claude/opus-max-authorization`; `check-agent-model.sh`
+# then lets ONE Agent call run on Opus 5.5 at effort max within 30 minutes and deletes the file when it allows it.
 
 PATH="/usr/bin:/bin:$PATH"
 export PATH
 TOKEN="${COMMIT_TOKEN_FILE:-${CLAUDE_PROJECT_DIR:-.}/.claude/commit-authorization}"
 FABLE_TOKEN="${FABLE_TOKEN_FILE:-${CLAUDE_PROJECT_DIR:-.}/.claude/fable-authorization}"
+OPUS_MAX_TOKEN="${OPUS_MAX_TOKEN_FILE:-${CLAUDE_PROJECT_DIR:-.}/.claude/opus-max-authorization}"
 
 payload=""
 while IFS= read -r line || [ -n "$line" ]; do
@@ -39,6 +43,13 @@ if [ -n "$fable" ] && ! printf '%s' "$payload" | grep -qiE '(no[[:space:]]+autor
   [ -n "$effort" ] || effort="high"
   if printf '%s %s\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$effort" > "$FABLE_TOKEN" 2>/dev/null; then
     echo "Fable 5.2 authorization recorded by the owner's message: Agent calls may use model fable at effort $effort (no expiry; each launch still needs the owner's explicit OK)."
+  fi
+fi
+
+if printf '%s' "$payload" | grep -qiE '(autorizo|authorize)[[:space:]]+opus([[:space:]]+5\.5)?[[:space:]]+(en[[:space:]]+)?max' \
+   && ! printf '%s' "$payload" | grep -qiE '(no[[:space:]]+autorizo|do not authorize|don.t authorize)[[:space:]]+opus'; then
+  if date -u +%Y-%m-%dT%H:%M:%SZ > "$OPUS_MAX_TOKEN" 2>/dev/null; then
+    echo "Opus 5.5 max authorization recorded by the owner's message: ONE Agent call on model opus at effort max within 30 minutes."
   fi
 fi
 exit 0

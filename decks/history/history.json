@@ -1,5 +1,5 @@
 {
- "note": "The 14 decks kept on Moxfield (owner, 2026-11-15): base list, iteration 1 (first purchase), iteration 2 (decks bought 2026-11-09) and iteration 3 (collection-only optimization), each with its Commander Salt reading of 2026-11-15 (deck pages, not the leaderboard). Iter 3 Ezio includes Magister Sphinx for Eivor; Iter 3 Azula includes Kolaghan's Command and Chromatic Lantern (both 2026-11-15). Pillars only where they were read (decks/reports/salt-diagnosis-20261115.md). Floors: decks/phase2.json salt_floors.",
+ "note": "The 14 decks kept on Moxfield (owner, 2026-11-15): base list, iteration 1 (first purchase), iteration 2 (decks bought 2026-11-09) and iteration 3 (collection-only optimization), each with its Commander Salt reading of 2026-11-15 (deck pages, not the leaderboard). Iter 3 Ezio includes Magister Sphinx for Eivor; Iter 3 Azula includes Kolaghan's Command and Chromatic Lantern (2026-11-15) and the fix round of 2026-11-21 (Octopus Form, Bitter Triumph, Theater of Horrors). Pillars only where they were read (decks/reports/salt-diagnosis-20261115.md). Floors: decks/phase2.json salt_floors.",
  "decks": [
   {
    "deck": "azula",
@@ -42,13 +42,13 @@
    "salt_url": "https://www.commandersalt.com/details/deck/8cf1c282bcec8149aea93cf07ffb9141",
    "power": 6.9,
    "bracket": "3",
-   "salt": 76.4,
-   "measured": "2026-11-15",
+   "salt": 75.7,
+   "measured": "2026-11-21",
    "pillars": {
-    "consistency": 197,
+    "consistency": 201,
     "efficiency": 394,
-    "interaction": 316,
-    "wincons": 332
+    "interaction": 289,
+    "wincons": 347
    }
   },
   {

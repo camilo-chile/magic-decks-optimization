@@ -78,15 +78,15 @@
    "deck": "Azula",
    "color": "Blue",
    "pips": 35,
-   "share_pct": 47
+   "share_pct": 46
   },
   {
    "id": "azula-iter3-B",
    "list_id": "azula-iter3",
    "deck": "Azula",
    "color": "Black",
-   "pips": 11,
-   "share_pct": 15
+   "pips": 12,
+   "share_pct": 16
   },
   {
    "id": "azula-iter3-R",
@@ -94,7 +94,7 @@
    "deck": "Azula",
    "color": "Red",
    "pips": 29,
-   "share_pct": 39
+   "share_pct": 38
   },
   {
    "id": "toph-base-W",
