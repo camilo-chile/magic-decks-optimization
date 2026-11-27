@@ -67,3 +67,9 @@ are all in decks or in the other language unless the row says so.
 | Kolaghan's Command | 1 EN | Azula | Ezio (EN): 1 |
 
 Sol Ring, Arcane Signet, Command Tower, Exotic Orchard and Swords to Plowshares are already in every deck that fits.
+
+## 5. Cards the owner asked to evaluate in the next optimization
+
+| Card | Deck | Owned | Why it is asked |
+|---|---|---|---|
+| Unleash Fury | Azula | 1 EN, free | Owner, 2026-11-27: cast while Azula attacks, the copy doubles her power twice (4 to 16) for the red mana firebending gives. Cut in iteration 2 as combat-only (`fire-lord-azula.build.md` section 8): it needs Azula unblocked, 16 is short of 21 commander damage, and the deck wins with copied instants. Weigh it against the weakest slot. |

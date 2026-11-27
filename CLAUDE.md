@@ -36,9 +36,11 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
   `data/collection/ManaBox_Collection_2026-11-13_purchase.csv`, stage `purchase`) and is the last change: no more purchases,
   no exchanges, no loans (`loan_candidates.closed`), the Ezio commander stays a proxy. The four decks are built exactly as
   `decks/phase2/<slug>.txt` (Kilo 99 cards: Talisman of Conviction came in English); the physical copies are pinned in
-  `decks/phase2.json` `pinned` and listed in the newest `decks/reports/pull-list-*.md`. The next phase, when he asks, optimizes
-  the four decks from the collection only and says per deck which cards leave and which come in from the collection;
-  Moxfield, Commander Salt and the dashboard are not updated before that.
+  `decks/phase2.json` `pinned` and listed in the newest `decks/reports/pull-list-*.md`. Iteration 3 (the collection-only
+  optimization of the four decks, with the Azula fix round of 2026-11-21) is CLOSED: the four decks are built physically and
+  frozen, Moxfield keeps the 14 decks of `decks/history/history.json`, Commander Salt and the dashboard are up to date. The
+  next iteration includes purchases and is well in the future (owner, 2026-11-16); it starts from
+  `decks/phase2/next-purchase.md`.
 - No other purchases, shipping or budget in this iteration. Everything in "Hard constraints" about budget, stores,
   stock, purchases, same printing in one store, full-art basics to buy, optional tokens to buy and the reserved binder is
   superseded; what stays: Bracket 3 / Layer A, Commander Salt as the measure, no reversible cards, the language rule when

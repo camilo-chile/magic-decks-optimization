@@ -206,3 +206,16 @@ Browser task by Claude (Haiku 5.5 @ medium) in the owner's signed-in Chrome, app
   - Card counts: Creatures 13, Artifacts 16, Enchantments 5, Instants 27 (type-hits), Sorceries 4, Planeswalkers 1; ramp 8; tutors 8.3 avg quality; 89% instant-speed.
 - Note: Salt's pillar and report-card figures moved with the swap; Salt does not show a scoring version on this page (not stamped).
 - Failed: none.
+
+## Live check (2026-11-27)
+
+Read-only browser task by Claude (Haiku 5.5 @ medium) in the owner's signed-in Chrome; nothing changed. "Your Decks" reads
+"Showing 14 out of 14 results": exactly the 14 decks of `decks/history/history.json`, none missing, none extra.
+Visibility: Public 4 (Base - Azula, Base - Toph, Iter 1 - Azula, Iter 1 - Ezio), Unlisted 10 (all the others), Private 0.
+
+## All decks public (2026-11-27)
+
+Browser task by Claude (Haiku 5.5 @ medium) in the owner's signed-in Chrome, approved by the owner ("que todos estén
+públicos"). Only visibility changed. The 10 Unlisted decks were set to Public, each checked by name first and read again
+after a reload (Iter 1 - Toph needed a second try). All 14 decks now read Public on their deck pages. The dashboard deck
+pages link every version (Moxfield and Commander Salt) since page version 14.
