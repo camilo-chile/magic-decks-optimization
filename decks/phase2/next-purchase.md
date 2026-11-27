@@ -22,11 +22,13 @@ per deck that makes the token, more when the deck makes many in a game; whatever
 Physical split on 2026-11-27: Clue Toph 4 (Tireless Tracker on every landfall) and Kilo 2; Incubator Kilo 2, the two Spanish
 copies (the all-Spanish deck; the English copy stays stored); Copy 1 each to Azula, Ezio, Toph; Treasure 1 each to Azula and
 Ezio (Toph's Tireless Provisioner takes Food until Treasures are bought).
-Found by the owner on 2026-11-27, never scanned (not in the 2026-11-13 export; checked on Scryfall): Bird TEOC 3 (ES,
+Found by the owner on 2026-11-27 on the BACK faces of his double-faced tokens: he scanned each token by one face only, so
+the export misses every back face (checked on Scryfall): Bird TEOC 3 (ES,
 exact for Swan Song) to Azula, Thopter TEOC 16 (ES, exact for Hangarback Walker) to Kilo, Copy TTLA 2 (EN) to Azula,
 Food TTLA 21 (EN) to Toph, a second Golem TEOC 14 (ES) to Kilo, a second Soldier TTLE 2 (EN)
 to Toph; Insect TDSK 13 (black-green, flying) is not Springheart Nantuko's token and stays stored.
-Scan them into the binders with the next export.
+First step of the next iteration (owner, 2026-11-27): rescan the tokens recording BOTH faces of each card, then
+recount the owned tokens (`scripts/token_needs.py`) before buying any: more back faces may cover this list.
 
 | Token | Deck: copies (why) | Needed | Owned | To buy |
 |---|---|---|---|---|
