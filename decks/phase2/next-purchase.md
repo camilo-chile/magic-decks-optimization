@@ -19,31 +19,36 @@ No other loan is open: the purchase of 2026-11-09 replaced every earlier loan (`
 Rule (owner, 2026-11-16): each deck keeps its own token copies: at least 2 of a token when one game can make several of
 it, 1 when it can make only one. Owned copies are shared out before buying. A surplus (owner, 2026-11-27) goes 2
 per deck that makes the token, more when the deck makes many in a game; whatever is left stays stored.
-Physical split on 2026-11-27: Clue Toph 4 (Tireless Tracker on every landfall) and Kilo 2; Incubator Kilo 3
-(Chrome Host Seedshark on every noncreature spell); Copy 1 each to Azula, Ezio, Toph; Treasure 1 each to Azula and
+Physical split on 2026-11-27: Clue Toph 4 (Tireless Tracker on every landfall) and Kilo 2; Incubator Kilo 2, the two Spanish
+copies (the all-Spanish deck; the English copy stays stored); Copy 1 each to Azula, Ezio, Toph; Treasure 1 each to Azula and
 Ezio (Toph's Tireless Provisioner takes Food until Treasures are bought).
+Found by the owner on 2026-11-27, never scanned (not in the 2026-11-13 export; checked on Scryfall): Bird TEOC 3 (ES,
+exact for Swan Song) to Azula, Thopter TEOC 16 (ES, exact for Hangarback Walker) to Kilo, Copy TTLA 2 (EN) to Azula,
+Food TTLA 21 (EN) to Toph, a second Golem TEOC 14 (ES) to Kilo, a second Soldier TTLE 2 (EN)
+to Toph; Insect TDSK 13 (black-green, flying) is not Springheart Nantuko's token and stays stored.
+Scan them into the binders with the next export.
 
 | Token | Deck: copies (why) | Needed | Owned | To buy |
 |---|---|---|---|---|
-| Bird 2/2 blue, flying | Azula 2 (Swan Song, copied while Azula attacks) | 2 | 0 | 2 |
-| Copy | Azula 2 (Helm of the Host each combat), Ezio 2 (Altaïr each attack), Toph 2 (Springheart Nantuko each landfall) | 6 | 3 | 3 |
+| Bird 2/2 blue, flying | Azula 2 (Swan Song, copied while Azula attacks) | 2 | 1 | 1 |
+| Copy | Azula 2 (Helm of the Host each combat), Ezio 2 (Altaïr each attack), Toph 2 (Springheart Nantuko each landfall) | 6 | 4 | 2 |
 | Treasure | Azula 2 (Storm-Kiln Artist, Big Score), Ezio 2 (Black Market Connections), Toph 2 (Tireless Provisioner) | 6 | 2 | 4 |
 | Assassin 1/1 black, deathtouch and haste | Ezio 2 (Queen Marchesa each upkeep) | 2 | 0 | 2 |
 | Assassin 1/1 black, menace | Ezio 2 (Aya of Alexandria, Ratonhnhaké꞉ton) | 2 | 1 | 1 |
 | Shapeshifter 3/2 changeling | Ezio 2 (Black Market Connections each turn) | 2 | 1 | 1 |
 | Bear 4/4 green | Toph 2 (The Earth King; Springheart Nantuko can copy it) | 2 | 1 | 1 |
-| Food | Toph 2 (Tireless Provisioner) | 2 | 1 | 1 |
+| Food | Toph 2 (Tireless Provisioner) | 2 | 2 | 0 |
 | Insect 1/1 green | Toph 2 (Springheart Nantuko) | 2 | 1 | 1 |
-| Soldier 2/2 red | Toph 2 (Fire Nation Archers, repeatable) | 2 | 1 | 1 |
-| Thopter 1/1 colorless artifact, flying | Kilo 2 (Hangarback Walker, one per counter) | 2 | 0 | 2 |
-| Golem 9/9 colorless artifact | Kilo 2 (Titan Forge, repeatable) | 2 | 1 | 1 |
+| Soldier 2/2 red | Toph 2 (Fire Nation Archers, repeatable) | 2 | 2 | 0 |
+| Thopter 1/1 colorless artifact, flying | Kilo 2 (Hangarback Walker, one per counter) | 2 | 1 | 1 |
+| Golem 9/9 colorless artifact | Kilo 2 (Titan Forge, repeatable) | 2 | 2 | 0 |
 | Clue | Toph 2 (Tireless Tracker), Kilo 1 (Fateful Absence) | 3 | 6 | 0 |
 | Incubator | Kilo 2 (Chrome Host Seedshark) | 2 | 3 | 0 |
 | Beast 3/3 green | Toph 1 (Beast Within) | 1 | 1 | 0 |
 | Human 1/1 white | Toph 1 (Stroke of Midnight) | 1 | 1 | 0 |
 | Wrenn and Realmbreaker emblem | Toph 1 | 1 | 1 | 0 |
 
-To buy: 20 tokens. Each must be the exact token of its card (name, type, P/T, colors, abilities), as always.
+To buy: 14 tokens. Each must be the exact token of its card (name, type, P/T, colors, abilities), as always.
 
 ## 3. Full-art basics
 
