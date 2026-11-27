@@ -53,8 +53,9 @@ def test_shopify_offers_filter_language_condition_and_keep_stock_flag():
                                     ("Near Mint French", "300", True), ("Near Mint", "0", True))}
     offers = mod.shopify_offers(product, SHOP, TARGETS, WHEN)
     got = [(o["language"], o["condition"], o["finish"], o["price_clp"], o["available"]) for o in offers]
+    # owner, 2026-11-08: any condition better than Damaged (NM, LP, MP, HP); Damaged, French and price 0 are dropped
     assert got == [("en", "NM", "nonfoil", 570, True), ("en", "LP", "nonfoil", 513, False),
-                   ("en", "NM", "foil", 1880, True), ("es", "NM", "nonfoil", 600, True)]
+                   ("en", "MP", "nonfoil", 456, True), ("en", "NM", "foil", 1880, True), ("es", "NM", "nonfoil", 600, True)]
     assert offers[0]["url"] == "https://shop.example/products/molten-gatekeeper-mh3"
     assert mod.shopify_offers({"title": "Other [Set]", "variants": []}, SHOP, TARGETS, WHEN) == []
 
@@ -116,7 +117,7 @@ def test_magic4ever_offers_from_its_public_api():
                 {"language": "en", "finish": "nonfoil", "conditionGrade": "NM", "stock": 2, "priceClp": 0, "sku": "E"}]}
     got = mod.magic4ever_offers(card, SHOP, TARGETS, WHEN)
     assert [(o["language"], o["condition"], o["finish"], o["price_clp"], o["available"], o["quantity"]) for o in got] == [
-        ("en", "NM", "foil", 13000, True, 3), ("es", "LP", "nonfoil", 1900, False, 0)]
+        ("en", "NM", "foil", 13000, True, 3), ("es", "LP", "nonfoil", 1900, False, 0), ("en", "MP", "nonfoil", 900, True, 2)]
     assert got[0]["card"] == "Sol Ring" and got[0]["url"] == "https://m/a" and got[1]["url"] == "https://m/x"
     assert mod.magic4ever_offers({"name": "Sol Ringleader", "variants": card["variants"]}, SHOP, TARGETS, WHEN) == []
 
@@ -173,8 +174,20 @@ def test_ladder_cards_stay_targets_even_when_no_wishlist_names_them():
                       "+ Lotus Cobra | - Harrow | speed"])
     assert mod.ladder_names(text) == ["Toph, the First Metalbender", "Forest", "Sol Ring", "Talisman of Impulse",
                                       "Lotus Cobra"]
-    targets = mod.targets_from_repo()
-    assert "talisman of impulse" in targets and "sakura-tribe elder" in targets  # both came from round-2 wishlists only
+    # the Phase 1 ladders were removed on 2026-11-16, so a ladder file is written in a temporary repository
+    import tempfile
+    old = mod.ROOT
+    try:
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp) / "decks" / "proposals"
+            folder.mkdir(parents=True)
+            (folder / "toph.ladder.txt").write_text(text + "\n", encoding="utf-8")
+            mod.ROOT = Path(tmp)
+            targets = mod.targets_from_repo()
+    finally:
+        mod.ROOT = old
+    assert "talisman of impulse" in targets and "lotus cobra" in targets and "sol ring" in targets
+    assert "forest" not in targets  # a basic land is never a target
 
 
 def test_extra_targets_of_a_deck_without_a_candidate_list_are_read():

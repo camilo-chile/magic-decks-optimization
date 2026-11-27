@@ -207,13 +207,14 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
   launching unless the user already said to proceed.
 - Model policy (owner decisions 2026-10-25 and 2026-11-07, which replaced Sonnet xhigh with Opus medium and Haiku max
   with Haiku xhigh; supersedes every earlier model or effort choice): always the 5.5 models, only these three pairs,
-  enforced on every Agent call by `.claude/hooks/check-agent-model.sh` (test table `evals/agent_model_cases.tsv`) and set
-  for the main session in the user's `~/.claude/settings.json`:
+  enforced on every Agent call by `.claude/hooks/check-agent-model.sh` (test table `evals/agent_model_cases.tsv`). The
+  policy covers the agents Claude launches; the chat's own model and effort are the owner's choice per message (owner,
+  2026-11-27): Claude never changes them (settings included) and never mentions them:
 
   | Work | Model @ effort |
   |---|---|
   | The hardest, most delicate or "we cannot fail" work: deck-building judgment, adversarial review, final review of a purchase order, anything that costs money or cannot be undone | **Opus 5.5 @ high** (`model: opus`, `effort: high`) |
-  | Medium work: planning, orchestrating, general chat, code, dashboard (the main session) | **Opus 5.5 @ medium** (`model: opus`, `effort: medium`) |
+  | Medium work: planning, orchestrating, general chat, code, dashboard | **Opus 5.5 @ medium** (`model: opus`, `effort: medium`) |
   | Simple, repetitive or light work: stock and price reading, browser reading, Salt measurements, cleanup audits, commit messages | **Haiku 5.5 @ xhigh** (`model: haiku`, `effort: xhigh`) |
   | Special: driving the browser (store reading, Moxfield, Commander Salt), owner 2026-11-07, on trial | **Haiku 5.5 @ medium**, only through the browser agents `stock-verifier` (store stock, read-only) and `browser-runner` (any browser task: Moxfield, Commander Salt, store pages that need clicks; added 2026-11-08); the hook allows this pair for them only; if it fails twice on a task, Haiku 5.5 @ xhigh |
   | Deterministic work | No model: a script in `scripts/` |
@@ -229,7 +230,7 @@ that uses Spanish cards only. Plan and tools: `docs/proposals/phase2-collection-
   Always pass both `model` and `effort` when launching an agent. After two failures of one model on a task, go up one
   rung (Haiku xhigh, then Opus medium, then Opus high). **Announce rule:** before launching any task that differs from the one in progress (a new
   agent, a subtask of another kind, a phase change), write one line `→ Model @ effort: <X> (reason)` and only then launch
-  it; if the work stays in the main session, say so. The announcement is part of the "ask before launching" estimate.
+  it; work that stays in the chat needs no announcement. The announcement is part of the "ask before launching" estimate.
 - Deck-building model (owner decision, 2026-10-18; effort lowered to high on 2026-10-25 by the model policy above): the
   judgment work of Phase 8 and of every backtrack
   (choosing the strategy and the cards like an expert builder: mana curve, synergy, slot functions,

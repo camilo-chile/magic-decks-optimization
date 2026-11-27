@@ -17,7 +17,11 @@ No other loan is open: the purchase of 2026-11-09 replaced every earlier loan (`
 ## 2. Tokens (`decks/reports/tokens-20261121.md`)
 
 Rule (owner, 2026-11-16): each deck keeps its own token copies: at least 2 of a token when one game can make several of
-it, 1 when it can make only one. Owned copies are shared out before buying.
+it, 1 when it can make only one. Owned copies are shared out before buying. A surplus (owner, 2026-11-27) goes 2
+per deck that makes the token, more when the deck makes many in a game; whatever is left stays stored.
+Physical split on 2026-11-27: Clue Toph 4 (Tireless Tracker on every landfall) and Kilo 2; Incubator Kilo 3
+(Chrome Host Seedshark on every noncreature spell); Copy 1 each to Azula, Ezio, Toph; Treasure 1 each to Azula and
+Ezio (Toph's Tireless Provisioner takes Food until Treasures are bought).
 
 | Token | Deck: copies (why) | Needed | Owned | To buy |
 |---|---|---|---|---|
